@@ -1,0 +1,56 @@
+{
+  "location": {
+    "name": "Bryce Canyon",
+    "region": "Utah",
+    "country": "United States of America",
+    "lat": 37.6283,
+    "lon": -112.1669,
+    "tz_id": "America/Denver"
+  },
+  "current": {
+    "temp_f": 46.0,
+    "feelslike_f": 40.2,
+    "condition": "Overcast",
+    "wind_mph": 12.5,
+    "gust_mph": 16.8,
+    "humidity": 55
+  },
+  "forecast_days": [
+    {
+      "date": "2025-12-21",
+      "maxtemp_f": 49.6,
+      "mintemp_f": 32.4,
+      "avgtemp_f": 39.3,
+      "daily_chance_of_rain": 0,
+      "daily_chance_of_snow": 0,
+      "totalprecip_in": 0.0,
+      "condition": "Overcast ",
+      "uv": 0.5
+    },
+    {
+      "date": "2025-12-22",
+      "maxtemp_f": 51.8,
+      "mintemp_f": 31.8,
+      "avgtemp_f": 39.2,
+      "daily_chance_of_rain": 0,
+      "daily_chance_of_snow": 0,
+      "totalprecip_in": 0.0,
+      "condition": "Partly Cloudy ",
+      "uv": 0.5
+    },
+    {
+      "date": "2025-12-23",
+      "maxtemp_f": 47.7,
+      "mintemp_f": 32.4,
+      "avgtemp_f": 37.7,
+      "daily_chance_of_rain": 0,
+      "daily_chance_of_snow": 0,
+      "totalprecip_in": 0.0,
+      "condition": "Partly Cloudy ",
+      "uv": 0.5
+    }
+  ],
+  "sunrise": "07:41 AM",
+  "sunset": "05:14 PM",
+  "alerts": []
+}

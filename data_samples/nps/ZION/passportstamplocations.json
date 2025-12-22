@@ -1,0 +1,52 @@
+{
+  "total": "3",
+  "limit": "50",
+  "start": "0",
+  "data": [
+    {
+      "id": "835FC05C-8AC2-43AD-87C0-9704B9895144",
+      "label": "Human History Museum",
+      "parks": [
+        {
+          "states": "UT",
+          "parkCode": "zion",
+          "designation": "National Park",
+          "fullName": "Zion National Park",
+          "url": "https://www.nps.gov/zion/index.htm",
+          "name": "Zion"
+        }
+      ],
+      "type": "visitorcenters"
+    },
+    {
+      "id": "5A161ABB-8443-4F3C-8F3C-773A10B4ED2C",
+      "label": "Kolob Canyons Visitor Center",
+      "parks": [
+        {
+          "states": "UT",
+          "parkCode": "zion",
+          "designation": "National Park",
+          "fullName": "Zion National Park",
+          "url": "https://www.nps.gov/zion/index.htm",
+          "name": "Zion"
+        }
+      ],
+      "type": "visitorcenters"
+    },
+    {
+      "id": "774A69FB-32DF-4A52-A5C9-E9B29F754B51",
+      "label": "Zion Canyon Visitor Center",
+      "parks": [
+        {
+          "states": "UT",
+          "parkCode": "zion",
+          "designation": "National Park",
+          "fullName": "Zion National Park",
+          "url": "https://www.nps.gov/zion/index.htm",
+          "name": "Zion"
+        }
+      ],
+      "type": "visitorcenters"
+    }
+  ]
+}

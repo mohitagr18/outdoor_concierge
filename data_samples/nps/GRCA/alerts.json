@@ -1,0 +1,37 @@
+{
+  "total": "3",
+  "limit": "50",
+  "start": "0",
+  "data": [
+    {
+      "id": "54F29C58-0B68-4A43-B852-7E21D475E3A4",
+      "url": "",
+      "title": "Water Outage at Ponderosa Campground",
+      "parkCode": "band",
+      "description": "The Ponderosa Campground is experiencing a temporary water outage. Please bring all the water you\u2019ll need for your visit, including drinking water.",
+      "category": "Caution",
+      "relatedRoadEvents": [],
+      "lastIndexedDate": "2025-05-21 14:46:34.0"
+    },
+    {
+      "id": "BB8EE848-8D15-4B45-A923-862552A20435",
+      "url": "",
+      "title": "Uber, Lyft, and Other \"Taxi\" Services",
+      "parkCode": "band",
+      "description": "Bandelier is in a remote location, with cell service in the canyon limited to Verizon 4G only. Services like Uber and Lyft will bring you here, but there may be no way to contact a ride out. Please plan your pickup before being dropped off at Bandelier.",
+      "category": "Information",
+      "relatedRoadEvents": [],
+      "lastIndexedDate": "2023-12-02 16:04:24.0"
+    },
+    {
+      "id": "7E44AFE1-C366-4251-816B-A4C8CFCEB40C",
+      "url": "https://www.nps.gov/band/planyourvisit/directions.htm",
+      "title": "The Use of GPS is NOT Recommended",
+      "parkCode": "band",
+      "description": "Numerous visitors have been routed to remote trailheads and out-of-the-way roads trying to use GPS to reach the main park area or shuttle stop.",
+      "category": "Caution",
+      "relatedRoadEvents": [],
+      "lastIndexedDate": "2023-12-02 16:04:00.0"
+    }
+  ]
+}

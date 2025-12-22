@@ -1,0 +1,78 @@
+{
+  "location": {
+    "name": "Lake Mary",
+    "region": "California",
+    "country": "United States of America",
+    "lat": 37.6,
+    "lon": -119.0003,
+    "tz_id": "America/Los_Angeles"
+  },
+  "current": {
+    "temp_f": 54.0,
+    "feelslike_f": 48.1,
+    "condition": "Partly Cloudy",
+    "wind_mph": 24.4,
+    "gust_mph": 28.1,
+    "humidity": 16
+  },
+  "forecast_days": [
+    {
+      "date": "2025-12-21",
+      "maxtemp_f": 39.9,
+      "mintemp_f": 31.6,
+      "avgtemp_f": 36.1,
+      "daily_chance_of_rain": 86,
+      "daily_chance_of_snow": 0,
+      "totalprecip_in": 0.32,
+      "condition": "Moderate rain",
+      "uv": 0.5
+    },
+    {
+      "date": "2025-12-22",
+      "maxtemp_f": 42.6,
+      "mintemp_f": 29.1,
+      "avgtemp_f": 34.3,
+      "daily_chance_of_rain": 0,
+      "daily_chance_of_snow": 0,
+      "totalprecip_in": 0.0,
+      "condition": "Partly Cloudy ",
+      "uv": 0.5
+    },
+    {
+      "date": "2025-12-23",
+      "maxtemp_f": 42.8,
+      "mintemp_f": 27.1,
+      "avgtemp_f": 32.4,
+      "daily_chance_of_rain": 0,
+      "daily_chance_of_snow": 0,
+      "totalprecip_in": 0.0,
+      "condition": "Partly Cloudy ",
+      "uv": 0.4
+    }
+  ],
+  "sunrise": "07:08 AM",
+  "sunset": "04:41 PM",
+  "alerts": [
+    {
+      "headline": "High Wind Warning issued December 20 at 1:39PM PST until December 22 at 4:00AM PST by NWS Reno NV",
+      "severity": "Severe",
+      "event": "High Wind Warning",
+      "effective": "2025-12-20T13:39:00-08:00",
+      "expires": "2025-12-22T04:00:00-08:00"
+    },
+    {
+      "headline": "Winter Storm Watch issued December 21 at 2:39AM PST until December 26 at 10:00AM PST by NWS Reno NV",
+      "severity": "Severe",
+      "event": "Winter Storm Watch",
+      "effective": "2025-12-21T02:39:00-08:00",
+      "expires": "2025-12-22T02:45:00-08:00"
+    },
+    {
+      "headline": "Winter Weather Advisory issued December 21 at 2:39AM PST until December 22 at 1:00PM PST by NWS Reno NV",
+      "severity": "Moderate",
+      "event": "Winter Weather Advisory",
+      "effective": "2025-12-21T02:39:00-08:00",
+      "expires": "2025-12-22T02:45:00-08:00"
+    }
+  ]
+}

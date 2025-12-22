@@ -1,0 +1,424 @@
+{
+  "total": "13",
+  "limit": "50",
+  "start": "0",
+  "data": [
+    {
+      "id": "81B464EA-1DD8-B71B-0B367470E91A4A7F",
+      "url": "https://www.nps.gov/subjects/air/webcams.htm?site=yose",
+      "title": "Turtleback Dome & Air Quality",
+      "description": "This air quality camera shows the view to the west from near Yosemite Valley and also displays current air quality and weather data.",
+      "images": [],
+      "relatedParks": [
+        {
+          "states": "CA",
+          "parkCode": "yose",
+          "designation": "National Park",
+          "fullName": "Yosemite National Park",
+          "url": "https://www.nps.gov/yose/index.htm",
+          "name": "Yosemite"
+        }
+      ],
+      "status": "Active",
+      "statusMessage": "",
+      "isStreaming": false,
+      "tags": [
+        "Yosemite",
+        "Yosemite National Park",
+        "Merced River Canyon",
+        "foothills"
+      ],
+      "latitude": 37.71335804198748,
+      "longitude": -119.70603346824646,
+      "geometryPoiId": "",
+      "credit": ""
+    },
+    {
+      "id": "81B46503-1DD8-B71B-0BABF33689031F0B",
+      "url": "https://www.nps.gov/media/webcam/view.htm?id=81B46503-1DD8-B71B-0BABF33689031F0B",
+      "title": "Badger Pass Ski Area",
+      "description": "Yosemite Hospitality operates a webcam at the Badger Pass Ski Area so you can check current conditions and activity.",
+      "images": [],
+      "relatedParks": [
+        {
+          "states": "CA",
+          "parkCode": "yose",
+          "designation": "National Park",
+          "fullName": "Yosemite National Park",
+          "url": "https://www.nps.gov/yose/index.htm",
+          "name": "Yosemite"
+        }
+      ],
+      "status": "Active",
+      "statusMessage": "",
+      "isStreaming": false,
+      "tags": [
+        "Yosemite",
+        "Yosemite National Park",
+        "ski area",
+        "Skiing",
+        "Badger Pass",
+        "Badger Pass Ski Area"
+      ],
+      "latitude": 37.662314360502556,
+      "longitude": -119.66341853141785,
+      "geometryPoiId": "",
+      "credit": ""
+    },
+    {
+      "id": "81B46521-1DD8-B71B-0BB6424139EC91BE",
+      "url": "https://www.nps.gov/media/webcam/view.htm?id=81B46521-1DD8-B71B-0BB6424139EC91BE",
+      "title": "Merced River at Happy Isles",
+      "description": "From here, you can see the Merced River as it flows past Yosemite Valley's Happy Isles Gaging Station, which the US Geological Survey has maintained for over 100 years.",
+      "images": [],
+      "relatedParks": [
+        {
+          "states": "CA",
+          "parkCode": "yose",
+          "designation": "National Park",
+          "fullName": "Yosemite National Park",
+          "url": "https://www.nps.gov/yose/index.htm",
+          "name": "Yosemite"
+        }
+      ],
+      "status": "Active",
+      "statusMessage": "",
+      "isStreaming": false,
+      "tags": [
+        "Yosemite",
+        "Yosemite National Park",
+        "gaging station",
+        "gage",
+        "Merced River",
+        "Happy Isles",
+        "USGS",
+        "Yosemite Valley"
+      ],
+      "latitude": 37.73091634549439,
+      "longitude": -119.558807015419,
+      "geometryPoiId": "",
+      "credit": ""
+    },
+    {
+      "id": "B28D5845-C504-BBA5-17748BFF1C6CC716",
+      "url": "https://www.nps.gov/media/webcam/view.htm?id=B28D5845-C504-BBA5-17748BFF1C6CC716",
+      "title": "El Capitan",
+      "description": "Located on a dome near the Wawona Tunnel, this webcam provides a nice view of Yosemite Valley. This webcam image is provided courtesy of Yosemite Conservancy.",
+      "images": [],
+      "relatedParks": [
+        {
+          "states": "CA",
+          "parkCode": "yose",
+          "designation": "National Park",
+          "fullName": "Yosemite National Park",
+          "url": "https://www.nps.gov/yose/index.htm",
+          "name": "Yosemite"
+        }
+      ],
+      "status": "Active",
+      "statusMessage": "",
+      "isStreaming": true,
+      "tags": [
+        "Yosemite National Park",
+        "Yosemite",
+        "Yosemite Valley",
+        "El Capitan",
+        "Half Dome",
+        "Yosemite Conservancy"
+      ],
+      "latitude": null,
+      "longitude": null,
+      "geometryPoiId": "",
+      "credit": ""
+    },
+    {
+      "id": "50E781A7-99A4-27F7-3773DF1DBB57C0FC",
+      "url": "https://www.nps.gov/media/webcam/view.htm?id=50E781A7-99A4-27F7-3773DF1DBB57C0FC",
+      "title": "Yosemite High Sierra",
+      "description": "This webcam, located at about 8,000 feet in elevation, shows Half Dome and the surrounding high country. This webcam image is provided courtesy of Yosemite Conservancy.",
+      "images": [],
+      "relatedParks": [
+        {
+          "states": "CA",
+          "parkCode": "yose",
+          "designation": "National Park",
+          "fullName": "Yosemite National Park",
+          "url": "https://www.nps.gov/yose/index.htm",
+          "name": "Yosemite"
+        }
+      ],
+      "status": "Inactive",
+      "statusMessage": "",
+      "isStreaming": false,
+      "tags": [],
+      "latitude": 37.727,
+      "longitude": -119.5817,
+      "geometryPoiId": "",
+      "credit": ""
+    },
+    {
+      "id": "510DED3A-F9E0-3BCC-3A896F980BE05DFE",
+      "url": "https://www.nps.gov/media/webcam/view.htm?id=510DED3A-F9E0-3BCC-3A896F980BE05DFE",
+      "title": "Half Dome",
+      "description": "This view of Yosemite Valley from just east of Yosemite Village gives a sense of conditions of the floor of Yosemite Valley. This webcam image is provided courtesy of Yosemite Conservancy.",
+      "images": [],
+      "relatedParks": [
+        {
+          "states": "CA",
+          "parkCode": "yose",
+          "designation": "National Park",
+          "fullName": "Yosemite National Park",
+          "url": "https://www.nps.gov/yose/index.htm",
+          "name": "Yosemite"
+        }
+      ],
+      "status": "Active",
+      "statusMessage": "",
+      "isStreaming": false,
+      "tags": [],
+      "latitude": 37.7467,
+      "longitude": -119.5815,
+      "geometryPoiId": "",
+      "credit": ""
+    },
+    {
+      "id": "521123D5-0EA2-C472-403A8D58B11A614F",
+      "url": "https://www.nps.gov/media/webcam/view.htm?id=521123D5-0EA2-C472-403A8D58B11A614F",
+      "title": "El Capitan",
+      "description": "Located on a dome near the Wawona Tunnel, this webcam provides a nice view of Yosemite Valley. This webcam image is provided courtesy of Yosemite Conservancy.",
+      "images": [],
+      "relatedParks": [
+        {
+          "states": "CA",
+          "parkCode": "yose",
+          "designation": "National Park",
+          "fullName": "Yosemite National Park",
+          "url": "https://www.nps.gov/yose/index.htm",
+          "name": "Yosemite"
+        }
+      ],
+      "status": "Active",
+      "statusMessage": "",
+      "isStreaming": false,
+      "tags": [],
+      "latitude": 37.7126,
+      "longitude": -119.7046,
+      "geometryPoiId": "",
+      "credit": ""
+    },
+    {
+      "id": "1148077C-F06F-CD3A-969692F6BC0481AC",
+      "url": "https://www.nps.gov/media/webcam/view.htm?id=1148077C-F06F-CD3A-969692F6BC0481AC",
+      "title": "Yosemite High Sierra",
+      "description": "This webcam, located at about 8,000 feet in elevation, shows Half Dome and the surrounding high country. This webcam image is provided courtesy of Yosemite Conservancy.",
+      "images": [],
+      "relatedParks": [
+        {
+          "states": "CA",
+          "parkCode": "yose",
+          "designation": "National Park",
+          "fullName": "Yosemite National Park",
+          "url": "https://www.nps.gov/yose/index.htm",
+          "name": "Yosemite"
+        }
+      ],
+      "status": "Active",
+      "statusMessage": "",
+      "isStreaming": true,
+      "tags": [
+        "Yosemite National Park",
+        "Yosemite",
+        "Yosemite Valley",
+        "Half Dome",
+        "wilderness",
+        "Yosemite Wilderness",
+        "Yosemite Conservancy",
+        "Streaming"
+      ],
+      "latitude": 37.722745334102115,
+      "longitude": -119.584314825197,
+      "geometryPoiId": "",
+      "credit": ""
+    },
+    {
+      "id": "81B46145-1DD8-B71B-0B6E50736E024FE4",
+      "url": "https://www.nps.gov/media/webcam/view.htm?id=81B46145-1DD8-B71B-0B6E50736E024FE4",
+      "title": "MR a HIB",
+      "description": "",
+      "images": [],
+      "relatedParks": [
+        {
+          "states": "CA",
+          "parkCode": "yose",
+          "designation": "National Park",
+          "fullName": "Yosemite National Park",
+          "url": "https://www.nps.gov/yose/index.htm",
+          "name": "Yosemite"
+        }
+      ],
+      "status": "Inactive",
+      "statusMessage": "",
+      "isStreaming": false,
+      "tags": [],
+      "latitude": null,
+      "longitude": null,
+      "geometryPoiId": "",
+      "credit": ""
+    },
+    {
+      "id": "3E81EC42-BB62-0A59-E30ABB8F1646322E",
+      "url": "https://www.nps.gov/media/webcam/view.htm?id=3E81EC42-BB62-0A59-E30ABB8F1646322E",
+      "title": "Yosemite Falls",
+      "description": "Yosemite Falls, a combination of Upper Yosemite Fall, Middle Cascades, and Lower Yosemite Fall, has a total height of 2,425 feet. In May, you may see Pacific dogwood in bloom just below the waterfall.",
+      "images": [
+        {
+          "url": "https://www.nps.govhttps://www.nps.gov/common/uploads/cropped_image/CD3726C8-CBC1-8184-E423F385816B9051.jpg",
+          "credit": "",
+          "altText": "View of Upper Yosemite Fall",
+          "title": "",
+          "description": "",
+          "caption": "",
+          "crops": []
+        }
+      ],
+      "relatedParks": [
+        {
+          "states": "CA",
+          "parkCode": "yose",
+          "designation": "National Park",
+          "fullName": "Yosemite National Park",
+          "url": "https://www.nps.gov/yose/index.htm",
+          "name": "Yosemite"
+        }
+      ],
+      "status": "Active",
+      "statusMessage": "",
+      "isStreaming": true,
+      "tags": [
+        "Yosemite",
+        "Yosemite Falls",
+        "Yosemite Valley",
+        "Yosemite Conservancy",
+        "Yosemite National Park",
+        "dogwood"
+      ],
+      "latitude": 37.74312153841877,
+      "longitude": -119.59786105162493,
+      "geometryPoiId": "",
+      "credit": ""
+    },
+    {
+      "id": "EAA24FCD-BC0D-C360-19BF30B462D0ACE8",
+      "url": "https://www.nps.gov/media/webcam/view.htm?id=EAA24FCD-BC0D-C360-19BF30B462D0ACE8",
+      "title": "Half Dome",
+      "description": "This view of Yosemite Valley from just east of Yosemite Village gives a sense of the conditions of the floor of Yosemite Valley. This webcam image is provided courtesy of Yosemite Conservancy.",
+      "images": [
+        {
+          "url": "https://www.nps.govhttps://www.nps.gov/common/uploads/cropped_image/CD5538E5-C86F-1BF9-575C7C85E1307E45.jpg",
+          "credit": "",
+          "altText": "Half Dome rises behind a meadow and a cliff on the left",
+          "title": "",
+          "description": "",
+          "caption": "",
+          "crops": []
+        }
+      ],
+      "relatedParks": [
+        {
+          "states": "CA",
+          "parkCode": "yose",
+          "designation": "National Park",
+          "fullName": "Yosemite National Park",
+          "url": "https://www.nps.gov/yose/index.htm",
+          "name": "Yosemite"
+        }
+      ],
+      "status": "Active",
+      "statusMessage": "",
+      "isStreaming": true,
+      "tags": [
+        "Half Dome",
+        "Yosemite",
+        "Yosemite Conservancy",
+        "Yosemite National Park",
+        "meadow"
+      ],
+      "latitude": 37.74602978548998,
+      "longitude": -119.58165836386513,
+      "geometryPoiId": "",
+      "credit": ""
+    },
+    {
+      "id": "41F428E8-0F6C-B7E7-115A629BA1AE9F51",
+      "url": "https://www.nps.gov/media/webcam/view.htm?id=41F428E8-0F6C-B7E7-115A629BA1AE9F51",
+      "title": "Half Dome",
+      "description": "This view of Yosemite Valley from just east of Yosemite Village gives a sense of conditions of the floor of Yosemite Valley. This webcam image is provided courtesy of Yosemite Conservancy",
+      "images": [
+        {
+          "url": "https://www.nps.govhttps://www.nps.gov/common/uploads/cropped_image/CD5538E5-C86F-1BF9-575C7C85E1307E45.jpg",
+          "credit": "",
+          "altText": "Half Dome rises behind a meadow and a cliff on the left",
+          "title": "",
+          "description": "",
+          "caption": "",
+          "crops": []
+        }
+      ],
+      "relatedParks": [
+        {
+          "states": "CA",
+          "parkCode": "yose",
+          "designation": "National Park",
+          "fullName": "Yosemite National Park",
+          "url": "https://www.nps.gov/yose/index.htm",
+          "name": "Yosemite"
+        }
+      ],
+      "status": "Active",
+      "statusMessage": "",
+      "isStreaming": true,
+      "tags": [
+        "Half Dome",
+        "Yosemite",
+        "Yosemite Conservancy",
+        "Yosemite National Park",
+        "Yosemite Valley",
+        "meadow"
+      ],
+      "latitude": 37.746136678928536,
+      "longitude": -119.58155107573475,
+      "geometryPoiId": "",
+      "credit": ""
+    },
+    {
+      "id": "81B46511-1DD8-B71B-0BF4530A57767712",
+      "url": "https://www.nps.gov/media/webcam/view.htm?id=81B46511-1DD8-B71B-0BF4530A57767712",
+      "title": "Tuolumne Meadows (summer only)",
+      "description": "Yosemite Hospitality operates a webcam at the Tuolumne Meadows Store, giving you a glimpse into the high country during the summer. The prominent dome in the distance is Fairview Dome.",
+      "images": [],
+      "relatedParks": [
+        {
+          "states": "CA",
+          "parkCode": "yose",
+          "designation": "National Park",
+          "fullName": "Yosemite National Park",
+          "url": "https://www.nps.gov/yose/index.htm",
+          "name": "Yosemite"
+        }
+      ],
+      "status": "Inactive",
+      "statusMessage": "In service approximately June through September",
+      "isStreaming": false,
+      "tags": [
+        "Yosemite",
+        "Yosemite National Park",
+        "Tuolumne Meadows",
+        "meadow"
+      ],
+      "latitude": 37.87432304835861,
+      "longitude": -119.35687652366289,
+      "geometryPoiId": "a90d0738-365d-4bea-b35e-4a9f35b0864d",
+      "credit": ""
+    }
+  ]
+}

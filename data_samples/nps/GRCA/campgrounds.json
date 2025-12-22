@@ -1,0 +1,353 @@
+{
+  "total": "2",
+  "limit": "50",
+  "start": "0",
+  "data": [
+    {
+      "id": "B4212C55-8FAB-495E-9A12-DE6D57EB91D4",
+      "url": "https://www.nps.gov/band/planyourvisit/juniper-family-campground.htm",
+      "name": "Juniper Family Campground",
+      "parkCode": "band",
+      "description": "Three (3) loops, 52 site campground near the entrance to the monument. Two (2) sites for small groups up to 20 people. Abert's Squirrel Loop is first come, first serve only. Black Bear and Coyote Loops are available through reservation only. They can be reserved online at Recreation.gov.",
+      "latitude": "35.795338186866466",
+      "longitude": "-106.27904543051932",
+      "latLong": "{lat:35.795338186866466, lng:-106.27904543051932}",
+      "audioDescription": "Juniper Family Campground is located on the mesa above Frijoles Canyon, where the main archaeological sites are found. There are 3 loops in the campground named for local wildlife: Abert's Squirrel Loop, Black Bear Loop, and Coyote Loop. The campground is located in the pinyon-juniper woodland which means there is minimal shade as both of these types of trees are short. An occasional Ponderosa pine towers above the other vegetation providing some shade especially in the Coyote Loop of the campground. The campground is paved and each campground space includes a picnic table and in-ground grill. Each loop also has a restroom facility with a paved walkway leading to it. There are no hookups or showers in the campground but there is a dump station located just adjacent to it.",
+      "isPassportStampLocation": "0",
+      "passportStampLocationDescription": "",
+      "passportStampImages": [],
+      "geometryPoiId": "2096AF4A-2306-4674-983D-888627D8F756",
+      "reservationInfo": "Only group sites are reservable. all other sites on first come first served basis",
+      "reservationUrl": "https://www.recreation.gov/camping/campgrounds/233395",
+      "regulationsurl": "http://www.nps.gov/band/planyourvisit/juniper-family-campground.htm",
+      "regulationsOverview": "-Generators may be used only from 8:00 AM to 8:00 PM. -Clean up your campsite before leaving. Food and trash left behind attracts wildlife. -Picnickers may use campsites for day use but must leave by 4:00 PM. -Pets must be kept on a leash at all times and are not allowed on any park trails. -Quiet hours are from 10:00 PM to 6:00 AM. -Firewood collecting is not permitted within the park. -There is a limit of 2 tents, 2 vehicles, and 10 people per site. -Check-out time is 11:30 AM.",
+      "amenities": {
+        "trashRecyclingCollection": "Yes - year round",
+        "toilets": [
+          "Flush Toilets - year round"
+        ],
+        "internetConnectivity": "No",
+        "showers": [
+          "None"
+        ],
+        "cellPhoneReception": "Yes - year round",
+        "laundry": "No",
+        "amphitheater": "Yes - seasonal",
+        "dumpStation": "Yes - seasonal",
+        "campStore": "No",
+        "staffOrVolunteerHostOnsite": "Yes - seasonal",
+        "potableWater": [
+          "Yes - year round"
+        ],
+        "iceAvailableForSale": "No",
+        "firewoodForSale": "Yes - year round",
+        "foodStorageLockers": "Yes - year round"
+      },
+      "contacts": {
+        "phoneNumbers": [
+          {
+            "phoneNumber": "(505) 672-3861",
+            "description": "",
+            "extension": "1800",
+            "type": "Voice"
+          }
+        ],
+        "emailAddresses": [
+          {
+            "description": "",
+            "emailAddress": "BAND_Visitor_Center@nps.gov"
+          }
+        ]
+      },
+      "fees": [
+        {
+          "cost": "20.00",
+          "description": "Per night, per campsite, up to two (2) vehicles",
+          "title": "Per site, two (2) cars"
+        }
+      ],
+      "directionsOverview": "From White Rock, New Mexico head west on NM 4 for 10 miles. Turn into park entrance and proceed past entrance station. Campground is accessed by the first road on the right.",
+      "directionsUrl": "https://www.nps.gov/band/planyourvisit/directions.htm",
+      "operatingHours": [
+        {
+          "exceptions": [],
+          "description": "Self serve campground open 24 hours for individuals and small groups.  No reservations.  First come, first serve.",
+          "standardHours": {
+            "wednesday": "All Day",
+            "monday": "All Day",
+            "thursday": "All Day",
+            "sunday": "All Day",
+            "tuesday": "All Day",
+            "friday": "All Day",
+            "saturday": "All Day"
+          },
+          "name": "Juniper Family Campground"
+        }
+      ],
+      "addresses": [
+        {
+          "postalCode": "87544",
+          "city": "Los Alamos",
+          "stateCode": "NM",
+          "countryCode": "US",
+          "provinceTerritoryCode": "",
+          "line1": "Juniper Campground",
+          "type": "Physical",
+          "line3": "",
+          "line2": "15 Entrance RD"
+        },
+        {
+          "postalCode": "87544",
+          "city": "Los Alamos",
+          "stateCode": "NM",
+          "countryCode": "US",
+          "provinceTerritoryCode": "",
+          "line1": "Juniper Campground",
+          "type": "Mailing",
+          "line3": "",
+          "line2": "15 Entrance RD"
+        }
+      ],
+      "images": [
+        {
+          "credit": "NPS Photo",
+          "crops": [],
+          "title": "Juniper Campground site",
+          "altText": "a site at Juniper Campground",
+          "caption": "Some sites are perfect for small trailers.",
+          "url": "https://www.nps.gov/common/uploads/structured_data/64F76F90-0919-B121-E17AB43A4CB72877.jpg"
+        },
+        {
+          "credit": "NPS Photo",
+          "crops": [],
+          "title": "Juniper Campground site with bigger trees",
+          "altText": "Juniper Campground site with bigger trees",
+          "caption": "Juniper Campground site with bigger trees",
+          "url": "https://www.nps.gov/common/uploads/structured_data/652914A2-05F8-C53B-07DEBDFCF99F3C60.jpg"
+        },
+        {
+          "credit": "NPS Photo/Sally King",
+          "crops": [],
+          "title": "Juniper Campground pull through site for larger vehicles",
+          "altText": "Juniper Campground pull through",
+          "caption": "A pull through site in Juniper Family Campground.",
+          "url": "https://www.nps.gov/common/uploads/structured_data/3C831699-1DD8-B71B-0B0FBC97A8034C5B.jpg"
+        },
+        {
+          "credit": "NPS Photo",
+          "crops": [],
+          "title": "Juniper Campground restrooms",
+          "altText": "restrooms at Juniper Campground",
+          "caption": "flush toilets at Juniper Campground",
+          "url": "https://www.nps.gov/common/uploads/structured_data/650BF5C4-FD2E-CE15-787ED83B35047DC5.jpg"
+        },
+        {
+          "credit": "NPS Photo",
+          "crops": [],
+          "title": "Dump station at Juniper Campground",
+          "altText": "dump station at Juniper Campground",
+          "caption": "dump station at Juniper Campground, closed when freezing temps at night",
+          "url": "https://www.nps.gov/common/uploads/structured_data/651C8DEE-B8E4-78DD-1E23E2EFB29666C6.jpg"
+        },
+        {
+          "credit": "NPS Photo",
+          "crops": [],
+          "title": "Parking at Ponderosa Campground",
+          "altText": "Parking at Ponderosa Campground",
+          "caption": "Parking at Ponderosa Campground",
+          "url": "https://www.nps.gov/common/uploads/structured_data/653728E6-0064-1CE2-909B3FA95856957E.jpg"
+        }
+      ],
+      "weatherOverview": "Variable with season",
+      "numberOfSitesReservable": "2",
+      "numberOfSitesFirstComeFirstServe": "50",
+      "campsites": {
+        "totalSites": "52",
+        "group": "2",
+        "horse": "0",
+        "tentOnly": "5",
+        "electricalHookups": "0",
+        "rvOnly": "0",
+        "walkBoatTo": "5",
+        "other": "0"
+      },
+      "accessibility": {
+        "wheelchairAccess": "2 campsites, restrooms and amphitheater are fully ADA accessible. Other areas in the campground are paved road, and paved trail accessible.",
+        "internetInfo": "",
+        "cellPhoneInfo": "Reception dependent on carrier.",
+        "fireStovePolicy": "Fires in provided fire pit only, gas stoves only.",
+        "rvAllowed": "1",
+        "rvInfo": "No hook ups. Generators may be used only from 8:00 AM to 8:00 PM.",
+        "rvMaxLength": "35",
+        "additionalInfo": "",
+        "trailerMaxLength": "24",
+        "adaInfo": "There are 2 designated accessible campsites. Others may meet needs as well. Restrooms are fully accessible as well. Stairs and slopes are found in some locations but overall the campground is relatively flat. Pay phones are not available and cell service is very spotty. There are paved trails to the restroom in each loop.",
+        "trailerAllowed": "1",
+        "accessRoads": [
+          "Paved Roads - All vehicles OK"
+        ],
+        "classifications": [
+          "Developed Campground"
+        ]
+      },
+      "multimedia": [],
+      "relevanceScore": 1.0,
+      "lastIndexedDate": ""
+    },
+    {
+      "id": "344FA89E-5F8A-49FC-A1E2-7F584B355393",
+      "url": "https://www.nps.gov/band/planyourvisit/ponderosa-group-campground.htm",
+      "name": "Ponderosa Group Campground",
+      "parkCode": "band",
+      "description": "Ponderosa group campground is open year round, with water available May - October only. Site is available by reservation only through Recreation.gov.",
+      "latitude": "35.8328556593",
+      "longitude": "-106.356758549",
+      "latLong": "{lat:35.8328556593, lng:-106.356758549}",
+      "audioDescription": "",
+      "isPassportStampLocation": "0",
+      "passportStampLocationDescription": "",
+      "passportStampImages": [],
+      "geometryPoiId": "2AD70953-10B2-4609-A0C3-8FFDD06F4F71",
+      "reservationInfo": "The 2 sites are available by reservation only",
+      "reservationUrl": "https://www.recreation.gov/camping/campgrounds/233394",
+      "regulationsurl": "http://www.nps.gov/band/planyourvisit/ponderosa-group-campground.htm",
+      "regulationsOverview": "There are picnic tables, fire grates, and small cooking shelters. Pit toilets are provided but there are no restrooms with running water. Ponderosa Group Campground is for tent camping. Only one vehicle in a group may be an RV. There is a minimum of 10 people per site and a maximum of 50 people. Check-in time is 4:00 PM and check-out time is 11:30 AM the following day. Day-use is from 11:30 AM - 4:00 PM.",
+      "amenities": {
+        "trashRecyclingCollection": "Yes - year round",
+        "toilets": [
+          "Vault Toilets - year round"
+        ],
+        "internetConnectivity": "No",
+        "showers": [
+          "None"
+        ],
+        "cellPhoneReception": "Yes - year round",
+        "laundry": "No",
+        "amphitheater": "No",
+        "dumpStation": "No",
+        "campStore": "No",
+        "staffOrVolunteerHostOnsite": "Yes - seasonal",
+        "potableWater": [
+          "Yes - seasonal"
+        ],
+        "iceAvailableForSale": "No",
+        "firewoodForSale": "No",
+        "foodStorageLockers": "Yes - year round"
+      },
+      "contacts": {
+        "phoneNumbers": [
+          {
+            "phoneNumber": "(505) 672-3861",
+            "description": "",
+            "extension": "1800",
+            "type": "Voice"
+          }
+        ],
+        "emailAddresses": [
+          {
+            "description": "",
+            "emailAddress": "band_visitor_center@nps.gov"
+          }
+        ]
+      },
+      "fees": [
+        {
+          "cost": "50.00",
+          "description": "Fee per night, per campsite, per group",
+          "title": "Group camping fee"
+        }
+      ],
+      "directionsOverview": "",
+      "directionsUrl": "",
+      "operatingHours": [
+        {
+          "exceptions": [],
+          "description": "By reservation only",
+          "standardHours": {
+            "wednesday": "All Day",
+            "monday": "All Day",
+            "thursday": "All Day",
+            "sunday": "All Day",
+            "tuesday": "All Day",
+            "friday": "All Day",
+            "saturday": "All Day"
+          },
+          "name": "Ponderosa"
+        }
+      ],
+      "addresses": [
+        {
+          "postalCode": "87544",
+          "city": "Los Alamos",
+          "stateCode": "NM",
+          "countryCode": "US",
+          "provinceTerritoryCode": "",
+          "line1": "Ponderosa Group Campsite",
+          "type": "Physical",
+          "line3": "",
+          "line2": "15 entrance RD"
+        },
+        {
+          "postalCode": "87544",
+          "city": "Los Alamos",
+          "stateCode": "NM",
+          "countryCode": "US",
+          "provinceTerritoryCode": "",
+          "line1": "Ponderosa Group Campsite",
+          "type": "Mailing",
+          "line3": "",
+          "line2": "15 entrance RD"
+        }
+      ],
+      "images": [
+        {
+          "credit": "NPS",
+          "crops": [],
+          "title": "Ponderosa Group Campground",
+          "altText": "an image of a wooden structure and a covered picnic area with large green trees",
+          "caption": "Ponderosa Group Campground",
+          "url": "https://www.nps.gov/common/uploads/structured_data/630FB5E9-DC07-4BFE-63683BB4F3DA91A2.jpg"
+        },
+        {
+          "credit": "NPS",
+          "crops": [],
+          "title": "Ponderosa Group Campground Picnic Shelter",
+          "altText": "an image of an open sided but covered picnic shelter with big green trees all around",
+          "caption": "Ponderosa Group Campground Picnic Shelter",
+          "url": "https://www.nps.gov/common/uploads/structured_data/631B1DDC-92EA-2DFB-CBE43AA6D7350796.jpg"
+        }
+      ],
+      "weatherOverview": "This campground is located at 7600 feet and is usually free of snow from mid-April through mid October. Water is not available during any months with freezing temperatures. Unlike Juniper Family Campground, reservations are required for Ponderosa Group Campground. Demand is high for this campground, which only has two sites.",
+      "numberOfSitesReservable": "2",
+      "numberOfSitesFirstComeFirstServe": "0",
+      "campsites": {
+        "totalSites": "2",
+        "group": "2",
+        "horse": "0",
+        "tentOnly": "2",
+        "electricalHookups": "0",
+        "rvOnly": "2",
+        "walkBoatTo": "0",
+        "other": "0"
+      },
+      "accessibility": {
+        "wheelchairAccess": "",
+        "internetInfo": "",
+        "cellPhoneInfo": "Coverage dependent on carrier.",
+        "fireStovePolicy": "Fires in fir pits only, gas stoves only.",
+        "rvAllowed": "0",
+        "rvInfo": "",
+        "rvMaxLength": "0",
+        "additionalInfo": "",
+        "trailerMaxLength": "0",
+        "adaInfo": "",
+        "trailerAllowed": "0",
+        "accessRoads": [],
+        "classifications": []
+      },
+      "multimedia": [],
+      "relevanceScore": 1.0,
+      "lastIndexedDate": ""
+    }
+  ]
+}

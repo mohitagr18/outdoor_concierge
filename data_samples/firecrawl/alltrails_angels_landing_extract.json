@@ -1,0 +1,143 @@
+{
+  "success": true,
+  "id": null,
+  "status": "completed",
+  "data": {
+    "trail_metadata": {
+      "name": "Angels Landing Trail",
+      "park_name": "Zion National Park",
+      "rating": 4.9,
+      "total_reviews": 37438,
+      "difficulty": "Strenuous",
+      "length_miles": 4.7,
+      "elevation_gain_feet": 1738,
+      "route_type": "Out & back",
+      "description": "The Angels Landing Trail is a technical route in Zion National Park with steep drop-offs, scrambles, and very narrow sections. Though it is protected by chains in many sections, the final push to the landing is considered Class 3 terrain due to the exposure, short steep scrambles, and steep drop-offs on either side. The incredible views of Zion Canyon make this hike the most popular in Zion.",
+      "features": {
+        "fee_required": true,
+        "dogs_allowed": false,
+        "partially_paved": true,
+        "scramble": true,
+        "bathrooms_available": true
+      },
+      "top_sights": [
+        {
+          "name": "Angels Landing",
+          "type": "Peak"
+        },
+        {
+          "name": "Zion Canyon",
+          "type": "Valley"
+        },
+        {
+          "name": "Scout Lookout",
+          "type": "Viewpoint"
+        }
+      ],
+      "trailgoers_summary": "Highlights include breathtaking views, well-maintained paths, and a rewarding summit experience. Challenges are steep inclines, narrow sections, and cold winds. Reviewers recommend early starts, gloves for cold, and good footwear."
+    },
+    "recent_reviews": [
+      {
+        "author": "Melissa Leyba",
+        "date": "2025-12-14",
+        "rating": 5,
+        "review_text": "We went early Saturday morning on December 14. When we entered Zion at around 7:45am, we didn\u2019t have to pay. When we reached the parking lot, the rangers helped us find where to park (there\u2019s a small parking lot and a dirt parking lot available). It was really cold and windy at points throughout the hike but once we got to the top, it was sunny and a light breeze. I highly recommend wearing gloves as well as something to head and face warm! The wind combined with cold weather can be brutal. Walking down, it started to warm up and the crowds of people picked up considerably. It was nice getting there early, as there weren\u2019t people but i could see how going later could mean larger crowds.",
+        "condition_tags": [
+          "Not crowded",
+          "Bathrooms available",
+          "Great conditions",
+          "Great views"
+        ],
+        "image_urls": []
+      },
+      {
+        "author": "Saman Motamed",
+        "date": "2025-12-13",
+        "rating": 5,
+        "review_text": "This hike is so much more enjoyable with less crowds since we did this in the off season and there is now a permit system (this was not the case last time I did this)! I\u2019m not particularly a fan of heights yet I thoroughly enjoyed the views and the challenge! At no point did the trail feel unsafe to me if you\u2019re taking your time! Again emphasis on the trail being less busy and how much more enjoyable that made it!",
+        "condition_tags": [
+          "Not crowded",
+          "Great views"
+        ],
+        "image_urls": []
+      },
+      {
+        "author": "Ellen Ratcliff",
+        "date": "2025-12-10",
+        "rating": 5,
+        "review_text": "We won the lottery on weather and crowds. We saw maybe 10 people on the trail proper and more as we got closer to the bottom. I\u2019m someone who experiences physiologic shut down from heights and I was able to make it by keeping my eyes focused only on the ground right in front of me. Somewhere along the way during the chain section I started thinking, how the heck will I come down from here (I\u2019m 50 and have had a knee replacement and need another one eventually)? If you begin to do that, don\u2019t worry - coming down is not so bad! Just focus on the 5 feet you live in and do it one step at a time. I can\u2019t believe how well maintained the trail is and how perfect the weather can be even in December. Take gloves, those chains are COLD.",
+        "condition_tags": [
+          "Easy to park",
+          "Not crowded",
+          "Bathrooms available",
+          "Great conditions"
+        ],
+        "image_urls": []
+      },
+      {
+        "author": "Megh Dedhia",
+        "date": "2025-12-21",
+        "rating": 5,
+        "review_text": "Amazing views, going uptil the scouts lookout is easy to moderate but angels landing trail is really tedious and technical. Chains help. Carry water and snacks!",
+        "condition_tags": [
+          "Easy to park",
+          "Bathrooms available",
+          "Dog-friendly",
+          "Great conditions",
+          "Great views"
+        ],
+        "image_urls": []
+      },
+      {
+        "author": "Ravi Gupta",
+        "date": "2025-12-21",
+        "rating": 5,
+        "review_text": "Go early to beat the traffic at the chains. Trail is great and the views are amazing!!",
+        "condition_tags": [
+          "Bathrooms available",
+          "Great conditions",
+          "Great views"
+        ],
+        "image_urls": []
+      },
+      {
+        "author": "Emma G",
+        "date": "2025-12-21",
+        "rating": 5,
+        "review_text": "Who said it was hard",
+        "condition_tags": [
+          "Bathrooms available",
+          "Great conditions",
+          "Great views"
+        ],
+        "image_urls": []
+      },
+      {
+        "author": "Donovan Swann",
+        "date": "2025-12-20",
+        "rating": 5,
+        "review_text": "Not a trail for the faint of heart, most of the trail is doable for the average hiker besides the permitted upper section. If you want to miss the long lines of mediocre hikers going up the permitted route I would suggest leaving at 6:45 or 10 minutes before sunrise. (DO NOT ATTEMPT WITHOUT PERMIT) There was a couple that tried to beat the ranger by going up earlier without a permit and luckily ranger reggie stopped them on the way down, police were waiting by the time they got down the main hike with a 5000 dollar fine for each of them.",
+        "condition_tags": [
+          "Great views"
+        ],
+        "image_urls": []
+      },
+      {
+        "author": "Ruoxi Li",
+        "date": "2025-12-19",
+        "rating": 5,
+        "review_text": "Angel\u2019s Landing",
+        "condition_tags": [
+          "Great views"
+        ],
+        "image_urls": []
+      }
+    ]
+  },
+  "error": null,
+  "warning": null,
+  "sources": null,
+  "expires_at": "2025-12-22T09:48:30Z",
+  "credits_used": 105,
+  "tokens_used": 1570
+}

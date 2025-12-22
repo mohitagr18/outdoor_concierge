@@ -1,0 +1,446 @@
+{
+  "total": "4",
+  "limit": "50",
+  "start": "0",
+  "data": [
+    {
+      "id": "888BB5B2-6EA6-473C-A803-ECA45A02AF57",
+      "url": "",
+      "name": "Big Oak Flat Information Station",
+      "parkCode": "yose",
+      "description": "The Big Oak Flat Information Station has an information desk, wilderness permit desk, and Yosemite Conservancy Bookstore. In the winter, self-registration wilderness permits for the Crane Flat area and Tioga Road trailheads only, are available on the front porch. You must bring your own bear canister when the information station is closed. Wilderness permits are required for overnight stays in Yosemite's Wilderness. Designated accessible parking spaces are available in front of the facility.",
+      "latitude": "37.8003401522",
+      "longitude": "-119.875434181",
+      "latLong": "{lat:37.8003401522, lng:-119.875434181}",
+      "audioDescription": "The Big Oak Flat Information Station building is a one-story, long, modular trailer. An accessible ramp ascends across the length of the front of the building onto a deck. A brown metal sign at the top of the ramp reads Big Oak Flat Information Station and has a National Park Service logo. It goes on to read: visitor information, with an icon of a question mark, wilderness permits, with an icon of a person hiking, and bookstore, with an icon of an open book. On the deck, near the side entrance to the information station are two large, grey, metal bins that look like trash bins. Similar signs on both bins read: No trash, bear canister rental return, with an illustration of a bears' head. Next to the information station are restrooms and vending machines, with similar architectural features.",
+      "isPassportStampLocation": "1",
+      "passportStampLocationDescription": "",
+      "passportStampImages": [
+        {
+          "credit": "",
+          "description": "",
+          "crops": [
+            {
+              "aspectRatio": 1.0,
+              "url": "https://www.nps.gov/common/uploads/passport_stamps/primary/95CE9AFD-FB0A-1E85-74B7B84AA57E8453.jpg"
+            }
+          ],
+          "altText": "A green circular stamp has text that reads Yosemite National Park, Big Oak Flat, CA.",
+          "title": "Big Oak Flat Passport Stamp",
+          "caption": "",
+          "url": "https://www.nps.gov/common/uploads/passport_stamps/95CE9AFD-FB0A-1E85-74B7B84AA57E8453.jpg"
+        }
+      ],
+      "geometryPoiId": "56692D7D-2DA9-4584-9B76-498E60CD9E4E",
+      "amenities": [
+        "Bear Cannister Purchase/Rental",
+        "Gifts/Souvenirs/Books",
+        "Historical/Interpretive Information/Exhibits",
+        "Information",
+        "Information - Maps Available",
+        "Information - Park Newspaper Available",
+        "Information - Ranger/Staff Member Present",
+        "Information Kiosk/Bulletin Board",
+        "Permits Issued",
+        "Restroom",
+        "Restroom - Accessible",
+        "Wheelchair Accessible"
+      ],
+      "contacts": {
+        "phoneNumbers": [
+          {
+            "phoneNumber": "209/372-0200",
+            "description": "",
+            "extension": "",
+            "type": "Voice"
+          }
+        ],
+        "emailAddresses": [
+          {
+            "description": "",
+            "emailAddress": "yose_web_manager@nps.gov"
+          }
+        ]
+      },
+      "directionsInfo": "The Big Oak Flat Information Station is located inside the park near the Big Oak Flat Entrance, on Big Oak Flat Road (Highway 120 from the west).",
+      "directionsUrl": "",
+      "operatingHours": [
+        {
+          "exceptions": [
+            {
+              "exceptionHours": {
+                "wednesday": "Closed",
+                "monday": "Closed",
+                "thursday": "Closed",
+                "sunday": "Closed",
+                "tuesday": "Closed",
+                "friday": "Closed",
+                "saturday": "Closed"
+              },
+              "startDate": "2025-10-26",
+              "name": "Seasonal Closure",
+              "endDate": "2026-05-25"
+            }
+          ],
+          "description": "Open approximately late May through early October.",
+          "standardHours": {
+            "wednesday": "8:00AM - 5:00PM",
+            "monday": "8:00AM - 5:00PM",
+            "thursday": "8:00AM - 5:00PM",
+            "sunday": "8:00AM - 5:00PM",
+            "tuesday": "8:00AM - 5:00PM",
+            "friday": "8:00AM - 5:00PM",
+            "saturday": "8:00AM - 5:00PM"
+          },
+          "name": "Big Oak Flat Information Station"
+        }
+      ],
+      "addresses": [],
+      "images": [
+        {
+          "credit": "NPS Image / Sheree Peshlakai",
+          "crops": [],
+          "title": "Big Oak Flat Information Station",
+          "altText": "A brown wooden building with a fenced deck has a sign that reads Big Oak Flat Information Station.",
+          "caption": "Big Oak Flat Information Station",
+          "url": "https://www.nps.gov/common/uploads/structured_data/95A963DC-0F2F-415F-C67D013189783F30.jpg"
+        },
+        {
+          "credit": "NPS Image / Sheree Peshlakai",
+          "crops": [],
+          "title": "Big Oak Flat Information Station help desk",
+          "altText": "A park ranger stands behind a desk and talks with a person who is hunched over a map on the desk.",
+          "caption": "A ranger assists visitors at the Big Oak Flat Information Station help desk.",
+          "url": "https://www.nps.gov/common/uploads/structured_data/95B830CD-F133-F12B-FA1F3D3D42C53A8A.jpg"
+        }
+      ],
+      "multimedia": [],
+      "relevanceScore": 1.0,
+      "lastIndexedDate": ""
+    },
+    {
+      "id": "D8CDB0BF-565A-48F9-803D-9685447AFD30",
+      "url": "",
+      "name": "Tuolumne Meadows Visitor Center",
+      "parkCode": "yose",
+      "description": "The Tuolumne Meadows Visitor Center has an information desk, Yosemite Conservancy Bookstore, and an exhibit area detailing the area's geology, plant and animal life, and history. A designated accessible parking space and entrance are available. From the main parking lot, drive up the service road to the visitor center. Park in the designated accessible parking space, and follow the paved path in front of the visitor center to the rear entrance. Accessible restrooms are adjacent to the main parking lot.",
+      "latitude": "37.8715673538",
+      "longitude": "-119.374177997",
+      "latLong": "{lat:37.8715673538, lng:-119.374177997}",
+      "audioDescription": "The Tuolumne Meadows Visitor Center is located on a small hill overlooking its parking lot. A narrow service road leads up to the Visitor Center building, however, a posted sign reads, road closed! Service vehicles and vehicles with accessibility placards only. The building is a brown building with wood paneling and has a shingled roof and stone chimney. It has a stone foundation and long stone steps that extend across the length of the front porch, giving access to the wooden, double-door entrance. In front of the building is a wood sign that reads, Civilian Conservation Corps. The CCC began work in Yosemite in May 1933. During the ensuing years, significant projects included the Half Dome cable system, Badger Pass Ski Complex, Henness Ridge lookout tower, numerous park structures and many miles of hiking and riding trails. World War II ended CCC work in July 1942. More than 6,000 young men of the peacetime army passed through the park's 10 CCC camps. They did much to help make the park accessible and enjoyable. Their contributions will be forever remembered. Dedicated on CCC Recognition Day, October 22, 1988. The United States Civilian Conservation Corps logo and National Park Service logo are in the upper left and right corner of the sign. To the right side of the building is one designated accessible parking spot, and in front of the building, across a service road that leads to residential housing, is a brown trash bin, a green recycle bin, and a flag pole waving the American flag. Down in the parking area, on the east side, is a long brown building with a covered porch and wood railings, which houses the men's and women's restroom. Along the paved pathway that leads from the restrooms, up the hill, to the visitor center are some trash and recycle bins, and four exhibit panels. Three of the panels are joined together. Of the three panels, the left panel is titled, Exploring Yosemite, and has an illustration of two people hiking on a trail below steep mountains. Caption: Yosemite is famous for its sheer cliffs, towering waterfalls, and huge trees. Surrounded by this grandeur, take time to shift your focus from large to small. Discover a more intimate wilderness - a Giant Sequoia seedling, tiny meadow wildflowers, or the changing light on a cliff face. North Country - The Tioga Road (usually open from late May until early November) traverses a setting of high country lakes, meadows, and mountain peaks. At 8600 feet in elevation, Tuolumne Meadows is a wilderness threshold. The Visitor Center, open and staffed during summer, houses exhibits and offers park information and publications. South Country - Walk among ancient Giant Sequoias in the Mariposa Grove. (The Tuolumne and Merced Groves are located near Crane Flat northwest of Yosemite Valley.) Experience part of Yosemite's past among the historic buildings of the Pioneer Yosemite History Center at Wawona. Glacier Point (accessible by car in summer and early fall) offers spectacular views of Yosemite Valley, Half Dome, and Vernal and Nevada Falls as well as a panorama of the High Sierra. In winter, Summit Meadow and Badger Pass are popular sites for cross-country and downhill skiing. Yosemite Valley - The waterfalls and monoliths of Yosemite Valley have inspired poets, painters, photographers, and millions of visitors for more than 100 years. The Valley Visitor Center offeres current park information, an orientation slide program, exhibits, book and map sales, and wilderness permits. A model Indian village and the Indian Cultural Museum adjoin the Visitor Center. Yosemite Valley is open year-round. Map: A small map outline of the entire park shows the main roads and areas. On the far left side of the park is a road that runs north to south. At the top point is Hetch Hetchy, coming down to Big Oak Flat, which has a campground and information station, then down to Crane Flat, which has a campground and a gas station with limited groceries. The road continues through a portion of Yosemite Valley, then onward past an intersection for Glacier Point Road, to Wawona and the Mariposa Grove of Giant Sequioas, which are at the bottom tip of the park. Gas, dining, groceries, and accomodations are available in the Wawona area. Just above Yosemite Valley is a road that extends from the left to the right of the park, which is the Tioga Road. Several campgrounds, White Wolf, Tenaya Lake, Tuolumne Meadows, and Tioga Pass are all labeled along Tioga Road. For information regarding park maps, call our park accessibility coordinator at (209) 379-1035. The middle panel is enclosed in glass and has a black and white photo of an elder man with wire rimmed glasses, wearing the National Park Service winter uniform. He has a collared shirt with a tie, and a dress jacket with chest pockets that are buttoned. A badge is above his left pocket and his name tag is above his right pocket. He is wearing a felt NPS hat with a leather band.",
+      "isPassportStampLocation": "1",
+      "passportStampLocationDescription": "",
+      "passportStampImages": [
+        {
+          "credit": "",
+          "description": "",
+          "crops": [
+            {
+              "aspectRatio": 1.0,
+              "url": "https://www.nps.gov/common/uploads/passport_stamps/primary/96949CFA-A633-DE3E-A2BA755531D46E54.jpg"
+            }
+          ],
+          "altText": "A green circular stamp has text that reads Yosemite National Park, Tuolumne Meadows, CA",
+          "title": "Tuolumne Meadows Passport Stamp",
+          "caption": "",
+          "url": "https://www.nps.gov/common/uploads/passport_stamps/96949CFA-A633-DE3E-A2BA755531D46E54.jpg"
+        }
+      ],
+      "geometryPoiId": "2A419C5D-0B6E-4CC9-B613-24B0405A80DA",
+      "amenities": [
+        "Gifts/Souvenirs/Books",
+        "Historical/Interpretive Information/Exhibits",
+        "Information",
+        "Information - Maps Available",
+        "Information - Park Newspaper Available",
+        "Information - Ranger/Staff Member Present",
+        "Restroom - Accessible",
+        "Restroom - Seasonal",
+        "Wheelchair Accessible"
+      ],
+      "contacts": {
+        "phoneNumbers": [
+          {
+            "phoneNumber": "209/372-0200",
+            "description": "",
+            "extension": "",
+            "type": "Voice"
+          }
+        ],
+        "emailAddresses": [
+          {
+            "description": "",
+            "emailAddress": "yose_web_manager@nps.gov"
+          }
+        ]
+      },
+      "directionsInfo": "Located along Tioga Road, approximately 50 miles from Yosemite Valley.",
+      "directionsUrl": "",
+      "operatingHours": [
+        {
+          "exceptions": [
+            {
+              "exceptionHours": {
+                "wednesday": "Closed",
+                "monday": "Closed",
+                "thursday": "Closed",
+                "sunday": "Closed",
+                "tuesday": "Closed",
+                "friday": "Closed",
+                "saturday": "Closed"
+              },
+              "startDate": "2025-09-29",
+              "name": "Winter closure",
+              "endDate": "2026-06-10"
+            }
+          ],
+          "description": "Open approximately late May to late September. OPENING DAY 2025: JUNE 10.",
+          "standardHours": {
+            "wednesday": "9:00AM - 5:00PM",
+            "monday": "9:00AM - 5:00PM",
+            "thursday": "9:00AM - 5:00PM",
+            "sunday": "9:00AM - 5:00PM",
+            "tuesday": "9:00AM - 5:00PM",
+            "friday": "9:00AM - 5:00PM",
+            "saturday": "9:00AM - 5:00PM"
+          },
+          "name": "Tuolumne Meadows Visitor Center"
+        }
+      ],
+      "addresses": [],
+      "images": [
+        {
+          "credit": "NPS Image / Sheree Peshlakai",
+          "crops": [],
+          "title": "Tuolumne Meadows Visitor Center",
+          "altText": "Stone steps lead to the covered porch of a stone building. A large brown wooden sign is in front.",
+          "caption": "Tuolumne Meadows Visitor Center",
+          "url": "https://www.nps.gov/common/uploads/structured_data/96193540-C855-9DFA-7FDFC097C6F4692C.jpg"
+        },
+        {
+          "credit": "NPS Image",
+          "crops": [],
+          "title": "Tuolumne Meadows Visitor Center Sign",
+          "altText": "A brown wooden sign reads Tuolumne Meadows Visitor Center and has a National Park Service logo.",
+          "caption": "Tuolumne Meadows Visitor Center sign",
+          "url": "https://www.nps.gov/common/uploads/structured_data/96827EC5-0F7D-1C3C-7BF7B93D2EFC2494.jpg"
+        }
+      ],
+      "multimedia": [],
+      "relevanceScore": 1.0,
+      "lastIndexedDate": ""
+    },
+    {
+      "id": "F5446CA3-5F8B-4DA1-A02E-C76472B3BCD3",
+      "url": "",
+      "name": "Wawona Visitor Center at Hill's Studio",
+      "parkCode": "yose",
+      "description": "In winter, the Wawona visitor center is temporarily relocated to 7771 Chilnualna Falls Rd. Open 9 am \u2013 12 pm & 1 pm \u2013 4 pm. The Wawona Visitor Center has an information desk, wilderness permit desk, and Yosemite Conservancy Bookstore. In the winter, self-registration wilderness permits are available on the front porch. You must bring your own bear canister when the information station is closed.",
+      "latitude": "37.5371543215042",
+      "longitude": "-119.655392118492",
+      "latLong": "{lat:37.5371543215042, lng:-119.655392118492}",
+      "audioDescription": "The Hill's Studio is a boxy brown building with a long porch along the front. There are five steps that lead up to the entrance. A sign above the porch reads Hill's Studio. There are remnants of an old round fountain, no longer in use, in the front of the studio. Smooth, round palm sized rocks fill the center of the fountain a quarter way up.",
+      "isPassportStampLocation": "1",
+      "passportStampLocationDescription": "",
+      "passportStampImages": [
+        {
+          "credit": "",
+          "description": "",
+          "crops": [
+            {
+              "aspectRatio": 1.0,
+              "url": "https://www.nps.gov/common/uploads/passport_stamps/primary/68379563-F9A9-0EC0-7D3302CB4F4EECDE.jpg"
+            }
+          ],
+          "altText": "A green circular stamp contains text that reads Yosemite National Park, Wawona, CA.",
+          "title": "Wawona Passport Stamp",
+          "caption": "",
+          "url": "https://www.nps.gov/common/uploads/passport_stamps/68379563-F9A9-0EC0-7D3302CB4F4EECDE.jpg"
+        }
+      ],
+      "geometryPoiId": "",
+      "amenities": [
+        "Gifts/Souvenirs/Books",
+        "Historical/Interpretive Information/Exhibits",
+        "Information",
+        "Information - Maps Available",
+        "Information - Park Newspaper Available",
+        "Information - Ranger/Staff Member Present",
+        "Wheelchair Accessible"
+      ],
+      "contacts": {
+        "phoneNumbers": [
+          {
+            "phoneNumber": "209/372-0200",
+            "description": "",
+            "extension": "",
+            "type": "Voice"
+          }
+        ],
+        "emailAddresses": [
+          {
+            "description": "",
+            "emailAddress": "yose_web_manager@nps.gov"
+          }
+        ]
+      },
+      "directionsInfo": "Walk from the lodge or park at the Wawona Store and Pioneer Gift Shop parking area, located on the Wawona Road (Highway 41), and follow the marked path up the hill.",
+      "directionsUrl": "",
+      "operatingHours": [
+        {
+          "exceptions": [
+            {
+              "exceptionHours": {
+                "wednesday": "Closed",
+                "monday": "Closed",
+                "thursday": "Closed",
+                "sunday": "Closed",
+                "tuesday": "Closed",
+                "friday": "Closed",
+                "saturday": "Closed"
+              },
+              "startDate": "2025-10-12",
+              "name": "Seasonal Closure",
+              "endDate": "2026-05-25"
+            }
+          ],
+          "description": "The visitor center is typically open from late May to early October.",
+          "standardHours": {
+            "wednesday": "8:00AM - 5:00PM",
+            "monday": "8:00AM - 5:00PM",
+            "thursday": "8:00AM - 5:00PM",
+            "sunday": "8:00AM - 5:00PM",
+            "tuesday": "8:00AM - 5:00PM",
+            "friday": "8:00AM - 5:00PM",
+            "saturday": "8:00AM - 5:00PM"
+          },
+          "name": "Wawona Visitor Center at Hill's Studio"
+        }
+      ],
+      "addresses": [],
+      "images": [
+        {
+          "credit": "NPS Image / Sheree Peshlakai",
+          "crops": [],
+          "title": "Wawona Visitor Center at Hill's Studio",
+          "altText": "Steps lead up a porch that is wrapped around a brown wooden building. An old fountain is in front.",
+          "caption": "Wawona Visitor Center at Hill's Studio",
+          "url": "https://www.nps.gov/common/uploads/structured_data/67969ECC-0A4A-CFCE-FB18CCBEA6B60F4B.jpg"
+        },
+        {
+          "credit": "NPS Image / Sheree Peshlakai",
+          "crops": [],
+          "title": "Inside the Wawona Visitor Center at Hill's Studio",
+          "altText": "Three people stand behind an information desk that is surrounded by store merchandise.",
+          "caption": "Inside the Wawona Visitor Center at Hill's Studio",
+          "url": "https://www.nps.gov/common/uploads/structured_data/67D20069-A17F-1915-0CAE308018421A63.jpg"
+        }
+      ],
+      "multimedia": [],
+      "relevanceScore": 1.0,
+      "lastIndexedDate": ""
+    },
+    {
+      "id": "E8610AC4-B20D-4F1A-BFA3-E9DB2CF3A1DE",
+      "url": "",
+      "name": "Yosemite Valley Welcome Center",
+      "parkCode": "yose",
+      "description": "The Yosemite Valley Welcome Center is the NEW destination for visitor information in the Valley. Stop here before you begin your Yosemite adventure! The welcome center is located next to the Yosemite Village Parking and the Village Store in Yosemite Valley (Shuttle Stops 1 & 2.) Get help planning your visit and pick up free trail maps, junior ranger booklets, and more.",
+      "latitude": "37.7465082901842",
+      "longitude": "-119.58444974044362",
+      "latLong": "{lat:37.7465082901842, lng:-119.58444974044362}",
+      "audioDescription": "Concrete steps lead up to the front of the Welcome Center, a renovated midcentury modern building from the 1950s. Its face angles outward and upward, with large windows from floor to ceiling. To the right of the main entrance is the National Park Service arrowhead symbol and a large sign that reads \"Welcome Center\".",
+      "isPassportStampLocation": "1",
+      "passportStampLocationDescription": "",
+      "passportStampImages": [
+        {
+          "credit": "",
+          "description": "",
+          "crops": [
+            {
+              "aspectRatio": 1.0,
+              "url": "https://www.nps.gov/common/uploads/passport_stamps/primary/63C71B51-D992-DA91-7FBACBAE72C2C360.jpg"
+            }
+          ],
+          "altText": "Green text within a green circle reads Yosemite National Park, Yosemite Valley.",
+          "title": "Yosemite Valley Passport Stamp",
+          "caption": "",
+          "url": "https://www.nps.gov/common/uploads/passport_stamps/63C71B51-D992-DA91-7FBACBAE72C2C360.jpg"
+        }
+      ],
+      "geometryPoiId": "2E301FEB-20B7-4DCB-A32D-7A9507F28F2B",
+      "amenities": [
+        "Automated Entrance",
+        "Benches/Seating",
+        "Bicycle - Rack",
+        "Bus/Shuttle Stop",
+        "Gifts/Souvenirs/Books",
+        "Information",
+        "Information - Maps Available",
+        "Information - Park Newspaper Available",
+        "Information - Ranger/Staff Member Present",
+        "Information Kiosk/Bulletin Board",
+        "Internet/WiFi Available",
+        "Junior Ranger Activity",
+        "Junior Ranger Booklet Available",
+        "Parking - Auto",
+        "Parking - Bus/RV",
+        "Recycling",
+        "Restroom",
+        "Restroom - Accessible",
+        "Restroom - Family",
+        "Toilet - Flush",
+        "Trash/Litter Receptacles",
+        "Wheelchair Accessible"
+      ],
+      "contacts": {
+        "phoneNumbers": [
+          {
+            "phoneNumber": "209/372-0200",
+            "description": "",
+            "extension": "",
+            "type": "Voice"
+          }
+        ],
+        "emailAddresses": [
+          {
+            "description": "",
+            "emailAddress": "yose_web_manager@nps.gov"
+          }
+        ]
+      },
+      "directionsInfo": "The welcome center is located in Yosemite Valley, adjacent to the Village parking area. (Shuttle Stops 1, 2, 4, or 5 for Yosemite Village.)",
+      "directionsUrl": "",
+      "operatingHours": [
+        {
+          "exceptions": [],
+          "description": "Open year-round",
+          "standardHours": {
+            "wednesday": "9:00AM - 5:00PM",
+            "monday": "9:00AM - 5:00PM",
+            "thursday": "9:00AM - 5:00PM",
+            "sunday": "9:00AM - 5:00PM",
+            "tuesday": "9:00AM - 5:00PM",
+            "friday": "9:00AM - 5:00PM",
+            "saturday": "9:00AM - 5:00PM"
+          },
+          "name": "Yosemite Valley Welcome Center"
+        }
+      ],
+      "addresses": [],
+      "images": [
+        {
+          "credit": "NPS/S. Lacy",
+          "crops": [],
+          "title": "Yosemite Valley Welcome Center",
+          "altText": "Steps lead up to the front entrance of the welcome center, an angular building with tall windows.",
+          "caption": "Opened in Fall 2023, the Yosemite Valley Welcome Center is the new destination for visitor information in Yosemite Valley.",
+          "url": "https://www.nps.gov/common/uploads/structured_data/4F6CEFBF-92D6-7EB5-AE0EF7D3077D616A.jpg"
+        }
+      ],
+      "multimedia": [],
+      "relevanceScore": 1.0,
+      "lastIndexedDate": ""
+    }
+  ]
+}
