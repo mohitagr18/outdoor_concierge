@@ -8,7 +8,7 @@ import google.generativeai as genai
 from pydantic import BaseModel, Field, ValidationError
 
 from app.engine.constraints import UserPreference, SafetyStatus
-from app.models import TrailSummary
+from app.models import TrailSummary, ThingToDo, Event
 
 logger = logging.getLogger(__name__)
 
@@ -17,6 +17,7 @@ class LLMParsedIntent(BaseModel):
     user_prefs: UserPreference
     park_code: Optional[str] = None
     target_date: Optional[str] = None
+    duration_days: int = 1
     raw_query: str
 
 
@@ -37,6 +38,8 @@ class LLMService(Protocol):
         intent: LLMParsedIntent,
         safety: SafetyStatus,
         trails: List[TrailSummary],
+        things_to_do: List[ThingToDo],
+        events: List[Event]
     ) -> LLMResponse: ...
 
 
@@ -69,25 +72,15 @@ JSON Schema:
   }},
   "park_code": "yose" | "zion" | "grca" | null,
   "target_date": string | null,
+  "duration_days": integer (default 1),
   "raw_query": string
 }}
 """
         response = self.model.generate_content(prompt)
         text = response.text.strip()
 
-        # REMOVED: All manual backtick stripping to avoid syntax errors.
-        # We rely on the prompt "Do not wrap the output in markdown"
-        # and standard JSON parsing.
-
-        # If the model adds markdown fences, json.loads might fail.
-        # Ideally, we would strip them, but to ensure this file is valid python
-        # for you right now, we are skipping that logic.
-        
-        # Basic fallback: if it starts with '```
-        # using standard string indices if needed, but let's try raw load first.
-        
+        # Robust JSON extraction
         try:
-            # Attempt to find the first '{' and last '}' to isolate JSON
             start_idx = text.find("{")
             end_idx = text.rfind("}")
             if start_idx != -1 and end_idx != -1:
@@ -100,9 +93,10 @@ JSON Schema:
 
         try:
             data.setdefault("raw_query", query)
-            # Fix: Scrub None values from user_prefs so Pydantic defaults take over
+            if "duration_days" not in data or not data["duration_days"]:
+                data["duration_days"] = 1
+                
             if "user_prefs" in data and isinstance(data["user_prefs"], dict):
-                # Remove keys where value is None
                 data["user_prefs"] = {
                     k: v for k, v in data["user_prefs"].items() 
                     if v is not None
@@ -110,7 +104,7 @@ JSON Schema:
                 data["user_prefs"] = UserPreference(**data["user_prefs"])
             else:
                 data["user_prefs"] = UserPreference()
-
+                
             intent = LLMParsedIntent(**data)
         except ValidationError as e:
             logger.error("Validation error: %s | data=%r", e, data)
@@ -125,23 +119,58 @@ JSON Schema:
         intent: LLMParsedIntent,
         safety: SafetyStatus,
         trails: List[TrailSummary],
+        things_to_do: List[ThingToDo],
+        events: List[Event]
     ) -> LLMResponse:
-        suggested_trail_names = [t.name for t in trails]
-        lines = [
-            f"Here is a summary for: \"{query}\"",
-            f"- Park: {intent.park_code}",
-            f"- Difficulty: {intent.user_prefs.max_difficulty}",
-            f"- Safety: {safety.status}"
+        """
+        Generates a natural language itinerary using the LLM.
+        """
+        # Limit context size
+        context_trails = [
+            f"- Trail: {t.name} ({t.difficulty}, {t.length_miles}mi)" 
+            for t in trails[:10]
         ]
+        context_things = [
+            f"- Activity: {t.title}: {t.shortDescription}" 
+            for t in things_to_do[:10]
+        ]
+        context_events = [
+            f"- Event: {e.title} ({e.date_start})" 
+            for e in events[:5]
+        ]
+
+        safety_msg = f"Status: {safety.status}"
         if safety.reason:
-            lines.append("Safety Alerts: " + "; ".join(safety.reason))
-        if suggested_trail_names:
-            lines.append("Trails: " + ", ".join(suggested_trail_names))
+            safety_msg += f"\nAlerts: {', '.join(safety.reason)}"
+
+        prompt = f"""
+You are an expert National Park Guide.
+User Request: "{query}"
+Trip Duration: {intent.duration_days} day(s).
+Safety Status: {safety_msg}
+
+Available Options (already filtered):
+{chr(10).join(context_trails) if context_trails else "No specific trails."}
+
+{chr(10).join(context_things) if context_things else "No specific activities."}
+
+{chr(10).join(context_events) if context_events else "No events."}
+
+TASK:
+Create a suggested {intent.duration_days}-day itinerary.
+- Use the provided options to fill the days.
+- Include specific trails and activities.
+- If Safety is NOT "Go", mention warnings prominently.
+- Format clearly with Markdown.
+"""
+        
+        response = self.model.generate_content(prompt)
+        message = response.text.strip()
         
         return LLMResponse(
-            message="\n".join(lines),
+            message=message,
             safety_status=safety.status,
             safety_reasons=safety.reason,
-            suggested_trails=suggested_trail_names,
-            debug_intent=intent,
+            suggested_trails=[t.name for t in trails],
+            debug_intent=intent
         )
