@@ -9,6 +9,7 @@ from app.logging_config import setup_logging
 from app.services.llm_service import GeminiLLMService
 from app.clients.nps_client import NPSClient
 from app.clients.weather_client import WeatherClient
+from app.clients.external_client import ExternalClient
 from app.orchestrator import OutdoorConciergeOrchestrator, OrchestratorRequest, SessionContext
 
 load_dotenv()
@@ -19,13 +20,12 @@ def main():
     logger.info("Starting Phase 3 - Step 3 Context Verification...")
     
     # 1. Init
-    llm = GeminiLLMService(api_key
-    
-    =os.getenv("GEMINI_API_KEY"))
+    llm = GeminiLLMService(api_key=os.getenv("GEMINI_API_KEY"))
     orch = OutdoorConciergeOrchestrator(
         llm_service=llm,
         nps_client=NPSClient(api_key=os.getenv("NPS_API_KEY")),
-        weather_client=WeatherClient(api_key=os.getenv("WEATHER_API_KEY"))
+        weather_client=WeatherClient(api_key=os.getenv("WEATHER_API_KEY")),
+        external_client=ExternalClient() # New
     )
 
     # 2. Simulate Client State
