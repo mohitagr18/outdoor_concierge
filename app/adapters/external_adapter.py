@@ -1,26 +1,30 @@
-from typing import Dict, Any, List
+from typing import List, Dict, Any
 from app.models import Amenity, PhotoSpot
 
-def parse_amenity_place(place_json: Dict[str, Any], amenity_type: str) -> Amenity:
+def parse_serper_amenities(response_json: Dict[str, Any]) -> List[Amenity]:
     """
-    Parses a single 'place' object from Serper API output.
+    Parses the 'places' list from a Serper.dev API response.
     """
-    # Construct Google Maps Link if missing
-    cid = place_json.get("cid")
-    if cid:
-        map_url = f"https://maps.google.com/?cid={cid}"
-    else:
-        # Fallback if no CID (simplified for robustness)
-        map_url = "https://www.google.com/maps"
+    places = response_json.get("places", [])
+    amenities = []
 
-    return Amenity(
-        name=place_json.get("title", "Unknown Place"),
-        type=amenity_type,
-        address=place_json.get("address", ""),
-        rating=place_json.get("rating"),
-        open_now=place_json.get("open_now"), # Serper often returns boolean or missing
-        google_maps_url=map_url
-    )
+    for place in places:
+        # Construct Google Maps Link if missing
+        cid = place.get("cid")
+        if cid:
+            map_url = f"https://maps.google.com/?cid={cid}"
+        else:
+            map_url = "https://www.google.com/maps"
+
+        amenities.append(Amenity(
+            name=place.get("title", "Unknown Place"),
+            type=place.get("category", "Unknown"),
+            address=place.get("address", ""),
+            rating=float(place.get("rating", 0.0) or 0.0),
+            open_now=place.get("open_now"), # Serper often doesn't give a simple boolean for this
+            google_maps_url=map_url
+        ))
+    return amenities
 
 def parse_photo_spot(spot_json: Dict[str, Any], park_code: str) -> PhotoSpot:
     """

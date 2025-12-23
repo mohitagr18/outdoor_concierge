@@ -6,7 +6,6 @@ class GeoLocation(BaseModel):
     lat: float
     lon: float
 
-# --- NPS Models (Park Context, Alerts, Events) ---
 class ParkImage(BaseModel):
     url: str
     title: Optional[str] = None
@@ -18,23 +17,89 @@ class ParkContact(BaseModel):
     phoneNumbers: List[Dict[str, str]] = []
     emailAddresses: List[Dict[str, str]] = []
 
-class ParkContext(BaseModel):
-    """
-    Derived from NPS 'parks' endpoint (parks_search.json).
-    """
-    parkCode: str
-    fullName: str
+# --- NEW: Helper Models for Expanded Scope ---
+class AmenityInfo(BaseModel):
+    """Used in Places, VisitorCenters, Campgrounds"""
+    amenities: List[str] = [] # Simplified list of amenity names
+
+class Address(BaseModel):
+    line1: Optional[str] = None
+    line2: Optional[str] = None
+    line3: Optional[str] = None
+    city: Optional[str] = None
+    stateCode: Optional[str] = None
+    postalCode: Optional[str] = None
+    type: Optional[str] = "Physical"
+
+# --- NEW: Core Entity Models ---
+
+class Campground(BaseModel):
+    id: str
+    name: str
     description: str
-    location: GeoLocation
+    location: Optional[GeoLocation] = None
+    campsites: Dict[str, str] = {} # e.g. {"totalSites": "100", "tentOnly": "50"}
+    accessibility: Dict[str, Any] = {} # Descriptive text
     contacts: ParkContact = Field(default_factory=ParkContact)
-    operatingHours: List[Dict[str, Any]] = []
-    url: str
+    fees: List[Dict[str, Any]] = []
     images: List[ParkImage] = []
+    reservationUrl: Optional[str] = None
+    isOpen: bool = True # Inferred or explicit
+
+class VisitorCenter(BaseModel):
+    id: str
+    name: str
+    description: str
+    location: Optional[GeoLocation] = None
+    url: Optional[str] = None
+    images: List[ParkImage] = []
+    operatingHours: List[Dict[str, Any]] = []
+    addresses: List[Address] = []
+    contacts: ParkContact = Field(default_factory=ParkContact)
+
+class Webcam(BaseModel):
+    id: str
+    title: str
+    description: str
+    url: str # The page URL
+    imageUrl: Optional[str] = None # The specific stream/image URL if available
+    isStreaming: bool = False
+    status: str = "Active"
+    relatedParks: List[str] = [] # List of park codes
+
+class Place(BaseModel):
+    id: str
+    title: str
+    listingDescription: Optional[str] = None
+    bodyText: Optional[str] = None
+    location: Optional[GeoLocation] = None
+    images: List[ParkImage] = []
+    tags: List[str] = []
+    isOpenToPublic: bool = True
+    isManagedByNps: bool = True
+
+class ThingToDo(BaseModel):
+    id: str
+    title: str
+    shortDescription: str
+    longDescription: Optional[str] = None
+    location: Optional[GeoLocation] = None
+    duration: Optional[str] = None # e.g. "1-2 hours"
+    season: List[str] = []
+    activities: List[Dict[str, str]] = [] # e.g. [{"name": "Hiking"}]
+    arePetsPermitted: bool = False
+    images: List[ParkImage] = []
+    isReservationRequired: bool = False
+
+class PassportStamp(BaseModel):
+    id: str
+    label: str # The text on the stamp
+    type: str  # e.g. "Physical" or "Virtual"
+    parkCode: Optional[str] = None
+
+# --- EXISTING Models (Unchanged mostly) ---
 
 class Alert(BaseModel):
-    """
-    Derived from NPS 'alerts' endpoint.
-    """
     id: str
     parkCode: str
     title: str
@@ -44,9 +109,6 @@ class Alert(BaseModel):
     lastIndexedDate: str
 
 class Event(BaseModel):
-    """
-    Derived from NPS 'events' endpoint.
-    """
     title: str
     description: str
     date_start: str
@@ -55,7 +117,31 @@ class Event(BaseModel):
     location: Optional[str] = None
     times: List[Dict[str, Any]] = []
 
-# --- Weather Models ---
+# --- UPDATED ParkContext (The "Master" Object) ---
+
+class ParkContext(BaseModel):
+    """
+    Derived from NPS 'parks' endpoint (parks_search.json).
+    Now expanded to hold child entities.
+    """
+    parkCode: str
+    fullName: str
+    description: str
+    location: GeoLocation
+    contacts: ParkContact = Field(default_factory=ParkContact)
+    operatingHours: List[Dict[str, Any]] = []
+    url: str
+    images: List[ParkImage] = []
+    
+    # NEW: Lists of child entities
+    campgrounds: List[Campground] = []
+    visitor_centers: List[VisitorCenter] = []
+    webcams: List[Webcam] = []
+    places: List[Place] = []
+    things_to_do: List[ThingToDo] = []
+    passport_stamps: List[PassportStamp] = []
+
+# --- Weather & Trail Models (Unchanged) ---
 class DailyForecast(BaseModel):
     date: str
     maxtemp_f: float
@@ -66,9 +152,6 @@ class DailyForecast(BaseModel):
     uv: float
 
 class WeatherSummary(BaseModel):
-    """
-    Derived from WeatherAPI (weather.json).
-    """
     parkCode: str
     current_temp_f: float
     current_condition: str
@@ -77,7 +160,6 @@ class WeatherSummary(BaseModel):
     sunset: Optional[str] = None
     weather_alerts: List[Dict[str, Any]] = []
 
-# --- Trail Models (AllTrails) ---
 class TrailReview(BaseModel):
     author: str
     rating: int
@@ -87,9 +169,6 @@ class TrailReview(BaseModel):
     visible_image_urls: List[str] = []
 
 class TrailSummary(BaseModel):
-    """
-    Derived from Firecrawl + LLM extraction (scraped_extract_llm.json).
-    """
     name: str
     parkCode: Optional[str] = None
     difficulty: str
@@ -103,22 +182,15 @@ class TrailSummary(BaseModel):
     surface_types: List[str] = []
     recent_reviews: List[TrailReview] = []
 
-# --- Amenity & Logistics Models ---
 class Amenity(BaseModel):
-    """
-    Derived from Serper (Google Maps) data.
-    """
     name: str
-    type: str # 'Gas', 'Medical', 'Grocery'
+    type: str 
     address: str
     rating: Optional[float] = None
     open_now: Optional[bool] = None
     google_maps_url: str
 
 class PhotoSpot(BaseModel):
-    """
-    Derived from Photo Blog Scrapes.
-    """
     name: str
     parkCode: str
     description: str
