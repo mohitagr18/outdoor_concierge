@@ -13,6 +13,7 @@ beautifulsoup4==4.14.3
 firecrawl-py==4.12.0
 
 openai>=1.50.0
+google-generativeai>=0.8.0
 pydantic>=2.0.0
 
 pytest
