@@ -31,6 +31,28 @@
         "Developed Campground"
       ]
     },
+    "amenities": {
+      "trashRecyclingCollection": "Yes - seasonal",
+      "toilets": [
+        "Flush Toilets - seasonal"
+      ],
+      "internetConnectivity": "No",
+      "showers": [
+        "None"
+      ],
+      "cellPhoneReception": "No",
+      "laundry": "No",
+      "amphitheater": "No",
+      "dumpStation": "No",
+      "campStore": "No",
+      "staffOrVolunteerHostOnsite": "Yes - seasonal",
+      "potableWater": [
+        "Yes - seasonal"
+      ],
+      "iceAvailableForSale": "No",
+      "firewoodForSale": "No",
+      "foodStorageLockers": "Yes - seasonal"
+    },
     "contacts": {
       "phoneNumbers": [
         {
@@ -107,6 +129,28 @@
       "classifications": [
         "Developed Campground"
       ]
+    },
+    "amenities": {
+      "trashRecyclingCollection": "Yes - year round",
+      "toilets": [
+        "Flush Toilets - year round"
+      ],
+      "internetConnectivity": "No",
+      "showers": [
+        "None"
+      ],
+      "cellPhoneReception": "Yes - year round",
+      "laundry": "No",
+      "amphitheater": "No",
+      "dumpStation": "No",
+      "campStore": "No",
+      "staffOrVolunteerHostOnsite": "Yes - seasonal",
+      "potableWater": [
+        "Yes - year round"
+      ],
+      "iceAvailableForSale": "No",
+      "firewoodForSale": "No",
+      "foodStorageLockers": "Yes - year round"
     },
     "contacts": {
       "phoneNumbers": [
@@ -196,6 +240,28 @@
         "Developed Campground"
       ]
     },
+    "amenities": {
+      "trashRecyclingCollection": "Yes - seasonal",
+      "toilets": [
+        "Flush Toilets - year round"
+      ],
+      "internetConnectivity": "No",
+      "showers": [
+        "None"
+      ],
+      "cellPhoneReception": "No",
+      "laundry": "No",
+      "amphitheater": "Yes - seasonal",
+      "dumpStation": "No",
+      "campStore": "No",
+      "staffOrVolunteerHostOnsite": "Yes - seasonal",
+      "potableWater": [
+        "Yes - seasonal"
+      ],
+      "iceAvailableForSale": "No",
+      "firewoodForSale": "No",
+      "foodStorageLockers": "Yes - seasonal"
+    },
     "contacts": {
       "phoneNumbers": [
         {
@@ -267,6 +333,28 @@
       "classifications": [
         "Developed Campground"
       ]
+    },
+    "amenities": {
+      "trashRecyclingCollection": "Yes - year round",
+      "toilets": [
+        "Flush Toilets - year round"
+      ],
+      "internetConnectivity": "No",
+      "showers": [
+        "None"
+      ],
+      "cellPhoneReception": "No",
+      "laundry": "No",
+      "amphitheater": "No",
+      "dumpStation": "No",
+      "campStore": "No",
+      "staffOrVolunteerHostOnsite": "Yes - seasonal",
+      "potableWater": [
+        "Yes - year round"
+      ],
+      "iceAvailableForSale": "No",
+      "firewoodForSale": "No",
+      "foodStorageLockers": "Yes - year round"
     },
     "contacts": {
       "phoneNumbers": [
@@ -359,6 +447,28 @@
         "Developed Campground"
       ]
     },
+    "amenities": {
+      "trashRecyclingCollection": "Yes - seasonal",
+      "toilets": [
+        "Flush Toilets - seasonal"
+      ],
+      "internetConnectivity": "No",
+      "showers": [
+        "None"
+      ],
+      "cellPhoneReception": "Yes - seasonal",
+      "laundry": "No",
+      "amphitheater": "Yes - seasonal",
+      "dumpStation": "No",
+      "campStore": "No",
+      "staffOrVolunteerHostOnsite": "Yes - seasonal",
+      "potableWater": [
+        "Yes - seasonal"
+      ],
+      "iceAvailableForSale": "No",
+      "firewoodForSale": "No",
+      "foodStorageLockers": "Yes - seasonal"
+    },
     "contacts": {
       "phoneNumbers": [
         {
@@ -445,6 +555,28 @@
         "Developed Campground"
       ]
     },
+    "amenities": {
+      "trashRecyclingCollection": "Yes - seasonal",
+      "toilets": [
+        "Flush Toilets - seasonal"
+      ],
+      "internetConnectivity": "No",
+      "showers": [
+        "None"
+      ],
+      "cellPhoneReception": "Yes - seasonal",
+      "laundry": "No",
+      "amphitheater": "No",
+      "dumpStation": "No",
+      "campStore": "No",
+      "staffOrVolunteerHostOnsite": "Yes - seasonal",
+      "potableWater": [
+        "Yes - seasonal"
+      ],
+      "iceAvailableForSale": "No",
+      "firewoodForSale": "No",
+      "foodStorageLockers": "Yes - seasonal"
+    },
     "contacts": {
       "phoneNumbers": [
         {
@@ -511,6 +643,28 @@
       "classifications": [
         "Limited Development Campground"
       ]
+    },
+    "amenities": {
+      "trashRecyclingCollection": "Yes - seasonal",
+      "toilets": [
+        "Vault Toilets - seasonal"
+      ],
+      "internetConnectivity": "No",
+      "showers": [
+        "None"
+      ],
+      "cellPhoneReception": "No",
+      "laundry": "No",
+      "amphitheater": "No",
+      "dumpStation": "No",
+      "campStore": "No",
+      "staffOrVolunteerHostOnsite": "No",
+      "potableWater": [
+        "No water"
+      ],
+      "iceAvailableForSale": "No",
+      "firewoodForSale": "No",
+      "foodStorageLockers": "Yes - seasonal"
     },
     "contacts": {
       "phoneNumbers": [
@@ -585,6 +739,28 @@
       "classifications": [
         "Limited Development Campground"
       ]
+    },
+    "amenities": {
+      "trashRecyclingCollection": "Yes - seasonal",
+      "toilets": [
+        "Vault Toilets - seasonal"
+      ],
+      "internetConnectivity": "No",
+      "showers": [
+        "None"
+      ],
+      "cellPhoneReception": "No",
+      "laundry": "No",
+      "amphitheater": "No",
+      "dumpStation": "No",
+      "campStore": "No",
+      "staffOrVolunteerHostOnsite": "No",
+      "potableWater": [
+        "No water"
+      ],
+      "iceAvailableForSale": "No",
+      "firewoodForSale": "No",
+      "foodStorageLockers": "Yes - seasonal"
     },
     "contacts": {
       "phoneNumbers": [
@@ -688,6 +864,28 @@
         "Developed Campground"
       ]
     },
+    "amenities": {
+      "trashRecyclingCollection": "Yes - seasonal",
+      "toilets": [
+        "Flush Toilets - seasonal"
+      ],
+      "internetConnectivity": "No",
+      "showers": [
+        "None"
+      ],
+      "cellPhoneReception": "Yes - seasonal",
+      "laundry": "No",
+      "amphitheater": "Yes - seasonal",
+      "dumpStation": "Yes - seasonal",
+      "campStore": "No",
+      "staffOrVolunteerHostOnsite": "Yes - seasonal",
+      "potableWater": [
+        "Yes - seasonal"
+      ],
+      "iceAvailableForSale": "No",
+      "firewoodForSale": "No",
+      "foodStorageLockers": "Yes - seasonal"
+    },
     "contacts": {
       "phoneNumbers": [
         {
@@ -754,6 +952,28 @@
       "classifications": [
         "Developed Campground"
       ]
+    },
+    "amenities": {
+      "trashRecyclingCollection": "Yes - seasonal",
+      "toilets": [
+        "Flush Toilets - seasonal"
+      ],
+      "internetConnectivity": "No",
+      "showers": [
+        "None"
+      ],
+      "cellPhoneReception": "Yes - seasonal",
+      "laundry": "No",
+      "amphitheater": "Yes - seasonal",
+      "dumpStation": "Yes - seasonal",
+      "campStore": "No",
+      "staffOrVolunteerHostOnsite": "Yes - seasonal",
+      "potableWater": [
+        "Yes - seasonal"
+      ],
+      "iceAvailableForSale": "No",
+      "firewoodForSale": "No",
+      "foodStorageLockers": "Yes - seasonal"
     },
     "contacts": {
       "phoneNumbers": [
@@ -860,6 +1080,28 @@
         "Developed Campground"
       ]
     },
+    "amenities": {
+      "trashRecyclingCollection": "Yes - year round",
+      "toilets": [
+        "Flush Toilets - year round"
+      ],
+      "internetConnectivity": "No",
+      "showers": [
+        "None"
+      ],
+      "cellPhoneReception": "Yes - year round",
+      "laundry": "No",
+      "amphitheater": "No",
+      "dumpStation": "Yes - year round",
+      "campStore": "No",
+      "staffOrVolunteerHostOnsite": "Yes - seasonal",
+      "potableWater": [
+        "Yes - year round"
+      ],
+      "iceAvailableForSale": "No",
+      "firewoodForSale": "No",
+      "foodStorageLockers": "Yes - year round"
+    },
     "contacts": {
       "phoneNumbers": [
         {
@@ -940,6 +1182,28 @@
       "classifications": [
         "Developed Campground"
       ]
+    },
+    "amenities": {
+      "trashRecyclingCollection": "Yes - year round",
+      "toilets": [
+        "Flush Toilets - year round"
+      ],
+      "internetConnectivity": "No",
+      "showers": [
+        "None"
+      ],
+      "cellPhoneReception": "Yes - year round",
+      "laundry": "No",
+      "amphitheater": "Yes - seasonal",
+      "dumpStation": "Yes - seasonal",
+      "campStore": "No",
+      "staffOrVolunteerHostOnsite": "Yes - seasonal",
+      "potableWater": [
+        "Yes - year round"
+      ],
+      "iceAvailableForSale": "No",
+      "firewoodForSale": "No",
+      "foodStorageLockers": "Yes - year round"
     },
     "contacts": {
       "phoneNumbers": [
@@ -1025,6 +1289,28 @@
         "Limited Development Campground"
       ]
     },
+    "amenities": {
+      "trashRecyclingCollection": "Yes - seasonal",
+      "toilets": [
+        "Flush Toilets - seasonal"
+      ],
+      "internetConnectivity": "No",
+      "showers": [
+        "None"
+      ],
+      "cellPhoneReception": "No",
+      "laundry": "No",
+      "amphitheater": "No",
+      "dumpStation": "Yes - seasonal",
+      "campStore": "No",
+      "staffOrVolunteerHostOnsite": "No",
+      "potableWater": [
+        "Yes - seasonal"
+      ],
+      "iceAvailableForSale": "No",
+      "firewoodForSale": "No",
+      "foodStorageLockers": "Yes - seasonal"
+    },
     "contacts": {
       "phoneNumbers": [
         {
@@ -1105,6 +1391,28 @@
       "classifications": [
         "Developed Campground"
       ]
+    },
+    "amenities": {
+      "trashRecyclingCollection": "Yes - seasonal",
+      "toilets": [
+        "Flush Toilets - seasonal"
+      ],
+      "internetConnectivity": "No",
+      "showers": [
+        "None"
+      ],
+      "cellPhoneReception": "No",
+      "laundry": "No",
+      "amphitheater": "Yes - seasonal",
+      "dumpStation": "No",
+      "campStore": "No",
+      "staffOrVolunteerHostOnsite": "Yes - seasonal",
+      "potableWater": [
+        "Yes - seasonal"
+      ],
+      "iceAvailableForSale": "No",
+      "firewoodForSale": "No",
+      "foodStorageLockers": "Yes - seasonal"
     },
     "contacts": {
       "phoneNumbers": [
@@ -1214,6 +1522,28 @@
       "classifications": [
         "Limited Development Campground"
       ]
+    },
+    "amenities": {
+      "trashRecyclingCollection": "Yes - seasonal",
+      "toilets": [
+        "Vault Toilets - seasonal"
+      ],
+      "internetConnectivity": "No",
+      "showers": [
+        "None"
+      ],
+      "cellPhoneReception": "No",
+      "laundry": "No",
+      "amphitheater": "No",
+      "dumpStation": "No",
+      "campStore": "No",
+      "staffOrVolunteerHostOnsite": "No",
+      "potableWater": [
+        "No water"
+      ],
+      "iceAvailableForSale": "No",
+      "firewoodForSale": "No",
+      "foodStorageLockers": "Yes - seasonal"
     },
     "contacts": {
       "phoneNumbers": [

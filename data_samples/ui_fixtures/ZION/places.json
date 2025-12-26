@@ -17,13 +17,11 @@
         "credit": "NPS"
       }
     ],
-    "tags": [
-      "Zion Canyon",
-      "Zion Canyon Shuttle System",
-      "Big Bend",
-      "Shuttle Stop",
-      "bus stop",
-      "scenic"
+    "amenities": [
+      "Bicycle - Rack",
+      "Bus/Shuttle Stop",
+      "Historical/Interpretive Information/Exhibits",
+      "Scenic View/Photo Spot"
     ],
     "isOpenToPublic": true,
     "isManagedByNps": true
@@ -46,14 +44,15 @@
         "credit": "NPS/Abi Farish"
       }
     ],
-    "tags": [
-      "Zion Canyon",
-      "zion canyon scenic drive",
-      "shuttle bus",
-      "shuttle",
-      "Zion National Park",
-      "Scenic Drive",
-      "canyon junction"
+    "amenities": [
+      "Accessible Sites",
+      "Beach/Water Access",
+      "Bicycle - Rack",
+      "Bus/Shuttle Stop",
+      "Scenic View/Photo Spot",
+      "Trailhead",
+      "Trash/Litter Receptacles",
+      "Wheelchair Accessible"
     ],
     "isOpenToPublic": true,
     "isManagedByNps": true
@@ -76,12 +75,11 @@
         "credit": "NPS/Abi Farish"
       }
     ],
-    "tags": [
-      "Zion Canyon",
-      "hiking",
-      "shuttle bus",
-      "court of the patriarchs",
-      "scenic area"
+    "amenities": [
+      "Bicycle - Rack",
+      "Bus/Shuttle Stop",
+      "Historical/Interpretive Information/Exhibits",
+      "Scenic View/Photo Spot"
     ],
     "isOpenToPublic": true,
     "isManagedByNps": true
@@ -104,16 +102,29 @@
         "credit": "NPS/Daren Reehl"
       }
     ],
-    "tags": [
-      "Zion",
-      "Kolob Canyons",
-      "Kolob",
-      "Zion National Park",
-      "visitor center",
-      "kolob canyons visitor center",
-      "wilderness",
-      "kolob wilderness",
-      "zion wilderness"
+    "amenities": [
+      "Accessible Sites",
+      "Backcountry Permits",
+      "Bicycle - Rack",
+      "Entrance Passes for Sale",
+      "First Aid Kit Available",
+      "Gifts/Souvenirs/Books",
+      "Historical/Interpretive Information/Exhibits",
+      "Information",
+      "Information - Maps Available",
+      "Information - Park Newspaper Available",
+      "Information - Ranger/Staff Member Present",
+      "Information Kiosk/Bulletin Board",
+      "Internet/WiFi Available",
+      "Junior Ranger Activity",
+      "Junior Ranger Booklet Available",
+      "Parking - Auto",
+      "Permits Issued",
+      "Restroom",
+      "Scenic View/Photo Spot",
+      "Trash/Litter Receptacles",
+      "Wheelchair Accessible",
+      "Wheelchairs Available"
     ],
     "isOpenToPublic": true,
     "isManagedByNps": true
@@ -136,15 +147,11 @@
         "credit": "NPS/Abi Farish"
       }
     ],
-    "tags": [
-      "Zion",
-      "Lava Point Overlook",
-      "lava point",
-      "Zion National Park",
-      "picnic area",
-      "Scenic Drive",
-      "kolob terrace",
-      "overlook"
+    "amenities": [
+      "Parking - Auto",
+      "Picnic Table",
+      "Scenic View/Photo Spot",
+      "Trash/Litter Receptacles"
     ],
     "isOpenToPublic": true,
     "isManagedByNps": true
@@ -167,36 +174,7 @@
         "credit": "Photo Courtesy of the Mormon Pioneer National Heritage Area"
       }
     ],
-    "tags": [
-      "heritage",
-      "Conservation",
-      "living landscapes",
-      "community based",
-      "culture",
-      "diversity",
-      "stories",
-      "history",
-      "historic preservation",
-      "Escalante",
-      "Utah",
-      "Mormon pioneers",
-      "manti temple",
-      "pioneer settlement",
-      "Ute Tribe",
-      "Paiute Tribe",
-      "native american history",
-      "Sevier Valley",
-      "Highway 89",
-      "Butch Cassidy",
-      "Utah history",
-      "Little Denmark",
-      "Under the Rim",
-      "boulder loop",
-      "NHA",
-      "community assistance",
-      "National Heritage Areas Program",
-      "National Heritage Area"
-    ],
+    "amenities": [],
     "isOpenToPublic": true,
     "isManagedByNps": false
   },
@@ -218,16 +196,11 @@
         "credit": "NPS/Abi Farish"
       }
     ],
-    "tags": [
-      "Zion Canyon",
-      "Zion",
-      "Zion National Park",
-      "walk",
-      "parus trail",
-      "pa'rus trail",
-      "Easy hike",
-      "guided walk",
-      "self-guided walk"
+    "amenities": [
+      "Historical/Interpretive Information/Exhibits",
+      "Pets Allowed",
+      "Scenic View/Photo Spot",
+      "Wheelchair Accessible"
     ],
     "isOpenToPublic": true,
     "isManagedByNps": true
@@ -250,18 +223,7 @@
         "credit": "NPS/Abi Farish"
       }
     ],
-    "tags": [
-      "Zion",
-      "Zion Canyon",
-      "Parus Trail",
-      "pa'rus trail",
-      "easy",
-      "self-guided walk",
-      "guided walk",
-      "Easy hike",
-      "Zion National Park",
-      "changing landscapes"
-    ],
+    "amenities": [],
     "isOpenToPublic": true,
     "isManagedByNps": true
   },
@@ -283,17 +245,12 @@
         "credit": "NPS/Abi Farish"
       }
     ],
-    "tags": [
-      "Zion",
-      "Zion Canyon",
-      "pa'rus trail",
-      "Parus Trail",
-      "guided walk",
-      "Self-guided Tour",
-      "signs",
-      "interpretation",
-      "walk",
-      "Easy hike"
+    "amenities": [
+      "Accessible Sites",
+      "Historical/Interpretive Information/Exhibits",
+      "Pets Allowed",
+      "Scenic View/Photo Spot",
+      "Wheelchair Accessible"
     ],
     "isOpenToPublic": true,
     "isManagedByNps": true
@@ -316,17 +273,11 @@
         "credit": "NPS/Abi Farish"
       }
     ],
-    "tags": [
-      "Zion",
-      "Zion Canyon",
-      "Zion National Park",
-      "Parus Trail",
-      "walk",
-      "guided walk",
-      "pa'rus trail",
-      "self-guided walk",
-      "Easy hike",
-      "easy"
+    "amenities": [
+      "Historical/Interpretive Information/Exhibits",
+      "Pets Allowed",
+      "Scenic View/Photo Spot",
+      "Wheelchair Accessible"
     ],
     "isOpenToPublic": true,
     "isManagedByNps": true
@@ -349,15 +300,12 @@
         "credit": "NPS/Abi Farish"
       }
     ],
-    "tags": [
-      "Zion",
-      "Zion Canyon",
-      "Zion National Park",
-      "parus trail",
-      "guided walk",
-      "self-guided walk",
-      "easy",
-      "Easy hike"
+    "amenities": [
+      "Accessible Sites",
+      "Historical/Interpretive Information/Exhibits",
+      "Pets Allowed",
+      "Scenic View/Photo Spot",
+      "Wheelchair Accessible"
     ],
     "isOpenToPublic": true,
     "isManagedByNps": true
@@ -380,14 +328,7 @@
         "credit": "NPS/Abi Farish"
       }
     ],
-    "tags": [
-      "Zion",
-      "Zion Canyon",
-      "Zion National Park",
-      "parus trail",
-      "guided walk",
-      "self-guided walk"
-    ],
+    "amenities": [],
     "isOpenToPublic": true,
     "isManagedByNps": true
   },
@@ -409,13 +350,7 @@
         "credit": "NPS/Abi Farish"
       }
     ],
-    "tags": [
-      "Zion",
-      "Zion Canyon",
-      "Zion National Park",
-      "Parus Trail",
-      "guided walk"
-    ],
+    "amenities": [],
     "isOpenToPublic": true,
     "isManagedByNps": true
   },
@@ -437,15 +372,19 @@
         "credit": "NPS"
       }
     ],
-    "tags": [
-      "Shuttle Stop",
-      "shuttle bus",
-      "Zion Canyon",
-      "Zion Canyon Shuttle System",
-      "Riverside Walk",
-      "Zion",
-      "The Narrows",
-      "temple of sinawava"
+    "amenities": [
+      "Accessible Sites",
+      "Benches/Seating",
+      "Bicycle - Rack",
+      "Bus/Shuttle Stop",
+      "Historical/Interpretive Information/Exhibits",
+      "Restroom",
+      "Restroom - Accessible",
+      "Scenic View/Photo Spot",
+      "Trailhead",
+      "Trash/Litter Receptacles",
+      "Water - Bottle-Filling Station",
+      "Wheelchair Accessible"
     ],
     "isOpenToPublic": true,
     "isManagedByNps": true
@@ -468,19 +407,16 @@
         "credit": "NPS/Abi Farish"
       }
     ],
-    "tags": [
-      "Zion Canyon",
-      "the grotto",
-      "zion grotto",
-      "Zion National Park",
-      "shuttle bus",
-      "Shuttle Stop",
-      "Angels Landing",
-      "angles landing",
-      "west rim",
-      "trailhead",
-      "kayenta",
-      "picnic"
+    "amenities": [
+      "Bicycle - Rack",
+      "Bus/Shuttle Stop",
+      "Picnic Table",
+      "Restroom",
+      "Scenic View/Photo Spot",
+      "Toilet - Flush",
+      "Trailhead",
+      "Trash/Litter Receptacles",
+      "Water - Bottle-Filling Station"
     ],
     "isOpenToPublic": true,
     "isManagedByNps": true
@@ -503,22 +439,19 @@
         "credit": "NPS/Abi Farish"
       }
     ],
-    "tags": [
-      "Zion",
-      "Zion Canyon",
-      "zion canyon scenic drive",
-      "shuttle",
-      "zion lodge",
-      "lodging",
-      "shuttle bus",
-      "Shuttle Stop",
-      "trailhead",
-      "emerald pools",
-      "sand bench trail",
-      "food",
-      "Gift Shop",
-      "restaurant",
-      "Cafe"
+    "amenities": [
+      "Bus/Shuttle Stop",
+      "Food/Drink - Coffee",
+      "Food/Drink - Ice Cream",
+      "Food/Drink - Restaurant/Table Service",
+      "Gifts/Souvenirs/Books",
+      "Grill",
+      "Restroom",
+      "Restroom - Accessible",
+      "Toilet - Flush",
+      "Trailhead",
+      "Trash/Litter Receptacles",
+      "Water - Bottle-Filling Station"
     ],
     "isOpenToPublic": true,
     "isManagedByNps": false
@@ -541,13 +474,14 @@
         "credit": "NPS/Abi Farish"
       }
     ],
-    "tags": [
-      "Zion Canyon",
-      "Zion Canyon Shuttle System",
-      "Shuttle Stop",
-      "bus stop",
-      "zion canyon scenic drive",
-      "Weeping Rock"
+    "amenities": [
+      "Benches/Seating",
+      "Bicycle - Rack",
+      "Bus/Shuttle Stop",
+      "Historical/Interpretive Information/Exhibits",
+      "Restroom",
+      "Trailhead",
+      "Trash/Litter Receptacles"
     ],
     "isOpenToPublic": true,
     "isManagedByNps": true
@@ -570,18 +504,34 @@
         "credit": "NPS/Daren Reehl"
       }
     ],
-    "tags": [
-      "Zion",
-      "Zion Canyon",
-      "zion canyon scenic drive",
-      "visitor center",
-      "Zion Canyon Visitor Center",
-      "shuttle bus",
-      "Shuttle Stop",
-      "shuttle",
-      "park store",
-      "parking",
-      "Zion National Park"
+    "amenities": [
+      "Accessible Sites",
+      "Amphitheater",
+      "Backcountry Permits",
+      "Bicycle - Rack",
+      "Bus/Shuttle Stop",
+      "Electric Car Charging Station",
+      "First Aid/Medical Care Available",
+      "Historical/Interpretive Information/Exhibits",
+      "Information",
+      "Information - Maps Available",
+      "Information - Park Newspaper Available",
+      "Information - Ranger/Staff Member Present",
+      "Information Kiosk/Bulletin Board",
+      "Internet/WiFi Available",
+      "Junior Ranger Activity",
+      "Junior Ranger Booklet Available",
+      "Parking - Auto",
+      "Permits Issued",
+      "Picnic Table",
+      "Restroom",
+      "Scenic View/Photo Spot",
+      "Toilet - Flush",
+      "Trailhead",
+      "Trash/Litter Receptacles",
+      "Water - Bottle-Filling Station",
+      "Wheelchair Accessible",
+      "Wheelchairs Available"
     ],
     "isOpenToPublic": true,
     "isManagedByNps": true
@@ -604,22 +554,37 @@
         "credit": "NPS/Necia Warner"
       }
     ],
-    "tags": [
-      "Zion Canyon",
-      "Zion National Park",
-      "zion human history museum",
-      "human history",
-      "Museum",
-      "shuttle",
-      "Shuttle Stop",
-      "exhibits",
-      "interpretation",
-      "ranger activity",
-      "park store",
-      "trail access",
-      "parking",
-      "restrooms",
-      "water bottle filling station"
+    "amenities": [
+      "Accessible Rooms",
+      "Accessible Sites",
+      "Assistive Listening Systems",
+      "Automated Entrance",
+      "Automated External Defibrillator (AED)",
+      "Benches/Seating",
+      "Bicycle - Rack",
+      "Bus/Shuttle Stop",
+      "Captioned Media",
+      "Cellular Signal",
+      "Fire Extinguisher",
+      "First Aid Kit Available",
+      "Gifts/Souvenirs/Books",
+      "Historical/Interpretive Information/Exhibits",
+      "Information",
+      "Information - Maps Available",
+      "Information - Park Newspaper Available",
+      "Information - Ranger/Staff Member Present",
+      "Information Kiosk/Bulletin Board",
+      "Internet/WiFi Available",
+      "Junior Ranger Activity",
+      "Junior Ranger Booklet Available",
+      "Parking - Auto",
+      "Restroom",
+      "Restroom - Accessible",
+      "Scenic View/Photo Spot",
+      "Toilet - Flush",
+      "Water - Bottle-Filling Station",
+      "Water - Drinking/Potable",
+      "Wheelchair Accessible"
     ],
     "isOpenToPublic": true,
     "isManagedByNps": true

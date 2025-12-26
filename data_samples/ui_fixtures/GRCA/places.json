@@ -17,18 +17,9 @@
         "credit": "NPS Photo by Michael Quinn"
       }
     ],
-    "tags": [
-      "Arch",
-      "window",
-      "Angels",
-      "bridge",
-      "natural",
-      "Grand Canyon",
-      "North rim",
-      "Scenic Drive",
-      "angels window",
-      "cape royal",
-      "scenic viewpoint"
+    "amenities": [
+      "Historical/Interpretive Information/Exhibits",
+      "Scenic View/Photo Spot"
     ],
     "isOpenToPublic": true,
     "isManagedByNps": true
@@ -51,17 +42,11 @@
         "credit": "NPS photo by Joel Kane"
       }
     ],
-    "tags": [
-      "animals",
-      "wildlife",
-      "history",
-      "paleontology",
-      "Grand Canyon",
-      "South Rim",
-      "geology",
-      "trail of time",
-      "yavapai geology museum",
-      "fossils"
+    "amenities": [
+      "Audio Description",
+      "Historical/Interpretive Information/Exhibits",
+      "Scenic View/Photo Spot",
+      "Wheelchair Accessible"
     ],
     "isOpenToPublic": true,
     "isManagedByNps": true
@@ -84,16 +69,9 @@
         "credit": "NPS photo by Joel Kane"
       }
     ],
-    "tags": [
-      "restaurant",
-      "steak",
-      "food",
-      "dining",
-      "steakhouse",
-      "Grand Canyon",
-      "South Rim",
-      "Grand Canyon Village",
-      "Xanterra"
+    "amenities": [
+      "Benches/Seating",
+      "Bicycle - Rack"
     ],
     "isOpenToPublic": true,
     "isManagedByNps": false
@@ -116,12 +94,8 @@
         "credit": ""
       }
     ],
-    "tags": [
-      "Arizona",
-      "trail",
-      "trailhead",
-      "North rim",
-      "Grand Canyon"
+    "amenities": [
+      "Trailhead"
     ],
     "isOpenToPublic": false,
     "isManagedByNps": true
@@ -144,26 +118,34 @@
         "credit": "NPS Photo"
       }
     ],
-    "tags": [
-      "information",
-      "Center",
-      "backcountry",
-      "trip planning",
-      "permit",
-      "Grand Canyon",
-      "South Rim",
-      "Grand Canyon Village",
-      "bright angel trail",
-      "South Kaibab Trail",
-      "Indian Garden",
-      "phantom ranch",
-      "hermit trail",
-      "grandview trail",
-      "tanner trail",
-      "boucher trail",
-      "south bass trail",
-      "Bright Angel Campground",
-      "New Hance Trail"
+    "amenities": [
+      "Audio Description",
+      "Automated External Defibrillator (AED)",
+      "Benches/Seating",
+      "Bicycle - Rack",
+      "Bus/Shuttle Stop",
+      "Fire Extinguisher",
+      "First Aid Kit Available",
+      "First Aid/Medical Care Available",
+      "Historical/Interpretive Information/Exhibits",
+      "Information",
+      "Information - Maps Available",
+      "Information - Ranger/Staff Member Present",
+      "Information Kiosk/Bulletin Board",
+      "Parking - Auto",
+      "Parking - Bus/RV",
+      "Permits Issued",
+      "Picnic Shelter/Pavilion",
+      "Picnic Table",
+      "Recycling",
+      "Restroom",
+      "Restroom - Accessible",
+      "Tactile Exhibit",
+      "Toilet - Flush",
+      "Trash/Litter Receptacles",
+      "Water - Bottle-Filling Station",
+      "Water - Drinking/Potable",
+      "Wheelchair Accessible"
     ],
     "isOpenToPublic": true,
     "isManagedByNps": true
@@ -186,14 +168,16 @@
         "credit": "NPS/M. Quinn"
       }
     ],
-    "tags": [
-      "Grand Canyon Village",
-      "blue route",
-      "village route",
-      "Backcountry Information Center",
-      "Parking Lot D",
-      "GCVBR",
-      "maswik lodge"
+    "amenities": [
+      "Bus/Shuttle Stop",
+      "Information Kiosk/Bulletin Board",
+      "Parking - Auto",
+      "Parking - Bus/RV",
+      "Picnic Table",
+      "Restroom",
+      "Restroom - Accessible",
+      "Trash/Litter Receptacles",
+      "Wheelchair Accessible"
     ],
     "isOpenToPublic": true,
     "isManagedByNps": true
@@ -216,17 +200,8 @@
         "credit": "NPS photo by Michael Quinn"
       }
     ],
-    "tags": [
-      "trailhead",
-      "Grand Canyon",
-      "North rim",
-      "bridle path",
-      "Grand Canyon Lodge",
-      "north rim campground",
-      "North Rim Backcountry Office",
-      "North Kaibab Trailhead",
-      "Bicycles",
-      "Pets"
+    "amenities": [
+      "Trailhead"
     ],
     "isOpenToPublic": false,
     "isManagedByNps": true
@@ -249,17 +224,8 @@
         "credit": "NPS photo by Michael Quinn"
       }
     ],
-    "tags": [
-      "Bridle",
-      "trail",
-      "path",
-      "Grand Canyon",
-      "North rim",
-      "Grand Canyon Lodge",
-      "north rim campground",
-      "North Rim Backcountry Office",
-      "North Kaibab Trailhead",
-      "Bicycles"
+    "amenities": [
+      "Trailhead"
     ],
     "isOpenToPublic": false,
     "isManagedByNps": true
@@ -282,17 +248,9 @@
         "credit": "NPS"
       }
     ],
-    "tags": [
-      "fossils",
-      "kaibab limestone",
-      "geology",
-      "paleontology",
-      "Grand Canyon",
-      "South Rim",
-      "bright angel fault",
-      "erosion",
-      "ancient sea",
-      "paleoenvironment"
+    "amenities": [
+      "Scenic View/Photo Spot",
+      "Tactile Exhibit"
     ],
     "isOpenToPublic": true,
     "isManagedByNps": true
@@ -315,28 +273,44 @@
         "credit": "NPS photo"
       }
     ],
-    "tags": [
-      "bright angel lodge",
-      "lodging",
-      "Hotel",
-      "Gift Shop",
-      "food",
-      "beverage",
-      "Drink",
-      "room",
-      "Grand Canyon",
-      "Xanterra",
-      "Grand Canyon Village",
-      "South Rim",
-      "El Tovar",
-      "kachina lodge",
-      "thunderbird lodge",
-      "maswik lodge",
-      "hopi house",
-      "lookout studio",
-      "Mary Colter",
-      "Fred Harvey",
-      "Museum"
+    "amenities": [
+      "Accessible Rooms",
+      "ATM/Cash Machine",
+      "Audio Description",
+      "Automated Entrance",
+      "Automated External Defibrillator (AED)",
+      "Baby Changing Station",
+      "Benches/Seating",
+      "Bicycle - Rack",
+      "Bus/Shuttle Stop",
+      "Fire Extinguisher",
+      "First Aid Kit Available",
+      "Food/Drink - Bar/Alcohol For Sale",
+      "Food/Drink - Cafeteria",
+      "Food/Drink - Coffee",
+      "Food/Drink - Ice Cream",
+      "Food/Drink - Restaurant/Table Service",
+      "Food/Drink - Snacks",
+      "Food/Drink - Vending Machine/Self Service",
+      "Gifts/Souvenirs/Books",
+      "Historical/Interpretive Information/Exhibits",
+      "Information",
+      "Information - Maps Available",
+      "Information - Ranger/Staff Member Present",
+      "Information Kiosk/Bulletin Board",
+      "Parking - Auto",
+      "Recycling",
+      "Restroom",
+      "Restroom - Accessible",
+      "Restroom - Family",
+      "Scenic View/Photo Spot",
+      "Telephone",
+      "Toilet - Flush",
+      "Trash/Litter Receptacles",
+      "Water - Bottle-Filling Station",
+      "Water - Drinking/Potable",
+      "Wheelchair Accessible",
+      "Wheelchairs Available"
     ],
     "isOpenToPublic": true,
     "isManagedByNps": false
@@ -359,19 +333,14 @@
         "credit": "NPS photo"
       }
     ],
-    "tags": [
-      "bright angel",
-      "Grand Canyon Village",
-      "Grand Canyon",
-      "South Rim",
-      "shuttle bus",
-      "village route",
-      "blue route",
-      "bright angel lodge",
-      "thunderbird lodge",
-      "arizona room",
-      "GCVBR",
-      "kachina lodge"
+    "amenities": [
+      "Benches/Seating",
+      "Bus/Shuttle Stop",
+      "Parking - Auto",
+      "Recycling",
+      "Shelter/Cabin",
+      "Trash/Litter Receptacles",
+      "Wheelchair Accessible"
     ],
     "isOpenToPublic": true,
     "isManagedByNps": true
@@ -394,16 +363,9 @@
         "credit": "NPS photo"
       }
     ],
-    "tags": [
-      "bright angel",
-      "point",
-      "viewpoint",
-      "trail",
-      "Grand Canyon",
-      "North rim",
-      "Grand Canyon Lodge",
-      "bright angel point trail",
-      "north rim visitor center"
+    "amenities": [
+      "Historical/Interpretive Information/Exhibits",
+      "Scenic View/Photo Spot"
     ],
     "isOpenToPublic": false,
     "isManagedByNps": true
@@ -426,16 +388,9 @@
         "credit": "NPS photo"
       }
     ],
-    "tags": [
-      "trail",
-      "path",
-      "View",
-      "Grand Canyon",
-      "North rim",
-      "Grand Canyon Lodge",
-      "north rim visitor center",
-      "bright angel point",
-      "scenic view"
+    "amenities": [
+      "Scenic View/Photo Spot",
+      "Trailhead"
     ],
     "isOpenToPublic": false,
     "isManagedByNps": true
@@ -458,19 +413,13 @@
         "credit": "NPS/Ty Karlovetz"
       }
     ],
-    "tags": [
-      "trailhead sign",
-      "trail",
-      "Grand Canyon",
-      "South Rim",
-      "Grand Canyon Village",
-      "bright angel trail",
-      "hiking",
-      "backcountry",
-      "bright angel trailhead",
-      "bright angel lodge",
-      "Kolb Studio",
-      "lookout studio"
+    "amenities": [
+      "Restroom",
+      "Scenic View/Photo Spot",
+      "Toilet - Vault/Composting",
+      "Trailhead",
+      "Water - Bottle-Filling Station",
+      "Water - Drinking/Potable"
     ],
     "isOpenToPublic": true,
     "isManagedByNps": true
@@ -493,20 +442,20 @@
         "credit": "NPS/Joel Kane"
       }
     ],
-    "tags": [
-      "trailhead",
-      "path",
-      "viewpoint",
-      "scenic",
-      "information",
-      "bright angel trailhead",
-      "bright angel trail",
-      "hiking",
-      "backcountry",
-      "South Rim",
-      "Grand Canyon",
-      "water bottle filling station",
-      "restrooms"
+    "amenities": [
+      "Benches/Seating",
+      "Bicycle - Rack",
+      "Historical/Interpretive Information/Exhibits",
+      "Information",
+      "Information Kiosk/Bulletin Board",
+      "Parking - Auto",
+      "Restroom",
+      "Restroom - Accessible",
+      "Toilet - Flush",
+      "Trailhead",
+      "Trash/Litter Receptacles",
+      "Water - Bottle-Filling Station",
+      "Water - Drinking/Potable"
     ],
     "isOpenToPublic": true,
     "isManagedByNps": true
@@ -529,17 +478,9 @@
         "credit": "NPS/Joel Kane"
       }
     ],
-    "tags": [
-      "Buckey's Cabin",
-      "Cabin",
-      "historic",
-      "building",
-      "Grand Canyon",
-      "human history",
-      "Grand Canyon Village",
-      "pioneer",
-      "bright angel lodge",
-      "lookout studio"
+    "amenities": [
+      "Historical/Interpretive Information/Exhibits",
+      "Wheelchair Accessible"
     ],
     "isOpenToPublic": true,
     "isManagedByNps": true
@@ -562,20 +503,13 @@
         "credit": "NPS"
       }
     ],
-    "tags": [
-      "picnic area",
-      "Buggeln",
-      "forest",
-      "shade",
-      "Grand Canyon",
-      "desert view drive",
-      "restroom",
-      "toilet",
-      "picnic",
-      "moran point",
-      "grandview point",
-      "lipan point",
-      "South Rim"
+    "amenities": [
+      "Historical/Interpretive Information/Exhibits",
+      "Parking - Auto",
+      "Picnic Table",
+      "Restroom",
+      "Restroom - Accessible",
+      "Toilet - Vault/Composting"
     ],
     "isOpenToPublic": true,
     "isManagedByNps": true
@@ -598,18 +532,8 @@
         "credit": "NPS/Joel Kane"
       }
     ],
-    "tags": [
-      "wayside",
-      "Exhibit",
-      "interpretive",
-      "history",
-      "ccc",
-      "telephone",
-      "human history",
-      "the boys",
-      "Grand Canyon",
-      "South Rim",
-      "Depression"
+    "amenities": [
+      "Historical/Interpretive Information/Exhibits"
     ],
     "isOpenToPublic": true,
     "isManagedByNps": true
@@ -632,19 +556,22 @@
         "credit": "NPS"
       }
     ],
-    "tags": [
-      "store",
+    "amenities": [
+      "Automated External Defibrillator (AED)",
+      "Bicycle - Rack",
+      "Bus/Shuttle Stop",
+      "Firewood For Sale/Available",
+      "Internet/WiFi Available",
       "Laundry",
-      "showers",
-      "dump station",
-      "Grand Canyon",
-      "camper sevices",
-      "mather campground",
-      "Trailer Village",
-      "Market Plaza",
-      "General Store",
-      "yavapai lodge",
-      "South Rim"
+      "Parking - Auto",
+      "Picnic Table",
+      "Public Transit",
+      "Restroom",
+      "Showers",
+      "Telephone",
+      "Water - Bottle-Filling Station",
+      "Water - Drinking/Potable",
+      "Wheelchair Accessible"
     ],
     "isOpenToPublic": true,
     "isManagedByNps": false
@@ -667,23 +594,27 @@
         "credit": "NPS"
       }
     ],
-    "tags": [
-      "bike",
-      "bicycle",
-      "bright angel",
-      "Cafe",
-      "food",
-      "Drink",
-      "rental",
-      "Grand Canyon",
-      "South Rim",
-      "Grand Canyon Visitor Center",
-      "Grand Canyon Park Store",
-      "Bright Angel Bicycles and Cafe",
-      "wheelchair",
-      "accessibility",
-      "Grand Canyon Visitor Center Plaza",
-      "Mather Point"
+    "amenities": [
+      "Audio Description",
+      "Benches/Seating",
+      "Bicycle - Rack",
+      "Bicycle - Rental",
+      "Bicycle - Repair",
+      "Food/Drink - Cafeteria",
+      "Food/Drink - Coffee",
+      "Food/Drink - Ice Cream",
+      "Food/Drink - Snacks",
+      "Gifts/Souvenirs/Books",
+      "Parking - Auto",
+      "Parking - Bus/RV",
+      "Picnic Table",
+      "Recycling",
+      "Supplies - General",
+      "Trash/Litter Receptacles",
+      "Water - Bottle-Filling Station",
+      "Water - Drinking/Potable",
+      "Wheelchair Accessible",
+      "Wheelchairs Available"
     ],
     "isOpenToPublic": true,
     "isManagedByNps": true
@@ -706,21 +637,32 @@
         "credit": "NPS photo by Joel Kane"
       }
     ],
-    "tags": [
-      "market",
-      "General Store",
-      "food beverage",
-      "shopping",
-      "Grand Canyon",
-      "Market Plaza",
-      "General Store",
-      "parking lot B",
-      "yavapai lodge",
-      "Trailer Village",
-      "mather campground",
-      "camper services",
-      "blue route",
-      "South Rim"
+    "amenities": [
+      "Automated Entrance",
+      "Bicycle - Rack",
+      "Firewood For Sale/Available",
+      "Food/Drink - Bar/Alcohol For Sale",
+      "Food/Drink - Cafeteria",
+      "Food/Drink - Coffee",
+      "Food/Drink - Ice Cream",
+      "Food/Drink - Snacks",
+      "Gifts/Souvenirs/Books",
+      "Groceries/Convenience Items",
+      "Ice",
+      "Internet/WiFi Available",
+      "Parking - Auto",
+      "Parking - Bus/RV",
+      "Picnic Table",
+      "Recycling",
+      "Restroom",
+      "Restroom - Accessible",
+      "Supplies - Camping/Outdoor",
+      "Supplies - General",
+      "Toilet - Flush",
+      "Trash/Litter Receptacles",
+      "Water - Bottle-Filling Station",
+      "Water - Drinking/Potable",
+      "Wheelchair Accessible"
     ],
     "isOpenToPublic": true,
     "isManagedByNps": false
@@ -743,15 +685,8 @@
         "credit": "NPS/Ty Karlovetz"
       }
     ],
-    "tags": [
-      "viewpoint",
-      "Cape Final",
-      "Cape",
-      "Grand Canyon",
-      "North rim",
-      "camping",
-      "backcountry",
-      "hiking"
+    "amenities": [
+      "Scenic View/Photo Spot"
     ],
     "isOpenToPublic": true,
     "isManagedByNps": true
@@ -774,15 +709,9 @@
         "credit": "NPS"
       }
     ],
-    "tags": [
-      "trail",
-      "Cape Final",
-      "Cape",
-      "North rim",
-      "Grand Canyon",
-      "backcountry",
-      "camping",
-      "hiking"
+    "amenities": [
+      "Scenic View/Photo Spot",
+      "Trailhead"
     ],
     "isOpenToPublic": true,
     "isManagedByNps": true
@@ -805,16 +734,16 @@
         "credit": "NPS/ Ty Karlovetz"
       }
     ],
-    "tags": [
-      "viewpoint",
-      "scenic",
-      "Cape",
-      "cape royal",
-      "Grand Canyon",
-      "North rim",
-      "cape royal",
-      "angels window",
-      "cape royal tail"
+    "amenities": [
+      "Audio Description",
+      "Historical/Interpretive Information/Exhibits",
+      "Parking - Auto",
+      "Picnic Table",
+      "Restroom",
+      "Restroom - Accessible",
+      "Scenic View/Photo Spot",
+      "Toilet - Vault/Composting",
+      "Wheelchair Accessible"
     ],
     "isOpenToPublic": true,
     "isManagedByNps": true
@@ -837,22 +766,8 @@
         "credit": "NPS photo."
       }
     ],
-    "tags": [
-      "View",
-      "scenic",
-      "Road",
-      "cape royal",
-      "Archeological Site",
-      "point imperial",
-      "Grand Canyon",
-      "Walhalla Glades Pueblo",
-      "Scenic Drive",
-      "North rim",
-      "cape royal",
-      "Cape Final",
-      "wahalla glades",
-      "point imperial",
-      "Roosevelt point"
+    "amenities": [
+      "Scenic View/Photo Spot"
     ],
     "isOpenToPublic": true,
     "isManagedByNps": true
@@ -875,12 +790,12 @@
         "credit": "NPS/ Stephanie Metzler"
       }
     ],
-    "tags": [
-      "Glen Canyon National Recreation Area",
-      "Lees Ferry",
-      "trailhead sign",
-      "hike",
-      "Colorado River"
+    "amenities": [
+      "Historical/Interpretive Information/Exhibits",
+      "Parking - Auto",
+      "Parking - Bus/RV",
+      "Scenic View/Photo Spot",
+      "Trailhead"
     ],
     "isOpenToPublic": true,
     "isManagedByNps": true
@@ -903,14 +818,12 @@
         "credit": "NPS/Joel Kane"
       }
     ],
-    "tags": [
-      "Village",
-      "Lot C",
-      "Grand Canyon Village",
-      "South Rim",
-      "village route",
-      "blue route",
-      "GCVBR"
+    "amenities": [
+      "Benches/Seating",
+      "Bus/Shuttle Stop",
+      "Parking - Auto",
+      "Trash/Litter Receptacles",
+      "Wheelchair Accessible"
     ],
     "isOpenToPublic": true,
     "isManagedByNps": true
@@ -933,18 +846,9 @@
         "credit": "NPS"
       }
     ],
-    "tags": [
-      "trail",
-      "hiking",
-      "cliff spring",
-      "Grand Canyon",
-      "North rim",
-      "wahalla glade",
-      "cape royal",
-      "Cape Final",
-      "north kaibab",
-      "uncle jim loop",
-      "point imperial trail"
+    "amenities": [
+      "Historical/Interpretive Information/Exhibits",
+      "Trailhead"
     ],
     "isOpenToPublic": true,
     "isManagedByNps": true
@@ -967,15 +871,10 @@
         "credit": "NPS/M. Panter"
       }
     ],
-    "tags": [
-      "desert view",
-      "amphitheater",
-      "Grand Canyon",
-      "South Rim",
-      "desert view drive",
-      "desert view watchtower",
-      "desert view trading post",
-      "desert view market"
+    "amenities": [
+      "Amphitheater",
+      "Benches/Seating",
+      "Scenic View/Photo Spot"
     ],
     "isOpenToPublic": true,
     "isManagedByNps": true
@@ -998,16 +897,10 @@
         "credit": "NPS/M. Quinn"
       }
     ],
-    "tags": [
-      "entrance gate",
-      "desert view",
-      "Grand Canyon",
-      "South Rim",
-      "desert view watchtower",
-      "desert view trading post",
-      "desert view drive",
-      "navajo point",
-      "lipan point"
+    "amenities": [
+      "Entrance Passes for Sale",
+      "Information - Maps Available",
+      "Information - Ranger/Staff Member Present"
     ],
     "isOpenToPublic": true,
     "isManagedByNps": true
@@ -1030,15 +923,12 @@
         "credit": "NPS/M. Quinn"
       }
     ],
-    "tags": [
-      "Gas Station",
-      "desert view",
-      "Grand Canyon",
-      "South Rim",
-      "desert view drive",
-      "desert view watchtower",
-      "desert view market",
-      "desert view campground"
+    "amenities": [
+      "Food/Drink - Snacks",
+      "Fuel (Unleaded)",
+      "Groceries/Convenience Items",
+      "Information",
+      "Wheelchair Accessible"
     ],
     "isOpenToPublic": true,
     "isManagedByNps": true
@@ -1061,18 +951,20 @@
         "credit": "NPS"
       }
     ],
-    "tags": [
-      "desert view",
-      "food",
-      "Service",
-      "gifts",
-      "SOUVENIRS",
-      "Grand Canyon",
-      "South Rim",
-      "desert view drive",
-      "desert view watchtower",
-      "desert view trading post",
-      "desert view amphitheater"
+    "amenities": [
+      "Firewood For Sale/Available",
+      "Food/Drink - Cafeteria",
+      "Food/Drink - Ice Cream",
+      "Food/Drink - Snacks",
+      "Gifts/Souvenirs/Books",
+      "Groceries/Convenience Items",
+      "Ice",
+      "Picnic Table",
+      "Supplies - Camping/Outdoor",
+      "Supplies - General",
+      "Water - Bottle-Filling Station",
+      "Water - Drinking/Potable",
+      "Wheelchair Accessible"
     ],
     "isOpenToPublic": true,
     "isManagedByNps": false
@@ -1095,17 +987,10 @@
         "credit": "NPS/M.Quinn"
       }
     ],
-    "tags": [
-      "aviation",
-      "National Historic Landmark",
-      "Memorial",
-      "plane",
-      "Crash",
-      "Grand Canyon",
-      "desert view",
-      "desert view watchtower",
-      "South Rim",
-      "desert view drive"
+    "amenities": [
+      "Historical/Interpretive Information/Exhibits",
+      "Scenic View/Photo Spot",
+      "Wheelchair Accessible"
     ],
     "isOpenToPublic": true,
     "isManagedByNps": true
@@ -1128,18 +1013,14 @@
         "credit": "NPS Photo/Dan Pawlak"
       }
     ],
-    "tags": [
-      "desert view",
-      "gifts",
-      "SOUVENIRS",
-      "food",
-      "snacks",
-      "ice cream",
-      "Grand Canyon",
-      "South Rim",
-      "desert view market",
-      "Desert view gas station",
-      "desert view watchtower"
+    "amenities": [
+      "Food/Drink - Coffee",
+      "Food/Drink - Ice Cream",
+      "Gifts/Souvenirs/Books",
+      "Picnic Table",
+      "Supplies - General",
+      "Water - Drinking/Potable",
+      "Wheelchair Accessible"
     ],
     "isOpenToPublic": true,
     "isManagedByNps": false
@@ -1162,19 +1043,24 @@
         "credit": "NPS/M.Quinn"
       }
     ],
-    "tags": [
-      "desert view",
-      "watchtower",
-      "Mary Colter",
-      "ancestral Puebloan",
-      "tower",
-      "Lookout",
-      "American Indian",
-      "Hopi",
-      "Desert View Point",
-      "desert view",
-      "Arizona",
-      "architecture"
+    "amenities": [
+      "Audio Description",
+      "Automated External Defibrillator (AED)",
+      "Benches/Seating",
+      "Fire Extinguisher",
+      "First Aid Kit Available",
+      "Gifts/Souvenirs/Books",
+      "Historical/Interpretive Information/Exhibits",
+      "Information",
+      "Information - Maps Available",
+      "Information - Ranger/Staff Member Present",
+      "Parking - Auto",
+      "Parking - Bus/RV",
+      "Recycling",
+      "Scenic View/Photo Spot",
+      "Tactile Exhibit",
+      "Trash/Litter Receptacles",
+      "Water - Bottle-Filling Station"
     ],
     "isOpenToPublic": true,
     "isManagedByNps": true
@@ -1197,17 +1083,12 @@
         "credit": "NPS"
       }
     ],
-    "tags": [
-      "viewpoint",
-      "vista",
-      "desert view drive",
-      "erosion",
-      "Grand Canyon",
-      "South Rim",
-      "Yaki Point",
-      "No Name Overlook",
-      "Thor's Overlook",
-      "grandview point"
+    "amenities": [
+      "Historical/Interpretive Information/Exhibits",
+      "Parking - Auto",
+      "Parking - Bus/RV",
+      "Scenic View/Photo Spot",
+      "Wheelchair Accessible"
     ],
     "isOpenToPublic": true,
     "isManagedByNps": true
@@ -1230,12 +1111,9 @@
         "credit": "NPS Photo"
       }
     ],
-    "tags": [
-      "wayside",
-      "intepretation",
-      "Grand Canyon",
-      "Grand Canyon Village",
-      "wayside overlook"
+    "amenities": [
+      "Historical/Interpretive Information/Exhibits",
+      "Wheelchair Accessible"
     ],
     "isOpenToPublic": true,
     "isManagedByNps": true
@@ -1258,17 +1136,24 @@
         "credit": "NPS/Mike Quinn"
       }
     ],
-    "tags": [
-      "Village",
-      "El Tovar",
-      "Fred Harvey",
-      "National Historic Landmark District",
-      "Grand Canyon",
-      "South Rim",
-      "lodging",
-      "kachina lodge",
-      "thunderbird lodge",
-      "hopi house"
+    "amenities": [
+      "Accessible Rooms",
+      "ATM/Cash Machine",
+      "Audio Description",
+      "Automated Entrance",
+      "Automated External Defibrillator (AED)",
+      "Fire Extinguisher",
+      "Food/Drink - Bar/Alcohol For Sale",
+      "Food/Drink - Cafeteria",
+      "Food/Drink - Coffee",
+      "Food/Drink - Restaurant/Table Service",
+      "Food/Drink - Snacks",
+      "Food/Drink - Vending Machine/Self Service",
+      "Gifts/Souvenirs/Books",
+      "Information",
+      "Restroom",
+      "Telephone",
+      "Wheelchair Accessible"
     ],
     "isOpenToPublic": true,
     "isManagedByNps": true
@@ -1291,16 +1176,8 @@
         "credit": "NPS/Joel Kane"
       }
     ],
-    "tags": [
-      "El Tovar",
-      "National Historic Landmark",
-      "Fred Harvey",
-      "charles whittlesee",
-      "hopi house",
-      "Verkamp's Visitor Center",
-      "Grand Canyon",
-      "Grand Canyon Village",
-      "South Rim"
+    "amenities": [
+      "Historical/Interpretive Information/Exhibits"
     ],
     "isOpenToPublic": true,
     "isManagedByNps": true
@@ -1323,22 +1200,7 @@
         "credit": "NPS/Joel Kane"
       }
     ],
-    "tags": [
-      "non profit",
-      "Conservancy",
-      "GCC",
-      "history",
-      "Partner",
-      "Village",
-      "Grand Canyon",
-      "Grand Canyon Village",
-      "Kolb Studio",
-      "Verkamp's Visitor Center",
-      "yavapai geology museum",
-      "Grand Canyon Conservancy Park Store",
-      "Desertview Watchtower",
-      "South Rim"
-    ],
+    "amenities": [],
     "isOpenToPublic": false,
     "isManagedByNps": true
   },
@@ -1360,18 +1222,7 @@
         "credit": "NPS/M. Quinn"
       }
     ],
-    "tags": [
-      "store",
-      "visitor center",
-      "bookstore",
-      "gifts",
-      "information desk",
-      "Grand Canyon",
-      "North rim",
-      "Grand Canyon Lodge",
-      "roughrider saloon",
-      "deli in the pines"
-    ],
+    "amenities": [],
     "isOpenToPublic": false,
     "isManagedByNps": true
   },
@@ -1393,17 +1244,8 @@
         "credit": "NPS photo by Joel Kane"
       }
     ],
-    "tags": [
-      "kennel",
-      "boarding",
-      "Pets",
-      "dog",
-      "Cat",
-      "Grand Canyon",
-      "Grand Canyon Village",
-      "South Rim",
-      "maswik lodge",
-      "kennels"
+    "amenities": [
+      "Kennel"
     ],
     "isOpenToPublic": true,
     "isManagedByNps": false
@@ -1426,19 +1268,7 @@
         "credit": "NPS"
       }
     ],
-    "tags": [
-      "Grand Canyon Lodge",
-      "North rim",
-      "historic",
-      "National Historic Landmark",
-      "dining",
-      "lodging",
-      "Grand Canyon",
-      "scenic",
-      "north rim visitor center",
-      "roughrider saloon",
-      "deli in the pines"
-    ],
+    "amenities": [],
     "isOpenToPublic": false,
     "isManagedByNps": false
   },
@@ -1460,19 +1290,11 @@
         "credit": "NPS/M. Quinn"
       }
     ],
-    "tags": [
-      "information",
-      "information desk",
-      "America the Beautiful passes",
-      "office",
-      "library",
-      "wifi",
-      "garden",
-      "headquarters",
-      "park headquarters",
-      "Grand Canyon",
-      "grand canyon national park",
-      "South Rim"
+    "amenities": [
+      "Historical/Interpretive Information/Exhibits",
+      "Information Kiosk/Bulletin Board",
+      "Parking - Auto",
+      "Trash/Litter Receptacles"
     ],
     "isOpenToPublic": false,
     "isManagedByNps": true
@@ -1495,10 +1317,10 @@
         "credit": "NPS"
       }
     ],
-    "tags": [
-      "cemetery",
-      "history",
-      "Historical Figures"
+    "amenities": [
+      "Historical/Interpretive Information/Exhibits",
+      "Parking - Auto",
+      "Picnic Table"
     ],
     "isOpenToPublic": true,
     "isManagedByNps": true
@@ -1521,16 +1343,11 @@
         "credit": "NPS"
       }
     ],
-    "tags": [
-      "entrance gate",
-      "station",
-      "information",
-      "passes",
-      "Grand Canyon",
-      "South Rim",
-      "Village",
-      "Grand Canyon Visitor Center",
-      "Market Plaza"
+    "amenities": [
+      "Entrance Passes for Sale",
+      "Information",
+      "Information - Maps Available",
+      "Information - Ranger/Staff Member Present"
     ],
     "isOpenToPublic": true,
     "isManagedByNps": true
@@ -1553,17 +1370,11 @@
         "credit": "NPS"
       }
     ],
-    "tags": [
-      "shuttle bus",
-      "transportation",
-      "public transit",
-      "Grand Canyon",
-      "South Rim",
-      "Grand Canyon Visitor Center",
-      "bright angel bikes",
-      "Grand Canyon Conservancy Park Store",
-      "Mather Pt",
-      "GCVBR"
+    "amenities": [
+      "Bus/Shuttle Stop",
+      "Information",
+      "Information Kiosk/Bulletin Board",
+      "Wheelchair Accessible"
     ],
     "isOpenToPublic": true,
     "isManagedByNps": true
@@ -1586,13 +1397,9 @@
         "credit": "NPS/Joel Kane"
       }
     ],
-    "tags": [
-      "geology",
-      "wayside",
-      "interpretive exhibits",
-      "trail of time",
-      "Grand Canyon",
-      "South Rim"
+    "amenities": [
+      "Benches/Seating",
+      "Historical/Interpretive Information/Exhibits"
     ],
     "isOpenToPublic": true,
     "isManagedByNps": true
@@ -1615,19 +1422,10 @@
         "credit": "NPS/Joel Kane"
       }
     ],
-    "tags": [
-      "viewpoint",
-      "scenic vista",
-      "panoramic",
-      "Grand Canyon",
-      "South Rim",
-      "yavapai geology museum",
-      "yavapai point",
-      "grandeur point",
-      "rim trail",
-      "geology",
-      "sunset",
-      "geoheritage sites"
+    "amenities": [
+      "Audio Description",
+      "Benches/Seating",
+      "Scenic View/Photo Spot"
     ],
     "isOpenToPublic": true,
     "isManagedByNps": true
@@ -1650,16 +1448,17 @@
         "credit": "NPS/M. Quinn"
       }
     ],
-    "tags": [
-      "scenic view",
-      "grandview point",
-      "grandview trail",
-      "Grand Canyon",
-      "South Rim",
-      "viewpoint",
-      "hiking",
-      "backpacking",
-      "Colorado River"
+    "amenities": [
+      "Historical/Interpretive Information/Exhibits",
+      "Parking - Auto",
+      "Parking - Bus/RV",
+      "Picnic Table",
+      "Scenic View/Photo Spot",
+      "Toilet - Vault/Composting",
+      "Trailhead",
+      "Trash Dumpster",
+      "Trash/Litter Receptacles",
+      "Wheelchair Accessible"
     ],
     "isOpenToPublic": true,
     "isManagedByNps": true

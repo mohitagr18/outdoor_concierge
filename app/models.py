@@ -17,7 +17,6 @@ class ParkContact(BaseModel):
     phoneNumbers: List[Dict[str, str]] = []
     emailAddresses: List[Dict[str, str]] = []
 
-# --- NEW: Helper Models for Expanded Scope ---
 class AmenityInfo(BaseModel):
     """Used in Places, VisitorCenters, Campgrounds"""
     amenities: List[str] = [] # Simplified list of amenity names
@@ -31,8 +30,6 @@ class Address(BaseModel):
     postalCode: Optional[str] = None
     type: Optional[str] = "Physical"
 
-# --- NEW: Core Entity Models ---
-
 class Campground(BaseModel):
     id: str
     name: str
@@ -40,6 +37,7 @@ class Campground(BaseModel):
     location: Optional[GeoLocation] = None
     campsites: Dict[str, str] = {} # e.g. {"totalSites": "100", "tentOnly": "50"}
     accessibility: Dict[str, Any] = {} # Descriptive text
+    amenities: Dict[str, Any] = {}
     contacts: ParkContact = Field(default_factory=ParkContact)
     fees: List[Dict[str, Any]] = []
     images: List[ParkImage] = []
@@ -74,7 +72,7 @@ class Place(BaseModel):
     bodyText: Optional[str] = None
     location: Optional[GeoLocation] = None
     images: List[ParkImage] = []
-    tags: List[str] = []
+    amenities: List[str] = []
     isOpenToPublic: bool = True
     isManagedByNps: bool = True
 
@@ -97,8 +95,6 @@ class PassportStamp(BaseModel):
     type: str  # e.g. "Physical" or "Virtual"
     parkCode: Optional[str] = None
 
-# --- EXISTING Models (Unchanged mostly) ---
-
 class Alert(BaseModel):
     id: str
     parkCode: str
@@ -117,7 +113,6 @@ class Event(BaseModel):
     location: Optional[str] = None
     times: List[Dict[str, Any]] = []
 
-# --- UPDATED ParkContext (The "Master" Object) ---
 
 class ParkContext(BaseModel):
     """

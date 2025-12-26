@@ -17,7 +17,9 @@
         "credit": ""
       }
     ],
-    "tags": [],
+    "amenities": [
+      "Historical/Interpretive Information/Exhibits"
+    ],
     "isOpenToPublic": true,
     "isManagedByNps": true
   },
@@ -39,7 +41,9 @@
         "credit": ""
       }
     ],
-    "tags": [],
+    "amenities": [
+      "Historical/Interpretive Information/Exhibits"
+    ],
     "isOpenToPublic": true,
     "isManagedByNps": true
   },
@@ -61,7 +65,14 @@
         "credit": ""
       }
     ],
-    "tags": [],
+    "amenities": [
+      "Entrance Passes for Sale",
+      "Information - Maps Available",
+      "Information - Park Newspaper Available",
+      "Information - Ranger/Staff Member Present",
+      "Restroom",
+      "Telephone"
+    ],
     "isOpenToPublic": true,
     "isManagedByNps": true
   },
@@ -83,7 +94,9 @@
         "credit": "NPS Photo"
       }
     ],
-    "tags": [],
+    "amenities": [
+      "Historical/Interpretive Information/Exhibits"
+    ],
     "isOpenToPublic": true,
     "isManagedByNps": true
   },
@@ -105,7 +118,14 @@
         "credit": ""
       }
     ],
-    "tags": [],
+    "amenities": [
+      "Food/Drink - Cafeteria",
+      "Parking - Auto",
+      "Recycling",
+      "Restroom",
+      "Ski Rental",
+      "Trash/Litter Receptacles"
+    ],
     "isOpenToPublic": true,
     "isManagedByNps": false
   },
@@ -127,7 +147,12 @@
         "credit": ""
       }
     ],
-    "tags": [],
+    "amenities": [
+      "Entrance Passes for Sale",
+      "Information - Maps Available",
+      "Information - Park Newspaper Available",
+      "Information - Ranger/Staff Member Present"
+    ],
     "isOpenToPublic": true,
     "isManagedByNps": true
   },
@@ -149,7 +174,9 @@
         "credit": ""
       }
     ],
-    "tags": [],
+    "amenities": [
+      "Historical/Interpretive Information/Exhibits"
+    ],
     "isOpenToPublic": true,
     "isManagedByNps": true
   },
@@ -171,7 +198,9 @@
         "credit": ""
       }
     ],
-    "tags": [],
+    "amenities": [
+      "Historical/Interpretive Information/Exhibits"
+    ],
     "isOpenToPublic": true,
     "isManagedByNps": true
   },
@@ -193,7 +222,9 @@
         "credit": ""
       }
     ],
-    "tags": [],
+    "amenities": [
+      "Historical/Interpretive Information/Exhibits"
+    ],
     "isOpenToPublic": true,
     "isManagedByNps": true
   },
@@ -215,7 +246,9 @@
         "credit": ""
       }
     ],
-    "tags": [],
+    "amenities": [
+      "Historical/Interpretive Information/Exhibits"
+    ],
     "isOpenToPublic": true,
     "isManagedByNps": true
   },
@@ -237,7 +270,9 @@
         "credit": ""
       }
     ],
-    "tags": [],
+    "amenities": [
+      "Historical/Interpretive Information/Exhibits"
+    ],
     "isOpenToPublic": true,
     "isManagedByNps": true
   },
@@ -259,7 +294,9 @@
         "credit": ""
       }
     ],
-    "tags": [],
+    "amenities": [
+      "Historical/Interpretive Information/Exhibits"
+    ],
     "isOpenToPublic": true,
     "isManagedByNps": true
   },
@@ -281,7 +318,9 @@
         "credit": ""
       }
     ],
-    "tags": [],
+    "amenities": [
+      "Historical/Interpretive Information/Exhibits"
+    ],
     "isOpenToPublic": true,
     "isManagedByNps": true
   },
@@ -303,7 +342,9 @@
         "credit": ""
       }
     ],
-    "tags": [],
+    "amenities": [
+      "Historical/Interpretive Information/Exhibits"
+    ],
     "isOpenToPublic": true,
     "isManagedByNps": true
   },
@@ -325,7 +366,9 @@
         "credit": ""
       }
     ],
-    "tags": [],
+    "amenities": [
+      "Historical/Interpretive Information/Exhibits"
+    ],
     "isOpenToPublic": true,
     "isManagedByNps": true
   },
@@ -347,7 +390,9 @@
         "credit": ""
       }
     ],
-    "tags": [],
+    "amenities": [
+      "Historical/Interpretive Information/Exhibits"
+    ],
     "isOpenToPublic": true,
     "isManagedByNps": true
   },
@@ -369,7 +414,9 @@
         "credit": ""
       }
     ],
-    "tags": [],
+    "amenities": [
+      "Historical/Interpretive Information/Exhibits"
+    ],
     "isOpenToPublic": true,
     "isManagedByNps": true
   },
@@ -391,7 +438,9 @@
         "credit": ""
       }
     ],
-    "tags": [],
+    "amenities": [
+      "Historical/Interpretive Information/Exhibits"
+    ],
     "isOpenToPublic": true,
     "isManagedByNps": true
   },
@@ -413,7 +462,9 @@
         "credit": ""
       }
     ],
-    "tags": [],
+    "amenities": [
+      "Historical/Interpretive Information/Exhibits"
+    ],
     "isOpenToPublic": true,
     "isManagedByNps": true
   },
@@ -435,7 +486,16 @@
         "credit": ""
       }
     ],
-    "tags": [],
+    "amenities": [
+      "Historical/Interpretive Information/Exhibits",
+      "Parking - Auto",
+      "Pets Allowed",
+      "Recycling",
+      "Restroom",
+      "Trailhead",
+      "Trash/Litter Receptacles",
+      "Water - Bottle-Filling Station"
+    ],
     "isOpenToPublic": true,
     "isManagedByNps": true
   },
@@ -457,7 +517,9 @@
         "credit": ""
       }
     ],
-    "tags": [],
+    "amenities": [
+      "Scenic View/Photo Spot"
+    ],
     "isOpenToPublic": true,
     "isManagedByNps": true
   },
@@ -479,7 +541,14 @@
         "credit": "NPS Photo / S. Nobles"
       }
     ],
-    "tags": [],
+    "amenities": [
+      "Beach/Water Access",
+      "Grill",
+      "Picnic Table",
+      "Recycling",
+      "Toilet - Vault/Composting",
+      "Trash/Litter Receptacles"
+    ],
     "isOpenToPublic": true,
     "isManagedByNps": true
   },
@@ -501,7 +570,10 @@
         "credit": ""
       }
     ],
-    "tags": [],
+    "amenities": [
+      "Animal-Safe Food Storage",
+      "Trailhead"
+    ],
     "isOpenToPublic": true,
     "isManagedByNps": true
   },
@@ -523,7 +595,10 @@
         "credit": ""
       }
     ],
-    "tags": [],
+    "amenities": [
+      "Animal-Safe Food Storage",
+      "Trailhead"
+    ],
     "isOpenToPublic": true,
     "isManagedByNps": true
   },
@@ -545,7 +620,10 @@
         "credit": ""
       }
     ],
-    "tags": [],
+    "amenities": [
+      "Historical/Interpretive Information/Exhibits",
+      "Wheelchair Accessible"
+    ],
     "isOpenToPublic": true,
     "isManagedByNps": true
   },
@@ -567,7 +645,14 @@
         "credit": ""
       }
     ],
-    "tags": [],
+    "amenities": [
+      "Picnic Table",
+      "Recycling",
+      "Restroom",
+      "Trash/Litter Receptacles",
+      "Water - Bottle-Filling Station",
+      "Wheelchair Accessible"
+    ],
     "isOpenToPublic": true,
     "isManagedByNps": true
   },
@@ -589,7 +674,13 @@
         "credit": ""
       }
     ],
-    "tags": [],
+    "amenities": [
+      "Historical/Interpretive Information/Exhibits",
+      "Pets Allowed",
+      "Scenic View/Photo Spot",
+      "Trailhead",
+      "Wheelchair Accessible"
+    ],
     "isOpenToPublic": true,
     "isManagedByNps": true
   },
@@ -611,7 +702,9 @@
         "credit": ""
       }
     ],
-    "tags": [],
+    "amenities": [
+      "Historical/Interpretive Information/Exhibits"
+    ],
     "isOpenToPublic": true,
     "isManagedByNps": true
   },
@@ -633,7 +726,9 @@
         "credit": ""
       }
     ],
-    "tags": [],
+    "amenities": [
+      "Historical/Interpretive Information/Exhibits"
+    ],
     "isOpenToPublic": true,
     "isManagedByNps": true
   },
@@ -655,7 +750,9 @@
         "credit": ""
       }
     ],
-    "tags": [],
+    "amenities": [
+      "Historical/Interpretive Information/Exhibits"
+    ],
     "isOpenToPublic": true,
     "isManagedByNps": true
   },
@@ -677,7 +774,9 @@
         "credit": ""
       }
     ],
-    "tags": [],
+    "amenities": [
+      "Historical/Interpretive Information/Exhibits"
+    ],
     "isOpenToPublic": true,
     "isManagedByNps": true
   },
@@ -699,7 +798,9 @@
         "credit": ""
       }
     ],
-    "tags": [],
+    "amenities": [
+      "Historical/Interpretive Information/Exhibits"
+    ],
     "isOpenToPublic": true,
     "isManagedByNps": true
   },
@@ -721,7 +822,9 @@
         "credit": ""
       }
     ],
-    "tags": [],
+    "amenities": [
+      "Historical/Interpretive Information/Exhibits"
+    ],
     "isOpenToPublic": true,
     "isManagedByNps": true
   },
@@ -743,7 +846,9 @@
         "credit": ""
       }
     ],
-    "tags": [],
+    "amenities": [
+      "Historical/Interpretive Information/Exhibits"
+    ],
     "isOpenToPublic": true,
     "isManagedByNps": true
   },
@@ -765,7 +870,9 @@
         "credit": ""
       }
     ],
-    "tags": [],
+    "amenities": [
+      "Historical/Interpretive Information/Exhibits"
+    ],
     "isOpenToPublic": true,
     "isManagedByNps": true
   },
@@ -787,7 +894,9 @@
         "credit": ""
       }
     ],
-    "tags": [],
+    "amenities": [
+      "Historical/Interpretive Information/Exhibits"
+    ],
     "isOpenToPublic": true,
     "isManagedByNps": true
   },
@@ -809,7 +918,9 @@
         "credit": ""
       }
     ],
-    "tags": [],
+    "amenities": [
+      "Historical/Interpretive Information/Exhibits"
+    ],
     "isOpenToPublic": true,
     "isManagedByNps": true
   },
@@ -831,7 +942,18 @@
         "credit": ""
       }
     ],
-    "tags": [],
+    "amenities": [
+      "Fuel (Diesel)",
+      "Fuel (Unleaded)",
+      "Groceries/Convenience Items",
+      "Ice",
+      "Recycling",
+      "Restroom",
+      "Supplies - General",
+      "Trash/Litter Receptacles",
+      "Water - Drinking/Potable",
+      "Wheelchair Accessible"
+    ],
     "isOpenToPublic": true,
     "isManagedByNps": false
   },
@@ -853,7 +975,31 @@
         "credit": ""
       }
     ],
-    "tags": [],
+    "amenities": [
+      "Accessible Rooms",
+      "Amphitheater",
+      "Animal-Safe Food Storage",
+      "Benches/Seating",
+      "Bicycle - Rack",
+      "Bus/Shuttle Stop",
+      "Firewood For Sale/Available",
+      "Food/Drink - Bar/Alcohol For Sale",
+      "Food/Drink - Cafeteria",
+      "Food/Drink - Coffee",
+      "Food/Drink - Ice Cream",
+      "Food/Drink - Snacks",
+      "Gifts/Souvenirs/Books",
+      "Groceries/Convenience Items",
+      "Historical/Interpretive Information/Exhibits",
+      "Ice",
+      "Parking - Auto",
+      "Recycling",
+      "Restroom",
+      "Showers",
+      "Supplies - Camping/Outdoor",
+      "Trash/Litter Receptacles",
+      "Wheelchair Accessible"
+    ],
     "isOpenToPublic": true,
     "isManagedByNps": false
   },
@@ -875,7 +1021,11 @@
         "credit": ""
       }
     ],
-    "tags": [],
+    "amenities": [
+      "Bicycle - Rental",
+      "Wheelchair Accessible",
+      "Wheelchairs Available"
+    ],
     "isOpenToPublic": true,
     "isManagedByNps": false
   },
@@ -897,8 +1047,8 @@
         "credit": ""
       }
     ],
-    "tags": [
-      "ev charging"
+    "amenities": [
+      "Electric Car Charging Station"
     ],
     "isOpenToPublic": true,
     "isManagedByNps": false
@@ -921,7 +1071,12 @@
         "credit": ""
       }
     ],
-    "tags": [],
+    "amenities": [
+      "Parking - Auto",
+      "Recycling",
+      "Trash/Litter Receptacles",
+      "Wheelchair Accessible"
+    ],
     "isOpenToPublic": true,
     "isManagedByNps": true
   },
@@ -943,7 +1098,7 @@
         "credit": ""
       }
     ],
-    "tags": [],
+    "amenities": [],
     "isOpenToPublic": true,
     "isManagedByNps": false
   },
@@ -965,7 +1120,7 @@
         "credit": ""
       }
     ],
-    "tags": [],
+    "amenities": [],
     "isOpenToPublic": false,
     "isManagedByNps": false
   },
@@ -987,7 +1142,9 @@
         "credit": ""
       }
     ],
-    "tags": [],
+    "amenities": [
+      "Historical/Interpretive Information/Exhibits"
+    ],
     "isOpenToPublic": true,
     "isManagedByNps": true
   },
@@ -1009,7 +1166,14 @@
         "credit": ""
       }
     ],
-    "tags": [],
+    "amenities": [
+      "Food/Drink - Cafeteria",
+      "Internet/WiFi Available",
+      "Recycling",
+      "Restroom",
+      "Trash/Litter Receptacles",
+      "Wheelchair Accessible"
+    ],
     "isOpenToPublic": true,
     "isManagedByNps": true
   },
@@ -1031,7 +1195,9 @@
         "credit": ""
       }
     ],
-    "tags": [],
+    "amenities": [
+      "Scenic View/Photo Spot"
+    ],
     "isOpenToPublic": true,
     "isManagedByNps": true
   },
@@ -1053,7 +1219,15 @@
         "credit": ""
       }
     ],
-    "tags": [],
+    "amenities": [
+      "Animal-Safe Food Storage",
+      "Grill",
+      "Picnic Table",
+      "Recycling",
+      "Restroom",
+      "Trash/Litter Receptacles",
+      "Wheelchair Accessible"
+    ],
     "isOpenToPublic": true,
     "isManagedByNps": true
   },
@@ -1075,8 +1249,8 @@
         "credit": ""
       }
     ],
-    "tags": [
-      "ev charging"
+    "amenities": [
+      "Electric Car Charging Station"
     ],
     "isOpenToPublic": true,
     "isManagedByNps": false
@@ -1099,7 +1273,16 @@
         "credit": ""
       }
     ],
-    "tags": [],
+    "amenities": [
+      "Fuel (Diesel)",
+      "Fuel (Unleaded)",
+      "Groceries/Convenience Items",
+      "Propane For Sale",
+      "Recycling",
+      "Restroom",
+      "Trash/Litter Receptacles",
+      "Wheelchair Accessible"
+    ],
     "isOpenToPublic": true,
     "isManagedByNps": false
   }

@@ -27,6 +27,28 @@
       "accessRoads": [],
       "classifications": []
     },
+    "amenities": {
+      "trashRecyclingCollection": "Yes - seasonal",
+      "toilets": [
+        "Vault Toilets - seasonal"
+      ],
+      "internetConnectivity": "No",
+      "showers": [
+        "None"
+      ],
+      "cellPhoneReception": "No",
+      "laundry": "No",
+      "amphitheater": "No",
+      "dumpStation": "No",
+      "campStore": "No",
+      "staffOrVolunteerHostOnsite": "Yes - seasonal",
+      "potableWater": [
+        "No water"
+      ],
+      "iceAvailableForSale": "No",
+      "firewoodForSale": "No",
+      "foodStorageLockers": "No"
+    },
     "contacts": {
       "phoneNumbers": [],
       "emailAddresses": []
@@ -73,6 +95,28 @@
       "classifications": [
         "Developed Campground"
       ]
+    },
+    "amenities": {
+      "trashRecyclingCollection": "Yes - seasonal",
+      "toilets": [
+        "Flush Toilets - year round"
+      ],
+      "internetConnectivity": "No",
+      "showers": [
+        "None"
+      ],
+      "cellPhoneReception": "Yes - year round",
+      "laundry": "No",
+      "amphitheater": "No",
+      "dumpStation": "Yes - seasonal",
+      "campStore": "No",
+      "staffOrVolunteerHostOnsite": "Yes - seasonal",
+      "potableWater": [
+        "Yes - seasonal"
+      ],
+      "iceAvailableForSale": "No",
+      "firewoodForSale": "No",
+      "foodStorageLockers": "No"
     },
     "contacts": {
       "phoneNumbers": [
@@ -145,6 +189,28 @@
       "classifications": [
         "Developed Campground"
       ]
+    },
+    "amenities": {
+      "trashRecyclingCollection": "Yes - year round",
+      "toilets": [
+        "Flush Toilets - year round"
+      ],
+      "internetConnectivity": "No",
+      "showers": [
+        "None"
+      ],
+      "cellPhoneReception": "Yes - year round",
+      "laundry": "No",
+      "amphitheater": "Yes - seasonal",
+      "dumpStation": "Yes - year round",
+      "campStore": "No",
+      "staffOrVolunteerHostOnsite": "Yes - year round",
+      "potableWater": [
+        "Yes - year round"
+      ],
+      "iceAvailableForSale": "No",
+      "firewoodForSale": "No",
+      "foodStorageLockers": "No"
     },
     "contacts": {
       "phoneNumbers": [

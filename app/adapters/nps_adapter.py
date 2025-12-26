@@ -129,6 +129,7 @@ def parse_nps_campgrounds(response: Dict[str, Any]) -> List[Campground]:
             location=_extract_geo(item),
             campsites=campsites,
             accessibility=item.get("accessibility", {}),
+            amenities=item.get("amenities", {}),
             contacts=_extract_contacts(item),
             fees=item.get("fees", []),
             images=_extract_images(item),
@@ -190,7 +191,8 @@ def parse_nps_places(response: Dict[str, Any]) -> List[Place]:
             bodyText=item.get("bodyText"),
             location=_extract_geo(item),
             images=_extract_images(item),
-            tags=item.get("tags", []),
+            # tags=item.get("tags", []),
+            amenities=item.get("amenities", []),
             isOpenToPublic=item.get("isOpenToPublic", True),
             isManagedByNps=item.get("isManagedByNps", True)
         ))
