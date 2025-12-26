@@ -1,0 +1,162 @@
+[
+  {
+    "title": "Family Ranger Talk (Yosemite Valley)",
+    "description": "<p>Topics vary. Meet in front of the Yosemite Valley Welcome Center (shuttle stop 2.)</p>\n<p><em>Program hosted by the National Park Service.</em></p>",
+    "date_start": "",
+    "date_end": null,
+    "is_free": false,
+    "location": "Meet outside the welcome center, located next to Yosemite Village Parking. Use Shuttle Stops 1, 2, or 4.",
+    "times": [
+      {
+        "timestart": "02:00 PM",
+        "timeend": "02:15 PM",
+        "sunrisestart": "false",
+        "sunsetend": "false"
+      }
+    ]
+  },
+  {
+    "title": "Historic Ahwahnee Hotel Tour (Yosemite Valley)",
+    "description": "<p>Learn about the history behind Yosemite\u2019s famous luxury hotel on this complimentary one-hour tour.<br />Meet on the hotel\u2019s back lawn.</p>\n<p><em>Program hosted by Yosemite Hospitality.</em></p>",
+    "date_start": "",
+    "date_end": null,
+    "is_free": false,
+    "location": "",
+    "times": [
+      {
+        "timestart": "02:00 PM",
+        "timeend": "03:00 PM",
+        "sunrisestart": "false",
+        "sunsetend": "false"
+      }
+    ]
+  },
+  {
+    "title": "In the Field: Creative Smartphone Photography (Yosemite Valley)",
+    "description": "<p>Join a staff photographer to learn how to make better photographs with the camera you always carry.</p>\n<p><em>Classes hosted by The Ansel Adams Gallery.</em></p>",
+    "date_start": "",
+    "date_end": null,
+    "is_free": false,
+    "location": "The Ansel Adams Gallery is located in Yosemtie Village, near shuttle stop 5.",
+    "times": [
+      {
+        "timestart": "09:00 AM",
+        "timeend": "12:00 PM",
+        "sunrisestart": "false",
+        "sunsetend": "false"
+      }
+    ]
+  },
+  {
+    "title": "The Ansel Adams Gallery Photography Walk (Yosemite Valley)",
+    "description": "<p>Join a staff photographer for a brief field lecture in Yosemite Valley.\u00a0Space is limited; registration required.</p>",
+    "date_start": "",
+    "date_end": null,
+    "is_free": false,
+    "location": "The Ansel Adams Gallery is located in Yosemite Village, near shuttle stop 5.",
+    "times": [
+      {
+        "timestart": "09:00 AM",
+        "timeend": "10:30 AM",
+        "sunrisestart": "false",
+        "sunsetend": "false"
+      }
+    ]
+  },
+  {
+    "title": "Discovery Walk (Yosemite Valley)",
+    "description": "<p>Join a ranger for an easy walk and learn more about what makes Yosemite special. Topics vary daily. Meet in front of the museum in Yosemite Village (use shuttle stop 5.)</p>",
+    "date_start": "",
+    "date_end": null,
+    "is_free": false,
+    "location": "",
+    "times": [
+      {
+        "timestart": "10:30 AM",
+        "timeend": "11:30 AM",
+        "sunrisestart": "false",
+        "sunsetend": "false"
+      }
+    ]
+  },
+  {
+    "title": "Guided Nature Walk (Yosemite Valley)",
+    "description": "<p>Join a naturalist for an easy guided walk of Yosemite\u2019s natural areas. Meet at the Yosemite Valley Lodge Amphitheater, near the lodge's front office (use shuttle stop 7.)</p>\n<p><em>Program hosted by Yosemite Hospitality.</em></p>",
+    "date_start": "",
+    "date_end": null,
+    "is_free": false,
+    "location": "The Yosemite Valley Lodge amphitheater is located in the courtyard behind the Lodge front desk. Use Shuttle Stop 7 or Yosemite Falls Parking.",
+    "times": [
+      {
+        "timestart": "03:00 PM",
+        "timeend": "04:00 PM",
+        "sunrisestart": "false",
+        "sunsetend": "false"
+      }
+    ]
+  },
+  {
+    "title": "Yosemite After Dark (Yosemite Valley)",
+    "description": "<p>Grab a flashlight and join a Yosemite naturalist for a nature walk at night!</p>\n<p><em>Program hosted by Yosemite Hospitality.</em></p>",
+    "date_start": "",
+    "date_end": null,
+    "is_free": false,
+    "location": "Yosemite Valley. Meetup location provided upon registration.",
+    "times": [
+      {
+        "timestart": "07:30 PM",
+        "timeend": "09:00 PM",
+        "sunrisestart": "false",
+        "sunsetend": "false"
+      }
+    ]
+  },
+  {
+    "title": "Evening Programs (Yosemite Valley)",
+    "description": "<p>Yosemite naturalists present a variety of topics on natural and cultural history. Meet at the Yosemite Valley Lodge Cliff Room (between the lounge and gift shop. Use shuttle stop 7.)</p>\n<p><em>Program hosted by Yosemite Hospitality.</em></p>",
+    "date_start": "",
+    "date_end": null,
+    "is_free": false,
+    "location": "",
+    "times": [
+      {
+        "timestart": "07:00 PM",
+        "timeend": "07:30 PM",
+        "sunrisestart": "false",
+        "sunsetend": "false"
+      }
+    ]
+  },
+  {
+    "title": "In the Field: Creative Smartphone Photography (Yosemite Valley)",
+    "description": "<p>Join a staff photographer to learn how to make better photographs with the camera you always carry.</p>\n<p><em>Classes hosted by The Ansel Adams Gallery.</em></p>",
+    "date_start": "",
+    "date_end": null,
+    "is_free": false,
+    "location": "The Ansel Adams Gallery is located in Yosemtie Village, near shuttle stop 5.",
+    "times": [
+      {
+        "timestart": "12:30 PM",
+        "timeend": "03:30 PM",
+        "sunrisestart": "false",
+        "sunsetend": "false"
+      }
+    ]
+  },
+  {
+    "title": "In the Footsteps of Ansel Adams (Yosemite Valley)",
+    "description": "<p>Join a staff photographer for a field class around Yosemite Valley.</p>\n<p><em>Classes hosted by The Ansel Adams Gallery.</em></p>",
+    "date_start": "",
+    "date_end": null,
+    "is_free": false,
+    "location": "The Ansel Adams Gallery is located in Yosemtie Village, near shuttle stop 5.",
+    "times": [
+      {
+        "timestart": "12:30 PM",
+        "timeend": "04:30 PM",
+        "sunrisestart": "false",
+        "sunsetend": "false"
+      }
+    ]
+  }
+]

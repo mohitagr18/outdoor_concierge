@@ -1,0 +1,92 @@
+{
+  "location": {
+    "name": "Zion Lodge",
+    "region": "Utah",
+    "country": "United States of America",
+    "lat": 37.2508,
+    "lon": -112.9556,
+    "tz_id": "America/Denver"
+  },
+  "current": {
+    "temp_f": 46.0,
+    "feelslike_f": 45.5,
+    "condition": "Clear",
+    "wind_mph": 2.7,
+    "gust_mph": 5.6,
+    "humidity": 55
+  },
+  "forecast_days": [
+    {
+      "date": "2025-12-25",
+      "maxtemp_f": 59.0,
+      "mintemp_f": 47.1,
+      "avgtemp_f": 53.4,
+      "daily_chance_of_rain": 87,
+      "daily_chance_of_snow": 0,
+      "totalprecip_in": 0.58,
+      "condition": "Moderate rain",
+      "uv": 0.5
+    },
+    {
+      "date": "2025-12-26",
+      "maxtemp_f": 50.2,
+      "mintemp_f": 38.3,
+      "avgtemp_f": 45.6,
+      "daily_chance_of_rain": 67,
+      "daily_chance_of_snow": 0,
+      "totalprecip_in": 0.2,
+      "condition": "Moderate rain",
+      "uv": 0.4
+    },
+    {
+      "date": "2025-12-27",
+      "maxtemp_f": 41.5,
+      "mintemp_f": 35.8,
+      "avgtemp_f": 39.5,
+      "daily_chance_of_rain": 87,
+      "daily_chance_of_snow": 0,
+      "totalprecip_in": 1.93,
+      "condition": "Heavy rain",
+      "uv": 0.4
+    }
+  ],
+  "sunrise": "07:44 AM",
+  "sunset": "05:21 PM",
+  "alerts": [
+    {
+      "headline": "Winter Weather Advisory issued December 25 at 3:38AM MST until December 25 at 11:00PM MST by NWS Salt Lake City UT",
+      "severity": "Moderate",
+      "event": "Winter Weather Advisory",
+      "effective": "2025-12-25T03:38:00-07:00",
+      "expires": "2025-12-25T18:45:00-07:00"
+    },
+    {
+      "headline": "Winter Weather Advisory issued December 25 at 3:38AM MST until December 27 at 5:00PM MST by NWS Salt Lake City UT",
+      "severity": "Moderate",
+      "event": "Winter Weather Advisory",
+      "effective": "2025-12-25T03:38:00-07:00",
+      "expires": "2025-12-25T18:45:00-07:00"
+    },
+    {
+      "headline": "Wind Advisory issued December 24 at 11:34PM MST until December 26 at 5:00PM MST by NWS Salt Lake City UT",
+      "severity": "Moderate",
+      "event": "Wind Advisory",
+      "effective": "2025-12-24T23:34:00-07:00",
+      "expires": "2025-12-25T16:00:00-07:00"
+    },
+    {
+      "headline": "Winter Weather Advisory issued December 25 at 3:34PM MST until December 27 at 5:00PM MST by NWS Salt Lake City UT",
+      "severity": "Moderate",
+      "event": "Winter Weather Advisory",
+      "effective": "2025-12-25T15:34:00-07:00",
+      "expires": "2025-12-26T06:45:00-07:00"
+    },
+    {
+      "headline": "Wind Advisory issued December 25 at 12:57PM MST until December 26 at 5:00PM MST by NWS Salt Lake City UT",
+      "severity": "Moderate",
+      "event": "Wind Advisory",
+      "effective": "2025-12-25T12:57:00-07:00",
+      "expires": "2025-12-26T04:00:00-07:00"
+    }
+  ]
+}

@@ -1,0 +1,24 @@
+[
+  {
+    "title": "Zion Canyon Visitor Center Ranger Program",
+    "description": "<p>Swing by the Zion Canyon Visitor Center Plaza for a short ranger talk to enrich your park experience! Talks take place next to the shuttle depot so plan to attend before or after riding the Zion Canyon Shuttle. Explore the resources that make Zion special! Topics may include geology, wildlife, plants, human history, and so much more. No two programs are quite the same!</p>\n<p>\u00a0</p>\n<p>Accessibility information</p>\n<p>This program takes place outdoors on a partially-shaded patio. Stone benches are available for seating, as well as space for mobility devices. Rangers at the visitor center are available for any additional questions. You can also visit the\u00a0<a href=\"https://www.nps.gov/zion/planyourvisit/accessibility.htm\">Accessibility page\u00a0</a>of our website for more information.</p>",
+    "date_start": "",
+    "date_end": null,
+    "is_free": false,
+    "location": "This ranger talk takes place outdoors at the Zion Canyon Visitor Center amphitheater.",
+    "times": [
+      {
+        "timestart": "11:00 AM",
+        "timeend": "12:00 PM",
+        "sunrisestart": "false",
+        "sunsetend": "false"
+      },
+      {
+        "timestart": "03:00 PM",
+        "timeend": "04:00 PM",
+        "sunrisestart": "false",
+        "sunsetend": "false"
+      }
+    ]
+  }
+]

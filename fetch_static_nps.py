@@ -82,6 +82,12 @@ def main():
 
         # Visitor Centers
         save_json(nps.get_visitor_centers(park_code), park_code, "visitor_centers.json")
+
+        # Alerts
+        save_json(nps.get_alerts(park_code), park_code, "alerts.json")
+
+        # Events
+        save_json(nps.get_events(park_code), park_code, "events.json")
         
         # Webcams
         save_json(nps.get_webcams(park_code), park_code, "webcams.json")

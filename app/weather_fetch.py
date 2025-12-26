@@ -8,7 +8,7 @@ from dotenv import load_dotenv
 
 PROJECT_ROOT = Path(__file__).resolve().parents[1]
 ENV_PATH = PROJECT_ROOT / ".env"
-NPS_DATA_ROOT = PROJECT_ROOT / "data_samples" / "nps"
+NPS_DATA_ROOT = PROJECT_ROOT / "data_samples" / "ui_fixtures"
 
 WEATHER_BASE_URL = "https://api.weatherapi.com/v1/forecast.json"
 
@@ -22,18 +22,16 @@ def load_weather_key() -> str:
 
 
 def load_park_lat_lon(park_dir: Path) -> Dict[str, float]:
-    parks_path = park_dir / "parks_search.json"
+    parks_path = park_dir / "park_details.json"
     with parks_path.open("r", encoding="utf-8") as f:
         data = json.load(f)
 
-    parks: List[Dict[str, Any]] = data.get("data", [])
-    if not parks:
-        raise RuntimeError(f"No parks in {parks_path}")
+    # UI Fixture style uses 'location' key from ParkContext
+    loc = data.get("location")
+    if not loc or "lat" not in loc or "lon" not in loc:
+        raise RuntimeError(f"No valid location data in {parks_path}")
 
-    park = parks[0]
-    lat = float(park["latitude"])
-    lon = float(park["longitude"])
-    return {"lat": lat, "lon": lon}
+    return {"lat": float(loc["lat"]), "lon": float(loc["lon"])}
 
 
 def fetch_forecast_for_location(lat: float, lon: float, days: int = 3) -> Dict[str, Any]:
