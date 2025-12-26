@@ -1,0 +1,434 @@
+{
+  "total": "3",
+  "limit": "500",
+  "start": "0",
+  "data": [
+    {
+      "id": "B30A5B7D-0343-4E47-97E3-CBBAC4700D6B",
+      "url": "https://www.recreation.gov/camping/campgrounds/10138237",
+      "name": "Lava Point Campground",
+      "parkCode": "zion",
+      "description": "This campground is typically open May through September, as weather allows. Situated at 7890 feet above sea level, it is off the Kolob Terrace Road, 25 miles (45 minutes) north of the town of Virgin. It takes approximately one hour and 20 minutes to drive to the campground from the South Entrance of Zion Canyon. There are 6 primitive campsites available for reservations. The campground has pit toilets and trash cans, but no water. Vehicles longer than 19 feet are not permitted.",
+      "latitude": "37.3838790936",
+      "longitude": "-113.032845693",
+      "latLong": "{lat:37.3838790936, lng:-113.032845693}",
+      "audioDescription": "This campground is typically open May through September, as weather allows. Situated at 7890 feet above sea level, it is off the Kolob Terrace Road, 25 miles (45 minutes) north of the town of Virgin. It takes approximately one hour and 20 minutes to drive to the campground from the South Entrance of Zion Canyon. There are 6 primitive campsites available for reservations. The campground has pit toilets and trash cans, but no water. Vehicles longer than 19 feet are not permitted on the Kolob Terrace Road.",
+      "isPassportStampLocation": "0",
+      "passportStampLocationDescription": "",
+      "passportStampImages": [],
+      "geometryPoiId": "8C589E17-12EC-482F-AB27-C3B4044584C7",
+      "reservationInfo": "Lava Point Campground is typically open May through September, as weather allows. Situated at 7890 feet above sea level, it is off the Kolob Terrace Road, 25 miles (45 minutes) north of the town of Virgin. It takes approximately 1 hour 20 minutes to drive to the campground from the South Entrance of Zion Canyon.",
+      "reservationUrl": "https://www.recreation.gov/camping/campgrounds/10138237",
+      "regulationsurl": "",
+      "regulationsOverview": "Vehicles longer than 19 feet are not permitted on the road to the campground. Store your food in a vehicle or a hard-sided lockable container. Do not feed wildlife. Do not leave trash unattended. Please dispose of trash in dumpsters. Lava Point campground cannot be included in the itinerary of any Wilderness backpacking trips. If you are planning a backpacking traverse hike (going from Kolob Canyons south and across Zion Canyon) you need to make reservations for each night in designated Wilderness campsites and camp areas.",
+      "amenities": {
+        "trashRecyclingCollection": "Yes - seasonal",
+        "toilets": [
+          "Vault Toilets - seasonal"
+        ],
+        "internetConnectivity": "No",
+        "showers": [
+          "None"
+        ],
+        "cellPhoneReception": "No",
+        "laundry": "No",
+        "amphitheater": "No",
+        "dumpStation": "No",
+        "campStore": "No",
+        "staffOrVolunteerHostOnsite": "Yes - seasonal",
+        "potableWater": [
+          "No water"
+        ],
+        "iceAvailableForSale": "No",
+        "firewoodForSale": "No",
+        "foodStorageLockers": "No"
+      },
+      "contacts": {
+        "phoneNumbers": [],
+        "emailAddresses": []
+      },
+      "fees": [
+        {
+          "cost": "25.00",
+          "description": "There are 6 primitive campsites available for reservations. The campground has pit toilets and trash cans, but no water. Vehicles longer than 19 feet are not permitted on the Kolob Terrace Road.",
+          "title": "Tent Only Campsite"
+        }
+      ],
+      "directionsOverview": "",
+      "directionsUrl": "",
+      "operatingHours": [
+        {
+          "exceptions": [
+            {
+              "exceptionHours": {
+                "wednesday": "Closed",
+                "monday": "Closed",
+                "thursday": "Closed",
+                "sunday": "Closed",
+                "tuesday": "Closed",
+                "friday": "Closed",
+                "saturday": "Closed"
+              },
+              "startDate": "2025-10-02",
+              "name": "Closed for part of fall and winter and when Kolob Terrace Road is snowed in",
+              "endDate": "2026-06-01"
+            }
+          ],
+          "description": "Lava Point Campground is open.\n\nThe campground is usually open from May through September, but the exact dates change. The campground's season depends on when Kolob Terrace Road opens/closes for winter snow.\n\nMake reservations on recreation.gov using the links here.",
+          "standardHours": {
+            "wednesday": "All Day",
+            "monday": "All Day",
+            "thursday": "All Day",
+            "sunday": "All Day",
+            "tuesday": "All Day",
+            "friday": "All Day",
+            "saturday": "All Day"
+          },
+          "name": "Lava Point Campground"
+        }
+      ],
+      "addresses": [],
+      "images": [],
+      "weatherOverview": "Zion is known for a wide range of weather conditions. Temperatures vary with changes in elevation and day/night temperatures may differ by over 30\u00b0F. Learn more on our weather webpage: https://www.nps.gov/zion/planyourvisit/weather-and-climate.htm The campground is 7890 feet above sea level. This is almost 5000 feet higher than the south entrance of Zion National Park at Springdale. This means it is usually cooler at Lava Point than in other parts of Zion National Park.",
+      "numberOfSitesReservable": "6",
+      "numberOfSitesFirstComeFirstServe": "0",
+      "campsites": {
+        "totalSites": "6",
+        "group": "0",
+        "horse": "0",
+        "tentOnly": "6",
+        "electricalHookups": "0",
+        "rvOnly": "0",
+        "walkBoatTo": "0",
+        "other": "0"
+      },
+      "accessibility": {
+        "wheelchairAccess": "",
+        "internetInfo": "",
+        "cellPhoneInfo": "Cell coverage at the campground is not reliable, but you may be able to connect to some services from the Lava Point Overlook/picnic area.",
+        "fireStovePolicy": "Check for fire restrictions at all times and especially in summer months. Each campsite has a picnic table and fire pit with attached grill. Please restrict fires to fire rings, and make sure fires are out cold before going to sleep or leaving your campsite.",
+        "rvAllowed": "0",
+        "rvInfo": "",
+        "rvMaxLength": "0",
+        "additionalInfo": "",
+        "trailerMaxLength": "0",
+        "adaInfo": "",
+        "trailerAllowed": "0",
+        "accessRoads": [],
+        "classifications": []
+      },
+      "multimedia": [],
+      "relevanceScore": 1.0,
+      "lastIndexedDate": ""
+    },
+    {
+      "id": "BC2D51FF-DE4E-407C-86B3-3470BE11BBAF",
+      "url": "https://www.nps.gov/zion/planyourvisit/south-campground.htm",
+      "name": "South Campground - Closed for Rehabilitation",
+      "parkCode": "zion",
+      "description": "South Campground is located near the Zion Canyon Visitor Center, \u00bd mile from the South Entrance at Springdale, Utah. When open, tent, dry RV, and group campsites are typically available by reservation from March through October. All sites include a place for a tent or RV, a picnic table, and a fire ring. Reservations may be made 14 days in advance of your stay. Reservations are needed because the campground is full nearly every night.",
+      "latitude": "37.203742599284524",
+      "longitude": "-112.98419155753885",
+      "latLong": "{lat:37.203742599284524, lng:-112.98419155753885}",
+      "audioDescription": "South Campground is located \u00bd mile from the South Entrance. South Campground has three flat sites, but no accessible facilities such as restrooms or trails. Campers staying in South Campground can travel .3 miles to the Watchman Campground to utilize accessible restrooms if necessary.",
+      "isPassportStampLocation": "0",
+      "passportStampLocationDescription": "",
+      "passportStampImages": [],
+      "geometryPoiId": "3880B9FC-1578-4D6A-9E35-2BD270321973",
+      "reservationInfo": "Reservations for campsites at South Campground may be made two weeks prior to your arrival date online at www.recreation.gov or by calling 877-444-6777. Reservations are needed since the campground is full nearly every night during the reservation season.",
+      "reservationUrl": "https://www.recreation.gov/camping/campgrounds/272266",
+      "regulationsurl": "https://www.nps.gov/zion/planyourvisit/south-campground.htm",
+      "regulationsOverview": "-Check out time is 11am. -Quiet hours are 10pm to 8am. Generator use is only allowed from 8am to 10am and 6pm to 8pm. -Do not move picnic tables. -Tents, vehicles, and hammocks must remain within campsite boundaries and cannot be on vegetation. Please refer to Campground Map and Regulations document at the bottom of the page for information about food storage, recreation equipment, and more.",
+      "amenities": {
+        "trashRecyclingCollection": "Yes - seasonal",
+        "toilets": [
+          "Flush Toilets - year round"
+        ],
+        "internetConnectivity": "No",
+        "showers": [
+          "None"
+        ],
+        "cellPhoneReception": "Yes - year round",
+        "laundry": "No",
+        "amphitheater": "No",
+        "dumpStation": "Yes - seasonal",
+        "campStore": "No",
+        "staffOrVolunteerHostOnsite": "Yes - seasonal",
+        "potableWater": [
+          "Yes - seasonal"
+        ],
+        "iceAvailableForSale": "No",
+        "firewoodForSale": "No",
+        "foodStorageLockers": "No"
+      },
+      "contacts": {
+        "phoneNumbers": [
+          {
+            "phoneNumber": "4357723256",
+            "description": "",
+            "extension": "",
+            "type": "Voice"
+          }
+        ],
+        "emailAddresses": [
+          {
+            "description": "General park questions may be emailed to zion_park_information@nps.gov.",
+            "emailAddress": "zion_south_campground@nps.gov"
+          }
+        ]
+      },
+      "fees": [
+        {
+          "cost": "35.00",
+          "description": "Tent Campsites",
+          "title": "Tent Campsites"
+        },
+        {
+          "cost": "50.00",
+          "description": "Group Campsites",
+          "title": "Group Campsites"
+        }
+      ],
+      "directionsOverview": "South Campground is located near to the Zion Canyon Visitor Center, 0.5 mile away from the South Entrance at Springdale, Utah. Follow the signs after entering the park.",
+      "directionsUrl": "https://www.nps.gov/zion/planyourvisit/directions.htm",
+      "operatingHours": [
+        {
+          "exceptions": [
+            {
+              "exceptionHours": {
+                "wednesday": "Closed",
+                "monday": "Closed",
+                "thursday": "Closed",
+                "sunday": "Closed",
+                "tuesday": "Closed",
+                "friday": "Closed",
+                "saturday": "Closed"
+              },
+              "startDate": "2025-10-23",
+              "name": "Winter Closure",
+              "endDate": "2026-03-14"
+            }
+          ],
+          "description": "Generally, the South Campground is open March through October. The campground will be closed in the winter season. The actual availability should be reflected on Recreation.gov.",
+          "standardHours": {
+            "wednesday": "Closed",
+            "monday": "Closed",
+            "thursday": "Closed",
+            "sunday": "Closed",
+            "tuesday": "Closed",
+            "friday": "Closed",
+            "saturday": "Closed"
+          },
+          "name": "South Campground"
+        }
+      ],
+      "addresses": [],
+      "images": [
+        {
+          "credit": "South Campground",
+          "crops": [],
+          "title": "South Campground",
+          "altText": "South Campground",
+          "caption": "South Campground",
+          "url": "https://www.nps.gov/common/uploads/structured_data/025A8451-CBAA-A4FA-2728B33E34CE21DC.jpg"
+        }
+      ],
+      "weatherOverview": "Zion is known for a wide range of weather conditions. Temperatures vary with changes in elevation and day/night temperatures may differ by over 30\u00b0F. More details are on our weather webpage: https://www.nps.gov/zion/planyourvisit/weather-and-climate.htm",
+      "numberOfSitesReservable": "117",
+      "numberOfSitesFirstComeFirstServe": "0",
+      "campsites": {
+        "totalSites": "117",
+        "group": "4",
+        "horse": "0",
+        "tentOnly": "8",
+        "electricalHookups": "0",
+        "rvOnly": "0",
+        "walkBoatTo": "8",
+        "other": "0"
+      },
+      "accessibility": {
+        "wheelchairAccess": "There are three wheelchair accessible sites. The Pa'rus Trail, an accessible trail, can be accessed from the South Campground with assistance.",
+        "internetInfo": "",
+        "cellPhoneInfo": "",
+        "fireStovePolicy": "Fires are not allowed when fire restrictions are in place.",
+        "rvAllowed": "1",
+        "rvInfo": "Sites are a variety of sizes. Length limits for each site are provided in the site details on Recreation.gov.",
+        "rvMaxLength": "40",
+        "additionalInfo": "There are no hook-ups available in this campground, though a dump station with potable water is available for campers. Generators are allowed from 8:00 a.m. to 10:00 a.m. and from 6:00 p.m. to 8:00 p.m. Shaded/tree sites can only accommodate vehicles with maximum height of 12 feet 6 inches (3.84 meters). Hammocks are allowed in the campground but can only be set up over the footprint of the campsite, limited to trees more than 10 inches in diameter with adequate padding around the tree, and only 2 hammocks are allowed to be suspended from the same tree. Food must be stored in a vehicle or hard-sided lockable container. Feeding wildlife is strictly prohibited. Do not leave trash unattended. Dispose of trash in dumpsters, and leave campsites free of litter. Black water must be disposed of at the dump station, not on the ground, in the river, or in irrigation ditches. Grey water (dishwater and solar shower) must be dumped down drains near the water spigots outside each restroom, not on the ground.",
+        "trailerMaxLength": "40",
+        "adaInfo": "South Campground has three flat sites, but no accessible facilities such as restrooms. Campers staying in South Campground can travel 0.3 miles to the Watchman Campground to utilize accessible restrooms if necessary.",
+        "trailerAllowed": "1",
+        "accessRoads": [
+          "Paved Roads - All vehicles OK"
+        ],
+        "classifications": [
+          "Developed Campground"
+        ]
+      },
+      "multimedia": [],
+      "relevanceScore": 1.0,
+      "lastIndexedDate": ""
+    },
+    {
+      "id": "2DEDB733-BCA8-41FF-8E0C-3E676DE620DF",
+      "url": "https://www.nps.gov/zion/planyourvisit/watchman-campground.htm",
+      "name": "Watchman Campground",
+      "parkCode": "zion",
+      "description": "Watchman Campground is located next to the Zion Canyon Visitor Center, \u00bc mile away from the South Entrance in Springdale, Utah. Tent and electric campsites are available year-round and group campsites are available from March through November. All sites include a place for a tent or RV, a picnic table, and access to a fire ring. All campsites in Watchman Campground require reservations year-round. Reservations may be made six (6) months in advance.",
+      "latitude": "37.1975852245",
+      "longitude": "-112.987306895",
+      "latLong": "{lat:37.1975852245, lng:-112.987306895}",
+      "audioDescription": "Watchman Campground is located \u00bc mile from the South Entrance. Watchman Campground has seven standard accessible sites and two accessible group sites, all of which have easy access to accessible restrooms. The road access route to the Visitor Center and Shuttle Stop has grades of up to 5% for 30-foot stretches. An alternate concrete and asphalt-paved pathway adjacent to the amphitheater through the river entrance plaza has slopes of up to 18% for 5\u2019 stretches and slopes up to 8% for 39 foot stretches with some uneven surfaces. A beach access route near site B56 allows visitors using mobility devices to get close to the Virgin River, however flooding has created a step at the end of the concrete pathway. The amphitheater has accessible seating located on the top row.",
+      "isPassportStampLocation": "0",
+      "passportStampLocationDescription": "",
+      "passportStampImages": [],
+      "geometryPoiId": "CE2E619D-B574-4E3D-B648-973ABE166C09",
+      "reservationInfo": "Reservations for campsites at Watchman Campground may be made six months prior to your arrival date online at www.recreation.gov or by calling 877-444-6777. Reservations are strongly suggested since the campground is full nearly every night during the reservation season.",
+      "reservationUrl": "https://www.recreation.gov/camping/campgrounds/232445",
+      "regulationsurl": "http://www.nps.gov/zion/planyourvisit/watchman-campground.htm",
+      "regulationsOverview": "- Check out time is 11:00 a.m. - Quiet hours are 10:00 p.m. to 8:00 a.m. Generators are not permitted at any time. - Do not move picnic tables. - Tents and vehicles must not be on vegetation. - No fires are permitted when fire restrictions are in place. Please refer to Campground Map and Regulations document at the bottom of the page for information about food storage, recreation equipment, and more.",
+      "amenities": {
+        "trashRecyclingCollection": "Yes - year round",
+        "toilets": [
+          "Flush Toilets - year round"
+        ],
+        "internetConnectivity": "No",
+        "showers": [
+          "None"
+        ],
+        "cellPhoneReception": "Yes - year round",
+        "laundry": "No",
+        "amphitheater": "Yes - seasonal",
+        "dumpStation": "Yes - year round",
+        "campStore": "No",
+        "staffOrVolunteerHostOnsite": "Yes - year round",
+        "potableWater": [
+          "Yes - year round"
+        ],
+        "iceAvailableForSale": "No",
+        "firewoodForSale": "No",
+        "foodStorageLockers": "No"
+      },
+      "contacts": {
+        "phoneNumbers": [
+          {
+            "phoneNumber": "4357723256",
+            "description": "",
+            "extension": "",
+            "type": "Voice"
+          }
+        ],
+        "emailAddresses": [
+          {
+            "description": "General park questions may be emailed to zion_park_information@nps.gov.",
+            "emailAddress": "zion_watchman_campground@nps.gov"
+          }
+        ]
+      },
+      "fees": [
+        {
+          "cost": "30.00",
+          "description": "Generators are not permitted, but 95 campsites have electrical hookups. Reserve an electric campsite if you need power.",
+          "title": "Electric Campsites (until July 3, 2024)"
+        },
+        {
+          "cost": "20.00",
+          "description": "There are 69 campsites that are for tents only with combined vehicle length less than 19' (5.8 m).\n\nThere are 18 Tent Only, Walk-in campsites. These sites are a short walking distance from parking.",
+          "title": "Tent Only Campsites (until July 3, 2024)"
+        },
+        {
+          "cost": "50.00",
+          "description": "There are 6 group campsites that are limited to one site per affiliated group at a time with a seven day per stay limit. The sites can accommodate from 9 to 40 campers. The group campsites are tent only. RVs, camping trailers, and pop-up campers are not permitted. Cost $50.00 per night for 7-12 people, $90.00 per night for 16-25 people and $130.00 per night for 26-40 people.",
+          "title": "Group Campsites"
+        },
+        {
+          "cost": "10.00",
+          "description": "2 wheelchair accessible sites",
+          "title": "Accessible Sites (until July 3, 2024)"
+        },
+        {
+          "cost": "45.00",
+          "description": "Generators are not permitted, but 95 campsites have electrical hookups. Reserve an electric campsite if you need power.",
+          "title": "Electric Campsite (starting July 4, 2024)"
+        },
+        {
+          "cost": "35.00",
+          "description": "There are 69 campsites that are for tents only with combined vehicle length less than 19' (5.8 m).\n\nThere are 18 Tent Only, Walk-in campsites. These sites are a short walking distance from parking.",
+          "title": "Tent Only Campsite (starting July 4, 2024)"
+        }
+      ],
+      "directionsOverview": "Watchman Campground is located next to the Zion Canyon Visitor Center, \u00bc mile away from the South Entrance at Springdale, Utah. Follow the signs after entering the park.",
+      "directionsUrl": "http://www.nps.gov/zion/planyourvisit/directions.htm",
+      "operatingHours": [
+        {
+          "exceptions": [],
+          "description": "Watchman Campground remains open all year, with reduced availability in winter. All sites in Watchman Campground require reservations. Generally, the D, E, and F Loops are closed in December, January, and February. The actual availability should be reflected on Recreation.gov",
+          "standardHours": {
+            "wednesday": "All Day",
+            "monday": "All Day",
+            "thursday": "All Day",
+            "sunday": "All Day",
+            "tuesday": "All Day",
+            "friday": "All Day",
+            "saturday": "All Day"
+          },
+          "name": "Watchman Campground"
+        }
+      ],
+      "addresses": [],
+      "images": [
+        {
+          "credit": "NPS Photo",
+          "crops": [],
+          "title": "Watchman Campground",
+          "altText": "Watchman Campground",
+          "caption": "Watchman Campground",
+          "url": "https://www.nps.gov/common/uploads/structured_data/02B75277-A3FC-4EF9-83349A99B38D424F.jpg"
+        },
+        {
+          "credit": "NPS Photo",
+          "crops": [],
+          "title": "Watchman Campground Restroom",
+          "altText": "Watchman Campground Restroom",
+          "caption": "Watchman Campground Restroom",
+          "url": "https://www.nps.gov/common/uploads/structured_data/93200640-ACF8-BFA4-EE6F5AD5A532D4FF.jpg"
+        }
+      ],
+      "weatherOverview": "Zion is known for a wide range of weather conditions. Temperatures vary with changes in elevation and day/night temperatures may differ by over 30\u00b0F. More details are on our weather webpage: https://www.nps.gov/zion/planyourvisit/weather-and-climate.htm",
+      "numberOfSitesReservable": "176",
+      "numberOfSitesFirstComeFirstServe": "0",
+      "campsites": {
+        "totalSites": "176",
+        "group": "7",
+        "horse": "0",
+        "tentOnly": "69",
+        "electricalHookups": "95",
+        "rvOnly": "65",
+        "walkBoatTo": "18",
+        "other": "0"
+      },
+      "accessibility": {
+        "wheelchairAccess": "Pavement in some sites is broken and can make wheelchair use difficult. Gravel pathways to bathrooms. Fire grills elevated, and picnic tables are extended. Asphalt trail leads to Watchman Amphitheater. Bathrooms are wheelchair accessible.",
+        "internetInfo": "",
+        "cellPhoneInfo": "",
+        "fireStovePolicy": "No fires are permitted when Fire Restrictions are in place.",
+        "rvAllowed": "1",
+        "rvInfo": "Sites are a variety of sizes. Length limits for each site are provided in the site details on recreation.gov.",
+        "rvMaxLength": "40",
+        "additionalInfo": "All services are available in Springdale, Utah, one half-mile away. There are no full-hookup campsites; a dump station is available for campers. Shaded/tree sites can only accommodate vehicles with maximum height of 12' 6\" (3.81 m). There are 18 Tent Only, Walk-in campsites. These sites are a short walking distance from vehicle parking and are ideal for bicyclists and backpackers. Electric campsites are available in Loops A and B. Nonelectric campsites are are in Loops C, D, and F. Group Campsites: There are 6 group campsites that are limited to one site per affiliated group at a time with a seven day per stay limit. The group campsites are tent only sites. RVs, camping trailers, and pop-up campers are not permitted to camp in these sites. Hammocks are not allowed in group sites. The sites can accommodate 7 to 40 campers. E1 holds 15-30 people and is $130.00/night, E2 holds 15-25 people and is $90.00/night, E3 and E7 holds 20-40 people and is $130.00/night, E5 holds 7-15 people and is $50.00/night.",
+        "trailerMaxLength": "40",
+        "adaInfo": "Sites A-24 and A-25 are reserved for ADA use. Watchman Campground has seven accessible sites and multiple other flat sites with easy access to six accessible restrooms. The road access route to the Visitor Center and Shuttle Stop has grades of up to 5% for 30-foot stretches, but has trench drain covers across sections of road with openings wider than 1 inch in certain locations. An alternate concrete and asphalt-paved pathway adjacent to the amphitheater through the river entrance plaza has slopes of up to 18% for 5-foot stretches and slopes up to 8% for 39-foot stretches. The amphitheater has accessible seating located on the top row.",
+        "trailerAllowed": "1",
+        "accessRoads": [
+          "Paved Roads - All vehicles OK"
+        ],
+        "classifications": [
+          "Developed Campground"
+        ]
+      },
+      "multimedia": [],
+      "relevanceScore": 1.0,
+      "lastIndexedDate": ""
+    }
+  ]
+}

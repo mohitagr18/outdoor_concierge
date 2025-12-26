@@ -51,72 +51,72 @@ class NPSClient(BaseClient):
             logger.error(f"Failed to fetch park details for {park_code}: {e}")
             return None
 
-    def get_alerts(self, park_code: str) -> List[Alert]:
+    def get_alerts(self, park_code: str, limit: int = 50) -> List[Alert]:
         try:
-            params = {"parkCode": park_code}
+            params = {"parkCode": park_code, "limit": limit}
             data = self._get("alerts", params=params, headers=self._get_headers())
             return parse_nps_alerts(data)
         except Exception as e:
             logger.error(f"Failed to fetch alerts for {park_code}: {e}")
             return []
 
-    def get_events(self, park_code: str) -> List[Event]:
+    def get_events(self, park_code: str, limit: int = 50) -> List[Event]:
         try:
-            params = {"parkCode": park_code}
+            params = {"parkCode": park_code, "limit": limit}
             data = self._get("events", params=params, headers=self._get_headers())
             return parse_nps_events(data)
         except Exception as e:
             logger.error(f"Failed to fetch events for {park_code}: {e}")
             return []
 
-    def get_campgrounds(self, park_code: str) -> List[Campground]:
+    def get_campgrounds(self, park_code: str, limit: int = 50) -> List[Campground]:
         try:
-            params = {"parkCode": park_code}
+            params = {"parkCode": park_code, "limit": limit}
             data = self._get("campgrounds", params=params, headers=self._get_headers())
             return parse_nps_campgrounds(data)
         except Exception as e:
             logger.error(f"Failed to fetch campgrounds for {park_code}: {e}")
             return []
 
-    def get_visitor_centers(self, park_code: str) -> List[VisitorCenter]:
+    def get_visitor_centers(self, park_code: str, limit: int = 50) -> List[VisitorCenter]:
         try:
-            params = {"parkCode": park_code}
+            params = {"parkCode": park_code, "limit": limit}
             data = self._get("visitorcenters", params=params, headers=self._get_headers())
             return parse_nps_visitor_centers(data)
         except Exception as e:
             logger.error(f"Failed to fetch visitor centers for {park_code}: {e}")
             return []
 
-    def get_webcams(self, park_code: str) -> List[Webcam]:
+    def get_webcams(self, park_code: str, limit: int = 50) -> List[Webcam]:
         try:
-            params = {"parkCode": park_code}
+            params = {"parkCode": park_code, "limit": limit}
             data = self._get("webcams", params=params, headers=self._get_headers())
             return parse_nps_webcams(data)
         except Exception as e:
             logger.error(f"Failed to fetch webcams for {park_code}: {e}")
             return []
 
-    def get_places(self, park_code: str) -> List[Place]:
+    def get_places(self, park_code: str, limit: int = 500) -> List[Place]:
         try:
-            params = {"parkCode": park_code}
+            params = {"parkCode": park_code, "limit": limit}
             data = self._get("places", params=params, headers=self._get_headers())
             return parse_nps_places(data)
         except Exception as e:
             logger.error(f"Failed to fetch places for {park_code}: {e}")
             return []
 
-    def get_things_to_do(self, park_code: str) -> List[ThingToDo]:
+    def get_things_to_do(self, park_code: str, limit: int = 500) -> List[ThingToDo]:
         try:
-            params = {"parkCode": park_code}
+            params = {"parkCode": park_code, "limit": limit}
             data = self._get("thingstodo", params=params, headers=self._get_headers())
             return parse_nps_things_to_do(data)
         except Exception as e:
             logger.error(f"Failed to fetch things to do for {park_code}: {e}")
             return []
 
-    def get_passport_stamps(self, park_code: str) -> List[PassportStamp]:
+    def get_passport_stamps(self, park_code: str, limit: int = 50) -> List[PassportStamp]:
         try:
-            params = {"parkCode": park_code}
+            params = {"parkCode": park_code, "limit": limit}
             data = self._get("passportstamplocations", params=params, headers=self._get_headers())
             return parse_nps_passport_stamps(data)
         except Exception as e:
