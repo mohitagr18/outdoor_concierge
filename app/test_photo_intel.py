@@ -4,12 +4,14 @@ import requests
 from dotenv import load_dotenv
 from firecrawl import Firecrawl
 from pydantic import BaseModel
+from google import genai
+from pydantic import BaseModel
 from typing import List, Optional
-from openai import OpenAI
 
 load_dotenv()
 FIRECRAWL_API_KEY = os.getenv("FIRECRAWL_API_KEY")
-OPENAI_API_KEY = os.getenv("OPENAI_API_KEY")
+GEMINI_API_KEY = os.getenv("GEMINI_API_KEY")
+GEMINI_MODEL = os.getenv("GEMINI_MODEL") or "gemini-1.5-flash"
 SERPER_API_KEY = os.getenv("SERPER_API_KEY")
 
 class PhotoSpot(BaseModel):
@@ -37,12 +39,15 @@ def main():
     if not SERPER_API_KEY: 
         print("Missing SERPER_API_KEY")
         return
+    if not GEMINI_API_KEY:
+        print("Missing GEMINI_API_KEY")
+        return
         
     urls = search_blogs()
     app = Firecrawl(api_key=FIRECRAWL_API_KEY)
-    client = OpenAI(api_key=OPENAI_API_KEY)
+    client = genai.Client(api_key=GEMINI_API_KEY)
 
-    print(f"\n--- Scraping Photography Blogs ---\n")
+    print(f"\n--- Scraping Photography Blogs (Gemini Mode)---\n")
     for url in urls:
         print(f"Scraping: {url}")
         try:
@@ -50,15 +55,12 @@ def main():
             md = res.get('markdown') if isinstance(res, dict) else str(res)
             
             if md:
-                completion = client.beta.chat.completions.parse(
-                    model="gpt-4o-mini",
-                    messages=[
-                        {"role": "system", "content": "Extract photography spots, best times, and specific tips."},
-                        {"role": "user", "content": md[:30000]}
-                    ],
-                    response_format=PhotoGuide,
+                response = client.models.generate_content(
+                    model=GEMINI_MODEL,
+                    contents=f"Extract photography spots, best times, and specific tips from this markdown:\n\n{md[:30000]}",
+                    config={'response_mime_type': 'application/json', 'response_schema': PhotoGuide}
                 )
-                guide = completion.choices[0].message.parsed
+                guide = response.parsed
                 
                 print(f"\nSOURCE: {url}")
                 for spot in guide.spots:

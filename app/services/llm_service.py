@@ -84,13 +84,15 @@ class AgentWorker:
 # --- Main Service Implementation ---
 
 class GeminiLLMService:
-    def __init__(self, api_key: str, model_name: str = "gemini-3-flash-preview") -> None:
+    def __init__(self, api_key: str, model_name: Optional[str] = None) -> None:
         if not api_key:
             raise ValueError("GEMINI_API_KEY is required.")
         
+        # Use env var if provided, otherwise fallback to stable flash
+        self.model_name = model_name or os.getenv("GEMINI_MODEL") or "gemini-1.5-flash"
         self.client = genai.Client(api_key=api_key)
-        self.model_name = model_name
-        logger.info("Initialized GeminiLLMService (google-genai) with model %s", model_name)
+        
+        logger.info("Initialized GeminiLLMService (google-genai) with model %s", self.model_name)
 
         # Common instruction fragment to force link preservation
         link_instruction = "ALWAYS preserve markdown links [Name](url) from the context in your final output. Do not strip URLs."

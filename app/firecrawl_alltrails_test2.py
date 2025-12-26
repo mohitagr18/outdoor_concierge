@@ -6,21 +6,22 @@ from dotenv import load_dotenv
 from firecrawl import Firecrawl
 from pydantic import BaseModel, Field
 from typing import List, Optional
-from openai import OpenAI
+from google import genai
 
 # Load environment variables
 load_dotenv()
 
 # --- Configuration ---
 FIRECRAWL_API_KEY = os.getenv("FIRECRAWL_API_KEY")
-OPENAI_API_KEY = os.getenv("OPENAI_API_KEY") 
+GEMINI_API_KEY = os.getenv("GEMINI_API_KEY")  # Using Gemini Key
+GEMINI_MODEL = os.getenv("GEMINI_MODEL") or "gemini-1.5-flash"
 OUTPUT_DIR = "data_samples/firecrawl"
 TARGET_URL = "https://www.alltrails.com/trail/us/utah/angels-landing-trail"
 
 if not FIRECRAWL_API_KEY:
     raise ValueError("FIRECRAWL_API_KEY not found. Check .env")
-if not OPENAI_API_KEY:
-    print("WARNING: OPENAI_API_KEY not found.")
+if not GEMINI_API_KEY:
+    print("WARNING: GEMINI_API_KEY not found.")
 
 # --- Models ---
 class Review(BaseModel):
@@ -61,52 +62,32 @@ def scrape_trail_markdown(app: Firecrawl, url: str):
         return None
 
 # --- 2. Extract ---
-# ... imports ...
+def extract_with_gemini(markdown_content: str):
+    print(f"\n--- 2. Extracting (Gemini - Aggressive Mode) ---")
+    if not GEMINI_API_KEY: return None
 
-def extract_with_local_llm(markdown_content: str):
-    print(f"\n--- 2. Extracting (Local LLM - Aggressive Mode) ---")
-    if not OPENAI_API_KEY: return None
-
-    client = OpenAI(api_key=OPENAI_API_KEY)
+    client = genai.Client(api_key=GEMINI_API_KEY)
     today_str = datetime.now().strftime("%B %d, %Y")
     
-    # AGGRESSIVE PROMPT
     system_prompt = (
-    f"Today is {today_str}. You are a precise data extraction engine. "
-    "Your goal is to extract trail data from the provided markdown. "
-    
-    "CRITICAL RULES FOR REVIEWS:\n"
-    "1. EXTRACT ALL REVIEWS found in the text, up to 10 reviews maximum.\n"
-    "2. DO NOT SKIP reviews that lack images. Text-only reviews are VALID and MUST be included.\n"
-    "3. Process reviews sequentially - do NOT stop after finding only reviews with images.\n"
-    "4. FOR IMAGE EXTRACTION: After extracting each review's text content, check if image links follow it.\n"
-    "   - Image links appear as: `[![alt](url)](link)` or `![alt](url)`\n"
-    "   - If images exist: capture ALL valid image URLs for that review\n"
-    "   - If NO images exist: set `visible_image_urls` to an empty array []\n"
-    "5. CONTINUE extracting the next review regardless of whether the previous one had images.\n"
-    "6. DATES: Convert relative dates ('Yesterday', '2 days ago', etc.) to actual dates based on today: {today_str}\n"
-    "7. ORDER: Preserve the exact order found in the markdown (typically newest first).\n"
-    "8. COMPLETENESS: Extract reviews until you reach 10 OR run out of reviews in the text, whichever comes first.\n"
-    
-    "\nEXAMPLE LOGIC:\n"
-    "- Review 1: Has text + image → Extract both\n"
-    "- Review 2: Has text only → Extract text, set visible_image_urls: []\n"
-    "- Review 3: Has text + 2 images → Extract text and both images\n"
-    "- Continue for ALL reviews found...\n"
+        f"Today is {today_str}. You are a precise data extraction engine. "
+        "Your goal is to extract trail data from the provided markdown. "
+        
+        "CRITICAL RULES FOR REVIEWS:\n"
+        "1. EXTRACT ALL REVIEWS found in the text, up to 10 reviews maximum.\n"
+        "2. DO NOT SKIP reviews that lack images. Text-only reviews are VALID and MUST be included.\n"
+        "3. Process reviews sequentially.\n"
+        "4. IMAGE EXTRACTION: Capture valid image URLs if they exist, otherwise [].\n"
+        "5. DATES: Convert relative dates ('Yesterday', etc.) to actual dates based on today: {today_str}\n"
     )
 
-
     try:
-        completion = client.beta.chat.completions.parse(
-            model="gpt-4o-mini",
-            messages=[
-                {"role": "system", "content": system_prompt},
-                # Pass 50k chars to be safe we don't cut off the review list
-                {"role": "user", "content": markdown_content[:50000]} 
-            ],
-            response_format=TrailData,
+        response = client.models.generate_content(
+            model=GEMINI_MODEL,
+            contents=f"{system_prompt}\n\nMarkdown Content:\n{markdown_content[:30000]}",
+            config={'response_mime_type': 'application/json', 'response_schema': TrailData}
         )
-        return completion.choices[0].message.parsed
+        return response.parsed
     except Exception as e:
         print(f"Extraction error: {e}")
         return None
@@ -130,8 +111,8 @@ def main():
             f.write(md)
         
         # Extract
-        if OPENAI_API_KEY:
-            data = extract_with_local_llm(md)
+        if GEMINI_API_KEY:
+            data = extract_with_gemini(md)
             if data:
                 # Save JSON
                 json_str = data.model_dump_json(indent=2)
