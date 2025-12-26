@@ -120,26 +120,61 @@ class OutdoorConciergeOrchestrator:
 
         intent.park_code = final_park_code
 
-        # 3. Fetch Data (All Sources)
-        park = self.nps.get_park_details(intent.park_code)
+        # 3. Fetch Data (Hybrid approach: Cache-First for static, Live for dynamic)
+        
+        # --- A. Static Data (Try Local Fixtures First) ---
+        park_raw = self.data_manager.load_fixture(intent.park_code, "park_details.json")
+        if park_raw:
+            park = ParkContext(**park_raw)
+            logger.debug(f"Loaded park_details from fixture for {intent.park_code}")
+        else:
+            park = self.nps.get_park_details(intent.park_code)
+
+        campgrounds_raw = self.data_manager.load_fixture(intent.park_code, "campgrounds.json")
+        if campgrounds_raw:
+            campgrounds = [Campground(**c) for c in campgrounds_raw]
+            logger.debug(f"Loaded campgrounds from fixture for {intent.park_code}")
+        else:
+            campgrounds = self.nps.get_campgrounds(intent.park_code)
+
+        visitor_centers_raw = self.data_manager.load_fixture(intent.park_code, "visitor_centers.json")
+        if visitor_centers_raw:
+            visitor_centers = [VisitorCenter(**v) for v in visitor_centers_raw]
+            logger.debug(f"Loaded visitor_centers from fixture for {intent.park_code}")
+        else:
+            visitor_centers = self.nps.get_visitor_centers(intent.park_code)
+
+        webcams_raw = self.data_manager.load_fixture(intent.park_code, "webcams.json")
+        if webcams_raw:
+            webcams = [Webcam(**w) for w in webcams_raw]
+            logger.debug(f"Loaded webcams from fixture for {intent.park_code}")
+        else:
+            webcams = self.nps.get_webcams(intent.park_code)
+
+        things_to_do_raw = self.data_manager.load_fixture(intent.park_code, "things_to_do.json")
+        if things_to_do_raw:
+            things_to_do = [ThingToDo(**t) for t in things_to_do_raw]
+            logger.debug(f"Loaded things_to_do from fixture for {intent.park_code}")
+        else:
+            things_to_do = self.nps.get_things_to_do(intent.park_code)
+
+        # --- B. Dynamic Data (Always Live) ---
         alerts = self.nps.get_alerts(intent.park_code)
-        things_to_do = self.nps.get_things_to_do(intent.park_code)
         events = self.nps.get_events(intent.park_code)
-        campgrounds = self.nps.get_campgrounds(intent.park_code)
-        visitor_centers = self.nps.get_visitor_centers(intent.park_code)
-        webcams = self.nps.get_webcams(intent.park_code)
         
         weather = None
         if park and park.location:
             weather = self.weather.get_forecast(intent.park_code, park.location.lat, park.location.lon)
 
-        # UPDATED: Use the new method if 'list_options' intent specifically asks for amenities, 
-        # otherwise we might keep the generic fetch or use the main one.
-        # For now, let's keep the existing logic simple but acknowledge we have the capability.
-        # Original logic:
+        # Amenities (Checking Hub Cache First)
+        amenities_data = self.get_park_amenities(intent.park_code)
+        # Flatten amenities from all hubs for LLM context
         amenities = []
-        if park and park.location:
-             amenities = self.external.get_amenities("amenities", park.location.lat, park.location.lon)
+        for hub_name, entries in amenities_data.items():
+            for category, items in entries.items():
+                for item in items:
+                    # Construct simple Amenity object for LLM context
+                    amenities.append(Amenity(**item))
 
         # 4. Engine Execution
         # We need _fetch_trails_for_park logic to be real or mock

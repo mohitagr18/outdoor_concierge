@@ -23,6 +23,22 @@ class DataManager:
         filename = f"amenities_{safe_name}.json"
         return os.path.join(self._get_park_dir(park_code), filename)
 
+    def load_fixture(self, park_code: str, filename: str) -> Optional[Any]:
+        """
+        Generic loader for any JSON fixture in the park's directory.
+        """
+        filepath = os.path.join(self._get_park_dir(park_code), filename)
+        if not os.path.exists(filepath):
+            logger.debug(f"Fixture MISS: {filepath}")
+            return None
+        
+        try:
+            with open(filepath, 'r') as f:
+                return json.load(f)
+        except Exception as e:
+            logger.error(f"Failed to load fixture {filepath}: {e}")
+            return None
+
     def load_amenities(self, park_code: str, entrance_name: str) -> Dict[str, List[Any]]:
         """
         Loads pre-fetched amenity data for a specific entrance.
