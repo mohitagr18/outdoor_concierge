@@ -16,8 +16,10 @@ load_dotenv()
 TARGET_PARKS = ["ZION"] # Add more as needed
 TASKS = [
     ("urgent care OR hospital OR emergency room", "10z"),
-    ("gas station OR ev charging", "11z"),
-    ("restaurant OR grocery store", "11z")
+    ("gas station", "11z"),
+    ("ev charging", "10z"),
+    ("restaurant", "11z"),
+    ("grocery store", "11z")
 ]
 
 def main():
