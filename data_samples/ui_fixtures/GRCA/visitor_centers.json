@@ -1,0 +1,200 @@
+[
+  {
+    "id": "3581F5FB-C717-410D-8CE6-B0E993BA2981",
+    "name": "Grand Canyon Visitor Center (South Rim)",
+    "description": "Trip planning and hiking information is available through exhibit kiosks and sidewalk signs outside of the building. Park in one of four large parking lots and get your first look at Grand Canyon by walking to nearby Mather Point. With your vehicle parked at the Visitor Center, you can also board free shuttle buses and be transported around the village and out to scenic overlooks.",
+    "location": {
+      "lat": 36.05921,
+      "lon": -112.10928295932486
+    },
+    "url": "https://www.nps.gov/grca/planyourvisit/grand-canyon-visitor-center.htm",
+    "images": [
+      {
+        "url": "https://www.nps.gov/common/uploads/structured_data/5A6A3157-B820-D7E6-9F94DAA0DE7B138B.jpg",
+        "title": "Parking lots around the Grand Canyon Visitor Center Plaza",
+        "altText": "Map shows relation of 4 public parking lots in relation to the Visitor Center Plaza.",
+        "caption": "Map of the Grand Canyon Visitor Center Plaza showing parking lots 1-4, and the footpaths leading from the plaza and parking lots to the free shuttle bus terminal, Mather Point and the Canyon Rim Trail.",
+        "credit": "NPS Photo"
+      },
+      {
+        "url": "https://www.nps.gov/common/uploads/structured_data/A2B8E9EE-EC6F-E2EA-71D16941CDFC3802.jpg",
+        "title": "Grand Canyon National Park: South Rim Visitor Center 0234",
+        "altText": "elongated visitor center with blue metal roof with solar panels and outdoor exhibit kiosks.",
+        "caption": "At the Visitor Center you can:  Find information. Outside exhibits discuss park activities. Explore exhibits inside, including: a large video-enabled relief map, a Science On a Sphere\u00ae program, and displays of historic artifacts.",
+        "credit": "NPS/M.Quinn"
+      },
+      {
+        "url": "https://www.nps.gov/common/uploads/structured_data/31D16A17-C427-6FE1-60FDD41E5F2A3BD4.jpg",
+        "title": "Information and trip planning exhibits in front of the Visitor Center.",
+        "altText": "Three park visitors are viewing trip planning panels in a  outdoor kiosk with a roof.",
+        "caption": "If you arrive when the building is closed, you will find trip planning, shuttle bus, and hiking information available on signs and exhibits outside of the building",
+        "credit": "NPS photo"
+      },
+      {
+        "url": "https://www.nps.gov/common/uploads/structured_data/234D85B8-AE04-BDD7-338BC617B60238D3.jpg",
+        "title": "Informational signs outside of the Visitor Center building.",
+        "altText": "Person in a winter coat is reading informational signs on sandwich boards outside of a building",
+        "caption": "Trip planning and hiking information is available through signs and exhibits outside of the Visitor Center \u2014 and at other key locations throughout the park.",
+        "credit": "NPS Photo"
+      },
+      {
+        "url": "https://www.nps.gov/common/uploads/structured_data/0F01F773-C229-C26C-08C3AC91DE6F6F74.jpg",
+        "title": "Visitor Center information Desk.",
+        "altText": "a large room with exhibits and maps. Behind a curved desk, a park ranger is answering questions.",
+        "caption": "When the Visitor Center building is open, Park Rangers are available to answer any questions you may have.",
+        "credit": "NPS Photo/M. Quinn"
+      },
+      {
+        "url": "https://www.nps.gov/common/uploads/structured_data/59EEB879-E699-2CA0-F79D5B88B30D08FA.jpg",
+        "title": "South Rim Visitor Center Plaza Shuttle Bus Terminal",
+        "altText": "People standing near 3 white and green buses at an outdoor bus terminal with 2 shade pavilions",
+        "caption": "Free shuttle buses transport visitors from the Visitor Center bus terminal around the South Rim Village, and out to scenic overlooks.",
+        "credit": "NPS/M.Quinn"
+      }
+    ],
+    "operatingHours": [
+      {
+        "exceptions": [],
+        "description": "The Visitor Center is open daily from 9 am to 5 pm during the winter season (December 7, 2025 - April 18, 2026).",
+        "standardHours": {
+          "wednesday": "9:00AM - 5:00PM",
+          "monday": "9:00AM - 5:00PM",
+          "thursday": "9:00AM - 5:00PM",
+          "sunday": "9:00AM - 5:00PM",
+          "tuesday": "9:00AM - 5:00PM",
+          "friday": "9:00AM - 5:00PM",
+          "saturday": "9:00AM - 5:00PM"
+        },
+        "name": "Grand Canyon Visitor Center (South Rim)"
+      }
+    ],
+    "addresses": [
+      {
+        "line1": "8 South Entrance Road",
+        "line2": "",
+        "line3": "",
+        "city": "Grand Canyon Village",
+        "stateCode": "AZ",
+        "postalCode": "86023",
+        "type": "Physical"
+      },
+      {
+        "line1": "P.O. Box 129",
+        "line2": "",
+        "line3": "",
+        "city": "Grand Canyon",
+        "stateCode": "AZ",
+        "postalCode": "86023",
+        "type": "Mailing"
+      }
+    ],
+    "contacts": {
+      "phoneNumbers": [
+        {
+          "phoneNumber": "928 638 7888",
+          "description": "",
+          "extension": "",
+          "type": "Voice"
+        }
+      ],
+      "emailAddresses": [
+        {
+          "description": "",
+          "emailAddress": "grca_information@nps.gov"
+        }
+      ]
+    }
+  },
+  {
+    "id": "866EE786-71ED-4C7C-B917-C452433C2811",
+    "name": "Verkamp's Visitor Center (South Rim)",
+    "description": "In the Village Historic District, near Hopi House and El Tovar Hotel, Verkamp's Visitor Center features exhibits that focus on the Grand Canyon Community; what it was like to live and work here on the brink of one of the seven natural wonders. A staffed information desk and a Grand Canyon Conservancy Museum Store are also located here. Public restrooms are available in a separate building behind the Visitor Center.",
+    "location": {
+      "lat": 36.057664089376054,
+      "lon": -112.13567272715773
+    },
+    "url": "https://www.nps.gov/grca/planyourvisit/verkamps.htm",
+    "images": [
+      {
+        "url": "https://www.nps.gov/common/uploads/structured_data/51A67E38-BD06-9219-0CCB379522265EDE.jpg",
+        "title": "Verkamp's Visitor Center in the evening.",
+        "altText": "A two-story craftsman style building with the entrance in the center four large window within arches",
+        "caption": "Verkamp's Visitor Center in the evening.",
+        "credit": "NPS Photo/M. Quinn"
+      },
+      {
+        "url": "https://www.nps.gov/common/uploads/structured_data/51DBA38D-DC88-89AA-C901F37072E4EF36.jpg",
+        "title": "Exhibit Area in Verkamp's Visitor Center",
+        "altText": "the entrance to an indoor exhibit with a timeline on the floor leading back to a white tent.",
+        "caption": "The exhibit focus on the Grand Canyon Community - what it was like to live and work here on the brink of one of the seven natural wonders of the world. A walking history timeline on the floor leads visitors through the exhibit",
+        "credit": "NPS Photo/M. Quinn"
+      },
+      {
+        "url": "https://www.nps.gov/common/uploads/structured_data/51EB9D3D-9638-94AB-4DD428036BF839AF.jpg",
+        "title": "Grand Canyon Conservancy Museum Shop",
+        "altText": "interior of a park store; shelves of stuffed toys on the left and bookshelves filling the back wall.",
+        "caption": "The Grand Canyon Conservancy store in Verkamp's Visitor Center features a wide variety of books and gifts related to the canyon.",
+        "credit": "NPS Photo/M. Quinn"
+      },
+      {
+        "url": "https://www.nps.gov/common/uploads/structured_data/52164965-DBCC-C35B-08368F4EAB8A7FF5.jpg",
+        "title": "Verkamp's Visitor Center Restrooms",
+        "altText": "A small restroom building with a wheelchair ramp and separate doors for men and women.",
+        "caption": "Public restrooms are located in a separate building behind Verkamp's Visitor Center",
+        "credit": "NPS Photo/M. Quinn"
+      }
+    ],
+    "operatingHours": [
+      {
+        "exceptions": [],
+        "description": "Hours of operation may vary with the seasons and available staffing.",
+        "standardHours": {
+          "wednesday": "8:00AM - 6:00PM",
+          "monday": "8:00AM - 6:00PM",
+          "thursday": "8:00AM - 6:00PM",
+          "sunday": "8:00AM - 6:00PM",
+          "tuesday": "8:00AM - 6:00PM",
+          "friday": "8:00AM - 6:00PM",
+          "saturday": "8:00AM - 6:00PM"
+        },
+        "name": "Verkamp's Visitor Center (South Rim)"
+      }
+    ],
+    "addresses": [
+      {
+        "line1": "100 S Entrance Rd,",
+        "line2": "",
+        "line3": "",
+        "city": "Grand Canyon Village,",
+        "stateCode": "AZ",
+        "postalCode": "86023",
+        "type": "Physical"
+      },
+      {
+        "line1": "P.O. Box 129",
+        "line2": "",
+        "line3": "",
+        "city": "Grand Canyon",
+        "stateCode": "AZ",
+        "postalCode": "86023",
+        "type": "Mailing"
+      }
+    ],
+    "contacts": {
+      "phoneNumbers": [
+        {
+          "phoneNumber": "928-638-7146",
+          "description": "",
+          "extension": "",
+          "type": "Voice"
+        }
+      ],
+      "emailAddresses": [
+        {
+          "description": "",
+          "emailAddress": "grca_information@nps.gov"
+        }
+      ]
+    }
+  }
+]

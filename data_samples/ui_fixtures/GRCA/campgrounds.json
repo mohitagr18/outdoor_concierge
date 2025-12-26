@@ -1,0 +1,330 @@
+[
+  {
+    "id": "889D3F1F-C595-40D2-B66B-5DA52128DB6A",
+    "name": "Desert View Campground (Reservations Required)",
+    "description": "At the East Entrance, Desert View Campground offers a peaceful setting with 49 campsites. 30 feet (9.1 m) combined total length is the maximum length for RVs or vehicles pulling travel trailers. Campsites are available by reservation only at www.recreation.gov and can be made up to 6 months in advance starting Sat. April 11, through the night of Sun. October 11, 2026. Make reservations online or call (877-444-6777). It is possible to make same day call-in and/or online reservations.",
+    "location": {
+      "lat": 36.03893681548488,
+      "lon": -111.82260877402581
+    },
+    "campsites": {
+      "totalSites": "49",
+      "tentOnly": "0",
+      "rvOnly": "0"
+    },
+    "accessibility": {
+      "wheelchairAccess": "The 2 sites within Desert View Campground, that are closest to the restrooms, are identified as ADA campsites. A number of picnic tables within the campground are wheelchair accessible. Desert View Campground is now on a reservation basis through recreation.gov. on line, or by phone 877-444-6777. It is possible to do a same day-call and/or online reservation. With an Access Pass or Golden Access pass, the cost per site is $9.",
+      "internetInfo": "",
+      "cellPhoneInfo": "Cell phone connectivity can be intermittent and is not reliable.",
+      "fireStovePolicy": "Fire in fire boxes only",
+      "rvAllowed": "1",
+      "rvInfo": "oSites are limited to 6 people o2 Tents and 2 vehicles per site, or 1 vehicle with one RV/5th Wheel/Trailer oTrailer Max Length 20 ft. (6.1 m). Combined total length of Trailer and Tow Vehicle cannot exceed 30 ft. (9 m). o No hookups are available at any of the sites o Each site has a picnic table, fire ring/cooking grill o Restrooms with Flush toilets are available.",
+      "rvMaxLength": "30",
+      "additionalInfo": "Each site has a picnic table and a fire ring with a cooking grill. There are no showers, laundromat, or dump station at Desert View Campground. Water spigots are available between sites 8 & 10 and 34 & 35. These spigots cannot be used to fill RV tanks. Restrooms with Flush toilets are available between sites 9 & 11 next to the Camp Host's site. Desert View Campground is a short walk or drive from the Desert View General Store which sells wood, ice, groceries, and camping supplies. Additional Services include a gas station (pay-at-the-pump), trading post with coffee and ice cream, and a Grand Canyon Conservancy Bookstore in the lower floor of the Watchtower.",
+      "trailerMaxLength": "20",
+      "adaInfo": "The 2 sites within Desert View Campground, that are closest to the restrooms, are identified as ADA campsites. A number of picnic tables within the campground are wheelchair accessible. Desert View Campground is now on a reservation basis through recreation.gov. on line, or by phone 877-444-6777. It is possible to do a same day-call and/or online reservation. With an Access Pass or Golden Access pass, the cost per site is $9.",
+      "trailerAllowed": "1",
+      "accessRoads": [
+        "Paved Roads - All vehicles OK"
+      ],
+      "classifications": [
+        "Limited Development Campground"
+      ]
+    },
+    "contacts": {
+      "phoneNumbers": [
+        {
+          "phoneNumber": "928-638-7888",
+          "description": "",
+          "extension": "",
+          "type": "Voice"
+        }
+      ],
+      "emailAddresses": [
+        {
+          "description": "Grand Canyon National Park Information email.",
+          "emailAddress": "grca_information@nps.gov"
+        }
+      ]
+    },
+    "fees": [
+      {
+        "cost": "30.00",
+        "description": "Desert View Campground is now on a reservation basis through recreation.gov. on line, or by phone 877-444-6777. It is possible to do a same day-call and/or online reservations. \no\tSites are limited to 6 people\no\t2 Tents and 2 vehicles per site, or 1 vehicle with one RV/5th Wheel/Trailer\no\tMaximum vehicle length is 30 feet; front bumper to rear bumper.\no    No hookups are available at any of the sites\no    Each site has a picnic table, fire ring/cooking grill\no    Restrooms with Flush toilets are available.",
+        "title": "Campsite"
+      },
+      {
+        "cost": "15.00",
+        "description": "Desert View Campground is now on a reservation basis through recreation.gov. on line, or by phone 877-444-6777. It is possible to do a same day-call and/or online reservations. \no\tSites are limited to 6 people\no\t2 Tents and 2 vehicles per site, or 1 vehicle with one RV/5th Wheel/Trailer\no\tMaximum vehicle length is 30 feet; front bumper to rear bumper.\no    No hookups are available at any of the sites\no    Each site has a picnic table, fire ring/cooking grill\no    Restrooms with Flush toilets are available.",
+        "title": "Campsite (Senior or Access Pass)"
+      }
+    ],
+    "images": [
+      {
+        "url": "https://www.nps.gov/common/uploads/structured_data/3D8B1CCA-1DD8-B71B-0BFE023A37C0EC99.jpg",
+        "title": "RV in campsite",
+        "altText": "An RV parked on a paved surface, nestled in a desert scrub forest.",
+        "caption": "Maximum vehicle length is 30 feet.",
+        "credit": "NPS Photo"
+      },
+      {
+        "url": "https://www.nps.gov/common/uploads/structured_data/3E4F376C-1DD8-B71B-0B9F6B6FD94AEDE9.jpg",
+        "title": "Empty campsite",
+        "altText": "An empty campsite containing only a tent, draped picnic table, and fire ring",
+        "caption": "Each campsite has a picnic table and a fire ring with a cooking grill",
+        "credit": "NPS Photo"
+      },
+      {
+        "url": "https://www.nps.gov/common/uploads/structured_data/3EE05456-1DD8-B71B-0B66686928A80FEF.jpg",
+        "title": "Motorcycles",
+        "altText": "Two motorcycles behind a trailer in a campsite",
+        "caption": "Sites are limited to six people.",
+        "credit": "NPS Photo"
+      },
+      {
+        "url": "https://www.nps.gov/common/uploads/structured_data/43BF4FD4-1DD8-B71B-0B444FE180C4DBBB.jpg",
+        "title": "Two Tents",
+        "altText": "a paved surface",
+        "caption": "Visit Desert View Campground for a more solitary experience.",
+        "credit": "NPS Photo"
+      },
+      {
+        "url": "https://www.nps.gov/common/uploads/structured_data/008CEAB7-B9F6-45BA-8FA277842806A79A.jpg",
+        "title": "Desert View Campground Restrooms.",
+        "altText": "Single story restroom building with men's side on the left and women's on the right.",
+        "caption": "Campground Restrooms with Flush toilets are available between sites 9 & 11 next to the Camp Hosts site.",
+        "credit": "NPS/M.Quinn"
+      }
+    ],
+    "reservationUrl": "https://www.recreation.gov/camping/campgrounds/258825",
+    "isOpen": true
+  },
+  {
+    "id": "CBEBF627-E888-45E6-9E8C-6EA6AE9A1B2D",
+    "name": "Mather Campground - South Rim",
+    "description": "Mather Campground is located in Grand Canyon Village on the South Rim of Grand Canyon National Park. There are 327 sites. Each includes a campfire ring/cooking grate, picnic table, parking space and room for up to six people, three tents, and two vehicles. There are flush toilets and drinking water throughout the campground. No hookups are available, however there is a free dump station. Most RV spaces are pull-through. Pine loop is a tent-only area where generators are not permitted.",
+    "location": {
+      "lat": 36.04918080776177,
+      "lon": -112.11849726539117
+    },
+    "campsites": {
+      "totalSites": "327",
+      "tentOnly": "55",
+      "rvOnly": "0"
+    },
+    "accessibility": {
+      "wheelchairAccess": "Restrooms have paved ramps to bathroom entrances. Each restroom has an ADA compliant stall.",
+      "internetInfo": "The closest free Public WiFi is at the general store (Canyon Village Market) and in the lobby of Yavapai Lodge. Both are located in Market Plaza, 0.4 mile (.64 km) from the Mather Campground entrance.",
+      "cellPhoneInfo": "Cellular coverage varies throughout Grand Canyon Village because of the terrain. You may or may not be able to receive a signal in Mather Campground. Usually connectivity is better in the village historic district, 1.3 miles (2 km) west of the campground.",
+      "fireStovePolicy": "Wood and charcoal fires permitted in provided campsite grills only. No gathering of down wood, wood may be purchased at the general store. Drown fires completely before leaving the site, even for a short while. Do not construct rock fire rings or put ashes and charcoal in dumpsters.",
+      "rvAllowed": "1",
+      "rvInfo": "Most ADA sites can accommodate up to a 25 foot RV.",
+      "rvMaxLength": "30",
+      "additionalInfo": "Washing: Do not bathe, wash dishes, or do laundry at water spigots. Wash at your site and flush tainted water down the toilets. Do not scatter wastewater. Pets: Must be kept on a leash and under physical control at all times. For the safety of your pet, do not leave them unattended. Pets are not permitted below the rim, on shuttle buses, or in buildings.",
+      "trailerMaxLength": "27",
+      "adaInfo": "Fourteen ADA accessible sites are available as needed to our visitors with disabilities. Sites feature larger parking areas and raised fire rings. Sites are located in close proximity to restrooms.",
+      "trailerAllowed": "1",
+      "accessRoads": [
+        "Paved Roads - All vehicles OK"
+      ],
+      "classifications": [
+        "Developed Campground"
+      ]
+    },
+    "contacts": {
+      "phoneNumbers": [
+        {
+          "phoneNumber": "(928) 638-7888",
+          "description": "",
+          "extension": "",
+          "type": "Voice"
+        }
+      ],
+      "emailAddresses": [
+        {
+          "description": "",
+          "emailAddress": "grca_information@nps.gov"
+        }
+      ]
+    },
+    "fees": [
+      {
+        "cost": "30.00",
+        "description": "Family campsites range from accommodating a small tent, to 30 foot motor homes and fifth wheels. Family sites are limited to 6 people, three tents and two vehicles per site. There are no hookups available at any of the sites. Each site has a picnic table and a fire ring with a cooking grill.",
+        "title": "Family Site"
+      },
+      {
+        "cost": "15.00",
+        "description": "Family campsites range from accommodating a small tent, to 30 foot motor homes and fifth wheels. Family sites are limited to 6 people, three tents and two vehicles per site. There are no hookups available at any of the sites. Each site has a picnic table and a fire ring with a cooking grill.",
+        "title": "Family Site with Senior or Access Pass/ Golden Age/ Golden Access"
+      },
+      {
+        "cost": "50.00",
+        "description": "Group sites can accommodate 7-50 people and tents per site. 3 vehicles per site. RV and bus parking is prohibited.",
+        "title": "Group Site"
+      },
+      {
+        "cost": "6.00",
+        "description": "Hiker/biker are for people on foot or bicycle only. These are non-reservable communal hiker/biker sites (available on a first-come, first-served basis only) and hold up to one person, one tent and no vehicles. If you have more than a one person hiking party you will need to make more than one reservation.",
+        "title": "Communal Hiker Biker Sites"
+      },
+      {
+        "cost": "3.00",
+        "description": "Hiker/biker are for people on foot or bicycle only. These are non-reservable communal hiker/biker sites (available on a first-come, first-served basis only) and hold up to one person, one tent and no vehicles. If you have more than a one person hiking party you will need to make more than one reservation.",
+        "title": "Communal Hiker/ Biker Sites - with Senior or Access Pass/ Golden Age/ Golden Access"
+      },
+      {
+        "cost": "25.00",
+        "description": "Campers in horse camp must have horses of mules. Horse camp can accommodate up to 6 people and 6 horses and mules. 30 foot vehicle limit including trailer. 2 vehicles permitted. (a trailer is considered a second vehicle.) Up to 6 tents.",
+        "title": "Horse Camp"
+      },
+      {
+        "cost": "12.50",
+        "description": "Campers in horse camp must have horses of mules. Horse camp can accommodate up to 6 people and 6 horses and mules. 30 foot vehicle limit including trailer. 2 vehicles permitted. (a trailer is considered a second vehicle.) Up to 6 tents.",
+        "title": "Horse Camp with Senior or Access Pass/ Golden Age/ Golden Access"
+      }
+    ],
+    "images": [
+      {
+        "url": "https://www.nps.gov/common/uploads/structured_data/3C7BFA9D-1DD8-B71B-0B9EB44D734B9FC5.jpg",
+        "title": "Mather Campground Registration Kiosk",
+        "altText": "An RV is parked while people stand in in front of a small brown building",
+        "caption": "Checking in at the Mather Campground Registration Kiosk",
+        "credit": "NPS Photo"
+      },
+      {
+        "url": "https://www.nps.gov/common/uploads/structured_data/3C7BFC64-1DD8-B71B-0B571BF4E54968F1.jpg",
+        "title": "Mather Campground Site",
+        "altText": "A man and a woman sit at a picnic table in the sunlight a tent and chairs surround a firepit",
+        "caption": "Staying at Mather Campground",
+        "credit": "NPS photo by Kristen M. Caldon"
+      },
+      {
+        "url": "https://www.nps.gov/common/uploads/structured_data/BA52CC1C-CF2A-8CC0-DD8ADAFA27DF42D4.jpg",
+        "title": "Pull through campsite at Mather Campground",
+        "altText": "<img alt=\"Image: a truck with an attached trailer is parked in a paved pull-through campsite. Two bi",
+        "caption": "Pull through site at Mather Campground",
+        "credit": "NPS/M. Quinn"
+      },
+      {
+        "url": "https://www.nps.gov/common/uploads/structured_data/BB69D978-FAD3-A6A1-C1A1620FEC94FFE3.jpg",
+        "title": "Group campsite at Mather Campground",
+        "altText": "several tents in a group campsite with touring bicycles.",
+        "caption": "Group campsites are available for hiking and bicycling groups",
+        "credit": "NPS/M. Quinn"
+      },
+      {
+        "url": "https://www.nps.gov/common/uploads/structured_data/BBEEDE20-9152-3EB9-D9F4F0055FC092F0.jpg",
+        "title": "Winter Camping in Mather Campground",
+        "altText": "In a snow covered campsite, two dome tents, and some folding chairs",
+        "caption": "Winter Camping in Mather Campground",
+        "credit": "NPS/M.Quinn"
+      }
+    ],
+    "reservationUrl": "https://www.recreation.gov/camping/campgrounds/232490",
+    "isOpen": true
+  },
+  {
+    "id": "DF0F45FB-FEE4-47A9-ACD4-63E3DC9BF9DA",
+    "name": "Trailer Village RV Park - South Rim",
+    "description": "Trailer Village is the only in-park RV campground with full hookups (sewage, water, and electrical with 30 amp and 50 amp sites available) Open year-round, Trailer Village features paved pull-through sites which can accommodate vehicles up to 50 feet long. Trailer Village is operated by Delaware North. Reservations can be made up to 13 months in advance. If visiting during the busy season (May through October) making reservations 1 year in advance is recommend. Visit their website to make reservations.",
+    "location": {
+      "lat": 36.052812,
+      "lon": -112.115001
+    },
+    "campsites": {
+      "totalSites": "123",
+      "tentOnly": "0",
+      "rvOnly": "123"
+    },
+    "accessibility": {
+      "wheelchairAccess": "Paved sites are wheelchair accessible. There are 3 accessible restrooms in the RV park.",
+      "internetInfo": "DirecTV services are available for paved RV sites only on the back of the electric box. WiFi is not available. However, there is free limited WiFi available down the road at the Canyon Village General Store and Deli (a half-mile away), as well as the Yavapai Lodge lobby. The park has a slow connection and limited bandwidth, so it's not ideal for much more than checking email or some (very) light browsing. In other words, it's there if you need it, but our internet is not strong enough to attend Zoom meetings, stream Netflix, or Skype with your friends back home.",
+      "cellPhoneInfo": "Cellular coverage varies throughout Grand Canyon Village because of the terrain. You may or may not be able to receive a signal in Trailer Village. Usually connectivity is better in the village historic district, 1.3 miles (2 km) west of the campground.",
+      "fireStovePolicy": "Charcoal fires only. No wood fires allowed. Paved sites include a charcoal grill, gravel sites do not provide a grill. Propane camp stoves may be used on provided picnic tables.",
+      "rvAllowed": "1",
+      "rvInfo": "Total maximum vehicle length of 50 feet.",
+      "rvMaxLength": "50",
+      "additionalInfo": "Pets: Must be kept on a leash and under physical control at all times. For the safety of your pet, do not leave them unattended. Pets are not permitted below the canyon rim, on shuttle buses, or in buildings. Satellite users: The Grand Canyon's zip code is 86023",
+      "trailerMaxLength": "50",
+      "adaInfo": "Paved RV sites are mostly flat, as well as loop roads.",
+      "trailerAllowed": "1",
+      "accessRoads": [
+        "Paved Roads - All vehicles OK"
+      ],
+      "classifications": [
+        "Developed Campground"
+      ]
+    },
+    "contacts": {
+      "phoneNumbers": [
+        {
+          "phoneNumber": "928-638-1006",
+          "description": "",
+          "extension": "",
+          "type": "Voice"
+        }
+      ],
+      "emailAddresses": [
+        {
+          "description": "",
+          "emailAddress": "info@delawarenorth.com"
+        }
+      ]
+    },
+    "fees": [
+      {
+        "cost": "85.00",
+        "description": "Includes paved site, 30 and 50 amp hookups, water, sewer, cable TV, charcoal grill and picnic table. Price per night excluding taxes and fees.",
+        "title": "Paved RV Site up to 28 feet/8.5 meters total vehicle length"
+      },
+      {
+        "cost": "85.00",
+        "description": "Includes paved site, 30 and 50 amp hookups, water, sewer, cable TV, charcoal grill and picnic table. Price per night excluding taxes and fees.",
+        "title": "Paved RV Site 29 feet/8.5 meters to 50 feet/15 meters total vehicle length"
+      },
+      {
+        "cost": "80.00",
+        "description": "Includes gravel site, 50 amp hookup, water, sewer and picnic table. Price per night excluding taxes and fees.",
+        "title": "Classic RV Site up to 28 feet/8.5 meters total vehicle length"
+      },
+      {
+        "cost": "80.00",
+        "description": "Includes gravel site, 50 amp hookup, water, sewer and picnic table. Price per night excluding taxes and fees.",
+        "title": "Classic RV Site 29 feet/8.5 meters to 50 feet/15 meters total vehicle length"
+      }
+    ],
+    "images": [
+      {
+        "url": "https://www.nps.gov/common/uploads/structured_data/61012786-ABAD-17B7-14D9D0700854C263.jpg",
+        "title": "Trailer Village 003",
+        "altText": "a wide panorama showing a number of RVs in individual sites.",
+        "caption": "Full hook-ups are available at Trailer Village on the South Rim.",
+        "credit": "Courtesy Delaware North"
+      },
+      {
+        "url": "https://www.nps.gov/common/uploads/structured_data/578F5FC0-DB3C-577B-C44B3C66D99C8556.jpg",
+        "title": "Trailer Village 001",
+        "altText": "Three RVs in pull-through sites with picnic tables. Trees form the background.",
+        "caption": "Pull through sites allow larger vehicles easy access and exits.",
+        "credit": "NPS/M.Quinn"
+      },
+      {
+        "url": "https://www.nps.gov/common/uploads/structured_data/61401B4F-A28E-BB40-54E36CDFADFC03E8.jpg",
+        "title": "Trailer Village 004",
+        "altText": "Several RVs parked in individual sites with several inches of snow covering the ground.",
+        "caption": "Experience Grand Canyon during winter at Trailer Village RV Park.",
+        "credit": "Courtesy Delaware North"
+      },
+      {
+        "url": "https://www.nps.gov/common/uploads/structured_data/60C72DC5-C578-2A1C-41723714B50D6440.jpg",
+        "title": "Trailer Village 002",
+        "altText": "A road with 5 RVs and a trailer facing forward in individual pull-through sites",
+        "caption": "Trailer Village with RV hook-ups in Grand Canyon Village",
+        "credit": "Courtesy Delaware North"
+      }
+    ],
+    "reservationUrl": "https://gc.synxis.com/rez.aspx?chain=398&template=respgc&shell=gccls&dest=gcnp&hotel=63275&_ga=2.214229012.246257283.1612044367-731013058.1606790486",
+    "isOpen": true
+  }
+]

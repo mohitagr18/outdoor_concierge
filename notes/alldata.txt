@@ -1,0 +1,54 @@
+Here is a thorough list of all data points being captured from our various API integrations:
+
+🏛️ National Park Service (NPS) API
+Captured via NPSClient & mapped in nps_adapter.py
+
+1. Park Information (ParkContext)
+Identity: parkCode, fullName, description, url (Official Page).
+Location: Latitude, Longitude (float).
+Contacts: Phone numbers (ext/desc), Email addresses.
+Operating Hours: Detailed schedules (Mon-Sun), exceptions, and seasonal notes.
+Images: High-res URL, Title, Alt Text, Caption, Credit.
+
+2. Safety & Management (Alert)
+id, title, description.
+Category: Safety, Weather, Danger, Information, Closure.
+url (Reference link), lastIndexedDate.
+
+3. Lodging & Camping (Campground)
+Details: id, name, description, reservationUrl, isOpen.
+Capacity: Total sites, Tent-only sites, RV-only sites.
+Accessibility: Detailed accessibility text (toilets, fire rings, wheelchair access).
+Financials: Fees (Amount, Title, Description).
+Contacts & Images: Specific phone/email and photos for each campground.
+
+4. Facilities & Operations (VisitorCenter)
+id, name, description, url.
+Location: Lat/Lon and Physical/Mailing Addresses (Line 1-3, City, State, ZIP).
+Operations: Independent operating hours and contact info.
+
+5. Real-Time Viewers (Webcam)
+id, title, description.
+Stream Info: url (Page), imageUrl (Direct stream source), isStreaming (bool).
+Management: status (Active/Inactive), relatedParks.
+
+6. Exploration & Education (Place, ThingToDo, PassportStamp)
+Places: Title, Listing description, Body text, isOpenToPublic, isManagedByNps, Tags.
+Activities: Title, Short/Long description, duration (e.g., "3-4 hours"), season (Spring/Summer), activities (Hiking, Biking).
+Rules: arePetsPermitted, isReservationRequired.
+Philately: PassportStamp Label, Type (Physical/Virtual), location mapping
+
+🌤️ WeatherAPI.com
+Captured via WeatherClient & mapped in weather_adapter.py
+
+Live State: current_temp_f, current_condition (Text).
+3-Day Forecast: Date, maxtemp_f, mintemp_f, avgtemp_f, daily_chance_of_rain (%), condition (Sky/Precip), uv (Index).
+Astronomy: sunrise, sunset (local times).
+Meteorological Alerts: Event type (e.g., "Winter Storm Warning"), Severity, Headline, Effective/Expires times.
+
+📍 Serper.dev (External Amenities)
+Captured via ExternalClient & mapped in external_adapter.py
+
+Amenity Profiles: Name, Category (type), Full Address.
+Ratings: User rating (float).
+Navigation: google_maps_url (Constructed direct links via Google CID).

@@ -1,6 +1,6 @@
 import logging
 import os
-from typing import List, Optional
+from typing import List, Optional, Dict, Any
 
 from pydantic import BaseModel, Field
 
@@ -10,9 +10,10 @@ from app.clients.external_client import ExternalClient
 from app.engine.constraints import ConstraintEngine, SafetyStatus, UserPreference
 from app.models import TrailSummary, ParkContext, ThingToDo, Event, Campground, VisitorCenter, Webcam, Amenity
 from app.services.llm_service import LLMService, LLMResponse, LLMParsedIntent
+from app.utils.geospatial import mine_entrances 
+from app.services.data_manager import DataManager
 
 logger = logging.getLogger(__name__)
-
 
 class SessionContext(BaseModel):
     current_park_code: Optional[str] = None
@@ -20,11 +21,9 @@ class SessionContext(BaseModel):
     current_itinerary: Optional[str] = None
     chat_history: List[str] = Field(default_factory=list)
 
-
 class OrchestratorRequest(BaseModel):
     user_query: str
     session_context: SessionContext = Field(default_factory=SessionContext)
-
 
 class OrchestratorResponse(BaseModel):
     chat_response: LLMResponse
@@ -34,32 +33,75 @@ class OrchestratorResponse(BaseModel):
     vetted_trails: List[TrailSummary] = []
     vetted_things: List[ThingToDo] = []
 
-
 class OutdoorConciergeOrchestrator:
     def __init__(
         self,
         llm_service: LLMService,
         nps_client: NPSClient,
         weather_client: WeatherClient,
-        external_client: ExternalClient, # NEW Dependency
+        external_client: ExternalClient, 
+        # DataManager doesn't need to be injected if it's stateless config, 
+        # but good practice to initialize it here.
     ):
         self.llm = llm_service
         self.nps = nps_client
         self.weather = weather_client
         self.external = external_client
         self.engine = ConstraintEngine()
+        self.data_manager = DataManager() # Initialize Data Manager
+
+    def get_park_amenities(self, park_code: str) -> Dict[str, Dict[str, List[Dict[str, Any]]]]:
+        """
+        Retrieves amenities from the STATIC CACHE (File System).
+        Does NOT trigger live API calls.
+        
+        Returns:
+            {
+                "Entrance Name": {
+                    "gas station...": [ {...}, ... ],
+                    "urgent care...": [ ... ]
+                }
+            }
+        """
+        logger.info(f"Loading cached amenities for {park_code}...")
+        
+        # 1. Fetch raw candidates (NPS Live or Cached - keeping live for now as it's cheap)
+        places = self.nps.get_places(park_code)
+        vcs = self.nps.get_visitor_centers(park_code)
+        
+        # 2. Mine Hubs
+        places_dicts = [p.model_dump() if hasattr(p, "model_dump") else p for p in places]
+        vc_dicts = [v.model_dump() if hasattr(v, "model_dump") else v for v in vcs]
+        
+        entrances = mine_entrances(park_code, places_dicts, vc_dicts)
+        
+        # 3. Load from Disk
+        results = {}
+        for ent in entrances:
+            name = ent["name"]
+            # READ ONLY operation
+            data = self.data_manager.load_amenities(park_code, name)
+            
+            # Only include if data exists (or return empty dict if you want to show the pin anyway)
+            if data:
+                results[name] = data
+            else:
+                # Optional: Log warning that we have a hub but no data
+                logger.debug(f"No amenity data found for hub: {name}")
+                
+        return results
 
     def handle_query(self, request: OrchestratorRequest) -> OrchestratorResponse:
+        # ... (Existing logic unchanged for now) ...
         query = request.user_query
         ctx = request.session_context
         logger.info(f"Orchestrating query: {query}")
 
         # 1. Parse Intent
         intent = self.llm.parse_user_intent(query)
-        
+
         # 2. Context Merge
         final_park_code = intent.park_code if intent.park_code else ctx.current_park_code
-        
         updated_context = ctx.model_copy()
         updated_context.current_park_code = final_park_code
         updated_context.current_user_prefs = intent.user_prefs
@@ -81,32 +123,30 @@ class OutdoorConciergeOrchestrator:
         # 3. Fetch Data (All Sources)
         park = self.nps.get_park_details(intent.park_code)
         alerts = self.nps.get_alerts(intent.park_code)
-        
-        # NPS Rich Data
         things_to_do = self.nps.get_things_to_do(intent.park_code)
         events = self.nps.get_events(intent.park_code)
         campgrounds = self.nps.get_campgrounds(intent.park_code)
         visitor_centers = self.nps.get_visitor_centers(intent.park_code)
         webcams = self.nps.get_webcams(intent.park_code)
-
+        
         weather = None
         if park and park.location:
             weather = self.weather.get_forecast(intent.park_code, park.location.lat, park.location.lon)
 
-        # External Amenities (Serper)
+        # UPDATED: Use the new method if 'list_options' intent specifically asks for amenities, 
+        # otherwise we might keep the generic fetch or use the main one.
+        # For now, let's keep the existing logic simple but acknowledge we have the capability.
+        # Original logic:
         amenities = []
         if park and park.location:
-            # We assume ExternalClient has get_amenities(lat, lon, query="amenities")
-            # Or you might map 'amenities' to generic queries like 'food', 'gas' if needed.
-            # For now, let's assume a generic fetch or empty if not implemented yet.
-            amenities = self.external.get_amenities("amenities",park.location.lat, park.location.lon)
-
-        raw_trails = self._fetch_trails_for_park(intent.park_code)
+             amenities = self.external.get_amenities("amenities", park.location.lat, park.location.lon)
 
         # 4. Engine Execution
+        # We need _fetch_trails_for_park logic to be real or mock
+        raw_trails = self._fetch_trails_for_park(intent.park_code)
         safety = self.engine.analyze_safety(weather, alerts)
         vetted_trails = self.engine.filter_trails(raw_trails, intent.user_prefs)
-        
+
         # 5. Response
         chat_resp = self.llm.generate_response(
             query=query,
@@ -120,7 +160,7 @@ class OutdoorConciergeOrchestrator:
             webcams=webcams,
             amenities=amenities
         )
-        
+
         updated_context.chat_history.append(f"Agent: {chat_resp.message}")
         updated_context.current_itinerary = chat_resp.message
 
@@ -136,7 +176,7 @@ class OutdoorConciergeOrchestrator:
     def _fetch_trails_for_park(self, park_code: str) -> List[TrailSummary]:
         # Mock logic as before
         defaults = [
-             TrailSummary(
+            TrailSummary(
                 name=f"Big {park_code.upper()} Loop",
                 parkCode=park_code, difficulty="hard", length_miles=12.5, elevation_gain_ft=3000,
                 route_type="loop", average_rating=4.8, total_reviews=120, description="Challenging.",

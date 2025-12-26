@@ -1,0 +1,20 @@
+[
+  {
+    "id": "835FC05C-8AC2-43AD-87C0-9704B9895144",
+    "label": "Human History Museum",
+    "type": "visitorcenters",
+    "parkCode": "zion"
+  },
+  {
+    "id": "5A161ABB-8443-4F3C-8F3C-773A10B4ED2C",
+    "label": "Kolob Canyons Visitor Center",
+    "type": "visitorcenters",
+    "parkCode": "zion"
+  },
+  {
+    "id": "774A69FB-32DF-4A52-A5C9-E9B29F754B51",
+    "label": "Zion Canyon Visitor Center",
+    "type": "visitorcenters",
+    "parkCode": "zion"
+  }
+]

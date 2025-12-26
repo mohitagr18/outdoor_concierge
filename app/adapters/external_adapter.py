@@ -1,40 +1,35 @@
 from typing import List, Dict, Any
-from app.models import Amenity, PhotoSpot
+from app.models import Amenity
 
-def parse_serper_amenities(response_json: Dict[str, Any]) -> List[Amenity]:
+def parse_serper_amenities(data: Dict[str, Any]) -> List[Amenity]:
     """
-    Parses the 'places' list from a Serper.dev API response.
+    Parses raw Serper JSON into Amenity models.
     """
-    places = response_json.get("places", [])
-    amenities = []
+    results = []
+    if not data or "places" not in data:
+        return results
 
-    for place in places:
-        # Construct Google Maps Link if missing
-        cid = place.get("cid")
-        if cid:
-            map_url = f"https://maps.google.com/?cid={cid}"
-        else:
-            map_url = "https://www.google.com/maps"
-
-        amenities.append(Amenity(
-            name=place.get("title", "Unknown Place"),
-            type=place.get("category", "Unknown"),
-            address=place.get("address", ""),
-            rating=float(place.get("rating", 0.0) or 0.0),
-            open_now=place.get("open_now"), # Serper often doesn't give a simple boolean for this
-            google_maps_url=map_url
-        ))
-    return amenities
-
-def parse_photo_spot(spot_json: Dict[str, Any], park_code: str) -> PhotoSpot:
-    """
-    Parses a photo spot entry from our Firecrawl blog scrape.
-    """
-    return PhotoSpot(
-        name=spot_json.get("name", "Unknown Spot"),
-        parkCode=park_code,
-        description=spot_json.get("description", ""),
-        best_time_of_day=spot_json.get("best_time_of_day", []),
-        tips=spot_json.get("tips", []),
-        image_url=spot_json.get("image_url")
-    )
+    for item in data["places"]:
+        try:
+            # Safely extract Lat/Lon
+            lat = item.get("latitude")
+            lon = item.get("longitude")
+            
+            amenity = Amenity(
+                name=item.get("title", "Unknown"),
+                type=item.get("type") or (item.get("types", [])[0] if item.get("types") else "amenity"),
+                address=item.get("address", "Unknown Address"),
+                latitude=float(lat) if lat is not None else None,
+                longitude=float(lon) if lon is not None else None,
+                rating=item.get("rating"),
+                rating_count=item.get("ratingCount"),
+                website=item.get("website"),
+                phone=item.get("phoneNumber"),
+                # Cid to Maps URL logic
+                google_maps_url=f"https://www.google.com/maps/place/?q=place_id:{item.get('cid')}" if item.get("cid") else None,
+                image_url=item.get("thumbnailUrl")
+            )
+            results.append(amenity)
+        except Exception:
+            continue
+    return results

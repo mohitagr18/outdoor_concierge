@@ -1,0 +1,148 @@
+{
+  "parkCode": "yose",
+  "fullName": "Yosemite National Park",
+  "description": "Not just a great valley, but a shrine to human foresight, the strength of granite, the power of glaciers, the persistence of life, and the tranquility of the High Sierra. First protected in 1864, Yosemite National Park is best known for its waterfalls, but within its nearly 1,200 square miles, you can find deep valleys, grand meadows, ancient giant sequoias, a vast wilderness area, and much more.",
+  "location": {
+    "lat": 37.84883288,
+    "lon": -119.5571873
+  },
+  "contacts": {
+    "phoneNumbers": [
+      {
+        "phoneNumber": "209/372-0200",
+        "description": "",
+        "extension": "",
+        "type": "Voice"
+      }
+    ],
+    "emailAddresses": [
+      {
+        "description": "",
+        "emailAddress": "yose_web_manager@nps.gov"
+      }
+    ]
+  },
+  "operatingHours": [
+    {
+      "exceptions": [],
+      "description": "Yosemite National Park is open 24 hours per day, 365 days per year.",
+      "standardHours": {
+        "wednesday": "All Day",
+        "monday": "All Day",
+        "thursday": "All Day",
+        "sunday": "All Day",
+        "tuesday": "All Day",
+        "friday": "All Day",
+        "saturday": "All Day"
+      },
+      "name": "Yosemite National Park"
+    },
+    {
+      "exceptions": [],
+      "description": "Hetch Hetchy area is only open from sunrise to sunset (except for permitted backpackers). All day visitors must exit Hetch Hetchy by sunset. The road is also closed to all vehicles (including backpackers) from sunset to sunrise.",
+      "standardHours": {
+        "wednesday": "Sunrise to Sunset",
+        "monday": "Sunrise to Sunset",
+        "thursday": "Sunrise to Sunset",
+        "sunday": "Sunrise to Sunset",
+        "tuesday": "Sunrise to Sunset",
+        "friday": "Sunrise to Sunset",
+        "saturday": "Sunrise to Sunset"
+      },
+      "name": "Hetch Hetchy"
+    }
+  ],
+  "url": "https://www.nps.gov/yose/index.htm",
+  "images": [
+    {
+      "url": "https://www.nps.gov/common/uploads/structured_data/3C84CC4C-1DD8-B71B-0BE967E5E5D93F25.jpg",
+      "title": "Yosemite Falls on a Winter Morning",
+      "altText": "Two tall waterfalls flowing down snow covered granite walls.",
+      "caption": "Yosemite Falls will sometimes only trickle at the end of summer, but wet winters can rejuvenate the flow.",
+      "credit": "NPS / Cindy Jacoby"
+    },
+    {
+      "url": "https://www.nps.gov/common/uploads/structured_data/05383E91-AA28-2DDC-AB517507594F9FA6.jpg",
+      "title": "Upper Yosemite Fall and Merced River in spring",
+      "altText": "Upper Yosemite Fall and Merced River in spring",
+      "caption": "Upper Yosemite Fall and Merced River in spring",
+      "credit": "NPS Photo"
+    },
+    {
+      "url": "https://www.nps.gov/common/uploads/structured_data/3C84C6CF-1DD8-B71B-0B1C7CB883AA8FB1.jpg",
+      "title": "Rainbow over Half Dome",
+      "altText": "A rainbow over a mountain in the distance.",
+      "caption": "A hike up to Sentinel Dome rewards people with great views of the landscape around them.",
+      "credit": "NPS / Bob Roney"
+    },
+    {
+      "url": "https://www.nps.gov/common/uploads/structured_data/3C84C3C0-1DD8-B71B-0BFF90B64283C3D8.jpg",
+      "title": "Cathedral Peak and Lake in Autumn",
+      "altText": "A mountain reflecting in a lake.",
+      "caption": "Cathedral Peak is one of the most recognizable peaks in the Yosemite Wilderness.",
+      "credit": "NPS / Cindy Jacoby"
+    },
+    {
+      "url": "https://www.nps.gov/common/uploads/structured_data/3C84CDD0-1DD8-B71B-0B6E5868AFC75B6B.jpg",
+      "title": "Lower Yosemite Fall",
+      "altText": "A waterfall flowing down a granite cliff.",
+      "caption": "The walk to Lower Yosemite Fall is a popular and easy hike.",
+      "credit": "NPS Photo / Cindy Jacoby"
+    },
+    {
+      "url": "https://www.nps.gov/common/uploads/structured_data/232C02DC-BE31-0C6D-E1E2D2FB1EE7E251.jpg",
+      "title": "View of Yosemite Valley in Winter",
+      "altText": "El Capitan on left, Cathedral Rocks on the right, all covered in snow, low clouds and sun",
+      "caption": "A rewarding view of Yosemite Valley in winter as seen from Tunnel View.",
+      "credit": "NPS Photo"
+    },
+    {
+      "url": "https://www.nps.gov/common/uploads/structured_data/3C84CAEC-1DD8-B71B-0BA0EEA50BB40F8B.jpg",
+      "title": "Yosemite Valley from Tunnel View",
+      "altText": "Glaciated valley with vertical cliffs.",
+      "caption": "Tunnel View is perhaps one of the most photographed views in the park.",
+      "credit": "NPS / Cindy Jacoby"
+    },
+    {
+      "url": "https://www.nps.gov/common/uploads/structured_data/3C84C82D-1DD8-B71B-0B8D6902B62369E2.jpg",
+      "title": "Glen Aulin",
+      "altText": "Mountains reflecting in water",
+      "caption": "Glen Auilin is one of five High Sierra Camps, located in the Yosemite high country.",
+      "credit": "NPS"
+    },
+    {
+      "url": "https://www.nps.gov/common/uploads/structured_data/3C8560E1-1DD8-B71B-0BD3183636F4B861.jpg",
+      "title": "Giant Sequoia Trees in the Mariposa Grove of Giant Sequoias",
+      "altText": "Cluster of tall trees with cloudy sky.",
+      "caption": "Yosemite National Park's massive giant sequoias (Sequoiadendron giganteum) live in three groves in the park. The most famous of these is the Mariposa Grove, which contains about 500 mature giant sequoias.",
+      "credit": "NPS / Cindy Jacoby"
+    },
+    {
+      "url": "https://www.nps.gov/common/uploads/structured_data/3C84C97E-1DD8-B71B-0B5DD2112C58C175.jpg",
+      "title": "Tenaya Lake at Sunset",
+      "altText": "Mountains surrounding a lake.",
+      "caption": "Tenaya Lake is a favorite place to stop along the Tioga Road in summer.",
+      "credit": "NPS"
+    },
+    {
+      "url": "https://www.nps.gov/common/uploads/structured_data/3C84CF74-1DD8-B71B-0B9C7FF83F7C68EB.jpg",
+      "title": "Half Dome",
+      "altText": "Granite dome with trace amounts of snow.",
+      "caption": "Half Dome is one of the most recognizable granitic formations in the world.",
+      "credit": "NPS / Cindy Jacoby"
+    },
+    {
+      "url": "https://www.nps.gov/common/uploads/structured_data/058C8410-D5BA-32F4-BC468014AF42CB0B.jpg",
+      "title": "El Capitan",
+      "altText": "El Capitan and reflection in Merced River with some low clouds",
+      "caption": "El Capitan rises over 3,000 feet above the floor of Yosemite Valley.",
+      "credit": "NPS Photo/ Christine Fey"
+    }
+  ],
+  "campgrounds": [],
+  "visitor_centers": [],
+  "webcams": [],
+  "places": [],
+  "things_to_do": [],
+  "passport_stamps": []
+}

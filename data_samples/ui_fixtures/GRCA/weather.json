@@ -1,0 +1,37 @@
+{
+  "parkCode": "GRCA",
+  "current_temp_f": 43.0,
+  "current_condition": "Overcast",
+  "forecast": [
+    {
+      "date": "2025-12-23",
+      "maxtemp_f": 62.1,
+      "mintemp_f": 40.3,
+      "avgtemp_f": 51.4,
+      "daily_chance_of_rain": 0,
+      "condition": "Overcast ",
+      "uv": 0.5
+    },
+    {
+      "date": "2025-12-24",
+      "maxtemp_f": 53.2,
+      "mintemp_f": 43.7,
+      "avgtemp_f": 47.0,
+      "daily_chance_of_rain": 0,
+      "condition": "Partly Cloudy ",
+      "uv": 0.1
+    },
+    {
+      "date": "2025-12-25",
+      "maxtemp_f": 46.4,
+      "mintemp_f": 41.0,
+      "avgtemp_f": 43.8,
+      "daily_chance_of_rain": 88,
+      "condition": "Heavy rain",
+      "uv": 0.2
+    }
+  ],
+  "sunrise": "07:37 AM",
+  "sunset": "05:20 PM",
+  "weather_alerts": []
+}

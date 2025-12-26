@@ -184,11 +184,17 @@ class TrailSummary(BaseModel):
 
 class Amenity(BaseModel):
     name: str
-    type: str 
+    type: str = "amenity"
     address: str
+    latitude: Optional[float] = None
+    longitude: Optional[float] = None
     rating: Optional[float] = None
+    rating_count: Optional[int] = None
+    website: Optional[str] = None
+    phone: Optional[str] = None
     open_now: Optional[bool] = None
-    google_maps_url: str
+    google_maps_url: Optional[str] = None
+    image_url: Optional[str] = None
 
 class PhotoSpot(BaseModel):
     name: str

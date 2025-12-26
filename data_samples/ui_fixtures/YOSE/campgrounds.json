@@ -1,0 +1,1260 @@
+[
+  {
+    "id": "58B9591C-4723-4049-B26C-D30C07A6FAD6",
+    "name": "Bridalveil Creek Campground",
+    "description": "The Bridalveil Creek Campground is located along the Glacier Point Road near Bridalveil Creek and is surrounded by a beautiful forest of red fir and lodgepole pine. At an elevation of 7,200 feet (2,200m) the campground is located 7 miles west of Glacier Point, 9 miles east of the Wawona Road turnoff, and is approximately 45 minutes from Yosemite Valley. The spectacular views from Glacier Point are nearby, and numerous hiking trails are located along the Glacier Point Road. There are no services nearby.",
+    "location": {
+      "lat": 37.6636576344,
+      "lon": -119.624293366
+    },
+    "campsites": {
+      "totalSites": "115",
+      "tentOnly": "41",
+      "rvOnly": "0"
+    },
+    "accessibility": {
+      "wheelchairAccess": "There are no designated accessible campsites at this campground.",
+      "internetInfo": "",
+      "cellPhoneInfo": "",
+      "fireStovePolicy": "Wood and charcoal fires are permitted.",
+      "rvAllowed": "1",
+      "rvInfo": "Bridalveil Creek: 110 sites with space for tents, RVs up to 35 feet, and trailers up to 24 feet. Not every site can accommodate equipment of these lengths. Be sure to read the site details when making a reservation on recreation.gov to ensure your equipment will fit into the site you're reserving. When making online reservations, you can filter available sites by entering the length of your RV. When making online reservations, you can filter available sites by entering the length of your RV.",
+      "rvMaxLength": "35",
+      "additionalInfo": "Each campsite contains a <b>fire ring</b>, <b>picnic table</b>, and a <b>food locker</b> and is near a <b>bathroom with drinking water and flushing toilets</b>. In Bridalveil Creek Campground food lockers measure 33\"(D)x45\"(W)x18\"(H). The group site has five food lockers. <b>Groceries:</b> Yosemite Valley (Yosemite Village Store; Curry Village Store; Yosemite Valley Lodge Store) and small grocery store in Wawona <b>Showers:</b> Yosemite Valley (Curry Village) <b>Dump Station</b>: Available summer only (on Forest Drive east of the Wawona Store) and all year in Yosemite Valley (in Upper Pines Campground)",
+      "trailerMaxLength": "24",
+      "adaInfo": "There are no designated accessible campsites at this campground.",
+      "trailerAllowed": "1",
+      "accessRoads": [
+        "Paved Roads - All vehicles OK"
+      ],
+      "classifications": [
+        "Developed Campground"
+      ]
+    },
+    "contacts": {
+      "phoneNumbers": [
+        {
+          "phoneNumber": "209/375-9535",
+          "description": "",
+          "extension": "",
+          "type": "Voice"
+        }
+      ],
+      "emailAddresses": [
+        {
+          "description": "",
+          "emailAddress": "yose_web_manager@nps.gov"
+        }
+      ]
+    },
+    "fees": [
+      {
+        "cost": "36.00",
+        "description": "Bridalveil Creek Campground Reservation Fee - Non-Group Site/night",
+        "title": "Bridalveil Creek Campground Reservation Fee - Non-Group Site"
+      },
+      {
+        "cost": "75.00",
+        "description": "Bridalveil Creek Campground Group Site Fee - Group Site/night",
+        "title": "Bridalveil Creek Campground Group Site Fee - Group Site"
+      },
+      {
+        "cost": "50.00",
+        "description": "Bridalveil Creek Campground Stock Site Fee - Stock Site/night",
+        "title": "Bridalveil Creek Campground Stock Site Fee - Stock Site"
+      }
+    ],
+    "images": [
+      {
+        "url": "https://www.nps.gov/common/uploads/structured_data/F2FB2779-A1A5-985F-2488256AA422403C.jpg",
+        "title": "Bridalveil Campground",
+        "altText": "A wood sign at the entrance to a campground reads, Bridalveil Campground.",
+        "caption": "The entrance to Bridalveil Campground",
+        "credit": "NPS Photo"
+      }
+    ],
+    "reservationUrl": "https://www.recreation.gov/camping/campgrounds/232453",
+    "isOpen": true
+  },
+  {
+    "id": "8F36DEB6-298E-4214-A677-064BD457996A",
+    "name": "Camp 4 Campground",
+    "description": "Camp 4 is located in Yosemite Valley near the base of granite cliffs close to Yosemite Falls. Yosemite Valley is centrally located in the park and boasts some of Yosemite\u2019s most iconic features. This campground is located at 4,000 feet (1,200 m) elevation and can be accessed from all park roads. Camp 4 is within biking and walking distance of many services in Yosemite Valley and is located near the free shuttle route. There are food and grocery services nearby at Yosemite Valley Lodge and Yosemite Village.",
+    "location": {
+      "lat": 37.7420541116,
+      "lon": -119.602253055
+    },
+    "campsites": {
+      "totalSites": "61",
+      "tentOnly": "61",
+      "rvOnly": "0"
+    },
+    "accessibility": {
+      "wheelchairAccess": "Camp 4 has two accessible sites. Accessible parking is nearby and an accessible path leads to the two campsites. The restrooms are accessible.",
+      "internetInfo": "",
+      "cellPhoneInfo": "",
+      "fireStovePolicy": "Wood fires are permitted all year, however, from May through September, campfires in Yosemite Valley are only allowed between 5 pm and 10 pm (campfires are allowed at any time from October through April). Charcoal fires are allowed at any time.",
+      "rvAllowed": "0",
+      "rvInfo": "Camp 4 has 61 tent-only sites. No RV or trailer sites available.",
+      "rvMaxLength": "0",
+      "additionalInfo": "Parking is available adjacent to the campground (it's a very short walk to the campsites). A parking permit is required from spring through fall. You will receive a free parking permit upon registering. Each campsite contains a <b>fire pit</b> (no grill), <b>picnic table</b>, and <b>four shared food lockers</b> [35\"(D)x43\"(W)x28\"(H)], and is near a <b>bathroom with drinking water and flushing toilets</b>. <b>Groceries:</b> Nearby (Yosemite Valley Lodge and Yosemite Village) <b>Pets:</b> Not permitted",
+      "trailerMaxLength": "0",
+      "adaInfo": "Camp 4 has two accessible sites. Accessible parking is nearby and an accessible path leads to the two campsites. The restrooms are accessible. The remainder of Camp 4 has rough dirt access routes leading to many level sites.",
+      "trailerAllowed": "0",
+      "accessRoads": [
+        "Paved Roads - All vehicles OK"
+      ],
+      "classifications": [
+        "Developed Campground"
+      ]
+    },
+    "contacts": {
+      "phoneNumbers": [
+        {
+          "phoneNumber": "209/372-8502",
+          "description": "",
+          "extension": "",
+          "type": "Voice"
+        }
+      ],
+      "emailAddresses": [
+        {
+          "description": "",
+          "emailAddress": "yose_web_manager@nps.gov"
+        }
+      ]
+    },
+    "fees": [
+      {
+        "cost": "10.00",
+        "description": "Fee is per person, per night. Space is assigned per person in shared campsites (six people per site)..",
+        "title": "Camping Fee"
+      }
+    ],
+    "images": [
+      {
+        "url": "https://www.nps.gov/common/uploads/structured_data/CDD18D8C-9C0D-55E1-5BEF5AC08E7F2487.jpg",
+        "title": "Camp 4 Kiosk Area",
+        "altText": "Camp 4 kiosk building and bulletin board",
+        "caption": "Camp 4 Kiosk Building and Bulletin Board",
+        "credit": "NPS Photo"
+      },
+      {
+        "url": "https://www.nps.gov/common/uploads/structured_data/F23CF175-9366-936A-05DF1ACA5B73217A.jpg",
+        "title": "Camp 4 Bear/Vehicle Sign",
+        "altText": "An exhibit of a bear reaching into a car window and holding food, is set up near a parking lot.",
+        "caption": "A 'Keep Bears Wild' message on the outskirts of Camp 4",
+        "credit": "NPS Photo"
+      },
+      {
+        "url": "https://www.nps.gov/common/uploads/structured_data/CDB8A949-EEC1-1702-CDD835B1AA59914C.jpg",
+        "title": "Camp 4 Campground with Tents",
+        "altText": "Tents in sites within Camp 4.",
+        "caption": "Camp 4 with tents",
+        "credit": "NPS Photo"
+      },
+      {
+        "url": "https://www.nps.gov/common/uploads/structured_data/9BBF6AD3-EDCB-12AB-26E90572D1D4BC45.jpg",
+        "title": "Eastern, newer portion of Camp 4 Campground",
+        "altText": "Fire ring, food lockers, and bathhouse at Camp 4",
+        "caption": "Eastern portion of Camp 4",
+        "credit": "NPS Photo"
+      }
+    ],
+    "reservationUrl": "https://www.recreation.gov/camping/campgrounds/10004152",
+    "isOpen": true
+  },
+  {
+    "id": "B1396AAB-EA01-4A6C-B45E-A9BBA51A89A1",
+    "name": "Crane Flat Campground",
+    "description": "The Crane Flat Campground is located along the Big Oak Flat Road, just west of Crane Flat, about 30 minutes northwest of Yosemite Valley, at 6,200 ft (1,900 m) elevation. There is a gas station and minimal convenience items located nearby at Crane Flat. Trailheads for both the Merced Grove and Tuolumne Grove of Giant Sequoias are located within a short drive of the campground.",
+    "location": {
+      "lat": 37.7497960827,
+      "lon": -119.800258983
+    },
+    "campsites": {
+      "totalSites": "151",
+      "tentOnly": "35",
+      "rvOnly": "0"
+    },
+    "accessibility": {
+      "wheelchairAccess": "The following campsites are suitable for wheelchair and include picnic tables with extended tops. The closest restrooms to these campsites are also wheelchair accessible. These campsites are limited to people with disabilities. Sites: 220, 222, 423, 425, 503, 505, 506",
+      "internetInfo": "",
+      "cellPhoneInfo": "",
+      "fireStovePolicy": "Wood and charcoal fires are permitted at any time.",
+      "rvAllowed": "1",
+      "rvInfo": "Crane Flat: 162 sites with space for tents, RVs up to 35 feet, and trailers up to 27 feet. Not every site can accommodate equipment of these lengths. Be sure to read the site details when making a reservation on recreation.gov to ensure your equipment will fit into the site you're reserving. When making online reservations, you can filter available sites by entering the length of your RV.",
+      "rvMaxLength": "35",
+      "additionalInfo": "Each campsite contains a <b>fire ring</b>, <b>picnic table</b>, and a <b>food locker</b> and is near a <b>bathroom with drinking water and flushing toilets</b>. In Crane Flat food lockers measure 35\"(D)x43\"(W)x28\"(H). <b>Groceries:</b> Yosemite Valley (Yosemite Village Store; Curry Village Store; Yosemite Valley Lodge Store) and small grocery store at Crane Flat <b>Showers:</b> Yosemite Valley (Curry Village) <b>Dump station:</b> Available all year in Yosemite Valley (in Upper Pines Campground) or, summer only, near Tuolumne Meadows Campground.",
+      "trailerMaxLength": "27",
+      "adaInfo": "The following campsites are suitable for wheelchair and include picnic tables with extended tops. The closest restrooms to these campsites are also wheelchair accessible. These campsites are limited to people with disabilities. Sites: 220, 222, 423, 425, 503, 505, 506",
+      "trailerAllowed": "1",
+      "accessRoads": [
+        "Paved Roads - All vehicles OK"
+      ],
+      "classifications": [
+        "Developed Campground"
+      ]
+    },
+    "contacts": {
+      "phoneNumbers": [
+        {
+          "phoneNumber": "209/379-2123",
+          "description": "",
+          "extension": "",
+          "type": "Voice"
+        }
+      ],
+      "emailAddresses": [
+        {
+          "description": "",
+          "emailAddress": "yose_web_manager@nps.gov"
+        }
+      ]
+    },
+    "fees": [
+      {
+        "cost": "36.00",
+        "description": "Crane Flat Campground Reservation Fee \u2013 Regular Sites",
+        "title": "Crane Flat Campground Reservation Fee \u2013 Regular Sites"
+      },
+      {
+        "cost": "60.00",
+        "description": "Crane Flat Campground Reservation Fee - Double Sites",
+        "title": "Crane Flat Campground Reservation Fee - Double Sites"
+      }
+    ],
+    "images": [
+      {
+        "url": "https://www.nps.gov/common/uploads/structured_data/F228F0F3-C2E4-6241-1307B04B590C57D0.jpg",
+        "title": "Crane Flat Campground",
+        "altText": "A wood sign at the entrance to a campground reads, Crane Flat Campground",
+        "caption": "The entrance to Crane Flat Campground",
+        "credit": "NPS Photo"
+      }
+    ],
+    "reservationUrl": "https://www.recreation.gov/camping/campgrounds/232452",
+    "isOpen": true
+  },
+  {
+    "id": "8D89A88A-5E90-449B-B4FA-78026CF14D70",
+    "name": "Hodgdon Meadow Campground",
+    "description": "Hodgdon Meadow Campground is conveniently located along the Big Oak Flat Road at the Big Oak Flat Entrance. At an elevation of 4,900 feet (1,219 m), the campground is located along the western edge of the park, 25 miles and approximately 45 minutes from Yosemite Valley. There is a gas station and minimal convenience items located nearby at Crane Flat. Trailheads for both the Merced Grove and Tuolumne Grove of Giant Sequoias are located within a short drive of the campground.",
+    "location": {
+      "lat": 37.7998824476,
+      "lon": -119.867033107
+    },
+    "campsites": {
+      "totalSites": "105",
+      "tentOnly": "9",
+      "rvOnly": "0"
+    },
+    "accessibility": {
+      "wheelchairAccess": "There are no designated accessible campsites at this campground.",
+      "internetInfo": "",
+      "cellPhoneInfo": "",
+      "fireStovePolicy": "Wood and charcoal fires are permitted all year. From May through September, wood fires are only allowed from 5 pm to 10 pm.",
+      "rvAllowed": "1",
+      "rvInfo": "Hodgdon Meadow: 105 sites with space for tents, RVs up to 35 feet, and trailers up to 27 feet. Not every site can accommodate equipment of these lengths. Be sure to read the site details when making a reservation on recreation.gov to ensure your equipment will fit into the site you're reserving. When making online reservations, you can filter available sites by entering the length of your RV.",
+      "rvMaxLength": "40",
+      "additionalInfo": "Each campsite contains a <b>fire ring</b>, <b>picnic table</b>, and a <b>food locker</b> and is near a <b>bathroom with drinking water and flushing toilets</b>. In Hodgdon Meadow food lockers measure 35\"(D)x43\"(W)x28\"(H). The group sites have four food lockers. <b>Groceries:</b> Yosemite Valley (Yosemite Village Store; Curry Village Store; Yosemite Valley Lodge Store) and small grocery store at Crane Flat <b>Showers:</b> Yosemite Valley (Curry Village) <b>Dump station:</b> Available all year in Yosemite Valley (in Upper Pines Campground) or, summer only, near Tuolumne Meadows Campground.",
+      "trailerMaxLength": "30",
+      "adaInfo": "There are no designated accessible campsites at this campground.",
+      "trailerAllowed": "1",
+      "accessRoads": [
+        "Paved Roads - All vehicles OK"
+      ],
+      "classifications": [
+        "Developed Campground"
+      ]
+    },
+    "contacts": {
+      "phoneNumbers": [
+        {
+          "phoneNumber": "209/379-2123",
+          "description": "",
+          "extension": "",
+          "type": "Voice"
+        }
+      ],
+      "emailAddresses": [
+        {
+          "description": "",
+          "emailAddress": "yose_web_manager@nps.gov"
+        }
+      ]
+    },
+    "fees": [
+      {
+        "cost": "36.00",
+        "description": "From mid-April through mid-October, campsites are available by reservation only.",
+        "title": "Hodgdon Meadow Campground Reservation Fee - Non-Group Site  (approx. mid-April through mid-October)"
+      },
+      {
+        "cost": "28.00",
+        "description": "From approximately mid-October through mid-April, campsites are available on a first-come, first-served basis.",
+        "title": "Hodgdon Meadow Campground First-Come, First-Served Fee - Non-Group Site (approx. mid-October through mid-April)"
+      },
+      {
+        "cost": "75.00",
+        "description": "The group campsites are open approximately mid-April through mid-October.",
+        "title": "Hodgdon Meadow Campground Group Site Fee - Group Site (open approx. mid-April through mid-October)"
+      }
+    ],
+    "images": [
+      {
+        "url": "https://www.nps.gov/common/uploads/structured_data/F19DF728-CEA0-8054-F00910A7A4406E97.jpg",
+        "title": "Hodgdon Meadow Campground",
+        "altText": "A wooden sign reads Hodgdon Meadow Campground. A kiosk is located at the entrance to the campground.",
+        "caption": "The entrance to Hodgdon Meadow Campground",
+        "credit": "NPS Photo"
+      },
+      {
+        "url": "https://www.nps.gov/common/uploads/structured_data/649C1343-F1EB-9E1D-F078AE90EC40CBB5.jpg",
+        "title": "Hodgdon Meadow Campground Kiosk",
+        "altText": "Small wooden building at entry to campground",
+        "caption": "Hodgdon Meadow Campground Kiosk",
+        "credit": "NPS Photo"
+      },
+      {
+        "url": "https://www.nps.gov/common/uploads/structured_data/64FC4FB2-D27A-2415-A229EB677CFEEB57.jpg",
+        "title": "Hodgdon Meadow Entrance Sign and Bulletin Board",
+        "altText": "Campground entrance sign and nearby bulletin board",
+        "caption": "Hodgdon Meadow Entrance Sign and Bulletin Board",
+        "credit": "NPS Photo"
+      }
+    ],
+    "reservationUrl": "https://www.recreation.gov/camping/campgrounds/232451",
+    "isOpen": true
+  },
+  {
+    "id": "4C3C4954-FA9C-4C58-B6CF-E66054E1F0EF",
+    "name": "Lower Pines Campground",
+    "description": "Lower Pines is located along the Merced River in Yosemite Valley. Yosemite Valley is centrally located in the park and boasts some of Yosemite\u2019s most iconic features. This campground is located at 4,000 feet (1,219 m) elevation and can be accessed from all park roads. Lower Pines is within biking and walking distance of many services and trailheads in Yosemite Valley and is located on the free shuttle route. There are food and grocery services nearby at Curry Village and Yosemite Village.",
+    "location": {
+      "lat": 37.7394658913,
+      "lon": -119.566313766
+    },
+    "campsites": {
+      "totalSites": "73",
+      "tentOnly": "0",
+      "rvOnly": "9"
+    },
+    "accessibility": {
+      "wheelchairAccess": "The following campsites are suitable for wheelchairs and include picnic tables with extended tops. The closest restrooms to these campsites are also wheelchair accessible. These campsites are limited to people with disabilities. Lower Pines: sites 7, 13, 14, 18, and 20",
+      "internetInfo": "",
+      "cellPhoneInfo": "",
+      "fireStovePolicy": "Wood fires are permitted all year, however, from May through September, campfires in Yosemite Valley are only allowed between 5 pm and 10 pm (campfires are allowed at any time from October through April). Charcoal fires are allowed at any time.",
+      "rvAllowed": "1",
+      "rvInfo": "Lower Pines: 73 sites with space for tents, RVs up to 40 feet, and trailers up to 35 feet. Not every site can accommodate equipment of these lengths. Be sure to read the site details when making a reservation on recreation.gov to ensure your equipment will fit into the site you're reserving. When making online reservations, you can filter available sites by entering the length of your RV.",
+      "rvMaxLength": "40",
+      "additionalInfo": "Each campsite contains a <b>fire ring</b>, <b>picnic table</b>, and a <b>food locker</b> and is near a <b>bathroom with drinking water and flushing toilets</b>. In Upper Pines food lockers measure 35\"(D)x43\"(W)x28\"(H). <b>Groceries:</b> Nearby (Yosemite Village and Curry Village) <b>Showers:</b> Yosemite Valley (Curry Village) <b>Dump Station:</b> Nearby (Upper Pines Campground)",
+      "trailerMaxLength": "35",
+      "adaInfo": "The following campsites are suitable for wheelchairs and include picnic tables with extended tops. The closest restrooms to these campsites are also wheelchair accessible. These campsites are limited to people with disabilities. Lower Pines: sites 7, 13, 14, 18, and 20",
+      "trailerAllowed": "1",
+      "accessRoads": [
+        "Paved Roads - All vehicles OK"
+      ],
+      "classifications": [
+        "Developed Campground"
+      ]
+    },
+    "contacts": {
+      "phoneNumbers": [
+        {
+          "phoneNumber": "209/372-8502",
+          "description": "",
+          "extension": "",
+          "type": "Voice"
+        }
+      ],
+      "emailAddresses": [
+        {
+          "description": "",
+          "emailAddress": "yose_web_manager@nps.gov"
+        }
+      ]
+    },
+    "fees": [
+      {
+        "cost": "36.00",
+        "description": "Lower Pines Campground Reservation Fee \u2013 Regular Sites",
+        "title": "Lower Pines Campground Reservation Fee \u2013 Regular Sites"
+      },
+      {
+        "cost": "60.00",
+        "description": "Lower Pines Campground Reservation Fee \u2013 Double Sites",
+        "title": "Lower Pines Campground Reservation Fee \u2013 Double Sites"
+      }
+    ],
+    "images": [
+      {
+        "url": "https://www.nps.gov/common/uploads/structured_data/F1E05154-9210-1590-8ABC98E7A04BB606.jpg",
+        "title": "Lower Pines Campground",
+        "altText": "A cleared campsite shows a picnic table and fire pit. A view of Half Dome can be seen through trees.",
+        "caption": "A great view of Half Dome from a campsite in Lower Pines Campground.",
+        "credit": "NPS Photo / Sheree Peshlakai"
+      },
+      {
+        "url": "https://www.nps.gov/common/uploads/structured_data/94D4AA37-E423-0110-12256F1EBACED917.jpg",
+        "title": "Lower Pines Campground Amphitheater",
+        "altText": "Empty amphitheater in campground with benches and a screen and stage",
+        "caption": "Lower Pines amphitheater where summer evening ranger programs may take place.",
+        "credit": "NPS Photo"
+      },
+      {
+        "url": "https://www.nps.gov/common/uploads/structured_data/94E5AE0B-CB23-CB0C-8312DA1A84061A65.jpg",
+        "title": "Lower Pines Campsites",
+        "altText": "Campsites with tents and cars in Lower Pines",
+        "caption": "A variety of campsites in Lower Pines Campground",
+        "credit": "NPS Photo"
+      }
+    ],
+    "reservationUrl": "https://www.recreation.gov/camping/campgrounds/232450",
+    "isOpen": true
+  },
+  {
+    "id": "BDF9737C-DD6E-457F-9ADC-501B07851F77",
+    "name": "North Pines Campground",
+    "description": "North Pines is located along the Merced River in Yosemite Valley. Yosemite Valley is centrally located in the park and boasts some of Yosemite\u2019s most iconic features. This campground is located at 4,000 feet (1,219 m) elevation and can be accessed from all park roads. North Pines is within biking and walking distance of many services and trailheads in Yosemite Valley and is located on the free shuttle route. There are food and grocery services nearby at Curry Village and Yosemite Village.",
+    "location": {
+      "lat": 37.74041634,
+      "lon": -119.565030848
+    },
+    "campsites": {
+      "totalSites": "80",
+      "tentOnly": "0",
+      "rvOnly": "13"
+    },
+    "accessibility": {
+      "wheelchairAccess": "The following campsites are suitable for wheelchairs and include picnic tables with extended tops. The closest restrooms to these campsites are also wheelchair accessible. These campsites are limited to people with disabilities. North Pines: sites 111, 113, 119, 125, and 129",
+      "internetInfo": "",
+      "cellPhoneInfo": "",
+      "fireStovePolicy": "Wood fires are permitted all year, however, from May through September, campfires in Yosemite Valley are only allowed between 5 pm and 10 pm (campfires are allowed at any time from October through April). Charcoal fires are allowed at any time.",
+      "rvAllowed": "1",
+      "rvInfo": "North Pines: 81 sites with space for tents, RVs up to 40 feet, and trailers up to 35 feet. Not every site can accommodate equipment of these lengths. Be sure to read the site details when making a reservation on recreation.gov to ensure your equipment will fit into the site you're reserving. When making online reservations, you can filter available sites by entering the length of your RV.",
+      "rvMaxLength": "40",
+      "additionalInfo": "Each campsite contains a <b>fire ring</b>, <b>picnic table</b>, and a <b>food locker</b> and is near a <b>bathroom with drinking water and flushing toilets</b>. In Upper Pines food lockers measure 35\"(D)x43\"(W)x28\"(H). <b>Groceries:</b> Nearby (Yosemite Village and Curry Village) <b>Showers:</b> Yosemite Valley (Curry Village) <b>Dump Station:</b> Nearby (Upper Pines Campground)",
+      "trailerMaxLength": "35",
+      "adaInfo": "The following campsites are suitable for wheelchairs and include picnic tables with extended tops. The closest restrooms to these campsites are also wheelchair accessible. These campsites are limited to people with disabilities. North Pines: sites 111, 113, 119, 125, and 129",
+      "trailerAllowed": "1",
+      "accessRoads": [
+        "Paved Roads - All vehicles OK"
+      ],
+      "classifications": [
+        "Developed Campground"
+      ]
+    },
+    "contacts": {
+      "phoneNumbers": [
+        {
+          "phoneNumber": "209/372-8502",
+          "description": "",
+          "extension": "",
+          "type": "Voice"
+        }
+      ],
+      "emailAddresses": [
+        {
+          "description": "",
+          "emailAddress": "yose_web_manager@nps.gov"
+        }
+      ]
+    },
+    "fees": [
+      {
+        "cost": "36.00",
+        "description": "North Pines Campground Reservation Fee - All Sites/night",
+        "title": "North Pines Campground Reservation Fee - All Sites"
+      }
+    ],
+    "images": [
+      {
+        "url": "https://www.nps.gov/common/uploads/structured_data/F1D1531B-0DEC-2359-0B1DA4592B958E64.jpg",
+        "title": "North Pines Campground",
+        "altText": "A wood sign at the entrance of a campground reads, North Pines Campground.",
+        "caption": "The entrance to North Pines Campground",
+        "credit": "NPS Photo"
+      }
+    ],
+    "reservationUrl": "https://www.recreation.gov/camping/campgrounds/232449",
+    "isOpen": true
+  },
+  {
+    "id": "AFD1869B-19F1-4C47-9B9B-75A6625C7A6D",
+    "name": "Porcupine Flat Campground",
+    "description": "Porcupine Flat Campground is located off the Tioga Road about 30 minutes west of Tuolumne Meadows and over an hour from Yosemite Valley. RVs and Trailers are not recommended for the narrow roads in this more primitive campground. At an elevation of 8,100 feet (2,500 m) elevation, the campground is near Porcupine Creek, which is the only water source (must be filtered, treated, or boiled). The Porcupine Creek Trailhead is nearby. There are no visitor services close to the campground.",
+    "location": {
+      "lat": 37.8082397642,
+      "lon": -119.565691823
+    },
+    "campsites": {
+      "totalSites": "52",
+      "tentOnly": "48",
+      "rvOnly": "0"
+    },
+    "accessibility": {
+      "wheelchairAccess": "The following campsites are suitable for wheelchairs and include picnic tables with extended tops. The closest restrooms to these campsites are also wheelchair accessible. These campsites are limited to people with disabilities. Sites 15, 16, 17, and 33",
+      "internetInfo": "",
+      "cellPhoneInfo": "",
+      "fireStovePolicy": "Wood and charcoal fires are permitted when the campground is in use/open.",
+      "rvAllowed": "1",
+      "rvInfo": "RVs and trailers are not recommended.",
+      "rvMaxLength": "24",
+      "additionalInfo": "Each campsite contains a fire ring, picnic table, and food locker, and is near a vault toilet. Stream water must be treated (by boiling, using a filter, or using iodine). In Porcupine Flat food lockers measure 33\"(D)x45\"(W)x18\"(H). Groceries: Yosemite Valley (Yosemite Village Store; Curry Village Store; Yosemite Valley Lodge Store) and small grocery store at Crane Flat Showers: Yosemite Valley (Curry Village) Dump Station: Available in summer only near Tuolumne Meadows Campground and all year in Yosemite Valley (in Upper Pines Campground).",
+      "trailerMaxLength": "0",
+      "adaInfo": "The following campsites are suitable for wheelchairs and include picnic tables with extended tops. The closest restrooms to these campsites are also wheelchair accessible. These campsites are limited to people with disabilities. Sites 15, 16, 17, and 33",
+      "trailerAllowed": "0",
+      "accessRoads": [
+        "Paved Roads - All vehicles OK"
+      ],
+      "classifications": [
+        "Limited Development Campground"
+      ]
+    },
+    "contacts": {
+      "phoneNumbers": [
+        {
+          "phoneNumber": "209/379-2123",
+          "description": "",
+          "extension": "",
+          "type": "Voice"
+        }
+      ],
+      "emailAddresses": [
+        {
+          "description": "",
+          "emailAddress": "yose_web_manager@nps.gov"
+        }
+      ]
+    },
+    "fees": [
+      {
+        "cost": "24.00",
+        "description": "Porcupine Flat Campground Fee - All Sites",
+        "title": "Porcupine Flat Campground Fee - All Sites"
+      }
+    ],
+    "images": [
+      {
+        "url": "https://www.nps.gov/common/uploads/structured_data/EF815719-F6AF-80A8-4F167B08A313F3CF.jpg",
+        "title": "Empty Campsite in Porcupine Flat Campground",
+        "altText": "Empty campsite in Porcupine Flat Campground with picnic table, fire ring and sun shining",
+        "caption": "Empty Campsite in Porcupine Flat Campground",
+        "credit": "NPS Photo"
+      },
+      {
+        "url": "https://www.nps.gov/common/uploads/structured_data/954492EB-F595-F7BF-410BFBF19400C465.jpeg",
+        "title": "Porcupine Flat Campground road",
+        "altText": "Gravel road through grassy forested area",
+        "caption": "Porcupine Flat Campground",
+        "credit": "NPS Photo"
+      }
+    ],
+    "reservationUrl": "https://www.recreation.gov/camping/campgrounds/10083831",
+    "isOpen": true
+  },
+  {
+    "id": "88397D32-BCEE-494E-8305-3BB22143019B",
+    "name": "Tamarack Flat Campground",
+    "description": "Tamarack Flat Campground is located off the Tioga Road just east of Crane Flat. The campground is approximately 20 miles (45 minutes) from Yosemite Valley and is tucked away in the forest 3 miles off Tioga Road. RVs and Trailers are not recommended for this harder to access, and more primitive campground. At an elevation of 6,300 feet (1,900 m) elevation, the campground is near Tamarack Creek, which is the only water source (must be filtered, treated, or boiled). There is a gas station nearby at Crane Flat.",
+    "location": {
+      "lat": 37.7517175327,
+      "lon": -119.736234028
+    },
+    "campsites": {
+      "totalSites": "52",
+      "tentOnly": "52",
+      "rvOnly": "0"
+    },
+    "accessibility": {
+      "wheelchairAccess": "The following campsites are suitable for wheelchairs and include picnic tables with extended tops. The closest restrooms to these campsites are also wheelchair accessible. These campsites are limited to people with disabilities. Sites 21, 22, 23, 24, and 38",
+      "internetInfo": "",
+      "cellPhoneInfo": "",
+      "fireStovePolicy": "Wood and charcoal fires are permitted when the campground is in use/open if fire restrictions are not in effect.",
+      "rvAllowed": "0",
+      "rvInfo": "RVs and trailers are not recommended.",
+      "rvMaxLength": "0",
+      "additionalInfo": "Each campsite contains a <b>fire ring</b>, <b>picnic table</b>, and <b>food locker</b>, and is near a <b>vault toilet</b>. Stream water must be treated (by boiling, using a filter, or using iodine). No potable water available. In Tamarack Flat food lockers measure 35\"(D)x43\"(W)x28\"(H). <b>Groceries:</b> Yosemite Valley (Yosemite Village Store; Curry Village Store; Yosemite Valley Lodge Store) and small grocery store at Crane Flat <b>Showers:</b> Yosemite Valley (Curry Village)",
+      "trailerMaxLength": "0",
+      "adaInfo": "The following campsites are suitable for wheelchairs and include picnic tables with extended tops. The closest restrooms to these campsites are also wheelchair accessible. These campsites are limited to people with disabilities. Sites 21, 22, 23, 24, and 38",
+      "trailerAllowed": "0",
+      "accessRoads": [
+        "Paved Roads - All vehicles OK"
+      ],
+      "classifications": [
+        "Limited Development Campground"
+      ]
+    },
+    "contacts": {
+      "phoneNumbers": [
+        {
+          "phoneNumber": "209/379-2123",
+          "description": "",
+          "extension": "",
+          "type": "Voice"
+        }
+      ],
+      "emailAddresses": [
+        {
+          "description": "",
+          "emailAddress": "yose_web_manager@nps.gov"
+        }
+      ]
+    },
+    "fees": [
+      {
+        "cost": "24.00",
+        "description": "Tamarack Flat Campground Fee - All Sites",
+        "title": "Tamarack Flat Campground Fee - All Sites"
+      }
+    ],
+    "images": [
+      {
+        "url": "https://www.nps.gov/common/uploads/structured_data/F2E5C332-0D36-DE80-7AACAB1A4DDEACE9.jpg",
+        "title": "Tamarack Flat Campground Sign",
+        "altText": "A wood sign at the entrance of a campground reads, Tamarack Flat Campground.",
+        "caption": "The entrance to Tamarack Flat Campground",
+        "credit": "NPS Photo"
+      },
+      {
+        "url": "https://www.nps.gov/common/uploads/structured_data/5900BBD5-A1AA-C7CA-2FFF99141D25172E.jpg",
+        "title": "Tamarack Flat Campground Entry Sign and Garbage/Recycling Receptacles",
+        "altText": "wooden sign with rules for campground and garbage and recycle bins",
+        "caption": "Tamarack Flat Campground Entry Sign and Garbage/Recycling Receptacles",
+        "credit": "NPS Photo"
+      },
+      {
+        "url": "https://www.nps.gov/common/uploads/structured_data/58C90387-091E-50CD-D37853CFDFE0F026.jpg",
+        "title": "Tamarack Flat Campground Fee Area",
+        "altText": "signs near the entrance of the campground about self-registration",
+        "caption": "Tamarack Flat Campground Fee Area",
+        "credit": "NPS Photo"
+      },
+      {
+        "url": "https://www.nps.gov/common/uploads/structured_data/58EBD9FB-C9B8-9246-EC45302837706C88.jpg",
+        "title": "Tamarack Flat Campground Campsite",
+        "altText": "car and tent in campsite",
+        "caption": "Tamarack Flat Campground Campsite",
+        "credit": "NPS Photo"
+      },
+      {
+        "url": "https://www.nps.gov/common/uploads/structured_data/59185BDF-FB5D-41BE-0B65E547A81476B0.jpg",
+        "title": "Tamarack Flat Campground Restroom Facility",
+        "altText": "restroom facility with two doors",
+        "caption": "Tamarack Flat Campground Restroom Facility",
+        "credit": "NPS Photo"
+      },
+      {
+        "url": "https://www.nps.gov/common/uploads/structured_data/592EEE43-EA60-7A01-184928F08A276C86.jpg",
+        "title": "Tamarack Flat Campsites",
+        "altText": "multiple small tents in the campground with a picnic table and some trees",
+        "caption": "Tamarack Flat Campsites",
+        "credit": "NPS Photo"
+      }
+    ],
+    "reservationUrl": "https://www.recreation.gov/camping/campgrounds/10083845",
+    "isOpen": true
+  },
+  {
+    "id": "45D3FDD7-DB1F-4DCE-83BD-B5C6EFA683DD",
+    "name": "Tuolumne Horse Campsites",
+    "description": "Tuolumne Meadows Horse Campsites are located within Tuolumne Meadows Campground in breathtaking Yosemite National Park in Central California's rugged Sierra Nevada Mountain Range at an elevation of 8,600 feet. The site is situated along the scenic Tioga Road just eight miles from the Tioga Pass Entrance Station and 55 miles from Yosemite Valley. Within Yosemite, visitors can gaze upon waterfalls, sheer granite cliffs, deep valleys, grand meadows, ancient giant sequoias, vast wilderness areas, and so much mo",
+    "location": {
+      "lat": 37.87059758104315,
+      "lon": -119.35562371798808
+    },
+    "campsites": {
+      "totalSites": "4",
+      "tentOnly": "0",
+      "rvOnly": "0"
+    },
+    "accessibility": {
+      "wheelchairAccess": "Tuolumne Horse Campsites are not accessible.",
+      "internetInfo": "",
+      "cellPhoneInfo": "",
+      "fireStovePolicy": "Wood and charcoal fires are permitted when the campground is in use/open.",
+      "rvAllowed": "0",
+      "rvInfo": "Maximum trailer length allowed is 27 feet. There is a limit of two vehicles and two stock trailers per parking area.",
+      "rvMaxLength": "0",
+      "additionalInfo": "Each campsite contains a <b>fire ring</b>, <b>picnic table</b>, and a <b>food locker</b> and is near a <b>bathroom with drinking water and flushing toilets</b>. In Tuolumne Meadows food lockers measure 35\"(D)x43\"(W)x28\"(H). The group site has five food lockers. <b>Groceries:</b> Nearby (small grocery store in Tuolumne Meadows) <b>Showers:</b> Yosemite Valley (Curry Village) <b>Dump station:</b> Available all year in Yosemite Valley (in Upper Pines Campground) or, summer only, near Tuolumne Meadows Campground.",
+      "trailerMaxLength": "27",
+      "adaInfo": "Tuolumne Horse Campsites are not accessible.",
+      "trailerAllowed": "1",
+      "accessRoads": [
+        "Unpaved Roads - All vehicles OK in good weather"
+      ],
+      "classifications": [
+        "Developed Campground"
+      ]
+    },
+    "contacts": {
+      "phoneNumbers": [
+        {
+          "phoneNumber": "209/372-4025",
+          "description": "",
+          "extension": "",
+          "type": "Voice"
+        }
+      ],
+      "emailAddresses": [
+        {
+          "description": "",
+          "emailAddress": "yose_web_manager@nps.gov"
+        }
+      ]
+    },
+    "fees": [
+      {
+        "cost": "50.00",
+        "description": "Tuolumne Horse Campsite",
+        "title": "Tuolumne Horse Campsites"
+      }
+    ],
+    "images": [
+      {
+        "url": "https://www.nps.gov/common/uploads/structured_data/9391455F-A7BB-7798-42A63FFA295E107C.jpg",
+        "title": "Tuolumne Horse Campsites",
+        "altText": "Wood sign reading \"horse camp\" next to a road through a wooded area",
+        "caption": "Tuolumne Meadows Horse Camp sign at entrance to camp",
+        "credit": "NPS Photo"
+      }
+    ],
+    "reservationUrl": "https://www.recreation.gov/camping/campgrounds/10346420",
+    "isOpen": true
+  },
+  {
+    "id": "793AAB2C-885E-44F7-A0A1-D64B37291338",
+    "name": "Tuolumne Meadows Campground",
+    "description": "Tuolumne Meadows Campground is Yosemite\u2019s largest, and is located along the Tioga Road, with some areas located close to the Tuolumne River. At 8,000 feet (2,600 m) this campground is open seasonally and has wonderful summer access to many hikes, lakes, and prominent viewpoints. The campground is located approximately 1 hour and 30 minutes from Yosemite Valley but a small store, grill, and post office are located nearby in Tuolumne Meadows.",
+    "location": {
+      "lat": 37.8744752913,
+      "lon": -119.353650884
+    },
+    "campsites": {
+      "totalSites": "315",
+      "tentOnly": "149",
+      "rvOnly": "2"
+    },
+    "accessibility": {
+      "wheelchairAccess": "The following campsites are suitable for wheelchairs and include picnic tables with extended tops. The closest restrooms to these campsites are also wheelchair accessible. These campsites are limited to people with disabilities. Sites: A5, A41, B37, B38, B39, C1, C74, C75, D10, H16, H17, H18, H19",
+      "internetInfo": "",
+      "cellPhoneInfo": "",
+      "fireStovePolicy": "Wood and charcoal fires are permitted when the campground is in use/open.",
+      "rvAllowed": "1",
+      "rvInfo": "Tuolumne Meadows: 304 sites with space for tents, RVs up to 35 feet, and trailers up to 35 feet. Not every site can accommodate equipment of these lengths. Be sure to read the site details when making a reservation on recreation.gov to ensure your equipment will fit into the site you're reserving. When making online reservations, you can filter available sites by entering the length of your RV.",
+      "rvMaxLength": "35",
+      "additionalInfo": "Each campsite contains a <b>fire ring</b>, <b>picnic table</b>, and a <b>food locker</b> and is near a <b>bathroom with drinking water and flushing toilets</b>. In Tuolumne Meadows food lockers measure 35\"(D)x43\"(W)x28\"(H). The group site has five food lockers. <b>Groceries:</b> Nearby (small grocery store in Tuolumne Meadows) <b>Showers:</b> Yosemite Valley (Curry Village) <b>Dump station:</b> Available all year in Yosemite Valley (in Upper Pines Campground) or, summer only, near Tuolumne Meadows Campground.",
+      "trailerMaxLength": "24",
+      "adaInfo": "The following campsites are suitable for wheelchairs and include picnic tables with extended tops. The closest restrooms to these campsites are also wheelchair accessible. These campsites are limited to people with disabilities. Sites: A5, A41, B37, B38, B39, C1, C74, C75, D10, H16, H17, H18, H19",
+      "trailerAllowed": "1",
+      "accessRoads": [
+        "Paved Roads - All vehicles OK"
+      ],
+      "classifications": [
+        "Developed Campground"
+      ]
+    },
+    "contacts": {
+      "phoneNumbers": [
+        {
+          "phoneNumber": "209/372-4025",
+          "description": "",
+          "extension": "",
+          "type": "Voice"
+        }
+      ],
+      "emailAddresses": [
+        {
+          "description": "",
+          "emailAddress": "yose_web_manager@nps.gov"
+        }
+      ]
+    },
+    "fees": [
+      {
+        "cost": "36.00",
+        "description": "Tuolumne Meadows Campground Reservation Fee - Standard Sites (RV or Tent) and Tent Only Sites (non-group site)/night",
+        "title": "Tuolumne Meadows Campground Fee - Non Group Site"
+      },
+      {
+        "cost": "75.00",
+        "description": "Tuolumne Meadows Campground Group Site Fee - Group Site/night",
+        "title": "Tuolumne Meadows Campground Group Site Fee - Group Site"
+      },
+      {
+        "cost": "50.00",
+        "description": "Tuolumne Meadows Campground Stock Site Fee - Stock Site/night",
+        "title": "Tuolumne Meadows Campground Stock Site Fee - Stock Site"
+      }
+    ],
+    "images": [
+      {
+        "url": "https://www.nps.gov/common/uploads/structured_data/F2101B4C-E9E2-0BFD-7AB2D6DD4B723A68.jpg",
+        "title": "Tuolumne Meadows Campground",
+        "altText": "A female park ranger leans out of a kiosk window to help a visitor who is in their car.",
+        "caption": "The entrance to Tuolumne Meadows Campground",
+        "credit": "NPS Photo"
+      },
+      {
+        "url": "https://www.nps.gov/common/uploads/structured_data/D2F61A01-C0DF-65D3-504E1B99BC6A0508.jpg",
+        "title": "Tuolumne Meadows Campground Bulletin Board",
+        "altText": "Bulletin Board in Tuolumne Meadows Campground",
+        "caption": "Tuolumne Meadows Campground bulletin board",
+        "credit": "NPS Photo"
+      },
+      {
+        "url": "https://www.nps.gov/common/uploads/structured_data/3C2B60CE-E771-F3A6-7513F1F23C4FF0B5.jpg",
+        "title": "Tuolumne Meadows Tent Only Campsite",
+        "altText": "A grassy campsite with a bear food storage locker, metal fire pit, and picnic table",
+        "caption": "Tent Only Campsite",
+        "credit": "NPS Photo"
+      },
+      {
+        "url": "https://www.nps.gov/common/uploads/structured_data/3C3CF411-03C8-FCC1-B3856A1D4E2B1A55.jpg",
+        "title": "Tuolumne Meadows Dana Campfire Circle",
+        "altText": "Four rows of raised bleachers surround a fire pit and wooden storage box",
+        "caption": "Dana Campfire Circle",
+        "credit": "NPS Photo"
+      },
+      {
+        "url": "https://www.nps.gov/common/uploads/structured_data/3CBAFE56-EC1A-E4FB-370A92074815E284.jpg",
+        "title": "Tuolumne Meadows Backpackers Camp",
+        "altText": "Unpaved path lined with a map, bulletin board, and sign reading \"backpackers section\"",
+        "caption": "Tuolumne Meadows Backpackers Camp",
+        "credit": "NPS Photo"
+      }
+    ],
+    "reservationUrl": "https://www.recreation.gov/camping/campgrounds/232448",
+    "isOpen": true
+  },
+  {
+    "id": "9D5B57D0-793A-4C2B-B620-5B561EDFC031",
+    "name": "Upper Pines Campground",
+    "description": "Upper Pines is located near the Merced River in Yosemite Valley. Yosemite Valley is centrally located in the park and boasts some of Yosemite\u2019s most iconic features. This large campground is located at 4,000 feet (1,219 m) elevation and can be accessed from all park roads. Upper Pines is within biking and walking distance of many services and trailheads in Yosemite Valley and is located on the free shuttle route. There are food and grocery services nearby at Curry Village and Yosemite Village.",
+    "location": {
+      "lat": 37.7384294725,
+      "lon": -119.564411225
+    },
+    "campsites": {
+      "totalSites": "235",
+      "tentOnly": "5",
+      "rvOnly": "32"
+    },
+    "accessibility": {
+      "wheelchairAccess": "The following campsites are suitable for wheelchairs and include picnic tables with extended tops. The closest restrooms to these campsites are also wheelchair accessible. These campsites are limited to people with disabilities. Upper Pines: sites 6, 7, 21, 26, 27, 28, 29, 39, 42, and 43",
+      "internetInfo": "",
+      "cellPhoneInfo": "",
+      "fireStovePolicy": "Wood fires are permitted all year, however, from May through September, campfires in Yosemite Valley are only allowed between 5 pm and 10 pm (campfires are allowed at any time from October through April). Charcoal fires are allowed at any time.",
+      "rvAllowed": "1",
+      "rvInfo": "Upper Pines: 238 sites with space for tents, RVs up to 35 feet, and trailers up to 24 feet. Not every site can accommodate equipment of these lengths. Be sure to read the site details when making a reservation on recreation.gov to ensure your equipment will fit into the site you're reserving. When making online reservations, you can filter available sites by entering the length of your RV.",
+      "rvMaxLength": "35",
+      "additionalInfo": "Each campsite contains a <b>fire ring</b>, <b>picnic table</b>, and a <b>food locker</b> and is near a <b>bathroom with drinking water and flushing toilets</b>. In Upper Pines food lockers measure 35\"(D)x43\"(W)x28\"(H). <b>Groceries:</b> Nearby (Yosemite Village and Curry Village) <b>Showers:</b> Yosemite Valley (Curry Village) <b>Dump station:</b> Yes, near campground entrance",
+      "trailerMaxLength": "24",
+      "adaInfo": "The following campsites are suitable for wheelchairs and include picnic tables with extended tops. The closest restrooms to these campsites are also wheelchair accessible. These campsites are limited to people with disabilities. Upper Pines: sites 6, 7, 21, 26, 27, 28, 29, 39, 42, and 43",
+      "trailerAllowed": "1",
+      "accessRoads": [
+        "Paved Roads - All vehicles OK"
+      ],
+      "classifications": [
+        "Developed Campground"
+      ]
+    },
+    "contacts": {
+      "phoneNumbers": [
+        {
+          "phoneNumber": "209/372-8502",
+          "description": "",
+          "extension": "",
+          "type": "Voice"
+        }
+      ],
+      "emailAddresses": [
+        {
+          "description": "",
+          "emailAddress": "yose_web_manager@nps.gov"
+        }
+      ]
+    },
+    "fees": [
+      {
+        "cost": "36.00",
+        "description": "Upper Pines Campground Reservation Fee - All Sites/night",
+        "title": "Upper Pines Campground Reservation Fee - All Sites"
+      }
+    ],
+    "images": [
+      {
+        "url": "https://www.nps.gov/common/uploads/structured_data/F1850AEB-FE56-55A3-C84320E1344F4237.jpg",
+        "title": "Upper Pines Campground",
+        "altText": "A campsite nestled in the trees includes a picnic table, firepit, and metal bear storage locker.",
+        "caption": "A campsite in Upper Pines Campground.",
+        "credit": "NPS Photo"
+      },
+      {
+        "url": "https://www.nps.gov/common/uploads/structured_data/93E9D00E-A461-7EA2-C026973EB0AD7D30.jpg",
+        "title": "Upper Pines Campground Road Sign",
+        "altText": "road and sign indicating Upper Pines Campground",
+        "caption": "Sign for Upper Pines as you approach the campground.",
+        "credit": "NPS Photo"
+      },
+      {
+        "url": "https://www.nps.gov/common/uploads/structured_data/93F86DEC-92B7-D979-321C9A17224FCD63.jpg",
+        "title": "Upper Pines Campground with Tent",
+        "altText": "Tent in campsite in Upper Pines",
+        "caption": "Upper Pines campsite with tent and others in background.",
+        "credit": "NPS Photo"
+      }
+    ],
+    "reservationUrl": "https://www.recreation.gov/camping/campgrounds/232447",
+    "isOpen": true
+  },
+  {
+    "id": "F7CA3802-BD31-4C93-9C3C-A4097B955EE6",
+    "name": "Wawona Campground",
+    "description": "The Wawona Campground is located along the South Fork Merced River close to historic Wawona. At an elevation of 4,000 feet (1,219 m), the campground is located in the southern end of the park, 27 miles and approximately 45 minutes from Yosemite Valley. The majestic Mariposa Grove of Giant Sequoias is just a short drive away and the Yosemite History Center is in nearby Wawona where you can see some of the park\u2019s oldest structures. Wawona offers a visitor center, hotel, and a market.",
+    "location": {
+      "lat": 37.5447206589,
+      "lon": -119.672746462
+    },
+    "campsites": {
+      "totalSites": "99",
+      "tentOnly": "21",
+      "rvOnly": "4"
+    },
+    "accessibility": {
+      "wheelchairAccess": "The following campsites are suitable for a wheelchair and include picnic tables with extended tops. The closest restrooms to these campsites are also wheelchair accessible. These campsites are limited to people with disabilities. Loop C: sites 67, 69, 70, and 89",
+      "internetInfo": "",
+      "cellPhoneInfo": "",
+      "fireStovePolicy": "Wood and charcoal fires are permitted all year and at any time.",
+      "rvAllowed": "1",
+      "rvInfo": "Wawona Campground: 97 sites with space for tents, RVs up to 35 feet and trailers up to 35 feet. Not every site can accommodate equipment of these lengths. Be sure to read the site details when making a reservation on recreation.gov to ensure your equipment will fit into the site you're reserving. You can also find <a href=\"https://www.nps.gov/yose/planyourvisit/campingfaq.htm#rvlength\">answers to frequently asked questions about length limits and site types</a>. When making online reservations, you can filter available sites by entering the length of your RV.",
+      "rvMaxLength": "35",
+      "additionalInfo": "Each campsite contains a <b>fire ring</b>, <b>picnic table</b>, a <b>food locker</b>, and is near a <b>bathroom with drinking water and flushing toilets</b>. In the Wawona Campground food lockers measure 35\"(D)x43\"(W)x28\"(H). The group site has five food lockers. <b>Groceries:</b> Nearby (small grocery store in Wawona) <b>Dump Station:</b> Nearby (located in Wawona in summer only, on Forest Drive east of the Wawona Store) <b>Showers:</b> Yosemite Valley (Curry Village)",
+      "trailerMaxLength": "35",
+      "adaInfo": "The following campsites are suitable for a wheelchair and include picnic tables with extended tops. The closest restrooms to these campsites are also wheelchair accessible. These campsites are limited to people with disabilities. Loop C: sites 67, 69, 70, and 89",
+      "trailerAllowed": "1",
+      "accessRoads": [
+        "Paved Roads - All vehicles OK"
+      ],
+      "classifications": [
+        "Developed Campground"
+      ]
+    },
+    "contacts": {
+      "phoneNumbers": [
+        {
+          "phoneNumber": "209/375-9535",
+          "description": "",
+          "extension": "",
+          "type": "Voice"
+        }
+      ],
+      "emailAddresses": [
+        {
+          "description": "",
+          "emailAddress": "yose_web_manager@nps.gov"
+        }
+      ]
+    },
+    "fees": [
+      {
+        "cost": "36.00",
+        "description": "This fee is for reserved sites (RV or Tent) (approx. mid-April through mid-October).",
+        "title": "Wawona Campground Reservation Fee - Non-Group Site (approx. mid-April through mid-October)"
+      },
+      {
+        "cost": "28.00",
+        "description": "This fee is for first-come, first-served sites (available mid-October through mid-April in Loop A).",
+        "title": "Wawona Campground First-Come, First-Served Fee - Non-Group Site (approx. mid-October through mid-April)"
+      },
+      {
+        "cost": "75.00",
+        "description": "This fee is for the group site located in Loop A; reservations required.",
+        "title": "Wawona Campground Group Site Fee - Group Site"
+      }
+    ],
+    "images": [
+      {
+        "url": "https://www.nps.gov/common/uploads/structured_data/60BD6117-C874-665B-8328EDBD607A5517.jpg",
+        "title": "Wawona Campground Sign",
+        "altText": "Wooden Wawona Campground sign located along the Wawona Road",
+        "caption": "Wawona Campground sign located along the Wawona Road.",
+        "credit": "NPS Photo"
+      },
+      {
+        "url": "https://www.nps.gov/common/uploads/structured_data/F1F97B11-A272-85CA-9690807DE8678A70.jpg",
+        "title": "Wawona Campground",
+        "altText": "A car is stopped at a small kiosk at the entrance to a campground.",
+        "caption": "The entrance to Wawona Campground",
+        "credit": "NPS Photo"
+      }
+    ],
+    "reservationUrl": "https://www.recreation.gov/camping/campgrounds/232446",
+    "isOpen": true
+  },
+  {
+    "id": "DE70B459-9D01-4859-954D-766D6999B6D3",
+    "name": "Wawona Horse Camp",
+    "description": "The Wawona Horse Camp is located along the South Fork Merced River adjacent to historic Wawona. At an elevation of 4,000 feet (1,219 m), the camp is located in the southern end of the park, 27 miles and approximately 45 minutes from Yosemite Valley. The majestic Mariposa Grove of Giant Sequoias is just a short drive away and the Yosemite History Center is right next door where you can see some of the park\u2019s oldest structures. Wawona offers a visitor center, hotel, and a market.",
+    "location": {
+      "lat": 37.539524185340085,
+      "lon": -119.65243220329285
+    },
+    "campsites": {
+      "totalSites": "2",
+      "tentOnly": "0",
+      "rvOnly": "0"
+    },
+    "accessibility": {
+      "wheelchairAccess": "The Wawona Horse Campsites are not accessible. The nearby restroom is accessible via a paved sidewalk.",
+      "internetInfo": "",
+      "cellPhoneInfo": "",
+      "fireStovePolicy": "Wood and charcoal fires are permitted when the campground is open.",
+      "rvAllowed": "1",
+      "rvInfo": "RVs and horse trailers are allowed. Maximum length for RVs are 35 feet in Horse Camp Site 1, and 30 feet in Horse Camp Site 2.",
+      "rvMaxLength": "30",
+      "additionalInfo": "Each campsite contains a <b>fire ring</b>, <b>picnic table</b>, a <b>food locker</b>, and is near a <b>bathroom with drinking water and a flushing toilet</b>. In the Wawona Horse Camp food lockers measure 45\"(D)x33\"(W)x18\"(H). <b>Groceries:</b> Nearby (small grocery store in Wawona) <b>Dump Station:</b> Nearby (located in Wawona in summer only, on Forest Drive east of the Wawona Store) <b>Showers:</b> Yosemite Valley (Curry Village)",
+      "trailerMaxLength": "35",
+      "adaInfo": "The Wawona Horse Campsites are not accessible. The nearby restroom is accessible via a paved sidewalk.",
+      "trailerAllowed": "1",
+      "accessRoads": [
+        "Unpaved Roads - All vehicles OK in good weather"
+      ],
+      "classifications": [
+        "Limited Development Campground"
+      ]
+    },
+    "contacts": {
+      "phoneNumbers": [
+        {
+          "phoneNumber": "209/375-9535",
+          "description": "",
+          "extension": "",
+          "type": "Voice"
+        }
+      ],
+      "emailAddresses": [
+        {
+          "description": "",
+          "emailAddress": "yose_web_manager@nps.gov"
+        }
+      ]
+    },
+    "fees": [
+      {
+        "cost": "50.00",
+        "description": "Wawona Horse Campsite",
+        "title": "Wawona Horse Campsites"
+      }
+    ],
+    "images": [
+      {
+        "url": "https://www.nps.gov/common/uploads/structured_data/D1411215-F06D-C0F1-682A388F4DC51015.jpg",
+        "title": "Wawona Horse Camp approach",
+        "altText": "Dirt driveway approaching the campsites",
+        "caption": "Approach to Wawona Horse Camp",
+        "credit": "NPS Photo"
+      },
+      {
+        "url": "https://www.nps.gov/common/uploads/structured_data/D3E5EE77-E98B-1284-B4E9A724DE028E8E.jpg",
+        "title": "Wawona Horse Camp Site 1 Lockers",
+        "altText": "Wawona Horse Camp Site 1 Lockers",
+        "caption": "Wawona Horse Camp Site 1 Lockers",
+        "credit": ""
+      },
+      {
+        "url": "https://www.nps.gov/common/uploads/structured_data/D14F77CB-AD9A-4755-4171F15FC29F9C32.jpg",
+        "title": "Wawona Horse Camp Site 2 Lockers",
+        "altText": "Wawona Horse Camp Site 2 Lockers",
+        "caption": "Wawona Horse Camp Site 2 Lockers",
+        "credit": "NPS Photo"
+      }
+    ],
+    "reservationUrl": "https://www.recreation.gov/camping/campgrounds/10220609",
+    "isOpen": true
+  },
+  {
+    "id": "2B396150-CB50-4013-AAF2-B862D4FA4823",
+    "name": "White Wolf Campground",
+    "description": "White Wolf Campground is located off the Tioga Road between Tuolumne Meadows and Crane Flat, approximately an hour from Yosemite Valley at 8,000 feet (2,400 m). The campground is tucked into the forest about a mile from Tioga Road near White Wolf Lodge. Trailheads nearby lead to Lukens and Harden Lakes and the area is popular for those accessing other wilderness destinations. Minimal services may be available at White Wolf Lodge (if open). There are no other visitor services close to the campground.",
+    "location": {
+      "lat": 37.8703497151,
+      "lon": -119.64834666
+    },
+    "campsites": {
+      "totalSites": "74",
+      "tentOnly": "0",
+      "rvOnly": "0"
+    },
+    "accessibility": {
+      "wheelchairAccess": "There are two designated accessible sites in this campground.",
+      "internetInfo": "",
+      "cellPhoneInfo": "",
+      "fireStovePolicy": "Wood and charcoal fires are permitted when the campground is in use/open.",
+      "rvAllowed": "1",
+      "rvInfo": "White Wolf Campground: 74 sites with space for tents, RVs up to 27 feet, and trailers up to 24 feet. Not every site can accommodate equipment of these lengths. Be sure to read the site details when making a reservation on recreation.gov to ensure your equipment will fit into the site you're reserving.",
+      "rvMaxLength": "27",
+      "additionalInfo": "Each campsite contains a <b>fire ring</b>, <b>picnic table</b>, and a <b>food locker</b> and is near a bathroom with <b>drinking water and flushing toilets</b>. In White Wolf Campground food lockers measure 35\"(D)x43\"(W)x28\"(H). <b>Groceries:</b> Yosemite Valley (Yosemite Village Store; Curry Village Store; Yosemite Valley Lodge Store) and small grocery store at Crane Flat <b>Showers:</b> Yosemite Valley (Curry Village) <b>Dump Station:</b> Available in summer only near Tuolumne Meadows Campground and all year in Yosemite Valley (in Upper Pines Campground).",
+      "trailerMaxLength": "24",
+      "adaInfo": "There are two designated accessible sites in this campground.",
+      "trailerAllowed": "1",
+      "accessRoads": [
+        "Paved Roads - All vehicles OK"
+      ],
+      "classifications": [
+        "Developed Campground"
+      ]
+    },
+    "contacts": {
+      "phoneNumbers": [
+        {
+          "phoneNumber": "209/379-2123",
+          "description": "",
+          "extension": "",
+          "type": "Voice"
+        }
+      ],
+      "emailAddresses": [
+        {
+          "description": "",
+          "emailAddress": "yose_web_manager@nps.gov"
+        }
+      ]
+    },
+    "fees": [
+      {
+        "cost": "28.00",
+        "description": "White Wolf Campground Fee - Standard Sites (RV or Tent) and Tent Only Sites. Fee is normally $36, but temporarily lowered to $28 in 2025.",
+        "title": "White Wolf Campground Fee - All Sites"
+      }
+    ],
+    "images": [
+      {
+        "url": "https://www.nps.gov/common/uploads/structured_data/F2641FC8-0384-4D11-CD7474809ADCDF5B.jpg",
+        "title": "White Wolf Campground Entrance Sign",
+        "altText": "A wood sign on the side of a road reads White Wolf Campground.",
+        "caption": "The entrance to White Wolf Campground",
+        "credit": "NPS Photo"
+      },
+      {
+        "url": "https://www.nps.gov/common/uploads/structured_data/8C7493BF-D35D-F50E-67B032DA7D2E8731.jpg",
+        "title": "White Wolf Campsite",
+        "altText": "White Wolf Campsite with tent and vehicle",
+        "caption": "White Wolf Campsite",
+        "credit": "NPS Photo"
+      },
+      {
+        "url": "https://www.nps.gov/common/uploads/structured_data/8C6A1294-F032-E2AC-1C4D5A043FAC9BFC.jpg",
+        "title": "White Wolf Campground Amphitheater",
+        "altText": "Rows of benches that make up the White Wolf Amphitheater",
+        "caption": "White Wolf Campground Amphitheater",
+        "credit": "NPS Photo"
+      },
+      {
+        "url": "https://www.nps.gov/common/uploads/structured_data/8C7C5DC7-CB57-7815-9E5D3F626B4371A8.jpg",
+        "title": "Empty White Wolf Campsite",
+        "altText": "Empty White Wolf Campsite with metal food storage locker",
+        "caption": "Empty White Wolf Campsite",
+        "credit": "NPS Photo"
+      },
+      {
+        "url": "https://www.nps.gov/common/uploads/structured_data/8C853764-9C09-11B7-F7C46E14547EC646.jpg",
+        "title": "White Wolf Campground Registration Area",
+        "altText": "Registration area with signs and instructions",
+        "caption": "White Wolf Campground Registration Area",
+        "credit": "NPS Photo"
+      },
+      {
+        "url": "https://www.nps.gov/common/uploads/structured_data/8C91EBFC-94B9-8CE5-7E397B8CC39AAA6F.jpg",
+        "title": "White Wolf Camp Host Site",
+        "altText": "camp host site with sign",
+        "caption": "White Wolf Camp Host Site",
+        "credit": "NPS Photo"
+      },
+      {
+        "url": "https://www.nps.gov/common/uploads/structured_data/8C9CAB61-AC7B-2243-74BE9F0C08B55A88.jpg",
+        "title": "White Wolf Campground Bulletin Board",
+        "altText": "Wooden campground bulletin board with flyers posted",
+        "caption": "White Wolf Campground Bulletin Board",
+        "credit": "NPS Photo"
+      }
+    ],
+    "reservationUrl": "",
+    "isOpen": true
+  },
+  {
+    "id": "025AFF52-097D-4754-8952-5A554386CE62",
+    "name": "Yosemite Creek Campground",
+    "description": "Yosemite Creek Campground is located nearly 5 miles off the Tioga Road (via a rough road) 26 miles west of Tuolumne Meadows, and a little over an hour from Yosemite Valley. Located in the forest at 7,700 feet (2,300 m) many campsites are close to Yosemite Creek, which is the only water source (must be filtered, treated, or boiled). RVs and Trailers are not recommended for this harder to access, and more primitive campground. There are no visitor services close to the campground.",
+    "location": {
+      "lat": 37.8262940032,
+      "lon": -119.598333377
+    },
+    "campsites": {
+      "totalSites": "75",
+      "tentOnly": "75",
+      "rvOnly": "0"
+    },
+    "accessibility": {
+      "wheelchairAccess": "The following campsites are suitable for wheelchair and include picnic tables with extended tops. The closest restrooms to these campsites are also wheelchair accessible. These campsites are limited to people with disabilities. Sites 47 and 49",
+      "internetInfo": "",
+      "cellPhoneInfo": "",
+      "fireStovePolicy": "Wood and charcoal fires are permitted when the campground is in use/open.",
+      "rvAllowed": "0",
+      "rvInfo": "RVs and trailers are not recommended.",
+      "rvMaxLength": "0",
+      "additionalInfo": "Each campsite contains a <b>fire ring</b>, <b>picnic table</b>, and <b>food locker</b>, and is near a <b>vault toilet</b>. Stream water must be treated (by boiling, using a filter, or using iodine). No potable water available. In Yosemite Creek food lockers measure 33\"(D)x45\"(W)x18\"(H). <b>Groceries:</b> Yosemite Valley (Yosemite Village Store; Curry Village Store; Yosemite Valley Lodge Store) and small grocery store at Crane Flat <b>Showers:</b> Yosemite Valley (Curry Village)",
+      "trailerMaxLength": "0",
+      "adaInfo": "The following campsites are suitable for wheelchair and include picnic tables with extended tops. The closest restrooms to these campsites are also wheelchair accessible. These campsites are limited to people with disabilities. Sites 47 and 49",
+      "trailerAllowed": "0",
+      "accessRoads": [
+        "Paved Roads - All vehicles OK"
+      ],
+      "classifications": [
+        "Limited Development Campground"
+      ]
+    },
+    "contacts": {
+      "phoneNumbers": [
+        {
+          "phoneNumber": "209/379-2123",
+          "description": "",
+          "extension": "",
+          "type": "Voice"
+        }
+      ],
+      "emailAddresses": [
+        {
+          "description": "",
+          "emailAddress": "yose_web_manager@nps.gov"
+        }
+      ]
+    },
+    "fees": [
+      {
+        "cost": "24.00",
+        "description": "Yosemite Creek Campground Fee - All Sites",
+        "title": "Yosemite Creek Campground Fee - All Sites"
+      }
+    ],
+    "images": [
+      {
+        "url": "https://www.nps.gov/common/uploads/structured_data/F2CF3FCA-F33F-D3FC-7FED591EEBA7994D.jpg",
+        "title": "Yosemite Creek Campground",
+        "altText": "A wood sign at the entrance of a campground reads, Yosemite Creek Campground.",
+        "caption": "The entrance to Yosemite Creek Campground",
+        "credit": "NPS Photo"
+      },
+      {
+        "url": "https://www.nps.gov/common/uploads/structured_data/9A9E6EE5-C793-57EE-BE33CDA25CD3446B.jpg",
+        "title": "Yosemite Creek Campground Site 1",
+        "altText": "Empty campsite, site 1",
+        "caption": "Yosemite Creek Campground Site 1",
+        "credit": ""
+      }
+    ],
+    "reservationUrl": "https://www.recreation.gov/camping/campgrounds/10083840",
+    "isOpen": true
+  }
+]

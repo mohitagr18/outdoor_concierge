@@ -1,0 +1,276 @@
+[
+  {
+    "id": "888BB5B2-6EA6-473C-A803-ECA45A02AF57",
+    "name": "Big Oak Flat Information Station",
+    "description": "The Big Oak Flat Information Station has an information desk, wilderness permit desk, and Yosemite Conservancy Bookstore. In the winter, self-registration wilderness permits for the Crane Flat area and Tioga Road trailheads only, are available on the front porch. You must bring your own bear canister when the information station is closed. Wilderness permits are required for overnight stays in Yosemite's Wilderness. Designated accessible parking spaces are available in front of the facility.",
+    "location": {
+      "lat": 37.8003401522,
+      "lon": -119.875434181
+    },
+    "url": "",
+    "images": [
+      {
+        "url": "https://www.nps.gov/common/uploads/structured_data/95A963DC-0F2F-415F-C67D013189783F30.jpg",
+        "title": "Big Oak Flat Information Station",
+        "altText": "A brown wooden building with a fenced deck has a sign that reads Big Oak Flat Information Station.",
+        "caption": "Big Oak Flat Information Station",
+        "credit": "NPS Image / Sheree Peshlakai"
+      },
+      {
+        "url": "https://www.nps.gov/common/uploads/structured_data/95B830CD-F133-F12B-FA1F3D3D42C53A8A.jpg",
+        "title": "Big Oak Flat Information Station help desk",
+        "altText": "A park ranger stands behind a desk and talks with a person who is hunched over a map on the desk.",
+        "caption": "A ranger assists visitors at the Big Oak Flat Information Station help desk.",
+        "credit": "NPS Image / Sheree Peshlakai"
+      }
+    ],
+    "operatingHours": [
+      {
+        "exceptions": [
+          {
+            "exceptionHours": {
+              "wednesday": "Closed",
+              "monday": "Closed",
+              "thursday": "Closed",
+              "sunday": "Closed",
+              "tuesday": "Closed",
+              "friday": "Closed",
+              "saturday": "Closed"
+            },
+            "startDate": "2025-10-26",
+            "name": "Seasonal Closure",
+            "endDate": "2026-05-25"
+          }
+        ],
+        "description": "Open approximately late May through early October.",
+        "standardHours": {
+          "wednesday": "8:00AM - 5:00PM",
+          "monday": "8:00AM - 5:00PM",
+          "thursday": "8:00AM - 5:00PM",
+          "sunday": "8:00AM - 5:00PM",
+          "tuesday": "8:00AM - 5:00PM",
+          "friday": "8:00AM - 5:00PM",
+          "saturday": "8:00AM - 5:00PM"
+        },
+        "name": "Big Oak Flat Information Station"
+      }
+    ],
+    "addresses": [],
+    "contacts": {
+      "phoneNumbers": [
+        {
+          "phoneNumber": "209/372-0200",
+          "description": "",
+          "extension": "",
+          "type": "Voice"
+        }
+      ],
+      "emailAddresses": [
+        {
+          "description": "",
+          "emailAddress": "yose_web_manager@nps.gov"
+        }
+      ]
+    }
+  },
+  {
+    "id": "D8CDB0BF-565A-48F9-803D-9685447AFD30",
+    "name": "Tuolumne Meadows Visitor Center",
+    "description": "The Tuolumne Meadows Visitor Center has an information desk, Yosemite Conservancy Bookstore, and an exhibit area detailing the area's geology, plant and animal life, and history. A designated accessible parking space and entrance are available. From the main parking lot, drive up the service road to the visitor center. Park in the designated accessible parking space, and follow the paved path in front of the visitor center to the rear entrance. Accessible restrooms are adjacent to the main parking lot.",
+    "location": {
+      "lat": 37.8715673538,
+      "lon": -119.374177997
+    },
+    "url": "",
+    "images": [
+      {
+        "url": "https://www.nps.gov/common/uploads/structured_data/96193540-C855-9DFA-7FDFC097C6F4692C.jpg",
+        "title": "Tuolumne Meadows Visitor Center",
+        "altText": "Stone steps lead to the covered porch of a stone building. A large brown wooden sign is in front.",
+        "caption": "Tuolumne Meadows Visitor Center",
+        "credit": "NPS Image / Sheree Peshlakai"
+      },
+      {
+        "url": "https://www.nps.gov/common/uploads/structured_data/96827EC5-0F7D-1C3C-7BF7B93D2EFC2494.jpg",
+        "title": "Tuolumne Meadows Visitor Center Sign",
+        "altText": "A brown wooden sign reads Tuolumne Meadows Visitor Center and has a National Park Service logo.",
+        "caption": "Tuolumne Meadows Visitor Center sign",
+        "credit": "NPS Image"
+      }
+    ],
+    "operatingHours": [
+      {
+        "exceptions": [
+          {
+            "exceptionHours": {
+              "wednesday": "Closed",
+              "monday": "Closed",
+              "thursday": "Closed",
+              "sunday": "Closed",
+              "tuesday": "Closed",
+              "friday": "Closed",
+              "saturday": "Closed"
+            },
+            "startDate": "2025-09-29",
+            "name": "Winter closure",
+            "endDate": "2026-06-10"
+          }
+        ],
+        "description": "Open approximately late May to late September. OPENING DAY 2025: JUNE 10.",
+        "standardHours": {
+          "wednesday": "9:00AM - 5:00PM",
+          "monday": "9:00AM - 5:00PM",
+          "thursday": "9:00AM - 5:00PM",
+          "sunday": "9:00AM - 5:00PM",
+          "tuesday": "9:00AM - 5:00PM",
+          "friday": "9:00AM - 5:00PM",
+          "saturday": "9:00AM - 5:00PM"
+        },
+        "name": "Tuolumne Meadows Visitor Center"
+      }
+    ],
+    "addresses": [],
+    "contacts": {
+      "phoneNumbers": [
+        {
+          "phoneNumber": "209/372-0200",
+          "description": "",
+          "extension": "",
+          "type": "Voice"
+        }
+      ],
+      "emailAddresses": [
+        {
+          "description": "",
+          "emailAddress": "yose_web_manager@nps.gov"
+        }
+      ]
+    }
+  },
+  {
+    "id": "F5446CA3-5F8B-4DA1-A02E-C76472B3BCD3",
+    "name": "Wawona Visitor Center at Hill's Studio",
+    "description": "In winter, the Wawona visitor center is temporarily relocated to 7771 Chilnualna Falls Rd. Open 9 am \u2013 12 pm & 1 pm \u2013 4 pm. The Wawona Visitor Center has an information desk, wilderness permit desk, and Yosemite Conservancy Bookstore. In the winter, self-registration wilderness permits are available on the front porch. You must bring your own bear canister when the information station is closed.",
+    "location": {
+      "lat": 37.5371543215042,
+      "lon": -119.655392118492
+    },
+    "url": "",
+    "images": [
+      {
+        "url": "https://www.nps.gov/common/uploads/structured_data/67969ECC-0A4A-CFCE-FB18CCBEA6B60F4B.jpg",
+        "title": "Wawona Visitor Center at Hill's Studio",
+        "altText": "Steps lead up a porch that is wrapped around a brown wooden building. An old fountain is in front.",
+        "caption": "Wawona Visitor Center at Hill's Studio",
+        "credit": "NPS Image / Sheree Peshlakai"
+      },
+      {
+        "url": "https://www.nps.gov/common/uploads/structured_data/67D20069-A17F-1915-0CAE308018421A63.jpg",
+        "title": "Inside the Wawona Visitor Center at Hill's Studio",
+        "altText": "Three people stand behind an information desk that is surrounded by store merchandise.",
+        "caption": "Inside the Wawona Visitor Center at Hill's Studio",
+        "credit": "NPS Image / Sheree Peshlakai"
+      }
+    ],
+    "operatingHours": [
+      {
+        "exceptions": [
+          {
+            "exceptionHours": {
+              "wednesday": "Closed",
+              "monday": "Closed",
+              "thursday": "Closed",
+              "sunday": "Closed",
+              "tuesday": "Closed",
+              "friday": "Closed",
+              "saturday": "Closed"
+            },
+            "startDate": "2025-10-12",
+            "name": "Seasonal Closure",
+            "endDate": "2026-05-25"
+          }
+        ],
+        "description": "The visitor center is typically open from late May to early October.",
+        "standardHours": {
+          "wednesday": "8:00AM - 5:00PM",
+          "monday": "8:00AM - 5:00PM",
+          "thursday": "8:00AM - 5:00PM",
+          "sunday": "8:00AM - 5:00PM",
+          "tuesday": "8:00AM - 5:00PM",
+          "friday": "8:00AM - 5:00PM",
+          "saturday": "8:00AM - 5:00PM"
+        },
+        "name": "Wawona Visitor Center at Hill's Studio"
+      }
+    ],
+    "addresses": [],
+    "contacts": {
+      "phoneNumbers": [
+        {
+          "phoneNumber": "209/372-0200",
+          "description": "",
+          "extension": "",
+          "type": "Voice"
+        }
+      ],
+      "emailAddresses": [
+        {
+          "description": "",
+          "emailAddress": "yose_web_manager@nps.gov"
+        }
+      ]
+    }
+  },
+  {
+    "id": "E8610AC4-B20D-4F1A-BFA3-E9DB2CF3A1DE",
+    "name": "Yosemite Valley Welcome Center",
+    "description": "The Yosemite Valley Welcome Center is the NEW destination for visitor information in the Valley. Stop here before you begin your Yosemite adventure! The welcome center is located next to the Yosemite Village Parking and the Village Store in Yosemite Valley (Shuttle Stops 1 & 2.) Get help planning your visit and pick up free trail maps, junior ranger booklets, and more.",
+    "location": {
+      "lat": 37.7465082901842,
+      "lon": -119.58444974044362
+    },
+    "url": "",
+    "images": [
+      {
+        "url": "https://www.nps.gov/common/uploads/structured_data/4F6CEFBF-92D6-7EB5-AE0EF7D3077D616A.jpg",
+        "title": "Yosemite Valley Welcome Center",
+        "altText": "Steps lead up to the front entrance of the welcome center, an angular building with tall windows.",
+        "caption": "Opened in Fall 2023, the Yosemite Valley Welcome Center is the new destination for visitor information in Yosemite Valley.",
+        "credit": "NPS/S. Lacy"
+      }
+    ],
+    "operatingHours": [
+      {
+        "exceptions": [],
+        "description": "Open year-round",
+        "standardHours": {
+          "wednesday": "9:00AM - 5:00PM",
+          "monday": "9:00AM - 5:00PM",
+          "thursday": "9:00AM - 5:00PM",
+          "sunday": "9:00AM - 5:00PM",
+          "tuesday": "9:00AM - 5:00PM",
+          "friday": "9:00AM - 5:00PM",
+          "saturday": "9:00AM - 5:00PM"
+        },
+        "name": "Yosemite Valley Welcome Center"
+      }
+    ],
+    "addresses": [],
+    "contacts": {
+      "phoneNumbers": [
+        {
+          "phoneNumber": "209/372-0200",
+          "description": "",
+          "extension": "",
+          "type": "Voice"
+        }
+      ],
+      "emailAddresses": [
+        {
+          "description": "",
+          "emailAddress": "yose_web_manager@nps.gov"
+        }
+      ]
+    }
+  }
+]

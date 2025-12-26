@@ -1,0 +1,158 @@
+[
+  {
+    "id": "81B464EA-1DD8-B71B-0B367470E91A4A7F",
+    "title": "Turtleback Dome & Air Quality",
+    "description": "This air quality camera shows the view to the west from near Yosemite Valley and also displays current air quality and weather data.",
+    "url": "https://www.nps.gov/subjects/air/webcams.htm?site=yose",
+    "imageUrl": null,
+    "isStreaming": false,
+    "status": "Active",
+    "relatedParks": [
+      "yose"
+    ]
+  },
+  {
+    "id": "81B46503-1DD8-B71B-0BABF33689031F0B",
+    "title": "Badger Pass Ski Area",
+    "description": "Yosemite Hospitality operates a webcam at the Badger Pass Ski Area so you can check current conditions and activity.",
+    "url": "https://www.nps.gov/media/webcam/view.htm?id=81B46503-1DD8-B71B-0BABF33689031F0B",
+    "imageUrl": null,
+    "isStreaming": false,
+    "status": "Active",
+    "relatedParks": [
+      "yose"
+    ]
+  },
+  {
+    "id": "81B46521-1DD8-B71B-0BB6424139EC91BE",
+    "title": "Merced River at Happy Isles",
+    "description": "From here, you can see the Merced River as it flows past Yosemite Valley's Happy Isles Gaging Station, which the US Geological Survey has maintained for over 100 years.",
+    "url": "https://www.nps.gov/media/webcam/view.htm?id=81B46521-1DD8-B71B-0BB6424139EC91BE",
+    "imageUrl": null,
+    "isStreaming": false,
+    "status": "Active",
+    "relatedParks": [
+      "yose"
+    ]
+  },
+  {
+    "id": "B28D5845-C504-BBA5-17748BFF1C6CC716",
+    "title": "El Capitan",
+    "description": "Located on a dome near the Wawona Tunnel, this webcam provides a nice view of Yosemite Valley. This webcam image is provided courtesy of Yosemite Conservancy.",
+    "url": "https://www.nps.gov/media/webcam/view.htm?id=B28D5845-C504-BBA5-17748BFF1C6CC716",
+    "imageUrl": null,
+    "isStreaming": true,
+    "status": "Active",
+    "relatedParks": [
+      "yose"
+    ]
+  },
+  {
+    "id": "50E781A7-99A4-27F7-3773DF1DBB57C0FC",
+    "title": "Yosemite High Sierra",
+    "description": "This webcam, located at about 8,000 feet in elevation, shows Half Dome and the surrounding high country. This webcam image is provided courtesy of Yosemite Conservancy.",
+    "url": "https://www.nps.gov/media/webcam/view.htm?id=50E781A7-99A4-27F7-3773DF1DBB57C0FC",
+    "imageUrl": null,
+    "isStreaming": false,
+    "status": "Inactive",
+    "relatedParks": [
+      "yose"
+    ]
+  },
+  {
+    "id": "510DED3A-F9E0-3BCC-3A896F980BE05DFE",
+    "title": "Half Dome",
+    "description": "This view of Yosemite Valley from just east of Yosemite Village gives a sense of conditions of the floor of Yosemite Valley. This webcam image is provided courtesy of Yosemite Conservancy.",
+    "url": "https://www.nps.gov/media/webcam/view.htm?id=510DED3A-F9E0-3BCC-3A896F980BE05DFE",
+    "imageUrl": null,
+    "isStreaming": false,
+    "status": "Active",
+    "relatedParks": [
+      "yose"
+    ]
+  },
+  {
+    "id": "521123D5-0EA2-C472-403A8D58B11A614F",
+    "title": "El Capitan",
+    "description": "Located on a dome near the Wawona Tunnel, this webcam provides a nice view of Yosemite Valley. This webcam image is provided courtesy of Yosemite Conservancy.",
+    "url": "https://www.nps.gov/media/webcam/view.htm?id=521123D5-0EA2-C472-403A8D58B11A614F",
+    "imageUrl": null,
+    "isStreaming": false,
+    "status": "Active",
+    "relatedParks": [
+      "yose"
+    ]
+  },
+  {
+    "id": "1148077C-F06F-CD3A-969692F6BC0481AC",
+    "title": "Yosemite High Sierra",
+    "description": "This webcam, located at about 8,000 feet in elevation, shows Half Dome and the surrounding high country. This webcam image is provided courtesy of Yosemite Conservancy.",
+    "url": "https://www.nps.gov/media/webcam/view.htm?id=1148077C-F06F-CD3A-969692F6BC0481AC",
+    "imageUrl": null,
+    "isStreaming": true,
+    "status": "Active",
+    "relatedParks": [
+      "yose"
+    ]
+  },
+  {
+    "id": "81B46145-1DD8-B71B-0B6E50736E024FE4",
+    "title": "MR a HIB",
+    "description": "",
+    "url": "https://www.nps.gov/media/webcam/view.htm?id=81B46145-1DD8-B71B-0B6E50736E024FE4",
+    "imageUrl": null,
+    "isStreaming": false,
+    "status": "Inactive",
+    "relatedParks": [
+      "yose"
+    ]
+  },
+  {
+    "id": "3E81EC42-BB62-0A59-E30ABB8F1646322E",
+    "title": "Yosemite Falls",
+    "description": "Yosemite Falls, a combination of Upper Yosemite Fall, Middle Cascades, and Lower Yosemite Fall, has a total height of 2,425 feet. In May, you may see Pacific dogwood in bloom just below the waterfall.",
+    "url": "https://www.nps.gov/media/webcam/view.htm?id=3E81EC42-BB62-0A59-E30ABB8F1646322E",
+    "imageUrl": "https://www.nps.govhttps://www.nps.gov/common/uploads/cropped_image/CD3726C8-CBC1-8184-E423F385816B9051.jpg",
+    "isStreaming": true,
+    "status": "Active",
+    "relatedParks": [
+      "yose"
+    ]
+  },
+  {
+    "id": "EAA24FCD-BC0D-C360-19BF30B462D0ACE8",
+    "title": "Half Dome",
+    "description": "This view of Yosemite Valley from just east of Yosemite Village gives a sense of the conditions of the floor of Yosemite Valley. This webcam image is provided courtesy of Yosemite Conservancy.",
+    "url": "https://www.nps.gov/media/webcam/view.htm?id=EAA24FCD-BC0D-C360-19BF30B462D0ACE8",
+    "imageUrl": "https://www.nps.govhttps://www.nps.gov/common/uploads/cropped_image/CD5538E5-C86F-1BF9-575C7C85E1307E45.jpg",
+    "isStreaming": true,
+    "status": "Active",
+    "relatedParks": [
+      "yose"
+    ]
+  },
+  {
+    "id": "41F428E8-0F6C-B7E7-115A629BA1AE9F51",
+    "title": "Half Dome",
+    "description": "This view of Yosemite Valley from just east of Yosemite Village gives a sense of conditions of the floor of Yosemite Valley. This webcam image is provided courtesy of Yosemite Conservancy",
+    "url": "https://www.nps.gov/media/webcam/view.htm?id=41F428E8-0F6C-B7E7-115A629BA1AE9F51",
+    "imageUrl": "https://www.nps.govhttps://www.nps.gov/common/uploads/cropped_image/CD5538E5-C86F-1BF9-575C7C85E1307E45.jpg",
+    "isStreaming": true,
+    "status": "Active",
+    "relatedParks": [
+      "yose"
+    ]
+  },
+  {
+    "id": "81B46511-1DD8-B71B-0BF4530A57767712",
+    "title": "Tuolumne Meadows (summer only)",
+    "description": "Yosemite Hospitality operates a webcam at the Tuolumne Meadows Store, giving you a glimpse into the high country during the summer. The prominent dome in the distance is Fairview Dome.",
+    "url": "https://www.nps.gov/media/webcam/view.htm?id=81B46511-1DD8-B71B-0BF4530A57767712",
+    "imageUrl": null,
+    "isStreaming": false,
+    "status": "Inactive",
+    "relatedParks": [
+      "yose"
+    ]
+  }
+]

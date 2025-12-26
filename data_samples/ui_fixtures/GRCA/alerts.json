@@ -1,0 +1,38 @@
+[
+  {
+    "id": "4CC2EC5B-2CAD-44DC-90C1-86856D021228",
+    "parkCode": "grca",
+    "title": "Stage 3 Water Use Restrictions are in Effect as of December 17, 2025",
+    "description": "Effective December 17, the South Rim has returned to Stage 3 Water Restrictions. Camper Services at Mather Campground is closed; water spigots at Mather Campground are turned off; restrooms at Mather Campground remain open; Park concessioners, partners, visitors, and residents are asked to continue water-reduction protocols.",
+    "category": "Caution",
+    "url": "",
+    "lastIndexedDate": "2025-12-20 00:00:00.0"
+  },
+  {
+    "id": "63EC091D-4CA5-4FD2-9BE8-A0A6B85A597E",
+    "parkCode": "grca",
+    "title": "Stage 2 Fire Restrictions are in effect as of October 31, 2025",
+    "description": "Effective immediately: Due to recent water restrictions which severely limit wildland and structural firefighting capabilities in-park, all fires, including campfires, warming fires, and charcoal barbecues, are prohibited. Outdoor smoking is prohibited except in an enclosed vehicle or building. Fireworks are prohibited year-round. These restrictions will remain in effect until further notice.",
+    "category": "Caution",
+    "url": "https://www.nps.gov/grca/learn/management/fireinformation.htm",
+    "lastIndexedDate": "2025-12-12 00:00:00.0"
+  },
+  {
+    "id": "2CF15EBC-0800-4DF3-8179-B1579B6D4F57",
+    "parkCode": "grca",
+    "title": "Critical Backcountry Updates/Closures",
+    "description": "Visit the link for the inner canyon weather forecast, current closures, today's heat risk, and drinking water availability.",
+    "category": "Park Closure",
+    "url": "https://www.nps.gov/grca/planyourvisit/key-messages.htm",
+    "lastIndexedDate": "2025-10-31 00:00:00.0"
+  },
+  {
+    "id": "3396D6D3-5F44-4532-B48B-42A629991493",
+    "parkCode": "grca",
+    "title": "What's Closed and What's Open on South Rim",
+    "description": "Visit this link for a list of the available visitor services in Grand Canyon Village and at Desert View.",
+    "category": "Park Closure",
+    "url": "https://www.nps.gov/grca/planyourvisit/grand-canyon-national-park-public-health-update.htm",
+    "lastIndexedDate": "2025-10-01 00:00:00.0"
+  }
+]

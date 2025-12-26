@@ -1,0 +1,91 @@
+{
+  "parkCode": "zion",
+  "fullName": "Zion National Park",
+  "description": "Follow the paths where people have walked for thousands of years. Gaze up at massive sandstone cliffs of cream, pink, and red that soar into a brilliant blue sky. Experience the tall, stretching walls of a narrow slot canyon. Zion\u2019s unique array of plants and animals will enchant you as you absorb the rich history of the past and enjoy the excitement of present-day adventures.",
+  "location": {
+    "lat": 37.29839254,
+    "lon": -113.0265138
+  },
+  "contacts": {
+    "phoneNumbers": [
+      {
+        "phoneNumber": "435-772-3256",
+        "description": "",
+        "extension": "",
+        "type": "Voice"
+      },
+      {
+        "phoneNumber": "435-772-3426",
+        "description": "",
+        "extension": "",
+        "type": "Fax"
+      }
+    ],
+    "emailAddresses": [
+      {
+        "description": "If you cannot find what you need on our website, please write to ask for more information.",
+        "emailAddress": "zion_park_information@nps.gov"
+      }
+    ]
+  },
+  "operatingHours": [
+    {
+      "exceptions": [],
+      "description": "Zion National Park is open every day of the year.",
+      "standardHours": {
+        "wednesday": "All Day",
+        "monday": "All Day",
+        "thursday": "All Day",
+        "sunday": "All Day",
+        "tuesday": "All Day",
+        "friday": "All Day",
+        "saturday": "All Day"
+      },
+      "name": "Zion National Park"
+    }
+  ],
+  "url": "https://www.nps.gov/zion/index.htm",
+  "images": [
+    {
+      "url": "https://www.nps.gov/common/uploads/structured_data/68BFC1AC-BF96-629F-89D261D78F181C64.jpg",
+      "title": "The Watchman",
+      "altText": "A triangular sandstone mountain overlooks green and yellow foliage. A cloudy blue sky is overhead.",
+      "caption": "The Watchman in Zion Canyon",
+      "credit": "NPS/Shane Carte"
+    },
+    {
+      "url": "https://www.nps.gov/common/uploads/structured_data/69162F54-D4AF-8695-A42F97A8F9774C19.jpg",
+      "title": "The Towers of the Virgin",
+      "altText": "The sun sets behind large red and white towers of sandstone.",
+      "caption": "The Towers of the Virgin in Zion Canyon",
+      "credit": "NPS/Jesse Nelson"
+    },
+    {
+      "url": "https://www.nps.gov/common/uploads/structured_data/68D46E7D-A116-A443-ABA04AD1DD785208.jpg",
+      "title": "Zion Canyon Visitor Center",
+      "altText": "A sandstone and glass building surrounded by tall trees with a mountain behind it.",
+      "caption": "The Zion Canyon Visitor Center is a great place to stop to learn about the park!",
+      "credit": "NPS"
+    },
+    {
+      "url": "https://www.nps.gov/common/uploads/structured_data/68ED8C2C-A9D3-90B2-BBC96E7A21BC3744.jpg",
+      "title": "The Narrows",
+      "altText": "Tall, red, sandstone walls enclose a narrow river.",
+      "caption": "The Narrows can be accessed at the end of Riverside Walk, just follow the river.",
+      "credit": "NPS"
+    },
+    {
+      "url": "https://www.nps.gov/common/uploads/structured_data/69033C8D-B439-855D-6B260FB2F4CDB53B.jpg",
+      "title": "Kolob Arch",
+      "altText": "A red sandstone arch under a clear blue sky.",
+      "caption": "Deep in Zion's Wilderness site Kolob Arch, one of the largest free-standing arches in the world.",
+      "credit": "NPS"
+    }
+  ],
+  "campgrounds": [],
+  "visitor_centers": [],
+  "webcams": [],
+  "places": [],
+  "things_to_do": [],
+  "passport_stamps": []
+}
