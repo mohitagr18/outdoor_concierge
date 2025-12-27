@@ -1,4 +1,1502 @@
 {
-  "data": [],
-  "total": "0"
+  "data": [
+    {
+      "id": "0D93CA13-99EC-4592-B2B8-AAA68238F5AF",
+      "url": "https://www.nps.gov/places/canyon-junction.htm",
+      "title": "Canyon Junction",
+      "listingDescription": "",
+      "images": [
+        {
+          "url": "https://www.nps.gov/common/uploads/cropped_image/4312600E-E3E7-DD38-1C46427144598E28.jpg",
+          "credit": "NPS/Abi Farish",
+          "altText": "Photo of a road with a gate across it and a sign that reads \"Shuttle Buses Only\"",
+          "title": "Gate at Canyon Junction",
+          "description": "",
+          "caption": "The Zion Canyon Scenic Drive is closed to personal vehicles during shuttle season.",
+          "crops": [
+            {
+              "aspectRatio": "1.78",
+              "url": "https://www.nps.gov/common/uploads/cropped_image/primary/4312600E-E3E7-DD38-1C46427144598E28.jpg"
+            },
+            {
+              "aspectRatio": "1.33",
+              "url": "https://www.nps.gov/common/uploads/cropped_image/secondary/4312600E-E3E7-DD38-1C46427144598E28.jpg"
+            }
+          ]
+        }
+      ],
+      "relatedParks": [
+        {
+          "states": "UT",
+          "parkCode": "zion",
+          "designation": "National Park",
+          "fullName": "Zion National Park",
+          "url": "https://www.nps.gov/zion/index.htm",
+          "name": "Zion"
+        }
+      ],
+      "relatedOrganizations": [],
+      "tags": [
+        "Zion Canyon",
+        "zion canyon scenic drive",
+        "shuttle bus",
+        "shuttle",
+        "Zion National Park",
+        "Scenic Drive",
+        "canyon junction"
+      ],
+      "latitude": "37.2183639166",
+      "longitude": "-112.973934702",
+      "latLong": "37.2183639166,-112.973934702",
+      "bodyText": "<h2><b>Canyon Junction </b></h2> <p>The Zion-Mt. Carmel Highway and the Zion Canyon Scenic Drive meet here. On July 3, 1930, the Zion-Mt. Carmel Highway was officially dedicated and opened to the public. The completion of the highway made the once imagined \"Grand Circle Tour\" of Zion, Bryce Canyon, and Grand Canyon National Parks a reality. From here, enjoy views of the Virgin River and Zion Canyon.\u00a0</p> <h4>Trails accessed from here:</h4> <ul> <li> <p>Pa\u2019rus Trail (allows bicycles and leashed pets; access to Virgin River)</p> </li> </ul> <h4>Shuttle Service</h4> <p>When the <a href=\"https://www.nps.gov/zion/planyourvisit/zion-canyon-shuttle-system.htm\">Zion Canyon Shuttle</a> is running, Canyon Junction is shuttle stop #3. Shuttles do not stop here when travelling up-canyon (towards the Temple of Sinawava). Shuttles only stop here travelling towards down-canyon (towards the Zion Canyon Visitor Center).\u00a0</p> <h4><span style=\"color:#c0392b;\">Seasonal Closures</span></h4> <p><strong>In seasons when the shuttle bus is running, the gate at Canyon Junction is closed to private vehicles</strong>. This means that private vehicles may not access the Zion Canyon Scenic Drive during\u00a0<a href=\"https://www.nps.gov/zion/planyourvisit/zion-canyon-shuttle-system.htm\">shuttle season</a>.\u00a0<br /> When shuttles are not in service, private vehicles may drive up the Zion Canyon Scenic Drive. We monitor parking in the canyon, and may close the road when parking fills.</p>",
+      "audioDescription": "Canyon Junction is a fork in the road, where the Zion Canyon Scenic Drive splits off from the Zion-Mt. Carmel Highway. Here, you are on a flat, paved road that extends past you up around a bend and further into the canyon. Zion-Mt. Carmel Highway is separated from this road by a white and red traffic gate barring unauthorized vehicles from entering. To the south is a wide-open landscape view of the triangular Watchman formation sitting at the southern end of the canyon. To the north, the road curves around a red, sandy hill dotted with foliage, following the path of the Virgin River to the west of the road.",
+      "isPassportStampLocation": "0",
+      "passportStampLocationDescription": "",
+      "passportStampImages": [],
+      "managedByUrl": "",
+      "isOpenToPublic": "1",
+      "isMapPinHidden": "0",
+      "npmapId": "",
+      "geometryPoiId": "78d74f2e-25e6-4328-8a7e-1830670cf5e1",
+      "isManagedByNps": "1",
+      "amenities": [
+        "Accessible Sites",
+        "Beach/Water Access",
+        "Bicycle - Rack",
+        "Bus/Shuttle Stop",
+        "Scenic View/Photo Spot",
+        "Trailhead",
+        "Trash/Litter Receptacles",
+        "Wheelchair Accessible"
+      ],
+      "managedByOrg": "Zion National Park",
+      "quickFacts": [
+        {
+          "id": "5C252B96-2DEB-4EF4-91D1-B5D2B202FCD7",
+          "value": "Canyon Junction (shuttle stop #3)",
+          "name": "Location"
+        }
+      ],
+      "location": "",
+      "locationDescription": "",
+      "credit": "",
+      "multimedia": [],
+      "relevanceScore": 1.0
+    },
+    {
+      "id": "CF1B624D-C2BA-4A8C-99AA-1B57F4F06430",
+      "url": "https://www.nps.gov/places/a-living-canyon.htm",
+      "title": "Pa'rus - A Living Canyon",
+      "listingDescription": "",
+      "images": [
+        {
+          "url": "https://www.nps.gov/common/uploads/cropped_image/50B50C87-BFAA-9A14-BF4D63DDA829B4E4.jpeg",
+          "credit": "NPS/Abi Farish",
+          "altText": "A split-rail wooden fence running along a paved trail. Mountains are visible in the distance",
+          "title": "A Living Canyon",
+          "description": "",
+          "caption": "The Pa'rus Trail follows the Virgin River through lower Zion Canyon.",
+          "crops": [
+            {
+              "aspectRatio": "1.78",
+              "url": "https://www.nps.gov/common/uploads/cropped_image/primary/50B50C87-BFAA-9A14-BF4D63DDA829B4E4.jpeg"
+            },
+            {
+              "aspectRatio": "1.33",
+              "url": "https://www.nps.gov/common/uploads/cropped_image/secondary/50B50C87-BFAA-9A14-BF4D63DDA829B4E4.jpeg"
+            }
+          ]
+        }
+      ],
+      "relatedParks": [
+        {
+          "states": "UT",
+          "parkCode": "zion",
+          "designation": "National Park",
+          "fullName": "Zion National Park",
+          "url": "https://www.nps.gov/zion/index.htm",
+          "name": "Zion"
+        }
+      ],
+      "relatedOrganizations": [],
+      "tags": [
+        "Zion Canyon",
+        "Zion",
+        "Zion National Park",
+        "walk",
+        "parus trail",
+        "pa'rus trail",
+        "Easy hike",
+        "guided walk",
+        "self-guided walk"
+      ],
+      "latitude": "37.20367564940907",
+      "longitude": "-112.98069477081299",
+      "latLong": "37.20367564940907,-112.98069477081299",
+      "bodyText": "<h2>A Living Canyon</h2> <h3>Learn</h3> <p lang=\"EN-US\" paraeid=\"{00b4822e-e9f3-4c1b-833a-97eab8aad75b}{58}\" paraid=\"1020860196\" xml:lang=\"EN-US\">Zion's diverse topography leads to a diversity of habitats and species. Along the Virgin River, the riparian area\u00a0is home to plants and animals that require an abundant supply of water. \u00a0<br /> Fremont cottonwood trees (<em>Populus fremontii</em>) require a constant source of water and thrive along the Virgin River. When Fremont cottonwoods have access to reliable water, they can grow between 10\u201320 feet per year. These trees can also be helpful for streambank protection and are able to withstand low levels of flooding.<br /> The riparian area is also the perfect habitat for the American beaver. You may not immediately think of the American beaver when in the Southwest, but the Virgin River provides a welcome habitat for this river specialist. Sightings are rare, but evidence of the beaver's activity can be seen on many of the park's Fremont cottonwood trees. They do most of their tree-chewing during the night when the cover of darkness helps them to avoid predators.\u00a0</p> <h3 paraeid=\"{73fbe6d5-2801-4581-af4e-14af52ccfaa6}{16}\" paraid=\"833899767\">Look</h3> <p>Have you seen any evidence of wildlife along the trail? The tall shrubs and plants along the trail like Utah Juniper and Rabbitbrush provide food and shelter for a variety of mammals, birds, and reptiles. Along the trail keep an eye out for wildlife like mule deer, road runner, and western scrub jays.\u00a0\u00a0</p> <h3>Connect\u00a0</h3> Zion Canyon would be inhospitable for plants and wildlife without water. How would our experience as visitors change if there were no water present in Zion Canyon?\u00a0\u00a0",
+      "audioDescription": "You are standing on a wide concrete path that follows the Virgin River. The side of the path facing the river is lined with a wooden, split-rail fence. The other side is open to the sandy shrubland of the South Campground. To the south, the path continues towards the Zion Canyon Visitor Center. To the north, the path continues towards Canyon Junction. Just off the path along the split-rail fence is a long sandstone bench and a hip-height metal wayside sign. A picture spans the top half of the sign showing three buck deer with large antlers grazing near a clear, slow-moving river surrounded by yellow-leaved cottonwood trees and dormant grasses and shrubs. A title in the top left corner reads, \u201cA Living Canyon.\u201d In the lower right corner of the picture, a paragraph reads, \u201cStop for a moment. What do you see, hear, and smell? Where water is abundant, plants and animals thrive. The Virgin River and the vegetation in the riparian zone along it provide habitat for many species. Away from the river the temperature increases and the humidity drops. But life is tenacious and adapts. As you stroll the Pa\u2019rus trail consider life with\u2014or without\u2014water.\u201d The bottom left corner of the sign shows a Prickly Pear Cactus (scientific name Opuntia phaecantha) with dark-green spiked flat pads and three bright-yellow blooms. \u201cThe sharp spines of a cactus are believed to have evolved from leaves and serve a dual purpose \u2013 protecting the cactus from hungry critters and limiting water loss with reduced surface area.\u201d Next to the cactus is a light-green, rounded Fremont Cottonwood leaf (scientific name Populus fremontii.) The caption reads, \u201cOn a hot summer day, the cottonwood\u2019s branches create shade and cooler temperatures. These native trees thrive where there is water and are found lining the river. They offer shelter and food to many animals and help stabilize riverbanks.\u201d At the center of the page, a 2-inch-long Virgin Spinedace fish with shiny scales is shown (scientific name Lepidomeda mollispinins). The caption reads, \u201cThis medium-sized silvery minnow was once found throughout the Virgin River. Due to habitat fragmentation, introduction of non-native species, and water demands, it is now found only in protected areas like Zion National Park. One of four native fish in the park, it is well adapted to the changing river temperatures and flood prone and sediment-laden rivers of Zion.\u201d The bottom right corner of the sign has a 4-inch-long mottled brown lizard with a blue belly standing up on its hind legs. Its long toes grip a reddish sandstone rock and its long, narrow tail hangs down. Its front feet are against a taller sandstone rock. It is identified as a Plateau Lizard (scientific name Sceloporus tristichus). The caption reads, \u201cReptiles are ectotherms (or cold-blooded) and need to soak up the sun to warm their bodies so they can scurry away from predators and after prey. Much of their hydration is obtained from the insects and spiders they consume which allows them to live away from water sources.\u201d",
+      "isPassportStampLocation": "0",
+      "passportStampLocationDescription": "",
+      "passportStampImages": [],
+      "managedByUrl": "",
+      "isOpenToPublic": "1",
+      "isMapPinHidden": "1",
+      "npmapId": "",
+      "geometryPoiId": "",
+      "isManagedByNps": "1",
+      "amenities": [
+        "Historical/Interpretive Information/Exhibits",
+        "Pets Allowed",
+        "Scenic View/Photo Spot",
+        "Wheelchair Accessible"
+      ],
+      "managedByOrg": "",
+      "quickFacts": [
+        {
+          "id": "5C252B96-2DEB-4EF4-91D1-B5D2B202FCD7",
+          "value": "Pa'rus Trail",
+          "name": "Location"
+        }
+      ],
+      "location": "",
+      "locationDescription": "",
+      "credit": "",
+      "multimedia": [
+        {
+          "title": "Pa'rus A Living Canyon",
+          "id": "80DC2D28-D5F9-4FE0-B186-A42C532B3AE9",
+          "type": "multimedia/videos",
+          "url": "https://www.nps.gov/media/video/view.htm?id=80DC2D28-D5F9-4FE0-B186-A42C532B3AE9"
+        }
+      ],
+      "relevanceScore": 1.0
+    },
+    {
+      "id": "C8D83FE9-28CA-45C5-8F02-980F4D847417",
+      "url": "https://www.nps.gov/places/zion-lodge.htm",
+      "title": "The Zion Lodge",
+      "listingDescription": "The Zion Lodge is located in the heart of Zion Canyon and offers unparalleled views of the towering sandstone cliffs. The Zion Lodge provides the only lodging with a variety of accommodations and is also the only place inside Zion to eat with an onsite restaurant.",
+      "images": [
+        {
+          "url": "https://www.nps.gov/common/uploads/cropped_image/447AE2DE-CE0E-E9AF-5E7CAA3429AF5173.jpg",
+          "credit": "NPS/Abi Farish",
+          "altText": "Photo of a brown building with a large grassy lawn in front of it, and mountains behind.",
+          "title": "The Zion Lodge",
+          "description": "",
+          "caption": "The historic Zion Lodge is the only lodging in Zion National Park.",
+          "crops": [
+            {
+              "aspectRatio": "1.78",
+              "url": "https://www.nps.gov/common/uploads/cropped_image/primary/447AE2DE-CE0E-E9AF-5E7CAA3429AF5173.jpg"
+            },
+            {
+              "aspectRatio": "1.33",
+              "url": "https://www.nps.gov/common/uploads/cropped_image/secondary/447AE2DE-CE0E-E9AF-5E7CAA3429AF5173.jpg"
+            }
+          ]
+        }
+      ],
+      "relatedParks": [
+        {
+          "states": "UT",
+          "parkCode": "zion",
+          "designation": "National Park",
+          "fullName": "Zion National Park",
+          "url": "https://www.nps.gov/zion/index.htm",
+          "name": "Zion"
+        }
+      ],
+      "relatedOrganizations": [],
+      "tags": [
+        "Zion",
+        "Zion Canyon",
+        "zion canyon scenic drive",
+        "shuttle",
+        "zion lodge",
+        "lodging",
+        "shuttle bus",
+        "Shuttle Stop",
+        "trailhead",
+        "emerald pools",
+        "sand bench trail",
+        "food",
+        "Gift Shop",
+        "restaurant",
+        "Cafe"
+      ],
+      "latitude": "37.251474",
+      "longitude": "-112.955772",
+      "latLong": "37.251474,-112.955772",
+      "bodyText": "<h2>Zion Lodge</h2> <p>The Zion Lodge is located in the heart of Zion Canyon and offers unparalleled views of the towering sandstone cliffs. The lodge has a variety of accommodations and is the only place inside Zion to eat; either in the main dining room (Red Rock Grill) or at the Castle Dome Caf\u00e9 (open seasonally). For more information about eating, visiting, or staying at the Zion Lodge, please visit their website at\u00a0<a href=\"http://www.zionlodge.com/\">www.zionlodge.com</a>\u00a0or call 435 772-7700.</p> <h4>Zion Lodge History</h4> <p><br /> In the early days of the National Park Service, railroad companies were often the catalyst for the creation or improvement of park accommodations. For Zion, that railroad was the Utah Parks Company, a subsidiary of the Union Pacific Railroad. With the completion of a railroad spur line to nearby Cedar City in 1923, visitors now had an easy and comfortable way to get to Zion. The next step was to provide lodging that complimented the world-class scenery.<br /> <br /> While initial designs of the lodge called for enormity and immensity, park officials ultimately determined that a lodge in the narrow canyon should better harmonize with the landscape and scale of the surroundings. Gilbert Stanley Underwood \u2013 a frequent architect of numerous national park lodges \u2013 was up to the challenge. Using 265,000 board feet of lumber brought down from the plateau by the Cable Mountain Draw Works, the Utah Parks Company designed a main lodge building that was inviting and exuded warmth. The Zion Lodge was completed in May of 1925, and was later complimented with a series of stand-alone cabins nestled nearby. These improvements signaled an important milestone in a visit to Zion National Park.<br /> <br /> The main lodge building stood for over 40 years until it was consumed by a fire on January 26, 1966. A mere 108 days after the fire, a new prefabricated building was up and operating. This quick turn-around speaks volumes about the significance that the Zion Lodge had garnered in the story of Zion National Park.<br /> <br /> Whether you're looking for a shady respite from the heat or hoping to dine among a majestic backdrop, the Zion Lodge is a beautiful place to stop. Visitors can even attend\u00a0<a href=\"https://www.nps.gov/zion/planyourvisit/ranger-led-activities.htm\">ranger-led activities</a>\u00a0at the lodge, a service that started back in 1935. For many, the Zion Lodge has become a hallmark of a visit to the area, and occupies an important place in the history of Zion National Park.</p> <h4>Trails accessed from here:</h4> <ul> <li> <p>The Grotto Trail</p> </li> <li>Sand Bench Trail</li> <li>Emerald Pools Trails: Upper, Middle, and Lower Emerald Pools can all be accessed via the trailhead across the road from the Lodge</li> </ul> <h4>Shuttle Service</h4> <p>When the\u00a0<a href=\"https://www.nps.gov/zion/planyourvisit/zion-canyon-shuttle-system.htm\">Zion Canyon Shuttle Bus</a>\u00a0is running, the Zion Lodge is shuttle stop #5 at the end of the canyon.\u00a0</p>",
+      "audioDescription": "The Lodge is located in the bottom of Zion Canyon, near the steep canyon walls that extend high above. A two story wood and stone structure with large square stone columns out front sheltering a patio with rocking chairs. The Lodge has a large lawn with a giant cottonwood tree in the middle that casts cooling shade in summer, making it a comfortable spot to relax. To the south, several other similar structures are built to house the hotel rooms and smaller rustic cabins.",
+      "isPassportStampLocation": "0",
+      "passportStampLocationDescription": "",
+      "passportStampImages": [],
+      "managedByUrl": "https://www.zionlodge.com/",
+      "isOpenToPublic": "1",
+      "isMapPinHidden": "0",
+      "npmapId": "",
+      "geometryPoiId": "",
+      "isManagedByNps": "0",
+      "amenities": [
+        "Bus/Shuttle Stop",
+        "Food/Drink - Coffee",
+        "Food/Drink - Ice Cream",
+        "Food/Drink - Restaurant/Table Service",
+        "Gifts/Souvenirs/Books",
+        "Grill",
+        "Restroom",
+        "Restroom - Accessible",
+        "Toilet - Flush",
+        "Trailhead",
+        "Trash/Litter Receptacles",
+        "Water - Bottle-Filling Station"
+      ],
+      "managedByOrg": "Xanterra",
+      "quickFacts": [
+        {
+          "id": "5C252B96-2DEB-4EF4-91D1-B5D2B202FCD7",
+          "value": "Zion Canyon",
+          "name": "Location"
+        },
+        {
+          "id": "E32D2136-A184-4C1A-91D2-4C20CEF9CBAF",
+          "value": "National Register of Historic Places",
+          "name": "Designation"
+        }
+      ],
+      "location": "",
+      "locationDescription": "",
+      "credit": "",
+      "multimedia": [],
+      "relevanceScore": 1.0
+    },
+    {
+      "id": "9B081DDD-4C3E-47C0-901A-E92A159B0078",
+      "url": "https://www.nps.gov/thingstodo/hike-kayenta-trail.htm",
+      "title": "Kayenta Trail",
+      "shortDescription": "The moderate, 2.0 mi (3.2 km) Kayenta Trail follows the Virgin River before ascending to the Lower and Upper Emerald Pool Trails. Provides panoramic views of Zion Canyon along the way. Long drop-offs are present along this trail. You can either return on the same trail, or make a loop using one of the Emerald Pools trails.\u00a0 Water and restrooms are available at The Grotto.",
+      "images": [
+        {
+          "url": "https://www.nps.gov/common/uploads/cropped_image/54128644-C0FE-3210-AB39C4918EED0D2A.jpg",
+          "credit": "NPS/Lizz Eberhardt",
+          "altText": "A set of red sandstone stairs lined with loose rocks and green foliage leads out of frame.",
+          "title": "Kayenta Trail",
+          "description": "",
+          "caption": "Sandstone steps of the Kayenta Trail lead you up to the Emerald Pools",
+          "crops": [
+            {
+              "aspectRatio": "1.78",
+              "url": "https://www.nps.gov/common/uploads/cropped_image/primary/54128644-C0FE-3210-AB39C4918EED0D2A.jpg"
+            },
+            {
+              "aspectRatio": "1",
+              "url": "https://www.nps.gov/common/uploads/cropped_image/secondary/54128644-C0FE-3210-AB39C4918EED0D2A.jpg"
+            }
+          ]
+        }
+      ],
+      "relatedParks": [
+        {
+          "states": "UT",
+          "parkCode": "zion",
+          "designation": "National Park",
+          "fullName": "Zion National Park",
+          "url": "https://www.nps.gov/zion/index.htm",
+          "name": "Zion"
+        }
+      ],
+      "relatedOrganizations": [],
+      "tags": [
+        "kayenta",
+        "Zion Canyon",
+        "out and back",
+        "loop trail",
+        "moderate hike",
+        "Zion National Park"
+      ],
+      "latitude": "37.2592462593",
+      "longitude": "-112.951341871",
+      "geometryPoiId": "8f9ea3a0-0722-4cae-9edf-3e562e0766dc",
+      "amenities": [],
+      "location": "Kayenta & West Rim Trailhead",
+      "seasonDescription": "",
+      "accessibilityInformation": "<ul> <li><b>Length (one way)\u00a0\u00a0|\u00a0\u00a0</b>0.9 mi (1.4 km)</li> <li><b>Elevation\u00a0\u00a0|\u00a0\u00a0</b>Gain:\u00a0204.1ft (62.2 m)<b> | </b>Loss: 101.9 ft (31.0 m)</li> <li><b>Grade\u00a0\u00a0|\u00a0\u00a0</b>Typical: 6.7%<b>\u00a0\u00a0|\u00a0\u00a0</b>Maximum: 35.3%<b>\u00a0\u00a0|\u00a0</b> 21.5% of the trail is at an 8.3% or higher grade.</li> <li><b>Cross Slope\u00a0\u00a0|\u00a0\u00a0</b>Typical: 4.5%<b>\u00a0\u00a0|\u00a0\u00a0</b>Maximum: 20.2%</li> <li><b>Tread Width\u00a0\u00a0|\u00a0\u00a0</b>Typical: 50 in (126.1 cm)<b> |\u00a0\u00a0</b>Minimum:\u00a015 in (38.1 cm)</li> <li><b>Surface\u00a0\u00a0|\u00a0\u00a0</b>65% of the trail is firm soil, and 35% is hard concrete or rock.</li> <li><b>Obstructions\u00a0\u00a0|\u00a0\u00a0</b>Overhanging rocks with a minimum vertical clearance of\u00a05.3 ft (1.6 m), with 15 in (38.1 cm) of remaining tread<b>\u00a0\u00a0|\u00a0\u00a0</b>Staircases with steps up to 21 in (53.3 cm) tall, and 0 in of remaining tread</li> </ul> <p><i>Last assessed on March 3, 2025. Obstructions less than 12 in (30.5 cm), or outside the tread area of 12 in (30.5 cm) wide by 96 in (243.8 cm) high, were not reported.</i></p>",
+      "isReservationRequired": "false",
+      "ageDescription": "",
+      "petsDescription": "",
+      "timeOfDayDescription": "",
+      "feeDescription": "Park entrance fees apply.",
+      "age": "",
+      "arePetsPermittedWithRestrictions": "false",
+      "activities": [
+        {
+          "id": "BFF8C027-7C8F-480B-A5F8-CD8CE490BFBA",
+          "name": "Hiking"
+        }
+      ],
+      "activityDescription": "",
+      "locationDescription": "The Kayenta Trailhead is located at The Grotto (shuttle stop #6). Use the crosswalk to reach the bridge over the Virgin River, then take a left up the sandstone steps to begin the hike.",
+      "doFeesApply": "false",
+      "longDescription": "<p>The moderate Kayenta Trail follows the Virgin River before ascending to the Lower and Upper Emerald Pool Trails. Provides panoramic views of Zion Canyon along the way. Long drop-offs are present along this trail. You can either return on the same trail, or make a loop using one of the Emerald Pools trails.\u00a0<br /> <br /> Water and restrooms are available at <a href=\"https://www.nps.gov/places/the-grotto-zion.htm\">The Grotto</a>.</p>",
+      "reservationDescription": "",
+      "season": [
+        "Winter",
+        "Spring",
+        "Summer",
+        "Fall"
+      ],
+      "topics": [
+        {
+          "id": "5BE55D7F-BDB6-4E3D-AC35-2D8EBB974417",
+          "name": "Trails"
+        }
+      ],
+      "durationDescription": "",
+      "arePetsPermitted": "false",
+      "timeOfDay": [
+        "Day",
+        "Night",
+        "Dawn",
+        "Dusk"
+      ],
+      "duration": "2-3 Hours",
+      "credit": "",
+      "relevanceScore": 1.0
+    },
+    {
+      "id": "6AD66A92-B0EB-4064-A52A-2DDB02CF9143",
+      "url": "https://www.nps.gov/thingstodo/la-verkin-creek-trail-to-kolob-arch.htm",
+      "title": "La Verkin Creek Trail to Kolob Arch",
+      "shortDescription": "The La Verkin Creek Trail to the Kolob Arch allows hikers outstanding opportunities for solitude in a primitive area of Zion Wilderness. The trail begins at Lee Pass with stunning views of the Kolob Canyons as it crosses Timber Creek and continues to descend toward La Verkin Creek. After seven miles a spur trail leads hikers to a viewpoint where they can see the Kolob Arch.",
+      "images": [
+        {
+          "url": "https://www.nps.gov/common/uploads/cropped_image/C8607E36-E5AE-CA10-130C375E3FB44434.jpg",
+          "credit": "NPS/Rendall Seely",
+          "altText": "Looking up at an orange-red sandstone arch on a cliff-face with clear blue skies overhead.",
+          "title": "Kolob Arch",
+          "description": "",
+          "caption": "The Kolob Arch is one of the world's largest natural arches.",
+          "crops": [
+            {
+              "aspectRatio": "1.78",
+              "url": "https://www.nps.gov/common/uploads/cropped_image/primary/C8607E36-E5AE-CA10-130C375E3FB44434.jpg"
+            },
+            {
+              "aspectRatio": "1",
+              "url": "https://www.nps.gov/common/uploads/cropped_image/secondary/C8607E36-E5AE-CA10-130C375E3FB44434.jpg"
+            }
+          ]
+        }
+      ],
+      "relatedParks": [
+        {
+          "states": "UT",
+          "parkCode": "zion",
+          "designation": "National Park",
+          "fullName": "Zion National Park",
+          "url": "https://www.nps.gov/zion/index.htm",
+          "name": "Zion"
+        }
+      ],
+      "relatedOrganizations": [],
+      "tags": [
+        "Arch",
+        "Kolob",
+        "Kolob Canyons",
+        "Zion National Park",
+        "out and back",
+        "la verkin creek",
+        "lee pass",
+        "wilderness",
+        "difficult",
+        "hiking"
+      ],
+      "latitude": "37.4522213604",
+      "longitude": "-113.191397605",
+      "geometryPoiId": "19fee113-5a0f-4946-b9a6-c2db01162ccf",
+      "amenities": [],
+      "location": "Lee Pass Trailhead",
+      "seasonDescription": "",
+      "accessibilityInformation": "Strenuous trail with 1037ft / 316m of elevation change over 14mi / 22.5km. Rocky, sandy, uneven terrain with water crossings.\u00a0",
+      "isReservationRequired": "false",
+      "ageDescription": "",
+      "petsDescription": "Pets are not permitted on any trails within Kolob Canyons.\u00a0",
+      "timeOfDayDescription": "Overnight trips require a\u00a0<a href=\"https://www.nps.gov/zion/planyourvisit/wilderness.htm\">Wilderness Permit</a>.",
+      "feeDescription": "Park entrance fees apply.",
+      "age": "",
+      "arePetsPermittedWithRestrictions": "false",
+      "activities": [
+        {
+          "id": "BFF8C027-7C8F-480B-A5F8-CD8CE490BFBA",
+          "name": "Hiking"
+        }
+      ],
+      "activityDescription": "<h3>Wilderness Rules & Regulations apply:</h3> <h4>Group Size Limits</h4> <p>Large groups result in larger impacts. Trails in the Zion Wilderness have a group size limit in order to help protect the wilderness character of the area. Group size limits are strictly enforced. Groups are limited to a maximum of 12 people that share the same affiliation (e.g., school, club, scout group, colleagues, family, friends, or a combination thereof).<br /> Groups that exceed these limits may not split up and visit the same drainage or wilderness trail on the same day, but may split up and visit different areas.</p> <h4>Restrooms</h4> <p>Fill your water bottle at the Kolob Canyons Visitor Center. Restroom facilities are located at the Kolob Canyons Visitor Center and pit toilets are located at the Taylor Creek Trailhead, South Fork parking lot, and at the Kolob Canyons Viewpoint. Always use the restroom before hiking. If you are on the trail, be prepared to pack out human waste, toilet paper, diapers, and hygiene products. Human waste disposal bags are highly recommended to transport solid waste. Please follow\u00a0<a href=\"https://www.nps.gov/zion/getinvolved/supportyourpark/leavenotrace.htm\">Leave No Trace</a>\u00a0principles while in the park.</p> <h4>Pets</h4> <p><a href=\"https://www.nps.gov/zion/planyourvisit/pets.htm\">Pets are not permitted</a>\u00a0on these trails. The only trail for pets in Zion National Park is the\u00a0<a href=\"https://www.nps.gov/zion/planyourvisit/zion-canyon-trail-descriptions.htm\">Pa'rus Trail.</a></p>",
+      "locationDescription": "Lee Pass Trailhead is the second to last trailhead along the Kolob Canyons Road. Parking is limited. No water or restrooms available here.",
+      "doFeesApply": "false",
+      "longDescription": "The La Verkin Creek Trail to Kolob Arch allows hikers outstanding opportunities for solitude in a primitive area of Zion Wilderness. The trail begins at Lee Pass with stunning views of the Kolob Canyons as it crosses Timber Creek and continues to descend toward La Verkin Creek. After seven miles, a spur trail leads hikers to a viewpoint where they can see Kolob Arch. With a span of 287 feet and a thickness of 75 feet, Kolob Arch is one of the world's largest natural arches.",
+      "reservationDescription": "",
+      "season": [
+        "Winter",
+        "Spring",
+        "Summer",
+        "Fall"
+      ],
+      "topics": [
+        {
+          "id": "5BE55D7F-BDB6-4E3D-AC35-2D8EBB974417",
+          "name": "Trails"
+        }
+      ],
+      "durationDescription": "",
+      "arePetsPermitted": "false",
+      "timeOfDay": [
+        "Day",
+        "Night",
+        "Dawn",
+        "Dusk"
+      ],
+      "duration": "7-9 Hours",
+      "credit": "",
+      "relevanceScore": 1.0
+    },
+    {
+      "id": "7B0A7CE7-2553-4A51-9E7C-F1F77DC253A4",
+      "url": "https://www.nps.gov/thingstodo/taylor-creek-trail.htm",
+      "title": "Taylor Creek Trail",
+      "shortDescription": "Kolob Canyons hike. Follows the Middle Fork of Taylor Creek past two homestead cabins to Double Arch Alcove. Group size limit on Wilderness trails is 12 people.",
+      "images": [
+        {
+          "url": "https://www.nps.gov/common/uploads/cropped_image/146A66B0-A1C9-0331-CD7DB3A6EDBE2A85.jpg",
+          "credit": "NPS/Lizz Eberhardt",
+          "altText": "Red sandstone cliff face with an alcove at the bottom and an arch above.",
+          "title": "Double Arch Alcove on Taylor Creek",
+          "description": "",
+          "caption": "The Double Arch Alcove marks the end of the Traylor Creek Trail.",
+          "crops": [
+            {
+              "aspectRatio": "1.78",
+              "url": "https://www.nps.gov/common/uploads/cropped_image/primary/146A66B0-A1C9-0331-CD7DB3A6EDBE2A85.jpg"
+            },
+            {
+              "aspectRatio": "1",
+              "url": "https://www.nps.gov/common/uploads/cropped_image/secondary/146A66B0-A1C9-0331-CD7DB3A6EDBE2A85.jpg"
+            }
+          ]
+        }
+      ],
+      "relatedParks": [
+        {
+          "states": "UT",
+          "parkCode": "zion",
+          "designation": "National Park",
+          "fullName": "Zion National Park",
+          "url": "https://www.nps.gov/zion/index.htm",
+          "name": "Zion"
+        }
+      ],
+      "relatedOrganizations": [],
+      "tags": [
+        "Zion",
+        "Kolob Canyons",
+        "taylor creek",
+        "out and back",
+        "moderate hike",
+        "Zion National Park",
+        "wilderness",
+        "historic"
+      ],
+      "latitude": "",
+      "longitude": "",
+      "geometryPoiId": "",
+      "amenities": [],
+      "location": "Kolob Canyons - Taylor Creek Trailhead",
+      "seasonDescription": "",
+      "accessibilityInformation": "<ul> <li><b>Length (one way)\u00a0\u00a0|\u00a0\u00a0</b>2.6 mi (4.3 km)</li> <li><b>Elevation\u00a0\u00a0|\u00a0\u00a0</b>Gain:\u00a0798.7 ft (243.4 m)<b> | </b>Loss:\u00a0372.8 ft (113.6 m)</li> <li><b>Grade\u00a0\u00a0|\u00a0\u00a0</b>Typical: 8.4%<b>\u00a0\u00a0|\u00a0\u00a0</b>Maximum: 55.2%<b>\u00a0\u00a0|</b> 31% of the trail is at a 10% or higher grade.</li> <li><b>Cross Slope\u00a0\u00a0|\u00a0\u00a0</b>Typical: 3.8%<b>\u00a0\u00a0|\u00a0\u00a0</b>Maximum: 25.7%</li> <li><b>Tread Width\u00a0\u00a0|\u00a0\u00a0</b>Typical: 45 in (113.5 cm)<b> |\u00a0\u00a0</b>Minimum:\u00a012 in (30.5 cm)</li> <li><b>Surface\u00a0\u00a0|\u00a0\u00a0</b>58.6% of the trail is firm soil, 38% is soft sand, 2.1% is very soft sand, and 1.3% is hard rock.</li> <li><b>Obstructions\u00a0\u00a0|\u00a0\u00a0</b>Boulders creating steps up to 26 in (66 cm) tall, with gaps between rocks up to 7 in (17.8 cm)\u00a0wide<b>\u00a0\u00a0|\u00a0\u00a0</b>Staircases with steps up to 14 in (35.6 cm) tall<b>\u00a0\u00a0|\u00a0\u00a0</b>Creek crossings where water level changes seasonally. Crossing through shallow water typically required.</li> </ul> <p><i>Last assessed on April 10, 2025. Obstructions less than 7 in (17.8 cm) tall, or outside the tread area of 15 in (31.8 cm) wide by 96 in (243.8 cm) high, were not reported.</i></p>",
+      "isReservationRequired": "false",
+      "ageDescription": "",
+      "petsDescription": "Pets are not allowed on any trail in Kolob Canyons.\u00a0",
+      "timeOfDayDescription": "",
+      "feeDescription": "Park entrance fees apply.\u00a0",
+      "age": "",
+      "arePetsPermittedWithRestrictions": "false",
+      "activities": [
+        {
+          "id": "BFF8C027-7C8F-480B-A5F8-CD8CE490BFBA",
+          "name": "Hiking"
+        }
+      ],
+      "activityDescription": "<h3>Wilderness Rules & Regulations apply:</h3> <h4>Group Size Limits</h4> <p>Large groups result in larger impacts. Trails in the Zion Wilderness have a group size limit in order to help protect the wilderness character of the area. Group size limits are strictly enforced. Groups are limited to a maximum of 12 people that share the same affiliation (e.g., school, club, scout group, colleagues, family, friends, or a combination thereof).<br /> Groups that exceed these limits may not split up and visit the same drainage or wilderness trail on the same day, but may split up and visit different areas.</p> <h4>Restrooms</h4> <p>Fill your water bottle at the Kolob Canyons Visitor Center. Restroom facilities are located at the Kolob Canyons Visitor Center and pit toilets are located at the Taylor Creek Trailhead, South Fork parking lot, and at the Kolob Canyons Viewpoint. Always use the restroom before hiking. If you are on the trail, be prepared to pack out human waste, toilet paper, diapers, and hygiene products. Human waste disposal bags are highly recommended to transport solid waste. Please follow\u00a0<a href=\"https://www.nps.gov/zion/getinvolved/supportyourpark/leavenotrace.htm\">Leave No Trace</a>\u00a0principles while in the park.</p> <h4>Pets</h4> <p><a href=\"https://www.nps.gov/zion/planyourvisit/pets.htm\">Pets are not permitted</a>\u00a0on these trails. The only trail for pets in Zion National Park is the\u00a0<a href=\"https://www.nps.gov/zion/planyourvisit/zion-canyon-trail-descriptions.htm\">Pa'rus Trail.</a></p>",
+      "locationDescription": "From the Kolob Canyons Visitor Center in New Harmony, Utah, drive along the Kolob Canyons Road to Taylor Creek Traihead.\u00a0<br /> <br /> Restrooms available at the trailhead. Water available at the Visitor Center.<br /> <br /> <em>Note: The Kolob Canyons section of the park is about 1 hour from the Zion Canyon area. There is no shuttle service in Kolob Canyons.\u00a0</em>",
+      "doFeesApply": "false",
+      "longDescription": "The Taylor Creek Trail leads hikers deep into a narrow box canyon toward the Double Arch Alcove, where erosion has carved out natural openings in the Navajo sandstone. As the trail reaches the mouth of the canyon it enters the Zion Wilderness and begins to crisscross Taylor Creek. Winter conditions can be very icy and water crossings in the spring will get your feet wet. The trail passes the geologic formation of the Kanarraville Fold and two historic homestead cabins built in the early 1930s before arriving at the Double Arch Alcove.",
+      "reservationDescription": "",
+      "season": [
+        "Winter",
+        "Spring",
+        "Summer",
+        "Fall"
+      ],
+      "topics": [
+        {
+          "id": "5BE55D7F-BDB6-4E3D-AC35-2D8EBB974417",
+          "name": "Trails"
+        }
+      ],
+      "durationDescription": "",
+      "arePetsPermitted": "false",
+      "timeOfDay": [
+        "Day",
+        "Night",
+        "Dawn",
+        "Dusk"
+      ],
+      "duration": "3-4 Hours",
+      "credit": "",
+      "relevanceScore": 1.0
+    },
+    {
+      "id": "671CA42A-5287-4EC6-AD13-4841D2F9B724",
+      "url": "https://www.nps.gov/thingstodo/hike-watchman-trail.htm",
+      "title": "Watchman Trail",
+      "shortDescription": "The Watchman trail is out-and-back. From the relatively flat beginning section of trail by the river, this unpaved trail climbs to a magnificent viewpoint of the Watchman, Temples and Towers, lower Zion Canyon, and the Town of Springdale. The terrain is sandy, rocky, and uneven, with several moderate drop-offs.",
+      "images": [
+        {
+          "url": "https://www.nps.gov/common/uploads/cropped_image/B552513D-B184-71EB-93B3DB369AC99AE0.jpg",
+          "credit": "NPS/Abi Farish",
+          "altText": "View from a sandy overlook of a triangular sandstone mountain with green foliage on the foothills.",
+          "title": "Watchman Overlook",
+          "description": "",
+          "caption": "View from the overlook at the end of Watchman Trail",
+          "crops": [
+            {
+              "aspectRatio": "1.78",
+              "url": "https://www.nps.gov/common/uploads/cropped_image/primary/B552513D-B184-71EB-93B3DB369AC99AE0.jpg"
+            },
+            {
+              "aspectRatio": "1",
+              "url": "https://www.nps.gov/common/uploads/cropped_image/secondary/B552513D-B184-71EB-93B3DB369AC99AE0.jpg"
+            }
+          ]
+        }
+      ],
+      "relatedParks": [
+        {
+          "states": "UT",
+          "parkCode": "zion",
+          "designation": "National Park",
+          "fullName": "Zion National Park",
+          "url": "https://www.nps.gov/zion/index.htm",
+          "name": "Zion"
+        }
+      ],
+      "relatedOrganizations": [],
+      "tags": [
+        "Watchman",
+        "Zion Canyon",
+        "hiking",
+        "moderate hike",
+        "overlook",
+        "Zion National Park",
+        "out and back"
+      ],
+      "latitude": "",
+      "longitude": "",
+      "geometryPoiId": "",
+      "amenities": [],
+      "location": "Watchman Trailhead",
+      "seasonDescription": "This hike is accessible throughout the year. The trail may be muddy or icy during the winter and monsoon season. Limited shade in the summer.",
+      "accessibilityInformation": "<h4>Watchman Trail to Overlook</h4> <ul> <li><b>Length (one way)\u00a0\u00a0|\u00a0\u00a0</b>1.4 mi (2.3 km)</li> <li><b>Elevation\u00a0\u00a0|\u00a0\u00a0</b>Gain:\u00a0479.4 ft (146.1 m)<b> | </b>Loss:\u00a078.1 ft (23.8 m)</li> <li><b>Grade\u00a0\u00a0|\u00a0\u00a0</b>Typical: 7.4%<b>\u00a0\u00a0|\u00a0\u00a0</b>Maximum: 39.4%<b>\u00a0\u00a0|</b>\u00a034 % of the trail is at an 8.3% or higher grade.</li> <li><b>Cross Slope\u00a0\u00a0|\u00a0\u00a0</b>Typical: 4.8%<b>\u00a0\u00a0|\u00a0\u00a0</b>Maximum: 36.8%</li> <li><b>Tread Width\u00a0\u00a0|\u00a0\u00a0</b>Typical: 77 in (195.6 cm)<b> |\u00a0\u00a0</b>Minimum:\u00a012 in (30.5 cm)</li> <li><b>Surface\u00a0\u00a0|\u00a0\u00a0</b>2.2% of the trail is paved, 58.8% is hard rock, 37.4% is firm soil, and 1.6% is soft soil.</li> <li><b>Obstructions\u00a0\u00a0|\u00a0\u00a0</b>Steps\u00a0up to 24 in (61 cm) tall, with 0 in of remaining tread<b>\u00a0\u00a0|\u00a0\u00a0</b>Overhanging rocks 20 ft (6.1 m) long with a minimum vertical clearance of 7 ft (2.1 m). There are 20 in (50.8 cm) of remaining tread,</li> </ul> <h4>Loop Trail from Overlook</h4> <ul> <li><b>Length (one way, counterclockwise)\u00a0\u00a0|\u00a0\u00a0</b>0.4 mi (0.7 km)</li> <li><b>Elevation\u00a0\u00a0|\u00a0\u00a0</b>Gain:\u00a080.4 ft (24.52 m)<b> | </b>Loss:\u00a064.6 ft (19.68 m)</li> <li><b>Grade\u00a0\u00a0|\u00a0\u00a0</b>Typical: 6.6%<b>\u00a0\u00a0|\u00a0\u00a0</b>Maximum: 31.5%<b>\u00a0\u00a0|</b> 28.8% of the trail is at an 8.3% or higher grade.</li> <li><b>Cross Slope\u00a0\u00a0|\u00a0\u00a0</b>Typical: 3.6%<b>\u00a0\u00a0|\u00a0\u00a0</b>Maximum: 18%</li> <li><b>Tread Width\u00a0\u00a0|\u00a0\u00a0</b>Typical: 34 in (85.9 cm)<b> |\u00a0\u00a0</b>Minimum:\u00a012 in (30.5 cm)</li> <li><b>Surface\u00a0\u00a0|\u00a0\u00a0</b>73% of the trail is firm soil, and 27% is hard rock.</li> <li><b>Obstructions\u00a0\u00a0|\u00a0\u00a0</b>Steps up to 12 in (30.5 cm) tall, with 0 in remaining tread.</li> </ul> <p><i>Last assessed on 01-15-2025. Obstructions less than 4 in (10.2 cm) tall, or outside the tread area of 36 in (91.4 cm) wide by 96 in (243.8 cm) high, were not reported.</i></p>",
+      "isReservationRequired": "false",
+      "ageDescription": "",
+      "petsDescription": "",
+      "timeOfDayDescription": "",
+      "feeDescription": "Park entrance fees apply.\u00a0",
+      "age": "",
+      "arePetsPermittedWithRestrictions": "false",
+      "activities": [
+        {
+          "id": "BFF8C027-7C8F-480B-A5F8-CD8CE490BFBA",
+          "name": "Hiking"
+        }
+      ],
+      "activityDescription": "",
+      "locationDescription": "To reach the trailhead from the Zion Canyon Visitor Center, follow the sidewalk through the Visitor Center plaza and past the shuttle stop to the crosswalk. Stay along the river to begin the trail.",
+      "doFeesApply": "false",
+      "longDescription": "The Watchman Trail is a moderate out-and-back hike accessed from the Zion Canyon Visitor Center. To reach the trailhead, follow the sidewalk through the Visitor Center plaza and past the shuttle stop to the crosswalk. Stay along the river to begin the trail.<br /> <br /> From the relatively flat beginning section of trail by the river, this unpaved trail climbs to a magnificent viewpoint of the Watchman, Temples and Towers, lower Zion Canyon, and the Town of Springdale. The terrain is sandy, rocky, and uneven, with several moderate drop-offs.<br /> <br /> Restrooms and water filling stations are available at the Visitor Center.<br /> <br /> Bikes are not permitted.",
+      "reservationDescription": "",
+      "season": [
+        "Winter",
+        "Spring",
+        "Summer",
+        "Fall"
+      ],
+      "topics": [
+        {
+          "id": "5BE55D7F-BDB6-4E3D-AC35-2D8EBB974417",
+          "name": "Trails"
+        }
+      ],
+      "durationDescription": "Watchman trail is 3.3 miles (5.3 km) roundtrip. On average, it takes about 2 hours to complete.",
+      "arePetsPermitted": "false",
+      "timeOfDay": [
+        "Day",
+        "Night",
+        "Dawn",
+        "Dusk"
+      ],
+      "duration": "1-2 Hours",
+      "credit": "",
+      "relevanceScore": 1.0
+    },
+    {
+      "id": "BD4CA407-5BE0-426E-8339-F34DE6795D3A",
+      "url": "https://www.nps.gov/thingstodo/hike-to-scout-lookout.htm",
+      "title": "West Rim to Scout Lookout",
+      "shortDescription": "The strenuous West Rim Trail ascends ~1,000 ft (305 m) to Scout Lookout, high above the canyon floor. Hikers cross the Virgin River and then ascend a series of steep switchbacks along the canyon wall. The trail flattens out as it enters Refrigerator Canyon, offering relief from the heat and elevation gain of the previous segment, but resumes the climb shortly afterward at Walter\u2019s Wiggles: a series of 21 switchbacks that leads hikers to Scout Lookout.",
+      "images": [
+        {
+          "url": "https://www.nps.gov/common/uploads/cropped_image/230B230B-08DA-0021-AE366EBBC3DAE7FA.jpg",
+          "credit": "NPS",
+          "altText": "A hiker with an orange backpack standing on sandstone looks at the Angels Landing peak.",
+          "title": "Scout Lookout",
+          "description": "",
+          "caption": "Hiker on Scout Lookout looking towards Angels Landing and the Great White Throne.",
+          "crops": [
+            {
+              "aspectRatio": "1.78",
+              "url": "https://www.nps.gov/common/uploads/cropped_image/primary/230B230B-08DA-0021-AE366EBBC3DAE7FA.jpg"
+            },
+            {
+              "aspectRatio": "1",
+              "url": "https://www.nps.gov/common/uploads/cropped_image/secondary/230B230B-08DA-0021-AE366EBBC3DAE7FA.jpg"
+            }
+          ]
+        }
+      ],
+      "relatedParks": [
+        {
+          "states": "UT",
+          "parkCode": "zion",
+          "designation": "National Park",
+          "fullName": "Zion National Park",
+          "url": "https://www.nps.gov/zion/index.htm",
+          "name": "Zion"
+        }
+      ],
+      "relatedOrganizations": [],
+      "tags": [
+        "scout lookout",
+        "west rim",
+        "Angels Landing",
+        "Zion Canyon",
+        "Zion",
+        "strenuous hike",
+        "out and back",
+        "viewpoint"
+      ],
+      "latitude": "37.2592462593",
+      "longitude": "-112.951341871",
+      "geometryPoiId": "8f9ea3a0-0722-4cae-9edf-3e562e0766dc",
+      "amenities": [],
+      "location": "Kayenta & West Rim Trailhead",
+      "seasonDescription": "",
+      "accessibilityInformation": "<ul> <li><b>Length (one way)\u00a0\u00a0|\u00a0\u00a0</b>1.9 mi (3 km)<b> </b></li> <li><b>Elevation\u00a0\u00a0|\u00a0\u00a0</b>Gain:\u00a01187 ft (361.8 m)<b> | </b>Loss:\u00a063 ft (19.2 m)</li> <li><b>Grade\u00a0\u00a0|\u00a0\u00a0</b>Typical: 12.9%<b>\u00a0\u00a0|\u00a0\u00a0</b>Maximum: 43%<b>\u00a0\u00a0|</b> 67% of the trail is at an 8.3% or higher grade.</li> <li><b>Cross Slope\u00a0\u00a0|\u00a0\u00a0</b>Typical: 3.7%<b>\u00a0\u00a0|\u00a0\u00a0</b>Maximum: 18.7%</li> <li><b>Tread Width\u00a0\u00a0|\u00a0\u00a0</b>Typical: 63 in (159.2 cm)<b> |\u00a0\u00a0</b>Minimum:\u00a021 in (53.3 cm)</li> <li><b>Surface\u00a0\u00a0|\u00a0\u00a0</b>81.1% of the trail is hard concrete, 17.3% is concrete covered in firm soil, and 1.7% is soft sand.</li> <li><b>Obstructions\u00a0\u00a0|\u00a0\u00a0</b>Overhanging rocks 173.4 ft (52.9 m) long with a minimum vertical clearance of\u00a07 ft (2.1 m). There is 45 in (114.3 cm) of remaining tread.<b>\u00a0\u00a0|\u00a0\u00a0</b>Steps up to 6 in (15.2 cm) tall, with 0 in remaining tread</li> </ul> <p><a><i>Last assessed on March 10, 2025. Obstructions less than 4 in (10.2 cm) tall, or outside the tread area of 15 in (38.1 cm) wide by 96 in (243.8 cm) high, were not reported.</i></a></p>",
+      "isReservationRequired": "false",
+      "ageDescription": "",
+      "petsDescription": "",
+      "timeOfDayDescription": "",
+      "feeDescription": "Park entrance fees apply.",
+      "age": "",
+      "arePetsPermittedWithRestrictions": "false",
+      "activities": [
+        {
+          "id": "BFF8C027-7C8F-480B-A5F8-CD8CE490BFBA",
+          "name": "Hiking"
+        }
+      ],
+      "activityDescription": "",
+      "locationDescription": "Access the trailhead at The Grotto (shuttle stop #6). Cross the road and over the bridge to begin the West Rim Trail.",
+      "doFeesApply": "false",
+      "longDescription": "The strenuous West Rim Trail ascends ~1,000 ft (305 m) to Scout Lookout, high above the canyon floor. Hikers cross the Virgin River and then ascend a series of steep switchbacks along the canyon wall. The trail flattens out as it enters Refrigerator Canyon, offering relief from the heat and elevation gain of the previous segment, but resumes the climb shortly afterward at Walter\u2019s Wiggles: a series of 21 switchbacks that leads hikers to Scout Lookout, a relatively flat, sandy area with some shade.<br /> <br /> At Scout Lookout, there is a junction with the West Rim Trail and the route to Angels Landing. Many hikers choose to stop here to enjoy the views of Zion Canyon, or to look for the endangered California condors that call the cliffs home. Those looking to continue hiking to the end of Angels Landing <a href=\"https://www.nps.gov/zion/planyourvisit/angels-landing-hiking-permits.htm\">will need a permit from recreation.gov</a>.<br /> <br /> Water and restrooms are available at The Grotto, and restrooms are available at Scout Lookout. There is no water available at Scout Lookout.",
+      "reservationDescription": "",
+      "season": [
+        "Winter",
+        "Spring",
+        "Summer",
+        "Fall"
+      ],
+      "topics": [
+        {
+          "id": "5BE55D7F-BDB6-4E3D-AC35-2D8EBB974417",
+          "name": "Trails"
+        }
+      ],
+      "durationDescription": "",
+      "arePetsPermitted": "false",
+      "timeOfDay": [
+        "Day",
+        "Night",
+        "Dawn",
+        "Dusk"
+      ],
+      "duration": "3-4 Hours",
+      "credit": "",
+      "relevanceScore": 1.0
+    },
+    {
+      "id": "823A078C-D324-4648-B910-F15507E67244",
+      "url": "https://www.nps.gov/thingstodo/hike-riverside-walk.htm",
+      "title": "Riverside Walk",
+      "shortDescription": "The Riverside Walk is a relatively flat and paved trail in the northern end of Zion Canyon. This easy trail follows the Virgin River as the sheer sandstone walls narrow in around you. The Riverside Walk is mostly flat through the first half-mile, although paving is irregular in some sections and minor drop-offs are present.",
+      "images": [
+        {
+          "url": "https://www.nps.gov/common/uploads/cropped_image/E187F7C6-9E0B-2F5A-129B7F885F29A4D7.jpg",
+          "credit": "NPS/Abi Farish",
+          "altText": "Two hikers in blue jackets walk along a sandy trail lined with a wooden rail and fall foliage.",
+          "title": "Riverside Walk",
+          "description": "",
+          "caption": "Hikers on the Riverside Walk in autumn.",
+          "crops": [
+            {
+              "aspectRatio": "1.78",
+              "url": "https://www.nps.gov/common/uploads/cropped_image/primary/E187F7C6-9E0B-2F5A-129B7F885F29A4D7.jpg"
+            },
+            {
+              "aspectRatio": "1",
+              "url": "https://www.nps.gov/common/uploads/cropped_image/secondary/E187F7C6-9E0B-2F5A-129B7F885F29A4D7.jpg"
+            }
+          ]
+        }
+      ],
+      "relatedParks": [
+        {
+          "states": "UT",
+          "parkCode": "zion",
+          "designation": "National Park",
+          "fullName": "Zion National Park",
+          "url": "https://www.nps.gov/zion/index.htm",
+          "name": "Zion"
+        }
+      ],
+      "relatedOrganizations": [],
+      "tags": [
+        "Riverside",
+        "Virgin River",
+        "easy trail",
+        "out and back",
+        "river access"
+      ],
+      "latitude": "37.2852131123",
+      "longitude": "-112.947693774",
+      "geometryPoiId": "e9f41627-cb50-40f9-a9d6-76c9fc5de798",
+      "amenities": [],
+      "location": "Riverside Walk Trailhead",
+      "seasonDescription": "Riverside Walk is open year-round, but sections of the trail may close in winter due to icy and unsafe conditions. Check the park's <a href=\"https://www.nps.gov/zion/planyourvisit/conditions.htm\">current conditions</a> before your trip.",
+      "accessibilityInformation": "<ul> <li><b>Length (one way)\u00a0\u00a0|\u00a0\u00a0</b>1 mi (1.6 km)</li> <li><b>Elevation\u00a0\u00a0|\u00a0\u00a0</b>Gain:\u00a0154.2 ft (47.0 m)<b> | </b>Loss: 48.5 ft (14.8\u00a0m)</li> <li><b>Grade\u00a0\u00a0|\u00a0\u00a0</b>Typical: 4.6%<b>\u00a0\u00a0|\u00a0\u00a0</b>Maximum: 25.9%<b>\u00a0\u00a0| </b>17.5% of the trail is at a 8.3% or higher grade.</li> <li><b>Cross Slope\u00a0\u00a0|\u00a0\u00a0</b>Typical: 1.7%<b>\u00a0\u00a0|\u00a0\u00a0</b>Maximum: 7.6%<b>\u00a0\u00a0|\u00a0\u00a0</b>18% of the trail has a cross slope of 3% or higher.</li> <li><b>Tread Width\u00a0\u00a0|\u00a0\u00a0</b>Typical: 77 in (194.9 cm)<b> |\u00a0\u00a0</b>Minimum:\u00a050 in (127 cm)</li> <li><b>Surface\u00a0\u00a0|\u00a0\u00a0</b>100% of the trail is concrete. Some sections may be slippery from sand.</li> <li><b>Obstructions\u00a0\u00a0|\u00a0\u00a0</b>Overhanging rocks 7 ft (2.1 m) long, with a minimum vertical clearance of\u00a04 ft (1.2 m), and\u00a048 in (121.9 cm) of remaining tread</li> </ul> <p><i>Last assessed on February 24, 2025. Obstructions less than 4 in (10.2 cm) tall, or outside the tread area of 36 in (91.4 cm) wide by 96 in (243.8 cm), high were not reported.</i></p>",
+      "isReservationRequired": "false",
+      "ageDescription": "",
+      "petsDescription": "",
+      "timeOfDayDescription": "",
+      "feeDescription": "Park entrance fees apply.",
+      "age": "",
+      "arePetsPermittedWithRestrictions": "false",
+      "activities": [
+        {
+          "id": "BFF8C027-7C8F-480B-A5F8-CD8CE490BFBA",
+          "name": "Hiking"
+        }
+      ],
+      "activityDescription": "",
+      "locationDescription": "Riverside Walk is at the end of the Zion Canyon Scenic Drive at the Temple of Sinawava (shuttle stop #9). Follow the sidewalk past the shuttle stop and restrooms to begin your hike.\u00a0",
+      "doFeesApply": "false",
+      "longDescription": "The Riverside Walk is a relatively flat and paved trail in the northern end of Zion Canyon. This easy trail follows the Virgin River as the sheer sandstone walls narrow in around you. The Riverside Walk is mostly flat through the first half-mile, although paving is irregular in some sections and minor drop-offs are present.<br /> <br /> Look for exhibits along the trail to learn about canyon carving, erosion, and the ecological richness of this area.<br /> <br /> This trail also leads to The Narrows. If you wish to stay dry, you can turn around at the end of the paved trail.\u00a0<br /> <br /> Water and restrooms are available at the Temple of Sinawava.",
+      "reservationDescription": "",
+      "season": [
+        "Winter",
+        "Spring",
+        "Summer",
+        "Fall"
+      ],
+      "topics": [
+        {
+          "id": "5BE55D7F-BDB6-4E3D-AC35-2D8EBB974417",
+          "name": "Trails"
+        }
+      ],
+      "durationDescription": "",
+      "arePetsPermitted": "false",
+      "timeOfDay": [
+        "Day",
+        "Night",
+        "Dawn",
+        "Dusk"
+      ],
+      "duration": "1-2 Hours",
+      "credit": "",
+      "relevanceScore": 1.0
+    },
+    {
+      "id": "97C6C2F7-E45F-4192-9475-F2F90BF3E70E",
+      "url": "https://www.nps.gov/thingstodo/hike-middle-emerald-pools-trail.htm",
+      "title": "Middle Emerald Pools Trail",
+      "shortDescription": "Middle Emerald Pools Trail is a moderate hike along an unpaved sandstone ledge above the Lower Emerald Pool Trail. The initial ascent is quite steep, bringing you to expansive views of main Zion Canyon below. Further along the trail, tucked into the red sandstone of the mountain, enjoy the shade and flora of pinyon-juniper woodlands. The trail then descends to emerald-colored pools of water above the small ephemeral waterfalls of Lower Emerald Pool Trail.",
+      "images": [
+        {
+          "url": "https://www.nps.gov/common/uploads/cropped_image/BAFA9BD5-AB3B-F0A3-6AAD61B9A644A40A.jpg",
+          "credit": "NPS/Abi Farish",
+          "altText": "A pool of green water on a sandstone cliff surrounded by green foliage with a mountain in the back.",
+          "title": "Middle Emerald Pools Trail",
+          "description": "",
+          "caption": "View from the end of Middle Emerald Pools Trail.",
+          "crops": [
+            {
+              "aspectRatio": "1.78",
+              "url": "https://www.nps.gov/common/uploads/cropped_image/primary/BAFA9BD5-AB3B-F0A3-6AAD61B9A644A40A.jpg"
+            },
+            {
+              "aspectRatio": "1",
+              "url": "https://www.nps.gov/common/uploads/cropped_image/secondary/BAFA9BD5-AB3B-F0A3-6AAD61B9A644A40A.jpg"
+            }
+          ]
+        }
+      ],
+      "relatedParks": [
+        {
+          "states": "UT",
+          "parkCode": "zion",
+          "designation": "National Park",
+          "fullName": "Zion National Park",
+          "url": "https://www.nps.gov/zion/index.htm",
+          "name": "Zion"
+        }
+      ],
+      "relatedOrganizations": [],
+      "tags": [
+        "middle emerald pools",
+        "emerald pools",
+        "Zion",
+        "Zion Canyon",
+        "Moderate Hikes",
+        "water",
+        "loop trail",
+        "out and back"
+      ],
+      "latitude": "37.2510388558",
+      "longitude": "-112.958668719",
+      "geometryPoiId": "b744d53b-74a6-4f82-bdb7-ec7f4a2c958e",
+      "amenities": [],
+      "location": "Emerald Pools Trailhead",
+      "seasonDescription": "",
+      "accessibilityInformation": "<p><i></i></p> <ul> <li><b>Length (one way)\u00a0\u00a0|\u00a0\u00a0</b>0.9 mi (1.4 km)</li> <li><b>Elevation\u00a0\u00a0|\u00a0\u00a0</b>Gain:\u00a0332.8 ft (101.4 m)<b> | </b>Loss: 152.2 ft (46.4 m)</li> <li><b>Grade\u00a0\u00a0|\u00a0\u00a0</b>Typical: 10.3%<b>\u00a0\u00a0|\u00a0\u00a0</b>Maximum: 38.1%<b>\u00a0\u00a0| </b>44.8% of the trail is at a 10% or higher grade.</li> <li><b>Cross Slope\u00a0\u00a0|\u00a0\u00a0</b>Typical: 4.4%<b>\u00a0\u00a0|\u00a0\u00a0</b>Maximum: 20.1%</li> <li><b>Tread Width\u00a0\u00a0|\u00a0\u00a0</b>Typical: 57 in (144.2 cm)<b> |\u00a0\u00a0</b>Minimum:\u00a020 in (50.8 cm)</li> <li><b>Surface\u00a0\u00a0|\u00a0\u00a0</b>79.7% of the trail is firm soil, 18.7% is hard rock or concrete, and 1.6% is soft sand.</li> <li><b>Obstructions\u00a0\u00a0|\u00a0\u00a0</b>Bridge with minimum tread width of\u00a045 in (114.3 cm)<b> |\u00a0\u00a0</b>Staircases with steps up to 10 in (25.4 cm) tall, and\u00a00 in of remaining tread</li> </ul> <p><i>Last assessed on March 20, 2025. Obstructions less than 12 in (30.5 cm) tall, or outside the tread area of 12 in (30.5 cm) wide by 96 in (243.8 cm) high, were not reported.</i></p>",
+      "isReservationRequired": "false",
+      "ageDescription": "",
+      "petsDescription": "",
+      "timeOfDayDescription": "",
+      "feeDescription": "Park entrance fees apply.",
+      "age": "",
+      "arePetsPermittedWithRestrictions": "false",
+      "activities": [
+        {
+          "id": "BFF8C027-7C8F-480B-A5F8-CD8CE490BFBA",
+          "name": "Hiking"
+        }
+      ],
+      "activityDescription": "",
+      "locationDescription": "Emerald Pools Trailhead is across from the Zion Lodge (shuttle stop #5). From the shuttle stop, follow the sidewalk across the Lodge Lawn to the crosswalk. Cross the street and continue across the bridge. Follow the trail on the left to begin hiking Middle Emerald Pools.",
+      "doFeesApply": "false",
+      "longDescription": "Middle Emerald Pools Trail is a moderate hike along an unpaved sandstone ledge above the Lower Emerald Pool Trail. The initial ascent is quite steep, bringing you to expansive views of main Zion Canyon below. Further along the trail, tucked into the red sandstone of the mountain, enjoy the shade and flora of pinyon-juniper woodlands. The trail then descends to emerald-colored pools of water above the small ephemeral waterfalls of Lower Emerald Pool Trail.\u00a0The pools are fragile and an essential water source for wildlife. Do not go into the water.<br /> <br /> Connects to the other Emerald Pools trails and the Kayenta Trail.<br /> <br /> Avoid cliff edges. Swimming is not permitted. Restrooms and water filling stations are available at the Zion Lodge.",
+      "reservationDescription": "",
+      "season": [
+        "Winter",
+        "Spring",
+        "Summer",
+        "Fall"
+      ],
+      "topics": [
+        {
+          "id": "5BE55D7F-BDB6-4E3D-AC35-2D8EBB974417",
+          "name": "Trails"
+        }
+      ],
+      "durationDescription": "Middle Emerald Pools is 2.2 miles (3.5 km) roundtrip (out-and-back). It may be combined with other Emerald Pools trails and the Kayenta trail for a longer hike.",
+      "arePetsPermitted": "false",
+      "timeOfDay": [
+        "Day",
+        "Night",
+        "Dawn",
+        "Dusk"
+      ],
+      "duration": "1-2 Hours",
+      "credit": "",
+      "relevanceScore": 1.0
+    },
+    {
+      "id": "FD003EF3-8DA2-4FCB-9B49-7BFFB097CB76",
+      "url": "https://www.nps.gov/thingstodo/hike-upper-emerald-pools.htm",
+      "title": "Upper Emerald Pools Trail",
+      "shortDescription": "Upper Emerald Pools Trail is a moderate, 1 mile (1.6 km) trail that can be accessed via the Kayenta Trail, Lower Emerald Pools Trail, or Middle Emerald Pools Trail. Climb up stone steps to a sandy path that leads through pinyon-juniper woodlands to the\u00a0base of towering canyon walls which boast majestic, seasonal waterfalls. The trail ends at the sandy shore of Upper Emerald Pool.\u00a0No swimming.",
+      "images": [
+        {
+          "url": "https://www.nps.gov/common/uploads/cropped_image/18EA857F-F3C9-5FA8-E61F35F42B34B9C0.jpg",
+          "credit": "NPS / Ally ORullian",
+          "altText": "A large group of people near a pool of water with green trees and an orange sandstone cliff face",
+          "title": "Upper Emerald Pools in Summer",
+          "description": "",
+          "caption": "Upper Emerald Pools",
+          "crops": [
+            {
+              "aspectRatio": "1.78",
+              "url": "https://www.nps.gov/common/uploads/cropped_image/primary/18EA857F-F3C9-5FA8-E61F35F42B34B9C0.jpg"
+            },
+            {
+              "aspectRatio": "1",
+              "url": "https://www.nps.gov/common/uploads/cropped_image/secondary/18EA857F-F3C9-5FA8-E61F35F42B34B9C0.jpg"
+            }
+          ]
+        }
+      ],
+      "relatedParks": [
+        {
+          "states": "UT",
+          "parkCode": "zion",
+          "designation": "National Park",
+          "fullName": "Zion National Park",
+          "url": "https://www.nps.gov/zion/index.htm",
+          "name": "Zion"
+        }
+      ],
+      "relatedOrganizations": [],
+      "tags": [
+        "upper emerald pool",
+        "emerald pools",
+        "Zion Canyon",
+        "Zion",
+        "loop trail",
+        "out and back",
+        "moderate hike"
+      ],
+      "latitude": "37.2510388558",
+      "longitude": "-112.958668719",
+      "geometryPoiId": "b744d53b-74a6-4f82-bdb7-ec7f4a2c958e",
+      "amenities": [],
+      "location": "Emerald Pools Trailhead",
+      "seasonDescription": "",
+      "accessibilityInformation": "<ul> <li><strong>Length (one way)\u00a0\u00a0|\u00a0\u00a0</strong>0.3 mi (0.4 km)</li> <li><strong>Elevation\u00a0\u00a0|\u00a0\u00a0</strong>Gain:\u00a075.8 ft (23.11 m)<strong> | </strong>Loss: 28.9 ft (8.81 m)</li> <li><strong>Grade\u00a0\u00a0|\u00a0\u00a0</strong>Typical: 7.5%<strong>\u00a0\u00a0|\u00a0\u00a0</strong>Maximum: 37%<strong>\u00a0\u00a0| </strong>25.6% of the trail is at a 10% or higher grade.</li> <li><strong>Cross Slope\u00a0\u00a0|\u00a0\u00a0</strong>Typical: 5.2%<strong>\u00a0\u00a0|\u00a0\u00a0</strong>Maximum: 20.6%</li> <li><strong>Tread Width\u00a0\u00a0|\u00a0\u00a0</strong>Typical:\u00a059 in (149.0 cm)<strong> |\u00a0\u00a0</strong>Minimum:\u00a012 in (30.5 cm)</li> <li><strong>Surface\u00a0\u00a0|\u00a0\u00a0</strong>45.1% of trail is hard rock, 35.8% is soft sand, and 19.1% is firm soil.</li> <li><strong>Obstructions\u00a0\u00a0|\u00a0\u00a0</strong>Overhanging rock 11.3 ft (3.4 m)\u00a0long with 30 in (76.2 cm) of remaining tread outside of rock zone.<strong> |\u00a0\u00a0</strong>Staircases with steps up to 30 in (76.2 cm) tall.</li> </ul> <p><i>Last assessed on March 20, 2025. Obstructions less than 12 in (30.5 cm) tall, or outside the tread area of 12 in (30.5 cm) wide by 96 in (243.8 cm) high, were not reported.</i></p>",
+      "isReservationRequired": "false",
+      "ageDescription": "",
+      "petsDescription": "",
+      "timeOfDayDescription": "",
+      "feeDescription": "Park entrance fees apply.",
+      "age": "",
+      "arePetsPermittedWithRestrictions": "false",
+      "activities": [
+        {
+          "id": "BFF8C027-7C8F-480B-A5F8-CD8CE490BFBA",
+          "name": "Hiking"
+        }
+      ],
+      "activityDescription": "",
+      "locationDescription": "Upper Emerald Pools Trail can be accessed from the Emerald Pools Trailhead at Zion Lodge (shuttle stop #5) or from The Grotto (shuttle stop #6).\u00a0<br /> <br /> Zion Lodge<br /> Follow the sidewalk past the lodge lawn to the crosswalk. Cross the road then continue over the bridge to begin. From that point, hikers can either take the easier Lower Emerald Pool Trail on the right, or take the moderate Middle Emerald Pools Trail on the left.<br /> <br /> The Grotto<br /> To get to Upper Emerald Pools Trail from The Grotto, hike the moderate 2 mi (3.2 km) Kayenta Trail until it merges with the Emerald Pools Trails.\u00a0",
+      "doFeesApply": "false",
+      "longDescription": "Upper Emerald Pools Trail is a moderate trail that can be accessed via the Kayenta Trail, Lower Emerald Pools Trail, or Middle Emerald Pools Trail. Climb up stone steps to a sandy path that leads through pinyon-juniper woodlands to the\u00a0base of towering canyon walls which boast majestic, seasonal waterfalls.\u00a0Enjoy views of canyon landmarks such as Lady Mountain and The Great White Throne along the way. The trail ends at the sandy shore of Upper Emerald Pool.\u00a0The pool is fragile and an essential water source for wildlife. Do not go into the water. <p paraeid=\"{92e3109f-98a1-4d6a-b251-2442efca65a4}{240}\" paraid=\"1866055056\">Connects to the other Emerald Pools trails and the Kayenta Trail.<br /> <br /> Restrooms and water filling stations are available at Zion Lodge and The Grotto.</p>",
+      "reservationDescription": "",
+      "season": [
+        "Winter",
+        "Spring",
+        "Summer",
+        "Fall"
+      ],
+      "topics": [
+        {
+          "id": "5BE55D7F-BDB6-4E3D-AC35-2D8EBB974417",
+          "name": "Trails"
+        }
+      ],
+      "durationDescription": "",
+      "arePetsPermitted": "false",
+      "timeOfDay": [
+        "Day",
+        "Night",
+        "Dawn",
+        "Dusk"
+      ],
+      "duration": "1-2 Hours",
+      "credit": "",
+      "relevanceScore": 1.0
+    },
+    {
+      "id": "6A7BB554-73E5-43ED-90C1-A327CADF55C7",
+      "url": "https://www.nps.gov/thingstodo/hike-lower-emerald-pool-trail.htm",
+      "title": "Lower Emerald Pool Trail",
+      "shortDescription": "Lower Emerald Pool trail is a rough, paved trail that leads through pinyon-juniper woodland to the Lower Emerald Pool and ephemeral waterfalls.The pools are fragile and an essential water source for wildlife. Do not go into the water. Connects to the other Emerald Pools trails and the Kayenta Trail. Avoid cliff edges. Swimming is not permitted. Restrooms and water filling stations are available at the Zion Lodge.",
+      "images": [
+        {
+          "url": "https://www.nps.gov/common/uploads/cropped_image/BDB9C3B7-0F11-4312-A8CC58A24D800D39.jpg",
+          "credit": "NPS",
+          "altText": "A waterfall flows off of a sandstone ledge into a pool below, surrounded by foliage.",
+          "title": "Lower Emerald Pool Trail",
+          "description": "",
+          "caption": "View from the end of the Lower Emerald Pool Trail.",
+          "crops": [
+            {
+              "aspectRatio": "1.78",
+              "url": "https://www.nps.gov/common/uploads/cropped_image/primary/BDB9C3B7-0F11-4312-A8CC58A24D800D39.jpg"
+            },
+            {
+              "aspectRatio": "1",
+              "url": "https://www.nps.gov/common/uploads/cropped_image/secondary/BDB9C3B7-0F11-4312-A8CC58A24D800D39.jpg"
+            }
+          ]
+        }
+      ],
+      "relatedParks": [
+        {
+          "states": "UT",
+          "parkCode": "zion",
+          "designation": "National Park",
+          "fullName": "Zion National Park",
+          "url": "https://www.nps.gov/zion/index.htm",
+          "name": "Zion"
+        }
+      ],
+      "relatedOrganizations": [],
+      "tags": [
+        "emerald pools",
+        "lower emerald pool",
+        "Easy hike",
+        "day hike",
+        "out and back",
+        "Loop",
+        "Zion",
+        "Zion Canyon",
+        "zion lodge"
+      ],
+      "latitude": "37.2510388558",
+      "longitude": "-112.958668719",
+      "geometryPoiId": "b744d53b-74a6-4f82-bdb7-ec7f4a2c958e",
+      "amenities": [],
+      "location": "Emerald Pools Trailhead",
+      "seasonDescription": "Trail may be icy in winter.",
+      "accessibilityInformation": "<ul> <li><strong>Length (one way)\u00a0\u00a0|\u00a0</strong>\u00a00.6 mi (1.0 km)</li> <li><strong>Elevation\u00a0\u00a0|\u00a0\u00a0</strong>Gain:\u00a0131.1 ft (40.0 m)\u00a0<strong> |\u00a0\u00a0</strong>Loss: 96.4 ft (29.38 m)</li> <li><strong>Grade\u00a0\u00a0|\u00a0</strong>\u00a0Typical: 7.1%<strong>\u00a0\u00a0|\u00a0\u00a0</strong>Maximum: 25.3%\u00a0<strong>\u00a0|\u00a0</strong>\u00a034.4% of the trail is at a 8.3% or higher grade.</li> <li><strong>Cross Slope\u00a0\u00a0|\u00a0</strong>\u00a0Typical: 3.6%<strong>\u00a0\u00a0|\u00a0\u00a0</strong>Maximum: 17.1%\u00a0<strong>\u00a0|\u00a0</strong>\u00a018.9% of trail has a cross slope of 6% or higher.</li> <li><strong>Tread Width\u00a0\u00a0|\u00a0\u00a0</strong>Typical: 62 in (157.8 cm)<strong>\u00a0\u00a0|\u00a0\u00a0</strong>Minimum: 30 in (76.2 cm).<strong>\u00a0</strong>25 ft (7.6 m) of the trail is this width.</li> <li><strong>Surface\u00a0\u00a0|\u00a0\u00a0</strong>96.2% of the trail is hard concrete, and\u00a03.8% is firm soil.</li> <li><strong>Obstructions\u00a0\u00a0|\u00a0\u00a0</strong>Bridge with minimum tread width of\u00a045 in (114.3 cm).<strong>\u00a0\u00a0|\u00a0\u00a0</strong>Gaps in concrete up to 2 in (5.1 cm) long.</li> </ul> <p><i>Last assessed on March 20, 2025. Obstructions less than 12 in (30.5 cm) tall, or outside the tread area of 12 in (30.5 cm) wide by 96 in (243.8 cm) high, were not reported.</i></p>",
+      "isReservationRequired": "false",
+      "ageDescription": "",
+      "petsDescription": "",
+      "timeOfDayDescription": "",
+      "feeDescription": "Park entrance fees apply.",
+      "age": "",
+      "arePetsPermittedWithRestrictions": "false",
+      "activities": [
+        {
+          "id": "BFF8C027-7C8F-480B-A5F8-CD8CE490BFBA",
+          "name": "Hiking"
+        }
+      ],
+      "activityDescription": "",
+      "locationDescription": "Emerald Pools Trailhead is across from the Zion Lodge (shuttle stop #5). From the shuttle stop, follow the sidewalk across the Lodge Lawn to the crosswalk. Cross the street and continue across the bridge. Follow the trail on the right to begin hiking Lower Emerald Pool Trail.",
+      "doFeesApply": "false",
+      "longDescription": "Lower Emerald Pool trail is a rough, paved trail that leads through pinyon-juniper woodland to the Lower Emerald Pool and ephemeral waterfalls.The pools are fragile and an essential water source for wildlife. Do not go into the water.<br /> <br /> Connects to the other Emerald Pools trails and the Kayenta Trail.<br /> <br /> Avoid cliff edges. Swimming is not permitted. Restrooms and water filling stations are available at the Zion Lodge.",
+      "reservationDescription": "",
+      "season": [
+        "Winter",
+        "Spring",
+        "Summer",
+        "Fall"
+      ],
+      "topics": [
+        {
+          "id": "5BE55D7F-BDB6-4E3D-AC35-2D8EBB974417",
+          "name": "Trails"
+        }
+      ],
+      "durationDescription": "",
+      "arePetsPermitted": "false",
+      "timeOfDay": [
+        "Day",
+        "Night",
+        "Dawn",
+        "Dusk"
+      ],
+      "duration": "1-2 Hours",
+      "credit": "",
+      "relevanceScore": 1.0
+    },
+    {
+      "id": "64535736-992B-4D04-8BF6-3F1965A6A01A",
+      "url": "https://www.nps.gov/thingstodo/hike-grotto-trail.htm",
+      "title": "Grotto Trail",
+      "shortDescription": "The trail connects the Zion Lodge to the Grotto and is near the road most of the way. This trail is a great place to view wildlife. Restrooms are available at both the Lodge and the Grotto. When the shuttle is not in operation and the parking is full at the Grotto, this trail is a lovely alternate way to reach the Grotto.",
+      "images": [
+        {
+          "url": "https://www.nps.gov/common/uploads/cropped_image/EAB97966-A970-0337-676E0D30BBC362C3.jpg",
+          "credit": "NPS",
+          "altText": "A tan path crossing green grass into a stand of trees. A red sandstone mountain is to the left.",
+          "title": "Grotto Trail",
+          "description": "",
+          "caption": "View from the Grotto Trail",
+          "crops": [
+            {
+              "aspectRatio": "1.78",
+              "url": "https://www.nps.gov/common/uploads/cropped_image/primary/EAB97966-A970-0337-676E0D30BBC362C3.jpg"
+            },
+            {
+              "aspectRatio": "1",
+              "url": "https://www.nps.gov/common/uploads/cropped_image/secondary/EAB97966-A970-0337-676E0D30BBC362C3.jpg"
+            }
+          ]
+        }
+      ],
+      "relatedParks": [
+        {
+          "states": "UT",
+          "parkCode": "zion",
+          "designation": "National Park",
+          "fullName": "Zion National Park",
+          "url": "https://www.nps.gov/zion/index.htm",
+          "name": "Zion"
+        }
+      ],
+      "relatedOrganizations": [],
+      "tags": [
+        "easy",
+        "grotto",
+        "out and back",
+        "Zion",
+        "Zion Canyon",
+        "Zion National Park",
+        "kid friendly",
+        "short hike"
+      ],
+      "latitude": "",
+      "longitude": "",
+      "geometryPoiId": "",
+      "amenities": [],
+      "location": "Grotto Trailhead",
+      "seasonDescription": "",
+      "accessibilityInformation": "<ul> <li><b>Length</b> (one way) |\u00a0\u00a00.5 mi (0.8 km)</li> <li><b>Elevation |\u00a0\u00a0</b>Gain: 49.0 ft (14.92 m) | Loss: 45.5 ft (13.86 m)</li> <li><b>Grade |\u00a0</b>Typical: 3.5% | Maximum: 20.1% | 9.7% of the trail is at an 8.3% or higher grade.</li> <li><b>Cross Slope |\u00a0\u00a0</b>Typical: 4.1% | Maximum: 17.3%</li> <li><b>Tread Width |\u00a0\u00a0</b>Typical: 116 in (293.7 cm) | Minimum: 15 in (38.1 cm)</li> <li><b>Surface |\u00a0\u00a0</b>93.6% of the trail is firm soil, and 6.4% is paved.</li> <li><b>Obstructions |\u00a0\u00a0</b>Rocks up to 21 in (53.3 cm) tall and 0 in of remaining tread |\u00a0\u00a0Boulder in center of trail that is 10 ft (3 m) long with 45 in (114.3 cm) of remaining tread</li> </ul> <p><i>Last assessed on March 5, 2025. Obstructions less than 7 in (17.8 cm) tall, or outside the tread area of 45 in (114.3 cm) wide by 96 in (243.8 cm) high, were not reported.</i></p>",
+      "isReservationRequired": "false",
+      "ageDescription": "",
+      "petsDescription": "",
+      "timeOfDayDescription": "",
+      "feeDescription": "Park entrance fees apply.\u00a0",
+      "age": "",
+      "arePetsPermittedWithRestrictions": "false",
+      "activities": [
+        {
+          "id": "BFF8C027-7C8F-480B-A5F8-CD8CE490BFBA",
+          "name": "Hiking"
+        }
+      ],
+      "activityDescription": "The Grotto Trail connects shuttle stop #5 at the Zion Lodge to shuttle stop #6 at The Grotto.",
+      "locationDescription": "The Grotto Trail can be accessed from behind the shuttle stop at the Zion Lodge (shuttle stop #5) or behind the restrooms at The Grotto (shuttle stop #6).",
+      "doFeesApply": "false",
+      "longDescription": "The Grotto Trail is an easy, 1.0 mi (1.6 km) round trip hike that connects the Zion Lodge to The Grotto Picnic Area. This relatively flat and shaded hike is good for a leisure walk in the park, or it can be combined with the Emerald Pools and Kayenta Trails to create a loop. Look for wildlife such as birds, turkey, and deer along this walk.<br /> <br /> Restrooms are available at both the Lodge and the Grotto.",
+      "reservationDescription": "",
+      "season": [
+        "Winter",
+        "Spring",
+        "Summer",
+        "Fall"
+      ],
+      "topics": [
+        {
+          "id": "5BE55D7F-BDB6-4E3D-AC35-2D8EBB974417",
+          "name": "Trails"
+        }
+      ],
+      "durationDescription": "",
+      "arePetsPermitted": "false",
+      "timeOfDay": [
+        "Day",
+        "Night",
+        "Dawn",
+        "Dusk"
+      ],
+      "duration": "15-45 Minutes",
+      "credit": "",
+      "relevanceScore": 1.0
+    },
+    {
+      "id": "6FD175EF-A82F-47AA-B055-8833EA1C1162",
+      "url": "https://www.nps.gov/thingstodo/hike-pa-rus-trail.htm",
+      "title": "Pa'rus Trail",
+      "shortDescription": "Pa\u2019rus is Paiute for \u201cbubbling water.\u201d The Pa\u2019rus Trail follows the Virgin River and has some of the best views of the Watchman. The paved trail connects the Zion Canyon Visitor Center and Canyon Junction. It is accessible for wheelchairs, pets on leashes, and bicycles. Trailside exhibits cover a variety of subjects, including plant and animal life along the river, geology, and human history.",
+      "images": [
+        {
+          "url": "https://www.nps.gov/common/uploads/cropped_image/B9496B9A-01B7-0AB1-0D8BA0A554D4B4EA.jpg",
+          "credit": "NPS",
+          "altText": "A tan, paved trail cuts through a meadow of yellow grasses toward a triangular sandstone mountain.",
+          "title": "Pa'rus Trail",
+          "description": "",
+          "caption": "View from the Pa'rus Trail as it follows the river between Canyon Junction and the Visitor Center.",
+          "crops": [
+            {
+              "aspectRatio": "1.78",
+              "url": "https://www.nps.gov/common/uploads/cropped_image/primary/B9496B9A-01B7-0AB1-0D8BA0A554D4B4EA.jpg"
+            },
+            {
+              "aspectRatio": "1",
+              "url": "https://www.nps.gov/common/uploads/cropped_image/secondary/B9496B9A-01B7-0AB1-0D8BA0A554D4B4EA.jpg"
+            }
+          ]
+        }
+      ],
+      "relatedParks": [
+        {
+          "states": "UT",
+          "parkCode": "zion",
+          "designation": "National Park",
+          "fullName": "Zion National Park",
+          "url": "https://www.nps.gov/zion/index.htm",
+          "name": "Zion"
+        }
+      ],
+      "relatedOrganizations": [],
+      "tags": [
+        "Parus Trail",
+        "Zion",
+        "Zion Canyon",
+        "paved trail",
+        "accessible trail",
+        "Zion National Park",
+        "Bike Hike Trail",
+        "pets allowed"
+      ],
+      "latitude": "37.2010471279",
+      "longitude": "-112.986788497",
+      "geometryPoiId": "7caf5f58-c2f8-4ae9-8bda-7fac4138edeb",
+      "amenities": [],
+      "location": "Pa'rus Trailhead",
+      "seasonDescription": "",
+      "accessibilityInformation": "<ul> <li><b>Length (one way)\u00a0\u00a0|\u00a0\u00a0</b>1.6 mi (2.5 km)</li> <li><b>Elevation\u00a0\u00a0|\u00a0\u00a0</b>Gain:\u00a0151.7 ft (46.3 m)<b> | </b>Loss: 62.7 ft (19.12 m)</li> <li><b>Grade\u00a0\u00a0|\u00a0\u00a0</b>Typical: 2.6%<b>\u00a0\u00a0|\u00a0\u00a0</b>Maximum: 11.4%<b>\u00a0\u00a0|\u00a0</b> 1.2% of the trail is at an 8.3% or higher grade.</li> <li><b>Cross Slope\u00a0\u00a0|\u00a0\u00a0</b>Typical: 2.1%<b>\u00a0\u00a0|\u00a0\u00a0</b>Maximum: 8.8%</li> <li><b>Tread Width\u00a0\u00a0|\u00a0\u00a0</b>Typical: 120 in (304.7 cm)<b> |\u00a0\u00a0</b>Minimum:\u00a096 in (243.8 cm)</li> <li><b>Surface\u00a0\u00a0|\u00a0\u00a0</b>93.6% of the trail is paved and 6.4% is hard wood decking.</li> <li><b>Obstructions\u00a0\u00a0|\u00a0</b> Bridges (5)\u00a0120 in (304.8 cm) wide and 416 - 1744 in (1056.6 - 4429.8 cm) long, with gaps in decking up to 3 in (2.5 cm) wide<b>\u00a0\u00a0|\u00a0</b> Post in trail leaving 60\u00a0in (152.4 cm) of remaining tread<b>\u00a0\u00a0|\u00a0</b> Tripping hazards\u00a01 - 2 in (2.5 - 5 cm) tall, with 0 in of remaining tread</li> </ul> <p><i>Last assessed on January 13, 2025. Obstructions less than 0.5 in tall, or outside the tread area of 120 in (304.8 cm) wide by 96 in (243.8 cm), high were not reported.</i></p>",
+      "isReservationRequired": "false",
+      "ageDescription": "",
+      "petsDescription": "<h4><b>Please follow the rules of BARK!</b></h4> <p><br /> <b><u>B</u></b><b>ag your pet's poop</b><br /> Pet owners are responsible for removing pet waste from all areas in the park including campgrounds, picnic areas, parking lots, roads, pet-friendly trails, and other developed areas.<br /> <br /> <b><u>A</u>lways wear a leash</b><br /> Pets must be restrained on a leash no longer than 6 feet.<br /> <br /> <b><u>R</u>espect wildlife</b><br /> Pets can harass or harm wildlife by making noise or scaring wildlife away.<br /> <br /> <b><u>K</u>now where you can go</b><br /> The only trail that allows pets is the Pa\u2019rus Trail, which begins at the Zion Canyon Visitor Center.<br /> <br /> <b>Pets are</b>\u00a0<b>not permitted -\u00a0</b>on any other trails, wilderness areas, on shuttle buses, or in public buildings in Zion.<br /> <br /> <b>Additionally,\u00a0</b>properly restrained pets are welcome along public roads and parking areas, in the developed campgrounds and picnic areas, and on the grounds of the Zion Lodge.<br /> <br /> <b>Pets should not be left unattended.</b>\u00a0Zion is hot! The interior temperature of a vehicle can quickly warm to dangerous levels, during most months of the year. Leaving a pet unattended in a vehicle with environmental conditions that pose a health risk to the animal is prohibited. Properly restrained pets may be left unattended in developed campgrounds only when environmental conditions are safe for the animal, and the animal is not making unreasonable noise (barking, etc.).<br /> <br /> <a href=\"https://www.nps.gov/zion/planyourvisit/service-animals.htm\"><b>Service Animals</b></a>\u00a0may accompany their owner to all park locations. Under the\u00a0<a href=\"https://www.ada.gov/\"><b>Americans with Disabilities Act</b></a>\u00a0(ADA),\u00a0<b><i>Service animals</i></b>\u00a0are defined as dogs that are individually trained to do work or perform tasks for people with disabilities. Dogs whose sole function is to provide comfort or emotional support do not qualify as service animals under the ADA.<br /> <br /> <a href=\"https://www.gpo.gov/fdsys/pkg/CFR-2016-title36-vol1/xml/CFR-2016-title36-vol1-sec2-15.xml\"><b>36 CFR 2.15</b></a>\u00a0(Code of Federal Regulations) provides more details concerning pets within National Park Service areas. Pet owners not adhering to regulations may be cited (minimum fine is $100).<br /> <br /> Read the complete\u00a0<a href=\"https://www.nps.gov/zion/learn/management/lawsandpolicies.htm\"><b>Superintendent's Compendium</b></a>\u00a0for more details.<br /> <br /> Boarding kennels are available in the nearby towns of Rockville, Hurricane, St. George, Kanab, and Cedar City.</p>",
+      "timeOfDayDescription": "",
+      "feeDescription": "Park entrance fees apply.",
+      "age": "",
+      "arePetsPermittedWithRestrictions": "false",
+      "activities": [
+        {
+          "id": "BFF8C027-7C8F-480B-A5F8-CD8CE490BFBA",
+          "name": "Hiking"
+        }
+      ],
+      "activityDescription": "Hike, bike, or walk a dog along the paved Pa'rus Trail. Wildlife, such as deer, can often be seen in the meadows near the trail. Multiple river access points.\u00a0Trailside exhibits.",
+      "locationDescription": "Start from either the Zion Canyon Visitor Center (shuttle stop #1) or from Canyon Junction (shuttle stop #3).<br /> <br /> Zion Canyon Visitor Center<br /> To reach the trailhead, follow the sidewalk through the Visitor Center plaza and past the shuttle stop to the bridge. Once you cross the bridge, follow the crosswalk to the trailhead adjacent to South Campground.<br /> <br /> <br /> Canyon Junction\u00a0<br /> From the Canyon Junction shuttle stop, follow the sidewalk south (in the direction of the Watchman) under the roadway bridge.",
+      "doFeesApply": "false",
+      "longDescription": "\"Pa\u2019rus\" is Paiute for \u201cbubbling water.\u201d The Pa\u2019rus Trail follows the Virgin River and has some of the best views of the Watchman. The paved trail connects the Zion Canyon Visitor Center and Canyon Junction. It is accessible for wheelchairs, pets on leashes, and bicycles. Trailside exhibits cover a variety of subjects, including plant and animal life along the river, geology, and human history.<br /> <br /> The Pa'rus makes a good location for watching the sunset, stargazing, and astrophotography.\u00a0<br /> <br /> Access this trail from the Museum (Shuttle Stop #2) by using a short connector trail that is not designed for wheelchairs and not approved for bikes or pets.<br /> <br /> Restrooms and water filling stations are available at the Visitor Center.",
+      "reservationDescription": "",
+      "season": [
+        "Winter",
+        "Spring",
+        "Summer",
+        "Fall"
+      ],
+      "topics": [
+        {
+          "id": "5BE55D7F-BDB6-4E3D-AC35-2D8EBB974417",
+          "name": "Trails"
+        }
+      ],
+      "durationDescription": "The Pa'rus is 3.5 mile (5.6 km) from one end to the other.<br /> <br /> Visitors may also take an optional, unpaved connector trail to the Human History Museum (shuttle stop #2) about halfway through the trail. This short path is not designed for wheelchairs and not approved for bikes or pets.",
+      "arePetsPermitted": "true",
+      "timeOfDay": [
+        "Day",
+        "Night",
+        "Dawn",
+        "Dusk"
+      ],
+      "duration": "30-120 Minutes",
+      "credit": "",
+      "relevanceScore": 1.0
+    },
+    {
+      "id": "43CC4A81-2227-4E40-9403-6F7E2B27BC53",
+      "url": "https://www.nps.gov/thingstodo/hike-angels-landing.htm",
+      "title": "Angels Landing",
+      "shortDescription": "On and after April 1, 2022 hikers continuing to Angels Landing from Scout Lookout are required to have a permit, obtained on recreation.gov.",
+      "images": [
+        {
+          "url": "https://www.nps.gov/common/uploads/cropped_image/23EF45DA-96CE-AEDD-E6FA82FF43279637.jpg",
+          "credit": "NPS",
+          "altText": "A hiker in a blue shirt holds onto chains as they traverse a sandstone cliff.",
+          "title": "Hiker on Angels Landing",
+          "description": "",
+          "caption": "Hiker holds onto the chains of the Angels Landing Trail.",
+          "crops": [
+            {
+              "aspectRatio": "1.78",
+              "url": "https://www.nps.gov/common/uploads/cropped_image/primary/23EF45DA-96CE-AEDD-E6FA82FF43279637.jpg"
+            },
+            {
+              "aspectRatio": "1",
+              "url": "https://www.nps.gov/common/uploads/cropped_image/secondary/23EF45DA-96CE-AEDD-E6FA82FF43279637.jpg"
+            }
+          ]
+        }
+      ],
+      "relatedParks": [
+        {
+          "states": "UT",
+          "parkCode": "zion",
+          "designation": "National Park",
+          "fullName": "Zion National Park",
+          "url": "https://www.nps.gov/zion/index.htm",
+          "name": "Zion"
+        }
+      ],
+      "relatedOrganizations": [],
+      "tags": [
+        "Angels Landing",
+        "Zion Canyon",
+        "strenuous hike",
+        "out and back",
+        "west rim",
+        "scout lookout"
+      ],
+      "latitude": "37.2592462593",
+      "longitude": "-112.951341871",
+      "geometryPoiId": "8f9ea3a0-0722-4cae-9edf-3e562e0766dc",
+      "amenities": [],
+      "location": "Kayenta & West Rim Trailhead",
+      "seasonDescription": "",
+      "accessibilityInformation": "Trail is unpaved, rocky, and less than 3 ft (1 m) wide in many sections. Chains act as handrails for multiple sections, with long drop-offs. Hiking traffic moves in both directions in limited space.",
+      "isReservationRequired": "true",
+      "ageDescription": "",
+      "petsDescription": "",
+      "timeOfDayDescription": "",
+      "feeDescription": "To enter the lottery for a permit, recreation.gov charges $6. If a permit is awarded, a fee of $3 per person will be charged to the same card used to apply.\u00a0",
+      "age": "",
+      "arePetsPermittedWithRestrictions": "false",
+      "activities": [
+        {
+          "id": "BFF8C027-7C8F-480B-A5F8-CD8CE490BFBA",
+          "name": "Hiking"
+        }
+      ],
+      "activityDescription": "",
+      "locationDescription": "The hike to Angels Landing is accessed from The Grotto (shuttle stop #6). From the shuttle stop, cross the road and bridge to the sandy West Rim Trail. Hike along the West Rim Trail to Scout Lookout, where the Angels Landing Trail begins.\u00a0",
+      "doFeesApply": "true",
+      "longDescription": "On and after April 1, 2022 hikers continuing to Angels Landing from Scout Lookout are <a href=\"https://www.nps.gov/zion/planyourvisit/angels-landing-hiking-permits.htm\">required to have a permit</a>, obtained on recreation.gov.<br /> <br /> The strenuous, challenging trail follows a steep, narrow ridge with uneven steps cut into the rock and chains anchored intermittently along the route. You must navigate a trail only a few feet wide in some areas, with exposed edges and sheer drop-offs of as much as 1,000 feet on each side. Please watch your footing and exercise extreme caution at all times. Be ready to yield to other hikers, as the trail is only wide enough for one person in many places. At the end of the hike, the trail widens slightly and there are areas to rest, snack, and soak in the spectacular views of Zion Canyon.<br /> <br /> Restrooms are available at Scout Lookout and The Grotto. Water filling stations are also available at The Grotto.\u00a0",
+      "reservationDescription": "<a href=\"https://www.nps.gov/zion/planyourvisit/angels-landing-hiking-permits.htm\">Permits are required to hike Angels Landing.\u00a0</a>\u00a0<br /> <br /> In response to concerns about crowding and congestion on the trail, on and after April 1, 2022, everyone who hikes Angels Landing needs to have a permit. The pilot permit program reflects lessons learned when we metered the number of hikers on the trail in 2019 and 2021 and by distributing tickets to use the park shuttle system in response to COVID-19 in 2020<b>.</b>",
+      "season": [
+        "Winter",
+        "Spring",
+        "Summer",
+        "Fall"
+      ],
+      "topics": [
+        {
+          "id": "5BE55D7F-BDB6-4E3D-AC35-2D8EBB974417",
+          "name": "Trails"
+        }
+      ],
+      "durationDescription": "To reach the beginning of the Angels Landing Trail, hikers must ascend the West Rim to Scout Lookout. This duration only accounts for the 0.5 mi (0.3 km) Angels Landing Trail.",
+      "arePetsPermitted": "false",
+      "timeOfDay": [
+        "Day",
+        "Dawn",
+        "Dusk"
+      ],
+      "duration": "1-2 Hours",
+      "credit": "",
+      "relevanceScore": 1.0
+    },
+    {
+      "id": "64075857-ACC6-4F4D-961B-1283D0F5475D",
+      "url": "https://www.nps.gov/thingstodo/hike-the-narrows.htm",
+      "title": "The Narrows",
+      "shortDescription": "The Narrows is a strenuous hike that follows the Virgin River through a narrow slot canyon. After 1 mile (0.6 km) on the easy, paved Riverside Walk, head down a set of stairs and into the river. The rest of your hike will take place in the Virgin River, where the flow rate can change day by day and the streambed is rocky with unstable footing. Flash flooding and hypothermia are constant dangers.",
+      "images": [
+        {
+          "url": "https://www.nps.gov/common/uploads/cropped_image/24D4BA84-FA56-0142-E2998BE721BC0F81.jpg",
+          "credit": "NPS",
+          "altText": "Red sandstone canyon walls frame the blue water of the Virgin River below.",
+          "title": "The Narrows",
+          "description": "",
+          "caption": "View in The Narrows",
+          "crops": [
+            {
+              "aspectRatio": "1.78",
+              "url": "https://www.nps.gov/common/uploads/cropped_image/primary/24D4BA84-FA56-0142-E2998BE721BC0F81.jpg"
+            },
+            {
+              "aspectRatio": "1",
+              "url": "https://www.nps.gov/common/uploads/cropped_image/secondary/24D4BA84-FA56-0142-E2998BE721BC0F81.jpg"
+            }
+          ]
+        }
+      ],
+      "relatedParks": [
+        {
+          "states": "UT",
+          "parkCode": "zion",
+          "designation": "National Park",
+          "fullName": "Zion National Park",
+          "url": "https://www.nps.gov/zion/index.htm",
+          "name": "Zion"
+        }
+      ],
+      "relatedOrganizations": [],
+      "tags": [
+        "The Narrows",
+        "Riverside Walk",
+        "Virgin River",
+        "Zion Canyon",
+        "day hike",
+        "water"
+      ],
+      "latitude": "37.2852131123",
+      "longitude": "-112.947693774",
+      "geometryPoiId": "e9f41627-cb50-40f9-a9d6-76c9fc5de798",
+      "amenities": [],
+      "location": "Riverside Walk Trailhead",
+      "seasonDescription": "The Narrows may close when the river is flowing over 140 cubic feet per second. This frequently occurs in monsoon season (late summer) and during spring runoff. Always check the weather and current conditions before beginning your hike.",
+      "accessibilityInformation": "The river is the trail. River rocks are slippery and uneven. Water depth is variable from ankle to chest height. The route is in shade for most of the day, even in summer.",
+      "isReservationRequired": "false",
+      "ageDescription": "",
+      "petsDescription": "",
+      "timeOfDayDescription": "",
+      "feeDescription": "Park entrance fees apply.",
+      "age": "",
+      "arePetsPermittedWithRestrictions": "false",
+      "activities": [
+        {
+          "id": "BFF8C027-7C8F-480B-A5F8-CD8CE490BFBA",
+          "name": "Hiking"
+        }
+      ],
+      "activityDescription": "",
+      "locationDescription": "The Narrows hike begins at the end of the Riverside Walk. Rivrside Walk is accessed at the Temple of Sinawava (shuttle stop #9).",
+      "doFeesApply": "false",
+      "longDescription": "The Narrows is a strenuous hike that follows the Virgin River through a narrow slot canyon. After 1 mile (0.6 km) on the easy, paved Riverside Walk, head down a set of stairs and into the river. The rest of your hike will take place in the Virgin River, where the flow rate can change day by day and the streambed is rocky with unstable footing. Flash flooding and hypothermia are constant dangers. The hike requires wading, walking, and sometimes swimming in the river.<br /> <br /> Good planning, proper equipment, and sound judgment are essential for a safe and successful hike. There is no formal destination, so remember to turn around before you feel tired so you can safely finish your hike the same way you came.<br /> <br /> No permit is required for this day hike, but travel beyond Big Spring and up Orderville Canyon requires a<a href=\"https://www.nps.gov/zion/planyourvisit/thenarrows.htm\">Wilderness permit.</a><br /> <br /> Water and restrooms are available at the Temple of Sinawava.",
+      "reservationDescription": "",
+      "season": [
+        "Winter",
+        "Spring",
+        "Summer",
+        "Fall"
+      ],
+      "topics": [
+        {
+          "id": "5BE55D7F-BDB6-4E3D-AC35-2D8EBB974417",
+          "name": "Trails"
+        }
+      ],
+      "durationDescription": "",
+      "arePetsPermitted": "false",
+      "timeOfDay": [
+        "Day",
+        "Night",
+        "Dawn",
+        "Dusk"
+      ],
+      "duration": "1-8 Hours",
+      "credit": "",
+      "relevanceScore": 1.0
+    }
+  ],
+  "total": "16"
 }

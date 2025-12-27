@@ -1,0 +1,1082 @@
+[
+  {
+    "id": "1D15C891-0B0D-4FDD-BB09-9ADABD330165",
+    "name": "Angels Window",
+    "description": "A short, easy side trail from the Cape Royal trail leads to an area above Angels Window, which offers visitors the chance to stand over a natural arch and enjoy a magnificent viewpoint. Railings and fencing secure the area. However, walking above Angels Window may not be a good idea if you are afraid of heights.",
+    "location": {
+      "lat": 0.0,
+      "lon": 0.0
+    },
+    "images": [
+      {
+        "url": "https://www.nps.gov/common/uploads/cropped_image/95197393-F2C1-0124-377414A322DBA864.jpg",
+        "credit": "NPS Photo by Michael Quinn",
+        "altText": "Pink rays of sun illuminate the side of a large, cream-colored stone arch on the side of a cliff.",
+        "title": "Angels Window",
+        "description": "",
+        "caption": "Angels Window at Sunrise",
+        "crops": [
+          {
+            "aspectRatio": "1.78",
+            "url": "https://www.nps.gov/common/uploads/cropped_image/primary/95197393-F2C1-0124-377414A322DBA864.jpg"
+          },
+          {
+            "aspectRatio": "1.33",
+            "url": "https://www.nps.gov/common/uploads/cropped_image/secondary/95197393-F2C1-0124-377414A322DBA864.jpg"
+          }
+        ]
+      }
+    ],
+    "nps_url": "https://www.nps.gov/places/000/angels-window.htm",
+    "difficulty": "Easy",
+    "length_miles": 0.6,
+    "elevation_gain_ft": null,
+    "route_type": "Out & Back",
+    "estimated_time_hours": "30 minutes",
+    "last_enriched": "2025-12-26T16:07:30.825116"
+  },
+  {
+    "id": "A5616A41-5C70-4666-ADD4-EEC5B071F566",
+    "name": "Arizona Trail",
+    "description": "Note: the Arizona Trail and the North Kaibab Trail are CLOSED within Grand Canyon National Park, until further notice, due to ongoing recovery efforts related to impacts from the Dragon Bravo Fire.\u00a0The Arizona Trail is an ambitious project that traverses the length of Arizona from the Utah border to Mexico. A section of this trail enters the park near the North Entrance and roughly parallels the highway until it connects with the North Kaibab Trail, Distance 10 miles (16 km).",
+    "location": {
+      "lat": 36.217233,
+      "lon": -112.056803
+    },
+    "images": [
+      {
+        "url": "https://www.nps.gov/common/uploads/cropped_image/A7BE28EF-FD1E-2582-748114AEEDE80256.jpg",
+        "credit": "",
+        "altText": "Wooden routed sign with white letters reads, Arizona Trail. Widforss Trail, .5; Park Entrance: 10.",
+        "title": "Arizona Trail Sign",
+        "description": "",
+        "caption": "The Arizona Trail passes the Widforss Trailhead on its way to the park entrance.",
+        "crops": [
+          {
+            "aspectRatio": "1.78",
+            "url": "https://www.nps.gov/common/uploads/cropped_image/primary/A7BE28EF-FD1E-2582-748114AEEDE80256.jpg"
+          },
+          {
+            "aspectRatio": "1.33",
+            "url": "https://www.nps.gov/common/uploads/cropped_image/secondary/A7BE28EF-FD1E-2582-748114AEEDE80256.jpg"
+          }
+        ]
+      }
+    ],
+    "nps_url": "https://www.nps.gov/places/000/arizona-trail.htm",
+    "difficulty": null,
+    "length_miles": 10.0,
+    "elevation_gain_ft": null,
+    "route_type": "Point to Point",
+    "estimated_time_hours": null,
+    "last_enriched": "2025-12-26T16:07:35.359614"
+  },
+  {
+    "id": "ADEB6109-C66A-4551-A6FF-5F27A57EF04A",
+    "name": "Bridle Path (North End)",
+    "description": "The North Rim developed area is CLOSED until further notice because of extensive damage\u00a0from the Dragon Bravo Wildfire. This Bridle Path follows the road (AZ 67) and connects Grand Canyon Lodge with the North Rim Campground, the Backcountry Information Center, and North Kaibab Trailhead. It is 1.9 miles through the forest, with minimal elevation gain. Bicycles and leashed pets are permitted on this hard-packed trail.",
+    "location": {
+      "lat": 36.216912,
+      "lon": -112.056642
+    },
+    "images": [
+      {
+        "url": "https://www.nps.gov/common/uploads/cropped_image/E5E531D7-D1B0-EF75-0DBE3CEE2D3A160F.jpg",
+        "credit": "NPS photo by Michael Quinn",
+        "altText": "A flat, hard-packed trail bordered on either side by rocks winds through a pine and aspen forest.",
+        "title": "Bridle Path",
+        "description": "",
+        "caption": "The Bridle Path is the only trail on the North Rim which permits bicycles and leashed pets.",
+        "crops": [
+          {
+            "aspectRatio": "1.78",
+            "url": "https://www.nps.gov/common/uploads/cropped_image/primary/E5E531D7-D1B0-EF75-0DBE3CEE2D3A160F.jpg"
+          },
+          {
+            "aspectRatio": "1.33",
+            "url": "https://www.nps.gov/common/uploads/cropped_image/secondary/E5E531D7-D1B0-EF75-0DBE3CEE2D3A160F.jpg"
+          }
+        ]
+      }
+    ],
+    "nps_url": "https://www.nps.gov/places/000/bridle-path-north-end.htm",
+    "difficulty": "Easy",
+    "length_miles": 1.9,
+    "elevation_gain_ft": null,
+    "route_type": "Point to Point",
+    "estimated_time_hours": "1 hour",
+    "last_enriched": "2025-12-26T16:07:45.074179"
+  },
+  {
+    "id": "C2653346-9517-42C1-B516-872F5FE6FEA3",
+    "name": "Bridle Path (South End)",
+    "description": "The North Rim developed area is CLOSED until further notice because of extensive damage\u00a0from the Dragon Bravo Wildfire. The Bridle Path follows the road (SR 67) and connects Grand Canyon Lodge with the North Rim Campground, the Backcountry Information Center, and North Kaibab Trailhead. It is 1.9 miles through the forest, with minimal elevation gain. Bicycles and leashed pets are permitted on this hard-packed trail.",
+    "location": {
+      "lat": 36.19606,
+      "lon": -112.05139
+    },
+    "images": [
+      {
+        "url": "https://www.nps.gov/common/uploads/cropped_image/3EFF0F44-F87B-8362-B9DED43F59681626.jpg",
+        "credit": "NPS photo by Michael Quinn",
+        "altText": "A flat, hard-packed trail bordered on either side by rocks winds through a pine and aspen forest.",
+        "title": "Bridle Path South",
+        "description": "",
+        "caption": "The Bridle Path is the only trail on the North Rim which permits bicycles and leashed pets.",
+        "crops": [
+          {
+            "aspectRatio": "1.78",
+            "url": "https://www.nps.gov/common/uploads/cropped_image/primary/3EFF0F44-F87B-8362-B9DED43F59681626.jpg"
+          },
+          {
+            "aspectRatio": "1.33",
+            "url": "https://www.nps.gov/common/uploads/cropped_image/secondary/3EFF0F44-F87B-8362-B9DED43F59681626.jpg"
+          }
+        ]
+      }
+    ],
+    "nps_url": "https://www.nps.gov/places/000/bridle-path-south-end.htm",
+    "difficulty": "Easy",
+    "length_miles": 1.9,
+    "elevation_gain_ft": null,
+    "route_type": "Point to Point",
+    "estimated_time_hours": "1 hour",
+    "last_enriched": "2025-12-26T16:07:51.211272"
+  },
+  {
+    "id": "15BE1C79-D513-487D-A6DA-D33069E4200A",
+    "name": "Bright Angel Point Trail",
+    "description": "The North Rim developed area, including the lodge, visitor center, campground, and Bright Angel Point, are\u00a0CLOSED until further notice because of extensive damage\u00a0from the Dragon Bravo Wildfire. This narrow, paved path provides spectacular views, though it drops off dramatically on both sides in some places, and certain sections are surprisingly steep.",
+    "location": {
+      "lat": 0.0,
+      "lon": 0.0
+    },
+    "images": [
+      {
+        "url": "https://www.nps.gov/common/uploads/cropped_image/3C43006C-B51A-CB30-B464700EFFCA63BC.jpg",
+        "credit": "NPS photo",
+        "altText": "A paved path lined by white limestone and pine trees disappears down a slope in the distance.",
+        "title": "Bright Angel Point Trail",
+        "description": "",
+        "caption": "Although beautiful and popular, this trail is also rather exposed, narrow, and surprisingly steep.",
+        "crops": [
+          {
+            "aspectRatio": "1.78",
+            "url": "https://www.nps.gov/common/uploads/cropped_image/primary/3C43006C-B51A-CB30-B464700EFFCA63BC.jpg"
+          },
+          {
+            "aspectRatio": "1.33",
+            "url": "https://www.nps.gov/common/uploads/cropped_image/secondary/3C43006C-B51A-CB30-B464700EFFCA63BC.jpg"
+          }
+        ]
+      }
+    ],
+    "nps_url": "https://www.nps.gov/places/000/bright-angel-point-trail.htm",
+    "difficulty": "Easy",
+    "length_miles": 0.5,
+    "elevation_gain_ft": null,
+    "route_type": "Out & Back",
+    "estimated_time_hours": "30 minutes",
+    "last_enriched": "2025-12-26T16:07:56.211312"
+  },
+  {
+    "id": "3629411B-0891-4100-85FB-3D0906088B39",
+    "name": "Bright Angel Trail",
+    "description": "Bright Angel Trail lets hikers walk in the footsteps of the canyon's Indigenous peoples, miners, and early tourists, as they descend into the canyon's depths. Offering outstanding views, morning and afternoon shade, resthouses, vault toilets, and water stations during the summer. Visit the link for the current list of trail reopenings and closures.",
+    "location": {
+      "lat": 36.05726267087523,
+      "lon": -112.14371018982712
+    },
+    "images": [
+      {
+        "url": "https://www.nps.gov/common/uploads/cropped_image/3CF1FA2F-F5C3-E839-3CE0746FFE55B295.jpg",
+        "credit": "NPS/Ty Karlovetz",
+        "altText": "A dirt trail with steps descends into the canyon past a short cliff of white limestone.",
+        "title": "Bright Angel Trail",
+        "description": "",
+        "caption": "Enjoy the hike! But don't forget to plan for the uphill part!",
+        "crops": [
+          {
+            "aspectRatio": "1.78",
+            "url": "https://www.nps.gov/common/uploads/cropped_image/primary/3CF1FA2F-F5C3-E839-3CE0746FFE55B295.jpg"
+          },
+          {
+            "aspectRatio": "1.33",
+            "url": "https://www.nps.gov/common/uploads/cropped_image/secondary/3CF1FA2F-F5C3-E839-3CE0746FFE55B295.jpg"
+          }
+        ]
+      }
+    ],
+    "nps_url": "https://www.nps.gov/places/000/bright-angel-trail.htm",
+    "difficulty": "Strenuous",
+    "length_miles": 12.0,
+    "elevation_gain_ft": 5000,
+    "route_type": "Out & Back",
+    "estimated_time_hours": "9-12 hours",
+    "last_enriched": "2025-12-26T16:08:07.264154"
+  },
+  {
+    "id": "0D7C079B-4622-4AD2-B6A2-ACF185997079",
+    "name": "Bright Angel Trailhead",
+    "description": "Bright Angel Trailhead is located just west of Bright Angel Lodge, Lookout Studio, and Kolb Studio. At 6,840 feet (2,085 m), it provides access for hikers and mules to many inner canyon destinations. From the Hermit Road Interchange shuttle bus stops, it is a short walk to the east, and up a hill, on a paved footpath to the trailhead.\u00a0As of Aug. 20, Bright Angel Trail is open from the Trailhead to Pipe Creek Resthouse. Visit the link for trail reopenings and current closures.",
+    "location": {
+      "lat": 36.057287,
+      "lon": -112.143446
+    },
+    "images": [
+      {
+        "url": "https://www.nps.gov/common/uploads/cropped_image/3DA74631-058D-797A-A0D1EB03D9C35ECF.jpg",
+        "credit": "NPS/Joel Kane",
+        "altText": "A large stone sign reads \"Bright Angel Trailhead\" in front of metal fence and a canyon view.",
+        "title": "Bright Angel Trailhead",
+        "description": "",
+        "caption": "Don't forget to document your hike with a quick pic with the sign. Before or after is your choice!",
+        "crops": [
+          {
+            "aspectRatio": "1.78",
+            "url": "https://www.nps.gov/common/uploads/cropped_image/primary/3DA74631-058D-797A-A0D1EB03D9C35ECF.jpg"
+          },
+          {
+            "aspectRatio": "1.33",
+            "url": "https://www.nps.gov/common/uploads/cropped_image/secondary/3DA74631-058D-797A-A0D1EB03D9C35ECF.jpg"
+          }
+        ]
+      }
+    ],
+    "nps_url": "https://www.nps.gov/places/000/bright-angel-trailhead.htm",
+    "difficulty": null,
+    "length_miles": null,
+    "elevation_gain_ft": null,
+    "route_type": null,
+    "estimated_time_hours": null,
+    "last_enriched": "2025-12-26T16:08:16.435544"
+  },
+  {
+    "id": "029CFC66-CE9C-4358-9BAE-B46B94300CE8",
+    "name": "Cape Final",
+    "description": "The North Rim developed area is CLOSED until further notice because of extensive damage\u00a0from the Dragon Bravo Wildfire. Named by geologist Clarence Dutton in 1880, Cape Final Overlook rewards hikers for their 4.2 miles (6.8 km) round-trip hike. According to Dutton, \"Point Final is doubtless the most interesting spot on the Kaibab.\" Backcountry camping is possible; however, you must first obtain a permit in advance from the Backcountry Information Center.",
+    "location": {
+      "lat": 0.0,
+      "lon": 0.0
+    },
+    "images": [
+      {
+        "url": "https://www.nps.gov/common/uploads/cropped_image/65650BEF-0AAF-3D0D-0E57EAC095DD397F.jpg",
+        "credit": "NPS/Ty Karlovetz",
+        "altText": "A soft golden light shines on nearby rock formations and cliffs during sunrise at the point.",
+        "title": "Cape Final",
+        "description": "",
+        "caption": "Soft colors highlight the canyon walls during sunrise at Cape Final.",
+        "crops": [
+          {
+            "aspectRatio": "1.78",
+            "url": "https://www.nps.gov/common/uploads/cropped_image/primary/65650BEF-0AAF-3D0D-0E57EAC095DD397F.jpg"
+          },
+          {
+            "aspectRatio": "1.33",
+            "url": "https://www.nps.gov/common/uploads/cropped_image/secondary/65650BEF-0AAF-3D0D-0E57EAC095DD397F.jpg"
+          }
+        ]
+      }
+    ],
+    "nps_url": "https://www.nps.gov/places/000/cape-final.htm",
+    "difficulty": null,
+    "length_miles": 4.2,
+    "elevation_gain_ft": null,
+    "route_type": "Out & Back",
+    "estimated_time_hours": null,
+    "last_enriched": "2025-12-26T16:08:21.516568"
+  },
+  {
+    "id": "FC4816C2-C545-4422-8D02-617159D64F59",
+    "name": "Cape Final Trail",
+    "description": "The North Rim developed area is CLOSED until further notice because of extensive damage\u00a0from the Dragon Bravo Wildfire. This relatively flat, forested trail leads hikers to the end of Cape Final, for a 4.2 miles (6.8 k)\u00a0round trip hike. The first half of this rocky trail is entirely within the forest, but views of Grand Canyon begin peeking through the trees around halfway. The trail comes to an end at Cape Final, one of the most spectacular viewpoints on the North Rim",
+    "location": {
+      "lat": 0.0,
+      "lon": 0.0
+    },
+    "images": [
+      {
+        "url": "https://www.nps.gov/common/uploads/cropped_image/E917CC8A-D520-E5F6-E616C54A03F4E588.jpg",
+        "credit": "NPS",
+        "altText": "A dirt trail leads through a forest.",
+        "title": "Trail to Cape Final",
+        "description": "",
+        "caption": "Most of the hike to Cape Final is through the forest, but the view at the end is worth it.",
+        "crops": [
+          {
+            "aspectRatio": "1.78",
+            "url": "https://www.nps.gov/common/uploads/cropped_image/primary/E917CC8A-D520-E5F6-E616C54A03F4E588.jpg"
+          },
+          {
+            "aspectRatio": "1.33",
+            "url": "https://www.nps.gov/common/uploads/cropped_image/secondary/E917CC8A-D520-E5F6-E616C54A03F4E588.jpg"
+          }
+        ]
+      }
+    ],
+    "nps_url": "https://www.nps.gov/places/000/cape-final-trail.htm",
+    "difficulty": "Moderate",
+    "length_miles": 4.2,
+    "elevation_gain_ft": 465,
+    "route_type": "Out & Back",
+    "estimated_time_hours": "2-4 hours",
+    "last_enriched": "2025-12-26T16:08:25.142511"
+  },
+  {
+    "id": "E6F872D8-F659-4573-A1A4-57A931BB370A",
+    "name": "Cape Royal",
+    "description": "The North Rim developed area is CLOSED until further notice because of extensive damage\u00a0from the Dragon Bravo Wildfire. Cape Royal and Angel's Window are some of the only spots with views of the Colorado River from the North Rim. From the southeast side of the parking lot, a short wheelchair-accessible path leads to several spectacular viewpoints. The west side of the parking lot is where you can find a picnic area.",
+    "location": {
+      "lat": 0.0,
+      "lon": 0.0
+    },
+    "images": [
+      {
+        "url": "https://www.nps.gov/common/uploads/cropped_image/679BC803-A5CA-A751-1A4538BADA3E8331.jpg",
+        "credit": "NPS/ Ty Karlovetz",
+        "altText": "A fin of rock extends into the distant canyon, sunset bathes the rocks in golden light",
+        "title": "Cape Royal",
+        "description": "",
+        "caption": "The dramatic rock formations and view make this a popular spot for sunset on the North Rim.",
+        "crops": [
+          {
+            "aspectRatio": "1.78",
+            "url": "https://www.nps.gov/common/uploads/cropped_image/primary/679BC803-A5CA-A751-1A4538BADA3E8331.jpg"
+          },
+          {
+            "aspectRatio": "1.33",
+            "url": "https://www.nps.gov/common/uploads/cropped_image/secondary/679BC803-A5CA-A751-1A4538BADA3E8331.jpg"
+          }
+        ]
+      }
+    ],
+    "nps_url": "https://www.nps.gov/places/000/cape-royal.htm",
+    "difficulty": "Easy",
+    "length_miles": 0.8,
+    "elevation_gain_ft": null,
+    "route_type": "Out & Back",
+    "estimated_time_hours": "1-2 hours",
+    "last_enriched": "2025-12-26T16:08:32.280508"
+  },
+  {
+    "id": "E8CAC456-C934-457D-A265-474F425A1079",
+    "name": "Cathedral Wash at Lees Ferry",
+    "description": "Trailhead for Cathedral Wash hike",
+    "location": {
+      "lat": 36.833756,
+      "lon": -111.640212
+    },
+    "images": [
+      {
+        "url": "https://www.nps.gov/common/uploads/cropped_image/9D3B6B0A-E591-DC04-DBCFD17A318538BF.jpg",
+        "credit": "NPS/ Stephanie Metzler",
+        "altText": "Hikers descending to the bottom of the wash trail surrounded by tall narrow canyon walls.",
+        "title": "Hikers on Cathedral Wash trail",
+        "description": "",
+        "caption": "Hikers descend deep into the wash trail",
+        "crops": [
+          {
+            "aspectRatio": "1.78",
+            "url": "https://www.nps.gov/common/uploads/cropped_image/primary/9D3B6B0A-E591-DC04-DBCFD17A318538BF.jpg"
+          },
+          {
+            "aspectRatio": "1.33",
+            "url": "https://www.nps.gov/common/uploads/cropped_image/secondary/9D3B6B0A-E591-DC04-DBCFD17A318538BF.jpg"
+          }
+        ]
+      }
+    ],
+    "nps_url": "https://www.nps.gov/places/cathedral-wash-at-lees-ferry.htm",
+    "difficulty": null,
+    "length_miles": 3.0,
+    "elevation_gain_ft": null,
+    "route_type": "Out & Back",
+    "estimated_time_hours": null,
+    "last_enriched": "2025-12-26T16:08:41.100359"
+  },
+  {
+    "id": "7084236C-2A76-4E0C-BFA5-9AF7F38B0FB9",
+    "name": "Cliff Spring Trail",
+    "description": "The North Rim developed area is CLOSED until further notice because of extensive damage\u00a0from the Dragon Bravo Wildfire. The Cliff Spring Trail is a short, unique trail is accessed from a pullout on the left side of a curve in Cape Royal Road, 0.3 miles (0.5 km) from Cape Royal. The trail heads down along a wash down into a forested ravine. After passing an archaeological site, the trail descends further, reaching the spring at the base of a cliff. Do NOT drink the water.",
+    "location": {
+      "lat": 0.0,
+      "lon": 0.0
+    },
+    "images": [
+      {
+        "url": "https://www.nps.gov/common/uploads/cropped_image/6CDE8B29-EE34-4659-54AB85909FE6F3A3.jpg",
+        "credit": "NPS",
+        "altText": "A group of people walk down a dirt trail through tall ponderosa pines",
+        "title": "Cliff Spring Trail",
+        "description": "",
+        "caption": "This short trail offers a pleasant mix of Grand Canyon experiences.",
+        "crops": [
+          {
+            "aspectRatio": "1.78",
+            "url": "https://www.nps.gov/common/uploads/cropped_image/primary/6CDE8B29-EE34-4659-54AB85909FE6F3A3.jpg"
+          },
+          {
+            "aspectRatio": "1.33",
+            "url": "https://www.nps.gov/common/uploads/cropped_image/secondary/6CDE8B29-EE34-4659-54AB85909FE6F3A3.jpg"
+          }
+        ]
+      }
+    ],
+    "nps_url": "https://www.nps.gov/places/000/cliff-spring-trail.htm",
+    "difficulty": null,
+    "length_miles": 1.0,
+    "elevation_gain_ft": 300,
+    "route_type": "Out & Back",
+    "estimated_time_hours": "1-2 hours",
+    "last_enriched": "2025-12-26T16:08:45.461475"
+  },
+  {
+    "id": "2CADBB90-0D63-4FF2-A865-AB335252DCCC",
+    "name": "Grandview Point",
+    "description": "Grandview Point is one of the most popular South Rim viewpoints in the park. It is located along Desert View Drive (SR 64), halfway between Grand Canyon Village (10.2 miles/16.4 K) and Desert View (13.8 miles/22.2 K). The viewpoint offers breathtaking panoramic views of the canyon and is known for stunning sunrises and sunsets. The Colorado River is visible here. There are vault toilets, and parking for larger vehicles. No drinking water here - so bring your own.",
+    "location": {
+      "lat": 35.9982154341,
+      "lon": -111.987777762
+    },
+    "images": [
+      {
+        "url": "https://www.nps.gov/common/uploads/cropped_image/791BABC9-D5E0-E2B8-249819540E6D263C.jpg",
+        "credit": "NPS/M. Quinn",
+        "altText": "An open scenic canyon vista of colored rocks, steep slopes, sheer cliffs, and blue sky with clouds.",
+        "title": "Grandview Point",
+        "description": "",
+        "caption": "Viewpoint features panoramic views from east to west, including several bends of the Colorado River",
+        "crops": [
+          {
+            "aspectRatio": "1.78",
+            "url": "https://www.nps.gov/common/uploads/cropped_image/primary/791BABC9-D5E0-E2B8-249819540E6D263C.jpg"
+          },
+          {
+            "aspectRatio": "1.33",
+            "url": "https://www.nps.gov/common/uploads/cropped_image/secondary/791BABC9-D5E0-E2B8-249819540E6D263C.jpg"
+          }
+        ]
+      }
+    ],
+    "nps_url": "https://www.nps.gov/places/000/grandview-point.htm",
+    "difficulty": "Strenuous",
+    "length_miles": null,
+    "elevation_gain_ft": null,
+    "route_type": null,
+    "estimated_time_hours": null,
+    "last_enriched": "2025-12-26T16:09:37.502865"
+  },
+  {
+    "id": "1EB057F1-9AFD-460F-906C-C8305066CBDD",
+    "name": "Grandview Trail",
+    "description": "First used by American Indians who gathered mineral paints on Horseshoe Mesa, and later by copper miners, the Grandview Trail is a rocky, exposed, strenuous trail requiring experience and caution. Big steps and extreme pitches intensify this hike.",
+    "location": {
+      "lat": 35.9984500264,
+      "lon": -111.987652788
+    },
+    "images": [
+      {
+        "url": "https://www.nps.gov/common/uploads/cropped_image/3BC58D63-051B-8FA3-B0B23AFD04C30909.jpg",
+        "credit": "NPS/Joel Kane",
+        "altText": "A rocky trail leads down into the depths of Grand Canyon along the side of a steep slope.",
+        "title": "Grandview Trail",
+        "description": "",
+        "caption": "Grandview Trail can be quite rugged, narrow, and steep, often with a drop-off on one side.",
+        "crops": [
+          {
+            "aspectRatio": "1.78",
+            "url": "https://www.nps.gov/common/uploads/cropped_image/primary/3BC58D63-051B-8FA3-B0B23AFD04C30909.jpg"
+          },
+          {
+            "aspectRatio": "1.33",
+            "url": "https://www.nps.gov/common/uploads/cropped_image/secondary/3BC58D63-051B-8FA3-B0B23AFD04C30909.jpg"
+          }
+        ]
+      }
+    ],
+    "nps_url": "https://www.nps.gov/places/000/grandview-trail.htm",
+    "difficulty": "Strenuous",
+    "length_miles": 2.2,
+    "elevation_gain_ft": null,
+    "route_type": "Out & Back",
+    "estimated_time_hours": null,
+    "last_enriched": "2025-12-26T16:09:46.386395"
+  },
+  {
+    "id": "49BF1BDF-AAA2-46B3-9D49-FAAF77C60BEF",
+    "name": "Hermit Trail Grand Canyon",
+    "description": "The Hermit Trail was originally built by the Santa Fe Railroad in 1911 and provided access to the developed luxury Hermit Camp and Waldron Basin tourist areas. Today, the Hermit Trail still offers experienced, knowledgeable canyon backpackers a direct link to the excitement and romance of the early days at Grand Canyon.",
+    "location": {
+      "lat": 36.060444,
+      "lon": -112.212494
+    },
+    "images": [
+      {
+        "url": "https://www.nps.gov/common/uploads/cropped_image/DF1A09A5-FA18-85FE-7FB51F82C1C977E5.jpg",
+        "credit": "NPS/Mike Quinn",
+        "altText": "A trail constructed of meticulously placed slabs of rock winds its way down into Grand Canyon.",
+        "title": "Hermit Trail",
+        "description": "",
+        "caption": "Some sections of the trail still show its history as a premier hike into the canyon.",
+        "crops": [
+          {
+            "aspectRatio": "1.78",
+            "url": "https://www.nps.gov/common/uploads/cropped_image/primary/DF1A09A5-FA18-85FE-7FB51F82C1C977E5.jpg"
+          },
+          {
+            "aspectRatio": "1.33",
+            "url": "https://www.nps.gov/common/uploads/cropped_image/secondary/DF1A09A5-FA18-85FE-7FB51F82C1C977E5.jpg"
+          }
+        ]
+      }
+    ],
+    "nps_url": "https://www.nps.gov/places/000/hermit-trail.htm",
+    "difficulty": "Strenuous",
+    "length_miles": 9.7,
+    "elevation_gain_ft": 4340,
+    "route_type": "Out & Back",
+    "estimated_time_hours": null,
+    "last_enriched": "2025-12-26T16:10:07.531045"
+  },
+  {
+    "id": "E6489858-88D5-4FD8-A8CA-14944947608D",
+    "name": "Ken Patrick Trail (North Kaibab Trailhead)",
+    "description": "This\u00a0section of the Ken Patrick Trail, from\u00a0the South Kaibab Trailhead to\u00a0Cape Royal Road, is closed, due to damage from the Dragon Bravo wildfire. In addition, the North Rim developed area, including the lodge, visitor center, campground and Bright Angel Point, are CLOSED until further notice because of extensive fire damage.\u00a0\u00a0",
+    "location": {
+      "lat": 36.217601,
+      "lon": -112.055818
+    },
+    "images": [
+      {
+        "url": "https://www.nps.gov/common/uploads/cropped_image/432440A8-D720-DD9B-D45FFFD371BDE383.jpg",
+        "credit": "NPS",
+        "altText": "An old wooden sign with carved letters provides mileages and directions for the trail",
+        "title": "Ken Patrick Trail",
+        "description": "",
+        "caption": "Sign at the Junction with Cape Royal Road. Left arrow section open, Right arrows section closed.",
+        "crops": [
+          {
+            "aspectRatio": "1.78",
+            "url": "https://www.nps.gov/common/uploads/cropped_image/primary/432440A8-D720-DD9B-D45FFFD371BDE383.jpg"
+          },
+          {
+            "aspectRatio": "1.33",
+            "url": "https://www.nps.gov/common/uploads/cropped_image/secondary/432440A8-D720-DD9B-D45FFFD371BDE383.jpg"
+          }
+        ]
+      }
+    ],
+    "nps_url": "https://www.nps.gov/places/000/ken-patrick-trail-north-kaibab-trailhead.htm",
+    "difficulty": null,
+    "length_miles": 9.8,
+    "elevation_gain_ft": null,
+    "route_type": "Point to Point",
+    "estimated_time_hours": "6 hours",
+    "last_enriched": "2025-12-26T16:10:17.103414"
+  },
+  {
+    "id": "6576E6F2-76A6-45D5-BB6B-8B763A231DEB",
+    "name": "Ken Patrick Trail (Point Imperial)",
+    "description": "This scenic, hilly section of trail follows the rim to Cape Royal Road. Many parts are recovering from wildfire, providing vast views and making it quite exposed to sun, wind, and cold. This is a great hike from Point Imperial, whether you hike the whole section or turn around after a few minutes. \u2014 Note: the section of the trail from Cape Royal Road to the South Kaibab Trailhead is closed due to damage from the Dragon Bravo fire.",
+    "location": {
+      "lat": 36.27850221779541,
+      "lon": -111.97886207860029
+    },
+    "images": [
+      {
+        "url": "https://www.nps.gov/common/uploads/cropped_image/4370E390-C11C-D419-76227A44E7098BD7.jpg",
+        "credit": "NPS",
+        "altText": "A wooden sign with white letters provides trail information next to a dirt path",
+        "title": "Ken Patrick Trail (Point Imperial)",
+        "description": "",
+        "caption": "Explore this 3-mile section of the Ken Patrick Trail for quiet scenic views.",
+        "crops": [
+          {
+            "aspectRatio": "1.78",
+            "url": "https://www.nps.gov/common/uploads/cropped_image/primary/4370E390-C11C-D419-76227A44E7098BD7.jpg"
+          },
+          {
+            "aspectRatio": "1.33",
+            "url": "https://www.nps.gov/common/uploads/cropped_image/secondary/4370E390-C11C-D419-76227A44E7098BD7.jpg"
+          }
+        ]
+      }
+    ],
+    "nps_url": "https://www.nps.gov/places/000/ken-patrick-trail-point-imperial.htm",
+    "difficulty": "Moderate",
+    "length_miles": 6.0,
+    "elevation_gain_ft": null,
+    "route_type": "Out & Back",
+    "estimated_time_hours": "2-3 hours",
+    "last_enriched": "2025-12-26T16:10:22.753151"
+  },
+  {
+    "id": "7187895C-47AD-4C26-912C-D8D95057A332",
+    "name": "Mile-and-a-Half Resthouse",
+    "description": "This popular day-hike destination along Bright Angel Trail provides relief from the summer heat. Vault toilets are available year-round. During summer, this location is a good source for potable water. Just over 1,100 feet (335 m) below Grand Canyon's rim, this first rest area offers visitors a taste of the struggles and rewards Grand Canyon's steep trails present.",
+    "location": {
+      "lat": 36.060531,
+      "lon": -112.138782
+    },
+    "images": [
+      {
+        "url": "https://www.nps.gov/common/uploads/cropped_image/62BAFA99-F935-C3C9-0E8418AB1929ACF0.jpg",
+        "credit": "NPS",
+        "altText": "A small brown building on a steep slope of reddish rock covered by small bushes and trees.",
+        "title": "1 1/2 Mile Resthouse",
+        "description": "",
+        "caption": "On the left, the vault toilet building. The resthouse (not visible) is up the ramp on the right",
+        "crops": [
+          {
+            "aspectRatio": "1.78",
+            "url": "https://www.nps.gov/common/uploads/cropped_image/primary/62BAFA99-F935-C3C9-0E8418AB1929ACF0.jpg"
+          },
+          {
+            "aspectRatio": "1.33",
+            "url": "https://www.nps.gov/common/uploads/cropped_image/secondary/62BAFA99-F935-C3C9-0E8418AB1929ACF0.jpg"
+          }
+        ]
+      }
+    ],
+    "nps_url": "https://www.nps.gov/places/000/1-mile-resthouse.htm",
+    "difficulty": "Strenuous",
+    "length_miles": 3.0,
+    "elevation_gain_ft": 1120,
+    "route_type": "Out & Back",
+    "estimated_time_hours": "2-4 hours",
+    "last_enriched": "2025-12-26T16:10:43.733190"
+  },
+  {
+    "id": "A77E1564-88C9-40F9-9A7F-093F8DF27BDF",
+    "name": "North Kaibab Trail",
+    "description": "The North Kaibab Trail remains closed for the foreseeable future due to post-fire impacts. Extensive maintenance is required to address rockslides before it can safely reopen. The North Kaibab Trail is the least visited and most difficult of the major inner canyon corridor trails. It is challenging for day hikers as well as rim-to-rim hikers. Always carry a way to filter or treat creek water, in the event water stations at Manzanita and Cottonwood Campground are not working.",
+    "location": {
+      "lat": 36.216921,
+      "lon": -112.056642
+    },
+    "images": [
+      {
+        "url": "https://www.nps.gov/common/uploads/cropped_image/E7CCF236-A0CD-2B28-F36F755F7A0B88B6.jpg",
+        "credit": "NPS",
+        "altText": "Two hikers walk down a dirt trail in a lush aspen conifer forest.",
+        "title": "Start of the North Kaibab Trail",
+        "description": "",
+        "caption": "Starting in the lush North Rim forest, the trail quickly switchbacks down into the canyon.",
+        "crops": [
+          {
+            "aspectRatio": "1.78",
+            "url": "https://www.nps.gov/common/uploads/cropped_image/primary/E7CCF236-A0CD-2B28-F36F755F7A0B88B6.jpg"
+          },
+          {
+            "aspectRatio": "1.33",
+            "url": "https://www.nps.gov/common/uploads/cropped_image/secondary/E7CCF236-A0CD-2B28-F36F755F7A0B88B6.jpg"
+          }
+        ]
+      }
+    ],
+    "nps_url": "https://www.nps.gov/places/000/north-kaibab-trail.htm",
+    "difficulty": "Strenuous",
+    "length_miles": null,
+    "elevation_gain_ft": null,
+    "route_type": "Point to Point",
+    "estimated_time_hours": null,
+    "last_enriched": "2025-12-26T16:10:56.887071"
+  },
+  {
+    "id": "801F4484-58F7-471C-860E-046355B69869",
+    "name": "Point Imperial Trail",
+    "description": "The North Rim developed area, including the lodge, visitor center, campground are\u00a0CLOSED until further notice because of extensive damage\u00a0from the Dragon Bravo Wildfire. Located at the left end of the Point Imperial parking lot, this 2 mi. (3.2 km), or\u00a04.0 mi. (6.4 km, round-trip); trail passes through areas burned by the 2000 Outlet Fire and ends at the northern park boundary. From there, connections are possible through Kaibab National Forest to the Nankoweap Trail.",
+    "location": {
+      "lat": 36.2794,
+      "lon": -111.978428
+    },
+    "images": [
+      {
+        "url": "https://www.nps.gov/common/uploads/cropped_image/A81269A1-F282-E2E8-5FD8B11C554CCB4B.jpg",
+        "credit": "",
+        "altText": "Wooden sign with white text reads, Point Imperial Trail. F.S. Boundary 2 mi. Saddle Mt Trail 2.2 mi.",
+        "title": "Point Imperial Trail Sign",
+        "description": "",
+        "caption": "The Point Imperial Trail starts from the overlook parking lot.",
+        "crops": [
+          {
+            "aspectRatio": "1.78",
+            "url": "https://www.nps.gov/common/uploads/cropped_image/primary/A81269A1-F282-E2E8-5FD8B11C554CCB4B.jpg"
+          },
+          {
+            "aspectRatio": "1.33",
+            "url": "https://www.nps.gov/common/uploads/cropped_image/secondary/A81269A1-F282-E2E8-5FD8B11C554CCB4B.jpg"
+          }
+        ]
+      }
+    ],
+    "nps_url": "https://www.nps.gov/places/000/point-imperial-trail.htm",
+    "difficulty": null,
+    "length_miles": 4.0,
+    "elevation_gain_ft": null,
+    "route_type": "Out & Back",
+    "estimated_time_hours": "2 hours",
+    "last_enriched": "2025-12-26T16:11:22.406273"
+  },
+  {
+    "id": "CA0A44F0-62BB-4440-8FFC-A4A9166F7D29",
+    "name": "Rim Trail - Mather Point",
+    "description": "A mostly paved path along the edge of Grand Canyon offers countless views of wide canyon vistas and the mighty Colorado River along the south rim of Grand Canyon from South Kaibab Trailhead to Hermits Rest.",
+    "location": {
+      "lat": 36.06151274585487,
+      "lon": -112.10863364550781
+    },
+    "images": [
+      {
+        "url": "https://www.nps.gov/common/uploads/cropped_image/37D34FDA-C5C3-59E9-7C16C3C0D93607AD.jpg",
+        "credit": "NPS/T. Karlovetz",
+        "altText": "A cliff of yellow rock extends into a view of Grand Canyon's colorful landscape with clouds overhead",
+        "title": "Mather Point - Rim Trail",
+        "description": "",
+        "caption": "The rim trail offers near constant views of Grand Canyon.",
+        "crops": [
+          {
+            "aspectRatio": "1.78",
+            "url": "https://www.nps.gov/common/uploads/cropped_image/primary/37D34FDA-C5C3-59E9-7C16C3C0D93607AD.jpg"
+          },
+          {
+            "aspectRatio": "1.33",
+            "url": "https://www.nps.gov/common/uploads/cropped_image/secondary/37D34FDA-C5C3-59E9-7C16C3C0D93607AD.jpg"
+          }
+        ]
+      }
+    ],
+    "nps_url": "https://www.nps.gov/places/rim-trail-mather-point.htm",
+    "difficulty": "Easy",
+    "length_miles": 13.0,
+    "elevation_gain_ft": null,
+    "route_type": "Point to Point",
+    "estimated_time_hours": "5-7 hours",
+    "last_enriched": "2025-12-26T16:11:33.700858"
+  },
+  {
+    "id": "471D6A07-1D02-4CDA-BBB9-49D477FE1FBA",
+    "name": "South Kaibab Trail",
+    "description": "This well-maintained dirt trail offering wonderful expansive views. This is a great trail for short day hiking trips into the canyon of half a day or less. During winter months foot traction and hiking poles are advised when trail surfaces are icy. There is no public parking at the South Kaibab Trailhead. Please park\u00a0at the Visitor Center, then take\u00a0the Kaibab (Orange) Route shuttle bus to the trailhead.\u00a0It is a 9-minute ride from the Visitor Center to the\u00a0Trailhead.",
+    "location": {
+      "lat": 36.053398,
+      "lon": -112.083703
+    },
+    "images": [
+      {
+        "url": "https://www.nps.gov/common/uploads/cropped_image/B4E27A94-95C8-0019-58893581D89DFCBD.jpg",
+        "credit": "NPS/ M.Quinn",
+        "altText": "Several trail switchbacks are cut into a cliff of tan rock.",
+        "title": "Beginning of South Kaibab Trail",
+        "description": "",
+        "caption": "The trail begins with switchbacks known as \"the chimney\" and continues a steep and narrow descent.",
+        "crops": [
+          {
+            "aspectRatio": "1.78",
+            "url": "https://www.nps.gov/common/uploads/cropped_image/primary/B4E27A94-95C8-0019-58893581D89DFCBD.jpg"
+          },
+          {
+            "aspectRatio": "1.33",
+            "url": "https://www.nps.gov/common/uploads/cropped_image/secondary/B4E27A94-95C8-0019-58893581D89DFCBD.jpg"
+          }
+        ]
+      }
+    ],
+    "nps_url": "https://www.nps.gov/places/000/south-kaibab-trail.htm",
+    "difficulty": "Strenuous",
+    "length_miles": null,
+    "elevation_gain_ft": null,
+    "route_type": "Out & Back",
+    "estimated_time_hours": "half a day or less",
+    "last_enriched": "2025-12-26T16:11:46.089115"
+  },
+  {
+    "id": "4D7FDAB7-11E5-48A1-8203-7F1CF27A832B",
+    "name": "Tanner Trail",
+    "description": "This historic trail is the primary access for hikers into eastern Grand Canyon. It ranks as one of the most difficult and demanding trails in the park.",
+    "location": {
+      "lat": 36.032621286,
+      "lon": -111.852511788
+    },
+    "images": [
+      {
+        "url": "https://www.nps.gov/common/uploads/cropped_image/C0F27FD3-A0A2-BFE1-EBB272093C2345D7.jpg",
+        "credit": "NPS",
+        "altText": "Steep steps lead to the trailhead sign at the Tanner Trailhead.",
+        "title": "Tanner Trail",
+        "description": "",
+        "caption": "Be advised Tanner Trail is steep, remote and has no water filling stations.",
+        "crops": [
+          {
+            "aspectRatio": "1.78",
+            "url": "https://www.nps.gov/common/uploads/cropped_image/primary/C0F27FD3-A0A2-BFE1-EBB272093C2345D7.jpg"
+          },
+          {
+            "aspectRatio": "1.33",
+            "url": "https://www.nps.gov/common/uploads/cropped_image/secondary/C0F27FD3-A0A2-BFE1-EBB272093C2345D7.jpg"
+          }
+        ]
+      }
+    ],
+    "nps_url": "https://www.nps.gov/places/000/tanner-trail.htm",
+    "difficulty": "Strenuous",
+    "length_miles": 18.0,
+    "elevation_gain_ft": 4650,
+    "route_type": "Out & Back",
+    "estimated_time_hours": null,
+    "last_enriched": "2025-12-26T16:11:50.708290"
+  },
+  {
+    "id": "C5610849-6827-4938-BB69-1950A47A44AB",
+    "name": "Trail of Time: The Main Trail of Time Portal",
+    "description": "Once you have walked the short, Million Year Trail of 150 yards (136 m), you will encounter the second Trail of Time portal, which marks the beginning of the main Trail of Time, a two billion year timeline of Grand Canyon's geologic history. The main trail is approximately 2.83 miles (4.56 km). This fully accessible 1 hour walking trip provides breath taking vistas of Grand Canyon and allows you to ponder and understand the depths of geologic space and time.",
+    "location": {
+      "lat": 36.065171,
+      "lon": -112.121
+    },
+    "images": [
+      {
+        "url": "https://www.nps.gov/common/uploads/cropped_image/EAE5DDC2-E2AA-8D9C-6FA9DB93635F275D.jpg",
+        "credit": "NPS",
+        "altText": "By a paved footpath, a stone monolith portal sign displays colorful geologic rock layers.",
+        "title": "Trail of Time 2 billion year beginning",
+        "description": "",
+        "caption": "After completing the 1 million year timeline, this portal begins the 2 Billion year trail section.",
+        "crops": [
+          {
+            "aspectRatio": "1.78",
+            "url": "https://www.nps.gov/common/uploads/cropped_image/primary/EAE5DDC2-E2AA-8D9C-6FA9DB93635F275D.jpg"
+          },
+          {
+            "aspectRatio": "1.33",
+            "url": "https://www.nps.gov/common/uploads/cropped_image/secondary/EAE5DDC2-E2AA-8D9C-6FA9DB93635F275D.jpg"
+          }
+        ]
+      }
+    ],
+    "nps_url": "https://www.nps.gov/places/000/trail-of-time-the-main-trail-of-time-portal.htm",
+    "difficulty": "Easy",
+    "length_miles": 2.83,
+    "elevation_gain_ft": null,
+    "route_type": "Point to Point",
+    "estimated_time_hours": "1 hour",
+    "last_enriched": "2025-12-26T16:11:55.350009"
+  },
+  {
+    "id": "757CDCE5-7D96-4471-9A16-C9A7D22AF938",
+    "name": "Trail of Time: The Million Year Walk Portal",
+    "description": "The Trail of Time begins at Yavapai Geology Museum. Walking west along the paved trail from the museum, you first arrive at the Million Year Trail, a short trail, 150 yards (136 meters) which transitions from human time scales to geologic ones and serves as an \"on-ramp\" to the main trail that covers 2 billion years of geologic time in 2.83 miles (4.56 km).",
+    "location": {
+      "lat": 36.065248,
+      "lon": -112.119602
+    },
+    "images": [
+      {
+        "url": "https://www.nps.gov/common/uploads/cropped_image/EBC38CBD-F60E-E866-8CBDBC851515D400.jpg",
+        "credit": "NPS",
+        "altText": "Along a paved footpath, flagstone slabs and a stone monolith mark the start of a geologic timeline,",
+        "title": "Beginning: 1 Million Year Trail of Time",
+        "description": "",
+        "caption": "Walk west along the Rim Trail from Yavapai Geology Museum to the start of the 1 million year trail.",
+        "crops": [
+          {
+            "aspectRatio": "1.78",
+            "url": "https://www.nps.gov/common/uploads/cropped_image/primary/EBC38CBD-F60E-E866-8CBDBC851515D400.jpg"
+          },
+          {
+            "aspectRatio": "1.33",
+            "url": "https://www.nps.gov/common/uploads/cropped_image/secondary/EBC38CBD-F60E-E866-8CBDBC851515D400.jpg"
+          }
+        ]
+      }
+    ],
+    "nps_url": "https://www.nps.gov/places/000/trail-of-time-the-million-year-walk-portal.htm",
+    "difficulty": "Easy",
+    "length_miles": 2.83,
+    "elevation_gain_ft": null,
+    "route_type": "Point to Point",
+    "estimated_time_hours": null,
+    "last_enriched": "2025-12-26T16:12:00.244407"
+  },
+  {
+    "id": "F8E30E3A-260E-459D-A8A1-B4E900A478DA",
+    "name": "Transept Trail (Grand Canyon Lodge)",
+    "description": "The North Rim developed area, along with the Transept Trail are CLOSED until further notice because of extensive damage\u00a0from the Dragon Bravo Wildfire. This moderate level trail wanders up and down the canyon rim along the Transept, a beautiful side canyon to the west of Grand Canyon Lodge and the campground. It also links to the northern portion of Bridle Path and the Backcountry Info Center. While this trail is not overly difficult, some portions are steep.",
+    "location": {
+      "lat": 36.1969,
+      "lon": -112.053578
+    },
+    "images": [
+      {
+        "url": "https://www.nps.gov/common/uploads/cropped_image/E80D52AC-CFAF-187E-7481D9D171E7FE38.jpg",
+        "credit": "NPS",
+        "altText": "A brown sign shows arrows to the start of Transept Trail and Nature Trail.",
+        "title": "Start of Transept Trail",
+        "description": "",
+        "caption": "Start of Transept Trail",
+        "crops": [
+          {
+            "aspectRatio": "1.78",
+            "url": "https://www.nps.gov/common/uploads/cropped_image/primary/E80D52AC-CFAF-187E-7481D9D171E7FE38.jpg"
+          },
+          {
+            "aspectRatio": "1.33",
+            "url": "https://www.nps.gov/common/uploads/cropped_image/secondary/E80D52AC-CFAF-187E-7481D9D171E7FE38.jpg"
+          }
+        ]
+      }
+    ],
+    "nps_url": "https://www.nps.gov/places/000/transept-trail-grand-canyon-lodge.htm",
+    "difficulty": "Moderate",
+    "length_miles": 2.0,
+    "elevation_gain_ft": 100,
+    "route_type": "Point to Point",
+    "estimated_time_hours": "1-2 hours",
+    "last_enriched": "2025-12-26T16:12:05.859946"
+  },
+  {
+    "id": "DB8E6DF2-C4BF-40E6-BF61-50227619000A",
+    "name": "Transept Trail Intersection with Bridle Path by AZ SR67",
+    "description": "The North Rim developed area, including Transept Trail, Grand Canyon Lodge, visitor center and campground are CLOSED until further notice because of extensive damage from the Dragon Bravo Wildfire. \u2014 On the north end of the developed area, near the intersection of the Bridle Path and AZ State Route 67, the trail heads southwest, passing the Backcountry Info Center, the campground, and ultimately reaching\u00a0Grand Canyon Lodge. The trail traces the edge of Transept Canyon.",
+    "location": {
+      "lat": 36.215372,
+      "lon": -112.060209
+    },
+    "images": [
+      {
+        "url": "https://www.nps.gov/common/uploads/cropped_image/EC08D67A-009D-4701-99472A631E680D8D.jpg",
+        "credit": "NPS Photo - Doug Crispen",
+        "altText": "intersection of two footpaths, each indicated by white lines",
+        "title": "Bridle Path - Transept Trail intersect",
+        "description": "",
+        "caption": "Intersection of Bridle Path (left) with Transept Trail (Right) near Arizona State Route 67.",
+        "crops": [
+          {
+            "aspectRatio": "1.78",
+            "url": "https://www.nps.gov/common/uploads/cropped_image/primary/EC08D67A-009D-4701-99472A631E680D8D.jpg"
+          },
+          {
+            "aspectRatio": "1.33",
+            "url": "https://www.nps.gov/common/uploads/cropped_image/secondary/EC08D67A-009D-4701-99472A631E680D8D.jpg"
+          }
+        ]
+      }
+    ],
+    "nps_url": "https://www.nps.gov/places/000/transept-trail-sr-67-crossing.htm",
+    "difficulty": "Moderate",
+    "length_miles": 2.0,
+    "elevation_gain_ft": 100,
+    "route_type": "Point to Point",
+    "estimated_time_hours": "1-2 hours",
+    "last_enriched": "2025-12-26T16:12:09.837116"
+  },
+  {
+    "id": "310C198B-6C9B-486B-8D9E-4A80665C4C11",
+    "name": "Tusayan Pueblo Site and Self-guiding Trail",
+    "description": "The pueblo site and self-guiding trail are CLOSED FOR THE WINTER. Located 3 miles (4.8km) west of Desert View Watchtower, the site is a small Ancestral Puebloan village showing the outlines of rooms and a round kiva. A relatively flat 0.1 mile (200 m) self-guiding trail circles the site.",
+    "location": {
+      "lat": 36.013242,
+      "lon": -111.86613
+    },
+    "images": [
+      {
+        "url": "https://www.nps.gov/common/uploads/cropped_image/A7EECE96-C7C7-1055-766D3E3F47BAB577.jpg",
+        "credit": "NPS Photo/M. Quinn",
+        "altText": "Aerial view of footpaths on either side of a row of rectangular shaped rooms outlines.",
+        "title": "Tusayan Pueblo Trail",
+        "description": "",
+        "caption": "A short walk along the Tusayan Pueblo Trail shows outlines of several rooms and a circular kiva.",
+        "crops": [
+          {
+            "aspectRatio": "1.78",
+            "url": "https://www.nps.gov/common/uploads/cropped_image/primary/A7EECE96-C7C7-1055-766D3E3F47BAB577.jpg"
+          },
+          {
+            "aspectRatio": "1.33",
+            "url": "https://www.nps.gov/common/uploads/cropped_image/secondary/A7EECE96-C7C7-1055-766D3E3F47BAB577.jpg"
+          }
+        ]
+      }
+    ],
+    "nps_url": "https://www.nps.gov/places/000/tusayan-ruin-trail.htm",
+    "difficulty": "Easy",
+    "length_miles": 0.1,
+    "elevation_gain_ft": null,
+    "route_type": "Loop",
+    "estimated_time_hours": null,
+    "last_enriched": "2025-12-26T16:12:14.002574"
+  },
+  {
+    "id": "0D15591D-6A44-48B7-BE9F-D75E44233855",
+    "name": "Uncle Jim Trail",
+    "description": "The Uncle Jim Trail is CLOSED until further notice because of extensive damage\u00a0from the Dragon Bravo Wildfire. \u2014The Uncle Jim Trail is a loop accessed via the Ken Patrick Trail from the North Kaibab Trailhead parking. After winding through the forest on Ken Patrick Trail for 0.9 miles (1.5 km), bear right for another 0.4 miles (0.6 km). At this point, you have the option of heading left or right on a loop, to a point overlooking the canyon and North Kaibab Trail.",
+    "location": {
+      "lat": 36.217618376010385,
+      "lon": -112.05562456950923
+    },
+    "images": [
+      {
+        "url": "https://www.nps.gov/common/uploads/cropped_image/E88D4F55-E031-5E4E-4DF366F4C8FA4F93.jpg",
+        "credit": "NPS",
+        "altText": "A dirt path lined with wooden fences goes along the edge of a forest.",
+        "title": "Ken Patrick Trail to Uncle Jim Trail",
+        "description": "",
+        "caption": "After trails reopen, follow Ken Patrick Trail for 0.9 miles (1.5 km) to connect with Uncle Jim Trail",
+        "crops": [
+          {
+            "aspectRatio": "1.78",
+            "url": "https://www.nps.gov/common/uploads/cropped_image/primary/E88D4F55-E031-5E4E-4DF366F4C8FA4F93.jpg"
+          },
+          {
+            "aspectRatio": "1.33",
+            "url": "https://www.nps.gov/common/uploads/cropped_image/secondary/E88D4F55-E031-5E4E-4DF366F4C8FA4F93.jpg"
+          }
+        ]
+      }
+    ],
+    "nps_url": "https://www.nps.gov/places/000/uncle-jim-trail.htm",
+    "difficulty": null,
+    "length_miles": 4.7,
+    "elevation_gain_ft": 730,
+    "route_type": "Loop",
+    "estimated_time_hours": "3 hours",
+    "last_enriched": "2025-12-26T16:12:17.730255"
+  },
+  {
+    "id": "891258FE-30E6-46F9-9A92-94FEAA312F61",
+    "name": "Widforss Trail",
+    "description": "The North Rim developed area, including the Widforss Trail is CLOSED until further notice because of extensive damage\u00a0from the Dragon Bravo Wildfire. \u2014 Walk through this blend of spectacular forest and canyon scenery, even if just for a portion of this 5-mile trail. The first 3 miles of the trail meander back and forth along the rim of Transept Canyon. If you choose to hike to Widforss Point at the end of the trail, you'll be rewarded with a unique and expansive view.",
+    "location": {
+      "lat": 36.223672,
+      "lon": -112.065053
+    },
+    "images": [
+      {
+        "url": "https://www.nps.gov/common/uploads/cropped_image/E85166B8-9857-DB44-2AF135A044B60838.jpg",
+        "credit": "NPS",
+        "altText": "A brown sign reads \"Widforss Trail Parking\"",
+        "title": "Widforss Trailhead",
+        "description": "",
+        "caption": "An access road from Hwy 67 leads to the Widforss Trailhead, a gravel parking lot with vault toilets.",
+        "crops": [
+          {
+            "aspectRatio": "1.78",
+            "url": "https://www.nps.gov/common/uploads/cropped_image/primary/E85166B8-9857-DB44-2AF135A044B60838.jpg"
+          },
+          {
+            "aspectRatio": "1.33",
+            "url": "https://www.nps.gov/common/uploads/cropped_image/secondary/E85166B8-9857-DB44-2AF135A044B60838.jpg"
+          }
+        ]
+      }
+    ],
+    "nps_url": "https://www.nps.gov/places/000/widforss-trail.htm",
+    "difficulty": null,
+    "length_miles": 9.6,
+    "elevation_gain_ft": 1000,
+    "route_type": "Out & Back",
+    "estimated_time_hours": "4-6 hours",
+    "last_enriched": "2025-12-26T16:12:22.681996"
+  }
+]

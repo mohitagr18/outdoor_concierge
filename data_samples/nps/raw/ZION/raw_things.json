@@ -79,89 +79,6 @@
       "relevanceScore": 1.0
     },
     {
-      "id": "0D93CA13-99EC-4592-B2B8-AAA68238F5AF",
-      "url": "https://www.nps.gov/places/canyon-junction.htm",
-      "title": "Canyon Junction",
-      "listingDescription": "",
-      "images": [
-        {
-          "url": "https://www.nps.gov/common/uploads/cropped_image/4312600E-E3E7-DD38-1C46427144598E28.jpg",
-          "credit": "NPS/Abi Farish",
-          "altText": "Photo of a road with a gate across it and a sign that reads \"Shuttle Buses Only\"",
-          "title": "Gate at Canyon Junction",
-          "description": "",
-          "caption": "The Zion Canyon Scenic Drive is closed to personal vehicles during shuttle season.",
-          "crops": [
-            {
-              "aspectRatio": "1.78",
-              "url": "https://www.nps.gov/common/uploads/cropped_image/primary/4312600E-E3E7-DD38-1C46427144598E28.jpg"
-            },
-            {
-              "aspectRatio": "1.33",
-              "url": "https://www.nps.gov/common/uploads/cropped_image/secondary/4312600E-E3E7-DD38-1C46427144598E28.jpg"
-            }
-          ]
-        }
-      ],
-      "relatedParks": [
-        {
-          "states": "UT",
-          "parkCode": "zion",
-          "designation": "National Park",
-          "fullName": "Zion National Park",
-          "url": "https://www.nps.gov/zion/index.htm",
-          "name": "Zion"
-        }
-      ],
-      "relatedOrganizations": [],
-      "tags": [
-        "Zion Canyon",
-        "zion canyon scenic drive",
-        "shuttle bus",
-        "shuttle",
-        "Zion National Park",
-        "Scenic Drive",
-        "canyon junction"
-      ],
-      "latitude": "37.2183639166",
-      "longitude": "-112.973934702",
-      "latLong": "37.2183639166,-112.973934702",
-      "bodyText": "<h2><b>Canyon Junction </b></h2> <p>The Zion-Mt. Carmel Highway and the Zion Canyon Scenic Drive meet here. On July 3, 1930, the Zion-Mt. Carmel Highway was officially dedicated and opened to the public. The completion of the highway made the once imagined \"Grand Circle Tour\" of Zion, Bryce Canyon, and Grand Canyon National Parks a reality. From here, enjoy views of the Virgin River and Zion Canyon.\u00a0</p> <h4>Trails accessed from here:</h4> <ul> <li> <p>Pa\u2019rus Trail (allows bicycles and leashed pets; access to Virgin River)</p> </li> </ul> <h4>Shuttle Service</h4> <p>When the <a href=\"https://www.nps.gov/zion/planyourvisit/zion-canyon-shuttle-system.htm\">Zion Canyon Shuttle</a> is running, Canyon Junction is shuttle stop #3. Shuttles do not stop here when travelling up-canyon (towards the Temple of Sinawava). Shuttles only stop here travelling towards down-canyon (towards the Zion Canyon Visitor Center).\u00a0</p> <h4><span style=\"color:#c0392b;\">Seasonal Closures</span></h4> <p><strong>In seasons when the shuttle bus is running, the gate at Canyon Junction is closed to private vehicles</strong>. This means that private vehicles may not access the Zion Canyon Scenic Drive during\u00a0<a href=\"https://www.nps.gov/zion/planyourvisit/zion-canyon-shuttle-system.htm\">shuttle season</a>.\u00a0<br /> When shuttles are not in service, private vehicles may drive up the Zion Canyon Scenic Drive. We monitor parking in the canyon, and may close the road when parking fills.</p>",
-      "audioDescription": "Canyon Junction is a fork in the road, where the Zion Canyon Scenic Drive splits off from the Zion-Mt. Carmel Highway. Here, you are on a flat, paved road that extends past you up around a bend and further into the canyon. Zion-Mt. Carmel Highway is separated from this road by a white and red traffic gate barring unauthorized vehicles from entering. To the south is a wide-open landscape view of the triangular Watchman formation sitting at the southern end of the canyon. To the north, the road curves around a red, sandy hill dotted with foliage, following the path of the Virgin River to the west of the road.",
-      "isPassportStampLocation": "0",
-      "passportStampLocationDescription": "",
-      "passportStampImages": [],
-      "managedByUrl": "",
-      "isOpenToPublic": "1",
-      "isMapPinHidden": "0",
-      "npmapId": "",
-      "geometryPoiId": "78d74f2e-25e6-4328-8a7e-1830670cf5e1",
-      "isManagedByNps": "1",
-      "amenities": [
-        "Accessible Sites",
-        "Beach/Water Access",
-        "Bicycle - Rack",
-        "Bus/Shuttle Stop",
-        "Scenic View/Photo Spot",
-        "Trailhead",
-        "Trash/Litter Receptacles",
-        "Wheelchair Accessible"
-      ],
-      "managedByOrg": "Zion National Park",
-      "quickFacts": [
-        {
-          "id": "5C252B96-2DEB-4EF4-91D1-B5D2B202FCD7",
-          "value": "Canyon Junction (shuttle stop #3)",
-          "name": "Location"
-        }
-      ],
-      "location": "",
-      "locationDescription": "",
-      "credit": "",
-      "multimedia": [],
-      "relevanceScore": 1.0
-    },
-    {
       "id": "76FE3917-EB2C-4F31-A585-DF2B3DA905B9",
       "url": "https://www.nps.gov/places/court-of-the-patriarchs.htm",
       "title": "Court of the Patriarchs",
@@ -540,94 +457,6 @@
       "locationDescription": "",
       "credit": "",
       "multimedia": [],
-      "relevanceScore": 1.0
-    },
-    {
-      "id": "CF1B624D-C2BA-4A8C-99AA-1B57F4F06430",
-      "url": "https://www.nps.gov/places/a-living-canyon.htm",
-      "title": "Pa'rus - A Living Canyon",
-      "listingDescription": "",
-      "images": [
-        {
-          "url": "https://www.nps.gov/common/uploads/cropped_image/50B50C87-BFAA-9A14-BF4D63DDA829B4E4.jpeg",
-          "credit": "NPS/Abi Farish",
-          "altText": "A split-rail wooden fence running along a paved trail. Mountains are visible in the distance",
-          "title": "A Living Canyon",
-          "description": "",
-          "caption": "The Pa'rus Trail follows the Virgin River through lower Zion Canyon.",
-          "crops": [
-            {
-              "aspectRatio": "1.78",
-              "url": "https://www.nps.gov/common/uploads/cropped_image/primary/50B50C87-BFAA-9A14-BF4D63DDA829B4E4.jpeg"
-            },
-            {
-              "aspectRatio": "1.33",
-              "url": "https://www.nps.gov/common/uploads/cropped_image/secondary/50B50C87-BFAA-9A14-BF4D63DDA829B4E4.jpeg"
-            }
-          ]
-        }
-      ],
-      "relatedParks": [
-        {
-          "states": "UT",
-          "parkCode": "zion",
-          "designation": "National Park",
-          "fullName": "Zion National Park",
-          "url": "https://www.nps.gov/zion/index.htm",
-          "name": "Zion"
-        }
-      ],
-      "relatedOrganizations": [],
-      "tags": [
-        "Zion Canyon",
-        "Zion",
-        "Zion National Park",
-        "walk",
-        "parus trail",
-        "pa'rus trail",
-        "Easy hike",
-        "guided walk",
-        "self-guided walk"
-      ],
-      "latitude": "37.20367564940907",
-      "longitude": "-112.98069477081299",
-      "latLong": "37.20367564940907,-112.98069477081299",
-      "bodyText": "<h2>A Living Canyon</h2> <h3>Learn</h3> <p lang=\"EN-US\" paraeid=\"{00b4822e-e9f3-4c1b-833a-97eab8aad75b}{58}\" paraid=\"1020860196\" xml:lang=\"EN-US\">Zion's diverse topography leads to a diversity of habitats and species. Along the Virgin River, the riparian area\u00a0is home to plants and animals that require an abundant supply of water. \u00a0<br /> Fremont cottonwood trees (<em>Populus fremontii</em>) require a constant source of water and thrive along the Virgin River. When Fremont cottonwoods have access to reliable water, they can grow between 10\u201320 feet per year. These trees can also be helpful for streambank protection and are able to withstand low levels of flooding.<br /> The riparian area is also the perfect habitat for the American beaver. You may not immediately think of the American beaver when in the Southwest, but the Virgin River provides a welcome habitat for this river specialist. Sightings are rare, but evidence of the beaver's activity can be seen on many of the park's Fremont cottonwood trees. They do most of their tree-chewing during the night when the cover of darkness helps them to avoid predators.\u00a0</p> <h3 paraeid=\"{73fbe6d5-2801-4581-af4e-14af52ccfaa6}{16}\" paraid=\"833899767\">Look</h3> <p>Have you seen any evidence of wildlife along the trail? The tall shrubs and plants along the trail like Utah Juniper and Rabbitbrush provide food and shelter for a variety of mammals, birds, and reptiles. Along the trail keep an eye out for wildlife like mule deer, road runner, and western scrub jays.\u00a0\u00a0</p> <h3>Connect\u00a0</h3> Zion Canyon would be inhospitable for plants and wildlife without water. How would our experience as visitors change if there were no water present in Zion Canyon?\u00a0\u00a0",
-      "audioDescription": "You are standing on a wide concrete path that follows the Virgin River. The side of the path facing the river is lined with a wooden, split-rail fence. The other side is open to the sandy shrubland of the South Campground. To the south, the path continues towards the Zion Canyon Visitor Center. To the north, the path continues towards Canyon Junction. Just off the path along the split-rail fence is a long sandstone bench and a hip-height metal wayside sign. A picture spans the top half of the sign showing three buck deer with large antlers grazing near a clear, slow-moving river surrounded by yellow-leaved cottonwood trees and dormant grasses and shrubs. A title in the top left corner reads, \u201cA Living Canyon.\u201d In the lower right corner of the picture, a paragraph reads, \u201cStop for a moment. What do you see, hear, and smell? Where water is abundant, plants and animals thrive. The Virgin River and the vegetation in the riparian zone along it provide habitat for many species. Away from the river the temperature increases and the humidity drops. But life is tenacious and adapts. As you stroll the Pa\u2019rus trail consider life with\u2014or without\u2014water.\u201d The bottom left corner of the sign shows a Prickly Pear Cactus (scientific name Opuntia phaecantha) with dark-green spiked flat pads and three bright-yellow blooms. \u201cThe sharp spines of a cactus are believed to have evolved from leaves and serve a dual purpose \u2013 protecting the cactus from hungry critters and limiting water loss with reduced surface area.\u201d Next to the cactus is a light-green, rounded Fremont Cottonwood leaf (scientific name Populus fremontii.) The caption reads, \u201cOn a hot summer day, the cottonwood\u2019s branches create shade and cooler temperatures. These native trees thrive where there is water and are found lining the river. They offer shelter and food to many animals and help stabilize riverbanks.\u201d At the center of the page, a 2-inch-long Virgin Spinedace fish with shiny scales is shown (scientific name Lepidomeda mollispinins). The caption reads, \u201cThis medium-sized silvery minnow was once found throughout the Virgin River. Due to habitat fragmentation, introduction of non-native species, and water demands, it is now found only in protected areas like Zion National Park. One of four native fish in the park, it is well adapted to the changing river temperatures and flood prone and sediment-laden rivers of Zion.\u201d The bottom right corner of the sign has a 4-inch-long mottled brown lizard with a blue belly standing up on its hind legs. Its long toes grip a reddish sandstone rock and its long, narrow tail hangs down. Its front feet are against a taller sandstone rock. It is identified as a Plateau Lizard (scientific name Sceloporus tristichus). The caption reads, \u201cReptiles are ectotherms (or cold-blooded) and need to soak up the sun to warm their bodies so they can scurry away from predators and after prey. Much of their hydration is obtained from the insects and spiders they consume which allows them to live away from water sources.\u201d",
-      "isPassportStampLocation": "0",
-      "passportStampLocationDescription": "",
-      "passportStampImages": [],
-      "managedByUrl": "",
-      "isOpenToPublic": "1",
-      "isMapPinHidden": "1",
-      "npmapId": "",
-      "geometryPoiId": "",
-      "isManagedByNps": "1",
-      "amenities": [
-        "Historical/Interpretive Information/Exhibits",
-        "Pets Allowed",
-        "Scenic View/Photo Spot",
-        "Wheelchair Accessible"
-      ],
-      "managedByOrg": "",
-      "quickFacts": [
-        {
-          "id": "5C252B96-2DEB-4EF4-91D1-B5D2B202FCD7",
-          "value": "Pa'rus Trail",
-          "name": "Location"
-        }
-      ],
-      "location": "",
-      "locationDescription": "",
-      "credit": "",
-      "multimedia": [
-        {
-          "title": "Pa'rus A Living Canyon",
-          "id": "80DC2D28-D5F9-4FE0-B186-A42C532B3AE9",
-          "type": "multimedia/videos",
-          "url": "https://www.nps.gov/media/video/view.htm?id=80DC2D28-D5F9-4FE0-B186-A42C532B3AE9"
-        }
-      ],
       "relevanceScore": 1.0
     },
     {
@@ -1274,106 +1103,6 @@
       "relevanceScore": 1.0
     },
     {
-      "id": "C8D83FE9-28CA-45C5-8F02-980F4D847417",
-      "url": "https://www.nps.gov/places/zion-lodge.htm",
-      "title": "The Zion Lodge",
-      "listingDescription": "The Zion Lodge is located in the heart of Zion Canyon and offers unparalleled views of the towering sandstone cliffs. The Zion Lodge provides the only lodging with a variety of accommodations and is also the only place inside Zion to eat with an onsite restaurant.",
-      "images": [
-        {
-          "url": "https://www.nps.gov/common/uploads/cropped_image/447AE2DE-CE0E-E9AF-5E7CAA3429AF5173.jpg",
-          "credit": "NPS/Abi Farish",
-          "altText": "Photo of a brown building with a large grassy lawn in front of it, and mountains behind.",
-          "title": "The Zion Lodge",
-          "description": "",
-          "caption": "The historic Zion Lodge is the only lodging in Zion National Park.",
-          "crops": [
-            {
-              "aspectRatio": "1.78",
-              "url": "https://www.nps.gov/common/uploads/cropped_image/primary/447AE2DE-CE0E-E9AF-5E7CAA3429AF5173.jpg"
-            },
-            {
-              "aspectRatio": "1.33",
-              "url": "https://www.nps.gov/common/uploads/cropped_image/secondary/447AE2DE-CE0E-E9AF-5E7CAA3429AF5173.jpg"
-            }
-          ]
-        }
-      ],
-      "relatedParks": [
-        {
-          "states": "UT",
-          "parkCode": "zion",
-          "designation": "National Park",
-          "fullName": "Zion National Park",
-          "url": "https://www.nps.gov/zion/index.htm",
-          "name": "Zion"
-        }
-      ],
-      "relatedOrganizations": [],
-      "tags": [
-        "Zion",
-        "Zion Canyon",
-        "zion canyon scenic drive",
-        "shuttle",
-        "zion lodge",
-        "lodging",
-        "shuttle bus",
-        "Shuttle Stop",
-        "trailhead",
-        "emerald pools",
-        "sand bench trail",
-        "food",
-        "Gift Shop",
-        "restaurant",
-        "Cafe"
-      ],
-      "latitude": "37.251474",
-      "longitude": "-112.955772",
-      "latLong": "37.251474,-112.955772",
-      "bodyText": "<h2>Zion Lodge</h2> <p>The Zion Lodge is located in the heart of Zion Canyon and offers unparalleled views of the towering sandstone cliffs. The lodge has a variety of accommodations and is the only place inside Zion to eat; either in the main dining room (Red Rock Grill) or at the Castle Dome Caf\u00e9 (open seasonally). For more information about eating, visiting, or staying at the Zion Lodge, please visit their website at\u00a0<a href=\"http://www.zionlodge.com/\">www.zionlodge.com</a>\u00a0or call 435 772-7700.</p> <h4>Zion Lodge History</h4> <p><br /> In the early days of the National Park Service, railroad companies were often the catalyst for the creation or improvement of park accommodations. For Zion, that railroad was the Utah Parks Company, a subsidiary of the Union Pacific Railroad. With the completion of a railroad spur line to nearby Cedar City in 1923, visitors now had an easy and comfortable way to get to Zion. The next step was to provide lodging that complimented the world-class scenery.<br /> <br /> While initial designs of the lodge called for enormity and immensity, park officials ultimately determined that a lodge in the narrow canyon should better harmonize with the landscape and scale of the surroundings. Gilbert Stanley Underwood \u2013 a frequent architect of numerous national park lodges \u2013 was up to the challenge. Using 265,000 board feet of lumber brought down from the plateau by the Cable Mountain Draw Works, the Utah Parks Company designed a main lodge building that was inviting and exuded warmth. The Zion Lodge was completed in May of 1925, and was later complimented with a series of stand-alone cabins nestled nearby. These improvements signaled an important milestone in a visit to Zion National Park.<br /> <br /> The main lodge building stood for over 40 years until it was consumed by a fire on January 26, 1966. A mere 108 days after the fire, a new prefabricated building was up and operating. This quick turn-around speaks volumes about the significance that the Zion Lodge had garnered in the story of Zion National Park.<br /> <br /> Whether you're looking for a shady respite from the heat or hoping to dine among a majestic backdrop, the Zion Lodge is a beautiful place to stop. Visitors can even attend\u00a0<a href=\"https://www.nps.gov/zion/planyourvisit/ranger-led-activities.htm\">ranger-led activities</a>\u00a0at the lodge, a service that started back in 1935. For many, the Zion Lodge has become a hallmark of a visit to the area, and occupies an important place in the history of Zion National Park.</p> <h4>Trails accessed from here:</h4> <ul> <li> <p>The Grotto Trail</p> </li> <li>Sand Bench Trail</li> <li>Emerald Pools Trails: Upper, Middle, and Lower Emerald Pools can all be accessed via the trailhead across the road from the Lodge</li> </ul> <h4>Shuttle Service</h4> <p>When the\u00a0<a href=\"https://www.nps.gov/zion/planyourvisit/zion-canyon-shuttle-system.htm\">Zion Canyon Shuttle Bus</a>\u00a0is running, the Zion Lodge is shuttle stop #5 at the end of the canyon.\u00a0</p>",
-      "audioDescription": "The Lodge is located in the bottom of Zion Canyon, near the steep canyon walls that extend high above. A two story wood and stone structure with large square stone columns out front sheltering a patio with rocking chairs. The Lodge has a large lawn with a giant cottonwood tree in the middle that casts cooling shade in summer, making it a comfortable spot to relax. To the south, several other similar structures are built to house the hotel rooms and smaller rustic cabins.",
-      "isPassportStampLocation": "0",
-      "passportStampLocationDescription": "",
-      "passportStampImages": [],
-      "managedByUrl": "https://www.zionlodge.com/",
-      "isOpenToPublic": "1",
-      "isMapPinHidden": "0",
-      "npmapId": "",
-      "geometryPoiId": "",
-      "isManagedByNps": "0",
-      "amenities": [
-        "Bus/Shuttle Stop",
-        "Food/Drink - Coffee",
-        "Food/Drink - Ice Cream",
-        "Food/Drink - Restaurant/Table Service",
-        "Gifts/Souvenirs/Books",
-        "Grill",
-        "Restroom",
-        "Restroom - Accessible",
-        "Toilet - Flush",
-        "Trailhead",
-        "Trash/Litter Receptacles",
-        "Water - Bottle-Filling Station"
-      ],
-      "managedByOrg": "Xanterra",
-      "quickFacts": [
-        {
-          "id": "5C252B96-2DEB-4EF4-91D1-B5D2B202FCD7",
-          "value": "Zion Canyon",
-          "name": "Location"
-        },
-        {
-          "id": "E32D2136-A184-4C1A-91D2-4C20CEF9CBAF",
-          "value": "National Register of Historic Places",
-          "name": "Designation"
-        }
-      ],
-      "location": "",
-      "locationDescription": "",
-      "credit": "",
-      "multimedia": [],
-      "relevanceScore": 1.0
-    },
-    {
       "id": "F4434A7D-176B-4388-9290-E7456BE94DCE",
       "url": "https://www.nps.gov/places/weeping-rock.htm",
       "title": "Weeping Rock",
@@ -1673,7 +1402,727 @@
       "credit": "",
       "multimedia": [],
       "relevanceScore": 1.0
+    },
+    {
+      "id": "71BB3562-AC4B-438D-94E0-784C0671C6C7",
+      "url": "https://www.nps.gov/thingstodo/weeping-rock.htm",
+      "title": "Weeping Rock",
+      "shortDescription": "Short but steep! From the parking area, you'll cross the bridge and head to the left onto a paved trail to Weeping Rock. Along the way, look for small trailside exhibits and watch for minor drop-offs. The trail ends at a set of steps leading you to a rock alcove with dripping springs.",
+      "images": [
+        {
+          "url": "https://www.nps.gov/common/uploads/cropped_image/CB137FB1-BD88-59D0-BAF97CE53CE3EC59.jpg",
+          "credit": "NPS/Abi Farish",
+          "altText": "A large, arch shaped alcove streaked with dark shades of orange on red rock.",
+          "title": "Weeping Rock",
+          "description": "",
+          "caption": "View of Weeping Rock from above",
+          "crops": [
+            {
+              "aspectRatio": "1.78",
+              "url": "https://www.nps.gov/common/uploads/cropped_image/primary/CB137FB1-BD88-59D0-BAF97CE53CE3EC59.jpg"
+            },
+            {
+              "aspectRatio": "1",
+              "url": "https://www.nps.gov/common/uploads/cropped_image/secondary/CB137FB1-BD88-59D0-BAF97CE53CE3EC59.jpg"
+            }
+          ]
+        }
+      ],
+      "relatedParks": [
+        {
+          "states": "UT",
+          "parkCode": "zion",
+          "designation": "National Park",
+          "fullName": "Zion National Park",
+          "url": "https://www.nps.gov/zion/index.htm",
+          "name": "Zion"
+        }
+      ],
+      "relatedOrganizations": [],
+      "tags": [
+        "Weeping Rock",
+        "Spring",
+        "seep",
+        "hanging garden",
+        "Zion National Park",
+        "short hike",
+        "Easy hike",
+        "Steep",
+        "water"
+      ],
+      "latitude": "",
+      "longitude": "",
+      "geometryPoiId": "",
+      "amenities": [],
+      "location": "Weeping Rock Trailhead",
+      "seasonDescription": "",
+      "accessibilityInformation": "Short but steep paved trail that gains 98ft (30m) of elevation in 0.4mi (0.6km). Minor drop-offs. Trail includes several stairs.",
+      "isReservationRequired": "false",
+      "ageDescription": "",
+      "petsDescription": "Pets are not allowed on any trail other than the Pa'rus Trail.",
+      "timeOfDayDescription": "",
+      "feeDescription": "Park entrance fees apply.",
+      "age": "",
+      "arePetsPermittedWithRestrictions": "false",
+      "activities": [
+        {
+          "id": "BFF8C027-7C8F-480B-A5F8-CD8CE490BFBA",
+          "name": "Hiking"
+        }
+      ],
+      "activityDescription": "",
+      "locationDescription": "<h4><strong><span style=\"color:#c0392b;\">AREA CURRENTLY CLOSED DUE TO ROCKFALL</span></strong></h4> <p><span style=\"color:#000000;\">Weeping Rock Trailhead, Shuttle Stop 7</span></p>",
+      "doFeesApply": "false",
+      "longDescription": "<p><span style=\"color: rgb(70, 70, 70); font-family: arial, helvetica, sans-serif; font-size: 14px; font-weight: normal; text-align: var(--bs-body-text-align);\">Short but steep! From the parking area, you'll cross the bridge and head to the left onto a paved trail to Weeping Rock. Along the way, look for small trailside exhibits and watch for minor drop-offs. The trail ends at a set of steps leading you to a rock alcove with dripping springs.</span><br /> <br /> Pit toilets are available at the parking area.</p>",
+      "reservationDescription": "",
+      "season": [
+        "Winter",
+        "Spring",
+        "Summer",
+        "Fall"
+      ],
+      "topics": [
+        {
+          "id": "5BE55D7F-BDB6-4E3D-AC35-2D8EBB974417",
+          "name": "Trails"
+        }
+      ],
+      "durationDescription": "",
+      "arePetsPermitted": "false",
+      "timeOfDay": [
+        "Day",
+        "Night",
+        "Dawn",
+        "Dusk"
+      ],
+      "duration": "15-45 Minutes",
+      "credit": "",
+      "relevanceScore": 1.0
+    },
+    {
+      "id": "9D7B17DE-663C-4A85-A09D-183C71E5EE96",
+      "url": "https://www.nps.gov/thingstodo/timber-creek-overlook.htm",
+      "title": "Timber Creek Overlook",
+      "shortDescription": "Follows a ridge to views of Timber Creek, Kolob Terrace, and the Pine Valley Mountains.",
+      "images": [
+        {
+          "url": "https://www.nps.gov/common/uploads/cropped_image/670F9B1A-A06D-8B7D-EC7FFF38D457B589.jpg",
+          "credit": "NPS/Bryanna Plog",
+          "altText": "Red sandstone rocks with three hikers standing on them looking out over a valley. Blue, cloudy sky.",
+          "title": "Timber Creek Overlook",
+          "description": "",
+          "caption": "View from the Timber Creek Overlook.",
+          "crops": [
+            {
+              "aspectRatio": "1.78",
+              "url": "https://www.nps.gov/common/uploads/cropped_image/primary/670F9B1A-A06D-8B7D-EC7FFF38D457B589.jpg"
+            },
+            {
+              "aspectRatio": "1",
+              "url": "https://www.nps.gov/common/uploads/cropped_image/secondary/670F9B1A-A06D-8B7D-EC7FFF38D457B589.jpg"
+            }
+          ]
+        }
+      ],
+      "relatedParks": [
+        {
+          "states": "UT",
+          "parkCode": "zion",
+          "designation": "National Park",
+          "fullName": "Zion National Park",
+          "url": "https://www.nps.gov/zion/index.htm",
+          "name": "Zion"
+        }
+      ],
+      "relatedOrganizations": [],
+      "tags": [
+        "Zion",
+        "Kolob Canyons",
+        "timber creek overlook",
+        "overlook",
+        "viewpoint",
+        "Zion National Park",
+        "out and back",
+        "Easy hike",
+        "family hike",
+        "hiking"
+      ],
+      "latitude": "37.4355110105",
+      "longitude": "-113.201933722",
+      "geometryPoiId": "947583a2-3aed-4ec9-bcc4-fea434e53767",
+      "amenities": [],
+      "location": "Timber Creek Overlook Trailhead",
+      "seasonDescription": "",
+      "accessibilityInformation": "<ul> <li><b>Length (one way)\u00a0\u00a0|\u00a0\u00a0</b>0.6 mi (1 km)</li> <li><b>Elevation\u00a0\u00a0|\u00a0\u00a0</b>Gain:\u00a0117.3 ft (35.8 m)<b> | </b>Loss:\u00a0103.2 ft (31.5 m)</li> <li><b>Grade\u00a0\u00a0|\u00a0\u00a0</b>Typical: 6.8%<b>\u00a0\u00a0|\u00a0\u00a0</b>Maximum: 38%<b>\u00a0\u00a0|</b>\u00a031 % of the trail is at an 8.3% or higher grade.</li> <li><b>Cross Slope\u00a0\u00a0|\u00a0\u00a0</b>Typical: 4%<b>\u00a0\u00a0|\u00a0\u00a0</b>Maximum: 27.2%</li> <li><b>Tread Width\u00a0\u00a0|\u00a0\u00a0</b>Typical: 54 in (137.8 cm)<b> |\u00a0\u00a0</b>Minimum:\u00a06 in (15.2 cm)</li> <li><b>Surface\u00a0\u00a0|\u00a0\u00a0</b>98.8% of the trail is firm soil, and 1.2% is hard rock.</li> <li><b>Obstructions\u00a0\u00a0|\u00a0\u00a0</b>Steps up to 18 in (45.7 cm) tall, with 0 in of remaining tread<b>\u00a0\u00a0| \u00a0</b>Boulders making 12-in-long (30.5 cm) area where tread is 6 in (15.2 cm) wide. 30 in (76.2 cm) of remaining tread.<b>\u00a0|\u00a0</b>The dirt trail is often muddy when wet.</li> </ul> <p><i>Last assessed on March 31, 2025. Obstructions less than 7 in (17.8 cm) tall, or outside the tread area of 12 in (30.5 cm) wide by 96 in (243.8 cm) high, were not reported.</i></p>",
+      "isReservationRequired": "false",
+      "ageDescription": "",
+      "petsDescription": "Pets are not allowed on any trails in Kolob Canyons.",
+      "timeOfDayDescription": "",
+      "feeDescription": "Park entrance fees apply.\u00a0",
+      "age": "",
+      "arePetsPermittedWithRestrictions": "false",
+      "activities": [
+        {
+          "id": "BFF8C027-7C8F-480B-A5F8-CD8CE490BFBA",
+          "name": "Hiking"
+        }
+      ],
+      "activityDescription": "",
+      "locationDescription": "From the Kolob Canyons Visitor Center, follow the Kolob Canyons Road to the very end. This is where the Timber Creek Overlook Trailhead and parking area is.\u00a0<br /> <br /> Restrooms available at trailhead. Water available at Visitor Center.\u00a0",
+      "doFeesApply": "false",
+      "longDescription": "The Timber Creek Overlook Trail\u00a0is a short, relatively easy trail that follows a rocky ridge with minimal elevation gain, making it perfect for a quick walk to a stunning viewpoint.\u00a0A small picnic area is located a short distance from the trailhead. Unlike other trails in the area, large groups (of 12 or more people) are allowed to hike on this trail.<br /> <br /> Once you reach the overlook, you will be rewarded with views of Shuntavi Butte, Timber Creek, Kolob Terrace, and the Pine Valley Mountains.\u00a0Looking south on the far horizon, visitors may see Mount Trumbull, 100 miles away at the north rim of the Grand Canyon.<br /> <br /> During the spring and early summer months, the Timber Creek Overlook Trail is covered in a beautiful display of desert wildflowers.",
+      "reservationDescription": "",
+      "season": [
+        "Winter",
+        "Spring",
+        "Summer",
+        "Fall"
+      ],
+      "topics": [
+        {
+          "id": "5BE55D7F-BDB6-4E3D-AC35-2D8EBB974417",
+          "name": "Trails"
+        }
+      ],
+      "durationDescription": "",
+      "arePetsPermitted": "false",
+      "timeOfDay": [
+        "Day",
+        "Night",
+        "Dawn",
+        "Dusk"
+      ],
+      "duration": "30-60 Minutes",
+      "credit": "",
+      "relevanceScore": 1.0
+    },
+    {
+      "id": "7D4532B5-C565-4849-A987-F40D6DDD2B91",
+      "url": "https://www.nps.gov/thingstodo/hike-sand-bench.htm",
+      "title": "Sand Bench",
+      "shortDescription": "The Sand Bench Trail travels atop the remains of an ancient rockfall. This trail leads hikers along the Virgin River and then ascends a landslide that dammed the Virgin River 8,000 years ago and created a lake that extended to Angels Landing. This trail is a commercial horse trail from March to October, and it receives little shade in the hot, summer sun. Winter travel is possible, but watch for patches of ice.",
+      "images": [
+        {
+          "url": "https://www.nps.gov/common/uploads/cropped_image/59D455C0-F4B1-2FE8-975E750A09DFD5AD.jpg",
+          "credit": "NPS/ Darcy McKinley Lester",
+          "altText": "A cloudy blue sky over red sandstone mountains, with green foliage dotting their foothills.",
+          "title": "Sand Bench Trail",
+          "description": "",
+          "caption": "The Sand Bench Trail has excellent view of many Zion landmarks.",
+          "crops": [
+            {
+              "aspectRatio": "1.78",
+              "url": "https://www.nps.gov/common/uploads/cropped_image/primary/59D455C0-F4B1-2FE8-975E750A09DFD5AD.jpg"
+            },
+            {
+              "aspectRatio": "1",
+              "url": "https://www.nps.gov/common/uploads/cropped_image/secondary/59D455C0-F4B1-2FE8-975E750A09DFD5AD.jpg"
+            }
+          ]
+        }
+      ],
+      "relatedParks": [
+        {
+          "states": "UT",
+          "parkCode": "zion",
+          "designation": "National Park",
+          "fullName": "Zion National Park",
+          "url": "https://www.nps.gov/zion/index.htm",
+          "name": "Zion"
+        }
+      ],
+      "relatedOrganizations": [],
+      "tags": [
+        "hike",
+        "day hike",
+        "loop hike",
+        "out and back",
+        "Horse Trail",
+        "sand bench trail",
+        "Zion Canyon"
+      ],
+      "latitude": "37.2510388558",
+      "longitude": "-112.958668719",
+      "geometryPoiId": "b744d53b-74a6-4f82-bdb7-ec7f4a2c958e",
+      "amenities": [],
+      "location": "Emerald Pools Trailhead",
+      "seasonDescription": "Seasonal commercial horse tours are available from March to October. These tours are offered through a <a href=\"https://www.canyonrides.com/horseback-riding-zion-national-park/\">concessioner</a>.",
+      "accessibilityInformation": "<h4><b>From Court of the Patriarchs to Zion Lodge</b></h4> <ul> <li><b>Length (one way)\u00a0\u00a0|\u00a0\u00a0</b>1.5 (2.4 km)</li> <li><b>Elevation\u00a0\u00a0|\u00a0\u00a0</b>Gain:\u00a0206.7 ft (63.0 m)<b> | </b>Loss:\u00a0235.2 ft (71.7 m)</li> <li><b>Grade\u00a0\u00a0|\u00a0\u00a0</b>Typical: 5.5%<b>\u00a0\u00a0|\u00a0\u00a0</b>Maximum: 32.3%<b>\u00a0\u00a0| </b>22.7% of the trail is at an 8.3% or higher grade.</li> <li><b>Cross Slope\u00a0\u00a0|\u00a0\u00a0</b>Typical: 3.8%<b>\u00a0\u00a0|\u00a0\u00a0</b>Maximum: 23.1%</li> <li><b>Tread Width\u00a0\u00a0|\u00a0\u00a0</b>Typical: 60 in (153.5 cm)<b> |\u00a0\u00a0</b>Minimum:\u00a015 in (38.1 cm)</li> <li><b>Surface\u00a0\u00a0|\u00a0\u00a0</b>84.3% of the trail is firm soil, 10.3% is very soft sand, 3.9% is soft sand, and 1.5% is hard rock.</li> <li><b>Obstructions\u00a0\u00a0|\u00a0\u00a0</b>Bridge 45 in (114.3 cm) wide<b>\u00a0\u00a0|\u00a0\u00a0</b>Steps up to 9 in (22.9 cm) tall</li> </ul> <h4><b>Loop Trail from Court of the Patriarchs</b></h4> <ul> <li><b>Length (round-trip)\u00a0\u00a0|\u00a0\u00a0</b>3.9 mi (6.3 km)</li> <li><b>Elevation\u00a0\u00a0|\u00a0\u00a0</b>Gain:\u00a01037.6 ft (316.2 m)<b> | </b>Loss:\u00a0748 ft (228.0 m)</li> <li><b>Grade\u00a0\u00a0|\u00a0\u00a0</b>Typical: 8.7%<b>\u00a0\u00a0|\u00a0\u00a0</b>Maximum: 36%<b>\u00a0\u00a0|\u00a0</b> 35.6% of the trail is at a 10% or higher grade.</li> <li><b>Cross Slope\u00a0\u00a0|\u00a0\u00a0</b>Typical: 3.6%<b>\u00a0\u00a0|\u00a0\u00a0</b>Maximum: 22.8%</li> <li><b>Tread Width\u00a0\u00a0|\u00a0\u00a0</b>Typical: 46 in (116.9 cm)<b> |\u00a0\u00a0</b>Minimum:\u00a06 in (15.2 cm)</li> <li><b>Surface\u00a0\u00a0|\u00a0\u00a0</b>7.7% of the trail is hard rock, 19.3% is firm soil, 6.4% is soft soil, and 66.6% is very soft sand.</li> <li><b>Obstructions\u00a0\u00a0|\u00a0\u00a0</b>Bridge 45 in (114.3 cm) wide<b>\u00a0\u00a0|\u00a0\u00a0</b>Creek crossing: Water level changes seasonally. Crossing through shallow water may be required.\u00a0<b>\u00a0|\u00a0\u00a0</b>Steps\u00a0up to 21 in (53.3 cm) tall, with 0 in remaining tread</li> </ul> <h4>\u00a0</h4> <p><a><i>Last assessed on March 19, 2025. Obstructions less than 7 in (17.8 cm) tall, or outside the tread area of 20 in (50.8 cm) wide by 96 in (243.8 cm) high, were not reported.</i></a></p>",
+      "isReservationRequired": "false",
+      "ageDescription": "",
+      "petsDescription": "",
+      "timeOfDayDescription": "",
+      "feeDescription": "Park entrance fees apply.",
+      "age": "",
+      "arePetsPermittedWithRestrictions": "false",
+      "activities": [
+        {
+          "id": "BFF8C027-7C8F-480B-A5F8-CD8CE490BFBA",
+          "name": "Hiking"
+        }
+      ],
+      "activityDescription": "",
+      "locationDescription": "The Sand Bench Trail is primarily accessible from the Emerald Pools Trailhead at the Zion Lodge (shuttle stop #5).\u00a0Follow the sidewalk past the lodge lawn to the crosswalk. Cross the road then continue over the bridge. From that point, take a left turn to begin the Sand Bench Trail. This is also where you can access Middle Emerald Pools Trail.<br /> <br /> Sand Bench is also accessible from the Court of the Patriarchs (shuttle stop #4). From the up-canyon shuttle stop, cross the road to the wooden steps leading down to a sandy trail. At that point, hikers have the option to head up-canyon towards the Zion Lodge by taking a right turn, or continue back towards the Court of the Patriarchs to ascend the longer loop portion of the trail. Hiking only the loop portion of the trail makes the roundtrip closer to 5 miles (8 km).",
+      "doFeesApply": "false",
+      "longDescription": "The Sand Bench Trail travels atop the remains of an ancient rockfall. This trail leads hikers along the Virgin River and then ascends a landslide that dammed the Virgin River 8,000 years ago and created a lake that extended to Angels Landing. This trail is a commercial horse trail from March to October, and it receives little shade in the hot, summer sun. Winter travel is possible, but watch for patches of ice.<br /> <br /> Water and restrooms are available at <a href=\"https://www.nps.gov/places/zion-lodge.htm\">The Zion Lodge</a>.\u00a0",
+      "reservationDescription": "",
+      "season": [
+        "Winter",
+        "Spring",
+        "Summer",
+        "Fall"
+      ],
+      "topics": [
+        {
+          "id": "5BE55D7F-BDB6-4E3D-AC35-2D8EBB974417",
+          "name": "Trails"
+        }
+      ],
+      "durationDescription": "",
+      "arePetsPermitted": "false",
+      "timeOfDay": [
+        "Day",
+        "Night",
+        "Dawn",
+        "Dusk"
+      ],
+      "duration": "1-4 Hours",
+      "credit": "",
+      "relevanceScore": 1.0
+    },
+    {
+      "id": "97CF105C-B416-4CDC-B84F-2A2C96D870DB",
+      "url": "https://www.nps.gov/thingstodo/hike-canyon-overlook.htm",
+      "title": "Canyon Overlook",
+      "shortDescription": "Long drop-offs, mostly fenced. Rocky and uneven trail ends at a viewpoint for Pine Creek Canyon and lower Zion Canyon. To enter or exit the parking area just east of the tunnel, you must turn right. Parking is extremely limited, be prepared to try multiple times. Pit toilets are available in the parking area.",
+      "images": [
+        {
+          "url": "https://www.nps.gov/common/uploads/cropped_image/EB34DB47-9EBF-94FA-749C688629AD3876.jpg",
+          "credit": "NPS/Daren Reehl",
+          "altText": "Red sandstone slickrock dotted with green foliage with mountains in the background.",
+          "title": "Canyon Overlook",
+          "description": "",
+          "caption": "View looking towards the end of the Canyon Overlook Trail and the Towers and Temples of the Virgin",
+          "crops": [
+            {
+              "aspectRatio": "1.78",
+              "url": "https://www.nps.gov/common/uploads/cropped_image/primary/EB34DB47-9EBF-94FA-749C688629AD3876.jpg"
+            },
+            {
+              "aspectRatio": "1",
+              "url": "https://www.nps.gov/common/uploads/cropped_image/secondary/EB34DB47-9EBF-94FA-749C688629AD3876.jpg"
+            }
+          ]
+        }
+      ],
+      "relatedParks": [
+        {
+          "states": "UT",
+          "parkCode": "zion",
+          "designation": "National Park",
+          "fullName": "Zion National Park",
+          "url": "https://www.nps.gov/zion/index.htm",
+          "name": "Zion"
+        }
+      ],
+      "relatedOrganizations": [],
+      "tags": [
+        "Zion",
+        "East Side of the Park",
+        "Canyon Overlook",
+        "moderate hike",
+        "Zion National Park",
+        "viewpoint",
+        "out and back"
+      ],
+      "latitude": "37.21305420753267",
+      "longitude": "-112.94102381538823",
+      "geometryPoiId": "2504667f-1cfc-4d3a-9d7d-4ecfb8ec2575",
+      "amenities": [],
+      "location": "Canyon Overlook Trailhead",
+      "seasonDescription": "",
+      "accessibilityInformation": "<ul> <li><b>Lengt</b><strong>h (one way) |\u00a0\u00a0</strong>0.5 mi (0.8 km)</li> <li><b>Elevation |\u00a0\u00a0</b>Gain:\u00a0154.2 ft (47.0 m) |\u00a0Loss: 48.5 ft (14.78 m)</li> <li><b>Grade |\u00a0\u00a0</b>Typical: 7.6% | Maximum: 50.4% | 23.9% of the trail is at a 10% or higher grade.</li> <li><b>Cross Slope |\u00a0\u00a0</b>Typical: 4.9% | Maximum: 36.4%</li> <li><b>Tread Width |\u00a0\u00a0</b>Typical: 48 in (122.4 cm) | Minimum: 12 in (30.5 cm)</li> <li><b>Surface |\u00a0\u00a0</b>73.8% of the trail is hard rock, 18.0% is firm soil, and 8.2% is soft sand</li> <li><b>Obstructions |\u00a0\u00a0</b>118.9 ft (36.2 m)\u00a0of o<a>verhanging rocks with an a</a>verage vertical clearance of 7ft (2.1 m), minimum vertical clearance of\u00a04 ft (1.2 m),\u00a0and 30 in (76.2 cm) of remaining tread. <strong>\u00a0|\u00a0\u00a0</strong>Staircases with steps up to 18 in (45.7 cm) tall and 0 in of remaining tread\u00a0<strong> |\u00a0\u00a0</strong>Boulders up to 12 in (30.5 cm) tall and 0 in of remaining tread</li> </ul> <p><a><i>Last assessed February 20, 2025. Obstructions less than 4 in (10.2 cm) or outside of the tread area 36 in (91.4 cm) wide by 96 in (243.8 cm) high were not reported.</i></a></p>",
+      "isReservationRequired": "false",
+      "ageDescription": "",
+      "petsDescription": "",
+      "timeOfDayDescription": "",
+      "feeDescription": "Park entrance fees apply.",
+      "age": "",
+      "arePetsPermittedWithRestrictions": "false",
+      "activities": [
+        {
+          "id": "BFF8C027-7C8F-480B-A5F8-CD8CE490BFBA",
+          "name": "Hiking"
+        }
+      ],
+      "activityDescription": "",
+      "locationDescription": "Canyon Overlook Trailhead is located on the East Side of Zion. Follow State Route 9 through the Zion-Mount Carmel Tunnel to the trailhead. Parking is limited.\u00a0",
+      "doFeesApply": "false",
+      "longDescription": "Canyon Overlook Trail is a moderate, 1 mi (1.6 km) trail on the East Side of Zion. The path begins with a series of sandstone steps with a metal handrail leading visitors over rocky terrain above a dark slot canyon. Near the end of the trail, the view opens up to an expanse of red and cream-colored slickrock. The end of the trail is marked by a fenced cliff edge facing the main Zion Canyon, with excellent views of the Towers of the Virgin. Keep an eye out for bighorn sheep along the trail.<br /> \u00a0 <p>Parking is extremely limited, be prepared to try mulitple times. Pit toilets are available in the parking area.</p> <br /> \u00a0",
+      "reservationDescription": "",
+      "season": [
+        "Winter",
+        "Spring",
+        "Summer",
+        "Fall"
+      ],
+      "topics": [
+        {
+          "id": "5BE55D7F-BDB6-4E3D-AC35-2D8EBB974417",
+          "name": "Trails"
+        }
+      ],
+      "durationDescription": "",
+      "arePetsPermitted": "false",
+      "timeOfDay": [
+        "Day",
+        "Night",
+        "Dawn",
+        "Dusk"
+      ],
+      "duration": "1-2 Hours",
+      "credit": "",
+      "relevanceScore": 1.0
+    },
+    {
+      "id": "45BE55DA-0E56-4CF7-9DFA-651EEAB97E15",
+      "url": "https://www.nps.gov/thingstodo/stargazing-in-zion.htm",
+      "title": "Stargazing in Zion",
+      "shortDescription": "Zion is a great place to connect with the night sky, whether you are an avid astrophotographer or this will be your first view of the Milky Way. As an International Dark Sky Park, Zion\u00a0protects our incredible dark skies\u00a0for present and future generations by not degrading the night with artificial light. This means that after sunset, the park is very dark. Be prepared!",
+      "images": [
+        {
+          "url": "https://www.nps.gov/common/uploads/cropped_image/726883B1-A902-E457-F4EB93B2E304384E.jpg",
+          "credit": "NPS/Salah Ahmed",
+          "altText": "Black silhouette of a triangular mountain under a dark sky full of stars.",
+          "title": "Milky Way over Bridge Mountain",
+          "description": "",
+          "caption": "The Milky Way can be seen over Zion Canyon in the summer.",
+          "crops": [
+            {
+              "aspectRatio": "1.78",
+              "url": "https://www.nps.gov/common/uploads/cropped_image/primary/726883B1-A902-E457-F4EB93B2E304384E.jpg"
+            },
+            {
+              "aspectRatio": "1",
+              "url": "https://www.nps.gov/common/uploads/cropped_image/secondary/726883B1-A902-E457-F4EB93B2E304384E.jpg"
+            }
+          ]
+        }
+      ],
+      "relatedParks": [
+        {
+          "states": "UT",
+          "parkCode": "zion",
+          "designation": "National Park",
+          "fullName": "Zion National Park",
+          "url": "https://www.nps.gov/zion/index.htm",
+          "name": "Zion"
+        }
+      ],
+      "relatedOrganizations": [],
+      "tags": [
+        "stargazing",
+        "astronomy",
+        "astrophotography",
+        "astrotourism",
+        "star gazing",
+        "night sky",
+        "International Dark Sky Park",
+        "international dark sky place",
+        "After Dark in the Park",
+        "dark sky parks"
+      ],
+      "latitude": "37.2095431601",
+      "longitude": "-112.980319726",
+      "geometryPoiId": "6b8a0908-eb2c-426f-8d76-5cee281e5f28",
+      "amenities": [],
+      "location": "Zion Human History Museum Patio",
+      "seasonDescription": "",
+      "accessibilityInformation": "The Zion Human History Museum patio is ADA accessible. Seating is available.<br /> <br /> All recommended stargazing locations are maintained with little to no slope or elevation change. Most are paved.<br /> <br /> The view from Lava Point Overlook can be accessed either from the parking area or by following a short, flat, unpaved trail to a fenced overlook.\u00a0",
+      "isReservationRequired": "false",
+      "ageDescription": "",
+      "petsDescription": "Pets are allowed, on leash, on roadways, campgrounds, the Museum patio, and on the Pa'rus Trail.\u00a0",
+      "timeOfDayDescription": "",
+      "feeDescription": "Park entrance fees apply.\u00a0",
+      "age": "",
+      "arePetsPermittedWithRestrictions": "true",
+      "activities": [
+        {
+          "id": "D37A0003-8317-4F04-8FB0-4CF0A272E195",
+          "name": "Stargazing"
+        }
+      ],
+      "activityDescription": "Experience the wonder of the night sky among towering cliffs, rugged slickrock, and expansive plateaus throughout Zion National Park.\u00a0<br /> <br /> Zion protects dark skies by only using artificial lighting when and where needed. This means that the park is very dark after sunset. Be prepared: <ul> <li><em>Check the moon phase.</em> The light of the moon makes it difficult to see some features of the night sky, like the Milky Way. Plan to stargaze before the moon rises or after the moon sets.</li> <li><em>Pack stargazing essentials.</em> Bring extra layers, food and water, and red lights. Do not use white light because it will ruin your night vision.</li> <li><em>Wait for full dark. </em>The night sky is darkest 1.5 hours after sunset until 1.5 hours before sunrise.</li> <li><em>Give your eyes time to adjust. </em>Spend 20-30 minutes without looking at any white light, including cellphone and camera screens. You\u2019ll be amazed how many more stars are visible!</li> </ul>",
+      "locationDescription": "You can enjoy dark night skies throughout Zion National Park! While you are stargazing, please stay on trails and in parking areas, pack out your trash, and reduce your noise. The park does not close at night, but some areas may not be accessible year-round.\u00a0<br /> \u00a0 <table border=\"1\" cellpadding=\"1\" cellspacing=\"1\" style=\"width:500px;\"> <tbody> <tr> <td><strong>Zion Canyon</strong><br /> Pa'rus Trail\u00a0<br /> Zion Human History Museum patio</td> <td><strong>Kolob Terrace Road</strong><br /> Lava Point Overlook\u00a0<br /> Wildcat Canyon Trailhead<br /> Left Fork Trailhead</td> </tr> <tr> <td><strong>East Side</strong><br /> Checkerboard Mesa pullout</td> <td><strong>Kolob Canyons</strong><br /> Timber Creek parking lot</td> </tr> </tbody> </table> <br /> Camping is only allowed in designated campsites or with some Wilderness permits. Plan for where you will sleep after stargazing.<br /> \u00a0 <p paraeid=\"{5aa394bd-a347-414c-865c-7e5698aa750c}{54}\" paraid=\"503685391\">These locations are all outside of Zion Canyon Scenic Drive and are open to drivers year-round. Destinations on Zion Canyon Scenic Drive are only accessible by shuttle for most of the year. Check the\u00a0<a href=\"https://www.nps.gov/zion/planyourvisit/zion-canyon-shuttle-system.htm\">shuttle schedule</a>\u00a0before you make plans to stargaze along Zion Canyon Scenic Drive.</p> <p lang=\"EN-US\" paraeid=\"{9736a47b-78a8-451d-94b2-a7e4982995c3}{229}\" paraid=\"31\" xml:lang=\"EN-US\">Although you can see the Milky Way from anywhere in Zion, the darkest skies are on the east side of the park and along Kolob Terrace Road. As you travel, please be careful not to hit nocturnal wildlife on roadways. All of these locations have access to restrooms except for Checkerboard Mesa Pullout.</p> <p paraeid=\"{5aa394bd-a347-414c-865c-7e5698aa750c}{114}\" paraid=\"1545022655\">If you are planning on bringing a personal telescope, consider setting it up at\u00a0<strong>Checkerboard Mesa Pullout</strong>,\u00a0<strong>Lava Point Overlook</strong>, or\u00a0<strong>Timber Creek Parking Lot</strong>. These three locations have wide views of the sky and flat ground to set-up a telescope.</p>",
+      "doFeesApply": "false",
+      "longDescription": "<p paraeid=\"{dca038d6-8ebe-4d0a-9077-060c966431ba}{20}\" paraid=\"3\">Many Zion visitors like to\u00a0<a href=\"https://www.nps.gov/zion/planyourvisit/sunrise-and-sunset.htm\">stay for sunset</a>\u00a0to take photos of cliffs glowing vivid orange in the late day sun. Then, as the last sunlight fades from the sky, a steady stream of cars file out of the park toward homes, hotels, and other destinations. But for those few who stay later or spend the night nearby, an entirely different and memorable Zion experience awaits: the dark night sky, filled with thousands of stars, above the jagged silhouette of cliffs.</p> <p paraeid=\"{dca038d6-8ebe-4d0a-9077-060c966431ba}{82}\" paraid=\"5\">Zion is a great place to connect with the night sky, whether you are an avid astrophotographer or this will be your first view of the Milky Way. As an International Dark Sky Park, Zion\u00a0<a href=\"https://www.nps.gov/zion/learn/nature/night_friendly_lighting.htm\">protects our incredible dark skies</a>\u00a0for present and future generations by not degrading the night with artificial light. This means that after sunset, the park is very dark. Be prepared!</p> <h2>Plan Ahead and Prepare</h2> <h4>Check the Moon phase.</h4> <p paraeid=\"{dca038d6-8ebe-4d0a-9077-060c966431ba}{152}\" paraid=\"9\">When the Moon is above the horizon, its light will wash out fainter features of the night sky, including the Milky Way. Plan to stargaze before the Moon rises or after the Moon sets. Search \"Moon rise and set time in Springdale, Utah\" online to get Moon rise and set times during your visit. The darkest nights always occur during the week leading up to a New Moon.</p> <h4 paraeid=\"{dca038d6-8ebe-4d0a-9077-060c966431ba}{198}\" paraid=\"12\">Pack stargazing essentials.</h4> <ul role=\"list\"> <li aria-setsize=\"-1\" data-aria-level=\"1\" data-aria-posinset=\"1\" data-font=\"Symbol\" data-leveltext=\"\u25cf\" data-list-defn-props=\"{\"335552541\":1,\"335559683\":0,\"335559684\":-2,\"335559685\":720,\"335559991\":360,\"469769226\":\"Symbol\",\"469769242\":[8226],\"469777803\":\"left\",\"469777804\":\"\u25cf\",\"469777815\":\"multilevel\"}\" data-listid=\"6\" role=\"listitem\"> <p paraeid=\"{dca038d6-8ebe-4d0a-9077-060c966431ba}{206}\" paraid=\"14\"><strong>Clothing layers:\u00a0</strong>Although days in Zion can be scorching hot, the desert becomes chilly once the sun goes down. Bring jackets and blankets to stay warm.</p> </li> <li aria-setsize=\"-1\" data-aria-level=\"1\" data-aria-posinset=\"2\" data-font=\"Calibri\" data-leveltext=\"\u25cf\" data-list-defn-props=\"{\"335552541\":1,\"335559682\":4,\"335559684\":-2,\"335559685\":720,\"335559991\":360,\"469769242\":[8226],\"469777803\":\"left\",\"469777804\":\"\u25cf\",\"469777815\":\"multilevel\"}\" data-listid=\"4\" role=\"listitem\"> <p paraeid=\"{dca038d6-8ebe-4d0a-9077-060c966431ba}{227}\" paraid=\"15\"><strong>Snacks:</strong>\u00a0At night, there is no access to food in Zion. Plan to bring all the food and water you need.</p> </li> <li aria-setsize=\"-1\" data-aria-level=\"1\" data-aria-posinset=\"1\" data-font=\"Calibri\" data-leveltext=\"\u25cf\" data-list-defn-props=\"{\"335552541\":1,\"335559682\":4,\"335559684\":-2,\"335559685\":720,\"335559991\":360,\"469769242\":[8226],\"469777803\":\"left\",\"469777804\":\"\u25cf\",\"469777815\":\"multilevel\"}\" data-listid=\"4\" role=\"listitem\"> <p paraeid=\"{dca038d6-8ebe-4d0a-9077-060c966431ba}{252}\" paraid=\"16\"><b>Red light:</b>. White light, including car headlights, cell phones screens, and headlamps, will impair your night vision. It takes your eyes 20-30 minutes to adjust to the dark after seeing white light! Red light has much less impact on your night vision, so use only red light or a white light source covered with red cellophane.</p> </li> <li aria-setsize=\"-1\" data-aria-level=\"1\" data-aria-posinset=\"2\" data-font=\"Calibri\" data-leveltext=\"\u25cf\" data-list-defn-props=\"{\"335552541\":1,\"335559682\":4,\"335559684\":-2,\"335559685\":720,\"335559991\":360,\"469769242\":[8226],\"469777803\":\"left\",\"469777804\":\"\u25cf\",\"469777815\":\"multilevel\"}\" data-listid=\"4\" role=\"listitem\"> <p paraeid=\"{64a871b5-0e05-4ba0-9b8b-4f991cb83a92}{20}\" paraid=\"17\"><strong>A star map:</strong>\u00a0If you are curious about what you are looking at while stargazing, consider packing a planisphere (a paper star map) or downloading a phone app before arriving at Zion. Do not plan on having cell service in the park.</p> </li> <li aria-setsize=\"-1\" data-aria-level=\"1\" data-aria-posinset=\"3\" data-font=\"Calibri\" data-leveltext=\"\u25cf\" data-list-defn-props=\"{\"335552541\":1,\"335559682\":4,\"335559684\":-2,\"335559685\":720,\"335559991\":360,\"469769242\":[8226],\"469777803\":\"left\",\"469777804\":\"\u25cf\",\"469777815\":\"multilevel\"}\" data-listid=\"4\" role=\"listitem\"> <p paraeid=\"{64a871b5-0e05-4ba0-9b8b-4f991cb83a92}{49}\" paraid=\"18\"><strong>Binoculars or a telescope:\u00a0</strong>This is optional, but if you have binoculars or a telescope, consider bringing them! Viewing a magnified night sky is a different and wondrous experience.</p> </li> </ul> <h4 paraeid=\"{64a871b5-0e05-4ba0-9b8b-4f991cb83a92}{70}\" paraid=\"19\">Have a plan for where to sleep.</h4> <p paraeid=\"{64a871b5-0e05-4ba0-9b8b-4f991cb83a92}{76}\" paraid=\"20\"><a href=\"https://www.nps.gov/zion/planyourvisit/campgrounds-in-zion.htm\">Camping</a>\u00a0is only allowed at designated campsites or with some Wilderness permits, so make sure to plan for where you will sleep after enjoying the park\u2019s night sky.</p>",
+      "reservationDescription": "",
+      "season": [],
+      "topics": [
+        {
+          "id": "A7359FC4-DAD8-45F5-AF15-7FF62F816ED3",
+          "name": "Night Sky"
+        },
+        {
+          "id": "E06F3C94-AC8A-4B1C-A247-8EBA8910D5EE",
+          "name": "Astronomy"
+        },
+        {
+          "id": "9C9FCBB6-360B-4743-8155-6F9341CBE01B",
+          "name": "Scenic Views"
+        }
+      ],
+      "durationDescription": "",
+      "arePetsPermitted": "true",
+      "timeOfDay": [
+        "Night"
+      ],
+      "duration": "",
+      "credit": "",
+      "relevanceScore": 1.0
+    },
+    {
+      "id": "4E694781-7E95-452D-9EA6-04974841F8DC",
+      "url": "https://www.nps.gov/thingstodo/zion-ranger-led-activities.htm",
+      "title": "Zion Ranger-led Activities",
+      "shortDescription": "Join a park ranger to learn about what makes Zion National Park such a special place! We have a variety of ranger-led activities throughout the year, and you can check the schedule on our Events Calendar. Topics range from geology and\u00a0wildlife to art and\u00a0human history, and everything inbetween. All ranger-led programs are free.",
+      "images": [
+        {
+          "url": "https://www.nps.gov/common/uploads/cropped_image/694B395C-9537-E7C1-F2A6D46A2D7868BE.jpg",
+          "credit": "NPS/Abi Farish",
+          "altText": "Four NPS rangers stand under a shade structure holding various props.",
+          "title": "Zion Ranger-led Programs",
+          "description": "",
+          "caption": "Ranger-led programs are a great way to learn about the park",
+          "crops": [
+            {
+              "aspectRatio": "1.78",
+              "url": "https://www.nps.gov/common/uploads/cropped_image/primary/694B395C-9537-E7C1-F2A6D46A2D7868BE.jpg"
+            },
+            {
+              "aspectRatio": "1",
+              "url": "https://www.nps.gov/common/uploads/cropped_image/secondary/694B395C-9537-E7C1-F2A6D46A2D7868BE.jpg"
+            }
+          ]
+        }
+      ],
+      "relatedParks": [
+        {
+          "states": "UT",
+          "parkCode": "zion",
+          "designation": "National Park",
+          "fullName": "Zion National Park",
+          "url": "https://www.nps.gov/zion/index.htm",
+          "name": "Zion"
+        }
+      ],
+      "relatedOrganizations": [],
+      "tags": [
+        "ranger program",
+        "Ranger-led program",
+        "Ranger Talks",
+        "talk",
+        "family activity",
+        "families",
+        "Program",
+        "interpretation",
+        "interpretation program",
+        "interpretive",
+        "Zion Canyon",
+        "Zion National Park"
+      ],
+      "latitude": "37.20041122732317",
+      "longitude": "-112.98730909824371",
+      "geometryPoiId": "",
+      "amenities": [],
+      "location": "Zion Canyon Visitor Center",
+      "seasonDescription": "Ranger-led programs are available throughout the year. More programs are offered in the summer than the winter months, so check the scheudle at park visitor centers or on our <a href=\"https://www.nps.gov/zion/planyourvisit/calendar.htm\">events calendar</a>.",
+      "accessibilityInformation": "Assistive listening devices are available at the Zion Canyon Visitor Center, as well as supplemental information for park programs.\u00a0<br /> <br /> All ranger-led talks and evening programs currently take place outdoors. Talks at the Visitor Center take place under a shade structure with sandstone benches for seating. Space is available for mobility devices and wheelchairs.\u00a0<br /> <br /> The Ride with A Ranger program takes place on Zion Canyon shuttle buses, which are wheelchair accessible.\u00a0<br /> <br /> Ranger walks on the Pa'rus Trail are wheelchair accessible, but hikes on the Watchman Trail are not.<br /> <br /> \u00a0",
+      "isReservationRequired": "false",
+      "ageDescription": "Children must be accompanied by an adult.\u00a0",
+      "petsDescription": "Pets may only join their owners to ranger-led talks, evening programs, and walks on the Pa'rus Trail. Pets are not allowed on the Ride with a Ranger program or on the Watchman Trail.\u00a0",
+      "timeOfDayDescription": "",
+      "feeDescription": "Park entrance fees apply.",
+      "age": "",
+      "arePetsPermittedWithRestrictions": "true",
+      "activities": [
+        {
+          "id": "B33DC9B6-0B7D-4322-BAD7-A13A34C584A3",
+          "name": "Guided Tours"
+        }
+      ],
+      "activityDescription": "",
+      "locationDescription": "This is shuttle stop #1.\u00a0",
+      "doFeesApply": "false",
+      "longDescription": "Join a park ranger to learn about what makes Zion National Park such a special place! We have a variety of ranger-led activities throughout the year, and you can check the schedule on our <a href=\"https://www.nps.gov/zion/planyourvisit/calendar.htm\">Events Calendar</a>. Topics range from geology and\u00a0wildlife to art and\u00a0human history, and everything inbetween. All ranger-led programs are free.",
+      "reservationDescription": "Due to limited space, some programs may require a free reservation be made in advance at the Zion Canyon Visitor Center.\u00a0",
+      "season": [
+        "Winter",
+        "Spring",
+        "Summer",
+        "Fall"
+      ],
+      "topics": [
+        {
+          "id": "A1BAF33E-EA84-4608-A888-4CEE9541F027",
+          "name": "Native American Heritage"
+        },
+        {
+          "id": "F8C2FE93-DEB3-4B12-9A87-913E3E6B448D",
+          "name": "Natural Sounds"
+        },
+        {
+          "id": "A7359FC4-DAD8-45F5-AF15-7FF62F816ED3",
+          "name": "Night Sky"
+        },
+        {
+          "id": "A155238F-0DD2-4610-9B87-05FCE1C59283",
+          "name": "River and Riparian"
+        },
+        {
+          "id": "4244F489-6813-4B7A-9D0C-20CE098C8FFF",
+          "name": "Rock Landscapes and Features"
+        },
+        {
+          "id": "3CDB67A9-1EAC-408D-88EC-F26FA35E90AF",
+          "name": "Schools and Education"
+        },
+        {
+          "id": "4C0EBDE7-EB73-4252-84D9-0650974EC3E5",
+          "name": "Conservation Movement"
+        },
+        {
+          "id": "78E4F4AC-AF97-435A-8C2C-7FB8D67516ED",
+          "name": "Unique Species"
+        },
+        {
+          "id": "BA12B386-49EA-46B0-9121-FCACACC47538",
+          "name": "Watersheds"
+        },
+        {
+          "id": "C9C749E3-39C3-45F7-BCC5-9A609E30AA05",
+          "name": "Westward Expansion"
+        },
+        {
+          "id": "B85866E2-0897-4000-9040-605CA335804F",
+          "name": "Wilderness"
+        },
+        {
+          "id": "7DA81DAB-5045-4953-9C20-36590AD9FA95",
+          "name": "Women's History"
+        }
+      ],
+      "durationDescription": "Time will vary depending on which ranger-led activity you join.",
+      "arePetsPermitted": "true",
+      "timeOfDay": [
+        "Day",
+        "Dawn",
+        "Dusk"
+      ],
+      "duration": "20-120 Minutes",
+      "credit": "",
+      "relevanceScore": 1.0
+    },
+    {
+      "id": "CB9CCC3B-BD85-4FF6-B95C-B99D424230F9",
+      "url": "https://www.nps.gov/thingstodo/climbing-in-zion.htm",
+      "title": "Climbing in Zion",
+      "shortDescription": "Zion National Park's 2,000-foot sandstone cliffs are world renowned for their big wall climbs and adventurous nature. Most routes in the park are not recommended for inexperienced climbers due to difficulty and the soft nature of the rock. While areas outside of the park offer abundant sport climbing and top roping possibilities, this is rare in the park, with bolted routes often having sparse protection.",
+      "images": [
+        {
+          "url": "https://www.nps.gov/common/uploads/cropped_image/C96A4188-DB68-932C-7A8F04EC2F4E9348.jpg",
+          "credit": "NPS/Jason Burton",
+          "altText": "Red-orange sandstone cliff-face with a rock climber in a helmet making his way up.",
+          "title": "Rock climbing in Zion",
+          "description": "",
+          "caption": "Climber on Iron Messiah",
+          "crops": [
+            {
+              "aspectRatio": "1.78",
+              "url": "https://www.nps.gov/common/uploads/cropped_image/primary/C96A4188-DB68-932C-7A8F04EC2F4E9348.jpg"
+            },
+            {
+              "aspectRatio": "1",
+              "url": "https://www.nps.gov/common/uploads/cropped_image/secondary/C96A4188-DB68-932C-7A8F04EC2F4E9348.jpg"
+            }
+          ]
+        }
+      ],
+      "relatedParks": [
+        {
+          "states": "UT",
+          "parkCode": "zion",
+          "designation": "National Park",
+          "fullName": "Zion National Park",
+          "url": "https://www.nps.gov/zion/index.htm",
+          "name": "Zion"
+        }
+      ],
+      "relatedOrganizations": [],
+      "tags": [
+        "climbing",
+        "Rock Climbing",
+        "Zion National Park",
+        "Kolob Canyons",
+        "bivy",
+        "bouldering"
+      ],
+      "latitude": "",
+      "longitude": "",
+      "geometryPoiId": "",
+      "amenities": [],
+      "location": "",
+      "seasonDescription": "The best conditions for climbing are from March through May and September through early November. Temperatures in the summer can soar over 100 degrees even on shaded walls. Additionally, summer months often bring monsoonal rainstorms. Unlike other rock types, desert sandstone is heavily weakened when wet. Avoid climbing in damp areas or after rainstorms.",
+      "accessibilityInformation": "<p>Zion National Park's 2,000-foot sandstone cliffs are world renowned for their big wall climbs and adventurous nature. Most routes in the park are not recommended for inexperienced climbers due to difficulty and the soft nature of the rock. While areas outside of the park offer abundant sport climbing and top roping possibilities, this is rare in the park, with bolted routes often having sparse protection.</p>",
+      "isReservationRequired": "false",
+      "ageDescription": "",
+      "petsDescription": "Pets are not allowed in Zion Wilderness. <a href=\"https://www.nps.gov/zion/planyourvisit/pets.htm\">The only trail in the park for pets is the Pa'rus.</a>\u00a0",
+      "timeOfDayDescription": "",
+      "feeDescription": "<a href=\"https://www.nps.gov/zion/planyourvisit/climbing-permits.htm\">Permits are needed for all overnight trips</a><br /> <br /> <strong>Permits are not required for day climbs, but they are required for all overnight bivouacs. It is illegal to camp at the base of the wall or in your vehicle.</strong>",
+      "age": "",
+      "arePetsPermittedWithRestrictions": "false",
+      "activities": [
+        {
+          "id": "B12FAAB9-713F-4B38-83E4-A273F5A43C77",
+          "name": "Climbing"
+        }
+      ],
+      "activityDescription": "<a href=\"https://www.nps.gov/zion/planyourvisit/climbing.htm\">More Climbing information can be found on the park's website and at visitor centers.</a> <h4>Overnight Bivys</h4> <p>Permits are required for all overnight bivouacs, but are not required for day climbs. Bivy reservations can be made in advance for the most popular climbs. All permits must be picked up at the Zion Canyon Visitor Center the day before or the day of your climb.<br /> <a href=\"https://www.nps.gov/zion/planyourvisit/climbingpermits.htm\">Learn more about climbing bivy permits here.</a><br /> It is illegal to camp at the base of the wall or in your vehicle inside the park, unless in an established campground with a campground reservation.</p> <h4>Human Waste</h4> <p>Tube or bag human waste and carry it out. Do not drop your waste or leave it behind in any way.</p> <h4><strong>Guiding</strong></h4> <p>Commercial guiding is not allowed in the Zion Wilderness, which includes all Zion climbs.</p> <h4>Bolting and Route Development</h4> <p paraeid=\"{b4fd7152-a6a5-43ca-930d-9f03ebecb2be}{221}\" paraid=\"1761220262\">The National Park Service does not inspect, maintain, or repair bolts and other climbing equipment anywhere in the park. Make sure your climb is adequately protected by visually inspecting any pre-existing bolts or fixed pins. Your safety is your responsibility.</p> <p paraeid=\"{b4fd7152-a6a5-43ca-930d-9f03ebecb2be}{239}\" paraid=\"1940198881\">Zion National Park is world renowned for big wall and traditional climbing. Most routes in the park offer adventurous climbing utilizing traditionally placed protection such as cams, nuts, etc. Bolted routes, also known as sport climbs, are rare in Zion National Park, prohibited in the\u00a0<a href=\"https://www.nps.gov/zion/planyourvisit/upload/ZION_Wilderness_Boundaries.pdf\">Zion Wilderness</a>, and are often sparsely protected.</p> <p paraeid=\"{183b8cf7-66a7-4e5a-9a08-1ad33ea914a7}{14}\" paraid=\"635002544\">A fixed anchor is defined as any piece of climbing equipment that is left in place to facilitate a safe ascent or rappel. Examples include, but are not limited to, bolts, pitons, and webbing. Only place fixed anchors as a last resort. Before placing fixed anchors on a route, think seriously about whether the route warrants them. All bolts must be placed using a hand drill only. Power drills are not allowed in Zion.</p> <p paraeid=\"{183b8cf7-66a7-4e5a-9a08-1ad33ea914a7}{30}\" paraid=\"946575846\">\"The placement of fixed climbing anchors, including climbing bolts, for the creation of bolt intensive face climbs, also called sport climbs, within the\u00a0<a href=\"https://www.nps.gov/zion/planyourvisit/upload/ZION_Wilderness_Boundaries.pdf\">Zion Wilderness</a>\u00a0is prohibited.\" -<a href=\"https://www.nps.gov/zion/learn/management/upload/Superintendents-Compendium-Final-Signed_Scanned-4-29-20.pdf\">Superintendent's Compendium</a>. Climbers should seek to develop routes which can be primarily protected by traditional climbing equipment, with bolts being used only when necessary.</p> <p paraeid=\"{183b8cf7-66a7-4e5a-9a08-1ad33ea914a7}{75}\" paraid=\"1228374145\">\"The establishment of bolt intensive face climbs is considered incompatible with wilderness preservation and management due to the concentration of human activity which they support and the types and levels of impacts associated with such routes.\" -<a href=\"https://www.nps.gov/policy/DOrders/DO_41.pdf\">NPS Director's Order 41</a></p> <p paraeid=\"{183b8cf7-66a7-4e5a-9a08-1ad33ea914a7}{30}\" paraid=\"946575846\">Equipment, including but not limited to fixed ropes, may not be left unattended for longer than 24 hours or it will be considered abandoned property. Abandoned property may be removed by the NPS and is subject to the following regulations:<strong>\u00a0</strong><a href=\"https://www.ecfr.gov/cgi-bin/text-idx?SID=e70f79c6458dfd4c7acdf81313ce566e&mc=true&node=se36.1.2_122&rgn=div8\"><u>CFR 2.22</u></a></p> <p paraeid=\"{183b8cf7-66a7-4e5a-9a08-1ad33ea914a7}{75}\" paraid=\"1228374145\">\u00a0</p> <p paraeid=\"{183b8cf7-66a7-4e5a-9a08-1ad33ea914a7}{84}\" paraid=\"452813734\">If you are planning on establishing a new climbing route in Zion National Park, please come to the Wilderness Desk at the Zion Canyon Visitor Center to discuss the proposed route with a ranger. We can help you determine if your proposed route is in designated Wilderness and are happy to discuss any other important considerations. Contact the Wilderness staff at 435-772-0170 for additional information.</p>",
+      "locationDescription": "",
+      "doFeesApply": "false",
+      "longDescription": "<p><a href=\"https://www.nps.gov/zion/planyourvisit/upload/2022-Climbers-Guide-to-Seasonal-Raptor-Closures.pdf\">CLICK HERE to download the new Climbing Guide to Seasonal Raptor Closures with all closure boundaries</a></p> <p>Zion National Park's 2,000-foot sandstone cliffs are world renowned for their big wall climbs and adventurous nature. Most routes in the park are not recommended for inexperienced climbers due to difficulty and the soft nature of the rock. While areas outside of the park offer abundant sport climbing and top roping possibilities, this is rare in the park, with bolted routes often having sparse protection.<br /> <br /> The best conditions for climbing are from March through May and September through early November. Temperatures in the summer can soar over 100 degrees even on shaded walls. Additionally, summer months often bring monsoonal rainstorms. Unlike other rock types, desert sandstone is heavily weakened when wet. Avoid climbing in damp areas or after rainstorms. It often takes two or more days for the rock to be dry enough to climb. This means that critical holds are more likely to break, altering routes for future climbers. Additionally, climbing protection is less likely to hold resulting in greater fall distances and chance of injury. A collection of a climber-submitted topographic maps can be found at the Wilderness Desk at the Zion Canyon Visitor Center. The park suggests submitting topographic maps of all first ascents in the park upon completion. This helps future generations locate climbs and provides a historical account of climbing in Zion National Park.</p> <h4><strong>Bouldering</strong></h4> <p>There are two bouldering areas in the main canyon. One is 40 yards west of the south entrance, called The Globe. This is a house sized boulder that poses a variety of options and problems. The second is Drilled Pocket Boulder, located 0.5 mile north of the south entrance. It is located on the west side of the road and is a slab with an obvious south facing crack.</p>",
+      "reservationDescription": "<a href=\"https://www.nps.gov/zion/planyourvisit/climbing-permits.htm\">Permits are needed for all overnight trips</a><br /> <br /> <strong>Permits are not required for day climbs, but they are required for all overnight bivouacs. It is illegal to camp at the base of the wall or in your vehicle.</strong>",
+      "season": [
+        "Winter",
+        "Spring",
+        "Fall"
+      ],
+      "topics": [
+        {
+          "id": "F0F97E32-2F29-41B4-AF98-9FBE8DAB36B1",
+          "name": "Geology"
+        },
+        {
+          "id": "4244F489-6813-4B7A-9D0C-20CE098C8FFF",
+          "name": "Rock Landscapes and Features"
+        },
+        {
+          "id": "5BE55D7F-BDB6-4E3D-AC35-2D8EBB974417",
+          "name": "Trails"
+        }
+      ],
+      "durationDescription": "",
+      "arePetsPermitted": "false",
+      "timeOfDay": [
+        "Day",
+        "Night",
+        "Dawn",
+        "Dusk"
+      ],
+      "duration": "",
+      "credit": "",
+      "relevanceScore": 1.0
     }
   ],
-  "total": "19"
+  "total": "23"
 }

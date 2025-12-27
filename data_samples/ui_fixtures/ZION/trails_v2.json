@@ -1,0 +1,506 @@
+[
+  {
+    "id": "CF1B624D-C2BA-4A8C-99AA-1B57F4F06430",
+    "name": "Pa'rus - A Living Canyon",
+    "description": "Pa'rus - A Living Canyon",
+    "location": {
+      "lat": 37.20367564940907,
+      "lon": -112.98069477081299
+    },
+    "images": [
+      {
+        "url": "https://www.nps.gov/common/uploads/cropped_image/50B50C87-BFAA-9A14-BF4D63DDA829B4E4.jpeg",
+        "credit": "NPS/Abi Farish",
+        "altText": "A split-rail wooden fence running along a paved trail. Mountains are visible in the distance",
+        "title": "A Living Canyon",
+        "description": "",
+        "caption": "The Pa'rus Trail follows the Virgin River through lower Zion Canyon.",
+        "crops": [
+          {
+            "aspectRatio": "1.78",
+            "url": "https://www.nps.gov/common/uploads/cropped_image/primary/50B50C87-BFAA-9A14-BF4D63DDA829B4E4.jpeg"
+          },
+          {
+            "aspectRatio": "1.33",
+            "url": "https://www.nps.gov/common/uploads/cropped_image/secondary/50B50C87-BFAA-9A14-BF4D63DDA829B4E4.jpeg"
+          }
+        ]
+      }
+    ],
+    "nps_url": "https://www.nps.gov/places/a-living-canyon.htm",
+    "difficulty": "Easy",
+    "length_miles": 3.5,
+    "elevation_gain_ft": 50,
+    "route_type": "Out & Back",
+    "estimated_time_hours": "1.5-2 hours",
+    "last_enriched": "2025-12-26T16:02:00.163390"
+  },
+  {
+    "id": "9B081DDD-4C3E-47C0-901A-E92A159B0078",
+    "name": "Kayenta Trail",
+    "description": "Kayenta Trail",
+    "location": {
+      "lat": 37.2592462593,
+      "lon": -112.951341871
+    },
+    "images": [
+      {
+        "url": "https://www.nps.gov/common/uploads/cropped_image/54128644-C0FE-3210-AB39C4918EED0D2A.jpg",
+        "credit": "NPS/Lizz Eberhardt",
+        "altText": "A set of red sandstone stairs lined with loose rocks and green foliage leads out of frame.",
+        "title": "Kayenta Trail",
+        "description": "",
+        "caption": "Sandstone steps of the Kayenta Trail lead you up to the Emerald Pools",
+        "crops": [
+          {
+            "aspectRatio": "1.78",
+            "url": "https://www.nps.gov/common/uploads/cropped_image/primary/54128644-C0FE-3210-AB39C4918EED0D2A.jpg"
+          },
+          {
+            "aspectRatio": "1",
+            "url": "https://www.nps.gov/common/uploads/cropped_image/secondary/54128644-C0FE-3210-AB39C4918EED0D2A.jpg"
+          }
+        ]
+      }
+    ],
+    "nps_url": "https://www.nps.gov/thingstodo/hike-kayenta-trail.htm",
+    "difficulty": "Moderate",
+    "length_miles": 2.0,
+    "elevation_gain_ft": null,
+    "route_type": "Out & Back",
+    "estimated_time_hours": null,
+    "last_enriched": "2025-12-26T16:02:07.400782"
+  },
+  {
+    "id": "6AD66A92-B0EB-4064-A52A-2DDB02CF9143",
+    "name": "La Verkin Creek Trail to Kolob Arch",
+    "description": "La Verkin Creek Trail to Kolob Arch",
+    "location": {
+      "lat": 37.4522213604,
+      "lon": -113.191397605
+    },
+    "images": [
+      {
+        "url": "https://www.nps.gov/common/uploads/cropped_image/C8607E36-E5AE-CA10-130C375E3FB44434.jpg",
+        "credit": "NPS/Rendall Seely",
+        "altText": "Looking up at an orange-red sandstone arch on a cliff-face with clear blue skies overhead.",
+        "title": "Kolob Arch",
+        "description": "",
+        "caption": "The Kolob Arch is one of the world's largest natural arches.",
+        "crops": [
+          {
+            "aspectRatio": "1.78",
+            "url": "https://www.nps.gov/common/uploads/cropped_image/primary/C8607E36-E5AE-CA10-130C375E3FB44434.jpg"
+          },
+          {
+            "aspectRatio": "1",
+            "url": "https://www.nps.gov/common/uploads/cropped_image/secondary/C8607E36-E5AE-CA10-130C375E3FB44434.jpg"
+          }
+        ]
+      }
+    ],
+    "nps_url": "https://www.nps.gov/thingstodo/la-verkin-creek-trail-to-kolob-arch.htm",
+    "difficulty": "Strenuous",
+    "length_miles": 14.0,
+    "elevation_gain_ft": null,
+    "route_type": "Out & Back",
+    "estimated_time_hours": null,
+    "last_enriched": "2025-12-26T16:02:13.454249"
+  },
+  {
+    "id": "7B0A7CE7-2553-4A51-9E7C-F1F77DC253A4",
+    "name": "Taylor Creek Trail",
+    "description": "Taylor Creek Trail",
+    "location": {
+      "lat": 0.0,
+      "lon": 0.0
+    },
+    "images": [
+      {
+        "url": "https://www.nps.gov/common/uploads/cropped_image/146A66B0-A1C9-0331-CD7DB3A6EDBE2A85.jpg",
+        "credit": "NPS/Lizz Eberhardt",
+        "altText": "Red sandstone cliff face with an alcove at the bottom and an arch above.",
+        "title": "Double Arch Alcove on Taylor Creek",
+        "description": "",
+        "caption": "The Double Arch Alcove marks the end of the Traylor Creek Trail.",
+        "crops": [
+          {
+            "aspectRatio": "1.78",
+            "url": "https://www.nps.gov/common/uploads/cropped_image/primary/146A66B0-A1C9-0331-CD7DB3A6EDBE2A85.jpg"
+          },
+          {
+            "aspectRatio": "1",
+            "url": "https://www.nps.gov/common/uploads/cropped_image/secondary/146A66B0-A1C9-0331-CD7DB3A6EDBE2A85.jpg"
+          }
+        ]
+      }
+    ],
+    "nps_url": "https://www.nps.gov/thingstodo/taylor-creek-trail.htm",
+    "difficulty": null,
+    "length_miles": null,
+    "elevation_gain_ft": null,
+    "route_type": null,
+    "estimated_time_hours": null,
+    "last_enriched": "2025-12-26T16:02:24.945195"
+  },
+  {
+    "id": "671CA42A-5287-4EC6-AD13-4841D2F9B724",
+    "name": "Watchman Trail",
+    "description": "Watchman Trail",
+    "location": {
+      "lat": 0.0,
+      "lon": 0.0
+    },
+    "images": [
+      {
+        "url": "https://www.nps.gov/common/uploads/cropped_image/B552513D-B184-71EB-93B3DB369AC99AE0.jpg",
+        "credit": "NPS/Abi Farish",
+        "altText": "View from a sandy overlook of a triangular sandstone mountain with green foliage on the foothills.",
+        "title": "Watchman Overlook",
+        "description": "",
+        "caption": "View from the overlook at the end of Watchman Trail",
+        "crops": [
+          {
+            "aspectRatio": "1.78",
+            "url": "https://www.nps.gov/common/uploads/cropped_image/primary/B552513D-B184-71EB-93B3DB369AC99AE0.jpg"
+          },
+          {
+            "aspectRatio": "1",
+            "url": "https://www.nps.gov/common/uploads/cropped_image/secondary/B552513D-B184-71EB-93B3DB369AC99AE0.jpg"
+          }
+        ]
+      }
+    ],
+    "nps_url": "https://www.nps.gov/thingstodo/hike-watchman-trail.htm",
+    "difficulty": "Moderate",
+    "length_miles": null,
+    "elevation_gain_ft": null,
+    "route_type": "Out & Back",
+    "estimated_time_hours": null,
+    "last_enriched": "2025-12-26T16:02:28.827651"
+  },
+  {
+    "id": "BD4CA407-5BE0-426E-8339-F34DE6795D3A",
+    "name": "West Rim to Scout Lookout",
+    "description": "West Rim to Scout Lookout",
+    "location": {
+      "lat": 37.2592462593,
+      "lon": -112.951341871
+    },
+    "images": [
+      {
+        "url": "https://www.nps.gov/common/uploads/cropped_image/230B230B-08DA-0021-AE366EBBC3DAE7FA.jpg",
+        "credit": "NPS",
+        "altText": "A hiker with an orange backpack standing on sandstone looks at the Angels Landing peak.",
+        "title": "Scout Lookout",
+        "description": "",
+        "caption": "Hiker on Scout Lookout looking towards Angels Landing and the Great White Throne.",
+        "crops": [
+          {
+            "aspectRatio": "1.78",
+            "url": "https://www.nps.gov/common/uploads/cropped_image/primary/230B230B-08DA-0021-AE366EBBC3DAE7FA.jpg"
+          },
+          {
+            "aspectRatio": "1",
+            "url": "https://www.nps.gov/common/uploads/cropped_image/secondary/230B230B-08DA-0021-AE366EBBC3DAE7FA.jpg"
+          }
+        ]
+      }
+    ],
+    "nps_url": "https://www.nps.gov/thingstodo/hike-to-scout-lookout.htm",
+    "difficulty": "Strenuous",
+    "length_miles": null,
+    "elevation_gain_ft": 1000,
+    "route_type": "Out & Back",
+    "estimated_time_hours": null,
+    "last_enriched": "2025-12-26T16:02:37.278455"
+  },
+  {
+    "id": "823A078C-D324-4648-B910-F15507E67244",
+    "name": "Riverside Walk",
+    "description": "Riverside Walk",
+    "location": {
+      "lat": 37.2852131123,
+      "lon": -112.947693774
+    },
+    "images": [
+      {
+        "url": "https://www.nps.gov/common/uploads/cropped_image/E187F7C6-9E0B-2F5A-129B7F885F29A4D7.jpg",
+        "credit": "NPS/Abi Farish",
+        "altText": "Two hikers in blue jackets walk along a sandy trail lined with a wooden rail and fall foliage.",
+        "title": "Riverside Walk",
+        "description": "",
+        "caption": "Hikers on the Riverside Walk in autumn.",
+        "crops": [
+          {
+            "aspectRatio": "1.78",
+            "url": "https://www.nps.gov/common/uploads/cropped_image/primary/E187F7C6-9E0B-2F5A-129B7F885F29A4D7.jpg"
+          },
+          {
+            "aspectRatio": "1",
+            "url": "https://www.nps.gov/common/uploads/cropped_image/secondary/E187F7C6-9E0B-2F5A-129B7F885F29A4D7.jpg"
+          }
+        ]
+      }
+    ],
+    "nps_url": "https://www.nps.gov/thingstodo/hike-riverside-walk.htm",
+    "difficulty": "Easy",
+    "length_miles": null,
+    "elevation_gain_ft": null,
+    "route_type": "Out & Back",
+    "estimated_time_hours": null,
+    "last_enriched": "2025-12-26T16:02:46.550651"
+  },
+  {
+    "id": "97C6C2F7-E45F-4192-9475-F2F90BF3E70E",
+    "name": "Middle Emerald Pools Trail",
+    "description": "Middle Emerald Pools Trail",
+    "location": {
+      "lat": 37.2510388558,
+      "lon": -112.958668719
+    },
+    "images": [
+      {
+        "url": "https://www.nps.gov/common/uploads/cropped_image/BAFA9BD5-AB3B-F0A3-6AAD61B9A644A40A.jpg",
+        "credit": "NPS/Abi Farish",
+        "altText": "A pool of green water on a sandstone cliff surrounded by green foliage with a mountain in the back.",
+        "title": "Middle Emerald Pools Trail",
+        "description": "",
+        "caption": "View from the end of Middle Emerald Pools Trail.",
+        "crops": [
+          {
+            "aspectRatio": "1.78",
+            "url": "https://www.nps.gov/common/uploads/cropped_image/primary/BAFA9BD5-AB3B-F0A3-6AAD61B9A644A40A.jpg"
+          },
+          {
+            "aspectRatio": "1",
+            "url": "https://www.nps.gov/common/uploads/cropped_image/secondary/BAFA9BD5-AB3B-F0A3-6AAD61B9A644A40A.jpg"
+          }
+        ]
+      }
+    ],
+    "nps_url": "https://www.nps.gov/thingstodo/hike-middle-emerald-pools-trail.htm",
+    "difficulty": "Moderate",
+    "length_miles": null,
+    "elevation_gain_ft": null,
+    "route_type": null,
+    "estimated_time_hours": null,
+    "last_enriched": "2025-12-26T16:02:53.088723"
+  },
+  {
+    "id": "FD003EF3-8DA2-4FCB-9B49-7BFFB097CB76",
+    "name": "Upper Emerald Pools Trail",
+    "description": "Upper Emerald Pools Trail",
+    "location": {
+      "lat": 37.2510388558,
+      "lon": -112.958668719
+    },
+    "images": [
+      {
+        "url": "https://www.nps.gov/common/uploads/cropped_image/18EA857F-F3C9-5FA8-E61F35F42B34B9C0.jpg",
+        "credit": "NPS / Ally ORullian",
+        "altText": "A large group of people near a pool of water with green trees and an orange sandstone cliff face",
+        "title": "Upper Emerald Pools in Summer",
+        "description": "",
+        "caption": "Upper Emerald Pools",
+        "crops": [
+          {
+            "aspectRatio": "1.78",
+            "url": "https://www.nps.gov/common/uploads/cropped_image/primary/18EA857F-F3C9-5FA8-E61F35F42B34B9C0.jpg"
+          },
+          {
+            "aspectRatio": "1",
+            "url": "https://www.nps.gov/common/uploads/cropped_image/secondary/18EA857F-F3C9-5FA8-E61F35F42B34B9C0.jpg"
+          }
+        ]
+      }
+    ],
+    "nps_url": "https://www.nps.gov/thingstodo/hike-upper-emerald-pools.htm",
+    "difficulty": "Moderate",
+    "length_miles": 1.0,
+    "elevation_gain_ft": null,
+    "route_type": null,
+    "estimated_time_hours": null,
+    "last_enriched": "2025-12-26T16:02:58.412815"
+  },
+  {
+    "id": "6A7BB554-73E5-43ED-90C1-A327CADF55C7",
+    "name": "Lower Emerald Pool Trail",
+    "description": "Lower Emerald Pool Trail",
+    "location": {
+      "lat": 37.2510388558,
+      "lon": -112.958668719
+    },
+    "images": [
+      {
+        "url": "https://www.nps.gov/common/uploads/cropped_image/BDB9C3B7-0F11-4312-A8CC58A24D800D39.jpg",
+        "credit": "NPS",
+        "altText": "A waterfall flows off of a sandstone ledge into a pool below, surrounded by foliage.",
+        "title": "Lower Emerald Pool Trail",
+        "description": "",
+        "caption": "View from the end of the Lower Emerald Pool Trail.",
+        "crops": [
+          {
+            "aspectRatio": "1.78",
+            "url": "https://www.nps.gov/common/uploads/cropped_image/primary/BDB9C3B7-0F11-4312-A8CC58A24D800D39.jpg"
+          },
+          {
+            "aspectRatio": "1",
+            "url": "https://www.nps.gov/common/uploads/cropped_image/secondary/BDB9C3B7-0F11-4312-A8CC58A24D800D39.jpg"
+          }
+        ]
+      }
+    ],
+    "nps_url": "https://www.nps.gov/thingstodo/hike-lower-emerald-pool-trail.htm",
+    "difficulty": "Easy",
+    "length_miles": 1.2,
+    "elevation_gain_ft": 70,
+    "route_type": "Out & Back",
+    "estimated_time_hours": "1 hour",
+    "last_enriched": "2025-12-26T16:03:11.088184"
+  },
+  {
+    "id": "64535736-992B-4D04-8BF6-3F1965A6A01A",
+    "name": "Grotto Trail",
+    "description": "Grotto Trail",
+    "location": {
+      "lat": 0.0,
+      "lon": 0.0
+    },
+    "images": [
+      {
+        "url": "https://www.nps.gov/common/uploads/cropped_image/EAB97966-A970-0337-676E0D30BBC362C3.jpg",
+        "credit": "NPS",
+        "altText": "A tan path crossing green grass into a stand of trees. A red sandstone mountain is to the left.",
+        "title": "Grotto Trail",
+        "description": "",
+        "caption": "View from the Grotto Trail",
+        "crops": [
+          {
+            "aspectRatio": "1.78",
+            "url": "https://www.nps.gov/common/uploads/cropped_image/primary/EAB97966-A970-0337-676E0D30BBC362C3.jpg"
+          },
+          {
+            "aspectRatio": "1",
+            "url": "https://www.nps.gov/common/uploads/cropped_image/secondary/EAB97966-A970-0337-676E0D30BBC362C3.jpg"
+          }
+        ]
+      }
+    ],
+    "nps_url": "https://www.nps.gov/thingstodo/hike-grotto-trail.htm",
+    "difficulty": "Easy",
+    "length_miles": 1.0,
+    "elevation_gain_ft": null,
+    "route_type": "Out & Back",
+    "estimated_time_hours": null,
+    "last_enriched": "2025-12-26T16:03:16.778406"
+  },
+  {
+    "id": "6FD175EF-A82F-47AA-B055-8833EA1C1162",
+    "name": "Pa'rus Trail",
+    "description": "Pa'rus Trail",
+    "location": {
+      "lat": 37.2010471279,
+      "lon": -112.986788497
+    },
+    "images": [
+      {
+        "url": "https://www.nps.gov/common/uploads/cropped_image/B9496B9A-01B7-0AB1-0D8BA0A554D4B4EA.jpg",
+        "credit": "NPS",
+        "altText": "A tan, paved trail cuts through a meadow of yellow grasses toward a triangular sandstone mountain.",
+        "title": "Pa'rus Trail",
+        "description": "",
+        "caption": "View from the Pa'rus Trail as it follows the river between Canyon Junction and the Visitor Center.",
+        "crops": [
+          {
+            "aspectRatio": "1.78",
+            "url": "https://www.nps.gov/common/uploads/cropped_image/primary/B9496B9A-01B7-0AB1-0D8BA0A554D4B4EA.jpg"
+          },
+          {
+            "aspectRatio": "1",
+            "url": "https://www.nps.gov/common/uploads/cropped_image/secondary/B9496B9A-01B7-0AB1-0D8BA0A554D4B4EA.jpg"
+          }
+        ]
+      }
+    ],
+    "nps_url": "https://www.nps.gov/thingstodo/hike-pa-rus-trail.htm",
+    "difficulty": "Easy",
+    "length_miles": null,
+    "elevation_gain_ft": null,
+    "route_type": "Point to Point",
+    "estimated_time_hours": null,
+    "last_enriched": "2025-12-26T16:03:23.334943"
+  },
+  {
+    "id": "43CC4A81-2227-4E40-9403-6F7E2B27BC53",
+    "name": "Angels Landing",
+    "description": "Angels Landing",
+    "location": {
+      "lat": 37.2592462593,
+      "lon": -112.951341871
+    },
+    "images": [
+      {
+        "url": "https://www.nps.gov/common/uploads/cropped_image/23EF45DA-96CE-AEDD-E6FA82FF43279637.jpg",
+        "credit": "NPS",
+        "altText": "A hiker in a blue shirt holds onto chains as they traverse a sandstone cliff.",
+        "title": "Hiker on Angels Landing",
+        "description": "",
+        "caption": "Hiker holds onto the chains of the Angels Landing Trail.",
+        "crops": [
+          {
+            "aspectRatio": "1.78",
+            "url": "https://www.nps.gov/common/uploads/cropped_image/primary/23EF45DA-96CE-AEDD-E6FA82FF43279637.jpg"
+          },
+          {
+            "aspectRatio": "1",
+            "url": "https://www.nps.gov/common/uploads/cropped_image/secondary/23EF45DA-96CE-AEDD-E6FA82FF43279637.jpg"
+          }
+        ]
+      }
+    ],
+    "nps_url": "https://www.nps.gov/thingstodo/hike-angels-landing.htm",
+    "difficulty": "Strenuous",
+    "length_miles": 5.4,
+    "elevation_gain_ft": 1488,
+    "route_type": "Out & Back",
+    "estimated_time_hours": "3-5 hours",
+    "last_enriched": "2025-12-26T16:03:30.799090"
+  },
+  {
+    "id": "64075857-ACC6-4F4D-961B-1283D0F5475D",
+    "name": "The Narrows",
+    "description": "The Narrows",
+    "location": {
+      "lat": 37.2852131123,
+      "lon": -112.947693774
+    },
+    "images": [
+      {
+        "url": "https://www.nps.gov/common/uploads/cropped_image/24D4BA84-FA56-0142-E2998BE721BC0F81.jpg",
+        "credit": "NPS",
+        "altText": "Red sandstone canyon walls frame the blue water of the Virgin River below.",
+        "title": "The Narrows",
+        "description": "",
+        "caption": "View in The Narrows",
+        "crops": [
+          {
+            "aspectRatio": "1.78",
+            "url": "https://www.nps.gov/common/uploads/cropped_image/primary/24D4BA84-FA56-0142-E2998BE721BC0F81.jpg"
+          },
+          {
+            "aspectRatio": "1",
+            "url": "https://www.nps.gov/common/uploads/cropped_image/secondary/24D4BA84-FA56-0142-E2998BE721BC0F81.jpg"
+          }
+        ]
+      }
+    ],
+    "nps_url": "https://www.nps.gov/thingstodo/hike-the-narrows.htm",
+    "difficulty": "Strenuous",
+    "length_miles": null,
+    "elevation_gain_ft": null,
+    "route_type": "Out & Back",
+    "estimated_time_hours": null,
+    "last_enriched": "2025-12-26T16:03:35.961664"
+  }
+]

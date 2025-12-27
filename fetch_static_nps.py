@@ -53,59 +53,80 @@ import re
 
 def classify_places(places_raw_data):
     """
-    Splits raw NPS places data into 'trails' and 'things' based on keywords.
-    Refined to avoid false positives like ski areas and sub-word matches (e.g., 'always').
+    Splits raw NPS places data into 'trails' (candidates) and 'things' based on broad recall logic.
+    Stage 1: Broad Recall - separate likely hike candidates from obvious infrastructure.
     """
     items = places_raw_data.get("data", [])
     
-    # These strongly imply a trail
-    TRAIL_KEYWORDS = ["Trail", "Loop", "Hike", "Hiking", "Trailhead", "Route", "Pass", "Way", "Path", "Nature Walk"]
-    
-    # These strongly imply a non-trail landmark or structure
-    NON_TRAIL_KEYWORDS = [
-        "Cabin", "Office", "Entrance", "Museum", "Gallery", "Station", 
-        "Building", "Center", "Residence", "Lodge", "Village", "Church", 
-        "School", "Store", "House", "Studio", "Hotel", "Restaurant",
-        "Ski", "Area", "Point", "Overlook", "View", "Vista", "Grove", 
-        "Meadow", "Beach", "Rock", "Bridge", "Dam", "Road", "Campground",
-        "Picnic", "Theater", "Stables", "Amphitheater", "Peak", "Dome", "Mountain",
-        "Hut", "Cottage", "Tower", "Lighthouse", "Monument"
+    # Positive Signals: implies hiking context
+    HIKE_KEYWORDS = [
+        "trail", "trailhead", "hike", "hiking", "route", "walk", "loop", "path", 
+        "canyon", "rim", "overlook", "point", "junction", "narrows", "landing", 
+        "bridge", "mesa", "wash", "access"
     ]
     
+    # Negative Signals: implies non-hike infrastructure
+    INFRASTRUCTURE_KEYWORDS = [
+        "visitor center", "museum", "gift shop", "campground", "lodging", 
+        "picnic", "restroom", "amphitheater", "station", "office", "entrance", 
+        "exhibit", "wayside", "marker", "shuttle stop", "bus stop", "parking",
+        "residence", "village", "hotel", "store", "school", "church"
+    ]
+
+    # Content Signals: words in description that strongly suggest a hike description
+    CONTENT_INDICATORS = ["miles", "km", "elevation", "round-trip", "strenuous", "moderate", "easy", "climb", "hike"]
+
     def contains_whole_word(text, keyword):
-        # Use regex to find whole words, avoiding matches like 'always' for 'way'
         pattern = r'\b' + re.escape(keyword.lower()) + r'\b'
         return bool(re.search(pattern, text.lower()))
 
-    trails = []
+    trails_candidates = []
     things = []
     
     for item in items:
         title = item.get("title", "")
-        desc = (item.get("listingDescription") or "").lower()
+        desc = (item.get("listingDescription") or "") + " " + (item.get("bodyText") or "")
         title_lower = title.lower()
+        desc_lower = desc.lower()
+
+        # 1. Check Negative Signals first (fast reject)
+        is_infrastructure = any(contains_whole_word(title_lower, kw) for kw in INFRASTRUCTURE_KEYWORDS)
         
-        # 1. Whole-word checks
-        is_structure_or_landmark = any(contains_whole_word(title_lower, kw) for kw in NON_TRAIL_KEYWORDS)
-        has_trail_title = any(contains_whole_word(title_lower, kw) for kw in TRAIL_KEYWORDS)
-        has_trail_desc = any(contains_whole_word(desc, kw) for kw in TRAIL_KEYWORDS)
+        # 2. Check Positive Signals
+        has_hike_keyword = any(contains_whole_word(title_lower, kw) for kw in HIKE_KEYWORDS)
         
-        # 2. Logic Priority
-        if contains_whole_word(title_lower, "trailhead"):
-            is_trail = True
-        elif is_structure_or_landmark:
-            is_trail = False
-        elif has_trail_title or has_trail_desc:
-            is_trail = True
-        else:
-            is_trail = False
+        # 3. Content Rescue: Even if it looks like infrastructure (e.g. "Glacier Point"), 
+        # is it actually describing a hike starting there?
+        has_content_indicators = sum(1 for w in CONTENT_INDICATORS if w in desc_lower) >= 2
+
+        # LOGIC:
+        is_trail = False
+        
+        if is_infrastructure:
+            # If it's explicitly named "Visitor Center", it's a thing. 
+            # Unless it's "Visitor Center Trailhead" - but usually "Visitor Center" is the building.
+            # We'll be strict on infrastructure words in title.
+             is_trail = False
+        elif has_hike_keyword:
+             is_trail = True
+        elif has_content_indicators:
+             # Even if title is generic, if description talks about miles and elevation, it's a trail candidate
+             is_trail = True
+             
+        # Ambiguity Handling: "Overlook" or "Point"
+        # If title is just "Glacier Point" (has 'point' keyword), it qualifies as candidate.
+        # But we might want to be tighter? 
+        # User said: "allow: rim, trail, point, overlook... de-prioritize overlooks unless they also have hike language"
+        if contains_whole_word(title_lower, "overlook") or contains_whole_word(title_lower, "point"):
+             if not has_content_indicators and not ("trail" in title_lower or "hike" in title_lower):
+                 is_trail = False
 
         if is_trail:
-            trails.append(item)
+            trails_candidates.append(item)
         else:
             things.append(item)
             
-    return {"data": trails, "total": str(len(trails))}, \
+    return {"data": trails_candidates, "total": str(len(trails_candidates))}, \
            {"data": things, "total": str(len(things))}
 
 def main():
@@ -149,23 +170,35 @@ def main():
             raw = nps._get(endpoint, params={"parkCode": park_code, "limit": limit}, headers=nps._get_headers())
             save_json(raw, park_code, f"{endpoint}.json", is_raw=True)
             
-            # SPECIAL CASE: Classify Places
-            if endpoint == "places":
-                trails_raw, things_raw = classify_places(raw)
-                save_json(trails_raw, park_code, "raw_trails.json", is_raw=True)
-                save_json(things_raw, park_code, "raw_things.json", is_raw=True)
-
             # Parsed (UI Fixture)
             parsed = method(park_code, limit=limit)
             save_json(parsed, park_code, filename)
+            
+            return raw # Return raw data for combination
 
         fetch_and_save("campgrounds", nps.get_campgrounds, "campgrounds.json")
         fetch_and_save("visitorcenters", nps.get_visitor_centers, "visitor_centers.json")
         fetch_and_save("alerts", nps.get_alerts, "alerts.json")
         fetch_and_save("events", nps.get_events, "events.json")
         fetch_and_save("webcams", nps.get_webcams, "webcams.json")
-        fetch_and_save("places", nps.get_places, "places.json")
-        fetch_and_save("thingstodo", nps.get_things_to_do, "things_to_do.json")
+        
+        # --- MERGED PLACES & THINGS TO DO ---
+        places_raw = fetch_and_save("places", nps.get_places, "places.json")
+        things_raw = fetch_and_save("thingstodo", nps.get_things_to_do, "things_to_do.json")
+        
+        # Combine items from both endpoints
+        combined_items = {}
+        for item in places_raw.get("data", []):
+            combined_items[item["id"]] = item
+        for item in things_raw.get("data", []):
+            combined_items[item["id"]] = item
+            
+        merged_data = {"data": list(combined_items.values())}
+        
+        # Run classification on the SUPER SET
+        trails_raw, things_classified_raw = classify_places(merged_data)
+        save_json(trails_raw, park_code, "raw_trails.json", is_raw=True)
+        save_json(things_classified_raw, park_code, "raw_things.json", is_raw=True)
         
         # Passport Stamps (special case if not in all clients)
         if hasattr(nps, "get_passport_stamps"):

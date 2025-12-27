@@ -63,6 +63,130 @@
       "relevanceScore": 1.0
     },
     {
+      "id": "92601B6A-4EC1-44B3-9741-8467F05C7407",
+      "url": "https://www.nps.gov/places/000/big-trees-loop-ecology-of-the-grove-stop-3.htm",
+      "title": "Big Trees Loop - Ecology of the Grove",
+      "listingDescription": "Think of the grove as a neighborhood, or ecosystem, where the resident plants and animals rely on each other to survive. Read this wayside exhibit to find out more about what roles mammals, birds, trees, snow, fire, and the sun play in this neighborhood.",
+      "images": [
+        {
+          "url": "https://www.nps.gov/common/uploads/cropped_image/61D4F7F2-0846-4F46-DB0A40B2104E6EFC.jpg",
+          "credit": "",
+          "altText": "Wayside exhibit along a fence with sequoias and people in background",
+          "title": "Big Trees - Ecology of a Grove (Stop 3)",
+          "description": "",
+          "caption": "Big Trees Loop - Ecology of a Grove (Stop 3)",
+          "crops": [
+            {
+              "aspectRatio": "1.78",
+              "url": "https://www.nps.gov/common/uploads/cropped_image/primary/61D4F7F2-0846-4F46-DB0A40B2104E6EFC.jpg"
+            },
+            {
+              "aspectRatio": "1.33",
+              "url": "https://www.nps.gov/common/uploads/cropped_image/secondary/61D4F7F2-0846-4F46-DB0A40B2104E6EFC.jpg"
+            }
+          ]
+        }
+      ],
+      "relatedParks": [
+        {
+          "states": "CA",
+          "parkCode": "yose",
+          "designation": "National Park",
+          "fullName": "Yosemite National Park",
+          "url": "https://www.nps.gov/yose/index.htm",
+          "name": "Yosemite"
+        }
+      ],
+      "relatedOrganizations": [],
+      "tags": [],
+      "latitude": "37.501613",
+      "longitude": "-119.610056",
+      "latLong": "37.501613,-119.610056",
+      "bodyText": "<h2>Ecology of the Grove</h2> <p>Think of the grove as a neighborhood, or ecosystem, where the resident plants and animals rely on each other to survive. Read this wayside exhibit to find out more about what roles mammals, birds, trees, snow, fire, and the sun play in this neighborhood.</p>",
+      "audioDescription": "This wayside exhibit is the third stop of 12 on the Big Trees Loop Tour. A wooden boardwalk with wood and metal fencing, curves outward to allow for a closer look at the trees. Several giant sequoias line the path nearby, making visitors crane their neck back to see the height of the tree. Shrubs and saplings are near the fence, while some larger, mature sequoias can be seen in the distance. A wayside exhibit adhered to the wooden fence is titled, Ecology of the Grove. Panel text reads, Think of the grove as a neighborhood, or ecosystem, where the resident plants and animals rely on each other to survive. Mammals and birds spread seeds and support healthy populations of plants and insects. Tree bark, leaves, needles, and other plant litter provides food for tiny organisms, which digest the materials and return nutrients to the soil. Snow melt, fire, and sunlight provide vital energy for life in the forest. Each factor, working with the others, is key to the success of this grove and its residents.",
+      "isPassportStampLocation": "0",
+      "passportStampLocationDescription": "",
+      "passportStampImages": [],
+      "managedByUrl": "",
+      "isOpenToPublic": "1",
+      "isMapPinHidden": "1",
+      "npmapId": "",
+      "geometryPoiId": "",
+      "isManagedByNps": "1",
+      "amenities": [
+        "Historical/Interpretive Information/Exhibits"
+      ],
+      "managedByOrg": "",
+      "quickFacts": [],
+      "location": "",
+      "locationDescription": "",
+      "credit": "",
+      "multimedia": [],
+      "relevanceScore": 1.0
+    },
+    {
+      "id": "39BFA8FE-E8CE-42E6-B9E4-B1F98B6E208F",
+      "url": "https://www.nps.gov/places/000/big-trees-loop-grove-restoration-stop-8.htm",
+      "title": "Big Trees Loop - Grove Restoration",
+      "listingDescription": "The ground you stand on was once asphalt, which did not give falling sequoia seeds a chance to germinate. Read about recent efforts to restore this area back to a place where giant sequoias can thrive.",
+      "images": [
+        {
+          "url": "https://www.nps.gov/common/uploads/cropped_image/622CA031-E887-A962-A01101BDB96827D2.jpg",
+          "credit": "",
+          "altText": "Flat sequoia round and exhibit in foreground, fence, and sequoias and other trees in background",
+          "title": "Big Trees - Grove Restoration (Stop 8)",
+          "description": "",
+          "caption": "Big Trees Loop - Grove Restoration (Stop 8)",
+          "crops": [
+            {
+              "aspectRatio": "1.78",
+              "url": "https://www.nps.gov/common/uploads/cropped_image/primary/622CA031-E887-A962-A01101BDB96827D2.jpg"
+            },
+            {
+              "aspectRatio": "1.33",
+              "url": "https://www.nps.gov/common/uploads/cropped_image/secondary/622CA031-E887-A962-A01101BDB96827D2.jpg"
+            }
+          ]
+        }
+      ],
+      "relatedParks": [
+        {
+          "states": "CA",
+          "parkCode": "yose",
+          "designation": "National Park",
+          "fullName": "Yosemite National Park",
+          "url": "https://www.nps.gov/yose/index.htm",
+          "name": "Yosemite"
+        }
+      ],
+      "relatedOrganizations": [],
+      "tags": [],
+      "latitude": "37.502605",
+      "longitude": "-119.608799",
+      "latLong": "37.502605,-119.608799",
+      "bodyText": "<h2>Grove Restoration</h2> <p>The ground you stand on was once asphalt, which did not give falling sequoia seeds a chance to germinate. Read about recent efforts to restore this area back to a place where giant sequoias can thrive.</p>",
+      "audioDescription": "This wayside exhibit is the eighth stop of 12 on the Big Trees Loop Tour. A dirt path lined with wood railings, leads to an open area filled with tall grasses and shrubs. A cross-cut of a tree trunk is to the side of the path for seating purposes. A wayside exhibit titled, Grove Restoration is next to the path. Panel text reads, the ground below you was once part of a paved road system. When sequoia seeds fell from the giants above, they landed on asphalt, with no chance of germination.<br /><br />Today, falling seeds can land on fertile, well-hydrated soil - the perfect place to start their long journey to adulthood. This change was made possible by a historic restoration effort during the years surrounding the National Park Service centennial in 2016. This effort removed asphalt, replaced roads with trails, and restored natural hydrology. Ongoing efforts such as these help to return natural processes to the grove. <br /><br />Illustration: The thin branches, sprouting from the ground, covered completely with pine-like leaves. This small sapling is next to the girth of a mature giant sequoia's reddish-brown trunk, that bulbs out at its bottom.",
+      "isPassportStampLocation": "0",
+      "passportStampLocationDescription": "",
+      "passportStampImages": [],
+      "managedByUrl": "",
+      "isOpenToPublic": "1",
+      "isMapPinHidden": "1",
+      "npmapId": "",
+      "geometryPoiId": "",
+      "isManagedByNps": "1",
+      "amenities": [
+        "Historical/Interpretive Information/Exhibits"
+      ],
+      "managedByOrg": "",
+      "quickFacts": [],
+      "location": "",
+      "locationDescription": "",
+      "credit": "",
+      "multimedia": [],
+      "relevanceScore": 1.0
+    },
+    {
       "id": "4E6B540D-E774-42D5-83C8-3FCA23D4EB19",
       "url": "https://www.nps.gov/places/000/big-trees-loop-how-giants-fall-stop-7.htm",
       "title": "Big Trees Loop - How Giants Fall",
@@ -538,6 +662,68 @@
       "latLong": "37.501865,-119.609597",
       "bodyText": "<h2>Water and Wetlands</h2> <p>Most of these giant sequoias consume a lot of water. Where does the water come from? Find out more about the importance of wetland areas to giant sequoias and other plants and animals found in the grove, on this wayside exhibit.</p>",
       "audioDescription": "This wayside exhibit is the fourth stop of 12 on the Big Trees Loop Tour. A wooden boardwalk with wood and metal fencing, curves outward to get a closer look at the trees. A wood bench with metal armrests is in the area. Several giant sequioas line the path ahead and make other visitors look small. Shrubs and saplings are near to the fence, while some large, mature sequoias can be seen in the distance. A wayside exhibit adhered to the wooden fence is titled, Water and Wetlands. Panel text reads, giant sequoias can consume hundreds of gallons of water every day. Most of the water comes from snowmelt, which flows along the surface of the ground into wetlands or filters underground through loose soil. <br /><br />This boardwalk was built to enable water to move freely through the wetland below while allowing you to explore this stand of trees. Restoration of wetland areas re-establishes the natural flow of water, not only for giant sequoias, but for all of the grove's plants and animals. <br /><br />Illustration: a small, narrow stream makes its way through foliage consisting of a flowering bush and a bunch of tall, green stalks, in a sequioa grove. A deer stands near a sequioa tree, small in stature when compared to the size of the sequoia trunk.<br /><br />Caption: Some plants you see here, such as equisetum and the flowering western azalea, are adapted for life in saturated soil and live alongside giant sequoias.",
+      "isPassportStampLocation": "0",
+      "passportStampLocationDescription": "",
+      "passportStampImages": [],
+      "managedByUrl": "",
+      "isOpenToPublic": "1",
+      "isMapPinHidden": "1",
+      "npmapId": "",
+      "geometryPoiId": "",
+      "isManagedByNps": "1",
+      "amenities": [
+        "Historical/Interpretive Information/Exhibits"
+      ],
+      "managedByOrg": "",
+      "quickFacts": [],
+      "location": "",
+      "locationDescription": "",
+      "credit": "",
+      "multimedia": [],
+      "relevanceScore": 1.0
+    },
+    {
+      "id": "BE78BD98-1E04-4567-9B1C-8171679F2EFA",
+      "url": "https://www.nps.gov/places/000/big-trees-loop-wildlife-in-the-grove-stop-11.htm",
+      "title": "Big Trees Loop - Wildlife in the Grove",
+      "listingDescription": "The Mariposa Grove provides a protected home for 35 species of mammals and 35 species of birds. Serious threats to Yosemite's wildlife and the ecosystems they occupy include loss of a natural fire regime, non-native species, air pollution, habitat fragmentation, and climate change. Learn about one of Yosemite's rarest species, the Pacific Fisher, on this wayside exhibit.",
+      "images": [
+        {
+          "url": "https://www.nps.gov/common/uploads/cropped_image/9CA707A1-C643-1A0D-79AF7DD0EB63E467.jpg",
+          "credit": "",
+          "altText": "Tactile statue of a pacific fisher on a granite stone",
+          "title": "Big Trees - Wildlife (Stop 11)",
+          "description": "",
+          "caption": "Big Trees Loop - Wildlife in the Grove (Stop 11)",
+          "crops": [
+            {
+              "aspectRatio": "1.78",
+              "url": "https://www.nps.gov/common/uploads/cropped_image/primary/9CA707A1-C643-1A0D-79AF7DD0EB63E467.jpg"
+            },
+            {
+              "aspectRatio": "1.33",
+              "url": "https://www.nps.gov/common/uploads/cropped_image/secondary/9CA707A1-C643-1A0D-79AF7DD0EB63E467.jpg"
+            }
+          ]
+        }
+      ],
+      "relatedParks": [
+        {
+          "states": "CA",
+          "parkCode": "yose",
+          "designation": "National Park",
+          "fullName": "Yosemite National Park",
+          "url": "https://www.nps.gov/yose/index.htm",
+          "name": "Yosemite"
+        }
+      ],
+      "relatedOrganizations": [],
+      "tags": [],
+      "latitude": "37.502126",
+      "longitude": "-119.610158",
+      "latLong": "37.502126,-119.610158",
+      "bodyText": "<h2>Wildlife in the Grove</h2> <p>The Mariposa Grove provides a protected home for 32\u00a0species of mammals and 32\u00a0species of birds. Serious threats to Yosemite's wildlife and the ecosystems they occupy include loss of a natural fire regime, non-native species, air pollution, habitat fragmentation, and climate change. Learn about one of Yosemite's rarest species, the Pacific Fisher, on this wayside exhibit.</p>",
+      "audioDescription": "This wayside exhibit is the eleventh stop of 12 on the Big Trees Loop Tour. A dirt path lined with wood railings leads to an opening in the trees, a circular area that is line with boulders. In the center of the circular area is an oddly shaped outline of the canopy of a giant sequioa, inlayed into the ground with stones. To the opposite side of the circular opening is a bronze statue of a fisher, set on a stone pedastal. A wayside exhibit titled, Wildlife in the Grove, is next to the path. Panel text reads, the Mariposa Grove is home to 35 species of mammals and 35 species of birds. As humans transform landscapes worldwide, protected natural habitats are increasingly scarce and more important than ever. How many wild places still exist for wildlife where you live?<br /><br />This grove provides a protected home for several rare species, including the Pacific fisher. Scientists estimate that between 125 and 250 fishers live in Yosemite. This medium-sized weasel, a California Species of Special Concern, is an important predator that makes its home in the cavities of old-growth trees and raises 2-3 kits each year. <br /><br />Illustration: A weasel-like animal sits on a tree branch with its long tail hanging over the side. <br /><br />Caption: Even while protected in this national park, fishers face threats. Illegal use of rodenticides on public land can kill wildlife or seriously compromise their health. Many fishers are hit by vehicles. Please drive slowly to keep fishers and other animals safe.",
       "isPassportStampLocation": "0",
       "passportStampLocationDescription": "",
       "passportStampImages": [],
@@ -1070,6 +1256,60 @@
       "relevanceScore": 1.0
     },
     {
+      "id": "99CA6738-45FF-40D3-A94A-31A854BDC40C",
+      "url": "https://www.nps.gov/places/000/glacier-point-ski-hut.htm",
+      "title": "Glacier Point Ski Hut",
+      "listingDescription": "View Yosemite Valley, Half Dome, and the Yosemite High Country from one of the most gorgeous and breathtaking sites in the Sierra Nevada region, from the Glacier Point Ski Hut.A 10.5-mile cross-country ski trip from Badger Pass Ski Area, on groomed terrain, will bring you to this rustic accommodation. Experienced cross-country skiers can do the entire round-trip in 4 to 5 hours, however, many guests like to explore Glacier Point longer and stay at Glacier Point Ski Hut overni",
+      "images": [
+        {
+          "url": "https://www.nps.gov/common/uploads/place/import/36406ac8-e003-49e6-862f-319eb8aa51b1_image_350.jpg",
+          "credit": "",
+          "altText": "Ski track in the snow lead toward a wooden building with stone accents. Tall pine trees rise behind the building and a snow covered mountainous landscape, featuring Half Dome, can be seen to the right.",
+          "title": "",
+          "description": "",
+          "caption": "Photo by Yosemite Hospitality",
+          "crops": []
+        }
+      ],
+      "relatedParks": [
+        {
+          "states": "CA",
+          "parkCode": "yose",
+          "designation": "National Park",
+          "fullName": "Yosemite National Park",
+          "url": "https://www.nps.gov/yose/index.htm",
+          "name": "Yosemite"
+        }
+      ],
+      "relatedOrganizations": [],
+      "tags": [],
+      "latitude": "37.728349",
+      "longitude": "-119.573522",
+      "latLong": "37.728349,-119.573522",
+      "bodyText": "<p>View Yosemite Valley, Half Dome, and the Yosemite High Country from one of the most breathtaking sites in the Sierra Nevada region, from the Glacier Point Ski Hut.<br /> <br /> A 10.5-mile cross-country ski trip from Badger Pass Ski Area, on groomed terrain, will bring you to this rustic accommodation. Experienced cross-country skiers can do the entire round-trip in 4 to 5 hours, however, many guests like to explore Glacier Point longer and stay at Glacier Point Ski Hut overnight. Children must be at least 14 years old and accompanied by an adult to stay at Glacier Point Ski Hut. Reservations are required, and the Hut is only open in the winter.<br /> <br /> Inside the Glacier Point Ski Hut, you'll find a charming dining room and rustic accommodations that include:<br /> <br /> Comfortable Sofas<br /> Woodstove<br /> Restrooms<br /> Large bunk bed area that sleeps up to 20 people in a single room.<br /> <br /> Equipment rentals are available. See <a href=\"https://www.travelyosemite.com/lodging/glacier-point-ski-hut/\">website</a> for more information.<br /> <br /> <br /> <b>Hours</b>:<br /> Closed until further notice.<br /> <br /> <b>Getting Here</b>:<br /> Begin at Badger Pass, located along the Glacier Point Road, about 8 miles east of the Chinquapin intersection and the Wawona Road (Highway 41).<br /> <br /> <b>Rules & Regulations</b>:<br /> To dispose of human waste, dig through snow\u00a0and six inches into soil.<br /> Pack out all garbage, including toilet paper.<br /> Skiers and snowshoers should make and maintain\u00a0separate tracks.<br /> <br /> <b>Hazards & Warnings</b>:<br /> Short days mean that you might not be able to travel as far as expected.<br /> Let someone know where you are going.<br /> Keep track of all members of your party.<br /> Watch for hypothermia - slow movements, peculiar behavior, unintelligible speech.<br /> Stay on trails.<br /> Get weather forecast and be prepared for the unexpected.<br /> Carry proper food and gear for unexpected bivouac.<br /> Carry and drink plenty of water - If you are thirsty, you are already dehydrated.<br /> If someone needs help send someone to ski to Yosemite Ski and Snowboard Area or to Glacier Point Ski Hut (two skiers best).<br /> Call 911. If possible, leave someone with the person in trouble.</p>",
+      "audioDescription": "A large, nearly symmetrical, timber and stone building has vertical, wooden-plank siding, a large stone foundation, and stone siding that extends up the height of the building at each corner. The building has a low-pitched roof and a matching, smaller porch roof that extends outward and is held up by two large cobblestoned columns. Two sets of glass double-doors are beneath the porch, in the center of the front side of the building. Three windows are on both sides of the entrance. Four small windows are lined up above the porch roof. A cobblestoned smokestack is to the right of the roof ridge. As you first walk in, a cobblestoned fireplace is opposite the entrance. Sofas surround a coffee table in front of the fireplace. A large open space to the right holds enough bunk beds to sleep up to 20 people.<br /><br />",
+      "isPassportStampLocation": "0",
+      "passportStampLocationDescription": "",
+      "passportStampImages": [],
+      "managedByUrl": "https://www.travelyosemite.com/lodging/glacier-point-ski-hut/",
+      "isOpenToPublic": "1",
+      "isMapPinHidden": "0",
+      "npmapId": "",
+      "geometryPoiId": "",
+      "isManagedByNps": "0",
+      "amenities": [
+        "Recycling",
+        "Trash/Litter Receptacles"
+      ],
+      "managedByOrg": "Yosemite Hospitality",
+      "quickFacts": [],
+      "location": "",
+      "locationDescription": "",
+      "credit": "",
+      "multimedia": [],
+      "relevanceScore": 1.0
+    },
+    {
       "id": "CE7E3DB1-575F-45C5-9288-568FBFCEA90A",
       "url": "https://www.nps.gov/places/000/glen-aulin-trailhead.htm",
       "title": "Glen Aulin and Soda Springs Trailhead",
@@ -1122,112 +1362,6 @@
       "isManagedByNps": "1",
       "amenities": [
         "Trailhead"
-      ],
-      "managedByOrg": "",
-      "quickFacts": [],
-      "location": "",
-      "locationDescription": "",
-      "credit": "",
-      "multimedia": [],
-      "relevanceScore": 1.0
-    },
-    {
-      "id": "79922188-D611-47FC-BD73-B30761F54253",
-      "url": "https://www.nps.gov/places/000/grizzly-giant-tour-the-surviving-tunnel-tree-stop-4.htm",
-      "title": "Grizzly Giant Tour - The Surviving Tunnel Tree",
-      "listingDescription": "The Surviving Tunnel Tree<br />The California Tunnel Tree was cut in 1895 to allow horsedrawn stages to pass through. Most visitors don't know that two trees in this grove were tunneled, and this is the only one still standing, and still alive! Stroll through this living tree while thinking about its history. Read this wayside exhibit to learn more about this and another tunnel tree.",
-      "images": [
-        {
-          "url": "https://www.nps.gov/common/uploads/place/import/6a112a07-660a-43e4-b734-2d2acc6f6189_image_350.jpg",
-          "credit": "",
-          "altText": "People stand inside a tunnel that has been cut out of the base of a large giant sequoia tree.",
-          "title": "",
-          "description": "",
-          "caption": "",
-          "crops": []
-        }
-      ],
-      "relatedParks": [
-        {
-          "states": "CA",
-          "parkCode": "yose",
-          "designation": "National Park",
-          "fullName": "Yosemite National Park",
-          "url": "https://www.nps.gov/yose/index.htm",
-          "name": "Yosemite"
-        }
-      ],
-      "relatedOrganizations": [],
-      "tags": [],
-      "latitude": "37.504288",
-      "longitude": "-119.600307",
-      "latLong": "37.504288,-119.600307",
-      "bodyText": "<p>The Surviving Tunnel Tree<br /> The California Tunnel Tree was cut in 1895 to allow horsedrawn stages to pass through. Most visitors don't know that two trees in this grove were tunneled, and this is the only one still standing, and still alive! Stroll through this living tree while thinking about its history. Read this wayside exhibit to learn more about this and another tunnel tree.</p>",
-      "audioDescription": "This wayside exhibit is the fourth stop of four on the Grizzly Giant Tour. The accessible path leads from the Grizzly Giant, down a hill to a large sequioa tree that has a tunnel carved out of its base. The wayside exhibit is titled, The Surviving Tunnel Tree, is next to the path. Panel text reads, walk through this living tree and look for evidence of it healing itself. Bark of this sequoia is growing inward in an attempte to close over its wound - the large tunnel carved in 1895. Thought to have served as a lower elevation winter replacement for the more famous Wawona Tunnel Tree, this tree became the second tunneled in this grove. <br /><br />The Wawona Tunnel Tree fell in 1969 after serving as a portal to the past for over 75 years. Although weakened, the California Tunnel Tree survives today and offers us a glimpse into early tourism promotion and transporation. Both trees were helpful in publicizing the Mariposa Grove and promoting its inclusion into Yosemite National Park in 1906. <br /><br />Black and white photo: A black, open-top, classic car is parked below a deeply furrowed giant sequoia trunk that has a hole in it. A sign above the entrance to the tree tunneled tree reads, California. A park ranger stands near the steering wheel, outside the vehicle, while a passenger sits in the back seat. <br /><br />Caption: Park ranger and passenger driving a government vehicle through the California Tunnel Tree c. 1920s. Notice the tree's name nailed to the tree above the tunnel.<br /><br />An informational map of the sequioa grove is also situated along the path, near the tunnel tree. The map is framed in large timber logs with log posts. The map reads Mariposa Grove. The key indicates light blue dotted lines are accessible trails, and thin, black, dotted lines are secondary trails. Icons for shuttle bus stops, restrooms, accessible parking, general parking, and mature giant sequoias are listed. Near the bottom left corner of the map is the Grove Arrival Area. Icons for restrooms, hiking, parking, and a shuttle stop are in the area. Major trails start here, all indicated by green, brown, light blue, and orange thick and thin, dotted lines. Small bunches of mature giant sequioa icons are in the area, which are individual bush-like circles, like looking down on a broccoli floret. The most concentrated bunch of mature giant sequoia icons are at the top of the map by a Mariposa Grove Cabin. Horse trails and restroom are located throughout the grove. Iconic trees are listed, a few examples being Fallen Monarch, Bachelor and Three Graces, Grizzly Giant, California Tunnel Tree, Faithful Couple, Clothespin Tree, Telescope Tree, and Fallen Wawona Tunnel Tree. For information regarding park maps, call our park accessibility coordinator at (209) 379-1035.",
-      "isPassportStampLocation": "0",
-      "passportStampLocationDescription": "",
-      "passportStampImages": [],
-      "managedByUrl": "",
-      "isOpenToPublic": "1",
-      "isMapPinHidden": "1",
-      "npmapId": "",
-      "geometryPoiId": "",
-      "isManagedByNps": "1",
-      "amenities": [
-        "Historical/Interpretive Information/Exhibits"
-      ],
-      "managedByOrg": "",
-      "quickFacts": [],
-      "location": "",
-      "locationDescription": "",
-      "credit": "",
-      "multimedia": [],
-      "relevanceScore": 1.0
-    },
-    {
-      "id": "CDACCE4F-91F9-4D7D-9B9F-4D6C9D68D8DB",
-      "url": "https://www.nps.gov/places/000/grizzly-giant-tour-the-world-below-stop-2.htm",
-      "title": "Grizzly Giant Tour - The World Below",
-      "listingDescription": "The World Below<br />Tread lightly. Stepping off the trail, even for a quick photograph, may prevent water from reaching the trees' roots. Learn more about the microscopic life that exists beneath your feet, at this wayside exhibit.",
-      "images": [
-        {
-          "url": "https://www.nps.gov/common/uploads/place/import/82b8ac88-6892-4829-9c9e-2e9c75e13ef6_image_350.jpg",
-          "credit": "",
-          "altText": "People stand next to a wood railing to get pictures taken with a large giant sequoia behind them.",
-          "title": "",
-          "description": "",
-          "caption": "",
-          "crops": []
-        }
-      ],
-      "relatedParks": [
-        {
-          "states": "CA",
-          "parkCode": "yose",
-          "designation": "National Park",
-          "fullName": "Yosemite National Park",
-          "url": "https://www.nps.gov/yose/index.htm",
-          "name": "Yosemite"
-        }
-      ],
-      "relatedOrganizations": [],
-      "tags": [],
-      "latitude": "37.503276",
-      "longitude": "-119.601114",
-      "latLong": "37.503276,-119.601114",
-      "bodyText": "<p>The World Below<br /> Tread lightly. Stepping off the trail, even for a quick photograph, may prevent water from reaching the trees' roots. Learn more about the microscopic life that exists beneath your feet, at this wayside exhibit.</p>",
-      "audioDescription": "This wayside exhibit is the second stop of four on the Grizzly Giant Tour. This wayside is facing the opposite directiong from the Grizzly Giant, toward an open area that is covered in dried pine needles and pine cones. The wayside exhibit is titled, The World Below, and is next to the path. Panel text reads, although these towering trees draw our gaze upward, the true source of their strength comes from below. Giant sequoias rely on wide, shallow root systems to maintain balance and absorb water and nutrients from the soil.<br /><br />Hidden beneath your feet is a dynamic world of microscopic life. Tiny organisms recycle organic matter and create underground air pockets, making space for water from snowmelt or wetlands to nourish the trees. <br /><br />Illustration: A small mouse digs a passageway into the the soil, similar to other bugs, worms, and centipedes. A root grows horizontally, near the grounds surface. A magnifying glass magnifies a section, showing smaller insects and organisms. A foot steps on a section of the ground, crushing down into the soil near the root, collapsing what air pockets and insects were there. <br /><br />Caption: Stepping off trail, even for a quick photograph, compacts the loose, open soil and prevents water from reaching the trees' roots. As you approach the Grizzly Giant, look for markers that show the outer limit of the root system, which can extend 200 feet (61 m)<br />from the tree.",
-      "isPassportStampLocation": "0",
-      "passportStampLocationDescription": "",
-      "passportStampImages": [],
-      "managedByUrl": "",
-      "isOpenToPublic": "1",
-      "isMapPinHidden": "1",
-      "npmapId": "",
-      "geometryPoiId": "",
-      "isManagedByNps": "1",
-      "amenities": [
-        "Historical/Interpretive Information/Exhibits"
       ],
       "managedByOrg": "",
       "quickFacts": [],
@@ -1470,6 +1604,68 @@
       "isManagedByNps": "1",
       "amenities": [
         "Trailhead"
+      ],
+      "managedByOrg": "",
+      "quickFacts": [],
+      "location": "",
+      "locationDescription": "",
+      "credit": "",
+      "multimedia": [],
+      "relevanceScore": 1.0
+    },
+    {
+      "id": "C4FAE927-EBD3-49D4-AF45-ADF8233B2E52",
+      "url": "https://www.nps.gov/places/000/lower-yosemite-fall-tour-james-hutchings-stop-8.htm",
+      "title": "Lower Yosemite Fall Tour - Many Faces of Yosemite Falls",
+      "listingDescription": "James Hutchings<br />After bringing the first tourists to Yosemite Valley, James Mason Hutchings established Hutchings House in 1864. Using the boardinghouse know-how of his mother-in-law, he and his wife launched a career as Yosemite inn-keepers. Hutchings was a gracious host, whose charm made up for the lack of amenities in his hotel.",
+      "images": [
+        {
+          "url": "https://www.nps.gov/common/uploads/cropped_image/CC631657-A12C-A799-2554E5E84D32FCA5.jpg",
+          "credit": "",
+          "altText": "A wayside exhibit with a bronze tactile quarter panel",
+          "title": "Many Faces of Yosemite Falls",
+          "description": "",
+          "caption": "Many Faces of Yosemite Falls",
+          "crops": [
+            {
+              "aspectRatio": "1.78",
+              "url": "https://www.nps.gov/common/uploads/cropped_image/primary/CC631657-A12C-A799-2554E5E84D32FCA5.jpg"
+            },
+            {
+              "aspectRatio": "1.33",
+              "url": "https://www.nps.gov/common/uploads/cropped_image/secondary/CC631657-A12C-A799-2554E5E84D32FCA5.jpg"
+            }
+          ]
+        }
+      ],
+      "relatedParks": [
+        {
+          "states": "CA",
+          "parkCode": "yose",
+          "designation": "National Park",
+          "fullName": "Yosemite National Park",
+          "url": "https://www.nps.gov/yose/index.htm",
+          "name": "Yosemite"
+        }
+      ],
+      "relatedOrganizations": [],
+      "tags": [],
+      "latitude": "37.746197",
+      "longitude": "-119.593107",
+      "latLong": "37.746197,-119.593107",
+      "bodyText": "<p>Many Faces of Yosemite Falls<br /> The ancient channel of Yosemite Creek once cascaded down the ravine to the left of Upper Yosemite Fall. About 130,000 years ago, a retreating glacier deposited ridges of geologic debris--known as a moraine--that blocked the channel. The creek was then diverted to its present route. Today, you can hike along that ancient creek's path. The 3.6-mile Upper Yosemite Fall Trail traverses the ravine. It rises 2,700 feet in elevation, and leads to the top of Yosemite Falls.</p>",
+      "audioDescription": "A wayside exhibit stands along a paved path lined with tall trees that leads to Lower Yosemite Fall. On the left one-quarter side of the exhibit is a bronze tactile panel showing the ancient path of Yosemite Creek via a raised dotted line. Next to the tactile model, there is a monotone image illustrating the path of Yosemite Creek today with a solid line and a dotted line showing the ancient path of Yosemite Creek. The caption reads: \"The dotted line shows where the ancient channel of Yosemite Creek once flowed. It branched off the current path of the creek and cascaded down the ravine to the left of Yosemite Falls.\" The remaining right side of the panel is titled \"Many Faces of Yosemite Falls\" and has a faint, sepia-toned photograph showing the full height of Yosemite Falls viewed from a distance. Under a heading that reads \"Follow an Ancient Path\", panel text reads: The ancient channel of Yosemite Creek once cascaded down the ravine to the left of Upper Yosemite Fall. About 130,000 years ago, a retreating glacier deposited ridges of geologic debris--known as a moraine--that blocked the channel. The creek was then diverted to its present route. Today, you can hike along that ancient creek's path. The 3.6-mile Upper Yosemite Fall Trail traverses the ravine. It rises 2,700 feet in elevation, and leads to the top of Yosemite Falls. On the far right side of the panel, the panel text reads: In spring when the water peaks, the torrential creek launches over the edge and the Falls thunder down the cliff face. As the snowpack dwindles, the waterfalls slow to a trickle and may appear dry by summer's end. During the winter, look for early-morning ice near the Upper Fall and an ice cone at its base.",
+      "isPassportStampLocation": "0",
+      "passportStampLocationDescription": "",
+      "passportStampImages": [],
+      "managedByUrl": "",
+      "isOpenToPublic": "1",
+      "isMapPinHidden": "1",
+      "npmapId": "",
+      "geometryPoiId": "",
+      "isManagedByNps": "1",
+      "amenities": [
+        "Historical/Interpretive Information/Exhibits"
       ],
       "managedByOrg": "",
       "quickFacts": [],
@@ -1806,69 +2002,6 @@
       "relevanceScore": 1.0
     },
     {
-      "id": "9ED794F0-6720-41D8-B0FC-0E2C2E43EEEE",
-      "url": "https://www.nps.gov/places/000/mariposa-grove-shuttle-stop-1-arrival-area-trailhead.htm",
-      "title": "Mariposa Grove Shuttle Stop 1: Arrival Area and Trailhead",
-      "listingDescription": "Park at the Mariposa Grove Welcome Plaza and board the free shuttle bus to get a glimpse of these giants. The Mariposa Grove Shuttle provides free shuttle service between the Mariposa Grove Welcome Plaza, near Yosemite's South Entrance, and the Mariposa Grove from early March through late November. This is the primary way to get to the Mariposa Grove. From approximately December to March, the Mariposa Grove Road is closed to vehicles and the shuttle no longer operates.",
-      "images": [
-        {
-          "url": "https://www.nps.gov/common/uploads/cropped_image/6CFE29CE-C810-CBC5-1E25ACB86AA73E89.jpg",
-          "credit": "",
-          "altText": "Bus at covered bus shelter in Mariposa Grove",
-          "title": "Mariposa Grove - Shuttle Stop #1",
-          "description": "",
-          "caption": "Mariposa Grove Arrival Area - Shuttle Stop #1",
-          "crops": [
-            {
-              "aspectRatio": "1.78",
-              "url": "https://www.nps.gov/common/uploads/cropped_image/primary/6CFE29CE-C810-CBC5-1E25ACB86AA73E89.jpg"
-            },
-            {
-              "aspectRatio": "1.33",
-              "url": "https://www.nps.gov/common/uploads/cropped_image/secondary/6CFE29CE-C810-CBC5-1E25ACB86AA73E89.jpg"
-            }
-          ]
-        }
-      ],
-      "relatedParks": [
-        {
-          "states": "CA",
-          "parkCode": "yose",
-          "designation": "National Park",
-          "fullName": "Yosemite National Park",
-          "url": "https://www.nps.gov/yose/index.htm",
-          "name": "Yosemite"
-        }
-      ],
-      "relatedOrganizations": [],
-      "tags": [],
-      "latitude": "37.50155990027635",
-      "longitude": "-119.61105760469896",
-      "latLong": "37.50155990027635,-119.61105760469896",
-      "bodyText": "<p>The Mariposa Grove Shuttle provides free service between the <a href=\"https://www.nps.gov/places/000/mariposa-grove-welcome-plaza.htm\">Mariposa Grove Welcome Plaza & Parking</a> (stop 2)\u00a0and the <a href=\"https://www.nps.gov/places/000/mariposa-grove-shuttle-stop-2-mariposa-grove-welcome-plaza.htm\">Mariposa Grove Arrival Area & Trailhead</a> (stop 1). Shuttles arrive approximately every 15 minutes.<br /> <br /> The Mariposa Grove of Giant Sequoias is the park's largest stand of giant sequoias, with about 500 mature sequoias in the grove. Park at the Mariposa Grove Welcome Plaza and board the free shuttle bus to get a glimpse of these giants.</p> <p>Dates are subject to change according to weather and road conditions, which may vary from year to year. In any given year, shuttle service will begin no earlier than April 15 (possibly later), and will close on or before November 30 (depending on conditions).</p> <p>Shuttle hours vary throughout the season, with longer hours in summer. See\u00a0<a href=\"https://www.nps.gov/yose/planyourvisit/mg.htm\">website</a>\u00a0or the current issue of the\u00a0<a href=\"https://www.nps.gov/yose/planyourvisit/guide.htm\">Yosemite Guide</a>\u00a0for current operating hours and season dates.</p> <h2>Shuttle Tips & Accessibility</h2> <ul> <li>Pets are not allowed on shuttles.</li> <li>Allow wheelchairs to board first.</li> <li>Collapse strollers before boarding.</li> <li>No oversized or jogging strollers.</li> <li>Remove baby-back carriers when seated.</li> <li>Shuttles only stop at designated stops.</li> <li>No smoking on shuttles.</li> </ul> <p>All shuttles\u00a0are accessible with wheelchair lifts and tie-downs. The maximum size for wheelchairs on shuttles is 24 inches wide x 46 inches long. Shuttle drivers will help passengers on and off shuttles or notify them of stops. If you need assistance, ask the driver.</p>",
-      "audioDescription": "The Mariposa Grove Shuttle Stop 1 has a bus stop shelter made of wooden posts and beams that has concrete sitting areas beneath. The Bus stop sign reads \"1, Mariposa Grove Trailhead, Grove Shuttle, Shuttle Route,\" and shows a basic map of the shuttle route as well as the schedule, which both change with the seasons. For information regarding park maps, call our park accessibility coordinator at (209) 379-1035. The shuttle stop area is surrounded by giant sequoias and is near a restroom and water filling station.",
-      "isPassportStampLocation": "0",
-      "passportStampLocationDescription": "",
-      "passportStampImages": [],
-      "managedByUrl": "",
-      "isOpenToPublic": "1",
-      "isMapPinHidden": "0",
-      "npmapId": "",
-      "geometryPoiId": "30bf2efb-b29f-4819-98b3-9742c6ff8edc",
-      "isManagedByNps": "1",
-      "amenities": [
-        "Bus/Shuttle Stop",
-        "Wheelchair Accessible"
-      ],
-      "managedByOrg": "",
-      "quickFacts": [],
-      "location": "",
-      "locationDescription": "",
-      "credit": "",
-      "multimedia": [],
-      "relevanceScore": 1.0
-    },
-    {
       "id": "E97A321F-3926-47A0-8D17-DDB1E01C21D7",
       "url": "https://www.nps.gov/places/000/may-lake-trailhead.htm",
       "title": "May Lake Trailhead",
@@ -1984,6 +2117,68 @@
       "isManagedByNps": "1",
       "amenities": [
         "Animal-Safe Food Storage",
+        "Trailhead"
+      ],
+      "managedByOrg": "",
+      "quickFacts": [],
+      "location": "",
+      "locationDescription": "",
+      "credit": "",
+      "multimedia": [],
+      "relevanceScore": 1.0
+    },
+    {
+      "id": "4CB7B15C-61E4-4647-9884-44496FAAF8CC",
+      "url": "https://www.nps.gov/places/000/merced-grove.htm",
+      "title": "Merced Grove",
+      "listingDescription": "Visit Yosemite's quietest stand of giant sequoias at the Merced Grove.The Merced Grove is home to approximately 20 mature giant sequoias, accessible only on foot. This trail follows an old road that curves down into the Merced Grove, the smallest and most secluded of Yosemite's three sequoia groves. The trail drops down 1.5 miles, making this a moderate hike on the uphill portion.",
+      "images": [
+        {
+          "url": "https://www.nps.gov/common/uploads/cropped_image/7471F864-A4A2-9B4C-0800A41B61018CBB.jpg",
+          "credit": "",
+          "altText": "Six giant sequoias behind a wood barrier fence clustered together in a forested area",
+          "title": "Merced Grove",
+          "description": "",
+          "caption": "Giant sequoias in the Merced Grove",
+          "crops": [
+            {
+              "aspectRatio": "1.78",
+              "url": "https://www.nps.gov/common/uploads/cropped_image/primary/7471F864-A4A2-9B4C-0800A41B61018CBB.jpg"
+            },
+            {
+              "aspectRatio": "1.33",
+              "url": "https://www.nps.gov/common/uploads/cropped_image/secondary/7471F864-A4A2-9B4C-0800A41B61018CBB.jpg"
+            }
+          ]
+        }
+      ],
+      "relatedParks": [
+        {
+          "states": "CA",
+          "parkCode": "yose",
+          "designation": "National Park",
+          "fullName": "Yosemite National Park",
+          "url": "https://www.nps.gov/yose/index.htm",
+          "name": "Yosemite"
+        }
+      ],
+      "relatedOrganizations": [],
+      "tags": [],
+      "latitude": "37.750904621880125",
+      "longitude": "-119.84018194867718",
+      "latLong": "37.750904621880125,-119.84018194867718",
+      "bodyText": "<p>The Merced Grove is home to approximately 20 mature giant sequoias and is reachable only on foot (there are no giant sequoias visible from the parking area). This trail follows an old road that curves down into the Merced Grove, the smallest and most secluded of Yosemite's three sequoia groves. The trail slopes downhill into the grove, making this a moderate hike on the return to\u00a0the parking area. An old ranger patrol cabin, the former summer retreat of park superintendents, is part of the grove's history. Look for dogwoods blooming here in the spring.<br /> <br /> <strong>Distance:\u00a0</strong>3 miles (4.8 km) round trip<br /> <strong>Elevation gain:\u00a0</strong>520-foot (158 m) on return<br /> <strong>Time estimate:\u00a0</strong>1.5-3\u00a0hours</p> <h2>Tips</h2> <p>Pets and bicycles are not allowed on this trail. A vault toilet is located near the trailhead parking area. There is no drinking water at the parking area or in the grove. Be sure to bring drinking water with you.</p> <h2>Seasonal Information</h2> <p>In winter, ski or snowshoe touring in Yosemite can be a magnificent experience! The first half mile is level and easy, providing a good warm-up for the steep 1 mile (1.6 km) descent into the grove. This trail requires heavy snowfall from a cold, lower-elevation storm to be skiable. Trails are not groomed in the Crane Flat area. Icy or crusty conditions as well as deep snow can make winter travel on trails much more difficult.</p>",
+      "audioDescription": "A small, paved, parking area is next to a main road and is surrounded by forest. A green recycle bin, brown trash bin, and a small, brown, wood, structure, which holds a vault toilet, all line the parking lot. A wayside exhibit, framed in thick, log posts, stands at the trailhead, which appears to be a wide dirt road that is gated at the entrance. <br /><br />The green-toned exhibit panel is titled Merced Grove Trailhead and has an illustrated map, which takes up a majority of the left side of the panel. The map shows a red dot at the bottom of the map, which is labeled, you are here. A yellow squiggle line, representing the trail, makes its way through a faint canopy of trees to the grove. An aerial view of about 12 bold tree tops are shown at the end of the trail, as well as a small cabin. <br /><br />Caption: The path to the Merced Grove is the roadbed of the historic Coulterville Road. Started in 1870, John Taylor McLean invested his entire fortune to ensure the success of the project. Although his efforts failed financially, his contribution resulted in the historic accomplishment of completing the first road into Yosemite Valley. Regularly scheduled stage travel began June 18, 1874. <br /><br />Black and white photo: A classic car is stopped next to a large tree, on a narrow dirt road that passes through a forest of tall trees. <br /><br />Caption: This small grove of about twenty trees was named Crane Flat Grove by the Whitney Survey in 1870. The grove was later re-named Merced Grove, reportedly due to its proximity to the Merced River. <br /><br />Text on the right side of the panel reads, the smallest of Yosemite's three giant sequoia groves, the Merced Grove offers perhaps the best opportunity for a solitary experience among these colossal giants. <br /><br />While enjoying your walk to the grove, consider the rarity of this experience. At one time, sequoias covered an extensive range, but now grow only in isolated groves on the Sierra Nevada's western slope. Limited by specialized growing needs, these trees require both moisture-mostly from winter snowfalls-as well as periodic fire. Frequent burns expose bare mineral soil for seeds to take root. Fire also reduces the number of competing species and opens the forest canopy for sunlight to reach the sun-loving trees. Sequoias appear large and strong; however, their shallow roots are quite vulnerable to damage. Avoid walking in areas immediately surrounding the bases of the trees. Leave cones and other natural items that you find. <br /><br />Illustration: A wedge-like, cross-section illustration that is thick on one end and tapers to a thin edge on the other, shows the slope of the trail. A red dot at the top of the wedge reads, you are here. A yellow line, indicating the trail, squiqqles downhill to the grove of trees. At the bottom of the wedge, an arrow goes from one end to the other and is labeled, 1.5 miles. <br /><br />Trail Conditions: Carry enough drinking water for a fairly rigorous hike. Make sure to allow 3 to 4 hours for a 3-mile round-trip hike. There are no restrooms or running water in the grove. The return uphill is moderately strenuous (600ft. (183 m.) elevation gain). This trail is marked for cross-country skiing and snowshoeing in winter. <br /><br />Black and white photo: A small log cabin sits in the midst of a forest. On the front side of the cabin, a door is in the center with one window on each side. A stone chimney rises out of the roof. <br /><br />Caption: The old cabin along this trail was built in 1934 as a summer retreat for park superintendents. More recently, it has served as a retreat and learning space for school children visiting the park.",
+      "isPassportStampLocation": "0",
+      "passportStampLocationDescription": "",
+      "passportStampImages": [],
+      "managedByUrl": "",
+      "isOpenToPublic": "1",
+      "isMapPinHidden": "0",
+      "npmapId": "",
+      "geometryPoiId": "16dcaf47-070d-4532-b307-b1431ca52e26",
+      "isManagedByNps": "1",
+      "amenities": [
         "Trailhead"
       ],
       "managedByOrg": "",
@@ -2381,6 +2576,70 @@
       "relevanceScore": 1.0
     },
     {
+      "id": "6170802B-AB0A-4D69-8647-AA1D5867D303",
+      "url": "https://www.nps.gov/places/000/parsons-memorial-lodge.htm",
+      "title": "Parsons Memorial Lodge",
+      "listingDescription": "Constructed in 1915, the Sierra Club commissioned the Parsons Memorial Lodge to serve as an early gathering place for the organization and a base from which club members could explore Tuolumne Meadows and the surrounding Sierra Nevada high country.",
+      "images": [
+        {
+          "url": "https://www.nps.gov/common/uploads/cropped_image/72BC4171-E1AB-45AE-799E1A88105428EB.jpeg",
+          "credit": "",
+          "altText": "A small, single-story building with thick stone walls, a low-angled roof, and arched doorway",
+          "title": "Parsons Memorial Lodge",
+          "description": "",
+          "caption": "Parsons Memorial Lodge",
+          "crops": [
+            {
+              "aspectRatio": "1.78",
+              "url": "https://www.nps.gov/common/uploads/cropped_image/primary/72BC4171-E1AB-45AE-799E1A88105428EB.jpeg"
+            },
+            {
+              "aspectRatio": "1.33",
+              "url": "https://www.nps.gov/common/uploads/cropped_image/secondary/72BC4171-E1AB-45AE-799E1A88105428EB.jpeg"
+            }
+          ]
+        }
+      ],
+      "relatedParks": [
+        {
+          "states": "CA",
+          "parkCode": "yose",
+          "designation": "National Park",
+          "fullName": "Yosemite National Park",
+          "url": "https://www.nps.gov/yose/index.htm",
+          "name": "Yosemite"
+        }
+      ],
+      "relatedOrganizations": [],
+      "tags": [],
+      "latitude": "37.87838495166808",
+      "longitude": "-119.36741402075222",
+      "latLong": "37.87838495166808,-119.36741402075222",
+      "bodyText": "<p>Constructed in 1915, the Sierra Club commissioned the Parsons Memorial Lodge to serve as an early meeting place\u00a0and starting point for the club's wilderness excursions in\u00a0the surrounding Sierra Nevada high country.<br /> <br /> The pink feldspar and grey granite stones that form the walls of the lodge were gathered on-site during construction. The peeled log rafters that make up the low-pitched roof were brought in by mule.\u00a0An elegant example of environmental harmonization in the First Bay Tradition architectural style, the design of this building is credited to acclaimed architect Bernard Maybeck.<br /> <br /> The lodge is named for\u00a0Edward Taylor Parsons, a conservationist and\u00a0early director of the Sierra Club. The National Park Service acquired the lodge and surrounding acreage from\u00a0the Sierra Club in 1973.\u00a0Parsons Memorial Lodge was listed in the National Register of Historic Places in 1979 and was designated as a National Historic Landmark in 1987.</p> <h2>Operating Hours & Seasons</h2> <p>The building is open to the public with limited hours in summer only. When open, visitors can browse the reading room and interpretive exhibits. Ranger programs may be offered at the lodge in summer.<br /> <br /> See the\u00a0current issue of the\u00a0<a href=\"https://www.nps.gov/yose/planyourvisit/guide.htm\">Yosemite Guide</a>\u00a0for hours and program schedule.</p> <h2>Accessibility</h2> <p>This building is not wheelchair accessible. To reach this building, visitors must walk approximately 1.4 mi (2.3 km) round-trip\u00a0from either of two nearby\u00a0parking areas. The walk has minimal elevation change except for a short hill along the final approach to the lodge.\u00a0Surfaces to reach the lodge are unpaved and irregular. The entrance to the lodge includes several stone steps.</p>",
+      "audioDescription": "This wayside exhibit is the thirteenth stop of 15 on the Soda Springs and Parsons Lodge Tour. On top of a small hilltop is a cobblestoned structure. The building is mostly made of stacked granite stones. Vertical logs that make up the slightly pitched roof, overhang a few feet on the front side of the building. Five large structural log posts that make up the framework of the building, jut out the sides. An arched doorway with a wooden, arched door is in the center of the front, and one window is on each side of the door. A wooden bench is placed on both sides of the doorway. Large boulders scatter the area. A bronze plaque is affixed to one of the boulders near the building's entrance, which reads, Parsons Memorial Lodge has been designated a National Historic Landmark. This site possesses national significance in commemorating the history of the United States of America. 1987, National Park Service, United States Department of the Interior. The nearby wayside exhibit is titled, Parsons Memorial Lodge, and has a black and white photo on the left, two-thirds of the panel. The photo shows a line of over fifty people, most with walking sticks, hiking up a smooth, snowy, slope, in a wavy, snake-like pattern. <br /><br />Caption: An early Sierra Club outing.<br /><br />Panel text reads, as a guide for the early Sierra Club, Edward Taylor Parsons (1861-1914) led hundreds of people on unforgettable high mountain adventures. He also campaigned with John Muir, without success, to keep Yosemite National Park's Hetch Hetchy Valley undammed.<br /><br />In 1915, the Sierra Club built this lodge in Parsons'memory. Orignally a meeting place and reading room. Parsons Lodge continues to be a refuge from afternoon thunderstorms, as well as a center for exhibits and special programs. <br /><br />Photo: A middle-aged man with a full mustache and a top hat, wears a thick suit jacket over a white shirt with gloves that cover his sleeves, and knee-high boots that cover his long pants. <br /><br />Caption: Edward Taylor Parsons<br />",
+      "isPassportStampLocation": "0",
+      "passportStampLocationDescription": "",
+      "passportStampImages": [],
+      "managedByUrl": "",
+      "isOpenToPublic": "1",
+      "isMapPinHidden": "0",
+      "npmapId": "",
+      "geometryPoiId": "f4601e1b-6463-49a2-af89-d4dc92dff0ff",
+      "isManagedByNps": "1",
+      "amenities": [
+        "Historical/Interpretive Information/Exhibits",
+        "Toilet - Vault/Composting",
+        "Water - Drinking/Potable"
+      ],
+      "managedByOrg": "",
+      "quickFacts": [],
+      "location": "",
+      "locationDescription": "",
+      "credit": "",
+      "multimedia": [],
+      "relevanceScore": 1.0
+    },
+    {
       "id": "8BFE3A60-1982-479C-8849-AE361F05A0AA",
       "url": "https://www.nps.gov/places/000/poopenaut-valley-trailhead.htm",
       "title": "Poopenaut Valley Trailhead",
@@ -2569,6 +2828,69 @@
       "relevanceScore": 1.0
     },
     {
+      "id": "E81278CA-5F4A-43E0-B322-415383AE59F1",
+      "url": "https://www.nps.gov/places/000/sentinel-bridge.htm",
+      "title": "Sentinel Bridge",
+      "listingDescription": "Sentinel Bridge provides breathtaking views of Half Dome directly, or of its reflection in the waters of the Merced River, especially at sunset.",
+      "images": [
+        {
+          "url": "https://www.nps.gov/common/uploads/cropped_image/D9C3DACE-C82B-7852-BCE32A23823F5B08.jpg",
+          "credit": "NPS Image",
+          "altText": "A large granite formation reflects in still water surrounded by trees",
+          "title": "Half Dome reflection at Sentinel Bridge",
+          "description": "",
+          "caption": "Half Dome reflects on the Merced River as seen from Sentinel Bridge",
+          "crops": [
+            {
+              "aspectRatio": "1.78",
+              "url": "https://www.nps.gov/common/uploads/cropped_image/primary/D9C3DACE-C82B-7852-BCE32A23823F5B08.jpg"
+            },
+            {
+              "aspectRatio": "1.33",
+              "url": "https://www.nps.gov/common/uploads/cropped_image/secondary/D9C3DACE-C82B-7852-BCE32A23823F5B08.jpg"
+            }
+          ]
+        }
+      ],
+      "relatedParks": [
+        {
+          "states": "CA",
+          "parkCode": "yose",
+          "designation": "National Park",
+          "fullName": "Yosemite National Park",
+          "url": "https://www.nps.gov/yose/index.htm",
+          "name": "Yosemite"
+        }
+      ],
+      "relatedOrganizations": [],
+      "tags": [],
+      "latitude": "37.74338223536506",
+      "longitude": "-119.58968360376662",
+      "latLong": "37.74338223536506,-119.58968360376662",
+      "bodyText": "<p>Sentinel Bridge provides an excellent view\u00a0of Half Dome and its mirrored reflection on the Merced River, especially at sunset.</p> <h2>Tips & Seasonal Information</h2> <p>Sentinel Bridge can be reached by car year-round. This bridge is a short walk from Yosemite Village Parking. Additionally, a\u00a0small parking lot is located next to thebridge, which can only be reached via the northbound traffic lane from Southside Drive.<br /> <br /> The reflection of Half Dome on the Merced River is best viewed when water is low and relatively still, such as fall or winter.</p> <h2>Accessibility</h2> <p>Designated accessible parking spaces are located nearby. There is a pedestrian path that leads from the bus stop and parking area, across the street, to a paved sidewalk leading onto the bridge.</p>",
+      "audioDescription": "Sentinel Bridge is a great place to experience Half Dome. Many photographers enjoy gathering here to take pictures of Half Dome and its reflection in the Merced River, especially when the colors of sunset play on its rock face. The bridge is completely made of stone and is slightly arched. Wayside exhibits are affixed to the metal railing that is adhered to the rock barrier-walls on each side of the bridge. On the east side of the bridge, tall trees line the banks of the river and Half Dome rises over the tree line. The wayside exhibit is titled, The Story of Half Dome, and has a orange-toned, faint, background photo of textured granite rock. Text reads, millions of years ago the granite block of Half Dome was larger, but there never was a matching half. Undercut by glaciers near the base, slabs of rock fell away from a broad vertical crack in the granite, leaving a sheer face. Remnants of the missing rock still project from Half Dome's rim. There are more granite domes here than in any other place in the world. Massive granite domes from when large curved layers of rock \"exfoliate\" or slab off. Illustrated brochure: A side profile of Half Dome, with dark shadows in the front and low laying clouds floating below its face. In the background, some grey peaks cross the skyline and the sky is a bright orange and yellow. The text reads Yosemite Valley, on top, and Southern Pacific, on bottom.Caption: c. 1910Black and white postcard: Half Dome and trees surrounding it have an almost symmetrical reflection in the Merced River. Caption: Half Dome from Sentinel Bridge, postcard, c. 1940. Since the mid-19th century, countless images of the park's most famous dome, Half Dome, have been circulated. Its profile has become an enduring and instantly recognizable symbol of Yosemite. A section on the left side of the panel has a header that reads, An Ahwahneechee Tale of Half Dome. Text below it reads, long ago, two travelers, Tissiak and her husband, Tokoyee, fought with each other. He became so angry that he began to beat her; enraged, she hurled her basket of acorns at him. As they stood facing each other, they were turned to stone for their wickedness. The acorn basket (Basket Dome) lies upturned beside Tokoyee (North Dome) and the rock face of Tissiak (Half Dome) is stained with her tears. Photo: Half Dome is illuminated with the orange light of the alpen glow. Behind Half Dome, other mountains a lit as well, and the sky is full of dark clouds. Across the street, on the opposite side of the bridge, another wayside exhibit is affixed to the bridge barrier-wall. The wayside exhibit is titled, River of Mercy, and has a orange-toned, very faint, background photo of an old map of Yosemite Valley. Text reads, early Spanish explorers named the Merced River for Our Lady of Mercy. In Yosemite Valley, later settlers saw the Merced and its tributaries as troublesome as well as merciful. They channeled the wild river, dynamited the glacial moraine at the Valley entrance to lower the water table, and diverted water to quench the thirst of livestock and to power a sawmill. Black and white photo: The banks of a river have receded, and about three feet of roots of two tree stumps are exposed. The river flows nearby.Caption: Overuse damages the riverbanks and riparian life. Black and white photo: A woman in white, water-resistant pants with suspenders, a white t-shirt, boots, and a ponytail inserts a pole into the muddy ground on the banks of a river. Another woman with a t-shirt and gloves, bends down on her knees, and inserts a pole in the ground in the same spot. The river flows nearby. Caption: Volunteers assist park resource managers in revegetating riverbanks.Human alterations have harmed the riparian (river-related) habitat. Introduced fish species gradually outnumbered the native rainbow trout. Human feet have trampled the riverbanks and destroyed streamside plants. Restoration efforts such as replanting, fencing, and elimination of fish stocking are returning the river to a more natural state. A section on the left side of the panel has a header that reads, A Wild and Scenic River. Text below it reads, the Merced River watershed begins in the southeastern portion of the park, primarily in the high country of the Clark and Cathedral Ranges. The river plunges over Nevada and Vernal Falls, then meanders across the flat Yosemite Valley floor. Leaving Yosemite Valley, it winds down the Merced Canyon into the San Joaquin Valley far below. In 1987, recognizing the Merced's pristine beauty, Congress designated its upper reaches in and below the park as a National Wild and Scenic River. Black and white Photo 1: A mountain landscape with sloping hills and pine trees is covered in snow. Snowcapped peaks are in the distant background.Caption: The Merced's pristine waters originate in the melting snows of Yosemite's high country.Black and white Photo 2: A mountain lake glistens and is framed by tree branches. Large granite rock formation",
+      "isPassportStampLocation": "0",
+      "passportStampLocationDescription": "",
+      "passportStampImages": [],
+      "managedByUrl": "",
+      "isOpenToPublic": "1",
+      "isMapPinHidden": "0",
+      "npmapId": "",
+      "geometryPoiId": "3496baf2-4007-44f2-8364-6b6338da94ce",
+      "isManagedByNps": "1",
+      "amenities": [
+        "Scenic View/Photo Spot",
+        "Wheelchair Accessible"
+      ],
+      "managedByOrg": "",
+      "quickFacts": [],
+      "location": "",
+      "locationDescription": "",
+      "credit": "",
+      "multimedia": [],
+      "relevanceScore": 1.0
+    },
+    {
       "id": "D0E656B6-CDF6-4A51-B777-3D38B8EFF51B",
       "url": "https://www.nps.gov/places/000/sentinel-dome-and-taft-point-trailhead.htm",
       "title": "Sentinel Dome and Taft Point Trailhead",
@@ -2696,6 +3018,59 @@
       "relevanceScore": 1.0
     },
     {
+      "id": "34D13179-7588-482D-88F3-590E04542005",
+      "url": "https://www.nps.gov/places/000/soda-springs-parsons-memorial-lodge-tour-tuolumne-river-bridge-stop-15.htm",
+      "title": "Soda Springs/Parsons Memorial Lodge Tour - Tuolumne River Bridge",
+      "listingDescription": "Finish off your tour by standing on this bridge and taking in the panoramic view of the meadows, peaks, domes, and river, and reflect on the natural and cultural history that made this moment possible.",
+      "images": [
+        {
+          "url": "https://www.nps.gov/common/uploads/place/import/8f898120-5efc-4273-89ac-e52da0ac8128_image_350.jpg",
+          "credit": "",
+          "altText": "A bridge crosses over a river that flows through a meadow.",
+          "title": "",
+          "description": "",
+          "caption": "",
+          "crops": []
+        }
+      ],
+      "relatedParks": [
+        {
+          "states": "CA",
+          "parkCode": "yose",
+          "designation": "National Park",
+          "fullName": "Yosemite National Park",
+          "url": "https://www.nps.gov/yose/index.htm",
+          "name": "Yosemite"
+        }
+      ],
+      "relatedOrganizations": [],
+      "tags": [],
+      "latitude": "37.877361",
+      "longitude": "-119.366212",
+      "latLong": "37.877361,-119.366212",
+      "bodyText": "<p>Finish off your tour by standing on this bridge and taking in the panoramic view of the meadows, peaks, domes, and river, and reflect on the natural and cultural history that made this moment possible.</p>",
+      "audioDescription": "This is the fifteenth stop of 15 on the Soda Springs and Parsons Lodge Tour. A wooden bridge with knee-high wood railings, crosses over the glistening Tuolumne River as it narrowly meanders through the meadows. Standing on the bridge, looking west, a granite mountain range with several pointed peaks, the Cathedral Peak, Unicorn Peak, and Eichorn Peak, panoramically extends across the landscape, beyond the distant treeline. Looking east, a distinct granite dome, Lembert Dome, is not to far off. Beyond the dome, further in the distant, beyond treeline, are more mountains. Looking down, the water is clear and the bottom of the river, which has smooth rocks and pebbles, can be seen.",
+      "isPassportStampLocation": "0",
+      "passportStampLocationDescription": "",
+      "passportStampImages": [],
+      "managedByUrl": "",
+      "isOpenToPublic": "1",
+      "isMapPinHidden": "1",
+      "npmapId": "",
+      "geometryPoiId": "",
+      "isManagedByNps": "1",
+      "amenities": [
+        "Historical/Interpretive Information/Exhibits"
+      ],
+      "managedByOrg": "",
+      "quickFacts": [],
+      "location": "",
+      "locationDescription": "",
+      "credit": "",
+      "multimedia": [],
+      "relevanceScore": 1.0
+    },
+    {
       "id": "0B9AD80C-43EA-4DB3-9999-21268B166F4F",
       "url": "https://www.nps.gov/places/000/sunrise-lakes-trailhead.htm",
       "title": "Sunrise Lakes Trailhead",
@@ -2759,26 +3134,26 @@
       "relevanceScore": 1.0
     },
     {
-      "id": "3F93F225-E9D1-41E5-9E8A-454DE049A162",
-      "url": "https://www.nps.gov/places/000/tuolumne-meadows-grill.htm",
-      "title": "Tuolumne Meadows Grill",
-      "listingDescription": "After a day of hiking the miles of trails near Tuolumne Meadows, hungry adventurers enjoy hot meals at the Tuolumne Meadows Grill. Breakfast and lunch items are served with vegetarian options. Hamburgers, hot dogs, fries, chili and more, are offered daily. The grill is located along Tioga Road, approximately a half mile east of the Tuolumne Meadows Visitor Center.",
+      "id": "A62E49B1-1A50-4455-A05E-A32D6E728EDA",
+      "url": "https://www.nps.gov/places/000/swinging-bridge.htm",
+      "title": "Swinging Bridge",
+      "listingDescription": "Experience a view like none other while standing on the Swinging Bridge. Get a glimpse of Yosemite Falls and its reflection in the Merced River during the day or by full moon at night. The first thing you may notice about Swinging Bridge is that it does not swing. Multiple years of high flood waters took its toll on the previous swinging bridge, until it was finally replaced with a permanently fixed bridge after being damaged in the 1964 flood. Picnic tables and grills are co",
       "images": [
         {
-          "url": "https://www.nps.gov/common/uploads/cropped_image/FAAC6BBC-9D3B-461E-FC13372B9D501577.jpg",
-          "credit": "",
-          "altText": "Interior counters and ordering station of the Tuolumne Meadows Grill",
-          "title": "Tuolumne Meadows Grill",
+          "url": "https://www.nps.gov/common/uploads/cropped_image/4246AD22-9999-EDCE-1E3BD4EF1D536CD9.jpg",
+          "credit": "NPS Photo / S. Nobles",
+          "altText": "Visitors on the beach and in the water below a granite cliff with a dry waterfall",
+          "title": "View from Swinging Bridge",
           "description": "",
-          "caption": "Tuolumne Meadows Grill",
+          "caption": "View of the Merced River and Yosemite Falls from Swinging Bridge in late summer",
           "crops": [
             {
               "aspectRatio": "1.78",
-              "url": "https://www.nps.gov/common/uploads/cropped_image/primary/FAAC6BBC-9D3B-461E-FC13372B9D501577.jpg"
+              "url": "https://www.nps.gov/common/uploads/cropped_image/primary/4246AD22-9999-EDCE-1E3BD4EF1D536CD9.jpg"
             },
             {
               "aspectRatio": "1.33",
-              "url": "https://www.nps.gov/common/uploads/cropped_image/secondary/FAAC6BBC-9D3B-461E-FC13372B9D501577.jpg"
+              "url": "https://www.nps.gov/common/uploads/cropped_image/secondary/4246AD22-9999-EDCE-1E3BD4EF1D536CD9.jpg"
             }
           ]
         }
@@ -2795,28 +3170,156 @@
       ],
       "relatedOrganizations": [],
       "tags": [],
-      "latitude": "37.874313",
-      "longitude": "-119.357001",
-      "latLong": "37.874313,-119.357001",
-      "bodyText": "<p>Fast casual breakfast and lunch with vegetarian options available. Burritos, pancakes, hamburgers, hot dogs, fries, chili and more. Outdoor seating only.</p> <h2>Operating Hours & Seasons</h2> <p>See <a href=\"https://www.travelyosemite.com/dining/tuolumne-meadows-lodge/\">website</a>\u00a0or current issue of the\u00a0<a href=\"https://cms.nps.gov/yose/planyourvisit/guide.htm\">Yosemite Guide</a>\u00a0for hours. Open seasonally from mid-June through late September. Dates vary depending on the opening of the Tioga Road.</p> <h2>Accessibility</h2> <p>This facility is wheelchair accessible. Designated parking spaces are available nearby.</p>",
-      "audioDescription": "The Tuolumne Meadows Grill is on the right end of a long white building that consists of, from left to right, a store, post office, and grill. The building is a wooden frame structure with canvas roofing and siding. A roofed porch extends from the entrance of the grill, across the structure, to the entrance of the store. A sign in the small square window to the right of the double-door entrance reads, no smoking within 25 feet of building. Above the window is a large white sign with a green border and text. It reads, Tuolumne Meadows Grill - breakfast, hamburgers, and frosties. Above the entrance, a small white sign reads, welcome to Tuolumne Meadows Grill. A bench, brown trash bins, a blue mail box, and a corkboard attached to the side of the building, are all located under the porch. A parking lot lines the front side of the building. A few picnic tables are to the right of the building, and a small white structure, which holds the restrooms.",
+      "latitude": "37.736345510850505",
+      "longitude": "-119.5992150262735",
+      "latLong": "37.736345510850505,-119.5992150262735",
+      "bodyText": "<p>Picnic tables, grills, seasonal\u00a0river access, and a walking/biking path are available\u00a0at this scenic spot along the Merced River with views of Yosemite Falls and the surrounding cliffs. The adjacent beach offers access to the Merced River when water levels are low.\u00a0Vault toilets are available in the area. Parking is extremely limited.<br /> <br /> Despite\u00a0its name,\u00a0Swinging Bridge does not swing. Multiple floods repeatedly damaged the former swinging bridge, until it was\u00a0replaced with a permanently fixed bridge after the 1964 flood.<br /> <br /> The paved pathway connects to nearby points of interest and visitor services such as Cook's Meadow, Yosemite Chapel, Yosemite Valley Lodge, and Lower Yosemite Fall\u00a0trail.</p> <h2>Tips & Seasonal Information</h2> <p>This picnic area is open year-round.<br /> <br /> Swift-moving, cold water is very dangerous and even deadly. <strong>Anytime the river is flowing strongly, such as in spring, stay away from the water.</strong><br /> <br /> Diving or jumping from the\u00a0bridge is prohibited at all times.<br /> <br /> Yosemite Falls is a seasonal waterfall fed by snowmelt; it is usually completely dry by late summer\u00a0then is sometimes revived again by late fall storms.</p> <h2>Wildlife Safety</h2> <ul> <li>Keep your distance from animals, even if they approach you.</li> <li>Never feed wild animals.</li> <li>Dispose of trash in bear-proof trash cans or dumpsters.</li> <li>While enjoying your picnic, keep your food, trash, and other scented items within arm's reach.</li> <li>If a bear approaches, yell as loudly as possible to scare the bear away.</li> </ul> <h2>Accessibility</h2> <p>The Swinging Bridge Picnic Area features accessible picnic tables with extended tops, accessible vault toilets, and grills. The picnic area is unpaved but flat. The paths leading to both the picnic area and bridge\u00a0can be reached by paved, mostly flat walkways. The beach is not wheelchair accessible. Designated accessible parking spaces are available.</p>",
+      "audioDescription": "The Swinging Bridge Picnic Area has a small parking lot. A green recycle dumpster and brown trash dumpster are in the lot. A paved path leads from the parking area to the Swinging Bridge, a permanent wooden bridge with wood railing barriers on each side, crossing over the Merced River. A small yellow sign affixed to the wooden railing reads, diving or jumping from bridge prohibited. Beyond the bridge is a meadow that allows for open views of the 2,000-foot plus rock walls that line both sides of the Valley at this point. Along the paved path as you walk to the bridge, near the parking lot, a brown facility holds four separate vault toilets. On the right side of the path, a heavily shaded area has picnic tables and permanently placed grills, situated among the tall trees that grow in the area. The terrain slopes down a slight hill to the riverbank. A metal sign posted near the river reads, no ground fires, and shows an icon of a campfire, with a red diagonal line slashed through it. A sandy beach area is located across the river.",
       "isPassportStampLocation": "0",
       "passportStampLocationDescription": "",
       "passportStampImages": [],
-      "managedByUrl": "https://www.travelyosemite.com/dining/tuolumne-meadows-lodge/",
+      "managedByUrl": "",
       "isOpenToPublic": "1",
       "isMapPinHidden": "0",
       "npmapId": "",
-      "geometryPoiId": "",
-      "isManagedByNps": "0",
+      "geometryPoiId": "4d62ccd1-4992-4d0f-8a96-9d8ddaf5035e",
+      "isManagedByNps": "1",
       "amenities": [
-        "Food/Drink - Cafeteria",
-        "Food/Drink - Restaurant/Table Service",
+        "Beach/Water Access",
+        "Grill",
+        "Picnic Table",
         "Recycling",
-        "Telephone",
-        "Trash/Litter Receptacles"
+        "Scenic View/Photo Spot",
+        "Toilet - Vault/Composting",
+        "Trash/Litter Receptacles",
+        "Wheelchair Accessible"
       ],
-      "managedByOrg": "Yosemite Hospitality",
+      "managedByOrg": "",
+      "quickFacts": [],
+      "location": "",
+      "locationDescription": "",
+      "credit": "",
+      "multimedia": [],
+      "relevanceScore": 1.0
+    },
+    {
+      "id": "BC8250C0-F1B5-4E12-9B8C-A5F59AE13909",
+      "url": "https://www.nps.gov/places/000/tuolumne-grove.htm",
+      "title": "Tuolumne Grove",
+      "listingDescription": "Marvel at nearly two dozen mature giant sequoias in the Tuolumne Grove of Giant Sequoias.Begin at Tuolumne Grove parking lot and follow the Old Big Oak Flat Road-one of the first roads into Yosemite Valley-steeply downhill through sugar pines and white firs. The trail drops 500 feet (150 meters) in one mile. The way down can seem much easier than the uphill return to the parking lot. The trip is moderate on the uphill portion. Within the Tuolumne Grove there is an easy, half-",
+      "images": [
+        {
+          "url": "https://www.nps.gov/common/uploads/cropped_image/0C6C07CC-94EA-A10A-9C890693055CB165.jpg",
+          "credit": "",
+          "altText": "Two very large trees behind a wood fence surrounded by vegetation showing fall colors",
+          "title": "Tuolumne Grove",
+          "description": "",
+          "caption": "Giant sequoias in the Tuolumne Grove",
+          "crops": [
+            {
+              "aspectRatio": "1.78",
+              "url": "https://www.nps.gov/common/uploads/cropped_image/primary/0C6C07CC-94EA-A10A-9C890693055CB165.jpg"
+            },
+            {
+              "aspectRatio": "1.33",
+              "url": "https://www.nps.gov/common/uploads/cropped_image/secondary/0C6C07CC-94EA-A10A-9C890693055CB165.jpg"
+            }
+          ]
+        }
+      ],
+      "relatedParks": [
+        {
+          "states": "CA",
+          "parkCode": "yose",
+          "designation": "National Park",
+          "fullName": "Yosemite National Park",
+          "url": "https://www.nps.gov/yose/index.htm",
+          "name": "Yosemite"
+        }
+      ],
+      "relatedOrganizations": [],
+      "tags": [],
+      "latitude": "37.768791516420585",
+      "longitude": "-119.80608077220802",
+      "latLong": "37.768791516420585,-119.80608077220802",
+      "bodyText": "<p>The Tuolumne Grove of Giant Sequoias is home to about\u00a0two dozen mature giant sequoias.\u00a0Begin at the Tuolumne Grove parking lot and follow the former Big Oak Flat Road (now closed to all vehicles) steeply downhill through sugar pines and white firs. The trail drops 500 feet (150 meters) in one mile. The way down can seem much easier than the uphill return to the parking lot. The trip is moderate on the uphill portion. Once hikers reach the Tuolumne Grove, there is an easy, half-mile, self-guided\u00a0nature trail. Parking at the trailhead is limited.<br /> <br /> <strong>Distance:\u00a0</strong>2.5 miles (4 km) round trip<br /> <strong>Elevation gain:\u00a0</strong>500-foot (152 m) elevation gain on return trip<br /> <strong>Time estimate:</strong> 1-2 hours round trip</p> <h2>Tips</h2> <ul> <li>Bicycles are not allowed on this trail.</li> <li>Pets are allowed on the paved trail through the grove, but not on the side trails in the grove.</li> <li>Pit toilets are available at the trailhead parking area. There are no restrooms or water available in the grove.</li> </ul> <h2>Seasonal Information</h2> <p>The grove is open year round. Expect snowy and icy conditions in winter.<br /> <br /> In winter, ski or snowshoe touring in Yosemite can be a magnificent experience! The Tuolumne Grove trail descends 500 feet from the trailhead to the giant sequoias. This is a popular trail both with snowshoers and hikers and is a\u00a0strenuous uphill return ski.</p> <h2>Accessibility</h2> <p>This trail is not wheelchair accessible.</p>",
+      "audioDescription": "A large, paved, parking area is next to a main road and is surrounded by forest. A green recycle dumpster, brown trash dumpster, and a brown facility, which holds four vault toilets, all line the parking lot. Picnic tables, large tree stump seating, and a wayside exhibit panel, framed in log posts, are at the grove trailhead on the north side of the lot, where the paved road trail then leads into the forest. <br /><br />The green-toned exhibit panel is titled, Welcome to the Tuolumne Grove, and has an illustrated map, which takes up the left side of the panel. The map shows a red dot toward the middle of the map, which is labeled, you are here. A yellow squiggle line, representing the trail, makes its way through a faint canopy of trees upward from the red dot to the sequoia grove. A trail also travels downward from the red dot, leading nowhere specific, and eventually fades out. An aerial view of about 8 bold tree tops are shown at the end of the trail, as well as a tree trunk that has a tunnel through it. <br /><br />Black and white photo: A sequoia tree trunk, with the upper half of the tree gone, has a tunnel carved out of it. <br /><br />Caption: The temptation when visiting the Tuolumne Grove is to turn your eyes to the sky line, accessing the superlative qualities of these massive giants. Take a moment along your trip to reflect on the things that can go by unnoticed - the deep silence that accompanies each snow-muffled winter, the moment each spring when the tiny winter wren begins building her nest, the emergence of the white Pacific dogwood petals. <br /><br />Think also of moments in this grove's recent human history, the jangle of bridles from the first pioneers, pilgrims and discoverers who passed this way, or the rumble of the first automobile engine after the new road was cut. The passage of time through the Tuolumne Grove is marked in small ways, with your experience here being just the most recent. <br /><br />Map: A generalized map of the entire park, labeled Yosemite National Park, shows the three areas to find sequoia groves in the park. They are indicated by a sequoia tree icon. The Tuolumne Grove and Merced Grove are side by side and located on the left side of the map, about half-way down from the top. The Mariposa Grove is located at the bottom tip of the map. <br /><br />Text on the right side of the panel reads, one of the three giant sequoia grove in Yosemite National Park, the Tuolumne Grove contains about 25 mature trees. While enjoying your walk through the grove, consider the rarity of this experience. These few maturing giant sequoias appear large and strong but are facing an unknown future. Climate change-and the resulting changes in hydrology and fire regime-may have an effect on the future of giant sequoias. Avoid walking in areas immediately surrounding the trees. Leave cones and other natural items in the grove.",
+      "isPassportStampLocation": "0",
+      "passportStampLocationDescription": "",
+      "passportStampImages": [],
+      "managedByUrl": "",
+      "isOpenToPublic": "1",
+      "isMapPinHidden": "0",
+      "npmapId": "",
+      "geometryPoiId": "cec15a97-6aee-4d0b-878e-2feb3f8fe52a",
+      "isManagedByNps": "1",
+      "amenities": [
+        "Scenic View/Photo Spot",
+        "Trailhead"
+      ],
+      "managedByOrg": "",
+      "quickFacts": [],
+      "location": "",
+      "locationDescription": "",
+      "credit": "",
+      "multimedia": [],
+      "relevanceScore": 1.0
+    },
+    {
+      "id": "344C8876-0381-4090-82E6-2105BAAF5E7B",
+      "url": "https://www.nps.gov/places/000/tuolumne-meadows.htm",
+      "title": "Tuolumne Meadows",
+      "listingDescription": "Visit one of the largest high-elevation meadows in the Sierra Nevada, Tuolumne Meadows, and see the Tuolumne River meandering quietly through its meadow channel against a backdrop of rugged mountain peaks and glacially carved domes. Tuolumne Meadows embodies the high-country of the Sierra Nevada, with its broad sub-alpine meadows and granite domes and peaks.",
+      "images": [
+        {
+          "url": "https://www.nps.gov/common/uploads/cropped_image/FB552C97-AC5D-F220-18E12D39F194E1A6.jpg",
+          "credit": "",
+          "altText": "View of alpine meadow and river in Tuolumne Meadows",
+          "title": "Tuolumne Meadows",
+          "description": "",
+          "caption": "Tuolumne Meadows",
+          "crops": [
+            {
+              "aspectRatio": "1.78",
+              "url": "https://www.nps.gov/common/uploads/cropped_image/primary/FB552C97-AC5D-F220-18E12D39F194E1A6.jpg"
+            },
+            {
+              "aspectRatio": "1.33",
+              "url": "https://www.nps.gov/common/uploads/cropped_image/secondary/FB552C97-AC5D-F220-18E12D39F194E1A6.jpg"
+            }
+          ]
+        }
+      ],
+      "relatedParks": [
+        {
+          "states": "CA",
+          "parkCode": "yose",
+          "designation": "National Park",
+          "fullName": "Yosemite National Park",
+          "url": "https://www.nps.gov/yose/index.htm",
+          "name": "Yosemite"
+        }
+      ],
+      "relatedOrganizations": [],
+      "tags": [],
+      "latitude": "37.87512240445319",
+      "longitude": "-119.36149931888548",
+      "latLong": "37.87512240445319,-119.36149931888548",
+      "bodyText": "<p>Visit one of the largest high-elevation meadows in the Sierra Nevada, Tuolumne Meadows, and see the Tuolumne River meandering against a backdrop of rugged mountain peaks and glacially carved domes. The meadows are surrounded by stands of western white pine, mountain hemlock, and lodgepole pine. Belding's ground squirrels, mule deer, and yellow-bellied marmots are\u00a0frequently seen in the meadows along with many other species of wildlife.<br /> <br /> Experience views of Tuolumne Meadows with a short, easy walk\u00a0toward\u00a0<a href=\"https://www.nps.gov/places/000/parsons-memorial-lodge.htm\">Parsons Lodge</a>. For a longer, more challenging hike through the meadow system, consider hiking toward <a href=\"https://www.nps.gov/places/000/soda-springs-glen-aulin-waterwheel-falls-trailhead.htm\">Glen Aulin</a>.</p> <h2>Tips & Seasonal Information</h2> <p>Tuolumne Meadows is only reachable by vehicle only while Tioga Road is open, typically from late May or early June to October or November.</p> <p>Stay on official trails to protect fragile meadow ecosystems!\u00a0Dogs, bicycles, and strollers are not allowed anywhere in the meadow or on hiking trails.</p> <h2>Accessibility</h2> <p>Trails toward Parsons Lodge and Soda Springs are mostly wide with gravel surfaces that may be accessible to some mobility aid users. From Parsons Lodge parking, the trail toward the lodge reaches a bridge over the Tuolumne River with several stone steps on either end of the bridge.</p>",
+      "audioDescription": "A large open meadow, Tuolumne Meadows, is surrounded by forest and granite peaks and domes. In the summer, the grasses are a vibrant green, speckled with multi-colored wildflowers. The sparkling waters of a narrow river, the Tuolumne River, snakes through the center of the meadow. Dirt trails are laid out throughout the area, leading to wilderness areas. A paved road, Tioga Road, lines the southern edge of the meadow. The summer months bring clear sunny days and overcast days with thick, dark, billowy, thunderhead clouds.",
+      "isPassportStampLocation": "0",
+      "passportStampLocationDescription": "",
+      "passportStampImages": [],
+      "managedByUrl": "",
+      "isOpenToPublic": "1",
+      "isMapPinHidden": "0",
+      "npmapId": "",
+      "geometryPoiId": "17dc87f8-dba6-48e6-860c-c9d05226b6a8",
+      "isManagedByNps": "1",
+      "amenities": [
+        "Scenic View/Photo Spot"
+      ],
+      "managedByOrg": "",
       "quickFacts": [],
       "location": "",
       "locationDescription": "",
@@ -2887,26 +3390,26 @@
       "relevanceScore": 1.0
     },
     {
-      "id": "ED0B2161-E593-4D2C-9C08-CEA72F181AB4",
-      "url": "https://www.nps.gov/places/000/valleywide-shuttle-stop-11-four-mile-trailhead.htm",
-      "title": "Valley Shuttle Stop 11: Four Mile Trailhead",
-      "listingDescription": "When you arrive, park your car and enjoy the ease and convenience of our free Yosemite Valley shuttle system. Our eco-friendly shuttles will take you throughout Yosemite Valley. The Valleywide shuttle serves all stops in Yosemite Valley, including lodges, food service, campgrounds, and trailheads. Buses arrive every 12 to 22 minutes (depending on conditions) during hours of operation. You can get off and on the shuttle wherever and whenever you wish.",
+      "id": "72BC1EF4-B2E6-4389-A4ED-75EAB0B2A812",
+      "url": "https://www.nps.gov/places/000/mirror-lake.htm",
+      "title": "View of Mirror Lake",
+      "listingDescription": "Mirror Lake is famous for its reflections of Half Dome and Mount Watkins and is one of the few lakes that are easily accessible in Yosemite National Park. Mirror Lake is a seasonal lake on Tenaya Creek, in the shadow of Half Dome. Wayside exhibits explain the natural and cultural features of the area. Mirror Lake is in a state of transition. Sand carried by Tenaya Creek collects here, and will eventually form a meadow.",
       "images": [
         {
-          "url": "https://www.nps.gov/common/uploads/cropped_image/126F59A4-9D5B-6774-A3985F8057955438.jpg",
+          "url": "https://www.nps.gov/common/uploads/cropped_image/7C2979C2-9077-5189-2FED688D1AEBF946.jpg",
           "credit": "",
-          "altText": "People boarding shuttle bus at Four Mile Trailhead with Yosemite Falls in the background.",
-          "title": "Valley Shuttle Stop #11",
+          "altText": "Low water levels in Mirror Lake with people wading into water",
+          "title": "Mirror Lake",
           "description": "",
-          "caption": "Valley Shuttle Stop #11: Four Mile Trailhead",
+          "caption": "Mirror Lake during a warmer time of year when water levels are low.",
           "crops": [
             {
               "aspectRatio": "1.78",
-              "url": "https://www.nps.gov/common/uploads/cropped_image/primary/126F59A4-9D5B-6774-A3985F8057955438.jpg"
+              "url": "https://www.nps.gov/common/uploads/cropped_image/primary/7C2979C2-9077-5189-2FED688D1AEBF946.jpg"
             },
             {
               "aspectRatio": "1.33",
-              "url": "https://www.nps.gov/common/uploads/cropped_image/secondary/126F59A4-9D5B-6774-A3985F8057955438.jpg"
+              "url": "https://www.nps.gov/common/uploads/cropped_image/secondary/7C2979C2-9077-5189-2FED688D1AEBF946.jpg"
             }
           ]
         }
@@ -2923,140 +3426,11 @@
       ],
       "relatedOrganizations": [],
       "tags": [],
-      "latitude": "37.733926871348885",
-      "longitude": "-119.60180497613715",
-      "latLong": "37.733926871348885,-119.60180497613715",
-      "bodyText": "<p>This shuttle stop is served by the\u00a0<strong>Valleywide Shuttle\u00a0</strong>route only. There is no covered shelter or benches at this shuttle stop.<br /> <br /> <strong>Yosemite Valley shuttles are free and operate from 7 am to 10 pm daily.\u00a0</strong>During hours of operation, the Valleywide Shuttle runs approximately every 22-32 minutes. No ticket is\u00a0required. Passengers may board and disembark at any stop.</p> <h2>What's Nearby</h2> <ul> <li>Four Mile Trail trailhead</li> <li>Sentinel Beach picnic area</li> <li>Valley Loop Trail</li> </ul> <h2>Shuttle Tips & Accessibility</h2> <ul> <li>Pets are not allowed on shuttles.</li> <li>Allow wheelchairs to board first.</li> <li>Collapse strollers before boarding.</li> <li>No oversized or jogging strollers.</li> <li>Remove baby-back carriers when seated.</li> <li>Shuttles only stop at designated stops.</li> <li>No smoking on shuttles.</li> </ul> <p>All shuttles\u00a0are accessible with wheelchair lifts and tie-downs. The maximum size for wheelchairs on shuttles is 24 inches wide x 46 inches long. Shuttle drivers will help passengers on and off shuttles or notify them of stops. If you need assistance, ask the driver.</p>",
-      "audioDescription": "Nearby, a brown sign reads, Four Mile Trail, and has an icon of a hiker inside a square outline and an arrow pointing to the right, next to the roadside parking area, that has limited parking. A noticeable dirt trail starts to retreat into the woods from here. Two green recycle bins, two brown trash bins, and a way side exhibit are in this area. Before entering the forest and starting the ascent, a wooden sign is posted and reads, Glacier Point Four Mile Trail; Union Point - 3.0 miles, Glacier Point - 4.6 miles, Sentinel Dome - 5.2 miles. Dangerous to stray from trail. Horses not permitted off valley floor without guide. <br /> <br />The wayside exhibit near the road is titled, Paths Into Wilderness, and has a faint, sepia-toned photograph of fourteen or more men, sitting on both sides of a log that has been halved and is set for a meal. . The caption reads, trail crew stops for dinner. Panel text reads, James McCauley, an Irish immigrant and proprietor of the Glacier Point Hotel, hired John Conway to survey and construct a trail from Yosemite Valley to Glacier Point. Taking only seven months to build, it was completed in the early summer of 1872. The original trail was four miles long and travelers paid a $1 toll. In the 1920s, the National Park Service lengthened the trail to improve the steeper sections. Today it is 4.6 miles from the Valley to Glacier Point. <br /><br />Black and white photo: One of Yosemite Valley's high, 2,000-foot plus rock walls has a noticeable trail zigzagging its way to the top. <br /><br />Caption: \"...it is the steepest trail out of the valley, zigzagging back and forth a sheer granite wall, one rides up it with little alarm or giddiness.\" - Helen Hunt Jackson, from Ah-Wah-Ne Days: A visit to Yosemite Valley in 1872. Under a heading that reads, Conway - A \"Walkist\", panel text quotes an 1869 article in the Mariposa Gazette, \"John Conway of Sherlock Creek, last Saturday walked from the Sentinel Hotel, Yosemite Valley, to Mariposa in fourteen hours, including all stoppages. He left the hotel about seven o'clock in the morning and made the trip to town by nine o'clock the same evening. The walk did not seem to fatiguw him much, for he soon left town for his home on Sherlock Creek, six miles farther. Mr. Conway says it is no trip at all for him on foot.\" Black and white photo: Two older men stand side by side. The man to the right is wearing a hat, has a mustache and long white bear, and is wearing a black suit with a white collared button-down shirt. He is standing with his hands on his hips, looking off into the distance to the right. The other man is dressed similarly and has a mustache and long grey beard. He is standing with his hands down by his side, gazing to the right. Caption: John Conway, on right, shown here with Galen Clark, used only a simple ship's protractor to survey the Four Mile Trail's route.",
-      "isPassportStampLocation": "0",
-      "passportStampLocationDescription": "",
-      "passportStampImages": [],
-      "managedByUrl": "",
-      "isOpenToPublic": "1",
-      "isMapPinHidden": "0",
-      "npmapId": "",
-      "geometryPoiId": "1f911b43-acff-422d-881d-cd061c124479",
-      "isManagedByNps": "1",
-      "amenities": [
-        "Bus/Shuttle Stop",
-        "Trash/Litter Receptacles"
-      ],
-      "managedByOrg": "",
-      "quickFacts": [],
-      "location": "",
-      "locationDescription": "",
-      "credit": "",
-      "multimedia": [],
-      "relevanceScore": 1.0
-    },
-    {
-      "id": "4F2A9C4E-F31D-4326-A3E2-2106C0043CFE",
-      "url": "https://www.nps.gov/places/000/valleywide-shuttle-stop-17-mirror-lake-trailhead.htm",
-      "title": "Valley Shuttle Stop 17: Mirror Lake Trailhead",
-      "listingDescription": "When you arrive, park your car and enjoy the ease and convenience of our free shuttle system. The Valleywide shuttle serves all stops in Yosemite Valley, including lodges, food service, campgrounds, and trailheads. Buses arrive every 12 to 22 minutes. The East Valley shuttle is limited to Yosemite Village, Curry Village, Pines Campgrounds, and trailheads in eastern Yosemite Valley. Buses arrive every 8 to 12 minutes. This stop is part of both routes.",
-      "images": [
-        {
-          "url": "https://www.nps.gov/common/uploads/cropped_image/19455095-DC20-0F0A-1290CBEB859E5BF6.jpg",
-          "credit": "",
-          "altText": "Bus pulling up to covered bus shelter along road",
-          "title": "Valley Shuttle Stop #17",
-          "description": "",
-          "caption": "Valley Shuttle Stop #17: Mirror Lake Trailhead",
-          "crops": [
-            {
-              "aspectRatio": "1.78",
-              "url": "https://www.nps.gov/common/uploads/cropped_image/primary/19455095-DC20-0F0A-1290CBEB859E5BF6.jpg"
-            },
-            {
-              "aspectRatio": "1.33",
-              "url": "https://www.nps.gov/common/uploads/cropped_image/secondary/19455095-DC20-0F0A-1290CBEB859E5BF6.jpg"
-            }
-          ]
-        }
-      ],
-      "relatedParks": [
-        {
-          "states": "CA",
-          "parkCode": "yose",
-          "designation": "National Park",
-          "fullName": "Yosemite National Park",
-          "url": "https://www.nps.gov/yose/index.htm",
-          "name": "Yosemite"
-        }
-      ],
-      "relatedOrganizations": [],
-      "tags": [],
-      "latitude": "37.739349258743964",
-      "longitude": "-119.55970805881742",
-      "latLong": "37.739349258743964,-119.55970805881742",
-      "bodyText": "<p>This shuttle stop is served by both the\u00a0<strong>Valleywide Shuttle and East Valley Shuttle\u00a0</strong>routes. There is a covered shelter with benches available at this shuttle stop.<br /> <br /> <strong>Yosemite Valley shuttles are free and operate from 7 am to 10 pm daily.\u00a0</strong>During hours of operation, the Valleywide Shuttle runs approximately every 22-32 minutes. The East Valley Shuttle runs approximately every 18-22 minutes.\u00a0No ticket is\u00a0required. Passengers may board and disembark at any stop.</p> <h2>What's Nearby</h2> <ul> <li>Mirror Lake Trailhead</li> </ul> <h2>Shuttle Tips & Accessibility</h2> <ul> <li>Pets are not allowed on shuttles.</li> <li>Allow wheelchairs to board first.</li> <li>Collapse strollers before boarding.</li> <li>No oversized or jogging strollers.</li> <li>Remove baby-back carriers when seated.</li> <li>Shuttles only stop at designated stops.</li> <li>No smoking on shuttles.</li> </ul> <p>All shuttles\u00a0are accessible with wheelchair lifts and tie-downs. The maximum size for wheelchairs on shuttles is 24 inches wide x 46 inches long. Shuttle drivers will help passengers on and off shuttles or notify them of stops. If you need assistance, ask the driver.</p>",
-      "audioDescription": "A green and white sign stands next to the roadside turnout where the shuttle bus stops. The sign is white with a green bar across the top. Within the green bar, text reads, Valley shuttle and has an icon of a bus. Below the green bar, text reads Mirror Lake Trailhead, and the number 17 is in white font within a green circle. Next to the sign is a wooden shelter that holds two benches. A yellow chain barrier is set up to help queue the line. A brown trash bin, a green recycle bin, and a sign that has three small panels across the top and a large map on the bottom, are near the shuttle stop shelter. A paved path/road retreats into the trees behind the shelter. <br /><br />The first panel of the sign is yellow with a green bar across the top. Text in the green bar reads, shuttle bus schedule. The text in the yellow section reads, shuttle stop 17, Mirror Lake. From 7am to 10am, service every 30 minutes. From 10am to 7pm, service every 20 minutes. From 7pm to 10pm, service every 30 minutes. <br /><br />The second panel is white with a blue bar across the top. Text in the blue bar reads, Did You Know? Text in the white section reads, Mirror Lake is not really a lake at all. Until the middle of the 20th century, park personnel dredged sand to maintain a pond that reflected the cliffs above. Current park policy is to let the natural succession of pond to meadow occur. During high water, however, you can still see a stunning reflection of Half Dome. <br /><br />Photo: One person stands in ankle-deep snow, with a backpack on the ground by his side, and his back turned from the camera. He is facing a small body of water and the large face of Half Dome which towers over this lake. Snow covers the landscape. <br /><br />Caption: At Half Dome's base, Mirror Lake forms in winter and spring, but is more of a sandy beach during the dry season. NPS photo by Erik Skindrud.<br /><br />The third panel is white with an orange bar across the top. Text in the orange bar reads, Be Bear Aware. Text in the white box reads, Keeping bears away from your food isn't just a way to avoid a fine-it could save a bear's life. Do not store food in vehicles after dark. When not stored in a locker or cabin, food must be within arm's length. Stay at least 50 yards from a bear. If a bear approaches, yell to scare it away. <br /><br />Photo: A reddish-brown black bear with yellow plastic tags on both ears, is hanging halfway out of a parked car's side door window. The door frame is bent half way down, the side view mirror is dangling, and the glass has been busted out. It is dark out. <br /><br />Caption: Bear break-ins can cost thousands of dollars and put visitors and bears at risk. NPS photo by Tammy Evans.<br /><br />A large map showing three different shuttle routes in Yosemite Valley is below. For information regarding park maps, call our park accessibility coordinator at (209) 379-1035. <br />",
-      "isPassportStampLocation": "0",
-      "passportStampLocationDescription": "",
-      "passportStampImages": [],
-      "managedByUrl": "",
-      "isOpenToPublic": "1",
-      "isMapPinHidden": "0",
-      "npmapId": "",
-      "geometryPoiId": "38dbb00b-12b8-4752-a050-c3b66a8fcebb",
-      "isManagedByNps": "1",
-      "amenities": [
-        "Benches/Seating",
-        "Bus/Shuttle Stop",
-        "Recycling",
-        "Trash/Litter Receptacles",
-        "Wheelchair Accessible"
-      ],
-      "managedByOrg": "",
-      "quickFacts": [],
-      "location": "",
-      "locationDescription": "",
-      "credit": "",
-      "multimedia": [],
-      "relevanceScore": 1.0
-    },
-    {
-      "id": "44FAB1ED-9725-40DD-9ECE-70CF79EAC61A",
-      "url": "https://www.nps.gov/places/000/wagon-shed.htm",
-      "title": "Wagon Shed",
-      "listingDescription": "Horse-drawn stages were the practical way for visitors to experience the Yosemite, long before automobiles entered the park. Several stages from Yosemite's past are parked in this wagon shed, iconic symbols of the park's history of transportation.",
-      "images": [
-        {
-          "url": "https://www.nps.gov/common/uploads/cropped_image/A747ACF1-9480-9670-037C519233CC7BD5.jpg",
-          "credit": "NPS Image / Sheree Peshlakai",
-          "altText": "Historic red stage wagons in a row under an open barn roof",
-          "title": "Wagon Shed",
-          "description": "",
-          "caption": "Wagon Shed",
-          "crops": [
-            {
-              "aspectRatio": "1.78",
-              "url": "https://www.nps.gov/common/uploads/cropped_image/primary/A747ACF1-9480-9670-037C519233CC7BD5.jpg"
-            },
-            {
-              "aspectRatio": "1.33",
-              "url": "https://www.nps.gov/common/uploads/cropped_image/secondary/A747ACF1-9480-9670-037C519233CC7BD5.jpg"
-            }
-          ]
-        }
-      ],
-      "relatedParks": [
-        {
-          "states": "CA",
-          "parkCode": "yose",
-          "designation": "National Park",
-          "fullName": "Yosemite National Park",
-          "url": "https://www.nps.gov/yose/index.htm",
-          "name": "Yosemite"
-        }
-      ],
-      "relatedOrganizations": [],
-      "tags": [],
-      "latitude": "37.538251",
-      "longitude": "-119.656306",
-      "latLong": "37.538251,-119.656306",
-      "bodyText": "<p>Horse-drawn stages were the practical way for visitors to experience the Yosemite, long before automobiles entered the park. Several stages from Yosemite's past are parked in this wagon shed, iconic symbols of the park's history of transportation.</p>",
-      "audioDescription": "A dirt path leads by this open wooden structure that has exposed timber frame trusses, log posts, and log barriers, and holds about 10 historic horse-drawn wagons and carriages inside. One of the wagons is green and has four large wheels, a basic body large enough to hold a metal barrel with a spigot, and only one seat in front. Another carriage is a bit fancier, with a yellow undercarriage and a red body that holds four rows of people, including the driver, and has a canopy over the top. Down the dirt path is a grey barn and corral. Tall trees surround the area.",
+      "latitude": "37.746913774776",
+      "longitude": "-119.55091595649719",
+      "latLong": "37.746913774776,-119.55091595649719",
+      "bodyText": "<p>Mirror Lake is a seasonal lake on Tenaya Creek, famous for its reflections of Half Dome and Mount Watkins. Wayside exhibits explain the natural and cultural features of the area. When there is adequate water, the mirror effect for which the lake is named is best viewed early in the morning, when the water is still.</p> <h2>Tips & Seasonal Information</h2> <p><strong>While you may visit this area any time of year, the lake is typically only present in spring and early summer.</strong> As summer wears on, the shallow lake gradually disappears into the sand in late summer,\u00a0transforming into \"Mirror Meadow.\" All times of year, the views of Half Dome and other nearby cliffs are remarkable.<br /> <br /> Leashed pets, bicycles, and strollers are allowed on the paved pathways leading toward this viewpoint. Beyond that, on unpaved areas,\u00a0they are prohibited. A pit toilet is available where the paved road ends, near the views of Mirror Lake.<br /> <br /> <strong>Caution:\u00a0</strong>During spring and early summer, when water levels are highest, entering the water can be dangerous.\u00a0Always remember when approaching moving water to look at the conditions downstream. Waters in this area may appear ankle deep at first, but can quickly become thigh deep, and, all too often, hikers are swept into dangerous whitewater and pinned against rocks.\u00a0<a href=\"https://www.nps.gov/yose/learn/photosmultimedia/swiftwater.htm\">Learn more</a>\u00a0about past experiences visitors had with swift water in this area of the park.</p> <h2>Accessibility\u00a0</h2> <p>A one-mile road, from the Mirror Lake shuttle stop, leads to this view of the lake and is easy to walk due to its paved surface. The last 1,000 feet of the trail up to the lake is on a slope from 6.6 percent to 10.6 percent.<br /> <br /> Vehicles with a disability placard are permitted to drive up to 15 mph, with hazard lights on, to Mirror Lake. Be cautious as the road is shared with bicyclists and hikers. There are two designated accessible parking spaces available.</p>",
+      "audioDescription": "Depending on time of year, Mirror Lake is either a full body of water or an open meadow. The water reflects the surrounding granite cliffs that rise up above the treeline, including the iconic Half Dome. The lake is surrounded by a forest of oaks, pines, and firs.",
       "isPassportStampLocation": "0",
       "passportStampLocationDescription": "",
       "passportStampImages": [],
@@ -3067,7 +3441,13 @@
       "geometryPoiId": "",
       "isManagedByNps": "1",
       "amenities": [
-        "Historical/Interpretive Information/Exhibits"
+        "Bicycle - Rack",
+        "Historical/Interpretive Information/Exhibits",
+        "Recycling",
+        "Restroom",
+        "Scenic View/Photo Spot",
+        "Trash/Litter Receptacles",
+        "Wheelchair Accessible"
       ],
       "managedByOrg": "",
       "quickFacts": [],
@@ -3140,15 +3520,15 @@
       "relevanceScore": 1.0
     },
     {
-      "id": "7B2CF417-3016-4FE6-A37E-451AF69A77A6",
-      "url": "https://www.nps.gov/places/000/wawona-golf-shop.htm",
-      "title": "Wawona Golf Shop",
-      "listingDescription": "The beginning of your grand golfing adventure in Yosemite starts at the Wawona Hotel Golf Shop. Pay greens fees and rent golf clubs, pull carts, or electric carts here. The shop also provides, apparel, souvenirs, snacks, beverages, and more. Hours :Mid-May to late October, conditions permitting.See website for hours. Getting Here :Located in the Wawona Hotel complex, on the Wawona Road (Highway 41). Accessibility :This facility is accessible. A paved path leads to this firs",
+      "id": "5B085870-FBFF-469C-9D0C-01073A23DA04",
+      "url": "https://www.nps.gov/places/000/wawona-covered-bridge.htm",
+      "title": "Wawona Covered Bridge",
+      "listingDescription": "All Yosemite-bound traffic through the Wawona area crossed the covered bridge, which was built in 1857 by Galen Clark. Clark opened the first way-station for visitors in Wawona and later became the first guardian of the Yosemite Grant. He sold his land along the river to the Washburns, and they covered the bridge in the style of their native Vermont. Its restoration was the first step in the creation of the Pioneer Yosemite History Center.As you cross the bridge, listen for t",
       "images": [
         {
-          "url": "https://www.nps.gov/common/uploads/place/import/015b9b27-84e5-4582-8141-409e6bc032ab_image_350.jpg",
+          "url": "https://www.nps.gov/common/uploads/place/import/688058a7-c4be-4b39-9c56-b8cf21826756_image_350.jpg",
           "credit": "",
-          "altText": "A sign that reads, 'Golf Shop,' hangs from the ceiling at the corner of a two story building. Circular picnic tables are beneath a porch and lawn chairs sit on the green grass that surrounds the building.",
+          "altText": "A bright red horse-drawn stage exits an old covered wooden bridge.",
           "title": "",
           "description": "",
           "caption": "",
@@ -3167,27 +3547,24 @@
       ],
       "relatedOrganizations": [],
       "tags": [],
-      "latitude": "37.535982",
-      "longitude": "-119.655922",
-      "latLong": "37.535982,-119.655922",
-      "bodyText": "<p>The beginning of your grand golfing adventure in Yosemite starts at the Wawona Hotel Golf Shop.<br /> <br /> Pay greens fees and rent golf clubs, pull carts, or electric carts here. The shop also provides, apparel, souvenirs, snacks, beverages, and more.<br /> <br /> <b>Hours</b>:<br /> Mid-May to late October, conditions permitting.<br /> See <a href=\"https://www.travelyosemite.com/things-to-do/golfing/\">website</a> for hours.<br /> <br /> <b>Getting Here</b>:<br /> Located in the Wawona Hotel complex, on the Wawona Road (Highway 41).<br /> <br /> <b>Accessibility</b>:<br /> This facility is accessible. A paved path leads to this first floor shop, from the parking lot and the main building of the Wawona Hotel.</p>",
-      "audioDescription": "The Golf shop is on the first floor of a white, three-story building. Each floor has a covered porch with green awnings that wrap around the entire building. As you approach the Golf shop, there are circular picnic tables on the porch. There is a sign that says Golf Shop.",
+      "latitude": "37.538808",
+      "longitude": "-119.655886",
+      "latLong": "37.538808,-119.655886",
+      "bodyText": "<p>All Yosemite-bound traffic through the Wawona area crossed the covered bridge, which was built in 1857 by Galen Clark. Clark opened the first way-station for visitors in Wawona and later became the first guardian of the Yosemite Grant. He sold his land along the river to the Washburns, and they covered the bridge in the style of their native Vermont. Its restoration was the first step in the creation of the Yosemite History Center.\u00a0As you cross the bridge, listen for the low rumble of an oncoming stage and allow your imagination to return to the days of Yosemite's pioneers.</p>",
+      "audioDescription": "A dirt road leads into this covered bridge. Vertical wooden planks make up the height of this bridge, which extend up to an A-frame roof. There is a wooden divider stretching across the inside of the bridge, making a path for people to walk on, and a road for the stagecoach to use. An exhibit sign reads: The Covered Bridge. The deck and truss portion of this bridge across the South Fork of the Merced River was built around 1857 by settler Galen Clark, who established a tourist facility there. The area was then called Clark's Station. The road from Wawona to the Yosemite Valley opened in 1875 just after the Washburn brothers purchased Clark's holdings. The brothers, who were from Vermont, covered the bridge soon thereafter. Bridges were covered primarily to protect the large wood truss beams and flooring from the weather. It is much easier to re-shingle a roof than to replace the major supporting structures. Although the large beams were hand-hewn with ax and adze, the lumber to cover the bridge was cut locally at the Washburn's sawmill. Did the Washburn brothers cover the bridge exclusively for practical reasons? Maybe so. But a granddaughter claims the reason was nostalgia - they were homesick for a bit of New England.",
       "isPassportStampLocation": "0",
       "passportStampLocationDescription": "",
       "passportStampImages": [],
-      "managedByUrl": "https://www.travelyosemite.com/things-to-do/golfing/",
+      "managedByUrl": "",
       "isOpenToPublic": "1",
       "isMapPinHidden": "0",
       "npmapId": "",
       "geometryPoiId": "",
-      "isManagedByNps": "0",
+      "isManagedByNps": "1",
       "amenities": [
-        "Food/Drink - Cafeteria",
-        "Supplies - General",
-        "Trash/Litter Receptacles",
-        "Wheelchair Accessible"
+        "Historical/Interpretive Information/Exhibits"
       ],
-      "managedByOrg": "Yosemite Hospitality",
+      "managedByOrg": "",
       "quickFacts": [],
       "location": "",
       "locationDescription": "",
@@ -3239,197 +3616,6 @@
       "isManagedByNps": "1",
       "amenities": [
         "Trailhead"
-      ],
-      "managedByOrg": "",
-      "quickFacts": [],
-      "location": "",
-      "locationDescription": "",
-      "credit": "",
-      "multimedia": [],
-      "relevanceScore": 1.0
-    },
-    {
-      "id": "5EC1A98B-BC0E-4472-8D09-76743300683B",
-      "url": "https://www.nps.gov/places/000/wawona-stable.htm",
-      "title": "Wawona Stable",
-      "listingDescription": "Beyond hiking, the best way to explore the trails at Yosemite National Park is on a mule ride or horseback riding adventure. Wawona Stable offers the only two-hour ride on mules and horses in the park. Ideal for riders of all ages and abilities, the terrain is flat and the riding is gentle.",
-      "images": [
-        {
-          "url": "https://www.nps.gov/common/uploads/cropped_image/C46F7C58-F843-A679-D613BA758DB6C570.jpg",
-          "credit": "",
-          "altText": "Riders on horses leaving the stable",
-          "title": "Wawona Stable",
-          "description": "",
-          "caption": "Wawona Stable",
-          "crops": [
-            {
-              "aspectRatio": "1.78",
-              "url": "https://www.nps.gov/common/uploads/cropped_image/primary/C46F7C58-F843-A679-D613BA758DB6C570.jpg"
-            },
-            {
-              "aspectRatio": "1.33",
-              "url": "https://www.nps.gov/common/uploads/cropped_image/secondary/C46F7C58-F843-A679-D613BA758DB6C570.jpg"
-            }
-          ]
-        }
-      ],
-      "relatedParks": [
-        {
-          "states": "CA",
-          "parkCode": "yose",
-          "designation": "National Park",
-          "fullName": "Yosemite National Park",
-          "url": "https://www.nps.gov/yose/index.htm",
-          "name": "Yosemite"
-        }
-      ],
-      "relatedOrganizations": [],
-      "tags": [],
-      "latitude": "37.539617",
-      "longitude": "-119.655895",
-      "latLong": "37.539617,-119.655895",
-      "bodyText": "<p><span style=\"color:#c0392b;\">The Wawona Stable is closed.</span></p> <p>Beyond hiking, a fun way to explore the trails at Yosemite National Park is on a mule or horseback riding adventure.</p> <p>Wawona Stable offers the only two-hour ride on mules and horses in the park. Ideal for riders of all ages and abilities, the terrain is flat and the riding is gentle as the ride meanders around the Wawona Meadow.</p> <p>See <a href=\"https://www.travelyosemite.com/things-to-do/horseback-mule-riding/\">website</a> for times, prices, and other requirements.</p> <h2>Operating Hours & Seasons</h2> <p>Approximately May to September, conditions permitting.</p> <h2>Accessibility</h2> <p>Consult with the Wawona\u00a0Stable staff to discuss potential arrangements for a\u00a0gentle horse ride around the corral for someone with special needs.</p>",
-      "audioDescription": "As you approach the stable from the parking lot, you pass under a black and white sign that reads, Wawona Hotel Stable. There is a dirt path that leads to the stable office. to the left of the dirt path, there is a corral full of mules and horses before reaching a large, wooden, barn like building that faces to the right and has an American Flag and a sign that reads Big Trees Stable, Riding horses, pack trips.",
-      "isPassportStampLocation": "0",
-      "passportStampLocationDescription": "",
-      "passportStampImages": [],
-      "managedByUrl": "https://www.travelyosemite.com/things-to-do/horseback-mule-riding/",
-      "isOpenToPublic": "1",
-      "isMapPinHidden": "0",
-      "npmapId": "",
-      "geometryPoiId": "",
-      "isManagedByNps": "0",
-      "amenities": [
-        "Restroom"
-      ],
-      "managedByOrg": "Yosemite Hospitality",
-      "quickFacts": [],
-      "location": "",
-      "locationDescription": "",
-      "credit": "",
-      "multimedia": [],
-      "relevanceScore": 1.0
-    },
-    {
-      "id": "79246747-647E-47CC-97F4-D22972FAED25",
-      "url": "https://www.nps.gov/places/000/yarts-stop-big-oak-flat.htm",
-      "title": "YARTS Stop: Big Oak Flat",
-      "listingDescription": "Enjoy Yosemite stress free without a car. Save gas, save time, save money, by taking YARTS!The Yosemite Area Regional Transportation System (YARTS) is a regularly scheduled, fixed route, public transit system that operates year-round in the Yosemite region.YARTS provides service into Yosemite National Park and gateway communities in comfortable, air-conditioned buses. Ride YARTS to avoid traffic and safely enjoy the scenery instead of watching the road. This particular route",
-      "images": [
-        {
-          "url": "https://www.nps.gov/common/uploads/cropped_image/E85D0A68-BAC2-F80A-2B1C22827C35D945.jpg",
-          "credit": "",
-          "altText": "A sign with a banner reading \"YARTS\" in front of a parking area",
-          "title": "Big Oak Flat YARTS stop",
-          "description": "",
-          "caption": "YARTS stop at Big Oak Flat Information Station",
-          "crops": [
-            {
-              "aspectRatio": "1.78",
-              "url": "https://www.nps.gov/common/uploads/cropped_image/primary/E85D0A68-BAC2-F80A-2B1C22827C35D945.jpg"
-            },
-            {
-              "aspectRatio": "1.33",
-              "url": "https://www.nps.gov/common/uploads/cropped_image/secondary/E85D0A68-BAC2-F80A-2B1C22827C35D945.jpg"
-            }
-          ]
-        }
-      ],
-      "relatedParks": [
-        {
-          "states": "CA",
-          "parkCode": "yose",
-          "designation": "National Park",
-          "fullName": "Yosemite National Park",
-          "url": "https://www.nps.gov/yose/index.htm",
-          "name": "Yosemite"
-        }
-      ],
-      "relatedOrganizations": [],
-      "tags": [],
-      "latitude": "37.80014694514051",
-      "longitude": "-119.87490135111477",
-      "latLong": "37.80014694514051,-119.87490135111477",
-      "bodyText": "<p>This bus stop is served by the\u00a0Highway 120 West route, connecting Sonora, Jamestown, Groveland, Buck Meadows, and Yosemite Valley. This route operates May-September, seven days a week.\u00a0See <a href=\"https://yarts.com/routes-and-schedules/sonora-buck-meadows-yosemite-valley/\">website</a> for schedule.<br /> <br /> The Yosemite Area Regional Transportation System (YARTS) is a regularly scheduled, fixed route, public transit system\u00a0in the Yosemite region.\u00a0YARTS provides service into Yosemite National Park and gateway communities in comfortable, air-conditioned buses.<br /> <br /> Walk-on service is available on a first-come, first-served basis. Walk-on passengers can purchase tickets on the bus with cash (exact change only) or card. Advance reservations can be\u00a0purchased\u00a0<a href=\"https://yarts.betterez.com/cart/57f29bf6c241026a0b0001a1/\">online</a>. Passengers entering the park on a YARTS bus do not need to pay the park entrance fee; it is included in the bus fare.</p> <h2>Bus Tips & Accessibility</h2> <ul> <li>Bags are allowed on YARTS buses, including backpacks of any size. Some backpacks may need to be stored in compartments under the passenger seating.</li> <li>Bikes are allowed in the storage compartments under the bus, as space allows. Bicycle rentals may be available seasonally in Yosemite Valley.</li> <li>YARTS does not pick up anywhere other than designated stops.</li> <li>No pets are allowed to ride\u00a0<em>except</em>\u00a0for service animals.</li> </ul> <p>All YARTS buses are wheelchair accessible. However, this is on a per-ride basis and is dependent upon seating locations on the bus. Passengers needing assistance while boarding may request this in advance.\u00a0Passengers with disabilities as well as their companions or attendants who provide care may purchase tickets at a discounted rate.<br /> <br /> Please <a href=\"https://www.yarts.com/contact-us/\">contact YARTS</a> 48 hours prior to your boarding to ensure\u00a0your ride is accessible:\u00a0877/989-2787</p>",
-      "audioDescription": "A YARTS sign stands near a roadside pullout along the Big Oak Flat Road, right in front of the Big Oak Flat Information Station parking area and just down the road from the Big Oak Flat Entrance kiosks. The sign reads YARTS, Public Transit to Yosemite. Beneath the icon of a front facing bus, text reads 877-989-2787, www.yarts.com, Yosemite Area Regional Transportation System. On the poll below the sign, at eye height, is a four-sided plastic box that holds the latest route and schedule on each side. Tall trees and shrubs line the roadway.",
-      "isPassportStampLocation": "0",
-      "passportStampLocationDescription": "",
-      "passportStampImages": [],
-      "managedByUrl": "https://yarts.com/",
-      "isOpenToPublic": "1",
-      "isMapPinHidden": "0",
-      "npmapId": "",
-      "geometryPoiId": "9df0da55-5dab-4c0a-8da0-b17128be6a80",
-      "isManagedByNps": "0",
-      "amenities": [
-        "Bus/Shuttle Stop",
-        "Public Transit",
-        "Wheelchair Accessible"
-      ],
-      "managedByOrg": "YARTS",
-      "quickFacts": [],
-      "location": "",
-      "locationDescription": "",
-      "credit": "",
-      "multimedia": [],
-      "relevanceScore": 1.0
-    },
-    {
-      "id": "E5196218-9916-4945-AA25-318DBD039734",
-      "url": "https://www.nps.gov/places/000/yosemite-chapel.htm",
-      "title": "Yosemite Chapel",
-      "listingDescription": "The Yosemite Chapel, the oldest structure in Yosemite Valley, has been a place of worship, teaching, fellowship, and weddings for residents and visitors alike for over 140 years. The chapel was listed on the prestigious National Register of Historic Places in 1973.The Yosemite Chapel was originally erected near where the present Four Mile trailhead is located today.",
-      "images": [
-        {
-          "url": "https://www.nps.gov/common/uploads/cropped_image/1F2A3D5F-D94B-C2F5-FDD113448EE239A2.jpg",
-          "credit": "",
-          "altText": "A simple, red-brown building with a steeply pitched roof and a steeple",
-          "title": "Yosemite Chapel",
-          "description": "",
-          "caption": "Yosemite Chapel",
-          "crops": [
-            {
-              "aspectRatio": "1.78",
-              "url": "https://www.nps.gov/common/uploads/cropped_image/primary/1F2A3D5F-D94B-C2F5-FDD113448EE239A2.jpg"
-            },
-            {
-              "aspectRatio": "1.33",
-              "url": "https://www.nps.gov/common/uploads/cropped_image/secondary/1F2A3D5F-D94B-C2F5-FDD113448EE239A2.jpg"
-            }
-          ]
-        }
-      ],
-      "relatedParks": [
-        {
-          "states": "CA",
-          "parkCode": "yose",
-          "designation": "National Park",
-          "fullName": "Yosemite National Park",
-          "url": "https://www.nps.gov/yose/index.htm",
-          "name": "Yosemite"
-        }
-      ],
-      "relatedOrganizations": [],
-      "tags": [],
-      "latitude": "37.74098763469061",
-      "longitude": "-119.59158665954317",
-      "latLong": "37.74098763469061,-119.59158665954317",
-      "bodyText": "<p>The Yosemite Chapel, the oldest building in Yosemite Valley, was built with funds from the California State Sunday School Association in the summer of 1879. The National Park Service acquired the building in 1927.</p> <p>The Yosemite Chapel was originally built near the present-day Four Mile Trailhead. In 1901,\u00a0the chapel was relocated to its present location. In 1965 some interior restoration was completed, and the foundation was raised 3 feet to help protect the structure from periodic flooding. In spite of these efforts, the chapel sustained damage during the historic 1997 flood and required further restoration.</p> <p>With a few minor exceptions, the Yosemite Chapel has been the park's sole church facility since its construction over 140 years ago. Purportedly, Yosemite Chapel services began June 7, 1879.\u00a0In 1973, the chapel\u00a0was listed on the National Register of Historic Places.</p> <h2>Operating Hours & Seasons</h2> <p>The Yosemite Chapel operates year-round. Spiritual services are held every Sunday morning as well as special services on some holidays. Alcoholics Anonymous meetings are also held regularly at the chapel.<br /> <br /> For service times, see the <a href=\"http://www.yosemitevalleychapel.org/services.htm\">website</a> the current issue of the\u00a0<a href=\"https://www.nps.gov/yose/planyourvisit/guide.htm\">Yosemite Guide</a>.<br /> <br /> Information on weddings at the Yosemite Chapel is <a href=\"http://www.yosemitevalleychapelweddings.org/\">available online</a>.</p> <h2>Accessibility</h2> <p>Designated accessible parking spaces are available. The chapel is wheelchair accessible by way of a wheelchair lift (elevator) on the east side of the building near the parking area.</p>",
-      "audioDescription": "The Chapel is a wooden structure with a steeply pitched roof, and is painted red with orange doors and trim. There is a small set of 8 steps that lead up to the front doors. One vertical, rectangular, 8-paned window is on both sides of the doorway. A tall steeple rises up off the steep roof. A cement pathway starting from the steps in front of the chapel, splits and leads to the parking lot on the side of the chapel, and also to a crosswalk in front of the church. Trees surround the backside of the chapel, and a large rock face rises up behind.",
-      "isPassportStampLocation": "0",
-      "passportStampLocationDescription": "",
-      "passportStampImages": [],
-      "managedByUrl": "",
-      "isOpenToPublic": "1",
-      "isMapPinHidden": "0",
-      "npmapId": "",
-      "geometryPoiId": "67fa7da5-b602-43d0-8517-980718b941e9",
-      "isManagedByNps": "1",
-      "amenities": [
-        "Recycling",
-        "Restroom",
-        "Trash/Litter Receptacles",
-        "Wheelchair Accessible"
       ],
       "managedByOrg": "",
       "quickFacts": [],
@@ -3501,7 +3687,147 @@
       "credit": "",
       "multimedia": [],
       "relevanceScore": 1.0
+    },
+    {
+      "id": "A79C8321-F543-4DB3-B3CD-35E2CA1ADEBE",
+      "url": "https://www.nps.gov/places/000/yosemite-valley-lodge-bike-stand.htm",
+      "title": "Yosemite Valley Lodge Bike Stand",
+      "listingDescription": "Biking is one of the best ways to see Yosemite Valley. Yosemite Valley is flat, which makes for easy riding along our 12 miles of designated paths. Bicycles, tag-along bikes for children, trailers, and helmets are available for all ages and abilities. We also offer a select number of tandem bikes and hand-crank bikes for guests with physical limitations. Wheelchairs, electric scooters, and strollers may also be available for rent.",
+      "images": [
+        {
+          "url": "https://www.nps.gov/common/uploads/cropped_image/A933B924-D122-6C39-F9A93D9E5FA9FE2C.jpg",
+          "credit": "",
+          "altText": "Bikes lined up at the rental facility at Yosemite Valley Lodge",
+          "title": "Yosemite Valley Lodge Bike Stand",
+          "description": "",
+          "caption": "Yosemite Valley Lodge Bike Stand",
+          "crops": [
+            {
+              "aspectRatio": "1.78",
+              "url": "https://www.nps.gov/common/uploads/cropped_image/primary/A933B924-D122-6C39-F9A93D9E5FA9FE2C.jpg"
+            },
+            {
+              "aspectRatio": "1.33",
+              "url": "https://www.nps.gov/common/uploads/cropped_image/secondary/A933B924-D122-6C39-F9A93D9E5FA9FE2C.jpg"
+            }
+          ]
+        }
+      ],
+      "relatedParks": [
+        {
+          "states": "CA",
+          "parkCode": "yose",
+          "designation": "National Park",
+          "fullName": "Yosemite National Park",
+          "url": "https://www.nps.gov/yose/index.htm",
+          "name": "Yosemite"
+        }
+      ],
+      "relatedOrganizations": [],
+      "tags": [],
+      "latitude": "37.74435",
+      "longitude": "-119.59825",
+      "latLong": "37.74435,-119.59825",
+      "bodyText": "<p>With\u00a0miles of designated bike paths, Yosemite Valley offers ample opportunity for easy riding. Bicycles, tag-along bikes for children, child trailers, and helmets are available for all ages and abilities.\u00a0All rental bikes are first-come, first-served. Reservations are only available for bicycles intended for people with disabilities. A limited number of wheelchairs and motorized scooters are available at this location.</p> <p>See\u00a0<a href=\"https://www.travelyosemite.com/things-to-do/biking/\">website</a>\u00a0for rates.<br /> <br /> <strong>Bicycles are not permitted on hiking trails.</strong>\u00a0Ride on paved bicycle paths only. Cyclists that choose to ride on roads must ride with traffic and obey all traffic laws and signs.</p> <h2>Operating Hours & Seasons</h2> <p>See\u00a0<a href=\"https://www.travelyosemite.com/things-to-do/biking/\">website</a>\u00a0for hours, or call 209/372-1208. Bicycle rentals are available daily spring through fall, conditions permitting.</p> <h2>Accessibility</h2> <p>A limited number of tandem and hand-crank bicycles as well as wheelchairs and motorized scooters are available for rent and may be reserved in advance by calling\u00a0209/372-1208.<br /> <br /> This facility is wheelchair accessible. Designated accessible parking spaces are located nearby.</p>",
+      "audioDescription": "The Yosemite Valley Lodge Bike Stand operates out of a small, brown, wood-paneled kiosk. It is located near the pool, behind the main Yosemite Valley Lodge complex. Rows of bikes are parked side by side within a chain linked fence. The bikes are a variety of colors and range in size from larger adult-sized bikes, to smaller child-sized bikes, to tandem bikes, and bikes with trailers for children.",
+      "isPassportStampLocation": "0",
+      "passportStampLocationDescription": "",
+      "passportStampImages": [],
+      "managedByUrl": "https://www.travelyosemite.com/things-to-do/biking/",
+      "isOpenToPublic": "1",
+      "isMapPinHidden": "0",
+      "npmapId": "",
+      "geometryPoiId": "",
+      "isManagedByNps": "0",
+      "amenities": [
+        "Bicycle - Rental",
+        "Wheelchair Accessible",
+        "Wheelchairs Available"
+      ],
+      "managedByOrg": "Yosemite Hospitality",
+      "quickFacts": [],
+      "location": "",
+      "locationDescription": "",
+      "credit": "",
+      "multimedia": [],
+      "relevanceScore": 1.0
+    },
+    {
+      "id": "21B80074-4372-46FC-952F-ED23794DB45D",
+      "url": "https://www.nps.gov/thingstodo/hiking-in-yosemite.htm",
+      "title": "Hiking in Yosemite",
+      "shortDescription": "From a short walk to the base of a waterfall to a multi-day hike deep into the Yosemite Wilderness, taking a hike is one of the best ways to experience Yosemite's spectacular scenery. Yosemite has an extensive network of over 800 miles of hiking trails.",
+      "images": [
+        {
+          "url": "https://www.nps.gov/common/uploads/cropped_image/8F8DE81B-9AB4-1040-14604A0792CF0B0F.jpg",
+          "credit": "",
+          "altText": "Lower Yosemite Fall full of water in spring",
+          "title": "Lower Yosemite Fall",
+          "description": "",
+          "caption": "Lower Yosemite Fall in spring.",
+          "crops": [
+            {
+              "aspectRatio": "1.78",
+              "url": "https://www.nps.gov/common/uploads/cropped_image/primary/8F8DE81B-9AB4-1040-14604A0792CF0B0F.jpg"
+            },
+            {
+              "aspectRatio": "1",
+              "url": "https://www.nps.gov/common/uploads/cropped_image/secondary/8F8DE81B-9AB4-1040-14604A0792CF0B0F.jpg"
+            }
+          ]
+        }
+      ],
+      "relatedParks": [
+        {
+          "states": "CA",
+          "parkCode": "yose",
+          "designation": "National Park",
+          "fullName": "Yosemite National Park",
+          "url": "https://www.nps.gov/yose/index.htm",
+          "name": "Yosemite"
+        }
+      ],
+      "relatedOrganizations": [],
+      "tags": [],
+      "latitude": "",
+      "longitude": "",
+      "geometryPoiId": "",
+      "amenities": [],
+      "location": "",
+      "seasonDescription": "",
+      "accessibilityInformation": "Accessibility varies widely throughout the park's many hiking areas. Some areas are paved and/or wheelchair accessible. Refer to specific trailhead pages for route descriptions and accessibility information.<br /> Service animals are legally permitted on trails. Service animals are individually trained to perform a specific task that assists a person with a disability. Emotional support, therapy, and companion animals, as well as service animals in training, are\u00a0not\u00a0service animals and must abide by all pet regulations.",
+      "isReservationRequired": "false",
+      "ageDescription": "",
+      "petsDescription": "Pets are allowed on paved bike paths in Yosemite Valley as well as Bridalveil Fall trail, Cook's Meadow loop, the paved road to Mirror Lake (not on the unpaved areas), Lower Yosemite Fall trail, and the Wawona Meadow loop. Pets are not allowed on any other trails, even if carried. Do not leave your animal in your vehicle.",
+      "timeOfDayDescription": "",
+      "feeDescription": "",
+      "age": "",
+      "arePetsPermittedWithRestrictions": "false",
+      "activities": [
+        {
+          "id": "BFF8C027-7C8F-480B-A5F8-CD8CE490BFBA",
+          "name": "Hiking"
+        }
+      ],
+      "activityDescription": "",
+      "locationDescription": "",
+      "doFeesApply": "false",
+      "longDescription": "<p>From a short walk to the base of a waterfall to a multi-day hike deep into the Yosemite Wilderness, taking a hike is one of the best ways to experience Yosemite's spectacular scenery. Yosemite has an extensive network of over 800 miles of hiking trails.</p> <p>Explore detailed trailhead information in the Hiking Trails section of this app or <a href=\"https://www.nps.gov/yose/planyourvisit/hiking.htm\">on the website</a>.</p> <p>As you are planning your trip, be aware that many trailheads are only accessible by car seasonally. Glacier Point Road is typically open from May to November. Tioga Road is typically open from late May or June to November. Seasonal road closures are dependent on conditions and vary each year.\u00a0Check\u00a0<a href=\"https://www.nps.gov/yose/planyourvisit/seasonal.htm\">historical road opening and closing dates</a>, or find the\u00a0<a href=\"https://www.nps.gov/yose/planyourvisit/conditions.htm\">current road status</a>.<br /> <br /> For those wanting to explore further,\u00a0almost 95% of Yosemite is designated Wilderness, offering endless opportunities for adventure, solitude, and connection. In order to protect these wild places and provide an outstanding hiking experience, wilderness permits are required for all overnight trips. <a href=\"https://www.nps.gov/yose/planyourvisit/backpacking.htm\">Learn more about obtaining a wilderness permit.</a></p> <h2>Things to Remember While Hiking</h2> <ul> <li>Stay on trails: taking shortcuts causes trail erosion--and is both dangerous and illegal.</li> <li>Carry (and drink) plenty of water: a leading cause of injuries on the trail is dehydration. Be sure to treat river, stream, lake, or spring water.</li> <li>Pets and bicycles are only permitted on bike paths.</li> <li>Horses and mules have the right of way on trails.</li> <li>Pack out what you pack in.</li> <li>Trails are not maintained nor are they regularly patrolled: travel carefully and at your own risk.</li> <li>Smoking while traveling on trails is prohibited, though you may smoke while stopped\u00a0<a href=\"https://www.nps.gov/yose/planyourvisit/firerestrictions.htm\">except when fire restrictions are in effect</a>. (Crush out and dispose of cigarette butts in a trash receptacle.)</li> </ul>",
+      "reservationDescription": "",
+      "season": [],
+      "topics": [
+        {
+          "id": "5BE55D7F-BDB6-4E3D-AC35-2D8EBB974417",
+          "name": "Trails"
+        }
+      ],
+      "durationDescription": "",
+      "arePetsPermitted": "false",
+      "timeOfDay": [],
+      "duration": "",
+      "credit": "",
+      "relevanceScore": 1.0
     }
   ],
-  "total": "56"
+  "total": "61"
 }
