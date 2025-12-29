@@ -365,6 +365,103 @@
       "relevanceScore": 1.0
     },
     {
+      "id": "9D7B17DE-663C-4A85-A09D-183C71E5EE96",
+      "url": "https://www.nps.gov/thingstodo/timber-creek-overlook.htm",
+      "title": "Timber Creek Overlook",
+      "shortDescription": "Follows a ridge to views of Timber Creek, Kolob Terrace, and the Pine Valley Mountains.",
+      "images": [
+        {
+          "url": "https://www.nps.gov/common/uploads/cropped_image/670F9B1A-A06D-8B7D-EC7FFF38D457B589.jpg",
+          "credit": "NPS/Bryanna Plog",
+          "altText": "Red sandstone rocks with three hikers standing on them looking out over a valley. Blue, cloudy sky.",
+          "title": "Timber Creek Overlook",
+          "description": "",
+          "caption": "View from the Timber Creek Overlook.",
+          "crops": [
+            {
+              "aspectRatio": "1.78",
+              "url": "https://www.nps.gov/common/uploads/cropped_image/primary/670F9B1A-A06D-8B7D-EC7FFF38D457B589.jpg"
+            },
+            {
+              "aspectRatio": "1",
+              "url": "https://www.nps.gov/common/uploads/cropped_image/secondary/670F9B1A-A06D-8B7D-EC7FFF38D457B589.jpg"
+            }
+          ]
+        }
+      ],
+      "relatedParks": [
+        {
+          "states": "UT",
+          "parkCode": "zion",
+          "designation": "National Park",
+          "fullName": "Zion National Park",
+          "url": "https://www.nps.gov/zion/index.htm",
+          "name": "Zion"
+        }
+      ],
+      "relatedOrganizations": [],
+      "tags": [
+        "Zion",
+        "Kolob Canyons",
+        "timber creek overlook",
+        "overlook",
+        "viewpoint",
+        "Zion National Park",
+        "out and back",
+        "Easy hike",
+        "family hike",
+        "hiking"
+      ],
+      "latitude": "37.4355110105",
+      "longitude": "-113.201933722",
+      "geometryPoiId": "947583a2-3aed-4ec9-bcc4-fea434e53767",
+      "amenities": [],
+      "location": "Timber Creek Overlook Trailhead",
+      "seasonDescription": "",
+      "accessibilityInformation": "<ul> <li><b>Length (one way)\u00a0\u00a0|\u00a0\u00a0</b>0.6 mi (1 km)</li> <li><b>Elevation\u00a0\u00a0|\u00a0\u00a0</b>Gain:\u00a0117.3 ft (35.8 m)<b> | </b>Loss:\u00a0103.2 ft (31.5 m)</li> <li><b>Grade\u00a0\u00a0|\u00a0\u00a0</b>Typical: 6.8%<b>\u00a0\u00a0|\u00a0\u00a0</b>Maximum: 38%<b>\u00a0\u00a0|</b>\u00a031 % of the trail is at an 8.3% or higher grade.</li> <li><b>Cross Slope\u00a0\u00a0|\u00a0\u00a0</b>Typical: 4%<b>\u00a0\u00a0|\u00a0\u00a0</b>Maximum: 27.2%</li> <li><b>Tread Width\u00a0\u00a0|\u00a0\u00a0</b>Typical: 54 in (137.8 cm)<b> |\u00a0\u00a0</b>Minimum:\u00a06 in (15.2 cm)</li> <li><b>Surface\u00a0\u00a0|\u00a0\u00a0</b>98.8% of the trail is firm soil, and 1.2% is hard rock.</li> <li><b>Obstructions\u00a0\u00a0|\u00a0\u00a0</b>Steps up to 18 in (45.7 cm) tall, with 0 in of remaining tread<b>\u00a0\u00a0| \u00a0</b>Boulders making 12-in-long (30.5 cm) area where tread is 6 in (15.2 cm) wide. 30 in (76.2 cm) of remaining tread.<b>\u00a0|\u00a0</b>The dirt trail is often muddy when wet.</li> </ul> <p><i>Last assessed on March 31, 2025. Obstructions less than 7 in (17.8 cm) tall, or outside the tread area of 12 in (30.5 cm) wide by 96 in (243.8 cm) high, were not reported.</i></p>",
+      "isReservationRequired": "false",
+      "ageDescription": "",
+      "petsDescription": "Pets are not allowed on any trails in Kolob Canyons.",
+      "timeOfDayDescription": "",
+      "feeDescription": "Park entrance fees apply.\u00a0",
+      "age": "",
+      "arePetsPermittedWithRestrictions": "false",
+      "activities": [
+        {
+          "id": "BFF8C027-7C8F-480B-A5F8-CD8CE490BFBA",
+          "name": "Hiking"
+        }
+      ],
+      "activityDescription": "",
+      "locationDescription": "From the Kolob Canyons Visitor Center, follow the Kolob Canyons Road to the very end. This is where the Timber Creek Overlook Trailhead and parking area is.\u00a0<br /> <br /> Restrooms available at trailhead. Water available at Visitor Center.\u00a0",
+      "doFeesApply": "false",
+      "longDescription": "The Timber Creek Overlook Trail\u00a0is a short, relatively easy trail that follows a rocky ridge with minimal elevation gain, making it perfect for a quick walk to a stunning viewpoint.\u00a0A small picnic area is located a short distance from the trailhead. Unlike other trails in the area, large groups (of 12 or more people) are allowed to hike on this trail.<br /> <br /> Once you reach the overlook, you will be rewarded with views of Shuntavi Butte, Timber Creek, Kolob Terrace, and the Pine Valley Mountains.\u00a0Looking south on the far horizon, visitors may see Mount Trumbull, 100 miles away at the north rim of the Grand Canyon.<br /> <br /> During the spring and early summer months, the Timber Creek Overlook Trail is covered in a beautiful display of desert wildflowers.",
+      "reservationDescription": "",
+      "season": [
+        "Winter",
+        "Spring",
+        "Summer",
+        "Fall"
+      ],
+      "topics": [
+        {
+          "id": "5BE55D7F-BDB6-4E3D-AC35-2D8EBB974417",
+          "name": "Trails"
+        }
+      ],
+      "durationDescription": "",
+      "arePetsPermitted": "false",
+      "timeOfDay": [
+        "Day",
+        "Night",
+        "Dawn",
+        "Dusk"
+      ],
+      "duration": "30-60 Minutes",
+      "credit": "",
+      "relevanceScore": 1.0
+    },
+    {
       "id": "6AD66A92-B0EB-4064-A52A-2DDB02CF9143",
       "url": "https://www.nps.gov/thingstodo/la-verkin-creek-trail-to-kolob-arch.htm",
       "title": "La Verkin Creek Trail to Kolob Arch",
@@ -1313,6 +1410,100 @@
       "relevanceScore": 1.0
     },
     {
+      "id": "97CF105C-B416-4CDC-B84F-2A2C96D870DB",
+      "url": "https://www.nps.gov/thingstodo/hike-canyon-overlook.htm",
+      "title": "Canyon Overlook",
+      "shortDescription": "Long drop-offs, mostly fenced. Rocky and uneven trail ends at a viewpoint for Pine Creek Canyon and lower Zion Canyon. To enter or exit the parking area just east of the tunnel, you must turn right. Parking is extremely limited, be prepared to try multiple times. Pit toilets are available in the parking area.",
+      "images": [
+        {
+          "url": "https://www.nps.gov/common/uploads/cropped_image/EB34DB47-9EBF-94FA-749C688629AD3876.jpg",
+          "credit": "NPS/Daren Reehl",
+          "altText": "Red sandstone slickrock dotted with green foliage with mountains in the background.",
+          "title": "Canyon Overlook",
+          "description": "",
+          "caption": "View looking towards the end of the Canyon Overlook Trail and the Towers and Temples of the Virgin",
+          "crops": [
+            {
+              "aspectRatio": "1.78",
+              "url": "https://www.nps.gov/common/uploads/cropped_image/primary/EB34DB47-9EBF-94FA-749C688629AD3876.jpg"
+            },
+            {
+              "aspectRatio": "1",
+              "url": "https://www.nps.gov/common/uploads/cropped_image/secondary/EB34DB47-9EBF-94FA-749C688629AD3876.jpg"
+            }
+          ]
+        }
+      ],
+      "relatedParks": [
+        {
+          "states": "UT",
+          "parkCode": "zion",
+          "designation": "National Park",
+          "fullName": "Zion National Park",
+          "url": "https://www.nps.gov/zion/index.htm",
+          "name": "Zion"
+        }
+      ],
+      "relatedOrganizations": [],
+      "tags": [
+        "Zion",
+        "East Side of the Park",
+        "Canyon Overlook",
+        "moderate hike",
+        "Zion National Park",
+        "viewpoint",
+        "out and back"
+      ],
+      "latitude": "37.21305420753267",
+      "longitude": "-112.94102381538823",
+      "geometryPoiId": "2504667f-1cfc-4d3a-9d7d-4ecfb8ec2575",
+      "amenities": [],
+      "location": "Canyon Overlook Trailhead",
+      "seasonDescription": "",
+      "accessibilityInformation": "<ul> <li><b>Lengt</b><strong>h (one way) |\u00a0\u00a0</strong>0.5 mi (0.8 km)</li> <li><b>Elevation |\u00a0\u00a0</b>Gain:\u00a0154.2 ft (47.0 m) |\u00a0Loss: 48.5 ft (14.78 m)</li> <li><b>Grade |\u00a0\u00a0</b>Typical: 7.6% | Maximum: 50.4% | 23.9% of the trail is at a 10% or higher grade.</li> <li><b>Cross Slope |\u00a0\u00a0</b>Typical: 4.9% | Maximum: 36.4%</li> <li><b>Tread Width |\u00a0\u00a0</b>Typical: 48 in (122.4 cm) | Minimum: 12 in (30.5 cm)</li> <li><b>Surface |\u00a0\u00a0</b>73.8% of the trail is hard rock, 18.0% is firm soil, and 8.2% is soft sand</li> <li><b>Obstructions |\u00a0\u00a0</b>118.9 ft (36.2 m)\u00a0of o<a>verhanging rocks with an a</a>verage vertical clearance of 7ft (2.1 m), minimum vertical clearance of\u00a04 ft (1.2 m),\u00a0and 30 in (76.2 cm) of remaining tread. <strong>\u00a0|\u00a0\u00a0</strong>Staircases with steps up to 18 in (45.7 cm) tall and 0 in of remaining tread\u00a0<strong> |\u00a0\u00a0</strong>Boulders up to 12 in (30.5 cm) tall and 0 in of remaining tread</li> </ul> <p><a><i>Last assessed February 20, 2025. Obstructions less than 4 in (10.2 cm) or outside of the tread area 36 in (91.4 cm) wide by 96 in (243.8 cm) high were not reported.</i></a></p>",
+      "isReservationRequired": "false",
+      "ageDescription": "",
+      "petsDescription": "",
+      "timeOfDayDescription": "",
+      "feeDescription": "Park entrance fees apply.",
+      "age": "",
+      "arePetsPermittedWithRestrictions": "false",
+      "activities": [
+        {
+          "id": "BFF8C027-7C8F-480B-A5F8-CD8CE490BFBA",
+          "name": "Hiking"
+        }
+      ],
+      "activityDescription": "",
+      "locationDescription": "Canyon Overlook Trailhead is located on the East Side of Zion. Follow State Route 9 through the Zion-Mount Carmel Tunnel to the trailhead. Parking is limited.\u00a0",
+      "doFeesApply": "false",
+      "longDescription": "Canyon Overlook Trail is a moderate, 1 mi (1.6 km) trail on the East Side of Zion. The path begins with a series of sandstone steps with a metal handrail leading visitors over rocky terrain above a dark slot canyon. Near the end of the trail, the view opens up to an expanse of red and cream-colored slickrock. The end of the trail is marked by a fenced cliff edge facing the main Zion Canyon, with excellent views of the Towers of the Virgin. Keep an eye out for bighorn sheep along the trail.<br /> \u00a0 <p>Parking is extremely limited, be prepared to try mulitple times. Pit toilets are available in the parking area.</p> <br /> \u00a0",
+      "reservationDescription": "",
+      "season": [
+        "Winter",
+        "Spring",
+        "Summer",
+        "Fall"
+      ],
+      "topics": [
+        {
+          "id": "5BE55D7F-BDB6-4E3D-AC35-2D8EBB974417",
+          "name": "Trails"
+        }
+      ],
+      "durationDescription": "",
+      "arePetsPermitted": "false",
+      "timeOfDay": [
+        "Day",
+        "Night",
+        "Dawn",
+        "Dusk"
+      ],
+      "duration": "1-2 Hours",
+      "credit": "",
+      "relevanceScore": 1.0
+    },
+    {
       "id": "43CC4A81-2227-4E40-9403-6F7E2B27BC53",
       "url": "https://www.nps.gov/thingstodo/hike-angels-landing.htm",
       "title": "Angels Landing",
@@ -1498,5 +1689,5 @@
       "relevanceScore": 1.0
     }
   ],
-  "total": "16"
+  "total": "18"
 }

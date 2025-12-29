@@ -28,12 +28,14 @@
       }
     ],
     "nps_url": "https://www.nps.gov/places/a-living-canyon.htm",
-    "difficulty": "Easy",
-    "length_miles": 3.5,
-    "elevation_gain_ft": 50,
-    "route_type": "Out & Back",
-    "estimated_time_hours": "1.5-2 hours",
-    "last_enriched": "2025-12-26T16:02:00.163390"
+    "difficulty": null,
+    "length_miles": null,
+    "elevation_gain_ft": null,
+    "route_type": null,
+    "estimated_time_hours": null,
+    "is_wheelchair_accessible": false,
+    "is_kid_friendly": false,
+    "last_enriched": "2025-12-28T14:05:03.698082"
   },
   {
     "id": "9B081DDD-4C3E-47C0-901A-E92A159B0078",
@@ -66,10 +68,54 @@
     "nps_url": "https://www.nps.gov/thingstodo/hike-kayenta-trail.htm",
     "difficulty": "Moderate",
     "length_miles": 2.0,
-    "elevation_gain_ft": null,
+    "elevation_gain_ft": 204,
     "route_type": "Out & Back",
     "estimated_time_hours": null,
-    "last_enriched": "2025-12-26T16:02:07.400782"
+    "is_wheelchair_accessible": false,
+    "is_kid_friendly": false,
+    "last_enriched": "2025-12-28T14:05:16.858674",
+    "popularity_rank": 4,
+    "alltrails_url": "https://www.alltrails.com/trail/us/utah/kayenta-trail-to-the-emerald-pools",
+    "alltrails_rating": 4.5,
+    "alltrails_review_count": 6916
+  },
+  {
+    "id": "9D7B17DE-663C-4A85-A09D-183C71E5EE96",
+    "name": "Timber Creek Overlook",
+    "description": "Timber Creek Overlook",
+    "location": {
+      "lat": 37.4355110105,
+      "lon": -113.201933722
+    },
+    "images": [
+      {
+        "url": "https://www.nps.gov/common/uploads/cropped_image/670F9B1A-A06D-8B7D-EC7FFF38D457B589.jpg",
+        "credit": "NPS/Bryanna Plog",
+        "altText": "Red sandstone rocks with three hikers standing on them looking out over a valley. Blue, cloudy sky.",
+        "title": "Timber Creek Overlook",
+        "description": "",
+        "caption": "View from the Timber Creek Overlook.",
+        "crops": [
+          {
+            "aspectRatio": "1.78",
+            "url": "https://www.nps.gov/common/uploads/cropped_image/primary/670F9B1A-A06D-8B7D-EC7FFF38D457B589.jpg"
+          },
+          {
+            "aspectRatio": "1",
+            "url": "https://www.nps.gov/common/uploads/cropped_image/secondary/670F9B1A-A06D-8B7D-EC7FFF38D457B589.jpg"
+          }
+        ]
+      }
+    ],
+    "nps_url": "https://www.nps.gov/thingstodo/timber-creek-overlook.htm",
+    "difficulty": "Easy",
+    "length_miles": 1.2,
+    "elevation_gain_ft": 117,
+    "route_type": "Out & Back",
+    "estimated_time_hours": null,
+    "is_wheelchair_accessible": false,
+    "is_kid_friendly": true,
+    "last_enriched": "2025-12-28T14:05:21.062798"
   },
   {
     "id": "6AD66A92-B0EB-4064-A52A-2DDB02CF9143",
@@ -102,10 +148,12 @@
     "nps_url": "https://www.nps.gov/thingstodo/la-verkin-creek-trail-to-kolob-arch.htm",
     "difficulty": "Strenuous",
     "length_miles": 14.0,
-    "elevation_gain_ft": null,
+    "elevation_gain_ft": 1037,
     "route_type": "Out & Back",
     "estimated_time_hours": null,
-    "last_enriched": "2025-12-26T16:02:13.454249"
+    "is_wheelchair_accessible": false,
+    "is_kid_friendly": false,
+    "last_enriched": "2025-12-28T14:05:24.543316"
   },
   {
     "id": "7B0A7CE7-2553-4A51-9E7C-F1F77DC253A4",
@@ -136,12 +184,14 @@
       }
     ],
     "nps_url": "https://www.nps.gov/thingstodo/taylor-creek-trail.htm",
-    "difficulty": null,
-    "length_miles": null,
-    "elevation_gain_ft": null,
-    "route_type": null,
+    "difficulty": "Moderate",
+    "length_miles": 5.2,
+    "elevation_gain_ft": 799,
+    "route_type": "Out & Back",
     "estimated_time_hours": null,
-    "last_enriched": "2025-12-26T16:02:24.945195"
+    "is_wheelchair_accessible": false,
+    "is_kid_friendly": false,
+    "last_enriched": "2025-12-28T14:05:31.226978"
   },
   {
     "id": "671CA42A-5287-4EC6-AD13-4841D2F9B724",
@@ -173,11 +223,17 @@
     ],
     "nps_url": "https://www.nps.gov/thingstodo/hike-watchman-trail.htm",
     "difficulty": "Moderate",
-    "length_miles": null,
-    "elevation_gain_ft": null,
+    "length_miles": 3.2,
+    "elevation_gain_ft": 560,
     "route_type": "Out & Back",
     "estimated_time_hours": null,
-    "last_enriched": "2025-12-26T16:02:28.827651"
+    "is_wheelchair_accessible": false,
+    "is_kid_friendly": false,
+    "last_enriched": "2025-12-28T14:05:38.272243",
+    "popularity_rank": 3,
+    "alltrails_url": "https://www.alltrails.com/trail/us/utah/the-watchman-trail",
+    "alltrails_rating": 4.7,
+    "alltrails_review_count": 20721
   },
   {
     "id": "BD4CA407-5BE0-426E-8339-F34DE6795D3A",
@@ -209,11 +265,13 @@
     ],
     "nps_url": "https://www.nps.gov/thingstodo/hike-to-scout-lookout.htm",
     "difficulty": "Strenuous",
-    "length_miles": null,
-    "elevation_gain_ft": 1000,
+    "length_miles": 3.8,
+    "elevation_gain_ft": 1187,
     "route_type": "Out & Back",
     "estimated_time_hours": null,
-    "last_enriched": "2025-12-26T16:02:37.278455"
+    "is_wheelchair_accessible": false,
+    "is_kid_friendly": false,
+    "last_enriched": "2025-12-28T14:05:45.535601"
   },
   {
     "id": "823A078C-D324-4648-B910-F15507E67244",
@@ -245,11 +303,17 @@
     ],
     "nps_url": "https://www.nps.gov/thingstodo/hike-riverside-walk.htm",
     "difficulty": "Easy",
-    "length_miles": null,
-    "elevation_gain_ft": null,
+    "length_miles": 2.0,
+    "elevation_gain_ft": 154,
     "route_type": "Out & Back",
     "estimated_time_hours": null,
-    "last_enriched": "2025-12-26T16:02:46.550651"
+    "is_wheelchair_accessible": true,
+    "is_kid_friendly": true,
+    "last_enriched": "2025-12-28T14:05:50.371681",
+    "popularity_rank": 5,
+    "alltrails_url": "https://www.alltrails.com/trail/us/utah/elephant-temple-via-riverside-walk",
+    "alltrails_rating": 4.9,
+    "alltrails_review_count": 14730
   },
   {
     "id": "97C6C2F7-E45F-4192-9475-F2F90BF3E70E",
@@ -281,11 +345,17 @@
     ],
     "nps_url": "https://www.nps.gov/thingstodo/hike-middle-emerald-pools-trail.htm",
     "difficulty": "Moderate",
-    "length_miles": null,
-    "elevation_gain_ft": null,
-    "route_type": null,
+    "length_miles": 0.9,
+    "elevation_gain_ft": 332,
+    "route_type": "Point to Point",
     "estimated_time_hours": null,
-    "last_enriched": "2025-12-26T16:02:53.088723"
+    "is_wheelchair_accessible": false,
+    "is_kid_friendly": false,
+    "last_enriched": "2025-12-28T14:05:57.644521",
+    "popularity_rank": 8,
+    "alltrails_url": "https://www.alltrails.com/trail/us/utah/emerald-pools-trail",
+    "alltrails_rating": 4.5,
+    "alltrails_review_count": 6652
   },
   {
     "id": "FD003EF3-8DA2-4FCB-9B49-7BFFB097CB76",
@@ -318,10 +388,16 @@
     "nps_url": "https://www.nps.gov/thingstodo/hike-upper-emerald-pools.htm",
     "difficulty": "Moderate",
     "length_miles": 1.0,
-    "elevation_gain_ft": null,
-    "route_type": null,
+    "elevation_gain_ft": 76,
+    "route_type": "Out & Back",
     "estimated_time_hours": null,
-    "last_enriched": "2025-12-26T16:02:58.412815"
+    "is_wheelchair_accessible": false,
+    "is_kid_friendly": false,
+    "last_enriched": "2025-12-28T14:06:02.990314",
+    "popularity_rank": 8,
+    "alltrails_url": "https://www.alltrails.com/trail/us/utah/emerald-pools-trail",
+    "alltrails_rating": 4.5,
+    "alltrails_review_count": 6652
   },
   {
     "id": "6A7BB554-73E5-43ED-90C1-A327CADF55C7",
@@ -354,10 +430,16 @@
     "nps_url": "https://www.nps.gov/thingstodo/hike-lower-emerald-pool-trail.htm",
     "difficulty": "Easy",
     "length_miles": 1.2,
-    "elevation_gain_ft": 70,
+    "elevation_gain_ft": 131,
     "route_type": "Out & Back",
-    "estimated_time_hours": "1 hour",
-    "last_enriched": "2025-12-26T16:03:11.088184"
+    "estimated_time_hours": null,
+    "is_wheelchair_accessible": true,
+    "is_kid_friendly": true,
+    "last_enriched": "2025-12-28T14:06:09.968997",
+    "popularity_rank": 17,
+    "alltrails_url": "https://www.alltrails.com/poi/us/utah/springdale/lower-emerald-pool",
+    "alltrails_rating": null,
+    "alltrails_review_count": null
   },
   {
     "id": "64535736-992B-4D04-8BF6-3F1965A6A01A",
@@ -390,10 +472,12 @@
     "nps_url": "https://www.nps.gov/thingstodo/hike-grotto-trail.htm",
     "difficulty": "Easy",
     "length_miles": 1.0,
-    "elevation_gain_ft": null,
+    "elevation_gain_ft": 49,
     "route_type": "Out & Back",
     "estimated_time_hours": null,
-    "last_enriched": "2025-12-26T16:03:16.778406"
+    "is_wheelchair_accessible": false,
+    "is_kid_friendly": true,
+    "last_enriched": "2025-12-28T14:06:15.866925"
   },
   {
     "id": "6FD175EF-A82F-47AA-B055-8833EA1C1162",
@@ -425,11 +509,55 @@
     ],
     "nps_url": "https://www.nps.gov/thingstodo/hike-pa-rus-trail.htm",
     "difficulty": "Easy",
-    "length_miles": null,
-    "elevation_gain_ft": null,
+    "length_miles": 3.2,
+    "elevation_gain_ft": 152,
     "route_type": "Point to Point",
     "estimated_time_hours": null,
-    "last_enriched": "2025-12-26T16:03:23.334943"
+    "is_wheelchair_accessible": true,
+    "is_kid_friendly": true,
+    "last_enriched": "2025-12-28T14:06:23.022433"
+  },
+  {
+    "id": "97CF105C-B416-4CDC-B84F-2A2C96D870DB",
+    "name": "Canyon Overlook",
+    "description": "Canyon Overlook",
+    "location": {
+      "lat": 37.21305420753267,
+      "lon": -112.94102381538823
+    },
+    "images": [
+      {
+        "url": "https://www.nps.gov/common/uploads/cropped_image/EB34DB47-9EBF-94FA-749C688629AD3876.jpg",
+        "credit": "NPS/Daren Reehl",
+        "altText": "Red sandstone slickrock dotted with green foliage with mountains in the background.",
+        "title": "Canyon Overlook",
+        "description": "",
+        "caption": "View looking towards the end of the Canyon Overlook Trail and the Towers and Temples of the Virgin",
+        "crops": [
+          {
+            "aspectRatio": "1.78",
+            "url": "https://www.nps.gov/common/uploads/cropped_image/primary/EB34DB47-9EBF-94FA-749C688629AD3876.jpg"
+          },
+          {
+            "aspectRatio": "1",
+            "url": "https://www.nps.gov/common/uploads/cropped_image/secondary/EB34DB47-9EBF-94FA-749C688629AD3876.jpg"
+          }
+        ]
+      }
+    ],
+    "nps_url": "https://www.nps.gov/thingstodo/hike-canyon-overlook.htm",
+    "difficulty": "Moderate",
+    "length_miles": 1.0,
+    "elevation_gain_ft": 154,
+    "route_type": "Out & Back",
+    "estimated_time_hours": null,
+    "is_wheelchair_accessible": false,
+    "is_kid_friendly": false,
+    "last_enriched": "2025-12-28T14:06:28.993304",
+    "popularity_rank": 22,
+    "alltrails_url": "https://www.alltrails.com/poi/us/utah/springdale/canyon-overlook",
+    "alltrails_rating": null,
+    "alltrails_review_count": null
   },
   {
     "id": "43CC4A81-2227-4E40-9403-6F7E2B27BC53",
@@ -461,11 +589,17 @@
     ],
     "nps_url": "https://www.nps.gov/thingstodo/hike-angels-landing.htm",
     "difficulty": "Strenuous",
-    "length_miles": 5.4,
-    "elevation_gain_ft": 1488,
-    "route_type": "Out & Back",
-    "estimated_time_hours": "3-5 hours",
-    "last_enriched": "2025-12-26T16:03:30.799090"
+    "length_miles": null,
+    "elevation_gain_ft": null,
+    "route_type": null,
+    "estimated_time_hours": null,
+    "is_wheelchair_accessible": false,
+    "is_kid_friendly": false,
+    "last_enriched": "2025-12-28T14:06:36.971830",
+    "popularity_rank": 1,
+    "alltrails_url": "https://www.alltrails.com/trail/us/utah/angels-landing-trail",
+    "alltrails_rating": 4.9,
+    "alltrails_review_count": 37461
   },
   {
     "id": "64075857-ACC6-4F4D-961B-1283D0F5475D",
@@ -501,6 +635,8 @@
     "elevation_gain_ft": null,
     "route_type": "Out & Back",
     "estimated_time_hours": null,
-    "last_enriched": "2025-12-26T16:03:35.961664"
+    "is_wheelchair_accessible": false,
+    "is_kid_friendly": false,
+    "last_enriched": "2025-12-28T14:06:42.314462"
   }
 ]

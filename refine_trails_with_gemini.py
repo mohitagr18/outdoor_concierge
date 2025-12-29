@@ -27,6 +27,8 @@ class TrailStats(BaseModel):
     elevation_gain_ft: Optional[int] = Field(None, description="Total elevation gain in feet")
     route_type: Optional[str] = Field(None, description="Loop, Out & Back, or Point to Point")
     estimated_time_hours: Optional[str] = Field(None, description="Human readable time estimate, e.g. 3-4 hours")
+    is_wheelchair_accessible: bool = Field(False, description="True if description mentions wheelchair access, paved path, or ADA accessible.")
+    is_kid_friendly: bool = Field(False, description="True if description mentions kids, families, easy walk, or is short (< 2 miles) and flat.")
 
 # --- Extraction Logic ---
 def extract_trail_stats(trail_item: Dict[str, Any], client: genai.Client) -> Optional[TrailStats]:
@@ -38,14 +40,12 @@ def extract_trail_stats(trail_item: Dict[str, Any], client: genai.Client) -> Opt
         trail_item.get("bodyText") or "",
         trail_item.get("shortDescription") or "",
         trail_item.get("longDescription") or "",
-        trail_item.get("activityDescription") or ""
+        trail_item.get("activityDescription") or "",
+        trail_item.get("accessibilityInformation") or "" # CRITICAL: Include accessibility info
     ]
     desc_context = "\n".join([p for p in desc_parts if p.strip()])
     
     # Pre-Computation Heuristic:
-    # If description is very short or lacks "hike" indicators, skip it (save tokens)
-    # But for Zion/GRCA we might want to be permissive.
-    # Let's just check for minimal length.
     if len(desc_context) < 50:
         return None
 
@@ -55,14 +55,14 @@ def extract_trail_stats(trail_item: Dict[str, Any], client: genai.Client) -> Opt
         f"Description: {desc_context[:4000]}\n\n"
         "Instructions:\n"
         "1. DECIDE: Is this a hiking trail, route, or walking path? (True/False)\n"
-        "   - True: 'Angels Landing', 'Rim Trail', 'River Walk', 'Trailhead'.\n"
-        "   - False: 'Zion Lodge', 'Visitor Center', 'Shuttle Stop' (unless it describes a hike starting there), 'Overlook' (unless it mentions a specific trail length/route).\n"
         "2. IF TRUE, extract metrics:\n"
         "   - 'difficulty' (Easy, Moderate, Strenuous)\n"
         "   - 'length_miles' (numeric)\n"
         "   - 'elevation_gain_ft' (numeric)\n"
         "   - 'route_type'\n"
         "   - 'estimated_time_hours'\n"
+        "   - 'is_wheelchair_accessible': Look for 'wheelchair', 'paved', 'accessible', 'ADA'.\n"
+        "   - 'is_kid_friendly': Look for 'easy', 'family', 'kids', 'flat', 'short'.\n"
     )
 
     try:
@@ -133,6 +133,8 @@ def main():
                 "elevation_gain_ft": stats.elevation_gain_ft,
                 "route_type": stats.route_type,
                 "estimated_time_hours": stats.estimated_time_hours,
+                "is_wheelchair_accessible": stats.is_wheelchair_accessible,
+                "is_kid_friendly": stats.is_kid_friendly,
                 "last_enriched": datetime.now().isoformat()
             }
             results.append(enriched_trail)

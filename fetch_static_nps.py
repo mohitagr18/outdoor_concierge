@@ -85,7 +85,14 @@ def classify_places(places_raw_data):
     
     for item in items:
         title = item.get("title", "")
-        desc = (item.get("listingDescription") or "") + " " + (item.get("bodyText") or "")
+        # Unified Description: Handle schema differences between Places (listingDescription) and ThingsToDo (longDescription)
+        desc_parts = [
+            item.get("listingDescription") or "",
+            item.get("bodyText") or "",
+            item.get("shortDescription") or "",
+            item.get("longDescription") or ""
+        ]
+        desc = " ".join(desc_parts)
         title_lower = title.lower()
         desc_lower = desc.lower()
 
@@ -114,11 +121,11 @@ def classify_places(places_raw_data):
              is_trail = True
              
         # Ambiguity Handling: "Overlook" or "Point"
-        # If title is just "Glacier Point" (has 'point' keyword), it qualifies as candidate.
-        # But we might want to be tighter? 
-        # User said: "allow: rim, trail, point, overlook... de-prioritize overlooks unless they also have hike language"
         if contains_whole_word(title_lower, "overlook") or contains_whole_word(title_lower, "point"):
-             if not has_content_indicators and not ("trail" in title_lower or "hike" in title_lower):
+             # Relaxed Rule: If description says "trail" or "hike", keep it.
+             # Or if it has at least 1 content indicator (miles, moderate, etc)
+             is_hike_desc = "trail" in desc_lower or "hike" in desc_lower
+             if not has_content_indicators and not is_hike_desc:
                  is_trail = False
 
         if is_trail:

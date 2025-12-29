@@ -1,2 +1,6 @@
-1. add top 5-10 parks to admin_fetch_amenities.py - done
-2. Fix trails and reviews
+1. add top 5-10 parks to 
+- admin_fetch_amenities.py
+- fetch_rankings.py
+- 
+2. Fix trails and reviews - done
+3. add top 5-10 parks to fetch_rankings.py

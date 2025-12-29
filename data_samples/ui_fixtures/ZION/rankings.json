@@ -1,0 +1,242 @@
+[
+  {
+    "rank": 1,
+    "name": "Angels Landing Trail",
+    "url": "https://www.alltrails.com/trail/us/utah/angels-landing-trail",
+    "difficulty": "Strenuous",
+    "rating": 4.9,
+    "review_count": 37461
+  },
+  {
+    "rank": 2,
+    "name": "Scout Lookout via West Rim Trail",
+    "url": "https://www.alltrails.com/trail/us/utah/scout-lookout-trail",
+    "difficulty": "Hard",
+    "rating": 4.9,
+    "review_count": 17847
+  },
+  {
+    "rank": 3,
+    "name": "The Watchman Trail",
+    "url": "https://www.alltrails.com/trail/us/utah/the-watchman-trail",
+    "difficulty": "Moderate",
+    "rating": 4.7,
+    "review_count": 20721
+  },
+  {
+    "rank": 4,
+    "name": "Emerald Pools via Kayenta Trail",
+    "url": "https://www.alltrails.com/trail/us/utah/kayenta-trail-to-the-emerald-pools",
+    "difficulty": "Moderate",
+    "rating": 4.5,
+    "review_count": 6916
+  },
+  {
+    "rank": 5,
+    "name": "Floating Rock via Zion Narrows Riverside Walk",
+    "url": "https://www.alltrails.com/trail/us/utah/elephant-temple-via-riverside-walk",
+    "difficulty": "Moderate",
+    "rating": 4.9,
+    "review_count": 14730
+  },
+  {
+    "rank": 6,
+    "name": "The Zion Narrows Riverside Walk",
+    "url": "https://www.alltrails.com/trail/us/utah/the-zion-narrows-riverside-walk",
+    "difficulty": "Moderate",
+    "rating": 4.6,
+    "review_count": 14579
+  },
+  {
+    "rank": 7,
+    "name": "Zion Canyon Overlook Trail",
+    "url": "https://www.alltrails.com/trail/us/utah/canyon-overlook-trail",
+    "difficulty": "Easy",
+    "rating": 4.8,
+    "review_count": 14372
+  },
+  {
+    "rank": 8,
+    "name": "Emerald Pools Trail",
+    "url": "https://www.alltrails.com/trail/us/utah/emerald-pools-trail",
+    "difficulty": "Moderate",
+    "rating": 4.5,
+    "review_count": 6652
+  },
+  {
+    "rank": 9,
+    "name": "Emerald Pools and Zion Lodge via Kayenta Trail",
+    "url": "https://www.alltrails.com/trail/us/utah/kayenta-trail-to-the-emerald-pools-and-zion-lodge",
+    "difficulty": "Moderate",
+    "rating": 4.6,
+    "review_count": 7003
+  },
+  {
+    "rank": 10,
+    "name": "Zion Narrows Bottom Up to Big Springs",
+    "url": "https://www.alltrails.com/trail/us/utah/zion-narrows-trail-to-imlay-temple-and-big-spring",
+    "difficulty": "Hard",
+    "rating": 4.9,
+    "review_count": 6055
+  },
+  {
+    "rank": 11,
+    "name": "Angels Landing",
+    "url": "https://www.alltrails.com/poi/us/utah/angels-landing",
+    "difficulty": null,
+    "rating": null,
+    "review_count": null
+  },
+  {
+    "rank": 12,
+    "name": "Elephant Temple",
+    "url": "https://www.alltrails.com/poi/us/utah/elephant-temple",
+    "difficulty": null,
+    "rating": null,
+    "review_count": null
+  },
+  {
+    "rank": 13,
+    "name": "Virgin River",
+    "url": "https://www.alltrails.com/poi/us/utah/springdale/virgin-river",
+    "difficulty": null,
+    "rating": null,
+    "review_count": null
+  },
+  {
+    "rank": 14,
+    "name": "Observation Point",
+    "url": "https://www.alltrails.com/poi/us/utah/observation-point",
+    "difficulty": null,
+    "rating": null,
+    "review_count": null
+  },
+  {
+    "rank": 15,
+    "name": "Lower Pine Creek Waterfall",
+    "url": "https://www.alltrails.com/poi/us/utah/lower-pine-creek-waterfall",
+    "difficulty": null,
+    "rating": null,
+    "review_count": null
+  },
+  {
+    "rank": 16,
+    "name": "Middle Emerald Pool",
+    "url": "https://www.alltrails.com/poi/us/utah/springdale/middle-emerald-pool",
+    "difficulty": null,
+    "rating": null,
+    "review_count": null
+  },
+  {
+    "rank": 17,
+    "name": "Lower Emerald Pool",
+    "url": "https://www.alltrails.com/poi/us/utah/springdale/lower-emerald-pool",
+    "difficulty": null,
+    "rating": null,
+    "review_count": null
+  },
+  {
+    "rank": 18,
+    "name": "R4 - Bolted Rappel Anchor: 20ft",
+    "url": "https://www.alltrails.com/poi/us/utah/springdale/r4---bolted-rappel-anchor--20ft",
+    "difficulty": null,
+    "rating": null,
+    "review_count": null
+  },
+  {
+    "rank": 19,
+    "name": "The Subway",
+    "url": "https://www.alltrails.com/poi/us/utah/springdale/the-subway",
+    "difficulty": null,
+    "rating": null,
+    "review_count": null
+  },
+  {
+    "rank": 20,
+    "name": "Mystery Springs",
+    "url": "https://www.alltrails.com/poi/us/utah/springdale/mystery-springs",
+    "difficulty": null,
+    "rating": null,
+    "review_count": null
+  },
+  {
+    "rank": 21,
+    "name": "Watchman Overlook",
+    "url": "https://www.alltrails.com/poi/us/utah/springdale/watchman-overlook",
+    "difficulty": null,
+    "rating": null,
+    "review_count": null
+  },
+  {
+    "rank": 22,
+    "name": "Canyon Overlook",
+    "url": "https://www.alltrails.com/poi/us/utah/springdale/canyon-overlook",
+    "difficulty": null,
+    "rating": null,
+    "review_count": null
+  },
+  {
+    "rank": 23,
+    "name": "Double Arch Alcove",
+    "url": "https://www.alltrails.com/poi/us/utah/virgin/double-arch-alcove",
+    "difficulty": null,
+    "rating": null,
+    "review_count": null
+  },
+  {
+    "rank": 24,
+    "name": "View on the Patriarchs",
+    "url": "https://www.alltrails.com/poi/us/utah/springdale/view-on-the-patriarchs",
+    "difficulty": null,
+    "rating": null,
+    "review_count": null
+  },
+  {
+    "rank": 25,
+    "name": "Big Bend Viewpoint",
+    "url": "https://www.alltrails.com/poi/us/utah/springdale/big-bend-viewpoint",
+    "difficulty": null,
+    "rating": null,
+    "review_count": null
+  },
+  {
+    "rank": 26,
+    "name": "Kolob Arch Viewpoint",
+    "url": "https://www.alltrails.com/poi/us/utah/new-harmony/kolob-arch-viewpoint",
+    "difficulty": null,
+    "rating": null,
+    "review_count": null
+  },
+  {
+    "rank": 27,
+    "name": "Upper Emerald Pool",
+    "url": "https://www.alltrails.com/poi/us/utah/springdale/upper-emerald-pool",
+    "difficulty": null,
+    "rating": null,
+    "review_count": null
+  },
+  {
+    "rank": 28,
+    "name": "Zion Canyon",
+    "url": "https://www.alltrails.com/poi/us/utah/springdale/zion-canyon",
+    "difficulty": null,
+    "rating": null,
+    "review_count": null
+  },
+  {
+    "rank": 29,
+    "name": "Jolley Gulch",
+    "url": "https://www.alltrails.com/poi/us/utah/orderville/jolley-gulch",
+    "difficulty": null,
+    "rating": null,
+    "review_count": null
+  },
+  {
+    "rank": 30,
+    "name": "Pullout",
+    "url": "https://www.alltrails.com/poi/us/utah/springdale/pullout",
+    "difficulty": null,
+    "rating": null,
+    "review_count": null
+  }
+]

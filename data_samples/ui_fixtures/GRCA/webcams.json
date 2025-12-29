@@ -84,18 +84,6 @@
     ]
   },
   {
-    "id": "69E0162D-0ED1-F68A-6B52A11F95FD867B",
-    "title": "Bright Angel Trailhead View",
-    "description": "Verify that the time and date of the picture is current (upper right in the photo). IMPORTANT: At this time, Bright Angel Trail is open to Havasupai Gardens, and there is no access to Phantom Ranch, Bright Angel Campground, the Silver Bridge, or the North Kaibab Trail via the Bright Angel Trail. - This closure remains in effect through Sep. 30, 2025 (Reason: waterline construction). Drinking water stations at Mile-and-a-Half and Three-Mile Resthouses and Havasupai Gardens are on.",
-    "url": "https://www.nps.gov/media/webcam/view.htm?id=69E0162D-0ED1-F68A-6B52A11F95FD867B",
-    "imageUrl": null,
-    "isStreaming": false,
-    "status": "Active",
-    "relatedParks": [
-      "grca"
-    ]
-  },
-  {
     "id": "6A810B9D-FB9E-434B-2215EE8E8AB6D5B3",
     "title": "Live View From Kolb Studio",
     "description": "In this north-facing view, the Battleship is in the center, and Havasupai Gardens (formerly known as Indian Garden) is visible - lower right, 3000 feet (915 m) below. Kolb Studio was the family home and photography studio of the Kolb Brothers, pioneer photographers at Grand Canyon. Verify that the time and date of the picture is current (upper left in image) Camera is hosted by Grand Canyon Conservancy. The image updates every minute.",
@@ -124,6 +112,18 @@
     "title": "Yavapai Point \u2014 Looking NW",
     "description": "The view is from Yavapai Point on the South Rim of the park. The view refreshes every 15 minutes. Grand Canyon National Park's Air Quality Webcam offers a window into the current sights, weather, air quality and seasonal changes that the park is experiencing. Click on the photo and check the date to be sure the image is current. Additional weather and air quality information will be displayed on the same page.",
     "url": "https://www.nps.gov/subjects/air/webcams.htm?site=grca",
+    "imageUrl": null,
+    "isStreaming": false,
+    "status": "Active",
+    "relatedParks": [
+      "grca"
+    ]
+  },
+  {
+    "id": "69E0162D-0ED1-F68A-6B52A11F95FD867B",
+    "title": "Bright Angel Trailhead View",
+    "description": "Verify that the time and date of the picture is current (upper right in the photo). IMPORTANT: At this time, the Bright Angel Trail is open to the River Resthouse. The River Trail east of the River Resthouse to the South Kaibab Trail junction and the Silver Bridge remain closed through June 30, 2026. (Reason: waterline construction).",
+    "url": "https://www.nps.gov/media/webcam/view.htm?id=69E0162D-0ED1-F68A-6B52A11F95FD867B",
     "imageUrl": null,
     "isStreaming": false,
     "status": "Active",

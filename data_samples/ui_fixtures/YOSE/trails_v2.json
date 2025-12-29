@@ -1,5 +1,43 @@
 [
   {
+    "id": "92601B6A-4EC1-44B3-9741-8467F05C7407",
+    "name": "Big Trees Loop - Ecology of the Grove",
+    "description": "Think of the grove as a neighborhood, or ecosystem, where the resident plants and animals rely on each other to survive. Read this wayside exhibit to find out more about what roles mammals, birds, trees, snow, fire, and the sun play in this neighborhood.",
+    "location": {
+      "lat": 37.501613,
+      "lon": -119.610056
+    },
+    "images": [
+      {
+        "url": "https://www.nps.gov/common/uploads/cropped_image/61D4F7F2-0846-4F46-DB0A40B2104E6EFC.jpg",
+        "credit": "",
+        "altText": "Wayside exhibit along a fence with sequoias and people in background",
+        "title": "Big Trees - Ecology of a Grove (Stop 3)",
+        "description": "",
+        "caption": "Big Trees Loop - Ecology of a Grove (Stop 3)",
+        "crops": [
+          {
+            "aspectRatio": "1.78",
+            "url": "https://www.nps.gov/common/uploads/cropped_image/primary/61D4F7F2-0846-4F46-DB0A40B2104E6EFC.jpg"
+          },
+          {
+            "aspectRatio": "1.33",
+            "url": "https://www.nps.gov/common/uploads/cropped_image/secondary/61D4F7F2-0846-4F46-DB0A40B2104E6EFC.jpg"
+          }
+        ]
+      }
+    ],
+    "nps_url": "https://www.nps.gov/places/000/big-trees-loop-ecology-of-the-grove-stop-3.htm",
+    "difficulty": null,
+    "length_miles": null,
+    "elevation_gain_ft": null,
+    "route_type": "Loop",
+    "estimated_time_hours": null,
+    "is_wheelchair_accessible": false,
+    "is_kid_friendly": false,
+    "last_enriched": "2025-12-28T14:16:03.254331"
+  },
+  {
     "id": "F96A3DD5-1E76-4A5E-B0DE-93169C32471C",
     "name": "Big Trees Loop - Restore and Protect",
     "description": "In 1864 Abraham Lincoln paused during the Civil War to set aside the Mariposa Grove and Yosemite Valley as a protected state reserve \"for public use, resort, and recreation.\" Yosemite National Park was then established in 1890 and this grove incorporated into the park in 1906. Today, we value the quiet majesty of these giant sequoias and share a responsibility as park stewards to limit our impact on them.",
@@ -33,43 +71,9 @@
     "elevation_gain_ft": null,
     "route_type": "Loop",
     "estimated_time_hours": null,
-    "last_enriched": "2025-12-26T16:01:43.203777"
-  },
-  {
-    "id": "1C3B2590-C2AC-4149-9F29-FB70CEDBB50D",
-    "name": "Big Trees Loop - Stages of Life",
-    "description": "The slender young giant sequoias around you, distinguished by their foliage of round, overlapping scales, distinctive conical profiles, and soft, spongy bark, beat great odds in finding the right conditions to sprout toward maturity. Find out what the perfect conditions are that allow a seed to become a mature giant sequoia, on this wayside exhibit.",
-    "location": {
-      "lat": 37.501924,
-      "lon": -119.609622
-    },
-    "images": [
-      {
-        "url": "https://www.nps.gov/common/uploads/cropped_image/9D35F47F-09DC-2342-E439EF7A446E3E94.jpg",
-        "credit": "",
-        "altText": "Young sequoia trees in forest",
-        "title": "Big Trees - Stages of Life (Stop 6)",
-        "description": "",
-        "caption": "Big Trees Loop - Stages of Life (Stop 6)",
-        "crops": [
-          {
-            "aspectRatio": "1.78",
-            "url": "https://www.nps.gov/common/uploads/cropped_image/primary/9D35F47F-09DC-2342-E439EF7A446E3E94.jpg"
-          },
-          {
-            "aspectRatio": "1.33",
-            "url": "https://www.nps.gov/common/uploads/cropped_image/secondary/9D35F47F-09DC-2342-E439EF7A446E3E94.jpg"
-          }
-        ]
-      }
-    ],
-    "nps_url": "https://www.nps.gov/places/000/big-trees-loop-stages-of-life-stop-6.htm",
-    "difficulty": null,
-    "length_miles": null,
-    "elevation_gain_ft": null,
-    "route_type": "Loop",
-    "estimated_time_hours": null,
-    "last_enriched": "2025-12-26T16:02:04.048219"
+    "is_wheelchair_accessible": false,
+    "is_kid_friendly": false,
+    "last_enriched": "2025-12-28T14:16:54.620692"
   },
   {
     "id": "48DBCE46-16CA-4EB4-8496-CE0C70E8D7C1",
@@ -105,7 +109,9 @@
     "elevation_gain_ft": null,
     "route_type": "Loop",
     "estimated_time_hours": null,
-    "last_enriched": "2025-12-26T16:02:09.549085"
+    "is_wheelchair_accessible": false,
+    "is_kid_friendly": false,
+    "last_enriched": "2025-12-28T14:17:13.664529"
   },
   {
     "id": "6D04F583-962E-469D-9D7B-A7FC3A526978",
@@ -141,7 +147,9 @@
     "elevation_gain_ft": null,
     "route_type": "Loop",
     "estimated_time_hours": null,
-    "last_enriched": "2025-12-26T16:02:12.686708"
+    "is_wheelchair_accessible": false,
+    "is_kid_friendly": false,
+    "last_enriched": "2025-12-28T14:17:20.370447"
   },
   {
     "id": "6DF32715-91BB-4305-92CF-A17A72801F9E",
@@ -177,7 +185,9 @@
     "elevation_gain_ft": null,
     "route_type": "Out & Back",
     "estimated_time_hours": "20-30 minutes",
-    "last_enriched": "2025-12-26T16:02:39.863454"
+    "is_wheelchair_accessible": true,
+    "is_kid_friendly": true,
+    "last_enriched": "2025-12-28T14:17:49.455415"
   },
   {
     "id": "C51F3C63-C110-43C7-92FC-1F8EFD44228A",
@@ -208,12 +218,14 @@
       }
     ],
     "nps_url": "https://www.nps.gov/places/000/cathedral-lakes-trailhead.htm",
-    "difficulty": null,
+    "difficulty": "Moderate",
     "length_miles": 7.6,
     "elevation_gain_ft": 1000,
     "route_type": "Out & Back",
     "estimated_time_hours": "6-7 hours",
-    "last_enriched": "2025-12-26T16:02:46.644845"
+    "is_wheelchair_accessible": false,
+    "is_kid_friendly": false,
+    "last_enriched": "2025-12-28T14:17:55.272888"
   },
   {
     "id": "1F5F467E-498F-4DD0-A28B-20686E1758EF",
@@ -249,7 +261,9 @@
     "elevation_gain_ft": 2400,
     "route_type": "Out & Back",
     "estimated_time_hours": "5-7 hours",
-    "last_enriched": "2025-12-26T16:02:52.527824"
+    "is_wheelchair_accessible": false,
+    "is_kid_friendly": false,
+    "last_enriched": "2025-12-28T14:18:00.001340"
   },
   {
     "id": "13374ED7-ADF9-4A78-9DAF-546A346BFFC1",
@@ -285,7 +299,9 @@
     "elevation_gain_ft": 0,
     "route_type": "Loop",
     "estimated_time_hours": "20-30 minutes",
-    "last_enriched": "2025-12-26T16:02:55.789414"
+    "is_wheelchair_accessible": true,
+    "is_kid_friendly": true,
+    "last_enriched": "2025-12-28T14:18:03.880780"
   },
   {
     "id": "8056CA99-0BF6-4104-ACEF-7ACE4F2D4CC3",
@@ -316,12 +332,14 @@
       }
     ],
     "nps_url": "https://www.nps.gov/places/000/elizabeth-lake-trailhead.htm",
-    "difficulty": "Moderate",
+    "difficulty": "Strenuous",
     "length_miles": 4.8,
     "elevation_gain_ft": 1000,
     "route_type": "Out & Back",
     "estimated_time_hours": "4-6 hours",
-    "last_enriched": "2025-12-26T16:03:01.039782"
+    "is_wheelchair_accessible": false,
+    "is_kid_friendly": false,
+    "last_enriched": "2025-12-28T14:18:10.773315"
   },
   {
     "id": "48B7F32F-D66A-48C7-824E-B90B1C2B9893",
@@ -357,7 +375,9 @@
     "elevation_gain_ft": 3200,
     "route_type": "Out & Back",
     "estimated_time_hours": "6-8 hours",
-    "last_enriched": "2025-12-26T16:03:05.596394"
+    "is_wheelchair_accessible": false,
+    "is_kid_friendly": false,
+    "last_enriched": "2025-12-28T14:18:15.460025"
   },
   {
     "id": "8D6C9189-822E-4625-B05F-C96AF0DAC137",
@@ -393,7 +413,9 @@
     "elevation_gain_ft": 3200,
     "route_type": "Out & Back",
     "estimated_time_hours": "6-8 hours",
-    "last_enriched": "2025-12-26T16:03:10.519601"
+    "is_wheelchair_accessible": false,
+    "is_kid_friendly": false,
+    "last_enriched": "2025-12-28T14:18:19.357398"
   },
   {
     "id": "626369C6-2AAB-4D9F-9554-C9DDBD140857",
@@ -429,7 +451,38 @@
     "elevation_gain_ft": 500,
     "route_type": "Out & Back",
     "estimated_time_hours": "2-3 hours",
-    "last_enriched": "2025-12-26T16:03:16.778553"
+    "is_wheelchair_accessible": false,
+    "is_kid_friendly": false,
+    "last_enriched": "2025-12-28T14:18:25.225818"
+  },
+  {
+    "id": "99CA6738-45FF-40D3-A94A-31A854BDC40C",
+    "name": "Glacier Point Ski Hut",
+    "description": "View Yosemite Valley, Half Dome, and the Yosemite High Country from one of the most gorgeous and breathtaking sites in the Sierra Nevada region, from the Glacier Point Ski Hut.A 10.5-mile cross-country ski trip from Badger Pass Ski Area, on groomed terrain, will bring you to this rustic accommodation. Experienced cross-country skiers can do the entire round-trip in 4 to 5 hours, however, many guests like to explore Glacier Point longer and stay at Glacier Point Ski Hut overni",
+    "location": {
+      "lat": 37.728349,
+      "lon": -119.573522
+    },
+    "images": [
+      {
+        "url": "https://www.nps.gov/common/uploads/place/import/36406ac8-e003-49e6-862f-319eb8aa51b1_image_350.jpg",
+        "credit": "",
+        "altText": "Ski track in the snow lead toward a wooden building with stone accents. Tall pine trees rise behind the building and a snow covered mountainous landscape, featuring Half Dome, can be seen to the right.",
+        "title": "",
+        "description": "",
+        "caption": "Photo by Yosemite Hospitality",
+        "crops": []
+      }
+    ],
+    "nps_url": "https://www.nps.gov/places/000/glacier-point-ski-hut.htm",
+    "difficulty": null,
+    "length_miles": 10.5,
+    "elevation_gain_ft": null,
+    "route_type": "Out & Back",
+    "estimated_time_hours": "4-5 hours",
+    "is_wheelchair_accessible": false,
+    "is_kid_friendly": false,
+    "last_enriched": "2025-12-28T14:18:41.482956"
   },
   {
     "id": "CE7E3DB1-575F-45C5-9288-568FBFCEA90A",
@@ -465,7 +518,9 @@
     "elevation_gain_ft": 800,
     "route_type": "Out & Back",
     "estimated_time_hours": "6-8 hours",
-    "last_enriched": "2025-12-26T16:03:34.710021"
+    "is_wheelchair_accessible": false,
+    "is_kid_friendly": true,
+    "last_enriched": "2025-12-28T14:18:49.676845"
   },
   {
     "id": "E52A17A0-4EFC-4401-979E-6090295BF2A6",
@@ -490,9 +545,11 @@
     "difficulty": "Easy",
     "length_miles": 0.26,
     "elevation_gain_ft": null,
-    "route_type": "Out & Back",
+    "route_type": "Loop",
     "estimated_time_hours": "30-45 minutes",
-    "last_enriched": "2025-12-26T16:03:42.250384"
+    "is_wheelchair_accessible": true,
+    "is_kid_friendly": true,
+    "last_enriched": "2025-12-28T14:18:57.498661"
   },
   {
     "id": "FA7CE3DB-209D-423B-8257-E0D0F15432AB",
@@ -528,7 +585,9 @@
     "elevation_gain_ft": 390,
     "route_type": "Out & Back",
     "estimated_time_hours": "2-4 hours",
-    "last_enriched": "2025-12-26T16:03:48.877617"
+    "is_wheelchair_accessible": false,
+    "is_kid_friendly": false,
+    "last_enriched": "2025-12-28T14:19:02.437845"
   },
   {
     "id": "6C7AEA3E-6453-494D-B207-FBB6B932A331",
@@ -564,7 +623,9 @@
     "elevation_gain_ft": 680,
     "route_type": "Out & Back",
     "estimated_time_hours": "1 hour",
-    "last_enriched": "2025-12-26T16:03:58.909056"
+    "is_wheelchair_accessible": false,
+    "is_kid_friendly": false,
+    "last_enriched": "2025-12-28T14:19:18.737283"
   },
   {
     "id": "8599E14E-63F6-4666-BF62-B4A9AE0B258C",
@@ -595,12 +656,14 @@
       }
     ],
     "nps_url": "https://www.nps.gov/places/000/lembert-dome-and-dog-lake-trailhead.htm",
-    "difficulty": null,
+    "difficulty": "Moderate",
     "length_miles": 3.8,
     "elevation_gain_ft": 850,
     "route_type": "Out & Back",
     "estimated_time_hours": "3-4 hours",
-    "last_enriched": "2025-12-26T16:04:04.972582"
+    "is_wheelchair_accessible": false,
+    "is_kid_friendly": false,
+    "last_enriched": "2025-12-28T14:19:31.283313"
   },
   {
     "id": "C4FAE927-EBD3-49D4-AF45-ADF8233B2E52",
@@ -632,11 +695,17 @@
     ],
     "nps_url": "https://www.nps.gov/places/000/lower-yosemite-fall-tour-james-hutchings-stop-8.htm",
     "difficulty": "Strenuous",
-    "length_miles": 3.6,
+    "length_miles": 7.2,
     "elevation_gain_ft": 2700,
-    "route_type": null,
+    "route_type": "Out & Back",
     "estimated_time_hours": null,
-    "last_enriched": "2025-12-26T16:04:11.368062"
+    "is_wheelchair_accessible": false,
+    "is_kid_friendly": false,
+    "last_enriched": "2025-12-28T14:19:38.780102",
+    "popularity_rank": 5,
+    "alltrails_url": "https://www.alltrails.com/trail/us/california/lower-yosemite-falls-trail",
+    "alltrails_rating": 4.7,
+    "alltrails_review_count": 19011
   },
   {
     "id": "B1B4A158-95CE-4526-AE28-5916D7AF7547",
@@ -672,7 +741,13 @@
     "elevation_gain_ft": 50,
     "route_type": "Loop",
     "estimated_time_hours": "30 minutes",
-    "last_enriched": "2025-12-26T16:04:15.015156"
+    "is_wheelchair_accessible": true,
+    "is_kid_friendly": true,
+    "last_enriched": "2025-12-28T14:19:42.232749",
+    "popularity_rank": 5,
+    "alltrails_url": "https://www.alltrails.com/trail/us/california/lower-yosemite-falls-trail",
+    "alltrails_rating": 4.7,
+    "alltrails_review_count": 19011
   },
   {
     "id": "C3FEC70B-B87E-4F5D-8ECA-60E1B80324B0",
@@ -708,7 +783,9 @@
     "elevation_gain_ft": 200,
     "route_type": "Out & Back",
     "estimated_time_hours": "1-2 hours",
-    "last_enriched": "2025-12-26T16:04:20.941010"
+    "is_wheelchair_accessible": false,
+    "is_kid_friendly": true,
+    "last_enriched": "2025-12-28T14:19:46.496175"
   },
   {
     "id": "0A487FCB-66F1-4609-B1F1-E407D0757072",
@@ -744,7 +821,9 @@
     "elevation_gain_ft": 400,
     "route_type": "Out & Back",
     "estimated_time_hours": "2-3 hours",
-    "last_enriched": "2025-12-26T16:04:25.648772"
+    "is_wheelchair_accessible": false,
+    "is_kid_friendly": false,
+    "last_enriched": "2025-12-28T14:19:51.024938"
   },
   {
     "id": "B06EE003-6117-4C71-9042-5773C2664447",
@@ -777,10 +856,12 @@
     "nps_url": "https://www.nps.gov/places/000/lyell-canyon-trailhead.htm",
     "difficulty": "Easy",
     "length_miles": 3.0,
-    "elevation_gain_ft": null,
+    "elevation_gain_ft": 0,
     "route_type": "Out & Back",
     "estimated_time_hours": "1-2 hours",
-    "last_enriched": "2025-12-26T16:04:30.068910"
+    "is_wheelchair_accessible": false,
+    "is_kid_friendly": true,
+    "last_enriched": "2025-12-28T14:19:55.399034"
   },
   {
     "id": "D0C1B0C5-D944-46CC-B67B-AE327A230AEB",
@@ -814,9 +895,11 @@
     "difficulty": "Strenuous",
     "length_miles": 7.75,
     "elevation_gain_ft": 1200,
-    "route_type": "Out & Back",
-    "estimated_time_hours": "4-6 hours",
-    "last_enriched": "2025-12-26T16:04:42.982221"
+    "route_type": "Loop",
+    "estimated_time_hours": "1-6 hours",
+    "is_wheelchair_accessible": true,
+    "is_kid_friendly": true,
+    "last_enriched": "2025-12-28T14:20:08.340698"
   },
   {
     "id": "E97A321F-3926-47A0-8D17-DDB1E01C21D7",
@@ -852,7 +935,9 @@
     "elevation_gain_ft": 485,
     "route_type": "Out & Back",
     "estimated_time_hours": "1-2 hours",
-    "last_enriched": "2025-12-26T16:04:48.375600"
+    "is_wheelchair_accessible": false,
+    "is_kid_friendly": false,
+    "last_enriched": "2025-12-28T14:20:16.160625"
   },
   {
     "id": "B4CDC757-7247-4E76-B789-C2F7D4D3907E",
@@ -888,7 +973,9 @@
     "elevation_gain_ft": 150,
     "route_type": "Out & Back",
     "estimated_time_hours": "1-1.5 hours",
-    "last_enriched": "2025-12-26T16:04:55.296116"
+    "is_wheelchair_accessible": false,
+    "is_kid_friendly": true,
+    "last_enriched": "2025-12-28T14:20:23.641830"
   },
   {
     "id": "4CB7B15C-61E4-4647-9884-44496FAAF8CC",
@@ -924,7 +1011,9 @@
     "elevation_gain_ft": 520,
     "route_type": "Out & Back",
     "estimated_time_hours": "1.5-3 hours",
-    "last_enriched": "2025-12-26T16:04:59.667804"
+    "is_wheelchair_accessible": false,
+    "is_kid_friendly": false,
+    "last_enriched": "2025-12-28T14:20:29.084373"
   },
   {
     "id": "F72A0CDC-31C8-4027-8155-D2476FB85048",
@@ -960,7 +1049,13 @@
     "elevation_gain_ft": 100,
     "route_type": "Loop",
     "estimated_time_hours": "1-3 hours",
-    "last_enriched": "2025-12-26T16:05:05.868660"
+    "is_wheelchair_accessible": true,
+    "is_kid_friendly": true,
+    "last_enriched": "2025-12-28T14:20:35.865442",
+    "popularity_rank": 8,
+    "alltrails_url": "https://www.alltrails.com/trail/us/california/mirror-lake-loop--2",
+    "alltrails_rating": 4.6,
+    "alltrails_review_count": 6439
   },
   {
     "id": "F818A5B1-A9F9-4C3A-BC57-FB960E40B4C7",
@@ -996,7 +1091,13 @@
     "elevation_gain_ft": 2000,
     "route_type": "Loop",
     "estimated_time_hours": "4-5 hours",
-    "last_enriched": "2025-12-26T16:05:11.621621"
+    "is_wheelchair_accessible": false,
+    "is_kid_friendly": false,
+    "last_enriched": "2025-12-28T14:20:45.902449",
+    "popularity_rank": 6,
+    "alltrails_url": "https://www.alltrails.com/trail/us/california/vernal-falls-and-clark-point-via-mist-and-john-muir-loop",
+    "alltrails_rating": 4.8,
+    "alltrails_review_count": 9755
   },
   {
     "id": "0373584E-87EB-4986-A0AE-C69BF81C9043",
@@ -1032,7 +1133,9 @@
     "elevation_gain_ft": 900,
     "route_type": "Out & Back",
     "estimated_time_hours": "2-3 hours",
-    "last_enriched": "2025-12-26T16:05:17.655785"
+    "is_wheelchair_accessible": false,
+    "is_kid_friendly": false,
+    "last_enriched": "2025-12-28T14:20:53.567773"
   },
   {
     "id": "6C2131D7-1F46-4D0B-99EA-C53357BAFFBA",
@@ -1068,7 +1171,47 @@
     "elevation_gain_ft": 1000,
     "route_type": "Out & Back",
     "estimated_time_hours": "5-7 hours",
-    "last_enriched": "2025-12-26T16:05:23.274766"
+    "is_wheelchair_accessible": false,
+    "is_kid_friendly": false,
+    "last_enriched": "2025-12-28T14:20:58.896041"
+  },
+  {
+    "id": "0EA6B210-FF01-4A6D-9AB7-6CF5C94D18C9",
+    "name": "Olmsted Point",
+    "description": "Visit the vista famous for its picture postcard views of Half Dome, Tenaya Lake and Clouds Rest. Olmsted Point looks down on Yosemite Valley from the east - and from a very different angle. Though you might not immediately recognize Half Dome, it is one of the most prominent peaks you can see from Olmsted Point. Olmsted Point was named after famed landscape architects, Frederick Law Olmsted (best known for his design of New York's Central Park) and his son Frederick, Jr.",
+    "location": {
+      "lat": 37.810666501131024,
+      "lon": -119.48555089243825
+    },
+    "images": [
+      {
+        "url": "https://www.nps.gov/common/uploads/cropped_image/744AB63F-0147-CE6F-C292656038C9591D.jpg",
+        "credit": "",
+        "altText": "Bronze tactile model of the area with the same area shown behind the model at sunset",
+        "title": "Olmsted Point tactile model",
+        "description": "",
+        "caption": "Olmsted Point tactile model and scenic vista at sunset",
+        "crops": [
+          {
+            "aspectRatio": "1.78",
+            "url": "https://www.nps.gov/common/uploads/cropped_image/primary/744AB63F-0147-CE6F-C292656038C9591D.jpg"
+          },
+          {
+            "aspectRatio": "1.33",
+            "url": "https://www.nps.gov/common/uploads/cropped_image/secondary/744AB63F-0147-CE6F-C292656038C9591D.jpg"
+          }
+        ]
+      }
+    ],
+    "nps_url": "https://www.nps.gov/places/000/olmsted-point.htm",
+    "difficulty": "Easy",
+    "length_miles": 0.5,
+    "elevation_gain_ft": null,
+    "route_type": "Out & Back",
+    "estimated_time_hours": null,
+    "is_wheelchair_accessible": true,
+    "is_kid_friendly": true,
+    "last_enriched": "2025-12-28T14:21:04.872014"
   },
   {
     "id": "740078DA-7B9E-4E3E-AFE4-4448733C56BC",
@@ -1104,7 +1247,9 @@
     "elevation_gain_ft": 1500,
     "route_type": "Out & Back",
     "estimated_time_hours": "8-10 hours",
-    "last_enriched": "2025-12-26T16:05:28.613497"
+    "is_wheelchair_accessible": false,
+    "is_kid_friendly": false,
+    "last_enriched": "2025-12-28T14:21:10.771384"
   },
   {
     "id": "F98B5924-367F-4EB0-A7B5-11F9A051D979",
@@ -1140,7 +1285,47 @@
     "elevation_gain_ft": null,
     "route_type": "Loop",
     "estimated_time_hours": null,
-    "last_enriched": "2025-12-26T16:05:38.168514"
+    "is_wheelchair_accessible": false,
+    "is_kid_friendly": false,
+    "last_enriched": "2025-12-28T14:21:16.387149"
+  },
+  {
+    "id": "6170802B-AB0A-4D69-8647-AA1D5867D303",
+    "name": "Parsons Memorial Lodge",
+    "description": "Constructed in 1915, the Sierra Club commissioned the Parsons Memorial Lodge to serve as an early gathering place for the organization and a base from which club members could explore Tuolumne Meadows and the surrounding Sierra Nevada high country.",
+    "location": {
+      "lat": 37.87838495166808,
+      "lon": -119.36741402075222
+    },
+    "images": [
+      {
+        "url": "https://www.nps.gov/common/uploads/cropped_image/72BC4171-E1AB-45AE-799E1A88105428EB.jpeg",
+        "credit": "",
+        "altText": "A small, single-story building with thick stone walls, a low-angled roof, and arched doorway",
+        "title": "Parsons Memorial Lodge",
+        "description": "",
+        "caption": "Parsons Memorial Lodge",
+        "crops": [
+          {
+            "aspectRatio": "1.78",
+            "url": "https://www.nps.gov/common/uploads/cropped_image/primary/72BC4171-E1AB-45AE-799E1A88105428EB.jpeg"
+          },
+          {
+            "aspectRatio": "1.33",
+            "url": "https://www.nps.gov/common/uploads/cropped_image/secondary/72BC4171-E1AB-45AE-799E1A88105428EB.jpeg"
+          }
+        ]
+      }
+    ],
+    "nps_url": "https://www.nps.gov/places/000/parsons-memorial-lodge.htm",
+    "difficulty": "Easy",
+    "length_miles": 1.4,
+    "elevation_gain_ft": null,
+    "route_type": "Out & Back",
+    "estimated_time_hours": null,
+    "is_wheelchair_accessible": false,
+    "is_kid_friendly": true,
+    "last_enriched": "2025-12-28T14:21:36.404769"
   },
   {
     "id": "8BFE3A60-1982-479C-8849-AE361F05A0AA",
@@ -1176,7 +1361,9 @@
     "elevation_gain_ft": 1229,
     "route_type": "Out & Back",
     "estimated_time_hours": "3-4 hours",
-    "last_enriched": "2025-12-26T16:05:49.216639"
+    "is_wheelchair_accessible": false,
+    "is_kid_friendly": false,
+    "last_enriched": "2025-12-28T14:21:40.992452"
   },
   {
     "id": "6AF4D37E-8413-4679-88E3-564F8087BCAF",
@@ -1212,7 +1399,9 @@
     "elevation_gain_ft": 580,
     "route_type": "Out & Back",
     "estimated_time_hours": "5-7 hours",
-    "last_enriched": "2025-12-26T16:05:55.005130"
+    "is_wheelchair_accessible": false,
+    "is_kid_friendly": false,
+    "last_enriched": "2025-12-28T14:21:48.477113"
   },
   {
     "id": "31656BA1-8C15-4F68-850F-FF6F2A686A99",
@@ -1248,7 +1437,9 @@
     "elevation_gain_ft": 200,
     "route_type": "Out & Back",
     "estimated_time_hours": "1 hour",
-    "last_enriched": "2025-12-26T16:05:58.462727"
+    "is_wheelchair_accessible": false,
+    "is_kid_friendly": true,
+    "last_enriched": "2025-12-28T14:21:53.001235"
   },
   {
     "id": "D0E656B6-CDF6-4A51-B777-3D38B8EFF51B",
@@ -1280,11 +1471,17 @@
     ],
     "nps_url": "https://www.nps.gov/places/000/sentinel-dome-and-taft-point-trailhead.htm",
     "difficulty": "Moderate",
-    "length_miles": null,
-    "elevation_gain_ft": null,
+    "length_miles": 5.0,
+    "elevation_gain_ft": 600,
     "route_type": "Loop",
-    "estimated_time_hours": "1-4 hours",
-    "last_enriched": "2025-12-26T16:06:19.632831"
+    "estimated_time_hours": "3-4 hours",
+    "is_wheelchair_accessible": false,
+    "is_kid_friendly": false,
+    "last_enriched": "2025-12-28T14:22:20.975496",
+    "popularity_rank": 7,
+    "alltrails_url": "https://www.alltrails.com/trail/us/california/sentinel-dome-and-taft-point-loop",
+    "alltrails_rating": 4.9,
+    "alltrails_review_count": 6555
   },
   {
     "id": "762E9BC3-D1BF-447D-8CE4-A2ACDACE1D35",
@@ -1320,7 +1517,9 @@
     "elevation_gain_ft": 0,
     "route_type": "Out & Back",
     "estimated_time_hours": "1 hour",
-    "last_enriched": "2025-12-26T16:06:25.093150"
+    "is_wheelchair_accessible": false,
+    "is_kid_friendly": true,
+    "last_enriched": "2025-12-28T14:22:25.723485"
   },
   {
     "id": "0B9AD80C-43EA-4DB3-9999-21268B166F4F",
@@ -1356,7 +1555,9 @@
     "elevation_gain_ft": 1300,
     "route_type": "Out & Back",
     "estimated_time_hours": "6-8 hours",
-    "last_enriched": "2025-12-26T16:06:33.670312"
+    "is_wheelchair_accessible": false,
+    "is_kid_friendly": false,
+    "last_enriched": "2025-12-28T14:22:38.450481"
   },
   {
     "id": "BC8250C0-F1B5-4E12-9B8C-A5F59AE13909",
@@ -1392,7 +1593,47 @@
     "elevation_gain_ft": 500,
     "route_type": "Out & Back",
     "estimated_time_hours": "1-2 hours",
-    "last_enriched": "2025-12-26T16:06:42.080300"
+    "is_wheelchair_accessible": false,
+    "is_kid_friendly": true,
+    "last_enriched": "2025-12-28T14:22:53.656050"
+  },
+  {
+    "id": "344C8876-0381-4090-82E6-2105BAAF5E7B",
+    "name": "Tuolumne Meadows",
+    "description": "Visit one of the largest high-elevation meadows in the Sierra Nevada, Tuolumne Meadows, and see the Tuolumne River meandering quietly through its meadow channel against a backdrop of rugged mountain peaks and glacially carved domes. Tuolumne Meadows embodies the high-country of the Sierra Nevada, with its broad sub-alpine meadows and granite domes and peaks.",
+    "location": {
+      "lat": 37.87512240445319,
+      "lon": -119.36149931888548
+    },
+    "images": [
+      {
+        "url": "https://www.nps.gov/common/uploads/cropped_image/FB552C97-AC5D-F220-18E12D39F194E1A6.jpg",
+        "credit": "",
+        "altText": "View of alpine meadow and river in Tuolumne Meadows",
+        "title": "Tuolumne Meadows",
+        "description": "",
+        "caption": "Tuolumne Meadows",
+        "crops": [
+          {
+            "aspectRatio": "1.78",
+            "url": "https://www.nps.gov/common/uploads/cropped_image/primary/FB552C97-AC5D-F220-18E12D39F194E1A6.jpg"
+          },
+          {
+            "aspectRatio": "1.33",
+            "url": "https://www.nps.gov/common/uploads/cropped_image/secondary/FB552C97-AC5D-F220-18E12D39F194E1A6.jpg"
+          }
+        ]
+      }
+    ],
+    "nps_url": "https://www.nps.gov/places/000/tuolumne-meadows.htm",
+    "difficulty": "Easy",
+    "length_miles": null,
+    "elevation_gain_ft": null,
+    "route_type": null,
+    "estimated_time_hours": null,
+    "is_wheelchair_accessible": false,
+    "is_kid_friendly": true,
+    "last_enriched": "2025-12-28T14:23:01.096551"
   },
   {
     "id": "07DA404D-9D30-48B7-866D-EB5160FD74E3",
@@ -1428,7 +1669,13 @@
     "elevation_gain_ft": 2700,
     "route_type": "Out & Back",
     "estimated_time_hours": "6-8 hours",
-    "last_enriched": "2025-12-26T16:06:52.226548"
+    "is_wheelchair_accessible": false,
+    "is_kid_friendly": false,
+    "last_enriched": "2025-12-28T14:23:06.594082",
+    "popularity_rank": 2,
+    "alltrails_url": "https://www.alltrails.com/trail/us/california/upper-yosemite-falls-trail",
+    "alltrails_rating": 4.8,
+    "alltrails_review_count": 18210
   },
   {
     "id": "72BC1EF4-B2E6-4389-A4ED-75EAB0B2A812",
@@ -1464,7 +1711,9 @@
     "elevation_gain_ft": null,
     "route_type": "Out & Back",
     "estimated_time_hours": null,
-    "last_enriched": "2025-12-26T16:07:01.137348"
+    "is_wheelchair_accessible": true,
+    "is_kid_friendly": true,
+    "last_enriched": "2025-12-28T14:23:15.340055"
   },
   {
     "id": "EFF5A2CF-E263-40C4-B939-C893E895EA2C",
@@ -1499,8 +1748,10 @@
     "length_miles": 13.4,
     "elevation_gain_ft": 1909,
     "route_type": "Out & Back",
-    "estimated_time_hours": "2-8 hours",
-    "last_enriched": "2025-12-26T16:07:07.820345"
+    "estimated_time_hours": "6 to 8 hours",
+    "is_wheelchair_accessible": false,
+    "is_kid_friendly": false,
+    "last_enriched": "2025-12-28T14:23:25.716192"
   },
   {
     "id": "D924AC4F-C25E-4FD8-B74B-96E475B8E375",
@@ -1527,7 +1778,9 @@
     "elevation_gain_ft": null,
     "route_type": "Loop",
     "estimated_time_hours": "1.5 to 2 hours",
-    "last_enriched": "2025-12-26T16:07:13.684790"
+    "is_wheelchair_accessible": false,
+    "is_kid_friendly": false,
+    "last_enriched": "2025-12-28T14:23:44.414066"
   },
   {
     "id": "512130F4-A791-499C-B9EB-0DE0F6B76DAC",
@@ -1558,11 +1811,13 @@
       }
     ],
     "nps_url": "https://www.nps.gov/places/000/yosemite-creek-and-ten-lakes-trailhead.htm",
-    "difficulty": null,
+    "difficulty": "Strenuous",
     "length_miles": 12.6,
     "elevation_gain_ft": 2200,
     "route_type": "Out & Back",
     "estimated_time_hours": "7-9 hours",
-    "last_enriched": "2025-12-26T16:07:19.714242"
+    "is_wheelchair_accessible": false,
+    "is_kid_friendly": false,
+    "last_enriched": "2025-12-28T14:23:48.639798"
   }
 ]

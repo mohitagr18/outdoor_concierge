@@ -8,7 +8,7 @@
       "categoryid": "1",
       "category": "Regular Event",
       "eventid": "103563",
-      "date": "2025-12-27",
+      "date": "2025-12-28",
       "datestart": "2024-09-25",
       "dateend": "2026-01-27",
       "recurrencedatestart": "2024-09-25",
@@ -52,7 +52,6 @@
         }
       ],
       "dates": [
-        "2025-12-27",
         "2025-12-28",
         "2025-12-29",
         "2025-12-30",
@@ -109,7 +108,7 @@
       "categoryid": "1",
       "category": "Regular Event",
       "eventid": "103567",
-      "date": "2025-12-27",
+      "date": "2025-12-28",
       "datestart": "2024-09-25",
       "dateend": "2026-01-27",
       "recurrencedatestart": "2024-09-25",
@@ -153,7 +152,6 @@
         }
       ],
       "dates": [
-        "2025-12-27",
         "2025-12-28",
         "2025-12-29",
         "2025-12-30",
@@ -431,7 +429,7 @@
       "categoryid": "1",
       "category": "Regular Event",
       "eventid": "119964",
-      "date": "2025-12-27",
+      "date": "2025-12-28",
       "datestart": "2025-08-20",
       "dateend": "2026-01-27",
       "recurrencedatestart": "2025-08-20",
@@ -475,7 +473,6 @@
         }
       ],
       "dates": [
-        "2025-12-27",
         "2025-12-28",
         "2025-12-29",
         "2025-12-30",
@@ -532,7 +529,7 @@
       "categoryid": "1",
       "category": "Regular Event",
       "eventid": "122144",
-      "date": "2025-12-27",
+      "date": "2025-12-28",
       "datestart": "2025-09-24",
       "dateend": "2026-01-27",
       "recurrencedatestart": "2025-09-24",
@@ -577,7 +574,6 @@
         }
       ],
       "dates": [
-        "2025-12-27",
         "2025-12-28",
         "2025-12-29",
         "2025-12-30",
@@ -634,7 +630,7 @@
       "categoryid": "1",
       "category": "Regular Event",
       "eventid": "122143",
-      "date": "2025-12-27",
+      "date": "2025-12-31",
       "datestart": "2025-11-01",
       "dateend": "2026-01-27",
       "recurrencedatestart": "2025-11-01",
@@ -679,7 +675,6 @@
         }
       ],
       "dates": [
-        "2025-12-27",
         "2025-12-31",
         "2026-01-02",
         "2026-01-03",
@@ -717,7 +712,7 @@
       "categoryid": "1",
       "category": "Regular Event",
       "eventid": "123945",
-      "date": "2025-12-27",
+      "date": "2026-01-03",
       "datestart": "2025-11-26",
       "dateend": "2026-01-27",
       "recurrencedatestart": "2025-11-26",
@@ -760,7 +755,6 @@
         }
       ],
       "dates": [
-        "2025-12-27",
         "2026-01-03",
         "2026-01-10",
         "2026-01-17",

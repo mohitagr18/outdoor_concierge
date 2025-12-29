@@ -33,7 +33,13 @@
     "elevation_gain_ft": null,
     "route_type": "Out & Back",
     "estimated_time_hours": "30 minutes",
-    "last_enriched": "2025-12-26T16:07:30.825116"
+    "is_wheelchair_accessible": false,
+    "is_kid_friendly": true,
+    "last_enriched": "2025-12-28T16:56:04.626100",
+    "popularity_rank": 26,
+    "alltrails_url": "https://www.alltrails.com/poi/us/arizona/fredonia/Angel-s-Window",
+    "alltrails_rating": null,
+    "alltrails_review_count": null
   },
   {
     "id": "A5616A41-5C70-4666-ADD4-EEC5B071F566",
@@ -69,7 +75,9 @@
     "elevation_gain_ft": null,
     "route_type": "Point to Point",
     "estimated_time_hours": null,
-    "last_enriched": "2025-12-26T16:07:35.359614"
+    "is_wheelchair_accessible": false,
+    "is_kid_friendly": false,
+    "last_enriched": "2025-12-28T16:56:10.600315"
   },
   {
     "id": "ADEB6109-C66A-4551-A6FF-5F27A57EF04A",
@@ -105,7 +113,9 @@
     "elevation_gain_ft": null,
     "route_type": "Point to Point",
     "estimated_time_hours": "1 hour",
-    "last_enriched": "2025-12-26T16:07:45.074179"
+    "is_wheelchair_accessible": true,
+    "is_kid_friendly": true,
+    "last_enriched": "2025-12-28T16:56:24.176175"
   },
   {
     "id": "C2653346-9517-42C1-B516-872F5FE6FEA3",
@@ -141,7 +151,51 @@
     "elevation_gain_ft": null,
     "route_type": "Point to Point",
     "estimated_time_hours": "1 hour",
-    "last_enriched": "2025-12-26T16:07:51.211272"
+    "is_wheelchair_accessible": false,
+    "is_kid_friendly": true,
+    "last_enriched": "2025-12-28T16:56:33.901933"
+  },
+  {
+    "id": "BE2C8EE4-014B-4A5A-957D-023BA52CDC2E",
+    "name": "Bright Angel Point",
+    "description": "The North Rim developed area, including the lodge, visitor center, Bright Angel Point and campground are\u00a0CLOSED until further notice because of extensive damage\u00a0from the Dragon Bravo Wildfire.",
+    "location": {
+      "lat": 0.0,
+      "lon": 0.0
+    },
+    "images": [
+      {
+        "url": "https://www.nps.gov/common/uploads/cropped_image/3BE408E3-D343-DB46-1F5A325E41E06150.jpg",
+        "credit": "NPS photo",
+        "altText": "A partly cloudy sky casts shadows on the canyon landscape while sunlight highlights nearby cliffs.",
+        "title": "Bright Angel Point",
+        "description": "",
+        "caption": "A popular spot for sunset, the canyon's many ridges and peaks catch the light of the setting sun.",
+        "crops": [
+          {
+            "aspectRatio": "1.78",
+            "url": "https://www.nps.gov/common/uploads/cropped_image/primary/3BE408E3-D343-DB46-1F5A325E41E06150.jpg"
+          },
+          {
+            "aspectRatio": "1.33",
+            "url": "https://www.nps.gov/common/uploads/cropped_image/secondary/3BE408E3-D343-DB46-1F5A325E41E06150.jpg"
+          }
+        ]
+      }
+    ],
+    "nps_url": "https://www.nps.gov/places/000/bright-angel-point.htm",
+    "difficulty": "Easy",
+    "length_miles": 0.5,
+    "elevation_gain_ft": null,
+    "route_type": "Out & Back",
+    "estimated_time_hours": null,
+    "is_wheelchair_accessible": true,
+    "is_kid_friendly": true,
+    "last_enriched": "2025-12-28T16:56:41.537361",
+    "popularity_rank": 5,
+    "alltrails_url": "https://www.alltrails.com/trail/us/arizona/bright-angel-trail--11",
+    "alltrails_rating": 4.8,
+    "alltrails_review_count": 5163
   },
   {
     "id": "15BE1C79-D513-487D-A6DA-D33069E4200A",
@@ -177,7 +231,13 @@
     "elevation_gain_ft": null,
     "route_type": "Out & Back",
     "estimated_time_hours": "30 minutes",
-    "last_enriched": "2025-12-26T16:07:56.211312"
+    "is_wheelchair_accessible": true,
+    "is_kid_friendly": true,
+    "last_enriched": "2025-12-28T16:56:47.942449",
+    "popularity_rank": 5,
+    "alltrails_url": "https://www.alltrails.com/trail/us/arizona/bright-angel-trail--11",
+    "alltrails_rating": 4.8,
+    "alltrails_review_count": 5163
   },
   {
     "id": "3629411B-0891-4100-85FB-3D0906088B39",
@@ -210,10 +270,16 @@
     "nps_url": "https://www.nps.gov/places/000/bright-angel-trail.htm",
     "difficulty": "Strenuous",
     "length_miles": 12.0,
-    "elevation_gain_ft": 5000,
+    "elevation_gain_ft": 3080,
     "route_type": "Out & Back",
     "estimated_time_hours": "9-12 hours",
-    "last_enriched": "2025-12-26T16:08:07.264154"
+    "is_wheelchair_accessible": false,
+    "is_kid_friendly": false,
+    "last_enriched": "2025-12-28T16:56:55.554624",
+    "popularity_rank": 5,
+    "alltrails_url": "https://www.alltrails.com/trail/us/arizona/bright-angel-trail--11",
+    "alltrails_rating": 4.8,
+    "alltrails_review_count": 5163
   },
   {
     "id": "0D7C079B-4622-4AD2-B6A2-ACF185997079",
@@ -249,7 +315,13 @@
     "elevation_gain_ft": null,
     "route_type": null,
     "estimated_time_hours": null,
-    "last_enriched": "2025-12-26T16:08:16.435544"
+    "is_wheelchair_accessible": true,
+    "is_kid_friendly": false,
+    "last_enriched": "2025-12-28T16:57:11.377454",
+    "popularity_rank": 5,
+    "alltrails_url": "https://www.alltrails.com/trail/us/arizona/bright-angel-trail--11",
+    "alltrails_rating": 4.8,
+    "alltrails_review_count": 5163
   },
   {
     "id": "029CFC66-CE9C-4358-9BAE-B46B94300CE8",
@@ -285,7 +357,13 @@
     "elevation_gain_ft": null,
     "route_type": "Out & Back",
     "estimated_time_hours": null,
-    "last_enriched": "2025-12-26T16:08:21.516568"
+    "is_wheelchair_accessible": false,
+    "is_kid_friendly": false,
+    "last_enriched": "2025-12-28T16:57:18.372113",
+    "popularity_rank": 12,
+    "alltrails_url": "https://www.alltrails.com/poi/us/arizona/fredonia/cape-final",
+    "alltrails_rating": null,
+    "alltrails_review_count": null
   },
   {
     "id": "FC4816C2-C545-4422-8D02-617159D64F59",
@@ -321,7 +399,13 @@
     "elevation_gain_ft": 465,
     "route_type": "Out & Back",
     "estimated_time_hours": "2-4 hours",
-    "last_enriched": "2025-12-26T16:08:25.142511"
+    "is_wheelchair_accessible": false,
+    "is_kid_friendly": true,
+    "last_enriched": "2025-12-28T16:57:23.052584",
+    "popularity_rank": 12,
+    "alltrails_url": "https://www.alltrails.com/poi/us/arizona/fredonia/cape-final",
+    "alltrails_rating": null,
+    "alltrails_review_count": null
   },
   {
     "id": "E6F872D8-F659-4573-A1A4-57A931BB370A",
@@ -354,10 +438,16 @@
     "nps_url": "https://www.nps.gov/places/000/cape-royal.htm",
     "difficulty": "Easy",
     "length_miles": 0.8,
-    "elevation_gain_ft": null,
+    "elevation_gain_ft": 0,
     "route_type": "Out & Back",
     "estimated_time_hours": "1-2 hours",
-    "last_enriched": "2025-12-26T16:08:32.280508"
+    "is_wheelchair_accessible": true,
+    "is_kid_friendly": true,
+    "last_enriched": "2025-12-28T16:57:27.864068",
+    "popularity_rank": 11,
+    "alltrails_url": "https://www.alltrails.com/poi/us/arizona/fredonia/cape-royal",
+    "alltrails_rating": null,
+    "alltrails_review_count": null
   },
   {
     "id": "E8CAC456-C934-457D-A265-474F425A1079",
@@ -388,12 +478,14 @@
       }
     ],
     "nps_url": "https://www.nps.gov/places/cathedral-wash-at-lees-ferry.htm",
-    "difficulty": null,
+    "difficulty": "Moderate",
     "length_miles": 3.0,
     "elevation_gain_ft": null,
     "route_type": "Out & Back",
     "estimated_time_hours": null,
-    "last_enriched": "2025-12-26T16:08:41.100359"
+    "is_wheelchair_accessible": false,
+    "is_kid_friendly": false,
+    "last_enriched": "2025-12-28T16:57:41.212713"
   },
   {
     "id": "7084236C-2A76-4E0C-BFA5-9AF7F38B0FB9",
@@ -424,12 +516,18 @@
       }
     ],
     "nps_url": "https://www.nps.gov/places/000/cliff-spring-trail.htm",
-    "difficulty": null,
+    "difficulty": "Moderate",
     "length_miles": 1.0,
     "elevation_gain_ft": 300,
     "route_type": "Out & Back",
     "estimated_time_hours": "1-2 hours",
-    "last_enriched": "2025-12-26T16:08:45.461475"
+    "is_wheelchair_accessible": false,
+    "is_kid_friendly": true,
+    "last_enriched": "2025-12-28T16:57:48.977491",
+    "popularity_rank": 18,
+    "alltrails_url": "https://www.alltrails.com/poi/us/arizona/fredonia/cliff-spring",
+    "alltrails_rating": null,
+    "alltrails_review_count": null
   },
   {
     "id": "2CADBB90-0D63-4FF2-A865-AB335252DCCC",
@@ -465,7 +563,13 @@
     "elevation_gain_ft": null,
     "route_type": null,
     "estimated_time_hours": null,
-    "last_enriched": "2025-12-26T16:09:37.502865"
+    "is_wheelchair_accessible": false,
+    "is_kid_friendly": false,
+    "last_enriched": "2025-12-28T16:59:37.215431",
+    "popularity_rank": 23,
+    "alltrails_url": "https://www.alltrails.com/poi/us/arizona/fredonia/grandview-point",
+    "alltrails_rating": null,
+    "alltrails_review_count": null
   },
   {
     "id": "1EB057F1-9AFD-460F-906C-C8305066CBDD",
@@ -497,11 +601,17 @@
     ],
     "nps_url": "https://www.nps.gov/places/000/grandview-trail.htm",
     "difficulty": "Strenuous",
-    "length_miles": 2.2,
+    "length_miles": null,
     "elevation_gain_ft": null,
     "route_type": "Out & Back",
     "estimated_time_hours": null,
-    "last_enriched": "2025-12-26T16:09:46.386395"
+    "is_wheelchair_accessible": false,
+    "is_kid_friendly": false,
+    "last_enriched": "2025-12-28T16:59:44.329470",
+    "popularity_rank": 23,
+    "alltrails_url": "https://www.alltrails.com/poi/us/arizona/fredonia/grandview-point",
+    "alltrails_rating": null,
+    "alltrails_review_count": null
   },
   {
     "id": "49BF1BDF-AAA2-46B3-9D49-FAAF77C60BEF",
@@ -533,11 +643,13 @@
     ],
     "nps_url": "https://www.nps.gov/places/000/hermit-trail.htm",
     "difficulty": "Strenuous",
-    "length_miles": 9.7,
-    "elevation_gain_ft": 4340,
+    "length_miles": null,
+    "elevation_gain_ft": null,
     "route_type": "Out & Back",
     "estimated_time_hours": null,
-    "last_enriched": "2025-12-26T16:10:07.531045"
+    "is_wheelchair_accessible": false,
+    "is_kid_friendly": false,
+    "last_enriched": "2025-12-28T16:59:59.127051"
   },
   {
     "id": "E6489858-88D5-4FD8-A8CA-14944947608D",
@@ -568,12 +680,14 @@
       }
     ],
     "nps_url": "https://www.nps.gov/places/000/ken-patrick-trail-north-kaibab-trailhead.htm",
-    "difficulty": null,
+    "difficulty": "Strenuous",
     "length_miles": 9.8,
     "elevation_gain_ft": null,
     "route_type": "Point to Point",
     "estimated_time_hours": "6 hours",
-    "last_enriched": "2025-12-26T16:10:17.103414"
+    "is_wheelchair_accessible": false,
+    "is_kid_friendly": false,
+    "last_enriched": "2025-12-28T17:00:17.249304"
   },
   {
     "id": "6576E6F2-76A6-45D5-BB6B-8B763A231DEB",
@@ -609,7 +723,9 @@
     "elevation_gain_ft": null,
     "route_type": "Out & Back",
     "estimated_time_hours": "2-3 hours",
-    "last_enriched": "2025-12-26T16:10:22.753151"
+    "is_wheelchair_accessible": false,
+    "is_kid_friendly": false,
+    "last_enriched": "2025-12-28T17:00:25.762926"
   },
   {
     "id": "7187895C-47AD-4C26-912C-D8D95057A332",
@@ -645,7 +761,9 @@
     "elevation_gain_ft": 1120,
     "route_type": "Out & Back",
     "estimated_time_hours": "2-4 hours",
-    "last_enriched": "2025-12-26T16:10:43.733190"
+    "is_wheelchair_accessible": false,
+    "is_kid_friendly": false,
+    "last_enriched": "2025-12-28T17:01:05.038910"
   },
   {
     "id": "A77E1564-88C9-40F9-9A7F-093F8DF27BDF",
@@ -681,7 +799,51 @@
     "elevation_gain_ft": null,
     "route_type": "Point to Point",
     "estimated_time_hours": null,
-    "last_enriched": "2025-12-26T16:10:56.887071"
+    "is_wheelchair_accessible": false,
+    "is_kid_friendly": false,
+    "last_enriched": "2025-12-28T17:01:22.528489"
+  },
+  {
+    "id": "20194FA0-A287-4F90-A438-4BCFC700DDD6",
+    "name": "Pictograph Panel \u2014 Bright Angel Trail",
+    "description": "A short walk down the Bright Angel Trail gives an excellent introduction to the rich human history that is visible from this\u00a0path. Right after passing through the first, or upper tunnel, pause and look above the sloping cliff on\u00a0your left. Far above, you can see pictographs painted in red onto a band of rock beneath an overhanging ledge.\u00a0A pair of binoculars brings them in close and reveals some additional designs.",
+    "location": {
+      "lat": 36.057468,
+      "lon": -112.144174
+    },
+    "images": [
+      {
+        "url": "https://www.nps.gov/common/uploads/cropped_image/459BCC3D-FBFA-1831-5BC3700F796DF751.jpg",
+        "credit": "NPS",
+        "altText": "Under a limestone overhang, remnants of 6 deer in a row painted in red pigment a on rock wall.",
+        "title": "Pictograph Panel - Bright Angel Trail",
+        "description": "",
+        "caption": "Lookin up from Bright Angel Trail, a row of red pictograph deer are visible under an overhang.",
+        "crops": [
+          {
+            "aspectRatio": "1.78",
+            "url": "https://www.nps.gov/common/uploads/cropped_image/primary/459BCC3D-FBFA-1831-5BC3700F796DF751.jpg"
+          },
+          {
+            "aspectRatio": "1.33",
+            "url": "https://www.nps.gov/common/uploads/cropped_image/secondary/459BCC3D-FBFA-1831-5BC3700F796DF751.jpg"
+          }
+        ]
+      }
+    ],
+    "nps_url": "https://www.nps.gov/places/000/rock-art-panel.htm",
+    "difficulty": null,
+    "length_miles": null,
+    "elevation_gain_ft": null,
+    "route_type": "Out & Back",
+    "estimated_time_hours": null,
+    "is_wheelchair_accessible": false,
+    "is_kid_friendly": true,
+    "last_enriched": "2025-12-28T17:01:37.894342",
+    "popularity_rank": 5,
+    "alltrails_url": "https://www.alltrails.com/trail/us/arizona/bright-angel-trail--11",
+    "alltrails_rating": 4.8,
+    "alltrails_review_count": 5163
   },
   {
     "id": "801F4484-58F7-471C-860E-046355B69869",
@@ -717,7 +879,47 @@
     "elevation_gain_ft": null,
     "route_type": "Out & Back",
     "estimated_time_hours": "2 hours",
-    "last_enriched": "2025-12-26T16:11:22.406273"
+    "is_wheelchair_accessible": false,
+    "is_kid_friendly": false,
+    "last_enriched": "2025-12-28T17:02:35.358625"
+  },
+  {
+    "id": "86310E28-80D4-40E9-87BC-043CD8F92941",
+    "name": "Raptor Viewing Site (Yaki Point - South Rim)",
+    "description": "During the fall, large concentrations of migrating raptors fly through Grand Canyon on their migration routes through the 'Central Flyway'. Programs about raptor migration are not taking place during the government shutdown at Yaki Point on the South Rim. - (September 12, through November 3, 2025). Park at the Visitor Center and take the free Kaibab (Orange) Route bus to access Yaki Point. Parking is not available at the point.",
+    "location": {
+      "lat": 36.057189,
+      "lon": -112.083788
+    },
+    "images": [
+      {
+        "url": "https://www.nps.gov/common/uploads/cropped_image/B767D427-0224-0F5B-81F6CADFDC923DF6.jpg",
+        "credit": "NPS",
+        "altText": "Two volunteers from Hawkwatch International recline in chairs near the edge of the canyon",
+        "title": "HawkWatch International",
+        "description": "",
+        "caption": "Stop by the Hawk Watch site for an excellent view of the canyon and potential bird sightings",
+        "crops": [
+          {
+            "aspectRatio": "1.78",
+            "url": "https://www.nps.gov/common/uploads/cropped_image/primary/B767D427-0224-0F5B-81F6CADFDC923DF6.jpg"
+          },
+          {
+            "aspectRatio": "1.33",
+            "url": "https://www.nps.gov/common/uploads/cropped_image/secondary/B767D427-0224-0F5B-81F6CADFDC923DF6.jpg"
+          }
+        ]
+      }
+    ],
+    "nps_url": "https://www.nps.gov/places/000/hawkwatch-site.htm",
+    "difficulty": null,
+    "length_miles": null,
+    "elevation_gain_ft": null,
+    "route_type": "Out & Back",
+    "estimated_time_hours": null,
+    "is_wheelchair_accessible": false,
+    "is_kid_friendly": true,
+    "last_enriched": "2025-12-28T17:02:52.425909"
   },
   {
     "id": "CA0A44F0-62BB-4440-8FFC-A4A9166F7D29",
@@ -752,8 +954,56 @@
     "length_miles": 13.0,
     "elevation_gain_ft": null,
     "route_type": "Point to Point",
-    "estimated_time_hours": "5-7 hours",
-    "last_enriched": "2025-12-26T16:11:33.700858"
+    "estimated_time_hours": "3+ hours",
+    "is_wheelchair_accessible": true,
+    "is_kid_friendly": true,
+    "last_enriched": "2025-12-28T17:03:00.158297",
+    "popularity_rank": 8,
+    "alltrails_url": "https://www.alltrails.com/trail/us/arizona/grand-canyon-rim-mules-to-mather-point",
+    "alltrails_rating": 4.8,
+    "alltrails_review_count": 4686
+  },
+  {
+    "id": "E7877936-7FD6-4AC3-9B58-C4C423A26DC9",
+    "name": "Roosevelt Point",
+    "description": "The North Rim developed area is CLOSED until further notice because of extensive damage\u00a0from the Dragon Bravo Wildfire. Named in honor of the 26th President of the United States and his efforts to preserve the Grand Canyon, Roosevelt Point offers another spectacular view. Limited parking is available at this pullout on Cape Royal Road. To the left of a rock bearing the plaque, a short trail leads to an overlook. Here, a USGS medallion marks the end of the trail.",
+    "location": {
+      "lat": 0.0,
+      "lon": 0.0
+    },
+    "images": [
+      {
+        "url": "https://www.nps.gov/common/uploads/cropped_image/CB3243DF-EFA7-8C9E-6CDECF6F9B8986C3.jpg",
+        "credit": "",
+        "altText": "A small green hill overlooks a wide greenish valley bounded by the red cliffs of grand canyon.",
+        "title": "Roosevelt Point",
+        "description": "",
+        "caption": "Roosevelt Point overlooks Kwagunt Valley",
+        "crops": [
+          {
+            "aspectRatio": "1.78",
+            "url": "https://www.nps.gov/common/uploads/cropped_image/primary/CB3243DF-EFA7-8C9E-6CDECF6F9B8986C3.jpg"
+          },
+          {
+            "aspectRatio": "1.33",
+            "url": "https://www.nps.gov/common/uploads/cropped_image/secondary/CB3243DF-EFA7-8C9E-6CDECF6F9B8986C3.jpg"
+          }
+        ]
+      }
+    ],
+    "nps_url": "https://www.nps.gov/places/000/roosevelt-point.htm",
+    "difficulty": null,
+    "length_miles": null,
+    "elevation_gain_ft": null,
+    "route_type": null,
+    "estimated_time_hours": null,
+    "is_wheelchair_accessible": false,
+    "is_kid_friendly": true,
+    "last_enriched": "2025-12-28T17:03:16.075541",
+    "popularity_rank": 21,
+    "alltrails_url": "https://www.alltrails.com/poi/us/arizona/fredonia/roosevelt-point",
+    "alltrails_rating": null,
+    "alltrails_review_count": null
   },
   {
     "id": "471D6A07-1D02-4CDA-BBB9-49D477FE1FBA",
@@ -785,11 +1035,17 @@
     ],
     "nps_url": "https://www.nps.gov/places/000/south-kaibab-trail.htm",
     "difficulty": "Strenuous",
-    "length_miles": null,
-    "elevation_gain_ft": null,
+    "length_miles": 3.0,
+    "elevation_gain_ft": 1120,
     "route_type": "Out & Back",
-    "estimated_time_hours": "half a day or less",
-    "last_enriched": "2025-12-26T16:11:46.089115"
+    "estimated_time_hours": "2-4 hours",
+    "is_wheelchair_accessible": false,
+    "is_kid_friendly": false,
+    "last_enriched": "2025-12-28T17:03:23.142649",
+    "popularity_rank": 1,
+    "alltrails_url": "https://www.alltrails.com/trail/us/arizona/south-kaibab-trail-to-ooh-aah-point",
+    "alltrails_rating": 4.8,
+    "alltrails_review_count": 10354
   },
   {
     "id": "4D7FDAB7-11E5-48A1-8203-7F1CF27A832B",
@@ -825,7 +1081,9 @@
     "elevation_gain_ft": 4650,
     "route_type": "Out & Back",
     "estimated_time_hours": null,
-    "last_enriched": "2025-12-26T16:11:50.708290"
+    "is_wheelchair_accessible": false,
+    "is_kid_friendly": false,
+    "last_enriched": "2025-12-28T17:03:27.660281"
   },
   {
     "id": "C5610849-6827-4938-BB69-1950A47A44AB",
@@ -861,7 +1119,9 @@
     "elevation_gain_ft": null,
     "route_type": "Point to Point",
     "estimated_time_hours": "1 hour",
-    "last_enriched": "2025-12-26T16:11:55.350009"
+    "is_wheelchair_accessible": true,
+    "is_kid_friendly": true,
+    "last_enriched": "2025-12-28T17:03:32.015718"
   },
   {
     "id": "757CDCE5-7D96-4471-9A16-C9A7D22AF938",
@@ -897,7 +1157,9 @@
     "elevation_gain_ft": null,
     "route_type": "Point to Point",
     "estimated_time_hours": null,
-    "last_enriched": "2025-12-26T16:12:00.244407"
+    "is_wheelchair_accessible": true,
+    "is_kid_friendly": true,
+    "last_enriched": "2025-12-28T17:03:37.613478"
   },
   {
     "id": "F8E30E3A-260E-459D-A8A1-B4E900A478DA",
@@ -933,7 +1195,9 @@
     "elevation_gain_ft": 100,
     "route_type": "Point to Point",
     "estimated_time_hours": "1-2 hours",
-    "last_enriched": "2025-12-26T16:12:05.859946"
+    "is_wheelchair_accessible": false,
+    "is_kid_friendly": true,
+    "last_enriched": "2025-12-28T17:03:44.652564"
   },
   {
     "id": "DB8E6DF2-C4BF-40E6-BF61-50227619000A",
@@ -969,7 +1233,9 @@
     "elevation_gain_ft": 100,
     "route_type": "Point to Point",
     "estimated_time_hours": "1-2 hours",
-    "last_enriched": "2025-12-26T16:12:09.837116"
+    "is_wheelchair_accessible": false,
+    "is_kid_friendly": true,
+    "last_enriched": "2025-12-28T17:03:51.438812"
   },
   {
     "id": "310C198B-6C9B-486B-8D9E-4A80665C4C11",
@@ -1005,7 +1271,9 @@
     "elevation_gain_ft": null,
     "route_type": "Loop",
     "estimated_time_hours": null,
-    "last_enriched": "2025-12-26T16:12:14.002574"
+    "is_wheelchair_accessible": false,
+    "is_kid_friendly": true,
+    "last_enriched": "2025-12-28T17:03:56.413150"
   },
   {
     "id": "0D15591D-6A44-48B7-BE9F-D75E44233855",
@@ -1041,7 +1309,9 @@
     "elevation_gain_ft": 730,
     "route_type": "Loop",
     "estimated_time_hours": "3 hours",
-    "last_enriched": "2025-12-26T16:12:17.730255"
+    "is_wheelchair_accessible": false,
+    "is_kid_friendly": false,
+    "last_enriched": "2025-12-28T17:04:03.748292"
   },
   {
     "id": "891258FE-30E6-46F9-9A92-94FEAA312F61",
@@ -1077,6 +1347,8 @@
     "elevation_gain_ft": 1000,
     "route_type": "Out & Back",
     "estimated_time_hours": "4-6 hours",
-    "last_enriched": "2025-12-26T16:12:22.681996"
+    "is_wheelchair_accessible": false,
+    "is_kid_friendly": false,
+    "last_enriched": "2025-12-28T17:04:16.549346"
   }
 ]
