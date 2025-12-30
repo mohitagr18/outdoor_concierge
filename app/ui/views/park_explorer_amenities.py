@@ -13,19 +13,37 @@ def get_category_icon(category: str):
     elif "ev" in cat_lower or "charge" in cat_lower or "tesla" in cat_lower:
         return "green", "charging-station"
     elif "entrance" in cat_lower or "hub" in cat_lower:
-        return "black", "map-pin"
+        return "darkblue", "star"
     elif "food" in cat_lower or "restaurant" in cat_lower or "dining" in cat_lower:
         return "orange", "utensils"
     elif "lodging" in cat_lower or "hotel" in cat_lower or "motel" in cat_lower:
         return "purple", "bed"
     elif "camping" in cat_lower or "rv" in cat_lower:
         return "darkgreen", "campground" # darker green to distinguish from EV
-    elif "store" in cat_lower or "market" in cat_lower:
+    elif "store" in cat_lower or "market" in cat_lower or "supplies" in cat_lower:
         return "red", "shopping-cart"
     elif "hospital" in cat_lower or "urgent" in cat_lower or "clinic" in cat_lower or "medical" in cat_lower:
         return "darkred", "kit-medical"
     else:
         return "gray", "info-circle"
+
+# Emoji Map for Headers
+CATEGORY_EMOJIS = {
+    "gas": "⛽", "station": "⛽",
+    "ev": "🔌", "charge": "🔌",
+    "food": "🍽️", "restaurant": "🍽️",
+    "lodging": "🛏️", "hotel": "🛏️",
+    "store": "🛒", "supplies": "🛒", "market": "🛒",
+    "medical": "🏥", "hospital": "🏥",
+    "entrance": "🌟", "hub": "🌟"
+}
+
+def get_emoji(cat_name):
+    cat_lower = cat_name.lower()
+    for key, emoji in CATEGORY_EMOJIS.items():
+        if key in cat_lower:
+            return emoji
+    return "🔹"
 
 def render_amenities_dashboard(park_code: str, orchestrator):
     st.subheader(f"Services & Amenities near {park_code.upper()}")
@@ -62,9 +80,9 @@ def render_amenities_dashboard(park_code: str, orchestrator):
      <div style="position: fixed; 
      bottom: 50px; left: 50px; width: 170px; height: 230px; 
      border:2px solid grey; z-index:9999; font-size:14px;
-     background-color:white; opacity:0.9; padding: 10px; border-radius: 5px;">
+     background-color:white; opacity:0.9; padding: 10px; border-radius: 5px; color: black;">
      <b>Legend</b><br>
-     <i class="fa fa-map-pin" style="color:black"></i> &nbsp; Park Hub / Entrance<br>
+     <i class="fa fa-star" style="color:darkblue"></i> &nbsp; Park Hub / Entrance<br>
      <i class="fa fa-gas-pump" style="color:blue"></i> &nbsp; Gas<br>
      <i class="fa fa-charging-station" style="color:green"></i> &nbsp; EV Charging<br>
      <i class="fa fa-utensils" style="color:orange"></i> &nbsp; Food<br>
@@ -75,58 +93,68 @@ def render_amenities_dashboard(park_code: str, orchestrator):
      '''
     m.get_root().html.add_child(folium.Element(legend_html))
 
-    # PLOT POINTS
+    # PLOT POINTS - Group by CATEGORY now (User Request)
+    # We will collect markers per category across ALL hubs
+    category_markers = {} # { "Gas Station": [markers...], ... }
+
     for hub_name, categories in amenities_data.items():
-        fg = folium.FeatureGroup(name=hub_name)
-        
-        # 1. Plot the "Hub" itself (Approximate location based on first amenity)
-        # We try to find a representative location for the hub
-        hub_lat, hub_lon = None, None
-        
         for category, items in categories.items():
+            # Normalize Category Name for grouping (e.g. "Gas Station" vs "gas station")
+            # We use the raw category from data but might want to capitalize
+            cat_label = category.title()
+            # Special case for our injected entrance
+            if category == "Park Entrance":
+                cat_label = "🌟 Park Entrances"
+            else:
+                 # Add emoji for layer list
+                 emoji = get_emoji(category)
+                 cat_label = f"{emoji} {cat_label}"
+
+            if cat_label not in category_markers:
+                category_markers[cat_label] = []
+
             color, icon_name = get_category_icon(category)
             
             for item_data in items:
                 am = Amenity(**item_data) if isinstance(item_data, dict) else item_data
                 
                 if am.latitude and am.longitude:
-                    # Capture first valid coord as hub location if not set
-                    if not hub_lat:
-                        hub_lat, hub_lon = am.latitude, am.longitude
-
-                    # Fix Link
-                    gmaps_link = am.google_maps_url
-                    if not gmaps_link:
-                        search_query = f"{am.latitude},{am.longitude}"
-                        gmaps_link = f"https://www.google.com/maps/search/?api=1&query={search_query}"
+                    # Fix Link logic (same as before)
+                    if am.address and am.address.lower() != "n/a":
+                         import urllib.parse
+                         safe_address = urllib.parse.quote(am.address)
+                         gmaps_link = f"https://www.google.com/maps/search/?api=1&query={safe_address}"
+                    else:
+                         search_query = f"{am.latitude},{am.longitude}"
+                         gmaps_link = f"https://www.google.com/maps/search/?api=1&query={search_query}"
                     
-                    rating_str = f"{am.rating} ⭐ ({am.rating_count or 0})" if am.rating else "N/A"
+                    rating_str = f"{am.rating} ⭐ ({am.rating_count or 0} reviews)" if am.rating else "No ratings"
 
                     popup_html = f"""
-                    <div style="width:160px">
+                    <div style="width:180px">
                         <b>{am.name}</b><br>
+                        <span style="color:gray; font-size:12px">{am.address or ''}</span><br>
                         <span style="color:gray">{category}</span><br>
-                        Rating: {rating_str}<br>
+                        <span style="font-size:12px">{rating_str}</span><br>
                         <a href="{gmaps_link}" target="_blank">Open in Maps ↗</a>
                     </div>
                     """
                     
-                    folium.Marker(
+                    marker = folium.Marker(
                         [am.latitude, am.longitude],
-                        popup=folium.Popup(popup_html, max_width=200),
-                        tooltip=f"{am.name} ({category}) - {rating_str}",
+                        popup=folium.Popup(popup_html, max_width=220),
+                        tooltip=f"{am.name} - {rating_str}",
                         icon=folium.Icon(color=color, icon=icon_name, prefix='fa')
-                    ).add_to(fg)
-        
-        # Add explicit Hub Marker if we found coords
-        if hub_lat:
-            folium.Marker(
-                [hub_lat, hub_lon],
-                popup=f"<b>{hub_name}</b><br>Approximate Hub Center",
-                tooltip=hub_name,
-                icon=folium.Icon(color="black", icon="map-pin", prefix='fa')
-            ).add_to(fg)
+                    )
+                    category_markers[cat_label].append(marker)
 
+    # Sort categories to ensure distinct order (Entrances first, then alpha)
+    sorted_cats = sorted(category_markers.keys(), key=lambda x: (0 if "Entrance" in x else 1, x))
+
+    for cat_label in sorted_cats:
+        fg = folium.FeatureGroup(name=cat_label)
+        for marker in category_markers[cat_label]:
+            marker.add_to(fg)
         fg.add_to(m)
 
     folium.LayerControl().add_to(m)
@@ -135,16 +163,41 @@ def render_amenities_dashboard(park_code: str, orchestrator):
     # List View (Below)
     st.divider()
     st.markdown("### 📍 Service Details")
+    
+
+
     for hub_name, categories in amenities_data.items():
         with st.expander(f"**{hub_name}** List", expanded=False):
              cols = st.columns(3)
              for idx, (cat, items) in enumerate(categories.items()):
                  with cols[idx % 3]:
-                     st.markdown(f"**{cat}**")
+                     emoji = get_emoji(cat)
+                     # improved header styling
+                     st.markdown(f"#### {emoji} {cat}")
+                     
                      for item in items[:5]:
                          am = Amenity(**item) if isinstance(item, dict) else item
                          
-                         gmaps_link = am.google_maps_url or f"https://www.google.com/maps/search/?api=1&query={am.latitude},{am.longitude}"
-                         rating_display = f"{am.rating}⭐" if am.rating else ""
+                         if am.address and am.address.lower() != "n/a":
+                             import urllib.parse
+                             safe_address = urllib.parse.quote(am.address)
+                             gmaps_link = f"https://www.google.com/maps/search/?api=1&query={safe_address}"
+                         elif am.latitude and am.longitude:
+                             gmaps_link = f"https://www.google.com/maps/search/?api=1&query={am.latitude},{am.longitude}"
+                         else:
+                             gmaps_link = am.google_maps_url or "#"
+
+                         rating_display = f"{am.rating}⭐ ({am.rating_count or 0})" if am.rating else ""
+                         # Clean address display (no underscores/italics)
+                         addr_display = am.address if am.address and am.address != "N/A" else ""
                          
-                         st.markdown(f"- [{am.name}]({gmaps_link}) {rating_display}")
+                         # Format: Name (Link)
+                         # Rating (Count)
+                         # Address
+                         st.markdown(f"""
+                         <div style="margin-bottom: 12px; padding-bottom: 8px; border-bottom: 1px solid rgba(128, 128, 128, 0.2);">
+                             <a href="{gmaps_link}" target="_blank" style="font-weight:600; font-size:1.05em; text-decoration:none;">{am.name}</a><br>
+                             <span style="font-size:0.9em;">{rating_display}</span><br>
+                             <span style="font-size:0.85em; opacity: 0.8;">{addr_display}</span>
+                         </div>
+                         """, unsafe_allow_html=True)

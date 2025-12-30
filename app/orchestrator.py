@@ -63,7 +63,37 @@ class OutdoorConciergeOrchestrator:
                 }
             }
         """
-        logger.info(f"Loading cached amenities for {park_code}...")
+        if self.data_manager:
+            consolidated = self.data_manager.load_consolidated_amenities(park_code)
+            if consolidated and "hubs" in consolidated:
+                logger.debug(f"Loaded consolidated amenities for {park_code}")
+                results = {}
+                for hub_name, hub_data in consolidated["hubs"].items():
+                    # 1. Prepare Amenities
+                    amenities = hub_data.get("amenities", {})
+                    
+                    # 2. Inject Park Entrance (Hub Location)
+                    loc = hub_data.get("location", {})
+                    if "lat" in loc and "lon" in loc:
+                         if "Park Entrance" not in amenities:
+                             amenities["Park Entrance"] = []
+                         
+                         amenities["Park Entrance"].insert(0, {
+                            "name": hub_name,
+                            "type": "entrance",
+                            "address": "N/A",
+                            "latitude": loc["lat"],
+                            "longitude": loc["lon"],
+                            "rating": None,
+                            "rating_count": None,
+                            "google_maps_url": f"https://www.google.com/maps/search/?api=1&query={loc['lat']},{loc['lon']}"
+                         })
+                    
+                    results[hub_name] = amenities
+                return results
+
+        # Fallback to legacy mine_entrances logic if no consolidated file
+        logger.info(f"Loading cached amenities for {park_code} (FALLBACK)...")
         
         # 1. Fetch raw candidates (NPS Live or Cached - keeping live for now as it's cheap)
         places = self.nps.get_places(park_code)
@@ -79,6 +109,7 @@ class OutdoorConciergeOrchestrator:
         results = {}
         for ent in entrances:
             name = ent["name"]
+            
             # READ ONLY operation
             data = self.data_manager.load_amenities(park_code, name) or {}
             

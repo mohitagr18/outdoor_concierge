@@ -70,3 +70,19 @@ class DataManager:
             logger.info(f"Saved cache: {filepath}")
         except Exception as e:
             logger.error(f"Failed to write cache {filepath}: {e}")
+
+    def load_consolidated_amenities(self, park_code: str) -> Optional[Dict[str, Any]]:
+        """
+        Loads the 'amenities_consolidated.json' file for the park.
+        Returns the raw dict structure if consistent, else None.
+        """
+        filepath = os.path.join(self._get_park_dir(park_code), "amenities_consolidated.json")
+        if not os.path.exists(filepath):
+            return None
+        
+        try:
+            with open(filepath, 'r') as f:
+                return json.load(f)
+        except Exception as e:
+            logger.error(f"Failed to load consolidated amenities: {e}")
+            return None
