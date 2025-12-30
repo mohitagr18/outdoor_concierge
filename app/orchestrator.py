@@ -80,15 +80,29 @@ class OutdoorConciergeOrchestrator:
         for ent in entrances:
             name = ent["name"]
             # READ ONLY operation
-            data = self.data_manager.load_amenities(park_code, name)
+            data = self.data_manager.load_amenities(park_code, name) or {}
             
-            # Only include if data exists (or return empty dict if you want to show the pin anyway)
-            if data:
-                results[name] = data
-            else:
-                # Optional: Log warning that we have a hub but no data
-                logger.debug(f"No amenity data found for hub: {name}")
-                
+            # ALWAYS inject the Entrance itself as an amenity so it appears on map/list
+            # Use a special category "Park Entrance"
+            if "Park Entrance" not in data:
+                data["Park Entrance"] = []
+            
+            # Check if we already have it (unlikely if empty) or just append
+            # Create Amenity for the Hub itself
+            hub_amenity = {
+                "name": name,
+                "type": "entrance",
+                "address": "N/A",
+                "latitude": ent["lat"],
+                "longitude": ent["lon"],
+                "rating": None,
+                "rating_count": None,
+                "google_maps_url": f"https://www.google.com/maps/search/?api=1&query={ent['lat']},{ent['lon']}"
+            }
+            data["Park Entrance"].insert(0, hub_amenity)
+
+            results[name] = data
+
         return results
 
     def handle_query(self, request: OrchestratorRequest) -> OrchestratorResponse:

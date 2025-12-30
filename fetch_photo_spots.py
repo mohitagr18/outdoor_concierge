@@ -37,10 +37,11 @@ PARK_NAME_MAP = {
 
 class PhotoSpot(BaseModel):
     name: str
-    best_time: str # e.g. "Sunset", "Sunrise", "Late Afternoon"
-    tips: str      # Specific photography advice (lens choice, composition, etc.)
-    latitude: Optional[float] = None
-    longitude: Optional[float] = None
+    parkCode: Optional[str] = None
+    description: str
+    best_time_of_day: List[str] # e.g. ["Sunset", "Sunrise"]
+    tips: List[str]      # Specific photography advice
+    image_url: Optional[str] = None
 
 class PhotoGuide(BaseModel):
     spots: List[PhotoSpot]
@@ -113,8 +114,9 @@ def fetch_and_extract_spots():
                 Extract the top 10 best photography spots from this blog post about {park_name}.
                 For each spot, identify:
                 1. Name (exact location name)
-                2. Best Time (Sunrise, Sunset, Milky Way, Mid-day, etc.)
-                3. Specific Photography Tips (lenses, composition, crowds, etc.)
+                2. Description (short summary of why it's a good spot)
+                3. Best Time of Day (as a list, e.g. ["Sunrise", "Sunset", "Milky Way"])
+                4. Specific Photography Tips (as a list of tips)
                 
                 Markdown Content (truncated):
                 {md[:40000]}
@@ -133,7 +135,9 @@ def fetch_and_extract_spots():
                     for spot in guide.spots:
                         # Simple deduplication by name
                         if spot.name.lower() not in seen_names:
-                            all_spots.append(spot.model_dump())
+                            spot_data = spot.model_dump()
+                            spot_data['parkCode'] = PARK_CODE.lower()
+                            all_spots.append(spot_data)
                             seen_names.add(spot.name.lower())
                     
                     # If we got a decent number of spots, we can stop
@@ -158,7 +162,8 @@ def fetch_and_extract_spots():
         # Preview
         print("\n--- Top Photo Spots ---")
         for s in all_spots[:5]:
-            print(f"📸 {s['name']} ({s['best_time']})")
+            times = ", ".join(s.get('best_time_of_day', []))
+            print(f"📸 {s['name']} ({times})")
     else:
         print("\n❌ Failed to extract any photo spots.")
 

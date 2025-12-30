@@ -2,9 +2,10 @@
 python-dotenv==1.0.1
 pydantic>=2.0.0
 requests==2.32.3
+streamlit>=1.30.0
+plotly>=5.18.0
 
 # AI & LLM Clients
-# REMOVED: google-generativeai (deprecated)
 google-genai>=1.0.0
 openai>=1.50.0
 
@@ -15,3 +16,7 @@ firecrawl-py==4.12.0
 # Dev & Testing
 ipython==8.28.0
 pytest>=7.0.0
+
+# Maps and Plotting
+folium>=0.14.0
+streamlit-folium>=0.15.0

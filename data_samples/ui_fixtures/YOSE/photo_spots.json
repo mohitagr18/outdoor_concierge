@@ -1,0 +1,141 @@
+[
+  {
+    "name": "Tunnel View",
+    "parkCode": "yose",
+    "description": "One of the best viewpoints in Yosemite requiring no hiking, providing iconic views of the valley and its granite peaks.",
+    "best_time_of_day": [
+      "Sunrise",
+      "Sunset"
+    ],
+    "tips": [
+      "Expect the viewpoint to be busy throughout the day",
+      "Arrive at least 30 minutes before sunrise or sunset",
+      "A 35mm lens is effective for capturing the perspective of the valley"
+    ],
+    "image_url": null
+  },
+  {
+    "name": "Glacier Point Road",
+    "parkCode": "yose",
+    "description": "The stretch of road just before the parking lot that offers a dramatic curve with Half Dome as the backdrop.",
+    "best_time_of_day": [
+      "Sunrise"
+    ],
+    "tips": [
+      "Park at the lot and hike back up the road to the curve for the best angle",
+      "Use a telephoto lens (around 90mm-100mm) for better compression of Half Dome",
+      "Be careful of vehicles when standing on or near the road"
+    ],
+    "image_url": null
+  },
+  {
+    "name": "Glacier Point",
+    "parkCode": "yose",
+    "description": "An extremely accessible spot that provides a wide panorama and a direct view of Half Dome from the historic hut.",
+    "best_time_of_day": [
+      "Sunrise"
+    ],
+    "tips": [
+      "Walk to the little hut for the most framed and famous view",
+      "Prepare for crowds even at sunrise",
+      "Find unique rock formations along the path to use as foreground"
+    ],
+    "image_url": null
+  },
+  {
+    "name": "Taft Point",
+    "parkCode": "yose",
+    "description": "Known for its dramatic and scary rock edges that overlook the valley floor from a high elevation.",
+    "best_time_of_day": [
+      "Sunset",
+      "Blue Hour"
+    ],
+    "tips": [
+      "Plan for a 2.3-mile return hike to reach the point",
+      "Be extremely careful near the rock edges as drop-offs are steep and unguarded",
+      "Bring a headlamp for the hike back through the woods in the dark"
+    ],
+    "image_url": null
+  },
+  {
+    "name": "Superintendent\u2019s Bridge",
+    "parkCode": "yose",
+    "description": "A bridge over the Merced River that serves as both a swimming hole and a great spot for action photography.",
+    "best_time_of_day": [
+      "Middle of the day"
+    ],
+    "tips": [
+      "Use a fast shutter speed to capture people jumping into the water",
+      "Perfect spot for mid-day lifestyle and swimming shots"
+    ],
+    "image_url": null
+  },
+  {
+    "name": "Cook Meadows Boardwalk",
+    "parkCode": "yose",
+    "description": "A scenic boardwalk loop in Yosemite Valley offering flat perspectives of the meadows and cliffs.",
+    "best_time_of_day": [
+      "Sunset"
+    ],
+    "tips": [
+      "Parking is available right next to the boardwalk for quick access",
+      "Great for walking shots or capturing the valley floor architecture"
+    ],
+    "image_url": null
+  },
+  {
+    "name": "Sentinel Bridge Parking Area Meadows",
+    "parkCode": "yose",
+    "description": "A meadow location near the parking area that offers a clear and beautiful view of Yosemite Falls.",
+    "best_time_of_day": [
+      "Sunset",
+      "Golden Hour"
+    ],
+    "tips": [
+      "Position your subject in the meadow with the falls directly behind them",
+      "Wide-angle lenses work well here to capture the scale of the falls"
+    ],
+    "image_url": null
+  },
+  {
+    "name": "Mirror Lake",
+    "parkCode": "yose",
+    "description": "A popular spot for capturing the still reflections of the surrounding granite walls in the water.",
+    "best_time_of_day": [
+      "Sunrise",
+      "Morning"
+    ],
+    "tips": [
+      "Visit in late Spring or early Summer when the lake is actually full of water",
+      "The water is often most still in the early morning"
+    ],
+    "image_url": null
+  },
+  {
+    "name": "Eagle Peak",
+    "parkCode": "yose",
+    "description": "A high vantage point offering sweeping panoramic views across Yosemite National Park.",
+    "best_time_of_day": [
+      "Sunset"
+    ],
+    "tips": [
+      "This location requires a significant hike, so plan your time accordingly",
+      "Bring plenty of snacks and water for the trek"
+    ],
+    "image_url": null
+  },
+  {
+    "name": "Vernal Falls",
+    "parkCode": "yose",
+    "description": "One of the park's most iconic waterfalls, famous for its powerful flow and mist.",
+    "best_time_of_day": [
+      "Spring",
+      "Early Summer"
+    ],
+    "tips": [
+      "Expect to get wet from the mist; protect your camera gear with a cover",
+      "Look for rainbows created by the sun hitting the mist in the afternoon"
+    ],
+    "image_url": null
+  }
+]

@@ -1,72 +1,112 @@
 [
   {
     "name": "Big Springs",
-    "best_time": "June / Summer",
-    "tips": "Expect a brutal 10.5 mile round trip hike with 4.5 miles of river walking and deep water; it is the top of the bottom-up route in the Narrows.",
-    "latitude": null,
-    "longitude": null
+    "parkCode": "zion",
+    "description": "Expect a brutal 10.5 mile round trip hike with 4.5 miles of river walking and deep water; it is the top of the bottom-up route in the Narrows.",
+    "best_time_of_day": [
+      "June / Summer"
+    ],
+    "tips": [
+      "Expect a brutal 10.5 mile round trip hike with 4.5 miles of river walking and deep water; it is the top of the bottom-up route in the Narrows."
+    ]
   },
   {
     "name": "West Temple",
-    "best_time": "Sunrise",
-    "tips": "One of the few peaks that catches the absolute first light of the morning.",
-    "latitude": null,
-    "longitude": null
+    "parkCode": "zion",
+    "description": "One of the few peaks that catches the absolute first light of the morning.",
+    "best_time_of_day": [
+      "Sunrise"
+    ],
+    "tips": [
+      "One of the few peaks that catches the absolute first light of the morning."
+    ]
   },
   {
     "name": "East Temple",
-    "best_time": "Sunrise and Sunset",
-    "tips": "A unique location that catches direct light at both the beginning and the end of the day.",
-    "latitude": null,
-    "longitude": null
+    "parkCode": "zion",
+    "description": "A unique location that catches direct light at both the beginning and the end of the day.",
+    "best_time_of_day": [
+      "Sunrise and Sunset"
+    ],
+    "tips": [
+      "A unique location that catches direct light at both the beginning and the end of the day."
+    ]
   },
   {
     "name": "The Watchman",
-    "best_time": "Sunrise and Sunset",
-    "tips": "The tip catches sunrise light while the face catches sunset light; beginner-friendly compositions are available via the Watchman Trail.",
-    "latitude": null,
-    "longitude": null
+    "parkCode": "zion",
+    "description": "The tip catches sunrise light while the face catches sunset light; beginner-friendly compositions are available via the Watchman Trail.",
+    "best_time_of_day": [
+      "Sunrise and Sunset"
+    ],
+    "tips": [
+      "The tip catches sunrise light while the face catches sunset light; beginner-friendly compositions are available via the Watchman Trail."
+    ]
   },
   {
     "name": "Bridge Mountain",
-    "best_time": "Sunset",
-    "tips": "Catches direct light at sunset; the backside can also catch light during sunrise.",
-    "latitude": null,
-    "longitude": null
+    "parkCode": "zion",
+    "description": "Catches direct light at sunset; the backside can also catch light during sunrise.",
+    "best_time_of_day": [
+      "Sunset"
+    ],
+    "tips": [
+      "Catches direct light at sunset; the backside can also catch light during sunrise."
+    ]
   },
   {
     "name": "Court of the Patriarchs",
-    "best_time": "Sunrise",
-    "tips": "Does not catch the absolute first light, but glows shortly after the initial sunrise.",
-    "latitude": null,
-    "longitude": null
+    "parkCode": "zion",
+    "description": "Does not catch the absolute first light, but glows shortly after the initial sunrise.",
+    "best_time_of_day": [
+      "Sunrise"
+    ],
+    "tips": [
+      "Does not catch the absolute first light, but glows shortly after the initial sunrise."
+    ]
   },
   {
     "name": "Mt. Kinesava",
-    "best_time": "Sunset",
-    "tips": "Located near the south entrance of the park, this peak is one of the primary features to catch late-day light.",
-    "latitude": null,
-    "longitude": null
+    "parkCode": "zion",
+    "description": "Located near the south entrance of the park, this peak is one of the primary features to catch late-day light.",
+    "best_time_of_day": [
+      "Sunset"
+    ],
+    "tips": [
+      "Located near the south entrance of the park, this peak is one of the primary features to catch late-day light."
+    ]
   },
   {
     "name": "Pa'rus Trail",
-    "best_time": "Sunrise or Sunset",
-    "tips": "Ideal for beginners as the compositions are less chaotic near the mouth of the canyon compared to deeper sections.",
-    "latitude": null,
-    "longitude": null
+    "parkCode": "zion",
+    "description": "Ideal for beginners as the compositions are less chaotic near the mouth of the canyon compared to deeper sections.",
+    "best_time_of_day": [
+      "Sunrise or Sunset"
+    ],
+    "tips": [
+      "Ideal for beginners as the compositions are less chaotic near the mouth of the canyon compared to deeper sections."
+    ]
   },
   {
     "name": "The Narrows",
-    "best_time": "June",
-    "tips": "The driest month is best for deep canyons; focus on working with bounce light and the details of the canyon walls.",
-    "latitude": null,
-    "longitude": null
+    "parkCode": "zion",
+    "description": "The driest month is best for deep canyons; focus on working with bounce light and the details of the canyon walls.",
+    "best_time_of_day": [
+      "June"
+    ],
+    "tips": [
+      "The driest month is best for deep canyons; focus on working with bounce light and the details of the canyon walls."
+    ]
   },
   {
     "name": "Great White Throne",
-    "best_time": "Fall (Early November)",
-    "tips": "Look for maple trees at the bottom of the canyon to frame the illuminated white peak for a classic Zion composition.",
-    "latitude": null,
-    "longitude": null
+    "parkCode": "zion",
+    "description": "Look for maple trees at the bottom of the canyon to frame the illuminated white peak for a classic Zion composition.",
+    "best_time_of_day": [
+      "Fall (Early November)"
+    ],
+    "tips": [
+      "Look for maple trees at the bottom of the canyon to frame the illuminated white peak for a classic Zion composition."
+    ]
   }
 ]
