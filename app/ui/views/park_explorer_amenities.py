@@ -23,29 +23,28 @@ def get_category_icon(category: str):
     elif "store" in cat_lower or "market" in cat_lower or "supplies" in cat_lower:
         return "red", "shopping-cart"
     elif "hospital" in cat_lower or "urgent" in cat_lower or "clinic" in cat_lower or "medical" in cat_lower:
-        return "darkred", "kit-medical"
+        return "darkred", "medkit"
     else:
         return "gray", "info-circle"
 
-# Emoji Map for Headers
-CATEGORY_EMOJIS = {
-    "gas": "⛽", "station": "⛽",
-    "ev": "🔌", "charge": "🔌",
-    "food": "🍽️", "restaurant": "🍽️",
-    "lodging": "🛏️", "hotel": "🛏️",
-    "store": "🛒", "supplies": "🛒", "market": "🛒",
-    "medical": "🏥", "hospital": "🏥",
-    "entrance": "🌟", "hub": "🌟"
-}
-
-def get_emoji(cat_name):
-    cat_lower = cat_name.lower()
-    for key, emoji in CATEGORY_EMOJIS.items():
-        if key in cat_lower:
-            return emoji
-    return "🔹"
+# Helper to generate consistent HTML labels (Icon + Text)
+def get_category_html_label(category: str):
+    cat_title = category.title()
+    if category == "Park Entrance":
+        cat_title = "Park Hub / Entrance"
+    
+    color, icon = get_category_icon(category)
+    # Convert 'darkblue' etc to valid CSS colors if needed, 
+    # but strictly following the user's "keep icons from legend" request.
+    # The legend used "color:blue" etc. 
+    # Folium colors (blue, red) map reasonably well to CSS named colors.
+    
+    return f'<i class="fa fa-{icon}" style="color:{color}"></i> &nbsp; {cat_title}'
 
 def render_amenities_dashboard(park_code: str, orchestrator):
+    # INJECT FONTAWESOME for List View Icons
+    st.markdown('<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">', unsafe_allow_html=True)
+    
     st.subheader(f"Services & Amenities near {park_code.upper()}")
     
     if not orchestrator:
@@ -75,40 +74,14 @@ def render_amenities_dashboard(park_code: str, orchestrator):
 
     m = folium.Map(location=[start_lat, start_lon], zoom_start=11)
 
-    # LEGEND (Updated)
-    legend_html = '''
-     <div style="position: fixed; 
-     bottom: 50px; left: 50px; width: 170px; height: 230px; 
-     border:2px solid grey; z-index:9999; font-size:14px;
-     background-color:white; opacity:0.9; padding: 10px; border-radius: 5px; color: black;">
-     <b>Legend</b><br>
-     <i class="fa fa-star" style="color:darkblue"></i> &nbsp; Park Hub / Entrance<br>
-     <i class="fa fa-gas-pump" style="color:blue"></i> &nbsp; Gas<br>
-     <i class="fa fa-charging-station" style="color:green"></i> &nbsp; EV Charging<br>
-     <i class="fa fa-utensils" style="color:orange"></i> &nbsp; Food<br>
-     <i class="fa fa-bed" style="color:purple"></i> &nbsp; Lodging<br>
-     <i class="fa fa-shopping-cart" style="color:red"></i> &nbsp; Store<br>
-     <i class="fa fa-kit-medical" style="color:darkred"></i> &nbsp; Medical<br>
-     </div>
-     '''
-    m.get_root().html.add_child(folium.Element(legend_html))
-
     # PLOT POINTS - Group by CATEGORY now (User Request)
     # We will collect markers per category across ALL hubs
     category_markers = {} # { "Gas Station": [markers...], ... }
 
     for hub_name, categories in amenities_data.items():
         for category, items in categories.items():
-            # Normalize Category Name for grouping (e.g. "Gas Station" vs "gas station")
-            # We use the raw category from data but might want to capitalize
-            cat_label = category.title()
-            # Special case for our injected entrance
-            if category == "Park Entrance":
-                cat_label = "🌟 Park Entrances"
-            else:
-                 # Add emoji for layer list
-                 emoji = get_emoji(category)
-                 cat_label = f"{emoji} {cat_label}"
+            # Generate Consistent HTML Label
+            cat_label = get_category_html_label(category)
 
             if cat_label not in category_markers:
                 category_markers[cat_label] = []
@@ -120,6 +93,13 @@ def render_amenities_dashboard(park_code: str, orchestrator):
                 
                 if am.latitude and am.longitude:
                     # Fix Link logic (same as before)
+                    # 1. Name -> Website (if available)
+                    if am.website:
+                        name_link = am.website
+                    else:
+                        name_link = None # Render as text if no website
+
+                    # 2. Address -> Google Maps (prioritize address query)
                     if am.address and am.address.lower() != "n/a":
                          import urllib.parse
                          safe_address = urllib.parse.quote(am.address)
@@ -151,6 +131,23 @@ def render_amenities_dashboard(park_code: str, orchestrator):
     # Sort categories to ensure distinct order (Entrances first, then alpha)
     sorted_cats = sorted(category_markers.keys(), key=lambda x: (0 if "Entrance" in x else 1, x))
 
+    # DYNAMIC LEGEND - Build based on Present Categories
+    legend_items_html = ""
+    for cat_label in sorted_cats:
+        # cat_label already contains the HTML Icon + Text
+        legend_items_html += f'<div style="margin-bottom: 4px;">{cat_label}</div>'
+
+    legend_html = f'''
+     <div style="position: fixed; 
+     bottom: 50px; left: 50px; width: 170px; height: auto; 
+     border:2px solid grey; z-index:9999; font-size:14px;
+     background-color:white; opacity:0.9; padding: 10px; border-radius: 5px; color: black;">
+     <b>Legend</b><br>
+     {legend_items_html}
+     </div>
+     '''
+    m.get_root().html.add_child(folium.Element(legend_html))
+
     for cat_label in sorted_cats:
         fg = folium.FeatureGroup(name=cat_label)
         for marker in category_markers[cat_label]:
@@ -171,13 +168,21 @@ def render_amenities_dashboard(park_code: str, orchestrator):
              cols = st.columns(3)
              for idx, (cat, items) in enumerate(categories.items()):
                  with cols[idx % 3]:
-                     emoji = get_emoji(cat)
-                     # improved header styling
-                     st.markdown(f"#### {emoji} {cat}")
+                     # Consistent HTML Header
+                     html_label = get_category_html_label(cat)
+                     st.markdown(f"#### {html_label}", unsafe_allow_html=True)
                      
                      for item in items[:5]:
                          am = Amenity(**item) if isinstance(item, dict) else item
                          
+                         # Link Logic
+                         # 1. Name -> Website (if available)
+                         if am.website:
+                             name_link = am.website
+                         else:
+                             name_link = None # Render as text if no website
+
+                         # 2. Address -> Google Maps (prioritize address query)
                          if am.address and am.address.lower() != "n/a":
                              import urllib.parse
                              safe_address = urllib.parse.quote(am.address)
@@ -188,16 +193,24 @@ def render_amenities_dashboard(park_code: str, orchestrator):
                              gmaps_link = am.google_maps_url or "#"
 
                          rating_display = f"{am.rating}⭐ ({am.rating_count or 0})" if am.rating else ""
-                         # Clean address display (no underscores/italics)
                          addr_display = am.address if am.address and am.address != "N/A" else ""
                          
-                         # Format: Name (Link)
-                         # Rating (Count)
-                         # Address
+                         # Construct Name HTML (Link or Text)
+                         if name_link:
+                             name_html = f'<a href="{name_link}" target="_blank" style="font-weight:600; font-size:1.05em; text-decoration:none;">{am.name}</a>'
+                         else:
+                             name_html = f'<span style="font-weight:600; font-size:1.05em;">{am.name}</span>'
+
+                         # Construct Address HTML (Always Link to Maps if exists)
+                         if addr_display:
+                             addr_html = f'<a href="{gmaps_link}" target="_blank" style="font-size:0.85em; opacity: 0.8; color: inherit; text-decoration: none;">{addr_display}</a>'
+                         else:
+                             addr_html = ""
+
                          st.markdown(f"""
                          <div style="margin-bottom: 12px; padding-bottom: 8px; border-bottom: 1px solid rgba(128, 128, 128, 0.2);">
-                             <a href="{gmaps_link}" target="_blank" style="font-weight:600; font-size:1.05em; text-decoration:none;">{am.name}</a><br>
+                             {name_html}<br>
                              <span style="font-size:0.9em;">{rating_display}</span><br>
-                             <span style="font-size:0.85em; opacity: 0.8;">{addr_display}</span>
+                             {addr_html}
                          </div>
                          """, unsafe_allow_html=True)
