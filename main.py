@@ -20,6 +20,7 @@ from app.ui.data_access import get_park_static_data, get_volatile_data, clear_vo
 
 # Import Views
 from app.ui.views.park_explorer_amenities import render_amenities_dashboard
+from app.ui.views.park_explorer_trails import render_trails_browser
 
 # --- Page Configuration ---
 st.set_page_config(
@@ -131,7 +132,7 @@ with tab_explorer:
         render_amenities_dashboard(park_code, orchestrator)
     
     elif view_mode == "Trails Browser":
-        st.info("Trails browser coming in Step 4.")
+        render_trails_browser(park_code, static_data)
         
     elif view_mode == "Photo Spots":
         st.info("Photo spots gallery coming in Step 5.")

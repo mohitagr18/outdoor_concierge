@@ -5,7 +5,11 @@
     "url": "https://www.alltrails.com/trail/us/utah/angels-landing-trail",
     "difficulty": "Strenuous",
     "rating": 4.9,
-    "review_count": 37461
+    "review_count": 37559,
+    "length_miles": 4.7,
+    "elevation_gain_ft": 1738,
+    "estimated_time_hours": null,
+    "reviews_url": "https://www.alltrails.com/trail/us/utah/angels-landing-trail?reviews=true"
   },
   {
     "rank": 2,
@@ -13,7 +17,11 @@
     "url": "https://www.alltrails.com/trail/us/utah/scout-lookout-trail",
     "difficulty": "Hard",
     "rating": 4.9,
-    "review_count": 17847
+    "review_count": 17964,
+    "length_miles": 3.8,
+    "elevation_gain_ft": null,
+    "estimated_time_hours": "2.5\u20133 hr",
+    "reviews_url": "https://www.alltrails.com/trail/us/utah/scout-lookout-trail?reviews=true"
   },
   {
     "rank": 3,
@@ -21,7 +29,11 @@
     "url": "https://www.alltrails.com/trail/us/utah/the-watchman-trail",
     "difficulty": "Moderate",
     "rating": 4.7,
-    "review_count": 20721
+    "review_count": 20837,
+    "length_miles": 3.3,
+    "elevation_gain_ft": null,
+    "estimated_time_hours": "1.5\u20132 hr",
+    "reviews_url": "https://www.alltrails.com/trail/us/utah/the-watchman-trail?reviews=true"
   },
   {
     "rank": 4,
@@ -29,7 +41,11 @@
     "url": "https://www.alltrails.com/trail/us/utah/kayenta-trail-to-the-emerald-pools",
     "difficulty": "Moderate",
     "rating": 4.5,
-    "review_count": 6916
+    "review_count": 6921,
+    "length_miles": 2.5,
+    "elevation_gain_ft": null,
+    "estimated_time_hours": "1.5\u20132 hr",
+    "reviews_url": "https://www.alltrails.com/trail/us/utah/kayenta-trail-to-the-emerald-pools?reviews=true"
   },
   {
     "rank": 5,
@@ -37,7 +53,11 @@
     "url": "https://www.alltrails.com/trail/us/utah/elephant-temple-via-riverside-walk",
     "difficulty": "Moderate",
     "rating": 4.9,
-    "review_count": 14730
+    "review_count": 14749,
+    "length_miles": 6.4,
+    "elevation_gain_ft": null,
+    "estimated_time_hours": "3.5\u20134 hr",
+    "reviews_url": "https://www.alltrails.com/trail/us/utah/elephant-temple-via-riverside-walk?reviews=true"
   },
   {
     "rank": 6,
@@ -45,7 +65,11 @@
     "url": "https://www.alltrails.com/trail/us/utah/the-zion-narrows-riverside-walk",
     "difficulty": "Moderate",
     "rating": 4.6,
-    "review_count": 14579
+    "review_count": 14641,
+    "length_miles": 2.1,
+    "elevation_gain_ft": null,
+    "estimated_time_hours": "1\u20131.5 hr",
+    "reviews_url": "https://www.alltrails.com/trail/us/utah/the-zion-narrows-riverside-walk?reviews=true"
   },
   {
     "rank": 7,
@@ -53,7 +77,11 @@
     "url": "https://www.alltrails.com/trail/us/utah/canyon-overlook-trail",
     "difficulty": "Easy",
     "rating": 4.8,
-    "review_count": 14372
+    "review_count": 14439,
+    "length_miles": 1.0,
+    "elevation_gain_ft": null,
+    "estimated_time_hours": "0.5\u20131 hr",
+    "reviews_url": "https://www.alltrails.com/trail/us/utah/canyon-overlook-trail?reviews=true"
   },
   {
     "rank": 8,
@@ -61,7 +89,11 @@
     "url": "https://www.alltrails.com/trail/us/utah/emerald-pools-trail",
     "difficulty": "Moderate",
     "rating": 4.5,
-    "review_count": 6652
+    "review_count": 6682,
+    "length_miles": 3.0,
+    "elevation_gain_ft": null,
+    "estimated_time_hours": "1.5\u20132 hr",
+    "reviews_url": "https://www.alltrails.com/trail/us/utah/emerald-pools-trail?reviews=true"
   },
   {
     "rank": 9,
@@ -69,7 +101,11 @@
     "url": "https://www.alltrails.com/trail/us/utah/kayenta-trail-to-the-emerald-pools-and-zion-lodge",
     "difficulty": "Moderate",
     "rating": 4.6,
-    "review_count": 7003
+    "review_count": 7054,
+    "length_miles": 2.3,
+    "elevation_gain_ft": null,
+    "estimated_time_hours": "1\u20131.5 hr",
+    "reviews_url": "https://www.alltrails.com/trail/us/utah/kayenta-trail-to-the-emerald-pools-and-zion-lodge?reviews=true"
   },
   {
     "rank": 10,
@@ -77,166 +113,238 @@
     "url": "https://www.alltrails.com/trail/us/utah/zion-narrows-trail-to-imlay-temple-and-big-spring",
     "difficulty": "Hard",
     "rating": 4.9,
-    "review_count": 6055
+    "review_count": 6062,
+    "length_miles": 9.1,
+    "elevation_gain_ft": null,
+    "estimated_time_hours": null,
+    "reviews_url": "https://www.alltrails.com/trail/us/utah/zion-narrows-trail-to-imlay-temple-and-big-spring?reviews=true"
   },
   {
     "rank": 11,
-    "name": "Angels Landing",
-    "url": "https://www.alltrails.com/poi/us/utah/angels-landing",
-    "difficulty": null,
-    "rating": null,
-    "review_count": null
-  },
-  {
-    "rank": 12,
     "name": "Elephant Temple",
     "url": "https://www.alltrails.com/poi/us/utah/elephant-temple",
     "difficulty": null,
     "rating": null,
-    "review_count": null
+    "review_count": null,
+    "length_miles": null,
+    "elevation_gain_ft": null,
+    "estimated_time_hours": "3.5-4 hr",
+    "reviews_url": "https://www.alltrails.com/poi/us/utah/elephant-temple?reviews=true"
   },
   {
-    "rank": 13,
+    "rank": 12,
     "name": "Virgin River",
     "url": "https://www.alltrails.com/poi/us/utah/springdale/virgin-river",
     "difficulty": null,
     "rating": null,
-    "review_count": null
+    "review_count": null,
+    "length_miles": null,
+    "elevation_gain_ft": null,
+    "estimated_time_hours": null,
+    "reviews_url": "https://www.alltrails.com/poi/us/utah/springdale/virgin-river?reviews=true"
   },
   {
-    "rank": 14,
+    "rank": 13,
     "name": "Observation Point",
     "url": "https://www.alltrails.com/poi/us/utah/observation-point",
     "difficulty": null,
     "rating": null,
-    "review_count": null
+    "review_count": null,
+    "length_miles": null,
+    "elevation_gain_ft": 20,
+    "estimated_time_hours": null,
+    "reviews_url": "https://www.alltrails.com/poi/us/utah/observation-point?reviews=true"
   },
   {
-    "rank": 15,
+    "rank": 14,
     "name": "Lower Pine Creek Waterfall",
     "url": "https://www.alltrails.com/poi/us/utah/lower-pine-creek-waterfall",
     "difficulty": null,
     "rating": null,
-    "review_count": null
+    "review_count": null,
+    "length_miles": null,
+    "elevation_gain_ft": 20,
+    "estimated_time_hours": null,
+    "reviews_url": "https://www.alltrails.com/poi/us/utah/lower-pine-creek-waterfall?reviews=true"
   },
   {
-    "rank": 16,
+    "rank": 15,
     "name": "Middle Emerald Pool",
     "url": "https://www.alltrails.com/poi/us/utah/springdale/middle-emerald-pool",
     "difficulty": null,
     "rating": null,
-    "review_count": null
+    "review_count": null,
+    "length_miles": null,
+    "elevation_gain_ft": 20,
+    "estimated_time_hours": null,
+    "reviews_url": "https://www.alltrails.com/poi/us/utah/springdale/middle-emerald-pool?reviews=true"
   },
   {
-    "rank": 17,
+    "rank": 16,
     "name": "Lower Emerald Pool",
     "url": "https://www.alltrails.com/poi/us/utah/springdale/lower-emerald-pool",
     "difficulty": null,
     "rating": null,
-    "review_count": null
+    "review_count": null,
+    "length_miles": null,
+    "elevation_gain_ft": null,
+    "estimated_time_hours": "1.5-2 hr",
+    "reviews_url": "https://www.alltrails.com/poi/us/utah/springdale/lower-emerald-pool?reviews=true"
   },
   {
-    "rank": 18,
+    "rank": 17,
     "name": "R4 - Bolted Rappel Anchor: 20ft",
     "url": "https://www.alltrails.com/poi/us/utah/springdale/r4---bolted-rappel-anchor--20ft",
     "difficulty": null,
     "rating": null,
-    "review_count": null
+    "review_count": null,
+    "length_miles": null,
+    "elevation_gain_ft": 20,
+    "estimated_time_hours": null,
+    "reviews_url": "https://www.alltrails.com/poi/us/utah/springdale/r4---bolted-rappel-anchor--20ft?reviews=true"
   },
   {
-    "rank": 19,
+    "rank": 18,
     "name": "The Subway",
     "url": "https://www.alltrails.com/poi/us/utah/springdale/the-subway",
     "difficulty": null,
     "rating": null,
-    "review_count": null
+    "review_count": null,
+    "length_miles": null,
+    "elevation_gain_ft": 20,
+    "estimated_time_hours": null,
+    "reviews_url": "https://www.alltrails.com/poi/us/utah/springdale/the-subway?reviews=true"
   },
   {
-    "rank": 20,
+    "rank": 19,
     "name": "Mystery Springs",
     "url": "https://www.alltrails.com/poi/us/utah/springdale/mystery-springs",
     "difficulty": null,
     "rating": null,
-    "review_count": null
+    "review_count": null,
+    "length_miles": null,
+    "elevation_gain_ft": 20,
+    "estimated_time_hours": null,
+    "reviews_url": "https://www.alltrails.com/poi/us/utah/springdale/mystery-springs?reviews=true"
   },
   {
-    "rank": 21,
+    "rank": 20,
     "name": "Watchman Overlook",
     "url": "https://www.alltrails.com/poi/us/utah/springdale/watchman-overlook",
     "difficulty": null,
     "rating": null,
-    "review_count": null
+    "review_count": null,
+    "length_miles": null,
+    "elevation_gain_ft": 20,
+    "estimated_time_hours": null,
+    "reviews_url": "https://www.alltrails.com/poi/us/utah/springdale/watchman-overlook?reviews=true"
   },
   {
-    "rank": 22,
+    "rank": 21,
     "name": "Canyon Overlook",
     "url": "https://www.alltrails.com/poi/us/utah/springdale/canyon-overlook",
     "difficulty": null,
     "rating": null,
-    "review_count": null
+    "review_count": null,
+    "length_miles": null,
+    "elevation_gain_ft": null,
+    "estimated_time_hours": "0.5-1 hr",
+    "reviews_url": "https://www.alltrails.com/poi/us/utah/springdale/canyon-overlook?reviews=true"
   },
   {
-    "rank": 23,
+    "rank": 22,
     "name": "Double Arch Alcove",
     "url": "https://www.alltrails.com/poi/us/utah/virgin/double-arch-alcove",
     "difficulty": null,
     "rating": null,
-    "review_count": null
+    "review_count": null,
+    "length_miles": null,
+    "elevation_gain_ft": 20,
+    "estimated_time_hours": null,
+    "reviews_url": "https://www.alltrails.com/poi/us/utah/virgin/double-arch-alcove?reviews=true"
   },
   {
-    "rank": 24,
+    "rank": 23,
     "name": "View on the Patriarchs",
     "url": "https://www.alltrails.com/poi/us/utah/springdale/view-on-the-patriarchs",
     "difficulty": null,
     "rating": null,
-    "review_count": null
+    "review_count": null,
+    "length_miles": null,
+    "elevation_gain_ft": null,
+    "estimated_time_hours": null,
+    "reviews_url": "https://www.alltrails.com/poi/us/utah/springdale/view-on-the-patriarchs?reviews=true"
   },
   {
-    "rank": 25,
+    "rank": 24,
     "name": "Big Bend Viewpoint",
     "url": "https://www.alltrails.com/poi/us/utah/springdale/big-bend-viewpoint",
     "difficulty": null,
     "rating": null,
-    "review_count": null
+    "review_count": null,
+    "length_miles": null,
+    "elevation_gain_ft": null,
+    "estimated_time_hours": null,
+    "reviews_url": "https://www.alltrails.com/poi/us/utah/springdale/big-bend-viewpoint?reviews=true"
   },
   {
-    "rank": 26,
+    "rank": 25,
     "name": "Kolob Arch Viewpoint",
     "url": "https://www.alltrails.com/poi/us/utah/new-harmony/kolob-arch-viewpoint",
     "difficulty": null,
     "rating": null,
-    "review_count": null
+    "review_count": null,
+    "length_miles": null,
+    "elevation_gain_ft": null,
+    "estimated_time_hours": null,
+    "reviews_url": "https://www.alltrails.com/poi/us/utah/new-harmony/kolob-arch-viewpoint?reviews=true"
   },
   {
-    "rank": 27,
+    "rank": 26,
     "name": "Upper Emerald Pool",
     "url": "https://www.alltrails.com/poi/us/utah/springdale/upper-emerald-pool",
     "difficulty": null,
     "rating": null,
-    "review_count": null
+    "review_count": null,
+    "length_miles": null,
+    "elevation_gain_ft": null,
+    "estimated_time_hours": "1.5-2 hr",
+    "reviews_url": "https://www.alltrails.com/poi/us/utah/springdale/upper-emerald-pool?reviews=true"
   },
   {
-    "rank": 28,
+    "rank": 27,
     "name": "Zion Canyon",
     "url": "https://www.alltrails.com/poi/us/utah/springdale/zion-canyon",
     "difficulty": null,
     "rating": null,
-    "review_count": null
+    "review_count": null,
+    "length_miles": null,
+    "elevation_gain_ft": null,
+    "estimated_time_hours": null,
+    "reviews_url": "https://www.alltrails.com/poi/us/utah/springdale/zion-canyon?reviews=true"
   },
   {
-    "rank": 29,
+    "rank": 28,
     "name": "Jolley Gulch",
     "url": "https://www.alltrails.com/poi/us/utah/orderville/jolley-gulch",
     "difficulty": null,
     "rating": null,
-    "review_count": null
+    "review_count": null,
+    "length_miles": null,
+    "elevation_gain_ft": null,
+    "estimated_time_hours": null,
+    "reviews_url": "https://www.alltrails.com/poi/us/utah/orderville/jolley-gulch?reviews=true"
   },
   {
-    "rank": 30,
+    "rank": 29,
     "name": "Pullout",
     "url": "https://www.alltrails.com/poi/us/utah/springdale/pullout",
     "difficulty": null,
     "rating": null,
-    "review_count": null
+    "review_count": null,
+    "length_miles": null,
+    "elevation_gain_ft": null,
+    "estimated_time_hours": null,
+    "reviews_url": "https://www.alltrails.com/poi/us/utah/springdale/pullout?reviews=true"
   }
 ]

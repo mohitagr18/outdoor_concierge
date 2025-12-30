@@ -13,7 +13,7 @@ load_dotenv()
 
 # --- Configuration ---
 GEMINI_API_KEY = os.getenv("GEMINI_API_KEY")
-GEMINI_MODEL = os.getenv("GEMINI_MODEL") or "gemini-1.5-flash"
+GEMINI_MODEL = os.getenv("GEMINI_MODEL") or "gemini-2.5-flash"
 PARK_CODE = "YOSE" # User can override this or we can loop
 INPUT_FILE = f"data_samples/nps/raw/{PARK_CODE}/raw_trails.json"
 OUTPUT_DIR = f"data_samples/ui_fixtures/{PARK_CODE}"
