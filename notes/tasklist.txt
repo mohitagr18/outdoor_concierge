@@ -1,10 +1,8 @@
 1. The One Missing Piece (For Later)
-Currently, 
-fetch_rankings.py
- relies on a hardcoded map (PARK_URL_MAP) to know that ZION -> utah/zion-national-park. To support specific parks on demand (like "Big Bend" or "Acadia") without hardcoding all 63 parks, we will eventually need to update 
+Currently, fetch_rankings.py relies on a hardcoded map (PARK_URL_MAP) to know that ZION -> utah/zion-national-park. To support specific parks on demand (like "Big Bend" or "Acadia") without hardcoding all 63 parks, we will eventually need to update 
 fetch_rankings.py
  to either:
-
 Auto-Generate Slugs: Try state/full-park-name logic.
 Search First: Use a quick search on AllTrails to find the correct URL if it's not in our map.
 
+2. Add weather, alerts and events details to Park explorer view
