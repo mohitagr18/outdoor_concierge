@@ -62,14 +62,15 @@ def render_trails_browser(park_code: str, static_data):
             "route_type": item.get("route_type"),
             "popularity_rank": item.get("popularity_rank"),
             "wheelchair": item.get("is_wheelchair_accessible", False),
-            "kid_friendly": item.get("is_kid_friendly", False)
+            "kid_friendly": item.get("is_kid_friendly", False),
+            "pet_friendly": item.get("is_pet_friendly", False)
         })
         
     df = pd.DataFrame(clean_rows)
 
     # 2. Filters
     with st.expander("🔍 Filter Trails", expanded=False):
-        c1, c2, c3, c4 = st.columns(4)
+        c1, c2, c3, c4, c5 = st.columns(5)
         
         # Difficulty Filter
         diff_filter = c1.multiselect("Difficulty", ["Easy", "Moderate", "Strenuous"])
@@ -78,8 +79,9 @@ def render_trails_browser(park_code: str, static_data):
         min_len = c2.slider("Min Length (mi)", 0.0, 20.0, 0.0)
         
         # Accessibility Filters (NEW)
-        wheelchair_only = c3.checkbox("♿ Accessible Only")
-        kid_friendly_only = c4.checkbox("👶 Kid Friendly Only")
+        wheelchair_only = c3.checkbox("♿ Accessible")
+        kid_friendly_only = c4.checkbox("👶 Kid Friendly")
+        pet_friendly_only = c5.checkbox("🐕 Pet Friendly")
 
     # Apply Filters
     filtered = df.copy()
@@ -91,6 +93,8 @@ def render_trails_browser(park_code: str, static_data):
         filtered = filtered[filtered["wheelchair"] == True]
     if kid_friendly_only:
         filtered = filtered[filtered["kid_friendly"] == True]
+    if pet_friendly_only:
+        filtered = filtered[filtered["pet_friendly"] == True]
 
     # 3. Map (Valid coords only)
     map_df = filtered[(filtered["lat"].notnull()) & (filtered["lat"] != 0.0)]
@@ -104,7 +108,7 @@ def render_trails_browser(park_code: str, static_data):
         # ADD LEGEND (using same pattern as amenities view for reliability)
         legend_html = '''
         <div style="position: fixed; 
-             bottom: 50px; left: 50px; width: 180px; height: auto; 
+             bottom: 50px; left: 50px; width: 170px; height: auto; 
              border:2px solid grey; z-index:9999; font-size:13px;
              background-color:white; opacity:0.95; padding: 10px; border-radius: 5px; color: black; font-family: Arial;">
              <b>Difficulty</b><br>
@@ -191,6 +195,8 @@ def render_trails_browser(park_code: str, static_data):
                         title += " ♿"
                     if row['kid_friendly']:
                         title += " 👶"
+                    if row['pet_friendly']:
+                        title += " 🐕"
                     
                     st.markdown(title)
                     
@@ -259,6 +265,8 @@ def render_trails_browser(park_code: str, static_data):
                         title += " ♿"
                     if row['kid_friendly']:
                         title += " 👶"
+                    if row['pet_friendly']:
+                        title += " 🐕"
                     st.markdown(title)
                     
                     # Metrics line (compact) with embedded reviews link

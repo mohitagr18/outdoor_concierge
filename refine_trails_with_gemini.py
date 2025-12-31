@@ -29,6 +29,7 @@ class TrailStats(BaseModel):
     estimated_time_hours: Optional[str] = Field(None, description="Human readable time estimate, e.g. 3-4 hours")
     is_wheelchair_accessible: bool = Field(False, description="True if description mentions wheelchair access, paved path, or ADA accessible.")
     is_kid_friendly: bool = Field(False, description="True if description mentions kids, families, easy walk, or is short (< 2 miles) and flat.")
+    is_pet_friendly: bool = Field(False, description="True if pets are allowed on the trail (including leashed pets). Look for 'pets allowed', 'dogs allowed', 'leashed pets', or similar. False if description explicitly says 'no pets' or 'pets not allowed'.")
     clean_description: Optional[str] = Field(None, description="A concise, 1-2 sentence description of the actual hike. Exclude hours, rules, regulations, getting there, accessibility info, and HTML. Focus only on what makes this trail unique and what you'll see/do.")
 
 # --- Helpers: cleaning HTML / truncation
@@ -122,6 +123,12 @@ def extract_trail_stats(trail_item: Dict[str, Any], client: genai.Client) -> Opt
     ]
     desc_context = "\n".join([p for p in desc_parts if p.strip()])
     
+    # Add amenities information for pet detection
+    amenities = trail_item.get("amenities", [])
+    amenities_text = ", ".join(amenities) if amenities else ""
+    if amenities_text:
+        desc_context += f"\n\nAmenities: {amenities_text}"
+    
     # Pre-Computation Heuristic:
     if len(desc_context) < 50:
         return None
@@ -140,6 +147,7 @@ def extract_trail_stats(trail_item: Dict[str, Any], client: genai.Client) -> Opt
         "   - 'estimated_time_hours'\n"
         "   - 'is_wheelchair_accessible': Look for 'wheelchair', 'paved', 'accessible', 'ADA'.\n"
         "   - 'is_kid_friendly': Look for 'easy', 'family', 'kids', 'flat', 'short'.\n"
+        "   - 'is_pet_friendly': Look for 'pets allowed', 'dogs allowed', 'leashed pets', or 'Pets Allowed' in amenities. Set False if description says 'pets not allowed' or 'no pets' or 'no dogs'.\n"
         "   - 'clean_description': Write a concise, 1-2 sentence description of the hike itself. Focus on what makes it unique and what hikers will see/do. EXCLUDE: hours of operation, rules/regulations, how to get there, accessibility requirements, parking info, permit requirements, HTML tags, and extra sections.\n"
     )
 
@@ -166,6 +174,15 @@ def extract_trail_stats(trail_item: Dict[str, Any], client: genai.Client) -> Opt
             candidate = strip_html_and_truncate(trail_item.get('listingDescription') or trail_item.get('bodyText') or '')
             if candidate and len(candidate) > 30:
                 stats.clean_description = candidate
+        
+        # Post-process: Check amenities for pet-related info if LLM result is ambiguous
+        if stats and stats.is_valid_hiking_trail:
+            amenities = trail_item.get("amenities", [])
+            amenities_str = " ".join(amenities).lower()
+            if "pets allowed" in amenities_str:
+                stats.is_pet_friendly = True
+            elif "pets not allowed" in amenities_str or "no pets" in amenities_str:
+                stats.is_pet_friendly = False
         
         return stats
     except Exception as e:
@@ -232,6 +249,7 @@ def main():
                 "estimated_time_hours": stats.estimated_time_hours,
                 "is_wheelchair_accessible": stats.is_wheelchair_accessible,
                 "is_kid_friendly": stats.is_kid_friendly,
+                "is_pet_friendly": stats.is_pet_friendly,
                 # Keep raw NPS text so UI can prefer listing/body if needed
                 "raw_listing_description": strip_html_and_truncate(trail.get("listingDescription")),
                 "raw_body_text": strip_html_and_truncate(trail.get("bodyText")),

@@ -31,7 +31,7 @@ def get_category_icon(category: str):
 def get_category_html_label(category: str):
     cat_title = category.title()
     if category == "Park Entrance":
-        cat_title = "Park Hub / Entrance"
+        cat_title = "Park Entrance"
     
     color, icon = get_category_icon(category)
     # Convert 'darkblue' etc to valid CSS colors if needed, 

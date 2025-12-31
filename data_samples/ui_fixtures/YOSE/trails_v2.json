@@ -35,7 +35,8 @@
     "estimated_time_hours": null,
     "is_wheelchair_accessible": false,
     "is_kid_friendly": false,
-    "last_enriched": "2025-12-28T14:16:03.254331"
+    "last_enriched": "2025-12-28T14:16:03.254331",
+    "is_pet_friendly": false
   },
   {
     "id": "F96A3DD5-1E76-4A5E-B0DE-93169C32471C",
@@ -73,7 +74,8 @@
     "estimated_time_hours": null,
     "is_wheelchair_accessible": false,
     "is_kid_friendly": false,
-    "last_enriched": "2025-12-28T14:16:54.620692"
+    "last_enriched": "2025-12-28T14:16:54.620692",
+    "is_pet_friendly": false
   },
   {
     "id": "48DBCE46-16CA-4EB4-8496-CE0C70E8D7C1",
@@ -111,7 +113,8 @@
     "estimated_time_hours": null,
     "is_wheelchair_accessible": false,
     "is_kid_friendly": false,
-    "last_enriched": "2025-12-28T14:17:13.664529"
+    "last_enriched": "2025-12-28T14:17:13.664529",
+    "is_pet_friendly": false
   },
   {
     "id": "6D04F583-962E-469D-9D7B-A7FC3A526978",
@@ -149,7 +152,8 @@
     "estimated_time_hours": null,
     "is_wheelchair_accessible": false,
     "is_kid_friendly": false,
-    "last_enriched": "2025-12-28T14:17:20.370447"
+    "last_enriched": "2025-12-28T14:17:20.370447",
+    "is_pet_friendly": false
   },
   {
     "id": "6DF32715-91BB-4305-92CF-A17A72801F9E",
@@ -187,7 +191,8 @@
     "estimated_time_hours": "20-30 minutes",
     "is_wheelchair_accessible": true,
     "is_kid_friendly": true,
-    "last_enriched": "2025-12-28T14:17:49.455415"
+    "last_enriched": "2025-12-28T14:17:49.455415",
+    "is_pet_friendly": false
   },
   {
     "id": "C51F3C63-C110-43C7-92FC-1F8EFD44228A",
@@ -225,7 +230,8 @@
     "estimated_time_hours": "6-7 hours",
     "is_wheelchair_accessible": false,
     "is_kid_friendly": false,
-    "last_enriched": "2025-12-28T14:17:55.272888"
+    "last_enriched": "2025-12-28T14:17:55.272888",
+    "is_pet_friendly": false
   },
   {
     "id": "1F5F467E-498F-4DD0-A28B-20686E1758EF",
@@ -263,7 +269,8 @@
     "estimated_time_hours": "5-7 hours",
     "is_wheelchair_accessible": false,
     "is_kid_friendly": false,
-    "last_enriched": "2025-12-28T14:18:00.001340"
+    "last_enriched": "2025-12-28T14:18:00.001340",
+    "is_pet_friendly": false
   },
   {
     "id": "13374ED7-ADF9-4A78-9DAF-546A346BFFC1",
@@ -301,7 +308,8 @@
     "estimated_time_hours": "20-30 minutes",
     "is_wheelchair_accessible": true,
     "is_kid_friendly": true,
-    "last_enriched": "2025-12-28T14:18:03.880780"
+    "last_enriched": "2025-12-28T14:18:03.880780",
+    "is_pet_friendly": false
   },
   {
     "id": "8056CA99-0BF6-4104-ACEF-7ACE4F2D4CC3",
@@ -339,7 +347,8 @@
     "estimated_time_hours": "4-6 hours",
     "is_wheelchair_accessible": false,
     "is_kid_friendly": false,
-    "last_enriched": "2025-12-28T14:18:10.773315"
+    "last_enriched": "2025-12-28T14:18:10.773315",
+    "is_pet_friendly": false
   },
   {
     "id": "48B7F32F-D66A-48C7-824E-B90B1C2B9893",
@@ -377,7 +386,8 @@
     "estimated_time_hours": "6-8 hours",
     "is_wheelchair_accessible": false,
     "is_kid_friendly": false,
-    "last_enriched": "2025-12-28T14:18:15.460025"
+    "last_enriched": "2025-12-28T14:18:15.460025",
+    "is_pet_friendly": false
   },
   {
     "id": "8D6C9189-822E-4625-B05F-C96AF0DAC137",
@@ -415,7 +425,8 @@
     "estimated_time_hours": "6-8 hours",
     "is_wheelchair_accessible": false,
     "is_kid_friendly": false,
-    "last_enriched": "2025-12-28T14:18:19.357398"
+    "last_enriched": "2025-12-28T14:18:19.357398",
+    "is_pet_friendly": false
   },
   {
     "id": "626369C6-2AAB-4D9F-9554-C9DDBD140857",
@@ -453,7 +464,8 @@
     "estimated_time_hours": "2-3 hours",
     "is_wheelchair_accessible": false,
     "is_kid_friendly": false,
-    "last_enriched": "2025-12-28T14:18:25.225818"
+    "last_enriched": "2025-12-28T14:18:25.225818",
+    "is_pet_friendly": false
   },
   {
     "id": "99CA6738-45FF-40D3-A94A-31A854BDC40C",
@@ -482,7 +494,8 @@
     "estimated_time_hours": "4-5 hours",
     "is_wheelchair_accessible": false,
     "is_kid_friendly": false,
-    "last_enriched": "2025-12-28T14:18:41.482956"
+    "last_enriched": "2025-12-28T14:18:41.482956",
+    "is_pet_friendly": false
   },
   {
     "id": "CE7E3DB1-575F-45C5-9288-568FBFCEA90A",
@@ -520,7 +533,8 @@
     "estimated_time_hours": "6-8 hours",
     "is_wheelchair_accessible": false,
     "is_kid_friendly": true,
-    "last_enriched": "2025-12-28T14:18:49.676845"
+    "last_enriched": "2025-12-28T14:18:49.676845",
+    "is_pet_friendly": false
   },
   {
     "id": "E52A17A0-4EFC-4401-979E-6090295BF2A6",
@@ -549,7 +563,8 @@
     "estimated_time_hours": "30-45 minutes",
     "is_wheelchair_accessible": true,
     "is_kid_friendly": true,
-    "last_enriched": "2025-12-28T14:18:57.498661"
+    "last_enriched": "2025-12-28T14:18:57.498661",
+    "is_pet_friendly": false
   },
   {
     "id": "FA7CE3DB-209D-423B-8257-E0D0F15432AB",
@@ -587,7 +602,8 @@
     "estimated_time_hours": "2-4 hours",
     "is_wheelchair_accessible": false,
     "is_kid_friendly": false,
-    "last_enriched": "2025-12-28T14:19:02.437845"
+    "last_enriched": "2025-12-28T14:19:02.437845",
+    "is_pet_friendly": false
   },
   {
     "id": "6C7AEA3E-6453-494D-B207-FBB6B932A331",
@@ -625,7 +641,8 @@
     "estimated_time_hours": "1 hour",
     "is_wheelchair_accessible": false,
     "is_kid_friendly": false,
-    "last_enriched": "2025-12-28T14:19:18.737283"
+    "last_enriched": "2025-12-28T14:19:18.737283",
+    "is_pet_friendly": false
   },
   {
     "id": "8599E14E-63F6-4666-BF62-B4A9AE0B258C",
@@ -663,7 +680,8 @@
     "estimated_time_hours": "3-4 hours",
     "is_wheelchair_accessible": false,
     "is_kid_friendly": false,
-    "last_enriched": "2025-12-28T14:19:31.283313"
+    "last_enriched": "2025-12-28T14:19:31.283313",
+    "is_pet_friendly": false
   },
   {
     "id": "C4FAE927-EBD3-49D4-AF45-ADF8233B2E52",
@@ -705,7 +723,8 @@
     "popularity_rank": 5,
     "alltrails_url": "https://www.alltrails.com/trail/us/california/lower-yosemite-falls-trail",
     "alltrails_rating": 4.7,
-    "alltrails_review_count": 19011
+    "alltrails_review_count": 19011,
+    "is_pet_friendly": false
   },
   {
     "id": "B1B4A158-95CE-4526-AE28-5916D7AF7547",
@@ -747,7 +766,8 @@
     "popularity_rank": 5,
     "alltrails_url": "https://www.alltrails.com/trail/us/california/lower-yosemite-falls-trail",
     "alltrails_rating": 4.7,
-    "alltrails_review_count": 19011
+    "alltrails_review_count": 19011,
+    "is_pet_friendly": false
   },
   {
     "id": "C3FEC70B-B87E-4F5D-8ECA-60E1B80324B0",
@@ -785,7 +805,8 @@
     "estimated_time_hours": "1-2 hours",
     "is_wheelchair_accessible": false,
     "is_kid_friendly": true,
-    "last_enriched": "2025-12-28T14:19:46.496175"
+    "last_enriched": "2025-12-28T14:19:46.496175",
+    "is_pet_friendly": false
   },
   {
     "id": "0A487FCB-66F1-4609-B1F1-E407D0757072",
@@ -823,7 +844,8 @@
     "estimated_time_hours": "2-3 hours",
     "is_wheelchair_accessible": false,
     "is_kid_friendly": false,
-    "last_enriched": "2025-12-28T14:19:51.024938"
+    "last_enriched": "2025-12-28T14:19:51.024938",
+    "is_pet_friendly": false
   },
   {
     "id": "B06EE003-6117-4C71-9042-5773C2664447",
@@ -861,7 +883,8 @@
     "estimated_time_hours": "1-2 hours",
     "is_wheelchair_accessible": false,
     "is_kid_friendly": true,
-    "last_enriched": "2025-12-28T14:19:55.399034"
+    "last_enriched": "2025-12-28T14:19:55.399034",
+    "is_pet_friendly": false
   },
   {
     "id": "D0C1B0C5-D944-46CC-B67B-AE327A230AEB",
@@ -899,7 +922,8 @@
     "estimated_time_hours": "1-6 hours",
     "is_wheelchair_accessible": true,
     "is_kid_friendly": true,
-    "last_enriched": "2025-12-28T14:20:08.340698"
+    "last_enriched": "2025-12-28T14:20:08.340698",
+    "is_pet_friendly": false
   },
   {
     "id": "E97A321F-3926-47A0-8D17-DDB1E01C21D7",
@@ -937,7 +961,8 @@
     "estimated_time_hours": "1-2 hours",
     "is_wheelchair_accessible": false,
     "is_kid_friendly": false,
-    "last_enriched": "2025-12-28T14:20:16.160625"
+    "last_enriched": "2025-12-28T14:20:16.160625",
+    "is_pet_friendly": false
   },
   {
     "id": "B4CDC757-7247-4E76-B789-C2F7D4D3907E",
@@ -975,7 +1000,8 @@
     "estimated_time_hours": "1-1.5 hours",
     "is_wheelchair_accessible": false,
     "is_kid_friendly": true,
-    "last_enriched": "2025-12-28T14:20:23.641830"
+    "last_enriched": "2025-12-28T14:20:23.641830",
+    "is_pet_friendly": false
   },
   {
     "id": "4CB7B15C-61E4-4647-9884-44496FAAF8CC",
@@ -1013,7 +1039,8 @@
     "estimated_time_hours": "1.5-3 hours",
     "is_wheelchair_accessible": false,
     "is_kid_friendly": false,
-    "last_enriched": "2025-12-28T14:20:29.084373"
+    "last_enriched": "2025-12-28T14:20:29.084373",
+    "is_pet_friendly": false
   },
   {
     "id": "F72A0CDC-31C8-4027-8155-D2476FB85048",
@@ -1055,7 +1082,8 @@
     "popularity_rank": 8,
     "alltrails_url": "https://www.alltrails.com/trail/us/california/mirror-lake-loop--2",
     "alltrails_rating": 4.6,
-    "alltrails_review_count": 6439
+    "alltrails_review_count": 6439,
+    "is_pet_friendly": false
   },
   {
     "id": "F818A5B1-A9F9-4C3A-BC57-FB960E40B4C7",
@@ -1097,7 +1125,8 @@
     "popularity_rank": 6,
     "alltrails_url": "https://www.alltrails.com/trail/us/california/vernal-falls-and-clark-point-via-mist-and-john-muir-loop",
     "alltrails_rating": 4.8,
-    "alltrails_review_count": 9755
+    "alltrails_review_count": 9755,
+    "is_pet_friendly": false
   },
   {
     "id": "0373584E-87EB-4986-A0AE-C69BF81C9043",
@@ -1135,7 +1164,8 @@
     "estimated_time_hours": "2-3 hours",
     "is_wheelchair_accessible": false,
     "is_kid_friendly": false,
-    "last_enriched": "2025-12-28T14:20:53.567773"
+    "last_enriched": "2025-12-28T14:20:53.567773",
+    "is_pet_friendly": false
   },
   {
     "id": "6C2131D7-1F46-4D0B-99EA-C53357BAFFBA",
@@ -1173,7 +1203,8 @@
     "estimated_time_hours": "5-7 hours",
     "is_wheelchair_accessible": false,
     "is_kid_friendly": false,
-    "last_enriched": "2025-12-28T14:20:58.896041"
+    "last_enriched": "2025-12-28T14:20:58.896041",
+    "is_pet_friendly": false
   },
   {
     "id": "0EA6B210-FF01-4A6D-9AB7-6CF5C94D18C9",
@@ -1211,7 +1242,8 @@
     "estimated_time_hours": null,
     "is_wheelchair_accessible": true,
     "is_kid_friendly": true,
-    "last_enriched": "2025-12-28T14:21:04.872014"
+    "last_enriched": "2025-12-28T14:21:04.872014",
+    "is_pet_friendly": false
   },
   {
     "id": "740078DA-7B9E-4E3E-AFE4-4448733C56BC",
@@ -1249,7 +1281,8 @@
     "estimated_time_hours": "8-10 hours",
     "is_wheelchair_accessible": false,
     "is_kid_friendly": false,
-    "last_enriched": "2025-12-28T14:21:10.771384"
+    "last_enriched": "2025-12-28T14:21:10.771384",
+    "is_pet_friendly": false
   },
   {
     "id": "F98B5924-367F-4EB0-A7B5-11F9A051D979",
@@ -1287,7 +1320,8 @@
     "estimated_time_hours": null,
     "is_wheelchair_accessible": false,
     "is_kid_friendly": false,
-    "last_enriched": "2025-12-28T14:21:16.387149"
+    "last_enriched": "2025-12-28T14:21:16.387149",
+    "is_pet_friendly": false
   },
   {
     "id": "6170802B-AB0A-4D69-8647-AA1D5867D303",
@@ -1325,7 +1359,8 @@
     "estimated_time_hours": null,
     "is_wheelchair_accessible": false,
     "is_kid_friendly": true,
-    "last_enriched": "2025-12-28T14:21:36.404769"
+    "last_enriched": "2025-12-28T14:21:36.404769",
+    "is_pet_friendly": false
   },
   {
     "id": "8BFE3A60-1982-479C-8849-AE361F05A0AA",
@@ -1363,7 +1398,8 @@
     "estimated_time_hours": "3-4 hours",
     "is_wheelchair_accessible": false,
     "is_kid_friendly": false,
-    "last_enriched": "2025-12-28T14:21:40.992452"
+    "last_enriched": "2025-12-28T14:21:40.992452",
+    "is_pet_friendly": false
   },
   {
     "id": "6AF4D37E-8413-4679-88E3-564F8087BCAF",
@@ -1401,7 +1437,8 @@
     "estimated_time_hours": "5-7 hours",
     "is_wheelchair_accessible": false,
     "is_kid_friendly": false,
-    "last_enriched": "2025-12-28T14:21:48.477113"
+    "last_enriched": "2025-12-28T14:21:48.477113",
+    "is_pet_friendly": false
   },
   {
     "id": "31656BA1-8C15-4F68-850F-FF6F2A686A99",
@@ -1439,7 +1476,8 @@
     "estimated_time_hours": "1 hour",
     "is_wheelchair_accessible": false,
     "is_kid_friendly": true,
-    "last_enriched": "2025-12-28T14:21:53.001235"
+    "last_enriched": "2025-12-28T14:21:53.001235",
+    "is_pet_friendly": false
   },
   {
     "id": "D0E656B6-CDF6-4A51-B777-3D38B8EFF51B",
@@ -1481,7 +1519,8 @@
     "popularity_rank": 7,
     "alltrails_url": "https://www.alltrails.com/trail/us/california/sentinel-dome-and-taft-point-loop",
     "alltrails_rating": 4.9,
-    "alltrails_review_count": 6555
+    "alltrails_review_count": 6555,
+    "is_pet_friendly": false
   },
   {
     "id": "762E9BC3-D1BF-447D-8CE4-A2ACDACE1D35",
@@ -1519,7 +1558,8 @@
     "estimated_time_hours": "1 hour",
     "is_wheelchair_accessible": false,
     "is_kid_friendly": true,
-    "last_enriched": "2025-12-28T14:22:25.723485"
+    "last_enriched": "2025-12-28T14:22:25.723485",
+    "is_pet_friendly": false
   },
   {
     "id": "0B9AD80C-43EA-4DB3-9999-21268B166F4F",
@@ -1557,7 +1597,8 @@
     "estimated_time_hours": "6-8 hours",
     "is_wheelchair_accessible": false,
     "is_kid_friendly": false,
-    "last_enriched": "2025-12-28T14:22:38.450481"
+    "last_enriched": "2025-12-28T14:22:38.450481",
+    "is_pet_friendly": false
   },
   {
     "id": "BC8250C0-F1B5-4E12-9B8C-A5F59AE13909",
@@ -1595,7 +1636,8 @@
     "estimated_time_hours": "1-2 hours",
     "is_wheelchair_accessible": false,
     "is_kid_friendly": true,
-    "last_enriched": "2025-12-28T14:22:53.656050"
+    "last_enriched": "2025-12-28T14:22:53.656050",
+    "is_pet_friendly": false
   },
   {
     "id": "344C8876-0381-4090-82E6-2105BAAF5E7B",
@@ -1633,7 +1675,8 @@
     "estimated_time_hours": null,
     "is_wheelchair_accessible": false,
     "is_kid_friendly": true,
-    "last_enriched": "2025-12-28T14:23:01.096551"
+    "last_enriched": "2025-12-28T14:23:01.096551",
+    "is_pet_friendly": false
   },
   {
     "id": "07DA404D-9D30-48B7-866D-EB5160FD74E3",
@@ -1675,7 +1718,8 @@
     "popularity_rank": 2,
     "alltrails_url": "https://www.alltrails.com/trail/us/california/upper-yosemite-falls-trail",
     "alltrails_rating": 4.8,
-    "alltrails_review_count": 18210
+    "alltrails_review_count": 18210,
+    "is_pet_friendly": false
   },
   {
     "id": "72BC1EF4-B2E6-4389-A4ED-75EAB0B2A812",
@@ -1713,7 +1757,8 @@
     "estimated_time_hours": null,
     "is_wheelchair_accessible": true,
     "is_kid_friendly": true,
-    "last_enriched": "2025-12-28T14:23:15.340055"
+    "last_enriched": "2025-12-28T14:23:15.340055",
+    "is_pet_friendly": false
   },
   {
     "id": "EFF5A2CF-E263-40C4-B939-C893E895EA2C",
@@ -1751,7 +1796,8 @@
     "estimated_time_hours": "6 to 8 hours",
     "is_wheelchair_accessible": false,
     "is_kid_friendly": false,
-    "last_enriched": "2025-12-28T14:23:25.716192"
+    "last_enriched": "2025-12-28T14:23:25.716192",
+    "is_pet_friendly": false
   },
   {
     "id": "D924AC4F-C25E-4FD8-B74B-96E475B8E375",
@@ -1780,7 +1826,8 @@
     "estimated_time_hours": "1.5 to 2 hours",
     "is_wheelchair_accessible": false,
     "is_kid_friendly": false,
-    "last_enriched": "2025-12-28T14:23:44.414066"
+    "last_enriched": "2025-12-28T14:23:44.414066",
+    "is_pet_friendly": false
   },
   {
     "id": "512130F4-A791-499C-B9EB-0DE0F6B76DAC",
@@ -1818,6 +1865,7 @@
     "estimated_time_hours": "7-9 hours",
     "is_wheelchair_accessible": false,
     "is_kid_friendly": false,
-    "last_enriched": "2025-12-28T14:23:48.639798"
+    "last_enriched": "2025-12-28T14:23:48.639798",
+    "is_pet_friendly": false
   }
 ]

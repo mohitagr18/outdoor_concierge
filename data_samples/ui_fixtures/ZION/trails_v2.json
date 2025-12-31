@@ -2,7 +2,7 @@
   {
     "id": "CF1B624D-C2BA-4A8C-99AA-1B57F4F06430",
     "name": "Pa'rus - A Living Canyon",
-    "description": "Follow the Virgin River through Zion's lower canyon to explore diverse riparian habitats and see the plants and animals that thrive near the water.",
+    "description": "This path follows the Virgin River through Zion's diverse riparian habitats, offering a close look at the plants and animals that thrive in this water-rich environment.",
     "location": {
       "lat": 37.20367564940907,
       "lon": -112.98069477081299
@@ -33,16 +33,17 @@
     "elevation_gain_ft": null,
     "route_type": null,
     "estimated_time_hours": null,
-    "is_wheelchair_accessible": false,
+    "is_wheelchair_accessible": true,
     "is_kid_friendly": false,
+    "is_pet_friendly": true,
     "raw_listing_description": null,
     "raw_body_text": "A Living Canyon Learn Zion's diverse topography leads to a diversity of habitats and species. Along the Virgin River, the riparian area is home to plants and animals that require an abundant supply of water.",
-    "last_enriched": "2025-12-31T03:07:57.031809"
+    "last_enriched": "2025-12-31T06:22:12.922672"
   },
   {
     "id": "9B081DDD-4C3E-47C0-901A-E92A159B0078",
     "name": "Kayenta Trail",
-    "description": "This trail follows the Virgin River and offers panoramic views of Zion Canyon as it climbs toward the Lower and Upper Emerald Pools.",
+    "description": "The Kayenta Trail follows the Virgin River and provides panoramic views of Zion Canyon as it ascends toward the Emerald Pool Trails.",
     "location": {
       "lat": 37.2592462593,
       "lon": -112.951341871
@@ -75,14 +76,15 @@
     "estimated_time_hours": null,
     "is_wheelchair_accessible": false,
     "is_kid_friendly": false,
+    "is_pet_friendly": false,
     "raw_listing_description": null,
     "raw_body_text": null,
-    "last_enriched": "2025-12-31T03:08:08.899430"
+    "last_enriched": "2025-12-31T06:22:27.849280"
   },
   {
     "id": "9D7B17DE-663C-4A85-A09D-183C71E5EE96",
     "name": "Timber Creek Overlook",
-    "description": "Follow a rocky ridge to enjoy expansive views of Timber Creek, Kolob Terrace, and the Pine Valley Mountains from a high vantage point.",
+    "description": "This short hike follows a rocky ridge with minimal elevation gain to a viewpoint offering stunning panoramas of Timber Creek, Kolob Terrace, and the Pine Valley Mountains.",
     "location": {
       "lat": 37.4355110105,
       "lon": -113.201933722
@@ -115,14 +117,15 @@
     "estimated_time_hours": null,
     "is_wheelchair_accessible": false,
     "is_kid_friendly": true,
+    "is_pet_friendly": false,
     "raw_listing_description": null,
     "raw_body_text": null,
-    "last_enriched": "2025-12-31T03:08:16.498674"
+    "last_enriched": "2025-12-31T06:22:34.376118"
   },
   {
     "id": "6AD66A92-B0EB-4064-A52A-2DDB02CF9143",
     "name": "La Verkin Creek Trail to Kolob Arch",
-    "description": "This trail offers outstanding solitude in the Zion Wilderness, featuring stunning views of the Kolob Canyons and multiple creek crossings on the journey to the massive Kolob Arch.",
+    "description": "This strenuous wilderness hike offers solitude and stunning views of the Kolob Canyons as it descends past Timber Creek to reach the massive Kolob Arch.",
     "location": {
       "lat": 37.4522213604,
       "lon": -113.191397605
@@ -155,14 +158,15 @@
     "estimated_time_hours": null,
     "is_wheelchair_accessible": false,
     "is_kid_friendly": false,
+    "is_pet_friendly": false,
     "raw_listing_description": null,
     "raw_body_text": null,
-    "last_enriched": "2025-12-31T03:08:23.325925"
+    "last_enriched": "2025-12-31T06:22:40.280450"
   },
   {
     "id": "7B0A7CE7-2553-4A51-9E7C-F1F77DC253A4",
     "name": "Taylor Creek Trail",
-    "description": "This hike follows the Middle Fork of Taylor Creek past two historic homestead cabins into a narrow box canyon to reach the impressive Double Arch Alcove.",
+    "description": "Follow the Middle Fork of Taylor Creek past historic homestead cabins into a narrow box canyon to see the impressive Double Arch Alcove carved into Navajo sandstone.",
     "location": {
       "lat": 0.0,
       "lon": 0.0
@@ -190,19 +194,20 @@
     "nps_url": "https://www.nps.gov/thingstodo/taylor-creek-trail.htm",
     "difficulty": "Easy",
     "length_miles": 5.2,
-    "elevation_gain_ft": 799,
+    "elevation_gain_ft": 798,
     "route_type": "Out & Back",
     "estimated_time_hours": null,
     "is_wheelchair_accessible": false,
     "is_kid_friendly": false,
+    "is_pet_friendly": false,
     "raw_listing_description": null,
     "raw_body_text": null,
-    "last_enriched": "2025-12-31T03:08:31.799927"
+    "last_enriched": "2025-12-31T06:22:46.503227"
   },
   {
     "id": "671CA42A-5287-4EC6-AD13-4841D2F9B724",
     "name": "Watchman Trail",
-    "description": "Starting from the river, this unpaved trail climbs to a magnificent viewpoint of the Watchman, Temples and Towers, and lower Zion Canyon.",
+    "description": "This unpaved trail climbs from the river to a magnificent viewpoint overlooking the Watchman, lower Zion Canyon, and the Town of Springdale. Hikers will enjoy views of the Temples and Towers throughout the ascent.",
     "location": {
       "lat": 0.0,
       "lon": 0.0
@@ -235,14 +240,15 @@
     "estimated_time_hours": null,
     "is_wheelchair_accessible": false,
     "is_kid_friendly": false,
+    "is_pet_friendly": false,
     "raw_listing_description": null,
     "raw_body_text": null,
-    "last_enriched": "2025-12-31T03:08:37.988128"
+    "last_enriched": "2025-12-31T06:22:56.405739"
   },
   {
     "id": "BD4CA407-5BE0-426E-8339-F34DE6795D3A",
     "name": "West Rim to Scout Lookout",
-    "description": "This strenuous trail ascends a series of steep switchbacks along the canyon wall to reach Scout Lookout, offering dramatic views from high above the Virgin River.",
+    "description": "This strenuous hike crosses the Virgin River and ascends a series of steep switchbacks along the canyon wall to reach Scout Lookout. Hikers will enjoy dramatic views from a vantage point high above the floor of Zion Canyon.",
     "location": {
       "lat": 37.2592462593,
       "lon": -112.951341871
@@ -275,14 +281,15 @@
     "estimated_time_hours": null,
     "is_wheelchair_accessible": false,
     "is_kid_friendly": false,
+    "is_pet_friendly": false,
     "raw_listing_description": null,
     "raw_body_text": null,
-    "last_enriched": "2025-12-31T03:08:54.067618"
+    "last_enriched": "2025-12-31T06:23:08.220217"
   },
   {
     "id": "823A078C-D324-4648-B910-F15507E67244",
     "name": "Riverside Walk",
-    "description": "This relatively flat and paved trail follows the Virgin River as the sheer sandstone walls of Zion Canyon narrow around you.",
+    "description": "This paved, relatively flat trail follows the Virgin River as the canyon's sheer sandstone walls narrow around you.",
     "location": {
       "lat": 37.2852131123,
       "lon": -112.947693774
@@ -315,14 +322,15 @@
     "estimated_time_hours": null,
     "is_wheelchair_accessible": true,
     "is_kid_friendly": true,
+    "is_pet_friendly": false,
     "raw_listing_description": null,
     "raw_body_text": null,
-    "last_enriched": "2025-12-31T03:08:59.172398"
+    "last_enriched": "2025-12-31T06:23:19.014926"
   },
   {
     "id": "97C6C2F7-E45F-4192-9475-F2F90BF3E70E",
     "name": "Middle Emerald Pools Trail",
-    "description": "A moderate hike along an unpaved sandstone ledge that features a steep ascent and expansive views of Zion Canyon from above the Lower Emerald Pools.",
+    "description": "This moderate hike traverses an unpaved sandstone ledge above the Lower Emerald Pool, featuring a steep initial ascent that leads to expansive views of Zion Canyon.",
     "location": {
       "lat": 37.2510388558,
       "lon": -112.958668719
@@ -354,15 +362,16 @@
     "route_type": "Out & Back",
     "estimated_time_hours": null,
     "is_wheelchair_accessible": false,
-    "is_kid_friendly": false,
+    "is_kid_friendly": true,
+    "is_pet_friendly": false,
     "raw_listing_description": null,
     "raw_body_text": null,
-    "last_enriched": "2025-12-31T03:09:05.958149"
+    "last_enriched": "2025-12-31T06:23:28.794933"
   },
   {
     "id": "FD003EF3-8DA2-4FCB-9B49-7BFFB097CB76",
     "name": "Upper Emerald Pools Trail",
-    "description": "Climb stone steps and follow a sandy path through pinyon-juniper woodlands to reach seasonal waterfalls at the base of towering canyon walls.",
+    "description": "Hikers climb stone steps through pinyon-juniper woodlands to reach the base of towering canyon walls featuring majestic seasonal waterfalls.",
     "location": {
       "lat": 37.2510388558,
       "lon": -112.958668719
@@ -394,15 +403,16 @@
     "route_type": "Out & Back",
     "estimated_time_hours": null,
     "is_wheelchair_accessible": false,
-    "is_kid_friendly": true,
+    "is_kid_friendly": false,
+    "is_pet_friendly": false,
     "raw_listing_description": null,
     "raw_body_text": null,
-    "last_enriched": "2025-12-31T03:09:12.643163"
+    "last_enriched": "2025-12-31T06:23:43.802316"
   },
   {
     "id": "6A7BB554-73E5-43ED-90C1-A327CADF55C7",
     "name": "Lower Emerald Pool Trail",
-    "description": "This paved trail winds through pinyon-juniper woodland to reach the scenic Lower Emerald Pool and its ephemeral waterfalls.",
+    "description": "This paved trail winds through pinyon-juniper woodland, leading hikers to the Lower Emerald Pool and its scenic ephemeral waterfalls.",
     "location": {
       "lat": 37.2510388558,
       "lon": -112.958668719
@@ -435,14 +445,15 @@
     "estimated_time_hours": null,
     "is_wheelchair_accessible": true,
     "is_kid_friendly": true,
+    "is_pet_friendly": false,
     "raw_listing_description": null,
     "raw_body_text": null,
-    "last_enriched": "2025-12-31T03:09:19.332575"
+    "last_enriched": "2025-12-31T06:23:53.685745"
   },
   {
     "id": "64535736-992B-4D04-8BF6-3F1965A6A01A",
     "name": "Grotto Trail",
-    "description": "This level, shaded path connects Zion Lodge to the Grotto picnic area and offers excellent opportunities for wildlife viewing along the canyon floor.",
+    "description": "This level and shaded path follows the floor of Zion Canyon between the Zion Lodge and The Grotto, offering a gentle walk with excellent opportunities for wildlife viewing.",
     "location": {
       "lat": 0.0,
       "lon": 0.0
@@ -471,18 +482,19 @@
     "difficulty": "Easy",
     "length_miles": 1.0,
     "elevation_gain_ft": 49,
-    "route_type": "Point to Point",
+    "route_type": "Out & Back",
     "estimated_time_hours": null,
     "is_wheelchair_accessible": false,
     "is_kid_friendly": true,
+    "is_pet_friendly": false,
     "raw_listing_description": null,
     "raw_body_text": null,
-    "last_enriched": "2025-12-31T03:09:27.295797"
+    "last_enriched": "2025-12-31T06:24:02.234303"
   },
   {
     "id": "6FD175EF-A82F-47AA-B055-8833EA1C1162",
     "name": "Pa'rus Trail",
-    "description": "Following the Virgin River, this paved path offers iconic views of the Watchman and frequent wildlife sightings in the open meadows.",
+    "description": "This scenic paved path follows the Virgin River, offering spectacular views of The Watchman and frequent wildlife sightings in the surrounding meadows.",
     "location": {
       "lat": 37.2010471279,
       "lon": -112.986788497
@@ -510,19 +522,20 @@
     "nps_url": "https://www.nps.gov/thingstodo/hike-pa-rus-trail.htm",
     "difficulty": "Easy",
     "length_miles": 1.6,
-    "elevation_gain_ft": 151,
+    "elevation_gain_ft": 152,
     "route_type": "Point to Point",
     "estimated_time_hours": null,
     "is_wheelchair_accessible": true,
     "is_kid_friendly": true,
+    "is_pet_friendly": true,
     "raw_listing_description": null,
     "raw_body_text": null,
-    "last_enriched": "2025-12-31T03:09:38.121167"
+    "last_enriched": "2025-12-31T06:24:16.357452"
   },
   {
     "id": "97CF105C-B416-4CDC-B84F-2A2C96D870DB",
     "name": "Canyon Overlook",
-    "description": "This scenic trail features sandstone steps and rocky terrain above a dark slot canyon, culminating in a spectacular viewpoint of Pine Creek Canyon and lower Zion Canyon.",
+    "description": "This trail traverses rocky terrain and sandstone steps above a dark slot canyon to reach a stunning viewpoint overlooking Pine Creek and lower Zion Canyon.",
     "location": {
       "lat": 37.21305420753267,
       "lon": -112.94102381538823
@@ -555,14 +568,15 @@
     "estimated_time_hours": null,
     "is_wheelchair_accessible": false,
     "is_kid_friendly": false,
+    "is_pet_friendly": false,
     "raw_listing_description": null,
     "raw_body_text": null,
-    "last_enriched": "2025-12-31T03:09:44.524825"
+    "last_enriched": "2025-12-31T06:24:28.201221"
   },
   {
     "id": "43CC4A81-2227-4E40-9403-6F7E2B27BC53",
     "name": "Angels Landing",
-    "description": "This strenuous trail follows a steep, narrow ridge with uneven rock steps and chains anchored along exposed sections with dramatic drop-offs.",
+    "description": "This strenuous hike traverses a steep, narrow ridge with rock-carved steps and handrails made of chains while offering dramatic views and significant drop-offs.",
     "location": {
       "lat": 37.2592462593,
       "lon": -112.951341871
@@ -595,14 +609,15 @@
     "estimated_time_hours": null,
     "is_wheelchair_accessible": false,
     "is_kid_friendly": false,
+    "is_pet_friendly": false,
     "raw_listing_description": null,
     "raw_body_text": null,
-    "last_enriched": "2025-12-31T03:09:49.384718"
+    "last_enriched": "2025-12-31T06:24:33.967183"
   },
   {
     "id": "64075857-ACC6-4F4D-961B-1283D0F5475D",
     "name": "The Narrows",
-    "description": "This strenuous hike follows the Virgin River through a narrow slot canyon where the riverbed itself serves as the trail over slippery and uneven rocks.",
+    "description": "This strenuous hike follows the Virgin River through a narrow slot canyon where the riverbed itself serves as the trail over slippery, uneven rocks.",
     "location": {
       "lat": 37.2852131123,
       "lon": -112.947693774
@@ -633,10 +648,11 @@
     "elevation_gain_ft": null,
     "route_type": null,
     "estimated_time_hours": null,
-    "is_wheelchair_accessible": false,
+    "is_wheelchair_accessible": true,
     "is_kid_friendly": false,
+    "is_pet_friendly": false,
     "raw_listing_description": null,
     "raw_body_text": null,
-    "last_enriched": "2025-12-31T03:09:56.368448"
+    "last_enriched": "2025-12-31T06:24:46.925431"
   }
 ]

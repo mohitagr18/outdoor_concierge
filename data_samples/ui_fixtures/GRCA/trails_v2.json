@@ -39,7 +39,8 @@
     "popularity_rank": 26,
     "alltrails_url": "https://www.alltrails.com/poi/us/arizona/fredonia/Angel-s-Window",
     "alltrails_rating": null,
-    "alltrails_review_count": null
+    "alltrails_review_count": null,
+    "is_pet_friendly": false
   },
   {
     "id": "A5616A41-5C70-4666-ADD4-EEC5B071F566",
@@ -77,7 +78,8 @@
     "estimated_time_hours": null,
     "is_wheelchair_accessible": false,
     "is_kid_friendly": false,
-    "last_enriched": "2025-12-28T16:56:10.600315"
+    "last_enriched": "2025-12-28T16:56:10.600315",
+    "is_pet_friendly": false
   },
   {
     "id": "ADEB6109-C66A-4551-A6FF-5F27A57EF04A",
@@ -115,7 +117,8 @@
     "estimated_time_hours": "1 hour",
     "is_wheelchair_accessible": true,
     "is_kid_friendly": true,
-    "last_enriched": "2025-12-28T16:56:24.176175"
+    "last_enriched": "2025-12-28T16:56:24.176175",
+    "is_pet_friendly": false
   },
   {
     "id": "C2653346-9517-42C1-B516-872F5FE6FEA3",
@@ -153,7 +156,8 @@
     "estimated_time_hours": "1 hour",
     "is_wheelchair_accessible": false,
     "is_kid_friendly": true,
-    "last_enriched": "2025-12-28T16:56:33.901933"
+    "last_enriched": "2025-12-28T16:56:33.901933",
+    "is_pet_friendly": false
   },
   {
     "id": "BE2C8EE4-014B-4A5A-957D-023BA52CDC2E",
@@ -195,7 +199,8 @@
     "popularity_rank": 5,
     "alltrails_url": "https://www.alltrails.com/trail/us/arizona/bright-angel-trail--11",
     "alltrails_rating": 4.8,
-    "alltrails_review_count": 5163
+    "alltrails_review_count": 5163,
+    "is_pet_friendly": false
   },
   {
     "id": "15BE1C79-D513-487D-A6DA-D33069E4200A",
@@ -237,7 +242,8 @@
     "popularity_rank": 5,
     "alltrails_url": "https://www.alltrails.com/trail/us/arizona/bright-angel-trail--11",
     "alltrails_rating": 4.8,
-    "alltrails_review_count": 5163
+    "alltrails_review_count": 5163,
+    "is_pet_friendly": false
   },
   {
     "id": "3629411B-0891-4100-85FB-3D0906088B39",
@@ -279,7 +285,8 @@
     "popularity_rank": 5,
     "alltrails_url": "https://www.alltrails.com/trail/us/arizona/bright-angel-trail--11",
     "alltrails_rating": 4.8,
-    "alltrails_review_count": 5163
+    "alltrails_review_count": 5163,
+    "is_pet_friendly": false
   },
   {
     "id": "0D7C079B-4622-4AD2-B6A2-ACF185997079",
@@ -321,7 +328,8 @@
     "popularity_rank": 5,
     "alltrails_url": "https://www.alltrails.com/trail/us/arizona/bright-angel-trail--11",
     "alltrails_rating": 4.8,
-    "alltrails_review_count": 5163
+    "alltrails_review_count": 5163,
+    "is_pet_friendly": false
   },
   {
     "id": "029CFC66-CE9C-4358-9BAE-B46B94300CE8",
@@ -363,7 +371,8 @@
     "popularity_rank": 12,
     "alltrails_url": "https://www.alltrails.com/poi/us/arizona/fredonia/cape-final",
     "alltrails_rating": null,
-    "alltrails_review_count": null
+    "alltrails_review_count": null,
+    "is_pet_friendly": false
   },
   {
     "id": "FC4816C2-C545-4422-8D02-617159D64F59",
@@ -405,7 +414,8 @@
     "popularity_rank": 12,
     "alltrails_url": "https://www.alltrails.com/poi/us/arizona/fredonia/cape-final",
     "alltrails_rating": null,
-    "alltrails_review_count": null
+    "alltrails_review_count": null,
+    "is_pet_friendly": false
   },
   {
     "id": "E6F872D8-F659-4573-A1A4-57A931BB370A",
@@ -447,7 +457,8 @@
     "popularity_rank": 11,
     "alltrails_url": "https://www.alltrails.com/poi/us/arizona/fredonia/cape-royal",
     "alltrails_rating": null,
-    "alltrails_review_count": null
+    "alltrails_review_count": null,
+    "is_pet_friendly": false
   },
   {
     "id": "E8CAC456-C934-457D-A265-474F425A1079",
@@ -485,7 +496,8 @@
     "estimated_time_hours": null,
     "is_wheelchair_accessible": false,
     "is_kid_friendly": false,
-    "last_enriched": "2025-12-28T16:57:41.212713"
+    "last_enriched": "2025-12-28T16:57:41.212713",
+    "is_pet_friendly": false
   },
   {
     "id": "7084236C-2A76-4E0C-BFA5-9AF7F38B0FB9",
@@ -527,7 +539,8 @@
     "popularity_rank": 18,
     "alltrails_url": "https://www.alltrails.com/poi/us/arizona/fredonia/cliff-spring",
     "alltrails_rating": null,
-    "alltrails_review_count": null
+    "alltrails_review_count": null,
+    "is_pet_friendly": false
   },
   {
     "id": "2CADBB90-0D63-4FF2-A865-AB335252DCCC",
@@ -569,7 +582,8 @@
     "popularity_rank": 23,
     "alltrails_url": "https://www.alltrails.com/poi/us/arizona/fredonia/grandview-point",
     "alltrails_rating": null,
-    "alltrails_review_count": null
+    "alltrails_review_count": null,
+    "is_pet_friendly": false
   },
   {
     "id": "1EB057F1-9AFD-460F-906C-C8305066CBDD",
@@ -611,7 +625,8 @@
     "popularity_rank": 23,
     "alltrails_url": "https://www.alltrails.com/poi/us/arizona/fredonia/grandview-point",
     "alltrails_rating": null,
-    "alltrails_review_count": null
+    "alltrails_review_count": null,
+    "is_pet_friendly": false
   },
   {
     "id": "49BF1BDF-AAA2-46B3-9D49-FAAF77C60BEF",
@@ -649,7 +664,8 @@
     "estimated_time_hours": null,
     "is_wheelchair_accessible": false,
     "is_kid_friendly": false,
-    "last_enriched": "2025-12-28T16:59:59.127051"
+    "last_enriched": "2025-12-28T16:59:59.127051",
+    "is_pet_friendly": false
   },
   {
     "id": "E6489858-88D5-4FD8-A8CA-14944947608D",
@@ -687,7 +703,8 @@
     "estimated_time_hours": "6 hours",
     "is_wheelchair_accessible": false,
     "is_kid_friendly": false,
-    "last_enriched": "2025-12-28T17:00:17.249304"
+    "last_enriched": "2025-12-28T17:00:17.249304",
+    "is_pet_friendly": false
   },
   {
     "id": "6576E6F2-76A6-45D5-BB6B-8B763A231DEB",
@@ -725,7 +742,8 @@
     "estimated_time_hours": "2-3 hours",
     "is_wheelchair_accessible": false,
     "is_kid_friendly": false,
-    "last_enriched": "2025-12-28T17:00:25.762926"
+    "last_enriched": "2025-12-28T17:00:25.762926",
+    "is_pet_friendly": false
   },
   {
     "id": "7187895C-47AD-4C26-912C-D8D95057A332",
@@ -763,7 +781,8 @@
     "estimated_time_hours": "2-4 hours",
     "is_wheelchair_accessible": false,
     "is_kid_friendly": false,
-    "last_enriched": "2025-12-28T17:01:05.038910"
+    "last_enriched": "2025-12-28T17:01:05.038910",
+    "is_pet_friendly": false
   },
   {
     "id": "A77E1564-88C9-40F9-9A7F-093F8DF27BDF",
@@ -801,7 +820,8 @@
     "estimated_time_hours": null,
     "is_wheelchair_accessible": false,
     "is_kid_friendly": false,
-    "last_enriched": "2025-12-28T17:01:22.528489"
+    "last_enriched": "2025-12-28T17:01:22.528489",
+    "is_pet_friendly": false
   },
   {
     "id": "20194FA0-A287-4F90-A438-4BCFC700DDD6",
@@ -843,7 +863,8 @@
     "popularity_rank": 5,
     "alltrails_url": "https://www.alltrails.com/trail/us/arizona/bright-angel-trail--11",
     "alltrails_rating": 4.8,
-    "alltrails_review_count": 5163
+    "alltrails_review_count": 5163,
+    "is_pet_friendly": false
   },
   {
     "id": "801F4484-58F7-471C-860E-046355B69869",
@@ -881,7 +902,8 @@
     "estimated_time_hours": "2 hours",
     "is_wheelchair_accessible": false,
     "is_kid_friendly": false,
-    "last_enriched": "2025-12-28T17:02:35.358625"
+    "last_enriched": "2025-12-28T17:02:35.358625",
+    "is_pet_friendly": false
   },
   {
     "id": "86310E28-80D4-40E9-87BC-043CD8F92941",
@@ -919,7 +941,8 @@
     "estimated_time_hours": null,
     "is_wheelchair_accessible": false,
     "is_kid_friendly": true,
-    "last_enriched": "2025-12-28T17:02:52.425909"
+    "last_enriched": "2025-12-28T17:02:52.425909",
+    "is_pet_friendly": false
   },
   {
     "id": "CA0A44F0-62BB-4440-8FFC-A4A9166F7D29",
@@ -961,7 +984,8 @@
     "popularity_rank": 8,
     "alltrails_url": "https://www.alltrails.com/trail/us/arizona/grand-canyon-rim-mules-to-mather-point",
     "alltrails_rating": 4.8,
-    "alltrails_review_count": 4686
+    "alltrails_review_count": 4686,
+    "is_pet_friendly": false
   },
   {
     "id": "E7877936-7FD6-4AC3-9B58-C4C423A26DC9",
@@ -1003,7 +1027,8 @@
     "popularity_rank": 21,
     "alltrails_url": "https://www.alltrails.com/poi/us/arizona/fredonia/roosevelt-point",
     "alltrails_rating": null,
-    "alltrails_review_count": null
+    "alltrails_review_count": null,
+    "is_pet_friendly": false
   },
   {
     "id": "471D6A07-1D02-4CDA-BBB9-49D477FE1FBA",
@@ -1045,7 +1070,8 @@
     "popularity_rank": 1,
     "alltrails_url": "https://www.alltrails.com/trail/us/arizona/south-kaibab-trail-to-ooh-aah-point",
     "alltrails_rating": 4.8,
-    "alltrails_review_count": 10354
+    "alltrails_review_count": 10354,
+    "is_pet_friendly": false
   },
   {
     "id": "4D7FDAB7-11E5-48A1-8203-7F1CF27A832B",
@@ -1083,7 +1109,8 @@
     "estimated_time_hours": null,
     "is_wheelchair_accessible": false,
     "is_kid_friendly": false,
-    "last_enriched": "2025-12-28T17:03:27.660281"
+    "last_enriched": "2025-12-28T17:03:27.660281",
+    "is_pet_friendly": false
   },
   {
     "id": "C5610849-6827-4938-BB69-1950A47A44AB",
@@ -1121,7 +1148,8 @@
     "estimated_time_hours": "1 hour",
     "is_wheelchair_accessible": true,
     "is_kid_friendly": true,
-    "last_enriched": "2025-12-28T17:03:32.015718"
+    "last_enriched": "2025-12-28T17:03:32.015718",
+    "is_pet_friendly": false
   },
   {
     "id": "757CDCE5-7D96-4471-9A16-C9A7D22AF938",
@@ -1159,7 +1187,8 @@
     "estimated_time_hours": null,
     "is_wheelchair_accessible": true,
     "is_kid_friendly": true,
-    "last_enriched": "2025-12-28T17:03:37.613478"
+    "last_enriched": "2025-12-28T17:03:37.613478",
+    "is_pet_friendly": false
   },
   {
     "id": "F8E30E3A-260E-459D-A8A1-B4E900A478DA",
@@ -1197,7 +1226,8 @@
     "estimated_time_hours": "1-2 hours",
     "is_wheelchair_accessible": false,
     "is_kid_friendly": true,
-    "last_enriched": "2025-12-28T17:03:44.652564"
+    "last_enriched": "2025-12-28T17:03:44.652564",
+    "is_pet_friendly": false
   },
   {
     "id": "DB8E6DF2-C4BF-40E6-BF61-50227619000A",
@@ -1235,7 +1265,8 @@
     "estimated_time_hours": "1-2 hours",
     "is_wheelchair_accessible": false,
     "is_kid_friendly": true,
-    "last_enriched": "2025-12-28T17:03:51.438812"
+    "last_enriched": "2025-12-28T17:03:51.438812",
+    "is_pet_friendly": false
   },
   {
     "id": "310C198B-6C9B-486B-8D9E-4A80665C4C11",
@@ -1273,7 +1304,8 @@
     "estimated_time_hours": null,
     "is_wheelchair_accessible": false,
     "is_kid_friendly": true,
-    "last_enriched": "2025-12-28T17:03:56.413150"
+    "last_enriched": "2025-12-28T17:03:56.413150",
+    "is_pet_friendly": false
   },
   {
     "id": "0D15591D-6A44-48B7-BE9F-D75E44233855",
@@ -1311,7 +1343,8 @@
     "estimated_time_hours": "3 hours",
     "is_wheelchair_accessible": false,
     "is_kid_friendly": false,
-    "last_enriched": "2025-12-28T17:04:03.748292"
+    "last_enriched": "2025-12-28T17:04:03.748292",
+    "is_pet_friendly": false
   },
   {
     "id": "891258FE-30E6-46F9-9A92-94FEAA312F61",
@@ -1349,6 +1382,7 @@
     "estimated_time_hours": "4-6 hours",
     "is_wheelchair_accessible": false,
     "is_kid_friendly": false,
-    "last_enriched": "2025-12-28T17:04:16.549346"
+    "last_enriched": "2025-12-28T17:04:16.549346",
+    "is_pet_friendly": false
   }
 ]
