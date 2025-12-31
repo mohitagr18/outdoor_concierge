@@ -29,6 +29,69 @@ class TrailStats(BaseModel):
     estimated_time_hours: Optional[str] = Field(None, description="Human readable time estimate, e.g. 3-4 hours")
     is_wheelchair_accessible: bool = Field(False, description="True if description mentions wheelchair access, paved path, or ADA accessible.")
     is_kid_friendly: bool = Field(False, description="True if description mentions kids, families, easy walk, or is short (< 2 miles) and flat.")
+    clean_description: Optional[str] = Field(None, description="A concise, 1-2 sentence description of the actual hike. Exclude hours, rules, regulations, getting there, accessibility info, and HTML. Focus only on what makes this trail unique and what you'll see/do.")
+
+# --- Helper: Infer Difficulty from Metrics ---
+def infer_difficulty_from_metrics(length_miles: Optional[float], elevation_gain_ft: Optional[int], time_hours: Optional[str]) -> Optional[str]:
+    """
+    Infers difficulty level from trail metrics when explicit difficulty is missing.
+    Uses empirical hiking standards:
+    - Easy: < 3 miles, < 300 ft elevation, < 2 hours
+    - Moderate: 3-8 miles, 300-1000 ft elevation, 2-5 hours
+    - Strenuous: > 8 miles, > 1000 ft elevation, > 5 hours
+    """
+    if length_miles is None and elevation_gain_ft is None and time_hours is None:
+        return None
+    
+    score = 0
+    max_score = 0
+    
+    # Score based on length
+    if length_miles is not None:
+        max_score += 3
+        if length_miles <= 3:
+            score += 1
+        elif length_miles <= 8:
+            score += 2
+        else:
+            score += 3
+    
+    # Score based on elevation gain
+    if elevation_gain_ft is not None:
+        max_score += 3
+        if elevation_gain_ft <= 300:
+            score += 1
+        elif elevation_gain_ft <= 1000:
+            score += 2
+        else:
+            score += 3
+    
+    # Score based on time estimate
+    if time_hours is not None:
+        max_score += 3
+        # Parse time estimate (e.g., "3-4 hours" or "2 hours")
+        import re
+        time_match = re.search(r'(\d+(?:\.\d+)?)', time_hours)
+        if time_match:
+            hours = float(time_match.group(1))
+            if hours <= 2:
+                score += 1
+            elif hours <= 5:
+                score += 2
+            else:
+                score += 3
+    
+    if max_score == 0:
+        return None
+    
+    avg_score = score / max_score
+    
+    if avg_score <= 1.5:
+        return "Easy"
+    elif avg_score <= 2.2:
+        return "Moderate"
+    else:
+        return "Strenuous"
 
 # --- Extraction Logic ---
 def extract_trail_stats(trail_item: Dict[str, Any], client: genai.Client) -> Optional[TrailStats]:
@@ -56,13 +119,14 @@ def extract_trail_stats(trail_item: Dict[str, Any], client: genai.Client) -> Opt
         "Instructions:\n"
         "1. DECIDE: Is this a hiking trail, route, or walking path? (True/False)\n"
         "2. IF TRUE, extract metrics:\n"
-        "   - 'difficulty' (Easy, Moderate, Strenuous)\n"
+        "   - 'difficulty' (Easy, Moderate, or Strenuous; can be null if not explicitly stated)\n"
         "   - 'length_miles' (numeric)\n"
         "   - 'elevation_gain_ft' (numeric)\n"
         "   - 'route_type'\n"
         "   - 'estimated_time_hours'\n"
         "   - 'is_wheelchair_accessible': Look for 'wheelchair', 'paved', 'accessible', 'ADA'.\n"
         "   - 'is_kid_friendly': Look for 'easy', 'family', 'kids', 'flat', 'short'.\n"
+        "   - 'clean_description': Write a concise, 1-2 sentence description of the hike itself. Focus on what makes it unique and what hikers will see/do. EXCLUDE: hours of operation, rules/regulations, how to get there, accessibility requirements, parking info, permit requirements, HTML tags, and extra sections.\n"
     )
 
     try:
@@ -71,7 +135,19 @@ def extract_trail_stats(trail_item: Dict[str, Any], client: genai.Client) -> Opt
             contents=prompt,
             config={'response_mime_type': 'application/json', 'response_schema': TrailStats}
         )
-        return response.parsed
+        stats = response.parsed
+        
+        # If Gemini didn't extract difficulty but we have metrics, infer it
+        if stats and stats.is_valid_hiking_trail and stats.difficulty is None:
+            inferred = infer_difficulty_from_metrics(
+                stats.length_miles,
+                stats.elevation_gain_ft,
+                stats.estimated_time_hours
+            )
+            if inferred:
+                stats.difficulty = inferred
+        
+        return stats
     except Exception as e:
         print(f"Error extracting for {title}: {e}")
         return None
@@ -121,7 +197,7 @@ def main():
             enriched_trail = {
                 "id": trail.get("id"),
                 "name": title,
-                "description": trail.get("listingDescription") or title,
+                "description": stats.clean_description or trail.get("listingDescription") or title,
                 "location": {
                     "lat": float(trail.get("latitude", 0) or 0),
                     "lon": float(trail.get("longitude", 0) or 0)

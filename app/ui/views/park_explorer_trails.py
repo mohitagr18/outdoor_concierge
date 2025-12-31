@@ -36,9 +36,14 @@ def render_trails_browser(park_code: str, static_data):
         if item.get("images") and len(item["images"]) > 0:
             img_url = item["images"][0].get("url")
 
+        # Skip trails without a valid difficulty classification
+        difficulty = item.get("difficulty")
+        if not difficulty or difficulty.lower() == "unknown":
+            continue
+        
         clean_rows.append({
             "name": item.get("name"),
-            "difficulty": item.get("difficulty") or "Unknown",
+            "difficulty": difficulty,
             "length": item.get("length_miles"),
             "elevation": item.get("elevation_gain_ft"),
             "rating": item.get("alltrails_rating"),
@@ -107,10 +112,20 @@ def render_trails_browser(park_code: str, static_data):
         for _, row in map_df.iterrows():
             color = get_difficulty_color(row["difficulty"])
             
+            # Build rating string with optional reviews link
+            if pd.notna(row['rating']) and pd.notna(row['reviews']) and row['url_at']:
+                rating_str = f"{row['rating']} ⭐ <a href='{row['url_at']}?reviews=true' target='_blank'>Latest Reviews ({int(row['reviews'])})</a>"
+            elif pd.notna(row['rating']) and pd.notna(row['reviews']):
+                rating_str = f"{row['rating']} ⭐ ({int(row['reviews'])} Latest Reviews)"
+            elif pd.notna(row['rating']):
+                rating_str = f"{row['rating']} ⭐"
+            else:
+                rating_str = "N/A"
+            
             popup_html = f"""
             <b>{row['name']}</b><br>
             {row['difficulty']} | {row['length'] or '?'} mi<br>
-            Rating: {row['rating'] or 'N/A'} ⭐
+            Rating: {rating_str}
             """
             
             folium.Marker(
@@ -127,8 +142,8 @@ def render_trails_browser(park_code: str, static_data):
     # 4. List View (Bucketized)
     st.markdown("### 🥾 Trail Details")
     
-    # Sort order
-    order = ["Easy", "Moderate", "Strenuous", "Unknown"]
+    # Sort order (Unknown filtered out earlier)
+    order = ["Easy", "Moderate", "Strenuous"]
     
     for level in order:
         subset = filtered[filtered["difficulty"] == level]
@@ -173,10 +188,11 @@ def render_trails_browser(park_code: str, static_data):
                     if row['desc']:
                         st.write(row['desc'])
                     
-                    # Links
+                    # Links section
                     links = []
                     if row['url_nps']: links.append(f"[NPS Guide]({row['url_nps']})")
                     if row['url_at']: links.append(f"[AllTrails]({row['url_at']})")
+                    if row['url_at'] and pd.notna(row['reviews']): links.append(f"[Latest Reviews ({int(row['reviews'])})]({row['url_at']}?reviews=true)")
                     
                     if links:
                         st.markdown(" | ".join(links))

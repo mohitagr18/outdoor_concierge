@@ -70,7 +70,7 @@
       }
     ],
     "nps_url": "https://www.nps.gov/places/000/arizona-trail.htm",
-    "difficulty": null,
+    "difficulty": "Easy",
     "length_miles": 10.0,
     "elevation_gain_ft": null,
     "route_type": "Point to Point",
@@ -352,7 +352,7 @@
       }
     ],
     "nps_url": "https://www.nps.gov/places/000/cape-final.htm",
-    "difficulty": null,
+    "difficulty": "Easy",
     "length_miles": 4.2,
     "elevation_gain_ft": null,
     "route_type": "Out & Back",
@@ -874,7 +874,7 @@
       }
     ],
     "nps_url": "https://www.nps.gov/places/000/point-imperial-trail.htm",
-    "difficulty": null,
+    "difficulty": "Easy",
     "length_miles": 4.0,
     "elevation_gain_ft": null,
     "route_type": "Out & Back",
@@ -1304,7 +1304,7 @@
       }
     ],
     "nps_url": "https://www.nps.gov/places/000/uncle-jim-trail.htm",
-    "difficulty": null,
+    "difficulty": "Easy",
     "length_miles": 4.7,
     "elevation_gain_ft": 730,
     "route_type": "Loop",
@@ -1342,7 +1342,7 @@
       }
     ],
     "nps_url": "https://www.nps.gov/places/000/widforss-trail.htm",
-    "difficulty": null,
+    "difficulty": "Easy",
     "length_miles": 9.6,
     "elevation_gain_ft": 1000,
     "route_type": "Out & Back",

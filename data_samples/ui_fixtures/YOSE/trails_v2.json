@@ -475,7 +475,7 @@
       }
     ],
     "nps_url": "https://www.nps.gov/places/000/glacier-point-ski-hut.htm",
-    "difficulty": null,
+    "difficulty": "Easy",
     "length_miles": 10.5,
     "elevation_gain_ft": null,
     "route_type": "Out & Back",
@@ -1394,7 +1394,7 @@
       }
     ],
     "nps_url": "https://www.nps.gov/places/000/porcupine-creek-trailhead.htm",
-    "difficulty": null,
+    "difficulty": "Moderate",
     "length_miles": 10.4,
     "elevation_gain_ft": 580,
     "route_type": "Out & Back",
