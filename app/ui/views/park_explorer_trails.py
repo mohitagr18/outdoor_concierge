@@ -55,6 +55,7 @@ def render_trails_browser(park_code: str, static_data):
             "url_at": item.get("alltrails_url"),
             "img": img_url,
             "route_type": item.get("route_type"),
+            "popularity_rank": item.get("popularity_rank"),
             "wheelchair": item.get("is_wheelchair_accessible", False),
             "kid_friendly": item.get("is_kid_friendly", False)
         })
@@ -139,62 +140,124 @@ def render_trails_browser(park_code: str, static_data):
     
     st.divider()
 
-    # 4. List View (Bucketized)
-    st.markdown("### 🥾 Trail Details")
+    # 4. List View - Top Rated Trails First
+    st.markdown("### 🏆 Top Rated Trails")
     
-    # Sort order (Unknown filtered out earlier)
+    # Get top trails by popularity_rank, then by rating
+    top_trails = pd.DataFrame()
+    if 'popularity_rank' in filtered.columns:
+        top_trails = filtered.dropna(subset=['popularity_rank']).sort_values('popularity_rank')
+    
+    if top_trails.empty and 'rating' in filtered.columns:
+        # Fallback: sort by rating if no popularity_rank
+        top_trails = filtered[pd.notna(filtered['rating'])].sort_values('rating', ascending=False)
+    
+    if top_trails.empty:
+        # Fallback: just take first trails from filtered
+        top_trails = filtered.head(15)
+    else:
+        top_trails = top_trails.head(15)
+    
+    if not top_trails.empty:
+        for idx, (_, row) in enumerate(top_trails.iterrows(), 1):
+            # Top Trail Card Layout (Full Details)
+            c1, c2 = st.columns([1, 4])
+            
+            # Image Column
+            with c1:
+                if row["img"]:
+                    st.image(row["img"], use_container_width=True)
+                else:
+                    st.caption("No Image")
+            
+            # Info Column
+            with c2:
+                # Rank + Title with accessibility icons
+                rank_badge = f"**#{int(row['popularity_rank'])}**" if pd.notna(row['popularity_rank']) else ""
+                title = f"#### {rank_badge} {row['name']}" if rank_badge else f"#### {row['name']}"
+                if row['wheelchair']:
+                    title += " ♿"
+                if row['kid_friendly']:
+                    title += " 👶"
+                st.markdown(title)
+                
+                # Metrics line
+                metrics = []
+                metrics.append(f"**{row['difficulty']}**")
+                if pd.notna(row['length']) and row['length'] > 0:
+                    metrics.append(f"📏 {row['length']} mi")
+                if pd.notna(row['elevation']) and row['elevation'] > 0:
+                    metrics.append(f"⛰️ {int(row['elevation'])} ft")
+                if row['route_type']:
+                    metrics.append(f"🔄 {row['route_type']}")
+                if pd.notna(row['rating']):
+                    if pd.notna(row['reviews']):
+                        metrics.append(f"⭐ {row['rating']} ({int(row['reviews'])} reviews)")
+                    else:
+                        metrics.append(f"⭐ {row['rating']}")
+                
+                st.caption(" • ".join(metrics))
+                
+                # Description (full for top trails)
+                if row['desc']:
+                    st.write(row['desc'])
+                
+                # Links section
+                links = []
+                if row['url_nps']: links.append(f"[NPS Guide]({row['url_nps']})")
+                if row['url_at']: links.append(f"[AllTrails]({row['url_at']})")
+                if row['url_at'] and pd.notna(row['reviews']): links.append(f"[Latest Reviews ({int(row['reviews'])})]({row['url_at']}?reviews=true)")
+                
+                if links:
+                    st.markdown(" | ".join(links))
+            
+            st.divider()
+    
+    # 5. Difficulty Buckets (Minimal - No Descriptions)
+    st.markdown("### 🥾 Browse by Difficulty")
+    
+    # Sort order
     order = ["Easy", "Moderate", "Strenuous"]
     
     for level in order:
         subset = filtered[filtered["difficulty"] == level]
         if subset.empty: continue
         
-        with st.expander(f"**{level}** ({len(subset)})", expanded=True):
+        with st.expander(f"**{level}** ({len(subset)})", expanded=False):
             for _, row in subset.iterrows():
-                # Trail Card Layout
-                c1, c2 = st.columns([1, 4])
+                # Minimal Trail Card (No Image, No Description)
+                # Title with accessibility icons
+                title = f"#### {row['name']}"
+                if row['wheelchair']:
+                    title += " ♿"
+                if row['kid_friendly']:
+                    title += " 👶"
+                st.markdown(title)
                 
-                # Image Column
-                with c1:
-                    if row["img"]:
-                        st.image(row["img"], use_container_width=True)
+                # Metrics line (compact)
+                metrics = []
+                if pd.notna(row['length']) and row['length'] > 0:
+                    metrics.append(f"📏 {row['length']} mi")
+                if pd.notna(row['elevation']) and row['elevation'] > 0:
+                    metrics.append(f"⛰️ {int(row['elevation'])} ft")
+                if row['route_type']:
+                    metrics.append(f"🔄 {row['route_type']}")
+                if pd.notna(row['rating']):
+                    if pd.notna(row['reviews']):
+                        metrics.append(f"⭐ {row['rating']} ({int(row['reviews'])} reviews)")
                     else:
-                        st.caption("No Image")
-                
-                # Info Column
-                with c2:
-                    # Title Row with accessibility icons (FIX #3)
-                    title = f"#### {row['name']}"
-                    if row['wheelchair']:
-                        title += " ♿"
-                    if row['kid_friendly']:
-                        title += " 👶"
-                    st.markdown(title)
-                    
-                    # Metrics line (FIX #2: Skip NaN/None values)
-                    metrics = []
-                    if pd.notna(row['length']) and row['length'] > 0:
-                        metrics.append(f"📏 {row['length']} mi")
-                    if pd.notna(row['elevation']) and row['elevation'] > 0:
-                        metrics.append(f"⛰️ {int(row['elevation'])} ft")
-                    if row['route_type']:
-                        metrics.append(f"🔄 {row['route_type']}")
-                    if pd.notna(row['rating']):
                         metrics.append(f"⭐ {row['rating']}")
-                    
-                    if metrics:
-                        st.caption(" • ".join(metrics))
-                    
-                    if row['desc']:
-                        st.write(row['desc'])
-                    
-                    # Links section
-                    links = []
-                    if row['url_nps']: links.append(f"[NPS Guide]({row['url_nps']})")
-                    if row['url_at']: links.append(f"[AllTrails]({row['url_at']})")
-                    if row['url_at'] and pd.notna(row['reviews']): links.append(f"[Latest Reviews ({int(row['reviews'])})]({row['url_at']}?reviews=true)")
-                    
-                    if links:
-                        st.markdown(" | ".join(links))
+                
+                if metrics:
+                    st.caption(" • ".join(metrics))
+                
+                # Links section only (no description)
+                links = []
+                if row['url_nps']: links.append(f"[NPS Guide]({row['url_nps']})")
+                if row['url_at']: links.append(f"[AllTrails]({row['url_at']})")
+                if row['url_at'] and pd.notna(row['reviews']): links.append(f"[Latest Reviews ({int(row['reviews'])})]({row['url_at']}?reviews=true)")
+                
+                if links:
+                    st.caption(" | ".join(links))
                 
                 st.divider()
