@@ -31,6 +31,20 @@ class TrailStats(BaseModel):
     is_kid_friendly: bool = Field(False, description="True if description mentions kids, families, easy walk, or is short (< 2 miles) and flat.")
     clean_description: Optional[str] = Field(None, description="A concise, 1-2 sentence description of the actual hike. Exclude hours, rules, regulations, getting there, accessibility info, and HTML. Focus only on what makes this trail unique and what you'll see/do.")
 
+# --- Helpers: cleaning HTML / truncation
+def strip_html_and_truncate(text: Optional[str], max_sentences: int = 2) -> Optional[str]:
+    if not text:
+        return None
+    # Remove HTML tags
+    cleaned = re.sub(r'<[^>]+>', '', text)
+    # Normalize whitespace
+    cleaned = re.sub(r'\s+', ' ', cleaned).strip()
+    # Split into sentences (naive)
+    parts = re.split(r'(?<=[.!?])\s+', cleaned)
+    if len(parts) <= max_sentences:
+        return cleaned
+    return ' '.join(parts[:max_sentences]).strip()
+
 # --- Helper: Infer Difficulty from Metrics ---
 def infer_difficulty_from_metrics(length_miles: Optional[float], elevation_gain_ft: Optional[int], time_hours: Optional[str]) -> Optional[str]:
     """
@@ -99,12 +113,12 @@ def extract_trail_stats(trail_item: Dict[str, Any], client: genai.Client) -> Opt
     
     # Normalize description from various NPS schemas (Places vs Things To Do)
     desc_parts = [
-        trail_item.get("listingDescription") or "",
-        trail_item.get("bodyText") or "",
-        trail_item.get("shortDescription") or "",
-        trail_item.get("longDescription") or "",
-        trail_item.get("activityDescription") or "",
-        trail_item.get("accessibilityInformation") or "" # CRITICAL: Include accessibility info
+        strip_html_and_truncate(trail_item.get("listingDescription") or "") or "",
+        strip_html_and_truncate(trail_item.get("bodyText") or "") or "",
+        strip_html_and_truncate(trail_item.get("shortDescription") or "") or "",
+        strip_html_and_truncate(trail_item.get("longDescription") or "") or "",
+        strip_html_and_truncate(trail_item.get("activityDescription") or "") or "",
+        strip_html_and_truncate(trail_item.get("accessibilityInformation") or "") or "" # CRITICAL: Include accessibility info
     ]
     desc_context = "\n".join([p for p in desc_parts if p.strip()])
     
@@ -146,6 +160,12 @@ def extract_trail_stats(trail_item: Dict[str, Any], client: genai.Client) -> Opt
             )
             if inferred:
                 stats.difficulty = inferred
+
+        # If LLM didn't provide a clean_description, try to use cleaned listing/body text as fallback
+        if stats and not stats.clean_description:
+            candidate = strip_html_and_truncate(trail_item.get('listingDescription') or trail_item.get('bodyText') or '')
+            if candidate and len(candidate) > 30:
+                stats.clean_description = candidate
         
         return stats
     except Exception as e:
@@ -197,7 +217,8 @@ def main():
             enriched_trail = {
                 "id": trail.get("id"),
                 "name": title,
-                "description": stats.clean_description or trail.get("listingDescription") or title,
+                # Persist a cleaned short description (LLM or cleaned NPS listing/body)
+                "description": stats.clean_description or strip_html_and_truncate(trail.get("listingDescription") or trail.get("bodyText")) or title,
                 "location": {
                     "lat": float(trail.get("latitude", 0) or 0),
                     "lon": float(trail.get("longitude", 0) or 0)
@@ -211,6 +232,9 @@ def main():
                 "estimated_time_hours": stats.estimated_time_hours,
                 "is_wheelchair_accessible": stats.is_wheelchair_accessible,
                 "is_kid_friendly": stats.is_kid_friendly,
+                # Keep raw NPS text so UI can prefer listing/body if needed
+                "raw_listing_description": strip_html_and_truncate(trail.get("listingDescription")),
+                "raw_body_text": strip_html_and_truncate(trail.get("bodyText")),
                 "last_enriched": datetime.now().isoformat()
             }
             results.append(enriched_trail)
