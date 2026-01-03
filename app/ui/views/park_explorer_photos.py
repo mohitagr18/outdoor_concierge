@@ -1,83 +1,125 @@
 import streamlit as st
 
-def get_time_badge_style(time_str):
+def get_tag_html(text, tag_type="default"):
     """
-    Returns (bg_color, text_color) based on the time of day
-    to create distinct visual badges.
+    Renders a styled pill badge.
     """
-    t = time_str.lower()
-    if "sunrise" in t or "dawn" in t:
-        return "#fff7ed", "#c2410c"  # Orange-ish
-    if "sunset" in t or "dusk" in t:
-        return "#fff1f2", "#be123c"  # Red/Pink-ish
-    if "night" in t or "milky way" in t or "star" in t:
-        return "#f5f3ff", "#6d28d9"  # Violet/Dark
-    if "golden" in t:
-        return "#fefce8", "#a16207"  # Gold/Yellow
-    if "mid" in t or "day" in t or "noon" in t:
-        return "#eff6ff", "#1d4ed8"  # Blue
+    if tag_type == "time":
+        bg_color, text_color = "#eff6ff", "#1d4ed8" # Blue
+        icon = "🕒"
+    elif tag_type == "season":
+        bg_color, text_color = "#f0fdf4", "#15803d" # Green
+        icon = "📅"
+    else:
+        bg_color, text_color = "#f3f4f6", "#374151"
+        icon = "🔹"
+
+    return (
+        f'<span style="'
+        f'background-color: {bg_color}; color: {text_color}; '
+        f'padding: 4px 10px; border-radius: 12px; font-size: 12px; '
+        f'font-weight: 600; margin-right: 6px; display: inline-block; margin-bottom: 4px;'
+        f'">{icon} {text}</span>'
+    )
+
+def classify_and_render_tags(spot):
+    """
+    Heuristic to separate mixed-up tags into Time vs Season
+    since the scraper might have dumped everything into 'best_time_of_day'.
+    """
+    # 1. Gather all potential tags
+    raw_times = getattr(spot, "best_time_of_day", [])
+    raw_seasons = getattr(spot, "best_seasons", [])
     
-    # Default Gray
-    return "#f3f4f6", "#374151"
+    # Flatten just in case
+    all_tags = set(raw_times + raw_seasons)
+    
+    # 2. Define buckets
+    time_bucket = []
+    season_bucket = []
+    
+    # Keywords for detection
+    season_keywords = [
+        "spring", "summer", "fall", "autumn", "winter",
+        "january", "february", "march", "april", "may", "june",
+        "july", "august", "september", "october", "november", "december",
+        "year", "round"
+    ]
+    
+    for tag in all_tags:
+        clean_tag = tag.lower()
+        if any(k in clean_tag for k in season_keywords):
+            season_bucket.append(tag)
+        else:
+            time_bucket.append(tag)
+            
+    # 3. Render Time Row
+    if time_bucket:
+        st.markdown(
+            "<div style='font-size:0.75em; color:#6b7280; font-weight:700; margin-bottom:4px; letter-spacing:0.05em; margin-top:8px;'>BEST TIME</div>", 
+            unsafe_allow_html=True
+        )
+        html = "".join([get_tag_html(t, "time") for t in sorted(time_bucket)])
+        st.markdown(html, unsafe_allow_html=True)
+
+    # 4. Render Season Row
+    if season_bucket:
+        st.markdown(
+            "<div style='font-size:0.75em; color:#6b7280; font-weight:700; margin-bottom:4px; letter-spacing:0.05em; margin-top:8px;'>BEST SEASON</div>", 
+            unsafe_allow_html=True
+        )
+        html = "".join([get_tag_html(s, "season") for s in sorted(season_bucket)])
+        st.markdown(html, unsafe_allow_html=True)
+
 
 def render_photo_spots(photo_spots):
-    """
-    Renders a masonry-style grid of photography spots.
-    Expects a list of PhotoSpot Pydantic objects.
-    """
     st.markdown("### 📸 Best Photography Spots")
-    st.caption("Curated locations for the best lighting and compositions.")
+    st.caption("Top rated locations ordered by popularity.")
 
     if not photo_spots:
-        st.info("No photography guides available for this park yet.")
+        st.info("No photography data found.")
         return
 
-    # Create a 3-column layout for a masonry-like effect
+    # Sort by rank
+    sorted_spots = sorted(photo_spots, key=lambda x: getattr(x, 'rank', 999) or 999)
+
     cols = st.columns(3)
     
-    for idx, spot in enumerate(photo_spots):
+    for idx, spot in enumerate(sorted_spots):
         col = cols[idx % 3]
         
         with col:
             with st.container(border=True):
-                # 1. Image (Fallback to placeholder if None)
-                # Access attribute directly instead of .get()
-                image_url = getattr(spot, "image_url", None)
-                
-                if not image_url:
-                    # Clean placeholder with spot name
+                # Image
+                img = getattr(spot, "image_url", None)
+                if not img or "http" not in img:
                     safe_name = spot.name.replace(" ", "+")
-                    image_url = f"https://placehold.co/600x400/EEE/31343C?text={safe_name}"
+                    img = f"https://placehold.co/600x400/EEE/31343C?text={safe_name}"
+                st.image(img, use_container_width=True)
                 
-                st.image(image_url, use_container_width=True)
+                # Header
+                rank = getattr(spot, "rank", None)
+                rank_str = f"#{rank} " if rank else ""
+                st.subheader(f"{rank_str}{spot.name}")
                 
-                # 2. Title & Description
-                st.subheader(spot.name)
-                # Use getattr for safety, though Pydantic guarantees field existence
+                # Desc
                 desc = getattr(spot, "description", "")
-                st.markdown(f"<small>{desc}</small>", unsafe_allow_html=True)
-                
-                st.write("") # Spacer
-                
-                # 3. Best Time Badges
-                best_times = getattr(spot, "best_time_of_day", [])
-                badges_html = ""
-                for time in best_times:
-                    bg, txt = get_time_badge_style(time)
-                    badges_html += (
-                        f'<span style="background-color:{bg}; color:{txt}; '
-                        f'padding:4px 8px; border-radius:12px; font-size:12px; '
-                        f'margin-right:4px; font-weight:600; display:inline-block; margin-bottom:4px;">'
-                        f'{time}</span>'
-                    )
-                
-                if badges_html:
-                    st.markdown(badges_html, unsafe_allow_html=True)
-                    st.write("") # Spacer
-                
-                # 4. Pro Tips Expander
+                if desc:
+                    st.markdown(f"<span style='color:#555; font-size:0.9em'>{desc}</span>", unsafe_allow_html=True)
+
+                # --- SMART TAG RENDERER ---
+                classify_and_render_tags(spot)
+                # --------------------------
+
+                # Tips
                 tips = getattr(spot, "tips", [])
                 if tips:
+                    st.write("")
                     with st.expander("💡 Pro Tips", expanded=False):
                         for tip in tips:
                             st.markdown(f"- {tip}")
+
+                # Footer
+                src = getattr(spot, "source_url", None)
+                if src:
+                    st.markdown(f"<div style='text-align:right; font-size:0.8em; margin-top:10px;'><a href='{src}' target='_blank' style='color:#888; text-decoration:none;'>Read Guide ↗</a></div>", unsafe_allow_html=True)

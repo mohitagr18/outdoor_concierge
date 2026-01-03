@@ -196,5 +196,8 @@ class PhotoSpot(BaseModel):
     parkCode: str
     description: str
     best_time_of_day: List[str] = []
+    rank: Optional[int] = None                  # Needs to be optional for backward compatibility
+    best_seasons: List[str] = Field(default_factory=list) # e.g. ["Summer", "Fall"]
+    source_url: Optional[str] = None            # Link to the blog post
     tips: List[str] = []
     image_url: Optional[str] = None

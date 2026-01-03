@@ -1,112 +1,456 @@
 [
   {
+    "rank": 1,
     "name": "Big Springs",
     "parkCode": "zion",
-    "description": "Expect a brutal 10.5 mile round trip hike with 4.5 miles of river walking and deep water; it is the top of the bottom-up route in the Narrows.",
+    "description": "Located at the top of the bottom-up route of the Narrows, this spot involves a 4.5-mile river walk one direction and features impressive canyon views and waterfalls.",
     "best_time_of_day": [
-      "June / Summer"
+      "Daytime",
+      "June"
     ],
     "tips": [
-      "Expect a brutal 10.5 mile round trip hike with 4.5 miles of river walking and deep water; it is the top of the bottom-up route in the Narrows."
-    ]
+      "Be prepared for a brutal hike of approximately 10.5 miles round trip.",
+      "Expect deep water sections even during dry months.",
+      "Allow at least 3+ hours for the hike one way."
+    ],
+    "image_url": "https://www.standrephotography.com/images/xl/Big-Springs-Pano.jpg",
+    "source_url": "https://www.standrephotography.com/gallery/guide-to-photographing-zion-national-park-part-1/"
   },
   {
-    "name": "West Temple",
+    "rank": 2,
+    "name": "Road 9 (Serpentine Section)",
     "parkCode": "zion",
-    "description": "One of the few peaks that catches the absolute first light of the morning.",
+    "description": "A scenic, winding section of Road 9 near the western entrance that offers sweeping canyon views and various pull-off parking areas for photography.",
     "best_time_of_day": [
-      "Sunrise"
+      "Daytime",
+      "Winter"
     ],
     "tips": [
-      "One of the few peaks that catches the absolute first light of the morning."
-    ]
+      "Use the designated parking areas throughout the serpentine drive to stop safely",
+      "A standard smartphone camera is sufficient to capture these views",
+      "February is a great time to visit for low crowds and pleasant weather"
+    ],
+    "image_url": "https://thenatureseeker.com/wp-content/uploads/2023/08/zion-national-park-photos-scenic-drive-road-9.jpg",
+    "source_url": "https://thenatureseeker.com/13-stunning-zion-national-park-photos-with-location-details/"
   },
   {
-    "name": "East Temple",
+    "rank": 3,
+    "name": "Towers of the Virgin",
     "parkCode": "zion",
-    "description": "A unique location that catches direct light at both the beginning and the end of the day.",
+    "description": "A prominent collection of peaks that provides excellent opportunities for capturing dappled light across the cliff faces.",
     "best_time_of_day": [
-      "Sunrise and Sunset"
+      "Daytime"
     ],
     "tips": [
-      "A unique location that catches direct light at both the beginning and the end of the day."
-    ]
+      "Look for instances of dappled light to add texture and interest to the cliff faces."
+    ],
+    "image_url": "https://www.standrephotography.com/images/xl/Dappled-Light-Towers-of-the-Virgin.jpg",
+    "source_url": "https://www.standrephotography.com/gallery/guide-to-photographing-zion-national-park-part-1/"
   },
   {
+    "rank": 4,
+    "name": "Angel's Landing",
+    "parkCode": "zion",
+    "description": "A prominent sandstone monolith towering 5,785 feet above sea level, providing one of the most iconic silhouettes in Zion National Park.",
+    "best_time_of_day": [
+      "Golden Hour"
+    ],
+    "tips": [
+      "The peak can be photographed from the comfort of the Virgin River.",
+      "The hike to the top is exhilarating and offers a world-class view of the canyon below."
+    ],
+    "image_url": "https://i.ontraport.com/224876.80e3aa73b3c5cac1845749952df16b30.JPEG",
+    "source_url": "https://backcountryjourneys.com/Zion-Bryce-Iconic-Photography-Destinations"
+  },
+  {
+    "rank": 5,
+    "name": "Zion-Mount Carmel Tunnel",
+    "parkCode": "zion",
+    "description": "A long, dark tunnel with carved-out openings that provide brief, framed views of the park's interior.",
+    "best_time_of_day": [
+      "Daytime"
+    ],
+    "tips": [
+      "Stopping your car inside the tunnel is strictly prohibited",
+      "For the best photography, visit the eastern side of the tunnel where there is a parking area and a hiking trail that overlooks it"
+    ],
+    "image_url": "https://thenatureseeker.com/wp-content/uploads/2023/08/zion-national-park-tunnel-photo.jpg",
+    "source_url": "https://thenatureseeker.com/13-stunning-zion-national-park-photos-with-location-details/"
+  },
+  {
+    "rank": 6,
+    "name": "Great White Throne",
+    "parkCode": "zion",
+    "description": "An iconic monolith in Zion Canyon that is particularly photogenic during the fall when surrounded by changing leaves.",
+    "best_time_of_day": [
+      "Fall",
+      "Sunset"
+    ],
+    "tips": [
+      "Position maple trees at the bottom of the frame to anchor the image with the monolith at the top."
+    ],
+    "image_url": "https://www.standrephotography.com/images/xl/Great-White-Throne-in-Fall.jpg",
+    "source_url": "https://www.standrephotography.com/gallery/guide-to-photographing-zion-national-park-part-1/"
+  },
+  {
+    "rank": 7,
+    "name": "Canyon Overlook",
+    "parkCode": "zion",
+    "description": "One of the most accessible overlooks in the park, offering a panoramic view of the western canyons from the eastern end of the Mount Carmel Tunnel.",
+    "best_time_of_day": [
+      "Early morning",
+      "Afternoon",
+      "Sunset"
+    ],
+    "tips": [
+      "The trail is a short 1/4 mile hike with about 200 feet of elevation gain",
+      "Parking at the trailhead is very limited; use the overflow parking area located shortly after the tunnel exit if needed"
+    ],
+    "image_url": "https://thenatureseeker.com/wp-content/uploads/2023/08/zion-national-park-photos-canyon-overlook-hike.jpg",
+    "source_url": "https://thenatureseeker.com/13-stunning-zion-national-park-photos-with-location-details/"
+  },
+  {
+    "rank": 8,
     "name": "The Watchman",
     "parkCode": "zion",
-    "description": "The tip catches sunrise light while the face catches sunset light; beginner-friendly compositions are available via the Watchman Trail.",
+    "description": "One of the most famous landmarks in the park, located near the south entrance, catching light at both the beginning and end of the day.",
     "best_time_of_day": [
-      "Sunrise and Sunset"
-    ],
-    "tips": [
-      "The tip catches sunrise light while the face catches sunset light; beginner-friendly compositions are available via the Watchman Trail."
-    ]
-  },
-  {
-    "name": "Bridge Mountain",
-    "parkCode": "zion",
-    "description": "Catches direct light at sunset; the backside can also catch light during sunrise.",
-    "best_time_of_day": [
+      "Sunrise",
       "Sunset"
     ],
     "tips": [
-      "Catches direct light at sunset; the backside can also catch light during sunrise."
-    ]
+      "At sunrise, focus on the very tip of the mountain as it catches the first light.",
+      "This is an ideal spot for beginners due to the manageable compositions."
+    ],
+    "image_url": "https://www.standrephotography.com/images/xl/Eagle-crag-rainbow.jpg",
+    "source_url": "https://www.standrephotography.com/gallery/guide-to-photographing-zion-national-park-part-1/"
   },
   {
-    "name": "Court of the Patriarchs",
+    "rank": 9,
+    "name": "Observation Point",
     "parkCode": "zion",
-    "description": "Does not catch the absolute first light, but glows shortly after the initial sunrise.",
+    "description": "A central overlook that provides a massive view of the northern canyon area, distinct from the view at Canyon Overlook.",
+    "best_time_of_day": [
+      "Daytime"
+    ],
+    "tips": [
+      "The original trailhead is closed due to a rock fall",
+      "Access the viewpoint via an alternate route starting outside the eastern entrance of Zion",
+      "The alternate trail involves driving on dirt roads but the hike is less strenuous than the original"
+    ],
+    "image_url": "https://thenatureseeker.com/wp-content/uploads/2023/08/zion-national-park-photos-observation-point-trail.jpg",
+    "source_url": "https://thenatureseeker.com/13-stunning-zion-national-park-photos-with-location-details/"
+  },
+  {
+    "rank": 10,
+    "name": "The Narrows",
+    "parkCode": "zion",
+    "description": "A world-famous slot canyon where photographers can work with bounce light and river reflections.",
+    "best_time_of_day": [
+      "June",
+      "July",
+      "August",
+      "September"
+    ],
+    "tips": [
+      "June is the best month for deep canyons like this due to the dry conditions.",
+      "During monsoon season (July-September), look for dramatic clouds and weather."
+    ],
+    "image_url": "https://www.standrephotography.com/images/xl/Big-Springs-Pano.jpg",
+    "source_url": "https://www.standrephotography.com/gallery/guide-to-photographing-zion-national-park-part-1/"
+  },
+  {
+    "rank": 11,
+    "name": "The Narrows (Trailhead Start)",
+    "parkCode": "zion",
+    "description": "The most famous hike in Zion, featuring towering canyon walls and the Virgin River running through the base.",
+    "best_time_of_day": [
+      "Daytime",
+      "November"
+    ],
+    "tips": [
+      "Dress in layers and wear waterproof socks if visiting in cold months like November",
+      "Check weather conditions for flash flood risks before entering the canyon"
+    ],
+    "image_url": "https://thenatureseeker.com/wp-content/uploads/2023/08/zion-national-park-photos-the-narrows-01.jpg",
+    "source_url": "https://thenatureseeker.com/13-stunning-zion-national-park-photos-with-location-details/"
+  },
+  {
+    "rank": 12,
+    "name": "Eagle Crags",
+    "parkCode": "zion",
+    "description": "Located just outside the main canyon, this spot offers grand vistas and is excellent for capturing dramatic weather events like rainbows.",
+    "best_time_of_day": [
+      "Daytime",
+      "After Storms"
+    ],
+    "tips": [
+      "Visit during periods of dramatic weather for a chance to capture rainbows near the crags."
+    ],
+    "image_url": "https://www.standrephotography.com/images/xl/Eagle-crag-rainbow.jpg",
+    "source_url": "https://www.standrephotography.com/gallery/guide-to-photographing-zion-national-park-part-1/"
+  },
+  {
+    "rank": 13,
+    "name": "Thor\u2019s Hammer",
+    "parkCode": "zion",
+    "description": "The most famous and unique hoodoo rock formation in Bryce Canyon National Park.",
     "best_time_of_day": [
       "Sunrise"
     ],
     "tips": [
-      "Does not catch the absolute first light, but glows shortly after the initial sunrise."
-    ]
+      "Try to pair a sun star with the hoodoo at sunrise to create a stunner image."
+    ],
+    "image_url": "https://i.ontraport.com/224876.43f73fd7363a91fd573e2e21cc8ab2df.JPEG",
+    "source_url": "https://backcountryjourneys.com/Zion-Bryce-Iconic-Photography-Destinations"
   },
   {
-    "name": "Mt. Kinesava",
+    "rank": 14,
+    "name": "The Narrows (Waterfall Section)",
     "parkCode": "zion",
-    "description": "Located near the south entrance of the park, this peak is one of the primary features to catch late-day light.",
+    "description": "A section near the beginning of the Narrows hike featuring a scenic waterfall along the canyon wall.",
     "best_time_of_day": [
+      "Daytime",
+      "February"
+    ],
+    "tips": [
+      "Rent dry suits from outfitters outside the western entrance for winter hiking",
+      "Bring flashlights or headlamps if you plan to be out late, as the canyon and parking lots have no lights"
+    ],
+    "image_url": "https://thenatureseeker.com/wp-content/uploads/2023/08/zion-national-park-photos-narrows-trail-start-07.jpg",
+    "source_url": "https://thenatureseeker.com/13-stunning-zion-national-park-photos-with-location-details/"
+  },
+  {
+    "rank": 15,
+    "name": "Pa' rus Trail",
+    "parkCode": "zion",
+    "description": "A flat, paved trail following the river that provides easy access to views of the canyon walls.",
+    "best_time_of_day": [
+      "Sunrise",
       "Sunset"
     ],
     "tips": [
-      "Located near the south entrance of the park, this peak is one of the primary features to catch late-day light."
-    ]
+      "Stick to this trail if you are a beginner, as the compositions are easier to put together near the mouth of the canyon."
+    ],
+    "image_url": null,
+    "source_url": "https://www.standrephotography.com/gallery/guide-to-photographing-zion-national-park-part-1/"
   },
   {
-    "name": "Pa'rus Trail",
+    "rank": 16,
+    "name": "Wall Street",
     "parkCode": "zion",
-    "description": "Ideal for beginners as the compositions are less chaotic near the mouth of the canyon compared to deeper sections.",
+    "description": "An iconic area of switchbacks that descend into the Bryce Canyon amphitheater.",
     "best_time_of_day": [
-      "Sunrise or Sunset"
+      "Golden Hour"
     ],
     "tips": [
-      "Ideal for beginners as the compositions are less chaotic near the mouth of the canyon compared to deeper sections."
-    ]
+      "Descend into the canyon to look up and capture the scale of the towering hoodoos."
+    ],
+    "image_url": "https://i.ontraport.com/224876.43f73fd7363a91fd573e2e21cc8ab2df.JPEG",
+    "source_url": "https://backcountryjourneys.com/Zion-Bryce-Iconic-Photography-Destinations"
   },
   {
-    "name": "The Narrows",
+    "rank": 17,
+    "name": "Riverside Walkway",
     "parkCode": "zion",
-    "description": "The driest month is best for deep canyons; focus on working with bounce light and the details of the canyon walls.",
+    "description": "A paved half-mile walkway that leads to the start of the Narrows, providing beautiful views of the Virgin River and canyon floor.",
+    "best_time_of_day": [
+      "Autumn",
+      "November"
+    ],
+    "tips": [
+      "This is one of the best spots to view fall foliage in the park during November",
+      "You can access beach areas along the river from this walkway"
+    ],
+    "image_url": "https://thenatureseeker.com/wp-content/uploads/2023/08/zion-national-park-photos-fall-foliage.jpg",
+    "source_url": "https://thenatureseeker.com/13-stunning-zion-national-park-photos-with-location-details/"
+  },
+  {
+    "rank": 18,
+    "name": "Court of the Patriarchs",
+    "parkCode": "zion",
+    "description": "A set of three sandstone peaks that catch light shortly after the initial sunrise.",
+    "best_time_of_day": [
+      "Sunrise"
+    ],
+    "tips": [
+      "Note that these peaks do not catch the very first light, but are illuminated shortly after."
+    ],
+    "image_url": null,
+    "source_url": "https://www.standrephotography.com/gallery/guide-to-photographing-zion-national-park-part-1/"
+  },
+  {
+    "rank": 19,
+    "name": "Zion Canyon (Virgin River)",
+    "parkCode": "zion",
+    "description": "The main oasis of the park where the river creates a lush environment against red rock monoliths.",
+    "best_time_of_day": [
+      "Spring",
+      "Fall"
+    ],
+    "tips": [
+      "Capture lime green Cottonwoods in spring or yellow foliage in the fall for great color contrast with the red rocks."
+    ],
+    "image_url": "https://i.ontraport.com/224876.54b5a4de565ad4e45d99becb0975b161.JPEG",
+    "source_url": "https://backcountryjourneys.com/Zion-Bryce-Iconic-Photography-Destinations"
+  },
+  {
+    "rank": 20,
+    "name": "Zion Canyon (Lower Areas)",
+    "parkCode": "zion",
+    "description": "The lower sections of the park canyon where autumn colors are most vibrant against the red rocks.",
+    "best_time_of_day": [
+      "Autumn",
+      "November"
+    ],
+    "tips": [
+      "Target the lower areas of the park for the best fall foliage views compared to the higher elevations"
+    ],
+    "image_url": "https://thenatureseeker.com/wp-content/uploads/2023/08/photos-of-zion-national-park-during-autumn-season.jpg",
+    "source_url": "https://thenatureseeker.com/13-stunning-zion-national-park-photos-with-location-details/"
+  },
+  {
+    "rank": 21,
+    "name": "The Subway",
+    "parkCode": "zion",
+    "description": "A unique slot canyon that is best photographed in the middle of summer when the light reaches deep into the canyon.",
     "best_time_of_day": [
       "June"
     ],
     "tips": [
-      "The driest month is best for deep canyons; focus on working with bounce light and the details of the canyon walls."
-    ]
+      "June is the optimal month for grand landscape shots in deep canyons like the Subway."
+    ],
+    "image_url": null,
+    "source_url": "https://www.standrephotography.com/gallery/guide-to-photographing-zion-national-park-part-1/"
   },
   {
-    "name": "Great White Throne",
+    "rank": 22,
+    "name": "Checkerboard Mesa",
     "parkCode": "zion",
-    "description": "Look for maple trees at the bottom of the canyon to frame the illuminated white peak for a classic Zion composition.",
+    "description": "A unique geological formation near the eastern entrance featuring a distinct grid-like pattern on the mountain surface.",
     "best_time_of_day": [
-      "Fall (Early November)"
+      "Daytime"
     ],
     "tips": [
-      "Look for maple trees at the bottom of the canyon to frame the illuminated white peak for a classic Zion composition."
-    ]
+      "Use the dedicated overlook on Road 9 near the eastern entrance for the best photo opportunity"
+    ],
+    "image_url": "https://thenatureseeker.com/wp-content/uploads/2023/08/photos-of-zion-national-park-checkerboard-mesa.jpg",
+    "source_url": "https://thenatureseeker.com/13-stunning-zion-national-park-photos-with-location-details/"
+  },
+  {
+    "rank": 23,
+    "name": "West Temple",
+    "parkCode": "zion",
+    "description": "A massive peak near the south entrance of the park known for its early morning light.",
+    "best_time_of_day": [
+      "Sunrise"
+    ],
+    "tips": [
+      "One of the few peaks in Zion that catches the true first light of sunrise."
+    ],
+    "image_url": null,
+    "source_url": "https://www.standrephotography.com/gallery/guide-to-photographing-zion-national-park-part-1/"
+  },
+  {
+    "rank": 24,
+    "name": "Zion Canyon Scenic Drive",
+    "parkCode": "zion",
+    "description": "The primary canyon road providing access to the park's most famous trailheads including Angels Landing and the Narrows.",
+    "best_time_of_day": [
+      "Daytime"
+    ],
+    "tips": [
+      "Turn off Road 9 before the serpentine section to access this drive if coming from the west"
+    ],
+    "image_url": "https://thenatureseeker.com/wp-content/uploads/2023/08/photos-of-zion-national-park-canyon-scenic-drive.jpg",
+    "source_url": "https://thenatureseeker.com/13-stunning-zion-national-park-photos-with-location-details/"
+  },
+  {
+    "rank": 25,
+    "name": "East Temple",
+    "parkCode": "zion",
+    "description": "A prominent peak that is visible from many parts of the park and catches light at both ends of the day.",
+    "best_time_of_day": [
+      "Sunrise",
+      "Sunset"
+    ],
+    "tips": [
+      "Plan your shoot to capture the light as it hits the upper sections of the temple during golden hour."
+    ],
+    "image_url": null,
+    "source_url": "https://www.standrephotography.com/gallery/guide-to-photographing-zion-national-park-part-1/"
+  },
+  {
+    "rank": 26,
+    "name": "West Rim Trail (Angels Landing Viewpoint)",
+    "parkCode": "zion",
+    "description": "A viewpoint about half a mile into the hike towards Angels Landing that offers a lower-elevation perspective of the northern canyon.",
+    "best_time_of_day": [
+      "Daytime"
+    ],
+    "tips": [
+      "This section of the trail is scenic and relatively easy before the steep rise and narrow chains of the summit hike",
+      "Use this spot for views of the canyon floor if you aren't doing the full technical hike"
+    ],
+    "image_url": "https://thenatureseeker.com/wp-content/uploads/2023/08/photos-of-zion-national-park-west-rim-trail.jpg",
+    "source_url": "https://thenatureseeker.com/13-stunning-zion-national-park-photos-with-location-details/"
+  },
+  {
+    "rank": 27,
+    "name": "Bridge Mountain",
+    "parkCode": "zion",
+    "description": "A large mountain where different faces catch light at different times of the day.",
+    "best_time_of_day": [
+      "Sunrise",
+      "Sunset"
+    ],
+    "tips": [
+      "The backside catches light at sunrise, while the main face catches light at sunset."
+    ],
+    "image_url": null,
+    "source_url": "https://www.standrephotography.com/gallery/guide-to-photographing-zion-national-park-part-1/"
+  },
+  {
+    "rank": 28,
+    "name": "The Narrows (Cascading Springs)",
+    "parkCode": "zion",
+    "description": "A photogenic spot within the first 500 feet of the Narrows where water cascades down the massive canyon walls into the river.",
+    "best_time_of_day": [
+      "Daytime"
+    ],
+    "tips": [
+      "Look up from this spot to truly capture the scale of the canyon walls in your photos"
+    ],
+    "image_url": "https://thenatureseeker.com/wp-content/uploads/2023/08/more-of-the-narrows-photos-of-zion-national-park.jpg",
+    "source_url": "https://thenatureseeker.com/13-stunning-zion-national-park-photos-with-location-details/"
+  },
+  {
+    "rank": 29,
+    "name": "Mt. Kinesave",
+    "parkCode": "zion",
+    "description": "A peak located near Springdale that provides a stunning backdrop during the late afternoon.",
+    "best_time_of_day": [
+      "Sunset"
+    ],
+    "tips": [
+      "This is one of the primary mountains that catches direct light during sunset."
+    ],
+    "image_url": null,
+    "source_url": "https://www.standrephotography.com/gallery/guide-to-photographing-zion-national-park-part-1/"
+  },
+  {
+    "rank": 30,
+    "name": "The Narrows (Deep Canyon Interior)",
+    "parkCode": "zion",
+    "description": "Located approximately 2 miles into the Narrows, this section features more rugged, rocky terrain and deeper water.",
+    "best_time_of_day": [
+      "Daytime"
+    ],
+    "tips": [
+      "Be prepared to navigate waist or chest-deep water depending on the season",
+      "Dry suits are essential for staying safe and warm in these deeper, colder sections"
+    ],
+    "image_url": "https://thenatureseeker.com/wp-content/uploads/2023/08/zion-national-park-pictures-of-the-narrows-trail.jpg",
+    "source_url": "https://thenatureseeker.com/13-stunning-zion-national-park-photos-with-location-details/"
   }
 ]
