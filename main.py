@@ -39,22 +39,14 @@ st.markdown("""
 <style>
     /* 1. Global Tab Styling (Apply to Outer Tabs) */
     div[data-testid="stTabs"] button {
-        gap: 20px;
+        gap: 30px; /* More space between tabs */
     }
     div[data-testid="stTabs"] button p {
-        font-size: 24px !important;
-        font-weight: 500 !important; /* Normal weight */
+        font-size: 16px !important; /* Smaller, cleaner font */
+        font-weight: 500 !important;
     }
     
-    /* 2. Inner Tab Styling Overrides */
-    /* Target the stTabs div that follows our marker */
-    #sub-tabs-marker + div[data-testid="stTabs"] button p {
-        font-size: 8px !important;
-        font-weight: 400 !important;
-    }
-    #sub-tabs-marker + div[data-testid="stTabs"] button {
-        gap: 5px; /* Tighter gap for inner tabs */
-    }
+    /* 2. Inner Tab Styling (Removed specific marker hack, standardizing for now) */
 
     /* 3. Color Overrides for ALL Tabs (Remove Red) */
     /* Selected Tab Text */
@@ -103,6 +95,28 @@ def get_orchestrator():
 
 orchestrator = get_orchestrator()
 
+# --- 2b. Handle Deep Linking (Query Params) ---
+# Check early to redirect before rendering
+if "view" in st.query_params:
+    target_view = st.query_params["view"]
+    view_map = {
+        "trails": "Trails Browser",
+        "photos": "Photo Spots",
+        "camping": "Park Essentials",
+        "activities": "Activities & Events",
+        "webcams": "Webcams"
+    }
+    
+    if target_view in view_map:
+        st.session_state.explorer_view = view_map[target_view]
+        
+        # Special Handling for "Campgrounds" toggle
+        if target_view == "camping":
+            st.session_state.essentials_toggle = "In-Park Services"
+    
+    # Clear params to prevent persistent state
+    st.query_params.clear()
+    
 # --- 3. Sidebar ---
 with st.sidebar:
     st.title("🌲 Adventure Concierge")
@@ -163,21 +177,88 @@ with tab_explorer:
     # st.divider()
     
     # Sub-Navigation for Explorer Views
-    st.markdown("<div id='sub-tabs-marker'></div>", unsafe_allow_html=True)
-    exp_tab1, exp_tab2, exp_tab3, exp_tab4, exp_tab5 = st.tabs([
-        "Park Essentials", "Trails Browser", "Photo Spots", "Activities & Events", "Webcams"
-    ])
     
-    with exp_tab1:
+    # 1. Initialize View State
+    if "explorer_view" not in st.session_state:
+        st.session_state.explorer_view = "Park Essentials"
+
+    # 3. Custom CSS for "Radio Tabs"
+    st.markdown("""
+    <style>
+        /* Hide the default radio circles */
+        div[data-testid="stRadio"] > label > div:first-child {
+            display: none;
+        }
+        div[data-testid="stRadio"] > div[role="radiogroup"] > label > div:first-child {
+            display: none;
+        }
+        
+        /* Container styling */
+        div[data-testid="stRadio"] > div[role="radiogroup"] {
+            gap: 12px;
+            border-bottom: 1px solid #ddd;
+            padding-bottom: 0px;
+        }
+
+        /* Tab styling */
+        div[data-testid="stRadio"] > div[role="radiogroup"] > label {
+            background-color: transparent;
+            padding: 8px 16px;
+            border-radius: 8px 8px 0 0;
+            border: 1px solid transparent; 
+            margin-bottom: -1px;
+            transition: all 0.2s;
+        }
+        
+        /* Hover */
+        div[data-testid="stRadio"] > div[role="radiogroup"] > label:hover {
+            background-color: #f1f5f9;
+            color: #0f172a;
+        }
+        
+        /* Selected Tab Styling */
+        div[data-testid="stRadio"] > div[role="radiogroup"] > label:has(input:checked) {
+            background-color: #f1f5f9;
+            border-bottom: 2px solid #2c3e50;
+            color: #2c3e50;
+        }
+        
+        div[data-testid="stRadio"] > div[role="radiogroup"] > label:has(input:checked) p {
+            color: #2c3e50 !important;
+            font-weight: 700;
+        }
+    </style>
+    """, unsafe_allow_html=True)
+
+    view_options = [
+        "Park Essentials", "Trails Browser", "Photo Spots", "Activities & Events", "Webcams"
+    ]
+    
+    # Ensure valid state
+    if st.session_state.explorer_view not in view_options:
+        st.session_state.explorer_view = "Park Essentials"
+
+    selected_view = st.radio(
+        "Explorer View",
+        options=view_options,
+        horizontal=True,
+        label_visibility="collapsed",
+        key="explorer_view"
+    )
+    
+    # st.divider()
+
+    # 4. Render Views
+    if selected_view == "Park Essentials":
         render_essentials_dashboard(park_code, orchestrator, static_data)
         
-    with exp_tab2:
+    elif selected_view == "Trails Browser":
         render_trails_browser(park_code, static_data)
         
-    with exp_tab3:
+    elif selected_view == "Photo Spots":
         render_photo_spots(static_data.get("photo_spots", []))
 
-    with exp_tab4:
+    elif selected_view == "Activities & Events":
         # Internal sub-navigation using Radio Buttons
         activity_view = st.radio(
             "Select View",
@@ -197,5 +278,5 @@ with tab_explorer:
                 visit_date=visit_date
             )
 
-    with exp_tab5:
+    elif selected_view == "Webcams":
         render_webcams_grid(static_data.get("webcams", []))

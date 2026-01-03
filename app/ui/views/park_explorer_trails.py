@@ -105,22 +105,24 @@ def render_trails_browser(park_code: str, static_data):
         # Center map
         m = folium.Map(location=[map_df["lat"].mean(), map_df["lon"].mean()], zoom_start=11)
         
-        # ADD LEGEND (using same pattern as amenities view for reliability)
-        legend_html = '''
-        <div style="position: fixed; 
-             bottom: 50px; left: 50px; width: 170px; height: auto; 
-             border:2px solid grey; z-index:9999; font-size:13px;
-             background-color:white; opacity:0.95; padding: 10px; border-radius: 5px; color: black; font-family: Arial;">
-             <b>Difficulty</b><br>
-             <div style="margin-top: 6px; margin-bottom: 4px;"><span style="color: green; font-weight: bold;">●</span> Easy</div>
-             <div style="margin-bottom: 4px;"><span style="color: orange; font-weight: bold;">●</span> Moderate</div>
-             <div><span style="color: red; font-weight: bold;">●</span> Strenuous</div>
-        </div>
-        '''
-        m.get_root().html.add_child(folium.Element(legend_html))
+        # Prepare Layers
+        layers = {
+            "Easy": folium.FeatureGroup(name='<span style="color:green">●</span> Easy'),
+            "Moderate": folium.FeatureGroup(name='<span style="color:orange">●</span> Moderate'),
+            "Strenuous": folium.FeatureGroup(name='<span style="color:red">●</span> Strenuous')
+        }
         
+        # Determine strict layer mapping
+        def get_layer_key(diff_str):
+            if not diff_str: return "Moderate" # Default
+            d = diff_str.lower()
+            if "easy" in d: return "Easy"
+            if "hard" in d or "strenuous" in d: return "Strenuous"
+            return "Moderate"
+
         for _, row in map_df.iterrows():
             color = get_difficulty_color(row["difficulty"])
+            layer_key = get_layer_key(row["difficulty"])
             
             # Build rating string with optional reviews link
             if pd.notna(row['rating']) and pd.notna(row['reviews']) and row['url_at']:
@@ -138,12 +140,21 @@ def render_trails_browser(park_code: str, static_data):
             Rating: {rating_str}
             """
             
-            folium.Marker(
+            marker = folium.Marker(
                 [row["lat"], row["lon"]],
                 popup=folium.Popup(popup_html, max_width=200),
                 tooltip=row["name"],
                 icon=folium.Icon(color=color, icon="person-hiking", prefix='fa')
-            ).add_to(m)
+            )
+            
+            # Add to specific layer
+            marker.add_to(layers[layer_key])
+            
+        # Add Layers to Map in Order
+        for title in ["Easy", "Moderate", "Strenuous"]:
+            layers[title].add_to(m)
+            
+        folium.LayerControl(collapsed=False).add_to(m)
             
         st_folium(m, width="100%", height=450)
     

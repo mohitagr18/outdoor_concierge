@@ -115,18 +115,72 @@ def render_stat_cards(static_data):
     trails = len(static_data.get("trails", []))
     photos = len(static_data.get("photo_spots", []))
     camps = len(static_data.get("campgrounds", []))
+    # Activities is list of dicts usu.
+    activities = len(static_data.get("things_to_do", []))
+    webcams = len(static_data.get("webcams", []))
     
-    # Row 1
-    r1c1, r1c2 = st.columns(2)
-    with r1c1: st.markdown(f"""<div class="metric-card"><div style="font-size:24px; margin-bottom:2px;">⛰️</div><span class="metric-value">{trails}</span><span class="metric-label">Trails</span></div>""", unsafe_allow_html=True)
-    with r1c2: st.markdown(f"""<div class="metric-card"><div style="font-size:24px; margin-bottom:2px;">📸</div><span class="metric-value">{photos}</span><span class="metric-label">Photo Spots</span></div>""", unsafe_allow_html=True)
+    # Row 1: Trails, Photos, Campgrounds
+    c1, c2, c3 = st.columns(3)
+    
+    with c1: 
+        st.markdown(f"""
+        <a href="?view=trails" target="_self" style="text-decoration:none;">
+            <div class="metric-card">
+                <div style="font-size:24px; margin-bottom:2px;">⛰️</div>
+                <span class="metric-value">{trails}</span>
+                <span class="metric-label">Trails</span>
+            </div>
+        </a>
+        """, unsafe_allow_html=True)
+        
+    with c2: 
+        st.markdown(f"""
+        <a href="?view=photos" target="_self" style="text-decoration:none;">
+            <div class="metric-card">
+                <div style="font-size:24px; margin-bottom:2px;">📸</div>
+                <span class="metric-value">{photos}</span>
+                <span class="metric-label">Photo Spots</span>
+            </div>
+        </a>
+        """, unsafe_allow_html=True)
+
+    with c3: 
+        st.markdown(f"""
+        <a href="?view=camping" target="_self" style="text-decoration:none;">
+            <div class="metric-card">
+                <div style="font-size:24px; margin-bottom:2px;">⛺</div>
+                <span class="metric-value">{camps}</span>
+                <span class="metric-label">Campgrounds</span>
+            </div>
+        </a>
+        """, unsafe_allow_html=True)
     
     st.write("") # Spacer
     
-    # Row 2
-    r2c1, r2c2 = st.columns(2)
-    with r2c1: st.markdown(f"""<div class="metric-card"><div style="font-size:24px; margin-bottom:2px;">⛺</div><span class="metric-value">{camps}</span><span class="metric-label">Campgrounds</span></div>""", unsafe_allow_html=True)
-    with r2c2: st.markdown(f"""<div class="metric-card"><div style="font-size:24px; margin-bottom:2px;">🚌</div><span class="metric-value" style="font-size:18px;">Running</span><span class="metric-label">Shuttle</span></div>""", unsafe_allow_html=True)
+    # Row 2: Activities, Webcams
+    c4, c5 = st.columns(2)
+    
+    with c4: 
+        st.markdown(f"""
+        <a href="?view=activities" target="_self" style="text-decoration:none;">
+            <div class="metric-card">
+                <div style="font-size:24px; margin-bottom:2px;">🧗</div>
+                <span class="metric-value">{activities}</span>
+                <span class="metric-label">Things to Do</span>
+            </div>
+        </a>
+        """, unsafe_allow_html=True)
+        
+    with c5: 
+        st.markdown(f"""
+        <a href="?view=webcams" target="_self" style="text-decoration:none;">
+            <div class="metric-card">
+                <div style="font-size:24px; margin-bottom:2px;">📹</div>
+                <span class="metric-value">{webcams}</span>
+                <span class="metric-label">Webcams</span>
+            </div>
+        </a>
+        """, unsafe_allow_html=True)
 
 # --- 3. WEATHER FIX (HTML Cleanup) ---
 def render_weather_full_width(weather_data):
@@ -577,7 +631,7 @@ def render_essentials_dashboard(park_code, orchestrator, static_data):
     st.divider()
     
     # 1. Unified Toggle
-    view_option = st.radio("Select View Layer", ["Hub Services", "In-Park Services"], horizontal=True, label_visibility="collapsed")
+    view_option = st.radio("Select View Layer", ["Hub Services", "In-Park Services"], horizontal=True, label_visibility="collapsed", key="essentials_toggle")
     
     st.subheader(f"🗺️ {view_option} Map")
     
