@@ -7,6 +7,16 @@ from app.models import (
 
 # --- HELPER FUNCTIONS ---
 
+# --- HELPER FUNCTIONS ---
+
+def _parse_bool(value: Any) -> bool:
+    """Robust boolean parser for NPS data quirks."""
+    if isinstance(value, bool):
+        return value
+    if isinstance(value, str):
+        return value.lower() == "true"
+    return bool(value)
+
 def _extract_geo(data: Dict[str, Any]) -> GeoLocation:
     """Safely extracts lat/lon from a dictionary."""
     try:
@@ -97,14 +107,27 @@ def parse_nps_events(events_response: Dict[str, Any]) -> List[Event]:
     data_list = events_response.get("data", [])
     events = []
     for item in data_list:
+        # NOTE: NPS events endpoint often uses lowercase keys (e.g. 'datestart') 
+        # instead of camelCase ('dateStart'). We handle this quirk here.
+        
+        # Helper to get value from either key casing
+        def get_val(key_lower, key_camel, default=None):
+            return item.get(key_lower, item.get(key_camel, default))
+            
         events.append(Event(
             title=item.get("title", "No Title"),
             description=item.get("description", ""),
-            date_start=item.get("dateStart", ""),
-            date_end=item.get("dateEnd"),
-            is_free=item.get("isFree", False),
+            date_start=get_val("datestart", "dateStart", ""),
+            date_end=get_val("dateend", "dateEnd"),
+            is_free=_parse_bool(get_val("isfree", "isFree", False)),
             location=item.get("location", ""),
-            times=item.get("times", [])
+            times=item.get("times", []),
+            # New Fields
+            images=_extract_images(item),
+            dates=item.get("dates", []),
+            tags=item.get("tags", []),
+            types=item.get("types", []),
+            fee_info=get_val("feeinfo", "feeInfo")
         ))
     return events
 
@@ -174,7 +197,7 @@ def parse_nps_webcams(response: Dict[str, Any]) -> List[Webcam]:
             description=item.get("description", ""),
             url=item.get("url", ""),
             imageUrl=image_url,
-            isStreaming=item.get("isStreaming", False),
+            isStreaming=_parse_bool(item.get("isStreaming", False)),
             status=item.get("status", "Active"),
             relatedParks=related
         ))
@@ -193,8 +216,8 @@ def parse_nps_places(response: Dict[str, Any]) -> List[Place]:
             images=_extract_images(item),
             # tags=item.get("tags", []),
             amenities=item.get("amenities", []),
-            isOpenToPublic=item.get("isOpenToPublic", True),
-            isManagedByNps=item.get("isManagedByNps", True)
+            isOpenToPublic=_parse_bool(item.get("isOpenToPublic", True)),
+            isManagedByNps=_parse_bool(item.get("isManagedByNps", True))
         ))
     return results
 
@@ -211,9 +234,11 @@ def parse_nps_things_to_do(response: Dict[str, Any]) -> List[ThingToDo]:
             duration=item.get("duration"),
             season=item.get("season", []),
             activities=item.get("activities", []),
-            arePetsPermitted=item.get("arePetsPermitted", False),
+            arePetsPermitted=_parse_bool(item.get("arePetsPermitted", False)),
             images=_extract_images(item),
-            isReservationRequired=item.get("isReservationRequired", False)
+            isReservationRequired=_parse_bool(item.get("isReservationRequired", False)),
+            doFeesApply=_parse_bool(item.get("doFeesApply", False)),
+            tags=item.get("tags", [])
         ))
     return results
 

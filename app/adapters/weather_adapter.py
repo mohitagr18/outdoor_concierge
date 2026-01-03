@@ -81,6 +81,8 @@ def parse_weather_data(weather_json: Dict[str, Any], park_code: str) -> WeatherS
         parkCode=park_code,
         current_temp_f=current.get("temp_f", 0.0),
         current_condition=current_text,
+        wind_mph=current.get("wind_mph", 0.0),
+        humidity=current.get("humidity", 0),
         forecast=daily_forecasts,
         sunrise=sunrise,
         sunset=sunset,

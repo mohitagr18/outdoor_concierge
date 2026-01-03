@@ -1,0 +1,638 @@
+import streamlit as st
+import folium
+from streamlit_folium import st_folium
+from app.models import Amenity
+import datetime
+
+# --- 1. STYLING (Unchanged) ---
+def inject_custom_css():
+    st.markdown("""
+        <style>
+        .metric-card {
+            background-color: #ffffff;
+            border-radius: 12px;
+            padding: 12px;
+            text-align: center;
+            box-shadow: 0 1px 3px rgba(0,0,0,0.1);
+            color: #333;
+            height: 100%;
+            border: 1px solid #e5e7eb;
+        }
+        .metric-value { font-size: 20px; font-weight: 700; display: block; line-height: 1.2; }
+        .metric-label { font-size: 13px; color: #666; }
+        
+        .dark-card {
+            background-color: #1e293b;
+            border-radius: 12px;
+            padding: 24px;
+            color: white;
+            height: 100%;
+        }
+        
+        .alert-banner {
+            color: white;
+            padding: 16px 24px;
+            border-radius: 12px;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            margin-bottom: 8px;
+            box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.2);
+        }
+        </style>
+    """, unsafe_allow_html=True)
+
+# --- 2. COMPONENTS (Alerts & Stats Unchanged) ---
+def render_alert_section(alerts):
+    alert_list = []
+    if isinstance(alerts, list):
+        alert_list = alerts
+    elif isinstance(alerts, dict):
+        if "data" in alerts: alert_list = alerts["data"]
+        else: alert_list = list(alerts.values())
+
+    if not alert_list:
+        st.markdown("""
+        <div class="alert-banner" style="background: linear-gradient(90deg, #10b981 0%, #059669 100%);">
+            <div><div style="font-weight:700;">No Active Alerts</div><div>Park conditions are normal.</div></div>
+        </div>
+        """, unsafe_allow_html=True)
+        return
+
+    # Determine Severity Color
+    has_danger = False
+    has_caution = False
+    for a in alert_list:
+        cat = (a.get('category', '') if isinstance(a, dict) else getattr(a, 'category', '')).lower()
+        if "danger" in cat or "closure" in cat:
+            has_danger = True
+            break
+        if "caution" in cat or "warning" in cat:
+            has_caution = True
+            
+    if has_danger:
+        bg_style = "background: linear-gradient(90deg, #ef4444 0%, #b91c1c 100%);"
+    elif has_caution:
+        bg_style = "background: linear-gradient(90deg, #f59e0b 0%, #d97706 100%);"
+    else:
+        bg_style = "background: linear-gradient(90deg, #3b82f6 0%, #1d4ed8 100%);"
+
+    count = len(alert_list)
+    top_alert = alert_list[0]
+    
+    title = "Alert"
+    if isinstance(top_alert, dict): title = top_alert.get('title', 'Alert')
+    elif hasattr(top_alert, 'title'): 
+        t = getattr(top_alert, 'title')
+        title = t if not callable(t) else "Active Alert"
+    
+    st.markdown(f"""
+        <div class="alert-banner" style="{bg_style}">
+            <div>
+                <div style="font-weight: 700; font-size: 18px;">{count} Active Alerts</div>
+                <div style="font-size: 14px; opacity: 0.9;">{title}...</div>
+            </div>
+            <div style="font-size:20px;">👇</div>
+        </div>
+    """, unsafe_allow_html=True)
+    
+    with st.expander(f"View details for {count} alerts"):
+        for alert in alert_list:
+            t = alert.get('title', 'Alert') if isinstance(alert, dict) else getattr(alert, 'title', 'Alert')
+            d = alert.get('description', '') if isinstance(alert, dict) else getattr(alert, 'description', '')
+            cat = alert.get('category', 'Info') if isinstance(alert, dict) else getattr(alert, 'category', 'Info')
+            url = alert.get('url') if isinstance(alert, dict) else getattr(alert, 'url', None)
+
+            if url:
+                t = f"[{t}]({url})"
+            
+            cat_lower = str(cat).lower()
+            if "danger" in cat_lower or "closure" in cat_lower: st.error(f"**{t}**\n\n{d}")
+            elif "caution" in cat_lower or "warning" in cat_lower: st.warning(f"**{t}**\n\n{d}")
+            else: st.info(f"**{t}**\n\n{d}")
+
+def render_stat_cards(static_data):
+    trails = len(static_data.get("trails", []))
+    photos = len(static_data.get("photo_spots", []))
+    camps = len(static_data.get("campgrounds", []))
+    
+    # Row 1
+    r1c1, r1c2 = st.columns(2)
+    with r1c1: st.markdown(f"""<div class="metric-card"><div style="font-size:24px; margin-bottom:2px;">⛰️</div><span class="metric-value">{trails}</span><span class="metric-label">Trails</span></div>""", unsafe_allow_html=True)
+    with r1c2: st.markdown(f"""<div class="metric-card"><div style="font-size:24px; margin-bottom:2px;">📸</div><span class="metric-value">{photos}</span><span class="metric-label">Photo Spots</span></div>""", unsafe_allow_html=True)
+    
+    st.write("") # Spacer
+    
+    # Row 2
+    r2c1, r2c2 = st.columns(2)
+    with r2c1: st.markdown(f"""<div class="metric-card"><div style="font-size:24px; margin-bottom:2px;">⛺</div><span class="metric-value">{camps}</span><span class="metric-label">Campgrounds</span></div>""", unsafe_allow_html=True)
+    with r2c2: st.markdown(f"""<div class="metric-card"><div style="font-size:24px; margin-bottom:2px;">🚌</div><span class="metric-value" style="font-size:18px;">Running</span><span class="metric-label">Shuttle</span></div>""", unsafe_allow_html=True)
+
+# --- 3. WEATHER FIX (HTML Cleanup) ---
+def render_weather_full_width(weather_data):
+    """Expanded weather widget taking full width."""
+    if not weather_data:
+        st.markdown('<div class="dark-card">Weather Unavailable (No Data)</div>', unsafe_allow_html=True)
+        return
+
+    # A. Data Extraction
+    is_dict = isinstance(weather_data, dict)
+    
+    if is_dict:
+        curr = weather_data.get("current", {})
+        temp = curr.get("temp_f", "--")
+        
+        cond_raw = curr.get("condition", "Unknown")
+        cond = cond_raw.get("text", "Unknown") if isinstance(cond_raw, dict) else str(cond_raw)
+            
+        wind = curr.get("wind_mph", "--")
+        hum = curr.get("humidity", "--")
+        
+        forecast_list = weather_data.get("forecast_days") or weather_data.get("forecast", [])
+    else:
+        temp = getattr(weather_data, "current_temp_f", "--")
+        cond = getattr(weather_data, "current_condition", "Unknown")
+        wind = getattr(weather_data, "wind_mph", "--")
+        hum = getattr(weather_data, "humidity", "--")
+        forecast_list = getattr(weather_data, "forecast", [])
+
+    # B. Forecast HTML Construction
+    forecasts_html_str = ""
+    
+    if forecast_list:
+        if isinstance(forecast_list, dict):
+            forecast_list = forecast_list.get("forecastday", [])
+
+        # Build list of HTML strings
+        items_html = []
+        for day in forecast_list[:3]:
+            # Normalize Day Object
+            if hasattr(day, "date"): # Pydantic
+                d_date = day.date
+                d_cond = day.condition.lower()
+                d_high = day.maxtemp_f
+                d_low = day.mintemp_f
+            elif isinstance(day, dict): # Dict
+                d_date = day.get("date", "")
+                c_raw = day.get("condition", "")
+                d_cond = (c_raw.get("text", "") if isinstance(c_raw, dict) else str(c_raw)).lower()
+                d_high = day.get("maxtemp_f", day.get("high_f", "--"))
+                d_low = day.get("mintemp_f", day.get("low_f", "--"))
+            else:
+                continue
+
+            # Date Formatting
+            try:
+                date_obj = datetime.datetime.strptime(str(d_date), "%Y-%m-%d")
+                clean_date = date_obj.strftime("%a") # "Sat"
+            except:
+                clean_date = str(d_date)[:3]
+            
+            # Icon Logic
+            icon = "☀️"
+            if "cloud" in d_cond or "overcast" in d_cond: icon = "☁️"
+            if "partly" in d_cond: icon = "⛅"
+            if "rain" in d_cond or "drizzle" in d_cond: icon = "🌧️"
+            if "snow" in d_cond: icon = "❄️"
+            if "thunder" in d_cond: icon = "⛈️"
+            
+            try:
+                high_val = int(float(d_high))
+                low_val = int(float(d_low))
+            except:
+                high_val, low_val = "--", "--"
+            
+            # Use concise HTML string concatenation without newlines in the f-string to avoid breakage
+            item = (
+                f"<div style='text-align:center; min-width:60px;'>"
+                f"<div style='font-size:20px;'>{icon}</div>"
+                f"<div style='font-size:15px; font-weight:600; color:#cbd5e1;'>{clean_date}</div>"
+                f"<div style='font-size:15px; color:#94a3b8;'>{high_val}°/{low_val}°</div>"
+                f"</div>"
+            )
+            items_html.append(item)
+            
+        # Join all items
+        if items_html:
+            inner_content = "".join(items_html)
+            forecasts_html_str = (
+                f"<div style='border-left:1px solid #475569; padding-left:20px; margin-left:20px; "
+                f"display:flex; gap:50px; align-items:center;'>"
+                f"{inner_content}"
+                f"</div>"
+            )
+
+    # C. Main Card HTML - Stacked Layout
+    # Note: Indentation removed to prevent Markdown code block rendering
+    main_html = f"""
+<div class="dark-card" style="padding: 20px;">
+<div style="display:flex; justify-content:space-between; align-items:center; margin-bottom: 20px;">
+<div>
+<div style="font-size:13px; color:#94a3b8; margin-bottom:2px;">Current Weather</div>
+<div style="font-size:42px; font-weight:700; line-height:1.1;">{temp}°F</div>
+<div style="font-size:16px; color:#e2e8f0; font-weight:600;">{cond}</div>
+</div>
+<div style="text-align:right; font-size:13px; color:#94a3b8;">
+<div>Wind: {wind}mph</div>
+<div>Humidity: {hum}%</div>
+</div>
+</div>
+<div style="border-top: 1px solid #475569; margin-bottom: 15px;"></div>
+<div style="display:flex; justify-content:space-around; align-items:center;">
+{inner_content if items_html else '<div style="color:#94a3b8;">Forecast unavailable</div>'}
+</div>
+</div>
+"""
+    
+    st.markdown(main_html, unsafe_allow_html=True)
+
+
+# --- 4. MAP HELPERS (Unchanged) ---
+def get_category_icon(category: str):
+    cat_lower = str(category).lower()
+    if "gas" in cat_lower or "station" in cat_lower: return "blue", "gas-pump"
+    if "ev" in cat_lower: return "green", "charging-station"
+    if "entrance" in cat_lower: return "darkblue", "star"
+    if "food" in cat_lower: return "orange", "utensils"
+    if "lodging" in cat_lower: return "purple", "bed"
+    if "camping" in cat_lower: return "darkgreen", "campground"
+    if "store" in cat_lower or "supplies" in cat_lower: return "red", "shopping-cart"
+    if "medical" in cat_lower: return "darkred", "medkit"
+    return "gray", "info-circle"
+
+def get_category_html_label(category: str):
+    cat_title = "Park Entrance" if category == "Park Entrance" else str(category).title()
+    color, icon = get_category_icon(category)
+    return f'<i class="fa fa-{icon}" style="color:{color}"></i> &nbsp; {cat_title}'
+
+def render_detailed_map(amenities_data):
+    if not amenities_data: return None
+
+    start_lat, start_lon = 39.8283, -98.5795
+    found = False
+    for hub_vals in amenities_data.values():
+        for items in hub_vals.values():
+            if items:
+                am = Amenity(**items[0]) if isinstance(items[0], dict) else items[0]
+                if am.latitude:
+                    start_lat, start_lon = am.latitude, am.longitude
+                    found = True
+                    break
+        if found: break
+
+    m = folium.Map(location=[start_lat, start_lon], zoom_start=11)
+    
+    category_markers = {}
+    for hub_name, categories in amenities_data.items():
+        for category, items in categories.items():
+            cat_label = get_category_html_label(category)
+            if cat_label not in category_markers: category_markers[cat_label] = []
+            
+            color, icon_name = get_category_icon(category)
+            for item_data in items:
+                am = Amenity(**item_data) if isinstance(item_data, dict) else item_data
+                if am.latitude and am.longitude:
+                    gmaps = f"https://www.google.com/maps/search/?api=1&query={am.latitude},{am.longitude}"
+                    popup = f"""<div style="width:160px"><b>{am.name}</b><br><a href="{gmaps}" target="_blank">Maps ↗</a></div>"""
+                    
+                    marker = folium.Marker(
+                        [am.latitude, am.longitude],
+                        popup=folium.Popup(popup, max_width=200),
+                        tooltip=am.name,
+                        icon=folium.Icon(color=color, icon=icon_name, prefix='fa')
+                    )
+                    category_markers[cat_label].append(marker)
+    
+    sorted_cats = sorted(category_markers.keys(), key=lambda x: (0 if "Entrance" in x else 1, x))
+    for cat in sorted_cats:
+        fg = folium.FeatureGroup(name=cat)
+        for mk in category_markers[cat]: mk.add_to(fg)
+        fg.add_to(m)
+        
+    folium.LayerControl(collapsed=False).add_to(m)
+    return m
+
+def render_in_park_map(static_data):
+    if not static_data: return None
+    
+    places = static_data.get("places", [])
+    campgrounds = static_data.get("campgrounds", [])
+    
+    # Categories to plot with OFFSETS (lat_offset, lon_offset)
+    # Approx 0.0004 deg separation prevents exact overlap
+    target_cats = {
+        "Restroom": {"keywords": ["restroom", "toilet"], "exclude_keywords": [], "color": "darkblue", "icon": "restroom", "offset": (0.0000, 0.0000)},
+        "Water": {"keywords": ["water", "bottle"], "exclude_keywords": [], "color": "blue", "icon": "tint", "offset": (0.0004, 0.0000)},
+        "Food": {"keywords": ["food", "restaurant", "dining"], "exclude_keywords": ["food storage", "animal-safe"], "color": "orange", "icon": "utensils", "offset": (-0.0004, 0.0000)},
+        "Picnic": {"keywords": ["picnic"], "exclude_keywords": [], "color": "green", "icon": "tree", "offset": (0.0000, 0.0004)},
+        "Medical": {"keywords": ["first aid", "medical", "aed", "emergency"], "exclude_keywords": [], "color": "red", "icon": "medkit", "offset": (0.0000, -0.0004)},
+        "Shuttle": {"keywords": ["shuttle", "bus"], "exclude_keywords": [], "color": "purple", "icon": "bus", "offset": (0.0004, 0.0004)},
+    }
+    
+    # Prepare markers bucket
+    device_markers = {k: [] for k in target_cats.keys()}
+    device_markers["Camping"] = [] 
+    
+    def get_attr(obj, attr, default=None):
+        return obj.get(attr, default) if isinstance(obj, dict) else getattr(obj, attr, default)
+        
+    start_lat, start_lon = 37.2, -113.0
+    has_loc = False
+
+    # 1. Process Campgrounds (Category: Camping)
+    for camp in campgrounds:
+        loc = get_attr(camp, "location")
+        lat = get_attr(loc, "lat")
+        lon = get_attr(loc, "lon")
+        
+        if lat and lon:
+            if not has_loc: start_lat, start_lon = lat, lon; has_loc = True
+                
+            # Offset for Camping
+            lat += -0.0004
+            lon += -0.0004
+            
+            name = get_attr(camp, "name")
+            desc = get_attr(camp, "description")[:100] + "..."
+            popup = f"""<div style="width:180px"><b>{name}</b><br><span style="font-size:12px">{desc}</span></div>"""
+            
+            marker = folium.Marker(
+                [lat, lon],
+                popup=folium.Popup(popup, max_width=200),
+                tooltip=name,
+                icon=folium.Icon(color="green", icon="campground", prefix='fa')
+            )
+            device_markers["Camping"].append(marker)
+
+    # 2. Process Places
+    for place in places:
+        loc = get_attr(place, "location")
+        lat = get_attr(loc, "lat")
+        lon = get_attr(loc, "lon")
+        
+        if not lat or not lon: continue
+        if not has_loc: start_lat, start_lon = lat, lon; has_loc = True
+            
+        amenities = get_attr(place, "amenities", [])
+        title = get_attr(place, "title")
+        
+        for cat_name, info in target_cats.items():
+            match = False
+            for am in amenities:
+                am_lower = str(am).lower()
+                
+                # Check exclusions
+                is_excluded = False
+                for ex in info.get("exclude_keywords", []):
+                    if ex in am_lower: is_excluded = True; break
+                if is_excluded: continue
+                
+                # Check inclusions
+                for kw in info["keywords"]:
+                    if kw in am_lower: match = True; break
+                if match: break
+            
+            if match:
+                # Apply Offset
+                off_lat, off_lon = info["offset"]
+                p_lat = lat + off_lat
+                p_lon = lon + off_lon
+                
+                
+                url_html = ""
+                # Safely get URL from place (pydantic model or dict)
+                place_url = getattr(place, "url", None)
+                if place_url:
+                    url_html = f'<br><a href="{place_url}" target="_blank" style="color:blue; text-decoration:none;">Website &rarr;</a>'
+
+                popup = f"""<div style="width:160px"><b>{title}</b><br><span style="color:gray">{cat_name}</span>{url_html}</div>"""
+                marker = folium.Marker(
+                    [p_lat, p_lon],
+                    popup=folium.Popup(popup, max_width=200),
+                    tooltip=f"{title} ({cat_name})",
+                    icon=folium.Icon(color=info["color"], icon=info["icon"], prefix='fa')
+                )
+                device_markers[cat_name].append(marker)
+                
+    # Build Map
+    m = folium.Map(location=[start_lat, start_lon], zoom_start=11)
+    
+    # Add Layers with HTML Labels
+    for cat, markers in device_markers.items():
+        if markers:
+            # Determine color/icon for label
+            if cat == "Camping":
+                color, icon = "green", "campground"
+            elif cat in target_cats:
+                color = target_cats[cat]["color"]
+                icon = target_cats[cat]["icon"]
+            else:
+                color, icon = "gray", "info-circle"
+            
+            # Create HTML label
+            label = f'<i class="fa fa-{icon}" style="color:{color}"></i> &nbsp; {cat} ({len(markers)})'
+            
+            fg = folium.FeatureGroup(name=label)
+            for mk in markers: mk.add_to(fg)
+            fg.add_to(m)
+            
+    folium.LayerControl(collapsed=False).add_to(m)
+    return m
+
+def render_in_park_details(static_data):
+    if not static_data: return
+    
+    st.markdown("### 🏕️ Campgrounds")
+    campgrounds = static_data.get("campgrounds", [])
+    
+    for camp in campgrounds:
+        name = getattr(camp, "name", "Campground")
+        desc = getattr(camp, "description", "")
+        images = getattr(camp, "images", [])
+        img_url = images[0].url if images and hasattr(images[0], 'url') else None
+        
+        # Access attributes safely
+        campsites = getattr(camp, "campsites", {})
+        total = campsites.get("totalSites") if isinstance(campsites, dict) else "?"
+        rv = campsites.get("rvOnly") if isinstance(campsites, dict) else "?"
+        tent = campsites.get("tentOnly") if isinstance(campsites, dict) else "?"
+        
+        amenities = getattr(camp, "amenities", {})
+        am_list = []
+        if isinstance(amenities, dict):
+            if "Yes" in str(amenities.get("toilets", "")): am_list.append("Toilets")
+            if "Yes" in str(amenities.get("potableWater", "")): am_list.append("Water")
+            if "Yes" in str(amenities.get("dumpStation", "")): am_list.append("Dump Station")
+            if "Yes" in str(amenities.get("showers", "")): am_list.append("Showers")
+        
+        with st.expander(f"**{name}** ({total} sites)", expanded=False):
+            c1, c2 = st.columns([1, 2])
+            with c1:
+                if img_url: st.image(img_url, use_container_width=True)
+            with c2:
+                st.write(desc)
+                st.caption(f"**Sites:** {total} Total • {rv} RV-Only • {tent} Tent-Only")
+                if am_list: st.info(" | ".join(am_list))
+                
+                # Accessibility
+                access = getattr(camp, "accessibility", {})
+                if isinstance(access, dict):
+                    wh = access.get("wheelchairAccess")
+                    if wh: st.write(f"**Accessibility:** {wh}")
+
+    st.divider()
+    
+    # Other Categories
+    places = static_data.get("places", [])
+    
+    # Reuse categories from map
+    target_cats = {
+        "Shuttle": {"keywords": ["shuttle", "bus"], "exclude_keywords": [], "icon": "bus", "color":"purple"},
+        "Restroom": {"keywords": ["restroom", "toilet"], "exclude_keywords": [], "icon": "restroom", "color":"darkblue"},
+        "Water": {"keywords": ["water", "bottle"], "exclude_keywords": [], "icon": "tint", "color":"blue"},
+        "Food": {"keywords": ["food", "restaurant", "dining"], "exclude_keywords": ["food storage", "animal-safe"], "icon": "utensils", "color":"orange"},
+        "Medical": {"keywords": ["first aid", "medical", "aed", "emergency"], "exclude_keywords": [], "icon": "medkit", "color":"red"},
+    }
+    
+    grouped = {k: [] for k in target_cats.keys()}
+    
+    for place in places:
+        amenities = getattr(place, "amenities", [])
+        title = getattr(place, "title", "Place")
+        url = getattr(place, "url", None)
+        
+        for cat_name, info in target_cats.items():
+            match = False
+            for am in amenities:
+                am_lower = str(am).lower()
+                
+                # Check exclusions
+                is_excluded = False
+                for ex in info.get("exclude_keywords", []):
+                    if ex in am_lower: is_excluded = True; break
+                if is_excluded: continue
+                
+                # Check inclusions
+                for kw in info["keywords"]:
+                    if kw in am_lower: match = True; break
+                if match: break
+            
+            if match:
+                # Store tuple (Title, URL)
+                grouped[cat_name].append((title, url))
+
+    st.markdown("### 📍 Amenities List")
+    cols = st.columns(3)
+    idx = 0
+    for cat, items in grouped.items():
+        if items:
+            with cols[idx % 3]:
+                icon = target_cats[cat]["icon"]
+                color = target_cats[cat]["color"]
+                st.markdown(f'#### <i class="fa fa-{icon}" style="color:{color}"></i> &nbsp; {cat}', unsafe_allow_html=True)
+                
+                # Sort by title, items are (title, url) tuples
+                sorted_items = sorted(list(set(items)), key=lambda x: x[0])
+                
+                for title_val, url_val in sorted_items:
+                    if url_val:
+                        st.markdown(f"- **[{title_val}]({url_val})**")
+                    else:
+                        st.markdown(f"- {title_val}")
+                st.write("")
+            idx += 1
+
+# --- 5. MAIN RENDER ---
+def render_essentials_dashboard(park_code, orchestrator, static_data):
+    inject_custom_css()
+    st.markdown('<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">', unsafe_allow_html=True)
+    
+    # Data
+    volatile = st.session_state.get("volatile_cache", {})
+    weather_raw = volatile.get("weather", {})
+    if isinstance(weather_raw, dict) and park_code in weather_raw: weather_raw = weather_raw[park_code]
+    weather = weather_raw.get("data") if isinstance(weather_raw, dict) and "data" in weather_raw else weather_raw
+
+    alerts_raw = volatile.get("alerts", [])
+    if isinstance(alerts_raw, dict) and park_code in alerts_raw: alerts_raw = alerts_raw[park_code]
+    alerts = alerts_raw.get("data") if isinstance(alerts_raw, dict) and "data" in alerts_raw else alerts_raw
+    
+    amenities_data = static_data.get("amenities_by_hub", {})
+    if not amenities_data and hasattr(orchestrator, 'get_park_amenities'):
+         amenities_data = orchestrator.get_park_amenities(park_code)
+
+    render_alert_section(alerts)
+    st.write("")
+    
+    # Split Layout: Weather (Left) vs Stats (Right)
+    col_weather, col_stats = st.columns([1.8, 1])
+    
+    with col_weather:
+        render_weather_full_width(weather)
+        
+    with col_stats:
+        render_stat_cards(static_data)
+
+    st.write("")
+    st.divider()
+    
+    # 1. Unified Toggle
+    view_option = st.radio("Select View Layer", ["Hub Services", "In-Park Services"], horizontal=True, label_visibility="collapsed")
+    
+    st.subheader(f"🗺️ {view_option} Map")
+    
+    # 2. Map Rendering based on Toggle
+    if view_option == "Hub Services":
+        st.caption("Gas, Food, Lodging & Supplies near Park Hubs")
+        m1 = render_detailed_map(amenities_data)
+        if m1: st_folium(m1, height=500, use_container_width=True, key="map_hub")
+        else: st.info("Map data unavailable.")
+    else:
+        st.caption("Restrooms, Water, Shuttle Stops, Camping & Medical inside the Park")
+        m2 = render_in_park_map(static_data)
+        if m2: st_folium(m2, height=500, use_container_width=True, key="map_park")
+        else: st.info("In-Park data unavailable.")
+
+    st.divider()
+    st.subheader(f"📍 {view_option} Details")
+    
+    # 3. List Rendering based on Toggle
+    if view_option == "Hub Services":
+        if amenities_data:
+            for hub_name, categories in amenities_data.items():
+                with st.expander(f"**{hub_name}** List", expanded=False):
+                     cols = st.columns(3)
+                     for idx, (cat, items) in enumerate(categories.items()):
+                         with cols[idx % 3]:
+                             st.markdown(f"#### {get_category_html_label(cat)}", unsafe_allow_html=True)
+                             for item in items[:5]:
+                                 am = Amenity(**item) if isinstance(item, dict) else item
+                                 
+                                 if am.website:
+                                     name_html = f'<a href="{am.website}" target="_blank" style="font-weight:600; font-size:1.05em; text-decoration:none;">{am.name}</a>'
+                                 else:
+                                     name_html = f'<span style="font-weight:600; font-size:1.05em;">{am.name}</span>'
+                                     
+                                 if am.address and am.address.lower() != "n/a":
+                                     import urllib.parse
+                                     safe = urllib.parse.quote(am.address)
+                                     gmaps_link = f"https://www.google.com/maps/search/?api=1&query={safe}"
+                                     addr_html = f'<a href="{gmaps_link}" target="_blank" style="font-size:0.85em; color:gray; text-decoration:none;">{am.address}</a>'
+                                 elif am.latitude:
+                                     gmaps_link = f"https://www.google.com/maps/search/?api=1&query={am.latitude},{am.longitude}"
+                                     addr_html = f'<a href="{gmaps_link}" target="_blank" style="font-size:0.85em; color:gray; text-decoration:none;">View Map ↗</a>'
+                                 else:
+                                     addr_html = ""
+                                     
+                                 rating_display = f"{am.rating}⭐ ({am.rating_count or 0})" if am.rating else ""
+                                 
+                                 st.markdown(f"""
+                                 <div style="margin-bottom: 12px; padding-bottom: 8px; border-bottom: 1px solid rgba(128, 128, 128, 0.2);">
+                                     {name_html}<br>
+                                     <span style="font-size:0.9em;">{rating_display}</span><br>
+                                     {addr_html}
+                                 </div>
+                                 """, unsafe_allow_html=True)
+    
+    else: # In-Park Services
+        render_in_park_details(static_data)

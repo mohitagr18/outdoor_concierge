@@ -19,9 +19,11 @@ from app.services.llm_service import GeminiLLMService
 from app.ui.data_access import get_park_static_data, get_volatile_data, clear_volatile_cache
 
 # Import Views
-from app.ui.views.park_explorer_amenities import render_amenities_dashboard
+from app.ui.views.park_explorer_essentials import render_essentials_dashboard
 from app.ui.views.park_explorer_trails import render_trails_browser
 from app.ui.views.park_explorer_photos import render_photo_spots
+from app.ui.views.park_explorer_activities import render_activities_grid
+from app.ui.views.park_explorer_events import render_events_list
 
 # --- Page Configuration ---
 st.set_page_config(
@@ -30,6 +32,44 @@ st.set_page_config(
     layout="wide",
     initial_sidebar_state="expanded"
 )
+
+# --- Custom CSS for Big Tabs ---
+st.markdown("""
+<style>
+    /* 1. Global Tab Styling (Apply to Outer Tabs) */
+    div[data-testid="stTabs"] button {
+        gap: 20px;
+    }
+    div[data-testid="stTabs"] button p {
+        font-size: 24px !important;
+        font-weight: 500 !important; /* Normal weight */
+    }
+    
+    /* 2. Inner Tab Styling Overrides */
+    /* Target the stTabs div that follows our marker */
+    #sub-tabs-marker + div[data-testid="stTabs"] button p {
+        font-size: 8px !important;
+        font-weight: 400 !important;
+    }
+    #sub-tabs-marker + div[data-testid="stTabs"] button {
+        gap: 5px; /* Tighter gap for inner tabs */
+    }
+
+    /* 3. Color Overrides for ALL Tabs (Remove Red) */
+    /* Selected Tab Text */
+    div[data-testid="stTabs"] button[aria-selected="true"] p {
+        color: #2c3e50 !important; /* Dark Blue-Grey instead of Red */
+    }
+    /* Selected Tab Top Border */
+    div[data-testid="stTabs"] button[aria-selected="true"] {
+        border-top-color: #2c3e50 !important;
+    }
+    div[data-testid="stTabs"] button:hover {
+        color: #2c3e50 !important;
+        border-color: #2c3e50 !important;
+    }
+</style>
+""", unsafe_allow_html=True)
 
 # --- 1. Session State Initialization ---
 if "session_context" not in st.session_state:
@@ -112,28 +152,46 @@ with tab_chat:
 with tab_explorer:
     st.header(f"Exploring {SUPPORTED_PARKS[st.session_state.selected_park]}")
     
-    # Top-level Metrics
-    c1, c2, c3, c4 = st.columns(4)
-    c1.metric("Trails", len(static_data.get("trails", [])))
-    c2.metric("Photo Spots", len(static_data.get("photo_spots", [])))
-    c3.metric("Active Alerts", len(volatile_data.get("alerts", [])), delta="Live")
-    c4.metric("Campgrounds", len(static_data.get("campgrounds", [])))
+    # # Top-level Metrics
+    # c1, c2, c3, c4 = st.columns(4)
+    # c1.metric("Trails", len(static_data.get("trails", [])))
+    # c2.metric("Photo Spots", len(static_data.get("photo_spots", [])))
+    # c3.metric("Active Alerts", len(volatile_data.get("alerts", [])), delta="Live")
+    # c4.metric("Campgrounds", len(static_data.get("campgrounds", [])))
     
-    st.divider()
+    # st.divider()
     
     # Sub-Navigation for Explorer Views
-    view_mode = st.radio(
-        "Explore Mode", 
-        ["Services & Amenities", "Trails Browser", "Photo Spots"],
-        horizontal=True,
-        label_visibility="collapsed"
-    )
-
-    if view_mode == "Services & Amenities":
-        render_amenities_dashboard(park_code, orchestrator)
+    st.markdown("<div id='sub-tabs-marker'></div>", unsafe_allow_html=True)
+    exp_tab1, exp_tab2, exp_tab3, exp_tab4 = st.tabs([
+        "Park Essentials", "Trails Browser", "Photo Spots", "Activities & Events"
+    ])
     
-    elif view_mode == "Trails Browser":
+    with exp_tab1:
+        render_essentials_dashboard(park_code, orchestrator, static_data)
+        
+    with exp_tab2:
         render_trails_browser(park_code, static_data)
         
-    elif view_mode == "Photo Spots":
+    with exp_tab3:
         render_photo_spots(static_data.get("photo_spots", []))
+
+    with exp_tab4:
+        # Internal sub-navigation using Radio Buttons
+        activity_view = st.radio(
+            "Select View",
+            options=["Things to Do", "Upcoming Events"],
+            horizontal=True,
+            label_visibility="collapsed"
+        )
+        
+        st.write("") # Spacer
+        
+        if activity_view == "Things to Do":
+            render_activities_grid(static_data.get("things_to_do", []))
+            
+        elif activity_view == "Upcoming Events":
+            render_events_list(
+                volatile_data.get("events", []),
+                visit_date=visit_date
+            )

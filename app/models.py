@@ -1,5 +1,6 @@
 from typing import List, Optional, Dict, Any
-from pydantic import BaseModel, Field
+import re
+from pydantic import BaseModel, Field, model_validator
 
 # --- Common Enums/Types ---
 class GeoLocation(BaseModel):
@@ -75,6 +76,16 @@ class Place(BaseModel):
     amenities: List[str] = []
     isOpenToPublic: bool = True
     isManagedByNps: bool = True
+    url: Optional[str] = None
+
+    @model_validator(mode='after')
+    def extract_url_from_body(self):
+        if not self.url and self.bodyText:
+            # Look for the first http(s) link in an href attribute
+            match = re.search(r'href=["\'](http[^"\']+)["\']', self.bodyText)
+            if match:
+                self.url = match.group(1)
+        return self
 
 class ThingToDo(BaseModel):
     id: str
@@ -88,6 +99,8 @@ class ThingToDo(BaseModel):
     arePetsPermitted: bool = False
     images: List[ParkImage] = []
     isReservationRequired: bool = False
+    doFeesApply: bool = False
+    tags: List[str] = []
 
 class PassportStamp(BaseModel):
     id: str
@@ -112,6 +125,12 @@ class Event(BaseModel):
     is_free: bool = False
     location: Optional[str] = None
     times: List[Dict[str, Any]] = []
+    # NEW FIELDS
+    images: List[ParkImage] = []
+    dates: List[str] = []     # List of specific dates this event occurs
+    tags: List[str] = []      # e.g. ["ranger talk", "family"]
+    types: List[str] = []     # e.g. ["Talk", "Gathering"]
+    fee_info: Optional[str] = None
 
 
 class ParkContext(BaseModel):
@@ -150,6 +169,8 @@ class WeatherSummary(BaseModel):
     parkCode: str
     current_temp_f: float
     current_condition: str
+    wind_mph: float = 0.0
+    humidity: int = 0
     forecast: List[DailyForecast]
     sunrise: Optional[str] = None
     sunset: Optional[str] = None
