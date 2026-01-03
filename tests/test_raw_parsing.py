@@ -26,6 +26,9 @@ def test_events_parsing():
             print("  ERROR: date_start missing")
         if not isinstance(e.is_free, bool):
              print(f"  ERROR: is_free is not bool: {type(e.is_free)}")
+        if e.images:
+            if not e.images[0].url.startswith("http"):
+                print(f"  ERROR: Image URL is not absolute: {e.images[0].url}")
 
 def test_things_parsing():
     with open("data_samples/nps/raw/ZION/thingstodo.json", "r") as f:

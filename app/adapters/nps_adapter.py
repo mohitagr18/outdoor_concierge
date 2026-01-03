@@ -31,8 +31,12 @@ def _extract_images(data: Dict[str, Any]) -> List[ParkImage]:
     raw_images = data.get("images", [])
     images = []
     for img in raw_images:
+        url = img.get("url", "")
+        if url and url.startswith("/"):
+            url = f"https://www.nps.gov{url}"
+            
         images.append(ParkImage(
-            url=img.get("url", ""),
+            url=url,
             title=img.get("title"),
             altText=img.get("altText"),
             caption=img.get("caption"),

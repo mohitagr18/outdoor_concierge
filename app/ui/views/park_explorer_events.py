@@ -39,44 +39,21 @@ def render_events_list(events: list[Event], visit_date: datetime.date = None):
 
     # Flatten back to list
     final_events = list(deduped.values())
-
-    # Filter Controls
-    col1, col2 = st.columns([1, 3])
-    with col1:
-        filter_date = st.checkbox("Show only during my visit", value=True if visit_date else False)
     
-    # Filter Logic
-    display_events = final_events
-    if filter_date and visit_date:
-        filtered = []
-        v_str = visit_date.strftime("%Y-%m-%d")
-        for e in final_events:
-            # Check explicit dates list if available
-            e_dates = getattr(e, "dates", [])
-            if e_dates:
-                if v_str in e_dates:
-                    filtered.append(e)
-                    continue
-            
-            # Check ranges
-            if e.date_start <= v_str:
-                end = e.date_end if e.date_end else e.date_start
-                if end >= v_str:
-                    filtered.append(e)
-                    
-        display_events = filtered
+    # Sort events by date if possible (optional, but good for UX)
+    # final_events.sort(key=lambda x: x.date_start)
 
-    if not display_events:
-        st.info("No events scheduled for this period.")
+    if not final_events:
+        st.info("No events found.")
         return
 
-    st.caption(f"Showing {len(display_events)} distinct events")
+    st.caption(f"Showing {len(final_events)} distinct events")
 
-    for event in display_events:
+    for event in final_events:
         with st.container(border=True):
             c1, c2, c3 = st.columns([1, 3, 1])
             
-            # Date Badge (Logic: Show 'Multiple Dates' or specific range)
+            # Date Badge
             with c1:
                 e_dates = getattr(event, "dates", [])
                 if len(e_dates) > 1:
@@ -104,18 +81,43 @@ def render_events_list(events: list[Event], visit_date: datetime.date = None):
             with c2:
                 st.subheader(event.title)
                 
-                # Show Dates List if multiple
-                if len(e_dates) > 1:
-                     # Show first few dates
-                     readable_dates = []
-                     for d in e_dates[:5]: # Cap at 5
-                         try:
-                             readable_dates.append(datetime.strptime(d, "%Y-%m-%d").strftime("%b %d"))
-                         except: pass
+                # Date Range & Specific Dates
+                date_range_str = ""
+                if event.date_start:
+                    try:
+                        d_start = datetime.strptime(event.date_start, "%Y-%m-%d").strftime("%b %d, %Y")
+                        date_range_str = f"**Range:** {d_start}"
+                        if event.date_end:
+                            d_end = datetime.strptime(event.date_end, "%Y-%m-%d").strftime("%b %d, %Y")
+                            date_range_str += f" - {d_end}"
+                    except:
+                        date_range_str = f"**Range:** {event.date_start}"
+                        if event.date_end: date_range_str += f" - {event.date_end}"
+                
+                if date_range_str:
+                    st.write(f"📅 {date_range_str}")
+
+                if len(e_dates) > 0:
+                     # Helper to format dates
+                     def fmt_d(d):
+                         try: return datetime.strptime(d, "%Y-%m-%d").strftime("%b %d, %Y")
+                         except: return d
                      
-                     dates_str = ", ".join(readable_dates)
-                     if len(e_dates) > 5: dates_str += ", ..."
-                     st.write(f"📅 **Upcoming:** {dates_str}")
+                     if len(e_dates) <= 1:
+                         # Single date matched start date usually, so maybe redundant if range is shown
+                         # But let's show it if it differs or just to be safe
+                         pass
+                     elif len(e_dates) <= 10:
+                         # Show all inline
+                         dates_str = ", ".join([fmt_d(d) for d in e_dates])
+                         st.write(f"**Specific Dates:** {dates_str}")
+                     else:
+                         # Show summary and expander with grid layout
+                         with st.expander(f"View all {len(e_dates)} occurrence dates"):
+                             # formatted_dates = [fmt_d(d) for d in e_dates]
+                             cols = st.columns(4)
+                             for i, d in enumerate(e_dates):
+                                 cols[i % 4].write(fmt_d(d))
 
                 # Times
                 if event.times:
@@ -131,13 +133,29 @@ def render_events_list(events: list[Event], visit_date: datetime.date = None):
                     st.markdown(event.description, unsafe_allow_html=True)
                 
                 # Tags
-                tags = getattr(event, "tags", []).copy()
-                if event.is_free: tags.append("🆓 Free")
-                if getattr(event, "fee_info", None): tags.append("💲 Fee Applies")
+                # Filter out any existing fee/free tags to prevent duplicates during re-runs
+                base_tags = [t for t in getattr(event, "tags", []) if t not in ["🆓 Free", "💲 Fee Applies"]]
+                tags = base_tags.copy()
+                
+                # Fee Logic: Mutually exclusive tags
+                if event.is_free:
+                    tags.append("🆓 Free")
+                elif getattr(event, "fee_info", None): 
+                    tags.append("💲 Fee Applies")
+                    
                 st.write(" ".join([f"`{t}`" for t in tags]))
+                
+                # Show fee info text if available (clarifies "Free with park admission")
+                fee_text = getattr(event, "fee_info", None)
+                if fee_text and event.is_free:
+                     st.caption(f"*{fee_text}*")
 
             # Image
             with c3:
                 imgs = getattr(event, "images", [])
                 if imgs:
-                    st.image(imgs[0].url, use_container_width=True)
+                    img_url = imgs[0].url
+                    # Safety check for stale objects with relative URLs
+                    if img_url.startswith("/"):
+                        img_url = f"https://www.nps.gov{img_url}"
+                    st.image(img_url, use_container_width=True)

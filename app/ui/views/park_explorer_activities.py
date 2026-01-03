@@ -38,7 +38,10 @@ def render_activities_grid(activities: list[ThingToDo]):
             with st.container(border=True):
                 # Image
                 if item.images:
-                    st.image(item.images[0].url, use_container_width=True)
+                    img_url = item.images[0].url
+                    if img_url.startswith("/"):
+                        img_url = f"https://www.nps.gov{img_url}"
+                    st.image(img_url, use_container_width=True)
                 
                 # Title & Duration
                 st.subheader(item.title)

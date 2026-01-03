@@ -24,6 +24,7 @@ from app.ui.views.park_explorer_trails import render_trails_browser
 from app.ui.views.park_explorer_photos import render_photo_spots
 from app.ui.views.park_explorer_activities import render_activities_grid
 from app.ui.views.park_explorer_events import render_events_list
+from app.ui.views.park_explorer_webcams import render_webcams_grid
 
 # --- Page Configuration ---
 st.set_page_config(
@@ -163,8 +164,8 @@ with tab_explorer:
     
     # Sub-Navigation for Explorer Views
     st.markdown("<div id='sub-tabs-marker'></div>", unsafe_allow_html=True)
-    exp_tab1, exp_tab2, exp_tab3, exp_tab4 = st.tabs([
-        "Park Essentials", "Trails Browser", "Photo Spots", "Activities & Events"
+    exp_tab1, exp_tab2, exp_tab3, exp_tab4, exp_tab5 = st.tabs([
+        "Park Essentials", "Trails Browser", "Photo Spots", "Activities & Events", "Webcams"
     ])
     
     with exp_tab1:
@@ -195,3 +196,6 @@ with tab_explorer:
                 volatile_data.get("events", []),
                 visit_date=visit_date
             )
+
+    with exp_tab5:
+        render_webcams_grid(static_data.get("webcams", []))
