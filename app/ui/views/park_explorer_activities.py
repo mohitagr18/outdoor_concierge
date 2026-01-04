@@ -1,5 +1,6 @@
 import streamlit as st
 from app.models import ThingToDo
+from app.ui.components import render_card
 
 def render_activities_grid(activities: list[ThingToDo]):
     if not activities:
@@ -34,44 +35,31 @@ def render_activities_grid(activities: list[ThingToDo]):
     
     for i, item in enumerate(filtered_activities):
         with cols[i % 3]:
-            # Card Container
-            with st.container(border=True):
-                # Image
-                if item.images:
-                    img_url = item.images[0].url
-                    if img_url.startswith("/"):
-                        img_url = f"https://www.nps.gov{img_url}"
-                    st.image(img_url, use_container_width=True)
+            # Prepare Data for Card
+            
+            # Tags
+            tags = []
+            if item.doFeesApply: tags.append("💲 Fee")
+            if item.isReservationRequired: tags.append("📅 Reserv. Req.")
+            if item.arePetsPermitted: tags.append("🐾 Pets OK")
+            else: tags.append("🚫 No Pets")
+            
+            # Description (Truncated)
+            desc = item.shortDescription[:100] + "..." if len(item.shortDescription) > 100 else item.shortDescription
+            
+            # Details Content
+            details = item.longDescription if item.longDescription else item.shortDescription
+            if item.location:
+                details += f"\n\n**Location:** Lat: {item.location.lat}, Lon: {item.location.lon}"
+            if item.season:
+                details += f"\n\n**Season:** {', '.join(item.season)}"
                 
-                # Title & Duration
-                st.subheader(item.title)
-                if item.duration:
-                    st.caption(f"⏱️ {item.duration}")
-                
-                # Description (Truncated)
-                desc = item.shortDescription[:100] + "..." if len(item.shortDescription) > 100 else item.shortDescription
-                st.write(desc)
-                
-                # Tags/Metadata
-                tags = []
-                if item.doFeesApply: tags.append("💲 Fee")
-                if item.isReservationRequired: tags.append("📅 Reserv. Req.")
-                if item.arePetsPermitted: tags.append("🐾 Pets OK")
-                else: tags.append("🚫 No Pets")
-                
-                if tags:
-                    st.write("  \n".join([f"`{t}`" for t in tags]))
-                
-                # Popover Details
-                with st.popover("More Details", use_container_width=True):
-                    st.markdown(f"### {item.title}")
-                    if item.images:
-                        st.image(item.images[0].url)
-                    
-                    st.markdown(item.longDescription if item.longDescription else item.shortDescription, unsafe_allow_html=True)
-                    
-                    if item.location:
-                        st.write(f"**Location:** Lat: {item.location.lat}, Lon: {item.location.lon}")
-                    
-                    if item.season:
-                        st.write(f"**Season:** {', '.join(item.season)}")
+            # Render
+            render_card(
+                title=item.title,
+                image_url=item.images[0].url if item.images else None,
+                subtitle=f"⏱️ {item.duration}" if item.duration else None,
+                description=desc,
+                tags=tags,
+                details_content=details
+            )

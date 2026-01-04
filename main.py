@@ -11,12 +11,20 @@ logger = logging.getLogger(__name__)
 load_dotenv()
 
 # App imports
+# App imports
 from app.orchestrator import OutdoorConciergeOrchestrator, SessionContext
 from app.clients.nps_client import NPSClient
 from app.clients.weather_client import WeatherClient
 from app.clients.external_client import ExternalClient
 from app.services.llm_service import GeminiLLMService
 from app.ui.data_access import get_park_static_data, get_volatile_data, clear_volatile_cache
+
+# Config & Styles
+from app.config import (
+    SUPPORTED_PARKS, VIEW_PARAM_MAP, EXPLORER_VIEW_OPTIONS, 
+    DEFAULT_PARK, DEFAULT_VIEW, logger
+)
+from app.ui.styles import inject_global_styles, inject_radio_tab_styles
 
 # Import Views
 from app.ui.views.park_explorer_essentials import render_essentials_dashboard
@@ -34,35 +42,8 @@ st.set_page_config(
     initial_sidebar_state="expanded"
 )
 
-# --- Custom CSS for Big Tabs ---
-st.markdown("""
-<style>
-    /* 1. Global Tab Styling (Apply to Outer Tabs) */
-    div[data-testid="stTabs"] button {
-        gap: 30px; /* More space between tabs */
-    }
-    div[data-testid="stTabs"] button p {
-        font-size: 16px !important; /* Smaller, cleaner font */
-        font-weight: 500 !important;
-    }
-    
-    /* 2. Inner Tab Styling (Removed specific marker hack, standardizing for now) */
-
-    /* 3. Color Overrides for ALL Tabs (Remove Red) */
-    /* Selected Tab Text */
-    div[data-testid="stTabs"] button[aria-selected="true"] p {
-        color: #2c3e50 !important; /* Dark Blue-Grey instead of Red */
-    }
-    /* Selected Tab Top Border */
-    div[data-testid="stTabs"] button[aria-selected="true"] {
-        border-top-color: #2c3e50 !important;
-    }
-    div[data-testid="stTabs"] button:hover {
-        color: #2c3e50 !important;
-        border-color: #2c3e50 !important;
-    }
-</style>
-""", unsafe_allow_html=True)
+# Inject Global CSS
+inject_global_styles()
 
 # --- 1. Session State Initialization ---
 if "session_context" not in st.session_state:
@@ -72,7 +53,7 @@ if "volatile_cache" not in st.session_state:
     st.session_state.volatile_cache = {"weather": {}, "alerts": {}, "events": {}}
 
 if "selected_park" not in st.session_state:
-    st.session_state.selected_park = "yose"
+    st.session_state.selected_park = DEFAULT_PARK
 
 # --- 2. Service Initialization (Cached) ---
 @st.cache_resource
@@ -99,16 +80,9 @@ orchestrator = get_orchestrator()
 # Check early to redirect before rendering
 if "view" in st.query_params:
     target_view = st.query_params["view"]
-    view_map = {
-        "trails": "Trails Browser",
-        "photos": "Photo Spots",
-        "camping": "Park Essentials",
-        "activities": "Activities & Events",
-        "webcams": "Webcams"
-    }
     
-    if target_view in view_map:
-        st.session_state.explorer_view = view_map[target_view]
+    if target_view in VIEW_PARAM_MAP:
+        st.session_state.explorer_view = VIEW_PARAM_MAP[target_view]
         
         # Special Handling for "Campgrounds" toggle
         if target_view == "camping":
@@ -120,12 +94,6 @@ if "view" in st.query_params:
 # --- 3. Sidebar ---
 with st.sidebar:
     st.title("🌲 Adventure Concierge")
-    
-    SUPPORTED_PARKS = {
-        "yose": "Yosemite National Park",
-        "zion": "Zion National Park",
-        "grca": "Grand Canyon National Park"
-    }
     
     selected_code = st.selectbox(
         "Select Park",
@@ -167,76 +135,20 @@ with tab_chat:
 with tab_explorer:
     st.header(f"Exploring {SUPPORTED_PARKS[st.session_state.selected_park]}")
     
-    # # Top-level Metrics
-    # c1, c2, c3, c4 = st.columns(4)
-    # c1.metric("Trails", len(static_data.get("trails", [])))
-    # c2.metric("Photo Spots", len(static_data.get("photo_spots", [])))
-    # c3.metric("Active Alerts", len(volatile_data.get("alerts", [])), delta="Live")
-    # c4.metric("Campgrounds", len(static_data.get("campgrounds", [])))
-    
-    # st.divider()
-    
     # Sub-Navigation for Explorer Views
     
     # 1. Initialize View State
     if "explorer_view" not in st.session_state:
-        st.session_state.explorer_view = "Park Essentials"
+        st.session_state.explorer_view = DEFAULT_VIEW
 
     # 3. Custom CSS for "Radio Tabs"
-    st.markdown("""
-    <style>
-        /* Hide the default radio circles */
-        div[data-testid="stRadio"] > label > div:first-child {
-            display: none;
-        }
-        div[data-testid="stRadio"] > div[role="radiogroup"] > label > div:first-child {
-            display: none;
-        }
-        
-        /* Container styling */
-        div[data-testid="stRadio"] > div[role="radiogroup"] {
-            gap: 12px;
-            border-bottom: 1px solid #ddd;
-            padding-bottom: 0px;
-        }
+    inject_radio_tab_styles()
 
-        /* Tab styling */
-        div[data-testid="stRadio"] > div[role="radiogroup"] > label {
-            background-color: transparent;
-            padding: 8px 16px;
-            border-radius: 8px 8px 0 0;
-            border: 1px solid transparent; 
-            margin-bottom: -1px;
-            transition: all 0.2s;
-        }
-        
-        /* Hover */
-        div[data-testid="stRadio"] > div[role="radiogroup"] > label:hover {
-            background-color: #f1f5f9;
-            color: #0f172a;
-        }
-        
-        /* Selected Tab Styling */
-        div[data-testid="stRadio"] > div[role="radiogroup"] > label:has(input:checked) {
-            background-color: #f1f5f9;
-            border-bottom: 2px solid #2c3e50;
-            color: #2c3e50;
-        }
-        
-        div[data-testid="stRadio"] > div[role="radiogroup"] > label:has(input:checked) p {
-            color: #2c3e50 !important;
-            font-weight: 700;
-        }
-    </style>
-    """, unsafe_allow_html=True)
-
-    view_options = [
-        "Park Essentials", "Trails Browser", "Photo Spots", "Activities & Events", "Webcams"
-    ]
+    view_options = EXPLORER_VIEW_OPTIONS
     
     # Ensure valid state
     if st.session_state.explorer_view not in view_options:
-        st.session_state.explorer_view = "Park Essentials"
+        st.session_state.explorer_view = DEFAULT_VIEW
 
     selected_view = st.radio(
         "Explorer View",
