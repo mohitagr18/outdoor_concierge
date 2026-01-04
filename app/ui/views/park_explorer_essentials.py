@@ -92,7 +92,6 @@ def render_alert_section(alerts):
                 <div style="font-weight: 700; font-size: 18px;">{count} Active Alerts</div>
                 <div style="font-size: 14px; opacity: 0.9;">{title}...</div>
             </div>
-            <div style="font-size:20px;">👇</div>
         </div>
     """, unsafe_allow_html=True)
     
