@@ -12,35 +12,26 @@
       "Arrive at least 30 minutes before sunrise or sunset",
       "A 35mm lens is effective for capturing the perspective of the valley"
     ],
-    "image_url": null
-  },
-  {
-    "name": "Glacier Point Road",
-    "parkCode": "yose",
-    "description": "The stretch of road just before the parking lot that offers a dramatic curve with Half Dome as the backdrop.",
-    "best_time_of_day": [
-      "Sunrise"
-    ],
-    "tips": [
-      "Park at the lot and hike back up the road to the curve for the best angle",
-      "Use a telephoto lens (around 90mm-100mm) for better compression of Half Dome",
-      "Be careful of vehicles when standing on or near the road"
-    ],
-    "image_url": null
+    "image_url": "https://images.unsplash.com/photo-1532274402911-5a369e4c4bb5?q=80&w=2070&auto=format&fit=crop",
+    "rank": 1,
+    "source_url": "https://www.nps.gov/yose/planyourvisit/tunnelview.htm"
   },
   {
     "name": "Glacier Point",
     "parkCode": "yose",
     "description": "An extremely accessible spot that provides a wide panorama and a direct view of Half Dome from the historic hut.",
     "best_time_of_day": [
-      "Sunrise"
+      "Sunrise",
+      "Sunset"
     ],
     "tips": [
       "Walk to the little hut for the most framed and famous view",
       "Prepare for crowds even at sunrise",
       "Find unique rock formations along the path to use as foreground"
     ],
-    "image_url": null
+    "image_url": "https://images.unsplash.com/photo-1445363689197-38da00a8aa87?q=80&w=2070&auto=format&fit=crop",
+    "rank": 2,
+    "source_url": "https://www.nps.gov/yose/planyourvisit/glacierpoint.htm"
   },
   {
     "name": "Taft Point",
@@ -55,38 +46,14 @@
       "Be extremely careful near the rock edges as drop-offs are steep and unguarded",
       "Bring a headlamp for the hike back through the woods in the dark"
     ],
-    "image_url": null
+    "image_url": "https://images.unsplash.com/photo-1548625361-bd8769db3cfc?q=80&w=2076&auto=format&fit=crop",
+    "rank": 3,
+    "source_url": "https://www.alltrails.com/trail/us/california/taft-point-and-the-fissures"
   },
   {
-    "name": "Superintendent\u2019s Bridge",
+    "name": "Sentinel Bridge",
     "parkCode": "yose",
-    "description": "A bridge over the Merced River that serves as both a swimming hole and a great spot for action photography.",
-    "best_time_of_day": [
-      "Middle of the day"
-    ],
-    "tips": [
-      "Use a fast shutter speed to capture people jumping into the water",
-      "Perfect spot for mid-day lifestyle and swimming shots"
-    ],
-    "image_url": null
-  },
-  {
-    "name": "Cook Meadows Boardwalk",
-    "parkCode": "yose",
-    "description": "A scenic boardwalk loop in Yosemite Valley offering flat perspectives of the meadows and cliffs.",
-    "best_time_of_day": [
-      "Sunset"
-    ],
-    "tips": [
-      "Parking is available right next to the boardwalk for quick access",
-      "Great for walking shots or capturing the valley floor architecture"
-    ],
-    "image_url": null
-  },
-  {
-    "name": "Sentinel Bridge Parking Area Meadows",
-    "parkCode": "yose",
-    "description": "A meadow location near the parking area that offers a clear and beautiful view of Yosemite Falls.",
+    "description": "Famous for its perfect reflection of Half Dome in the Merced River.",
     "best_time_of_day": [
       "Sunset",
       "Golden Hour"
@@ -95,7 +62,24 @@
       "Position your subject in the meadow with the falls directly behind them",
       "Wide-angle lenses work well here to capture the scale of the falls"
     ],
-    "image_url": null
+    "image_url": "https://images.unsplash.com/photo-1589404281320-c75c8893630f?q=80&w=2070&auto=format&fit=crop",
+    "rank": 4,
+    "source_url": "https://www.nps.gov/places/000/sentinel-bridge.htm"
+  },
+  {
+    "name": "Yosemite Falls (Cook Meadow)",
+    "parkCode": "yose",
+    "description": "A scenic boardwalk loop in Yosemite Valley offering flat perspectives of the meadows and cliffs with the falls in the background.",
+    "best_time_of_day": [
+      "Sunset"
+    ],
+    "tips": [
+      "Parking is available right next to the boardwalk for quick access",
+      "Great for walking shots or capturing the valley floor architecture"
+    ],
+    "image_url": "https://images.unsplash.com/photo-1455584518400-98fc938501f2?q=80&w=2070&auto=format&fit=crop",
+    "rank": 5,
+    "source_url": "https://www.nps.gov/yose/planyourvisit/tmhike.htm"
   },
   {
     "name": "Mirror Lake",
@@ -109,25 +93,14 @@
       "Visit in late Spring or early Summer when the lake is actually full of water",
       "The water is often most still in the early morning"
     ],
-    "image_url": null
-  },
-  {
-    "name": "Eagle Peak",
-    "parkCode": "yose",
-    "description": "A high vantage point offering sweeping panoramic views across Yosemite National Park.",
-    "best_time_of_day": [
-      "Sunset"
-    ],
-    "tips": [
-      "This location requires a significant hike, so plan your time accordingly",
-      "Bring plenty of snacks and water for the trek"
-    ],
-    "image_url": null
+    "image_url": "https://plus.unsplash.com/premium_photo-1664302196627-8898ee84c3c1?q=80&w=2062&auto=format&fit=crop",
+    "rank": 6,
+    "source_url": "https://www.nps.gov/yose/planyourvisit/mirrorlake.htm"
   },
   {
     "name": "Vernal Falls",
     "parkCode": "yose",
-    "description": "One of the park's most iconic waterfalls, famous for its powerful flow and mist.",
+    "description": "One of the park's most iconic waterfalls, famous for its powerful flow and mist along the Mist Trail.",
     "best_time_of_day": [
       "Spring",
       "Early Summer"
@@ -136,6 +109,38 @@
       "Expect to get wet from the mist; protect your camera gear with a cover",
       "Look for rainbows created by the sun hitting the mist in the afternoon"
     ],
-    "image_url": null
+    "image_url": "https://images.unsplash.com/photo-1482192596544-9eb780fc7f66?q=80&w=2070&auto=format&fit=crop",
+    "rank": 7,
+    "source_url": "https://www.nps.gov/places/000/vernal-fall.htm"
+  },
+  {
+    "name": "Superintendent’s Bridge",
+    "parkCode": "yose",
+    "description": "A bridge over the Merced River that serves as both a swimming hole and a great spot for action photography.",
+    "best_time_of_day": [
+      "Middle of the day"
+    ],
+    "tips": [
+      "Use a fast shutter speed to capture people jumping into the water",
+      "Perfect spot for mid-day lifestyle and swimming shots"
+    ],
+    "image_url": "https://images.unsplash.com/photo-1598135753163-6167cbe2191b?q=80&w=2070&auto=format&fit=crop",
+    "rank": 8,
+    "source_url": null
+  },
+  {
+    "name": "Eagle Peak",
+    "parkCode": "yose",
+    "description": "A high vantage point offering sweeping panoramic views across Yosemite National Park and Upper Yosemite Fall.",
+    "best_time_of_day": [
+      "Sunset"
+    ],
+    "tips": [
+      "This location requires a significant hike, so plan your time accordingly",
+      "Bring plenty of snacks and water for the trek"
+    ],
+    "image_url": "https://images.unsplash.com/photo-1518134547926-d70c401314ec?q=80&w=2069&auto=format&fit=crop",
+    "rank": 9,
+    "source_url": "https://www.alltrails.com/trail/us/california/eagle-peak-trail"
   }
 ]
