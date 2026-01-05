@@ -7,8 +7,8 @@ from dotenv import load_dotenv
 logging.basicConfig(level=logging.INFO)
 logger = logging.getLogger(__name__)
 
-# Load environment variables
-load_dotenv()
+# Load environment variables (force override to respect .env file changes)
+load_dotenv(override=True)
 
 # App imports
 # App imports
@@ -126,11 +126,61 @@ tab_chat, tab_explorer = st.tabs(["💬 Concierge Chat", "🗺️ Park Explorer"
 
 with tab_chat:
     st.header("Concierge Chat")
-    st.write("Interact with the AI to plan your trip.")
-    # (Chat implementation coming in Step 7)
-    prompt = st.chat_input("Ask about the park...")
-    if prompt:
-        st.write(f"User sent: {prompt}")
+    
+    # Initialize history if empty (handled by SessionContext, but we need UI display list)
+    if "ui_chat_history" not in st.session_state:
+        st.session_state.ui_chat_history = []
+        # Add welcome message
+        st.session_state.ui_chat_history.append({"role": "assistant", "content": "Hello! I can help you plan your trip, find hikes, or check safety conditions. What's on your mind?"})
+
+    # Display Chat History
+    for msg in st.session_state.ui_chat_history:
+        with st.chat_message(msg["role"]):
+            st.markdown(msg["content"])
+
+    # Handle Input
+    if prompt := st.chat_input("Ask about reviews, hikes, or safety..."):
+        # 1. Display User Message
+        st.session_state.ui_chat_history.append({"role": "user", "content": prompt})
+        with st.chat_message("user"):
+            st.markdown(prompt)
+
+        # 2. Call Orchestrator
+        with st.chat_message("assistant"):
+            with st.spinner("Thinking..."):
+                try:
+                    # Construct Request
+                    # context is already in st.session_state.session_context
+                    from app.orchestrator import OrchestratorRequest
+                    
+                    req = OrchestratorRequest(
+                        user_query=prompt,
+                        session_context=st.session_state.session_context
+                    )
+                    
+                    if orchestrator:
+                        resp = orchestrator.handle_query(req)
+                        
+                        # Update Context
+                        st.session_state.session_context = resp.updated_context
+                        
+                        # Display Response
+                        st.markdown(resp.chat_response.message)
+                        
+                        # Append to History
+                        st.session_state.ui_chat_history.append({"role": "assistant", "content": resp.chat_response.message})
+                        
+                        # Debug Info (Optional - expander)
+                        with st.expander("Debug: Intent & Tools"):
+                            st.json(resp.parsed_intent.model_dump())
+                            if resp.vetted_trails:
+                                st.write(f"Considered {len(resp.vetted_trails)} trails")
+                    else:
+                        st.error("Orchestrator unavailable (check API keys).")
+
+                except Exception as e:
+                    st.error(f"Error: {e}")
+                    logger.error(f"Chat Error: {e}")
 
 with tab_explorer:
     st.header(f"Exploring {SUPPORTED_PARKS[st.session_state.selected_park]}")

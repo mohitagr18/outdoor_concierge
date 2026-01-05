@@ -69,6 +69,7 @@
       }
     ],
     "nps_url": "https://www.nps.gov/thingstodo/hike-kayenta-trail.htm",
+    "alltrails_url": "https://www.alltrails.com/trail/us/utah/kayenta-trail",
     "difficulty": "Moderate",
     "length_miles": 2.0,
     "elevation_gain_ft": 204,
@@ -79,7 +80,95 @@
     "is_pet_friendly": false,
     "raw_listing_description": null,
     "raw_body_text": null,
-    "last_enriched": "2025-12-31T06:22:27.849280"
+    "last_enriched": "2026-01-04T20:39:14.553879",
+    "recent_reviews": [
+      {
+        "author": "Dylan Myers",
+        "rating": 5,
+        "date": "2025-12-27",
+        "text": "Beautiful trail with multiple waterfalls. This trail doesn\u2019t include the upper falls but it\u2019s about .5 miles off the trail",
+        "condition_tags": [
+          "Bathrooms available",
+          "Great views",
+          "Muddy",
+          "No bugs"
+        ],
+        "visible_image_urls": [
+          "https://www.alltrails.com/mugen/image/trail-app-router?url=https%3A%2F%2Fimages.alltrails.com%2FeyJidWNrZXQiOiJhc3NldHMuYWxsdHJhaWxzLmNvbSIsImtleSI6InVwbG9hZHMvcGhvdG8vaW1hZ2UvMTE3ODM4NTkyLzBjNzJiMzdlNmQyNDg0ZjEzMjQ0YWNkMDIwMmNjMTM1LmpwZyIsImVkaXRzIjp7InRvRm9ybWF0IjoianBlZyIsInJlc2l6ZSI6eyJ3aWR0aCI6IjE2MCIsImhlaWdodCI6IjE2MCIsImZpdCI6ImNvdmVyIn0sInJvdGF0ZSI6bnVsbCwianBlZyI6eyJ0cmVsbGlzUXVhbnRpc2F0aW9uIjp0cnVlLCJvdmVyc2hvb3REZXJpbmdpbmciOnRydWUsIm9wdGltaXNlU2NhbnMiOnRydWUsInF1YW50aXNhdGlvblRhYmxlIjozfX19&w=256&q=75",
+          "https://www.alltrails.com/mugen/image/trail-app-router?url=https%3A%2F%2Fimages.alltrails.com%2FeyJidWNrZXQiOiJhc3NldHMuYWxsdHJhaWxzLmNvbSIsImtleSI6InVwbG9hZHMvcGhvdG8vaW1hZ2UvMTE3ODM4NTkzLzFmZDNhYmM4NjJjODQ0ZTYxYzdhNzNjMjgwZjFlMjlmLmpwZyIsImVkaXRzIjp7InRvRm9ybWF0IjoianBlZyIsInJlc2l6ZSI6eyJ3aWR0aCI6IjE2MCIsImhlaWdodCI6IjE2MCIsImZpdCI6ImNvdmVyIn0sInJvdGF0ZSI6bnVsbCwianBlZyI6eyJ0cmVsbGlzUXVhbnRpc2F0aW9uIjp0cnVlLCJvdmVyc2hvb3REZXJpbmdpbmciOnRydWUsIm9wdGltaXNlU2NhbnMiOnRydWUsInF1YW50aXNhdGlvblRhYmxlIjozfX19&w=256&q=75",
+          "https://www.alltrails.com/mugen/image/trail-app-router?url=https%3A%2F%2Fimages.alltrails.com%2FeyJidWNrZXQiOiJhc3NldHMuYWxsdHJhaWxzLmNvbSIsImtleSI6InVwbG9hZHMvcGhvdG8vaW1hZ2UvMTE3ODM4NTkwL2MwYzg2NDdkNmY3ZjE4ZjBiZjljYjE0N2NjMjlmNWE1LmpwZyIsImVkaXRzIjp7InRvRm9ybWF0IjoianBlZyIsInJlc2l6ZSI6eyJ3aWR0aCI6IjE2MCIsImhlaWdodCI6IjE2MCIsImZpdCI6ImNvdmVyIn0sInJvdGF0ZSI6bnVsbCwianBlZyI6eyJ0cmVsbGlzUXVhbnRpc2F0aW9uIjp0cnVlLCJvdmVyc2hvb3REZXJpbmdpbmciOnRydWUsIm9wdGltaXNlU2NhbnMiOnRydWUsInF1YW50aXNhdGlvblRhYmxlIjozfX19&w=256&q=75",
+          "https://www.alltrails.com/mugen/image/trail-app-router?url=https%3A%2F%2Fimages.alltrails.com%2FeyJidWNrZXQiOiJhc3NldHMuYWxsdHJhaWxzLmNvbSIsImtleSI6InVwbG9hZHMvcGhvdG8vaW1hZ2UvMTE3ODM4NTg0L2UwMGIwZDk0N2FjMzhkZDI1ZmZhODg1MGI0OTk1MDQ4LmpwZyIsImVkaXRzIjp7InRvRm9ybWF0IjoianBlZyIsInJlc2l6ZSI6eyJ3aWR0aCI6IjE2MCIsImhlaWdodCI6IjE2MCIsImZpdCI6ImNvdmVyIn0sInJvdGF0ZSI6bnVsbCwianBlZyI6eyJ0cmVsbGlzUXVhbnRpc2F0aW9uIjp0cnVlLCJvdmVyc2hvb3REZXJpbmdpbmciOnRydWUsIm9wdGltaXNlU2NhbnMiOnRydWUsInF1YW50aXNhdGlvblRhYmxlIjozfX19&w=256&q=75",
+          "https://www.alltrails.com/mugen/image/trail-app-router?url=https%3A%2F%2Fimages.alltrails.com%2FeyJidWNrZXQiOiJhc3NldHMuYWxsdHJhaWxzLmNvbSIsImtleSI6InVwbG9hZHMvcGhvdG8vaW1hZ2UvMTE3ODM4NTgwLzExZmQzODgxMTEwMGQ5MzEwZjBhMDNlMmE0ZmQ2NjZjLmpwZyIsImVkaXRzIjp7InRvRm9ybWF0IjoianBlZyIsInJlc2l6ZSI6eyJ3aWR0aCI6IjE2MCIsImhlaWdodCI6IjE2MCIsImZpdCI6ImNvdmVyIn0sInJvdGF0ZSI6bnVsbCwianBlZyI6eyJ0cmVsbGlzUXVhbnRpc2F0aW9uIjp0cnVlLCJvdmVyc2hvb3REZXJpbmdpbmciOnRydWUsIm9wdGltaXNlU2NhbnMiOnRydWUsInF1YW50aXNhdGlvblRhYmxlIjozfX19&w=256&q=75",
+          "https://www.alltrails.com/mugen/image/trail-app-router?url=https%3A%2F%2Fimages.alltrails.com%2FeyJidWNrZXQiOiJhc3NldHMuYWxsdHJhaWxzLmNvbSIsImtleSI6InVwbG9hZHMvcGhvdG8vaW1hZ2UvMTE3ODM4MzIzL2JmM2U0YWM4ZTM0ZTc1OWQ3MGZmNjY2NGIzMGQyNWIxLmpwZyIsImVkaXRzIjp7InRvRm9ybWF0IjoianBlZyIsInJlc2l6ZSI6eyJ3aWR0aCI6IjE2MCIsImhlaWdodCI6IjE2MCIsImZpdCI6ImNvdmVyIn0sInJvdGF0ZSI6bnVsbCwianBlZyI6eyJ0cmVsbGlzUXVhbnRpc2F0aW9uIjp0cnVlLCJvdmVyc2hvb3REZXJpbmdpbmciOnRydWUsIm9wdGltaXNlU2NhbnMiOnRydWUsInF1YW50aXNhdGlvblRhYmxlIjozfX19&w=256&q=75"
+        ]
+      },
+      {
+        "author": "Fangning Luo",
+        "rating": 5,
+        "date": "2025-12-26",
+        "text": "Begin from the Grotto then down from north to south can avoid the steep part. Could be crowded near the Zion lodge end.",
+        "condition_tags": [
+          "Good conditions",
+          "Easy"
+        ],
+        "visible_image_urls": []
+      },
+      {
+        "author": "Sneha Gayen",
+        "rating": 5,
+        "date": "2025-12-25",
+        "text": "I did this yesterday and it was absolutely amazing! Such stunning views, 100% recommend.",
+        "condition_tags": [
+          "Not crowded",
+          "Great conditions",
+          "Great views"
+        ],
+        "visible_image_urls": [
+          "https://www.alltrails.com/mugen/image/trail-app-router?url=https%3A%2F%2Fimages.alltrails.com%2FeyJidWNrZXQiOiJhc3NldHMuYWxsdHJhaWxzLmNvbSIsImtleSI6InVwbG9hZHMvcGhvdG8vaW1hZ2UvMTE3NzcyNjY4L2M1NzZiMTEwYWM1NDVjMjEyOGMwNmNkOGJlY2Y0MzkzLmpwZyIsImVkaXRzIjp7InRvRm9ybWF0IjoianBlZyIsInJlc2l6ZSI6eyJ3aWR0aCI6IjE2MCIsImhlaWdodCI6IjE2MCIsImZpdCI6ImNvdmVyIn0sInJvdGF0ZSI6bnVsbCwianBlZyI6eyJ0cmVsbGlzUXVhbnRpc2F0aW9uIjp0cnVlLCJvdmVyc2hvb3REZXJpbmdpbmciOnRydWUsIm9wdGltaXNlU2NhbnMiOnRydWUsInF1YW50aXNhdGlvblRhYmxlIjozfX19&w=256&q=75",
+          "https://www.alltrails.com/mugen/image/trail-app-router?url=https%3A%2F%2Fimages.alltrails.com%2FeyJidWNrZXQiOiJhc3NldHMuYWxsdHJhaWxzLmNvbSIsImtleSI6InVwbG9hZHMvcGhvdG8vaW1hZ2UvMTE3NzcyNjY2Lzg4NmJjM2YwYzhjNzJiOGRmYmJjNTA4MTY2NjhkM2ExLmpwZyIsImVkaXRzIjp7InRvRm9ybWF0IjoianBlZyIsInJlc2l6ZSI6eyJ3aWR0aCI6IjE2MCIsImhlaWdodCI6IjE2MCIsImZpdCI6ImNvdmVyIn0sInJvdGF0ZSI6bnVsbCwianBlZyI6eyJ0cmVsbGlzUXVhbnRpc2F0aW9uIjp0cnVlLCJvdmVyc2hvb3REZXJpbmdpbmciOnRydWUsIm9wdGltaXNlU2NhbnMiOnRydWUsInF1YW50aXNhdGlvblRhYmxlIjozfX19&w=256&q=75",
+          "https://www.alltrails.com/mugen/image/trail-app-router?url=https%3A%2F%2Fimages.alltrails.com%2FeyJidWNrZXQiOiJhc3NldHMuYWxsdHJhaWxzLmNvbSIsImtleSI6InVwbG9hZHMvcGhvdG8vaW1hZ2UvMTE3NzcyNjY3LzY0NGMyZTViNTJlZWRjZjM3MjU0NzJlNzgwZjUzM2NlLmpwZyIsImVkaXRzIjp7InRvRm9ybWF0IjoianBlZyIsInJlc2l6ZSI6eyJ3aWR0aCI6IjE2MCIsImhlaWdodCI6IjE2MCIsImZpdCI6ImNvdmVyIn0sInJvdGF0ZSI6bnVsbCwianBlZyI6eyJ0cmVsbGlzUXVhbnRpc2F0aW9uIjp0cnVlLCJvdmVyc2hvb3REZXJpbmdpbmciOnRydWUsIm9wdGltaXNlU2NhbnMiOnRydWUsInF1YW50aXNhdGlvblRhYmxlIjozfX19&w=256&q=75"
+        ]
+      },
+      {
+        "author": "Beau Marchant",
+        "rating": 5,
+        "date": "2025-12-18",
+        "text": "Easy stroll! Great starter hike for your Zion journey.",
+        "condition_tags": [
+          "Easy to park",
+          "Bathrooms available",
+          "Great conditions",
+          "Great views"
+        ],
+        "visible_image_urls": []
+      },
+      {
+        "author": "Uyen Campbell",
+        "rating": 5,
+        "date": "2025-12-15",
+        "text": "Not sure why this trail is rated moderate because there's no danger factor (no steep drop offs and ledges) so I'd rate it more on the easy side. On the distance and physical activity side it's moderate since it's long. It's a great way to get to Emerald Pools because you get some incredible views on the way. We went to Zion in mid Dec so shuttles weren't running, but that time of the year also means less crowds. We arrived at Zion Lodge (great food btw) at 9 am and had plenty of parking. Lucky to have warm weather while there (upper 50s) but it was chilly at the beginning of the hike (40s with wind).",
+        "condition_tags": [
+          "Easy to park",
+          "Not crowded",
+          "Bathrooms available",
+          "Great conditions",
+          "Great views"
+        ],
+        "visible_image_urls": []
+      },
+      {
+        "author": "Anna Hipe",
+        "rating": 5,
+        "date": "2025-07-07",
+        "text": "Nice trail. Begins with a paved road and turns into dirt road as the trail ascends. There are steep sections but overall it's relatively easy. I love the view of the peaks from this trail as well as the Virgin River from below. It was nice and cool when you start in the morning and it's pretty shaded before the steep part. I recommend to start early to avoid the crowds. There wasn't much on the waterfall when we went but it is overall worth it to try.",
+        "condition_tags": [
+          "Great conditions",
+          "Great views"
+        ],
+        "visible_image_urls": []
+      }
+    ],
+    "reviews_last_updated": "2026-01-04T20:39:14.553859"
   },
   {
     "id": "9D7B17DE-663C-4A85-A09D-183C71E5EE96",

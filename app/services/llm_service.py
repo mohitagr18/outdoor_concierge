@@ -10,14 +10,14 @@ from google.genai import types
 from pydantic import BaseModel, Field, ValidationError
 
 from app.engine.constraints import UserPreference, SafetyStatus
-from app.models import TrailSummary, ThingToDo, Event, Campground, VisitorCenter, Webcam, Amenity
+from app.models import TrailSummary, ThingToDo, Event, Campground, VisitorCenter, Webcam, Amenity, TrailReview
 from app.clients.external_client import ExternalClient
 
 
 logger = logging.getLogger(__name__)
 
 # --- Response Types ---
-ResponseType = Literal["itinerary", "list_options", "safety_info", "general_chat"]
+ResponseType = Literal["itinerary", "list_options", "safety_info", "general_chat", "reviews"]
 
 
 # --- DTOs ---
@@ -27,6 +27,7 @@ class LLMParsedIntent(BaseModel):
     target_date: Optional[str] = None
     duration_days: int = 1
     response_type: ResponseType = "itinerary"
+    review_targets: List[str] = Field(default_factory=list) # Names of trails to fetch reviews for
     raw_query: str
 
 
@@ -99,26 +100,32 @@ class GeminiLLMService:
 
         # 1. The Coordinator
         self.agent_coordinator = AgentWorker(
-            self.client, model_name, "coordinator",
+            self.client, self.model_name, "coordinator",
             "You are an intent parser. Extract structured data from queries into JSON."
         )
 
         # 2. The Planner
         self.agent_planner = AgentWorker(
-            self.client, model_name, "planner",
+            self.client, self.model_name, "planner",
             f"You are an expert Travel Planner. Create logical day-by-day itineraries. {link_instruction}"
         )
 
         # 3. The Guide
         self.agent_guide = AgentWorker(
-            self.client, model_name, "guide",
+            self.client, self.model_name, "guide",
             f"You are a local Park Ranger. Provide ranked lists of options with stats. {link_instruction}"
         )
 
         # 4. The Safety Officer
         self.agent_safety = AgentWorker(
-            self.client, model_name, "safety",
+            self.client, self.model_name, "safety",
             f"You are a Park Safety Officer. Analyze alerts/weather. {link_instruction}"
+        )
+
+        # 5. The Researcher (Extraction Specialist)
+        self.agent_researcher = AgentWorker(
+            self.client, self.model_name, "researcher",
+            "You are a Data Researcher. Extract structured data from raw content. Focus on reviews, ratings, dates, and specifically IMAGE URLs associated with reviews."
         )
 
 
@@ -136,6 +143,22 @@ Analyze query for:
    - "list_options": "best hikes", "list things", "amenities"
    - "safety_info": "is it safe", "weather"
    - "general_chat": "hello", vague
+   - "reviews": "reviews for X", "what are people saying about X"
+
+5. REVIEW TARGETS: List of explicit trail/place names the user wants reviews for.
+
+EXAMPLES:
+Query: "Plan a 2 day trip to Zion"
+Result: {{ "response_type": "itinerary", "duration_days": 2, "park_code": "zion" }}
+
+Query: "Best hikes in Yosemite"
+Result: {{ "response_type": "list_options", "park_code": "yose" }}
+
+Query: "What do people say about Angels Landing and The Narrows?"
+Result: {{ "response_type": "reviews", "review_targets": ["Angels Landing", "The Narrows"] }}
+
+Query: "Latest reviews for Kayenta Trail"
+Result: {{ "response_type": "reviews", "review_targets": ["Kayenta Trail"] }}
 
 Output strictly valid JSON:
 {{
@@ -143,7 +166,8 @@ Output strictly valid JSON:
   "park_code": "...",
   "target_date": "...",
   "duration_days": 1,
-  "response_type": "itinerary" | "list_options" | "safety_info" | "general_chat",
+  "response_type": "itinerary" | "list_options" | "safety_info" | "general_chat" | "reviews",
+  "review_targets": ["Angel's Landing", "Narrows"],
   "raw_query": "..."
 }}
 """
@@ -225,6 +249,66 @@ Output strictly valid JSON:
             debug_intent=intent
         )
 
+    def extract_reviews_from_text(self, text: str) -> List[TrailReview]:
+        """
+        Uses the Researcher agent to parse raw text/markdown into structured TrailReview objects.
+        """
+        # Truncate if too huge to avoid context limits, but keep enough for recent reviews
+        truncated_text = text[:60000] 
+        
+        prompt = f"""
+        TASK: Extract the most recent 10 reviews from this content.
+        
+        OUTPUT JSON:
+        {{
+            "reviews": [
+                {{
+                    "author": "Name",
+                    "rating": 5,
+                    "date": "YYYY-MM-DD" (or raw string if relative),
+                    "text": "Full review text...",
+                    "condition_tags": ["tag1", "tag2"],
+                    "visible_image_urls": ["url1", "url2"]
+                }}
+            ]
+        }}
+        
+        CONTENT:
+        {truncated_text}
+        """
+        
+        raw_response = self.agent_researcher.execute(prompt)
+        
+        try:
+            # Clean generic markdown fences
+            clean_text = raw_response
+            start = clean_text.find("{")
+            end = clean_text.rfind("}")
+            if start != -1 and end != -1:
+                clean_text = clean_text[start : end + 1]
+            
+            data = json.loads(clean_text)
+            reviews_data = data.get("reviews", [])
+            
+            results = []
+            for r in reviews_data:
+                try:
+                    # Basic validation/cleaning
+                    if not r.get('author'): r['author'] = "Anonymous"
+                    if not r.get('text'): r['text'] = ""
+                    if not r.get('rating'): r['rating'] = 0
+                    
+                    results.append(TrailReview(**r))
+                except Exception as e:
+                    logger.warning(f"Skipping malformed review: {e}")
+                    continue
+            
+            return results
+
+        except Exception as e:
+            logger.error(f"Failed to extract reviews with Researcher agent: {e}")
+            return []
+
     def _build_data_context(self, trails, things, events, camps, centers, cams, amenities, safety) -> str:
         # Helper to make a link if url exists (safely checking attributes)
         def link(text, url):
@@ -248,7 +332,22 @@ Output strictly valid JSON:
             return "\n".join(lines)
 
         # 1. Trails (Reviews + Rating)
-        t_txt = fmt(trails, "Trail", lambda x: f"{x.name} ({x.difficulty}, {x.length_miles}mi) {x.average_rating}★")
+        def format_trail(t):
+           base = f"{t.name} ({t.difficulty}, {t.length_miles}mi) {t.average_rating}★"
+           if t.recent_reviews:
+               # Add summary of last 3 reviews to context
+               reviews_summary = " ".join([f"[{r.date}: {r.text[:100]}...]" for r in t.recent_reviews[:3]])
+               # Add images from reviews
+               images = []
+               for r in t.recent_reviews:
+                   images.extend(r.visible_image_urls)
+               
+               # Limit images to avoid context bloat
+               img_md = " ".join([f"![]({url})" for url in images[:3]])
+               return f"{base}\n    Recent Reviews: {reviews_summary}\n    Images: {img_md}"
+           return base
+
+        t_txt = fmt(trails, "Trail", format_trail)
 
         # 2. Activities (With URLs)
         # Check if 'url' attr exists, otherwise fallback

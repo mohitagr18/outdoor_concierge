@@ -12,6 +12,7 @@ from app.models import TrailSummary, ParkContext, ThingToDo, Event, Campground, 
 from app.services.llm_service import LLMService, LLMResponse, LLMParsedIntent
 from app.utils.geospatial import mine_entrances 
 from app.services.data_manager import DataManager
+from app.services.review_scraper import ReviewScraper
 
 logger = logging.getLogger(__name__)
 
@@ -49,6 +50,7 @@ class OutdoorConciergeOrchestrator:
         self.external = external_client
         self.engine = ConstraintEngine()
         self.data_manager = DataManager() # Initialize Data Manager
+        self.review_scraper = ReviewScraper(self.llm) # Initialize Review Scraper (using same LLM service)
 
     def get_park_amenities(self, park_code: str) -> Dict[str, Dict[str, List[Dict[str, Any]]]]:
         """
@@ -161,7 +163,8 @@ class OutdoorConciergeOrchestrator:
                 trails=[], things_to_do=[], events=[], campgrounds=[], visitor_centers=[], webcams=[], amenities=[]
             )
             updated_context.chat_history.append(f"Agent: {resp.message}")
-            return OrchestratorResponse(chat_response=resp, parsed_intent=intent, updated_context=updated_context)
+            updated_context.chat_history.append(f"Agent: {resp.message}")
+            return OrchestratorResponse(chat_response=resp, parsed_intent=intent, updated_context=updated_context.model_dump())
 
         intent.park_code = final_park_code
 
@@ -224,6 +227,30 @@ class OutdoorConciergeOrchestrator:
         # 4. Engine Execution
         # We need _fetch_trails_for_park logic to be real or mock
         raw_trails = self._fetch_trails_for_park(intent.park_code)
+        
+        # 4a. On-Demand Reviews (JIT Enrichment)
+        # If user asked for reviews, or asking specific questions about trails, we fetch review data
+        if intent.response_type == "reviews" or intent.review_targets:
+            logger.info(f"Checking reviews for: {intent.review_targets}")
+            # If explicit targets used, scrape them
+            targets = intent.review_targets
+            if not targets and intent.response_type == "reviews":
+                 # Fallback: if "reviews for top 3" etc, we might need logic to pick top 3 vetted trails
+                 # For now, let's just pick the top 3 vetted trails if no specific target
+                 targets = [t.name for t in vetted_trails[:3]]
+
+            for target in targets:
+                try:
+                    logger.info(f"Triggering Review Scraper for {target}")
+                    self.review_scraper.fetch_reviews(intent.park_code, target)
+                except Exception as e:
+                     logger.error(f"Review scrape failed for {target}: {e}")
+            
+            # CRITICAL: Re-fetch trails because fetch_reviews updates the JSON cache we read from!
+            raw_trails = self._fetch_trails_for_park(intent.park_code)
+            # Re-vet to get updated objects
+            vetted_trails = self.engine.filter_trails(raw_trails, intent.user_prefs)
+
         safety = self.engine.analyze_safety(weather, alerts)
         vetted_trails = self.engine.filter_trails(raw_trails, intent.user_prefs)
 
@@ -247,14 +274,50 @@ class OutdoorConciergeOrchestrator:
         return OrchestratorResponse(
             chat_response=chat_resp,
             parsed_intent=intent,
-            updated_context=updated_context,
+            updated_context=updated_context.model_dump(),
             park_context=park,
             vetted_trails=vetted_trails,
             vetted_things=things_to_do
         )
 
     def _fetch_trails_for_park(self, park_code: str) -> List[TrailSummary]:
-        # Mock logic as before
+        """
+        Loads trail data from the filesystem (trails_v2.json), falling back to mock ONLY if files missing.
+        """
+        # 1. Try Loading Real Data
+        raw_list = self.data_manager.load_fixture(park_code, "trails_v2.json")
+        if raw_list:
+            try:
+                # Convert raw dicts to TrailSummary objects
+                # Note: TrailSummary might need to handle extra fields gracefully or we ignore them
+                trails = []
+                for item in raw_list:
+                    # Basic mapping or direct unpacking if schema aligns
+                    # Ensure required fields exist or have defaults
+                    try:
+                        t = TrailSummary(**item)
+                        trails.append(t)
+                    except Exception as e:
+                        # Log but continue so one bad record doesn't break all
+                        # logger.warning(f"Failed to parse trail {item.get('name')}: {e}")
+                        pass
+                        
+                    # SELF-HEALING: If average_rating is 0 but we have reviews, calculate it!
+                    if t.average_rating == 0 and t.recent_reviews:
+                        avg = sum(r.rating for r in t.recent_reviews) / len(t.recent_reviews)
+                        t.average_rating = round(avg, 1)
+                        t.total_reviews = len(t.recent_reviews)
+                        logger.info(f"Self-healed rating for {t.name}: {t.average_rating} ({t.total_reviews} reviews)")
+                
+                if trails:
+                    logger.info(f"Loaded {len(trails)} real trails for {park_code}")
+                    return trails
+
+            except Exception as e:
+                logger.error(f"Error parsing trails_v2.json for {park_code}: {e}")
+
+        # 2. Fallback Mock Logic
+        logger.warning(f"Using MOCK trails for {park_code} (Data Missing)")
         defaults = [
             TrailSummary(
                 name=f"Big {park_code.upper()} Loop",

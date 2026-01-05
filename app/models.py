@@ -187,16 +187,38 @@ class TrailReview(BaseModel):
 class TrailSummary(BaseModel):
     name: str
     parkCode: Optional[str] = None
-    difficulty: str
-    length_miles: float
-    elevation_gain_ft: int
-    route_type: str
-    average_rating: float
-    total_reviews: int
-    description: str
+    difficulty: Optional[str] = "moderate" # Default if missing
+    length_miles: Optional[float] = 0.0
+    elevation_gain_ft: Optional[int] = 0
+    route_type: Optional[str] = "out and back"
+    average_rating: Optional[float] = None
+    total_reviews: Optional[int] = 0
+    description: Optional[str] = ""
     features: List[str] = []
     surface_types: List[str] = []
     recent_reviews: List[TrailReview] = []
+
+    @model_validator(mode='after')
+    def set_defaults(self):
+        if not self.difficulty:
+            self.difficulty = "moderate"
+        if not self.route_type:
+            self.route_type = "out and back"
+        if self.length_miles is None:
+            self.length_miles = 0.0
+        if self.elevation_gain_ft is None:
+            self.elevation_gain_ft = 0
+        if self.average_rating is None:
+            self.average_rating = 0.0
+        if self.total_reviews is None:
+            self.total_reviews = 0
+        
+        # Ensure lists are never None
+        if self.features is None: self.features = []
+        if self.surface_types is None: self.surface_types = []
+        if self.recent_reviews is None: self.recent_reviews = []
+        
+        return self
 
 class Amenity(BaseModel):
     name: str
