@@ -155,7 +155,8 @@ with tab_chat:
                     
                     req = OrchestratorRequest(
                         user_query=prompt,
-                        session_context=st.session_state.session_context
+                        # Serialize to dict to avoid Pydantic class mismatch on reload
+                        session_context=st.session_state.session_context.model_dump()
                     )
                     
                     if orchestrator:
@@ -165,7 +166,7 @@ with tab_chat:
                         st.session_state.session_context = resp.updated_context
                         
                         # Display Response
-                        st.markdown(resp.chat_response.message)
+                        st.markdown(resp.chat_response.message) # REVERTED FROM render_chat_message
                         
                         # Append to History
                         st.session_state.ui_chat_history.append({"role": "assistant", "content": resp.chat_response.message})
