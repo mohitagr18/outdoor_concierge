@@ -171,10 +171,10 @@ with tab_chat:
                         st.session_state.ui_chat_history.append({"role": "assistant", "content": resp.chat_response.message})
                         
                         # Debug Info (Optional - expander)
-                        with st.expander("Debug: Intent & Tools"):
-                            st.json(resp.parsed_intent.model_dump())
-                            if resp.vetted_trails:
-                                st.write(f"Considered {len(resp.vetted_trails)} trails")
+                        # with st.expander("Debug: Intent & Tools"):
+                        #     st.json(resp.parsed_intent.model_dump())
+                        #     if resp.vetted_trails:
+                        #         st.write(f"Considered {len(resp.vetted_trails)} trails")
                     else:
                         st.error("Orchestrator unavailable (check API keys).")
 

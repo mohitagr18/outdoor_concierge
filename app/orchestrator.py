@@ -160,6 +160,7 @@ class OutdoorConciergeOrchestrator:
                 query=query,
                 intent=intent,
                 safety=empty_safety,
+                chat_history=updated_context.chat_history,
                 trails=[], things_to_do=[], events=[], campgrounds=[], visitor_centers=[], webcams=[], amenities=[]
             )
             updated_context.chat_history.append(f"Agent: {resp.message}")
@@ -227,6 +228,8 @@ class OutdoorConciergeOrchestrator:
         # 4. Engine Execution
         # We need _fetch_trails_for_park logic to be real or mock
         raw_trails = self._fetch_trails_for_park(intent.park_code)
+        # Initial vetting for fallback logic
+        vetted_trails = self.engine.filter_trails(raw_trails, intent.user_prefs)
         
         # 4a. On-Demand Reviews (JIT Enrichment)
         # If user asked for reviews, or asking specific questions about trails, we fetch review data
@@ -259,6 +262,7 @@ class OutdoorConciergeOrchestrator:
             query=query,
             intent=intent,
             safety=safety,
+            chat_history=updated_context.chat_history,
             trails=vetted_trails,
             things_to_do=things_to_do,
             events=events,

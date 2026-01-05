@@ -212,6 +212,7 @@ Output strictly valid JSON:
         query: str,
         intent: LLMParsedIntent,
         safety: SafetyStatus,
+        chat_history: List[str], # ADDED ARGUMENT
         trails: List[TrailSummary],
         things_to_do: List[ThingToDo],
         events: List[Event],
@@ -221,25 +222,70 @@ Output strictly valid JSON:
         amenities: List[Amenity]
     ) -> LLMResponse:
         
-        data_context = self._build_data_context(
-            trails, things_to_do, events, campgrounds, visitor_centers, webcams, amenities, safety
-        )
-        
-        if intent.response_type == "itinerary":
-            prompt = f"REQUEST: Plan {intent.duration_days}-day itinerary for '{query}'.\nCONTEXT:\n{data_context}"
-            message = self.agent_planner.execute(prompt)
-
-        elif intent.response_type == "list_options":
-            prompt = f"REQUEST: List recommendations for '{query}'.\nCONTEXT:\n{data_context}"
-            message = self.agent_guide.execute(prompt)
-
-        elif intent.response_type == "safety_info":
-            prompt = f"REQUEST: Safety check for '{query}'.\nCONTEXT:\n{data_context}"
-            message = self.agent_safety.execute(prompt)
+        if intent.response_type == "reviews" and intent.review_targets:
+            # SPECIALIZED REVIEW ANALYST MODE
+            # We filter context to ONLY show the target trail(s) with full review details
+            data_context = self._build_data_context(
+                trails, things_to_do, events, campgrounds, visitor_centers, webcams, amenities, safety,
+                review_targets=intent.review_targets,
+                only_show_targets=True 
+            )
+            prompt = f"""
+            ROLE: Review Analyst. 
+            TASK: The user asked about reviews for specific trails: {intent.review_targets}.
             
+            INSTRUCTIONS:
+            1. Present the FULL details of the reviews provided in the context.
+            2. Quote the review text generously.
+            3. Setup the response to show the IMAGES associated with the reviews use markdown ![]() syntax.
+            4. Do NOT recommend other trails, campgrounds, or amenities unless explicitly asked in this turn.
+            5. Focus purely on what the reviewers said (conditions, difficulty, scenery).
+            
+            CONTEXT:
+            {data_context}
+            
+            USER QUERY: '{query}'
+            """
+            message = self.agent_researcher.execute(prompt) # Researcher is good at data extraction/presentation
+
         else:
-            prompt = f"REQUEST: Respond to '{query}'.\nCONTEXT:\n{data_context}"
-            message = self.agent_guide.execute(prompt)
+            # NORMAL MODE
+            data_context = self._build_data_context(
+                trails, things_to_do, events, campgrounds, visitor_centers, webcams, amenities, safety
+            )
+            
+            history_text = "\n".join(chat_history[-5:]) if chat_history else "No previous history."
+            
+            base_prompt = f"""
+            PREVIOUS CHAT HISTORY:
+            {history_text}
+            
+            CURRENT CONTEXT:
+            {data_context}
+            
+            USER REQUEST: '{query}'
+            """
+            
+            if intent.response_type == "itinerary":
+                prompt = f"ROLE: Travel Planner. Create {intent.duration_days}-day itinerary.\n{base_prompt}"
+                message = self.agent_planner.execute(prompt)
+
+            elif intent.response_type == "list_options":
+                prompt = f"ROLE: Park Guide. List best options.\n{base_prompt}"
+                message = self.agent_guide.execute(prompt)
+
+            elif intent.response_type == "safety_info":
+                prompt = f"ROLE: Safety Officer. Analyze risks.\n{base_prompt}"
+                message = self.agent_safety.execute(prompt)
+            
+            elif intent.response_type == "reviews":
+                 # Fallback for "reviews" without specific targets (e.g. "reviews for top trails")
+                 prompt = f"ROLE: Review Summarizer. Summarize what people are saying.\n{base_prompt}"
+                 message = self.agent_researcher.execute(prompt)
+
+            else:
+                prompt = f"ROLE: Park Ranger.\n{base_prompt}"
+                message = self.agent_guide.execute(prompt)
 
         return LLMResponse(
             message=message,
@@ -309,7 +355,11 @@ Output strictly valid JSON:
             logger.error(f"Failed to extract reviews with Researcher agent: {e}")
             return []
 
-    def _build_data_context(self, trails, things, events, camps, centers, cams, amenities, safety) -> str:
+    def _build_data_context(
+        self, trails, things, events, camps, centers, cams, amenities, safety, 
+        review_targets: Optional[List[str]] = None,
+        only_show_targets: bool = False
+    ) -> str:
         # Helper to make a link if url exists (safely checking attributes)
         def link(text, url):
             if url:
@@ -333,30 +383,46 @@ Output strictly valid JSON:
 
         # 1. Trails (Reviews + Rating)
         def format_trail(t):
-           base = f"{t.name} ({t.difficulty}, {t.length_miles}mi) {t.average_rating}★"
-           if t.recent_reviews:
-               # Add summary of last 3 reviews to context
-               reviews_summary = " ".join([f"[{r.date}: {r.text[:100]}...]" for r in t.recent_reviews[:3]])
-               # Add images from reviews
-               images = []
-               for r in t.recent_reviews:
-                   images.extend(r.visible_image_urls)
+            # Check if this trail is a target for detailed reviews
+            is_target = review_targets and any(target.lower() in t.name.lower() for target in review_targets)
+            
+            base = f"{t.name} ({t.difficulty}, {t.length_miles}mi) {t.average_rating}★"
+            
+            if t.recent_reviews:
+               # If it's a target, show EVERYTHING
+               if is_target:
+                   reviews_full = "\n".join([
+                       f"\n    Review by {r.author} on {r.date} ({r.rating}★):\n    {r.text}\n    Images: {' '.join([f'![]({u})' for u in r.visible_image_urls])}"
+                       for r in t.recent_reviews
+                   ])
+                   return f"{base}\n    FULL REVIEWS:\n{reviews_full}"
                
-               # Limit images to avoid context bloat
-               img_md = " ".join([f"![]({url})" for url in images[:3]])
-               return f"{base}\n    Recent Reviews: {reviews_summary}\n    Images: {img_md}"
-           return base
+               # Otherwise show summary
+               reviews_summary = "\n    ".join([f"- {r.date} ({r.rating}★): {r.text[:200]}..." for r in t.recent_reviews[:3]])
+               return f"{base}\n    Recent Reviews: {reviews_summary}"
+               
+            return base
+
+        # Filter trails if only showing targets (reduce noise)
+        if only_show_targets and review_targets:
+            trails = [t for t in trails if any(target.lower() in t.name.lower() for target in review_targets)]
+            # Clear other distractions
+            things = []
+            events = []
+            camps = []
+            centers = []
+            cams = []
+            amenities = []
 
         t_txt = fmt(trails, "Trail", format_trail)
 
         # 2. Activities (With URLs)
-        # Check if 'url' attr exists, otherwise fallback
         a_txt = fmt(things, "Activity", lambda x: f"{link(x.title, getattr(x, 'url', None))}: {x.shortDescription}")
 
         # 3. Events
         e_txt = fmt(events, "Event", lambda x: f"{x.title} ({x.date_start})")
 
-        # 4. Campgrounds (With Reservation URL)
+        # 4. Campgrounds
         c_txt = fmt(camps, "Campground", lambda x: f"{link(x.name, getattr(x, 'reservationUrl', None) or getattr(x, 'url', None))} (Open: {x.isOpen})")
 
         # 5. Visitor Centers
@@ -365,7 +431,7 @@ Output strictly valid JSON:
         # 6. Webcams
         w_txt = fmt(cams, "Webcam", lambda x: f"{link(x.title, getattr(x, 'url', None))} ({x.status})")
 
-        # 7. Amenities (Serper Maps URL)
+        # 7. Amenities
         am_txt = fmt(amenities, "Amenity", lambda x: f"{link(x.name, getattr(x, 'google_maps_url', None))} ({x.type})")
 
         return f"""
