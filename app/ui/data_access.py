@@ -13,9 +13,10 @@ from app.models import (
 logger = logging.getLogger(__name__)
 data_manager = DataManager()
 
-def get_park_static_data(park_code: str) -> Dict[str, Any]:
+def get_park_static_data(park_code: str, nps_client=None) -> Dict[str, Any]:
     """
     Loads all static fixture data for a park from disk.
+    If park_details.json doesn't exist and nps_client is provided, fetches from NPS API.
     """
     result = {
         "park_details": None, "campgrounds": [], "visitor_centers": [],
@@ -37,13 +38,23 @@ def get_park_static_data(park_code: str) -> Dict[str, Any]:
                 # Add to errors for debug UI
                 result["_errors"] = result.get("_errors", []) + [f"{key} parse error: {e}"]
 
-    # Load entities
+    # Load park details - try fixture first, then API fallback
     park_raw = data_manager.load_fixture(park_code, "park_details.json")
     if park_raw:
         try:
             result["park_details"] = ParkContext(**park_raw)
         except Exception as e:
             logger.error(f"Failed to parse park_details: {e}")
+    elif nps_client:
+        # No local fixture - fetch from NPS API
+        logger.info(f"No park_details fixture for {park_code}, fetching from NPS API...")
+        try:
+            park_context = nps_client.get_park_details(park_code)
+            if park_context:
+                result["park_details"] = park_context
+                logger.info(f"Fetched park details for {park_code} from API")
+        except Exception as e:
+            logger.error(f"Failed to fetch park_details from API: {e}")
 
     load_list("campgrounds.json", Campground, "campgrounds")
     load_list("visitor_centers.json", VisitorCenter, "visitor_centers")
@@ -59,60 +70,79 @@ def get_park_static_data(park_code: str) -> Dict[str, Any]:
     return result
 
 def get_volatile_data(park_code: str, orchestrator) -> Dict[str, Any]:
-    # (Same as previous version)
+    """
+    Loads volatile data (weather, alerts, events) using daily disk cache.
+    Falls back to API fetch if cache miss, then saves to disk for the day.
+    """
     if not orchestrator:
         return {"weather": None, "alerts": [], "events": []}
     
-    cache_key = park_code
-    now = datetime.now().timestamp()
-    CACHE_TTL = 300
-    
     result = {"weather": None, "alerts": [], "events": []}
     
-    # Helper to check cache
-    def get_cached(key):
-        entry = st.session_state.volatile_cache[key].get(cache_key)
-        if entry and (now - entry.get("timestamp", 0)) < CACHE_TTL:
-            return entry.get("data")
-        return None
-
-    # Weather
-    weather = get_cached("weather")
+    # --- Weather ---
+    weather = data_manager.load_daily_cache(park_code, "weather")
     if weather:
         result["weather"] = weather
     else:
-        # Fetch live
-        park_data = get_park_static_data(park_code)
+        # Fetch live - need park location from static data or API
+        park_data = get_park_static_data(park_code, nps_client=orchestrator.nps if hasattr(orchestrator, 'nps') else None)
         pd = park_data.get("park_details")
         if pd and pd.location:
             try:
                 w = orchestrator.weather.get_forecast(park_code, pd.location.lat, pd.location.lon)
                 result["weather"] = w
-                st.session_state.volatile_cache["weather"][cache_key] = {"data": w, "timestamp": now}
+                # Save to daily cache (will serialize Pydantic model if needed)
+                data_manager.save_daily_cache(park_code, "weather", w.model_dump() if hasattr(w, 'model_dump') else w)
             except Exception as e:
                 logger.error(f"Weather fetch failed: {e}")
 
-    # Alerts
-    alerts = get_cached("alerts")
-    if alerts: result["alerts"] = alerts
+    # --- Alerts ---
+    alerts = data_manager.load_daily_cache(park_code, "alerts")
+    if alerts:
+        result["alerts"] = alerts
     else:
         try:
             a = orchestrator.nps.get_alerts(park_code)
             result["alerts"] = a
-            st.session_state.volatile_cache["alerts"][cache_key] = {"data": a, "timestamp": now}
-        except Exception: pass
+            # Serialize list of Pydantic models
+            data_manager.save_daily_cache(park_code, "alerts", [item.model_dump() if hasattr(item, 'model_dump') else item for item in a])
+        except Exception as e:
+            logger.error(f"Alerts fetch failed: {e}")
 
-    # Events
-    events = get_cached("events")
-    if events: result["events"] = events
+    # --- Events ---
+    events = data_manager.load_daily_cache(park_code, "events")
+    if events:
+        result["events"] = events
     else:
         try:
             e = orchestrator.nps.get_events(park_code)
             result["events"] = e
-            st.session_state.volatile_cache["events"][cache_key] = {"data": e, "timestamp": now}
-        except Exception: pass
+            # Serialize list of Pydantic models
+            data_manager.save_daily_cache(park_code, "events", [item.model_dump() if hasattr(item, 'model_dump') else item for item in e])
+        except Exception as e:
+            logger.error(f"Events fetch failed: {e}")
         
     return result
 
 def clear_volatile_cache():
-    st.session_state.volatile_cache = {"weather": {}, "alerts": {}, "events": {}}
+    """
+    Clears daily cache for today for all parks.
+    This forces a re-fetch from APIs on next load.
+    """
+    import os
+    import shutil
+    from datetime import datetime
+    
+    today = datetime.now().strftime("%Y-%m-%d")
+    cache_root = "data_cache"
+    
+    if os.path.exists(cache_root):
+        for park_dir in os.listdir(cache_root):
+            today_cache = os.path.join(cache_root, park_dir, today)
+            if os.path.exists(today_cache):
+                try:
+                    shutil.rmtree(today_cache)
+                    logger.info(f"Cleared daily cache: {today_cache}")
+                except Exception as e:
+                    logger.error(f"Failed to clear cache {today_cache}: {e}")
+

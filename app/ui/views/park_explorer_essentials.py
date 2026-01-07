@@ -192,14 +192,23 @@ def render_weather_full_width(weather_data):
     is_dict = isinstance(weather_data, dict)
     
     if is_dict:
-        curr = weather_data.get("current", {})
-        temp = curr.get("temp_f", "--")
-        
-        cond_raw = curr.get("condition", "Unknown")
-        cond = cond_raw.get("text", "Unknown") if isinstance(cond_raw, dict) else str(cond_raw)
+        # Check for flat format (from daily cache) vs nested format (from API)
+        if "current_temp_f" in weather_data:
+            # Flat format from daily cache
+            temp = weather_data.get("current_temp_f", "--")
+            cond = weather_data.get("current_condition", "Unknown")
+            wind = weather_data.get("wind_mph", "--")
+            hum = weather_data.get("humidity", "--")
+        else:
+            # Nested format from API
+            curr = weather_data.get("current", {})
+            temp = curr.get("temp_f", "--")
             
-        wind = curr.get("wind_mph", "--")
-        hum = curr.get("humidity", "--")
+            cond_raw = curr.get("condition", "Unknown")
+            cond = cond_raw.get("text", "Unknown") if isinstance(cond_raw, dict) else str(cond_raw)
+                
+            wind = curr.get("wind_mph", "--")
+            hum = curr.get("humidity", "--")
         
         forecast_list = weather_data.get("forecast_days") or weather_data.get("forecast", [])
     else:
@@ -596,19 +605,16 @@ def render_in_park_details(static_data):
             idx += 1
 
 # --- 5. MAIN RENDER ---
-def render_essentials_dashboard(park_code, orchestrator, static_data):
+def render_essentials_dashboard(park_code, orchestrator, static_data, volatile_data=None):
     inject_custom_css()
     st.markdown('<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">', unsafe_allow_html=True)
     
-    # Data
-    volatile = st.session_state.get("volatile_cache", {})
-    weather_raw = volatile.get("weather", {})
-    if isinstance(weather_raw, dict) and park_code in weather_raw: weather_raw = weather_raw[park_code]
-    weather = weather_raw.get("data") if isinstance(weather_raw, dict) and "data" in weather_raw else weather_raw
-
-    alerts_raw = volatile.get("alerts", [])
-    if isinstance(alerts_raw, dict) and park_code in alerts_raw: alerts_raw = alerts_raw[park_code]
-    alerts = alerts_raw.get("data") if isinstance(alerts_raw, dict) and "data" in alerts_raw else alerts_raw
+    # Data - use volatile_data passed from main.py (from daily cache)
+    if volatile_data is None:
+        volatile_data = {}
+    
+    weather = volatile_data.get("weather")
+    alerts = volatile_data.get("alerts", [])
     
     amenities_data = static_data.get("amenities_by_hub", {})
     if not amenities_data and hasattr(orchestrator, 'get_park_amenities'):

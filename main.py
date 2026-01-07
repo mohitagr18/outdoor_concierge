@@ -49,9 +49,6 @@ inject_global_styles()
 if "session_context" not in st.session_state:
     st.session_state.session_context = SessionContext()
 
-if "volatile_cache" not in st.session_state:
-    st.session_state.volatile_cache = {"weather": {}, "alerts": {}, "events": {}}
-
 if "selected_park" not in st.session_state:
     st.session_state.selected_park = DEFAULT_PARK
 
@@ -118,7 +115,8 @@ with st.sidebar:
 
 # --- 4. Load Data ---
 park_code = st.session_state.selected_park
-static_data = get_park_static_data(park_code)
+nps_client = orchestrator.nps if orchestrator else None
+static_data = get_park_static_data(park_code, nps_client=nps_client)
 volatile_data = get_volatile_data(park_code, orchestrator) if orchestrator else {}
 
 # --- 5. Main Tabs ---
@@ -213,7 +211,7 @@ with tab_explorer:
 
     # 4. Render Views
     if selected_view == "Park Essentials":
-        render_essentials_dashboard(park_code, orchestrator, static_data)
+        render_essentials_dashboard(park_code, orchestrator, static_data, volatile_data)
         
     elif selected_view == "Trails Browser":
         render_trails_browser(park_code, static_data)

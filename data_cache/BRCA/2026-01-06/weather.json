@@ -1,9 +1,9 @@
 {
   "parkCode": "brca",
-  "current_temp_f": 30.9,
-  "current_condition": "Clear",
-  "wind_mph": 2.7,
-  "humidity": 89,
+  "current_temp_f": 25.0,
+  "current_condition": "Overcast",
+  "wind_mph": 3.4,
+  "humidity": 92,
   "forecast": [
     {
       "date": "2026-01-06",

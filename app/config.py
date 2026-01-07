@@ -12,7 +12,8 @@ logger = configure_logging()
 SUPPORTED_PARKS = {
     "yose": "Yosemite National Park",
     "zion": "Zion National Park",
-    "grca": "Grand Canyon National Park"
+    "grca": "Grand Canyon National Park",
+    "brca": "Bryce Canyon National Park"
 }
 
 # Mapping for Deep Linking (?view=...)
