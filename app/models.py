@@ -196,7 +196,17 @@ class TrailSummary(BaseModel):
     description: Optional[str] = ""
     features: List[str] = []
     surface_types: List[str] = []
+    surface_types: List[str] = []
     recent_reviews: List[TrailReview] = []
+    
+    # NEW FIELDS for URL support
+    nps_url: Optional[str] = None
+    alltrails_url: Optional[str] = None
+
+    @property
+    def url(self) -> Optional[str]:
+        """Returns the best available URL for the LLM context."""
+        return self.nps_url or self.alltrails_url
 
     @model_validator(mode='after')
     def set_defaults(self):

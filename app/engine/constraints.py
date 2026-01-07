@@ -104,12 +104,25 @@ class ConstraintEngine:
         # --- 2. Alert Checks ---
         for alert in alerts:
             title_lower = alert.title.lower()
-            if "closure" in title_lower or "danger" in title_lower or "closed" in title_lower:
-                if "park" in title_lower and "closed" in title_lower:
-                    status = "No-Go"
-                    reasons.append(f"Critical Alert: {alert.title}")
-                else:
-                    if status != "No-Go": status = "Caution"
-                    reasons.append(f"Safety Alert: {alert.title}")
+            
+            # 1. Determine Severity/Prefix
+            prefix = "Safety Alert: "
+            is_critical = False
+            
+            # Only set No-Go if the PARK ITSELF is closed (explicit phrases)
+            park_closed_phrases = ["park closed", "park is closed", "national park closed", "national park is closed"]
+            is_park_closed = any(phrase in title_lower for phrase in park_closed_phrases)
+            
+            if is_park_closed:
+                status = "No-Go"
+                prefix = "Critical Alert: "
+                is_critical = True
+            elif "closure" in title_lower or "danger" in title_lower or "closed" in title_lower:
+                # Road/trail closures are Caution, not No-Go
+                if status != "No-Go": status = "Caution"
+            
+            # 2. Append Reason (ALWAYS, do not filter)
+            # Use the determined prefix
+            reasons.append(f"{prefix}{alert.title}")
 
         return SafetyStatus(status=status, reason=reasons)

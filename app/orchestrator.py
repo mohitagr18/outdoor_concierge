@@ -8,7 +8,7 @@ from app.clients.nps_client import NPSClient
 from app.clients.weather_client import WeatherClient
 from app.clients.external_client import ExternalClient
 from app.engine.constraints import ConstraintEngine, SafetyStatus, UserPreference
-from app.models import TrailSummary, ParkContext, ThingToDo, Event, Campground, VisitorCenter, Webcam, Amenity
+from app.models import TrailSummary, ParkContext, ThingToDo, Event, Campground, VisitorCenter, Webcam, Amenity, Alert
 from app.services.llm_service import LLMService, LLMResponse, LLMParsedIntent
 from app.utils.geospatial import mine_entrances 
 from app.services.data_manager import DataManager
@@ -147,6 +147,18 @@ class OutdoorConciergeOrchestrator:
         # 1. Parse Intent
         intent = self.llm.parse_user_intent(query)
 
+        # 1b. Normalize Park Code (LLM might return full name like "yosemite" instead of "yose")
+        PARK_NAME_TO_CODE = {
+            "yosemite": "yose",
+            "zion": "zion",
+            "grand canyon": "grca",
+            "grandcanyon": "grca",
+        }
+        if intent.park_code:
+            normalized = PARK_NAME_TO_CODE.get(intent.park_code.lower().replace(" ", ""), intent.park_code.lower())
+            intent.park_code = normalized
+            logger.debug(f"Normalized park_code: {intent.park_code}")
+
         # 2. Context Merge
         final_park_code = intent.park_code if intent.park_code else ctx.current_park_code
         updated_context = ctx.model_copy()
@@ -207,13 +219,47 @@ class OutdoorConciergeOrchestrator:
         else:
             things_to_do = self.nps.get_things_to_do(intent.park_code)
 
-        # --- B. Dynamic Data (Always Live) ---
-        alerts = self.nps.get_alerts(intent.park_code)
-        events = self.nps.get_events(intent.park_code)
+        # --- B. Dynamic Data (Cached Daily) ---
+        # 1. Alerts
+        alerts_data = self.data_manager.load_daily_cache(intent.park_code, "alerts")
+        if alerts_data is not None:
+            alerts = [Alert(**a) for a in alerts_data]
+            logger.info(f"Using cached alerts for {intent.park_code}")
+        else:
+            alerts = self.nps.get_alerts(intent.park_code)
+            # Save raw dicts
+            self.data_manager.save_daily_cache(intent.park_code, "alerts", [a.model_dump() for a in alerts])
+
+        # 2. Events
+        events_data = self.data_manager.load_daily_cache(intent.park_code, "events")
+        if events_data is not None:
+            events = [Event(**e) for e in events_data]
+            logger.info(f"Using cached events for {intent.park_code}")
+        else:
+            events = self.nps.get_events(intent.park_code)
+            self.data_manager.save_daily_cache(intent.park_code, "events", [e.model_dump() for e in events])
         
+        # 3. Weather
         weather = None
         if park and park.location:
-            weather = self.weather.get_forecast(intent.park_code, park.location.lat, park.location.lon)
+            weather_data = self.data_manager.load_daily_cache(intent.park_code, "weather")
+            if weather_data:
+                # Need to import WeatherSummary if not already available in scope? 
+                # Models are imported at top.
+                from app.models import WeatherSummary # Ensure safe import or rely on top-level
+                try:
+                    weather = WeatherSummary(**weather_data)
+                    logger.info(f"Using cached weather for {intent.park_code}: {weather.current_temp_f}F")
+                except Exception as e:
+                    logger.warning(f"Failed to reconstitute cached weather: {e}")
+                    weather = None
+            else:
+                logger.info(f"No daily weather cache found for {intent.park_code}")
+
+            if not weather:
+                weather = self.weather.get_forecast(intent.park_code, park.location.lat, park.location.lon)
+                if weather:
+                    self.data_manager.save_daily_cache(intent.park_code, "weather", weather.model_dump())
 
         # Amenities (Checking Hub Cache First)
         amenities_data = self.get_park_amenities(intent.park_code)
@@ -228,9 +274,10 @@ class OutdoorConciergeOrchestrator:
         # 4. Engine Execution
         # We need _fetch_trails_for_park logic to be real or mock
         raw_trails = self._fetch_trails_for_park(intent.park_code)
-        # Initial vetting for fallback logic
-        vetted_trails = self.engine.filter_trails(raw_trails, intent.user_prefs)
         
+        # DEFAULT: Vetted trails (Strict)
+        vetted_trails = self.engine.filter_trails(raw_trails, intent.user_prefs)
+
         # 4a. On-Demand Reviews (JIT Enrichment)
         # If user asked for reviews, or asking specific questions about trails, we fetch review data
         if intent.response_type == "reviews" or intent.review_targets:
@@ -255,13 +302,26 @@ class OutdoorConciergeOrchestrator:
             vetted_trails = self.engine.filter_trails(raw_trails, intent.user_prefs)
 
         safety = self.engine.analyze_safety(weather, alerts)
-        vetted_trails = self.engine.filter_trails(raw_trails, intent.user_prefs)
+        
+        # RELAXATION LOGIC: 
+        # For General Chat / Entity Lookup / Broad Reviews -> Use ALL RAW TRAILS (or minimal filter)
+        # This ensures "Tell me about Pa'rus" works even if Pa'rus is rating < 3.5
+        if intent.response_type in ["general_chat", "entity_lookup", "reviews"]:
+             if not intent.user_prefs or intent.user_prefs == UserPreference():
+                 # Only relax if user didn't explicitly set preferences (like "easy trails")
+                 # Actually, even for general chat, we want to show everything unless constraints are explicit.
+                 # Let's trust raw_trails is better for "context" in these modes.
+                 vetted_trails = raw_trails
+        
+        # Else (Itinerary / List Options): Keep strict vetted_trails logic above
 
         # 5. Response
         chat_resp = self.llm.generate_response(
             query=query,
             intent=intent,
             safety=safety,
+            weather=weather,
+            alerts=alerts,
             chat_history=updated_context.chat_history,
             trails=vetted_trails,
             things_to_do=things_to_do,

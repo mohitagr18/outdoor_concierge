@@ -44,6 +44,7 @@ class LLMService(Protocol):
         intent: LLMParsedIntent,
         safety: SafetyStatus,
         weather: Optional[Any],
+        alerts: List[Any],
         chat_history: List[str],
         trails: List[TrailSummary],
         things_to_do: List[ThingToDo],
@@ -182,6 +183,7 @@ class GeminiLLMService:
         intent: LLMParsedIntent,
         safety: SafetyStatus,
         weather: Optional[Any] = None,
+        alerts: List[Any] = None,
         chat_history: List[str],
         trails: List[TrailSummary],
         things_to_do: List[ThingToDo],
@@ -191,11 +193,12 @@ class GeminiLLMService:
         webcams: List[Webcam],
         amenities: List[Amenity]
     ) -> LLMResponse:
+        alerts = alerts or []
         
         # 1. Handle Entity Lookup (Single Item Detail)
         if intent.response_type == "entity_lookup" and intent.review_targets:
             data_context = self._build_data_context(
-                trails, things_to_do, events, campgrounds, visitor_centers, webcams, amenities, safety, weather,
+                trails, things_to_do, events, campgrounds, visitor_centers, webcams, amenities, safety, weather, alerts,
                 review_targets=intent.review_targets,
                 only_show_targets=True
             )
@@ -218,7 +221,7 @@ class GeminiLLMService:
         # 2. Handle Reviews (Deep Dive)
         elif intent.response_type == "reviews" and intent.review_targets:
             data_context = self._build_data_context(
-                trails, things_to_do, events, campgrounds, visitor_centers, webcams, amenities, safety, weather,
+                trails, things_to_do, events, campgrounds, visitor_centers, webcams, amenities, safety, weather, alerts,
                 review_targets=intent.review_targets,
                 only_show_targets=True
             )
@@ -227,7 +230,7 @@ class GeminiLLMService:
             TASK: Show reviews for: {intent.review_targets}.
             
             INSTRUCTIONS:
-            1. Start with a brief 2-sentence summary of the overall sentiment (e.g. "Hikers report muddy conditions but great views...").
+            1. Start with a brief 2-sentence summary of the overall sentiment.
             2. Then list the reviews using the EXACT format below.
             
             STRICT OUTPUT FORMAT PER REVIEW:
@@ -238,8 +241,7 @@ class GeminiLLMService:
             
             3. Do NOT use large headers (###) for the author name. Keep it standard bold.
             4. Do NOT summarize the individual review text; quote it full.
-            5. Copy the structure above exactly.
-            6. End with follow-up questions.
+            5. End with follow-up questions.
             
             CONTEXT:
             {data_context}
@@ -251,9 +253,12 @@ class GeminiLLMService:
         # 3. Normal / General Modes
         else:
             data_context = self._build_data_context(
-                trails, things_to_do, events, campgrounds, visitor_centers, webcams, amenities, safety, weather
+                trails, things_to_do, events, campgrounds, visitor_centers, webcams, amenities, safety, weather, alerts
             )
             history_text = "\n".join(chat_history[-5:]) if chat_history else "No previous history."
+            
+            # Extract park_code for deep-linking
+            park_code = intent.park_code or "zion"  # Default fallback
             
             base_prompt = f"""
             PREVIOUS CHAT HISTORY:
@@ -265,7 +270,57 @@ class GeminiLLMService:
             USER REQUEST: '{query}'
             """
             
-            if intent.response_type == "itinerary":
+            # Special Handling for Broad Park Overview
+            if intent.response_type == "general_chat" or "tell me about" in query.lower():
+                 prompt = f"""
+                 ROLE: Park Ranger.
+                 TASK: Provide a structured park overview.
+                 
+                 STRICT OUTPUT FORMAT:
+                 
+                 ## Welcome to [Park Name]
+                 [Brief 2-sentence intro]
+                 
+                 ### 🌤️ Current Conditions
+                 **Status:** [Safety Status from Context]
+                 
+                 **Weather:** [Weather Summary from Context]
+                 
+                 **Alerts:**
+                 * [Alert 1 WITH LINK]
+                 * [Alert 2 WITH LINK]
+                 
+                 ### 📍 Park Entrances & Centers
+                 [List main Visitor Centers/Entrances WITH LINKS]
+                 
+                 ### 🥾 Top Experiences
+                 **Must-Do Trails:**
+                 * [Trail 1 Name WITH LINK] ([Difficulty])
+                 * [Trail 2 Name WITH LINK] ([Difficulty])
+                 
+                 **Other Highlights:**
+                 * [Activity/Thing To Do 1 WITH LINK]
+                 
+                 ### 📅 Events Today
+                 [List Events WITH LINKS or "No specific scheduled events"]
+                 
+                 ---
+                 
+                 > **Want to explore more?**  
+                 > 🗺️ View the interactive map on the [**Explore Tab**](#explore)  
+                 > 🥾 Browse the [**Top 10 Trails**](#trails?park={park_code})
+                 
+                 **Suggested Follow-Ups:**
+                 1. "What are the best photo spots?"
+                 2. "Are there any amenities nearby?"
+                 3. "Show me the webcams."
+                 
+                 CONTEXT:
+                 {data_context}
+                 """
+                 message = self.agent_guide.execute(prompt)
+            
+            elif intent.response_type == "itinerary":
                 prompt = f"ROLE: Travel Planner. Create {intent.duration_days}-day itinerary.\n{base_prompt}"
                 message = self.agent_planner.execute(prompt)
             elif intent.response_type == "safety_info":
@@ -284,10 +339,11 @@ class GeminiLLMService:
         )
 
     def _build_data_context(
-        self, trails, things, events, camps, centers, cams, amenities, safety, weather,
+        self, trails, things, events, camps, centers, cams, amenities, safety, weather, alerts=None,
         review_targets: Optional[List[str]] = None,
         only_show_targets: bool = False
     ) -> str:
+        alerts = alerts or []
         
         # --- Helper: Status Mapper ---
         status_map = {
@@ -324,11 +380,15 @@ class GeminiLLMService:
                     continue
             return "\n".join(lines)
 
-        # --- Trail Formatter (Strict Layout) ---
+        # --- Trail Formatter (Strict Layout with URLs) ---
         def format_trail(t):
             is_target = review_targets and any(tgt.lower() in t.name.lower() for tgt in review_targets)
             
-            base = f"**{t.name}** ({t.difficulty}, {t.length_miles}mi) - {t.average_rating}★"
+            # Get trail URL if available
+            trail_url = getattr(t, 'url', None)
+            trail_name_display = link(t.name, trail_url)
+            
+            base = f"**{trail_name_display}** ({t.difficulty}, {t.length_miles}mi) - {t.average_rating}★"
             
             if t.recent_reviews:
                 if is_target:
@@ -366,11 +426,29 @@ class GeminiLLMService:
             cams = []
             amenities = []
 
+        # Format events with URLs
+        def format_event(e):
+            event_url = getattr(e, 'url', None)
+            return f"{link(e.title, event_url)} ({e.date_start})"
+
+        # Format activities with URLs
+        def format_activity(a):
+            activity_url = getattr(a, 'url', None)
+            desc = getattr(a, 'shortDescription', '')
+            return f"{link(a.title, activity_url)}: {desc}"
+
+        # Format Alerts with URLs
+        def format_alert(a):
+            alert_url = getattr(a, 'url', None)
+            return link(a.title, alert_url)
+        
+        alerts_txt = ", ".join([format_alert(a) for a in alerts]) if alerts else "None"
+
         return f"""
         === CURRENT CONDITIONS ===
         STATUS: {safe_status_display}
         WEATHER: {weather_txt}
-        ALERTS: {', '.join(safety.reason)}
+        ALERTS: {alerts_txt}
 
         === PARK DATA ===
         TRAILS:
@@ -383,7 +461,10 @@ class GeminiLLMService:
         {fmt(centers, "Center", lambda x: link(x.name, getattr(x, 'url', None)))}
         
         ACTIVITIES:
-        {fmt(things, "Activity", lambda x: x.title)}
+        {fmt(things, "Activity", format_activity)}
+        
+        EVENTS:
+        {fmt(events, "Event", format_event)}
         """
 
     def extract_reviews_from_text(self, text: str) -> List[TrailReview]:

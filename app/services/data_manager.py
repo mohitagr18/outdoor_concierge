@@ -86,3 +86,57 @@ class DataManager:
         except Exception as e:
             logger.error(f"Failed to load consolidated amenities: {e}")
             return None
+
+    # --- Daily Persistent Cache Logic ---
+    def _get_daily_cache_path(self, park_code: str, category: str) -> str:
+        """
+        Constructs path: data_cache/[PARK]/[DATE]/[category].json
+        Uses a separate 'data_cache' root to keep it distinct from static fixtures if desired,
+        or just a subdirectory in existing base. Let's use a sibling 'data_cache' dir.
+        """
+        from datetime import datetime
+        today = datetime.now().strftime("%Y-%m-%d")
+        
+        # Assumption: self.base_dir is "data_samples/ui_fixtures"
+        # We want "data_cache/[PARK]/[DATE]" which is transient but persistent
+        # Let's put it in a "cache" folder inside the project root for safety/visibility
+        project_root = os.path.dirname(os.path.dirname(os.path.dirname(self.base_dir))) 
+        # Actually safer to just use a fixed relative path "data_cache"
+        
+        cache_dir = os.path.join("data_cache", park_code.upper(), today)
+        return os.path.join(cache_dir, f"{category}.json")
+
+    def load_daily_cache(self, park_code: str, category: str) -> Optional[Any]:
+        """
+        Tries to load weather/alerts/events from today's cache file.
+        """
+        filepath = self._get_daily_cache_path(park_code, category)
+        if not os.path.exists(filepath):
+            logger.debug(f"Daily Cache MISS: {filepath}")
+            return None
+        
+        try:
+            with open(filepath, 'r') as f:
+                data = json.load(f)
+                logger.info(f"Daily Cache HIT: {filepath}")
+                return data
+        except Exception as e:
+            logger.error(f"Failed to read daily cache {filepath}: {e}")
+            return None
+
+    def save_daily_cache(self, park_code: str, category: str, data: Any):
+        """
+        Saves data to today's cache file.
+        """
+        filepath = self._get_daily_cache_path(park_code, category)
+        os.makedirs(os.path.dirname(filepath), exist_ok=True)
+        
+        try:
+            with open(filepath, 'w') as f:
+                # Handle Pydantic objects if passed directly (though caller should probably dump)
+                # But generic 'Any' suggests we might need to be smart.
+                # For safety, let's assume caller passes dicts or lists of dicts.
+                json.dump(data, f, indent=2)
+            logger.info(f"Saved daily cache: {filepath}")
+        except Exception as e:
+            logger.error(f"Failed to write daily cache {filepath}: {e}")
