@@ -5,4 +5,8 @@ fetch_rankings.py
 Auto-Generate Slugs: Try state/full-park-name logic.
 Search First: Use a quick search on AllTrails to find the correct URL if it's not in our map.
 
-2. Add weather, alerts, things to do and events details to Park explorer view
+2. Include Want to explore more piece in every response in chat
+
+3. When asked about trails, show trail images. At the end, refer to trail browser tab. Similarly for events and activities, do the same
+
+

@@ -1,0 +1,47 @@
+{
+  "parkCode": "zion",
+  "current_temp_f": 46.8,
+  "current_condition": "Sunny",
+  "wind_mph": 3.1,
+  "humidity": 66,
+  "forecast": [
+    {
+      "date": "2026-01-07",
+      "maxtemp_f": 53.4,
+      "mintemp_f": 34.7,
+      "avgtemp_f": 42.7,
+      "daily_chance_of_rain": 0,
+      "condition": "Sunny",
+      "uv": 0.4
+    },
+    {
+      "date": "2026-01-08",
+      "maxtemp_f": 40.5,
+      "mintemp_f": 21.6,
+      "avgtemp_f": 33.6,
+      "daily_chance_of_rain": 0,
+      "condition": "Overcast ",
+      "uv": 0.2
+    },
+    {
+      "date": "2026-01-09",
+      "maxtemp_f": 44.6,
+      "mintemp_f": 18.7,
+      "avgtemp_f": 27.4,
+      "daily_chance_of_rain": 0,
+      "condition": "Sunny",
+      "uv": 0.4
+    }
+  ],
+  "sunrise": "07:46 AM",
+  "sunset": "05:31 PM",
+  "weather_alerts": [
+    {
+      "event": "Winter Weather Advisory",
+      "severity": "Moderate",
+      "headline": "Winter Weather Advisory issued January 7 at 3:10AM MST until January 8 at 11:00PM MST by NWS Salt Lake City UT",
+      "effective": "2026-01-07T03:10:00-07:00",
+      "expires": "2026-01-07T18:15:00-07:00"
+    }
+  ]
+}

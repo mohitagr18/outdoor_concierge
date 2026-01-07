@@ -149,15 +149,26 @@ class OutdoorConciergeOrchestrator:
 
         # 1b. Normalize Park Code (LLM might return full name like "yosemite" instead of "yose")
         PARK_NAME_TO_CODE = {
+            # Yosemite
             "yosemite": "yose",
+            "yosemitenationalpark": "yose",
+            # Zion
             "zion": "zion",
-            "grand canyon": "grca",
+            "zionnationalpark": "zion",
+            # Grand Canyon
             "grandcanyon": "grca",
+            "grand canyon": "grca",
+            "grandcanyonnationalpark": "grca",
+            # Bryce Canyon
+            "bryce": "brca",
+            "brycecanyon": "brca",
+            "brycecanyonnationalpark": "brca",
         }
         if intent.park_code:
+            original = intent.park_code
             normalized = PARK_NAME_TO_CODE.get(intent.park_code.lower().replace(" ", ""), intent.park_code.lower())
             intent.park_code = normalized
-            logger.debug(f"Normalized park_code: {intent.park_code}")
+            logger.info(f"Park code normalization: '{original}' -> '{normalized}'")
 
         # 2. Context Merge
         final_park_code = intent.park_code if intent.park_code else ctx.current_park_code

@@ -270,8 +270,20 @@ class GeminiLLMService:
             USER REQUEST: '{query}'
             """
             
-            # Special Handling for Broad Park Overview
-            if intent.response_type == "general_chat" or "tell me about" in query.lower():
+            # Special Handling for Broad Park Overview - only for truly general queries
+            # Avoid triggering for specific topics like "events", "trails", "weather", etc.
+            query_lower = query.lower()
+            specific_topics = ["event", "trail", "hike", "weather", "camping", "campground", 
+                               "webcam", "alert", "entrance", "visitor center", "amenities",
+                               "photo", "activity", "activities"]
+            is_specific_query = any(topic in query_lower for topic in specific_topics)
+            is_broad_overview = (
+                intent.response_type == "general_chat" 
+                and not is_specific_query
+                and ("tell me about" in query_lower or len(query.split()) < 5)
+            )
+            
+            if is_broad_overview:
                  prompt = f"""
                  ROLE: Park Ranger.
                  TASK: Provide a structured park overview.
@@ -306,7 +318,8 @@ class GeminiLLMService:
                  
                  ---
                  
-                 > **Want to explore more?**  
+                 ### Want to explore more? 
+                 
                  > 🗺️ View the interactive map on the [**Explore Tab**](#explore)  
                  > 🥾 Browse the [**Top 10 Trails**](#trails?park={park_code})
                  
@@ -358,12 +371,52 @@ class GeminiLLMService:
         weather_txt = "Weather data unavailable."
         if weather:
             try:
-                # Direct attribute access (Pydantic)
-                t = getattr(weather, 'current_temp_f', 'N/A')
-                c = getattr(weather, 'current_condition', 'N/A')
-                w = getattr(weather, 'wind_mph', 'N/A')
-                weather_txt = f"{t}°F | {c} | Wind: {w}mph"
-            except Exception:
+                # Handle both dict (from cache) and Pydantic object
+                if isinstance(weather, dict):
+                    t = weather.get('current_temp_f', 'N/A')
+                    c = weather.get('current_condition', 'N/A')
+                    w = weather.get('wind_mph', 'N/A')
+                    h = weather.get('humidity', 'N/A')
+                    forecast = weather.get('forecast', [])
+                    w_alerts = weather.get('weather_alerts', [])
+                else:
+                    t = getattr(weather, 'current_temp_f', 'N/A')
+                    c = getattr(weather, 'current_condition', 'N/A')
+                    w = getattr(weather, 'wind_mph', 'N/A')
+                    h = getattr(weather, 'humidity', 'N/A')
+                    forecast = getattr(weather, 'forecast', [])
+                    w_alerts = getattr(weather, 'weather_alerts', [])
+                
+                weather_txt = f"Currently {t}°F | {c} | Wind: {w}mph | Humidity: {h}%"
+                
+                # Add 3-day forecast
+                if forecast:
+                    forecast_lines = []
+                    for day in forecast[:3]:
+                        if isinstance(day, dict):
+                            d_date = day.get('date', '')
+                            d_cond = day.get('condition', '')
+                            d_high = day.get('maxtemp_f', '')
+                            d_low = day.get('mintemp_f', '')
+                        else:
+                            d_date = getattr(day, 'date', '')
+                            d_cond = getattr(day, 'condition', '')
+                            d_high = getattr(day, 'maxtemp_f', '')
+                            d_low = getattr(day, 'mintemp_f', '')
+                        forecast_lines.append(f"{d_date}: {d_cond}, High {d_high}°F / Low {d_low}°F")
+                    weather_txt += "\n3-Day Forecast:\n" + "\n".join(forecast_lines)
+                
+                # Add weather alerts (separate from NPS alerts)
+                if w_alerts:
+                    weather_txt += "\n⚠️ WEATHER ALERTS:\n"
+                    for wa in w_alerts:
+                        if isinstance(wa, dict):
+                            headline = wa.get('headline', wa.get('event', 'Weather Alert'))
+                        else:
+                            headline = getattr(wa, 'headline', getattr(wa, 'event', 'Weather Alert'))
+                        weather_txt += f"- {headline}\n"
+            except Exception as e:
+                logger.warning(f"Weather formatting error: {e}")
                 weather_txt = str(weather)
 
         # --- Helper: List Formatter ---
@@ -371,11 +424,11 @@ class GeminiLLMService:
             return f"[{text}]({url})" if url else text
 
         def fmt(item_list, label, func):
-            if not item_list: return f"NO {label} FOUND."
+            if not item_list: return f"No {label.lower()}s found."
             lines = []
             for item in item_list[:15]:
                 try:
-                    lines.append(f"- [{label}] {func(item)}")
+                    lines.append(f"- {func(item)}")
                 except Exception:
                     continue
             return "\n".join(lines)

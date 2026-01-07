@@ -1,0 +1,54 @@
+{
+  "parkCode": "yose",
+  "current_temp_f": 27.6,
+  "current_condition": "Cloudy",
+  "wind_mph": 2.2,
+  "humidity": 90,
+  "forecast": [
+    {
+      "date": "2026-01-07",
+      "maxtemp_f": 29.8,
+      "mintemp_f": 14.1,
+      "avgtemp_f": 22.6,
+      "daily_chance_of_rain": 0,
+      "condition": "Overcast ",
+      "uv": 0.5
+    },
+    {
+      "date": "2026-01-08",
+      "maxtemp_f": 34.9,
+      "mintemp_f": 8.6,
+      "avgtemp_f": 21.2,
+      "daily_chance_of_rain": 0,
+      "condition": "Partly Cloudy ",
+      "uv": 0.5
+    },
+    {
+      "date": "2026-01-09",
+      "maxtemp_f": 38.1,
+      "mintemp_f": 18.3,
+      "avgtemp_f": 26.4,
+      "daily_chance_of_rain": 0,
+      "condition": "Sunny",
+      "uv": 0.5
+    }
+  ],
+  "sunrise": "07:14 AM",
+  "sunset": "04:55 PM",
+  "weather_alerts": [
+    {
+      "event": "Dense Fog Advisory",
+      "severity": "Moderate",
+      "headline": "Dense Fog Advisory issued January 7 at 12:39AM PST until January 7 at 11:00AM PST by NWS Hanford CA",
+      "effective": "2026-01-07T00:39:00-08:00",
+      "expires": "2026-01-07T08:45:00-08:00"
+    },
+    {
+      "event": "Dense Fog Advisory",
+      "severity": "Moderate",
+      "headline": "Dense Fog Advisory issued January 7 at 8:32AM PST until January 7 at 11:00AM PST by NWS Hanford CA",
+      "effective": "2026-01-07T08:32:00-08:00",
+      "expires": "2026-01-07T11:00:00-08:00"
+    }
+  ]
+}

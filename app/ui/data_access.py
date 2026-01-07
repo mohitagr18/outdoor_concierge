@@ -99,7 +99,13 @@ def get_volatile_data(park_code: str, orchestrator) -> Dict[str, Any]:
     # --- Alerts ---
     alerts = data_manager.load_daily_cache(park_code, "alerts")
     if alerts:
-        result["alerts"] = alerts
+        # Convert cached dicts to Alert objects
+        from app.models import Alert as AlertModel
+        try:
+            result["alerts"] = [AlertModel(**a) if isinstance(a, dict) else a for a in alerts]
+        except Exception as parse_err:
+            logger.warning(f"Failed to parse cached alerts: {parse_err}")
+            result["alerts"] = alerts  # Fallback to raw dicts
     else:
         try:
             a = orchestrator.nps.get_alerts(park_code)
@@ -112,7 +118,13 @@ def get_volatile_data(park_code: str, orchestrator) -> Dict[str, Any]:
     # --- Events ---
     events = data_manager.load_daily_cache(park_code, "events")
     if events:
-        result["events"] = events
+        # Convert cached dicts to Event objects
+        from app.models import Event as EventModel
+        try:
+            result["events"] = [EventModel(**e) if isinstance(e, dict) else e for e in events]
+        except Exception as parse_err:
+            logger.warning(f"Failed to parse cached events: {parse_err}")
+            result["events"] = events  # Fallback to raw dicts
     else:
         try:
             e = orchestrator.nps.get_events(park_code)
