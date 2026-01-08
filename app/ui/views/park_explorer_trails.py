@@ -134,8 +134,17 @@ def render_trails_browser(park_code: str, static_data):
             else:
                 rating_str = "N/A"
             
+            # Build trail URL for popup
+            popup_trail_url = row['url_nps'] if pd.notna(row['url_nps']) and row['url_nps'] else row['url_at'] if pd.notna(row['url_at']) and row['url_at'] else None
+            
+            # Build trail name with optional link
+            if popup_trail_url:
+                trail_name_html = f"<a href='{popup_trail_url}' target='_blank' style='text-decoration:none;color:#1a73e8;'><b>{row['name']}</b></a>"
+            else:
+                trail_name_html = f"<b>{row['name']}</b>"
+            
             popup_html = f"""
-            <b>{row['name']}</b><br>
+            {trail_name_html}<br>
             {row['difficulty']} | {row['length'] or '?'} mi<br>
             Rating: {rating_str}
             """

@@ -100,6 +100,9 @@ class ParkDataFetcher:
         park_code = park_code.upper()
         results = {}
         
+        # Keywords to filter hikes from things_to_do
+        HIKE_KEYWORDS = ['hike', 'trail', 'loop', 'walk', 'trek', 'rim walk']
+        
         # Mapping: (fixture_name, raw_name, fetch_function)
         steps = [
             ("park_details.json", "parks.json", lambda: self.nps.get_park_details(park_code)),
@@ -133,6 +136,16 @@ class ParkDataFetcher:
                         else:
                             json.dump(data, f, indent=2)
                     logger.info(f"📦 Saved raw {raw_name} for {park_code}")
+                    
+                    # Filter things_to_do to remove hiking items (they belong in trails)
+                    if fixture_name == "things_to_do.json" and isinstance(data, list):
+                        original_count = len(data)
+                        data = [
+                            item for item in data
+                            if not any(kw in (item.title if hasattr(item, 'title') else item.get('title', '')).lower() 
+                                      for kw in HIKE_KEYWORDS)
+                        ]
+                        logger.info(f"🔀 Filtered things_to_do: {original_count} → {len(data)} (removed {original_count - len(data)} hike items)")
                     
                     # Save cleaned fixture
                     self.data_manager.save_fixture(park_code, fixture_name, data)

@@ -270,6 +270,9 @@ def refine_trails(park_code: str, progress_callback=None) -> List[Dict]:
         # Pacing to avoid rate limits
         time.sleep(0.5)
     
+    # Deduplicate trails with similar names (e.g., "X Trail" vs "X Trailhead")
+    results = deduplicate_trails(results)
+    
     # Save results
     with open(output_file, "w") as f:
         json.dump(results, f, indent=2)
@@ -278,6 +281,84 @@ def refine_trails(park_code: str, progress_callback=None) -> List[Dict]:
         progress_callback(total, total, f"Completed. Found {len(results)} valid trails.")
     
     return results
+
+
+def deduplicate_trails(trails: List[Dict]) -> List[Dict]:
+    """
+    Deduplicates trails with similar names (e.g., "X Trail" vs "X Trailhead").
+    Also removes promotional program entries (e.g., "X Hike the Hoodoos").
+    Keeps the entry with more complete data.
+    """
+    from collections import defaultdict
+    
+    def normalize_name(name: str) -> str:
+        """Normalize trail name for comparison."""
+        name = name.lower()
+        # Standardize common variants
+        name = name.replace('peek-a-boo', 'peekaboo')
+        # Remove promotional and common suffixes (order matters - longest first)
+        for suffix in [' hike the hoodoos', ' trailhead', ' trail', ' hike', ' path']:
+            name = name.replace(suffix, '')
+        # Remove special chars and extra spaces
+        name = name.replace("'", '').replace('-', ' ')
+        name = re.sub(r'\s+', ' ', name).strip()
+        return name
+    
+    def score_trail(t: Dict) -> int:
+        """Score trail completeness - higher is better."""
+        score = 0
+        if t.get('length_miles'): score += 10
+        if t.get('elevation_gain_ft'): score += 10
+        if t.get('difficulty'): score += 5
+        if t.get('description') and len(t.get('description', '')) > 50: score += 5
+        if t.get('location', {}).get('lat', 0) != 0: score += 10
+        if t.get('rating'): score += 5
+        if t.get('review_count'): score += 5
+        # Prefer non-promotional names
+        if 'hike the hoodoos' not in t.get('name', '').lower(): score += 10
+        if 'trailhead' not in t.get('name', '').lower(): score += 3
+        return score
+    
+    # Normalize difficulty values (Hard -> Strenuous)
+    for trail in trails:
+        if trail.get('difficulty') == 'Hard':
+            trail['difficulty'] = 'Strenuous'
+    
+    # Group by normalized name
+    groups = defaultdict(list)
+    for trail in trails:
+        norm = normalize_name(trail.get('name', ''))
+        groups[norm].append(trail)
+    
+    # For each group, keep the best one
+    deduped = []
+    for norm_name, group in groups.items():
+        if len(group) == 1:
+            deduped.append(group[0])
+        else:
+            # Sort by score descending, keep best
+            group.sort(key=score_trail, reverse=True)
+            best = group[0]
+            
+            # Merge data from duplicates into best
+            for other in group[1:]:
+                # Use other's data if best is missing it
+                if not best.get('length_miles') and other.get('length_miles'):
+                    best['length_miles'] = other['length_miles']
+                if not best.get('elevation_gain_ft') and other.get('elevation_gain_ft'):
+                    best['elevation_gain_ft'] = other['elevation_gain_ft']
+                if not best.get('difficulty') and other.get('difficulty'):
+                    best['difficulty'] = other['difficulty']
+                if best.get('location', {}).get('lat', 0) == 0 and other.get('location', {}).get('lat', 0) != 0:
+                    best['location'] = other['location']
+            
+            deduped.append(best)
+    
+    # Filter out standalone promotional program entries
+    promotional_only = ['hike the hoodoos', 'scavenger hunt']
+    deduped = [t for t in deduped if t.get('name', '').lower() not in promotional_only]
+    
+    return deduped
 
 
 def main():

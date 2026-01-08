@@ -30,36 +30,6 @@
     "last_enriched": "2026-01-08T11:41:16.373709"
   },
   {
-    "id": "D4731420-0B3A-4E2C-A33B-923F5771D491",
-    "name": "Bristlecone Loop Hike the Hoodoos",
-    "description": "The Bristlecone Loop trail guides hikers through ancient forests to see iconic geological formations while offering a scavenger hunt program with rewards for participants.",
-    "location": {
-      "lat": 37.471537,
-      "lon": -112.235496
-    },
-    "images": [
-      {
-        "url": "https://www.nps.gov/common/uploads/cropped_image/4A178C66-F084-612E-61DCF2CC1477E07F.jpg",
-        "title": "Bristlecone Loop Hike the Hoodoos",
-        "altText": "A Wayside panel with a peregrine falcon describes the Hike the Hoodoos program with a medallion",
-        "caption": "Bristlecone Loop Hike the Hoodoos Wayside (include yourself in your photo!)",
-        "credit": "NPS Photo / Peter Densmore"
-      }
-    ],
-    "nps_url": null,
-    "difficulty": null,
-    "length_miles": null,
-    "elevation_gain_ft": null,
-    "route_type": "Loop",
-    "estimated_time_hours": null,
-    "is_wheelchair_accessible": false,
-    "is_kid_friendly": true,
-    "is_pet_friendly": false,
-    "raw_listing_description": "Hike the Hoodoos Hiking is great exercise and Bryce Canyon's \"I Hiked the Hoodoos!\" program is not just hiking, it's also a scavenger hunt with a special reward!",
-    "raw_body_text": "I Hiked the Hoodoos Hiking is great exercise and Bryce Canyon's \"I Hiked the Hoodoos!\" program is not just hiking, it's also a scavenger hunt with a special reward! 1.",
-    "last_enriched": "2026-01-08T11:41:38.212494"
-  },
-  {
     "id": "1CB920A2-FECB-4D9B-85DB-E4BABBE9B4B3",
     "name": "Bristlecone Loop Trailhead",
     "description": "This easy loop winds through high-elevation forests of fir and pine, reaching heights over 9,100 feet and providing access to several backcountry routes.",
@@ -237,45 +207,6 @@
     "alltrails_reviews_url": "https://www.alltrails.com/trail/us/utah/mossy-cave-turret-arch-and-little-windows-trail?reviews=true"
   },
   {
-    "id": "CD34F60F-9BBA-49F0-BBF1-33A6F6E6F350",
-    "name": "Navajo Loop Hike the Hoodoos",
-    "description": "The Navajo Loop is a scenic trail through iconic hoodoo formations that features a scavenger hunt program where hikers can earn special rewards.",
-    "location": {
-      "lat": 37.618181,
-      "lon": -112.162009
-    },
-    "images": [
-      {
-        "url": "https://www.nps.gov/common/uploads/cropped_image/5A0814D1-F28E-40A2-0A8A28E75730EA4C.jpg",
-        "title": "Navajo Loop Hike the Hoodoos wayside",
-        "altText": "A wayside showing a tall red rock spire describes hoodoos and the Hike the Hoodoos program",
-        "caption": "Navajo Loop Hike the Hoodoos wayside (be sure to include yourself in your photo!)",
-        "credit": "NPS Photo"
-      }
-    ],
-    "nps_url": null,
-    "difficulty": "Moderate",
-    "length_miles": 1.6,
-    "elevation_gain_ft": null,
-    "route_type": "Loop",
-    "estimated_time_hours": "1-1.5 hr",
-    "is_wheelchair_accessible": false,
-    "is_kid_friendly": true,
-    "is_pet_friendly": false,
-    "raw_listing_description": "Hike the Hoodoos Hiking is great exercise and Bryce Canyon's \"I Hiked the Hoodoos!\" program is not just hiking, it's also a scavenger hunt with a special reward!",
-    "raw_body_text": "I Hiked the Hoodoos Hiking is great exercise and Bryce Canyon's \"I Hiked the Hoodoos!\" program is not just hiking, it's also a scavenger hunt with a special reward! 1.",
-    "last_enriched": "2026-01-08T11:43:18.969852",
-    "popularity_rank": 5,
-    "alltrails_url": "https://www.alltrails.com/trail/us/utah/navajo-loop-trail",
-    "alltrails_rating": 4.9,
-    "alltrails_review_count": 7035,
-    "alltrails_difficulty": "Moderate",
-    "alltrails_length_miles": 1.6,
-    "alltrails_elevation_gain_ft": null,
-    "alltrails_estimated_time_hours": "1-1.5 hr",
-    "alltrails_reviews_url": "https://www.alltrails.com/trail/us/utah/navajo-loop-trail?reviews=true"
-  },
-  {
     "id": "C2AA097F-EA38-4DA2-B605-8571A3FE90F0",
     "name": "Navajo Loop Trailhead",
     "description": "This iconic trail descends through narrow limestone switchbacks to reveal towering Douglas-fir trees and the famous Thor's Hammer hoodoo.",
@@ -315,34 +246,34 @@
     "alltrails_reviews_url": "https://www.alltrails.com/trail/us/utah/navajo-loop-trail?reviews=true"
   },
   {
-    "id": "83267698-2A05-4AD0-85A7-FEB0EA72EF92",
-    "name": "Peek-A-Boo Loop Hike the Hoodoos",
-    "description": "This scenic loop winds through the unique hoodoo rock formations of Bryce Canyon and is part of a reward-based scavenger hunt program for hikers.",
+    "id": "F7BA242B-42FE-46CB-861A-AA29F795285A",
+    "name": "Peekaboo Loop",
+    "description": "This trail descends into a landscape filled with spectacular hoodoos from Bryce Point, offering a unique loop through rock formations shared with horses and mules during the summer.",
     "location": {
-      "lat": 37.614496,
-      "lon": -112.159055
+      "lat": 37.6043349413,
+      "lon": -112.156889973
     },
     "images": [
       {
-        "url": "https://www.nps.gov/common/uploads/cropped_image/5A296DAA-D857-2902-7F3C6CBF84C2EF5A.jpg",
-        "title": "Peekaboo Loop Hike the Hoodoos wayside",
-        "altText": "A wayside showing a twisted ponderosa pine tree describes the Hike the Hoodoos program",
-        "caption": "Peekaboo Loop Hike the Hoodoos wayside (be sure to include yourself in your photo!)",
-        "credit": "NPS Photo"
+        "url": "https://www.nps.gov/common/uploads/cropped_image/FDA77712-D219-F7B1-9E9568209D6E2BA2.jpeg",
+        "title": "Peekaboo Loop",
+        "altText": "An overhead view of red rock formations with a blue sky in the background",
+        "caption": "Views from the Peekaboo Loop trail",
+        "credit": ""
       }
     ],
     "nps_url": null,
-    "difficulty": "Hard",
+    "difficulty": "Easy",
     "length_miles": 5.1,
-    "elevation_gain_ft": null,
+    "elevation_gain_ft": 670,
     "route_type": "Loop",
     "estimated_time_hours": "3-3.5 hr",
     "is_wheelchair_accessible": false,
     "is_kid_friendly": false,
     "is_pet_friendly": false,
-    "raw_listing_description": "Hike the Hoodoos Hiking is great exercise and Bryce Canyon's \"I Hiked the Hoodoos!\" program is not just hiking, it's also a scavenger hunt with a special reward!",
-    "raw_body_text": "I Hiked the Hoodoos Hiking is great exercise and Bryce Canyon's \"I Hiked the Hoodoos!\" program is not just hiking, it's also a scavenger hunt with a special reward! 1.",
-    "last_enriched": "2026-01-08T11:43:46.558791",
+    "raw_listing_description": null,
+    "raw_body_text": null,
+    "last_enriched": "2026-01-08T11:49:11.788931",
     "popularity_rank": 7,
     "alltrails_url": "https://www.alltrails.com/trail/us/utah/peek-a-boo-loop-trail",
     "alltrails_rating": 4.9,
@@ -393,64 +324,34 @@
     "alltrails_reviews_url": "https://www.alltrails.com/trail/us/utah/peek-a-boo-loop-trail?reviews=true"
   },
   {
-    "id": "88367C8D-3F6B-4CE9-A757-457F52EAAB43",
-    "name": "Queens Garden Hike the Hoodoos",
-    "description": "Explore the unique hoodoos of Bryce Canyon on this hike, which doubles as a scavenger hunt where participants can earn a special reward.",
+    "id": "DCBD1568-6960-4CD0-A403-380C5A8B2204",
+    "name": "Queen's Garden Trail",
+    "description": "Descend from the rim into the Bryce Canyon Amphitheater to wander among unique hoodoos and see the Queen Victoria rock formation.",
     "location": {
-      "lat": 37.6259604053,
-      "lon": -112.161738331
+      "lat": 37.6284356447,
+      "lon": -112.162981721
     },
     "images": [
       {
-        "url": "https://www.nps.gov/common/uploads/cropped_image/59DF52D3-B2B9-F056-A7B20DC4B3FCBDCB.jpg",
-        "title": "Queen's Garden HIked the Hoodoos",
-        "altText": "A wayside showing a red rock spire beside a statue of Queen Victoria explaining Hike the Hoodoos",
-        "caption": "Queen's Garden Hike the Hoodoos wayside (be sure to include yourself in your photo!)",
+        "url": "https://www.nps.gov/common/uploads/cropped_image/07B5F9CF-0A1A-7244-B481C71247ED0E95.jpg",
+        "title": "Queen's Garden from the Rim",
+        "altText": "An overhead shot of a landscape with irregular red rock formations",
+        "caption": "The view of the Queen's Garden Trail from the Rim.",
         "credit": "NPS Photo"
       }
     ],
     "nps_url": null,
-    "difficulty": null,
-    "length_miles": null,
-    "elevation_gain_ft": null,
-    "route_type": null,
-    "estimated_time_hours": null,
-    "is_wheelchair_accessible": false,
-    "is_kid_friendly": true,
-    "is_pet_friendly": false,
-    "raw_listing_description": "Hike the Hoodoos Hiking is great exercise and Bryce Canyon's \"I Hiked the Hoodoos!\" program is not just hiking, it's also a scavenger hunt with a special reward!",
-    "raw_body_text": "I Hiked the Hoodoos Hiking is great exercise and Bryce Canyon's \"I Hiked the Hoodoos!\" program is not just hiking, it's also a scavenger hunt with a special reward! 1.",
-    "last_enriched": "2026-01-08T11:44:25.933331"
-  },
-  {
-    "id": "D2C67D08-BE4F-43E9-9DF2-83416969925E",
-    "name": "Queens Garden Trailhead",
-    "description": "Descend a scenic ridgeline into the Bryce Amphitheater to discover a unique hoodoo resembling Queen Victoria surrounded by intricate rock sculptures.",
-    "location": {
-      "lat": 37.628395,
-      "lon": -112.162914
-    },
-    "images": [
-      {
-        "url": "https://www.nps.gov/common/uploads/cropped_image/13C0691F-CD2C-C282-9E69B042034E69A3.jpg",
-        "title": "Queen's Garden Trail",
-        "altText": "A glowing landscape of red and orange rock spires and forest",
-        "caption": "The Queen's Garden descends a long ridgeline past fins and hoodoos within the Bryce Amphitheater",
-        "credit": "NPS Photo / Peter Densmore"
-      }
-    ],
-    "nps_url": "https://www.nps.gov/brca/planyourvisit/queensgarden.htm",
     "difficulty": "Moderate",
-    "length_miles": 1.8,
-    "elevation_gain_ft": 320,
+    "length_miles": 3.0,
+    "elevation_gain_ft": 646,
     "route_type": "Out & Back",
-    "estimated_time_hours": "1-2 hours",
+    "estimated_time_hours": "1.5-2 hr",
     "is_wheelchair_accessible": false,
-    "is_kid_friendly": true,
+    "is_kid_friendly": false,
     "is_pet_friendly": false,
-    "raw_listing_description": "One of the park's most popular trails, the Queen's Garden trail descends and bends 0.9 miles (1.4 km) along a ridgeline down to a unique hoodoo said to resemble Queen Victoria. Of the six trails that descend into the Bryce Amphitheater, the Queen's Garden Trail is considered the least strenuous; though due to the park's high elevation and steep grades in some areas, it is still categorized as a moderately strenuous hike.",
-    "raw_body_text": "Queen's Garden Trail Difficulty: Moderate Total Distance: 1.8 miles (3.0 km) Elevation change: 320 feet (98 m) Average time: 1-2 hours One of the park's most popular trails, the Queen's Garden trail descends and bends 0.9 miles (1.4 km) along a ridgeline down to a unique hoodoo said to resemble Queen Victoria (be sure to travel down the spur trail at the bottom of the trail to see this hoodoo). The varied and colorful rock formations that surround this hoodoo, are described as many sculptures and other ornaments within the Queen's \"Garden\".",
-    "last_enriched": "2026-01-08T11:44:31.627222",
+    "raw_listing_description": null,
+    "raw_body_text": null,
+    "last_enriched": "2026-01-08T11:48:13.123993",
     "popularity_rank": 1,
     "alltrails_url": "https://www.alltrails.com/trail/us/utah/navajo-loop-and-queens-garden-trail",
     "alltrails_rating": 4.9,
@@ -459,7 +360,8 @@
     "alltrails_length_miles": 3.0,
     "alltrails_elevation_gain_ft": 646,
     "alltrails_estimated_time_hours": "1.5-2 hr",
-    "alltrails_reviews_url": "https://www.alltrails.com/trail/us/utah/navajo-loop-and-queens-garden-trail?reviews=true"
+    "alltrails_reviews_url": "https://www.alltrails.com/trail/us/utah/navajo-loop-and-queens-garden-trail?reviews=true",
+    "elevation_gain_ft_source": "alltrails"
   },
   {
     "id": "5DC9CA9F-6BC7-48B5-84A3-442208903388",
@@ -837,66 +739,6 @@
     "last_enriched": "2026-01-08T11:46:44.509647"
   },
   {
-    "id": "5011BA4F-E4A2-4A60-A723-18E2AA391728",
-    "name": "Bristlecone Loop Trail",
-    "description": "This easy loop meanders through high-elevation forest and ancient bristlecone pines, offering vistas that extend to the Four Corners area.",
-    "location": {
-      "lat": 37.4752770246,
-      "lon": -112.239712189
-    },
-    "images": [
-      {
-        "url": "https://www.nps.gov/common/uploads/cropped_image/FB7928C3-E7E0-F4F1-7203EE9AB6E53182.jpg",
-        "title": "View from the Bristlecone Loop Trail",
-        "altText": "Red rocks topped with dark green trees slope down into a canyon of red rocks",
-        "caption": "Views from the Bristlecone Loop Trail",
-        "credit": "NPS Photo"
-      }
-    ],
-    "nps_url": null,
-    "difficulty": "Easy",
-    "length_miles": 1.0,
-    "elevation_gain_ft": null,
-    "route_type": "Loop",
-    "estimated_time_hours": null,
-    "is_wheelchair_accessible": false,
-    "is_kid_friendly": true,
-    "is_pet_friendly": false,
-    "raw_listing_description": null,
-    "raw_body_text": null,
-    "last_enriched": "2026-01-08T11:47:00.578305"
-  },
-  {
-    "id": "665B4637-0137-4229-8923-4D8D8032CE12",
-    "name": "Swamp Canyon Loop",
-    "description": "This rugged backcountry loop leads hikers into a sheltered, forested landscape that provides a more intimate connection to the canyon environment than the park's larger viewpoints.",
-    "location": {
-      "lat": 37.5873604803,
-      "lon": -112.21351079
-    },
-    "images": [
-      {
-        "url": "https://www.nps.gov/common/uploads/cropped_image/9DCD54E5-BC10-2566-BA5BA5D33D08DE71.jpg",
-        "title": "Swamp Canyon Loop",
-        "altText": "A large formation of red rock partially in shadow with threatening storm clouds above it",
-        "caption": "The Swamp Canyon Loop takes you into the forested backcountry wilderness area of the park.",
-        "credit": "NPS Photo/P. Densmore"
-      }
-    ],
-    "nps_url": null,
-    "difficulty": null,
-    "length_miles": null,
-    "elevation_gain_ft": null,
-    "route_type": "Loop",
-    "estimated_time_hours": null,
-    "is_wheelchair_accessible": false,
-    "is_kid_friendly": false,
-    "is_pet_friendly": false,
-    "raw_listing_description": null,
-    "raw_body_text": null,
-    "last_enriched": "2026-01-08T11:47:06.756338"
-  },
-  {
     "id": "D8D5E034-958D-4AF2-A908-89E35BE5A650",
     "name": "Figure-8 Combination",
     "description": "This ultimate hike combines the Queen's Garden, Navajo Loop, and Peekaboo Loop trails to provide a comprehensive tour of the Bryce Canyon amphitheater.",
@@ -955,46 +797,6 @@
     "raw_listing_description": null,
     "raw_body_text": null,
     "last_enriched": "2026-01-08T11:47:18.630366"
-  },
-  {
-    "id": "DCBD1568-6960-4CD0-A403-380C5A8B2204",
-    "name": "Queen's Garden Trail",
-    "description": "Descend from the rim into the Bryce Canyon Amphitheater to wander among unique hoodoos and see the Queen Victoria rock formation.",
-    "location": {
-      "lat": 37.6284356447,
-      "lon": -112.162981721
-    },
-    "images": [
-      {
-        "url": "https://www.nps.gov/common/uploads/cropped_image/07B5F9CF-0A1A-7244-B481C71247ED0E95.jpg",
-        "title": "Queen's Garden from the Rim",
-        "altText": "An overhead shot of a landscape with irregular red rock formations",
-        "caption": "The view of the Queen's Garden Trail from the Rim.",
-        "credit": "NPS Photo"
-      }
-    ],
-    "nps_url": null,
-    "difficulty": "Moderate",
-    "length_miles": 3.0,
-    "elevation_gain_ft": 646,
-    "route_type": "Out & Back",
-    "estimated_time_hours": "1.5-2 hr",
-    "is_wheelchair_accessible": false,
-    "is_kid_friendly": false,
-    "is_pet_friendly": false,
-    "raw_listing_description": null,
-    "raw_body_text": null,
-    "last_enriched": "2026-01-08T11:48:13.123993",
-    "popularity_rank": 1,
-    "alltrails_url": "https://www.alltrails.com/trail/us/utah/navajo-loop-and-queens-garden-trail",
-    "alltrails_rating": 4.9,
-    "alltrails_review_count": 31107,
-    "alltrails_difficulty": "Moderate",
-    "alltrails_length_miles": 3.0,
-    "alltrails_elevation_gain_ft": 646,
-    "alltrails_estimated_time_hours": "1.5-2 hr",
-    "alltrails_reviews_url": "https://www.alltrails.com/trail/us/utah/navajo-loop-and-queens-garden-trail?reviews=true",
-    "elevation_gain_ft_source": "alltrails"
   },
   {
     "id": "CD5C8E15-7422-4E97-A767-3C36733E1B23",
@@ -1096,45 +898,6 @@
     "alltrails_reviews_url": "https://www.alltrails.com/poi/us/utah/cannonville/sunset-point?reviews=true"
   },
   {
-    "id": "6E21CE5C-45E4-4B66-9445-8764E89BCEC5",
-    "name": "Fairyland Loop",
-    "description": "This quiet 8-mile loop combines hiking along the plateau rim near Boat Mesa with a descent into the canyon for expansive views of the Bryce Amphitheater and its unique hoodoos.",
-    "location": {
-      "lat": 37.6492930445,
-      "lon": -112.147096246
-    },
-    "images": [
-      {
-        "url": "https://www.nps.gov/common/uploads/cropped_image/2E1F3A75-972F-AB20-3D120DAE488EDFE7.jpeg",
-        "title": "Fairyland Loop",
-        "altText": "An overhead photo of red rock formations that appear to be glowing in the sun",
-        "caption": "Unique hoodoo formations and long views can be seen along the Fairyland Loop.",
-        "credit": ""
-      }
-    ],
-    "nps_url": null,
-    "difficulty": "Easy",
-    "length_miles": 8.0,
-    "elevation_gain_ft": null,
-    "route_type": "Loop",
-    "estimated_time_hours": "4-4.5 hr",
-    "is_wheelchair_accessible": false,
-    "is_kid_friendly": false,
-    "is_pet_friendly": false,
-    "raw_listing_description": null,
-    "raw_body_text": null,
-    "last_enriched": "2026-01-08T11:48:49.051871",
-    "popularity_rank": 4,
-    "alltrails_url": "https://www.alltrails.com/trail/us/utah/fairyland-loop-trail",
-    "alltrails_rating": 4.9,
-    "alltrails_review_count": 11828,
-    "alltrails_difficulty": "Moderate",
-    "alltrails_length_miles": 8.0,
-    "alltrails_elevation_gain_ft": null,
-    "alltrails_estimated_time_hours": "4-4.5 hr",
-    "alltrails_reviews_url": "https://www.alltrails.com/trail/us/utah/fairyland-loop-trail?reviews=true"
-  },
-  {
     "id": "E1001E7A-F398-43AC-96FE-EC295C89081E",
     "name": "The Rim Trail",
     "description": "This scenic trail follows the edge of the Bryce Amphitheater, connecting popular viewpoints and offering continuous vistas of the park's unique hoodoo formations.",
@@ -1204,45 +967,6 @@
     "alltrails_reviews_url": "https://www.alltrails.com/poi/us/utah/tower-bridge?reviews=true"
   },
   {
-    "id": "F7BA242B-42FE-46CB-861A-AA29F795285A",
-    "name": "Peekaboo Loop",
-    "description": "This trail descends into a landscape filled with spectacular hoodoos from Bryce Point, offering a unique loop through rock formations shared with horses and mules during the summer.",
-    "location": {
-      "lat": 37.6043349413,
-      "lon": -112.156889973
-    },
-    "images": [
-      {
-        "url": "https://www.nps.gov/common/uploads/cropped_image/FDA77712-D219-F7B1-9E9568209D6E2BA2.jpeg",
-        "title": "Peekaboo Loop",
-        "altText": "An overhead view of red rock formations with a blue sky in the background",
-        "caption": "Views from the Peekaboo Loop trail",
-        "credit": ""
-      }
-    ],
-    "nps_url": null,
-    "difficulty": "Easy",
-    "length_miles": 5.1,
-    "elevation_gain_ft": 670,
-    "route_type": "Loop",
-    "estimated_time_hours": "3-3.5 hr",
-    "is_wheelchair_accessible": false,
-    "is_kid_friendly": false,
-    "is_pet_friendly": false,
-    "raw_listing_description": null,
-    "raw_body_text": null,
-    "last_enriched": "2026-01-08T11:49:11.788931",
-    "popularity_rank": 7,
-    "alltrails_url": "https://www.alltrails.com/trail/us/utah/peek-a-boo-loop-trail",
-    "alltrails_rating": 4.9,
-    "alltrails_review_count": 5504,
-    "alltrails_difficulty": "Hard",
-    "alltrails_length_miles": 5.1,
-    "alltrails_elevation_gain_ft": null,
-    "alltrails_estimated_time_hours": "3-3.5 hr",
-    "alltrails_reviews_url": "https://www.alltrails.com/trail/us/utah/peek-a-boo-loop-trail?reviews=true"
-  },
-  {
     "id": "C8E47D3E-0F92-473F-8720-4AE2733CD3D7",
     "name": "Hat Shop",
     "description": "This trail descends from Bryce Point into the backcountry to showcase a cluster of unique balanced-rock hoodoos against the backdrop of the Grand Staircase cliffs.",
@@ -1303,45 +1027,6 @@
     "last_enriched": "2026-01-08T11:50:02.597894"
   },
   {
-    "id": "319A8199-8F7F-4A71-832D-02F7BD8A4389",
-    "name": "Mossy Cave Trail",
-    "description": "This hike features a unique elevation profile that begins with a climb and ends with a descent, leading to the scenic Water Canyon and a sheltered overhang known as Mossy Cave.",
-    "location": {
-      "lat": 37.6657871356,
-      "lon": -112.110306548
-    },
-    "images": [
-      {
-        "url": "https://www.nps.gov/common/uploads/cropped_image/83C2CC39-CD59-985B-B1AACC4669D11A1E.jpeg",
-        "title": "Mossy Cave Trail",
-        "altText": "A creek meanders through red rocks with red rock formations in the background.",
-        "caption": "See a waterfall in the summer and icicles in the winter on one of the park's easier hikes.",
-        "credit": ""
-      }
-    ],
-    "nps_url": null,
-    "difficulty": "Easy",
-    "length_miles": 0.9,
-    "elevation_gain_ft": null,
-    "route_type": null,
-    "estimated_time_hours": "0.5-1 hr",
-    "is_wheelchair_accessible": false,
-    "is_kid_friendly": false,
-    "is_pet_friendly": false,
-    "raw_listing_description": null,
-    "raw_body_text": null,
-    "last_enriched": "2026-01-08T11:50:11.604357",
-    "popularity_rank": 9,
-    "alltrails_url": "https://www.alltrails.com/trail/us/utah/mossy-cave-turret-arch-and-little-windows-trail",
-    "alltrails_rating": 4.5,
-    "alltrails_review_count": 9101,
-    "alltrails_difficulty": "Easy",
-    "alltrails_length_miles": 0.9,
-    "alltrails_elevation_gain_ft": null,
-    "alltrails_estimated_time_hours": "0.5-1 hr",
-    "alltrails_reviews_url": "https://www.alltrails.com/trail/us/utah/mossy-cave-turret-arch-and-little-windows-trail?reviews=true"
-  },
-  {
     "id": "D2173E9E-97A7-4283-8C55-F842F8B39DD7",
     "name": "Navajo/Peekaboo Combination Loop",
     "description": "This mini figure-eight loop combines the iconic Navajo and Peekaboo trails, descending from Sunset Point into a landscape of spectacular hoodoos and rock formations.",
@@ -1372,45 +1057,6 @@
     "last_enriched": "2026-01-08T11:50:25.470849"
   },
   {
-    "id": "81107E17-255C-437C-8D29-CEC5FA52A18A",
-    "name": "Navajo Loop Trail",
-    "description": "This iconic loop winds through steep switchbacks and narrow limestone walls, offering views of towering Douglas-fir trees and the famous Thor's Hammer hoodoo.",
-    "location": {
-      "lat": 37.6226689088,
-      "lon": -112.16609531
-    },
-    "images": [
-      {
-        "url": "https://www.nps.gov/common/uploads/cropped_image/95FDFAB3-A125-D311-769FAC609D835815.jpeg",
-        "title": "Hiking Navajo Loop",
-        "altText": "Hikers descend sandy switchbacks heading into a canyon of red rock with trees",
-        "caption": "The famous Wall Street switchbacks on the Navajo Loop Trail.",
-        "credit": ""
-      }
-    ],
-    "nps_url": null,
-    "difficulty": "Moderate",
-    "length_miles": 1.6,
-    "elevation_gain_ft": null,
-    "route_type": "Loop",
-    "estimated_time_hours": "1-1.5 hr",
-    "is_wheelchair_accessible": false,
-    "is_kid_friendly": false,
-    "is_pet_friendly": false,
-    "raw_listing_description": null,
-    "raw_body_text": null,
-    "last_enriched": "2026-01-08T11:50:38.034450",
-    "popularity_rank": 5,
-    "alltrails_url": "https://www.alltrails.com/trail/us/utah/navajo-loop-trail",
-    "alltrails_rating": 4.9,
-    "alltrails_review_count": 7035,
-    "alltrails_difficulty": "Moderate",
-    "alltrails_length_miles": 1.6,
-    "alltrails_elevation_gain_ft": null,
-    "alltrails_estimated_time_hours": "1-1.5 hr",
-    "alltrails_reviews_url": "https://www.alltrails.com/trail/us/utah/navajo-loop-trail?reviews=true"
-  },
-  {
     "id": "4FFC4D27-4C45-4CF1-9AE2-F24B0677545F",
     "name": "Under-the-Rim Trail",
     "description": "A backcountry route that winds through forests and meadows, offering hikers solitude and expansive views of distant cliffs away from the crowded main amphitheater.",
@@ -1439,36 +1085,6 @@
     "raw_listing_description": null,
     "raw_body_text": null,
     "last_enriched": "2026-01-08T11:50:52.333219"
-  },
-  {
-    "id": "96177421-E0B1-4983-BD5A-C8B509E0525D",
-    "name": "Hike the Hoodoos",
-    "description": "This interactive scavenger hunt challenge combines hiking with discovery as visitors search for benchmark survey markers hidden among Bryce Canyon's iconic rock formations.",
-    "location": {
-      "lat": 37.471537,
-      "lon": -112.235496
-    },
-    "images": [
-      {
-        "url": "https://www.nps.gov/common/uploads/cropped_image/C3CE7CB1-93FB-5BEB-A7625CDCB3331597.jpg",
-        "title": "Bristlecone Loop Hike the Hoodoos Gazebo",
-        "altText": "An interpretive wayside display shows a peregrine falcon beside text near a wooden gazebo",
-        "caption": "The Bristlecone Loop has one medallion along its 1.0 mile (1.6 km) trail.",
-        "credit": "NPS Photo"
-      }
-    ],
-    "nps_url": null,
-    "difficulty": "Easy",
-    "length_miles": 3.0,
-    "elevation_gain_ft": null,
-    "route_type": null,
-    "estimated_time_hours": null,
-    "is_wheelchair_accessible": false,
-    "is_kid_friendly": false,
-    "is_pet_friendly": false,
-    "raw_listing_description": null,
-    "raw_body_text": null,
-    "last_enriched": "2026-01-08T11:51:17.053795"
   },
   {
     "id": "286F2EC1-CE0F-4D59-A62E-243F3D71F87C",
@@ -1538,7 +1154,7 @@
     },
     "images": [],
     "nps_url": null,
-    "difficulty": "Hard",
+    "difficulty": "Strenuous",
     "length_miles": 6.4,
     "elevation_gain_ft": null,
     "route_type": null,
