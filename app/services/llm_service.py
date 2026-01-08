@@ -357,31 +357,65 @@ class GeminiLLMService:
                 """
                 message = self.agent_guide.execute(prompt)
             elif any(t in query_lower for t in ["event", "events"]):
+                 # Rebuild context excluding trails to strictly prevent bleed-over
+                context_no_trails = self._build_data_context(
+                    trails=[],  # HIDE TRAILS
+                    things=things_to_do, events=events, camps=campgrounds, centers=visitor_centers, 
+                    cams=webcams, amenities=amenities, safety=safety, weather=weather, alerts=alerts
+                )
+                
                 prompt = f"""
                 ROLE: Park Event Coordinator.
                 TASK: Show upcoming events from the "EVENTS" section only.
                 
                 CRITICAL INSTRUCTIONS:
                 1. LINKS: Copy `[Event Name](url)` EXACTLY for EVERY event.
-                2. DO NOT include "TRAILS" or "ACTIVITIES".
                 2. IMAGES: Copy the `<img ... />` tag EXACTLY.
                 3. USE THE HTML TAGS PROVIDED.
                 
-                {base_prompt}
+                {history_text}
+                
+                CURRENT CONTEXT:
+                {context_no_trails}
+                
+                USER REQUEST: '{query}'
                 """
                 message = self.agent_guide.execute(prompt)
             elif any(t in query_lower for t in ["activity", "activities", "things to do"]):
+                 # Rebuild context excluding trails AND hiking-related activities
+                filtered_things = []
+                for thing in things_to_do:
+                    activities_lower = [a.get('name', '').lower() for a in thing.activities]
+                    tags_lower = [t.lower() for t in thing.tags]
+                    is_hiking = any("hike" in a or "hiking" in a for a in activities_lower) or \
+                                any("hike" in t or "hiking" in t or "trail" in t for t in tags_lower)
+                    
+                    # Only include if NOT hiking
+                    if not is_hiking:
+                        filtered_things.append(thing)
+
+                context_no_trails = self._build_data_context(
+                    trails=[],  # HIDE TRAILS
+                    things=filtered_things, # FILTERED THINGS
+                    events=events, camps=campgrounds, centers=visitor_centers, 
+                    cams=webcams, amenities=amenities, safety=safety, weather=weather, alerts=alerts
+                )
+                
                 prompt = f"""
                 ROLE: Park Activity Guide.
-                TASK: Show activities from the "ACTIVITIES" section only.
+                TASK: Show independent activities (tours, museums, scenic drives) from the context.
                 
                 CRITICAL INSTRUCTIONS:
                 1. LINKS: Copy `[Activity Name](url)` EXACTLY for EVERY activity.
-                2. DO NOT include "TRAILS" (Hiking) unless explicitly asked. Focus on other things to do (Tours, Museums, etc).
                 2. IMAGES: Copy the `<img ... />` tag EXACTLY.
                 3. USE THE HTML TAGS PROVIDED.
                 
-                {base_prompt}
+                {history_text}
+                
+                CURRENT CONTEXT:
+                {context_no_trails}
+                
+                USER REQUEST: '{query}'
                 """
                 message = self.agent_guide.execute(prompt)
             else:
