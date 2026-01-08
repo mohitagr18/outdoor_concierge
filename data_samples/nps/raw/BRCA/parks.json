@@ -1,0 +1,91 @@
+{
+  "parkCode": "brca",
+  "fullName": "Bryce Canyon National Park",
+  "description": "Hoodoos (irregular columns of rock) exist on every continent, but here is the largest concentration found anywhere on Earth. Situated along a high plateau at the top of the Grand Staircase, the park's high elevations include numerous life communities, fantastic dark skies, and geological wonders that defy description.",
+  "location": {
+    "lat": 37.58399144,
+    "lon": -112.1826689
+  },
+  "contacts": {
+    "phoneNumbers": [
+      {
+        "phoneNumber": "4358345322",
+        "description": "",
+        "extension": "",
+        "type": "Voice"
+      },
+      {
+        "phoneNumber": "4358344703",
+        "description": "",
+        "extension": "",
+        "type": "Fax"
+      }
+    ],
+    "emailAddresses": [
+      {
+        "description": "",
+        "emailAddress": "brca_information@nps.gov"
+      }
+    ]
+  },
+  "operatingHours": [
+    {
+      "exceptions": [],
+      "description": "Bryce Canyon National Park is open 365 days a year, 24 hours a day.",
+      "standardHours": {
+        "wednesday": "All Day",
+        "monday": "All Day",
+        "thursday": "All Day",
+        "sunday": "All Day",
+        "tuesday": "All Day",
+        "friday": "All Day",
+        "saturday": "All Day"
+      },
+      "name": "Park is Open 24-7"
+    }
+  ],
+  "url": "https://www.nps.gov/brca/index.htm",
+  "images": [
+    {
+      "url": "https://www.nps.gov/common/uploads/structured_data/61F08520-E14F-18F2-BF5F3D89482631BD.jpg",
+      "title": "Bryce Amphitheater from Inspiration Point",
+      "altText": "A red rock landscape and plateau forest glows with the morning sun",
+      "caption": "Viewpoints of the iconic Bryce Amphitheater are located along the first 3 miles of the park road and are a popular destination at sunrise.",
+      "credit": "NPS Photo / Peter Densmore"
+    },
+    {
+      "url": "https://www.nps.gov/common/uploads/structured_data/600067EF-E1B2-18B1-6120394EC23521DB.jpg",
+      "title": "Winter sunrise at Sunset Point",
+      "altText": "Snow blankets a red rock landscape of tall rock spires beneath an early morning sky",
+      "caption": "Here at 8,000' (2438 m) winter comes early and stays late. Snow transforms the landscape and requires seasonal closures in some areas and trails.",
+      "credit": "NPS Photo / Keith Moore"
+    },
+    {
+      "url": "https://www.nps.gov/common/uploads/structured_data/613FFA94-B2F5-FBBF-090B96462B7CAB18.jpg",
+      "title": "Milky Way over the Hoodoos",
+      "altText": "The center of the Milky Way galaxy is seen rising above a horizon of forest and red rock spires",
+      "caption": "Bryce Canyon's clean air and dark night skies are some of its most precious and vulnerable resources. Full moon nights also provide a unique experience of seeing the park after dark.",
+      "credit": "Derek Demeter"
+    },
+    {
+      "url": "https://www.nps.gov/common/uploads/structured_data/60400EC2-B3DA-DAD5-18BF97EA3403B692.jpg",
+      "title": "Queen's Garden Trail",
+      "altText": "A lone white rock tower stands surrounded by red rock walls and forest along a trail",
+      "caption": "More strenuous trails below the rim provide up-close views of the hoodoo rock spires, while easier walks along the rim give perspective from above.",
+      "credit": "NPS Photo / Peter Densmore"
+    },
+    {
+      "url": "https://www.nps.gov/common/uploads/structured_data/609317A5-D0B1-4B67-C2413B5852192FB6.jpg",
+      "title": "Bristlecone Loop trail near Yovimpa Point",
+      "altText": "Red and white rock cliffs lightly dusted with snow with a forest atop them and a long view beyond",
+      "caption": "The park's highest elevations at its southern end and backcountry areas provide views of over 100 miles (161 km) atop high steep cliffs.",
+      "credit": "NPS Photo / Peter Densmore"
+    }
+  ],
+  "campgrounds": [],
+  "visitor_centers": [],
+  "webcams": [],
+  "places": [],
+  "things_to_do": [],
+  "passport_stamps": []
+}

@@ -1,0 +1,207 @@
+[
+  {
+    "id": "35E77922-F40E-4E5C-BB39-F8F5DB8166E6",
+    "name": "Bryce Canyon Visitor Center",
+    "description": "The Bryce Canyon Visitor Center might be one of your first stops when visiting Bryce Canyon National Park. Here you can obtain driving and hiking directions beyond those available on this website, weather forecasts, a current schedule of Park Ranger guided programs, Junior Ranger booklets, and information on area services including lodging, dining and other attractions. Entrance passes cannot be purchased at the visitor center.",
+    "location": {
+      "lat": 37.6403873677938,
+      "lon": -112.169642330719
+    },
+    "url": "https://shop.brycecanyon.org/",
+    "images": [
+      {
+        "url": "https://www.nps.gov/common/uploads/structured_data/695FC7B0-D6AF-7CE8-DDF9F71D3E34297A.jpg",
+        "title": "Bryce Canyon Visitor Center",
+        "altText": "Sign reading Bryce Canyon National Park with an arrowhead stands before large brown building",
+        "caption": "The park Visitor Center is located 1 mile past the park entrance and is open most days at 8 a.m.",
+        "credit": "NPS Photo"
+      },
+      {
+        "url": "https://www.nps.gov/common/uploads/structured_data/69A0F21B-05D9-51D3-83886C88F4B7749B.jpg",
+        "title": "Visitor Center Bookstore",
+        "altText": "Stands of merchandise and two shoppers in a gift shop",
+        "caption": "All purchases made at the Visitor Center bookstore directly support the park through the Bryce Canyon Association",
+        "credit": "NPS Photo / Peter Densmore"
+      },
+      {
+        "url": "https://www.nps.gov/common/uploads/structured_data/622CCF44-9D37-77F3-FDB1F36CAE71A7B9.jpg",
+        "title": "Junior Rangers in Park Museum",
+        "altText": "A woman helps three children lying on ground with workbook in park museum",
+        "caption": "The park museum provides an opportunity to learn about the park and a place to work on Junior Ranger books.",
+        "credit": "NPS Photo / Keith Moore"
+      },
+      {
+        "url": "https://www.nps.gov/common/uploads/structured_data/69751E44-FE5F-5291-2079B6F405DB9BC6.jpg",
+        "title": "Park Orientation",
+        "altText": "A relief map and wall map of Bryce Canyon with a TV screen and entrance to exhibit area",
+        "caption": "The Visitor Center provides exhibits, orientation materials, a park film and more.",
+        "credit": "NPS Photo"
+      },
+      {
+        "url": "https://www.nps.gov/common/uploads/structured_data/627BEFAF-D126-834C-11E40D3AFBB05B5F.jpg",
+        "title": "The Bryce Canyon Shuttle provides service from the Visitor Center",
+        "altText": "A white and green shuttle bus with an arrowhead logo makes a turn",
+        "caption": "From April to October, the Bryce Canyon Shuttle provides free service from the Visitor Center to popular park overlooks and facilities.",
+        "credit": "NPS"
+      },
+      {
+        "url": "https://www.nps.gov/common/uploads/structured_data/90CE93C1-B5A2-42B0-E429E56905012DE8.jpg",
+        "title": "Visitor Center Solar Photovoltaic Arrays",
+        "altText": "Two large solar panels stand tilted at an angle to the sky in a forest",
+        "caption": "The park's Concentrating Solar Photovoltaic (CPV) array generates around 400,000 kilowatt hours a year. The two 70' x 50' tracking generators are located along the Shared Use Path near the Visitor Center.",
+        "credit": "NPS Photo"
+      }
+    ],
+    "operatingHours": [
+      {
+        "exceptions": [
+          {
+            "exceptionHours": {
+              "wednesday": "8:00AM - 6:00PM",
+              "monday": "8:00AM - 6:00PM",
+              "thursday": "8:00AM - 6:00PM",
+              "sunday": "8:00AM - 6:00PM",
+              "tuesday": "8:00AM - 6:00PM",
+              "friday": "8:00AM - 6:00PM",
+              "saturday": "8:00AM - 6:00PM"
+            },
+            "startDate": "2026-04-06",
+            "name": "Spring Hours",
+            "endDate": "2026-05-03"
+          },
+          {
+            "exceptionHours": {
+              "wednesday": "8:00AM - 6:00PM",
+              "monday": "8:00AM - 6:00PM",
+              "thursday": "8:00AM - 6:00PM",
+              "sunday": "8:00AM - 6:00PM",
+              "tuesday": "8:00AM - 6:00PM",
+              "friday": "8:00AM - 6:00PM",
+              "saturday": "8:00AM - 6:00PM"
+            },
+            "startDate": "2026-10-05",
+            "name": "Fall Hours",
+            "endDate": "2026-11-01"
+          },
+          {
+            "exceptionHours": {
+              "wednesday": "8:00AM - 4:30PM",
+              "monday": "8:00AM - 4:30PM",
+              "thursday": "8:00AM - 4:30PM",
+              "sunday": "8:00AM - 4:30PM",
+              "tuesday": "8:00AM - 4:30PM",
+              "friday": "8:00AM - 4:30PM",
+              "saturday": "8:00AM - 4:30PM"
+            },
+            "startDate": "2025-11-02",
+            "name": "Winter Hours",
+            "endDate": "2026-04-04"
+          },
+          {
+            "exceptionHours": {
+              "thursday": "8:00AM - 4:30PM"
+            },
+            "startDate": "2026-11-26",
+            "name": "Thanksgiving Day",
+            "endDate": "2026-11-26"
+          },
+          {
+            "exceptionHours": {
+              "wednesday": "8:00AM - 2:00PM",
+              "monday": "8:00AM - 2:00PM",
+              "thursday": "8:00AM - 2:00PM",
+              "sunday": "8:00AM - 2:00PM",
+              "tuesday": "8:00AM - 2:00PM",
+              "friday": "8:00AM - 2:00PM",
+              "saturday": "8:00AM - 2:00PM"
+            },
+            "startDate": "2026-12-24",
+            "name": "December 24",
+            "endDate": "2026-12-24"
+          },
+          {
+            "exceptionHours": {
+              "wednesday": "Closed",
+              "monday": "Closed",
+              "thursday": "Closed",
+              "sunday": "Closed",
+              "tuesday": "Closed",
+              "friday": "Closed",
+              "saturday": "Closed"
+            },
+            "startDate": "2026-12-25",
+            "name": "Christmas Hours",
+            "endDate": "2026-12-25"
+          },
+          {
+            "exceptionHours": {
+              "wednesday": "9:00AM - 4:30PM",
+              "monday": "9:00AM - 4:30PM",
+              "thursday": "9:00AM - 4:30PM",
+              "sunday": "9:00AM - 4:30PM",
+              "tuesday": "9:00AM - 4:30PM",
+              "friday": "9:00AM - 4:30PM",
+              "saturday": "9:00AM - 4:30AM"
+            },
+            "startDate": "2027-01-01",
+            "name": "New Years Day hours",
+            "endDate": "2027-01-01"
+          }
+        ],
+        "description": "Winter hours are from 8:00 a.m. to 4:30 p.m.\nSpring and Fall hours are from 8:00 a.m. to 6:00 p.m. \nSummer (standard) hours are from 8:00 a.m. to 8:00 p.m.\n\nThe Bookstore is closed on Thanksgiving, but the rest of the Visitor Center is open. The Visitor Center is closed on Christmas Day.",
+        "standardHours": {
+          "wednesday": "8:00AM - 8:00PM",
+          "monday": "8:00AM - 8:00PM",
+          "thursday": "8:00AM - 8:00PM",
+          "sunday": "8:00AM - 8:00PM",
+          "tuesday": "8:00AM - 8:00PM",
+          "friday": "8:00AM - 8:00PM",
+          "saturday": "8:00AM - 8:00PM"
+        },
+        "name": "Bryce Canyon Visitor Center"
+      }
+    ],
+    "addresses": [
+      {
+        "line1": "Highway 63",
+        "line2": "Bryce Canyon National Park Visitor Center",
+        "line3": "",
+        "city": "Bryce",
+        "stateCode": "UT",
+        "postalCode": "84764",
+        "type": "Physical"
+      },
+      {
+        "line1": "PO Box 640201",
+        "line2": "",
+        "line3": "",
+        "city": "Bryce",
+        "stateCode": "UT",
+        "postalCode": "84764-0201",
+        "type": "Mailing"
+      }
+    ],
+    "contacts": {
+      "phoneNumbers": [
+        {
+          "phoneNumber": "4358345322",
+          "description": "",
+          "extension": "",
+          "type": "Voice"
+        },
+        {
+          "phoneNumber": "4358344703",
+          "description": "",
+          "extension": "",
+          "type": "Fax"
+        }
+      ],
+      "emailAddresses": [
+        {
+          "description": "",
+          "emailAddress": "brca_information@nps.gov"
+        }
+      ]
+    }
+  }
+]

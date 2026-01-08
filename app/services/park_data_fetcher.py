@@ -82,7 +82,10 @@ class ParkDataFetcher:
         progress_callback: Callable[[int, int, str], None] = None
     ) -> Dict[str, bool]:
         """
-        Fetches all static NPS data for a park and saves to fixtures.
+        Fetches all static NPS data for a park and saves to both raw and fixtures directories.
+        
+        - Raw API responses → data_samples/nps/raw/PARK/
+        - Parsed/cleaned data → data_samples/ui_fixtures/PARK/
         
         Args:
             park_code: The park code (e.g., "BRCA")
@@ -97,33 +100,50 @@ class ParkDataFetcher:
         park_code = park_code.upper()
         results = {}
         
+        # Mapping: (fixture_name, raw_name, fetch_function)
         steps = [
-            ("park_details.json", lambda: self.nps.get_park_details(park_code)),
-            ("campgrounds.json", lambda: self.nps.get_campgrounds(park_code)),
-            ("visitor_centers.json", lambda: self.nps.get_visitor_centers(park_code)),
-            ("webcams.json", lambda: self.nps.get_webcams(park_code)),
-            ("things_to_do.json", lambda: self.nps.get_things_to_do(park_code)),
-            ("places.json", lambda: self.nps.get_places(park_code)),
-            ("passport_stamps.json", lambda: self.nps.get_passport_stamps(park_code)),
+            ("park_details.json", "parks.json", lambda: self.nps.get_park_details(park_code)),
+            ("campgrounds.json", "campgrounds.json", lambda: self.nps.get_campgrounds(park_code)),
+            ("visitor_centers.json", "visitorcenters.json", lambda: self.nps.get_visitor_centers(park_code)),
+            ("webcams.json", "webcams.json", lambda: self.nps.get_webcams(park_code)),
+            ("things_to_do.json", "thingstodo.json", lambda: self.nps.get_things_to_do(park_code)),
+            ("places.json", "places.json", lambda: self.nps.get_places(park_code)),
+            ("passport_stamps.json", "passportstamplocations.json", lambda: self.nps.get_passport_stamps(park_code)),
         ]
         
+        # Create raw directory
+        raw_dir = f"data_samples/nps/raw/{park_code}"
+        os.makedirs(raw_dir, exist_ok=True)
+        
         total = len(steps)
-        for i, (filename, fetch_fn) in enumerate(steps):
+        for i, (fixture_name, raw_name, fetch_fn) in enumerate(steps):
             if progress_callback:
-                progress_callback(i, total, f"Fetching {filename}...")
+                progress_callback(i, total, f"Fetching {fixture_name}...")
             
             try:
                 data = fetch_fn()
                 if data:
-                    self.data_manager.save_fixture(park_code, filename, data)
-                    results[filename] = True
-                    logger.info(f"✅ Saved {filename} for {park_code}")
+                    # Save raw API response
+                    raw_path = os.path.join(raw_dir, raw_name)
+                    with open(raw_path, 'w') as f:
+                        if hasattr(data, 'model_dump'):
+                            json.dump(data.model_dump(), f, indent=2)
+                        elif isinstance(data, list) and data and hasattr(data[0], 'model_dump'):
+                            json.dump([item.model_dump() for item in data], f, indent=2)
+                        else:
+                            json.dump(data, f, indent=2)
+                    logger.info(f"📦 Saved raw {raw_name} for {park_code}")
+                    
+                    # Save cleaned fixture
+                    self.data_manager.save_fixture(park_code, fixture_name, data)
+                    results[fixture_name] = True
+                    logger.info(f"✅ Saved {fixture_name} for {park_code}")
                 else:
-                    results[filename] = False
-                    logger.warning(f"⚠️ No data returned for {filename}")
+                    results[fixture_name] = False
+                    logger.warning(f"⚠️ No data returned for {fixture_name}")
             except Exception as e:
-                results[filename] = False
-                logger.error(f"❌ Failed to fetch {filename}: {e}")
+                results[fixture_name] = False
+                logger.error(f"❌ Failed to fetch {fixture_name}: {e}")
         
         if progress_callback:
             progress_callback(total, total, "NPS data fetch complete")
