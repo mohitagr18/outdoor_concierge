@@ -1,0 +1,1465 @@
+[
+  {
+    "id": "A3A40059-56B9-4403-BA59-DB350F57AF8E",
+    "title": "Birdwatching",
+    "shortDescription": "175 different species of birds have been documented to frequent Bryce Canyon National Park. Some are just passing through. Others stay for an entire season. Fewer still make this their year-round home, but those that do are charming and charismatic.",
+    "longDescription": "<p>175 different species of birds have been documented to frequent Bryce Canyon National Park. Some are just passing through. Others stay for an entire season. Fewer still make this their year-round home, but those that do are charming and charismatic.<br /> Check recent <a href=\"https://ebird.org/hotspot/L268297\">eBird sightings within the park</a>. Planning a visit in December? Consider joining us for our annual <a href=\"https://www.nps.gov/brca/learn/nature/brcacbc.htm\">Christmas Bird Count</a>!<br /> <br /> <a href=\"https://www.nps.gov/thingstodo/upload/FieldGuide_Songbirds_BRCA_Page_1.jpg\">Visual Guide for Common Songbirds</a><br /> <a href=\"https://www.nps.gov/thingstodo/upload/FieldGuide_Additional_Birds_BRCA_Page_1.jpg\">Visual Guide for Additional Songbirds and Other Birds</a><br /> <a href=\"https://www.nps.gov/thingstodo/upload/FieldGuide_Raptors_BRCA_Page_1.jpg\">Visual Guide for Raptors and Large Birds</a></p> <h3>Seasons</h3> <p>Spring comes late at these high elevations, with snow often remaining into April. But\u00a0by late February and early March western bluebirds and American robins are usually returning to the park from lower elevations. Warblers come a little later, often in late April or May, when yellow-rumped warblers, Grace's warblers, black-throated gray warblers and others begin to be heard. May through July is the busy breeding season within the park, and depending on the year various hummingbirds, such as black-chinned, broad-tailed, and rufuous can be seen visiting thistles and other flowers. The melodious songs of hermit thrushes, the ribbits of western tanagers, or the shreiks of green-tailed towhees or wood-pewees and flycatchers can be heard in ponderosa forests, but often fade by mid-August. The violet-green swallows and cliff swallows seen swooping over the Bryce Amphitheater have disappeared by October in most years. Eruptions of crossbills and Cassin's finches occur every few years in late summer and last through the winter. Come the colder months, year-round residents such as Townsend's solitaires, nuthatches, chickadees, juncos, woodpeckers, corvids, and raptors are most commonly seen.</p> <h3>Where to Look</h3> <p>Some species are common in all areas of the park. These include common ravens, Steller's jays, white-breasted nuthatches, Townsend's solitaires, downy and hairy woodpeckers, and dark-eyed juncos.<br /> <br /> <strong>Southern Scenic Drive: </strong>Travelling to Rainbow and Yovimpa Points at the southern end of the park takes you up to elevations of over 9,000 feet (2,743 m). At these high elevations, the park's ponderosa forests transition to mixed conifer woodlands of white fir, limber pine, douglas-fir, quaking aspen, and bristlecone pine. Snow levels are much higher here in winter, linger longer into spring, and provide more moisture for a dense understory. Species seen more often in this area and along the Bristlecone Loop Trail include dusky grouse, peregrine falcon, Clark's nutcracker, green-tailed towhee, red-breasted nuthatches, pine siskins, and Cassin's finches.\u00a0<br /> <br /> <strong>Bryce Amphitheater: </strong>The Bryce Amphitheater is defined by its ponderosa forests. These provide a year-round home for pygmy nuthatches, which travel from tree to tree like squeaking fleas. Those with a sharp ear for higher frequencies and cryptic feathers may spot brown creepers here. In winter mixed flocks of chickadees, nuthatches, juncos, and creepers are not uncommon. In summer, violet-green swallows, white-throated swifts, and cliff swallows can be see swooping along the plateau rim. Owls, such as northern pygmy owls, reward those willing to wander the rim trail or quieter viewpoints like Paria View listening for the chiding chorus of songbirds. Below the rim, wrens, juncos, jays, and small flocks of bushtits can be found.<br /> <br /> <strong>Mossy Cave: </strong>Mossy Cave provides one of the park's only consistent areas of water. Not a wetland, but essentially an irrigation stream travelling through the park, this area nevertheless protects a sometimes bird-rich area near Mossy Cave itself. Turn left at the waterfall junction and keep an eye out in the Gambel oak and Nootka rose for flycatchers and warblers.<br /> <br /> <strong>Tropic Trail: </strong>A best-kept secret in the park, the Tropic Trail provides a quiet, densely vegetated area in the lowest elevations of the Bryce Amphitheater to encounter towhees, jays, nuthatches, juncos, and sometimes unexpected lower-elevation birds (our 2020 Christmas Bird Count encountered a beautiful acorn woodpecker here).<br /> <br /> <strong>Outside the park:</strong> Check out the Rodeo, open fields, and waterpond areas in Bryce Canyon City just north of the park for an abundance of other species including larks, raptors, and sometimes sage grouse.</p>",
+    "location": {
+      "lat": 0.0,
+      "lon": 0.0
+    },
+    "duration": "",
+    "season": [
+      "Winter",
+      "Spring",
+      "Summer",
+      "Fall"
+    ],
+    "activities": [
+      {
+        "id": "5A2C91D1-50EC-4B24-8BED-A2E11A1892DF",
+        "name": "Birdwatching"
+      }
+    ],
+    "arePetsPermitted": true,
+    "images": [
+      {
+        "url": "https://www.nps.gov/common/uploads/cropped_image/E486B36C-A6DC-C5C1-2A6317A61B20EE6F.jpg",
+        "title": "Steller's Jay",
+        "altText": "A blue and black bird with a black crest sits perched on a pine branch among green pine needles",
+        "caption": "Steller's Jays are one of the park's most common year-round bird species.",
+        "credit": "NPS Photo / Keith Moore"
+      }
+    ],
+    "isReservationRequired": false,
+    "doFeesApply": true,
+    "tags": [
+      "birding"
+    ]
+  },
+  {
+    "id": "5011BA4F-E4A2-4A60-A723-18E2AA391728",
+    "title": "Bristlecone Loop Trail",
+    "shortDescription": "The Bristlecone Loop, an easy 1 mile hike, meanders through the forest atop this highest portion of the park, reaching elevations over 9,100 feet (2778 m). Here you will pass by bristlecone pines up to 1,800-years-old and experience vistas reaching into the Four Corners area.",
+    "longDescription": "<p>The Bristlecone Loop, accessible from Rainbow Point at the southern end of the park, meanders through the forest atop this highest portion of the park, reaching elevations over 9,100 feet (2778 m). Here you will pass by bristlecone pines up to 1,800-years-old and experience vistas reaching into the Four Corners area.</p> <ul> <li><strong>Trailhead: </strong><a href=\"https://www.nps.gov/places/000/rainbow-point.htm\">Rainbow Point</a> or <a href=\"https://www.nps.gov/places/000/yovimpa-point.htm\">Yovimpa Point</a></li> <li><strong>Parking:</strong>\u00a0At trailhead (check when <a href=\"https://www.nps.gov/brca/planyourvisit/parking-information.htm\">parking lots are busiest</a>). Oversized vehicles permitted.</li> <li><strong>Distance:</strong> 1.0 mile (1.6 km)</li> <li><strong>Approximate Time: </strong>1 hour</li> <li><strong>Elevation Gain:</strong> 200 feet (61 meters)</li> <li><strong>Difficulty:</strong> Easy (elevation gain of 200 feet or less, shorter length)</li> <li><strong>Services:</strong> Accessible restrooms available (seasonally).</li> <li><strong>Shuttle Service:</strong>\u00a0None.\u00a0<a href=\"https://www.nps.gov/brca/planyourvisit/commercial-tours-and-services.htm\">Private options may be available.</a></li> <li>This trail may be inaccessible during mid-winter due to snow depths ranging from 2-15 ft. (.7-5 m)</li> <li><strong>Pets are not allowed on this trail</strong>. Service animals are allowed in national parks.\u00a0<a href=\"https://cms.nps.gov/planyourvisit/service-animals.htm\">What is a service animal?</a></li> </ul> <p>This forest\u00a0is dominated by Blue Spruce, Douglas Fir, and White Fir, making this good habitat for grouse, woodpeckers, owls, and a variety of squirrels and chipmunks. Here you are also sure to see Ravens and Steller's Jays.\u00a0</p>",
+    "location": {
+      "lat": 37.4752770246,
+      "lon": -112.239712189
+    },
+    "duration": "30-60 Minutes",
+    "season": [
+      "Spring",
+      "Summer",
+      "Fall"
+    ],
+    "activities": [
+      {
+        "id": "45261C0A-00D8-4C27-A1F8-029F933A0D34",
+        "name": "Front-Country Hiking"
+      }
+    ],
+    "arePetsPermitted": false,
+    "images": [
+      {
+        "url": "https://www.nps.gov/common/uploads/cropped_image/FB7928C3-E7E0-F4F1-7203EE9AB6E53182.jpg",
+        "title": "View from the Bristlecone Loop Trail",
+        "altText": "Red rocks topped with dark green trees slope down into a canyon of red rocks",
+        "caption": "Views from the Bristlecone Loop Trail",
+        "credit": "NPS Photo"
+      }
+    ],
+    "isReservationRequired": false,
+    "doFeesApply": false,
+    "tags": [
+      "Bryce Canyon National Park",
+      "hiking",
+      "hike",
+      "bristlecone loop trail",
+      "Bristlecone Pine",
+      "conifers",
+      "Easy hike"
+    ]
+  },
+  {
+    "id": "665B4637-0137-4229-8923-4D8D8032CE12",
+    "title": "Swamp Canyon Loop",
+    "shortDescription": "Swamp Canyon appears relatively small and sheltered from the overlook, allowing the viewer to develop a more intimate connection with the landscape than some of the grander viewpoints in the park. The Swamp Canyon Loop, which starts at the viewpoint, is more rugged than the Bryce Amphitheater trails, taking hikers into a more forested backcountry hike. There is less signage on this hike and hikers are encouraged to carry a map.",
+    "longDescription": "Swamp Canyon appears relatively small and sheltered from the overlook, allowing the viewer to develop a more intimate connection with the landscape than some of the grander viewpoints in the park. The Swamp Canyon Loop, which starts at the viewpoint, is more rugged than the Bryce Amphitheater trails, taking hikers into a more forested backcountry hike. There is less signage on this hike and hikers are encouraged to carry a map.<br /> \u00a0 <ul> <li><b>Trailhead: </b><a href=\"https://www.nps.gov/places/000/swamp-canyon-loop-trailhead.htm\">Swamp Canyon Viewpoint</a> (Mile 6 on the Southern Scenic Drive)</li> <li><b>Parking:</b> At Swamp Canyon Viewpoint (check when <a href=\"https://www.nps.gov/brca/planyourvisit/parking-information.htm\">parking lots are busiest</a>). Oversized vehicles permitted.</li> <li><b>Distance:</b>\u00a04.0 mile (6.4\u00a0km)</li> <li><b>Approximate Time:</b>\u00a03-4\u00a0hours</li> <li><b>Elevation Gain:</b>\u00a0800 feet (244\u00a0meters)</li> <li><b>Difficulty:</b> Moderate (less than 1000 feet elevation gain, moderate length)</li> <li><b>Services:\u00a0</b>None.</li> <li><b>Shuttle Service:</b> None. <a href=\"https://www.nps.gov/brca/planyourvisit/commercial-tours-and-services.htm\">Private options may be available.</a></li> <li>This trail may be inaccessible during mid-winter due to snow depths ranging from 2-15 ft. (.7-5 m)</li> <li><strong>Pets are not allowed on this trail.</strong> Service animals are allowed in national parks. <a href=\"https://www.nps.gov/planyourvisit/service-animals.htm\">What is a service animal?</a></li> </ul>",
+    "location": {
+      "lat": 37.5873604803,
+      "lon": -112.21351079
+    },
+    "duration": "3-4 Hours",
+    "season": [],
+    "activities": [
+      {
+        "id": "7C37B79B-D02D-49EB-9020-3DB8299B748A",
+        "name": "Backcountry Hiking"
+      }
+    ],
+    "arePetsPermitted": false,
+    "images": [
+      {
+        "url": "https://www.nps.gov/common/uploads/cropped_image/9DCD54E5-BC10-2566-BA5BA5D33D08DE71.jpg",
+        "title": "Swamp Canyon Loop",
+        "altText": "A large formation of red rock partially in shadow with threatening storm clouds above it",
+        "caption": "The Swamp Canyon Loop takes you into the forested backcountry wilderness area of the park.",
+        "credit": "NPS Photo/P. Densmore"
+      }
+    ],
+    "isReservationRequired": false,
+    "doFeesApply": false,
+    "tags": [
+      "Bryce Canyon National Park",
+      "hike",
+      "hiking",
+      "moderate hike",
+      "viewpoint",
+      "Swamp Canyon Loop Trail",
+      "wilderness",
+      "backcountry",
+      "Under the Rim Trail"
+    ]
+  },
+  {
+    "id": "F8EFD5F3-A14B-4C0D-B448-8D22C2E2EB84",
+    "title": "Plan a Picnic",
+    "shortDescription": "Looking for a good place to enjoy a picnic? Here is a list of Bryce Canyon picnic areas.",
+    "longDescription": "<p>Looking for a good place to enjoy a picnic? See below\u00a0for a list of Bryce Canyon picnic areas.</p> <h4>Amphitheater Area (Miles 1-3)</h4> <ul> <li><a href=\"https://www.nps.gov/places/000/north-campground-picnic-area.htm\">North Campground Picnic Area</a></li> <li><a href=\"https://www.nps.gov/places/000/bryce-canyon-general-store.htm\">General Store</a>\u00a0</li> <li><a href=\"https://www.nps.gov/places/000/sunset-point.htm\">Sunset Point</a></li> </ul> <h4>Southern Scenic Drive (Miles 4-18)</h4> <ul> <li><a href=\"https://www.nps.gov/places/000/ccc-picnic-area.htm\">CCC Picnic Area</a></li> <li><a href=\"https://www.nps.gov/places/000/whiteman-bench-picnic-area.htm\">Whiteman Bench Picnic Area</a></li> <li><a href=\"https://www.nps.gov/places/000/rainbow-point.htm\">Rainbow Point</a></li> </ul> <h4>Outside the Park</h4> <ul> <li><a href=\"https://www.nps.gov/places/000/bryce-canyon-shuttle-station.htm\">Bryce Canyon Shuttle Station</a>\u00a0(Bryce Canyon City, north of the park)</li> </ul> <br /> <strong>It is a violation of federal law to\u00a0<a href=\"https://www.nps.gov/brca/learn/nature/feedingwildlife.htm\">feed any wildlife</a>\u00a0in the park and surrounding areas. Be mindful that some of these animals may be seen on or near the roads and trails and should not be approached as they may be dangerous.</strong>",
+    "location": {
+      "lat": 37.6066939313,
+      "lon": -112.20048489
+    },
+    "duration": "",
+    "season": [],
+    "activities": [
+      {
+        "id": "C6D3230A-2CEA-4AFE-BFF3-DC1E2C2C4BB4",
+        "name": "Picnicking"
+      }
+    ],
+    "arePetsPermitted": true,
+    "images": [
+      {
+        "url": "https://www.nps.gov/common/uploads/cropped_image/68DCAD29-9364-E051-10D2D7A897BA87F4.jpg",
+        "title": "Rainbow Point",
+        "altText": "A raven sits atop a brown sign that says Rainbow Point Elevation 9115.",
+        "caption": "Rainbow Point, at the end of the Southern Scenic Drive, is a great place to stop for a picnic.",
+        "credit": "NPS Photo"
+      }
+    ],
+    "isReservationRequired": false,
+    "doFeesApply": false,
+    "tags": [
+      "picnic",
+      "picnic area",
+      "Bryce Canyon National Park"
+    ]
+  },
+  {
+    "id": "D8D5E034-958D-4AF2-A908-89E35BE5A650",
+    "title": "Figure-8 Combination",
+    "shortDescription": "The Figure-8 Combination combines three amphitheater hikes, Queen's Garden, Navajo Loop, and the Peekaboo Loop, into one ultimate hike! We recommend a clockwise direction descending Queen's Garden, connecting to the Peekaboo Loop (we recommend hiking it in a clockwise direction), and ascending either side of the Navajo Loop (Two Bridges in winter). From there you can complete the trail by hiking back to Sunrise Point along the Rim Trail.",
+    "longDescription": "The Figure-8 Combination combines three amphitheater hikes, Queen's Garden, Navajo Loop, and the Peekaboo Loop, into one ultimate hike! We recommend a clockwise direction descending Queen's Garden, connecting to the Peekaboo Loop (we recommend hiking it in a clockwise direction), and ascending either side of the Navajo Loop (Two Bridges in winter). From there you can complete the trail by hiking back to Sunrise Point along the Rim Trail.<br /> \u00a0 <ul> <li><b>Trailhead: </b><a href=\"https://www.nps.gov/places/sunrise-point.htm\">Sunrise Point</a> or <a href=\"https://www.nps.gov/places/000/sunset-point.htm\">Sunset Point</a></li> <li><b>Parking:</b> Available at both Sunrise and Sunset Points (check when <a href=\"https://www.nps.gov/brca/planyourvisit/parking-information.htm\">parking lots are busiest</a>). Oversized vehicles are not\u00a0permitted in these parking areas <a href=\"https://www.nps.gov/brca/planyourvisit/shuttle.htm\">when the shuttle is\u00a0in operation</a>.</li> <li><b>Distance:</b>\u00a06.4\u00a0miles (10.3\u00a0km)</li> <li><b>Approximate Time:</b>\u00a04-5\u00a0hours</li> <li><b>Elevation Gain:\u00a0</b>1575\u00a0feet (480\u00a0meters)</li> <li><b>Difficulty:</b> Strenuous (rapid elevation gain, longer length)</li> <li><b>Services:</b>\u00a0Accessible restrooms available at Sunset Point (year-round) and available at the General Store near Sunrise Point (seasonally). Water-fill stations available at Sunset Point (seasonally), the Sunset Point restroom (year-round), and the General Store (seasonally).\u00a0Pit toilets on the west side of Peekaboo Loop (summer only)</li> <li><b>Shuttle Service:</b>\u00a0<a href=\"https://www.nps.gov/brca/planyourvisit/shuttle.htm\">Yes.</a></li> <li>This trail may be inaccessible during mid-winter due to snow depths ranging from 2-15 ft. (.7-5 m)</li> <li><b>Pets are not allowed on this trail.</b> Service animals are allowed in national parks. <a href=\"https://www.nps.gov/planyourvisit/service-animals.htm\">What is a service animal?</a></li> <li><strong>Hikers will encounter horses and mules on the Peekaboo Loop\u00a0and should give the right-of-way to these riders.</strong></li> </ul> You can hike these trails individually as the\u00a0<a href=\"https://www.nps.gov/thingstodo/peekaboo-loop.htm\">Peekaboo Loop</a>, <a href=\"https://www.nps.gov/thingstodo/queen-s-garden-trail.htm\">Queen's Garden</a>,\u00a0and the\u00a0<a href=\"https://www.nps.gov/thingstodo/navajo-loop-trail.htm\">Navajo Loop</a>.",
+    "location": {
+      "lat": 37.6284356447,
+      "lon": -112.162981721
+    },
+    "duration": "4-5 Hours",
+    "season": [],
+    "activities": [
+      {
+        "id": "45261C0A-00D8-4C27-A1F8-029F933A0D34",
+        "name": "Front-Country Hiking"
+      }
+    ],
+    "arePetsPermitted": false,
+    "images": [
+      {
+        "url": "https://www.nps.gov/common/uploads/cropped_image/02376A79-B1E6-7694-6D5870C592C5B63A.jpg",
+        "title": "Hoodoos along Peekaboo Connector",
+        "altText": "Red rock formations on top of a steep sandy slope with distant red rock formations in the background",
+        "caption": "Views along the connector trail between the Queen's/Navajo trails and the Peekaboo Loop.",
+        "credit": ""
+      }
+    ],
+    "isReservationRequired": false,
+    "doFeesApply": false,
+    "tags": [
+      "Bryce Canyon National Park",
+      "hiking",
+      "hike",
+      "strenuous hike",
+      "geology",
+      "figure 8 combination",
+      "viewpoint",
+      "Navajo Loop Trail",
+      "Peekaboo Loop Trail",
+      "Queens Garden Trail"
+    ]
+  },
+  {
+    "id": "F508D902-8095-4133-A57A-006007A2D3E6",
+    "title": "Queen's/Navajo Combination Loop",
+    "shortDescription": "Our most popular hike in the park and the one we most recommend to first-time visitors. The Queen's/Navajo Combination Loop combines the open views and unique hoodoos of the Queen's Garden Trail with the iconic switchbacks and towering canyon walls of the Navajo Loop Trail. Descend Queen's Garden at Sunrise Point, ascend the Navajo Loop to Sunset Point, and then complete the loop back to Sunrise Point via the Rim Trail, enjoying views into the Bryce Canyon Amphitheater below.",
+    "longDescription": "Our most popular hike in the park and the one we most recommend to first-time visitors. The Queen's/Navajo Combination Loop combines the open views and unique hoodoos of the Queen's Garden Trail with the iconic switchbacks and towering canyon walls of the Navajo Loop Trail. Descend Queen's Garden at Sunrise Point, ascend the Navajo Loop to Sunset Point, and then complete the loop back to Sunrise Point via the Rim Trail, enjoying views into the Bryce Canyon Amphitheater below.<br /> \u00a0 <ul> <li><b>Trailhead: </b><a href=\"https://www.nps.gov/places/sunrise-point.htm\">Sunrise</a> or <a href=\"https://www.nps.gov/places/000/sunset-point.htm\">Sunset</a> Point</li> <li><b>Parking:</b>\u00a0Available at both Sunrise and Sunset Points (check when <a href=\"https://www.nps.gov/brca/planyourvisit/parking-information.htm\">parking lots are busiest</a>). Oversized vehicles are not\u00a0permitted in these parking areas <a href=\"https://www.nps.gov/brca/planyourvisit/shuttle.htm\">when the shuttle is\u00a0in operation.</a></li> <li><b>Distance:</b>\u00a02.9\u00a0miles (4.6 km)</li> <li><b>Approximate Time:</b>\u00a02-3\u00a0hours</li> <li><b>Elevation Gain:</b>\u00a0625\u00a0feet (191 meters)\u00a0</li> <li><b>Difficulty:</b>\u00a0Moderate (less than 1000 feet elevation gain, moderate length)</li> <li><b>Services:\u00a0</b>Accessible restrooms available at Sunset Point (year-round) and available at the General Store near Sunrise Point (seasonally). Water-fill stations available at Sunset Point (seasonally), the Sunset Point restroom (year-round), and the General Store (seasonally).</li> <li><b>Shuttle Service:</b>\u00a0<a href=\"https://www.nps.gov/brca/planyourvisit/shuttle.htm\">Yes.</a></li> <li><strong>Use the Two Bridges side of the Navajo Loop in winter when Wall Street is closed. We recommend hiking this loop in a clockwise direction.</strong></li> <li><strong>Pets are not allowed on this trail</strong>. Service animals are allowed in national parks. <a href=\"https://www.nps.gov/planyourvisit/service-animals.htm\">What is a service animal?</a></li> </ul>",
+    "location": {
+      "lat": 37.6284356447,
+      "lon": -112.162981721
+    },
+    "duration": "2-3 Hours",
+    "season": [],
+    "activities": [
+      {
+        "id": "45261C0A-00D8-4C27-A1F8-029F933A0D34",
+        "name": "Front-Country Hiking"
+      }
+    ],
+    "arePetsPermitted": false,
+    "images": [
+      {
+        "url": "https://www.nps.gov/common/uploads/cropped_image/97B393CF-999C-3A86-2E8713CB94E28EB1.jpeg",
+        "title": "Hikers on Queen's Garden",
+        "altText": "Hikers walk along a trail towards an open archway in the red rock",
+        "caption": "Hikers approach an archway on the Queen's Garden side of the Combination Loop",
+        "credit": ""
+      }
+    ],
+    "isReservationRequired": false,
+    "doFeesApply": false,
+    "tags": [
+      "Bryce Canyon National Park",
+      "geology",
+      "hiking",
+      "hike",
+      "moderate hike",
+      "queens navajo loop trail",
+      "view point",
+      "Queens Garden Trail",
+      "Navajo Loop Trail",
+      "rim trail"
+    ]
+  },
+  {
+    "id": "DCBD1568-6960-4CD0-A403-380C5A8B2204",
+    "title": "Queen's Garden Trail",
+    "shortDescription": "The Queen's Garden Trail is the least difficult of the trails descending from the rim into the Bryce Canyon Amphitheater. Hike this out-and-back trail to the Queen Victoria hoodoo at the end of a short spur trail and experience the splendor of hiking amongst the hoodoos. This trail is commonly combined with the Navajo Loop to create a 2.9 mile round trip trail where you can descend at Sunrise Point and ascend at Sunset Point.",
+    "longDescription": "The Queen's Garden Trail is the least difficult of the trails descending from the rim into the Bryce Canyon Amphitheater. Hike this out-and-back trail to the Queen Victoria hoodoo at the end of a short spur trail and experience the splendor of hiking amongst the hoodoos. <ul> <li><b>Trailhead: </b><a href=\"https://www.nps.gov/places/sunrise-point.htm\">Sunrise Point</a></li> <li><b>Parking:</b> Available at\u00a0Sunrise Point (check when <a href=\"https://www.nps.gov/brca/planyourvisit/parking-information.htm\">parking lots are busiest</a>).\u00a0Oversized vehicles are not\u00a0permitted in this\u00a0parking area\u00a0<a href=\"https://www.nps.gov/brca/planyourvisit/shuttle.htm\">when the shuttle is\u00a0in operation.</a></li> <li><b>Distance:</b> 1.8\u00a0miles (2.9\u00a0km) roundtrip</li> <li><b>Approximate Time:</b> 1-2 hours</li> <li><b>Elevation Gain:</b>\u00a0450 feet (137\u00a0meters)</li> <li><b>Difficulty:</b>\u00a0Moderate (less than 1000 feet elevation gain, moderate length)</li> <li><b>Services:\u00a0</b>Accessible restrooms and a water-fill station are\u00a0available at the General Store near Sunrise Point (seasonally).</li> <li><b>Shuttle Service:</b>\u00a0<a href=\"https://www.nps.gov/brca/planyourvisit/shuttle.htm\">Yes.</a></li> <li><strong>Pets are not allowed on this trail.</strong> Service animals are allowed in national parks. <a href=\"https://www.nps.gov/planyourvisit/service-animals.htm\">What is a service animal?</a></li> </ul> <br /> This trail is <a href=\"https://www.nps.gov/thingstodo/queen-s-navajo-combination-loop.htm\">commonly combined with the Navajo Loop</a> to create a 2.9 mile round trip trail where you can descend Queen's Garden at Sunrise Point and ascend Navajo Loop to Sunset Point. Complete the loop using the Sunset to Sunrise section of the Rim Trail.",
+    "location": {
+      "lat": 37.6284356447,
+      "lon": -112.162981721
+    },
+    "duration": "1-2 Hours",
+    "season": [],
+    "activities": [
+      {
+        "id": "45261C0A-00D8-4C27-A1F8-029F933A0D34",
+        "name": "Front-Country Hiking"
+      }
+    ],
+    "arePetsPermitted": false,
+    "images": [
+      {
+        "url": "https://www.nps.gov/common/uploads/cropped_image/07B5F9CF-0A1A-7244-B481C71247ED0E95.jpg",
+        "title": "Queen's Garden from the Rim",
+        "altText": "An overhead shot of a landscape with irregular red rock formations",
+        "caption": "The view of the Queen's Garden Trail from the Rim.",
+        "credit": "NPS Photo"
+      }
+    ],
+    "isReservationRequired": false,
+    "doFeesApply": false,
+    "tags": [
+      "Bryce Canyon National Park",
+      "hike",
+      "hiking",
+      "geology",
+      "moderate hike",
+      "queen's garden trail",
+      "viewpoint",
+      "amphitheater"
+    ]
+  },
+  {
+    "id": "A5182852-E474-4C11-97E6-6697978EFD71",
+    "title": "Bryce Canyon Evening Program",
+    "shortDescription": "Evening programs,\u00a0typically offered from Memorial Day through Labor Day, offer topics that go beyond the rim! Check the\u00a0calendar\u00a0for daily times and locations. This is a Ranger\u2019s Choice program offering\u00a0an exploration into compelling stories, interesting themes, and unique resources that make Bryce Canyon special.\u00a0",
+    "longDescription": "<strong>Be sure to always check the\u00a0<a href=\"https://www.nps.gov/brca/planyourvisit/calendar.htm\">Calendar\u00a0</a>or stop by the\u00a0<a href=\"https://www.nps.gov/places/000/visitor-center.htm\">Visitor Center</a>\u00a0to find the programs that will be available during your visit.</strong><br /> <br /> Evening programs,\u00a0typically offered from Memorial Day through Labor Day, offer topics that go beyond the rim! Check the\u00a0<strong><a href=\"https://www.nps.gov/brca/planyourvisit/calendar.htm\">calendar</a>\u00a0</strong>for daily times and locations.<br /> <br /> This is a Ranger\u2019s Choice program offering\u00a0an exploration into compelling stories, interesting themes, and unique resources that make Bryce Canyon special.\u00a0<br /> <br /> <strong>A schedule of daily topics is available in the Visitor Center.</strong>",
+    "location": {
+      "lat": 37.6270244549,
+      "lon": -112.167998795
+    },
+    "duration": "45-60 Minutes",
+    "season": [
+      "Summer"
+    ],
+    "activities": [
+      {
+        "id": "B33DC9B6-0B7D-4322-BAD7-A13A34C584A3",
+        "name": "Guided Tours"
+      }
+    ],
+    "arePetsPermitted": false,
+    "images": [
+      {
+        "url": "https://www.nps.gov/common/uploads/cropped_image/E5CCA03D-FDA1-4954-49ADDCEFFEA89CDC.jpg",
+        "title": "Bryce Canyon Evening Program",
+        "altText": "A ranger stands in front of a screen before a seated audience.",
+        "caption": "Bryce Canyon Evening Programs now take place in the Lodge Auditorium.",
+        "credit": "NPS Photo"
+      }
+    ],
+    "isReservationRequired": false,
+    "doFeesApply": false,
+    "tags": [
+      "evening program",
+      "geology",
+      "astronomy",
+      "night sky",
+      "history",
+      "wildland fire",
+      "fire",
+      "navigation"
+    ]
+  },
+  {
+    "id": "CD5C8E15-7422-4E97-A767-3C36733E1B23",
+    "title": "Riggs Spring Loop",
+    "shortDescription": "The Riggs Spring Loop is a backcountry trail that begins and ends at Yovimpa Point. This trail travels through spruce, fir, and bristlecone forests offering beautiful views of distant cliffs. The western section of the trail is steeper and more heavily forested. Permits are not required to hike this trail, but all overnight stays require a permit.",
+    "longDescription": "The Riggs Spring Loop is a backcountry trail that begins and ends at Yovimpa Point. This trail travels through spruce, fir, and bristlecone forests offering beautiful views of distant cliffs. The western section of the trail is steeper and more heavily forested. Permits are not required to hike this trail, but all overnight stays <a href=\"https://www.recreation.gov/permits/4675330\">require a permit</a>.<br /> \u00a0 <ul> <li><b>Trailhead: </b>Yovimpa Point</li> <li><b>Parking:</b> At trailhead; oversized vehicles permitted</li> <li><b>Distance:</b>\u00a08.6\u00a0miles (13.9\u00a0km)</li> <li><b>Approximate Time:</b>\u00a05\u00a0hours</li> <li><b>Elevation Gain:</b> 2200 feet (671 meters)</li> <li><b>Difficulty:</b>\u00a0Strenuous</li> <li><b>Services:\u00a0</b>Accessible restrooms available at Yovimpa Point (year-round). No water-fill stations.</li> <li><b>Shuttle Service:</b> None. <a href=\"https://www.nps.gov/brca/planyourvisit/commercial-tours-and-services.htm\">Private options may be available.</a></li> <li>This trail may be inaccessible during mid-winter due to snow depths ranging from 2-15 ft. (.7-5 m)</li> <li><b>Pets are not allowed on this trail.</b> Service animals are allowed in national parks. <a href=\"https://www.nps.gov/planyourvisit/service-animals.htm\">What is a service animal?</a></li> <li><strong>Backcountry camping is permitted only in designated backcountry campsites and all overnight backcountry stays require a permit.</strong></li> </ul> Typically this loop is hiked in a counter-clockwise direction with a single overnight. Some backcountry hikers will combine this loop with additional nights along the <a href=\"https://www.nps.gov/thingstodo/under-the-rim-trail.htm\">Under-the-Rim Trail</a>. For more information and reservation information visit our <a href=\"https://www.nps.gov/brca/planyourvisit/backcountryinfo.htm\">Backcountry Information page</a>.",
+    "location": {
+      "lat": 37.4732992003,
+      "lon": -112.24041238
+    },
+    "duration": "4-5 Hours",
+    "season": [],
+    "activities": [
+      {
+        "id": "7C37B79B-D02D-49EB-9020-3DB8299B748A",
+        "name": "Backcountry Hiking"
+      }
+    ],
+    "arePetsPermitted": false,
+    "images": [
+      {
+        "url": "https://www.nps.gov/common/uploads/cropped_image/585245AC-B087-35B4-38E1B31D0A79C2F4.jpg",
+        "title": "Riggs Spring Loop Trail",
+        "altText": "Forested hills with rock formations in the background",
+        "caption": "Views from the Riggs Spring Loop",
+        "credit": ""
+      }
+    ],
+    "isReservationRequired": true,
+    "doFeesApply": false,
+    "tags": [
+      "Bryce Canyon National Park",
+      "hike",
+      "hiking",
+      "strenuous hike",
+      "backcountry hike",
+      "Riggs Spring Loop Trail",
+      "Yovimpa Point"
+    ]
+  },
+  {
+    "id": "3AB2FBA2-BFF5-460F-BB76-46FEFDD69FCE",
+    "title": "Rim Walk with a Ranger",
+    "shortDescription": "Typically offered Memorial Day through Labor Day at Sunset Point at 2:00 p.m. Join a Ranger\u00a0and experience the\u00a0enchantment of the hoodoos,\u00a0the history of the people\u00a0who have passed through the amphitheaters for thousands of years, and the many ways the animals and plants have adapted to the unique ecosystems of Bryce Canyon National Park.",
+    "longDescription": "<p><strong>Be sure to always check the\u00a0<a href=\"https://www.nps.gov/brca/planyourvisit/calendar.htm\">Calendar\u00a0</a>or stop by the\u00a0<a href=\"https://www.nps.gov/places/000/visitor-center.htm\">Visitor Center</a>\u00a0to find the programs that will be available during your visit.</strong><br /> <br /> Typically offered Memorial Day through Labor Day at Sunset Point at 2:00 p.m.\u00a0<br /> <br /> Join a Ranger\u00a0and experience the\u00a0enchantment of the hoodoos,\u00a0the history of the people\u00a0who have passed through the amphitheaters for thousands of years, and the many ways the animals and plants have adapted to the unique ecosystems of Bryce Canyon National Park. The walk lasts one hour and covers about 1/2 mile on a paved path. A great way to spend an hour learning about the park while\u00a0enjoying Nature!</p> <ul> <li>Suitable for all ages</li> <li>Inclement weather cancels this event \u00a0</li> <li>Wheelchair accessible</li> </ul>",
+    "location": {
+      "lat": 37.6225682957,
+      "lon": -112.165987679
+    },
+    "duration": "45-60 Minutes",
+    "season": [
+      "Summer"
+    ],
+    "activities": [
+      {
+        "id": "B33DC9B6-0B7D-4322-BAD7-A13A34C584A3",
+        "name": "Guided Tours"
+      }
+    ],
+    "arePetsPermitted": false,
+    "images": [
+      {
+        "url": "https://www.nps.gov/common/uploads/cropped_image/B7C31EBA-CEF8-B7C5-20AFB8DFCC266F7B.jpg",
+        "title": "Rim Walk with a Ranger",
+        "altText": "A landscape of red rocks at sunrise.",
+        "caption": "Join a ranger for a half mile walk along the Rim Trail.",
+        "credit": "NPS Photo"
+      }
+    ],
+    "isReservationRequired": false,
+    "doFeesApply": false,
+    "tags": [
+      "Bryce Canyon",
+      "Hoodoo",
+      "geology",
+      "walk",
+      "talk"
+    ]
+  },
+  {
+    "id": "96AA9939-AC7B-4AAA-9B4D-107657189FB3",
+    "title": "Hoodoo Geology Talk",
+    "shortDescription": "Typically offered year-round at Sunset Point at 11 a.m. Geologists have spent years studying the unique geologic story of Bryce Canyon and its amphitheaters of hoodoos. Join the Ranger along\u00a0the rim at\u00a0Sunset Point to explore the evolution of the hoodoos and\u00a0the groups of people who have passed through this magical terrain.\u00a0",
+    "longDescription": "<p><strong>Be sure to always check the\u00a0<a href=\"https://www.nps.gov/brca/planyourvisit/calendar.htm\">Calendar\u00a0</a>or stop by the\u00a0<a href=\"https://www.nps.gov/places/000/visitor-center.htm\">Visitor Center</a>\u00a0to find the programs that will be available during your visit.</strong><br /> <br /> Typically offered year-round at Sunset Point at 11 a.m.\u00a0<br /> <br /> Have your Bryce moment! Most people experience the view from Sunset Point as a breath-taking event, and for good reason. The amphitheaters filled with mazes of magical hoodoos may prompt you to ask\u2026when\u2026where\u2026why\u2026how?<br /> <br /> We have some of the answers! Geologists have spent years studying the unique geologic story of Bryce Canyon and its amphitheaters of hoodoos. Join the Ranger along\u00a0the rim at\u00a0Sunset Point to explore the evolution of the hoodoos and\u00a0the groups of people who have passed through this magical terrain.\u00a0</p> <p>Handicap accessible.</p>",
+    "location": {
+      "lat": 37.6225682957,
+      "lon": -112.165987679
+    },
+    "duration": "20-30 Minutes",
+    "season": [],
+    "activities": [
+      {
+        "id": "B33DC9B6-0B7D-4322-BAD7-A13A34C584A3",
+        "name": "Guided Tours"
+      }
+    ],
+    "arePetsPermitted": true,
+    "images": [
+      {
+        "url": "https://www.nps.gov/common/uploads/cropped_image/B6DF22C8-EDF1-6712-2C0123D10CDFA1CC.jpg",
+        "title": "Hoodoo Geology Talk",
+        "altText": "A ranger in uniform stands in front of a crowd with a background of red rock formations",
+        "caption": "Ranger Anne gives a Hoodoo Geology Talk along the rim at Sunset Point.",
+        "credit": "NPS Photo"
+      }
+    ],
+    "isReservationRequired": false,
+    "doFeesApply": false,
+    "tags": [
+      "geology",
+      "Bryce Canyon",
+      "talks",
+      "Hoodoo"
+    ]
+  },
+  {
+    "id": "A2FDA633-CBF7-466B-BE9B-2A0BDFB95B4E",
+    "title": "Sunset Point to Sunrise Point Hike",
+    "shortDescription": "The Rim Trail hike meanders along the rim of the iconic Bryce Canyon Amphitheater, giving you views of the hoodoos below. This portion of the Rim Trail, from Sunset Point to Sunrise Point, is the only paved section of this trail and is the easiest walk in the park. Pets are allowed on this trail but must remain on paved surfaces.",
+    "longDescription": "The Rim Trail hike meanders along the rim of the iconic Bryce Canyon Amphitheater, giving you views of the hoodoos below. This portion of the Rim Trail, from Sunset Point to Sunrise Point, is the only paved section of this trail and is the easiest walk in the park.<br /> \u00a0 <ul> <li><b>Trailhead: </b><a href=\"https://www.nps.gov/places/000/sunset-point.htm\">Sunset\u00a0Point</a> or <a href=\"https://www.nps.gov/places/sunrise-point.htm\">Sunrise\u00a0Point</a></li> <li><b>Parking:</b>\u00a0Available at both Sunrise and Sunset Points (check when <a href=\"https://www.nps.gov/brca/planyourvisit/parking-information.htm\">parking lots are busiest</a>).\u00a0Oversized vehicles are not\u00a0permitted in these parking areas <a href=\"https://www.nps.gov/brca/planyourvisit/shuttle.htm\">when the shuttle is\u00a0in operation.</a>\u00a0</li> <li><b>Distance:</b> 1.0 mile (1.6 km) (half-mile one-way)</li> <li><b>Approximate Time:</b> 1 hour</li> <li><b>Elevation Gain:</b>\u00a040 feet (12 meters)</li> <li><b>Difficulty:</b> Easy (elevation gain of 200 feet or less, shorter length)</li> <li><b>Shuttle Service:</b>\u00a0<a href=\"https://www.nps.gov/brca/planyourvisit/shuttle.htm\">Yes.</a></li> <li><strong>Services:</strong>\u00a0Accessible restrooms available at Sunset Point (year-round) and\u00a0at the General Store near Sunrise Point (seasonally). Water-fill stations available at Sunset Point (seasonally), the Sunset Point restroom (year-round), and the General Store (seasonally).</li> <li><a href=\"https://www.nps.gov/brca/planyourvisit/pets.htm\">Pets</a><strong> are allowed on paved surfaces</strong>.\u00a0</li> </ul>",
+    "location": {
+      "lat": 37.6225682957,
+      "lon": -112.165987679
+    },
+    "duration": "20-60 Minutes",
+    "season": [],
+    "activities": [
+      {
+        "id": "45261C0A-00D8-4C27-A1F8-029F933A0D34",
+        "name": "Front-Country Hiking"
+      }
+    ],
+    "arePetsPermitted": true,
+    "images": [
+      {
+        "url": "https://www.nps.gov/common/uploads/cropped_image/FE35EFCF-D514-DD31-AD8FC8948876FDDD.jpeg",
+        "title": "Sunset Point at Sunrise",
+        "altText": "Looking down from above over a scenery of irregular red rocks with the sun rising behind them",
+        "caption": "A view from Sunset Point at sunrise",
+        "credit": ""
+      }
+    ],
+    "isReservationRequired": false,
+    "doFeesApply": false,
+    "tags": [
+      "Bryce Canyon National Park",
+      "geology",
+      "hike",
+      "hiking",
+      "Easy hike",
+      "sunset to sunrise",
+      "rim trail"
+    ]
+  },
+  {
+    "id": "5750B703-905E-4355-B34E-A4DADD3ECD7B",
+    "title": "Go Cross-Country Skiing",
+    "shortDescription": "A great way to explore Bryce Canyon in winter is on cross-country skis.\u00a0Though it is illegal to ski off of the rim into the canyon, you can enjoy a variety of routes above the rim. These include sections of the Rim Trail along the edge of the Main Amphitheater, the Bristlecone Loop Trail; Paria Ski Loop; and the unplowed Paria View and Fairyland Point roads.",
+    "longDescription": "<p>A great way to explore Bryce Canyon in winter is on cross-country skis.\u00a0<strong>Though it is illegal to ski off of the rim into the canyon</strong>, you can enjoy a variety of routes above the rim. These include sections of the Rim Trail along the edge of the Main Amphitheater, the Bristlecone Loop Trail; Paria Ski Loop; and the unplowed Paria View and Fairyland Point roads.<br /> <br /> Cross-country skiing opportunities are abundant just outside the park, too! Bryce Canyon City also maintains\u00a0<a href=\"https://www.nps.gov/brca/planyourvisit/upload/Nordic-Center-CrossCountry-Ski-Map.jpg\">many miles of groomed ski trails</a>.<br /> <br /> <a href=\"https://utahnordic.org/category/rubys-inn/\">Grooming reports may be available online.</a></p> <h4>Snowshoe and Cross-country Ski Rentals</h4> <p>The closest option for renting snowshoes and crosscountry skis is\u00a0<a href=\"https://www.facebook.com/RubysInnWinterAdventure\">Ruby's Inn Winter Adventure Center</a>\u00a0in Bryce Canyon City.</p>",
+    "location": {
+      "lat": 37.6492152994,
+      "lon": -112.147297589
+    },
+    "duration": "",
+    "season": [
+      "Winter"
+    ],
+    "activities": [
+      {
+        "id": "EAB1EBDE-5B72-493F-8F8F-0EE5B1724436",
+        "name": "Cross-Country Skiing"
+      }
+    ],
+    "arePetsPermitted": false,
+    "images": [
+      {
+        "url": "https://www.nps.gov/common/uploads/cropped_image/6E276600-E531-FA6A-5CA78B16D138E5EC.jpg",
+        "title": "Cross-country skiing",
+        "altText": "Two skiers ski amongst the trees.",
+        "caption": "You can enjoy a variety of cross-country skiing routes above the rim.",
+        "credit": "Photo courtesy of Jay Dash Photography"
+      }
+    ],
+    "isReservationRequired": false,
+    "doFeesApply": false,
+    "tags": [
+      "Bryce Canyon National Park",
+      "cross-country skiing"
+    ]
+  },
+  {
+    "id": "6E21CE5C-45E4-4B66-9445-8764E89BCEC5",
+    "title": "Fairyland Loop",
+    "shortDescription": "The Fairyland Loop is a quiet 8 mile hike that combines hiking along the plateau rim near Boat Mesa with a hike in the canyon with long views of the Bryce Amphitheater surrounded by unique hoodoos. You can start this hike at Fairyland Point or on the rim trail north of Sunrise Point at the Tower Bridge trailhead. We recommend hiking in a counter-clockwise direction. There is no shuttle pick-up at Fairyland Point, so you will need to hike to your starting point.",
+    "longDescription": "The Fairyland Loop is a quiet 8 mile hike that combines hiking along the plateau rim near Boat Mesa with a hike in the canyon with long views of the Bryce Amphitheater surrounded by unique hoodoos. You can start this hike at Fairyland Point or on the rim trail north of Sunrise Point at the Tower Bridge trailhead. We recommend hiking in a counter-clockwise direction. There is no shuttle pick-up at Fairyland Point, so you will need to hike to your starting point to complete the loop.<br /> \u00a0 <ul> <li><b>Trailhead: </b><a href=\"https://www.nps.gov/places/000/fairyland-point.htm\">Fairyland Point</a> or north of Sunrise Point at the <a href=\"https://www.nps.gov/places/000/tower-bridge-and-fairyland-loop-trailheads.htm\">Tower Bridge trailhead</a>.</li> <li><b>Parking:</b> At Fairyland Point\u00a0(oversized vehicles permitted) or at Sunrise Point (oversized vehicles are not\u00a0permitted in this\u00a0parking area\u00a0<a href=\"https://www.nps.gov/brca/planyourvisit/shuttle.htm\">when the shuttle is\u00a0in operation.</a>) Check when <a href=\"https://www.nps.gov/brca/planyourvisit/parking-information.htm\">parking lots are busiest</a>.</li> <li><b>Distance:</b>\u00a08.0 mile (12.9\u00a0km)</li> <li><b>Approximate Time:</b>\u00a04-5\u00a0hours</li> <li><b>Elevation Gain:</b>\u00a01900 feet (579\u00a0meters)</li> <li><b>Difficulty:</b>\u00a0Strenuous (rapid elevation gain, longer length)</li> <li><b>Services:\u00a0</b>Accessible restrooms available\u00a0at the General Store near Sunrise Point (seasonally). Water-fill stations available at\u00a0the General Store (seasonally). No services at Fairyland Point.</li> <li><b>Shuttle Service:</b>\u00a0Yes at Sunrise Point, None at Fairyland Point. <a href=\"https://www.nps.gov/brca/planyourvisit/commercial-tours-and-services.htm\">Private options may be available.</a></li> <li><strong>Pets are not allowed on this trail. </strong>Service animals are allowed in national parks. <a href=\"https://www.nps.gov/planyourvisit/service-animals.htm\">What is a service animal?</a></li> <li>This trail may be inaccessible during mid-winter due to snow depths ranging from 2-15 ft. (.7-5 m)</li> </ul>",
+    "location": {
+      "lat": 37.6492930445,
+      "lon": -112.147096246
+    },
+    "duration": "4-5 Hours",
+    "season": [],
+    "activities": [
+      {
+        "id": "45261C0A-00D8-4C27-A1F8-029F933A0D34",
+        "name": "Front-Country Hiking"
+      }
+    ],
+    "arePetsPermitted": false,
+    "images": [
+      {
+        "url": "https://www.nps.gov/common/uploads/cropped_image/2E1F3A75-972F-AB20-3D120DAE488EDFE7.jpeg",
+        "title": "Fairyland Loop",
+        "altText": "An overhead photo of red rock formations that appear to be glowing in the sun",
+        "caption": "Unique hoodoo formations and long views can be seen along the Fairyland Loop.",
+        "credit": ""
+      }
+    ],
+    "isReservationRequired": false,
+    "doFeesApply": false,
+    "tags": [
+      "Bryce Canyon National Park",
+      "hike",
+      "hiking",
+      "strenuous hike",
+      "viewpoint",
+      "Fairyland Loop Trail",
+      "wilderness",
+      "rim trail"
+    ]
+  },
+  {
+    "id": "DA6979AD-1415-4E35-B3AF-7E658A072C66",
+    "title": "Bryce Amphitheater Traverse",
+    "shortDescription": "The Bryce Amphitheater Traverse is a one-way hike combining the Peekaboo Loop with the Queen's Garden trail. Hikers descend from Bryce Point, turning left (clockwise) on Peekaboo Loop and then connecting to the Queen's Garden trail to ascend to Sunrise Point.",
+    "longDescription": "The Bryce Amphitheater Traverse is a one-way hike combining the <a href=\"https://www.nps.gov/thingstodo/peekaboo-loop.htm\">Peekaboo Loop</a> with the <a href=\"https://www.nps.gov/thingstodo/queen-s-garden-trail.htm\">Queen's Garden</a> trail. Hikers descend from Bryce Point, turning left (clockwise) on Peekaboo Loop and then connecting to the Queen's Garden trail to ascend to Sunrise Point.<br /> \u00a0 <ul> <li><b>Trailhead: </b><a href=\"https://www.nps.gov/places/000/bryce-point.htm\">Bryce Point</a></li> <li><b>Parking:</b> At trailhead (check when <a href=\"https://www.nps.gov/brca/planyourvisit/parking-information.htm\">parking lots are busiest</a>). Oversized vehicles are not\u00a0permitted in this\u00a0parking area\u00a0<a href=\"https://www.nps.gov/brca/planyourvisit/shuttle.htm\">when the shuttle is\u00a0in operation.</a></li> <li><b>Distance:</b>\u00a04.7\u00a0miles (7.6 km)</li> <li><b>Approximate Time:</b>\u00a03-4\u00a0hours</li> <li><b>Elevation Gain:</b>\u00a01145\u00a0feet (349\u00a0meters)</li> <li><b>Difficulty:</b> Strenuous (rapid elevation gain, longer length)</li> <li><b>Services:\u00a0</b>Pit toilets on the west side of Peekaboo Loop (summer only)</li> <li><b>Shuttle Service:</b>\u00a0<a href=\"https://www.nps.gov/brca/planyourvisit/shuttle.htm\">Yes.</a></li> <li>This trail may be inaccessible during mid-winter due to snow depths ranging from 2-15 ft. (.7-5 m)</li> <li><b>Pets are not allowed on this trail.</b> Service animals are allowed in national parks. <a href=\"https://www.nps.gov/planyourvisit/service-animals.htm\">What is a service animal?</a></li> <li><strong>Hikers will encounter horses and mules on the Peekaboo Loop\u00a0and should give the right-of-way to these riders.</strong></li> </ul>",
+    "location": {
+      "lat": 37.6056607862,
+      "lon": -112.157509704
+    },
+    "duration": "3-4 Hours",
+    "season": [],
+    "activities": [
+      {
+        "id": "45261C0A-00D8-4C27-A1F8-029F933A0D34",
+        "name": "Front-Country Hiking"
+      }
+    ],
+    "arePetsPermitted": false,
+    "images": [
+      {
+        "url": "https://www.nps.gov/common/uploads/cropped_image/04E33057-B451-5532-FCC967FB219CE897.jpg",
+        "title": "Hikers on Queen's Garden",
+        "altText": "Two hikers descend down a trail from right to left with red rock formations in the background",
+        "caption": "Hikers enjoying the views along the Queen's Garden trail.",
+        "credit": ""
+      }
+    ],
+    "isReservationRequired": false,
+    "doFeesApply": false,
+    "tags": [
+      "Bryce Canyon National Park",
+      "geology",
+      "hiking",
+      "hike",
+      "strenuous hike",
+      "Peekaboo Loop Trail",
+      "Queens Garden Trail",
+      "Bryce Amphitheater Traverse",
+      "viewpoint"
+    ]
+  },
+  {
+    "id": "E1001E7A-F398-43AC-96FE-EC295C89081E",
+    "title": "The Rim Trail",
+    "shortDescription": "The Rim Trail stretches from its beginning in the south at Bryce Point 5.5 miles (8.9 km) north to Fairyland Point. As it follows the edge of the Bryce Amphitheater area of the park,\u00a0it connects to the park's most popular viewpoints: Inspiration Point, Sunset Point, and Sunrise Point. This relatively easy hike (depending on how much of it you do) offers spectacular views of the park's most popular area.",
+    "longDescription": "The Rim Trail stretches from its beginning in the south at Bryce Point 5.5 miles (8.9 km) north to Fairyland Point. As it follows the edge of the Bryce Amphitheater area of the park,\u00a0it connects to Inspiration Point, Sunset Point, and Sunrise Point providing a relatively easy hike (depending on how much of it you do) that offers spectacular views of the park's most popular area.<br /> \u00a0 <ul> <li><b>Trailhead: </b><a href=\"https://www.nps.gov/places/000/bryce-point.htm\">Bryce</a>,\u00a0<a href=\"https://www.nps.gov/places/000/inspiration-point-viewpoint.htm\">Inspiration</a>, <a href=\"https://www.nps.gov/places/000/sunset-point.htm\">Sunset</a>, <a href=\"https://www.nps.gov/places/sunrise-point.htm\">Sunrise</a>, or <a href=\"https://www.nps.gov/places/000/fairyland-point.htm\">Fairyland Point</a>.</li> <li><b>Parking:</b> Available at each trailhead above (check when <a href=\"https://www.nps.gov/brca/planyourvisit/parking-information.htm\">parking lots are busiest</a>).\u00a0With the exception of Fairyland Point, oversized vehicles are not\u00a0permitted in these parking areas <a href=\"https://www.nps.gov/brca/planyourvisit/shuttle.htm\">when the shuttle is\u00a0in operation.</a></li> <li><b>Distance:</b> 1.0 mile to 11.0 miles (1.6 km to 17.7 km) depending on how far you choose to walk.\u00a0 <ul> <li>Bryce to Inspiration: 1.5 miles (2.4 km)</li> <li>Inspiration to Sunset: 0.7\u00a0miles (1.1\u00a0km)</li> <li>Sunset to Sunrise: 0.5 miles\u00a0(0.8 km)</li> <li>Sunrise to Fairyland 2.8 miles (4.5 km)</li> </ul> </li> <li><b>Approximate Time:</b> 1 hour to 7.5 hours</li> <li><b>Elevation Gain:</b>\u00a0719\u00a0feet (219 meters)</li> <li><b>Difficulty:</b> Easy to Moderate</li> <li><b>Services:\u00a0</b>Accessible restrooms\u00a0available at Sunset Point (year-round) and available at the General Store near Sunrise Point (seasonally). Water-fill stations available at Sunset Point (seasonally), the Sunset Point restroom (year-round), and the General Store (seasonally).</li> <li><b>Shuttle Service:</b>\u00a0<a href=\"https://www.nps.gov/brca/planyourvisit/shuttle.htm\">Yes.</a> Available at Bryce, Inspiration, Sunset, and Sunrise Points. Fairyland does not have shuttle service.</li> <li>In winter, the 1.5 mile (2.4 km) section of the Rim Trail from Bryce Point to Inspiration Point is\u00a0regularly closed.</li> <li><a href=\"https://www.nps.gov/brca/planyourvisit/pets.htm\">Pets</a><strong> are only allowed on the paved section of the Rim Trail between Sunrise and Sunset Points</strong>. Service animals are allowed in national parks. <a href=\"https://www.nps.gov/planyourvisit/service-animals.htm\">What is a service animal?</a></li> </ul> The easiest hike in the park is the section of the Rim Trail that <a href=\"https://www.nps.gov/thingstodo/sunset-point-to-sunrise-point-hike.htm\">connects Sunset and Sunrise Points</a>. It is 0.5 miles (0.8 km) long and walkers can begin from either Sunrise or Sunset Point. Elevation gain is 34 feet (10 meters). We recommend hiking from one point and back for a very easy 1 mile (1.6 km) walk. This section of trail is accessible and <a href=\"https://www.nps.gov/brca/planyourvisit/pets.htm\">pet friendly on paved surfaces</a>. <ul> </ul>",
+    "location": {
+      "lat": 37.6056607862,
+      "lon": -112.157509704
+    },
+    "duration": "1-7 Hours",
+    "season": [],
+    "activities": [
+      {
+        "id": "45261C0A-00D8-4C27-A1F8-029F933A0D34",
+        "name": "Front-Country Hiking"
+      }
+    ],
+    "arePetsPermitted": true,
+    "images": [
+      {
+        "url": "https://www.nps.gov/common/uploads/cropped_image/7E526C54-E05E-B9EF-9E62A9BCBEE1FAF8.jpg",
+        "title": "HIkers along the Rim Trail",
+        "altText": "Two hikers pause along a path to view a red rock landscape of badlands and spires at a cliff's edge",
+        "caption": "The Rim Trail provides views along the edge of the Bryce Amphitheater and connects viewpoints.",
+        "credit": "NPS Photo / Peter Densmore"
+      }
+    ],
+    "isReservationRequired": false,
+    "doFeesApply": false,
+    "tags": [
+      "Bryce Canyon National Park",
+      "hike",
+      "hiking",
+      "geology",
+      "viewpoint",
+      "easy moderate hike",
+      "the rim trail",
+      "Easy hike",
+      "amphitheater"
+    ]
+  },
+  {
+    "id": "C3291011-BCF6-4D22-BA1F-B7E46A607019",
+    "title": "Tower Bridge",
+    "shortDescription": "The Tower Bridge hike consists of the southern portion of the Fairyland Loop trail. This is an out-and-back trail that descends to a shady 1/4-mile spur trail leading to the Tower Bridge hoodoo. From there, hikers can return the way they came or continue to hike the entirety of the Fairyland Loop Trail.",
+    "longDescription": "The Tower Bridge hike consists of the southern portion of the Fairyland Loop trail. This is an out-and-back trail that descends to a shady 1/4-mile spur trail leading to the Tower Bridge hoodoo. From there, hikers can return the way they came or continue to hike the entirety of the Fairyland Loop Trail.<br /> \u00a0 <ul> <li><b>Trailhead: </b><a href=\"https://www.nps.gov/places/000/tower-bridge-and-fairyland-loop-trailheads.htm\">North of Sunrise Point</a></li> <li><b>Parking:</b> Available at Sunrise Point (check when <a href=\"https://www.nps.gov/brca/planyourvisit/parking-information.htm\">parking lots are busiest</a>).\u00a0Oversized vehicles are not\u00a0permitted in this\u00a0parking area\u00a0<a href=\"https://www.nps.gov/brca/planyourvisit/shuttle.htm\">when the shuttle is\u00a0in operation.</a></li> <li><b>Distance:</b>\u00a03.0 miles (4.8\u00a0km) roundtrip</li> <li><b>Approximate Time:</b>\u00a02-3\u00a0hours</li> <li><b>Elevation Gain:</b>\u00a0760\u00a0feet (232\u00a0meters)</li> <li><b>Difficulty:</b> Moderate (less than 1000 feet elevation gain, moderate length)</li> <li><b>Services:</b>\u00a0Accessible restrooms and water-fill station\u00a0available at the General Store near Sunrise Point (seasonally).\u00a0</li> <li><b>Shuttle Service:</b>\u00a0<a href=\"https://www.nps.gov/brca/planyourvisit/shuttle.htm\">Yes.</a></li> <li><strong>Pets are not allowed on this trail.</strong> Service animals are allowed in national parks. <a href=\"https://www.nps.gov/planyourvisit/service-animals.htm\">What is a service animal?</a></li> </ul>",
+    "location": {
+      "lat": 37.6319178349,
+      "lon": -112.162684082
+    },
+    "duration": "2-3 Hours",
+    "season": [],
+    "activities": [
+      {
+        "id": "45261C0A-00D8-4C27-A1F8-029F933A0D34",
+        "name": "Front-Country Hiking"
+      }
+    ],
+    "arePetsPermitted": false,
+    "images": [
+      {
+        "url": "https://www.nps.gov/common/uploads/cropped_image/98887CEC-CABD-07F7-20C3F14A85118405.jpg",
+        "title": "Tower Bridge in snow",
+        "altText": "A pale red rock formation covered in snow surrounded by green trees",
+        "caption": "The Tower Bridge hoodoo is at the end of a 1/4-mile spur trail.",
+        "credit": "NPS Photo"
+      }
+    ],
+    "isReservationRequired": false,
+    "doFeesApply": false,
+    "tags": [
+      "Bryce Canyon National Park",
+      "geology",
+      "hike",
+      "hiking",
+      "moderate hike",
+      "Fairyland Loop Trail",
+      "tower bridge",
+      "viewpoint"
+    ]
+  },
+  {
+    "id": "F7BA242B-42FE-46CB-861A-AA29F795285A",
+    "title": "Peekaboo Loop",
+    "shortDescription": "The Peekaboo Loop descends 670 feet (204 meters) from Bryce Point to this hoodoo-filled loop trail before ascending back up to Bryce Point. In summer months, hikers will encounter horses/mules on this trail. We recommend hiking this trail in a clockwise direction.",
+    "longDescription": "The Peekaboo Loop descends 670 feet (204 meters) from Bryce Point to this hoodoo-filled loop trail before ascending back up to Bryce Point. In summer months, hikers will encounter horses/mules on this trail. We recommend hiking this trail in a clockwise direction.<br /> \u00a0 <ul> <li><b>Trailhead:\u00a0</b><a href=\"https://www.nps.gov/places/000/bryce-point.htm\">Bryce\u00a0Point</a></li> <li><b>Parking:</b> At trailhead (check when <a href=\"https://www.nps.gov/brca/planyourvisit/parking-information.htm\">parking lots are busiest</a>). Oversized vehicles are not\u00a0permitted in this\u00a0parking area\u00a0<a href=\"https://www.nps.gov/brca/planyourvisit/shuttle.htm\">when the shuttle is\u00a0in operation.</a></li> <li><b>Distance:</b>\u00a05.5\u00a0miles\u00a0(8.9\u00a0km)</li> <li><b>Approximate Time:</b>\u00a03-4\u00a0hours</li> <li><b>Elevation Gain:</b>\u00a01560 feet (474\u00a0meters)</li> <li><b>Difficulty:</b> Strenuous (rapid elevation gain, longer length)</li> <li><b>Services: </b>Pit toilets on the west side of Peekaboo Loop (summer only)</li> <li><b>Shuttle Service:</b>\u00a0<a href=\"https://www.nps.gov/brca/planyourvisit/shuttle.htm\">Yes.</a></li> <li>This trail may be inaccessible during mid-winter due to snow depths ranging from 2-15 ft. (.7-5 m)</li> <li><strong>Pets are not allowed on this trail.</strong> Service animals are allowed in national parks. <a href=\"https://www.nps.gov/planyourvisit/service-animals.htm\">What is a service animal?</a></li> <li><strong>Hikers may\u00a0encounter horses and mules on this trail and should give the right-of-way to these riders.</strong></li> </ul>",
+    "location": {
+      "lat": 37.6043349413,
+      "lon": -112.156889973
+    },
+    "duration": "3-4 Hours",
+    "season": [],
+    "activities": [
+      {
+        "id": "45261C0A-00D8-4C27-A1F8-029F933A0D34",
+        "name": "Front-Country Hiking"
+      }
+    ],
+    "arePetsPermitted": false,
+    "images": [
+      {
+        "url": "https://www.nps.gov/common/uploads/cropped_image/FDA77712-D219-F7B1-9E9568209D6E2BA2.jpeg",
+        "title": "Peekaboo Loop",
+        "altText": "An overhead view of red rock formations with a blue sky in the background",
+        "caption": "Views from the Peekaboo Loop trail",
+        "credit": ""
+      }
+    ],
+    "isReservationRequired": false,
+    "doFeesApply": false,
+    "tags": [
+      "Bryce Canyon National Park",
+      "geology",
+      "hike",
+      "hiking",
+      "strenuous hike",
+      "viewpoint",
+      "Peekaboo Loop Trail"
+    ]
+  },
+  {
+    "id": "C8E47D3E-0F92-473F-8720-4AE2733CD3D7",
+    "title": "Hat Shop",
+    "shortDescription": "The Hat Shop trail descends from Bryce Point into the backcountry using the Under-the-Rim trail, offering views of the colorful cliffs of the Grand Staircase. This strenuous out-and-back hike leads down 1,380 feet (421 meters) over two-miles to a cluster of balanced-rock hoodoos before hikers turn around to return to Bryce Point.\u00a0These narrow, orange pinnacles wear \"hats\" of large gray boulders, giving them a distinct appearance.",
+    "longDescription": "The Hat Shop trail descends from Bryce Point into the backcountry using the Under-the-Rim trail, offering views of the colorful cliffs of the Grand Staircase. This strenuous out-and-back hike leads down 1,380 feet (421 meters) over two-miles to a cluster of balanced-rock hoodoos before hikers turn around to return to Bryce Point.\u00a0These narrow, orange pinnacles wear \"hats\" of large gray boulders, giving them a distinct appearance compared to hoodoos seen in the Bryce Amphitheater to the north.\u00a0<br /> \u00a0 <ul> <li><b>Trailhead: </b><a href=\"https://www.nps.gov/places/000/bryce-point.htm\">Bryce Point</a></li> <li><b>Parking:</b> At Bryce Point; oversized vehicles are not\u00a0permitted in this\u00a0parking area\u00a0<a href=\"https://www.nps.gov/brca/planyourvisit/shuttle.htm\">when the shuttle is\u00a0in operation.</a></li> <li><b>Distance:</b>\u00a04.0 miles (6.4\u00a0km)</li> <li><b>Approximate Time:</b>\u00a03-4\u00a0hours</li> <li><b>Elevation Gain:</b>\u00a01,380 feet (421 meters)</li> <li><b>Difficulty:</b>\u00a0Strenuous (rapid elevation gain, longer length)</li> <li><b>Services:\u00a0</b>None.</li> <li><b>Shuttle Service:</b>\u00a0<a href=\"https://www.nps.gov/brca/planyourvisit/shuttle.htm\">Yes.\u00a0</a></li> <li>During winter, the Hat Shop trail is not advised unless you are very well prepared for ice, deep snow, and other winter conditions.</li> <li><strong>Pets are not allowed on this trail.</strong> Service animals are allowed in national parks. <a href=\"https://www.nps.gov/planyourvisit/service-animals.htm\">What is a service animal?</a></li> </ul>",
+    "location": {
+      "lat": 37.6043349413,
+      "lon": -112.156889973
+    },
+    "duration": "3-4 Hours",
+    "season": [],
+    "activities": [
+      {
+        "id": "7C37B79B-D02D-49EB-9020-3DB8299B748A",
+        "name": "Backcountry Hiking"
+      }
+    ],
+    "arePetsPermitted": false,
+    "images": [
+      {
+        "url": "https://www.nps.gov/common/uploads/cropped_image/092C5324-C49A-E4AB-170044A6F944FC01.jpg",
+        "title": "Hat Shop Overlook",
+        "altText": "A landscape of red rocks in the foreground with hazy mountains on the horizon",
+        "caption": "Views along the Hat Shop trail.",
+        "credit": ""
+      }
+    ],
+    "isReservationRequired": false,
+    "doFeesApply": false,
+    "tags": [
+      "Bryce Canyon National Park",
+      "geology",
+      "hike",
+      "hiking",
+      "Hat Shop Trail",
+      "strenuous hike",
+      "backcountry",
+      "Under the Rim Trail",
+      "wilderness",
+      "viewpoint"
+    ]
+  },
+  {
+    "id": "F99EBF33-BCEF-424A-A010-1A3A9FD24658",
+    "title": "Stargazing at Bryce Canyon",
+    "shortDescription": "Bryce Canyon's high elevation, clean air, and remote location creates some of the darkest skies in the country. In fact, in 2019 Bryce Canyon officially gained International Dark Sky status. During a new Moon on a clear weather night, you can see thousands of stars and the spectacular band of the Milky Way Galaxy shooting across the sky. We take pride in our ability to protect the night skies for the present and future generations.",
+    "longDescription": "<strong>Be sure to always check the\u00a0<a href=\"https://www.nps.gov/brca/planyourvisit/calendar.htm\">Calendar\u00a0</a>or stop by the\u00a0<a href=\"https://www.nps.gov/places/000/visitor-center.htm\">Visitor Center</a>\u00a0to find the programs that will be available during your visit.</strong><br /> <br /> Bryce Canyon's high elevation, clean air, and remote location creates some of the darkest skies in the country. In 2019 Bryce Canyon officially gained International Dark Sky status. During a new Moon on a clear weather night, you can see thousands of stars and the spectacular band of the Milky Way Galaxy shooting across the sky. We take pride in our ability to protect the night skies for present and future generations.<br /> <br /> Ranger-led <a href=\"https://www.nps.gov/thingstodo/night-sky-telescope-program.htm\">telescope programs</a> may be available during your visit depending on the time of year and day of the week, but you can enjoy the dark sky on your own at any time! Learn more about what to look for on our <a href=\"https://www.nps.gov/brca/learn/nature/night-skies.htm\">Night Skies</a> page.",
+    "location": {
+      "lat": 37.5951639721,
+      "lon": -112.171192249
+    },
+    "duration": "",
+    "season": [
+      "Winter",
+      "Spring",
+      "Summer",
+      "Fall"
+    ],
+    "activities": [
+      {
+        "id": "D37A0003-8317-4F04-8FB0-4CF0A272E195",
+        "name": "Stargazing"
+      }
+    ],
+    "arePetsPermitted": true,
+    "images": [
+      {
+        "url": "https://www.nps.gov/common/uploads/cropped_image/B80F0795-A5AB-8CE3-5EE347AAC7AB58AE.jpg",
+        "title": "Stargazing at Bryce Canyon",
+        "altText": "The black silhouette of a person standing at a viewpoint with the milky way in the backgroundn",
+        "caption": "Bryce Canyon is an International Dark Sky Park with some of the darkest skies in the U.S.",
+        "credit": "NPS Photo"
+      }
+    ],
+    "isReservationRequired": false,
+    "doFeesApply": false,
+    "tags": [
+      "Bryce Canyon National Park",
+      "astronomy",
+      "night sky",
+      "stargazing"
+    ]
+  },
+  {
+    "id": "C6784E60-3812-4414-8995-9D69A23B6C5B",
+    "title": "Snowshoe Hikes",
+    "shortDescription": "Here at 8,000 feet (2,438 m) the scenery changes dramatically in the colder months. Come experience this magical season by taking a snowshoe-hike! Snowshoeing is allowed throughout the park on all trails so you can head out on your own or join a ranger-led snowshoe hike. These hikes are offered in winter as weather and snow conditions permit and are designed for all levels of experience, from beginner to expert.",
+    "longDescription": "<strong>Be sure to always check the\u00a0<a href=\"https://www.nps.gov/brca/planyourvisit/calendar.htm\">Calendar\u00a0</a>or stop by the\u00a0<a href=\"https://www.nps.gov/brca/planyourvisit/tourvisitor.htm\">Visitor Center</a>\u00a0to find the programs that will be available during your visit.</strong><br /> <br /> The stark white of freshly fallen snow, red rocks, blue sky, and evergreen trees--some say Bryce Canyon is even more beautiful in winter! Here at 8,000 feet (2,438 m) the scenery changes dramatically in the colder months.<br /> <br /> Come experience this magical season by taking a snowshoe-hike!\u00a0Snowshoeing is allowed throughout the park on all trails. But be aware that though snowshoes make it possible to travel through deep powdery snow, snowshoeing is still a highly strenuous activity.<br /> <br /> Most snowshoers enjoy walks along the Rim Trail, Bristlecone Loop, Fairyland Road, and Paria Road.\u00a0Don't have your own snowshoes? Rentals are available at the <a href=\"https://www.facebook.com/RubysInnWinterAdventure\">Ruby's Inn Winter Adventure Center.</a><br /> <br /> You can also join a\u00a0<a href=\"https://www.nps.gov/brca/planyourvisit/ranger-programs.htm\">Ranger Program</a>! Ranger-led snowshoe hikes are designed for all levels of experience, from beginner to expert. Snowshoes and poles are available for free for those who sign up for these programs, which are provided when snow depth and staffing permit.<br /> <br /> Winter clothing, water, and waterproof boots are required. Snowshoes and poles will be provided. Tennis shoes will not be permitted. <h4>Full Moon Snowshoe Hikes</h4> One of the rarest ranger programs is a full moon snowshoe hike. Both the full moon date and the weather have to cooperate to create the necessary conditions. Check out the\u00a0<a href=\"https://www.nps.gov/brca/planyourvisit/fullmoonhikes.htm\">full moon hike calendar</a>\u00a0to see if there's a chance of attending one of these special programs during your visit.",
+    "location": {
+      "lat": 37.5951639721,
+      "lon": -112.171192249
+    },
+    "duration": "90-120 Minutes",
+    "season": [
+      "Winter"
+    ],
+    "activities": [
+      {
+        "id": "01D717BC-18BB-4FE4-95BA-6B13AD702038",
+        "name": "Snowshoeing"
+      }
+    ],
+    "arePetsPermitted": false,
+    "images": [
+      {
+        "url": "https://www.nps.gov/common/uploads/cropped_image/A2B6D5C2-02CB-A490-0EBF589FCEB6FBF8.jpg",
+        "title": "Visitors Snowshoeing",
+        "altText": "A group of people snowshoeing amongst the trees.",
+        "caption": "Snowshoe Hikes",
+        "credit": "NPS"
+      }
+    ],
+    "isReservationRequired": true,
+    "doFeesApply": false,
+    "tags": [
+      "snowshoe hike",
+      "hiking",
+      "winter",
+      "snow",
+      "Bryce Canyon National Park"
+    ]
+  },
+  {
+    "id": "4210C343-16DF-4843-A6E9-4B628D623A1F",
+    "title": "Full Moon Hike",
+    "shortDescription": "Typically offered year-round at sunset as weather permits. Those planning to join a ranger-led full moon hike at Bryce Canyon National Park can make reservations online via Recreation.gov. Tickets for each month\u2019s hike are released in two phases, 14 and 5 days in advance.",
+    "longDescription": "<p><strong>Be sure to always check the\u00a0<a href=\"https://www.nps.gov/brca/planyourvisit/calendar.htm\">Calendar\u00a0</a>or stop by the\u00a0<a href=\"https://www.nps.gov/places/000/visitor-center.htm\">Visitor Center</a>\u00a0to find the programs that will be available during your visit.</strong><br /> <br /> Typically offered year-round at sunset as weather permits.\u00a0Those planning to join a ranger-led full moon hike at Bryce Canyon National Park can make reservations online via <a href=\"https://www.recreation.gov/ticket/facility/10112209?tab=info\">Recreation.gov</a>. Tickets for each month\u2019s hike are released in two phases, 14 and 5 days in advance.<br /> <br /> This is a \"ranger's choice\" hike and can range from an easy hike along the rim of the plateau to a more strenuous hike that descends down into the canyon along steep and rocky trails. More information will be given on the day of the event. Hikes are typically 1 to 2 miles.<br /> <br /> <strong>For more information on full moon hikes, including schedules and how to participate, please visit our <a href=\"https://www.nps.gov/brca/planyourvisit/fullmoonhikes.htm\">Full Moon Hikes</a> page.</strong></p> <h4>Due to the nature of this special activity all participants must agree to the following rules:</h4> <ul> <li>Children 7 and younger are not permitted.</li> <li>Hiking boots or hiking shoes (lug soles) in good condition are required for your safety and the safety of Park Staff and other Participant(s).</li> <li>White light flashlights, headlamps\u00a0are not\u00a0allowed to be used during the hike (you may bring them for later use). Red light flashlights and headlamps are permitted as necessary. Flash photography may be permitted under key restrictions.</li> <li>Bring drinking water and a jacket - night time temperatures can be cold.</li> <li>Due to steep and rocky trails this activity is not wheelchair accessible.<br /> \u00a0</li> </ul>",
+    "location": {
+      "lat": 37.6403873676,
+      "lon": -112.169642331
+    },
+    "duration": "60-120 Minutes",
+    "season": [
+      "Winter",
+      "Spring",
+      "Summer",
+      "Fall"
+    ],
+    "activities": [
+      {
+        "id": "45261C0A-00D8-4C27-A1F8-029F933A0D34",
+        "name": "Front-Country Hiking"
+      }
+    ],
+    "arePetsPermitted": false,
+    "images": [
+      {
+        "url": "https://www.nps.gov/common/uploads/cropped_image/EA3A4591-AA4A-2E8D-432A87839C2DF3DB.jpg",
+        "title": "Full Moon Hike",
+        "altText": "A full moon rises in a blue and purple sky over the red rock canyon.",
+        "caption": "Full Moon Hike",
+        "credit": "NPS Photo"
+      }
+    ],
+    "isReservationRequired": true,
+    "doFeesApply": false,
+    "tags": [
+      "full moon hike",
+      "night sky",
+      "night sky activities",
+      "hike"
+    ]
+  },
+  {
+    "id": "E7822199-B756-4FF4-A4BF-58CD3CA88B4E",
+    "title": "Get a Passport Stamp",
+    "shortDescription": "Are you a \"Passport to Your National Parks\" cancellation collector? Bryce Canyon has a cancellation stamp to commemorate your visit in your passport book.",
+    "longDescription": "Are you a \"Passport to Your National Parks\" cancellation collector? Bryce Canyon has a cancellation stamp to commemorate your visit in your passport book.",
+    "location": {
+      "lat": 37.6403873676,
+      "lon": -112.169642331
+    },
+    "duration": "",
+    "season": [
+      "Winter",
+      "Spring",
+      "Summer",
+      "Fall"
+    ],
+    "activities": [
+      {
+        "id": "467DC8B8-0B7D-436D-A026-80A22358F615",
+        "name": "Bookstore and Park Store"
+      }
+    ],
+    "arePetsPermitted": false,
+    "images": [
+      {
+        "url": "https://www.nps.gov/common/uploads/cropped_image/5A7643DF-002D-7358-7758FD98DFFA3FA1.jpg",
+        "title": "Stamp Your Passport",
+        "altText": "A merchandise display between two windows reads Passports with many stickers and stamps.",
+        "caption": "Stamp your \"Passport to Your National Parks\" book in the Bryce Canyon Visitor Center.",
+        "credit": "NPS Photo / Peter Densmore"
+      }
+    ],
+    "isReservationRequired": false,
+    "doFeesApply": false,
+    "tags": [
+      "passport stamp",
+      "passport"
+    ]
+  },
+  {
+    "id": "319A8199-8F7F-4A71-832D-02F7BD8A4389",
+    "title": "Mossy Cave Trail",
+    "shortDescription": "Mossy Cave trail is one of the lowest elevation hikes in the park as well as one of the only hikes that begins with a climb and ends with a descent. This trail provides access to Water Canyon in one direction and to a sheltered overhang known as Mossy Cave in the other. This area is filled with mosses in the summer and icicles in the winter. Please stay on the main trail and respect all posted signs. Pets are not permitted on this trail.",
+    "longDescription": "<p>Mossy Cave trail is one of the lowest elevation hikes in the park as well as one of the only hikes that begins with a climb and ends with a descent. It is also the northernmost hike in the park, located just off of SR 12 as it winds its way through the park boundary.\u00a0</p> <ul> <li><strong>Trailhead:</strong>\u00a0Northern end of the park, 4 miles east on Hwy 12</li> <li><strong>Parking:</strong>\u00a0At trailhead (check when <a href=\"https://www.nps.gov/brca/planyourvisit/parking-information.htm\">parking lots are busiest</a>). Oversized vehicles permitted.</li> <li><strong>Distance: </strong>0.8 miles (1.3 km)</li> <li><strong>Approximate Time:</strong> 1 hour</li> <li><strong>Elevation Gain: </strong>150\u00a0feet (46\u00a0meters)</li> <li><strong>Difficulty: </strong>Easy (elevation gain of 200 feet or less, shorter length)</li> <li><strong>Services:</strong> Accessible restrooms available at the trailhead.</li> <li><strong>Shuttle Service:</strong> None.\u00a0<a href=\"https://www.nps.gov/brca/planyourvisit/commercial-tours-and-services.htm\">Private options may be available.</a></li> <li><strong>Pets are not allowed on this trail.</strong> Service animals are allowed in national parks. <a href=\"https://www.nps.gov/planyourvisit/service-animals.htm\">What is a service animal?</a></li> <li><strong>Delicate rocks and sensitive plants exist throughout this area.</strong>\u00a0Please stay on the main trail and respect all posted signs.</li> <li><strong>While visitors are permitted within the water</strong>, we ask that they enter and exit at bridge crossings to reduce social trails elsewhere.</li> <li><strong>Mossy Cave is a fee area, like the rest of the park.</strong>\u00a0Keep your park pass or proof of admission with your vehicle for rangers to inspect.</li> </ul>",
+    "location": {
+      "lat": 37.6657871356,
+      "lon": -112.110306548
+    },
+    "duration": "30-60 Minutes",
+    "season": [
+      "Winter",
+      "Spring",
+      "Summer",
+      "Fall"
+    ],
+    "activities": [
+      {
+        "id": "45261C0A-00D8-4C27-A1F8-029F933A0D34",
+        "name": "Front-Country Hiking"
+      }
+    ],
+    "arePetsPermitted": false,
+    "images": [
+      {
+        "url": "https://www.nps.gov/common/uploads/cropped_image/83C2CC39-CD59-985B-B1AACC4669D11A1E.jpeg",
+        "title": "Mossy Cave Trail",
+        "altText": "A creek meanders through red rocks with red rock formations in the background.",
+        "caption": "See a waterfall in the summer and icicles in the winter on one of the park's easier hikes.",
+        "credit": ""
+      }
+    ],
+    "isReservationRequired": false,
+    "doFeesApply": false,
+    "tags": [
+      "geology",
+      "hike",
+      "hiking",
+      "Easy hike",
+      "water access trail",
+      "grotto",
+      "Bryce Canyon National Park",
+      "Mossy Cave Trail"
+    ]
+  },
+  {
+    "id": "FFC9B71B-4C8C-433F-9212-3E248D7D4AA7",
+    "title": "Go Horseback Riding",
+    "shortDescription": "Horseback riding is a great way to slow down and experience Bryce Canyon National Park. Horses have been used to explore Bryce Canyon National Park since before it was set aside for federal protection. To support this activity, the National Park Service completed 4.5 miles of foot and horse trails in 1931 that are still in use today.",
+    "longDescription": "<h2>Guided Trail Rides</h2> <p>Want to get a different perspective of Bryce Canyon, check it out from the back of a horse. Canyon Trail Rides, the park's concessioner, offers 2-hour\u00a0and 3-hour\u00a0guided horse and mule rides into the Bryce Amphitheater along a dedicated horse trail and the Peek-a-boo Loop Trail. Guided trail rides typically begin in April and run until October 31st, depending on weather.</p> <p>For information,\u00a0<a href=\"https://www.canyonrides.com/bryce-canyon-horseback-riding/#brycecanyon\">visit their web site</a>\u00a0or call them directly at 1(435) 834-5500.</p> <h2>Bring Your Own Horse or Mule</h2> <p>The use of privately-owned stock on the trails of Bryce Canyon is permitted in certain areas and at specific times. Stock is defined as horse and mules.\u00a0Llamas and goats are prohibited.<br /> <br /> For information on scheduling a private horse or mule ride, the park's private stock regulations, and more, visit the Bryce Canyon <a href=\"https://www.nps.gov/brca/planyourvisit/horse.htm\">Horseback Riding & Stock Use</a> page.</p> <h3>\u00a0</h3>",
+    "location": {
+      "lat": 37.62892,
+      "lon": -112.16584
+    },
+    "duration": "2-4 Hours",
+    "season": [
+      "Spring",
+      "Summer",
+      "Fall"
+    ],
+    "activities": [
+      {
+        "id": "1886DA47-0AEC-4568-B9C2-8E9BC316AAAC",
+        "name": "Horseback Riding"
+      }
+    ],
+    "arePetsPermitted": false,
+    "images": [
+      {
+        "url": "https://www.nps.gov/common/uploads/cropped_image/E663ED1A-F108-643F-495714CFFC006094.jpg",
+        "title": "Horseback Tour along Peekaboo Loop",
+        "altText": "Three riders on horseback descend a trail bordered by pine trees and large rocks",
+        "caption": "Horseback rides take riders within the Bryce Amphitheater and along the Peekaboo Loop",
+        "credit": "NPS Photo / Peter Densmore"
+      }
+    ],
+    "isReservationRequired": true,
+    "doFeesApply": true,
+    "tags": [
+      "horseback riding",
+      "horses",
+      "Bryce Canyon National Park"
+    ]
+  },
+  {
+    "id": "BD32ADD4-7B3F-4DE2-8982-B615E49B0CBC",
+    "title": "View Wildlife",
+    "shortDescription": "The canyons and plateau of Bryce Canyon National Park are home to many animals. Park boundaries mean little to the migratory hummingbirds, nesting Peregrine Falcon, Rocky Mountain Elk and Pronghorn which daily cross through the forested plateau and\u00a0amphitheaters. The search for food and water leads them to the best place to find sustenance and shelter. Many animals share habitats. Ebb and flow of populations is interdependent on all the members of the wildlife community.",
+    "longDescription": "<p>The canyons and plateau of Bryce Canyon National Park are home to many animals. Park boundaries mean little to the migratory hummingbirds, nesting Peregrine Falcon, Rocky Mountain Elk and Pronghorn which daily cross through the forested plateau and\u00a0amphitheaters. The search for food and water leads them to the best place to find sustenance and shelter. Many animals share habitats. Ebb and flow of populations is interdependent on all the members of the wildlife community.</p> <h4>See a full species list at the bottom of this page.</h4> <h4>Safety and Respect</h4> <ul> <li> <p>Treat wildlife with respect - you are a visitor in their home.</p> </li> <li> <p><strong>Never feed wild animals</strong> - even a chipmunk can inflict a painful bite and possibly spread disease. Feeding them human food is also akin to animal cruelty in its likelihood to lead to maladaptive behaviors or even death.</p> </li> <li> <p>Keep a safe distance - use binoculars or, for photography, telephoto lenses.</p> </li> <li> <p>When venturing into venomous snake territory wear boots and loose-fitting pants.</p> </li> <li> <p>Stay on trails, and watch where you place your hands and feet \u2013 especially when sitting, climbing, or stepping on or over fences, large rocks, and logs.</p> </li> <li> <p>Hang food, garbage and anything with strong odors (toothpaste, bug repellent, soap, etc.) at least 10 feet off the ground and 6 feet from the trunk or use a bear-proof container. Never store food inside your tent.</p> </li> <li> <p>If a bear or Mountain Lion approaches you back away slowly. Avoid direct eye contact with a bear but maintain eye contact with a cat. In either case do not run. Raise your arms above your head to make yourself look larger than normal, make noise, and throw rocks or sticks.</p> </li> </ul> <h3>Seasons</h3> <p>Spring comes late at these high elevations, with snow often remaining into April. Many of the park's inhabitants either hibernate or move to lower, less snow-covered elevations. While large mammals\u00a0like Mule Deer can be seen year-round, pronghorn typically depart in fall and aren't seen again until snow has begun to melt in spring. Utah Prairie Dogs typically begin to depart underground for hibernation by November, and the first males are often seen reemerging in late February or early March. Other species are extremely uncommon--mountain lions are present but seldom seen, as are the park's black bears, which overwinter in dens and spend summers foraging in less-travelled forests. In warmer months, you're almost guaranteed to be confronted by a Unita chipmunk or golden-mantled ground squirrel scavenging near viewpoints or trail junctions. Remember to never feed or approach any wildlife in the park.\u00a0</p> <h3>Where to Look</h3> <p><br /> <strong>Utah Prairie Dog Colonies:\u00a0</strong>A threatened species, in the 1970s the Utah Prairie Dog was\u00a0expected to go extinct by the year 2000. Thankfully reintroduction efforts here in the park in the 1980s have stabliized the largest population of Utah's only endemic (only found here) mammal. The smallest of the prairie dogs, 8,000 feet (2,438 m) is about as high as they'll live. From March through October you can pretty realiably find them near the entrances to their underground burrows in the meadow that crosses the main road immediately south of the Visitor Center. Another colony is found on the right-hand side of the road around Mile 2 of the park road. A third colony can be seen on the way to Sunrise Point after taking the second left turn past the Visitor Center. Be sure to observe them from road pull-offs but never enter these meadows. Not only do prairie dogs potentially carry fleas infected with plague, they can deliver a very powerful bite!<br /> Prairie dogs provide food for most predators in the park, so observing a prairie dog colony is often the best way to see other species too. Listen for when the prairie dogs begin to chitter and \"bark\"--this may alert you to a predator along the treeline or soaring above.<br /> <br /> <strong>Southern Scenic Drive:\u00a0</strong>Travelling to Rainbow and Yovimpa Points at the southern end of the park takes you up to elevations of over 9,000 feet (2,743 m). At these high elevations, the park's ponderosa forests transition to mixed conifer woodlands of white fir, limber pine, douglas-fir, quaking aspen, and bristlecone pine. Snow levels are much higher here in winter, linger longer into spring, and provide more moisture for a dense understory. Wildlife is most often seen in meadows leading up to these higher views, such as the meadow around Mile 4 of the 18 mile park road. More often than not, wildlife sightings here are large mammals seen crossing the road.\u00a0<br /> <br /> <strong>Bryce Amphitheater:\u00a0</strong>The Bryce Amphitheater is defined by its ponderosa forests and the mixed juniper and ponderosa woodland below the rim. Here one sees chipmunks and ground squirrels in warmer months, and often small families of mule deer foraging above and below the rim. If you're out stargazing, you may be so lucky as to spot a ringtail--they've most often been seen near the Sunset Point parking lot.</p>",
+    "location": {
+      "lat": 0.0,
+      "lon": 0.0
+    },
+    "duration": "",
+    "season": [
+      "Winter",
+      "Spring",
+      "Summer",
+      "Fall"
+    ],
+    "activities": [
+      {
+        "id": "0B685688-3405-4E2A-ABBA-E3069492EC50",
+        "name": "Wildlife Watching"
+      }
+    ],
+    "arePetsPermitted": true,
+    "images": [
+      {
+        "url": "https://www.nps.gov/common/uploads/cropped_image/237E16CB-B105-30A6-EDCBA0489CF8F2B4.jpg",
+        "title": "Pronghorn",
+        "altText": "Three male pronghorns stand together in a field of grass",
+        "caption": "Pronghorn are seen in warmer months in meadows within and around the park.",
+        "credit": "Kadi Franson"
+      }
+    ],
+    "isReservationRequired": false,
+    "doFeesApply": true,
+    "tags": [
+      "wildlife"
+    ]
+  },
+  {
+    "id": "D2173E9E-97A7-4283-8C55-F842F8B39DD7",
+    "title": "Navajo/Peekaboo Combination Loop",
+    "shortDescription": "Combine two of our most iconic trails, the Navajo and Peekaboo Loop trails, into a a mini Figure-8 combination loop. Start the hike at Sunset Point, descend down either side of the Navajo Loop (Two Bridges in winter), connect to the Peekaboo Loop (we recommend hiking it in a clockwise direction), and ascend Navajo back to Sunset Point.",
+    "longDescription": "Combine two of our most iconic trails, the Navajo and Peekaboo Loop trails, into a a mini Figure-8 combination loop. Start the hike at Sunset Point, descend down either side of the Navajo Loop (Two Bridges in winter), connect to the Peekaboo Loop (we recommend hiking it in a clockwise direction), and ascend Navajo back to Sunset Point.<br /> \u00a0 <ul> <li><b>Trailhead: </b><a href=\"https://www.nps.gov/places/000/sunset-point.htm\">Sunset Point</a></li> <li><b>Parking:</b> At trailhead (check when <a href=\"https://www.nps.gov/brca/planyourvisit/parking-information.htm\">parking lots are busiest</a>). Oversized vehicles are not\u00a0permitted in this\u00a0parking area\u00a0<a href=\"https://www.nps.gov/brca/planyourvisit/shuttle.htm\">when the shuttle is\u00a0in operation.</a></li> <li><b>Distance:</b>\u00a04.9\u00a0miles (7.9\u00a0km)</li> <li><b>Approximate Time:</b>\u00a03-4\u00a0hours</li> <li><b>Elevation Gain:</b>\u00a01475\u00a0feet (450\u00a0meters)</li> <li><b>Difficulty:</b>\u00a0Strenuous (rapid elevation gain, longer length)</li> <li><b>Services:\u00a0</b>Accessible restrooms available at Sunset Point (year-round).\u00a0Pit toilets on the west side of Peekaboo Loop (summer only). Water-fill stations available at Sunset Point (seasonally) and the Sunset Point restroom (year-round).</li> <li><b>Shuttle Service:</b>\u00a0<a href=\"https://www.nps.gov/brca/planyourvisit/shuttle.htm\">Yes.</a></li> <li>In winter, use the Two Bridges side of the Navajo Loop.</li> <li><strong>Pets are not allowed on this trail.</strong> Service animals are allowed in national parks. <a href=\"https://www.nps.gov/planyourvisit/service-animals.htm\">What is a service animal?</a></li> <li><strong>Hikers will encounter horses and mules on the Peekaboo Loop\u00a0and should give the right-of-way to these riders.</strong></li> </ul> You can hike these two trails individually as the <a href=\"https://www.nps.gov/thingstodo/peekaboo-loop.htm\">Peekaboo Loop</a> and the <a href=\"https://www.nps.gov/thingstodo/navajo-loop-trail.htm\">Navajo Loop</a>.",
+    "location": {
+      "lat": 37.6226689088,
+      "lon": -112.16609531
+    },
+    "duration": "3-4 Hours",
+    "season": [],
+    "activities": [
+      {
+        "id": "45261C0A-00D8-4C27-A1F8-029F933A0D34",
+        "name": "Front-Country Hiking"
+      }
+    ],
+    "arePetsPermitted": false,
+    "images": [
+      {
+        "url": "https://www.nps.gov/common/uploads/cropped_image/FF087F90-0340-FD76-03E182DED3752031.jpeg",
+        "title": "Thor's Hammer from Navajo Loop",
+        "altText": "A view over a landscape filled with red rock formations with the iconic thor's hammer formation.",
+        "caption": "The Thor's Hammer hoodoo can be seen from Sunset Point and the Navajo Loop portion of this trail.",
+        "credit": ""
+      }
+    ],
+    "isReservationRequired": false,
+    "doFeesApply": false,
+    "tags": [
+      "Bryce Canyon National Park",
+      "hike",
+      "hiking",
+      "strenuous hike",
+      "viewpoint",
+      "navajo peekaboo combination loop",
+      "Navajo Loop Trail",
+      "Peekaboo Loop Trail"
+    ]
+  },
+  {
+    "id": "81107E17-255C-437C-8D29-CEC5FA52A18A",
+    "title": "Navajo Loop Trail",
+    "shortDescription": "The iconic Navajo Loop Trail begins and ends at Sunset Point. Its switchbacks wind between narrow walls of colorful limestone with views of towering Douglas-fir trees and the park's most famous hoodoo: Thor's hammer. The loop has two sides: Two Bridges and Wall Street. The Two Bridges side is open year-round, however,\u00a0the Wall Street side is closed during the winter months. During this time Two-Bridges can be hiked as an out-and-back trail or combined with other trails.",
+    "longDescription": "The iconic Navajo Loop Trail begins and ends at Sunset Point. Its switchbacks wind between narrow walls of colorful limestone with views of towering Douglas-fir trees and the park's most famous hoodoo: Thor's hammer. The loop has two sides: Two Bridges and Wall Street. The Two Bridges side is open year-round, however, the Wall Street side is closed during the winter months. During this time Two-Bridges can be hiked as an out-and-back trail or combined with other trails.<br /> \u00a0 <ul> <li><b>Trailhead: </b><a href=\"https://www.nps.gov/places/000/sunset-point.htm\">Sunset Point</a></li> <li><b>Parking:</b> At trailhead (check when <a href=\"https://www.nps.gov/brca/planyourvisit/parking-information.htm\">parking lots are busiest</a>). Oversized vehicles are not\u00a0permitted in these parking areas <a href=\"https://www.nps.gov/brca/planyourvisit/shuttle.htm\">when the shuttle is\u00a0in operation.</a></li> <li><b>Distance:</b> 1.3\u00a0mile (2.1\u00a0km)</li> <li><b>Approximate Time:</b> 1-2 hour</li> <li><b>Elevation Gain:</b>\u00a0515\u00a0feet (157 meters)</li> <li><b>Difficulty:</b>\u00a0Moderate (less than 1000 feet elevation gain, moderate length)</li> <li><b>Services:</b>\u00a0Accessible restrooms available at Sunset Point (year-round). Water-fill stations available at Sunset Point (seasonally) and\u00a0the Sunset Point restroom (year-round).</li> <li><b>Shuttle Service:</b>\u00a0<a href=\"https://www.nps.gov/brca/planyourvisit/shuttle.htm\">Yes.</a></li> <li><strong>Only a loop in summer. During this time, we recommend hiking in a\u00a0counter-clockwise direction. During\u00a0winter months, Two Bridges can be hiked as an out-and-back trail or combined with other trails.</strong></li> <li><strong>Pets are not allowed on this trail</strong>. Service animals are allowed in national parks. <a href=\"https://www.nps.gov/planyourvisit/service-animals.htm\">What is a service animal?</a></li> </ul> This trail is\u00a0<a href=\"https://www.nps.gov/thingstodo/queen-s-navajo-combination-loop.htm\">commonly combined with Queen's Garden</a>\u00a0to create a 2.9 mile round trip trail where you can descend Queen's Garden at Sunrise Point and ascend Navajo Loop to Sunset Point. Complete the loop using the Sunset to Sunrise section of the Rim Trail.",
+    "location": {
+      "lat": 37.6226689088,
+      "lon": -112.16609531
+    },
+    "duration": "1-2 Hours",
+    "season": [],
+    "activities": [
+      {
+        "id": "45261C0A-00D8-4C27-A1F8-029F933A0D34",
+        "name": "Front-Country Hiking"
+      }
+    ],
+    "arePetsPermitted": false,
+    "images": [
+      {
+        "url": "https://www.nps.gov/common/uploads/cropped_image/95FDFAB3-A125-D311-769FAC609D835815.jpeg",
+        "title": "Hiking Navajo Loop",
+        "altText": "Hikers descend sandy switchbacks heading into a canyon of red rock with trees",
+        "caption": "The famous Wall Street switchbacks on the Navajo Loop Trail.",
+        "credit": ""
+      }
+    ],
+    "isReservationRequired": false,
+    "doFeesApply": false,
+    "tags": [
+      "Bryce Canyon National Park",
+      "geology",
+      "hike",
+      "hiking",
+      "moderate hike",
+      "Navajo Loop Trail",
+      "viewpoint",
+      "amphitheater"
+    ]
+  },
+  {
+    "id": "8716BD26-6CC0-431B-B6A2-75149E2852C8",
+    "title": "Go For a Winter Hike",
+    "shortDescription": "Many hikes are available to visitors during the winter season, in both the front and backcountry, but might require some additional equipment. For much of the winter the most popular trails are so icy that steep sections cannot be safely traversed without some sort of additional traction device for your hiking shoes or boots.",
+    "longDescription": "<p>Many hikes are available to visitors during the winter season, in both the front and backcountry,\u00a0but might require some additional equipment.<br /> <br /> After a big snowfall most of the park's\u00a0<a href=\"https://www.nps.gov/brca/planyourvisit/day-hikes.htm\">day hiking trails</a>\u00a0require snowshoes. However, after a few days of melt, and with continued use, the trails become so well packed and icy that snowshoes are no longer effective to provide traction and stable footing.</p> <h4>Traction Devices</h4> <p>For much of the winter the most popular trails are so icy that steep sections cannot be safely traversed without some sort of additional traction device for your hiking shoes or boots. Mountaineering crampons or other, lighter options which fasten over your winter footwear work well. We recommend wearing these devices throughout the park, especially in parking lots and other paved areas to avoid injuries from slipping and falling.</p> <p>Traction devices are available for purchase at the\u00a0<a href=\"https://www.brycecanyon.org/\">Bryce Canyon Association's bookstore</a>\u00a0at the Visitor Center.</p> <h4>Winter Backpacking</h4> <p>Traversing <a href=\"https://www.nps.gov/brca/planyourvisit/backcountryinfo.htm\">Bryce Canyon's backcountry</a> is challenging year-round. Winter conditions include deep snow and sub-zero temperatures. Finding and following the trail can be extremely difficult in deep snow. Losing the trail makes it difficult to find the key routes back up to the rim and the Rainbow Point Road. For this and other reasons (open fires are prohibited, the Rainbow Point Road may be closed for several days after a big storm, etc.) winter\u00a0<a href=\"https://www.nps.gov/brca/planyourvisit/backcountryinfo.htm\">backcountry permits</a>\u00a0are issued to only the most experienced and well-prepared adventurers. Ski and/or snowshoe equipment is highly recommended.</p>",
+    "location": {
+      "lat": 0.0,
+      "lon": 0.0
+    },
+    "duration": "",
+    "season": [
+      "Winter"
+    ],
+    "activities": [
+      {
+        "id": "BFF8C027-7C8F-480B-A5F8-CD8CE490BFBA",
+        "name": "Hiking"
+      }
+    ],
+    "arePetsPermitted": false,
+    "images": [
+      {
+        "url": "https://www.nps.gov/common/uploads/cropped_image/6638436B-C882-616B-18DDF3F352FF5F2D.jpg",
+        "title": "Hikers Along Queen's Garden in Winter",
+        "altText": "Two hikers walk on a snow covered trail with mountains in the background.",
+        "caption": "Two visitors enjoy a winter hike along the Queen's Garden trail.",
+        "credit": "NPS"
+      }
+    ],
+    "isReservationRequired": true,
+    "doFeesApply": false,
+    "tags": [
+      "Bryce Canyon National Park",
+      "day hiking",
+      "backcountry hikes"
+    ]
+  },
+  {
+    "id": "4FFC4D27-4C45-4CF1-9AE2-F24B0677545F",
+    "title": "Under-the-Rim Trail",
+    "shortDescription": "Bryce Canyon's backcountry trails offer forests and meadows, stunning views of distant cliffs, and solitude. However, hoodoos are best experienced along our frontcountry trails in the main amphitheater area. The Under-the-Rim trail connects Rainbow Point in the south to Bryce Point in the north. Permits are not required to hike this trail, but all overnight stays\u00a0require a permit.",
+    "longDescription": "Bryce Canyon's backcountry trails offer forests and meadows, stunning views of distant cliffs, and solitude. However, hoodoos are best experienced along our frontcountry trails in the main amphitheater area. The Under-the-Rim trail connects Rainbow Point in the south to Bryce Point in the north. Three connecting trails intersect this trail at the Agua Canyon, Whiteman Bench, and Swamp Canyon trailheads. Permits are not required to hike this trail, but all overnight stays\u00a0<a href=\"https://www.recreation.gov/permits/4675330\">require a permit</a>.<br /> \u00a0 <ul> <li><b>Trailhead: </b>Rainbow Point or Bryce Point.</li> <li><b>Parking:</b> At trailheads; oversized vehicles permitted at Rainbow Point but are not\u00a0permitted at Bryce Point\u00a0<a href=\"https://www.nps.gov/brca/planyourvisit/shuttle.htm\">when the shuttle is\u00a0in operation</a></li> <li><b>Distance:</b>\u00a022.9\u00a0miles (36.9\u00a0km)</li> <li><b>Approximate Time:</b>\u00a02-3 days</li> <li><b>Elevation Gain:</b>\u00a05500 feet (1676\u00a0meters)</li> <li><b>Difficulty:</b>\u00a0Strenuous</li> <li><b>Services:\u00a0</b>None along the trail. Accessible\u00a0restrooms can be found at Rainbow Point.</li> <li><b>Shuttle Service:</b>\u00a0<a href=\"https://www.nps.gov/brca/planyourvisit/shuttle.htm\">Yes, to Bryce Point.</a> No shuttle to Rainbow Point, although\u00a0<a href=\"https://www.nps.gov/brca/planyourvisit/commercial-tours-and-services.htm\">Private options may be available.</a></li> <li>This trail may be inaccessible during mid-winter due to snow depths ranging from 2-15 ft. (.7-5 m)</li> <li><b>Pets are not allowed on this trail.</b> Service animals are allowed in national parks. <a href=\"https://www.nps.gov/planyourvisit/service-animals.htm\">What is a service animal?</a></li> <li><strong>Backcountry camping is permitted only in designated backcountry campsites and all overnight backcountry stays require a permit.</strong></li> </ul> Typically this trail is hiked south-to-north (Rainbow Point to Bryce Point) with two overnights. There are six campsites and one group site along its length. Some backcountry hikers will combine this hike with an additional night along the\u00a0<a href=\"https://www.nps.gov/thingstodo/riggs-spring-loop.htm\">Riggs Spring Loop</a>. For more information and reservation information visit our\u00a0<a href=\"https://www.nps.gov/brca/planyourvisit/backcountryinfo.htm\">Backcountry Information page</a>.<br /> \u00a0",
+    "location": {
+      "lat": 37.476018399,
+      "lon": -112.240642878
+    },
+    "duration": "2-3 Days",
+    "season": [],
+    "activities": [
+      {
+        "id": "7C37B79B-D02D-49EB-9020-3DB8299B748A",
+        "name": "Backcountry Hiking"
+      }
+    ],
+    "arePetsPermitted": false,
+    "images": [
+      {
+        "url": "https://www.nps.gov/common/uploads/cropped_image/0A6D02DC-981F-DBF6-B62AB0A6A6E00A38.jpg",
+        "title": "Hikers on the Under the Rim Trail",
+        "altText": "Two people walk a trail of red earth wearing gear on their backs.",
+        "caption": "Hikers carry their gear while enjoying a hike on the Under-the-Rim trail.",
+        "credit": ""
+      }
+    ],
+    "isReservationRequired": true,
+    "doFeesApply": false,
+    "tags": [
+      "Bryce Canyon National Park",
+      "hike",
+      "hiking",
+      "strenuous hike",
+      "wilderness",
+      "backcountry hike",
+      "Under the Rim Trail",
+      "Rainbow Point",
+      "Bryce Point"
+    ]
+  },
+  {
+    "id": "D0E700AA-3090-46B0-B9A5-44707DD3FFD5",
+    "title": "See the Night Sky",
+    "shortDescription": "Bryce Canyon is a sanctuary for natural darkness. Bryce Canyon's skies are\u00a0so dark, that in 2019 the park was designated as a Gold Tier International Dark Sky Park. Since the park is open 24 hours a day, whether you head off to a viewpoint yourself or join a night sky ranger program, we welcome you to the dark side!",
+    "longDescription": "<p>Bryce Canyon is a sanctuary for natural darkness. Bryce Canyon's skies are\u00a0so dark, that in 2019 the park was designated as a <a href=\"https://www.darksky.org/our-work/conservation/idsp/parks/bryce-canyon-national-park-u-s/\">Gold Tier International Dark Sky Park</a>. Since the park is open 24 hours a day, whether you head off to a viewpoint yourself, join a night sky <a href=\"https://www.nps.gov/brca/planyourvisit/ranger-programs.htm\">ranger program</a>, or attend a <a href=\"https://www.nps.gov/brca/planyourvisit/fullmoonhikes.htm\">full moon hike</a>, we welcome you to the dark side!</p> <h3>When to Come</h3> <p>If you're coming to see the Milky Way or a sky filled with stars you'll want to be mindful that there are seasons that provide the best viewing opportunities. One of the best times of year is June, which coincides with our <a href=\"https://www.nps.gov/brca/planyourvisit/astrofest.htm\">Annual Astronomy Festival</a>. Here are a couple\u00a0tips:</p> <h4>Full Moons</h4> <p>If you're hoping to see the park under the bright light of a full moon, then be sure to plan a visit that will coincide with our\u00a0<a href=\"https://www.nps.gov/brca/planyourvisit/fullmoonhikes.htm\">full moon hike</a>\u00a0ranger programs. But if you're hoping to see lots of stars, you're better off coming closer to a <strong>new moon\u00a0</strong>when the moon will have set with the sun and won't compete with the stars for brightness.</p> <h4>Milky Way</h4> <p>While you can see some part of the Milky Way year-round at this latitude, the most iconic and vibrant views are when the galactic center is visible in the sky. June through August will provide the best views in this regard if you're hoping to see the night sky not too long after sunset. If you're willing to be up at 4 a.m., well that changes things. Websites like <a href=\"https://stellarium-web.org/\">Stellarium can help you predict</a> what you might be seeing on the date and various times of your visit. Winter visitors have the rare distinction of seeing the outer bands of the Milky Way, which are relatively much dimmer. In this day and age, few people have ever seen the Milky Way. A fraction of a fraction of those people have been in a place so dark that they can see the winter Milky Way.</p> <h3>Recommended\u00a0Viewpoints</h3> <p><strong>Sunrise Point</strong><br /> Requires a short walk to the viewpoint, but provides a nearly 360 degree view with relatively little light pollution from nearby Tropic and Bryce Canyon City.<br /> <strong>Inspiration Point</strong><br /> Very close to its parking lot (in case it's cold) with the opportunity for 360 degree views at higher viewpoints.<br /> <strong>Whiteman Bench Picnic Area (Mile 9.5 of the 18 mile road)</strong><br /> According to darkness readings, this is one of the darkest places in the whole park.\u00a0<br /> <strong>Yovimpa Point</strong><br /> A grand view looking south with only very distant light pollution from Page, AZ.</p> <h3>Astrophotography</h3> <p>If you're looking for opportunities to get some hoodoos in the foreground of your night sky shots, consider these trails:<br /> <strong>Queen's Garden Trail</strong><br /> Good views with hoodos to the south, east, and west<br /> <strong>Navajo Loop</strong><br /> Good views with tall fins of rock and some hoodoos to the east and north.</p>",
+    "location": {
+      "lat": 0.0,
+      "lon": 0.0
+    },
+    "duration": "",
+    "season": [
+      "Winter",
+      "Spring",
+      "Summer",
+      "Fall"
+    ],
+    "activities": [
+      {
+        "id": "D37A0003-8317-4F04-8FB0-4CF0A272E195",
+        "name": "Stargazing"
+      }
+    ],
+    "arePetsPermitted": true,
+    "images": [
+      {
+        "url": "https://www.nps.gov/common/uploads/cropped_image/184F0F44-C369-DD72-9C001B1B4BF282B8.jpg",
+        "title": "Sunrise Point Milky Way",
+        "altText": "A silhouetted figure stands at a fenced overlook with the milky way arching above",
+        "caption": "Sunrise Point is an easily accessible view with a 360 view of the night sky",
+        "credit": "NPS Photo / Keith Moore"
+      }
+    ],
+    "isReservationRequired": false,
+    "doFeesApply": true,
+    "tags": [
+      "astronomy",
+      "night sky",
+      "stargazing"
+    ]
+  },
+  {
+    "id": "85CBBD19-1B5A-444E-82BE-F30522DCC31B",
+    "title": "Backcountry Hiking and Camping",
+    "shortDescription": "Experience the solitude of Bryce's forested backcountry! To preserve this experience,\u00a0backcountry camping is permitted only in designated campsites. A backcountry\u00a0permit must be obtained\u00a0at the Visitor Center prior to any overnight trips.",
+    "longDescription": "<p>Experience the solitude of Bryce's forested backcountry! To preserve this experience,\u00a0<strong>backcountry camping is permitted only in designated campsites</strong>. A backcountry\u00a0<strong>permit must be obtained</strong>\u00a0at the Visitor Center prior to any overnight trips.</p> <ul> <li>There are 7 campsites on the 22.9 mile (36.9 km) Under-the-Rim Trail\u00a0<strong>(Sheep Creek is closed)</strong></li> <li>There are 3 campsites on the 8.8 mile (14.2 km) Riggs Spring Loop Trail</li> <li>The trails are strenuous, with multiple changes in elevation ranging from 6,800 feet (2,073 m) to 9,115 feet (2778 m)</li> </ul> <h3>Backcountry Trails</h3> <h4>Under-the-Rim Trail</h4> <p><strong>Difficulty: Strenuous<br /> Total Distance: 22.9\u00a0miles (37\u00a0km)<br /> Ascent: 5,884\u00a0feet (1,793\u00a0m)<br /> Average time: 2-3 Days</strong></p> <p><span style=\"color:#2980b9;\"><strong>This trail may be inaccessible during mid-winter due to snow depths ranging from 2-15 ft (0.7-5 m).\u00a0</strong></span><br /> <span style=\"color:#e74c3c;\"><strong>Note: the Agua Connecting Trail is closed until further notice.</strong></span><br /> Southern end at Rainbow Point, northern end at Bryce Point. Connecting trails at Ponderosa Canyon (Agua Canyon Connecting Trail), Whiteman Bench, and Swamp Canyon.</p> <h4>Riggs Spring Loop</h4> <p><strong>Difficulty: Strenuous<br /> Total Distance: 8.8\u00a0miles (14.2\u00a0km)<br /> Ascent: \u00a02,503 feet (763\u00a0m)<br /> Average time: 4-6 Hours</strong></p> <p><span style=\"color:#2980b9;\"><strong>This trail may be inaccessible during mid-winter due to snow depths ranging from 2-15 ft (0.7-5 m).</strong></span><br /> Trailheads located near\u00a0Rainbow and Yovimpa Points.</p> <h3>Maps</h3> <p>A backcountry hiking map with mileage is available at the Visitor Center.\u00a0<a href=\"https://www.nps.gov/brca/planyourvisit/backcountryinfo.htm\">View the map and more information online.</a></p> <h3>Permits Required</h3> <p>A Backcountry Permit is required for all overnight stays in the backcountry. Permits may be purchased at the Visitor Center from 9 am - 12:30 pm and 1:30 pm to 6 pm. Backcountry campsites are limited to 6 people per regular site, and 15 people per group site.</p> <h3>No Fires Permitted</h3> <p>Though gas-powered cooking stoves are allowed, no open fires are allowed anywhere in the park outside of North and Sunset Campground's established fire rings.</p> <h3>Bears and Other Wildlife</h3> <p>Bryce Canyon is home to many animals including mountain lions, coyotes and black bears. Squirrels, snakes and other small animals may also be present near your campsite.<br /> Due to the presence of black bears within Bryce Canyon National Park, the use of bear-resistant food canisters on overnight backcountry hikes is highly recommended. Bear-resistant canisters are available for loan, free of charge, at the Visitor Center.</p> <h3>Transportation</h3> <p>When available, hikers may reserve seats on the Rainbow Point Tour bus for transportation to Rainbow and Yovimpa Point. However, this service is seasonal in nature. Reservations and detailed information may be obtained by calling (435) 834-5290.</p>",
+    "location": {
+      "lat": 0.0,
+      "lon": 0.0
+    },
+    "duration": "",
+    "season": [
+      "Winter",
+      "Spring",
+      "Summer",
+      "Fall"
+    ],
+    "activities": [
+      {
+        "id": "4A58AF13-E8FB-4530-B41A-97DF0B0C77B7",
+        "name": "Backcountry Camping"
+      }
+    ],
+    "arePetsPermitted": false,
+    "images": [
+      {
+        "url": "https://www.nps.gov/common/uploads/cropped_image/03D12254-EAE1-10CC-CCDDD8D329C0E700.jpg",
+        "title": "Bryce Canyon Backcountry Hikers",
+        "altText": "Two hikers wearing backpacks and using poles along a red rock path surrounded by forested cliffs.",
+        "caption": "Hikers along the Under-the-Rim Trail near Rainbow Point.",
+        "credit": "NPS Photo/Peter Densmore"
+      }
+    ],
+    "isReservationRequired": true,
+    "doFeesApply": true,
+    "tags": [
+      "Under the Rim Trail",
+      "Riggs Spring Loop Trail",
+      "backcountry"
+    ]
+  },
+  {
+    "id": "0EDF1023-A410-4E7D-A3E4-76D079B05FB0",
+    "title": "See the Park Film",
+    "shortDescription": "\"A Song of Seasons\" plays in the Visitor Center theater every half hour when the Visitor Center is open.",
+    "longDescription": "<p>\"A Song of Seasons\" plays in the Visitor Center theater every half hour when the Visitor Center is open.<br /> <a href=\"https://www.youtube.com/watch?v=v5dQbo4EUCI&feature=youtu.be\">Watch the film online</a>.<br /> <br /> The film is captioned and assisted listening devices are available upon request.</p>",
+    "location": {
+      "lat": 37.640077,
+      "lon": -112.169669
+    },
+    "duration": "24-30 Minutes",
+    "season": [
+      "Winter",
+      "Spring",
+      "Summer",
+      "Fall"
+    ],
+    "activities": [
+      {
+        "id": "0C0D142F-06B5-4BE1-8B44-491B90F93DEB",
+        "name": "Park Film"
+      }
+    ],
+    "arePetsPermitted": false,
+    "images": [
+      {
+        "url": "https://www.nps.gov/common/uploads/cropped_image/2200EB50-AA8C-95D3-BD621B6B9F925880.jpg",
+        "title": "A Song of Seasons",
+        "altText": "Title screen for A Song of Seasons film reads Bryce Canyon National Park",
+        "caption": "\"A Song of Seasons\" explores the park in all four seasons.",
+        "credit": "NPS Photo"
+      }
+    ],
+    "isReservationRequired": false,
+    "doFeesApply": true,
+    "tags": [
+      "park film"
+    ]
+  },
+  {
+    "id": "3E505AE7-11A8-46CA-B09C-DF910DEE1BB3",
+    "title": "Day Hikes",
+    "shortDescription": "From easy walks along the edge of the famous Bryce Amphitheater using the Rim Trail to more strenuous adventures surrounded by the hoodoos below on the Peekaboo Loopthe park provides a variety of options for a variety of abilities to enjoy the park up close at your own pace. Visit the \"Hiking Trails\" button on the front page of this app for more trail details.",
+    "longDescription": "<p><strong>Visit our </strong><a href=\"https://www.nps.gov/brca/planyourvisit/day-hikes.htm\">Hiking Page</a><strong>\u00a0for more details on the hikes below.</strong></p> <h3>This is a High Elevation Park</h3> <p>With most of the park at 8,000 feet (2,438 m) or above, elevation is a very real factor to consider when choosing your hike. At this elevation, there's about 70% of the oxygen available at sea-level, and you'll certainly feel it if you begin to hike. When you're choosing a hike, do yourself a huge favor and don't choose something at the edge of your abilities. Take it easy, and rest assured that even short hikes have as much beauty to offer as the longest ones. Elevation-related injuries, such as heart issues, are among the park's most common medical emergencies.<br /> <br /> UV radiation is also a lot stronger at this elevation. Make sure you cover up, wear sunscreen, or take other precautions to protect your skin and eyes.<br /> <br /> Lastly, storms can form quickly here. If thunder roars, go indoors! Lightning--especially during the summer monsoon season--is a deadly threat. Take shelter in your vehicle, a building, a shuttle bus, or if you're on a trail find a low lying depression. Both trees and hoodoos can conduct lightning down to you.</p> <h3>Water and Footwear</h3> <p>With less oxygen available in each breath, you're going to be breathing harder, which means that you're going to dehydrate more quickly. We recommend a liter of water for every 1-2 hours you plan to hike. There is no water available once you're on a trail (backcountry hikes pass seasonal springs and drainages, but even these are rarely reliable), so make sure you pack all that you need.\u00a0<br /> <br /> Our number one cause of injuries in the park? Bad footwear. Trails have a lot of small, loose rock on their otherwise flat surfaces making slipping and twisting an ankle all too easy. Footwear with a good tread and ankle support is highly recommended. In winter, ice creates even more hazardous conditions. We <strong>strongly recommend</strong> the use of footwear traction devices when ice is present.</p> <h4>Easy Hikes</h4> <p>Mossy Cave: 0.8 mi (1.3 km)<br /> Sunset to Sunrise (along Rim Trail): 1.0 mi (1.6 km)<br /> Bristlecone Loop: 1.0 mi (1.6 km)</p> <h4>Moderate Hikes</h4> <p>Queen's Garden: 1.8 mi (2.9 km)<br /> Navajo Loop: 1.3 mi (2.2 km)<br /> Queen's/Navajo Combo Loop: 2.9 mi (4.6 km)<br /> Tower Bridge: 3.0 mi (4.8 km)<br /> Swamp Canyon Loop: 4.0 mi (6.4 km)</p> <h4>Strenuous Hikes</h4> <p>Hat Shop: 4.0 mi (6.4 km)<br /> Fairyland Loop: 8.0 mi (12.9 km)<br /> Peekaboo Loop: 5.5 mi (8.8 km)<br /> Navajo/Peekaboo Combo: 4.9 mi (7.8 km)<br /> Figure-8 Combo: 6.4 mi (10.2 km)<br /> Bryce Amphitheater Traverse: 4.7 mi (7.5 km)</p>",
+    "location": {
+      "lat": 0.0,
+      "lon": 0.0
+    },
+    "duration": "",
+    "season": [
+      "Winter",
+      "Spring",
+      "Summer",
+      "Fall"
+    ],
+    "activities": [
+      {
+        "id": "BFF8C027-7C8F-480B-A5F8-CD8CE490BFBA",
+        "name": "Hiking"
+      }
+    ],
+    "arePetsPermitted": false,
+    "images": [
+      {
+        "url": "https://www.nps.gov/common/uploads/cropped_image/8958F9CD-93EE-2D75-47719B47EF9E364C.jpg",
+        "title": "Hikers on Queen's Garden",
+        "altText": "Two hikers pass through a hole carved in limestone feature along a trail lined with trees and rocks",
+        "caption": "The Queen's Garden provides an opportunity to descend among the hoodoos of the Bryce Amphitheater",
+        "credit": "NPS Photo / Peter Densmore"
+      }
+    ],
+    "isReservationRequired": false,
+    "doFeesApply": true,
+    "tags": [
+      "day hikes",
+      "hikes"
+    ]
+  },
+  {
+    "id": "96177421-E0B1-4983-BD5A-C8B509E0525D",
+    "title": "Hike the Hoodoos",
+    "shortDescription": "To encourage visitors to stay healthy while having fun, Bryce Canyon National Park has developed an activity called \"Hike the Hoodoos!\" Part hike, part scavenger hunt, visitors must hike at least 3 miles on specially-marked trails and find \"Hike the Hoodoos\" benchmark survey markers along the way. Visitors may either obtain rubbings of the benchmarks, or take pictures of themselves with the benchmarks, to prove they hiked the required distance.",
+    "longDescription": "<h2>Hike the Hoodoos Program</h2> <p>To encourage visitors to stay healthy while having fun, Bryce Canyon National Park has developed an activity called \"Hike the Hoodoos!\" Part hike, part scavenger hunt, visitors must hike at least 3 miles on specially-marked trails and find \"Hike the Hoodoos\" benchmark survey markers along the way. Visitors may either obtain rubbings of the benchmarks, or take pictures of themselves with the benchmarks, to prove they hiked the required distance. Upon showing their rubbings or photos to the Visitor Center ranger, they are then presented with a special reward.</p> <h3>Where to Hike</h3> <p>There are nine \"Hike the Hoodoos!\" benchmarks located along eight different hiking trails in the park. Although only 3-miles of hiking (and finding benchmarks) are required to earn a reward, some visitors are opting to attain rubbings/photos of all nine benchmarks - for a total of 18.4 miles of hiking! Quite an accomplishment, indeed!<br /> Medallions can be found on the following trails:</p> <table border=\"1\" cellpadding=\"1\" cellspacing=\"1\" style=\"width:500px;\"> <tbody> <tr> <td style=\"text-align: center;\"><strong>Trail</strong></td> <td style=\"text-align: center;\"><strong>Distance</strong></td> <td style=\"text-align: center;\"><strong>Number of Medallions</strong></td> </tr> <tr> <td style=\"text-align: center;\">Mossy Cave</td> <td style=\"text-align: center;\">0.8 mi (1.3 km)</td> <td style=\"text-align: center;\">1</td> </tr> <tr> <td style=\"text-align: center;\">Bristlecone Loop</td> <td style=\"text-align: center;\">1.0 mi (1.6 km)</td> <td style=\"text-align: center;\">1</td> </tr> <tr> <td style=\"text-align: center;\">Queen's Garden*</td> <td style=\"text-align: center;\">1.8 mi (2.9 km)</td> <td style=\"text-align: center;\">1</td> </tr> <tr> <td style=\"text-align: center;\">Navajo Loop*</td> <td style=\"text-align: center;\">1.3 mi (2.2 km)</td> <td style=\"text-align: center;\">1</td> </tr> <tr> <td style=\"text-align: center;\">Tower Bridge</td> <td style=\"text-align: center;\">3.0 mi (4.8 km)</td> <td style=\"text-align: center;\">1</td> </tr> <tr> <td style=\"text-align: center;\">Swamp Canyon Loop</td> <td style=\"text-align: center;\">4.0 mi (6.4 km)</td> <td style=\"text-align: center;\">1</td> </tr> <tr> <td style=\"text-align: center;\">Peekaboo Loop</td> <td style=\"text-align: center;\">5.5 mi (8.8 km)</td> <td style=\"text-align: center;\">2</td> </tr> <tr> <td style=\"text-align: center;\">Fairyland Loop\u00a0</td> <td style=\"text-align: center;\">8.0 mi (12.9 km)</td> <td style=\"text-align: center;\">2</td> </tr> </tbody> </table> <p><br /> *Hikers often combine the Queen's Garden and Navajo Loop into the 3\u00a0mile (4.6 km) Queen's/Navajo Loop to get two medallions and claim the prize.</p> <h3>Thanks</h3> <p>The \"Hike the Hoodoos!\" program was made possible, in part, by a grant from the National Park Foundation through the generous support of the Coca-Cola Foundation.</p> <p>\u00a0</p>",
+    "location": {
+      "lat": 0.0,
+      "lon": 0.0
+    },
+    "duration": "2-6 Hours",
+    "season": [
+      "Winter",
+      "Spring",
+      "Summer",
+      "Fall"
+    ],
+    "activities": [
+      {
+        "id": "BFF8C027-7C8F-480B-A5F8-CD8CE490BFBA",
+        "name": "Hiking"
+      }
+    ],
+    "arePetsPermitted": false,
+    "images": [
+      {
+        "url": "https://www.nps.gov/common/uploads/cropped_image/C3CE7CB1-93FB-5BEB-A7625CDCB3331597.jpg",
+        "title": "Bristlecone Loop Hike the Hoodoos Gazebo",
+        "altText": "An interpretive wayside display shows a peregrine falcon beside text near a wooden gazebo",
+        "caption": "The Bristlecone Loop has one medallion along its 1.0 mile (1.6 km) trail.",
+        "credit": "NPS Photo"
+      }
+    ],
+    "isReservationRequired": false,
+    "doFeesApply": true,
+    "tags": [
+      "hike the hoodoos"
+    ]
+  },
+  {
+    "id": "C1645ADA-D194-4FA7-AE46-D4729A732CAD",
+    "title": "Go Snowshoeing",
+    "shortDescription": "Snowshoeing is allowed throughout the park on all trails. But be aware that though snowshoes make it possible to travel through deep powdery snow, snowshoeing is still a highly strenuous activity. Most snowshoers enjoy walks along the Rim Trail, Bristlecone Loop, Fairyland Road, and Paria Road.",
+    "longDescription": "<p>When the park has at least 12 inches of snow, snowshoeing is an excellent way to explore it. Snowshoeing is allowed throughout the park on all trails. But be aware that though snowshoes make it possible to travel through deep powdery snow, snowshoeing is still a highly strenuous activity.<br /> Most snowshoers enjoy walks along the <strong>Rim Trail, Bristlecone Loop, Fairyland Road, and Paria Road.</strong><br /> <br /> Don't have your own snowshoes? Join a\u00a0<a href=\"https://www.nps.gov/brca/planyourvisit/ranger-programs.htm\">Ranger Program</a>! Ranger-led snowshoe hikes are held when the park has at least 12-14\" of snow and are designed for all levels of experience, from beginner to expert. Snowshoes and poles are available for free for those who sign up for these programs, which are provided when snow depth and staffing permit.</p> <h4>Ranger-led Snowshoe Hike Basics</h4> <table border=\"1\" cellpadding=\"2\" cellspacing=\"2\" summary=\"Table Summary\" width=\"100%\"> <tbody> <tr> <td> <p><strong>Time</strong></p> </td> <td> <p>Usually 2 hours</p> </td> </tr> <tr> <td> <p><strong>Duration</strong></p> </td> <td> <p>Approximately 1 mile (1.6 km)</p> </td> </tr> <tr> <td> <p><strong>Attendance Fee</strong></p> </td> <td> <p>Free</p> </td> </tr> <tr> <td> <p><strong>Minimum Age</strong></p> </td> <td> <p>8 years old +</p> </td> </tr> <tr> <td> <p><strong>Required Equipment</strong></p> </td> <td> <p>Winter clothing, water, and waterproof boots (Snowshoes, poles provided). Tennis shoes will not be permitted.</p> </td> </tr> </tbody> </table> <p><br /> <strong>How to Sign Up</strong></p> <p><a href=\"https://www.nps.gov/brca/planyourvisit/calendar.htm\">When programs are offered</a>, registration is required as group size is limited and hikes are subject to cancellation. When snow depth and weather permit, sign-up will be offered at the Visitor Center the day of the program beginning at 8 a.m. and continuing until full. No advance sign-up or reservations are available.</p> <h4>Snowshoe and Cross-country Ski Rentals</h4> <p>Snowshoes and crosscountry skis are available for rental outside the park at Ruby's Inn in Bryce Canyon City.</p> <h4>Full Moon Snoeshoe Hikes</h4> <p>One of the rarest ranger programs is a full moon snowshoe hike. Both the full moon date and the weather have to cooperate to create the necessary conditions. Review the Required Equipment for a snowshoe hike, then check out the\u00a0<a href=\"https://www.nps.gov/brca/planyourvisit/fullmoonhikes.htm\">full moon hike calendar</a>.</p>",
+    "location": {
+      "lat": 0.0,
+      "lon": 0.0
+    },
+    "duration": "",
+    "season": [
+      "Winter"
+    ],
+    "activities": [
+      {
+        "id": "01D717BC-18BB-4FE4-95BA-6B13AD702038",
+        "name": "Snowshoeing"
+      }
+    ],
+    "arePetsPermitted": false,
+    "images": [
+      {
+        "url": "https://www.nps.gov/common/uploads/cropped_image/22E975E1-D726-16A7-30636AA0D90FFE31.jpg",
+        "title": "Paria Snowshoe Hike",
+        "altText": "A group of people in snowshoes stand on the rim of a limestone spire-lined canyon",
+        "caption": "Ranger-led Snowshoe hikes provide you with snowshoes and a deeper understanding of the park.",
+        "credit": "NPS Photo / Peter Densmore"
+      }
+    ],
+    "isReservationRequired": true,
+    "doFeesApply": true,
+    "tags": [
+      "snowshoeing"
+    ]
+  },
+  {
+    "id": "286F2EC1-CE0F-4D59-A62E-243F3D71F87C",
+    "title": "Walk the Rim Trail",
+    "shortDescription": "The Rim Trail stretches from its beginning in the south at Bryce Point 5.5 miles (8.9 km) north to Fairyland Point. As it follows the edge of the Bryce Amphitheater area of the park,\u00a0it connects to Inspiration Point, Sunset Point, and Sunrise Point providing a relatively easy hike (depending on how much of it you do) that offers spectacular views of the park's most popular area.",
+    "longDescription": "<p>The Rim Trail stretches from its beginning in the south at Bryce Point 5.5 miles (8.9 km) north to Fairyland Point. As it follows the edge of the Bryce Amphitheater area of the park,\u00a0it connects to Inspiration Point, Sunset Point, and Sunrise Point providing a relatively easy hike (depending on how much of it you do) that offers spectacular views of the park's most popular area.</p> <h3>Recommended: Sunset to Sunrise</h3> <p>The easiest hike in the park is the section of the Rim Trail that connects Sunset and Sunrise Points. It is 0.5 miles (0.8 km) long and walkers can begin from either Sunrise or Sunset Point. Elevation gain is 34 feet (10 meters). We recommend hiking from one point and back for a very easy 1 mile (1.6 km) walk.\u00a0</p> <h3>Winter Closures</h3> <p>In winter the 1.5 mile (2.4 km) section of the Rim Trail from Bryce Point to Inspiration Point is\u00a0regularly closed.</p> <h3>Section Lengths</h3> <p><em><strong>Difficulty: Varies (Easy to Moderate)<br /> Total Distance: 5.5\u00a0miles (8.9\u00a0km)<br /> Ascent/Descent (South to North): 1,330\u00a0feet (405\u00a0m) / 1,825 feet (556 m)<br /> Average time: 3-4 hours</strong></em></p> <ul> <li>Bryce to Inspiration: 1.5 miles (2.4 km)</li> <li>Inspiration to Sunset: 0.7\u00a0miles (1.1\u00a0km)</li> <li>Sunset to Sunrise: 0.5 miles\u00a0(0.8 km)</li> <li>Sunrise to Fairyland 2.8 miles (4.5 km)</li> </ul> <h3>Riding the Shuttle</h3> <p>During shuttle season, hikers may use stops at Bryce,\u00a0Inspiration, Sunset, and Sunrise Points to complete one-way hikes. Fairyland Point has no shuttle service.</p>",
+    "location": {
+      "lat": 37.622582,
+      "lon": -112.165962
+    },
+    "duration": "1-6 Hours",
+    "season": [
+      "Winter",
+      "Spring",
+      "Summer",
+      "Fall"
+    ],
+    "activities": [
+      {
+        "id": "BFF8C027-7C8F-480B-A5F8-CD8CE490BFBA",
+        "name": "Hiking"
+      }
+    ],
+    "arePetsPermitted": true,
+    "images": [
+      {
+        "url": "https://www.nps.gov/common/uploads/cropped_image/7E526C54-E05E-B9EF-9E62A9BCBEE1FAF8.jpg",
+        "title": "HIkers along the Rim Trail",
+        "altText": "Two hikers pause along a path to view a red rock landscape of badlands and spires at a cliff's edge",
+        "caption": "The Rim Trail provides views all along the edge of the Bryce Amphitheater and connects viewpoints",
+        "credit": "NPS Photo / Peter Densmore"
+      }
+    ],
+    "isReservationRequired": false,
+    "doFeesApply": true,
+    "tags": [
+      "rim trail"
+    ]
+  }
+]

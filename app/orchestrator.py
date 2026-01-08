@@ -13,6 +13,7 @@ from app.services.llm_service import LLMService, LLMResponse, LLMParsedIntent
 from app.utils.geospatial import mine_entrances 
 from app.services.data_manager import DataManager
 from app.services.review_scraper import ReviewScraper
+from app.services.park_data_fetcher import ParkDataFetcher
 
 logger = logging.getLogger(__name__)
 
@@ -49,8 +50,9 @@ class OutdoorConciergeOrchestrator:
         self.weather = weather_client
         self.external = external_client
         self.engine = ConstraintEngine()
-        self.data_manager = DataManager() # Initialize Data Manager
-        self.review_scraper = ReviewScraper(self.llm) # Initialize Review Scraper (using same LLM service)
+        self.data_manager = DataManager()
+        self.review_scraper = ReviewScraper(self.llm)
+        self.park_fetcher = ParkDataFetcher(nps_client=self.nps, data_manager=self.data_manager)
 
     def get_park_amenities(self, park_code: str) -> Dict[str, Dict[str, List[Dict[str, Any]]]]:
         """
@@ -194,41 +196,31 @@ class OutdoorConciergeOrchestrator:
 
         # 3. Fetch Data (Hybrid approach: Cache-First for static, Live for dynamic)
         
-        # --- A. Static Data (Try Local Fixtures First) ---
-        park_raw = self.data_manager.load_fixture(intent.park_code, "park_details.json")
-        if park_raw:
-            park = ParkContext(**park_raw)
-            logger.debug(f"Loaded park_details from fixture for {intent.park_code}")
-        else:
-            park = self.nps.get_park_details(intent.park_code)
+        # --- A. Static Data (Try Local Fixtures First, Save on Fetch) ---
+        # Helper to load or fetch and save
+        def load_or_fetch(fixture_name, fetch_fn, model_class=None):
+            raw = self.data_manager.load_fixture(intent.park_code, fixture_name)
+            if raw:
+                if model_class:
+                    if isinstance(raw, list):
+                        return [model_class(**item) for item in raw]
+                    return model_class(**raw)
+                return raw
+            else:
+                # Fetch from API and save for next time
+                logger.info(f"Fetching {fixture_name} from NPS API for {intent.park_code}...")
+                data = fetch_fn(intent.park_code)
+                if data:
+                    self.data_manager.save_fixture(intent.park_code, fixture_name, data)
+                    logger.info(f"Saved {fixture_name} to fixture cache")
+                return data
+        
+        park = load_or_fetch("park_details.json", self.nps.get_park_details, ParkContext)
+        campgrounds = load_or_fetch("campgrounds.json", self.nps.get_campgrounds, Campground) or []
+        visitor_centers = load_or_fetch("visitor_centers.json", self.nps.get_visitor_centers, VisitorCenter) or []
+        webcams = load_or_fetch("webcams.json", self.nps.get_webcams, Webcam) or []
+        things_to_do = load_or_fetch("things_to_do.json", self.nps.get_things_to_do, ThingToDo) or []
 
-        campgrounds_raw = self.data_manager.load_fixture(intent.park_code, "campgrounds.json")
-        if campgrounds_raw:
-            campgrounds = [Campground(**c) for c in campgrounds_raw]
-            logger.debug(f"Loaded campgrounds from fixture for {intent.park_code}")
-        else:
-            campgrounds = self.nps.get_campgrounds(intent.park_code)
-
-        visitor_centers_raw = self.data_manager.load_fixture(intent.park_code, "visitor_centers.json")
-        if visitor_centers_raw:
-            visitor_centers = [VisitorCenter(**v) for v in visitor_centers_raw]
-            logger.debug(f"Loaded visitor_centers from fixture for {intent.park_code}")
-        else:
-            visitor_centers = self.nps.get_visitor_centers(intent.park_code)
-
-        webcams_raw = self.data_manager.load_fixture(intent.park_code, "webcams.json")
-        if webcams_raw:
-            webcams = [Webcam(**w) for w in webcams_raw]
-            logger.debug(f"Loaded webcams from fixture for {intent.park_code}")
-        else:
-            webcams = self.nps.get_webcams(intent.park_code)
-
-        things_to_do_raw = self.data_manager.load_fixture(intent.park_code, "things_to_do.json")
-        if things_to_do_raw:
-            things_to_do = [ThingToDo(**t) for t in things_to_do_raw]
-            logger.debug(f"Loaded things_to_do from fixture for {intent.park_code}")
-        else:
-            things_to_do = self.nps.get_things_to_do(intent.park_code)
 
         # --- B. Dynamic Data (Cached Daily) ---
         # 1. Alerts

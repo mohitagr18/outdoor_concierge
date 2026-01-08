@@ -1,40 +1,40 @@
 {
-  "parkCode": "brca",
-  "current_temp_f": 25.0,
-  "current_condition": "Freezing fog",
-  "wind_mph": 9.6,
-  "humidity": 92,
+  "parkCode": "zion",
+  "current_temp_f": 34.0,
+  "current_condition": "Heavy snow",
+  "wind_mph": 2.9,
+  "humidity": 93,
   "forecast": [
     {
       "date": "2026-01-08",
-      "maxtemp_f": 28.6,
-      "mintemp_f": 13.4,
-      "avgtemp_f": 24.3,
-      "daily_chance_of_rain": 82,
-      "condition": "Thundery outbreaks in nearby",
-      "uv": 0.3
+      "maxtemp_f": 44.2,
+      "mintemp_f": 29.0,
+      "avgtemp_f": 37.8,
+      "daily_chance_of_rain": 77,
+      "condition": "Patchy rain nearby",
+      "uv": 0.2
     },
     {
       "date": "2026-01-09",
-      "maxtemp_f": 25.7,
-      "mintemp_f": 8.4,
-      "avgtemp_f": 15.2,
+      "maxtemp_f": 45.3,
+      "mintemp_f": 21.0,
+      "avgtemp_f": 31.1,
       "daily_chance_of_rain": 0,
       "condition": "Sunny",
-      "uv": 0.4
+      "uv": 0.5
     },
     {
       "date": "2026-01-10",
-      "maxtemp_f": 35.6,
-      "mintemp_f": 7.7,
-      "avgtemp_f": 20.1,
+      "maxtemp_f": 48.6,
+      "mintemp_f": 17.4,
+      "avgtemp_f": 29.1,
       "daily_chance_of_rain": 0,
       "condition": "Sunny",
       "uv": 0.5
     }
   ],
-  "sunrise": "07:44 AM",
-  "sunset": "05:27 PM",
+  "sunrise": "07:46 AM",
+  "sunset": "05:32 PM",
   "weather_alerts": [
     {
       "event": "Winter Weather Advisory",
@@ -56,6 +56,13 @@
       "headline": "Winter Weather Advisory issued January 8 at 9:43AM MST until January 8 at 6:00PM MST by NWS Salt Lake City UT",
       "effective": "2026-01-08T09:43:00-07:00",
       "expires": "2026-01-08T18:00:00-07:00"
+    },
+    {
+      "event": "High Wind Warning",
+      "severity": "Severe",
+      "headline": "High Wind Warning issued January 8 at 9:35AM MST until January 9 at 8:00AM MST by NWS Salt Lake City UT",
+      "effective": "2026-01-08T09:35:00-07:00",
+      "expires": "2026-01-09T00:45:00-07:00"
     }
   ]
 }

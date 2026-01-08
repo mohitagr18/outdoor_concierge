@@ -1,0 +1,196 @@
+[
+  {
+    "id": "17B8A379-66C5-4225-8EE3-2D3CB3CF0CA4",
+    "name": "North Campground",
+    "description": "Located across the road from the Visitor Center and is comprised of 100 sites in 4 loops; A, B, C, D. Loops A & B are for RV campers. Loops C & D are for tent campers and closed in freezing temperatures. There are no sewer, water or electrical hook-ups available. A dump station is available in summer months near North Campground; use is included with campsite fee. Potable water is available near the dump station. North Campground is close to the Visitor Center, General Store, and Fairyland Loop/Rim Trail.",
+    "location": {
+      "lat": 37.638096,
+      "lon": -112.167922
+    },
+    "campsites": {
+      "totalSites": "100",
+      "tentOnly": "46",
+      "rvOnly": "50"
+    },
+    "accessibility": {
+      "wheelchairAccess": "Campsites in Loop A & B are paved. Campsites in Loops C & D are unpaved, natural sediment. Campground roads are paved.",
+      "internetInfo": "",
+      "cellPhoneInfo": "",
+      "fireStovePolicy": "Fire grates are available at all sites. Summer months may have fire restrictions. DO NOT COLLECT FIREWOOD.",
+      "rvAllowed": "1",
+      "rvInfo": "Loops A & B of North Campground are primarily for RVs and the only loops for vehicles over 20 ft / 6 m. Generators are permitted from 8 am to 10 am and 6 pm to 8 pm.",
+      "rvMaxLength": "0",
+      "additionalInfo": "North Campground is a 10-15 minute walk to the General Store. During the summer months, the General Store has: coin-operated laundry facilities; coin-operated shower facilities; firewood; snack bar, groceries, and camping supplies. A picnic area is located at the south end of North Campground near the North Campground Outdoor Theater and Dump Station.",
+      "trailerMaxLength": "0",
+      "adaInfo": "The campground has no ADA accessible campsites.",
+      "trailerAllowed": "1",
+      "accessRoads": [
+        "Paved Roads - All vehicles OK"
+      ],
+      "classifications": [
+        "Developed Campground"
+      ]
+    },
+    "amenities": {
+      "trashRecyclingCollection": "Yes - year round",
+      "toilets": [
+        "Flush Toilets - year round"
+      ],
+      "internetConnectivity": "No",
+      "showers": [
+        "None"
+      ],
+      "cellPhoneReception": "No",
+      "laundry": "Yes - seasonal",
+      "amphitheater": "Yes - seasonal",
+      "dumpStation": "Yes - seasonal",
+      "campStore": "Yes - seasonal",
+      "staffOrVolunteerHostOnsite": "Yes - seasonal",
+      "potableWater": [
+        "Yes - seasonal"
+      ],
+      "iceAvailableForSale": "Yes - seasonal",
+      "firewoodForSale": "Yes - seasonal",
+      "foodStorageLockers": "No"
+    },
+    "contacts": {
+      "phoneNumbers": [
+        {
+          "phoneNumber": "4358345322",
+          "description": "",
+          "extension": "",
+          "type": "Voice"
+        },
+        {
+          "phoneNumber": "4358344703",
+          "description": "",
+          "extension": "",
+          "type": "Fax"
+        }
+      ],
+      "emailAddresses": [
+        {
+          "description": "",
+          "emailAddress": "brca_information@nps.gov"
+        }
+      ]
+    },
+    "fees": [
+      {
+        "cost": "30.00",
+        "description": "Cost is per night. All sites are limited to 10 people with no more than 6 adults (16 and up); 3 tents; and 2 cars, or 4 motorcycles.\n\nHolders of the following passes (with valid ID) receive a 50% discount on their camping fees:\nGolden Age & Golden Access Passes;\nAmerica the Beautiful Federal Lands Senior Pass (lifetime pass for U.S. residents 62 years and older);\nAmerica the Beautiful Federal Lands Access Pass (lifetime pass for U.S. residents with a permanent disability).",
+        "title": "Per Tent Site"
+      },
+      {
+        "cost": "30.00",
+        "description": "Cost is per night. All sites are limited to 10 people with no more than 6 adults (16 and up); 3 tents; 2 cars, or 4 motorcycles, or 1 RV/trailer with 1 tow vehicle.\n\nHolders of the following passes (with valid ID) receive a 50% discount on their camping fees:\nGolden Age & Golden Access Passes;\nAmerica the Beautiful Federal Lands Senior Pass (lifetime pass for U.S. residents 62 years and older);\nAmerica the Beautiful Federal Lands Access Pass (lifetime pass for U.S. residents with a permanent disability).",
+        "title": "Per RV Site"
+      }
+    ],
+    "images": [
+      {
+        "url": "https://www.nps.gov/common/uploads/structured_data/03A063C5-DF9A-B51E-C52BAD4D2492EDDF.jpg",
+        "title": "North Campground Campsite",
+        "altText": "Camping chairs, a tent, and camper at a campsite.",
+        "caption": "Both tents and RVs are welcome in North Campground",
+        "credit": "NPS Photo"
+      }
+    ],
+    "reservationUrl": "https://www.nps.gov/brca/planyourvisit/campgrounds.htm",
+    "isOpen": true
+  },
+  {
+    "id": "99CA90B7-E669-41EE-8744-2BBF8215C2A8",
+    "name": "Sunset Campground",
+    "description": "Located west of Sunset Point, approximately 1.5 miles south of the Bryce Canyon Visitor Center, and is comprised of 99 sites in 3 loops; Loop A is primarily for RVs; Loops B & C are tent-only. There are no sewer, water or electrical hook-ups available. A dump station is available in summer months near North Campground; use is included with campsite fee. Potable water is available near the dump station. Sunset Campground is close to Sunset Point and has a shuttle stop at its entrance.",
+    "location": {
+      "lat": 37.6222868282,
+      "lon": -112.174839007
+    },
+    "campsites": {
+      "totalSites": "99",
+      "tentOnly": "52",
+      "rvOnly": "46"
+    },
+    "accessibility": {
+      "wheelchairAccess": "Roads and campsites within Sunset Campground are paved. Wheelchair-accessible sites are located near an accessible restroom.",
+      "internetInfo": "",
+      "cellPhoneInfo": "",
+      "fireStovePolicy": "Fire grates are available at all sites. Summer months may have fire restrictions. DO NOT COLLECT FIREWOOD.",
+      "rvAllowed": "1",
+      "rvInfo": "Loop A of Sunset Campground is primarily for RVs. Generators are permitted from 8 am to 10 am and 6 pm to 8 pm.",
+      "rvMaxLength": "0",
+      "additionalInfo": "Sunset Campground is a 20-30 minute walk to the General Store. During the summer months, the General Store has: coin-operated laundry facilities; coin-operated shower facilities; firewood; snack bar, groceries, and camping supplies. A shuttle stop is located at the entrance to Sunset Campground, providing easy access to viewpoints and other facilities in the Bryce Amphitheater.",
+      "trailerMaxLength": "0",
+      "adaInfo": "Loop A has two accessible sites: Site 224 and Site 223. You may send your request to: Bryce Canyon National Park, PO Box 640201, Bryce, UT 84764, Attention: Campground Supervisor. Or, you may leave a message on the Campground phone: 435-834-4771. Be sure to include your name, contact information (phone # and/or email address) and the dates you wish to reserve. If sites are available, they can be reserved on a first-come, first-served basis by inquiring with the campground host.",
+      "trailerAllowed": "1",
+      "accessRoads": [
+        "Paved Roads - All vehicles OK"
+      ],
+      "classifications": [
+        "Developed Campground"
+      ]
+    },
+    "amenities": {
+      "trashRecyclingCollection": "Yes - seasonal",
+      "toilets": [
+        "Portable Toilets - seasonal"
+      ],
+      "internetConnectivity": "No",
+      "showers": [
+        "None"
+      ],
+      "cellPhoneReception": "No",
+      "laundry": "Yes - seasonal",
+      "amphitheater": "No",
+      "dumpStation": "Yes - seasonal",
+      "campStore": "Yes - seasonal",
+      "staffOrVolunteerHostOnsite": "Yes - seasonal",
+      "potableWater": [
+        "Yes - seasonal"
+      ],
+      "iceAvailableForSale": "Yes - seasonal",
+      "firewoodForSale": "Yes - seasonal",
+      "foodStorageLockers": "No"
+    },
+    "contacts": {
+      "phoneNumbers": [
+        {
+          "phoneNumber": "4358344771",
+          "description": "",
+          "extension": "",
+          "type": "Voice"
+        }
+      ],
+      "emailAddresses": [
+        {
+          "description": "",
+          "emailAddress": "brca_information@nps.gov"
+        }
+      ]
+    },
+    "fees": [
+      {
+        "cost": "30.00",
+        "description": "Cost is per night.  All sites are limited to 10 people with no more than 6 adults (16 and up); 3 tents; and 2 cars, or 4 motorcycles. Holders of the following passes (with valid ID) receive a 50% discount on their camping fees: Golden Age & Golden Access Passes; America the Beautiful Federal Lands Senior Pass (lifetime pass for U.S. residents 62 years and older); America the Beautiful Federal Lands Access Pass (lifetime pass for U.S. residents with a permanent disability).",
+        "title": "Tent Site"
+      },
+      {
+        "cost": "30.00",
+        "description": "Cost is per night. All sites are limited to 10 people with no more than 6 adults (16 and up); 3 tents; 2 cars, or 4 motorcycles, or 1 RV/trailer with 1 tow vehicle. Holders of the following passes (with valid ID) receive a 50% discount on their camping fees: Golden Age & Golden Access Passes; America the Beautiful Federal Lands Senior Pass (lifetime pass for U.S. residents 62 years and older); America the Beautiful Federal Lands Access Pass (lifetime pass for U.S. residents with a permanent disability).",
+        "title": "RV Site"
+      }
+    ],
+    "images": [
+      {
+        "url": "https://www.nps.gov/common/uploads/structured_data/0E21FF38-B81B-3CE7-88B1CE401DEA689D.jpg",
+        "title": "RV site in Sunset Campground",
+        "altText": "Two RVs parked at gravel campsites in Sunset Campground.",
+        "caption": "Both RVs and Tent campers are welcome in Sunset Campground",
+        "credit": "NPS Photo"
+      }
+    ],
+    "reservationUrl": "https://www.nps.gov/brca/planyourvisit/campgrounds.htm",
+    "isOpen": true
+  }
+]

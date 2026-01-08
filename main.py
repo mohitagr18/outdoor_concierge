@@ -17,6 +17,7 @@ from app.clients.nps_client import NPSClient
 from app.clients.weather_client import WeatherClient
 from app.clients.external_client import ExternalClient
 from app.services.llm_service import GeminiLLMService
+from app.services.park_data_fetcher import ParkDataFetcher
 from app.ui.data_access import get_park_static_data, get_volatile_data, clear_volatile_cache
 
 # Config & Styles
@@ -183,6 +184,57 @@ with tab_chat:
 
 with tab_explorer:
     st.header(f"Exploring {SUPPORTED_PARKS[st.session_state.selected_park]}")
+    
+    # Check if park has data before rendering
+    fetcher = ParkDataFetcher(nps_client=orchestrator.nps if orchestrator else None)
+    
+    if not fetcher.has_basic_data(park_code):
+        st.warning(f"⚠️ No data found for {SUPPORTED_PARKS.get(park_code, park_code)}")
+        st.info("This park needs initial data setup. This involves fetching park info, trails, and more.")
+        
+        missing = fetcher.get_missing_fixtures(park_code)
+        with st.expander("Missing Data Files"):
+            for m in missing:
+                st.write(f"• {m}")
+        
+        if st.button("🚀 Fetch Park Data", type="primary"):
+            with st.spinner("Fetching data... This may take a few minutes."):
+                progress = st.progress(0)
+                status_text = st.empty()
+                
+                def update_progress(current, total, message):
+                    if total > 0:
+                        progress.progress(current / total)
+                    status_text.text(message)
+                
+                try:
+                    result = fetcher.ensure_park_data(
+                        park_code,
+                        include_trails=True,
+                        include_rankings=True,
+                        include_photo_spots=True,
+                        include_amenities=True,
+                        progress_callback=update_progress
+                    )
+                    
+                    # Show results
+                    success_count = sum(1 for v in result.get("operations", {}).values() if isinstance(v, dict) and "error" not in v)
+                    total_ops = len(result.get("operations", {}))
+                    
+                    st.success(f"✅ Data fetched! {success_count}/{total_ops} operations successful.")
+                    
+                    # Show any errors
+                    for op_name, op_result in result.get("operations", {}).items():
+                        if isinstance(op_result, dict) and "error" in op_result:
+                            st.error(f"{op_name}: {op_result['error']}")
+                    
+                    st.rerun()  # Reload with new data
+                    
+                except Exception as e:
+                    st.error(f"❌ Error fetching data: {e}")
+                    st.info("Please try again in a few minutes.")
+        
+        st.stop()  # Don't render the rest of the explorer
     
     # Sub-Navigation for Explorer Views
     

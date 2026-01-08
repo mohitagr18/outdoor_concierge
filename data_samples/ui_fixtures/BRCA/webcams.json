@@ -1,0 +1,14 @@
+[
+  {
+    "id": "B6B467F0-F02E-2095-0662F516A6132E15",
+    "title": "Air Quality Webcam",
+    "description": "View from Yovimpa Point, Bryce Canyon National Park, Utah (looking east).",
+    "url": "https://www.nps.gov/subjects/air/webcams.htm?site=brca",
+    "imageUrl": null,
+    "isStreaming": false,
+    "status": "Active",
+    "relatedParks": [
+      "brca"
+    ]
+  }
+]

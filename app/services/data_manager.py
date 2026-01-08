@@ -39,6 +39,35 @@ class DataManager:
             logger.error(f"Failed to load fixture {filepath}: {e}")
             return None
 
+    def save_fixture(self, park_code: str, filename: str, data: Any):
+        """
+        Saves data as a JSON fixture to the park's directory.
+        Creates the directory if it doesn't exist.
+        """
+        filepath = os.path.join(self._get_park_dir(park_code), filename)
+        os.makedirs(os.path.dirname(filepath), exist_ok=True)
+        
+        try:
+            # Handle Pydantic models
+            if hasattr(data, 'model_dump'):
+                data = data.model_dump()
+            elif isinstance(data, list):
+                data = [d.model_dump() if hasattr(d, 'model_dump') else d for d in data]
+            
+            with open(filepath, 'w') as f:
+                json.dump(data, f, indent=2)
+            logger.info(f"Saved fixture: {filepath}")
+        except Exception as e:
+            logger.error(f"Failed to save fixture {filepath}: {e}")
+            raise
+
+    def has_fixture(self, park_code: str, filename: str) -> bool:
+        """
+        Checks if a fixture file exists for a park.
+        """
+        filepath = os.path.join(self._get_park_dir(park_code), filename)
+        return os.path.exists(filepath)
+
     def load_amenities(self, park_code: str, entrance_name: str) -> Dict[str, List[Any]]:
         """
         Loads pre-fetched amenity data for a specific entrance.

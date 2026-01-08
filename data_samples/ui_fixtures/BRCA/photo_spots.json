@@ -1,0 +1,385 @@
+[
+  {
+    "rank": 1,
+    "name": "Sunrise Point",
+    "parkCode": "brca",
+    "description": "A quintessential sunrise location offering views where the sun peeks above a distant ridge. The area features paths veering into the canyon and trees clinging to cliffs that provide excellent framing opportunities.",
+    "best_time_of_day": [
+      "Sunrise"
+    ],
+    "tips": [
+      "Get ready for the moment when the sun peeks above the ridge to photograph sun stars",
+      "Use trees clinging to the cliff to frame the scene",
+      "Explore the path that veers into the canyon just below the scenic lookout for unique compositions"
+    ],
+    "image_url": "https://www.thewanderinglens.com/wp-content/uploads/2020/09/Bryce-Canyon-Photography-Locations-41-683x1024.jpg",
+    "source_url": "https://www.thewanderinglens.com/bryce-canyon-photography-locations/"
+  },
+  {
+    "rank": 2,
+    "name": "Sunrise Point to Sunset Point rim walk",
+    "parkCode": "brca",
+    "description": "A 1.2mi out-and-back hike along the best part of the amphitheater rim. It offers key entry points into the canyon and stunning vistas.",
+    "best_time_of_day": [
+      "Sunrise"
+    ],
+    "tips": [
+      "Park at Sunset Point before sunrise so you can enjoy the walk along the rim to Sunrise Point.",
+      "Ensure you arrive at Sunrise Point specifically for the sunrise."
+    ],
+    "image_url": "https://njproductions.us/media/widgetkit/bryce-sunrise-point-74a082ab3ae4e3fbe3440f2db9387645.jpg",
+    "source_url": "https://njproductions.us/blog/travel/photographers-guide-to-bryce-canyon-national-park"
+  },
+  {
+    "rank": 3,
+    "name": "Bryce Point",
+    "parkCode": "brca",
+    "description": "The highest viewing point in the park at 8,296ft. It offers expansive views over the landscape, including the Wall of Windows and the Peekaboo Loop Trail, perfect for capturing fine details and textures.",
+    "best_time_of_day": [
+      "Sunrise",
+      "Daytime"
+    ],
+    "tips": [
+      "Use a zoom lens to capture the patterns and textures of the canyon",
+      "Include hikers on the Peekaboo Loop Trail below to showcase the immense scale of the hoodoos",
+      "Wait out the shuttle bus crowds to get the viewpoint to yourself"
+    ],
+    "image_url": "https://www.thewanderinglens.com/wp-content/uploads/2020/09/Bryce-Canyon-Photography-Locations-13.jpg",
+    "source_url": "https://www.thewanderinglens.com/bryce-canyon-photography-locations/"
+  },
+  {
+    "rank": 4,
+    "name": "Navajo Loop + Queen\u2019s Garden Combo",
+    "parkCode": "brca",
+    "description": "A 3.1mi loop that takes you right down through the hoodoos with absolutely stunning views throughout, covering all the Bryce Vibes.",
+    "best_time_of_day": [
+      "Sunrise"
+    ],
+    "tips": [
+      "Be prepared for intense switchbacks for entry and exit.",
+      "The top and bottom sections are relatively flat."
+    ],
+    "image_url": "https://njproductions.us/media/widgetkit/bryce-navajo-queens-garden-b4956613809ec82f4e277234781b2b17.jpg",
+    "source_url": "https://njproductions.us/blog/travel/photographers-guide-to-bryce-canyon-national-park"
+  },
+  {
+    "rank": 5,
+    "name": "Sunset Point to Sunrise Point",
+    "parkCode": "brca",
+    "description": "A section of the Rim Trail offering sweeping views of Bryce Amphitheater and the hoodoos below.",
+    "best_time_of_day": [
+      "Sunset",
+      "Sunrise",
+      "Dusk",
+      "Morning"
+    ],
+    "tips": [
+      "Sunset Point is ideal at dusk when the rocks glow",
+      "Sunrise Point captures the early morning mist beautifully"
+    ],
+    "image_url": null,
+    "source_url": "https://zionwhitebisonresort.com/best-bryce-canyon-trails/"
+  },
+  {
+    "rank": 6,
+    "name": "Inspiration Point",
+    "parkCode": "brca",
+    "description": "Features a steep path leading to one of the best viewpoints where the rock formations create a funnel-like appearance. It is excellent for capturing contrasting tones between the hoodoos.",
+    "best_time_of_day": [
+      "Sunrise"
+    ],
+    "tips": [
+      "Compose your shots using tree roots and overhanging trees found along the natural trail",
+      "Look for the white tones in the foreground to contrast against the vibrant rouge tones in the back",
+      "Photograph across to the Wall of Windows for a different perspective"
+    ],
+    "image_url": "https://www.thewanderinglens.com/wp-content/uploads/2020/09/Bryce-Canyon-Photography-Locations-8.jpg",
+    "source_url": "https://www.thewanderinglens.com/bryce-canyon-photography-locations/"
+  },
+  {
+    "rank": 7,
+    "name": "Peekaboo Loop",
+    "parkCode": "brca",
+    "description": "An adventurous 5.2mi loop with great formations, forming a figure 8 with other nearby loops.",
+    "best_time_of_day": [
+      "Sunrise"
+    ],
+    "tips": [
+      "Hike the loop clockwise for the best views of the formations.",
+      "This can be tacked onto the Navajo Loop for convenience."
+    ],
+    "image_url": "https://njproductions.us/media/widgetkit/bryce-peekaboo-loop-9ed68fd70d65580714fdb42ad0b46bd4.jpg",
+    "source_url": "https://njproductions.us/blog/travel/photographers-guide-to-bryce-canyon-national-park"
+  },
+  {
+    "rank": 8,
+    "name": "Queens Garden Trail",
+    "parkCode": "brca",
+    "description": "An easy trail into the Bryce Amphitheater that brings photographers close to unique formations including the Queen Victoria hoodoo.",
+    "best_time_of_day": [
+      "Afternoon"
+    ],
+    "tips": [
+      "Afternoon light adds depth to the red rocks, creating stunning photos"
+    ],
+    "image_url": null,
+    "source_url": "https://zionwhitebisonresort.com/best-bryce-canyon-trails/"
+  },
+  {
+    "rank": 9,
+    "name": "Sunset Point",
+    "parkCode": "brca",
+    "description": "A popular lookout that feels closer to the hoodoos than other points. It is the starting point for the Navajo Loop Trail and offers views of the famous Thor\u2019s Hammer formation.",
+    "best_time_of_day": [
+      "Sunrise",
+      "Sunset"
+    ],
+    "tips": [
+      "Compose the hoodoos with the textures and shadows of the nearby ridgelines",
+      "Focus on Thor's Hammer as a primary subject",
+      "Venture slightly down the Navajo Loop Trail for a closer perspective of the formations"
+    ],
+    "image_url": "https://www.thewanderinglens.com/wp-content/uploads/2020/09/Bryce-Canyon-Photography-Locations-2.jpg",
+    "source_url": "https://www.thewanderinglens.com/bryce-canyon-photography-locations/"
+  },
+  {
+    "rank": 10,
+    "name": "Thor\u2019s Hammer",
+    "parkCode": "brca",
+    "description": "A classic, stand-alone hoodoo featuring a large rock formation balanced precariously on top like a hammer.",
+    "best_time_of_day": [
+      "Sunrise"
+    ],
+    "tips": [
+      "To reach it, take a quick stroll down the Navajo Loop trail starting from Sunset Point.",
+      "During certain times of year, aim to capture a dramatic sunstar as the sun catches the top of the hammer."
+    ],
+    "image_url": null,
+    "source_url": "https://matt-ashley.medium.com/a-landscape-photographers-guide-to-bryce-canyon-national-park-130a75de7bdc"
+  },
+  {
+    "rank": 11,
+    "name": "Wall Street",
+    "parkCode": "brca",
+    "description": "A narrow section leading to iconic switchbacks where trees grow all the way up through the canyon.",
+    "best_time_of_day": [
+      "Sunrise"
+    ],
+    "tips": [
+      "The switchbacks themselves make for a mesmerizing photo.",
+      "Detour through this route at the end of the Navajo Loop instead of going past Thor's Hammer."
+    ],
+    "image_url": "https://njproductions.us/media/widgetkit/bryce-wallstreet-77329ac5fb7ca7ecee8594e907cf6c4a.jpg",
+    "source_url": "https://njproductions.us/blog/travel/photographers-guide-to-bryce-canyon-national-park"
+  },
+  {
+    "rank": 12,
+    "name": "Peekaboo Loop Trail",
+    "parkCode": "brca",
+    "description": "A longer, more challenging trail that immerses photographers in the landscape, featuring the Wall of Windows.",
+    "best_time_of_day": [
+      "Midday"
+    ],
+    "tips": [
+      "Midday light enhances the amphitheater\u2019s shadows and colors",
+      "Take advantage of the quieter trail to have more time to set up shots"
+    ],
+    "image_url": null,
+    "source_url": "https://zionwhitebisonresort.com/best-bryce-canyon-trails/"
+  },
+  {
+    "rank": 13,
+    "name": "The Navajo Loop Trail",
+    "parkCode": "brca",
+    "description": "A trail that winds from the rim down through narrow canyons and scattered trees, offering a snaking perspective through the hoodoos.",
+    "best_time_of_day": [
+      "Morning"
+    ],
+    "tips": [
+      "The trail itself is highly photogenic as it snakes down into the canyon.",
+      "There are countless stops along the trail for unique compositions of interesting rock formations."
+    ],
+    "image_url": null,
+    "source_url": "https://matt-ashley.medium.com/a-landscape-photographers-guide-to-bryce-canyon-national-park-130a75de7bdc"
+  },
+  {
+    "rank": 14,
+    "name": "Thor's Hammer",
+    "parkCode": "brca",
+    "description": "Probably the most iconic Hoodoo in the entire park, offering magical sunrise views.",
+    "best_time_of_day": [
+      "Sunrise"
+    ],
+    "tips": [
+      "Park at Sunset Point and take a short 10-15 minute descent.",
+      "The Google Map marker can be off, so look for direct coordinates.",
+      "Only 4 switchbacks down to be right next to the formation."
+    ],
+    "image_url": "https://njproductions.us/media/widgetkit/bryce-thors-hammer-d9e25f820f3b30ab336627536b6f6e50.jpg",
+    "source_url": "https://njproductions.us/blog/travel/photographers-guide-to-bryce-canyon-national-park"
+  },
+  {
+    "rank": 15,
+    "name": "Anywhere in the canyon",
+    "parkCode": "brca",
+    "description": "Hiking into the canyon provides shade from towering rock formations and the opportunity to capture midday reflected light.",
+    "best_time_of_day": [
+      "Midday"
+    ],
+    "tips": [
+      "Spend the middle part of the day here when light is harsher on the rim.",
+      "Look for unique compositions and midday reflected light within the towering formations."
+    ],
+    "image_url": "https://miro.medium.com/v2/resize:fit:700/1*kTK2EOYePwJvkvvLEFbmbQ.jpeg",
+    "source_url": "https://matt-ashley.medium.com/a-landscape-photographers-guide-to-bryce-canyon-national-park-130a75de7bdc"
+  },
+  {
+    "rank": 16,
+    "name": "Upper Inspiration Point",
+    "parkCode": "brca",
+    "description": "A peaceful rim viewpoint located south of the main area in the heart of hoodoo heaven.",
+    "best_time_of_day": [
+      "Sunrise"
+    ],
+    "tips": [
+      "Perfect for a rest after a sunrise hike as it is a short walk from the roadside."
+    ],
+    "image_url": "https://njproductions.us/media/widgetkit/bryce-inspiration-point-7fa0321d799b804fe970197d36fcee3d.jpg",
+    "source_url": "https://njproductions.us/blog/travel/photographers-guide-to-bryce-canyon-national-park"
+  },
+  {
+    "rank": 17,
+    "name": "Fairyland Point",
+    "parkCode": "brca",
+    "description": "A less known but fantastic viewpoint north of the main park area.",
+    "best_time_of_day": [
+      "Sunrise"
+    ],
+    "tips": [
+      "Great for avoiding the heavier crowds of the main amphitheater."
+    ],
+    "image_url": "https://njproductions.us/media/widgetkit/bryce-fairyland-point-1d42e316b69290275bddb41d89728560.jpg",
+    "source_url": "https://njproductions.us/blog/travel/photographers-guide-to-bryce-canyon-national-park"
+  },
+  {
+    "rank": 18,
+    "name": "Rainbow Point Scenic Drive",
+    "parkCode": "brca",
+    "description": "An 18-mile road with several viewpoints including Swamp Canyon, Agua Canyon, and Rainbow Point which faces south.",
+    "best_time_of_day": [
+      "Afternoon"
+    ],
+    "tips": [
+      "The pull-offs are best for the afternoon when it is hotter or after hiking.",
+      "Rainbow Point itself offers a unique south-facing view."
+    ],
+    "image_url": "https://njproductions.us/media/widgetkit/bryce-rainbow-point-a313d21b29044af94669e18a9e1ba1a8.jpg",
+    "source_url": "https://njproductions.us/blog/travel/photographers-guide-to-bryce-canyon-national-park"
+  },
+  {
+    "rank": 19,
+    "name": "Bryce Natural Bridge",
+    "parkCode": "brca",
+    "description": "A favorite roadside pull-off along the scenic drive featuring a dramatic natural arch.",
+    "best_time_of_day": [
+      "Afternoon"
+    ],
+    "tips": [
+      "Completely roadside, making it an easy photography stop without hiking."
+    ],
+    "image_url": "https://njproductions.us/media/widgetkit/bryce-natural-bridge-ef4d9e56aac231cacb50a611cc094fc1.jpg",
+    "source_url": "https://njproductions.us/blog/travel/photographers-guide-to-bryce-canyon-national-park"
+  },
+  {
+    "rank": 20,
+    "name": "Agua Canyon Overlook",
+    "parkCode": "brca",
+    "description": "Offers views of isolated formations set against layers of distant mountains.",
+    "best_time_of_day": [
+      "Afternoon"
+    ],
+    "tips": [
+      "Located further from the main hoodoos, it provides a different perspective of the landscape."
+    ],
+    "image_url": "https://njproductions.us/media/widgetkit/bryce-agua-canyon-overlook-556057ac364af9ec2d1b09dc283dae81.jpg",
+    "source_url": "https://njproductions.us/blog/travel/photographers-guide-to-bryce-canyon-national-park"
+  },
+  {
+    "rank": 21,
+    "name": "Mossy Cave Trail",
+    "parkCode": "brca",
+    "description": "A 0.8mi trail along a river featuring a waterfall and views very different from the main amphitheater.",
+    "best_time_of_day": [
+      "Sunrise",
+      "Sunset"
+    ],
+    "tips": [
+      "The parking lot is small so you may need to wait for a spot.",
+      "You can walk up and on top of the waterfall for unique angles."
+    ],
+    "image_url": "https://njproductions.us/media/widgetkit/bryce-mossy-cave-trail-a36fe8611ed2ebe6796d101c6899b55d.jpg",
+    "source_url": "https://njproductions.us/blog/travel/photographers-guide-to-bryce-canyon-national-park"
+  },
+  {
+    "rank": 22,
+    "name": "Pink Ledges Trail",
+    "parkCode": "brca",
+    "description": "A short hike through the heart of Red Canyon with beautiful pink rock formations.",
+    "best_time_of_day": [
+      "Sunrise",
+      "Sunset"
+    ],
+    "tips": [
+      "Located directly behind the Red Canyon Visitors Center.",
+      "Offers great aerial-style views of the trail and formations."
+    ],
+    "image_url": "https://njproductions.us/media/widgetkit/red-canyon-pink-ledges-d253973f99a9c1b4fecc9e0815c89f3e.jpg",
+    "source_url": "https://njproductions.us/blog/travel/photographers-guide-to-bryce-canyon-national-park"
+  },
+  {
+    "rank": 23,
+    "name": "Scenic Drive / Tunnels",
+    "parkCode": "brca",
+    "description": "The main road through Red Canyon featuring two back-to-back tunnels carved through red rock.",
+    "best_time_of_day": [
+      "Sunrise",
+      "Sunset"
+    ],
+    "tips": [
+      "Utilize the roadside pull-offs to photograph the tunnels and road curves."
+    ],
+    "image_url": "https://njproductions.us/media/widgetkit/red-canyon-scenic-drive-0efc07a95984b3da5d1087a2230467be.jpg",
+    "source_url": "https://njproductions.us/blog/travel/photographers-guide-to-bryce-canyon-national-park"
+  },
+  {
+    "rank": 24,
+    "name": "Arches Trail",
+    "parkCode": "brca",
+    "description": "A quiet 0.6mi hike that passes by several small natural arches.",
+    "best_time_of_day": [
+      "Sunrise",
+      "Sunset"
+    ],
+    "tips": [
+      "Great for a more solitary photography experience away from main traffic."
+    ],
+    "image_url": "https://njproductions.us/media/widgetkit/red-canyon-arches-trail-29b36d5b71b7a8f384af0f6cca3fe8f8.jpg",
+    "source_url": "https://njproductions.us/blog/travel/photographers-guide-to-bryce-canyon-national-park"
+  },
+  {
+    "rank": 25,
+    "name": "Golden Wall",
+    "parkCode": "brca",
+    "description": "A 4.6mi loop featuring a massive golden-colored wall and trails running along the rim.",
+    "best_time_of_day": [
+      "Sunrise",
+      "Sunset"
+    ],
+    "tips": [
+      "This is a drone-friendly area where you can capture amazing aerial shots.",
+      "The Golden Wall sits high above the trail."
+    ],
+    "image_url": "https://njproductions.us/media/widgetkit/red-canyon-golden-wall-4b227de451eb130ec85105925df9931f.jpg",
+    "source_url": "https://njproductions.us/blog/travel/photographers-guide-to-bryce-canyon-national-park"
+  }
+]
