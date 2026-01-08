@@ -1,0 +1,47 @@
+{
+  "parkCode": "brca",
+  "current_temp_f": 26.1,
+  "current_condition": "Heavy snow",
+  "wind_mph": 10.3,
+  "humidity": 88,
+  "forecast": [
+    {
+      "date": "2026-01-08",
+      "maxtemp_f": 28.6,
+      "mintemp_f": 13.4,
+      "avgtemp_f": 24.3,
+      "daily_chance_of_rain": 82,
+      "condition": "Thundery outbreaks in nearby",
+      "uv": 0.3
+    },
+    {
+      "date": "2026-01-09",
+      "maxtemp_f": 25.7,
+      "mintemp_f": 8.4,
+      "avgtemp_f": 15.2,
+      "daily_chance_of_rain": 0,
+      "condition": "Sunny",
+      "uv": 0.4
+    },
+    {
+      "date": "2026-01-10",
+      "maxtemp_f": 35.6,
+      "mintemp_f": 7.7,
+      "avgtemp_f": 20.1,
+      "daily_chance_of_rain": 0,
+      "condition": "Sunny",
+      "uv": 0.5
+    }
+  ],
+  "sunrise": "07:44 AM",
+  "sunset": "05:27 PM",
+  "weather_alerts": [
+    {
+      "event": "Winter Weather Advisory",
+      "severity": "Moderate",
+      "headline": "Winter Weather Advisory issued January 7 at 4:42PM MST until January 8 at 5:00PM MST by NWS Salt Lake City UT",
+      "effective": "2026-01-07T16:42:00-07:00",
+      "expires": "2026-01-08T07:45:00-07:00"
+    }
+  ]
+}

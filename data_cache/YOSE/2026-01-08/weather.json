@@ -1,0 +1,39 @@
+{
+  "parkCode": "yose",
+  "current_temp_f": 20.4,
+  "current_condition": "Sunny",
+  "wind_mph": 7.8,
+  "humidity": 67,
+  "forecast": [
+    {
+      "date": "2026-01-08",
+      "maxtemp_f": 27.1,
+      "mintemp_f": 11.6,
+      "avgtemp_f": 19.5,
+      "daily_chance_of_rain": 64,
+      "condition": "Moderate or heavy snow showers",
+      "uv": 0.5
+    },
+    {
+      "date": "2026-01-09",
+      "maxtemp_f": 38.8,
+      "mintemp_f": 17.6,
+      "avgtemp_f": 28.8,
+      "daily_chance_of_rain": 0,
+      "condition": "Sunny",
+      "uv": 0.5
+    },
+    {
+      "date": "2026-01-10",
+      "maxtemp_f": 43.0,
+      "mintemp_f": 22.7,
+      "avgtemp_f": 30.5,
+      "daily_chance_of_rain": 0,
+      "condition": "Sunny",
+      "uv": 0.6
+    }
+  ],
+  "sunrise": "07:14 AM",
+  "sunset": "04:56 PM",
+  "weather_alerts": []
+}

@@ -1,0 +1,738 @@
+[
+  {
+    "title": "Veterans Day",
+    "description": "Entrance Fee free Day at Bryce Canyon National Park for Veterans Day. A solid Salute to our Warriors serving and protecting this land.",
+    "date_start": "2017-11-11",
+    "date_end": "2017-11-11",
+    "is_free": true,
+    "location": "Bryce Canyon",
+    "times": [],
+    "images": [],
+    "dates": [
+      "2026-11-11",
+      "2027-11-11",
+      "2028-11-11",
+      "2029-11-11",
+      "2030-11-11"
+    ],
+    "tags": [],
+    "types": [
+      "Other"
+    ],
+    "fee_info": "Entrance Fee Free"
+  },
+  {
+    "title": "Visitor Center Ranger Talk",
+    "description": "<p>Come join a Ranger at the Visitor Center, either on the Plaza or in the museum, for a talk on a topic of the ranger's choosing, covering natural, cultural, or historical resources related to Bryce Canyon NP.\u00a0</p>\n<p>Check the visitor center the day of to learn if the program will be on the plaza or in the museum. Typically, weather will dictate location.\u00a0</p>\n<p>Wheelchair Accessible.</p>\n<p>Program subject to cancellation due to staffing.</p>",
+    "date_start": "2025-11-16",
+    "date_end": "2025-11-16",
+    "is_free": true,
+    "location": "Outside the Visitor Center on the Plaza, or in the museum inside the Visitor Center",
+    "times": [
+      {
+        "timestart": "02:00 PM",
+        "timeend": "03:00 PM",
+        "sunrisestart": "false",
+        "sunsetend": "false"
+      }
+    ],
+    "images": [
+      {
+        "url": "https://www.nps.gov/common/uploads/event_calendar/57E77837-C356-F878-B3DB2091D3C2B2DC.jpg",
+        "title": "",
+        "altText": "A man in a park ranger uniform stands beside a sign ready Geology Talks meet here",
+        "caption": "Join a ranger for a 20 minute exploration of how hoodoos happen!",
+        "credit": "NPS Photo"
+      }
+    ],
+    "dates": [
+      "2026-01-08",
+      "2026-01-09",
+      "2026-01-10",
+      "2026-01-11",
+      "2026-01-12",
+      "2026-01-13",
+      "2026-01-14",
+      "2026-01-15",
+      "2026-01-16",
+      "2026-01-17",
+      "2026-01-18",
+      "2026-01-19",
+      "2026-01-20",
+      "2026-01-21",
+      "2026-01-22",
+      "2026-01-23",
+      "2026-01-24",
+      "2026-01-25",
+      "2026-01-26",
+      "2026-01-27",
+      "2026-01-28",
+      "2026-01-29",
+      "2026-01-30",
+      "2026-01-31",
+      "2026-02-01",
+      "2026-02-02",
+      "2026-02-03",
+      "2026-02-04",
+      "2026-02-05",
+      "2026-02-06",
+      "2026-02-07",
+      "2026-02-08",
+      "2026-02-09",
+      "2026-02-10",
+      "2026-02-11",
+      "2026-02-12",
+      "2026-02-13",
+      "2026-02-14",
+      "2026-02-15",
+      "2026-02-16",
+      "2026-02-17",
+      "2026-02-18",
+      "2026-02-19",
+      "2026-02-20",
+      "2026-02-21",
+      "2026-02-22",
+      "2026-02-23",
+      "2026-02-24",
+      "2026-02-25",
+      "2026-02-26",
+      "2026-02-27",
+      "2026-02-28",
+      "2026-03-01",
+      "2026-03-02",
+      "2026-03-03",
+      "2026-03-04",
+      "2026-03-05",
+      "2026-03-06",
+      "2026-03-07",
+      "2026-03-08",
+      "2026-03-09",
+      "2026-03-10",
+      "2026-03-11",
+      "2026-03-12",
+      "2026-03-13",
+      "2026-03-14",
+      "2026-03-15",
+      "2026-03-16",
+      "2026-03-17",
+      "2026-03-18",
+      "2026-03-19",
+      "2026-03-20",
+      "2026-03-21",
+      "2026-03-22",
+      "2026-03-23",
+      "2026-03-24",
+      "2026-03-25",
+      "2026-03-26",
+      "2026-03-27",
+      "2026-03-28",
+      "2026-03-29",
+      "2026-03-30",
+      "2026-03-31",
+      "2026-04-01",
+      "2026-04-02",
+      "2026-04-03",
+      "2026-04-04",
+      "2026-04-05",
+      "2026-04-06",
+      "2026-04-07",
+      "2026-04-08",
+      "2026-04-09",
+      "2026-04-10",
+      "2026-04-11",
+      "2026-04-12",
+      "2026-04-13",
+      "2026-04-14",
+      "2026-04-15",
+      "2026-04-16",
+      "2026-04-17",
+      "2026-04-18",
+      "2026-04-19",
+      "2026-04-20",
+      "2026-04-21",
+      "2026-04-22",
+      "2026-04-23",
+      "2026-04-24"
+    ],
+    "tags": [],
+    "types": [
+      "Talk"
+    ],
+    "fee_info": ""
+  },
+  {
+    "title": "Geology Ranger Talk",
+    "description": "<p>Come join a Ranger near Sunset Point and learn about the geology of Bryce Canyon. Program typically lasts 20-40 minutes.\u00a0</p>\n<p>Wheelchair accessible.</p>\n<p>This event will be cancelled in the event of thunderstorms, low wind chill, or staffing shortages.</p>",
+    "date_start": "2025-12-07",
+    "date_end": "2025-12-07",
+    "is_free": true,
+    "location": "Ranger Talk alcove to right of Sunset Point",
+    "times": [
+      {
+        "timestart": "11:00 AM",
+        "timeend": "12:00 PM",
+        "sunrisestart": "false",
+        "sunsetend": "false"
+      }
+    ],
+    "images": [],
+    "dates": [
+      "2026-01-08",
+      "2026-01-09",
+      "2026-01-10",
+      "2026-01-11",
+      "2026-01-12",
+      "2026-01-13",
+      "2026-01-14",
+      "2026-01-15",
+      "2026-01-16",
+      "2026-01-17",
+      "2026-01-18",
+      "2026-01-19",
+      "2026-01-20",
+      "2026-01-21",
+      "2026-01-22",
+      "2026-01-23",
+      "2026-01-24",
+      "2026-01-25",
+      "2026-01-26",
+      "2026-01-27",
+      "2026-01-28",
+      "2026-01-29",
+      "2026-01-30",
+      "2026-01-31",
+      "2026-02-01",
+      "2026-02-02",
+      "2026-02-03",
+      "2026-02-04",
+      "2026-02-05",
+      "2026-02-06",
+      "2026-02-07",
+      "2026-02-08",
+      "2026-02-09",
+      "2026-02-10",
+      "2026-02-11",
+      "2026-02-12",
+      "2026-02-13",
+      "2026-02-14",
+      "2026-02-15",
+      "2026-02-16",
+      "2026-02-17",
+      "2026-02-18",
+      "2026-02-19",
+      "2026-02-20",
+      "2026-02-21",
+      "2026-02-22",
+      "2026-02-23",
+      "2026-02-24",
+      "2026-02-25",
+      "2026-02-26",
+      "2026-02-27",
+      "2026-02-28",
+      "2026-03-01",
+      "2026-03-02",
+      "2026-03-03",
+      "2026-03-04",
+      "2026-03-05",
+      "2026-03-06",
+      "2026-03-07",
+      "2026-03-08",
+      "2026-03-09",
+      "2026-03-10",
+      "2026-03-11",
+      "2026-03-12",
+      "2026-03-13",
+      "2026-03-14",
+      "2026-03-15",
+      "2026-03-16",
+      "2026-03-17",
+      "2026-03-18",
+      "2026-03-19",
+      "2026-03-20",
+      "2026-03-21",
+      "2026-03-22",
+      "2026-03-23",
+      "2026-03-24",
+      "2026-03-25",
+      "2026-03-26",
+      "2026-03-27",
+      "2026-03-28",
+      "2026-03-29",
+      "2026-03-30",
+      "2026-03-31",
+      "2026-04-01",
+      "2026-04-02",
+      "2026-04-03",
+      "2026-04-04",
+      "2026-04-05",
+      "2026-04-06",
+      "2026-04-07",
+      "2026-04-08",
+      "2026-04-09",
+      "2026-04-10",
+      "2026-04-11",
+      "2026-04-12",
+      "2026-04-13",
+      "2026-04-14",
+      "2026-04-15",
+      "2026-04-16",
+      "2026-04-17",
+      "2026-04-18",
+      "2026-04-19",
+      "2026-04-20",
+      "2026-04-21",
+      "2026-04-22",
+      "2026-04-23",
+      "2026-04-24"
+    ],
+    "tags": [],
+    "types": [
+      "Talk"
+    ],
+    "fee_info": ""
+  },
+  {
+    "title": "Full Moon Hike",
+    "description": "<p>Typically offered year-round at sunset as weather permits.\u00a0Those planning to join a ranger-led full moon hike at Bryce Canyon National Park can make reservations online via <a id=\"https://www.recreation.gov/ticket/facility/10112209?tab=info|\" href=\"https://www.recreation.gov/ticket/facility/10112209?tab=info\" data-cke-saved-href=\"https://www.recreation.gov/ticket/facility/10112209?tab=info\">Recreation.gov</a>. Tickets for each month\u2019s hike are released in two phases, 14 and 5 days in advance.<br /><br />This is a \"ranger's choice\" hike and can range from an easy hike along the rim of the plateau to a more strenuous hike that descends down into the canyon along steep and rocky trails. More information will be given on the day of the event. Hikes are typically 1 to 2 miles.<br /><br /><strong>For more information on full moon hikes, including schedules and how to participate, please visit our <a id=\"https://www.nps.gov/brca/planyourvisit/fullmoonhikes.htm|\" href=\"https://www.nps.gov/brca/planyourvisit/fullmoonhikes.htm\" data-cke-saved-href=\"https://www.nps.gov/brca/planyourvisit/fullmoonhikes.htm\">Full Moon Hikes</a> page.</strong></p>\n<h4>Due to the nature of this special activity all participants must agree to the following rules:</h4>\n<ul>\n<li>Children 7 and younger are not permitted.</li>\n<li>Hiking boots or hiking shoes (lug soles) in good condition are required for your safety and the safety of Park Staff and other Participant(s).</li>\n<li>White light flashlights, headlamps\u00a0are not\u00a0allowed to be used during the hike (you may bring them for later use). Red light flashlights and headlamps are permitted as necessary. Flash photography may be permitted under key restrictions.</li>\n<li>Bring drinking water and a jacket - night time temperatures can be cold.</li>\n<li>Due to steep and rocky trails this activity is not wheelchair accessible.</li>\n<li>Pets are not allowed.</li>\n</ul>\n<p>\u00a0Windchill will cancel this event.</p>",
+    "date_start": "2026-02-01",
+    "date_end": "2026-02-01",
+    "is_free": true,
+    "location": "Meeting location and route varies.",
+    "times": [
+      {
+        "timestart": "05:00 PM",
+        "timeend": "06:00 PM",
+        "sunrisestart": "false",
+        "sunsetend": "false"
+      }
+    ],
+    "images": [
+      {
+        "url": "https://www.nps.gov/common/uploads/event_calendar/410F7A13-90CD-DC4A-63B644303AE9B064.jpg",
+        "title": "",
+        "altText": "Moonrse over Bryce Canyon amplitheaters",
+        "caption": "Moonrse over Bryce Canyon amplitheaters",
+        "credit": "NPS Photo"
+      }
+    ],
+    "dates": [
+      "2026-02-01"
+    ],
+    "tags": [],
+    "types": [
+      "Campfire/Evening Program",
+      "Guided Tour",
+      "Hike",
+      "Talk",
+      "Walk"
+    ],
+    "fee_info": ""
+  },
+  {
+    "title": "Full Moon Hike",
+    "description": "<p>Typically offered year-round at sunset as weather permits.\u00a0Those planning to join a ranger-led full moon hike at Bryce Canyon National Park can make reservations online via <a id=\"https://www.recreation.gov/ticket/facility/10112209?tab=info|\" href=\"https://www.recreation.gov/ticket/facility/10112209?tab=info\" data-cke-saved-href=\"https://www.recreation.gov/ticket/facility/10112209?tab=info\">Recreation.gov</a>. Tickets for each month\u2019s hike are released in two phases, 14 and 5 days in advance.<br /><br />This is a \"ranger's choice\" hike and can range from an easy hike along the rim of the plateau to a more strenuous hike that descends down into the canyon along steep and rocky trails. More information will be given on the day of the event. Hikes are typically 1 to 2 miles.<br /><br /><strong>For more information on full moon hikes, including schedules and how to participate, please visit our <a id=\"https://www.nps.gov/brca/planyourvisit/fullmoonhikes.htm|\" href=\"https://www.nps.gov/brca/planyourvisit/fullmoonhikes.htm\" data-cke-saved-href=\"https://www.nps.gov/brca/planyourvisit/fullmoonhikes.htm\">Full Moon Hikes</a> page.</strong></p>\n<h4>Due to the nature of this special activity all participants must agree to the following rules:</h4>\n<ul>\n<li>Children 7 and younger are not permitted.</li>\n<li>Hiking boots or hiking shoes (lug soles) in good condition are required for your safety and the safety of Park Staff and other Participant(s).</li>\n<li>White light flashlights, headlamps\u00a0are not\u00a0allowed to be used during the hike (you may bring them for later use). Red light flashlights and headlamps are permitted as necessary. Flash photography may be permitted under key restrictions.</li>\n<li>Bring drinking water and a jacket - night time temperatures can be cold.</li>\n<li>Due to steep and rocky trails this activity is not wheelchair accessible.</li>\n<li>Pets are not allowed.</li>\n</ul>\n<p>\u00a0Windchill will cancel this event.</p>",
+    "date_start": "2026-03-03",
+    "date_end": "2026-03-03",
+    "is_free": true,
+    "location": "Meeting location and route varies.",
+    "times": [
+      {
+        "timestart": "06:00 PM",
+        "timeend": "07:00 PM",
+        "sunrisestart": "false",
+        "sunsetend": "false"
+      }
+    ],
+    "images": [
+      {
+        "url": "https://www.nps.gov/common/uploads/event_calendar/410F7A13-90CD-DC4A-63B644303AE9B064.jpg",
+        "title": "",
+        "altText": "Moonrse over Bryce Canyon amplitheaters",
+        "caption": "Moonrse over Bryce Canyon amplitheaters",
+        "credit": "NPS Photo"
+      }
+    ],
+    "dates": [
+      "2026-03-03"
+    ],
+    "tags": [],
+    "types": [
+      "Campfire/Evening Program",
+      "Guided Tour",
+      "Hike",
+      "Talk",
+      "Walk"
+    ],
+    "fee_info": ""
+  },
+  {
+    "title": "Full Moon Hike",
+    "description": "<p>Typically offered year-round at sunset as weather permits.\u00a0Those planning to join a ranger-led full moon hike at Bryce Canyon National Park can make reservations online via <a id=\"https://www.recreation.gov/ticket/facility/10112209?tab=info|\" href=\"https://www.recreation.gov/ticket/facility/10112209?tab=info\" data-cke-saved-href=\"https://www.recreation.gov/ticket/facility/10112209?tab=info\">Recreation.gov</a>. Tickets for each month\u2019s hike are released in two phases, 14 and 5 days in advance.<br /><br />This is a \"ranger's choice\" hike and can range from an easy hike along the rim of the plateau to a more strenuous hike that descends down into the canyon along steep and rocky trails. More information will be given on the day of the event. Hikes are typically 1 to 2 miles.<br /><br /><strong>For more information on full moon hikes, including schedules and how to participate, please visit our <a id=\"https://www.nps.gov/brca/planyourvisit/fullmoonhikes.htm|\" href=\"https://www.nps.gov/brca/planyourvisit/fullmoonhikes.htm\" data-cke-saved-href=\"https://www.nps.gov/brca/planyourvisit/fullmoonhikes.htm\">Full Moon Hikes</a> page.</strong></p>\n<h4>Due to the nature of this special activity all participants must agree to the following rules:</h4>\n<ul>\n<li>Children 7 and younger are not permitted.</li>\n<li>Hiking boots or hiking shoes (lug soles) in good condition are required for your safety and the safety of Park Staff and other Participant(s).</li>\n<li>White light flashlights, headlamps\u00a0are not\u00a0allowed to be used during the hike (you may bring them for later use). Red light flashlights and headlamps are permitted as necessary. Flash photography may be permitted under key restrictions.</li>\n<li>Bring drinking water and a jacket - night time temperatures can be cold.</li>\n<li>Due to steep and rocky trails this activity is not wheelchair accessible.</li>\n<li>Pets are not allowed.</li>\n</ul>\n<p>\u00a0Windchill will cancel this event.</p>",
+    "date_start": "2026-04-01",
+    "date_end": "2026-04-01",
+    "is_free": true,
+    "location": "Meeting location and route varies.",
+    "times": [
+      {
+        "timestart": "07:00 PM",
+        "timeend": "08:00 PM",
+        "sunrisestart": "false",
+        "sunsetend": "false"
+      }
+    ],
+    "images": [
+      {
+        "url": "https://www.nps.gov/common/uploads/event_calendar/410F7A13-90CD-DC4A-63B644303AE9B064.jpg",
+        "title": "",
+        "altText": "Moonrse over Bryce Canyon amplitheaters",
+        "caption": "Moonrse over Bryce Canyon amplitheaters",
+        "credit": "NPS Photo"
+      }
+    ],
+    "dates": [
+      "2026-04-01"
+    ],
+    "tags": [],
+    "types": [
+      "Campfire/Evening Program",
+      "Guided Tour",
+      "Hike",
+      "Talk",
+      "Walk"
+    ],
+    "fee_info": ""
+  },
+  {
+    "title": "Full Moon Hike",
+    "description": "<p>Typically offered year-round at sunset as weather permits.\u00a0Those planning to join a ranger-led full moon hike at Bryce Canyon National Park can make reservations online via <a id=\"https://www.recreation.gov/ticket/facility/10112209?tab=info|\" href=\"https://www.recreation.gov/ticket/facility/10112209?tab=info\" data-cke-saved-href=\"https://www.recreation.gov/ticket/facility/10112209?tab=info\">Recreation.gov</a>. Tickets for each month\u2019s hike are released in two phases, 14 and 5 days in advance.<br /><br />This is a \"ranger's choice\" hike and can range from an easy hike along the rim of the plateau to a more strenuous hike that descends down into the canyon along steep and rocky trails. More information will be given on the day of the event. Hikes are typically 1 to 2 miles.<br /><br /><strong>For more information on full moon hikes, including schedules and how to participate, please visit our <a id=\"https://www.nps.gov/brca/planyourvisit/fullmoonhikes.htm|\" href=\"https://www.nps.gov/brca/planyourvisit/fullmoonhikes.htm\" data-cke-saved-href=\"https://www.nps.gov/brca/planyourvisit/fullmoonhikes.htm\">Full Moon Hikes</a> page.</strong></p>\n<h4>Due to the nature of this special activity all participants must agree to the following rules:</h4>\n<ul>\n<li>Children 7 and younger are not permitted.</li>\n<li>Hiking boots or hiking shoes (lug soles) in good condition are required for your safety and the safety of Park Staff and other Participant(s).</li>\n<li>White light flashlights, headlamps\u00a0are not\u00a0allowed to be used during the hike (you may bring them for later use). Red light flashlights and headlamps are permitted as necessary. Flash photography may be permitted under key restrictions.</li>\n<li>Bring drinking water and a jacket - night time temperatures can be cold.</li>\n<li>Due to steep and rocky trails this activity is not wheelchair accessible.</li>\n<li>Pets are not allowed.</li>\n</ul>\n<p>\u00a0Windchill will cancel this event.</p>",
+    "date_start": "2026-05-01",
+    "date_end": "2026-05-01",
+    "is_free": true,
+    "location": "Meeting location and route varies.",
+    "times": [
+      {
+        "timestart": "08:00 PM",
+        "timeend": "09:00 PM",
+        "sunrisestart": "false",
+        "sunsetend": "false"
+      }
+    ],
+    "images": [
+      {
+        "url": "https://www.nps.gov/common/uploads/event_calendar/410F7A13-90CD-DC4A-63B644303AE9B064.jpg",
+        "title": "",
+        "altText": "Moonrse over Bryce Canyon amplitheaters",
+        "caption": "Moonrse over Bryce Canyon amplitheaters",
+        "credit": "NPS Photo"
+      }
+    ],
+    "dates": [
+      "2026-05-01"
+    ],
+    "tags": [],
+    "types": [
+      "Campfire/Evening Program",
+      "Guided Tour",
+      "Hike",
+      "Talk",
+      "Walk"
+    ],
+    "fee_info": ""
+  },
+  {
+    "title": "Full Moon Hike",
+    "description": "<p>Typically offered year-round at sunset as weather permits.\u00a0Those planning to join a ranger-led full moon hike at Bryce Canyon National Park can make reservations online via <a id=\"https://www.recreation.gov/ticket/facility/10112209?tab=info|\" href=\"https://www.recreation.gov/ticket/facility/10112209?tab=info\" data-cke-saved-href=\"https://www.recreation.gov/ticket/facility/10112209?tab=info\">Recreation.gov</a>. Tickets for each month\u2019s hike are released in two phases, 14 and 5 days in advance.<br /><br />This is a \"ranger's choice\" hike and can range from an easy hike along the rim of the plateau to a more strenuous hike that descends down into the canyon along steep and rocky trails. More information will be given on the day of the event. Hikes are typically 1 to 2 miles.<br /><br /><strong>For more information on full moon hikes, including schedules and how to participate, please visit our <a id=\"https://www.nps.gov/brca/planyourvisit/fullmoonhikes.htm|\" href=\"https://www.nps.gov/brca/planyourvisit/fullmoonhikes.htm\" data-cke-saved-href=\"https://www.nps.gov/brca/planyourvisit/fullmoonhikes.htm\">Full Moon Hikes</a> page.</strong></p>\n<h4>Due to the nature of this special activity all participants must agree to the following rules:</h4>\n<ul>\n<li>Children 7 and younger are not permitted.</li>\n<li>Hiking boots or hiking shoes (lug soles) in good condition are required for your safety and the safety of Park Staff and other Participant(s).</li>\n<li>White light flashlights, headlamps\u00a0are not\u00a0allowed to be used during the hike (you may bring them for later use). Red light flashlights and headlamps are permitted as necessary. Flash photography may be permitted under key restrictions.</li>\n<li>Bring drinking water and a jacket - night time temperatures can be cold.</li>\n<li>Due to steep and rocky trails this activity is not wheelchair accessible.</li>\n<li>Pets are not allowed.</li>\n</ul>\n<p>\u00a0Windchill will cancel this event.</p>",
+    "date_start": "2026-05-30",
+    "date_end": "2026-05-30",
+    "is_free": true,
+    "location": "Meeting location and route varies.",
+    "times": [
+      {
+        "timestart": "08:00 PM",
+        "timeend": "09:00 PM",
+        "sunrisestart": "false",
+        "sunsetend": "false"
+      }
+    ],
+    "images": [
+      {
+        "url": "https://www.nps.gov/common/uploads/event_calendar/410F7A13-90CD-DC4A-63B644303AE9B064.jpg",
+        "title": "",
+        "altText": "Moonrse over Bryce Canyon amplitheaters",
+        "caption": "Moonrse over Bryce Canyon amplitheaters",
+        "credit": "NPS Photo"
+      }
+    ],
+    "dates": [
+      "2026-05-30"
+    ],
+    "tags": [],
+    "types": [
+      "Campfire/Evening Program",
+      "Guided Tour",
+      "Hike",
+      "Talk",
+      "Walk"
+    ],
+    "fee_info": ""
+  },
+  {
+    "title": "Full Moon Hike",
+    "description": "<p>Typically offered year-round at sunset as weather permits.\u00a0Those planning to join a ranger-led full moon hike at Bryce Canyon National Park can make reservations online via <a id=\"https://www.recreation.gov/ticket/facility/10112209?tab=info|\" href=\"https://www.recreation.gov/ticket/facility/10112209?tab=info\" data-cke-saved-href=\"https://www.recreation.gov/ticket/facility/10112209?tab=info\">Recreation.gov</a>. Tickets for each month\u2019s hike are released in two phases, 14 and 5 days in advance.<br /><br />This is a \"ranger's choice\" hike and can range from an easy hike along the rim of the plateau to a more strenuous hike that descends down into the canyon along steep and rocky trails. More information will be given on the day of the event. Hikes are typically 1 to 2 miles.<br /><br /><strong>For more information on full moon hikes, including schedules and how to participate, please visit our <a id=\"https://www.nps.gov/brca/planyourvisit/fullmoonhikes.htm|\" href=\"https://www.nps.gov/brca/planyourvisit/fullmoonhikes.htm\" data-cke-saved-href=\"https://www.nps.gov/brca/planyourvisit/fullmoonhikes.htm\">Full Moon Hikes</a> page.</strong></p>\n<h4>Due to the nature of this special activity all participants must agree to the following rules:</h4>\n<ul>\n<li>Children 7 and younger are not permitted.</li>\n<li>Hiking boots or hiking shoes (lug soles) in good condition are required for your safety and the safety of Park Staff and other Participant(s).</li>\n<li>White light flashlights, headlamps\u00a0are not\u00a0allowed to be used during the hike (you may bring them for later use). Red light flashlights and headlamps are permitted as necessary. Flash photography may be permitted under key restrictions.</li>\n<li>Bring drinking water and a jacket - night time temperatures can be cold.</li>\n<li>Due to steep and rocky trails this activity is not wheelchair accessible.</li>\n<li>Pets are not allowed.</li>\n</ul>\n<p>\u00a0Windchill will cancel this event.</p>",
+    "date_start": "2026-06-29",
+    "date_end": "2026-06-29",
+    "is_free": true,
+    "location": "Meeting location and route varies.",
+    "times": [
+      {
+        "timestart": "08:30 PM",
+        "timeend": "09:30 PM",
+        "sunrisestart": "false",
+        "sunsetend": "false"
+      }
+    ],
+    "images": [
+      {
+        "url": "https://www.nps.gov/common/uploads/event_calendar/410F7A13-90CD-DC4A-63B644303AE9B064.jpg",
+        "title": "",
+        "altText": "Moonrse over Bryce Canyon amplitheaters",
+        "caption": "Moonrse over Bryce Canyon amplitheaters",
+        "credit": "NPS Photo"
+      }
+    ],
+    "dates": [
+      "2026-06-29"
+    ],
+    "tags": [],
+    "types": [
+      "Campfire/Evening Program",
+      "Guided Tour",
+      "Hike",
+      "Talk",
+      "Walk"
+    ],
+    "fee_info": ""
+  },
+  {
+    "title": "Full Moon Hike",
+    "description": "<p>Typically offered year-round at sunset as weather permits.\u00a0Those planning to join a ranger-led full moon hike at Bryce Canyon National Park can make reservations online via <a id=\"https://www.recreation.gov/ticket/facility/10112209?tab=info|\" href=\"https://www.recreation.gov/ticket/facility/10112209?tab=info\" data-cke-saved-href=\"https://www.recreation.gov/ticket/facility/10112209?tab=info\">Recreation.gov</a>. Tickets for each month\u2019s hike are released in two phases, 14 and 5 days in advance.<br /><br />This is a \"ranger's choice\" hike and can range from an easy hike along the rim of the plateau to a more strenuous hike that descends down into the canyon along steep and rocky trails. More information will be given on the day of the event. Hikes are typically 1 to 2 miles.<br /><br /><strong>For more information on full moon hikes, including schedules and how to participate, please visit our <a id=\"https://www.nps.gov/brca/planyourvisit/fullmoonhikes.htm|\" href=\"https://www.nps.gov/brca/planyourvisit/fullmoonhikes.htm\" data-cke-saved-href=\"https://www.nps.gov/brca/planyourvisit/fullmoonhikes.htm\">Full Moon Hikes</a> page.</strong></p>\n<h4>Due to the nature of this special activity all participants must agree to the following rules:</h4>\n<ul>\n<li>Children 7 and younger are not permitted.</li>\n<li>Hiking boots or hiking shoes (lug soles) in good condition are required for your safety and the safety of Park Staff and other Participant(s).</li>\n<li>White light flashlights, headlamps\u00a0are not\u00a0allowed to be used during the hike (you may bring them for later use). Red light flashlights and headlamps are permitted as necessary. Flash photography may be permitted under key restrictions.</li>\n<li>Bring drinking water and a jacket - night time temperatures can be cold.</li>\n<li>Due to steep and rocky trails this activity is not wheelchair accessible.</li>\n<li>Pets are not allowed.</li>\n</ul>\n<p>\u00a0Windchill will cancel this event.</p>",
+    "date_start": "2026-07-29",
+    "date_end": "2026-07-29",
+    "is_free": true,
+    "location": "Meeting location and route varies.",
+    "times": [
+      {
+        "timestart": "08:00 PM",
+        "timeend": "09:00 PM",
+        "sunrisestart": "false",
+        "sunsetend": "false"
+      }
+    ],
+    "images": [
+      {
+        "url": "https://www.nps.gov/common/uploads/event_calendar/410F7A13-90CD-DC4A-63B644303AE9B064.jpg",
+        "title": "",
+        "altText": "Moonrse over Bryce Canyon amplitheaters",
+        "caption": "Moonrse over Bryce Canyon amplitheaters",
+        "credit": "NPS Photo"
+      }
+    ],
+    "dates": [
+      "2026-07-29"
+    ],
+    "tags": [],
+    "types": [
+      "Campfire/Evening Program",
+      "Guided Tour",
+      "Hike",
+      "Talk",
+      "Walk"
+    ],
+    "fee_info": ""
+  },
+  {
+    "title": "Full Moon Hike",
+    "description": "<p>Typically offered year-round at sunset as weather permits.\u00a0Those planning to join a ranger-led full moon hike at Bryce Canyon National Park can make reservations online via <a id=\"https://www.recreation.gov/ticket/facility/10112209?tab=info|\" href=\"https://www.recreation.gov/ticket/facility/10112209?tab=info\" data-cke-saved-href=\"https://www.recreation.gov/ticket/facility/10112209?tab=info\">Recreation.gov</a>. Tickets for each month\u2019s hike are released in two phases, 14 and 5 days in advance.<br /><br />This is a \"ranger's choice\" hike and can range from an easy hike along the rim of the plateau to a more strenuous hike that descends down into the canyon along steep and rocky trails. More information will be given on the day of the event. Hikes are typically 1 to 2 miles.<br /><br /><strong>For more information on full moon hikes, including schedules and how to participate, please visit our <a id=\"https://www.nps.gov/brca/planyourvisit/fullmoonhikes.htm|\" href=\"https://www.nps.gov/brca/planyourvisit/fullmoonhikes.htm\" data-cke-saved-href=\"https://www.nps.gov/brca/planyourvisit/fullmoonhikes.htm\">Full Moon Hikes</a> page.</strong></p>\n<h4>Due to the nature of this special activity all participants must agree to the following rules:</h4>\n<ul>\n<li>Children 7 and younger are not permitted.</li>\n<li>Hiking boots or hiking shoes (lug soles) in good condition are required for your safety and the safety of Park Staff and other Participant(s).</li>\n<li>White light flashlights, headlamps\u00a0are not\u00a0allowed to be used during the hike (you may bring them for later use). Red light flashlights and headlamps are permitted as necessary. Flash photography may be permitted under key restrictions.</li>\n<li>Bring drinking water and a jacket - night time temperatures can be cold.</li>\n<li>Due to steep and rocky trails this activity is not wheelchair accessible.</li>\n<li>Pets are not allowed.</li>\n</ul>\n<p>\u00a0Windchill will cancel this event.</p>",
+    "date_start": "2026-08-27",
+    "date_end": "2026-08-27",
+    "is_free": true,
+    "location": "Meeting location and route varies.",
+    "times": [
+      {
+        "timestart": "07:00 PM",
+        "timeend": "08:00 PM",
+        "sunrisestart": "false",
+        "sunsetend": "false"
+      }
+    ],
+    "images": [
+      {
+        "url": "https://www.nps.gov/common/uploads/event_calendar/410F7A13-90CD-DC4A-63B644303AE9B064.jpg",
+        "title": "",
+        "altText": "Moonrse over Bryce Canyon amplitheaters",
+        "caption": "Moonrse over Bryce Canyon amplitheaters",
+        "credit": "NPS Photo"
+      }
+    ],
+    "dates": [
+      "2026-08-27"
+    ],
+    "tags": [],
+    "types": [
+      "Campfire/Evening Program",
+      "Guided Tour",
+      "Hike",
+      "Talk",
+      "Walk"
+    ],
+    "fee_info": ""
+  },
+  {
+    "title": "Full Moon Hike",
+    "description": "<p>Typically offered year-round at sunset as weather permits.\u00a0Those planning to join a ranger-led full moon hike at Bryce Canyon National Park can make reservations online via <a id=\"https://www.recreation.gov/ticket/facility/10112209?tab=info|\" href=\"https://www.recreation.gov/ticket/facility/10112209?tab=info\" data-cke-saved-href=\"https://www.recreation.gov/ticket/facility/10112209?tab=info\">Recreation.gov</a>. Tickets for each month\u2019s hike are released in two phases, 14 and 5 days in advance.<br /><br />This is a \"ranger's choice\" hike and can range from an easy hike along the rim of the plateau to a more strenuous hike that descends down into the canyon along steep and rocky trails. More information will be given on the day of the event. Hikes are typically 1 to 2 miles.<br /><br /><strong>For more information on full moon hikes, including schedules and how to participate, please visit our <a id=\"https://www.nps.gov/brca/planyourvisit/fullmoonhikes.htm|\" href=\"https://www.nps.gov/brca/planyourvisit/fullmoonhikes.htm\" data-cke-saved-href=\"https://www.nps.gov/brca/planyourvisit/fullmoonhikes.htm\">Full Moon Hikes</a> page.</strong></p>\n<h4>Due to the nature of this special activity all participants must agree to the following rules:</h4>\n<ul>\n<li>Children 7 and younger are not permitted.</li>\n<li>Hiking boots or hiking shoes (lug soles) in good condition are required for your safety and the safety of Park Staff and other Participant(s).</li>\n<li>White light flashlights, headlamps\u00a0are not\u00a0allowed to be used during the hike (you may bring them for later use). Red light flashlights and headlamps are permitted as necessary. Flash photography may be permitted under key restrictions.</li>\n<li>Bring drinking water and a jacket - night time temperatures can be cold.</li>\n<li>Due to steep and rocky trails this activity is not wheelchair accessible.</li>\n<li>Pets are not allowed.</li>\n</ul>\n<p>\u00a0Windchill will cancel this event.</p>",
+    "date_start": "2026-09-26",
+    "date_end": "2026-09-26",
+    "is_free": true,
+    "location": "Meeting location and route varies.",
+    "times": [
+      {
+        "timestart": "06:30 PM",
+        "timeend": "07:30 PM",
+        "sunrisestart": "false",
+        "sunsetend": "false"
+      }
+    ],
+    "images": [
+      {
+        "url": "https://www.nps.gov/common/uploads/event_calendar/410F7A13-90CD-DC4A-63B644303AE9B064.jpg",
+        "title": "",
+        "altText": "Moonrse over Bryce Canyon amplitheaters",
+        "caption": "Moonrse over Bryce Canyon amplitheaters",
+        "credit": "NPS Photo"
+      }
+    ],
+    "dates": [
+      "2026-09-26"
+    ],
+    "tags": [],
+    "types": [
+      "Campfire/Evening Program",
+      "Guided Tour",
+      "Hike",
+      "Talk",
+      "Walk"
+    ],
+    "fee_info": ""
+  },
+  {
+    "title": "Full Moon Hike",
+    "description": "<p>Typically offered year-round at sunset as weather permits.\u00a0Those planning to join a ranger-led full moon hike at Bryce Canyon National Park can make reservations online via <a id=\"https://www.recreation.gov/ticket/facility/10112209?tab=info|\" href=\"https://www.recreation.gov/ticket/facility/10112209?tab=info\" data-cke-saved-href=\"https://www.recreation.gov/ticket/facility/10112209?tab=info\">Recreation.gov</a>. Tickets for each month\u2019s hike are released in two phases, 14 and 5 days in advance.<br /><br />This is a \"ranger's choice\" hike and can range from an easy hike along the rim of the plateau to a more strenuous hike that descends down into the canyon along steep and rocky trails. More information will be given on the day of the event. Hikes are typically 1 to 2 miles.<br /><br /><strong>For more information on full moon hikes, including schedules and how to participate, please visit our <a id=\"https://www.nps.gov/brca/planyourvisit/fullmoonhikes.htm|\" href=\"https://www.nps.gov/brca/planyourvisit/fullmoonhikes.htm\" data-cke-saved-href=\"https://www.nps.gov/brca/planyourvisit/fullmoonhikes.htm\">Full Moon Hikes</a> page.</strong></p>\n<h4>Due to the nature of this special activity all participants must agree to the following rules:</h4>\n<ul>\n<li>Children 7 and younger are not permitted.</li>\n<li>Hiking boots or hiking shoes (lug soles) in good condition are required for your safety and the safety of Park Staff and other Participant(s).</li>\n<li>White light flashlights, headlamps\u00a0are not\u00a0allowed to be used during the hike (you may bring them for later use). Red light flashlights and headlamps are permitted as necessary. Flash photography may be permitted under key restrictions.</li>\n<li>Bring drinking water and a jacket - night time temperatures can be cold.</li>\n<li>Due to steep and rocky trails this activity is not wheelchair accessible.</li>\n<li>Pets are not allowed.</li>\n</ul>\n<p>\u00a0Windchill will cancel this event.</p>",
+    "date_start": "2026-10-25",
+    "date_end": "2026-10-25",
+    "is_free": true,
+    "location": "Meeting location and route varies.",
+    "times": [
+      {
+        "timestart": "05:30 PM",
+        "timeend": "06:30 PM",
+        "sunrisestart": "false",
+        "sunsetend": "false"
+      }
+    ],
+    "images": [
+      {
+        "url": "https://www.nps.gov/common/uploads/event_calendar/410F7A13-90CD-DC4A-63B644303AE9B064.jpg",
+        "title": "",
+        "altText": "Moonrse over Bryce Canyon amplitheaters",
+        "caption": "Moonrse over Bryce Canyon amplitheaters",
+        "credit": "NPS Photo"
+      }
+    ],
+    "dates": [
+      "2026-10-25"
+    ],
+    "tags": [],
+    "types": [
+      "Campfire/Evening Program",
+      "Guided Tour",
+      "Hike",
+      "Talk",
+      "Walk"
+    ],
+    "fee_info": ""
+  },
+  {
+    "title": "Full Moon Hike",
+    "description": "<p>Typically offered year-round at sunset as weather permits.\u00a0Those planning to join a ranger-led full moon hike at Bryce Canyon National Park can make reservations online via <a id=\"https://www.recreation.gov/ticket/facility/10112209?tab=info|\" href=\"https://www.recreation.gov/ticket/facility/10112209?tab=info\" data-cke-saved-href=\"https://www.recreation.gov/ticket/facility/10112209?tab=info\">Recreation.gov</a>. Tickets for each month\u2019s hike are released in two phases, 14 and 5 days in advance.<br /><br />This is a \"ranger's choice\" hike and can range from an easy hike along the rim of the plateau to a more strenuous hike that descends down into the canyon along steep and rocky trails. More information will be given on the day of the event. Hikes are typically 1 to 2 miles.<br /><br /><strong>For more information on full moon hikes, including schedules and how to participate, please visit our <a id=\"https://www.nps.gov/brca/planyourvisit/fullmoonhikes.htm|\" href=\"https://www.nps.gov/brca/planyourvisit/fullmoonhikes.htm\" data-cke-saved-href=\"https://www.nps.gov/brca/planyourvisit/fullmoonhikes.htm\">Full Moon Hikes</a> page.</strong></p>\n<h4>Due to the nature of this special activity all participants must agree to the following rules:</h4>\n<ul>\n<li>Children 7 and younger are not permitted.</li>\n<li>Hiking boots or hiking shoes (lug soles) in good condition are required for your safety and the safety of Park Staff and other Participant(s).</li>\n<li>White light flashlights, headlamps\u00a0are not\u00a0allowed to be used during the hike (you may bring them for later use). Red light flashlights and headlamps are permitted as necessary. Flash photography may be permitted under key restrictions.</li>\n<li>Bring drinking water and a jacket - night time temperatures can be cold.</li>\n<li>Due to steep and rocky trails this activity is not wheelchair accessible.</li>\n<li>Pets are not allowed.</li>\n</ul>\n<p>\u00a0Windchill will cancel this event.</p>",
+    "date_start": "2026-11-24",
+    "date_end": "2026-11-24",
+    "is_free": true,
+    "location": "Meeting location and route varies.",
+    "times": [
+      {
+        "timestart": "04:30 PM",
+        "timeend": "05:30 PM",
+        "sunrisestart": "false",
+        "sunsetend": "false"
+      }
+    ],
+    "images": [
+      {
+        "url": "https://www.nps.gov/common/uploads/event_calendar/410F7A13-90CD-DC4A-63B644303AE9B064.jpg",
+        "title": "",
+        "altText": "Moonrse over Bryce Canyon amplitheaters",
+        "caption": "Moonrse over Bryce Canyon amplitheaters",
+        "credit": "NPS Photo"
+      }
+    ],
+    "dates": [
+      "2026-11-24"
+    ],
+    "tags": [],
+    "types": [
+      "Campfire/Evening Program",
+      "Guided Tour",
+      "Hike",
+      "Talk",
+      "Walk"
+    ],
+    "fee_info": ""
+  },
+  {
+    "title": "Full Moon Hike",
+    "description": "<p>Typically offered year-round at sunset as weather permits.\u00a0Those planning to join a ranger-led full moon hike at Bryce Canyon National Park can make reservations online via <a id=\"https://www.recreation.gov/ticket/facility/10112209?tab=info|\" href=\"https://www.recreation.gov/ticket/facility/10112209?tab=info\" data-cke-saved-href=\"https://www.recreation.gov/ticket/facility/10112209?tab=info\">Recreation.gov</a>. Tickets for each month\u2019s hike are released in two phases, 14 and 5 days in advance.<br /><br />This is a \"ranger's choice\" hike and can range from an easy hike along the rim of the plateau to a more strenuous hike that descends down into the canyon along steep and rocky trails. More information will be given on the day of the event. Hikes are typically 1 to 2 miles.<br /><br /><strong>For more information on full moon hikes, including schedules and how to participate, please visit our <a id=\"https://www.nps.gov/brca/planyourvisit/fullmoonhikes.htm|\" href=\"https://www.nps.gov/brca/planyourvisit/fullmoonhikes.htm\" data-cke-saved-href=\"https://www.nps.gov/brca/planyourvisit/fullmoonhikes.htm\">Full Moon Hikes</a> page.</strong></p>\n<h4>Due to the nature of this special activity all participants must agree to the following rules:</h4>\n<ul>\n<li>Children 7 and younger are not permitted.</li>\n<li>Hiking boots or hiking shoes (lug soles) in good condition are required for your safety and the safety of Park Staff and other Participant(s).</li>\n<li>White light flashlights, headlamps\u00a0are not\u00a0allowed to be used during the hike (you may bring them for later use). Red light flashlights and headlamps are permitted as necessary. Flash photography may be permitted under key restrictions.</li>\n<li>Bring drinking water and a jacket - night time temperatures can be cold.</li>\n<li>Due to steep and rocky trails this activity is not wheelchair accessible.</li>\n<li>Pets are not allowed.</li>\n</ul>\n<p>\u00a0Windchill will cancel this event.</p>",
+    "date_start": "2026-12-23",
+    "date_end": "2026-12-23",
+    "is_free": true,
+    "location": "Meeting location and route varies.",
+    "times": [
+      {
+        "timestart": "04:00 PM",
+        "timeend": "05:00 PM",
+        "sunrisestart": "false",
+        "sunsetend": "false"
+      }
+    ],
+    "images": [
+      {
+        "url": "https://www.nps.gov/common/uploads/event_calendar/410F7A13-90CD-DC4A-63B644303AE9B064.jpg",
+        "title": "",
+        "altText": "Moonrse over Bryce Canyon amplitheaters",
+        "caption": "Moonrse over Bryce Canyon amplitheaters",
+        "credit": "NPS Photo"
+      }
+    ],
+    "dates": [
+      "2026-12-23"
+    ],
+    "tags": [],
+    "types": [
+      "Campfire/Evening Program",
+      "Guided Tour",
+      "Hike",
+      "Talk",
+      "Walk"
+    ],
+    "fee_info": ""
+  }
+]
