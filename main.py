@@ -134,7 +134,7 @@ with tab_chat:
     # Display Chat History
     for msg in st.session_state.ui_chat_history:
         with st.chat_message(msg["role"]):
-            st.markdown(msg["content"])
+            st.markdown(msg["content"], unsafe_allow_html=True)
 
     # Handle Input
     if prompt := st.chat_input("Ask about reviews, hikes, or safety..."):
@@ -164,7 +164,7 @@ with tab_chat:
                         st.session_state.session_context = resp.updated_context
                         
                         # Display Response
-                        st.markdown(resp.chat_response.message) # REVERTED FROM render_chat_message
+                        st.markdown(resp.chat_response.message, unsafe_allow_html=True) # REVERTED FROM render_chat_message
                         
                         # Append to History
                         st.session_state.ui_chat_history.append({"role": "assistant", "content": resp.chat_response.message})

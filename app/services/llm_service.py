@@ -339,9 +339,69 @@ class GeminiLLMService:
             elif intent.response_type == "safety_info":
                 prompt = f"ROLE: Safety Officer. Analyze risks.\n{base_prompt}"
                 message = self.agent_safety.execute(prompt)
+            # Specific prompts for trail/event/activity queries
+            elif any(t in query_lower for t in ["trail", "hike", "hiking"]):
+                prompt = f"""
+                ROLE: Park Ranger Trail Expert.
+                TASK: Show trails from the "TRAILS" section of context data.
+                
+                CRITICAL INSTRUCTIONS:
+                1. LINKS: The context contains `[Trail Name](url)`. COPY THIS EXACTLY for EVERY SINGLE TRAIL. Do not output plain text names.
+                2. DO NOT include "ACTIVITIES" or "EVENTS" unless they are hikes.
+                2. IMAGES: The context contains `<img ... />`. COPY THIS EXACTLY.
+                3. FORMATTING: Put the image on a NEW LINE after the description.
+                4. USE THE HTML TAGS PROVIDED.
+                5. Group by difficulty.
+                
+                {base_prompt}
+                """
+                message = self.agent_guide.execute(prompt)
+            elif any(t in query_lower for t in ["event", "events"]):
+                prompt = f"""
+                ROLE: Park Event Coordinator.
+                TASK: Show upcoming events from the "EVENTS" section only.
+                
+                CRITICAL INSTRUCTIONS:
+                1. LINKS: Copy `[Event Name](url)` EXACTLY for EVERY event.
+                2. DO NOT include "TRAILS" or "ACTIVITIES".
+                2. IMAGES: Copy the `<img ... />` tag EXACTLY.
+                3. USE THE HTML TAGS PROVIDED.
+                
+                {base_prompt}
+                """
+                message = self.agent_guide.execute(prompt)
+            elif any(t in query_lower for t in ["activity", "activities", "things to do"]):
+                prompt = f"""
+                ROLE: Park Activity Guide.
+                TASK: Show activities from the "ACTIVITIES" section only.
+                
+                CRITICAL INSTRUCTIONS:
+                1. LINKS: Copy `[Activity Name](url)` EXACTLY for EVERY activity.
+                2. DO NOT include "TRAILS" (Hiking) unless explicitly asked. Focus on other things to do (Tours, Museums, etc).
+                2. IMAGES: Copy the `<img ... />` tag EXACTLY.
+                3. USE THE HTML TAGS PROVIDED.
+                
+                {base_prompt}
+                """
+                message = self.agent_guide.execute(prompt)
             else:
                 prompt = f"ROLE: Park Ranger. Be helpful and welcoming.\n{base_prompt}"
                 message = self.agent_guide.execute(prompt)
+            
+            # Add "Explore More" footer for specific topic queries
+            if is_specific_query and not is_broad_overview:
+                footer = "\n\n---\n\n> **Explore more in Park Explorer:**\n"
+                if any(t in query_lower for t in ["trail", "hike", "hiking"]):
+                    footer += f"> 🥾 Browse all trails in the [**Trails Browser**](#trails?park={park_code})\n"
+                if any(t in query_lower for t in ["event", "events"]):
+                    footer += f"> 📅 See all events in the [**Activities & Events**](#activities?park={park_code}) tab\n"
+                if any(t in query_lower for t in ["activity", "activities", "things to do"]):
+                    footer += f"> 🎯 Browse all activities in the [**Activities & Events**](#activities?park={park_code}) tab\n"
+                if any(t in query_lower for t in ["photo", "photos", "photography"]):
+                    footer += f"> 📸 See the best [**Photo Spots**](#photos?park={park_code})\n"
+                if any(t in query_lower for t in ["webcam", "webcams", "live"]):
+                    footer += f"> 📹 View [**Live Webcams**](#webcams?park={park_code})\n"
+                message += footer
 
         return LLMResponse(
             message=message,
@@ -433,30 +493,56 @@ class GeminiLLMService:
                     continue
             return "\n".join(lines)
 
-        # --- Trail Formatter (Strict Layout with URLs) ---
+        # --- Trail Formatter (with Images) ---
         def format_trail(t):
             is_target = review_targets and any(tgt.lower() in t.name.lower() for tgt in review_targets)
             
             # Get trail URL if available
-            trail_url = getattr(t, 'url', None)
+            trail_url = getattr(t, 'url', None) or getattr(t, 'nps_url', None)
             trail_name_display = link(t.name, trail_url)
             
-            base = f"**{trail_name_display}** ({t.difficulty}, {t.length_miles}mi) - {t.average_rating}★"
+            # Get first image URL if available
+            images = getattr(t, 'images', [])
+            image_url = None
+            if images and len(images) > 0:
+                first_img = images[0]
+                image_url = first_img.get('url') if isinstance(first_img, dict) else getattr(first_img, 'url', None)
             
-            if t.recent_reviews:
+            # Safely access trail attributes with defaults
+            difficulty = getattr(t, 'difficulty', None) or 'Unknown'
+            length = getattr(t, 'length_miles', None)
+            rating = getattr(t, 'average_rating', None)
+            
+            # Build trail info string
+            info_parts = [f"**{trail_name_display}**"]
+            if difficulty and difficulty != 'Unknown':
+                info_parts.append(f"({difficulty}")
+                if length:
+                    info_parts[-1] += f", {length}mi)"
+                else:
+                    info_parts[-1] += ")"
+            elif length:
+                info_parts.append(f"({length}mi)")
+            
+            if rating and rating > 0:
+                info_parts.append(f"- {rating}★")
+            
+            base = " ".join(info_parts)
+            
+            # Add image on separate line (Resized using HTML with block div)
+            if image_url:
+                base += f'\n<br><div style="margin-top: 10px;"><img src="{image_url}" width="300" style="border-radius: 5px;" /></div>'
+            
+            # Handle reviews if present
+            recent_reviews = getattr(t, 'recent_reviews', [])
+            if recent_reviews:
                 if is_target:
-                    # Detailed Review View
                     reviews = []
-                    for r in t.recent_reviews:
-                        # 1. Image Gallery (Separated by non-breaking spaces)
+                    for r in recent_reviews:
                         img_gallery = " &nbsp; ".join([f"![]({u})" for u in r.visible_image_urls])
                         if img_gallery:
                              img_gallery = f"\n{img_gallery}\n"
-                        
-                        # 2. Author/Date Logic
                         author = r.author if r.author else "Verified Hiker"
-                        
-                        # 3. Output Block (No H3 headers, just bold)
                         reviews.append(
                             f"\n---\n"
                             f"**{author}** | {r.date} | {r.rating}★\n"
@@ -465,7 +551,6 @@ class GeminiLLMService:
                         )
                     return f"{base}\n{''.join(reviews)}"
                 else:
-                    # Summary View
                     return f"{base} (Recent reviews available)"
             return base
 
@@ -479,16 +564,38 @@ class GeminiLLMService:
             cams = []
             amenities = []
 
-        # Format events with URLs
+        # Format events with URLs and Images
         def format_event(e):
             event_url = getattr(e, 'url', None)
-            return f"{link(e.title, event_url)} ({e.date_start})"
+            
+            # Get first image URL if available
+            images = getattr(e, 'images', [])
+            image_url = None
+            if images and len(images) > 0:
+                first_img = images[0]
+                image_url = first_img.get('url') if isinstance(first_img, dict) else getattr(first_img, 'url', None)
+            
+            result = f"{link(e.title, event_url)} ({e.date_start})"
+            if image_url:
+                result += f'\n<br><div style="margin-top: 10px;"><img src="{image_url}" width="300" style="border-radius: 5px;" /></div>'
+            return result
 
-        # Format activities with URLs
+        # Format activities with URLs and Images
         def format_activity(a):
             activity_url = getattr(a, 'url', None)
-            desc = getattr(a, 'shortDescription', '')
-            return f"{link(a.title, activity_url)}: {desc}"
+            desc = getattr(a, 'shortDescription', '')[:100]  # Truncate long descriptions
+            
+            # Get first image URL if available
+            images = getattr(a, 'images', [])
+            image_url = None
+            if images and len(images) > 0:
+                first_img = images[0]
+                image_url = first_img.get('url') if isinstance(first_img, dict) else getattr(first_img, 'url', None)
+            
+            result = f"{link(a.title, activity_url)}: {desc}"
+            if image_url:
+                result += f'\n<br><div style="margin-top: 10px;"><img src="{image_url}" width="300" style="border-radius: 5px;" /></div>'
+            return result
 
         # Format Alerts with URLs
         def format_alert(a):

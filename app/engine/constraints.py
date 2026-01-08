@@ -7,7 +7,7 @@ logger = logging.getLogger(__name__)
 
 class UserPreference(BaseModel):
     max_difficulty: str = "hard"
-    min_rating: float = 3.5
+    min_rating: float = 0.0 # Default to 0.0 to include unrated/sparse data parks (like Yosemite)
     max_length_miles: float = 20.0
     dog_friendly: bool = False
     kid_friendly: bool = False

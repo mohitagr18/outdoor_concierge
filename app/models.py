@@ -198,8 +198,9 @@ class TrailSummary(BaseModel):
     surface_types: List[str] = []
     surface_types: List[str] = []
     recent_reviews: List[TrailReview] = []
+    images: List[ParkImage] = []  # NEW: Trail images from NPS data
     
-    # NEW FIELDS for URL support
+    # Fields for URL support
     nps_url: Optional[str] = None
     alltrails_url: Optional[str] = None
 
@@ -227,6 +228,7 @@ class TrailSummary(BaseModel):
         if self.features is None: self.features = []
         if self.surface_types is None: self.surface_types = []
         if self.recent_reviews is None: self.recent_reviews = []
+        if self.images is None: self.images = []
         
         return self
 
