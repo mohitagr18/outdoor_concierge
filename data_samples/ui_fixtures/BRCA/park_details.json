@@ -6,6 +6,30 @@
     "lat": 37.58399144,
     "lon": -112.1826689
   },
+  "weather_zones": [
+    {
+      "name": "Amphitheater",
+      "elevation_ft": 8000,
+      "lat": 37.6227,
+      "lon": -112.1661,
+      "description": "Main visitor area - Sunset/Sunrise Points, Navajo Loop"
+    },
+    {
+      "name": "High Plateau",
+      "elevation_ft": 9100,
+      "lat": 37.4733,
+      "lon": -112.2404,
+      "description": "Rainbow/Yovimpa Points, Bristlecone Loop"
+    },
+    {
+      "name": "Northern Canyon",
+      "elevation_ft": 7200,
+      "lat": 37.6657,
+      "lon": -112.1102,
+      "description": "Mossy Cave area, lowest elevation"
+    }
+  ],
+  "base_weather_zone": "Amphitheater",
   "contacts": {
     "phoneNumbers": [
       {

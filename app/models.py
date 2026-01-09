@@ -133,6 +133,16 @@ class Event(BaseModel):
     fee_info: Optional[str] = None
 
 
+
+class WeatherZone(BaseModel):
+    """Represents an elevation-based weather zone within a park."""
+    name: str                          # e.g., "Amphitheater", "High Plateau"
+    elevation_ft: int                  # Representative elevation
+    lat: float                         # Coordinates for weather query
+    lon: float
+    description: Optional[str] = None  # e.g., "Main visitor area"
+
+
 class ParkContext(BaseModel):
     """
     Derived from NPS 'parks' endpoint (parks_search.json).
@@ -154,7 +164,11 @@ class ParkContext(BaseModel):
     places: List[Place] = []
     things_to_do: List[ThingToDo] = []
     passport_stamps: List[PassportStamp] = []
-
+    
+    # Zonal Weather Config
+    weather_zones: List[WeatherZone] = []
+    base_weather_zone: Optional[str] = None
+    
 # --- Weather & Trail Models (Unchanged) ---
 class DailyForecast(BaseModel):
     date: str
@@ -164,6 +178,18 @@ class DailyForecast(BaseModel):
     daily_chance_of_rain: int
     condition: str
     uv: float
+
+
+class ZonalForecast(BaseModel):
+    """Weather data for a specific zone."""
+    zone_name: str
+    elevation_ft: int
+    current_temp_f: float
+    current_condition: str
+    wind_mph: float = 0.0
+    humidity: int = 0
+    forecast: List[DailyForecast] = []
+    delta_from_base: Optional[float] = None  # °F difference from base zone
 
 class WeatherSummary(BaseModel):
     parkCode: str
@@ -175,6 +201,9 @@ class WeatherSummary(BaseModel):
     sunrise: Optional[str] = None
     sunset: Optional[str] = None
     weather_alerts: List[Dict[str, Any]] = []
+    # Zonal weather support
+    zones: List[ZonalForecast] = []    # Per-zone forecasts
+    base_zone: Optional[str] = None     # Reference zone for delta calculations
 
 class TrailReview(BaseModel):
     author: str

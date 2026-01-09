@@ -2,6 +2,8 @@ import streamlit as st
 import pandas as pd
 import folium
 from streamlit_folium import st_folium
+from app.adapters.weather_adapter import get_trail_weather
+from app.models import ZonalForecast
 
 def get_difficulty_color(diff: str):
     if not diff: return "gray"
@@ -11,13 +13,20 @@ def get_difficulty_color(diff: str):
     if "hard" in d or "strenuous" in d: return "red"
     return "gray"
 
-def render_trails_browser(park_code: str, static_data):
+def render_trails_browser(park_code: str, static_data, volatile_data=None):
     st.subheader(f"Hiking Trails in {park_code.upper()}")
     
     trails = static_data.get("trails", [])
     if not trails:
         st.info("No trail data available.")
         return
+        
+    # Get Zonal Weather Data
+    zone_weather = volatile_data.get("zone_weather") if volatile_data else None
+    
+    # Get Base Zone Name (from static data)
+    park_details = static_data.get("park_details")
+    base_zone_name = getattr(park_details, "base_weather_zone", None) if park_details else None
 
     # 1. Prepare Data Frame
     clean_rows = []
@@ -40,6 +49,31 @@ def render_trails_browser(park_code: str, static_data):
         difficulty = item.get("difficulty")
         if not difficulty or difficulty.lower() == "unknown":
             continue
+            
+        # --- Zonal Weather Calculation ---
+        weather_badge_info = None
+        trail_zone = item.get("weather_zone")
+        elev_ft = item.get("trailhead_elevation_ft")
+        
+        if zone_weather and trail_zone:
+            # Convert dict cache to object if needed for adapter, or adapter handles dict?
+            # get_trail_weather expects Dict[str, ZonalForecast]. 
+            # But cached data might be raw dicts.
+            # Let's reconstitute ZonalForecast objects if they are dicts
+            
+            # Helper to ensure we have objects
+            typed_zone_weather = {}
+            for k, v in zone_weather.items():
+                if isinstance(v, dict):
+                    try:
+                        typed_zone_weather[k] = ZonalForecast(**v)
+                    except: pass
+                else:
+                    typed_zone_weather[k] = v
+            
+            w_data = get_trail_weather(typed_zone_weather, trail_zone, elev_ft, base_zone_name)
+            if w_data:
+                weather_badge_info = w_data
         
         clean_rows.append({
             "name": item.get("name"),
@@ -63,7 +97,8 @@ def render_trails_browser(park_code: str, static_data):
             "popularity_rank": item.get("popularity_rank"),
             "wheelchair": item.get("is_wheelchair_accessible", False),
             "kid_friendly": item.get("is_kid_friendly", False),
-            "pet_friendly": item.get("is_pet_friendly", False)
+            "pet_friendly": item.get("is_pet_friendly", False),
+            "weather": weather_badge_info  # Store weather info
         })
         
     df = pd.DataFrame(clean_rows)
@@ -143,9 +178,15 @@ def render_trails_browser(park_code: str, static_data):
             else:
                 trail_name_html = f"<b>{row['name']}</b>"
             
+            # Weather in Popup
+            wx = row.get("weather")
+            wx_html = ""
+            if wx:
+                wx_html = f"<br>🌡️ {wx['temp']:.0f}°F ({wx['condition']})"
+
             popup_html = f"""
             {trail_name_html}<br>
-            {row['difficulty']} | {row['length'] or '?'} mi<br>
+            {row['difficulty']} | {row['length'] or '?'} mi{wx_html}<br>
             Rating: {rating_str}
             """
             
@@ -244,6 +285,20 @@ def render_trails_browser(park_code: str, static_data):
                             metrics.append(f"⭐ {row['rating']}")
                     
                     st.caption(" • ".join(metrics))
+                    
+                    # Weather Badge (NEW)
+                    wx = row.get("weather")
+                    if wx:
+                        temp = wx['temp']
+                        cond = wx['condition']
+                        delta = wx.get('delta_from_base')
+                        
+                        delta_str = ""
+                        if delta is not None and delta != 0:
+                             d_type = "cooler" if delta < 0 else "warmer"
+                             delta_str = f" • {abs(delta):.1f}°F {d_type}"
+                        
+                        st.info(f"🌡️ **{temp:.0f}°F** {cond}{delta_str} (Zone: {wx['zone_name']})")
                     
                     # Description (full for top trails) - prefer clean then NPS listing/body then image alt/caption
                     desc_choices = [row.get('desc'), row.get('raw_listing_description'), row.get('raw_body_text'), row.get('img_alt'), row.get('img_caption')]

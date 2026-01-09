@@ -27,7 +27,9 @@
     "is_pet_friendly": false,
     "raw_listing_description": "Trail Closed due to Rockslide This trail descends 1.6 miles (4.0 km) to its junction with the Under the Rim Trail approximately 1,000 feet (305 m) below.",
     "raw_body_text": "Agua Canyon Connecting Trail Difficulty: Strenuous Total Distance: 1.6 miles (2.6 km) Ascent/Descent: 428 feet (130 m) / 1,201 feet (366 m) Average time: 1-2 hours Trail Closed due to Rockslide This trail may be inaccessible during mid-winter due to snow depths ranging from 2-15 ft (0.7-5 m). This trail descends 1.6 miles (4.0 km) to its junction with the Under-the-Rim Trail.",
-    "last_enriched": "2026-01-08T11:41:16.373709"
+    "last_enriched": "2026-01-08T11:41:16.373709",
+    "trailhead_elevation_ft": 8851,
+    "weather_zone": "High Plateau"
   },
   {
     "id": "1CB920A2-FECB-4D9B-85DB-E4BABBE9B4B3",
@@ -57,7 +59,9 @@
     "is_pet_friendly": false,
     "raw_listing_description": "A short path through fir and pine leads to the easy 1.0 mi/1.6 km Bristlecone Loop, as well as the 8.8 mile (14.2 km) backcountry Riggs Spring Loop and 23 mile (37 km) Under-the-Rim Trail. Though the Bristlecone Loop trail only climbs 200 feet (61 m) and is rated as Easy, be sure to carry water, wear ankle-supporting footwear, and postpone your hike if lightning is expected.The Bristlecone Loop reaches elevations over 9,100 feet (2778 m).",
     "raw_body_text": "Bristlecone Loop Trail Difficulty: Easy Total Distance: 1.0 miles (1.6 km) Elevation change: 200 feet (61 m) Average time: 1-2 hours This trail may be inaccessible during mid-winter due to snow depths ranging from 2-15 ft (0.7-5 m). The Bristlecone Loop reaches elevations over 9,100 feet (2778 m).",
-    "last_enriched": "2026-01-08T11:41:45.373832"
+    "last_enriched": "2026-01-08T11:41:45.373832",
+    "trailhead_elevation_ft": 9045,
+    "weather_zone": "High Plateau"
   },
   {
     "id": "797CB625-5E25-4CB9-8DA2-D787443D3D76",
@@ -96,7 +100,9 @@
     "alltrails_length_miles": null,
     "alltrails_elevation_gain_ft": null,
     "alltrails_estimated_time_hours": null,
-    "alltrails_reviews_url": "https://www.alltrails.com/poi/us/utah/alton/rainbow-point?reviews=true"
+    "alltrails_reviews_url": "https://www.alltrails.com/poi/us/utah/alton/rainbow-point?reviews=true",
+    "trailhead_elevation_ft": 9124,
+    "weather_zone": "High Plateau"
   },
   {
     "id": "9466DD60-0243-46BF-B499-4A855C57F230",
@@ -126,7 +132,9 @@
     "is_pet_friendly": true,
     "raw_listing_description": "This path provides passage from Bryce Canyon city through Dixie National Forest into Bryce Canyon National Park. Hike, bike, walk or wheel all 5 miles to Inspiration Point, or stop at the shuttle stops and other amenities along the way.",
     "raw_body_text": "See the Park at Your Speed The Shared-Use Path provides a scenic opportunity for pedestrians, leashed pets, cyclists, roller or in-line skaters, longboards, non-motorized scooters, wheelchairs, and cross-country skiers to access the park and surrounding areas. This 18 mile (29 km) path connects the hoodoos of Red Canyon on the western edge of the Paunsaugunt Plateau with Inspiration Point within the park and it generally follows SR-12 and UT-6.",
-    "last_enriched": "2026-01-08T11:42:12.934377"
+    "last_enriched": "2026-01-08T11:42:12.934377",
+    "trailhead_elevation_ft": 7673,
+    "weather_zone": "Amphitheater"
   },
   {
     "id": "78145FBD-87D7-401D-8B9B-358794DA21A9",
@@ -165,7 +173,9 @@
     "alltrails_length_miles": 8.0,
     "alltrails_elevation_gain_ft": null,
     "alltrails_estimated_time_hours": "4-4.5 hr",
-    "alltrails_reviews_url": "https://www.alltrails.com/trail/us/utah/fairyland-loop-trail?reviews=true"
+    "alltrails_reviews_url": "https://www.alltrails.com/trail/us/utah/fairyland-loop-trail?reviews=true",
+    "trailhead_elevation_ft": 7703,
+    "weather_zone": "Amphitheater"
   },
   {
     "id": "5A0BF1B6-771B-489F-96B0-A5055C1F0354",
@@ -204,7 +214,9 @@
     "alltrails_length_miles": 0.9,
     "alltrails_elevation_gain_ft": null,
     "alltrails_estimated_time_hours": "0.5-1 hr",
-    "alltrails_reviews_url": "https://www.alltrails.com/trail/us/utah/mossy-cave-turret-arch-and-little-windows-trail?reviews=true"
+    "alltrails_reviews_url": "https://www.alltrails.com/trail/us/utah/mossy-cave-turret-arch-and-little-windows-trail?reviews=true",
+    "trailhead_elevation_ft": 6817,
+    "weather_zone": "Northern Canyon"
   },
   {
     "id": "C2AA097F-EA38-4DA2-B605-8571A3FE90F0",
@@ -243,7 +255,9 @@
     "alltrails_length_miles": 1.6,
     "alltrails_elevation_gain_ft": null,
     "alltrails_estimated_time_hours": "1-1.5 hr",
-    "alltrails_reviews_url": "https://www.alltrails.com/trail/us/utah/navajo-loop-trail?reviews=true"
+    "alltrails_reviews_url": "https://www.alltrails.com/trail/us/utah/navajo-loop-trail?reviews=true",
+    "trailhead_elevation_ft": 7893,
+    "weather_zone": "Amphitheater"
   },
   {
     "id": "F7BA242B-42FE-46CB-861A-AA29F795285A",
@@ -282,7 +296,9 @@
     "alltrails_length_miles": 5.1,
     "alltrails_elevation_gain_ft": null,
     "alltrails_estimated_time_hours": "3-3.5 hr",
-    "alltrails_reviews_url": "https://www.alltrails.com/trail/us/utah/peek-a-boo-loop-trail?reviews=true"
+    "alltrails_reviews_url": "https://www.alltrails.com/trail/us/utah/peek-a-boo-loop-trail?reviews=true",
+    "trailhead_elevation_ft": 8152,
+    "weather_zone": "Amphitheater"
   },
   {
     "id": "6D6F7880-794F-4101-A267-32265BB80221",
@@ -321,7 +337,9 @@
     "alltrails_length_miles": 5.1,
     "alltrails_elevation_gain_ft": null,
     "alltrails_estimated_time_hours": "3-3.5 hr",
-    "alltrails_reviews_url": "https://www.alltrails.com/trail/us/utah/peek-a-boo-loop-trail?reviews=true"
+    "alltrails_reviews_url": "https://www.alltrails.com/trail/us/utah/peek-a-boo-loop-trail?reviews=true",
+    "trailhead_elevation_ft": 8152,
+    "weather_zone": "Amphitheater"
   },
   {
     "id": "DCBD1568-6960-4CD0-A403-380C5A8B2204",
@@ -361,7 +379,9 @@
     "alltrails_elevation_gain_ft": 646,
     "alltrails_estimated_time_hours": "1.5-2 hr",
     "alltrails_reviews_url": "https://www.alltrails.com/trail/us/utah/navajo-loop-and-queens-garden-trail?reviews=true",
-    "elevation_gain_ft_source": "alltrails"
+    "elevation_gain_ft_source": "alltrails",
+    "trailhead_elevation_ft": 7965,
+    "weather_zone": "Amphitheater"
   },
   {
     "id": "5DC9CA9F-6BC7-48B5-84A3-442208903388",
@@ -391,7 +411,9 @@
     "is_pet_friendly": false,
     "raw_listing_description": "Experience the solitude of Bryce's forested backcountry on the Riggs Spring Loop. Descending from the rim, this 8.8 mile (14.2 km) trail meanders through forests and raised promontories, offering stunning views of pink-hued cliffs in the distance.",
     "raw_body_text": "Riggs Spring Loop Difficulty: Strenuous Total Distance: 8.8 miles (14.2 km) Ascent: 2,503 feet (763 m) Average time: 4-6 Hours This trail may be inaccessible during mid-winter due to snow depths ranging from 2-15 ft (0.7-5 m). Descending from the rim, this 8.8 mile (14.2 km) trail meanders through forests and raised promontories, offering stunning views of pink-hued cliffs in the distance.",
-    "last_enriched": "2026-01-08T11:44:52.603647"
+    "last_enriched": "2026-01-08T11:44:52.603647",
+    "trailhead_elevation_ft": 9124,
+    "weather_zone": "High Plateau"
   },
   {
     "id": "61458709-AC14-4162-A9D9-C85DF8FF3855",
@@ -421,7 +443,9 @@
     "is_pet_friendly": false,
     "raw_listing_description": "This is the southern end of the 5.5 mile (8.9 km) Rim Trail that begins in the south at Bryce Point and ends in the north at Fairyland Point.",
     "raw_body_text": "The Rim Trail Difficulty: Varies (Easy to Moderate) Total Distance: 5.5 miles (8.9 km) Ascent/Descent (South to North): 1,330 feet (405 m) / 1,825 feet (556 m) Average time: 3-4 hours The 5.5 mile (8.9 km) Rim Trail begins in the south at Bryce Point and ends in the north at Fairyland Point. The trail connects all viewpoints in the Bryce Amphitheater area and can be accessed at each of them.",
-    "last_enriched": "2026-01-08T11:45:05.101964"
+    "last_enriched": "2026-01-08T11:45:05.101964",
+    "trailhead_elevation_ft": 8152,
+    "weather_zone": "Amphitheater"
   },
   {
     "id": "2B190588-AA7D-4986-AF3A-76EB84171BB9",
@@ -460,7 +484,9 @@
     "alltrails_length_miles": null,
     "alltrails_elevation_gain_ft": null,
     "alltrails_estimated_time_hours": null,
-    "alltrails_reviews_url": "https://www.alltrails.com/poi/us/utah/inspiration-point?reviews=true"
+    "alltrails_reviews_url": "https://www.alltrails.com/poi/us/utah/inspiration-point?reviews=true",
+    "trailhead_elevation_ft": 8067,
+    "weather_zone": "Amphitheater"
   },
   {
     "id": "DBD9669A-BEC5-4641-98C1-B1B2B3CB0ABB",
@@ -499,7 +525,9 @@
     "alltrails_length_miles": null,
     "alltrails_elevation_gain_ft": null,
     "alltrails_estimated_time_hours": "4-4.5 hr",
-    "alltrails_reviews_url": "https://www.alltrails.com/poi/us/utah/cannonville/sunrise-point?reviews=true"
+    "alltrails_reviews_url": "https://www.alltrails.com/poi/us/utah/cannonville/sunrise-point?reviews=true",
+    "trailhead_elevation_ft": 7979,
+    "weather_zone": "Amphitheater"
   },
   {
     "id": "B91607EB-F07A-4E0C-AE57-F2BAB770F0B8",
@@ -538,7 +566,9 @@
     "alltrails_length_miles": null,
     "alltrails_elevation_gain_ft": null,
     "alltrails_estimated_time_hours": null,
-    "alltrails_reviews_url": "https://www.alltrails.com/poi/us/utah/cannonville/sunset-point?reviews=true"
+    "alltrails_reviews_url": "https://www.alltrails.com/poi/us/utah/cannonville/sunset-point?reviews=true",
+    "trailhead_elevation_ft": 7893,
+    "weather_zone": "Amphitheater"
   },
   {
     "id": "9CC34C3F-1E0F-4DBF-8F15-AB2011E85EDF",
@@ -568,7 +598,9 @@
     "is_pet_friendly": false,
     "raw_listing_description": "The moderately strenuous 4.0 mi/6.4 km Sheep Creek/Swamp Canyon Loop begins here. The trail descends 647 ft/198 m to the canyon floor on a 3 - 4 hour hike.",
     "raw_body_text": "Swamp Canyon Loop Difficulty: Moderate Total Distance: 4.0 miles (6.4 km) Ascent/Descent: 1,026 feet (313 m) / 1,034 feet (315 m) Average time: 3-4 hours The moderately strenuous 4.0 mi/6.4 km Swamp Canyon Loop begins here. The trail descends 647 ft/198 m to the canyon floor on a 3 - 4 hour hike.",
-    "last_enriched": "2026-01-08T11:46:02.963043"
+    "last_enriched": "2026-01-08T11:46:02.963043",
+    "trailhead_elevation_ft": 8113,
+    "weather_zone": "Amphitheater"
   },
   {
     "id": "4BB41ACB-B762-48C9-B022-8E91F51ACF8A",
@@ -607,7 +639,9 @@
     "alltrails_length_miles": 8.0,
     "alltrails_elevation_gain_ft": null,
     "alltrails_estimated_time_hours": "4-4.5 hr",
-    "alltrails_reviews_url": "https://www.alltrails.com/trail/us/utah/fairyland-loop-trail?reviews=true"
+    "alltrails_reviews_url": "https://www.alltrails.com/trail/us/utah/fairyland-loop-trail?reviews=true",
+    "trailhead_elevation_ft": 8001,
+    "weather_zone": "Amphitheater"
   },
   {
     "id": "D75EB13A-0DE5-4E25-B31F-023DDD6BB629",
@@ -646,7 +680,9 @@
     "alltrails_length_miles": null,
     "alltrails_elevation_gain_ft": null,
     "alltrails_estimated_time_hours": null,
-    "alltrails_reviews_url": "https://www.alltrails.com/poi/us/utah/tropic-ditch-falls?reviews=true"
+    "alltrails_reviews_url": "https://www.alltrails.com/poi/us/utah/tropic-ditch-falls?reviews=true",
+    "trailhead_elevation_ft": 6938,
+    "weather_zone": "Northern Canyon"
   },
   {
     "id": "202C6956-A5A3-4532-9007-2095FB47A73F",
@@ -676,7 +712,9 @@
     "is_pet_friendly": false,
     "raw_listing_description": "The Under-the-Rim Trail is approximately 22.9 miles (36.9 km) from Bryce Point to Rainbow Point. Connecting trails offer access from the park's Scenic Drive and intersect the Under-the-Rim Trail at Swamp Canyon, and Whiteman Bench.",
     "raw_body_text": "Under-the-Rim Trail Difficulty: Strenuous Total Distance: 22.9 miles (37 km) Ascent: 5,884 feet (1,793 m) Average time: 2-3 Days This trail may be inaccessible during mid-winter due to snow depths ranging from 2-15 ft (0.7-5 m). Experience the solitude of Bryce's forested backcountry on the Under-the-Rim Trail.",
-    "last_enriched": "2026-01-08T11:46:29.690940"
+    "last_enriched": "2026-01-08T11:46:29.690940",
+    "trailhead_elevation_ft": 9097,
+    "weather_zone": "High Plateau"
   },
   {
     "id": "4474ECE8-77E9-4F0E-8ACA-0FCE4EAAF36A",
@@ -706,7 +744,9 @@
     "is_pet_friendly": false,
     "raw_listing_description": "Hike the Hoodoos Hiking is great exercise and Bryce Canyon's \"I Hiked the Hoodoos!\" program is not just hiking, it's also a scavenger hunt with a special reward!",
     "raw_body_text": "I Hiked the Hoodoos Hiking is great exercise and Bryce Canyon's \"I Hiked the Hoodoos!\" program is not just hiking, it's also a scavenger hunt with a special reward! 1.",
-    "last_enriched": "2026-01-08T11:46:37.091206"
+    "last_enriched": "2026-01-08T11:46:37.091206",
+    "trailhead_elevation_ft": 7713,
+    "weather_zone": "Amphitheater"
   },
   {
     "id": "64685FB7-7FB5-41F4-A24E-21289EACEBBE",
@@ -736,7 +776,9 @@
     "is_pet_friendly": false,
     "raw_listing_description": "Experience the solitude of Bryce's forested backcountry on the Under the Rim Trail. Descending from the rim, this 22.9 mile (37 km) trail meanders through forests and meadows, offering stunning views of pink-hued cliffs in the distance.",
     "raw_body_text": "Whiteman Connecting Trail Difficulty: Moderate Total Distance: 1.0 miles (1.6 km) Ascent/Descent: 16 feet (4.9 m) / 490 feet (149 m) Average time: 1-2 hours This trail may be inaccessible during mid-winter due to snow depths ranging from 2-15 ft (0.7-5 m). This trail descends 1.0 mile (1.6 km) to its junction with the Under-the-Rim Trail.",
-    "last_enriched": "2026-01-08T11:46:44.509647"
+    "last_enriched": "2026-01-08T11:46:44.509647",
+    "trailhead_elevation_ft": 8720,
+    "weather_zone": "High Plateau"
   },
   {
     "id": "D8D5E034-958D-4AF2-A908-89E35BE5A650",
@@ -766,7 +808,9 @@
     "is_pet_friendly": false,
     "raw_listing_description": null,
     "raw_body_text": null,
-    "last_enriched": "2026-01-08T11:47:13.833045"
+    "last_enriched": "2026-01-08T11:47:13.833045",
+    "trailhead_elevation_ft": 7965,
+    "weather_zone": "Amphitheater"
   },
   {
     "id": "F508D902-8095-4133-A57A-006007A2D3E6",
@@ -796,7 +840,9 @@
     "is_pet_friendly": false,
     "raw_listing_description": null,
     "raw_body_text": null,
-    "last_enriched": "2026-01-08T11:47:18.630366"
+    "last_enriched": "2026-01-08T11:47:18.630366",
+    "trailhead_elevation_ft": 7965,
+    "weather_zone": "Amphitheater"
   },
   {
     "id": "CD5C8E15-7422-4E97-A767-3C36733E1B23",
@@ -826,7 +872,9 @@
     "is_pet_friendly": false,
     "raw_listing_description": null,
     "raw_body_text": null,
-    "last_enriched": "2026-01-08T11:48:22.651910"
+    "last_enriched": "2026-01-08T11:48:22.651910",
+    "trailhead_elevation_ft": 9124,
+    "weather_zone": "High Plateau"
   },
   {
     "id": "3AB2FBA2-BFF5-460F-BB76-46FEFDD69FCE",
@@ -856,7 +904,9 @@
     "is_pet_friendly": false,
     "raw_listing_description": null,
     "raw_body_text": null,
-    "last_enriched": "2026-01-08T11:48:33.561647"
+    "last_enriched": "2026-01-08T11:48:33.561647",
+    "trailhead_elevation_ft": 7893,
+    "weather_zone": "Amphitheater"
   },
   {
     "id": "A2FDA633-CBF7-466B-BE9B-2A0BDFB95B4E",
@@ -895,7 +945,9 @@
     "alltrails_length_miles": null,
     "alltrails_elevation_gain_ft": null,
     "alltrails_estimated_time_hours": null,
-    "alltrails_reviews_url": "https://www.alltrails.com/poi/us/utah/cannonville/sunset-point?reviews=true"
+    "alltrails_reviews_url": "https://www.alltrails.com/poi/us/utah/cannonville/sunset-point?reviews=true",
+    "trailhead_elevation_ft": 7893,
+    "weather_zone": "Amphitheater"
   },
   {
     "id": "E1001E7A-F398-43AC-96FE-EC295C89081E",
@@ -925,7 +977,9 @@
     "is_pet_friendly": false,
     "raw_listing_description": null,
     "raw_body_text": null,
-    "last_enriched": "2026-01-08T11:48:57.041696"
+    "last_enriched": "2026-01-08T11:48:57.041696",
+    "trailhead_elevation_ft": 8152,
+    "weather_zone": "Amphitheater"
   },
   {
     "id": "C3291011-BCF6-4D22-BA1F-B7E46A607019",
@@ -964,7 +1018,9 @@
     "alltrails_length_miles": null,
     "alltrails_elevation_gain_ft": null,
     "alltrails_estimated_time_hours": "4-4.5 hr",
-    "alltrails_reviews_url": "https://www.alltrails.com/poi/us/utah/tower-bridge?reviews=true"
+    "alltrails_reviews_url": "https://www.alltrails.com/poi/us/utah/tower-bridge?reviews=true",
+    "trailhead_elevation_ft": 8001,
+    "weather_zone": "Amphitheater"
   },
   {
     "id": "C8E47D3E-0F92-473F-8720-4AE2733CD3D7",
@@ -994,7 +1050,9 @@
     "is_pet_friendly": false,
     "raw_listing_description": null,
     "raw_body_text": null,
-    "last_enriched": "2026-01-08T11:49:18.769880"
+    "last_enriched": "2026-01-08T11:49:18.769880",
+    "trailhead_elevation_ft": 8152,
+    "weather_zone": "Amphitheater"
   },
   {
     "id": "4210C343-16DF-4843-A6E9-4B628D623A1F",
@@ -1024,7 +1082,9 @@
     "is_pet_friendly": false,
     "raw_listing_description": null,
     "raw_body_text": null,
-    "last_enriched": "2026-01-08T11:50:02.597894"
+    "last_enriched": "2026-01-08T11:50:02.597894",
+    "trailhead_elevation_ft": 7906,
+    "weather_zone": "Amphitheater"
   },
   {
     "id": "D2173E9E-97A7-4283-8C55-F842F8B39DD7",
@@ -1054,7 +1114,9 @@
     "is_pet_friendly": false,
     "raw_listing_description": null,
     "raw_body_text": null,
-    "last_enriched": "2026-01-08T11:50:25.470849"
+    "last_enriched": "2026-01-08T11:50:25.470849",
+    "trailhead_elevation_ft": 7893,
+    "weather_zone": "Amphitheater"
   },
   {
     "id": "4FFC4D27-4C45-4CF1-9AE2-F24B0677545F",
@@ -1084,7 +1146,9 @@
     "is_pet_friendly": false,
     "raw_listing_description": null,
     "raw_body_text": null,
-    "last_enriched": "2026-01-08T11:50:52.333219"
+    "last_enriched": "2026-01-08T11:50:52.333219",
+    "trailhead_elevation_ft": 9045,
+    "weather_zone": "High Plateau"
   },
   {
     "id": "286F2EC1-CE0F-4D59-A62E-243F3D71F87C",
@@ -1114,7 +1178,9 @@
     "is_pet_friendly": false,
     "raw_listing_description": null,
     "raw_body_text": null,
-    "last_enriched": "2026-01-08T11:51:28.900646"
+    "last_enriched": "2026-01-08T11:51:28.900646",
+    "trailhead_elevation_ft": 7893,
+    "weather_zone": "Amphitheater"
   },
   {
     "id": "108f7142-0ee9-4478-b4e7-539b3f673876",
@@ -1170,7 +1236,9 @@
     "alltrails_length_miles": 6.4,
     "alltrails_elevation_gain_ft": null,
     "alltrails_estimated_time_hours": "3.5-4 hr",
-    "alltrails_reviews_url": "https://www.alltrails.com/trail/us/utah/wall-street-and-queens-garden-loop-to-peekaboo-loop-figure-eight-trail?reviews=true"
+    "alltrails_reviews_url": "https://www.alltrails.com/trail/us/utah/wall-street-and-queens-garden-loop-to-peekaboo-loop-figure-eight-trail?reviews=true",
+    "trailhead_elevation_ft": 8152,
+    "weather_zone": "Amphitheater"
   },
   {
     "id": "b2ebe78e-e5ca-4d55-b1b8-6f4316a46225",
@@ -1198,7 +1266,9 @@
     "alltrails_length_miles": 5.2,
     "alltrails_elevation_gain_ft": null,
     "alltrails_estimated_time_hours": "3-3.5 hr",
-    "alltrails_reviews_url": "https://www.alltrails.com/trail/us/utah/navajo-loop-trail-to-peekaboo-loop?reviews=true"
+    "alltrails_reviews_url": "https://www.alltrails.com/trail/us/utah/navajo-loop-trail-to-peekaboo-loop?reviews=true",
+    "trailhead_elevation_ft": 8152,
+    "weather_zone": "Amphitheater"
   },
   {
     "id": "38870c2e-8988-4e72-856a-b70062fc5c46",
@@ -1226,7 +1296,9 @@
     "alltrails_length_miles": 1.2,
     "alltrails_elevation_gain_ft": null,
     "alltrails_estimated_time_hours": "0.5-1 hr",
-    "alltrails_reviews_url": "https://www.alltrails.com/trail/us/utah/sunset-point-to-sunrise-point?reviews=true"
+    "alltrails_reviews_url": "https://www.alltrails.com/trail/us/utah/sunset-point-to-sunrise-point?reviews=true",
+    "trailhead_elevation_ft": 7965,
+    "weather_zone": "Amphitheater"
   },
   {
     "id": "207093e8-5243-4ab8-abc6-de34d4573cef",
@@ -1254,7 +1326,9 @@
     "alltrails_length_miles": 2.1,
     "alltrails_elevation_gain_ft": null,
     "alltrails_estimated_time_hours": "1-1.5 hr",
-    "alltrails_reviews_url": "https://www.alltrails.com/trail/us/utah/queen-victoria-via-queens-garden-loop?reviews=true"
+    "alltrails_reviews_url": "https://www.alltrails.com/trail/us/utah/queen-victoria-via-queens-garden-loop?reviews=true",
+    "trailhead_elevation_ft": 7965,
+    "weather_zone": "Amphitheater"
   },
   {
     "id": "5efe32bb-cce5-447b-b55b-75553561e288",
@@ -1310,7 +1384,9 @@
     "alltrails_length_miles": null,
     "alltrails_elevation_gain_ft": null,
     "alltrails_estimated_time_hours": null,
-    "alltrails_reviews_url": "https://www.alltrails.com/poi/us/utah/tropic/sunset-point-overlook?reviews=true"
+    "alltrails_reviews_url": "https://www.alltrails.com/poi/us/utah/tropic/sunset-point-overlook?reviews=true",
+    "trailhead_elevation_ft": 7893,
+    "weather_zone": "Amphitheater"
   },
   {
     "id": "22d4702d-4409-40ae-8004-6ea8dff907cb",
@@ -1338,7 +1414,9 @@
     "alltrails_length_miles": null,
     "alltrails_elevation_gain_ft": null,
     "alltrails_estimated_time_hours": null,
-    "alltrails_reviews_url": "https://www.alltrails.com/poi/us/utah/cannonville/farview-point-2?reviews=true"
+    "alltrails_reviews_url": "https://www.alltrails.com/poi/us/utah/cannonville/farview-point-2?reviews=true",
+    "trailhead_elevation_ft": 8779,
+    "weather_zone": "High Plateau"
   },
   {
     "id": "10f2072a-5b49-4a5c-95e7-ff7b1faa40cb",
@@ -1366,7 +1444,9 @@
     "alltrails_length_miles": null,
     "alltrails_elevation_gain_ft": null,
     "alltrails_estimated_time_hours": null,
-    "alltrails_reviews_url": "https://www.alltrails.com/poi/us/utah/kanab/yovimpa-point?reviews=true"
+    "alltrails_reviews_url": "https://www.alltrails.com/poi/us/utah/kanab/yovimpa-point?reviews=true",
+    "trailhead_elevation_ft": 8940,
+    "weather_zone": "High Plateau"
   },
   {
     "id": "249d89f7-b980-4b85-b25d-dcb38b487b17",
@@ -1422,7 +1502,9 @@
     "alltrails_length_miles": null,
     "alltrails_elevation_gain_ft": null,
     "alltrails_estimated_time_hours": null,
-    "alltrails_reviews_url": "https://www.alltrails.com/poi/us/utah/cannonville/paria-view?reviews=true"
+    "alltrails_reviews_url": "https://www.alltrails.com/poi/us/utah/cannonville/paria-view?reviews=true",
+    "trailhead_elevation_ft": 7814,
+    "weather_zone": "Amphitheater"
   },
   {
     "id": "9691c07c-2a76-4d4f-bd55-6a1f3508eab3",
@@ -1450,7 +1532,9 @@
     "alltrails_length_miles": null,
     "alltrails_elevation_gain_ft": null,
     "alltrails_estimated_time_hours": null,
-    "alltrails_reviews_url": "https://www.alltrails.com/poi/us/utah/cannonville/piracy-point?reviews=true"
+    "alltrails_reviews_url": "https://www.alltrails.com/poi/us/utah/cannonville/piracy-point?reviews=true",
+    "trailhead_elevation_ft": 8766,
+    "weather_zone": "High Plateau"
   },
   {
     "id": "5b9f0e1b-42c7-44ae-ad5e-4fcaaf8a753f",
@@ -1506,7 +1590,9 @@
     "alltrails_length_miles": null,
     "alltrails_elevation_gain_ft": null,
     "alltrails_estimated_time_hours": null,
-    "alltrails_reviews_url": "https://www.alltrails.com/poi/us/utah/cannonville/swamp-canyon-overlook?reviews=true"
+    "alltrails_reviews_url": "https://www.alltrails.com/poi/us/utah/cannonville/swamp-canyon-overlook?reviews=true",
+    "trailhead_elevation_ft": 7952,
+    "weather_zone": "Amphitheater"
   },
   {
     "id": "e5c4546a-41f4-46ab-a120-613bbbe761d0",
@@ -1562,6 +1648,8 @@
     "alltrails_length_miles": null,
     "alltrails_elevation_gain_ft": null,
     "alltrails_estimated_time_hours": null,
-    "alltrails_reviews_url": "https://www.alltrails.com/poi/us/utah/alton/natural-bridge?reviews=true"
+    "alltrails_reviews_url": "https://www.alltrails.com/poi/us/utah/alton/natural-bridge?reviews=true",
+    "trailhead_elevation_ft": 7549,
+    "weather_zone": "Northern Canyon"
   }
 ]

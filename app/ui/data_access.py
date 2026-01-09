@@ -77,26 +77,61 @@ def get_volatile_data(park_code: str, orchestrator) -> Dict[str, Any]:
     Falls back to API fetch if cache miss, then saves to disk for the day.
     """
     if not orchestrator:
-        return {"weather": None, "alerts": [], "events": []}
+        return {"weather": None, "zone_weather": None, "alerts": [], "events": []}
     
-    result = {"weather": None, "alerts": [], "events": []}
+    result = {"weather": None, "zone_weather": None, "alerts": [], "events": []}
     
-    # --- Weather ---
+    # Get static data for park location and zone config
+    park_data = get_park_static_data(park_code, nps_client=orchestrator.nps if hasattr(orchestrator, 'nps') else None)
+    pd = park_data.get("park_details")
+    
+    # Check for zone config in park_details.json (raw fixture)
+    raw_park_details = data_manager.load_fixture(park_code, "park_details.json") or {}
+    weather_zones = raw_park_details.get("weather_zones", [])
+    base_zone_name = raw_park_details.get("base_weather_zone")
+    
+    
+    # --- Zonal Weather (if zones defined) ---
+    if weather_zones and base_zone_name:
+        zone_weather = data_manager.load_daily_cache(park_code, "zone_weather")
+        if zone_weather:
+            result["zone_weather"] = zone_weather
+        else:
+            # Fetch weather for all zones
+            try:
+                # Instantiate fresh client to bypass cached orchestrator instance
+                from app.clients.weather_client import WeatherClient
+                wc = WeatherClient() 
+                zone_data = wc.get_zonal_forecasts(
+                    park_code, weather_zones, base_zone_name
+                )
+                if zone_data:
+                    # Serialize ZonalForecast objects for caching
+                    cache_data = {}
+                    for zone_name, forecast in zone_data.items():
+                        if hasattr(forecast, 'model_dump'):
+                            cache_data[zone_name] = forecast.model_dump()
+                        else:
+                            cache_data[zone_name] = forecast
+                    
+                    result["zone_weather"] = cache_data
+                    data_manager.save_daily_cache(park_code, "zone_weather", cache_data)
+                    logger.info(f"Fetched zonal weather for {park_code}: {list(zone_data.keys())}")
+            except Exception as e:
+                logger.error(f"Zonal weather fetch failed for {park_code}: {e}")
+    
+    # --- Regular Weather (fallback or if no zones) ---
     weather = data_manager.load_daily_cache(park_code, "weather")
     if weather:
         result["weather"] = weather
-    else:
-        # Fetch live - need park location from static data or API
-        park_data = get_park_static_data(park_code, nps_client=orchestrator.nps if hasattr(orchestrator, 'nps') else None)
-        pd = park_data.get("park_details")
-        if pd and pd.location:
-            try:
-                w = orchestrator.weather.get_forecast(park_code, pd.location.lat, pd.location.lon)
-                result["weather"] = w
-                # Save to daily cache (will serialize Pydantic model if needed)
-                data_manager.save_daily_cache(park_code, "weather", w.model_dump() if hasattr(w, 'model_dump') else w)
-            except Exception as e:
-                logger.error(f"Weather fetch failed: {e}")
+    elif pd and pd.location:
+        try:
+            w = orchestrator.weather.get_forecast(park_code, pd.location.lat, pd.location.lon)
+            result["weather"] = w
+            # Save to daily cache (will serialize Pydantic model if needed)
+            data_manager.save_daily_cache(park_code, "weather", w.model_dump() if hasattr(w, 'model_dump') else w)
+        except Exception as e:
+            logger.error(f"Weather fetch failed: {e}")
 
     # --- Alerts ---
     alerts = data_manager.load_daily_cache(park_code, "alerts")

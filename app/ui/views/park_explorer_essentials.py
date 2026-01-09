@@ -309,6 +309,104 @@ def render_weather_full_width(weather_data):
     st.markdown(main_html, unsafe_allow_html=True)
 
 
+def render_zonal_weather(zone_weather: dict, base_zone_name: str, weather_zones: list):
+    """
+    Render elevation-based weather for multiple zones.
+    
+    Args:
+        zone_weather: Dict mapping zone_name -> ZonalForecast or dict
+        base_zone_name: Name of the reference zone
+        weather_zones: List of zone configs (WeatherZone objects or dicts)
+    """
+    if not zone_weather:
+        st.markdown('<div class="dark-card">Weather Unavailable (No Zonal Data)</div>', unsafe_allow_html=True)
+        return
+    
+    # Get zone configs for ordering and descriptions
+    # Handle weather_zones being objects or dicts
+    zone_configs = []
+    for z in weather_zones:
+        if isinstance(z, dict):
+            zone_configs.append(z)
+        else:
+            # Assume Pydantic model
+            zone_configs.append(z.model_dump() if hasattr(z, 'model_dump') else z.__dict__)
+            
+    zone_order = [z["name"] for z in zone_configs]
+    zone_descriptions = {z["name"]: z.get("description", "") for z in zone_configs}
+    
+    # Sort zones with base first, then by elevation
+    sorted_zones = []
+    for zone_name in zone_order:
+        if zone_name in zone_weather:
+            sorted_zones.append((zone_name, zone_weather[zone_name]))
+    
+    # Add any zones not in config
+    for zone_name, data in zone_weather.items():
+        if zone_name not in [z[0] for z in sorted_zones]:
+            sorted_zones.append((zone_name, data))
+    
+    # Build zone cards
+    zone_cards_html = ""
+    for zone_name, forecast in sorted_zones:
+        # Extract data (handle both ZonalForecast model and dict)
+        if hasattr(forecast, "current_temp_f"):
+            temp = forecast.current_temp_f
+            cond = forecast.current_condition
+            elev = forecast.elevation_ft
+            delta = forecast.delta_from_base
+        else:
+            temp = forecast.get("current_temp_f", "--")
+            cond = forecast.get("current_condition", "Unknown")
+            elev = forecast.get("elevation_ft", 0)
+            delta = forecast.get("delta_from_base")
+        
+        # Format delta string
+        delta_str = ""
+        if delta is not None and delta != 0:
+            direction = "cooler" if delta < 0 else "warmer"
+            delta_str = f'<span style="font-size:12px; color:#94a3b8;"> • {abs(delta):.1f}°F {direction}</span>'
+        
+        # Base zone badge
+        base_badge = ""
+        if zone_name == base_zone_name:
+            base_badge = '<span style="background:#3b82f6; color:white; padding:2px 6px; border-radius:4px; font-size:10px; margin-left:8px;">BASE</span>'
+        
+        # Description
+        desc = zone_descriptions.get(zone_name, "")
+        desc_html = f'<div style="font-size:11px; color:#64748b;">{desc}</div>' if desc else ""
+        
+        zone_cards_html += f"""
+<div style="background:#1e293b; border-radius:8px; padding:12px; margin-bottom:8px;">
+    <div style="display:flex; justify-content:space-between; align-items:center;">
+        <div>
+            <div style="font-weight:600; color:#e2e8f0;">{zone_name}{base_badge}</div>
+            <div style="font-size:12px; color:#94a3b8;">📍 {elev:,} ft</div>
+            {desc_html}
+        </div>
+        <div style="text-align:right;">
+            <div style="font-size:24px; font-weight:700; color:white;">{temp:.0f}°F</div>
+            <div style="font-size:13px; color:#cbd5e1;">{cond}{delta_str}</div>
+        </div>
+    </div>
+</div>
+"""
+    
+    # Main container
+    # Main container
+    main_html = f"""
+<div class="dark-card" style="padding:16px;">
+<div style="font-size:14px; color:#94a3b8; margin-bottom:12px;">🌡️ Weather by Elevation</div>
+{zone_cards_html}
+<div style="font-size:11px; color:#64748b; margin-top:8px; padding-top:8px; border-top:1px solid #334155;">
+ℹ️ Temperature varies ~3.5°F per 1,000 ft elevation change
+</div>
+</div>
+"""
+    
+    st.markdown(main_html, unsafe_allow_html=True)
+
+
 # --- 4. MAP HELPERS (Unchanged) ---
 def get_category_icon(category: str):
     cat_lower = str(category).lower()
@@ -619,7 +717,23 @@ def render_essentials_dashboard(park_code, orchestrator, static_data, volatile_d
         volatile_data = {}
     
     weather = volatile_data.get("weather")
+    zone_weather = volatile_data.get("zone_weather")  # NEW: Zonal weather dict
     alerts = volatile_data.get("alerts", [])
+    
+    # Get park details for zone config
+    park_details = static_data.get("park_details")
+    
+    # Safe attribute access for ParkContext (or dict)
+    base_zone_name = None
+    weather_zones = []
+    
+    if park_details:
+        if isinstance(park_details, dict):
+            base_zone_name = park_details.get("base_weather_zone")
+            weather_zones = park_details.get("weather_zones", [])
+        else:
+            base_zone_name = getattr(park_details, "base_weather_zone", None)
+            weather_zones = getattr(park_details, "weather_zones", [])
     
     amenities_data = static_data.get("amenities_by_hub", {})
     if not amenities_data and hasattr(orchestrator, 'get_park_amenities'):
@@ -632,7 +746,11 @@ def render_essentials_dashboard(park_code, orchestrator, static_data, volatile_d
     col_weather, col_stats = st.columns([1.8, 1])
     
     with col_weather:
-        render_weather_full_width(weather)
+        # Use zonal weather if available, otherwise fall back to regular weather
+        if zone_weather and base_zone_name and len(zone_weather) > 0:
+            render_zonal_weather(zone_weather, base_zone_name, weather_zones)
+        else:
+            render_weather_full_width(weather)
         
     with col_stats:
         render_stat_cards(static_data)

@@ -1,14 +1,64 @@
 import streamlit as st
-from typing import List, Any
+from typing import List, Any, Optional
 
 
-def render_scenic_drives(scenic_drives: List[Any]):
+# Keywords to identify road closure alerts
+ROAD_KEYWORDS = ['road', 'drive', 'highway', 'hwy', 'route', 'tioga', 'glacier point', 'wawona']
+CLOSURE_KEYWORDS = ['closed', 'closure', 'shut', 'blocked', 'impassable', 'not accessible']
+
+
+def _get_road_closure_alerts(alerts: List[Any]) -> List[Any]:
+    """Filter alerts that are specifically about road closures."""
+    closure_alerts = []
+    for alert in alerts:
+        title = getattr(alert, 'title', '') or ''
+        desc = getattr(alert, 'description', '') or ''
+        combined = (title + ' ' + desc).lower()
+        
+        # Must mention BOTH a road AND a closure
+        has_road = any(kw in combined for kw in ROAD_KEYWORDS)
+        has_closure = any(kw in combined for kw in CLOSURE_KEYWORDS)
+        
+        if has_road and has_closure:
+            closure_alerts.append(alert)
+    
+    return closure_alerts
+
+
+def render_scenic_drives(scenic_drives: List[Any], alerts: Optional[List[Any]] = None):
     """
     Render scenic drives from scenic_drives.json fixture.
     Follows the same display pattern as Photo Spots.
+    
+    Args:
+        scenic_drives: List of ScenicDrive objects
+        alerts: Optional list of Alert objects to check for road closures
     """
     st.markdown("### 🚗 Scenic Drives")
     st.caption("Explore the park's most beautiful routes by car.")
+    
+    # Display road closure alerts if any
+    if alerts:
+        road_alerts = _get_road_closure_alerts(alerts)
+        if road_alerts:
+            for alert in road_alerts:
+                title = getattr(alert, 'title', 'Road Alert')
+                desc = getattr(alert, 'description', '')
+                url = getattr(alert, 'url', None)
+                
+                # Build link HTML separately (only if URL exists and is not empty)
+                link_html = ""
+                if url and url.strip():
+                    link_html = f'<div style="margin-top: 8px;"><a href="{url}" target="_blank" style="color: #b45309; font-size: 0.85em; font-weight: 600; text-decoration: none;">View Details ↗</a></div>'
+                
+                alert_html = (
+                    f'<div style="background: linear-gradient(135deg, #fef3c7, #fde68a); border-left: 4px solid #f59e0b; padding: 12px 16px; border-radius: 8px; margin-bottom: 16px;">'
+                    f'<div style="font-weight: 700; color: #92400e; margin-bottom: 4px;">⚠️ {title}</div>'
+                    f'<div style="font-size: 0.9em; color: #78350f;">{desc}</div>'
+                    f'{link_html}'
+                    f'</div>'
+                )
+                st.markdown(alert_html, unsafe_allow_html=True)
     
     if not scenic_drives:
         st.info("No scenic drive data available for this park. Run the fetch script to populate data.")

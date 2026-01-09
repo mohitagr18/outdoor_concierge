@@ -6,7 +6,7 @@ import pytest
 # Ensure app module is visible
 sys.path.append(os.path.abspath(os.path.join(os.path.dirname(__file__), '..')))
 
-from app.adapters.weather_adapter import parse_weather_data
+from app.adapters.weather_adapter import parse_weather_data, estimate_temp_at_elevation
 
 # --- MOCK DATA (Recreated from your weather.json attachment) ---
 MOCK_WEATHER_JSON = {
@@ -89,10 +89,36 @@ def test_parse_weather_data():
     assert summary.weather_alerts[0]["event"] == "High Wind Warning"
     assert summary.weather_alerts[0]["severity"] == "Severe"
 
+
+def test_estimate_temp_at_higher_elevation():
+    """Test lapse rate for going up in elevation (colder)."""
+    # Base: 50°F at 8000 ft
+    # Target: 9100 ft (1100 ft higher) -> expect ~3.85°F cooler
+    result = estimate_temp_at_elevation(50.0, 8000, 9100)
+    assert 46.0 <= result <= 46.2  # ~46.15°F
+
+
+def test_estimate_temp_at_lower_elevation():
+    """Test lapse rate for going down in elevation (warmer)."""
+    # Base: 50°F at 8000 ft
+    # Target: 7000 ft (1000 ft lower) -> expect 3.5°F warmer
+    result = estimate_temp_at_elevation(50.0, 8000, 7000)
+    assert 53.4 <= result <= 53.6  # ~53.5°F
+
+
+def test_estimate_temp_same_elevation():
+    """Test lapse rate returns same temp at same elevation."""
+    result = estimate_temp_at_elevation(50.0, 8000, 8000)
+    assert result == 50.0
+
+
 if __name__ == "__main__":
     try:
         test_parse_weather_data()
-        print("✅ WEATHER ADAPTER TESTS PASSED")
+        test_estimate_temp_at_higher_elevation()
+        test_estimate_temp_at_lower_elevation()
+        test_estimate_temp_same_elevation()
+        print("✅ ALL WEATHER ADAPTER TESTS PASSED")
     except Exception as e:
         print(f"❌ TEST FAILED: {e}")
         raise

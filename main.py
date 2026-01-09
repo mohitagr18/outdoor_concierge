@@ -57,8 +57,8 @@ if "selected_park" not in st.session_state:
 # --- 2. Service Initialization (Cached) ---
 @st.cache_resource
 def get_orchestrator():
-    if not os.getenv("NPS_API_KEY") or not os.getenv("GEMINI_API_KEY"):
-        st.error("Missing API Keys in .env")
+    if not os.getenv("NPS_API_KEY") or not os.getenv("GEMINI_API_KEY") or not os.getenv("WEATHER_API_KEY"):
+        st.error("Missing API Keys in .env (NPS, GEMINI, or WEATHER)")
         return None
 
     try:
@@ -273,13 +273,13 @@ with tab_explorer:
         render_essentials_dashboard(park_code, orchestrator, static_data, volatile_data)
         
     elif selected_view == "Trails Browser":
-        render_trails_browser(park_code, static_data)
+        render_trails_browser(park_code, static_data, volatile_data)
         
     elif selected_view == "Photo Spots":
         render_photo_spots(static_data.get("photo_spots", []))
 
     elif selected_view == "Scenic Drives":
-        render_scenic_drives(static_data.get("scenic_drives", []))
+        render_scenic_drives(static_data.get("scenic_drives", []), alerts=volatile_data.get("alerts", []))
 
     elif selected_view == "Activities & Events":
         # Internal sub-navigation using Radio Buttons
