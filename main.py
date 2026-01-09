@@ -91,28 +91,12 @@ if "view" in st.query_params:
     
 # --- 3. Sidebar ---
 with st.sidebar:
-    st.title("🌲 Adventure Concierge")
-    
-    selected_code = st.selectbox(
-        "Select Park",
-        options=list(SUPPORTED_PARKS.keys()),
-        format_func=lambda x: SUPPORTED_PARKS[x],
-        index=0 if st.session_state.selected_park not in SUPPORTED_PARKS else list(SUPPORTED_PARKS.keys()).index(st.session_state.selected_park)
-    )
-
-    if selected_code != st.session_state.selected_park:
-        st.session_state.selected_park = selected_code
-        st.session_state.session_context.current_park_code = selected_code
-        st.rerun()
-
-    st.divider()
-    visit_date = st.date_input("Visit Date")
-    
-    if st.button("🔄 Refresh Live Data"):
-        clear_volatile_cache()
-        st.rerun()
-    
-    st.info(f"Active Context: **{selected_code.upper()}**")
+    st.markdown("""
+    <div style="text-align: center; padding: 1rem 0;">
+        <span style="font-size: 3rem;">🏔️</span>
+        <h2 style="margin: 0.5rem 0 0 0; font-weight: 700; color: #2d5016;">Adventure<br/>Concierge</h2>
+    </div>
+    """, unsafe_allow_html=True)
 
 # --- 4. Load Data ---
 park_code = st.session_state.selected_park
@@ -120,11 +104,51 @@ nps_client = orchestrator.nps if orchestrator else None
 static_data = get_park_static_data(park_code, nps_client=nps_client)
 volatile_data = get_volatile_data(park_code, orchestrator) if orchestrator else {}
 
-# --- 5. Main Tabs ---
-tab_chat, tab_explorer = st.tabs(["💬 Concierge Chat", "🗺️ Park Explorer"])
+# --- 5. Main Tabs with Enhanced Styling ---
+# Custom CSS for enhanced tabs
+st.markdown("""
+<style>
+    /* Enhanced Tab Styling */
+    div[data-baseweb="tab-list"] {
+        gap: 24px;
+        background: linear-gradient(90deg, #f8f9fa 0%, #e9ecef 100%);
+        padding: 12px 24px;
+        border-radius: 16px;
+        margin-bottom: 1.5rem;
+    }
+    
+    div[data-baseweb="tab"] {
+        font-size: 1.3rem !important;
+        font-weight: 600 !important;
+        padding: 16px 32px !important;
+        border-radius: 10px !important;
+        transition: all 0.2s ease !important;
+    }
+    
+    div[data-baseweb="tab"]:hover {
+        background: rgba(45, 80, 22, 0.1) !important;
+    }
+    
+    div[aria-selected="true"] {
+        background: linear-gradient(135deg, #2d5016 0%, #4a7c23 100%) !important;
+        color: white !important;
+    }
+    
+    div[aria-selected="true"] p {
+        color: white !important;
+    }
+</style>
+""", unsafe_allow_html=True)
+
+tab_chat, tab_explorer = st.tabs(["⛰️ AI Park Ranger", "🗺️ Park Explorer"])
 
 with tab_chat:
-    st.header("Concierge Chat")
+    st.markdown("""
+    <h1 style="margin-bottom: 0.25rem;">⛰️ AI Park Ranger</h1>
+    <p style="font-size: 1.25rem; color: #666; margin-bottom: 1.5rem;">
+        Ask about trails, plan itineraries, check conditions, or explore activities.
+    </p>
+    """, unsafe_allow_html=True)
     
     # Initialize history if empty (handled by SessionContext, but we need UI display list)
     if "ui_chat_history" not in st.session_state:
@@ -183,6 +207,24 @@ with tab_chat:
                     logger.error(f"Chat Error: {e}")
 
 with tab_explorer:
+    # Park selector at top
+    col_label, col_selector = st.columns([2, 2])
+    with col_label:
+        st.markdown("<p style='font-size: 1.4rem; margin-top: 0.5rem;'>🏞️ <strong>Choose a National Park to explore:</strong></p>", unsafe_allow_html=True)
+    with col_selector:
+        selected_code = st.selectbox(
+            "Select Park",
+            options=list(SUPPORTED_PARKS.keys()),
+            format_func=lambda x: SUPPORTED_PARKS[x],
+            index=list(SUPPORTED_PARKS.keys()).index(st.session_state.selected_park) if st.session_state.selected_park in SUPPORTED_PARKS else 0,
+            label_visibility="collapsed"
+        )
+        if selected_code != st.session_state.selected_park:
+            st.session_state.selected_park = selected_code
+            st.session_state.session_context.current_park_code = selected_code
+            st.rerun()
+    
+    st.markdown("<div style='margin-bottom: 2rem;'></div>", unsafe_allow_html=True)
     st.header(f"Exploring {SUPPORTED_PARKS[st.session_state.selected_park]}")
     
     # Check if park has data before rendering
