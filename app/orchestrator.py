@@ -8,7 +8,7 @@ from app.clients.nps_client import NPSClient
 from app.clients.weather_client import WeatherClient
 from app.clients.external_client import ExternalClient
 from app.engine.constraints import ConstraintEngine, SafetyStatus, UserPreference
-from app.models import TrailSummary, ParkContext, ThingToDo, Event, Campground, VisitorCenter, Webcam, Amenity, Alert
+from app.models import TrailSummary, ParkContext, ThingToDo, Event, Campground, VisitorCenter, Webcam, Amenity, Alert, PhotoSpot
 from app.services.llm_service import LLMService, LLMResponse, LLMParsedIntent
 from app.utils.geospatial import mine_entrances 
 from app.services.data_manager import DataManager
@@ -220,6 +220,17 @@ class OutdoorConciergeOrchestrator:
         visitor_centers = load_or_fetch("visitor_centers.json", self.nps.get_visitor_centers, VisitorCenter) or []
         webcams = load_or_fetch("webcams.json", self.nps.get_webcams, Webcam) or []
         things_to_do = load_or_fetch("things_to_do.json", self.nps.get_things_to_do, ThingToDo) or []
+        
+        # Photo spots (static fixture, no API fallback)
+        photo_spots_raw = self.data_manager.load_fixture(intent.park_code, "photo_spots.json")
+        photo_spots = []
+        if photo_spots_raw:
+            for ps in photo_spots_raw:
+                try:
+                    photo_spots.append(PhotoSpot(**ps) if isinstance(ps, dict) else ps)
+                except Exception as e:
+                    logger.warning(f"Failed to parse photo spot: {e}")
+            logger.info(f"Loaded {len(photo_spots)} photo spots for {intent.park_code}")
 
 
         # --- B. Dynamic Data (Cached Daily) ---
@@ -332,7 +343,8 @@ class OutdoorConciergeOrchestrator:
             campgrounds=campgrounds,
             visitor_centers=visitor_centers,
             webcams=webcams,
-            amenities=amenities
+            amenities=amenities,
+            photo_spots=photo_spots
         )
 
         updated_context.chat_history.append(f"Agent: {chat_resp.message}")

@@ -10,7 +10,7 @@ from google.genai import types
 from pydantic import BaseModel, Field, ValidationError
 
 from app.engine.constraints import UserPreference, SafetyStatus
-from app.models import TrailSummary, ThingToDo, Event, Campground, VisitorCenter, Webcam, Amenity, TrailReview
+from app.models import TrailSummary, ThingToDo, Event, Campground, VisitorCenter, Webcam, Amenity, TrailReview, PhotoSpot
 
 logger = logging.getLogger(__name__)
 
@@ -52,7 +52,8 @@ class LLMService(Protocol):
         campgrounds: List[Campground],
         visitor_centers: List[VisitorCenter],
         webcams: List[Webcam],
-        amenities: List[Amenity]
+        amenities: List[Amenity],
+        photo_spots: List[PhotoSpot] = []
     ) -> LLMResponse: ...
 
 # --- Agent Worker Abstraction ---
@@ -191,14 +192,17 @@ class GeminiLLMService:
         campgrounds: List[Campground],
         visitor_centers: List[VisitorCenter],
         webcams: List[Webcam],
-        amenities: List[Amenity]
+        amenities: List[Amenity],
+        photo_spots: List[PhotoSpot] = None
     ) -> LLMResponse:
         alerts = alerts or []
+        photo_spots = photo_spots or []
         
         # 1. Handle Entity Lookup (Single Item Detail)
         if intent.response_type == "entity_lookup" and intent.review_targets:
             data_context = self._build_data_context(
                 trails, things_to_do, events, campgrounds, visitor_centers, webcams, amenities, safety, weather, alerts,
+                photo_spots=photo_spots,
                 review_targets=intent.review_targets,
                 only_show_targets=True
             )
@@ -222,6 +226,7 @@ class GeminiLLMService:
         elif intent.response_type == "reviews" and intent.review_targets:
             data_context = self._build_data_context(
                 trails, things_to_do, events, campgrounds, visitor_centers, webcams, amenities, safety, weather, alerts,
+                photo_spots=photo_spots,
                 review_targets=intent.review_targets,
                 only_show_targets=True
             )
@@ -253,7 +258,8 @@ class GeminiLLMService:
         # 3. Normal / General Modes
         else:
             data_context = self._build_data_context(
-                trails, things_to_do, events, campgrounds, visitor_centers, webcams, amenities, safety, weather, alerts
+                trails, things_to_do, events, campgrounds, visitor_centers, webcams, amenities, safety, weather, alerts,
+                photo_spots=photo_spots
             )
             history_text = "\n".join(chat_history[-5:]) if chat_history else "No previous history."
             
@@ -418,6 +424,21 @@ class GeminiLLMService:
                 USER REQUEST: '{query}'
                 """
                 message = self.agent_guide.execute(prompt)
+            elif any(t in query_lower for t in ["photo", "photography", "picture", "shot", "sunrise", "sunset"]):
+                # Photo-specific query - use photo spots context
+                prompt = f"""
+                ROLE: Park Photography Expert.
+                TASK: Recommend the best photography spots from the "PHOTO SPOTS" section of context.
+                
+                CRITICAL INSTRUCTIONS:
+                1. Use the PHOTO SPOTS section - these are curated locations for photography.
+                2. For each spot, mention: Name, Best Time, Tips, and what makes it special.
+                3. Include current weather context for photography conditions.
+                4. End with follow-up questions about photography gear or timing.
+                
+                {base_prompt}
+                """
+                message = self.agent_guide.execute(prompt)
             else:
                 prompt = f"ROLE: Park Ranger. Be helpful and welcoming.\n{base_prompt}"
                 message = self.agent_guide.execute(prompt)
@@ -435,6 +456,8 @@ class GeminiLLMService:
                     footer += f"> 📸 See the best [**Photo Spots**](#photos?park={park_code})\n"
                 if any(t in query_lower for t in ["webcam", "webcams", "live"]):
                     footer += f"> 📹 View [**Live Webcams**](#webcams?park={park_code})\n"
+                if any(t in query_lower for t in ["amenity", "amenities", "gear", "rent", "buy", "gas", "restaurant", "food", "hospital", "urgent", "grocery", "store", "charging"]):
+                    footer += f"> 🏪 See all [**Hub Services**](#essentials?park={park_code}) for nearby amenities\n"
                 message += footer
 
         return LLMResponse(
@@ -447,10 +470,12 @@ class GeminiLLMService:
 
     def _build_data_context(
         self, trails, things, events, camps, centers, cams, amenities, safety, weather, alerts=None,
+        photo_spots=None,
         review_targets: Optional[List[str]] = None,
         only_show_targets: bool = False
     ) -> str:
         alerts = alerts or []
+        photo_spots = photo_spots or []
         
         # --- Helper: Status Mapper ---
         status_map = {
@@ -659,7 +684,97 @@ class GeminiLLMService:
         
         EVENTS:
         {fmt(events, "Event", format_event)}
+        
+        PHOTO SPOTS:
+        {self._format_photo_spots(photo_spots)}
+        
+        AMENITIES (Nearby Services):
+        {self._format_amenities(amenities)}
         """
+    
+    def _format_photo_spots(self, photo_spots) -> str:
+        """Format photo spots for LLM context."""
+        if not photo_spots:
+            return "No photo spots available."
+        
+        lines = []
+        for ps in photo_spots[:10]:  # Limit to 10
+            try:
+                name = getattr(ps, 'name', None) or ps.get('name', 'Unknown') if isinstance(ps, dict) else ps.name
+                best_time = getattr(ps, 'best_time', None) or (ps.get('best_time', '') if isinstance(ps, dict) else '')
+                tips = getattr(ps, 'tips', None) or (ps.get('tips', '') if isinstance(ps, dict) else '')
+                description = getattr(ps, 'description', None) or (ps.get('description', '') if isinstance(ps, dict) else '')
+                
+                line = f"- **{name}**"
+                if best_time:
+                    line += f" (Best time: {best_time})"
+                if description:
+                    line += f": {description[:150]}"
+                if tips:
+                    line += f" Tips: {tips[:100]}"
+                lines.append(line)
+            except Exception:
+                continue
+        
+        return "\n".join(lines) if lines else "No photo spots available."
+    
+    def _format_amenities(self, amenities) -> str:
+        """Format amenities for LLM context with Google Maps/website links."""
+        if not amenities:
+            return "No nearby amenities available."
+        
+        lines = []
+        for a in amenities[:15]:  # Limit to 15
+            try:
+                # Handle both Pydantic model and dict
+                if hasattr(a, 'name'):
+                    name = a.name
+                    address = getattr(a, 'address', '')
+                    lat = getattr(a, 'latitude', None)
+                    lon = getattr(a, 'longitude', None)
+                    website = getattr(a, 'website', None)
+                    distance = getattr(a, 'distance_miles', None)
+                    amenity_type = getattr(a, 'type', '')
+                else:
+                    name = a.get('name', 'Unknown')
+                    address = a.get('address', '')
+                    lat = a.get('latitude', None)
+                    lon = a.get('longitude', None)
+                    website = a.get('website', None)
+                    distance = a.get('distance_miles', None)
+                    amenity_type = a.get('type', '')
+                
+                # Build Google Maps URL from lat/lon (most reliable)
+                if lat and lon:
+                    maps_url = f"https://www.google.com/maps/search/?api=1&query={lat},{lon}"
+                elif address:
+                    # URL-encode address for search
+                    safe_addr = address.replace(' ', '+').replace(',', '%2C')
+                    maps_url = f"https://www.google.com/maps/search/?api=1&query={safe_addr}"
+                else:
+                    maps_url = None
+                
+                # Build name with link (prefer Google Maps, fallback to website)
+                if maps_url:
+                    name_display = f"[{name}]({maps_url})"
+                elif website:
+                    name_display = f"[{name}]({website})"
+                else:
+                    name_display = name
+                
+                line = f"- **{name_display}**"
+                if amenity_type:
+                    line += f" ({amenity_type})"
+                if distance:
+                    line += f" - {distance:.1f} mi away"
+                if address:
+                    line += f" | {address}"
+                
+                lines.append(line)
+            except Exception:
+                continue
+        
+        return "\n".join(lines) if lines else "No nearby amenities available."
 
     def extract_reviews_from_text(self, text: str) -> List[TrailReview]:
         truncated_text = text[:60000] 
