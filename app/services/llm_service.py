@@ -281,7 +281,11 @@ class GeminiLLMService:
             query_lower = query.lower()
             specific_topics = ["event", "trail", "hike", "weather", "camping", "campground", 
                                "webcam", "alert", "entrance", "visitor center", "amenities",
-                               "photo", "activity", "activities"]
+                               "photo", "activity", "activities",
+                               # Amenity-related terms
+                               "gas", "grocery", "store", "restaurant", "food", "lodging", "hotel",
+                               "rent", "buy", "gear", "equipment", "supplies", "charging", "medical",
+                               "pharmacy", "hospital", "shuttle", "bike", "kayak", "snowshoes"]
             is_specific_query = any(topic in query_lower for topic in specific_topics)
             is_broad_overview = (
                 intent.response_type == "general_chat" 
@@ -432,9 +436,11 @@ class GeminiLLMService:
                 
                 CRITICAL INSTRUCTIONS:
                 1. Use the PHOTO SPOTS section - these are curated locations for photography.
-                2. For each spot, mention: Name, Best Time, Tips, and what makes it special.
-                3. Include current weather context for photography conditions.
-                4. End with follow-up questions about photography gear or timing.
+                2. For each spot, mention: Name (with link if available), Best Time, Tips, and what makes it special.
+                3. IMAGES: The context contains `<img ... />`. COPY THIS EXACTLY for each photo spot.
+                4. Put the image on a NEW LINE after the description.
+                5. Include current weather context for photography conditions.
+                6. End with follow-up questions about photography gear or timing.
                 
                 {base_prompt}
                 """
@@ -456,7 +462,30 @@ class GeminiLLMService:
                     footer += f"> 📸 See the best [**Photo Spots**](#photos?park={park_code})\n"
                 if any(t in query_lower for t in ["webcam", "webcams", "live"]):
                     footer += f"> 📹 View [**Live Webcams**](#webcams?park={park_code})\n"
-                if any(t in query_lower for t in ["amenity", "amenities", "gear", "rent", "buy", "gas", "restaurant", "food", "hospital", "urgent", "grocery", "store", "charging"]):
+                # Comprehensive list of amenity/service-related keywords
+                amenity_keywords = [
+                    # General
+                    "amenity", "amenities", "nearby", "where can i", "where to",
+                    # Actions
+                    "rent", "buy", "purchase", "get", "find", "borrow",
+                    # Services
+                    "gas", "fuel", "charging", "ev", "atm", "bank", "pharmacy", "medical", 
+                    "hospital", "urgent", "clinic", "doctor",
+                    # Food & Lodging
+                    "restaurant", "food", "eat", "grocery", "store", "shop", "market",
+                    "lodging", "hotel", "motel", "cabin", "inn", "campground",
+                    # Winter gear
+                    "cleats", "spikes", "traction", "snowshoes", "skis", "ski", "snowboard",
+                    "poles", "crampons", "ice", "winter gear", "cold weather",
+                    # Water activities
+                    "kayak", "canoe", "paddle", "paddleboard", "raft", "tube", "boat",
+                    # Camping & hiking gear
+                    "tent", "sleeping bag", "backpack", "hiking", "boots", "gear", "equipment",
+                    "supplies", "flashlight", "lantern", "cooler", "stove",
+                    # Transportation
+                    "shuttle", "bike", "bicycle", "scooter", "car rental",
+                ]
+                if any(t in query_lower for t in amenity_keywords):
                     footer += f"> 🏪 See all [**Hub Services**](#essentials?park={park_code}) for nearby amenities\n"
                 message += footer
 
@@ -693,25 +722,55 @@ class GeminiLLMService:
         """
     
     def _format_photo_spots(self, photo_spots) -> str:
-        """Format photo spots for LLM context."""
+        """Format photo spots for LLM context with images."""
         if not photo_spots:
             return "No photo spots available."
         
         lines = []
         for ps in photo_spots[:10]:  # Limit to 10
             try:
-                name = getattr(ps, 'name', None) or ps.get('name', 'Unknown') if isinstance(ps, dict) else ps.name
-                best_time = getattr(ps, 'best_time', None) or (ps.get('best_time', '') if isinstance(ps, dict) else '')
-                tips = getattr(ps, 'tips', None) or (ps.get('tips', '') if isinstance(ps, dict) else '')
-                description = getattr(ps, 'description', None) or (ps.get('description', '') if isinstance(ps, dict) else '')
+                # Handle both Pydantic model and dict
+                if hasattr(ps, 'name'):
+                    name = ps.name
+                    best_time = getattr(ps, 'best_time_of_day', [])
+                    tips = getattr(ps, 'tips', [])
+                    description = getattr(ps, 'description', '')
+                    image_url = getattr(ps, 'image_url', None)
+                    source_url = getattr(ps, 'source_url', None)
+                    rank = getattr(ps, 'rank', None)
+                else:
+                    name = ps.get('name', 'Unknown')
+                    best_time = ps.get('best_time_of_day', [])
+                    tips = ps.get('tips', [])
+                    description = ps.get('description', '')
+                    image_url = ps.get('image_url', None)
+                    source_url = ps.get('source_url', None)
+                    rank = ps.get('rank', None)
                 
-                line = f"- **{name}**"
-                if best_time:
-                    line += f" (Best time: {best_time})"
+                # Format best time as string
+                best_time_str = ", ".join(best_time) if isinstance(best_time, list) else str(best_time) if best_time else ""
+                
+                # Build name with optional link and rank
+                if source_url:
+                    name_display = f"[{name}]({source_url})"
+                else:
+                    name_display = name
+                
+                line = f"- **{name_display}**"
+                if rank:
+                    line += f" (Rank #{rank})"
+                if best_time_str:
+                    line += f" | Best time: {best_time_str}"
                 if description:
-                    line += f": {description[:150]}"
-                if tips:
-                    line += f" Tips: {tips[:100]}"
+                    line += f"\n  {description[:200]}"
+                if tips and len(tips) > 0:
+                    first_tip = tips[0] if isinstance(tips, list) else str(tips)
+                    line += f"\n  *Tip: {first_tip[:100]}*"
+                
+                # Add image (like trails)
+                if image_url:
+                    line += f'\n<br><div style="margin-top: 10px;"><img src="{image_url}" width="300" style="border-radius: 5px;" /></div>'
+                
                 lines.append(line)
             except Exception:
                 continue
