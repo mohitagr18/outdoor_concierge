@@ -31,6 +31,7 @@ from app.ui.styles import inject_global_styles, inject_radio_tab_styles
 from app.ui.views.park_explorer_essentials import render_essentials_dashboard
 from app.ui.views.park_explorer_trails import render_trails_browser
 from app.ui.views.park_explorer_photos import render_photo_spots
+from app.ui.views.park_explorer_drives import render_scenic_drives
 from app.ui.views.park_explorer_activities import render_activities_grid
 from app.ui.views.park_explorer_events import render_events_list
 from app.ui.views.park_explorer_webcams import render_webcams_grid
@@ -218,6 +219,7 @@ with tab_explorer:
                         include_trails=True,
                         include_rankings=True,
                         include_photo_spots=True,
+                        include_scenic_drives=True,
                         include_amenities=True,
                         progress_callback=update_progress
                     )
@@ -275,6 +277,9 @@ with tab_explorer:
         
     elif selected_view == "Photo Spots":
         render_photo_spots(static_data.get("photo_spots", []))
+
+    elif selected_view == "Scenic Drives":
+        render_scenic_drives(static_data.get("scenic_drives", []))
 
     elif selected_view == "Activities & Events":
         # Internal sub-navigation using Radio Buttons

@@ -20,8 +20,9 @@
     "amenities": [
       "Historical/Interpretive Information/Exhibits"
     ],
-    "isOpenToPublic": true,
-    "isManagedByNps": true
+    "isOpenToPublic": false,
+    "isManagedByNps": false,
+    "url": null
   },
   {
     "id": "62B5A503-7AB8-4DDC-8074-FA7B7F6D2E98",
@@ -44,8 +45,9 @@
     "amenities": [
       "Historical/Interpretive Information/Exhibits"
     ],
-    "isOpenToPublic": true,
-    "isManagedByNps": true
+    "isOpenToPublic": false,
+    "isManagedByNps": false,
+    "url": null
   },
   {
     "id": "037DC135-0914-4314-8C9E-5C353A1256F9",
@@ -73,8 +75,9 @@
       "Restroom",
       "Telephone"
     ],
-    "isOpenToPublic": true,
-    "isManagedByNps": true
+    "isOpenToPublic": false,
+    "isManagedByNps": false,
+    "url": "https://www.nps.gov/yose/planyourvisit/fees.htm"
   },
   {
     "id": "42F1C711-AA09-4A4E-BB8B-7D002198EE03",
@@ -97,8 +100,9 @@
     "amenities": [
       "Historical/Interpretive Information/Exhibits"
     ],
-    "isOpenToPublic": true,
-    "isManagedByNps": true
+    "isOpenToPublic": false,
+    "isManagedByNps": false,
+    "url": null
   },
   {
     "id": "258D25A3-4443-489C-AEC1-5AEBBBF17523",
@@ -126,8 +130,9 @@
       "Ski Rental",
       "Trash/Litter Receptacles"
     ],
-    "isOpenToPublic": true,
-    "isManagedByNps": false
+    "isOpenToPublic": false,
+    "isManagedByNps": false,
+    "url": "https://www.travelyosemite.com/winter/yosemite-ski-snowboard-area/"
   },
   {
     "id": "56E54792-8E32-4956-AAA6-39243094C8E9",
@@ -153,8 +158,9 @@
       "Information - Park Newspaper Available",
       "Information - Ranger/Staff Member Present"
     ],
-    "isOpenToPublic": true,
-    "isManagedByNps": true
+    "isOpenToPublic": false,
+    "isManagedByNps": false,
+    "url": "https://www.nps.gov/yose/planyourvisit/fees.htm"
   },
   {
     "id": "4B0211F8-48CB-494A-8151-FE821D1DDED5",
@@ -177,8 +183,9 @@
     "amenities": [
       "Historical/Interpretive Information/Exhibits"
     ],
-    "isOpenToPublic": true,
-    "isManagedByNps": true
+    "isOpenToPublic": false,
+    "isManagedByNps": false,
+    "url": null
   },
   {
     "id": "92601B6A-4EC1-44B3-9741-8467F05C7407",
@@ -201,8 +208,9 @@
     "amenities": [
       "Historical/Interpretive Information/Exhibits"
     ],
-    "isOpenToPublic": true,
-    "isManagedByNps": true
+    "isOpenToPublic": false,
+    "isManagedByNps": false,
+    "url": null
   },
   {
     "id": "39BFA8FE-E8CE-42E6-B9E4-B1F98B6E208F",
@@ -225,8 +233,9 @@
     "amenities": [
       "Historical/Interpretive Information/Exhibits"
     ],
-    "isOpenToPublic": true,
-    "isManagedByNps": true
+    "isOpenToPublic": false,
+    "isManagedByNps": false,
+    "url": null
   },
   {
     "id": "4E6B540D-E774-42D5-83C8-3FCA23D4EB19",
@@ -249,8 +258,9 @@
     "amenities": [
       "Historical/Interpretive Information/Exhibits"
     ],
-    "isOpenToPublic": true,
-    "isManagedByNps": true
+    "isOpenToPublic": false,
+    "isManagedByNps": false,
+    "url": null
   },
   {
     "id": "B65BFFC4-7A68-40B2-BFEF-BE0980E9314D",
@@ -273,8 +283,9 @@
     "amenities": [
       "Historical/Interpretive Information/Exhibits"
     ],
-    "isOpenToPublic": true,
-    "isManagedByNps": true
+    "isOpenToPublic": false,
+    "isManagedByNps": false,
+    "url": null
   },
   {
     "id": "F96A3DD5-1E76-4A5E-B0DE-93169C32471C",
@@ -297,8 +308,9 @@
     "amenities": [
       "Historical/Interpretive Information/Exhibits"
     ],
-    "isOpenToPublic": true,
-    "isManagedByNps": true
+    "isOpenToPublic": false,
+    "isManagedByNps": false,
+    "url": null
   },
   {
     "id": "1C3B2590-C2AC-4149-9F29-FB70CEDBB50D",
@@ -321,8 +333,9 @@
     "amenities": [
       "Historical/Interpretive Information/Exhibits"
     ],
-    "isOpenToPublic": true,
-    "isManagedByNps": true
+    "isOpenToPublic": false,
+    "isManagedByNps": false,
+    "url": null
   },
   {
     "id": "48DBCE46-16CA-4EB4-8496-CE0C70E8D7C1",
@@ -345,8 +358,9 @@
     "amenities": [
       "Historical/Interpretive Information/Exhibits"
     ],
-    "isOpenToPublic": true,
-    "isManagedByNps": true
+    "isOpenToPublic": false,
+    "isManagedByNps": false,
+    "url": null
   },
   {
     "id": "6D04F583-962E-469D-9D7B-A7FC3A526978",
@@ -369,8 +383,9 @@
     "amenities": [
       "Historical/Interpretive Information/Exhibits"
     ],
-    "isOpenToPublic": true,
-    "isManagedByNps": true
+    "isOpenToPublic": false,
+    "isManagedByNps": false,
+    "url": null
   },
   {
     "id": "53B3A413-C155-4713-8236-3E183048BF71",
@@ -393,8 +408,9 @@
     "amenities": [
       "Historical/Interpretive Information/Exhibits"
     ],
-    "isOpenToPublic": true,
-    "isManagedByNps": true
+    "isOpenToPublic": false,
+    "isManagedByNps": false,
+    "url": null
   },
   {
     "id": "882CC1C1-9F57-43D4-9D84-43F2CACA939A",
@@ -417,8 +433,9 @@
     "amenities": [
       "Historical/Interpretive Information/Exhibits"
     ],
-    "isOpenToPublic": true,
-    "isManagedByNps": true
+    "isOpenToPublic": false,
+    "isManagedByNps": false,
+    "url": null
   },
   {
     "id": "BE78BD98-1E04-4567-9B1C-8171679F2EFA",
@@ -441,8 +458,9 @@
     "amenities": [
       "Historical/Interpretive Information/Exhibits"
     ],
-    "isOpenToPublic": true,
-    "isManagedByNps": true
+    "isOpenToPublic": false,
+    "isManagedByNps": false,
+    "url": null
   },
   {
     "id": "E13C3497-91D0-4450-91C7-1B2DC0568846",
@@ -465,8 +483,9 @@
     "amenities": [
       "Historical/Interpretive Information/Exhibits"
     ],
-    "isOpenToPublic": true,
-    "isManagedByNps": true
+    "isOpenToPublic": false,
+    "isManagedByNps": false,
+    "url": null
   },
   {
     "id": "6DF32715-91BB-4305-92CF-A17A72801F9E",
@@ -496,8 +515,9 @@
       "Trash/Litter Receptacles",
       "Water - Bottle-Filling Station"
     ],
-    "isOpenToPublic": true,
-    "isManagedByNps": true
+    "isOpenToPublic": false,
+    "isManagedByNps": false,
+    "url": null
   },
   {
     "id": "D01EAE41-1577-4ED1-B095-BE904DB686DE",
@@ -520,8 +540,9 @@
     "amenities": [
       "Scenic View/Photo Spot"
     ],
-    "isOpenToPublic": true,
-    "isManagedByNps": true
+    "isOpenToPublic": false,
+    "isManagedByNps": false,
+    "url": null
   },
   {
     "id": "EB8AB0C9-BABF-4DD5-A81F-8F8EC7CB2C25",
@@ -549,8 +570,9 @@
       "Toilet - Vault/Composting",
       "Trash/Litter Receptacles"
     ],
-    "isOpenToPublic": true,
-    "isManagedByNps": true
+    "isOpenToPublic": false,
+    "isManagedByNps": false,
+    "url": null
   },
   {
     "id": "C51F3C63-C110-43C7-92FC-1F8EFD44228A",
@@ -574,8 +596,9 @@
       "Animal-Safe Food Storage",
       "Trailhead"
     ],
-    "isOpenToPublic": true,
-    "isManagedByNps": true
+    "isOpenToPublic": false,
+    "isManagedByNps": false,
+    "url": null
   },
   {
     "id": "1F5F467E-498F-4DD0-A28B-20686E1758EF",
@@ -599,8 +622,9 @@
       "Animal-Safe Food Storage",
       "Trailhead"
     ],
-    "isOpenToPublic": true,
-    "isManagedByNps": true
+    "isOpenToPublic": false,
+    "isManagedByNps": false,
+    "url": null
   },
   {
     "id": "7E8BD227-F49A-4BF4-8D40-B32EBA399069",
@@ -624,8 +648,9 @@
       "Historical/Interpretive Information/Exhibits",
       "Wheelchair Accessible"
     ],
-    "isOpenToPublic": true,
-    "isManagedByNps": true
+    "isOpenToPublic": false,
+    "isManagedByNps": false,
+    "url": "https://www.nps.gov/yose/learn/historyculture/historycenter.htm"
   },
   {
     "id": "5999D822-1ADB-459E-B927-2127F3841080",
@@ -653,8 +678,9 @@
       "Water - Bottle-Filling Station",
       "Wheelchair Accessible"
     ],
-    "isOpenToPublic": true,
-    "isManagedByNps": true
+    "isOpenToPublic": false,
+    "isManagedByNps": false,
+    "url": null
   },
   {
     "id": "13374ED7-ADF9-4A78-9DAF-546A346BFFC1",
@@ -681,8 +707,9 @@
       "Trailhead",
       "Wheelchair Accessible"
     ],
-    "isOpenToPublic": true,
-    "isManagedByNps": true
+    "isOpenToPublic": false,
+    "isManagedByNps": false,
+    "url": null
   },
   {
     "id": "FA5446CD-8CC7-49BA-BBBA-5C12BBB0311D",
@@ -705,8 +732,9 @@
     "amenities": [
       "Historical/Interpretive Information/Exhibits"
     ],
-    "isOpenToPublic": true,
-    "isManagedByNps": true
+    "isOpenToPublic": false,
+    "isManagedByNps": false,
+    "url": null
   },
   {
     "id": "8954B36F-936C-41E3-9297-06582B876874",
@@ -729,8 +757,9 @@
     "amenities": [
       "Historical/Interpretive Information/Exhibits"
     ],
-    "isOpenToPublic": true,
-    "isManagedByNps": true
+    "isOpenToPublic": false,
+    "isManagedByNps": false,
+    "url": null
   },
   {
     "id": "617375C5-DD68-4D3B-AA2B-44E66109F785",
@@ -753,8 +782,9 @@
     "amenities": [
       "Historical/Interpretive Information/Exhibits"
     ],
-    "isOpenToPublic": true,
-    "isManagedByNps": true
+    "isOpenToPublic": false,
+    "isManagedByNps": false,
+    "url": null
   },
   {
     "id": "8D7C6DEA-B67D-4C6A-B949-CE574F8FFDE0",
@@ -777,8 +807,9 @@
     "amenities": [
       "Historical/Interpretive Information/Exhibits"
     ],
-    "isOpenToPublic": true,
-    "isManagedByNps": true
+    "isOpenToPublic": false,
+    "isManagedByNps": false,
+    "url": null
   },
   {
     "id": "44922725-0E1E-498B-8E58-B4CB1070E99F",
@@ -801,8 +832,9 @@
     "amenities": [
       "Historical/Interpretive Information/Exhibits"
     ],
-    "isOpenToPublic": true,
-    "isManagedByNps": true
+    "isOpenToPublic": false,
+    "isManagedByNps": false,
+    "url": null
   },
   {
     "id": "B7B7BFE8-522D-4211-A653-FADF8C611DE9",
@@ -825,8 +857,9 @@
     "amenities": [
       "Historical/Interpretive Information/Exhibits"
     ],
-    "isOpenToPublic": true,
-    "isManagedByNps": true
+    "isOpenToPublic": false,
+    "isManagedByNps": false,
+    "url": null
   },
   {
     "id": "9D2F3B19-727B-4A30-B4D4-09389C54CC3F",
@@ -849,8 +882,9 @@
     "amenities": [
       "Historical/Interpretive Information/Exhibits"
     ],
-    "isOpenToPublic": true,
-    "isManagedByNps": true
+    "isOpenToPublic": false,
+    "isManagedByNps": false,
+    "url": null
   },
   {
     "id": "3805E775-924B-4EF0-A417-E041D95325A3",
@@ -873,8 +907,9 @@
     "amenities": [
       "Historical/Interpretive Information/Exhibits"
     ],
-    "isOpenToPublic": true,
-    "isManagedByNps": true
+    "isOpenToPublic": false,
+    "isManagedByNps": false,
+    "url": null
   },
   {
     "id": "F87D81F0-9283-4B3F-9692-E25363D5D8EF",
@@ -897,8 +932,9 @@
     "amenities": [
       "Historical/Interpretive Information/Exhibits"
     ],
-    "isOpenToPublic": true,
-    "isManagedByNps": true
+    "isOpenToPublic": false,
+    "isManagedByNps": false,
+    "url": null
   },
   {
     "id": "AC0DD483-036B-4863-9FBF-FB63F406D4DE",
@@ -921,8 +957,9 @@
     "amenities": [
       "Historical/Interpretive Information/Exhibits"
     ],
-    "isOpenToPublic": true,
-    "isManagedByNps": true
+    "isOpenToPublic": false,
+    "isManagedByNps": false,
+    "url": null
   },
   {
     "id": "52F672CE-BCDD-4A62-AFDE-6475E94DABC7",
@@ -954,8 +991,9 @@
       "Water - Drinking/Potable",
       "Wheelchair Accessible"
     ],
-    "isOpenToPublic": true,
-    "isManagedByNps": false
+    "isOpenToPublic": false,
+    "isManagedByNps": false,
+    "url": "https://www.travelyosemite.com/things-to-do/shopping-supplies-groceries/"
   },
   {
     "id": "72A15C13-951C-4E3B-86F4-DD440ADD48B9",
@@ -1000,8 +1038,9 @@
       "Trash/Litter Receptacles",
       "Wheelchair Accessible"
     ],
-    "isOpenToPublic": true,
-    "isManagedByNps": false
+    "isOpenToPublic": false,
+    "isManagedByNps": false,
+    "url": "https://www.travelyosemite.com/lodging/curry-village/"
   },
   {
     "id": "A1B4D53E-F057-426F-91D0-C382778D8141",
@@ -1026,14 +1065,15 @@
       "Wheelchair Accessible",
       "Wheelchairs Available"
     ],
-    "isOpenToPublic": true,
-    "isManagedByNps": false
+    "isOpenToPublic": false,
+    "isManagedByNps": false,
+    "url": "https://www.travelyosemite.com/things-to-do/biking/"
   },
   {
     "id": "CF83E4D6-4279-43B5-94E3-9E05113C80B0",
     "title": "Curry Village EV Charging Station",
     "listingDescription": "Located in the parking lot west of Curry Village and just east of Stoneman Bridge, this electric vehicle (EV) charging station features 20\u00a0level 2 chargers. Chargers have a J1772 connector.",
-    "bodyText": "<p>Located in the parking lot west of Curry Village and just east of Stoneman Bridge, this electric vehicle (EV) charging station features 20\u00a0level 2 chargers. Chargers have a J1772 connector.</p> <p>EV charging is available in Yosemite National Park at no cost, courtesy of Yosemite Hospitality. Other charging stations are available outside the park. Use the\u00a0<a href=\"https://afdc.energy.gov/fuels/electricity_locations.html#/find/nearest?fuel=ELEC&location=95389\">Alternative Fuels Data Center</a>\u00a0to view locations of EV charging stations in the area.</p> <p>Charging stations are available 24 hours a day.</p>",
+    "bodyText": "<p>Located in the parking lot west of Curry Village and just east of Stoneman Bridge, this electric vehicle (EV) charging station features 20\u00a0level 2 chargers. Chargers have a J1772 connector.</p> <p>Other charging stations are available outside the park. Use the\u00a0<a href=\"https://afdc.energy.gov/fuels/electricity_locations.html#/find/nearest?fuel=ELEC&location=95389\">Alternative Fuels Data Center</a>\u00a0to view locations of EV charging stations in the area.</p> <p>Charging stations are available 24 hours a day.</p>",
     "location": {
       "lat": 37.738709838951564,
       "lon": -119.57273694432217
@@ -1050,8 +1090,9 @@
     "amenities": [
       "Electric Car Charging Station"
     ],
-    "isOpenToPublic": true,
-    "isManagedByNps": false
+    "isOpenToPublic": false,
+    "isManagedByNps": false,
+    "url": "https://afdc.energy.gov/fuels/electricity_locations.html#/find/nearest?fuel=ELEC&location=95389"
   },
   {
     "id": "5961B9A4-68E5-41EF-98AB-D874EE76084B",
@@ -1077,8 +1118,9 @@
       "Trash/Litter Receptacles",
       "Wheelchair Accessible"
     ],
-    "isOpenToPublic": true,
-    "isManagedByNps": true
+    "isOpenToPublic": false,
+    "isManagedByNps": false,
+    "url": null
   },
   {
     "id": "DCA5497A-6F9A-4F3A-AC9C-08F44C1DC4AF",
@@ -1099,8 +1141,9 @@
       }
     ],
     "amenities": [],
-    "isOpenToPublic": true,
-    "isManagedByNps": false
+    "isOpenToPublic": false,
+    "isManagedByNps": false,
+    "url": null
   },
   {
     "id": "18E05EB9-7D43-4C2A-8966-ECCEC10724EF",
@@ -1122,7 +1165,8 @@
     ],
     "amenities": [],
     "isOpenToPublic": false,
-    "isManagedByNps": false
+    "isManagedByNps": false,
+    "url": null
   },
   {
     "id": "9570DA5A-4393-4B7C-88B8-33FAEB3A4B16",
@@ -1145,8 +1189,9 @@
     "amenities": [
       "Historical/Interpretive Information/Exhibits"
     ],
-    "isOpenToPublic": true,
-    "isManagedByNps": true
+    "isOpenToPublic": false,
+    "isManagedByNps": false,
+    "url": null
   },
   {
     "id": "666DD439-2FE0-4104-8671-4CA5F79C8D80",
@@ -1174,8 +1219,9 @@
       "Trash/Litter Receptacles",
       "Wheelchair Accessible"
     ],
-    "isOpenToPublic": true,
-    "isManagedByNps": true
+    "isOpenToPublic": false,
+    "isManagedByNps": false,
+    "url": "https://www.travelyosemite.com/dining/yosemite-village"
   },
   {
     "id": "2D3F31EA-90B4-4975-AD28-F9141C661438",
@@ -1198,8 +1244,9 @@
     "amenities": [
       "Scenic View/Photo Spot"
     ],
-    "isOpenToPublic": true,
-    "isManagedByNps": true
+    "isOpenToPublic": false,
+    "isManagedByNps": false,
+    "url": null
   },
   {
     "id": "32CB2FFE-5A99-4E44-9716-48B2C2E9EF54",
@@ -1228,14 +1275,15 @@
       "Trash/Litter Receptacles",
       "Wheelchair Accessible"
     ],
-    "isOpenToPublic": true,
-    "isManagedByNps": true
+    "isOpenToPublic": false,
+    "isManagedByNps": false,
+    "url": null
   },
   {
     "id": "FFADAA67-9647-4BF6-A920-90B806F1E21F",
     "title": "El Portal EV Charging Station",
     "listingDescription": "Located in the parking lot adjacent to the El Portal Market and Gas Station, this electric vehicle (EV) charging station features two level 2 chargers. Chargers have a J1772 connector with a power output of 11 kW.",
-    "bodyText": "<p>Located in the parking lot adjacent to the El Portal Market and Gas Station, this electric vehicle (EV) charging station features two level 2 chargers. Chargers have a J1772 connector with a power output of 11 kW.</p> <p>EV charging is available in Yosemite National Park at no cost, courtesy of Yosemite Hospitality. Other charging stations are available outside the park. Use the <a href=\"https://afdc.energy.gov/fuels/electricity_locations.html#/find/nearest?fuel=ELEC&location=95389\">Alternative Fuels Data Center</a> to view locations of EV charging stations in the area.</p> <p>Charging stations are available 24 hours a day.</p>",
+    "bodyText": "<p>Located in the parking lot adjacent to the El Portal Market and Gas Station, this electric vehicle (EV) charging station features two level 2 chargers. Chargers have a J1772 connector with a power output of 11 kW.</p> <p>Other charging stations are available outside the park. Use the <a href=\"https://afdc.energy.gov/fuels/electricity_locations.html#/find/nearest?fuel=ELEC&location=95389\">Alternative Fuels Data Center</a> to view locations of EV charging stations in the area.</p> <p>Charging stations are available 24 hours a day.</p>",
     "location": {
       "lat": 37.67487826591965,
       "lon": -119.78191307272584
@@ -1252,8 +1300,9 @@
     "amenities": [
       "Electric Car Charging Station"
     ],
-    "isOpenToPublic": true,
-    "isManagedByNps": false
+    "isOpenToPublic": false,
+    "isManagedByNps": false,
+    "url": "https://afdc.energy.gov/fuels/electricity_locations.html#/find/nearest?fuel=ELEC&location=95389"
   },
   {
     "id": "42BD412A-6930-45C8-BF75-A4F9B49C19C5",
@@ -1283,8 +1332,9 @@
       "Trash/Litter Receptacles",
       "Wheelchair Accessible"
     ],
-    "isOpenToPublic": true,
-    "isManagedByNps": false
+    "isOpenToPublic": false,
+    "isManagedByNps": false,
+    "url": "https://www.nps.gov/places/000/el-portal-ev-charging-station.htm"
   },
   {
     "id": "8056CA99-0BF6-4104-ACEF-7ACE4F2D4CC3",
@@ -1308,8 +1358,9 @@
       "Animal-Safe Food Storage",
       "Trailhead"
     ],
-    "isOpenToPublic": true,
-    "isManagedByNps": true
+    "isOpenToPublic": false,
+    "isManagedByNps": false,
+    "url": null
   },
   {
     "id": "48B7F32F-D66A-48C7-824E-B90B1C2B9893",
@@ -1332,8 +1383,9 @@
     "amenities": [
       "Trailhead"
     ],
-    "isOpenToPublic": true,
-    "isManagedByNps": true
+    "isOpenToPublic": false,
+    "isManagedByNps": false,
+    "url": "https://www.nps.gov/yose/planyourvisit/conditions.htm"
   },
   {
     "id": "8D6C9189-822E-4625-B05F-C96AF0DAC137",
@@ -1356,8 +1408,9 @@
     "amenities": [
       "Trailhead"
     ],
-    "isOpenToPublic": true,
-    "isManagedByNps": true
+    "isOpenToPublic": false,
+    "isManagedByNps": false,
+    "url": null
   },
   {
     "id": "626369C6-2AAB-4D9F-9554-C9DDBD140857",
@@ -1381,8 +1434,9 @@
       "Animal-Safe Food Storage",
       "Trailhead"
     ],
-    "isOpenToPublic": true,
-    "isManagedByNps": true
+    "isOpenToPublic": false,
+    "isManagedByNps": false,
+    "url": null
   },
   {
     "id": "AC4FF181-55EB-4415-ACDE-B12648B768C8",
@@ -1405,8 +1459,9 @@
     "amenities": [
       "Historical/Interpretive Information/Exhibits"
     ],
-    "isOpenToPublic": true,
-    "isManagedByNps": true
+    "isOpenToPublic": false,
+    "isManagedByNps": false,
+    "url": null
   },
   {
     "id": "71E89086-E504-4620-A966-9071259B362C",
@@ -1429,8 +1484,9 @@
     "amenities": [
       "Historical/Interpretive Information/Exhibits"
     ],
-    "isOpenToPublic": true,
-    "isManagedByNps": true
+    "isOpenToPublic": false,
+    "isManagedByNps": false,
+    "url": null
   },
   {
     "id": "8220F4CD-9691-4F63-80CB-D1F5D06685D7",
@@ -1453,8 +1509,9 @@
     "amenities": [
       "Historical/Interpretive Information/Exhibits"
     ],
-    "isOpenToPublic": true,
-    "isManagedByNps": true
+    "isOpenToPublic": false,
+    "isManagedByNps": false,
+    "url": null
   },
   {
     "id": "0B1FBD48-2B0D-4D8C-9F6D-795E14CA4363",
@@ -1477,8 +1534,9 @@
     "amenities": [
       "Historical/Interpretive Information/Exhibits"
     ],
-    "isOpenToPublic": true,
-    "isManagedByNps": true
+    "isOpenToPublic": false,
+    "isManagedByNps": false,
+    "url": null
   },
   {
     "id": "027B7081-BB68-45BC-A8E0-A0E8F9107F50",
@@ -1501,8 +1559,9 @@
     "amenities": [
       "Historical/Interpretive Information/Exhibits"
     ],
-    "isOpenToPublic": true,
-    "isManagedByNps": true
+    "isOpenToPublic": false,
+    "isManagedByNps": false,
+    "url": null
   },
   {
     "id": "69970891-8398-46B9-BE9D-EB065C56A1EC",
@@ -1525,8 +1584,9 @@
     "amenities": [
       "Historical/Interpretive Information/Exhibits"
     ],
-    "isOpenToPublic": true,
-    "isManagedByNps": true
+    "isOpenToPublic": false,
+    "isManagedByNps": false,
+    "url": null
   },
   {
     "id": "809837F2-810C-4C4C-AC42-D775C43EC49E",
@@ -1549,8 +1609,9 @@
     "amenities": [
       "Historical/Interpretive Information/Exhibits"
     ],
-    "isOpenToPublic": true,
-    "isManagedByNps": true
+    "isOpenToPublic": false,
+    "isManagedByNps": false,
+    "url": null
   },
   {
     "id": "1E5C45AD-B9F4-408B-BC3B-A147721B24F3",
@@ -1573,8 +1634,9 @@
     "amenities": [
       "Historical/Interpretive Information/Exhibits"
     ],
-    "isOpenToPublic": true,
-    "isManagedByNps": true
+    "isOpenToPublic": false,
+    "isManagedByNps": false,
+    "url": null
   },
   {
     "id": "D6142F41-4D46-4227-BCA9-3E33E7BF9F74",
@@ -1597,8 +1659,9 @@
     "amenities": [
       "Historical/Interpretive Information/Exhibits"
     ],
-    "isOpenToPublic": true,
-    "isManagedByNps": true
+    "isOpenToPublic": false,
+    "isManagedByNps": false,
+    "url": null
   },
   {
     "id": "1801B522-B546-4743-9358-8901C77295E3",
@@ -1630,8 +1693,9 @@
       "Water - Bottle-Filling Station",
       "Wheelchair Accessible"
     ],
-    "isOpenToPublic": true,
-    "isManagedByNps": true
+    "isOpenToPublic": false,
+    "isManagedByNps": false,
+    "url": null
   },
   {
     "id": "0816E334-8DE6-41E5-A6BA-693F18C36ED3",
@@ -1660,8 +1724,9 @@
       "Water - Drinking/Potable",
       "Wheelchair Accessible"
     ],
-    "isOpenToPublic": true,
-    "isManagedByNps": false
+    "isOpenToPublic": false,
+    "isManagedByNps": false,
+    "url": "https://www.travelyosemite.com/things-to-do/shopping-supplies-groceries/"
   },
   {
     "id": "99CA6738-45FF-40D3-A94A-31A854BDC40C",
@@ -1685,8 +1750,9 @@
       "Recycling",
       "Trash/Litter Receptacles"
     ],
-    "isOpenToPublic": true,
-    "isManagedByNps": false
+    "isOpenToPublic": false,
+    "isManagedByNps": false,
+    "url": "https://www.travelyosemite.com/lodging/glacier-point-ski-hut/"
   },
   {
     "id": "CE7E3DB1-575F-45C5-9288-568FBFCEA90A",
@@ -1709,8 +1775,9 @@
     "amenities": [
       "Trailhead"
     ],
-    "isOpenToPublic": true,
-    "isManagedByNps": true
+    "isOpenToPublic": false,
+    "isManagedByNps": false,
+    "url": "https://cms.nps.gov/places/000/parsons-memorial-lodge.htm"
   },
   {
     "id": "A05F963D-1C88-4949-81E7-EACFCFDA15EF",
@@ -1733,8 +1800,9 @@
     "amenities": [
       "Historical/Interpretive Information/Exhibits"
     ],
-    "isOpenToPublic": true,
-    "isManagedByNps": true
+    "isOpenToPublic": false,
+    "isManagedByNps": false,
+    "url": null
   },
   {
     "id": "C09286F6-2616-40BD-8C83-248B5C3B74DC",
@@ -1757,8 +1825,9 @@
     "amenities": [
       "Historical/Interpretive Information/Exhibits"
     ],
-    "isOpenToPublic": true,
-    "isManagedByNps": true
+    "isOpenToPublic": false,
+    "isManagedByNps": false,
+    "url": null
   },
   {
     "id": "79922188-D611-47FC-BD73-B30761F54253",
@@ -1781,8 +1850,9 @@
     "amenities": [
       "Historical/Interpretive Information/Exhibits"
     ],
-    "isOpenToPublic": true,
-    "isManagedByNps": true
+    "isOpenToPublic": false,
+    "isManagedByNps": false,
+    "url": null
   },
   {
     "id": "CDACCE4F-91F9-4D7D-9B9F-4D6C9D68D8DB",
@@ -1805,8 +1875,9 @@
     "amenities": [
       "Historical/Interpretive Information/Exhibits"
     ],
-    "isOpenToPublic": true,
-    "isManagedByNps": true
+    "isOpenToPublic": false,
+    "isManagedByNps": false,
+    "url": null
   },
   {
     "id": "E52A17A0-4EFC-4401-979E-6090295BF2A6",
@@ -1832,8 +1903,9 @@
       "Trash/Litter Receptacles",
       "Wheelchair Accessible"
     ],
-    "isOpenToPublic": true,
-    "isManagedByNps": true
+    "isOpenToPublic": false,
+    "isManagedByNps": false,
+    "url": "https://www.nps.gov/yose/planyourvisit/mg.htm"
   },
   {
     "id": "53A50524-D1F7-426C-A400-40FD5A031697",
@@ -1862,8 +1934,9 @@
       "Trash/Litter Receptacles",
       "Wheelchair Accessible"
     ],
-    "isOpenToPublic": true,
-    "isManagedByNps": true
+    "isOpenToPublic": false,
+    "isManagedByNps": false,
+    "url": "https://yosemite.org/experience/art/"
   },
   {
     "id": "FA7CE3DB-209D-423B-8257-E0D0F15432AB",
@@ -1886,8 +1959,9 @@
     "amenities": [
       "Trailhead"
     ],
-    "isOpenToPublic": true,
-    "isManagedByNps": true
+    "isOpenToPublic": false,
+    "isManagedByNps": false,
+    "url": null
   },
   {
     "id": "4740194E-1332-4F98-AC2B-AAB63ED694BB",
@@ -1914,8 +1988,9 @@
       "Information - Ranger/Staff Member Present",
       "Permits Issued"
     ],
-    "isOpenToPublic": true,
-    "isManagedByNps": true
+    "isOpenToPublic": false,
+    "isManagedByNps": false,
+    "url": "https://www.nps.gov/yose/planyourvisit/fees.htm"
   },
   {
     "id": "434AB068-4748-4183-84CB-991F14A7D851",
@@ -1942,8 +2017,9 @@
       "Trash/Litter Receptacles",
       "Wheelchair Accessible"
     ],
-    "isOpenToPublic": true,
-    "isManagedByNps": true
+    "isOpenToPublic": false,
+    "isManagedByNps": false,
+    "url": null
   },
   {
     "id": "6C7AEA3E-6453-494D-B207-FBB6B932A331",
@@ -1966,8 +2042,9 @@
     "amenities": [
       "Trailhead"
     ],
-    "isOpenToPublic": true,
-    "isManagedByNps": true
+    "isOpenToPublic": false,
+    "isManagedByNps": false,
+    "url": null
   },
   {
     "id": "3A242835-DD75-4E79-84FD-70097FDC4B4D",
@@ -1990,8 +2067,9 @@
     "amenities": [
       "Historical/Interpretive Information/Exhibits"
     ],
-    "isOpenToPublic": true,
-    "isManagedByNps": true
+    "isOpenToPublic": false,
+    "isManagedByNps": false,
+    "url": null
   },
   {
     "id": "AA1A9D66-A066-4D65-943F-8128503C8A5E",
@@ -2024,8 +2102,9 @@
       "Trash/Litter Receptacles",
       "Wheelchair Accessible"
     ],
-    "isOpenToPublic": true,
-    "isManagedByNps": false
+    "isOpenToPublic": false,
+    "isManagedByNps": false,
+    "url": "https://www.travelyosemite.com/media/330396/housekeeping-camp-property-map_web.pdf"
   },
   {
     "id": "4600AABF-C77D-4CA0-80E3-38F77866DE31",
@@ -2048,8 +2127,9 @@
     "amenities": [
       "Historical/Interpretive Information/Exhibits"
     ],
-    "isOpenToPublic": true,
-    "isManagedByNps": true
+    "isOpenToPublic": false,
+    "isManagedByNps": false,
+    "url": null
   },
   {
     "id": "FDA590D9-79FD-4786-BCDF-AA55A3450B4D",
@@ -2072,8 +2152,9 @@
     "amenities": [
       "Historical/Interpretive Information/Exhibits"
     ],
-    "isOpenToPublic": true,
-    "isManagedByNps": true
+    "isOpenToPublic": false,
+    "isManagedByNps": false,
+    "url": null
   },
   {
     "id": "8599E14E-63F6-4666-BF62-B4A9AE0B258C",
@@ -2096,8 +2177,9 @@
     "amenities": [
       "Trailhead"
     ],
-    "isOpenToPublic": true,
-    "isManagedByNps": true
+    "isOpenToPublic": false,
+    "isManagedByNps": false,
+    "url": null
   },
   {
     "id": "56AAA312-E8F9-4484-A8B8-DFA85F5E4B68",
@@ -2118,8 +2200,9 @@
       }
     ],
     "amenities": [],
-    "isOpenToPublic": true,
-    "isManagedByNps": true
+    "isOpenToPublic": false,
+    "isManagedByNps": false,
+    "url": null
   },
   {
     "id": "67E37CF2-FD92-44F6-AA9F-5B4173A49155",
@@ -2147,8 +2230,9 @@
       "Water - Drinking/Potable",
       "Wheelchair Accessible"
     ],
-    "isOpenToPublic": true,
-    "isManagedByNps": true
+    "isOpenToPublic": false,
+    "isManagedByNps": false,
+    "url": null
   },
   {
     "id": "99AE01E8-15F8-4B0F-AFA1-4278ADD4CAF4",
@@ -2171,8 +2255,9 @@
     "amenities": [
       "Historical/Interpretive Information/Exhibits"
     ],
-    "isOpenToPublic": true,
-    "isManagedByNps": true
+    "isOpenToPublic": false,
+    "isManagedByNps": false,
+    "url": null
   },
   {
     "id": "580DEA1C-847D-4B03-B847-FF6308AA6EF8",
@@ -2195,8 +2280,9 @@
     "amenities": [
       "Historical/Interpretive Information/Exhibits"
     ],
-    "isOpenToPublic": true,
-    "isManagedByNps": true
+    "isOpenToPublic": false,
+    "isManagedByNps": false,
+    "url": null
   },
   {
     "id": "C4FAE927-EBD3-49D4-AF45-ADF8233B2E52",
@@ -2219,8 +2305,9 @@
     "amenities": [
       "Historical/Interpretive Information/Exhibits"
     ],
-    "isOpenToPublic": true,
-    "isManagedByNps": true
+    "isOpenToPublic": false,
+    "isManagedByNps": false,
+    "url": null
   },
   {
     "id": "F0B8427E-92E2-4595-8F97-8005678A813D",
@@ -2243,8 +2330,9 @@
     "amenities": [
       "Trash/Litter Receptacles"
     ],
-    "isOpenToPublic": true,
-    "isManagedByNps": true
+    "isOpenToPublic": false,
+    "isManagedByNps": false,
+    "url": null
   },
   {
     "id": "D9AB9E57-0BEB-4457-A57A-7A3980BD0AD2",
@@ -2267,8 +2355,9 @@
     "amenities": [
       "Historical/Interpretive Information/Exhibits"
     ],
-    "isOpenToPublic": true,
-    "isManagedByNps": true
+    "isOpenToPublic": false,
+    "isManagedByNps": false,
+    "url": null
   },
   {
     "id": "BD360877-A34E-4EAD-8C82-1C415BFD362B",
@@ -2291,8 +2380,9 @@
     "amenities": [
       "Trash/Litter Receptacles"
     ],
-    "isOpenToPublic": true,
-    "isManagedByNps": true
+    "isOpenToPublic": false,
+    "isManagedByNps": false,
+    "url": null
   },
   {
     "id": "B1B4A158-95CE-4526-AE28-5916D7AF7547",
@@ -2325,8 +2415,9 @@
       "Water - Bottle-Filling Station",
       "Wheelchair Accessible"
     ],
-    "isOpenToPublic": true,
-    "isManagedByNps": true
+    "isOpenToPublic": false,
+    "isManagedByNps": false,
+    "url": "https://cms.nps.gov/yose/planyourvisit/frazilice.htm"
   },
   {
     "id": "6E5D81DB-08DC-4B22-9893-9A0C9514A0B7",
@@ -2350,8 +2441,9 @@
       "Scenic View/Photo Spot",
       "Wheelchair Accessible"
     ],
-    "isOpenToPublic": true,
-    "isManagedByNps": true
+    "isOpenToPublic": false,
+    "isManagedByNps": false,
+    "url": "https://www.nps.gov/yose/planyourvisit/frazilice.htm"
   },
   {
     "id": "C3FEC70B-B87E-4F5D-8ECA-60E1B80324B0",
@@ -2375,8 +2467,9 @@
       "Animal-Safe Food Storage",
       "Trailhead"
     ],
-    "isOpenToPublic": true,
-    "isManagedByNps": true
+    "isOpenToPublic": false,
+    "isManagedByNps": false,
+    "url": null
   },
   {
     "id": "0A487FCB-66F1-4609-B1F1-E407D0757072",
@@ -2399,8 +2492,9 @@
     "amenities": [
       "Trailhead"
     ],
-    "isOpenToPublic": true,
-    "isManagedByNps": true
+    "isOpenToPublic": false,
+    "isManagedByNps": false,
+    "url": null
   },
   {
     "id": "B06EE003-6117-4C71-9042-5773C2664447",
@@ -2423,8 +2517,9 @@
     "amenities": [
       "Trailhead"
     ],
-    "isOpenToPublic": true,
-    "isManagedByNps": true
+    "isOpenToPublic": false,
+    "isManagedByNps": false,
+    "url": null
   },
   {
     "id": "D0C1B0C5-D944-46CC-B67B-AE327A230AEB",
@@ -2452,8 +2547,9 @@
       "Trailhead",
       "Water - Bottle-Filling Station"
     ],
-    "isOpenToPublic": true,
-    "isManagedByNps": true
+    "isOpenToPublic": false,
+    "isManagedByNps": false,
+    "url": "https://www.nps.gov/yose/planyourvisit/mg.htm"
   },
   {
     "id": "160CE84B-C6BD-4E46-BEC8-8886F636779D",
@@ -2481,8 +2577,9 @@
       "Trash/Litter Receptacles",
       "Wheelchair Accessible"
     ],
-    "isOpenToPublic": true,
-    "isManagedByNps": true
+    "isOpenToPublic": false,
+    "isManagedByNps": false,
+    "url": "https://www.nps.gov/yose/planyourvisit/mg.htm"
   },
   {
     "id": "9ED794F0-6720-41D8-B0FC-0E2C2E43EEEE",
@@ -2506,8 +2603,9 @@
       "Bus/Shuttle Stop",
       "Wheelchair Accessible"
     ],
-    "isOpenToPublic": true,
-    "isManagedByNps": true
+    "isOpenToPublic": false,
+    "isManagedByNps": false,
+    "url": "https://www.nps.gov/places/000/mariposa-grove-welcome-plaza.htm"
   },
   {
     "id": "5D186746-DEDB-4354-AB4F-BDF8EF5C213F",
@@ -2531,8 +2629,9 @@
       "Bus/Shuttle Stop",
       "Wheelchair Accessible"
     ],
-    "isOpenToPublic": true,
-    "isManagedByNps": true
+    "isOpenToPublic": false,
+    "isManagedByNps": false,
+    "url": "https://www.nps.gov/places/000/mariposa-grove-welcome-plaza.htm"
   },
   {
     "id": "98D52B68-D223-4125-8638-374DF9F071E8",
@@ -2563,8 +2662,9 @@
       "Water - Bottle-Filling Station",
       "Wheelchair Accessible"
     ],
-    "isOpenToPublic": true,
-    "isManagedByNps": true
+    "isOpenToPublic": false,
+    "isManagedByNps": false,
+    "url": "https://www.nps.gov/yose/planyourvisit/mg.htm"
   },
   {
     "id": "E97A321F-3926-47A0-8D17-DDB1E01C21D7",
@@ -2588,8 +2688,9 @@
       "Animal-Safe Food Storage",
       "Trailhead"
     ],
-    "isOpenToPublic": true,
-    "isManagedByNps": true
+    "isOpenToPublic": false,
+    "isManagedByNps": false,
+    "url": null
   },
   {
     "id": "B4CDC757-7247-4E76-B789-C2F7D4D3907E",
@@ -2613,8 +2714,9 @@
       "Animal-Safe Food Storage",
       "Trailhead"
     ],
-    "isOpenToPublic": true,
-    "isManagedByNps": true
+    "isOpenToPublic": false,
+    "isManagedByNps": false,
+    "url": null
   },
   {
     "id": "4CB7B15C-61E4-4647-9884-44496FAAF8CC",
@@ -2637,8 +2739,9 @@
     "amenities": [
       "Trailhead"
     ],
-    "isOpenToPublic": true,
-    "isManagedByNps": true
+    "isOpenToPublic": false,
+    "isManagedByNps": false,
+    "url": null
   },
   {
     "id": "F72A0CDC-31C8-4027-8155-D2476FB85048",
@@ -2664,8 +2767,9 @@
       "Trailhead",
       "Trash/Litter Receptacles"
     ],
-    "isOpenToPublic": true,
-    "isManagedByNps": true
+    "isOpenToPublic": false,
+    "isManagedByNps": false,
+    "url": null
   },
   {
     "id": "F818A5B1-A9F9-4C3A-BC57-FB960E40B4C7",
@@ -2689,8 +2793,9 @@
       "Restroom - Seasonal",
       "Trailhead"
     ],
-    "isOpenToPublic": true,
-    "isManagedByNps": true
+    "isOpenToPublic": false,
+    "isManagedByNps": false,
+    "url": "https://www.nps.gov/yose/planyourvisit/vernalnevadatrail.htm"
   },
   {
     "id": "0373584E-87EB-4986-A0AE-C69BF81C9043",
@@ -2714,8 +2819,9 @@
       "Animal-Safe Food Storage",
       "Trailhead"
     ],
-    "isOpenToPublic": true,
-    "isManagedByNps": true
+    "isOpenToPublic": false,
+    "isManagedByNps": false,
+    "url": null
   },
   {
     "id": "6C2131D7-1F46-4D0B-99EA-C53357BAFFBA",
@@ -2739,8 +2845,9 @@
       "Animal-Safe Food Storage",
       "Trailhead"
     ],
-    "isOpenToPublic": true,
-    "isManagedByNps": true
+    "isOpenToPublic": false,
+    "isManagedByNps": false,
+    "url": null
   },
   {
     "id": "351CB008-19CD-42B2-8540-BC0CC01E8D4C",
@@ -2765,8 +2872,9 @@
       "Picnic Table",
       "Toilet - Vault/Composting"
     ],
-    "isOpenToPublic": true,
-    "isManagedByNps": true
+    "isOpenToPublic": false,
+    "isManagedByNps": false,
+    "url": null
   },
   {
     "id": "6E4B6C7A-BDF9-47EC-B92C-DFDD4970DB7B",
@@ -2787,8 +2895,9 @@
       }
     ],
     "amenities": [],
-    "isOpenToPublic": true,
-    "isManagedByNps": true
+    "isOpenToPublic": false,
+    "isManagedByNps": false,
+    "url": null
   },
   {
     "id": "0EA6B210-FF01-4A6D-9AB7-6CF5C94D18C9",
@@ -2814,8 +2923,9 @@
       "Tactile Exhibit",
       "Wheelchair Accessible"
     ],
-    "isOpenToPublic": true,
-    "isManagedByNps": true
+    "isOpenToPublic": false,
+    "isManagedByNps": false,
+    "url": null
   },
   {
     "id": "740078DA-7B9E-4E3E-AFE4-4448733C56BC",
@@ -2839,8 +2949,9 @@
       "Animal-Safe Food Storage",
       "Trailhead"
     ],
-    "isOpenToPublic": true,
-    "isManagedByNps": true
+    "isOpenToPublic": false,
+    "isManagedByNps": false,
+    "url": "https://www.nps.gov/yose/planyourvisit/glacier-point-road-winter-trails.htm"
   },
   {
     "id": "F98B5924-367F-4EB0-A7B5-11F9A051D979",
@@ -2863,8 +2974,9 @@
     "amenities": [
       "Trailhead"
     ],
-    "isOpenToPublic": true,
-    "isManagedByNps": true
+    "isOpenToPublic": false,
+    "isManagedByNps": false,
+    "url": "https://www.nps.gov/yose/planyourvisit/vernalnevadatrail.htm"
   },
   {
     "id": "6170802B-AB0A-4D69-8647-AA1D5867D303",
@@ -2889,8 +3001,9 @@
       "Toilet - Vault/Composting",
       "Water - Drinking/Potable"
     ],
-    "isOpenToPublic": true,
-    "isManagedByNps": true
+    "isOpenToPublic": false,
+    "isManagedByNps": false,
+    "url": "https://www.nps.gov/yose/planyourvisit/guide.htm"
   },
   {
     "id": "8BFE3A60-1982-479C-8849-AE361F05A0AA",
@@ -2914,8 +3027,9 @@
       "Animal-Safe Food Storage",
       "Trailhead"
     ],
-    "isOpenToPublic": true,
-    "isManagedByNps": true
+    "isOpenToPublic": false,
+    "isManagedByNps": false,
+    "url": null
   },
   {
     "id": "6AF4D37E-8413-4679-88E3-564F8087BCAF",
@@ -2939,8 +3053,9 @@
       "Animal-Safe Food Storage",
       "Trailhead"
     ],
-    "isOpenToPublic": true,
-    "isManagedByNps": true
+    "isOpenToPublic": false,
+    "isManagedByNps": false,
+    "url": null
   },
   {
     "id": "31656BA1-8C15-4F68-850F-FF6F2A686A99",
@@ -2963,8 +3078,9 @@
     "amenities": [
       "Trailhead"
     ],
-    "isOpenToPublic": true,
-    "isManagedByNps": true
+    "isOpenToPublic": false,
+    "isManagedByNps": false,
+    "url": null
   },
   {
     "id": "BA3B25F8-1A34-493C-901E-8A361BCD89ED",
@@ -2987,8 +3103,9 @@
     "amenities": [
       "Historical/Interpretive Information/Exhibits"
     ],
-    "isOpenToPublic": true,
-    "isManagedByNps": true
+    "isOpenToPublic": false,
+    "isManagedByNps": false,
+    "url": null
   },
   {
     "id": "DC0211C2-4F80-4028-9EA7-A8FCE1A21AD4",
@@ -3010,7 +3127,8 @@
     ],
     "amenities": [],
     "isOpenToPublic": false,
-    "isManagedByNps": true
+    "isManagedByNps": false,
+    "url": null
   },
   {
     "id": "00415454-F93C-4D58-B612-BFC81442F17A",
@@ -3039,8 +3157,9 @@
       "Trash/Litter Receptacles",
       "Wheelchair Accessible"
     ],
-    "isOpenToPublic": true,
-    "isManagedByNps": true
+    "isOpenToPublic": false,
+    "isManagedByNps": false,
+    "url": null
   },
   {
     "id": "E81278CA-5F4A-43E0-B322-415383AE59F1",
@@ -3064,8 +3183,9 @@
       "Scenic View/Photo Spot",
       "Wheelchair Accessible"
     ],
-    "isOpenToPublic": true,
-    "isManagedByNps": true
+    "isOpenToPublic": false,
+    "isManagedByNps": false,
+    "url": null
   },
   {
     "id": "069DA911-5A0D-4867-A1D4-D0BD6C2E7E7E",
@@ -3092,8 +3212,9 @@
       "Trash/Litter Receptacles",
       "Wheelchair Accessible"
     ],
-    "isOpenToPublic": true,
-    "isManagedByNps": true
+    "isOpenToPublic": false,
+    "isManagedByNps": false,
+    "url": null
   },
   {
     "id": "D0E656B6-CDF6-4A51-B777-3D38B8EFF51B",
@@ -3117,8 +3238,9 @@
       "Restroom",
       "Trailhead"
     ],
-    "isOpenToPublic": true,
-    "isManagedByNps": true
+    "isOpenToPublic": false,
+    "isManagedByNps": false,
+    "url": null
   },
   {
     "id": "9FD7BEE0-0A21-4B27-A455-12E09E280797",
@@ -3141,8 +3263,9 @@
     "amenities": [
       "Historical/Interpretive Information/Exhibits"
     ],
-    "isOpenToPublic": true,
-    "isManagedByNps": true
+    "isOpenToPublic": false,
+    "isManagedByNps": false,
+    "url": "https://www.nps.gov/places/000/soda-springs-and-parsons-memorial-lodge-trailhead.htm"
   },
   {
     "id": "762E9BC3-D1BF-447D-8CE4-A2ACDACE1D35",
@@ -3167,8 +3290,9 @@
       "Historical/Interpretive Information/Exhibits",
       "Trailhead"
     ],
-    "isOpenToPublic": true,
-    "isManagedByNps": true
+    "isOpenToPublic": false,
+    "isManagedByNps": false,
+    "url": "https://www.nps.gov/places/000/parsons-memorial-lodge.htm"
   },
   {
     "id": "F476C3A8-E030-4756-9C0E-EE4B76B363F6",
@@ -3191,8 +3315,9 @@
     "amenities": [
       "Historical/Interpretive Information/Exhibits"
     ],
-    "isOpenToPublic": true,
-    "isManagedByNps": true
+    "isOpenToPublic": false,
+    "isManagedByNps": false,
+    "url": null
   },
   {
     "id": "922C0D7D-3831-43A1-B995-53CC2C0C07D4",
@@ -3215,8 +3340,9 @@
     "amenities": [
       "Historical/Interpretive Information/Exhibits"
     ],
-    "isOpenToPublic": true,
-    "isManagedByNps": true
+    "isOpenToPublic": false,
+    "isManagedByNps": false,
+    "url": null
   },
   {
     "id": "1905E80E-F729-42C5-A426-AAC6BA90C4C8",
@@ -3239,8 +3365,9 @@
     "amenities": [
       "Historical/Interpretive Information/Exhibits"
     ],
-    "isOpenToPublic": true,
-    "isManagedByNps": true
+    "isOpenToPublic": false,
+    "isManagedByNps": false,
+    "url": null
   },
   {
     "id": "9869EC25-CA34-4906-90CB-9F756140001D",
@@ -3263,8 +3390,9 @@
     "amenities": [
       "Historical/Interpretive Information/Exhibits"
     ],
-    "isOpenToPublic": true,
-    "isManagedByNps": true
+    "isOpenToPublic": false,
+    "isManagedByNps": false,
+    "url": null
   },
   {
     "id": "30704865-3E56-4E83-8583-0DAFE48B7F4E",
@@ -3287,8 +3415,9 @@
     "amenities": [
       "Historical/Interpretive Information/Exhibits"
     ],
-    "isOpenToPublic": true,
-    "isManagedByNps": true
+    "isOpenToPublic": false,
+    "isManagedByNps": false,
+    "url": null
   },
   {
     "id": "738893DC-5BE9-4EA8-899B-FB74ACDD4B92",
@@ -3311,8 +3440,9 @@
     "amenities": [
       "Historical/Interpretive Information/Exhibits"
     ],
-    "isOpenToPublic": true,
-    "isManagedByNps": true
+    "isOpenToPublic": false,
+    "isManagedByNps": false,
+    "url": null
   },
   {
     "id": "F53EA111-FF3F-4DE4-B010-D2226598A204",
@@ -3335,8 +3465,9 @@
     "amenities": [
       "Historical/Interpretive Information/Exhibits"
     ],
-    "isOpenToPublic": true,
-    "isManagedByNps": true
+    "isOpenToPublic": false,
+    "isManagedByNps": false,
+    "url": null
   },
   {
     "id": "882A3779-5995-4588-9B12-40053B72933A",
@@ -3359,8 +3490,9 @@
     "amenities": [
       "Historical/Interpretive Information/Exhibits"
     ],
-    "isOpenToPublic": true,
-    "isManagedByNps": true
+    "isOpenToPublic": false,
+    "isManagedByNps": false,
+    "url": null
   },
   {
     "id": "E160C7F0-B895-4E0C-AF97-EE9D688C76E2",
@@ -3383,8 +3515,9 @@
     "amenities": [
       "Historical/Interpretive Information/Exhibits"
     ],
-    "isOpenToPublic": true,
-    "isManagedByNps": true
+    "isOpenToPublic": false,
+    "isManagedByNps": false,
+    "url": null
   },
   {
     "id": "3A46222E-D96B-404C-9EA6-608D2EE86E9C",
@@ -3407,8 +3540,9 @@
     "amenities": [
       "Historical/Interpretive Information/Exhibits"
     ],
-    "isOpenToPublic": true,
-    "isManagedByNps": true
+    "isOpenToPublic": false,
+    "isManagedByNps": false,
+    "url": null
   },
   {
     "id": "BEE5216B-3C6D-4019-A920-82021F093369",
@@ -3431,8 +3565,9 @@
     "amenities": [
       "Historical/Interpretive Information/Exhibits"
     ],
-    "isOpenToPublic": true,
-    "isManagedByNps": true
+    "isOpenToPublic": false,
+    "isManagedByNps": false,
+    "url": null
   },
   {
     "id": "E07A795B-D6B3-4097-9643-F36396AEB8E2",
@@ -3455,8 +3590,9 @@
     "amenities": [
       "Historical/Interpretive Information/Exhibits"
     ],
-    "isOpenToPublic": true,
-    "isManagedByNps": true
+    "isOpenToPublic": false,
+    "isManagedByNps": false,
+    "url": null
   },
   {
     "id": "34D13179-7588-482D-88F3-590E04542005",
@@ -3479,8 +3615,9 @@
     "amenities": [
       "Historical/Interpretive Information/Exhibits"
     ],
-    "isOpenToPublic": true,
-    "isManagedByNps": true
+    "isOpenToPublic": false,
+    "isManagedByNps": false,
+    "url": null
   },
   {
     "id": "D9F51BE4-6E1E-47A2-AA48-7509543DD408",
@@ -3506,8 +3643,9 @@
       "Information - Park Newspaper Available",
       "Information - Ranger/Staff Member Present"
     ],
-    "isOpenToPublic": true,
-    "isManagedByNps": true
+    "isOpenToPublic": false,
+    "isManagedByNps": false,
+    "url": "https://www.nps.gov/yose/planyourvisit/fees.htm"
   },
   {
     "id": "5DBA91C6-EB5B-43E5-AA25-4449ABFE6577",
@@ -3530,8 +3668,9 @@
     "amenities": [
       "Scenic View/Photo Spot"
     ],
-    "isOpenToPublic": true,
-    "isManagedByNps": true
+    "isOpenToPublic": false,
+    "isManagedByNps": false,
+    "url": null
   },
   {
     "id": "8C9F8321-5799-485A-9789-3C9AC1F0EBFB",
@@ -3555,8 +3694,9 @@
       "Toilet - Vault/Composting",
       "Wheelchair Accessible"
     ],
-    "isOpenToPublic": true,
-    "isManagedByNps": true
+    "isOpenToPublic": false,
+    "isManagedByNps": false,
+    "url": null
   },
   {
     "id": "0B9AD80C-43EA-4DB3-9999-21268B166F4F",
@@ -3580,8 +3720,9 @@
       "Animal-Safe Food Storage",
       "Trailhead"
     ],
-    "isOpenToPublic": true,
-    "isManagedByNps": true
+    "isOpenToPublic": false,
+    "isManagedByNps": false,
+    "url": null
   },
   {
     "id": "A62E49B1-1A50-4455-A05E-A32D6E728EDA",
@@ -3611,8 +3752,9 @@
       "Trash/Litter Receptacles",
       "Wheelchair Accessible"
     ],
-    "isOpenToPublic": true,
-    "isManagedByNps": true
+    "isOpenToPublic": false,
+    "isManagedByNps": false,
+    "url": null
   },
   {
     "id": "AE4DEE83-D104-4F8E-9CD7-27E5E56CD27B",
@@ -3642,8 +3784,9 @@
       "Toilet - Vault/Composting",
       "Trash/Litter Receptacles"
     ],
-    "isOpenToPublic": true,
-    "isManagedByNps": true
+    "isOpenToPublic": false,
+    "isManagedByNps": false,
+    "url": null
   },
   {
     "id": "27EC2391-F1D0-4DB6-9089-49EF539BF007",
@@ -3669,8 +3812,9 @@
       "Picnic Table",
       "Toilet - Vault/Composting"
     ],
-    "isOpenToPublic": true,
-    "isManagedByNps": true
+    "isOpenToPublic": false,
+    "isManagedByNps": false,
+    "url": null
   },
   {
     "id": "23CD1135-0989-47CE-8896-9A910E7B1FAA",
@@ -3703,14 +3847,15 @@
       "Trash/Litter Receptacles",
       "Wheelchair Accessible"
     ],
-    "isOpenToPublic": true,
-    "isManagedByNps": false
+    "isOpenToPublic": false,
+    "isManagedByNps": false,
+    "url": "https://www.travelyosemite.com/lodging/the-ahwahnee"
   },
   {
     "id": "54D14828-2DAC-4735-9FBE-73265A4C0D41",
     "title": "The Ahwahnee EV Charging Station",
     "listingDescription": "Located at the southwestern end of The Ahwahnee parking area, this electric vehicle (EV) charging station features six level 2 chargers. These chargers have a J1772 connector. You do not need to be a guest at The Ahwahnee to charge your vehicle, however, you must move your vehicle from the space once it is finished charging.",
-    "bodyText": "<p>Located at the southwestern end of The Ahwahnee parking area, this electric vehicle (EV) charging station features six level 2 chargers. These chargers have a J1772 connector. You do not need to be a guest at The Ahwahnee to charge your vehicle, however, you must move your vehicle from the space once it is finished charging.</p> <p>EV charging is available in Yosemite National Park at no cost, courtesy of Yosemite Hospitality. Other charging stations are available outside the park. Use the\u00a0<a href=\"https://afdc.energy.gov/fuels/electricity_locations.html#/find/nearest?fuel=ELEC&location=95389\">Alternative Fuels Data Center</a>\u00a0to view locations of EV charging stations in the area.</p> <p>Charging stations are available 24 hours a day.</p>",
+    "bodyText": "<p>Located at the southwestern end of The Ahwahnee parking area, this electric vehicle (EV) charging station features six level 2 chargers. These chargers have a J1772 connector. You do not need to be a guest at The Ahwahnee to charge your vehicle, however, you must move your vehicle from the space once it is finished charging.</p> <p>Other charging stations are available outside the park. Use the\u00a0<a href=\"https://afdc.energy.gov/fuels/electricity_locations.html#/find/nearest?fuel=ELEC&location=95389\">Alternative Fuels Data Center</a>\u00a0to view locations of EV charging stations in the area.</p> <p>Charging stations are available 24 hours a day.</p>",
     "location": {
       "lat": 37.746784929559276,
       "lon": -119.57499903964987
@@ -3727,8 +3872,9 @@
     "amenities": [
       "Electric Car Charging Station"
     ],
-    "isOpenToPublic": true,
-    "isManagedByNps": false
+    "isOpenToPublic": false,
+    "isManagedByNps": false,
+    "url": "https://afdc.energy.gov/fuels/electricity_locations.html#/find/nearest?fuel=ELEC&location=95389"
   },
   {
     "id": "95D19B3A-920E-49EA-B35F-0D94B9CF273B",
@@ -3753,8 +3899,9 @@
       "Historical/Interpretive Information/Exhibits",
       "Wheelchair Accessible"
     ],
-    "isOpenToPublic": true,
-    "isManagedByNps": false
+    "isOpenToPublic": false,
+    "isManagedByNps": false,
+    "url": "https://www.anseladams.com/pages/photography-education"
   },
   {
     "id": "73848773-01B4-43DA-9BA6-E5F47F4EA097",
@@ -3782,8 +3929,9 @@
       "Trash/Litter Receptacles",
       "Wheelchair Accessible"
     ],
-    "isOpenToPublic": true,
-    "isManagedByNps": true
+    "isOpenToPublic": false,
+    "isManagedByNps": false,
+    "url": null
   },
   {
     "id": "AB8EDCC2-2FB5-4AF3-82D5-C79A13310A1D",
@@ -3809,8 +3957,9 @@
       "Information - Park Newspaper Available",
       "Information - Ranger/Staff Member Present"
     ],
-    "isOpenToPublic": true,
-    "isManagedByNps": true
+    "isOpenToPublic": false,
+    "isManagedByNps": false,
+    "url": "https://www.nps.gov/yose/planyourvisit/fees.htm"
   },
   {
     "id": "F49C7271-E582-4747-8415-6EDACD705681",
@@ -3833,8 +3982,9 @@
     "amenities": [
       "Historical/Interpretive Information/Exhibits"
     ],
-    "isOpenToPublic": true,
-    "isManagedByNps": true
+    "isOpenToPublic": false,
+    "isManagedByNps": false,
+    "url": null
   },
   {
     "id": "52132750-F535-43EA-9A75-6DD240624D6A",
@@ -3857,8 +4007,9 @@
     "amenities": [
       "Historical/Interpretive Information/Exhibits"
     ],
-    "isOpenToPublic": true,
-    "isManagedByNps": true
+    "isOpenToPublic": false,
+    "isManagedByNps": false,
+    "url": null
   },
   {
     "id": "E36FD646-7BEF-4CEC-9139-BBE9A61ECB65",
@@ -3881,8 +4032,9 @@
     "amenities": [
       "Historical/Interpretive Information/Exhibits"
     ],
-    "isOpenToPublic": true,
-    "isManagedByNps": true
+    "isOpenToPublic": false,
+    "isManagedByNps": false,
+    "url": null
   },
   {
     "id": "89D27624-BCAC-4DA2-B69D-783FAB0851CD",
@@ -3906,8 +4058,9 @@
       "Animal-Safe Food Storage",
       "Historical/Interpretive Information/Exhibits"
     ],
-    "isOpenToPublic": true,
-    "isManagedByNps": true
+    "isOpenToPublic": false,
+    "isManagedByNps": false,
+    "url": null
   },
   {
     "id": "6FF0CE76-9DC2-4D7B-AE62-C45B36A8D89F",
@@ -3930,8 +4083,9 @@
     "amenities": [
       "Historical/Interpretive Information/Exhibits"
     ],
-    "isOpenToPublic": true,
-    "isManagedByNps": true
+    "isOpenToPublic": false,
+    "isManagedByNps": false,
+    "url": null
   },
   {
     "id": "28A2610B-82F5-4162-9BEE-171AAEC9D7DA",
@@ -3954,8 +4108,9 @@
     "amenities": [
       "Historical/Interpretive Information/Exhibits"
     ],
-    "isOpenToPublic": true,
-    "isManagedByNps": true
+    "isOpenToPublic": false,
+    "isManagedByNps": false,
+    "url": null
   },
   {
     "id": "A7C6D38F-AB2D-42EB-81A7-2E1953BCD686",
@@ -3978,8 +4133,9 @@
     "amenities": [
       "Historical/Interpretive Information/Exhibits"
     ],
-    "isOpenToPublic": true,
-    "isManagedByNps": true
+    "isOpenToPublic": false,
+    "isManagedByNps": false,
+    "url": null
   },
   {
     "id": "150D64BB-3423-4FED-9379-3AAB21FB3CF8",
@@ -4005,8 +4161,9 @@
       "Trash/Litter Receptacles",
       "Wheelchair Accessible"
     ],
-    "isOpenToPublic": true,
-    "isManagedByNps": true
+    "isOpenToPublic": false,
+    "isManagedByNps": false,
+    "url": null
   },
   {
     "id": "BC8250C0-F1B5-4E12-9B8C-A5F59AE13909",
@@ -4030,8 +4187,9 @@
       "Scenic View/Photo Spot",
       "Trailhead"
     ],
-    "isOpenToPublic": true,
-    "isManagedByNps": true
+    "isOpenToPublic": false,
+    "isManagedByNps": false,
+    "url": null
   },
   {
     "id": "344C8876-0381-4090-82E6-2105BAAF5E7B",
@@ -4054,14 +4212,15 @@
     "amenities": [
       "Scenic View/Photo Spot"
     ],
-    "isOpenToPublic": true,
-    "isManagedByNps": true
+    "isOpenToPublic": false,
+    "isManagedByNps": false,
+    "url": "https://www.nps.gov/places/000/parsons-memorial-lodge.htm"
   },
   {
     "id": "5979FDB9-1659-4E5D-A1FF-2201DC3AE8E0",
     "title": "Tuolumne Meadows EV Charging Station",
     "listingDescription": "Located in a park lot just west of the Tuolumne Meadows Store, this electric vehicle (EV) charging station features four level 2 chargers. These chargers have a J1772 connector.",
-    "bodyText": "<p>Located in a parking lot just west of the Tuolumne Meadows Store, this electric vehicle (EV) charging station features four level 2 chargers. These chargers have a J1772 connector.</p> <p>EV charging is available in Yosemite National Park at no cost, courtesy of Yosemite Hospitality. Other charging stations are available outside the park. Use the\u00a0<a href=\"https://afdc.energy.gov/fuels/electricity_locations.html#/find/nearest?fuel=ELEC&location=95389\">Alternative Fuels Data Center</a>\u00a0to view locations of EV charging stations in the area.</p> <p>Charging stations are available 24 hours a day.</p>",
+    "bodyText": "<p>Located in a parking lot just west of the Tuolumne Meadows Store, this electric vehicle (EV) charging station features four level 2 chargers. These chargers have a J1772 connector.</p> <p>Other charging stations are available outside the park. Use the\u00a0<a href=\"https://afdc.energy.gov/fuels/electricity_locations.html#/find/nearest?fuel=ELEC&location=95389\">Alternative Fuels Data Center</a>\u00a0to view locations of EV charging stations in the area.</p> <p>Charging stations are available 24 hours a day.</p>",
     "location": {
       "lat": 37.873643871924095,
       "lon": -119.35785778138734
@@ -4078,8 +4237,9 @@
     "amenities": [
       "Electric Car Charging Station"
     ],
-    "isOpenToPublic": true,
-    "isManagedByNps": false
+    "isOpenToPublic": false,
+    "isManagedByNps": false,
+    "url": "https://afdc.energy.gov/fuels/electricity_locations.html#/find/nearest?fuel=ELEC&location=95389"
   },
   {
     "id": "3F93F225-E9D1-41E5-9E8A-454DE049A162",
@@ -4106,8 +4266,9 @@
       "Telephone",
       "Trash/Litter Receptacles"
     ],
-    "isOpenToPublic": true,
-    "isManagedByNps": false
+    "isOpenToPublic": false,
+    "isManagedByNps": false,
+    "url": "https://www.travelyosemite.com/dining/tuolumne-meadows-lodge/"
   },
   {
     "id": "442F0A62-800B-47A6-9B2C-4F4D62D5123D",
@@ -4136,8 +4297,9 @@
       "Trash/Litter Receptacles",
       "Wheelchair Accessible"
     ],
-    "isOpenToPublic": true,
-    "isManagedByNps": false
+    "isOpenToPublic": false,
+    "isManagedByNps": false,
+    "url": "https://www.travelyosemite.com/lodging/tuolumne-meadows-lodge/"
   },
   {
     "id": "E0AE867C-909A-45F9-847E-31BBCACDA382",
@@ -4163,8 +4325,9 @@
       "Trash/Litter Receptacles",
       "Wheelchair Accessible"
     ],
-    "isOpenToPublic": true,
-    "isManagedByNps": false
+    "isOpenToPublic": false,
+    "isManagedByNps": false,
+    "url": null
   },
   {
     "id": "EA039306-BFAB-4162-ACA8-B0F0D66EE3A5",
@@ -4195,8 +4358,9 @@
       "Trash/Litter Receptacles",
       "Wheelchair Accessible"
     ],
-    "isOpenToPublic": true,
-    "isManagedByNps": false
+    "isOpenToPublic": false,
+    "isManagedByNps": false,
+    "url": "https://www.travelyosemite.com/things-to-do/shopping-supplies-groceries/"
   },
   {
     "id": "E9EFEDA4-CCA0-475C-8873-0162BEB6BB7E",
@@ -4227,8 +4391,9 @@
       "Water - Drinking/Potable",
       "Wheelchair Accessible"
     ],
-    "isOpenToPublic": true,
-    "isManagedByNps": true
+    "isOpenToPublic": false,
+    "isManagedByNps": false,
+    "url": "https://cms.nps.gov/yose/planyourvisit/wildpermits.htm"
   },
   {
     "id": "07DA404D-9D30-48B7-866D-EB5160FD74E3",
@@ -4251,8 +4416,9 @@
     "amenities": [
       "Trailhead"
     ],
-    "isOpenToPublic": true,
-    "isManagedByNps": true
+    "isOpenToPublic": false,
+    "isManagedByNps": false,
+    "url": null
   },
   {
     "id": "7822E90A-32E6-43C2-86C2-54B06DCE0464",
@@ -4275,8 +4441,9 @@
     "amenities": [
       "Bus/Shuttle Stop"
     ],
-    "isOpenToPublic": true,
-    "isManagedByNps": true
+    "isOpenToPublic": false,
+    "isManagedByNps": false,
+    "url": null
   },
   {
     "id": "ED0B2161-E593-4D2C-9C08-CEA72F181AB4",
@@ -4300,8 +4467,9 @@
       "Bus/Shuttle Stop",
       "Trash/Litter Receptacles"
     ],
-    "isOpenToPublic": true,
-    "isManagedByNps": true
+    "isOpenToPublic": false,
+    "isManagedByNps": false,
+    "url": null
   },
   {
     "id": "A17BE531-246B-448D-B069-6997234AD2A3",
@@ -4326,8 +4494,9 @@
       "Trash/Litter Receptacles",
       "Wheelchair Accessible"
     ],
-    "isOpenToPublic": true,
-    "isManagedByNps": true
+    "isOpenToPublic": false,
+    "isManagedByNps": false,
+    "url": null
   },
   {
     "id": "270DC71D-DE58-468C-A501-DC200559274B",
@@ -4353,8 +4522,9 @@
       "Recycling",
       "Trash/Litter Receptacles"
     ],
-    "isOpenToPublic": true,
-    "isManagedByNps": true
+    "isOpenToPublic": false,
+    "isManagedByNps": false,
+    "url": null
   },
   {
     "id": "CEA04F32-9E4C-431E-B1B2-0DF3629A6BE1",
@@ -4378,8 +4548,9 @@
       "Benches/Seating",
       "Bus/Shuttle Stop"
     ],
-    "isOpenToPublic": true,
-    "isManagedByNps": true
+    "isOpenToPublic": false,
+    "isManagedByNps": false,
+    "url": null
   },
   {
     "id": "50988D1C-F029-40FF-8334-AEA62E188D14",
@@ -4408,8 +4579,9 @@
       "Water - Drinking/Potable",
       "Wheelchair Accessible"
     ],
-    "isOpenToPublic": true,
-    "isManagedByNps": true
+    "isOpenToPublic": false,
+    "isManagedByNps": false,
+    "url": null
   },
   {
     "id": "4F2A9C4E-F31D-4326-A3E2-2106C0043CFE",
@@ -4436,8 +4608,9 @@
       "Trash/Litter Receptacles",
       "Wheelchair Accessible"
     ],
-    "isOpenToPublic": true,
-    "isManagedByNps": true
+    "isOpenToPublic": false,
+    "isManagedByNps": false,
+    "url": null
   },
   {
     "id": "E0A3F155-6637-4981-B2EA-B0E26366AF34",
@@ -4463,8 +4636,9 @@
       "Trash/Litter Receptacles",
       "Wheelchair Accessible"
     ],
-    "isOpenToPublic": true,
-    "isManagedByNps": true
+    "isOpenToPublic": false,
+    "isManagedByNps": false,
+    "url": null
   },
   {
     "id": "45977689-1EBC-4DE5-AB80-389247C56EFC",
@@ -4491,8 +4665,9 @@
       "Trash/Litter Receptacles",
       "Wheelchair Accessible"
     ],
-    "isOpenToPublic": true,
-    "isManagedByNps": true
+    "isOpenToPublic": false,
+    "isManagedByNps": false,
+    "url": null
   },
   {
     "id": "932FB43B-5702-4031-B834-8FC6C7ABA3DA",
@@ -4517,8 +4692,9 @@
       "Restroom",
       "Wheelchair Accessible"
     ],
-    "isOpenToPublic": true,
-    "isManagedByNps": true
+    "isOpenToPublic": false,
+    "isManagedByNps": false,
+    "url": null
   },
   {
     "id": "0E232928-6A5C-4EA6-AEBA-FEAA350DD77C",
@@ -4543,8 +4719,9 @@
       "Bus/Shuttle Stop",
       "Wheelchair Accessible"
     ],
-    "isOpenToPublic": true,
-    "isManagedByNps": true
+    "isOpenToPublic": false,
+    "isManagedByNps": false,
+    "url": null
   },
   {
     "id": "5FA6A39A-EDEB-4781-A347-E8FE55AFA395",
@@ -4569,8 +4746,9 @@
       "Bus/Shuttle Stop",
       "Wheelchair Accessible"
     ],
-    "isOpenToPublic": true,
-    "isManagedByNps": true
+    "isOpenToPublic": false,
+    "isManagedByNps": false,
+    "url": null
   },
   {
     "id": "8CCEFF34-4423-4549-8D12-D4E9F68E37C2",
@@ -4594,8 +4772,9 @@
       "Bus/Shuttle Stop",
       "Wheelchair Accessible"
     ],
-    "isOpenToPublic": true,
-    "isManagedByNps": true
+    "isOpenToPublic": false,
+    "isManagedByNps": false,
+    "url": null
   },
   {
     "id": "5D4DC73D-C1ED-4DD7-90FB-A0367BAC661E",
@@ -4620,8 +4799,9 @@
       "Bus/Shuttle Stop",
       "Wheelchair Accessible"
     ],
-    "isOpenToPublic": true,
-    "isManagedByNps": true
+    "isOpenToPublic": false,
+    "isManagedByNps": false,
+    "url": null
   },
   {
     "id": "0BD89689-1517-4642-A1F4-84E4FC877FD0",
@@ -4646,8 +4826,9 @@
       "Trash/Litter Receptacles",
       "Wheelchair Accessible"
     ],
-    "isOpenToPublic": true,
-    "isManagedByNps": true
+    "isOpenToPublic": false,
+    "isManagedByNps": false,
+    "url": null
   },
   {
     "id": "35568834-ADCB-4755-B347-72EC5714CAB6",
@@ -4672,8 +4853,9 @@
       "Parking - Auto",
       "Wheelchair Accessible"
     ],
-    "isOpenToPublic": true,
-    "isManagedByNps": true
+    "isOpenToPublic": false,
+    "isManagedByNps": false,
+    "url": null
   },
   {
     "id": "7748D30B-35A2-4108-88D4-AB1D99A6E959",
@@ -4701,8 +4883,9 @@
       "Trash/Litter Receptacles",
       "Wheelchair Accessible"
     ],
-    "isOpenToPublic": true,
-    "isManagedByNps": true
+    "isOpenToPublic": false,
+    "isManagedByNps": false,
+    "url": null
   },
   {
     "id": "C763BE77-2646-47F1-9448-F74D144773FE",
@@ -4728,8 +4911,9 @@
       "Recycling",
       "Trash/Litter Receptacles"
     ],
-    "isOpenToPublic": true,
-    "isManagedByNps": true
+    "isOpenToPublic": false,
+    "isManagedByNps": false,
+    "url": null
   },
   {
     "id": "1294926D-DDE1-4384-93FD-9B1FF9B39C54",
@@ -4755,8 +4939,9 @@
       "Toilet - Vault/Composting",
       "Wheelchair Accessible"
     ],
-    "isOpenToPublic": true,
-    "isManagedByNps": true
+    "isOpenToPublic": false,
+    "isManagedByNps": false,
+    "url": null
   },
   {
     "id": "72BC1EF4-B2E6-4389-A4ED-75EAB0B2A812",
@@ -4785,8 +4970,9 @@
       "Trash/Litter Receptacles",
       "Wheelchair Accessible"
     ],
-    "isOpenToPublic": true,
-    "isManagedByNps": true
+    "isOpenToPublic": false,
+    "isManagedByNps": false,
+    "url": "https://www.nps.gov/yose/learn/photosmultimedia/swiftwater.htm"
   },
   {
     "id": "3EED778E-F5F9-4718-A0EF-F3E11614F656",
@@ -4813,8 +4999,9 @@
       "Trash/Litter Receptacles",
       "Wheelchair Accessible"
     ],
-    "isOpenToPublic": true,
-    "isManagedByNps": false
+    "isOpenToPublic": false,
+    "isManagedByNps": false,
+    "url": "https://www.travelyosemite.com/dining/yosemite-village"
   },
   {
     "id": "7F16EDB6-00D0-41E2-B8F4-FB4956D06EF9",
@@ -4846,8 +5033,9 @@
       "Trash/Litter Receptacles",
       "Wheelchair Accessible"
     ],
-    "isOpenToPublic": true,
-    "isManagedByNps": false
+    "isOpenToPublic": false,
+    "isManagedByNps": false,
+    "url": "https://www.travelyosemite.com/things-to-do/shopping-supplies-groceries/"
   },
   {
     "id": "6C968188-1BB9-42D9-934F-2EED77A10CDF",
@@ -4870,8 +5058,9 @@
     "amenities": [
       "Parking - Auto"
     ],
-    "isOpenToPublic": true,
-    "isManagedByNps": true
+    "isOpenToPublic": false,
+    "isManagedByNps": false,
+    "url": "https://www.nps.gov/places/000/yosemite-village-parking.htm"
   },
   {
     "id": "3F57A699-3177-4494-98EE-BAB7844452B0",
@@ -4894,8 +5083,9 @@
     "amenities": [
       "Bicycle - Rental"
     ],
-    "isOpenToPublic": true,
-    "isManagedByNps": false
+    "isOpenToPublic": false,
+    "isManagedByNps": false,
+    "url": "https://www.nps.gov/places/000/curry-village-bike-stand.htm"
   },
   {
     "id": "44FAB1ED-9725-40DD-9ECE-70CF79EAC61A",
@@ -4918,8 +5108,9 @@
     "amenities": [
       "Historical/Interpretive Information/Exhibits"
     ],
-    "isOpenToPublic": true,
-    "isManagedByNps": true
+    "isOpenToPublic": false,
+    "isManagedByNps": false,
+    "url": null
   },
   {
     "id": "EFF5A2CF-E263-40C4-B939-C893E895EA2C",
@@ -4942,8 +5133,9 @@
     "amenities": [
       "Trailhead"
     ],
-    "isOpenToPublic": true,
-    "isManagedByNps": true
+    "isOpenToPublic": false,
+    "isManagedByNps": false,
+    "url": null
   },
   {
     "id": "2DE7B79F-E989-473E-850F-6796FC26EC99",
@@ -4969,8 +5161,9 @@
       "Trash/Litter Receptacles",
       "Wheelchair Accessible"
     ],
-    "isOpenToPublic": true,
-    "isManagedByNps": true
+    "isOpenToPublic": false,
+    "isManagedByNps": false,
+    "url": null
   },
   {
     "id": "5B085870-FBFF-469C-9D0C-01073A23DA04",
@@ -4993,14 +5186,15 @@
     "amenities": [
       "Historical/Interpretive Information/Exhibits"
     ],
-    "isOpenToPublic": true,
-    "isManagedByNps": true
+    "isOpenToPublic": false,
+    "isManagedByNps": false,
+    "url": null
   },
   {
     "id": "038347ED-60FA-4625-9C4F-9827CBD9728B",
     "title": "Wawona EV Charging Station",
     "listingDescription": "Located in the parking lot adjacent to the Wawona Store, this electric vehicle (EV) charging station features 24 level 2 chargers. Chargers have a J1772 connector with a power output of 11 kW.",
-    "bodyText": "<p>Located in the parking lot adjacent to the Wawona Store, this electric vehicle (EV) charging station features 24 level 2 chargers. Chargers have a J1772 connector with a power output of 11 kW.</p> <p>EV charging is available in Yosemite National Park at no cost, courtesy of Yosemite Hospitality. Other charging stations are available outside the park. Use the\u00a0<a href=\"https://afdc.energy.gov/fuels/electricity_locations.html#/find/nearest?fuel=ELEC&location=95389\">Alternative Fuels Data Center</a>\u00a0to view locations of EV charging stations in the area.</p> <p>Charging stations are available 24 hours a day.</p>",
+    "bodyText": "<p>Located in the parking lot adjacent to the Wawona Store, this electric vehicle (EV) charging station features 24 level 2 chargers. Chargers have a J1772 connector with a power output of 11 kW.</p> <p>Other charging stations are available outside the park. Use the\u00a0<a href=\"https://afdc.energy.gov/fuels/electricity_locations.html#/find/nearest?fuel=ELEC&location=95389\">Alternative Fuels Data Center</a>\u00a0to view locations of EV charging stations in the area.</p> <p>Charging stations are available 24 hours a day.</p>",
     "location": {
       "lat": 37.53797536250285,
       "lon": -119.65731501984976
@@ -5017,8 +5211,9 @@
     "amenities": [
       "Electric Car Charging Station"
     ],
-    "isOpenToPublic": true,
-    "isManagedByNps": false
+    "isOpenToPublic": false,
+    "isManagedByNps": false,
+    "url": "https://afdc.energy.gov/fuels/electricity_locations.html#/find/nearest?fuel=ELEC&location=95389"
   },
   {
     "id": "11A42DA0-F68D-49A8-8434-E7C995D62B02",
@@ -5043,8 +5238,9 @@
       "Trash/Litter Receptacles",
       "Wheelchair Accessible"
     ],
-    "isOpenToPublic": true,
-    "isManagedByNps": false
+    "isOpenToPublic": false,
+    "isManagedByNps": false,
+    "url": null
   },
   {
     "id": "7B2CF417-3016-4FE6-A37E-451AF69A77A6",
@@ -5070,8 +5266,9 @@
       "Trash/Litter Receptacles",
       "Wheelchair Accessible"
     ],
-    "isOpenToPublic": true,
-    "isManagedByNps": false
+    "isOpenToPublic": false,
+    "isManagedByNps": false,
+    "url": "https://www.travelyosemite.com/things-to-do/golfing/"
   },
   {
     "id": "4E3F825F-B03A-41C4-8D23-AADC79440AAE",
@@ -5094,8 +5291,9 @@
     "amenities": [
       "Historical/Interpretive Information/Exhibits"
     ],
-    "isOpenToPublic": true,
-    "isManagedByNps": true
+    "isOpenToPublic": false,
+    "isManagedByNps": false,
+    "url": null
   },
   {
     "id": "B35CA288-D30C-4024-928E-A1C5B68245FE",
@@ -5122,8 +5320,9 @@
       "Swimming Pool",
       "Wheelchair Accessible"
     ],
-    "isOpenToPublic": true,
-    "isManagedByNps": false
+    "isOpenToPublic": false,
+    "isManagedByNps": false,
+    "url": "https://www.travelyosemite.com/lodging/wawona-hotel"
   },
   {
     "id": "D924AC4F-C25E-4FD8-B74B-96E475B8E375",
@@ -5146,8 +5345,9 @@
     "amenities": [
       "Trailhead"
     ],
-    "isOpenToPublic": true,
-    "isManagedByNps": true
+    "isOpenToPublic": false,
+    "isManagedByNps": false,
+    "url": null
   },
   {
     "id": "B8A611B9-94E6-4442-9A7F-272D32B917E3",
@@ -5174,8 +5374,9 @@
       "Restroom",
       "Trash/Litter Receptacles"
     ],
-    "isOpenToPublic": true,
-    "isManagedByNps": true
+    "isOpenToPublic": false,
+    "isManagedByNps": false,
+    "url": null
   },
   {
     "id": "5EC1A98B-BC0E-4472-8D09-76743300683B",
@@ -5198,8 +5399,9 @@
     "amenities": [
       "Restroom"
     ],
-    "isOpenToPublic": true,
-    "isManagedByNps": false
+    "isOpenToPublic": false,
+    "isManagedByNps": false,
+    "url": "https://www.travelyosemite.com/things-to-do/horseback-mule-riding/"
   },
   {
     "id": "AD0B7336-773C-4AFE-A5D5-30C952F88200",
@@ -5225,8 +5427,9 @@
       "Permits Issued",
       "Wheelchair Accessible"
     ],
-    "isOpenToPublic": true,
-    "isManagedByNps": true
+    "isOpenToPublic": false,
+    "isManagedByNps": false,
+    "url": "https://cms.nps.gov/yose/planyourvisit/wildpermits.htm"
   },
   {
     "id": "012B2BD2-F17B-49DE-9EC8-206D7DA9527C",
@@ -5253,8 +5456,9 @@
       "Trash/Litter Receptacles",
       "Wheelchair Accessible"
     ],
-    "isOpenToPublic": true,
-    "isManagedByNps": false
+    "isOpenToPublic": false,
+    "isManagedByNps": false,
+    "url": "https://www.travelyosemite.com/lodging/white-wolf-lodge/"
   },
   {
     "id": "2F13EAC9-56CA-49D5-918D-EF8110DDC7CD",
@@ -5280,8 +5484,9 @@
       "Permits Issued",
       "Wheelchair Accessible"
     ],
-    "isOpenToPublic": true,
-    "isManagedByNps": true
+    "isOpenToPublic": false,
+    "isManagedByNps": false,
+    "url": "https://cms.nps.gov/yose/planyourvisit/wildpermits.htm"
   },
   {
     "id": "79246747-647E-47CC-97F4-D22972FAED25",
@@ -5306,8 +5511,9 @@
       "Public Transit",
       "Wheelchair Accessible"
     ],
-    "isOpenToPublic": true,
-    "isManagedByNps": false
+    "isOpenToPublic": false,
+    "isManagedByNps": false,
+    "url": "https://yarts.com/routes-and-schedules/sonora-buck-meadows-yosemite-valley/"
   },
   {
     "id": "D522930F-A298-408E-B4D9-7C330958E8AC",
@@ -5331,8 +5537,9 @@
       "Public Transit",
       "Wheelchair Accessible"
     ],
-    "isOpenToPublic": true,
-    "isManagedByNps": false
+    "isOpenToPublic": false,
+    "isManagedByNps": false,
+    "url": "https://www.yarts.com/plan-your-trip/"
   },
   {
     "id": "0FD7B5AA-94E6-467B-B02C-C676C7A0AB24",
@@ -5356,8 +5563,9 @@
       "Public Transit",
       "Wheelchair Accessible"
     ],
-    "isOpenToPublic": true,
-    "isManagedByNps": false
+    "isOpenToPublic": false,
+    "isManagedByNps": false,
+    "url": "https://www.yarts.com/bus_routes/highway-140/"
   },
   {
     "id": "174101C3-6A21-40E1-897E-E580B4661E20",
@@ -5381,8 +5589,9 @@
       "Public Transit",
       "Wheelchair Accessible"
     ],
-    "isOpenToPublic": true,
-    "isManagedByNps": false
+    "isOpenToPublic": false,
+    "isManagedByNps": false,
+    "url": "https://www.yarts.com/bus_routes/highway-41/"
   },
   {
     "id": "850D4F85-558E-4115-AAF9-0FE91DA3D50D",
@@ -5406,8 +5615,9 @@
       "Public Transit",
       "Wheelchair Accessible"
     ],
-    "isOpenToPublic": true,
-    "isManagedByNps": false
+    "isOpenToPublic": false,
+    "isManagedByNps": false,
+    "url": "https://www.yarts.com/bus_routes/highway-395-120e/"
   },
   {
     "id": "ADABACDB-55C3-4821-9429-49C57B54A16B",
@@ -5431,8 +5641,9 @@
       "Public Transit",
       "Wheelchair Accessible"
     ],
-    "isOpenToPublic": true,
-    "isManagedByNps": false
+    "isOpenToPublic": false,
+    "isManagedByNps": false,
+    "url": "https://www.yarts.com/bus_routes/highway-395-120e/"
   },
   {
     "id": "7C3E53AB-3E41-411D-B98A-296AA58DC31E",
@@ -5456,8 +5667,9 @@
       "Public Transit",
       "Wheelchair Accessible"
     ],
-    "isOpenToPublic": true,
-    "isManagedByNps": false
+    "isOpenToPublic": false,
+    "isManagedByNps": false,
+    "url": "https://www.yarts.com/bus_routes/highway-140/"
   },
   {
     "id": "B0A4572D-8096-4E34-A067-F9F70E42752D",
@@ -5481,8 +5693,9 @@
       "Public Transit",
       "Wheelchair Accessible"
     ],
-    "isOpenToPublic": true,
-    "isManagedByNps": false
+    "isOpenToPublic": false,
+    "isManagedByNps": false,
+    "url": "https://www.yarts.com/bus_routes/highway-395-120e/"
   },
   {
     "id": "30CB47FB-B987-4119-BE71-387C80E61606",
@@ -5506,8 +5719,9 @@
       "Public Transit",
       "Wheelchair Accessible"
     ],
-    "isOpenToPublic": true,
-    "isManagedByNps": false
+    "isOpenToPublic": false,
+    "isManagedByNps": false,
+    "url": "https://www.yarts.com/bus_routes/highway-41/"
   },
   {
     "id": "9ADA9248-6F4D-45E3-85A6-65BF2684BB7E",
@@ -5531,8 +5745,9 @@
       "Public Transit",
       "Wheelchair Accessible"
     ],
-    "isOpenToPublic": true,
-    "isManagedByNps": false
+    "isOpenToPublic": false,
+    "isManagedByNps": false,
+    "url": "https://www.nps.gov/places/000/valley-shuttle-stop-5-yosemite-valley-visitor-center-and-museum.htm"
   },
   {
     "id": "34BF374E-6A42-46CF-B3F9-40BF63D2FF52",
@@ -5554,7 +5769,8 @@
     ],
     "amenities": [],
     "isOpenToPublic": false,
-    "isManagedByNps": true
+    "isManagedByNps": false,
+    "url": null
   },
   {
     "id": "B139C230-5CA0-4DD7-8489-B230E6329374",
@@ -5577,8 +5793,9 @@
     "amenities": [
       "Bicycle - Sharing Station"
     ],
-    "isOpenToPublic": true,
-    "isManagedByNps": false
+    "isOpenToPublic": false,
+    "isManagedByNps": false,
+    "url": "https://apps.apple.com/us/app/linka-go/id1300433189"
   },
   {
     "id": "59132B1B-0E6C-42AB-8075-2ECA9D252119",
@@ -5601,8 +5818,9 @@
     "amenities": [
       "Historical/Interpretive Information/Exhibits"
     ],
-    "isOpenToPublic": true,
-    "isManagedByNps": true
+    "isOpenToPublic": false,
+    "isManagedByNps": false,
+    "url": null
   },
   {
     "id": "E5196218-9916-4945-AA25-318DBD039734",
@@ -5628,8 +5846,9 @@
       "Trash/Litter Receptacles",
       "Wheelchair Accessible"
     ],
-    "isOpenToPublic": true,
-    "isManagedByNps": true
+    "isOpenToPublic": false,
+    "isManagedByNps": false,
+    "url": "http://www.yosemitevalleychapel.org/services.htm"
   },
   {
     "id": "40FB53A4-BD1C-4FD2-A65B-0D344D423B49",
@@ -5653,8 +5872,9 @@
       "Historical/Interpretive Information/Exhibits",
       "Information"
     ],
-    "isOpenToPublic": true,
-    "isManagedByNps": false
+    "isOpenToPublic": false,
+    "isManagedByNps": false,
+    "url": "https://www.nps.gov/yose/planyourvisit/guide.htm"
   },
   {
     "id": "A92EE6C7-A863-49CF-B82D-BEA4EF6B5365",
@@ -5681,8 +5901,9 @@
       "Toilet - Vault/Composting",
       "Trash/Litter Receptacles"
     ],
-    "isOpenToPublic": true,
-    "isManagedByNps": true
+    "isOpenToPublic": false,
+    "isManagedByNps": false,
+    "url": null
   },
   {
     "id": "512130F4-A791-499C-B9EB-0DE0F6B76DAC",
@@ -5706,8 +5927,9 @@
       "Animal-Safe Food Storage",
       "Trailhead"
     ],
-    "isOpenToPublic": true,
-    "isManagedByNps": true
+    "isOpenToPublic": false,
+    "isManagedByNps": false,
+    "url": null
   },
   {
     "id": "5281E120-CA6C-4E49-B588-4A37B67847A8",
@@ -5740,8 +5962,9 @@
       "Trash/Litter Receptacles",
       "Wheelchair Accessible"
     ],
-    "isOpenToPublic": true,
-    "isManagedByNps": true
+    "isOpenToPublic": false,
+    "isManagedByNps": false,
+    "url": null
   },
   {
     "id": "6676239D-BEBC-4732-8458-0E1464072880",
@@ -5762,8 +5985,9 @@
       }
     ],
     "amenities": [],
-    "isOpenToPublic": true,
-    "isManagedByNps": true
+    "isOpenToPublic": false,
+    "isManagedByNps": false,
+    "url": null
   },
   {
     "id": "56B19C0A-D351-4E9F-8F19-BC51F1A6816A",
@@ -5788,8 +6012,9 @@
       "Theater/Auditorium",
       "Wheelchair Accessible"
     ],
-    "isOpenToPublic": true,
-    "isManagedByNps": true
+    "isOpenToPublic": false,
+    "isManagedByNps": false,
+    "url": null
   },
   {
     "id": "6D1EA946-16D8-4804-BFC7-2D459E16FE19",
@@ -5813,14 +6038,15 @@
       "Animal-Safe Food Storage",
       "Parking - Auto"
     ],
-    "isOpenToPublic": true,
-    "isManagedByNps": true
+    "isOpenToPublic": false,
+    "isManagedByNps": false,
+    "url": "https://www.nps.gov/places/000/yosemite-valley-shuttle-stop-7-yosemite-valley-lodge.htm"
   },
   {
     "id": "B4435BE4-6154-4E2E-A9BA-578F67836E55",
     "title": "Yosemite Falls Parking EV Charging Station",
     "listingDescription": "Located at the northeast corner of the Yosemite Falls Day Use Parking area, this electric vehicle (EV) charging station features 10 level 2 chargers. These chargers have a J1772 connector.",
-    "bodyText": "<p>Located at the northeast corner of the Yosemite Falls Day Use Parking area, this electric vehicle (EV) charging station features 10 level 2 chargers. These chargers have a J1772 connector.</p> <p>EV charging is available in Yosemite National Park at no cost, courtesy of Yosemite Hospitality. Other charging stations are available outside the park. Use the\u00a0<a href=\"https://afdc.energy.gov/fuels/electricity_locations.html#/find/nearest?fuel=ELEC&location=95389\">Alternative Fuels Data Center</a>\u00a0to view locations of EV charging stations in the area.</p> <p>Charging stations are available 24 hours a day.</p>",
+    "bodyText": "<p>Located at the northeast corner of the Yosemite Falls Day Use Parking area, this electric vehicle (EV) charging station features 10 level 2 chargers. These chargers have a J1772 connector.</p> <p>Other charging stations are available outside the park. Use the\u00a0<a href=\"https://afdc.energy.gov/fuels/electricity_locations.html#/find/nearest?fuel=ELEC&location=95389\">Alternative Fuels Data Center</a>\u00a0to view locations of EV charging stations in the area.</p> <p>Charging stations are available 24 hours a day.</p>",
     "location": {
       "lat": 37.74115678544692,
       "lon": -119.60102680243743
@@ -5837,8 +6063,9 @@
     "amenities": [
       "Electric Car Charging Station"
     ],
-    "isOpenToPublic": true,
-    "isManagedByNps": false
+    "isOpenToPublic": false,
+    "isManagedByNps": false,
+    "url": "https://afdc.energy.gov/fuels/electricity_locations.html#/find/nearest?fuel=ELEC&location=95389"
   },
   {
     "id": "00B0BD7D-112B-49B9-81F0-AE73110A460D",
@@ -5864,8 +6091,9 @@
       "Scenic View/Photo Spot",
       "Trash/Litter Receptacles"
     ],
-    "isOpenToPublic": true,
-    "isManagedByNps": true
+    "isOpenToPublic": false,
+    "isManagedByNps": false,
+    "url": "https://www.nps.gov/yose/planyourvisit/guide.htm"
   },
   {
     "id": "3F480585-B331-410D-8BF9-48FAB18D55B6",
@@ -5889,8 +6117,9 @@
       "First Aid/Medical Care Available",
       "Wheelchair Accessible"
     ],
-    "isOpenToPublic": true,
-    "isManagedByNps": true
+    "isOpenToPublic": false,
+    "isManagedByNps": false,
+    "url": "https://usphs.gov/"
   },
   {
     "id": "4ABADDC4-7B8C-4CFE-97A7-FE09CAAB9B01",
@@ -5918,8 +6147,9 @@
       "Trash/Litter Receptacles",
       "Wheelchair Accessible"
     ],
-    "isOpenToPublic": true,
-    "isManagedByNps": true
+    "isOpenToPublic": false,
+    "isManagedByNps": false,
+    "url": "https://www.nps.gov/yose/planyourvisit/guide.htm"
   },
   {
     "id": "56E1ADE4-956E-48C1-B560-959446FB147F",
@@ -5940,8 +6170,9 @@
       }
     ],
     "amenities": [],
-    "isOpenToPublic": true,
-    "isManagedByNps": true
+    "isOpenToPublic": false,
+    "isManagedByNps": false,
+    "url": "https://www.tclf.org/landscapes/yosemite-national-park"
   },
   {
     "id": "9D085580-5B38-4A43-B94B-03927BBB70AE",
@@ -5964,8 +6195,9 @@
     "amenities": [
       "Historical/Interpretive Information/Exhibits"
     ],
-    "isOpenToPublic": true,
-    "isManagedByNps": true
+    "isOpenToPublic": false,
+    "isManagedByNps": false,
+    "url": null
   },
   {
     "id": "D2F18A22-E3BA-48AB-8BCB-04F5C272E02E",
@@ -6002,8 +6234,9 @@
       "Wheelchair Accessible",
       "Wheelchairs Available"
     ],
-    "isOpenToPublic": true,
-    "isManagedByNps": false
+    "isOpenToPublic": false,
+    "isManagedByNps": false,
+    "url": "https://www.travelyosemite.com/dining/yosemite-valley-lodge"
   },
   {
     "id": "A79C8321-F543-4DB3-B3CD-35E2CA1ADEBE",
@@ -6028,14 +6261,15 @@
       "Wheelchair Accessible",
       "Wheelchairs Available"
     ],
-    "isOpenToPublic": true,
-    "isManagedByNps": false
+    "isOpenToPublic": false,
+    "isManagedByNps": false,
+    "url": "https://www.travelyosemite.com/things-to-do/biking/"
   },
   {
     "id": "4C1DC92C-CBAF-4801-B2EE-3690374604FE",
     "title": "Yosemite Valley Lodge EV Charging Station",
     "listingDescription": "Located at the Yosemite Valley Lodge,\u00a0this electric vehicle (EV) charging station features four level 2 chargers in front of the Alder building as well as four additional level 2 chargers between the Laurel and Juniper buildings. These chargers have a J1772 connector.",
-    "bodyText": "<p>Located at the Yosemite Valley Lodge,\u00a0this electric vehicle (EV) charging station features four level 2 chargers in front of the Alder building as well as four additional level 2 chargers between the Laurel and Juniper buildings. These chargers have a J1772 connector. You do not need to be a guest at the lodge to charge your vehicle.</p> <p>EV charging is available in Yosemite National Park at no cost, courtesy of Yosemite Hospitality. Other charging stations are available outside the park. Use the\u00a0<a href=\"https://afdc.energy.gov/fuels/electricity_locations.html#/find/nearest?fuel=ELEC&location=95389\">Alternative Fuels Data Center</a>\u00a0to view locations of EV charging stations in the area.</p> <p>Charging stations are available 24 hours a day.</p>",
+    "bodyText": "<p>Located at the Yosemite Valley Lodge,\u00a0this electric vehicle (EV) charging station features four level 2 chargers in front of the Alder building as well as four additional level 2 chargers between the Laurel and Juniper buildings. These chargers have a J1772 connector. You do not need to be a guest at the lodge to charge your vehicle.</p> <p>Other charging stations are available outside the park. Use the\u00a0<a href=\"https://afdc.energy.gov/fuels/electricity_locations.html#/find/nearest?fuel=ELEC&location=95389\">Alternative Fuels Data Center</a>\u00a0to view locations of EV charging stations in the area.</p> <p>Charging stations are available 24 hours a day.</p>",
     "location": {
       "lat": 37.74293514483003,
       "lon": -119.59789372037324
@@ -6052,14 +6286,15 @@
     "amenities": [
       "Electric Car Charging Station"
     ],
-    "isOpenToPublic": true,
-    "isManagedByNps": false
+    "isOpenToPublic": false,
+    "isManagedByNps": false,
+    "url": "https://afdc.energy.gov/fuels/electricity_locations.html#/find/nearest?fuel=ELEC&location=95389"
   },
   {
     "id": "DF186DD9-CD12-44BE-821A-515D7640D0E9",
     "title": "Yosemite Valley Welcome Center EV Charging Station",
     "listingDescription": "Located in the parking lot on the east side of the Yosemite Valley Welcome Center, this electric vehicle (EV) charging station features four level 2 chargers. Chargers have a J1772 connector.",
-    "bodyText": "<p>Located in the parking lot on the east side of the Yosemite Valley Welcome Center, this electric vehicle (EV) charging station features four level 2 chargers. Chargers have a J1772 connector.</p> <p>EV charging is available in Yosemite National Park at no cost, courtesy of Yosemite Hospitality. Other charging stations are available outside the park. Use the\u00a0<a href=\"https://afdc.energy.gov/fuels/electricity_locations.html#/find/nearest?fuel=ELEC&location=95389\">Alternative Fuels Data Center</a>\u00a0to view locations of EV charging stations in the area.</p> <p>Charging stations are available 24 hours a day.</p>",
+    "bodyText": "<p>Located in the parking lot on the east side of the Yosemite Valley Welcome Center, this electric vehicle (EV) charging station features four level 2 chargers. Chargers have a J1772 connector.</p> <p>Other charging stations are available outside the park. Use the\u00a0<a href=\"https://afdc.energy.gov/fuels/electricity_locations.html#/find/nearest?fuel=ELEC&location=95389\">Alternative Fuels Data Center</a>\u00a0to view locations of EV charging stations in the area.</p> <p>Charging stations are available 24 hours a day.</p>",
     "location": {
       "lat": 37.74658498077422,
       "lon": -119.58378064647394
@@ -6076,8 +6311,9 @@
     "amenities": [
       "Electric Car Charging Station"
     ],
-    "isOpenToPublic": true,
-    "isManagedByNps": false
+    "isOpenToPublic": false,
+    "isManagedByNps": false,
+    "url": "https://afdc.energy.gov/fuels/electricity_locations.html#/find/nearest?fuel=ELEC&location=95389"
   },
   {
     "id": "258AB246-6A84-4BCE-BD87-8558B5967FC8",
@@ -6106,8 +6342,9 @@
       "Trash/Litter Receptacles",
       "Wheelchair Accessible"
     ],
-    "isOpenToPublic": true,
-    "isManagedByNps": true
+    "isOpenToPublic": false,
+    "isManagedByNps": false,
+    "url": "https://www.nps.gov/yose/planyourvisit/wildpermits.htm"
   },
   {
     "id": "A349CCBF-DDDC-4548-9032-CA1DE2E4DD6D",
@@ -6132,8 +6369,9 @@
       "Parking - Auto",
       "Restroom"
     ],
-    "isOpenToPublic": true,
-    "isManagedByNps": true
+    "isOpenToPublic": false,
+    "isManagedByNps": false,
+    "url": "https://www.nps.gov/places/000/valleywide-shuttle-stop-1-yosemite-village-parking.htm"
   },
   {
     "id": "1F100599-8F41-4F4F-9C93-1BA5EB459466",
@@ -6158,7 +6396,8 @@
       "Trash/Litter Receptacles",
       "Wheelchair Accessible"
     ],
-    "isOpenToPublic": true,
-    "isManagedByNps": false
+    "isOpenToPublic": false,
+    "isManagedByNps": false,
+    "url": null
   }
 ]

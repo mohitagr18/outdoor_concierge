@@ -1,0 +1,242 @@
+[
+  {
+    "rank": 1,
+    "name": "Tioga Road",
+    "parkCode": "yose",
+    "description": "Widely considered the most famous scenic drive in Yosemite, this 46-mile route travels from Crane Flat to Tioga Pass, showcasing the park's high country scenery.",
+    "distance_miles": 46.0,
+    "drive_time": "1.75 hours from Yosemite Valley",
+    "highlights": [
+      "Crane Flat",
+      "Tuolumne Meadows",
+      "Tioga Pass"
+    ],
+    "best_time": "Late May or early June through November",
+    "tips": [
+      "Typically closed from late May/June until November",
+      "Check current road conditions before heading out",
+      "Closed for the season due to snow in winter months"
+    ],
+    "image_url": "https://www.nps.gov/yose/planyourvisit/images/car-on-bridalveil-straight-with-el-cap.jpg?maxwidth=1300&maxheight=1300&autorotate=false&format=webp",
+    "source_url": "https://www.nps.gov/yose/planyourvisit/touring.htm"
+  },
+  {
+    "rank": 2,
+    "name": "Yosemite Valley Loop",
+    "parkCode": "yose",
+    "description": "The most popular of all Yosemite drives, this loop showcases awesome landscapes and breathtaking vistas that make the park famous. Although often crowded, it provides a must-see introduction to the valley's iconic scenery.",
+    "distance_miles": null,
+    "drive_time": null,
+    "highlights": [
+      "Awesome landscapes",
+      "Yosemite Valley views"
+    ],
+    "best_time": "Any time",
+    "tips": [
+      "Expect heavy crowds as it is the most popular route",
+      "Be aware of vehicle restrictions"
+    ],
+    "image_url": "https://cdn.allyosemite.com/images/content/1298405914_lg.jpg",
+    "source_url": "https://www.allyosemite.com/scenic_drives/"
+  },
+  {
+    "rank": 3,
+    "name": "Glacier Point Road",
+    "parkCode": "yose",
+    "description": "A stunning drive that leads to the Glacier Point overlook, offering panoramic views of Yosemite Valley, Half Dome, and Yosemite Falls.",
+    "distance_miles": null,
+    "drive_time": "About 1 hour from Yosemite Valley",
+    "highlights": [
+      "Glacier Point",
+      "Badger Pass"
+    ],
+    "best_time": "Summer and early Fall",
+    "tips": [
+      "Closed beyond Badger Pass for the season due to snow",
+      "Be prepared for tire chain requirements during winter months",
+      "Check status of road closures before travel"
+    ],
+    "image_url": "https://www.nps.gov/yose/planyourvisit/images/car-on-bridalveil-straight-with-el-cap.jpg?maxwidth=1300&maxheight=1300&autorotate=false&format=webp",
+    "source_url": "https://www.nps.gov/yose/planyourvisit/touring.htm"
+  },
+  {
+    "rank": 4,
+    "name": "Wawona Road",
+    "parkCode": "yose",
+    "description": "This road connects Yosemite Valley to the southern part of the park, providing access to the historic Wawona area and the Mariposa Grove of Giant Sequoias.",
+    "distance_miles": null,
+    "drive_time": "About 1 hour from Yosemite Valley",
+    "highlights": [
+      "Wawona",
+      "Mariposa Grove"
+    ],
+    "best_time": "Year-round (weather permitting)",
+    "tips": [
+      "Snow is possible on this road",
+      "Tire chain requirements may be in effect during winter"
+    ],
+    "image_url": "https://www.nps.gov/yose/planyourvisit/images/car-on-bridalveil-straight-with-el-cap.jpg?maxwidth=1300&maxheight=1300&autorotate=false&format=webp",
+    "source_url": "https://www.nps.gov/yose/planyourvisit/touring.htm"
+  },
+  {
+    "rank": 5,
+    "name": "Highway 41 (Wawona Road)",
+    "parkCode": "yose",
+    "description": "A route heading north into the park that travels mostly through dense forest. While primarily tree-lined, the drive features several creek crossings and culminates in the famous Tunnel View overlook.",
+    "distance_miles": null,
+    "drive_time": null,
+    "highlights": [
+      "Tunnel View",
+      "Wawona Tunnel",
+      "Yosemite Valley Overlook",
+      "Mosquito Creek",
+      "Alder Creek",
+      "Bishop Creek"
+    ],
+    "best_time": null,
+    "tips": [
+      "Roll down your windows to enjoy the scent of the trees and bearclover.",
+      "Be prepared for mostly forest views until you exit the Wawona Tunnel.",
+      "Numerous turn-outs between Wawona and Chinquapin offer opportunities for solitude."
+    ],
+    "image_url": "https://media-cdn.tripadvisor.com/media/photo-o/04/28/4f/29/bw92116.jpg",
+    "source_url": "https://www.tripadvisor.com/ShowTopic-g61000-i315-k3872634-Scenic_drives-Yosemite_National_Park_California.html"
+  },
+  {
+    "rank": 6,
+    "name": "Hetch Hetchy Road",
+    "parkCode": "yose",
+    "description": "A drive leading to the Hetch Hetchy Reservoir in the northwestern section of the park, known for its rugged beauty and quieter atmosphere.",
+    "distance_miles": null,
+    "drive_time": "1.5 hours from Yosemite Valley",
+    "highlights": [
+      "Hetch Hetchy Reservoir"
+    ],
+    "best_time": "Spring and Summer",
+    "tips": [
+      "Check for specific entrance gate hours as they can vary seasonally"
+    ],
+    "image_url": "https://www.nps.gov/yose/planyourvisit/images/car-on-bridalveil-straight-with-el-cap.jpg?maxwidth=1300&maxheight=1300&autorotate=false&format=webp",
+    "source_url": "https://www.nps.gov/yose/planyourvisit/touring.htm"
+  },
+  {
+    "rank": 7,
+    "name": "Yosemite Valley Roads",
+    "parkCode": "yose",
+    "description": "A series of roads within the valley floor containing a high concentration of iconic natural beauty and famous landmarks.",
+    "distance_miles": null,
+    "drive_time": null,
+    "highlights": [
+      "Yosemite Valley",
+      "Half Dome"
+    ],
+    "best_time": null,
+    "tips": [
+      "Many roads in the Valley are one-way; consult a map to understand the traffic flow.",
+      "The Yosemite Road Guide is recommended for identifying roadside markers and points of interest."
+    ],
+    "image_url": "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/2c/0b/c6/0d/caption.jpg?w=1200&h=-1&s=1&cx=1920&cy=1080&chk=v1_b9d5eb0f3abf761783de",
+    "source_url": "https://www.tripadvisor.com/ShowTopic-g61000-i315-k3872634-Scenic_drives-Yosemite_National_Park_California.html"
+  },
+  {
+    "rank": 8,
+    "name": "Big Oak Flat Road",
+    "parkCode": "yose",
+    "description": "This route serves as one of the main entrances to the park, climbing from the Yosemite Valley floor toward the Big Oak Flat Entrance.",
+    "distance_miles": null,
+    "drive_time": "45 minutes from Yosemite Valley",
+    "highlights": [
+      "Crane Flat",
+      "Hodgdon Meadow",
+      "Big Oak Flat Entrance"
+    ],
+    "best_time": "Year-round",
+    "tips": [
+      "Access point for the Tioga Road at Crane Flat"
+    ],
+    "image_url": "https://www.nps.gov/yose/planyourvisit/images/car-on-bridalveil-straight-with-el-cap.jpg?maxwidth=1300&maxheight=1300&autorotate=false&format=webp",
+    "source_url": "https://www.nps.gov/yose/planyourvisit/touring.htm"
+  },
+  {
+    "rank": 9,
+    "name": "El Portal Road",
+    "parkCode": "yose",
+    "description": "Running between Yosemite Valley and El Portal, this drive offers marvelous sights, particularly through the Merced River Canyon.",
+    "distance_miles": null,
+    "drive_time": null,
+    "highlights": [
+      "Merced River Canyon",
+      "Wildflower blooms",
+      "Rafting access",
+      "Hiking access"
+    ],
+    "best_time": "Spring (for wildflowers)",
+    "tips": [
+      "Look for wildflowers in the spring",
+      "Commonly used for access to rafting and hiking"
+    ],
+    "image_url": "https://cdn.allyosemite.com/images/cligfx/300068_20210216.jpg",
+    "source_url": "https://www.allyosemite.com/scenic_drives/"
+  },
+  {
+    "rank": 10,
+    "name": "Sierra Vista Byway",
+    "parkCode": "yose",
+    "description": "Travels through beautiful meadows and forests, past towering peaks and huge granite outcroppings with unique historical stops.",
+    "distance_miles": null,
+    "drive_time": null,
+    "highlights": [
+      "Ross Cabin",
+      "Mammoth Pool",
+      "Mile High Vista",
+      "Granite outcroppings"
+    ],
+    "best_time": "Any time",
+    "tips": [
+      "Stop at Mile High Vista for broad landscape views"
+    ],
+    "image_url": "https://cdn.allyosemite.com/images/content/12180_12561_Yosemite_Roads_lg.jpg",
+    "source_url": "https://www.allyosemite.com/scenic_drives/"
+  },
+  {
+    "rank": 11,
+    "name": "Highway 108",
+    "parkCode": "yose",
+    "description": "A route from Sonora to Bridgeport that offers breathtaking scenery including volcanic geological features and mountain passes.",
+    "distance_miles": null,
+    "drive_time": null,
+    "highlights": [
+      "Columns of the Giants",
+      "Stanislaus National Forest",
+      "Sonora Pass"
+    ],
+    "best_time": "Any time",
+    "tips": [
+      "Drive over the scenic Sonora Pass",
+      "Visit the Columns of the Giants in Stanislaus National Forest"
+    ],
+    "image_url": "https://cdn.allyosemite.com/images/content/1298404949_lg.jpg",
+    "source_url": "https://www.allyosemite.com/scenic_drives/"
+  },
+  {
+    "rank": 12,
+    "name": "Highway 49",
+    "parkCode": "yose",
+    "description": "A long, historic route following the path of the Gold Rush 49ers, passing through numerous historic mining towns and sites.",
+    "distance_miles": 100.0,
+    "drive_time": null,
+    "highlights": [
+      "Gold Rush history",
+      "Mining towns",
+      "Oakhurst",
+      "Vinton",
+      "Frenchman Lake"
+    ],
+    "best_time": "Any time",
+    "tips": [
+      "Great for history buffs interested in the Gold Rush era"
+    ],
+    "image_url": "https://cdn.allyosemite.com/images/content/12180_12561_Yosemite_Roads_lg.jpg",
+    "source_url": "https://www.allyosemite.com/scenic_drives/"
+  }
+]

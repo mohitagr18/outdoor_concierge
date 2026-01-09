@@ -355,7 +355,12 @@ def render_detailed_map(amenities_data):
                 am = Amenity(**item_data) if isinstance(item_data, dict) else item_data
                 if am.latitude and am.longitude:
                     gmaps = f"https://www.google.com/maps/search/?api=1&query={am.latitude},{am.longitude}"
-                    popup = f"""<div style="width:160px"><b>{am.name}</b><br><a href="{gmaps}" target="_blank">Maps ↗</a></div>"""
+                    # Show address with embedded link, fallback to coordinates link
+                    if am.address and am.address.lower() != "n/a":
+                        addr_link = f'<a href="{gmaps}" target="_blank">{am.address} ↗</a>'
+                    else:
+                        addr_link = f'<a href="{gmaps}" target="_blank">View on Maps ↗</a>'
+                    popup = f"""<div style="width:180px"><b>{am.name}</b><br>{addr_link}</div>"""
                     
                     marker = folium.Marker(
                         [am.latitude, am.longitude],

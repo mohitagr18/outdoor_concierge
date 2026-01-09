@@ -69,7 +69,7 @@ def render_trails_browser(park_code: str, static_data):
     df = pd.DataFrame(clean_rows)
 
     # 2. Filters
-    with st.expander("🔍 Filter Trails", expanded=False):
+    with st.expander("🔍 Filter Trails", expanded=True):
         c1, c2, c3, c4, c5 = st.columns(5)
         
         # Difficulty Filter
@@ -172,7 +172,7 @@ def render_trails_browser(park_code: str, static_data):
     # 4. List View - Top Rated Trails First
     st.markdown("### 🏆 Top Rated Trails")
     
-    with st.expander("View Details", expanded=True):
+    with st.expander("View Details", expanded=False):
         # Get top trails by popularity_rank, then by rating
         top_trails = pd.DataFrame()
         if 'popularity_rank' in filtered.columns:

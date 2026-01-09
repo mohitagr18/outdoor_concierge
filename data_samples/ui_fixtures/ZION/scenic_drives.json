@@ -1,0 +1,174 @@
+[
+  {
+    "rank": 1,
+    "name": "Zion Canyon Scenic Drive",
+    "parkCode": "zion",
+    "description": "The most famous route in the park, this road follows the North Fork of the Virgin River through the deep Zion Canyon, offering views of the park's most iconic rock formations such as the Great White Throne.",
+    "distance_miles": 6.0,
+    "drive_time": "1-2 hours",
+    "highlights": [
+      "Court of the Patriarchs",
+      "Zion Lodge",
+      "The Grotto",
+      "Temple of Sinawava"
+    ],
+    "best_time": "Early morning or late afternoon",
+    "tips": [
+      "Personal vehicles are prohibited when the shuttle is running (March-November)",
+      "The shuttle is free and frequent, stopping at major trailheads"
+    ],
+    "image_url": "https://www.nps.gov/common/uploads/structured_data/3C70D099-1DD2-3E7D-593623D3F2856B24.jpg",
+    "source_url": "https://theresearchedtraveler.com/the-best-stops-on-zion-mt-carmel-highway-and-zion-canyon-scenic-drive/"
+  },
+  {
+    "rank": 2,
+    "name": "Hwy 9 from I-15 to Mt. Carmel Junction",
+    "parkCode": "zion",
+    "description": "This 54-mile scenic byway serves as the primary access to Zion National Park. The route winds past major landmarks, parallels the Virgin River, and traverses the park's famous mile-long tunnel and the unique Checkerboard Mesa area, connecting Interstate 15 to Highway 89.",
+    "distance_miles": 54.0,
+    "drive_time": "1.5 hours",
+    "highlights": [
+      "Zion Canyon",
+      "Zion Tunnel",
+      "Checkerboard Mesa",
+      "Virgin River",
+      "Visitor Center and Museum",
+      "Grafton Ghost Town",
+      "Quail Creek State Park",
+      "Sand Hollow State Park",
+      "Springdale",
+      "Hurricane"
+    ],
+    "best_time": "Open year-round",
+    "tips": [
+      "A fee is charged to drive through the park",
+      "Zion Canyon is accessible by shuttle only during the tourist season",
+      "Large vehicles and RVs are required to pay an escort fee for the Zion Tunnel",
+      "Can be driven as part of a loop returning via Hwy 14 or Hwy 89"
+    ],
+    "image_url": "https://ctfassets.ksldigital.com/0wjmk6wgfops/47xYVxyzgZCK8vmy9qAlQh/69421eef8cbb1eacb4d7c8ac32d4f1e2/trevor_gerzen_qBbqAxyei3I_unsplash_1094886b-8c4c-4440-9b18-439608ed34d4.jpg?w=1280&h=800&fit=fill&f=center&q=80",
+    "source_url": "https://www.utah.com/destinations/national-parks/zion-national-park/things-to-do/scenic-drives/"
+  },
+  {
+    "rank": 3,
+    "name": "Zion National Park Scenic Drive",
+    "parkCode": "zion",
+    "description": "A short drive along the canyon floor that features a narrow and deep canyon with sheer walls. It is the centerpiece of the park and offers views of landscape carved by the Virgin River.",
+    "distance_miles": 12.4,
+    "drive_time": "4.5\u20135 hr",
+    "highlights": [
+      "Canyon floor",
+      "Sheer canyon walls",
+      "Virgin River views",
+      "Zion Lodge"
+    ],
+    "best_time": "Spring and Fall",
+    "tips": [
+      "From March through November, personal vehicles are prohibited and the route is accessible only via the free Zion Canyon Shuttle.",
+      "Hazardous driving conditions may occur during and immediately following storms.",
+      "Icy spots remain on the road through the winter."
+    ],
+    "image_url": "https://www.alltrails.com/mugen/image/location-app-router?url=https%3A%2F%2Fimages.alltrails.com%2FeyJidWNrZXQiOiJhc3NldHMuYWxsdHJhaWxzLmNvbSIsImtleSI6InVwbG9hZHMvcGhvdG8vaW1hZ2UvOTcxMDQ1MzEvYWY1Y2ZlMzFkYmJlYjVkNTc4MGM4ZGQ0ZDFmNzJhZjYuanBnIiwiZWRpdHMiOnsidG9Gb3JtYXQiOiJqcGVnIiwicmVzaXplIjp7IndpZHRoIjoiMTYwIiwiaGVpZ2h0IjoiMTYwIiwiZml0IjoiY292ZXIifSwicm90YXRlIjpudWxsLCJqcGVnIjp7InRyZWxsaXNRdWFudGlzYXRpb24iOnRydWUsIm92ZXJzaG9vdERlcmluZ2luZyI6dHJ1ZSwib3B0aW1pc2VTY2FucyI6dHJ1ZSwicXVhbnRpc2F0aW9uVGFibGUiOjN9fX0%3D&w=256&q=75",
+    "source_url": "https://www.alltrails.com/parks/us/utah/zion-national-park/scenic-driving"
+  },
+  {
+    "rank": 4,
+    "name": "Zion-Mount Carmel Highway",
+    "parkCode": "zion",
+    "description": "An engineering marvel connecting the south and east entrances, featuring a mile-long tunnel and dramatic switchbacks with panoramic canyon views.",
+    "distance_miles": 12.0,
+    "drive_time": "1 hour",
+    "highlights": [
+      "Zion-Mount Carmel Tunnel",
+      "Canyon Overlook Trail",
+      "Checkerboard Mesa"
+    ],
+    "best_time": "Golden hour for optimal light on the sandstone",
+    "tips": [
+      "Large vehicles require a tunnel permit and ranger escort",
+      "Check vehicle size limits before driving"
+    ],
+    "image_url": "https://www.nps.gov/common/uploads/structured_data/3C712795-1DD2-3E7D-59752D57D43D2A4B.jpg",
+    "source_url": "https://theresearchedtraveler.com/the-best-stops-on-zion-mt-carmel-highway-and-zion-canyon-scenic-drive/"
+  },
+  {
+    "rank": 5,
+    "name": "Kolob Canyons Road",
+    "parkCode": "zion",
+    "description": "A short but spectacular drive in the northwestern corner of the park, showcasing the stunning crimson 'fingers' of the Kolob Canyons.",
+    "distance_miles": 5.0,
+    "drive_time": "30-45 minutes",
+    "highlights": [
+      "Kolob Canyons Visitor Center",
+      "Timber Creek Overlook Trail",
+      "Finger Canyons Viewpoint"
+    ],
+    "best_time": "Sunset for vibrant red colors",
+    "tips": [
+      "Accessible via I-15 at Exit 40",
+      "The road may be closed occasionally in winter due to snow"
+    ],
+    "image_url": "https://www.nps.gov/common/uploads/structured_data/3C713B95-1DD2-3E7D-591605370C9697A0.jpg",
+    "source_url": "https://theresearchedtraveler.com/the-best-stops-on-zion-mt-carmel-highway-and-zion-canyon-scenic-drive/"
+  },
+  {
+    "rank": 6,
+    "name": "Kolob Reservoir Road",
+    "parkCode": "zion",
+    "description": "A scenic drive leading to the Kolob Reservoir, providing access to several interesting hiking trails and higher elevation views.",
+    "distance_miles": 23.7,
+    "drive_time": null,
+    "highlights": [
+      "Kolob Reservoir",
+      "Wilderness hiking trail access",
+      "Significant elevation gain"
+    ],
+    "best_time": "Spring and Fall",
+    "tips": [
+      "This road involves a significant elevation gain of 5,085 ft.",
+      "Accesses more rugged, wilderness areas with fewer crowds."
+    ],
+    "image_url": "https://www.alltrails.com/mugen/image/location-app-router?url=https%3A%2F%2Fimages.alltrails.com%2FeyJidWNrZXQiOiJhc3NldHMuYWxsdHJhaWxzLmNvbSIsImtleSI6InVwbG9hZHMvcGhvdG8vaW1hZ2UvOTcxMDQ1MjVvMjk5MGU3YTBmOTJlMjVlMGYxNzhiY2ExNTk4YjFkNzUuanBnIiwiZWRpdHMiOnsidG9Gb3JtYXQiOiJqcGVnIiwicmVzaXplIjp7IndpZHRoIjoiMTYwIiwiaGVpZ2h0IjoiMTYwIiwiZml0IjoiY292ZXIifSwicm90YXRlIjpudWxsLCJqcGVnIjp7InRyZWxsaXNRdWFudGlzYXRpb24iOnRydWUsIm92ZXJzaG9vdERlcmluZ2luZyI6dHJ1ZSwib3B0aW1pc2VTY2FucyI6dHJ1ZSwicXVhbnRpc2F0aW9uVGFibGUiOjN9fX0%3D&w=256&q=75",
+    "source_url": "https://www.alltrails.com/parks/us/utah/zion-national-park/scenic-driving"
+  },
+  {
+    "rank": 7,
+    "name": "Kolob Terrace Road",
+    "parkCode": "zion",
+    "description": "A high-altitude backcountry route starting in Virgin, Utah, providing a more remote perspective of Zion's landscape as it climbs toward the Kolob Reservoir.",
+    "distance_miles": 21.0,
+    "drive_time": "2 hours",
+    "highlights": [
+      "Tabernacle Dome",
+      "Cave Valley",
+      "Kolob Reservoir"
+    ],
+    "best_time": "Summer and fall",
+    "tips": [
+      "Road is not plowed in winter beyond a certain point",
+      "High elevation means cooler temperatures and changing weather"
+    ],
+    "image_url": "https://www.nps.gov/common/uploads/structured_data/3C712C09-1DD2-3E7D-595B4C93D04C7B47.jpg",
+    "source_url": "https://theresearchedtraveler.com/the-best-stops-on-zion-mt-carmel-highway-and-zion-canyon-scenic-drive/"
+  },
+  {
+    "rank": 8,
+    "name": "Zion Park Scenic Byway: Hurricane to Mt. Carmel Junction",
+    "parkCode": "zion",
+    "description": "An extensive scenic byway that connects Hurricane to Mt. Carmel Junction, passing through some of the park's most dramatic elevation changes.",
+    "distance_miles": 48.3,
+    "drive_time": null,
+    "highlights": [
+      "Hurricane",
+      "Mt. Carmel Junction",
+      "Massive elevation changes"
+    ],
+    "best_time": "Spring and Fall",
+    "tips": [
+      "This route has the most elevation gain for scenic driving trails in the park at 5,390 ft.",
+      "Check weather conditions as high elevation passes can be affected by storms."
+    ],
+    "image_url": "https://www.alltrails.com/mugen/image/location-app-router?url=https%3A%2F%2Fimages.alltrails.com%2FeyJidWNrZXQiOiJhc3NldHMuYWxsdHJhaWxzLmNvbSIsImtleSI6InVwbG9hZHMvcGhvdG8vaW1hZ2UvOTcxMDM5NDIvZGI4ZjEyM2E0ZDRmMGYzYmMyMWVmMGQ0OGY4OGVmMmMuanBnIiwiZWRpdHMiOnsidG9Gb3JtYXQiOiJqcGVnIiwicmVzaXplIjp7IndpZHRoIjoiMTYwIiwiaGVpZ2h0IjoiMTYwIiwiZml0IjoiY292ZXIifSwicm90YXRlIjpudWxsLCJqcGVnIjp7InRyZWxsaXNRdWFudGlzYXRpb24iOnRydWUsIm92ZXJzaG9vdERlcmluZ2luZyI6dHJ1ZSwib3B0aW1pc2VTY2FucyI6dHJ1ZSwicXVhbnRpc2F0aW9uVGFibGUiOjN9fX0%3D&w=256&q=75",
+    "source_url": "https://www.alltrails.com/parks/us/utah/zion-national-park/scenic-driving"
+  }
+]

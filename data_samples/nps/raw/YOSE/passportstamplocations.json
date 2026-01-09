@@ -1,67 +1,26 @@
-{
-  "total": "4",
-  "limit": "500",
-  "start": "0",
-  "data": [
-    {
-      "id": "888BB5B2-6EA6-473C-A803-ECA45A02AF57",
-      "label": "Big Oak Flat Information Station",
-      "parks": [
-        {
-          "states": "CA",
-          "parkCode": "yose",
-          "designation": "National Park",
-          "fullName": "Yosemite National Park",
-          "url": "https://www.nps.gov/yose/index.htm",
-          "name": "Yosemite"
-        }
-      ],
-      "type": "visitorcenters"
-    },
-    {
-      "id": "D8CDB0BF-565A-48F9-803D-9685447AFD30",
-      "label": "Tuolumne Meadows Visitor Center",
-      "parks": [
-        {
-          "states": "CA",
-          "parkCode": "yose",
-          "designation": "National Park",
-          "fullName": "Yosemite National Park",
-          "url": "https://www.nps.gov/yose/index.htm",
-          "name": "Yosemite"
-        }
-      ],
-      "type": "visitorcenters"
-    },
-    {
-      "id": "F5446CA3-5F8B-4DA1-A02E-C76472B3BCD3",
-      "label": "Wawona Visitor Center at Hill's Studio",
-      "parks": [
-        {
-          "states": "CA",
-          "parkCode": "yose",
-          "designation": "National Park",
-          "fullName": "Yosemite National Park",
-          "url": "https://www.nps.gov/yose/index.htm",
-          "name": "Yosemite"
-        }
-      ],
-      "type": "visitorcenters"
-    },
-    {
-      "id": "E8610AC4-B20D-4F1A-BFA3-E9DB2CF3A1DE",
-      "label": "Yosemite Valley Welcome Center",
-      "parks": [
-        {
-          "states": "CA",
-          "parkCode": "yose",
-          "designation": "National Park",
-          "fullName": "Yosemite National Park",
-          "url": "https://www.nps.gov/yose/index.htm",
-          "name": "Yosemite"
-        }
-      ],
-      "type": "visitorcenters"
-    }
-  ]
-}
+[
+  {
+    "id": "888BB5B2-6EA6-473C-A803-ECA45A02AF57",
+    "label": "Big Oak Flat Information Station",
+    "type": "visitorcenters",
+    "parkCode": "yose"
+  },
+  {
+    "id": "D8CDB0BF-565A-48F9-803D-9685447AFD30",
+    "label": "Tuolumne Meadows Visitor Center",
+    "type": "visitorcenters",
+    "parkCode": "yose"
+  },
+  {
+    "id": "F5446CA3-5F8B-4DA1-A02E-C76472B3BCD3",
+    "label": "Wawona Visitor Center at Hill's Studio",
+    "type": "visitorcenters",
+    "parkCode": "yose"
+  },
+  {
+    "id": "E8610AC4-B20D-4F1A-BFA3-E9DB2CF3A1DE",
+    "label": "Yosemite Valley Welcome Center",
+    "type": "visitorcenters",
+    "parkCode": "yose"
+  }
+]

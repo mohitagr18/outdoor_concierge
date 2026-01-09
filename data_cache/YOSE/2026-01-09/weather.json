@@ -1,0 +1,47 @@
+{
+  "parkCode": "yose",
+  "current_temp_f": 26.9,
+  "current_condition": "Sunny",
+  "wind_mph": 11.2,
+  "humidity": 25,
+  "forecast": [
+    {
+      "date": "2026-01-09",
+      "maxtemp_f": 40.1,
+      "mintemp_f": 19.2,
+      "avgtemp_f": 28.4,
+      "daily_chance_of_rain": 0,
+      "condition": "Sunny",
+      "uv": 0.5
+    },
+    {
+      "date": "2026-01-10",
+      "maxtemp_f": 44.2,
+      "mintemp_f": 23.4,
+      "avgtemp_f": 32.0,
+      "daily_chance_of_rain": 0,
+      "condition": "Sunny",
+      "uv": 0.6
+    },
+    {
+      "date": "2026-01-11",
+      "maxtemp_f": 47.7,
+      "mintemp_f": 28.3,
+      "avgtemp_f": 36.2,
+      "daily_chance_of_rain": 0,
+      "condition": "Sunny",
+      "uv": 0.6
+    }
+  ],
+  "sunrise": "07:14 AM",
+  "sunset": "04:57 PM",
+  "weather_alerts": [
+    {
+      "event": "Freeze Warning",
+      "severity": "Moderate",
+      "headline": "Freeze Warning issued January 9 at 4:24AM PST until January 10 at 10:00AM PST by NWS Hanford CA",
+      "effective": "2026-01-09T04:24:00-08:00",
+      "expires": "2026-01-09T12:30:00-08:00"
+    }
+  ]
+}

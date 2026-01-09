@@ -256,3 +256,16 @@ class PhotoSpot(BaseModel):
     source_url: Optional[str] = None            # Link to the blog post
     tips: List[str] = []
     image_url: Optional[str] = None
+
+class ScenicDrive(BaseModel):
+    name: str
+    parkCode: Optional[str] = None
+    description: str
+    rank: Optional[int] = None
+    distance_miles: Optional[float] = None
+    drive_time: Optional[str] = None  # e.g. "2-3 hours"
+    highlights: List[str] = []  # Key viewpoints/stops
+    best_time: Optional[str] = None  # e.g. "Sunrise", "Any time"
+    tips: List[str] = []
+    source_url: Optional[str] = None
+    image_url: Optional[str] = None

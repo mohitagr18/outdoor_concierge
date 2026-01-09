@@ -1,33 +1,22 @@
 [
   {
-    "id": "92601B6A-4EC1-44B3-9741-8467F05C7407",
-    "name": "Big Trees Loop - Ecology of the Grove",
-    "description": "Think of the grove as a neighborhood, or ecosystem, where the resident plants and animals rely on each other to survive. Read this wayside exhibit to find out more about what roles mammals, birds, trees, snow, fire, and the sun play in this neighborhood.",
+    "id": "4B0211F8-48CB-494A-8151-FE821D1DDED5",
+    "name": "Big Trees Loop - Anatomy of a Giant",
+    "description": "This interpretive loop trail leads hikers through a grove of massive, ancient trees to explore the biological factors that contribute to their immense size and longevity.",
     "location": {
-      "lat": 37.501613,
-      "lon": -119.610056
+      "lat": 37.501539,
+      "lon": -119.610462
     },
     "images": [
       {
-        "url": "https://www.nps.gov/common/uploads/cropped_image/61D4F7F2-0846-4F46-DB0A40B2104E6EFC.jpg",
-        "credit": "",
-        "altText": "Wayside exhibit along a fence with sequoias and people in background",
-        "title": "Big Trees - Ecology of a Grove (Stop 3)",
-        "description": "",
-        "caption": "Big Trees Loop - Ecology of a Grove (Stop 3)",
-        "crops": [
-          {
-            "aspectRatio": "1.78",
-            "url": "https://www.nps.gov/common/uploads/cropped_image/primary/61D4F7F2-0846-4F46-DB0A40B2104E6EFC.jpg"
-          },
-          {
-            "aspectRatio": "1.33",
-            "url": "https://www.nps.gov/common/uploads/cropped_image/secondary/61D4F7F2-0846-4F46-DB0A40B2104E6EFC.jpg"
-          }
-        ]
+        "url": "https://www.nps.gov/common/uploads/cropped_image/9A798AF4-A4F2-E3E6-5010CD6E2E232348.jpg",
+        "title": "Big Trees - Anatomy of a Giant (Stop 2)",
+        "altText": "Boardwalk in Mariposa Grove with sequoia trees",
+        "caption": "Big Trees Loop - Anatomy of a Giant (Stop 2)",
+        "credit": ""
       }
     ],
-    "nps_url": "https://www.nps.gov/places/000/big-trees-loop-ecology-of-the-grove-stop-3.htm",
+    "nps_url": null,
     "difficulty": null,
     "length_miles": null,
     "elevation_gain_ft": null,
@@ -35,13 +24,75 @@
     "estimated_time_hours": null,
     "is_wheelchair_accessible": false,
     "is_kid_friendly": false,
-    "last_enriched": "2025-12-28T14:16:03.254331",
-    "is_pet_friendly": false
+    "is_pet_friendly": false,
+    "raw_listing_description": "These massive trees grow bigger and live longer than almost any other living things on earth. Which of the following factors do you think is most important to their longevity?",
+    "raw_body_text": "Anatomy of a Giant These massive trees grow bigger and live longer than almost any other living things on earth. Which of the following factors do you think is most important to their longevity?",
+    "last_enriched": "2026-01-08T20:47:56.429009"
+  },
+  {
+    "id": "39BFA8FE-E8CE-42E6-B9E4-B1F98B6E208F",
+    "name": "Big Trees Loop - Grove Restoration",
+    "description": "This loop trail travels through a giant sequoia grove that was once paved, highlighting restoration efforts to return the area to its natural state.",
+    "location": {
+      "lat": 37.502605,
+      "lon": -119.608799
+    },
+    "images": [
+      {
+        "url": "https://www.nps.gov/common/uploads/cropped_image/622CA031-E887-A962-A01101BDB96827D2.jpg",
+        "title": "Big Trees - Grove Restoration (Stop 8)",
+        "altText": "Flat sequoia round and exhibit in foreground, fence, and sequoias and other trees in background",
+        "caption": "Big Trees Loop - Grove Restoration (Stop 8)",
+        "credit": ""
+      }
+    ],
+    "nps_url": null,
+    "difficulty": null,
+    "length_miles": null,
+    "elevation_gain_ft": null,
+    "route_type": "Loop",
+    "estimated_time_hours": null,
+    "is_wheelchair_accessible": false,
+    "is_kid_friendly": false,
+    "is_pet_friendly": false,
+    "raw_listing_description": "The ground you stand on was once asphalt, which did not give falling sequoia seeds a chance to germinate. Read about recent efforts to restore this area back to a place where giant sequoias can thrive.",
+    "raw_body_text": "Grove Restoration The ground you stand on was once asphalt, which did not give falling sequoia seeds a chance to germinate. Read about recent efforts to restore this area back to a place where giant sequoias can thrive.",
+    "last_enriched": "2026-01-08T20:48:28.525738"
+  },
+  {
+    "id": "4E6B540D-E774-42D5-83C8-3FCA23D4EB19",
+    "name": "Big Trees Loop - How Giants Fall",
+    "description": "This interpretive loop trail winds through giant sequoias, focusing on the lifecycle of these ancient trees and the natural factors that lead to their eventual fall.",
+    "location": {
+      "lat": 37.502067,
+      "lon": -119.609285
+    },
+    "images": [
+      {
+        "url": "https://www.nps.gov/common/uploads/cropped_image/9532B956-CC79-BA16-AF93033EFC985343.jpg",
+        "title": "Big Trees - How Giants Fall (Stop 7)",
+        "altText": "Dead and fallen sequoia on the ground near a boardwalk",
+        "caption": "Big Trees Loop - How Giants Fall (Stop 7)",
+        "credit": ""
+      }
+    ],
+    "nps_url": null,
+    "difficulty": null,
+    "length_miles": null,
+    "elevation_gain_ft": null,
+    "route_type": "Loop",
+    "estimated_time_hours": null,
+    "is_wheelchair_accessible": false,
+    "is_kid_friendly": false,
+    "is_pet_friendly": false,
+    "raw_listing_description": "Giant sequoias can survive for thousands of years, but they are not invincible. What conditions threaten a giant sequoias survival?",
+    "raw_body_text": "How Giants Fall Giant sequoias can survive for thousands of years, but they are not invincible. What conditions threaten a giant sequoias survival?",
+    "last_enriched": "2026-01-08T20:48:36.887683"
   },
   {
     "id": "F96A3DD5-1E76-4A5E-B0DE-93169C32471C",
     "name": "Big Trees Loop - Restore and Protect",
-    "description": "In 1864 Abraham Lincoln paused during the Civil War to set aside the Mariposa Grove and Yosemite Valley as a protected state reserve \"for public use, resort, and recreation.\" Yosemite National Park was then established in 1890 and this grove incorporated into the park in 1906. Today, we value the quiet majesty of these giant sequoias and share a responsibility as park stewards to limit our impact on them.",
+    "description": "Wander through a grove of majestic giant sequoias in Mariposa Grove, a sanctuary first protected for public recreation in 1864.",
     "location": {
       "lat": 37.502014,
       "lon": -119.610357
@@ -49,24 +100,13 @@
     "images": [
       {
         "url": "https://www.nps.gov/common/uploads/cropped_image/990D4639-B291-06B0-AFF06A3583DA5ECA.jpg",
-        "credit": "",
-        "altText": "Wayside exhibit along a fence with sequoias in background",
         "title": "Big Trees - Restore & Protect (Stop 12)",
-        "description": "",
+        "altText": "Wayside exhibit along a fence with sequoias in background",
         "caption": "Big Trees Loop - Restore and Protect (Stop 12)",
-        "crops": [
-          {
-            "aspectRatio": "1.78",
-            "url": "https://www.nps.gov/common/uploads/cropped_image/primary/990D4639-B291-06B0-AFF06A3583DA5ECA.jpg"
-          },
-          {
-            "aspectRatio": "1.33",
-            "url": "https://www.nps.gov/common/uploads/cropped_image/secondary/990D4639-B291-06B0-AFF06A3583DA5ECA.jpg"
-          }
-        ]
+        "credit": ""
       }
     ],
-    "nps_url": "https://www.nps.gov/places/000/big-trees-loop-restore-and-protect-stop-12.htm",
+    "nps_url": null,
     "difficulty": null,
     "length_miles": null,
     "elevation_gain_ft": null,
@@ -74,13 +114,15 @@
     "estimated_time_hours": null,
     "is_wheelchair_accessible": false,
     "is_kid_friendly": false,
-    "last_enriched": "2025-12-28T14:16:54.620692",
-    "is_pet_friendly": false
+    "is_pet_friendly": false,
+    "raw_listing_description": "In 1864 Abraham Lincoln paused during the Civil War to set aside the Mariposa Grove and Yosemite Valley as a protected state reserve \"for public use, resort, and recreation.\" Yosemite National Park was then established in 1890 and this grove incorporated into the park in 1906. Today, we value the quiet majesty of these giant sequoias and share a responsibility as park stewards to limit our impact on them.",
+    "raw_body_text": "Restore and Protect In 1864 Abraham Lincoln paused during the Civil War to set aside the Mariposa Grove and Yosemite Valley as a protected state reserve \"for public use, resort, and recreation.\" Yosemite National Park was then established in 1890 and this grove incorporated into the park in 1906. Today, we value the quiet majesty of these giant sequoias and share a responsibility as park stewards to limit our impact on them.",
+    "last_enriched": "2026-01-08T20:49:02.154531"
   },
   {
     "id": "48DBCE46-16CA-4EB4-8496-CE0C70E8D7C1",
     "name": "Big Trees Loop - The Fallen Monarch",
-    "description": "No one knows how old this tree is or when it fell. Notice the roots of this tree. Sequoias do not have deep tap roots; instead the roots spread out near the grounds' surface to capture water. While the roots are usually no deeper than six feet (2 meters), they can fan out more than 150 feet (45 meters), providing a stable base to balance the massive trunk. When visitors stay on the road and trails, it minimizes soil compaction that damages these surface roots.",
+    "description": "This loop trail features the Fallen Monarch, a massive fallen sequoia where visitors can observe the tree's expansive and intricate root system.",
     "location": {
       "lat": 37.502526,
       "lon": -119.608891
@@ -88,24 +130,13 @@
     "images": [
       {
         "url": "https://www.nps.gov/common/uploads/cropped_image/9996C870-D83F-8963-1FF57EFA56E8C708.jpg",
-        "credit": "",
-        "altText": "Dead and fallen sequoia named Fallen Monarch with roots visible in the air",
         "title": "Big Trees - The Fallen Monarch (Stop 9)",
-        "description": "",
+        "altText": "Dead and fallen sequoia named Fallen Monarch with roots visible in the air",
         "caption": "Big Trees Loop - The Fallen Monarch (Stop 9)",
-        "crops": [
-          {
-            "aspectRatio": "1.78",
-            "url": "https://www.nps.gov/common/uploads/cropped_image/primary/9996C870-D83F-8963-1FF57EFA56E8C708.jpg"
-          },
-          {
-            "aspectRatio": "1.33",
-            "url": "https://www.nps.gov/common/uploads/cropped_image/secondary/9996C870-D83F-8963-1FF57EFA56E8C708.jpg"
-          }
-        ]
+        "credit": ""
       }
     ],
-    "nps_url": "https://www.nps.gov/places/000/big-trees-loop-the-fallen-monarch-stop-9.htm",
+    "nps_url": null,
     "difficulty": null,
     "length_miles": null,
     "elevation_gain_ft": null,
@@ -113,13 +144,15 @@
     "estimated_time_hours": null,
     "is_wheelchair_accessible": false,
     "is_kid_friendly": false,
-    "last_enriched": "2025-12-28T14:17:13.664529",
-    "is_pet_friendly": false
+    "is_pet_friendly": false,
+    "raw_listing_description": "No one knows how old this tree is or when it fell. Notice the roots of this tree.",
+    "raw_body_text": "The Fallen Monarch No one knows how old this tree is or when it fell. Notice the roots of this tree.",
+    "last_enriched": "2026-01-08T20:49:29.112026"
   },
   {
     "id": "6D04F583-962E-469D-9D7B-A7FC3A526978",
     "name": "Big Trees Loop - The Wonder of Sequoias",
-    "description": "You are standing in the midst of one of Yosemite's natural and cultural treasures-and among the world's most massive living organisms. These trees, Sequoiadendron giganteum, are not the oldest living things. Although the oldest giant sequoias may exceed 3,000 years in age, some living specimens of the ancient bristlecone pine, Pinus arista, are more than 4,600 years old!",
+    "description": "This loop trail leads through a grove of Giant Sequoias, allowing hikers to stand among some of the world's most massive living organisms.",
     "location": {
       "lat": 37.501556,
       "lon": -119.610491
@@ -127,24 +160,13 @@
     "images": [
       {
         "url": "https://www.nps.gov/common/uploads/cropped_image/9A87E5F5-D9E4-DFC8-5C2FAB0C48843065.jpg",
-        "credit": "",
-        "altText": "Fence lined path in grove with sequoia trees in view",
         "title": "Big Trees - Wonder of Sequoias (Stop 1)",
-        "description": "",
+        "altText": "Fence lined path in grove with sequoia trees in view",
         "caption": "Big Trees Loop - The Wonder of Sequoias (Stop 1)",
-        "crops": [
-          {
-            "aspectRatio": "1.78",
-            "url": "https://www.nps.gov/common/uploads/cropped_image/primary/9A87E5F5-D9E4-DFC8-5C2FAB0C48843065.jpg"
-          },
-          {
-            "aspectRatio": "1.33",
-            "url": "https://www.nps.gov/common/uploads/cropped_image/secondary/9A87E5F5-D9E4-DFC8-5C2FAB0C48843065.jpg"
-          }
-        ]
+        "credit": ""
       }
     ],
-    "nps_url": "https://www.nps.gov/places/000/big-trees-loop-the-wonder-of-sequoias-stop-1.htm",
+    "nps_url": null,
     "difficulty": null,
     "length_miles": null,
     "elevation_gain_ft": null,
@@ -152,13 +174,75 @@
     "estimated_time_hours": null,
     "is_wheelchair_accessible": false,
     "is_kid_friendly": false,
-    "last_enriched": "2025-12-28T14:17:20.370447",
-    "is_pet_friendly": false
+    "is_pet_friendly": false,
+    "raw_listing_description": "You are standing in the midst of one of Yosemite's natural and cultural treasures-and among the world's most massive living organisms. These trees, Sequoiadendron giganteum, are not the oldest living things.",
+    "raw_body_text": "The Wonders of Sequoias You are standing in the midst of one of Yosemite's natural and cultural treasures-and among the world's most massive living organisms. These trees, Sequoiadendron giganteum, are not the oldest living things.",
+    "last_enriched": "2026-01-08T20:49:43.840947"
+  },
+  {
+    "id": "882CC1C1-9F57-43D4-9D84-43F2CACA939A",
+    "name": "Big Trees Loop - Water and Wetlands",
+    "description": "This loop trail explores a grove of giant sequoias and the essential wetlands that provide the massive amounts of water these trees require.",
+    "location": {
+      "lat": 37.501865,
+      "lon": -119.609597
+    },
+    "images": [
+      {
+        "url": "https://www.nps.gov/common/uploads/cropped_image/9C8421B4-ACC7-B73D-57048707504DA5DD.jpg",
+        "title": "Big Trees - Water and Wetlands (Stop 4)",
+        "altText": "Wayside exhibit on a fence with view of forest",
+        "caption": "Big Trees Loop - Water and Wetlands (Stop 4)",
+        "credit": ""
+      }
+    ],
+    "nps_url": null,
+    "difficulty": null,
+    "length_miles": null,
+    "elevation_gain_ft": null,
+    "route_type": "Loop",
+    "estimated_time_hours": null,
+    "is_wheelchair_accessible": false,
+    "is_kid_friendly": false,
+    "is_pet_friendly": false,
+    "raw_listing_description": "Most of these giant sequoias consume a lot of water. Where does the water come from?",
+    "raw_body_text": "Water and Wetlands Most of these giant sequoias consume a lot of water. Where does the water come from?",
+    "last_enriched": "2026-01-08T20:50:32.729340"
+  },
+  {
+    "id": "BE78BD98-1E04-4567-9B1C-8171679F2EFA",
+    "name": "Big Trees Loop - Wildlife in the Grove",
+    "description": "The Big Trees Loop winds through the Mariposa Grove, providing hikers a chance to observe dozens of mammal and bird species living among the giant sequoias.",
+    "location": {
+      "lat": 37.502126,
+      "lon": -119.610158
+    },
+    "images": [
+      {
+        "url": "https://www.nps.gov/common/uploads/cropped_image/9CA707A1-C643-1A0D-79AF7DD0EB63E467.jpg",
+        "title": "Big Trees - Wildlife (Stop 11)",
+        "altText": "Tactile statue of a pacific fisher on a granite stone",
+        "caption": "Big Trees Loop - Wildlife in the Grove (Stop 11)",
+        "credit": ""
+      }
+    ],
+    "nps_url": null,
+    "difficulty": null,
+    "length_miles": null,
+    "elevation_gain_ft": null,
+    "route_type": "Loop",
+    "estimated_time_hours": null,
+    "is_wheelchair_accessible": false,
+    "is_kid_friendly": false,
+    "is_pet_friendly": false,
+    "raw_listing_description": "The Mariposa Grove provides a protected home for 35 species of mammals and 35 species of birds. Serious threats to Yosemite's wildlife and the ecosystems they occupy include loss of a natural fire regime, non-native species, air pollution, habitat fragmentation, and climate change.",
+    "raw_body_text": "Wildlife in the Grove The Mariposa Grove provides a protected home for 32 species of mammals and 32 species of birds. Serious threats to Yosemite's wildlife and the ecosystems they occupy include loss of a natural fire regime, non-native species, air pollution, habitat fragmentation, and climate change.",
+    "last_enriched": "2026-01-08T20:50:41.355752"
   },
   {
     "id": "6DF32715-91BB-4305-92CF-A17A72801F9E",
     "name": "Bridalveil Fall Trailhead",
-    "description": "A short walk will lead you to the base of Bridalveil Fall, allowing you to get an up close view of this often-windswept waterfall. Plunging 620 feet (189 meters), Bridalveil Fall is the first major waterfall you'll see when entering Yosemite Valley. In spring, it thunders; you can expect to get wet! In some cases the spray is so strong, you may not even be able to easily access the end of the trail. During the rest of the year, look for its characteristic light, swaying flow.",
+    "description": "Take a short walk to the base of the windswept Bridalveil Fall to experience an up-close view of the 620-foot plunging waterfall framed by Leaning Tower and Cathedral Rocks.",
     "location": {
       "lat": 37.716797,
       "lon": -119.651055
@@ -166,1508 +250,13 @@
     "images": [
       {
         "url": "https://www.nps.gov/common/uploads/cropped_image/33A7BAFE-ED78-662E-2E4E85FA5A97ACDC.jpg",
-        "credit": "",
-        "altText": "A paved path leads through a treed area lined with wood barrier fencing and boulders",
         "title": "Bridalveil Fall Trailhead",
-        "description": "",
+        "altText": "A paved path leads through a treed area lined with wood barrier fencing and boulders",
         "caption": "Bridalveil Fall Trailhead",
-        "crops": [
-          {
-            "aspectRatio": "1.78",
-            "url": "https://www.nps.gov/common/uploads/cropped_image/primary/33A7BAFE-ED78-662E-2E4E85FA5A97ACDC.jpg"
-          },
-          {
-            "aspectRatio": "1.33",
-            "url": "https://www.nps.gov/common/uploads/cropped_image/secondary/33A7BAFE-ED78-662E-2E4E85FA5A97ACDC.jpg"
-          }
-        ]
+        "credit": ""
       }
     ],
-    "nps_url": "https://www.nps.gov/places/000/bridalveil-fall-trailhead.htm",
-    "difficulty": "Easy",
-    "length_miles": 0.5,
-    "elevation_gain_ft": null,
-    "route_type": "Out & Back",
-    "estimated_time_hours": "20-30 minutes",
-    "is_wheelchair_accessible": true,
-    "is_kid_friendly": true,
-    "last_enriched": "2025-12-28T14:17:49.455415",
-    "is_pet_friendly": false
-  },
-  {
-    "id": "C51F3C63-C110-43C7-92FC-1F8EFD44228A",
-    "name": "Cathedral Lakes Trailhead",
-    "description": "The shimmering waters of Cathedral Lakes rest below Cathedral Peak, named by the California Geological Survey (CGS) in 1863. The trail climbs steadily to Upper Cathedral Lake. Near the top of the climb, it passes a spur trail to Lower Cathedral Lake (0.5 mile to lake). The return hike follows the same route. This is one of the busiest trails in the Tuolumne Meadows area.",
-    "location": {
-      "lat": 37.8726336506,
-      "lon": -119.374706059
-    },
-    "images": [
-      {
-        "url": "https://www.nps.gov/common/uploads/cropped_image/AD6917BC-C7B2-A86E-031D1BB49BF49C34.jpg",
-        "credit": "",
-        "altText": "Image of lake from a higher vantage point",
-        "title": "Cathedral Lakes Trailhead",
-        "description": "",
-        "caption": "Upper Cathedral Lake",
-        "crops": [
-          {
-            "aspectRatio": "1.78",
-            "url": "https://www.nps.gov/common/uploads/cropped_image/primary/AD6917BC-C7B2-A86E-031D1BB49BF49C34.jpg"
-          },
-          {
-            "aspectRatio": "1.33",
-            "url": "https://www.nps.gov/common/uploads/cropped_image/secondary/AD6917BC-C7B2-A86E-031D1BB49BF49C34.jpg"
-          }
-        ]
-      }
-    ],
-    "nps_url": "https://www.nps.gov/places/000/cathedral-lakes-trailhead.htm",
-    "difficulty": "Moderate",
-    "length_miles": 7.6,
-    "elevation_gain_ft": 1000,
-    "route_type": "Out & Back",
-    "estimated_time_hours": "6-7 hours",
-    "is_wheelchair_accessible": false,
-    "is_kid_friendly": false,
-    "last_enriched": "2025-12-28T14:17:55.272888",
-    "is_pet_friendly": false
-  },
-  {
-    "id": "1F5F467E-498F-4DD0-A28B-20686E1758EF",
-    "name": "Chilnualna Falls Trailhead",
-    "description": "Chilnualna Falls, pronounced \"Chil-noo-al-na,\" flows all year, with peak flow in May. It is a strenuous hike, but well worth it for its views of the falls and Wawona Dome. Chilnualna Falls are comprised of five large cascades sliding through and over large granite formations above the Wawona basin - water here is fullest in spring and early summer. This strenuous trail allows for you to view the Chilnualna Falls cascades in many locations along the hike.",
-    "location": {
-      "lat": 37.54854480769581,
-      "lon": -119.63368790674264
-    },
-    "images": [
-      {
-        "url": "https://www.nps.gov/common/uploads/cropped_image/AE687690-FF82-A8B7-43C0F5692D764808.jpg",
-        "credit": "",
-        "altText": "Chilnualna Falls Trailhead sign",
-        "title": "Chilnualna Falls Trailhead",
-        "description": "",
-        "caption": "Chilnualna Falls Trailhead",
-        "crops": [
-          {
-            "aspectRatio": "1.78",
-            "url": "https://www.nps.gov/common/uploads/cropped_image/primary/AE687690-FF82-A8B7-43C0F5692D764808.jpg"
-          },
-          {
-            "aspectRatio": "1.33",
-            "url": "https://www.nps.gov/common/uploads/cropped_image/secondary/AE687690-FF82-A8B7-43C0F5692D764808.jpg"
-          }
-        ]
-      }
-    ],
-    "nps_url": "https://www.nps.gov/places/000/chilnualna-falls-trailhead.htm",
-    "difficulty": "Strenuous",
-    "length_miles": 8.2,
-    "elevation_gain_ft": 2400,
-    "route_type": "Out & Back",
-    "estimated_time_hours": "5-7 hours",
-    "is_wheelchair_accessible": false,
-    "is_kid_friendly": false,
-    "last_enriched": "2025-12-28T14:18:00.001340",
-    "is_pet_friendly": false
-  },
-  {
-    "id": "13374ED7-ADF9-4A78-9DAF-546A346BFFC1",
-    "name": "Cook's Meadow Loop Trailhead",
-    "description": "Walk through the heart of it all! Enjoy views of Yosemite Falls, Half Dome, Sentinel Rock, and Royal Arches from the center of Yosemite Valley as you saunter through this large open meadow. This short, easy walk offers stunning views of Yosemite Falls, Half Dome, Glacier Point, and Sentinel Rock. From the visitor center, walk west along the bicycle path toward Lower Yosemite Fall. At shuttle stop #6, cross the street and follow the bike path, bearing left as the path forks.",
-    "location": {
-      "lat": 37.74536975573611,
-      "lon": -119.59365427494049
-    },
-    "images": [
-      {
-        "url": "https://www.nps.gov/common/uploads/cropped_image/B238D549-9387-386B-CB15F4EB7941E69B.jpg",
-        "credit": "",
-        "altText": "Ranger and junior rangers during a program in the meadow looking at a log, Yosemite Falls in back.",
-        "title": "Cook's Meadow Loop Trailhead",
-        "description": "",
-        "caption": "Ranger program in Cook's Meadow",
-        "crops": [
-          {
-            "aspectRatio": "1.78",
-            "url": "https://www.nps.gov/common/uploads/cropped_image/primary/B238D549-9387-386B-CB15F4EB7941E69B.jpg"
-          },
-          {
-            "aspectRatio": "1.33",
-            "url": "https://www.nps.gov/common/uploads/cropped_image/secondary/B238D549-9387-386B-CB15F4EB7941E69B.jpg"
-          }
-        ]
-      }
-    ],
-    "nps_url": "https://www.nps.gov/places/000/cooks-meadow-loop-trailhead.htm",
-    "difficulty": "Easy",
-    "length_miles": 1.0,
-    "elevation_gain_ft": 0,
-    "route_type": "Loop",
-    "estimated_time_hours": "20-30 minutes",
-    "is_wheelchair_accessible": true,
-    "is_kid_friendly": true,
-    "last_enriched": "2025-12-28T14:18:03.880780",
-    "is_pet_friendly": false
-  },
-  {
-    "id": "8056CA99-0BF6-4104-ACEF-7ACE4F2D4CC3",
-    "name": "Elizabeth Lake Trailhead",
-    "description": "Enjoy the shimmering waters of Elizabeth Lake, in the heart of the Cathedral Range.The trail climbs steadily to a glacier-carved lake at the base of Unicorn Peak. The return hike follows the same route. Elizabeth Lake (moderately strenuous)4.8 miles (7.7 km) round-trip; 4-5 hours 1,000 ft (305 m) elevation gainFor hiking and trail information, please visit a Wilderness Center or Visitor Center. Hours :Accessible only while Tioga Road is open to vehicles, from late May or",
-    "location": {
-      "lat": 37.87060415679957,
-      "lon": -119.35580733363216
-    },
-    "images": [
-      {
-        "url": "https://www.nps.gov/common/uploads/cropped_image/74FFA2F0-F805-C05B-22820277762D597C.jpg",
-        "credit": "",
-        "altText": "Clear, shallow lake waters with boulders in the water and granite peaks above",
-        "title": "Elizabeth Lake",
-        "description": "",
-        "caption": "Elizabeth Lake",
-        "crops": [
-          {
-            "aspectRatio": "1.78",
-            "url": "https://www.nps.gov/common/uploads/cropped_image/primary/74FFA2F0-F805-C05B-22820277762D597C.jpg"
-          },
-          {
-            "aspectRatio": "1.33",
-            "url": "https://www.nps.gov/common/uploads/cropped_image/secondary/74FFA2F0-F805-C05B-22820277762D597C.jpg"
-          }
-        ]
-      }
-    ],
-    "nps_url": "https://www.nps.gov/places/000/elizabeth-lake-trailhead.htm",
-    "difficulty": "Strenuous",
-    "length_miles": 4.8,
-    "elevation_gain_ft": 1000,
-    "route_type": "Out & Back",
-    "estimated_time_hours": "4-6 hours",
-    "is_wheelchair_accessible": false,
-    "is_kid_friendly": false,
-    "last_enriched": "2025-12-28T14:18:10.773315",
-    "is_pet_friendly": false
-  },
-  {
-    "id": "48B7F32F-D66A-48C7-824E-B90B1C2B9893",
-    "name": "Four Mile Trailhead",
-    "description": "Awe-inspiring views of Yosemite Falls and Yosemite Valley await hikers on this trail to Glacier Point. The Four Mile Trail has no lack of views; El Capitan and the Cathedral Rocks tower to the west, while Yosemite Falls plummets in the north and Half Dome looms eastward. The Four Mile Trail ends at Glacier Point, where restrooms, parking, and a snack stand (summer only) may be available.",
-    "location": {
-      "lat": 37.733839496412,
-      "lon": -119.60180282592773
-    },
-    "images": [
-      {
-        "url": "https://www.nps.gov/common/uploads/cropped_image/126211E0-C1B3-7032-C61479EC9C5DB11A.jpg",
-        "credit": "",
-        "altText": "Towering cliffs frame a deep valley with vibrant grasses and a blue river on the valley floor",
-        "title": "Four Mile Trail",
-        "description": "",
-        "caption": "View of Sentinel Rock and El Capitan from Four Mile Trail",
-        "crops": [
-          {
-            "aspectRatio": "1.78",
-            "url": "https://www.nps.gov/common/uploads/cropped_image/primary/126211E0-C1B3-7032-C61479EC9C5DB11A.jpg"
-          },
-          {
-            "aspectRatio": "1.33",
-            "url": "https://www.nps.gov/common/uploads/cropped_image/secondary/126211E0-C1B3-7032-C61479EC9C5DB11A.jpg"
-          }
-        ]
-      }
-    ],
-    "nps_url": "https://www.nps.gov/places/000/four-mile-trailhead.htm",
-    "difficulty": "Strenuous",
-    "length_miles": 9.6,
-    "elevation_gain_ft": 3200,
-    "route_type": "Out & Back",
-    "estimated_time_hours": "6-8 hours",
-    "is_wheelchair_accessible": false,
-    "is_kid_friendly": false,
-    "last_enriched": "2025-12-28T14:18:15.460025",
-    "is_pet_friendly": false
-  },
-  {
-    "id": "8D6C9189-822E-4625-B05F-C96AF0DAC137",
-    "name": "Four Mile Trailhead at Glacier Point",
-    "description": "Awe-inspiring views of Yosemite Falls and Yosemite Valley await hikers on the descent down into Yosemite Valley. The Four Mile Trail follows a series of switchbacks down the south wall of Yosemite Valley. Although lacking shade during the heat of summer, this trail has no lack of views-El Capitan and the Cathedral Rocks tower to the west, while Yosemite Falls plummets in the north and Half Dome looms eastward. The trail ends about a mile west of Yosemite Village.",
-    "location": {
-      "lat": 37.728850403205605,
-      "lon": -119.57374205851384
-    },
-    "images": [
-      {
-        "url": "https://www.nps.gov/common/uploads/cropped_image/1EF2086F-B42B-BD6F-FA177BD564DD52ED.jpg",
-        "credit": "",
-        "altText": "Wooden trail sign at a fork of two trails.",
-        "title": "Four Mile Trail (from Glacier Point)",
-        "description": "",
-        "caption": "Four Mile Trail (from Glacier Point)",
-        "crops": [
-          {
-            "aspectRatio": "1.78",
-            "url": "https://www.nps.gov/common/uploads/cropped_image/primary/1EF2086F-B42B-BD6F-FA177BD564DD52ED.jpg"
-          },
-          {
-            "aspectRatio": "1.33",
-            "url": "https://www.nps.gov/common/uploads/cropped_image/secondary/1EF2086F-B42B-BD6F-FA177BD564DD52ED.jpg"
-          }
-        ]
-      }
-    ],
-    "nps_url": "https://www.nps.gov/places/000/four-mile-trailhead-glacier-point.htm",
-    "difficulty": "Strenuous",
-    "length_miles": 9.6,
-    "elevation_gain_ft": 3200,
-    "route_type": "Out & Back",
-    "estimated_time_hours": "6-8 hours",
-    "is_wheelchair_accessible": false,
-    "is_kid_friendly": false,
-    "last_enriched": "2025-12-28T14:18:19.357398",
-    "is_pet_friendly": false
-  },
-  {
-    "id": "626369C6-2AAB-4D9F-9554-C9DDBD140857",
-    "name": "Gaylor Lakes Trailhead",
-    "description": "Take in views of beautiful alpine lakes and lofty granite peaks on this picturesque day hike. This hike offers some of the most spectacular high-country views off of Tioga Road.",
-    "location": {
-      "lat": 37.91022487685183,
-      "lon": -119.25828446928347
-    },
-    "images": [
-      {
-        "url": "https://www.nps.gov/common/uploads/cropped_image/7E2CE18C-C14D-AF32-910856B39A3EC41A.jpg",
-        "credit": "",
-        "altText": "Two large lakes viewed from high above; peaks frame the lakes",
-        "title": "Gaylor Lakes",
-        "description": "",
-        "caption": "Gaylor Lakes basin",
-        "crops": [
-          {
-            "aspectRatio": "1.78",
-            "url": "https://www.nps.gov/common/uploads/cropped_image/primary/7E2CE18C-C14D-AF32-910856B39A3EC41A.jpg"
-          },
-          {
-            "aspectRatio": "1.33",
-            "url": "https://www.nps.gov/common/uploads/cropped_image/secondary/7E2CE18C-C14D-AF32-910856B39A3EC41A.jpg"
-          }
-        ]
-      }
-    ],
-    "nps_url": "https://www.nps.gov/places/000/gaylor-lakes-trailhead.htm",
-    "difficulty": "Moderate",
-    "length_miles": 2.6,
-    "elevation_gain_ft": 500,
-    "route_type": "Out & Back",
-    "estimated_time_hours": "2-3 hours",
-    "is_wheelchair_accessible": false,
-    "is_kid_friendly": false,
-    "last_enriched": "2025-12-28T14:18:25.225818",
-    "is_pet_friendly": false
-  },
-  {
-    "id": "99CA6738-45FF-40D3-A94A-31A854BDC40C",
-    "name": "Glacier Point Ski Hut",
-    "description": "View Yosemite Valley, Half Dome, and the Yosemite High Country from one of the most gorgeous and breathtaking sites in the Sierra Nevada region, from the Glacier Point Ski Hut.A 10.5-mile cross-country ski trip from Badger Pass Ski Area, on groomed terrain, will bring you to this rustic accommodation. Experienced cross-country skiers can do the entire round-trip in 4 to 5 hours, however, many guests like to explore Glacier Point longer and stay at Glacier Point Ski Hut overni",
-    "location": {
-      "lat": 37.728349,
-      "lon": -119.573522
-    },
-    "images": [
-      {
-        "url": "https://www.nps.gov/common/uploads/place/import/36406ac8-e003-49e6-862f-319eb8aa51b1_image_350.jpg",
-        "credit": "",
-        "altText": "Ski track in the snow lead toward a wooden building with stone accents. Tall pine trees rise behind the building and a snow covered mountainous landscape, featuring Half Dome, can be seen to the right.",
-        "title": "",
-        "description": "",
-        "caption": "Photo by Yosemite Hospitality",
-        "crops": []
-      }
-    ],
-    "nps_url": "https://www.nps.gov/places/000/glacier-point-ski-hut.htm",
-    "difficulty": "Easy",
-    "length_miles": 10.5,
-    "elevation_gain_ft": null,
-    "route_type": "Out & Back",
-    "estimated_time_hours": "4-5 hours",
-    "is_wheelchair_accessible": false,
-    "is_kid_friendly": false,
-    "last_enriched": "2025-12-28T14:18:41.482956",
-    "is_pet_friendly": false
-  },
-  {
-    "id": "CE7E3DB1-575F-45C5-9288-568FBFCEA90A",
-    "name": "Glen Aulin and Soda Springs Trailhead",
-    "description": "Hike through meadow and forest on this scenic trail that leads you to Glen Aulin and beyond. Soda Springs Soda Springs-carbonated, cold water bubbling out of the ground-is protected within a log enclosure. A side path leads to the nearby historic Parsons Memorial Lodge, which offers exhibits in the summer. (limited hours-see Yosemite Guide for schedule). Glen Aulin Follow the Tuolumne River as it drops to Glen Aulin. Tuolumne Fall and White Cascade are four miles from the",
-    "location": {
-      "lat": 37.87888946201375,
-      "lon": -119.35851084941233
-    },
-    "images": [
-      {
-        "url": "https://www.nps.gov/common/uploads/cropped_image/72F3052E-D1A8-EA51-62A9B0BCC0115B83.jpeg",
-        "credit": "NPS Photo / W. Tsai",
-        "altText": "A river cascades over a series of short drops on bare granite",
-        "title": "Tuolumne River on trail to Glen Aulin",
-        "description": "",
-        "caption": "Tuolumne River on the trail to Glen Aulin",
-        "crops": [
-          {
-            "aspectRatio": "1.78",
-            "url": "https://www.nps.gov/common/uploads/cropped_image/primary/72F3052E-D1A8-EA51-62A9B0BCC0115B83.jpeg"
-          },
-          {
-            "aspectRatio": "1.33",
-            "url": "https://www.nps.gov/common/uploads/cropped_image/secondary/72F3052E-D1A8-EA51-62A9B0BCC0115B83.jpeg"
-          }
-        ]
-      }
-    ],
-    "nps_url": "https://www.nps.gov/places/000/glen-aulin-trailhead.htm",
-    "difficulty": "Moderate",
-    "length_miles": 11.0,
-    "elevation_gain_ft": 800,
-    "route_type": "Out & Back",
-    "estimated_time_hours": "6-8 hours",
-    "is_wheelchair_accessible": false,
-    "is_kid_friendly": true,
-    "last_enriched": "2025-12-28T14:18:49.676845",
-    "is_pet_friendly": false
-  },
-  {
-    "id": "E52A17A0-4EFC-4401-979E-6090295BF2A6",
-    "name": "Grizzly Giant Trailhead (Accessible)",
-    "description": "This tour begins at the Grizzly Giant Accessible Parking area. Winding through a forest with many giant sequoias, this trail features the Grizzly Giant, the largest sequoia tree in the park, the California Tunnel Tree, and interpretive panels on the life and ecology of giant sequoias. This trail is relatively flat and is wheelchair accessible.<br /><br /><br /> <b>Grizzly Giant/California Tunnel Tree </b> (easy)<br />0.26 mile (0.42 km) round-trip; 30-45 minutes<br /><br /><br /> <b>Hours</b> :<br />From approximately December to March, the Mariposa Grove Road is closed to vehicles and the shuttle no longer operates. The road, along with all trails within the Grove, remain open to hikers, snowshoers, and skiers.<br /><br />See <a href=\"https://www.nps.gov/yose/planyourvisit/mg.htm\">website</a> for more information.<br /><br /> <b>Getting Here</b> :<br />Located near Yosemite National Park's South Entrance. Park at the Mariposa Grove Welcome Plaza and take the free shuttle to the Mariposa Grove, when operating. Private vehicles may only enter the Mariposa Grove when the road is open and the shuttle is not operating. Only vehicles displaying a disability placard are permitted to drive into the Grove at any time.<br /><br /> <b>Rules & Regulations</b> :<br />- Stay on established trails<br />- Pets are not allowed on hiking trails<br />- Bears and other wildlife can be present on trails at any time. Feeding or approaching wildlife is dangerous and illegal! Be sure to keep your food within arm's reach at all times, or store properly.<br />- Overnight camping is allowed in the Mariposa Grove from December 1 through April 15, if the Mariposa Grove Road is closed to cars. A wilderness permit is required to camp. Camping is only allowed above the Clothespin Tree.<br />- In the winter, water is only available at the welcome plaza and pit toilets are available in the Mariposa Grove at the arrival area, near the Grizzly Giant, and near the Mariposa Grove Cabin.<br /><br /> <b>Accessibility</b> :<br />Vehicles displaying a disability placard can drive to the Mariposa Grove Arrival Area or Grizzly Giant Accessible Parking, where designated accessible parking spaces are available.",
-    "location": {
-      "lat": 37.502182,
-      "lon": -119.602412
-    },
-    "images": [
-      {
-        "url": "https://www.nps.gov/common/uploads/place/import/d176b13b-6c48-4793-aa97-fdad05586d41_image_350.jpg",
-        "credit": "",
-        "altText": "People walk on a dirt path to a distinct tree that is much larger than surrounding trees.",
-        "title": "",
-        "description": "",
-        "caption": "",
-        "crops": []
-      }
-    ],
-    "nps_url": "https://www.nps.gov/places/000/grizzly-giant-trailhead-accessible.htm",
-    "difficulty": "Easy",
-    "length_miles": 0.26,
-    "elevation_gain_ft": null,
-    "route_type": "Loop",
-    "estimated_time_hours": "30-45 minutes",
-    "is_wheelchair_accessible": true,
-    "is_kid_friendly": true,
-    "last_enriched": "2025-12-28T14:18:57.498661",
-    "is_pet_friendly": false
-  },
-  {
-    "id": "FA7CE3DB-209D-423B-8257-E0D0F15432AB",
-    "name": "Harden Lake Trailhead",
-    "description": "Admire the views as you hike through a pine forest and pass by small granite domes before reaching boulder-dotted Harden Lake. Hike along a gravel road-part of the original Tioga Road-that follows the Middle Fork of the Tuolumne River for part of the route. At a trail junction 1.75 miles (2.8 km) down the road, follow the signs to the lake. Harden Lake (Moderate)5.8 miles (9.3 km) round trip; 2-4 hours,355-foot (122-m) elevation gain on thereturn trip. Hours :Accessible on",
-    "location": {
-      "lat": 37.872753,
-      "lon": -119.649353
-    },
-    "images": [
-      {
-        "url": "https://www.nps.gov/common/uploads/cropped_image/DEF5FB23-EF5C-1B51-097400BE7E00724D.jpg",
-        "credit": "",
-        "altText": "A forested lake dotted surrounded by grasses, downed trees, and boulders",
-        "title": "Harden Lake",
-        "description": "",
-        "caption": "Harden Lake",
-        "crops": [
-          {
-            "aspectRatio": "1.78",
-            "url": "https://www.nps.gov/common/uploads/cropped_image/primary/DEF5FB23-EF5C-1B51-097400BE7E00724D.jpg"
-          },
-          {
-            "aspectRatio": "1.33",
-            "url": "https://www.nps.gov/common/uploads/cropped_image/secondary/DEF5FB23-EF5C-1B51-097400BE7E00724D.jpg"
-          }
-        ]
-      }
-    ],
-    "nps_url": "https://www.nps.gov/places/000/harden-lake-trailhead.htm",
-    "difficulty": "Moderate",
-    "length_miles": 5.8,
-    "elevation_gain_ft": 390,
-    "route_type": "Out & Back",
-    "estimated_time_hours": "2-4 hours",
-    "is_wheelchair_accessible": false,
-    "is_kid_friendly": false,
-    "last_enriched": "2025-12-28T14:19:02.437845",
-    "is_pet_friendly": false
-  },
-  {
-    "id": "6C7AEA3E-6453-494D-B207-FBB6B932A331",
-    "name": "Hetch Hetchy Trailhead",
-    "description": "Get a bird's-eye view of the Hetch Hetchy area from one of two popular hiking destinations, Lookout Point or Smith Peak. Hetch Hetchy's relatively low elevation provides for one of the longest hiking seasons in Yosemite, and the varied trails include something for everyone.",
-    "location": {
-      "lat": 37.9464966029,
-      "lon": -119.787515194
-    },
-    "images": [
-      {
-        "url": "https://www.nps.gov/common/uploads/cropped_image/EC4C2CBA-B1AB-2786-F565333E951084AD.jpg",
-        "credit": "",
-        "altText": "Wooden trailhead sign with mileages on it",
-        "title": "Hetch Hetchy Trailhead",
-        "description": "",
-        "caption": "Hetch Hetchy Trailhead",
-        "crops": [
-          {
-            "aspectRatio": "1.78",
-            "url": "https://www.nps.gov/common/uploads/cropped_image/primary/EC4C2CBA-B1AB-2786-F565333E951084AD.jpg"
-          },
-          {
-            "aspectRatio": "1.33",
-            "url": "https://www.nps.gov/common/uploads/cropped_image/secondary/EC4C2CBA-B1AB-2786-F565333E951084AD.jpg"
-          }
-        ]
-      }
-    ],
-    "nps_url": "https://www.nps.gov/places/000/hetch-hetchy-trailhead.htm",
-    "difficulty": "Moderate",
-    "length_miles": 2.0,
-    "elevation_gain_ft": 680,
-    "route_type": "Out & Back",
-    "estimated_time_hours": "1 hour",
-    "is_wheelchair_accessible": false,
-    "is_kid_friendly": false,
-    "last_enriched": "2025-12-28T14:19:18.737283",
-    "is_pet_friendly": false
-  },
-  {
-    "id": "8599E14E-63F6-4666-BF62-B4A9AE0B258C",
-    "name": "Lembert Dome and Dog Lake Trailhead",
-    "description": "Beginning from Dog Lake parking, the trail climbs through the forest to Dog Lake, then take a spur to the summit of Lembert Dome. There is no marked trail on the bare rock on\u00a0Lembert Dome; choose the easiest path to the summit\u00a0for panoramic views of Tuolumne Meadows and the surrounding peaks.",
-    "location": {
-      "lat": 37.87840698623992,
-      "lon": -119.33898560648757
-    },
-    "images": [
-      {
-        "url": "https://www.nps.gov/common/uploads/cropped_image/46EEAE94-BBA5-FBD3-763896AC80D9FDFE.jpg",
-        "credit": "",
-        "altText": "Bare rock in the foreground with snowy peaks and partly cloudy skies towering behind",
-        "title": "Lembert Dome",
-        "description": "",
-        "caption": "The summit of Lembert Dome in late fall looking toward the Cathedral Range",
-        "crops": [
-          {
-            "aspectRatio": "1.78",
-            "url": "https://www.nps.gov/common/uploads/cropped_image/primary/46EEAE94-BBA5-FBD3-763896AC80D9FDFE.jpg"
-          },
-          {
-            "aspectRatio": "1.33",
-            "url": "https://www.nps.gov/common/uploads/cropped_image/secondary/46EEAE94-BBA5-FBD3-763896AC80D9FDFE.jpg"
-          }
-        ]
-      }
-    ],
-    "nps_url": "https://www.nps.gov/places/000/lembert-dome-and-dog-lake-trailhead.htm",
-    "difficulty": "Moderate",
-    "length_miles": 3.8,
-    "elevation_gain_ft": 850,
-    "route_type": "Out & Back",
-    "estimated_time_hours": "3-4 hours",
-    "is_wheelchair_accessible": false,
-    "is_kid_friendly": false,
-    "last_enriched": "2025-12-28T14:19:31.283313",
-    "is_pet_friendly": false
-  },
-  {
-    "id": "C4FAE927-EBD3-49D4-AF45-ADF8233B2E52",
-    "name": "Lower Yosemite Fall Tour - Many Faces of Yosemite Falls",
-    "description": "James Hutchings<br />After bringing the first tourists to Yosemite Valley, James Mason Hutchings established Hutchings House in 1864. Using the boardinghouse know-how of his mother-in-law, he and his wife launched a career as Yosemite inn-keepers. Hutchings was a gracious host, whose charm made up for the lack of amenities in his hotel.",
-    "location": {
-      "lat": 37.746197,
-      "lon": -119.593107
-    },
-    "images": [
-      {
-        "url": "https://www.nps.gov/common/uploads/cropped_image/CC631657-A12C-A799-2554E5E84D32FCA5.jpg",
-        "credit": "",
-        "altText": "A wayside exhibit with a bronze tactile quarter panel",
-        "title": "Many Faces of Yosemite Falls",
-        "description": "",
-        "caption": "Many Faces of Yosemite Falls",
-        "crops": [
-          {
-            "aspectRatio": "1.78",
-            "url": "https://www.nps.gov/common/uploads/cropped_image/primary/CC631657-A12C-A799-2554E5E84D32FCA5.jpg"
-          },
-          {
-            "aspectRatio": "1.33",
-            "url": "https://www.nps.gov/common/uploads/cropped_image/secondary/CC631657-A12C-A799-2554E5E84D32FCA5.jpg"
-          }
-        ]
-      }
-    ],
-    "nps_url": "https://www.nps.gov/places/000/lower-yosemite-fall-tour-james-hutchings-stop-8.htm",
-    "difficulty": "Strenuous",
-    "length_miles": 7.2,
-    "elevation_gain_ft": 2700,
-    "route_type": "Out & Back",
-    "estimated_time_hours": null,
-    "is_wheelchair_accessible": false,
-    "is_kid_friendly": false,
-    "last_enriched": "2025-12-28T14:19:38.780102",
-    "popularity_rank": 5,
-    "alltrails_url": "https://www.alltrails.com/trail/us/california/lower-yosemite-falls-trail",
-    "alltrails_rating": 4.7,
-    "alltrails_review_count": 19011,
-    "is_pet_friendly": false
-  },
-  {
-    "id": "B1B4A158-95CE-4526-AE28-5916D7AF7547",
-    "name": "Lower Yosemite Fall Trailhead",
-    "description": "Witness the strength of this mighty waterfall by site, sound, and the feel of its mist, when you stand at its base in spring and early summer when the waterfall peaks in volume. The falls are often only a trickle or completely dry by August.",
-    "location": {
-      "lat": 37.746364,
-      "lon": -119.596268
-    },
-    "images": [
-      {
-        "url": "https://www.nps.gov/common/uploads/cropped_image/B142F689-E954-B67A-F7FA7AEB24D9A68D.jpg",
-        "credit": "",
-        "altText": "Visitors viewing Yosemite Falls from the trailhead with a full waterfall in the background.",
-        "title": "Lower Yosemite Fall Trailhead",
-        "description": "",
-        "caption": "View of Yosemite Falls from the Lower Yosemite Fall Trailhead",
-        "crops": [
-          {
-            "aspectRatio": "1.78",
-            "url": "https://www.nps.gov/common/uploads/cropped_image/primary/B142F689-E954-B67A-F7FA7AEB24D9A68D.jpg"
-          },
-          {
-            "aspectRatio": "1.33",
-            "url": "https://www.nps.gov/common/uploads/cropped_image/secondary/B142F689-E954-B67A-F7FA7AEB24D9A68D.jpg"
-          }
-        ]
-      }
-    ],
-    "nps_url": "https://www.nps.gov/places/000/lower-yosemite-fall-trailhead.htm",
-    "difficulty": "Easy",
-    "length_miles": 1.0,
-    "elevation_gain_ft": 50,
-    "route_type": "Loop",
-    "estimated_time_hours": "30 minutes",
-    "is_wheelchair_accessible": true,
-    "is_kid_friendly": true,
-    "last_enriched": "2025-12-28T14:19:42.232749",
-    "popularity_rank": 5,
-    "alltrails_url": "https://www.alltrails.com/trail/us/california/lower-yosemite-falls-trail",
-    "alltrails_rating": 4.7,
-    "alltrails_review_count": 19011,
-    "is_pet_friendly": false
-  },
-  {
-    "id": "C3FEC70B-B87E-4F5D-8ECA-60E1B80324B0",
-    "name": "Lukens Lake Trailhead from Tioga Road",
-    "description": "Enjoy fishing, swimming, or viewing the wildflower display that often wraps around the lake in the summer. This short trail winds through a mixed conifer forest, then over a saddle and down to a small mountain lake surrounded by a meadow. Shooting stars and dozens of other species of wildflowers abound, often through July. Please stay on designated trails to protect the meadow, even if the trail is wet or muddy.",
-    "location": {
-      "lat": 37.85052061845609,
-      "lon": -119.6152102665258
-    },
-    "images": [
-      {
-        "url": "https://www.nps.gov/common/uploads/cropped_image/E2E3BBE3-F36C-4751-3409B1BD4DB06203.jpg",
-        "credit": "",
-        "altText": "A meadow blanketed in grasses and pink wildflowers surrounded by trees",
-        "title": "Lukens Lake",
-        "description": "",
-        "caption": "Meadow of wildflowers at Lukens Lake",
-        "crops": [
-          {
-            "aspectRatio": "1.78",
-            "url": "https://www.nps.gov/common/uploads/cropped_image/primary/E2E3BBE3-F36C-4751-3409B1BD4DB06203.jpg"
-          },
-          {
-            "aspectRatio": "1.33",
-            "url": "https://www.nps.gov/common/uploads/cropped_image/secondary/E2E3BBE3-F36C-4751-3409B1BD4DB06203.jpg"
-          }
-        ]
-      }
-    ],
-    "nps_url": "https://www.nps.gov/places/000/lukens-lake-trailhead-from-tioga-road.htm",
-    "difficulty": "Easy",
-    "length_miles": 1.6,
-    "elevation_gain_ft": 200,
-    "route_type": "Out & Back",
-    "estimated_time_hours": "1-2 hours",
-    "is_wheelchair_accessible": false,
-    "is_kid_friendly": true,
-    "last_enriched": "2025-12-28T14:19:46.496175",
-    "is_pet_friendly": false
-  },
-  {
-    "id": "0A487FCB-66F1-4609-B1F1-E407D0757072",
-    "name": "Lukens Lake Trailhead from White Wolf",
-    "description": "Enjoy this small mountain lake surround by a meadow full of shooting stars and dozens of other species of wildflowers in the summer. Follow the trail through a mixed conifer forest to Lukens Lake. The trail crosses the Middle Fork of the Tuolumne River and is wet and muddy until early August. Lukens Lake from White Wolf (Moderate)4.6 miles (7.4 km) round trip; 2-3 hours,400-foot (122-m) elevation gain. Hours :Accessible only while Tioga Road is open to vehicles, from late",
-    "location": {
-      "lat": 37.86976751986529,
-      "lon": -119.64882037175838
-    },
-    "images": [
-      {
-        "url": "https://www.nps.gov/common/uploads/cropped_image/E31A702A-0561-9953-C2254618A80FE87B.jpg",
-        "credit": "",
-        "altText": "A blue lake surrounded by conifer forest",
-        "title": "Lukens Lake",
-        "description": "",
-        "caption": "Lukens Lake",
-        "crops": [
-          {
-            "aspectRatio": "1.78",
-            "url": "https://www.nps.gov/common/uploads/cropped_image/primary/E31A702A-0561-9953-C2254618A80FE87B.jpg"
-          },
-          {
-            "aspectRatio": "1.33",
-            "url": "https://www.nps.gov/common/uploads/cropped_image/secondary/E31A702A-0561-9953-C2254618A80FE87B.jpg"
-          }
-        ]
-      }
-    ],
-    "nps_url": "https://www.nps.gov/places/000/lukens-lake-trailhead-from-white-wolf.htm",
-    "difficulty": "Moderate",
-    "length_miles": 4.6,
-    "elevation_gain_ft": 400,
-    "route_type": "Out & Back",
-    "estimated_time_hours": "2-3 hours",
-    "is_wheelchair_accessible": false,
-    "is_kid_friendly": false,
-    "last_enriched": "2025-12-28T14:19:51.024938",
-    "is_pet_friendly": false
-  },
-  {
-    "id": "B06EE003-6117-4C71-9042-5773C2664447",
-    "name": "Lyell Canyon Trailhead",
-    "description": "Let the overwhelming views of Tuolumne Meadows' peaks and meadows compete for your attention as you venture into Lyell Canyon via the John Muir Trail. Begin across the road from Dog Lake parking area. This trail passes through Lyell Canyon, along the Lyell Fork of the Tuolumne River. Early in the season, the trail can be muddy in places. There are several creek crossings, including Rafferty Creek (bridged) and Ireland Creek (unbridged). Spectacular Kuna Creek cascades down th",
-    "location": {
-      "lat": 37.877585,
-      "lon": -119.33862
-    },
-    "images": [
-      {
-        "url": "https://www.nps.gov/common/uploads/cropped_image/B3385C20-C01C-54FA-3ADF87E818C3866D.jpg",
-        "credit": "",
-        "altText": "A trail carves through an open, grassy meadow with rolling mountain peaks",
-        "title": "Lyell Canyon",
-        "description": "",
-        "caption": "Lyell Canyon from the John Muir Trail in late summer",
-        "crops": [
-          {
-            "aspectRatio": "1.78",
-            "url": "https://www.nps.gov/common/uploads/cropped_image/primary/B3385C20-C01C-54FA-3ADF87E818C3866D.jpg"
-          },
-          {
-            "aspectRatio": "1.33",
-            "url": "https://www.nps.gov/common/uploads/cropped_image/secondary/B3385C20-C01C-54FA-3ADF87E818C3866D.jpg"
-          }
-        ]
-      }
-    ],
-    "nps_url": "https://www.nps.gov/places/000/lyell-canyon-trailhead.htm",
-    "difficulty": "Easy",
-    "length_miles": 3.0,
-    "elevation_gain_ft": 0,
-    "route_type": "Out & Back",
-    "estimated_time_hours": "1-2 hours",
-    "is_wheelchair_accessible": false,
-    "is_kid_friendly": true,
-    "last_enriched": "2025-12-28T14:19:55.399034",
-    "is_pet_friendly": false
-  },
-  {
-    "id": "D0C1B0C5-D944-46CC-B67B-AE327A230AEB",
-    "name": "Mariposa Grove Arrival Area and Trailhead",
-    "description": "Explore and experience the wonder of being surrounded by some of the rarest and most remarkable living things on the planet in the Mariposa Grove of Giant Sequoias. Marvel at the towering giant sequoias in the Mariposa Grove Arrival Area, as you prepare to embark on your grand adventure into the grove. All trails begin here at the Mariposa Grove Arrival Area.",
-    "location": {
-      "lat": 37.50159458004759,
-      "lon": -119.61087028530096
-    },
-    "images": [
-      {
-        "url": "https://www.nps.gov/common/uploads/cropped_image/913D1E84-CE0E-6383-E530D9DC5910796E.jpg",
-        "credit": "",
-        "altText": "Wide flat accessible trail with place name sign and people walking on fence lined trail",
-        "title": "Mariposa Grove Arrival Area",
-        "description": "",
-        "caption": "Mariposa Grove Arrival Area",
-        "crops": [
-          {
-            "aspectRatio": "1.78",
-            "url": "https://www.nps.gov/common/uploads/cropped_image/primary/913D1E84-CE0E-6383-E530D9DC5910796E.jpg"
-          },
-          {
-            "aspectRatio": "1.33",
-            "url": "https://www.nps.gov/common/uploads/cropped_image/secondary/913D1E84-CE0E-6383-E530D9DC5910796E.jpg"
-          }
-        ]
-      }
-    ],
-    "nps_url": "https://www.nps.gov/places/000/mariposa-grove-arrival-area-trailhead.htm",
-    "difficulty": "Strenuous",
-    "length_miles": 7.75,
-    "elevation_gain_ft": 1200,
-    "route_type": "Loop",
-    "estimated_time_hours": "1-6 hours",
-    "is_wheelchair_accessible": true,
-    "is_kid_friendly": true,
-    "last_enriched": "2025-12-28T14:20:08.340698",
-    "is_pet_friendly": false
-  },
-  {
-    "id": "E97A321F-3926-47A0-8D17-DDB1E01C21D7",
-    "name": "May Lake Trailhead",
-    "description": "Spend a day, or a night, at this stunning alpine lake that reflects a picturesque view of Mt. Hoffmann. A short trail leads through a conifer forest and across granite slabs to reach May Lake. Enjoy views of Half Dome and surrounding mountains on the way.If the dirt road is closed, the trailhead will require an additional 2 mile hike uproad, one way. May Lake (moderate)2.4 mi (3.9 km) round-trip; 1-2 hours 485 ft (150 m) elevation gainFor hiking and trail information, plea",
-    "location": {
-      "lat": 37.832706056440536,
-      "lon": -119.49115354472815
-    },
-    "images": [
-      {
-        "url": "https://www.nps.gov/common/uploads/cropped_image/493191B1-C42C-B7AB-1732815631869622.jpeg",
-        "credit": "",
-        "altText": "A blue alpine lake below a granite peak",
-        "title": "May Lake",
-        "description": "",
-        "caption": "May Lake",
-        "crops": [
-          {
-            "aspectRatio": "1.78",
-            "url": "https://www.nps.gov/common/uploads/cropped_image/primary/493191B1-C42C-B7AB-1732815631869622.jpeg"
-          },
-          {
-            "aspectRatio": "1.33",
-            "url": "https://www.nps.gov/common/uploads/cropped_image/secondary/493191B1-C42C-B7AB-1732815631869622.jpeg"
-          }
-        ]
-      }
-    ],
-    "nps_url": "https://www.nps.gov/places/000/may-lake-trailhead.htm",
-    "difficulty": "Moderate",
-    "length_miles": 2.4,
-    "elevation_gain_ft": 485,
-    "route_type": "Out & Back",
-    "estimated_time_hours": "1-2 hours",
-    "is_wheelchair_accessible": false,
-    "is_kid_friendly": false,
-    "last_enriched": "2025-12-28T14:20:16.160625",
-    "is_pet_friendly": false
-  },
-  {
-    "id": "B4CDC757-7247-4E76-B789-C2F7D4D3907E",
-    "name": "McGurk Meadow Trailhead",
-    "description": "Traipse through a meadow of wildflowers (while staying on the trail, of course), and embrace the cool sub-alpine air this remarkable hike has to offer. The trail leads downhill to McGurk Meadow and the site of an old cabin that belonged to sheepherder John McGurk. During early summer, look for a tremendous show of wildflowers.",
-    "location": {
-      "lat": 37.67044655889399,
-      "lon": -119.62812123197989
-    },
-    "images": [
-      {
-        "url": "https://www.nps.gov/common/uploads/cropped_image/2D31531A-978F-C4A6-FF6165828DCA7BA4.jpg",
-        "credit": "",
-        "altText": "Green grassy meadow with blue skies and trees",
-        "title": "McGurk Meadow",
-        "description": "",
-        "caption": "McGurk Meadow",
-        "crops": [
-          {
-            "aspectRatio": "1.78",
-            "url": "https://www.nps.gov/common/uploads/cropped_image/primary/2D31531A-978F-C4A6-FF6165828DCA7BA4.jpg"
-          },
-          {
-            "aspectRatio": "1.33",
-            "url": "https://www.nps.gov/common/uploads/cropped_image/secondary/2D31531A-978F-C4A6-FF6165828DCA7BA4.jpg"
-          }
-        ]
-      }
-    ],
-    "nps_url": "https://www.nps.gov/places/000/mcgurk-meadow-trailhead.htm",
-    "difficulty": "Easy",
-    "length_miles": 1.6,
-    "elevation_gain_ft": 150,
-    "route_type": "Out & Back",
-    "estimated_time_hours": "1-1.5 hours",
-    "is_wheelchair_accessible": false,
-    "is_kid_friendly": true,
-    "last_enriched": "2025-12-28T14:20:23.641830",
-    "is_pet_friendly": false
-  },
-  {
-    "id": "4CB7B15C-61E4-4647-9884-44496FAAF8CC",
-    "name": "Merced Grove",
-    "description": "Visit Yosemite's quietest stand of giant sequoias at the Merced Grove.The Merced Grove is home to approximately 20 mature giant sequoias, accessible only on foot. This trail follows an old road that curves down into the Merced Grove, the smallest and most secluded of Yosemite's three sequoia groves. The trail drops down 1.5 miles, making this a moderate hike on the uphill portion.",
-    "location": {
-      "lat": 37.750904621880125,
-      "lon": -119.84018194867718
-    },
-    "images": [
-      {
-        "url": "https://www.nps.gov/common/uploads/cropped_image/7471F864-A4A2-9B4C-0800A41B61018CBB.jpg",
-        "credit": "",
-        "altText": "Six giant sequoias behind a wood barrier fence clustered together in a forested area",
-        "title": "Merced Grove",
-        "description": "",
-        "caption": "Giant sequoias in the Merced Grove",
-        "crops": [
-          {
-            "aspectRatio": "1.78",
-            "url": "https://www.nps.gov/common/uploads/cropped_image/primary/7471F864-A4A2-9B4C-0800A41B61018CBB.jpg"
-          },
-          {
-            "aspectRatio": "1.33",
-            "url": "https://www.nps.gov/common/uploads/cropped_image/secondary/7471F864-A4A2-9B4C-0800A41B61018CBB.jpg"
-          }
-        ]
-      }
-    ],
-    "nps_url": "https://www.nps.gov/places/000/merced-grove.htm",
-    "difficulty": "Moderate",
-    "length_miles": 3.0,
-    "elevation_gain_ft": 520,
-    "route_type": "Out & Back",
-    "estimated_time_hours": "1.5-3 hours",
-    "is_wheelchair_accessible": false,
-    "is_kid_friendly": false,
-    "last_enriched": "2025-12-28T14:20:29.084373",
-    "is_pet_friendly": false
-  },
-  {
-    "id": "F72A0CDC-31C8-4027-8155-D2476FB85048",
-    "name": "Mirror Lake Trailhead",
-    "description": "With a fresh perspective looking up at Half Dome directly from its base, you'll be rewarded with views of Tenaya Canyon, Mount Watkins, Washington Column, and more. While pleasant at any time of year, Mirror Lake is fullest in spring and early summer. When water is calm, the lake offers beautiful reflections of surrounding cliffs. Mirror Lake is often referred to as Mirror Meadow in late summer due to the lack of water.",
-    "location": {
-      "lat": 37.73952335115878,
-      "lon": -119.5597805043518
-    },
-    "images": [
-      {
-        "url": "https://www.nps.gov/common/uploads/cropped_image/7C8DCFCE-A334-927B-E6F5F8EC6780DA45.jpg",
-        "credit": "",
-        "altText": "Signs and service road at Mirror Lake Trailhead",
-        "title": "Mirror Lake Trailhead",
-        "description": "",
-        "caption": "Mirror Lake Trailhead signage and service road to Mirror Lake",
-        "crops": [
-          {
-            "aspectRatio": "1.78",
-            "url": "https://www.nps.gov/common/uploads/cropped_image/primary/7C8DCFCE-A334-927B-E6F5F8EC6780DA45.jpg"
-          },
-          {
-            "aspectRatio": "1.33",
-            "url": "https://www.nps.gov/common/uploads/cropped_image/secondary/7C8DCFCE-A334-927B-E6F5F8EC6780DA45.jpg"
-          }
-        ]
-      }
-    ],
-    "nps_url": "https://www.nps.gov/places/000/mirror-lake-trailhead.htm",
-    "difficulty": "Easy",
-    "length_miles": 2.0,
-    "elevation_gain_ft": 100,
-    "route_type": "Loop",
-    "estimated_time_hours": "1-3 hours",
-    "is_wheelchair_accessible": true,
-    "is_kid_friendly": true,
-    "last_enriched": "2025-12-28T14:20:35.865442",
-    "popularity_rank": 8,
-    "alltrails_url": "https://www.alltrails.com/trail/us/california/mirror-lake-loop--2",
-    "alltrails_rating": 4.6,
-    "alltrails_review_count": 6439,
-    "is_pet_friendly": false
-  },
-  {
-    "id": "F818A5B1-A9F9-4C3A-BC57-FB960E40B4C7",
-    "name": "Mist and John Muir Trailhead",
-    "description": "Climb along nature's \"giant staircase,\" where you will be rewarded with close-up views of two waterfalls and numerous geologic features (depending on how far you choose to hike). Powerful and turbulent, these two waterfalls will soak you in spring and entice you year-round.",
-    "location": {
-      "lat": 37.73283137326278,
-      "lon": -119.55779032546741
-    },
-    "images": [
-      {
-        "url": "https://www.nps.gov/common/uploads/cropped_image/C1D76932-BA74-14E0-67E196C22B5660A0.jpg",
-        "credit": "",
-        "altText": "A full Vernal Fall with hikers along the rock steps of the Mist Trail",
-        "title": "Mist Trail and John Muir Trail Trailhead",
-        "description": "",
-        "caption": "Mist Trail leading to Vernal Fall",
-        "crops": [
-          {
-            "aspectRatio": "1.78",
-            "url": "https://www.nps.gov/common/uploads/cropped_image/primary/C1D76932-BA74-14E0-67E196C22B5660A0.jpg"
-          },
-          {
-            "aspectRatio": "1.33",
-            "url": "https://www.nps.gov/common/uploads/cropped_image/secondary/C1D76932-BA74-14E0-67E196C22B5660A0.jpg"
-          }
-        ]
-      }
-    ],
-    "nps_url": "https://www.nps.gov/places/000/mist-trail-and-john-muir-trail-trailhead.htm",
-    "difficulty": "Strenuous",
-    "length_miles": 5.0,
-    "elevation_gain_ft": 2000,
-    "route_type": "Loop",
-    "estimated_time_hours": "4-5 hours",
-    "is_wheelchair_accessible": false,
-    "is_kid_friendly": false,
-    "last_enriched": "2025-12-28T14:20:45.902449",
-    "popularity_rank": 6,
-    "alltrails_url": "https://www.alltrails.com/trail/us/california/vernal-falls-and-clark-point-via-mist-and-john-muir-loop",
-    "alltrails_rating": 4.8,
-    "alltrails_review_count": 9755,
-    "is_pet_friendly": false
-  },
-  {
-    "id": "0373584E-87EB-4986-A0AE-C69BF81C9043",
-    "name": "Mono Meadow Trailhead",
-    "description": "Enjoy magnificent views of the Clark Range, Mount Starr King, and Half Dome, from Mono Meadow. The trail descends steeply to Mono Meadow-an area that is very wet throughout the summer. Expect log crossings over creeks and lots of mud. Follow the trail from the east end of the meadow for a half mile (0.8 km) to an unmarked clearing. From here, the views will open up to the Clark Range and beyond.",
-    "location": {
-      "lat": 37.67145341798576,
-      "lon": -119.58477759228467
-    },
-    "images": [
-      {
-        "url": "https://www.nps.gov/common/uploads/cropped_image/2CF6F8BD-B97A-8E1D-FACBADE09A4FB557.jpg",
-        "credit": "",
-        "altText": "Trail sign in a wooded area",
-        "title": "Mono Meadow Trailhead",
-        "description": "",
-        "caption": "Mono Meadow Trailhead",
-        "crops": [
-          {
-            "aspectRatio": "1.78",
-            "url": "https://www.nps.gov/common/uploads/cropped_image/primary/2CF6F8BD-B97A-8E1D-FACBADE09A4FB557.jpg"
-          },
-          {
-            "aspectRatio": "1.33",
-            "url": "https://www.nps.gov/common/uploads/cropped_image/secondary/2CF6F8BD-B97A-8E1D-FACBADE09A4FB557.jpg"
-          }
-        ]
-      }
-    ],
-    "nps_url": "https://www.nps.gov/places/000/mono-meadow-trailhead.htm",
-    "difficulty": "Moderate",
-    "length_miles": 3.0,
-    "elevation_gain_ft": 900,
-    "route_type": "Out & Back",
-    "estimated_time_hours": "2-3 hours",
-    "is_wheelchair_accessible": false,
-    "is_kid_friendly": false,
-    "last_enriched": "2025-12-28T14:20:53.567773",
-    "is_pet_friendly": false
-  },
-  {
-    "id": "6C2131D7-1F46-4D0B-99EA-C53357BAFFBA",
-    "name": "Mono Pass Trailhead",
-    "description": "Follow the path of Yosemite's first people, over their trade route to the east. This historic, trans-Sierra trail climbs gently at first from the Mono Pass parking area, through wet meadows and rushing creeks. At the Spillway Lake junction, the trail climbs steadily and more steeply to Mono Pass (elevation 10,600 feet). Don't miss the spectacular view of Mono Lake and Bloody Canyon.",
-    "location": {
-      "lat": 37.89091035100891,
-      "lon": -119.26269570487662
-    },
-    "images": [
-      {
-        "url": "https://www.nps.gov/common/uploads/cropped_image/0D4F9E70-EE5B-84F0-31890E1B7787C69D.jpeg",
-        "credit": "NPS Photo / S. Nobles",
-        "altText": "An alpine lake in a meadow surrounded by cured, golden vegetation",
-        "title": "Mono Pass trail",
-        "description": "",
-        "caption": "View from Mono Pass in early fall",
-        "crops": [
-          {
-            "aspectRatio": "1.78",
-            "url": "https://www.nps.gov/common/uploads/cropped_image/primary/0D4F9E70-EE5B-84F0-31890E1B7787C69D.jpeg"
-          },
-          {
-            "aspectRatio": "1.33",
-            "url": "https://www.nps.gov/common/uploads/cropped_image/secondary/0D4F9E70-EE5B-84F0-31890E1B7787C69D.jpeg"
-          }
-        ]
-      }
-    ],
-    "nps_url": "https://www.nps.gov/places/000/mono-pass-trailhead.htm",
-    "difficulty": "Moderate",
-    "length_miles": 8.0,
-    "elevation_gain_ft": 1000,
-    "route_type": "Out & Back",
-    "estimated_time_hours": "5-7 hours",
-    "is_wheelchair_accessible": false,
-    "is_kid_friendly": false,
-    "last_enriched": "2025-12-28T14:20:58.896041",
-    "is_pet_friendly": false
-  },
-  {
-    "id": "0EA6B210-FF01-4A6D-9AB7-6CF5C94D18C9",
-    "name": "Olmsted Point",
-    "description": "Visit the vista famous for its picture postcard views of Half Dome, Tenaya Lake and Clouds Rest. Olmsted Point looks down on Yosemite Valley from the east - and from a very different angle. Though you might not immediately recognize Half Dome, it is one of the most prominent peaks you can see from Olmsted Point. Olmsted Point was named after famed landscape architects, Frederick Law Olmsted (best known for his design of New York's Central Park) and his son Frederick, Jr.",
-    "location": {
-      "lat": 37.810666501131024,
-      "lon": -119.48555089243825
-    },
-    "images": [
-      {
-        "url": "https://www.nps.gov/common/uploads/cropped_image/744AB63F-0147-CE6F-C292656038C9591D.jpg",
-        "credit": "",
-        "altText": "Bronze tactile model of the area with the same area shown behind the model at sunset",
-        "title": "Olmsted Point tactile model",
-        "description": "",
-        "caption": "Olmsted Point tactile model and scenic vista at sunset",
-        "crops": [
-          {
-            "aspectRatio": "1.78",
-            "url": "https://www.nps.gov/common/uploads/cropped_image/primary/744AB63F-0147-CE6F-C292656038C9591D.jpg"
-          },
-          {
-            "aspectRatio": "1.33",
-            "url": "https://www.nps.gov/common/uploads/cropped_image/secondary/744AB63F-0147-CE6F-C292656038C9591D.jpg"
-          }
-        ]
-      }
-    ],
-    "nps_url": "https://www.nps.gov/places/000/olmsted-point.htm",
-    "difficulty": "Easy",
-    "length_miles": 0.5,
-    "elevation_gain_ft": null,
-    "route_type": "Out & Back",
-    "estimated_time_hours": null,
-    "is_wheelchair_accessible": true,
-    "is_kid_friendly": true,
-    "last_enriched": "2025-12-28T14:21:04.872014",
-    "is_pet_friendly": false
-  },
-  {
-    "id": "740078DA-7B9E-4E3E-AFE4-4448733C56BC",
-    "name": "Ostrander Lake Trailhead",
-    "description": "Retreat to nature and encounter the beauty and radiance of this glimmering lake.The first half of this hike gently inclines through forest and meadow where you can observe severe scars and regrowth from a 1987 lodgepole pine forest fire. A steep 1,500 foot (450 m) elevation gain opens up to views of granite domes, Mt. Starr King, and the Clark Range just prior to arriving at Ostrander Lake.",
-    "location": {
-      "lat": 37.66673877593418,
-      "lon": -119.6036087833462
-    },
-    "images": [
-      {
-        "url": "https://www.nps.gov/common/uploads/cropped_image/2CC11A53-9FD2-7B23-993D5920EF087764.jpg",
-        "credit": "",
-        "altText": "Lake with granite peaks around it.",
-        "title": "Ostrander Lake",
-        "description": "",
-        "caption": "Ostrander Lake",
-        "crops": [
-          {
-            "aspectRatio": "1.78",
-            "url": "https://www.nps.gov/common/uploads/cropped_image/primary/2CC11A53-9FD2-7B23-993D5920EF087764.jpg"
-          },
-          {
-            "aspectRatio": "1.33",
-            "url": "https://www.nps.gov/common/uploads/cropped_image/secondary/2CC11A53-9FD2-7B23-993D5920EF087764.jpg"
-          }
-        ]
-      }
-    ],
-    "nps_url": "https://www.nps.gov/places/000/ostrander-lake-trailhead.htm",
-    "difficulty": "Strenuous",
-    "length_miles": 12.0,
-    "elevation_gain_ft": 1500,
-    "route_type": "Out & Back",
-    "estimated_time_hours": "8-10 hours",
-    "is_wheelchair_accessible": false,
-    "is_kid_friendly": false,
-    "last_enriched": "2025-12-28T14:21:10.771384",
-    "is_pet_friendly": false
-  },
-  {
-    "id": "F98B5924-367F-4EB0-A7B5-11F9A051D979",
-    "name": "Panorama and Pohono Trailheads",
-    "description": "Some of Yosemite's most iconic natural features can be seen and experienced along these trails. Panorama Trail: This longer route to Yosemite Valley brings hikers past Illilouette, Nevada, and Vernal Falls. Combining this trail with the Four Mile Trail will make for a long, strenuous loop! Pohono Trail: This trail rewards hikers with several viewpoints of Yosemite Valley from the south rim. East to west, these views include Taft Point, Dewey Point, Crocker Point, and others.",
-    "location": {
-      "lat": 37.72770948292103,
-      "lon": -119.57349145010913
-    },
-    "images": [
-      {
-        "url": "https://www.nps.gov/common/uploads/cropped_image/B8D9B455-F890-40E2-4CB08DE9BCE21F47.jpg",
-        "credit": "",
-        "altText": "Wooden and metal signs at the trailhead",
-        "title": "Panorama and Pohono Trailheads",
-        "description": "",
-        "caption": "Panorama and Pohono Trailheads",
-        "crops": [
-          {
-            "aspectRatio": "1.78",
-            "url": "https://www.nps.gov/common/uploads/cropped_image/primary/B8D9B455-F890-40E2-4CB08DE9BCE21F47.jpg"
-          },
-          {
-            "aspectRatio": "1.33",
-            "url": "https://www.nps.gov/common/uploads/cropped_image/secondary/B8D9B455-F890-40E2-4CB08DE9BCE21F47.jpg"
-          }
-        ]
-      }
-    ],
-    "nps_url": "https://www.nps.gov/places/000/panorama-and-pohono-trailheads.htm",
-    "difficulty": "Strenuous",
-    "length_miles": null,
-    "elevation_gain_ft": null,
-    "route_type": "Loop",
-    "estimated_time_hours": null,
-    "is_wheelchair_accessible": false,
-    "is_kid_friendly": false,
-    "last_enriched": "2025-12-28T14:21:16.387149",
-    "is_pet_friendly": false
-  },
-  {
-    "id": "6170802B-AB0A-4D69-8647-AA1D5867D303",
-    "name": "Parsons Memorial Lodge",
-    "description": "Constructed in 1915, the Sierra Club commissioned the Parsons Memorial Lodge to serve as an early gathering place for the organization and a base from which club members could explore Tuolumne Meadows and the surrounding Sierra Nevada high country.",
-    "location": {
-      "lat": 37.87838495166808,
-      "lon": -119.36741402075222
-    },
-    "images": [
-      {
-        "url": "https://www.nps.gov/common/uploads/cropped_image/72BC4171-E1AB-45AE-799E1A88105428EB.jpeg",
-        "credit": "",
-        "altText": "A small, single-story building with thick stone walls, a low-angled roof, and arched doorway",
-        "title": "Parsons Memorial Lodge",
-        "description": "",
-        "caption": "Parsons Memorial Lodge",
-        "crops": [
-          {
-            "aspectRatio": "1.78",
-            "url": "https://www.nps.gov/common/uploads/cropped_image/primary/72BC4171-E1AB-45AE-799E1A88105428EB.jpeg"
-          },
-          {
-            "aspectRatio": "1.33",
-            "url": "https://www.nps.gov/common/uploads/cropped_image/secondary/72BC4171-E1AB-45AE-799E1A88105428EB.jpeg"
-          }
-        ]
-      }
-    ],
-    "nps_url": "https://www.nps.gov/places/000/parsons-memorial-lodge.htm",
-    "difficulty": "Easy",
-    "length_miles": 1.4,
-    "elevation_gain_ft": null,
-    "route_type": "Out & Back",
-    "estimated_time_hours": null,
-    "is_wheelchair_accessible": false,
-    "is_kid_friendly": true,
-    "last_enriched": "2025-12-28T14:21:36.404769",
-    "is_pet_friendly": false
-  },
-  {
-    "id": "8BFE3A60-1982-479C-8849-AE361F05A0AA",
-    "name": "Poopenaut Valley Trailhead",
-    "description": "Enjoy the wildflowers in spring as you hike down to the Tuolumne River in Poopenaut Valley. Poopenaut Valley (strenuous)2.5 miles (4 km) round-trip; 3 to 4 hours1,229 feet (375 m) elevation gainVisit the Hetch Hetchy Entrance to get more information about hikes in this area. Hours :Year-round, however, winter weather conditions may cause road closures. Call 209-372-0200 for the latest road and weather conditions,Hetch Hetchy Road Daily Hours:8am to 7pm, (April 1 to April 3",
-    "location": {
-      "lat": 37.91020352085985,
-      "lon": -119.81462602419595
-    },
-    "images": [
-      {
-        "url": "https://www.nps.gov/common/uploads/cropped_image/71D5CCCC-F11F-CE87-C8EA7FA4E28D8A95.jpg",
-        "credit": "",
-        "altText": "A grassy valley in a granite gorge viewed from high above",
-        "title": "Poopenaut Valley",
-        "description": "",
-        "caption": "Poopenaut Valley",
-        "crops": [
-          {
-            "aspectRatio": "1.78",
-            "url": "https://www.nps.gov/common/uploads/cropped_image/primary/71D5CCCC-F11F-CE87-C8EA7FA4E28D8A95.jpg"
-          },
-          {
-            "aspectRatio": "1.33",
-            "url": "https://www.nps.gov/common/uploads/cropped_image/secondary/71D5CCCC-F11F-CE87-C8EA7FA4E28D8A95.jpg"
-          }
-        ]
-      }
-    ],
-    "nps_url": "https://www.nps.gov/places/000/poopenaut-valley-trailhead.htm",
-    "difficulty": "Strenuous",
-    "length_miles": 2.5,
-    "elevation_gain_ft": 1229,
-    "route_type": "Out & Back",
-    "estimated_time_hours": "3-4 hours",
-    "is_wheelchair_accessible": false,
-    "is_kid_friendly": false,
-    "last_enriched": "2025-12-28T14:21:40.992452",
-    "is_pet_friendly": false
-  },
-  {
-    "id": "6AF4D37E-8413-4679-88E3-564F8087BCAF",
-    "name": "Porcupine Creek Trailhead",
-    "description": "A day hike to North Dome will reward you with exceptional views of the dome of all domes, Half Dome, and the landscape that makes up Yosemite Valley and beyond.Wind through mixed-conifer forest for 0.7 miles (1 km) on a paved path, and cross Porcupine Creek. At each of several trail junctions, follow the signs toward North Dome. The trail passes through a small grassy meadow and descends along a ridge. Near the end of the hike, descend steep rock steps to the base of North Do",
-    "location": {
-      "lat": 37.80657549943283,
-      "lon": -119.54526085564987
-    },
-    "images": [
-      {
-        "url": "https://www.nps.gov/common/uploads/cropped_image/E406E292-E2A6-2333-E027FA095A0E2B54.jpg",
-        "credit": "",
-        "altText": "Panorama of Half Dome and granite gorges below pink sunset skies",
-        "title": "North Dome panoramic view",
-        "description": "",
-        "caption": "Panorama of Tenaya Canyon, Clouds Rest, and Half Dome at sunset from North Dome",
-        "crops": [
-          {
-            "aspectRatio": "1.78",
-            "url": "https://www.nps.gov/common/uploads/cropped_image/primary/E406E292-E2A6-2333-E027FA095A0E2B54.jpg"
-          },
-          {
-            "aspectRatio": "1.33",
-            "url": "https://www.nps.gov/common/uploads/cropped_image/secondary/E406E292-E2A6-2333-E027FA095A0E2B54.jpg"
-          }
-        ]
-      }
-    ],
-    "nps_url": "https://www.nps.gov/places/000/porcupine-creek-trailhead.htm",
-    "difficulty": "Moderate",
-    "length_miles": 10.4,
-    "elevation_gain_ft": 580,
-    "route_type": "Out & Back",
-    "estimated_time_hours": "5-7 hours",
-    "is_wheelchair_accessible": false,
-    "is_kid_friendly": false,
-    "last_enriched": "2025-12-28T14:21:48.477113",
-    "is_pet_friendly": false
-  },
-  {
-    "id": "31656BA1-8C15-4F68-850F-FF6F2A686A99",
-    "name": "Pothole Dome Trailhead",
-    "description": "Gain magnificent views of Tuolumne Meadows' most iconic peaks, domes, and meadows. Pothole Dome Meadow showcases Tuolumne Meadow's most notable natural features. A trail along the western edge of the meadow curves around to the east side of Pothole Dome, an approachable hiking route that accesses the top of the dome along with its unobstructed, exciting panoramic views.",
-    "location": {
-      "lat": 37.87692823145853,
-      "lon": -119.39455389976501
-    },
-    "images": [
-      {
-        "url": "https://www.nps.gov/common/uploads/cropped_image/E640A1A8-0263-2C65-61C30F57FCFFDFB2.jpeg",
-        "credit": "NPS Photo / L. Serio",
-        "altText": "A granite surface in the foreground backdropped by distant rolling granite peaks",
-        "title": "Pothole Dome",
-        "description": "",
-        "caption": "View from the top of Pothole Dome",
-        "crops": [
-          {
-            "aspectRatio": "1.78",
-            "url": "https://www.nps.gov/common/uploads/cropped_image/primary/E640A1A8-0263-2C65-61C30F57FCFFDFB2.jpeg"
-          },
-          {
-            "aspectRatio": "1.33",
-            "url": "https://www.nps.gov/common/uploads/cropped_image/secondary/E640A1A8-0263-2C65-61C30F57FCFFDFB2.jpeg"
-          }
-        ]
-      }
-    ],
-    "nps_url": "https://www.nps.gov/places/000/pothole-dome-trailhead.htm",
-    "difficulty": "Easy",
-    "length_miles": 1.0,
-    "elevation_gain_ft": 200,
-    "route_type": "Out & Back",
-    "estimated_time_hours": "1 hour",
-    "is_wheelchair_accessible": false,
-    "is_kid_friendly": true,
-    "last_enriched": "2025-12-28T14:21:53.001235",
-    "is_pet_friendly": false
-  },
-  {
-    "id": "D0E656B6-CDF6-4A51-B777-3D38B8EFF51B",
-    "name": "Sentinel Dome and Taft Point Trailhead",
-    "description": "Get a 360-degree view of the park at Sentinel Dome and/or hike to an expanse on the south rim of Yosemite Valley, getting a close view of El Capitan and Yosemite Valley, at Taft Point.",
-    "location": {
-      "lat": 37.71255162487833,
-      "lon": -119.5863493457912
-    },
-    "images": [
-      {
-        "url": "https://www.nps.gov/common/uploads/cropped_image/A938EC55-09C5-1BBB-46D918531492E553.jpg",
-        "credit": "",
-        "altText": "Pink and blue skies over sweeping views of granite cliffs and mountain peaks",
-        "title": "Sentinel Dome sunset",
-        "description": "",
-        "caption": "View from the top of Sentinel Dome at sunset",
-        "crops": [
-          {
-            "aspectRatio": "1.78",
-            "url": "https://www.nps.gov/common/uploads/cropped_image/primary/A938EC55-09C5-1BBB-46D918531492E553.jpg"
-          },
-          {
-            "aspectRatio": "1.33",
-            "url": "https://www.nps.gov/common/uploads/cropped_image/secondary/A938EC55-09C5-1BBB-46D918531492E553.jpg"
-          }
-        ]
-      }
-    ],
-    "nps_url": "https://www.nps.gov/places/000/sentinel-dome-and-taft-point-trailhead.htm",
-    "difficulty": "Moderate",
-    "length_miles": 5.0,
-    "elevation_gain_ft": 600,
-    "route_type": "Loop",
-    "estimated_time_hours": "3-4 hours",
-    "is_wheelchair_accessible": false,
-    "is_kid_friendly": false,
-    "last_enriched": "2025-12-28T14:22:20.975496",
-    "popularity_rank": 7,
-    "alltrails_url": "https://www.alltrails.com/trail/us/california/sentinel-dome-and-taft-point-loop",
-    "alltrails_rating": 4.9,
-    "alltrails_review_count": 6555,
-    "is_pet_friendly": false
-  },
-  {
-    "id": "762E9BC3-D1BF-447D-8CE4-A2ACDACE1D35",
-    "name": "Soda Springs and Parsons Memorial Lodge Trailhead",
-    "description": "Explore the mystery that is Soda Springs and delve into the history of Parsons Lodge on this delightful walk through Tuolumne Meadows. Walk along the gravel road and pass the locked gate (signed Glen Aulin and Soda Springs). Soda Springs-cold, carbonated water bubbling out of the ground-is protected within a log enclosure. Historic Parsons Memorial Lodge offers exhibits (limited hours-see Yosemite Guide for schedule). A path to the bridge below the lodge continues to the Tuol",
-    "location": {
-      "lat": 37.87206392899906,
-      "lon": -119.370646744846
-    },
-    "images": [
-      {
-        "url": "https://www.nps.gov/common/uploads/cropped_image/7BDD539E-E94D-94CD-E0FC5E980E5C806C.jpg",
-        "credit": "",
-        "altText": "A hiker along a gravel path through a meadow with domes in the distance",
-        "title": "Parsons Lodge & Soda Springs trail",
-        "description": "",
-        "caption": "Meadows, domes, and peaks along the trail to Parsons Lodge and Soda Springs",
-        "crops": [
-          {
-            "aspectRatio": "1.78",
-            "url": "https://www.nps.gov/common/uploads/cropped_image/primary/7BDD539E-E94D-94CD-E0FC5E980E5C806C.jpg"
-          },
-          {
-            "aspectRatio": "1.33",
-            "url": "https://www.nps.gov/common/uploads/cropped_image/secondary/7BDD539E-E94D-94CD-E0FC5E980E5C806C.jpg"
-          }
-        ]
-      }
-    ],
-    "nps_url": "https://www.nps.gov/places/000/soda-springs-and-parsons-memorial-lodge-trailhead.htm",
-    "difficulty": "Easy",
-    "length_miles": 1.4,
-    "elevation_gain_ft": 0,
-    "route_type": "Out & Back",
-    "estimated_time_hours": "1 hour",
-    "is_wheelchair_accessible": false,
-    "is_kid_friendly": true,
-    "last_enriched": "2025-12-28T14:22:25.723485",
-    "is_pet_friendly": false
-  },
-  {
-    "id": "0B9AD80C-43EA-4DB3-9999-21268B166F4F",
-    "name": "Sunrise Lakes Trailhead",
-    "description": "If you're seeking a challenge with a picturesque payoff, Sunrise Lakes won't disappoint. Indeed, a beautiful place to see a sunrise, the lakes at Sunrise reflect the colors in the sky as well as the domed peaks that surround it. There is also a High Sierra Camp located at Sunrise, whose origin dates back to 1916, the earliest days of the National Park Service.",
-    "location": {
-      "lat": 37.82575946044381,
-      "lon": -119.46996613735507
-    },
-    "images": [
-      {
-        "url": "https://www.nps.gov/common/uploads/cropped_image/E5355676-0B38-F855-BE758CD05745A347.jpg",
-        "credit": "",
-        "altText": "A narrow granite ridgeline extends toward the horizon and many distant peaks",
-        "title": "Clouds Rest",
-        "description": "",
-        "caption": "Ridgeline near Clouds Rest summit",
-        "crops": [
-          {
-            "aspectRatio": "1.78",
-            "url": "https://www.nps.gov/common/uploads/cropped_image/primary/E5355676-0B38-F855-BE758CD05745A347.jpg"
-          },
-          {
-            "aspectRatio": "1.33",
-            "url": "https://www.nps.gov/common/uploads/cropped_image/secondary/E5355676-0B38-F855-BE758CD05745A347.jpg"
-          }
-        ]
-      }
-    ],
-    "nps_url": "https://www.nps.gov/places/000/sunrise-lakes-trailhead.htm",
-    "difficulty": "Strenuous",
-    "length_miles": 10.4,
-    "elevation_gain_ft": 1300,
-    "route_type": "Out & Back",
-    "estimated_time_hours": "6-8 hours",
-    "is_wheelchair_accessible": false,
-    "is_kid_friendly": false,
-    "last_enriched": "2025-12-28T14:22:38.450481",
-    "is_pet_friendly": false
-  },
-  {
-    "id": "BC8250C0-F1B5-4E12-9B8C-A5F59AE13909",
-    "name": "Tuolumne Grove",
-    "description": "Marvel at nearly two dozen mature giant sequoias in the Tuolumne Grove of Giant Sequoias.Begin at Tuolumne Grove parking lot and follow the Old Big Oak Flat Road-one of the first roads into Yosemite Valley-steeply downhill through sugar pines and white firs. The trail drops 500 feet (150 meters) in one mile. The way down can seem much easier than the uphill return to the parking lot. The trip is moderate on the uphill portion. Within the Tuolumne Grove there is an easy, half-",
-    "location": {
-      "lat": 37.768791516420585,
-      "lon": -119.80608077220802
-    },
-    "images": [
-      {
-        "url": "https://www.nps.gov/common/uploads/cropped_image/0C6C07CC-94EA-A10A-9C890693055CB165.jpg",
-        "credit": "",
-        "altText": "Two very large trees behind a wood fence surrounded by vegetation showing fall colors",
-        "title": "Tuolumne Grove",
-        "description": "",
-        "caption": "Giant sequoias in the Tuolumne Grove",
-        "crops": [
-          {
-            "aspectRatio": "1.78",
-            "url": "https://www.nps.gov/common/uploads/cropped_image/primary/0C6C07CC-94EA-A10A-9C890693055CB165.jpg"
-          },
-          {
-            "aspectRatio": "1.33",
-            "url": "https://www.nps.gov/common/uploads/cropped_image/secondary/0C6C07CC-94EA-A10A-9C890693055CB165.jpg"
-          }
-        ]
-      }
-    ],
-    "nps_url": "https://www.nps.gov/places/000/tuolumne-grove.htm",
-    "difficulty": "Moderate",
-    "length_miles": 2.5,
-    "elevation_gain_ft": 500,
-    "route_type": "Out & Back",
-    "estimated_time_hours": "1-2 hours",
-    "is_wheelchair_accessible": false,
-    "is_kid_friendly": true,
-    "last_enriched": "2025-12-28T14:22:53.656050",
-    "is_pet_friendly": false
-  },
-  {
-    "id": "344C8876-0381-4090-82E6-2105BAAF5E7B",
-    "name": "Tuolumne Meadows",
-    "description": "Visit one of the largest high-elevation meadows in the Sierra Nevada, Tuolumne Meadows, and see the Tuolumne River meandering quietly through its meadow channel against a backdrop of rugged mountain peaks and glacially carved domes. Tuolumne Meadows embodies the high-country of the Sierra Nevada, with its broad sub-alpine meadows and granite domes and peaks.",
-    "location": {
-      "lat": 37.87512240445319,
-      "lon": -119.36149931888548
-    },
-    "images": [
-      {
-        "url": "https://www.nps.gov/common/uploads/cropped_image/FB552C97-AC5D-F220-18E12D39F194E1A6.jpg",
-        "credit": "",
-        "altText": "View of alpine meadow and river in Tuolumne Meadows",
-        "title": "Tuolumne Meadows",
-        "description": "",
-        "caption": "Tuolumne Meadows",
-        "crops": [
-          {
-            "aspectRatio": "1.78",
-            "url": "https://www.nps.gov/common/uploads/cropped_image/primary/FB552C97-AC5D-F220-18E12D39F194E1A6.jpg"
-          },
-          {
-            "aspectRatio": "1.33",
-            "url": "https://www.nps.gov/common/uploads/cropped_image/secondary/FB552C97-AC5D-F220-18E12D39F194E1A6.jpg"
-          }
-        ]
-      }
-    ],
-    "nps_url": "https://www.nps.gov/places/000/tuolumne-meadows.htm",
+    "nps_url": null,
     "difficulty": "Easy",
     "length_miles": null,
     "elevation_gain_ft": null,
@@ -1675,13 +264,1047 @@
     "estimated_time_hours": null,
     "is_wheelchair_accessible": false,
     "is_kid_friendly": true,
-    "last_enriched": "2025-12-28T14:23:01.096551",
-    "is_pet_friendly": false
+    "is_pet_friendly": true,
+    "raw_listing_description": "A short walk will lead you to the base of Bridalveil Fall, allowing you to get an up close view of this often-windswept waterfall. Plunging 620 feet (189 meters), Bridalveil Fall is the first major waterfall you'll see when entering Yosemite Valley.",
+    "raw_body_text": "Plunging 620 feet (189 meters), Bridalveil Fall is the first major waterfall seen when entering Yosemite Valley. Known as \u201cPohono\u201d to Southern Sierra Miwuk Indians, the waterfall is framed by Leaning Tower and Cathedral Rocks.",
+    "last_enriched": "2026-01-08T20:50:49.194015"
+  },
+  {
+    "id": "C51F3C63-C110-43C7-92FC-1F8EFD44228A",
+    "name": "Cathedral Lakes Trailhead",
+    "description": "This trail climbs steadily to the shimmering Cathedral Lakes, offering hikers breathtaking views of Cathedral Peak and Echo Peak.",
+    "location": {
+      "lat": 37.8726336506,
+      "lon": -119.374706059
+    },
+    "images": [
+      {
+        "url": "https://www.nps.gov/common/uploads/cropped_image/AD6917BC-C7B2-A86E-031D1BB49BF49C34.jpg",
+        "title": "Cathedral Lakes Trailhead",
+        "altText": "Image of lake from a higher vantage point",
+        "caption": "Upper Cathedral Lake",
+        "credit": ""
+      }
+    ],
+    "nps_url": null,
+    "difficulty": null,
+    "length_miles": null,
+    "elevation_gain_ft": null,
+    "route_type": null,
+    "estimated_time_hours": null,
+    "is_wheelchair_accessible": false,
+    "is_kid_friendly": false,
+    "is_pet_friendly": false,
+    "raw_listing_description": "The shimmering waters of Cathedral Lakes rest below Cathedral Peak, named by the California Geological Survey (CGS) in 1863. The trail climbs steadily to Upper Cathedral Lake.",
+    "raw_body_text": "Cathedral Lakes are nestled at the foot of Cathedral Peak. In addition to the lakes themselves, hikers will enjoy views of Cathedral Peak and Echo Peak.",
+    "last_enriched": "2026-01-08T20:50:53.973930"
+  },
+  {
+    "id": "1F5F467E-498F-4DD0-A28B-20686E1758EF",
+    "name": "Chilnualna Falls Trailhead",
+    "description": "This strenuous and steep hike features views of Wawona Dome and a waterfall comprised of five large cascades sliding over granite formations.",
+    "location": {
+      "lat": 37.54854480769581,
+      "lon": -119.63368790674264
+    },
+    "images": [
+      {
+        "url": "https://www.nps.gov/common/uploads/cropped_image/AE687690-FF82-A8B7-43C0F5692D764808.jpg",
+        "title": "Chilnualna Falls Trailhead",
+        "altText": "Chilnualna Falls Trailhead sign",
+        "caption": "Chilnualna Falls Trailhead",
+        "credit": ""
+      }
+    ],
+    "nps_url": null,
+    "difficulty": "Strenuous",
+    "length_miles": null,
+    "elevation_gain_ft": null,
+    "route_type": null,
+    "estimated_time_hours": null,
+    "is_wheelchair_accessible": false,
+    "is_kid_friendly": false,
+    "is_pet_friendly": false,
+    "raw_listing_description": "Chilnualna Falls, pronounced \"Chil-noo-al-na,\" flows all year, with peak flow in May. It is a strenuous hike, but well worth it for its views of the falls and Wawona Dome.",
+    "raw_body_text": "Chilnualna Falls, pronounced \"Chil-noo-al-na,\" is a steep hike featuring views of the falls and Wawona Dome. The waterfall is comprised of five large cascades sliding through and over large granite formations above the Wawona basin.",
+    "last_enriched": "2026-01-08T20:50:58.497943",
+    "popularity_rank": 23,
+    "alltrails_url": "https://www.alltrails.com/poi/us/california/lower-chilnualna-falls",
+    "alltrails_rating": null,
+    "alltrails_review_count": null,
+    "alltrails_difficulty": null,
+    "alltrails_length_miles": null,
+    "alltrails_elevation_gain_ft": null,
+    "alltrails_estimated_time_hours": null,
+    "alltrails_reviews_url": "https://www.alltrails.com/poi/us/california/lower-chilnualna-falls#reviews"
+  },
+  {
+    "id": "13374ED7-ADF9-4A78-9DAF-546A346BFFC1",
+    "name": "Cook's Meadow Loop Trailhead",
+    "description": "Saunter through a large open meadow in the heart of Yosemite Valley while enjoying iconic views of Yosemite Falls, Half Dome, and Sentinel Rock.",
+    "location": {
+      "lat": 37.74536975573611,
+      "lon": -119.59365427494049
+    },
+    "images": [
+      {
+        "url": "https://www.nps.gov/common/uploads/cropped_image/B238D549-9387-386B-CB15F4EB7941E69B.jpg",
+        "title": "Cook's Meadow Loop Trailhead",
+        "altText": "Ranger and junior rangers during a program in the meadow looking at a log, Yosemite Falls in back.",
+        "caption": "Ranger program in Cook's Meadow",
+        "credit": ""
+      }
+    ],
+    "nps_url": null,
+    "difficulty": "Easy",
+    "length_miles": null,
+    "elevation_gain_ft": null,
+    "route_type": "Loop",
+    "estimated_time_hours": null,
+    "is_wheelchair_accessible": true,
+    "is_kid_friendly": true,
+    "is_pet_friendly": true,
+    "raw_listing_description": "Walk through the heart of it all! Enjoy views of Yosemite Falls, Half Dome, Sentinel Rock, and Royal Arches from the center of Yosemite Valley as you saunter through this large open meadow.",
+    "raw_body_text": "This short, easy walk offers stunning views of Yosemite Falls, Half Dome, and Sentinel Rock as well as a vibrant example of the rich biodiversity in Yosemite's meadows. From Yosemite Village, walk west along the bicycle path toward Lower Yosemite Fall or take the Valleywide Shuttle to the Yosemite Falls shuttle stop.",
+    "last_enriched": "2026-01-08T20:51:05.704088"
+  },
+  {
+    "id": "8056CA99-0BF6-4104-ACEF-7ACE4F2D4CC3",
+    "name": "Elizabeth Lake Trailhead",
+    "description": "This trail climbs steadily to a glacier-carved lake at the base of Unicorn Peak, featuring a one-mile loop around the shimmering water in the heart of the Cathedral Range.",
+    "location": {
+      "lat": 37.87060415679957,
+      "lon": -119.35580733363216
+    },
+    "images": [
+      {
+        "url": "https://www.nps.gov/common/uploads/cropped_image/74FFA2F0-F805-C05B-22820277762D597C.jpg",
+        "title": "Elizabeth Lake",
+        "altText": "Clear, shallow lake waters with boulders in the water and granite peaks above",
+        "caption": "Elizabeth Lake",
+        "credit": ""
+      }
+    ],
+    "nps_url": null,
+    "difficulty": null,
+    "length_miles": null,
+    "elevation_gain_ft": null,
+    "route_type": "Out & Back",
+    "estimated_time_hours": null,
+    "is_wheelchair_accessible": false,
+    "is_kid_friendly": false,
+    "is_pet_friendly": false,
+    "raw_listing_description": "Enjoy the shimmering waters of Elizabeth Lake, in the heart of the Cathedral Range.The trail climbs steadily to a glacier-carved lake at the base of Unicorn Peak. The return hike follows the same route.",
+    "raw_body_text": "The trail climbs steadily to a glacier-carved lake at the base of Unicorn Peak in the heart of the Cathedral Range. A one-mile trail circles the lake.",
+    "last_enriched": "2026-01-08T20:51:12.624179"
+  },
+  {
+    "id": "48B7F32F-D66A-48C7-824E-B90B1C2B9893",
+    "name": "Four Mile Trailhead",
+    "description": "This steep and challenging climb rewards hikers with panoramic views of Yosemite Falls, El Capitan, and Half Dome as it ascends towards Glacier Point.",
+    "location": {
+      "lat": 37.733839496412,
+      "lon": -119.60180282592773
+    },
+    "images": [
+      {
+        "url": "https://www.nps.gov/common/uploads/cropped_image/126211E0-C1B3-7032-C61479EC9C5DB11A.jpg",
+        "title": "Four Mile Trail",
+        "altText": "Towering cliffs frame a deep valley with vibrant grasses and a blue river on the valley floor",
+        "caption": "View of Sentinel Rock and El Capitan from Four Mile Trail",
+        "credit": ""
+      }
+    ],
+    "nps_url": "https://www.nps.gov/yose/planyourvisit/conditions.htm",
+    "difficulty": "Strenuous",
+    "length_miles": null,
+    "elevation_gain_ft": null,
+    "route_type": null,
+    "estimated_time_hours": "all-day",
+    "is_wheelchair_accessible": false,
+    "is_kid_friendly": false,
+    "is_pet_friendly": false,
+    "raw_listing_description": "Awe-inspiring views of Yosemite Falls and Yosemite Valley await hikers on this trail to Glacier Point. The Four Mile Trail has no lack of views; El Capitan and the Cathedral Rocks tower to the west, while Yosemite Falls plummets in the north and Half Dome looms eastward.",
+    "raw_body_text": "The Four Mile Trail features remarkable, panoramic views of Yosemite Falls, El Capitan, Sentinel Rock, Half Dome, and Tenaya Canyon. This steep trail is challenging, all-day hike.",
+    "last_enriched": "2026-01-08T20:51:21.375914"
+  },
+  {
+    "id": "8D6C9189-822E-4625-B05F-C96AF0DAC137",
+    "name": "Four Mile Trailhead at Glacier Point",
+    "description": "This steep trail follows a series of switchbacks down the south wall of Yosemite Valley, offering panoramic views of Yosemite Falls, El Capitan, and Half Dome.",
+    "location": {
+      "lat": 37.728850403205605,
+      "lon": -119.57374205851384
+    },
+    "images": [
+      {
+        "url": "https://www.nps.gov/common/uploads/cropped_image/1EF2086F-B42B-BD6F-FA177BD564DD52ED.jpg",
+        "title": "Four Mile Trail (from Glacier Point)",
+        "altText": "Wooden trail sign at a fork of two trails.",
+        "caption": "Four Mile Trail (from Glacier Point)",
+        "credit": ""
+      }
+    ],
+    "nps_url": null,
+    "difficulty": "Strenuous",
+    "length_miles": 4.8,
+    "elevation_gain_ft": null,
+    "route_type": "Point to Point",
+    "estimated_time_hours": "all-day",
+    "is_wheelchair_accessible": false,
+    "is_kid_friendly": false,
+    "is_pet_friendly": false,
+    "raw_listing_description": "Awe-inspiring views of Yosemite Falls and Yosemite Valley await hikers on the descent down into Yosemite Valley. The Four Mile Trail follows a series of switchbacks down the south wall of Yosemite Valley.",
+    "raw_body_text": "The Four Mile Trail features remarkable, panoramic views of Yosemite Falls, El Capitan, Sentinel Rock, Half Dome, and Tenaya Canyon. This steep trail is challenging, all-day hike.",
+    "last_enriched": "2026-01-08T20:51:32.220181",
+    "popularity_rank": 11,
+    "alltrails_url": "https://www.alltrails.com/poi/us/california/yosemite-valley/glacier-point",
+    "alltrails_rating": null,
+    "alltrails_review_count": null,
+    "alltrails_difficulty": null,
+    "alltrails_length_miles": null,
+    "alltrails_elevation_gain_ft": null,
+    "alltrails_estimated_time_hours": null,
+    "alltrails_reviews_url": "https://www.alltrails.com/poi/us/california/yosemite-valley/glacier-point#reviews"
+  },
+  {
+    "id": "626369C6-2AAB-4D9F-9554-C9DDBD140857",
+    "name": "Gaylor Lakes Trailhead",
+    "description": "This picturesque high-country hike features a steady climb to a ridge with panoramic views of the high Sierra and beautiful alpine lakes.",
+    "location": {
+      "lat": 37.91022487685183,
+      "lon": -119.25828446928347
+    },
+    "images": [
+      {
+        "url": "https://www.nps.gov/common/uploads/cropped_image/7E2CE18C-C14D-AF32-910856B39A3EC41A.jpg",
+        "title": "Gaylor Lakes",
+        "altText": "Two large lakes viewed from high above; peaks frame the lakes",
+        "caption": "Gaylor Lakes basin",
+        "credit": ""
+      }
+    ],
+    "nps_url": null,
+    "difficulty": null,
+    "length_miles": null,
+    "elevation_gain_ft": null,
+    "route_type": null,
+    "estimated_time_hours": null,
+    "is_wheelchair_accessible": false,
+    "is_kid_friendly": false,
+    "is_pet_friendly": false,
+    "raw_listing_description": "Take in views of beautiful alpine lakes and lofty granite peaks on this picturesque day hike. This hike offers some of the most spectacular high-country views off of Tioga Road.",
+    "raw_body_text": "This short but steep hike offers spectacular high-country views, wildflowers in the summer, and lake views. From the trailhead, located right next to Tioga Pass, climb steadily to a ridge with views of the high Sierra including Mt.",
+    "last_enriched": "2026-01-08T20:51:40.204916"
+  },
+  {
+    "id": "CE7E3DB1-575F-45C5-9288-568FBFCEA90A",
+    "name": "Glen Aulin and Soda Springs Trailhead",
+    "description": "Hike through scenic meadows and forests to reach Soda Springs, where naturally carbonated cold water bubbles from the ground inside a historic log enclosure.",
+    "location": {
+      "lat": 37.87888946201375,
+      "lon": -119.35851084941233
+    },
+    "images": [
+      {
+        "url": "https://www.nps.gov/common/uploads/cropped_image/72F3052E-D1A8-EA51-62A9B0BCC0115B83.jpeg",
+        "title": "Tuolumne River on trail to Glen Aulin",
+        "altText": "A river cascades over a series of short drops on bare granite",
+        "caption": "Tuolumne River on the trail to Glen Aulin",
+        "credit": "NPS Photo / W. Tsai"
+      }
+    ],
+    "nps_url": "https://cms.nps.gov/places/000/parsons-memorial-lodge.htm",
+    "difficulty": "Easy",
+    "length_miles": null,
+    "elevation_gain_ft": null,
+    "route_type": null,
+    "estimated_time_hours": null,
+    "is_wheelchair_accessible": false,
+    "is_kid_friendly": true,
+    "is_pet_friendly": false,
+    "raw_listing_description": "Hike through meadow and forest on this scenic trail that leads you to Glen Aulin and beyond. Soda Springs Soda Springs-carbonated, cold water bubbling out of the ground-is protected within a log enclosure.",
+    "raw_body_text": "Soda Springs This easy hike features expansive views of Tuolumne Meadows as you walk to Soda Springs, a natural source of cold, carbonated water bubbling out of the ground. The spring is protected within a historic log enclosure.",
+    "last_enriched": "2026-01-08T20:52:01.220588"
+  },
+  {
+    "id": "E52A17A0-4EFC-4401-979E-6090295BF2A6",
+    "name": "Grizzly Giant Trailhead (Accessible)",
+    "description": "Wind through a forest of giant sequoias to see the Grizzly Giant, the largest sequoia in the park, and the iconic California Tunnel Tree.",
+    "location": {
+      "lat": 37.502182,
+      "lon": -119.602412
+    },
+    "images": [
+      {
+        "url": "https://www.nps.gov/common/uploads/place/import/d176b13b-6c48-4793-aa97-fdad05586d41_image_350.jpg",
+        "title": "",
+        "altText": "People walk on a dirt path to a distinct tree that is much larger than surrounding trees.",
+        "caption": "",
+        "credit": ""
+      }
+    ],
+    "nps_url": "https://www.nps.gov/yose/planyourvisit/mg.htm",
+    "difficulty": null,
+    "length_miles": null,
+    "elevation_gain_ft": null,
+    "route_type": null,
+    "estimated_time_hours": null,
+    "is_wheelchair_accessible": true,
+    "is_kid_friendly": true,
+    "is_pet_friendly": false,
+    "raw_listing_description": "This tour begins at the Grizzly Giant Accessible Parking area. Winding through a forest with many giant sequoias, this trail features the Grizzly Giant, the largest sequoia tree in the park, the California Tunnel Tree, and interpretive panels on the life and ecology of giant sequoias.",
+    "raw_body_text": "This tour begins at the Grizzly Giant Accessible Parking area. Winding through a forest with many giant sequoias, this trail features the Grizzly Giant, the largest sequoia tree in the park, the California Tunnel Tree, and interpretive panels on the life and ecology of giant sequoias.",
+    "last_enriched": "2026-01-08T20:52:09.101499"
+  },
+  {
+    "id": "FA7CE3DB-209D-423B-8257-E0D0F15432AB",
+    "name": "Harden Lake Trailhead",
+    "description": "Hike through a scenic pine forest and past small granite domes to reach the boulder-dotted shores of Harden Lake via a historic gravel road following the Middle Fork of the Tuolumne River.",
+    "location": {
+      "lat": 37.872753,
+      "lon": -119.649353
+    },
+    "images": [
+      {
+        "url": "https://www.nps.gov/common/uploads/cropped_image/DEF5FB23-EF5C-1B51-097400BE7E00724D.jpg",
+        "title": "Harden Lake",
+        "altText": "A forested lake dotted surrounded by grasses, downed trees, and boulders",
+        "caption": "Harden Lake",
+        "credit": ""
+      }
+    ],
+    "nps_url": null,
+    "difficulty": null,
+    "length_miles": null,
+    "elevation_gain_ft": null,
+    "route_type": null,
+    "estimated_time_hours": null,
+    "is_wheelchair_accessible": false,
+    "is_kid_friendly": false,
+    "is_pet_friendly": false,
+    "raw_listing_description": "Admire the views as you hike through a pine forest and pass by small granite domes before reaching boulder-dotted Harden Lake. Hike along a gravel road-part of the original Tioga Road-that follows the Middle Fork of the Tuolumne River for part of the route.",
+    "raw_body_text": "Hike to a quiet forested lake beginning from the White Wolf area. The hike begins along a gravel road that follows the Middle Fork of the Tuolumne River.",
+    "last_enriched": "2026-01-08T20:52:15.842016"
+  },
+  {
+    "id": "6C7AEA3E-6453-494D-B207-FBB6B932A331",
+    "name": "Hetch Hetchy Trailhead",
+    "description": "This trailhead provides access to paths leading to Lookout Point and Smith Peak, offering expansive bird's-eye views of the Hetch Hetchy area throughout one of Yosemite's longest hiking seasons.",
+    "location": {
+      "lat": 37.9464966029,
+      "lon": -119.787515194
+    },
+    "images": [
+      {
+        "url": "https://www.nps.gov/common/uploads/cropped_image/EC4C2CBA-B1AB-2786-F565333E951084AD.jpg",
+        "title": "Hetch Hetchy Trailhead",
+        "altText": "Wooden trailhead sign with mileages on it",
+        "caption": "Hetch Hetchy Trailhead",
+        "credit": ""
+      }
+    ],
+    "nps_url": null,
+    "difficulty": null,
+    "length_miles": null,
+    "elevation_gain_ft": null,
+    "route_type": null,
+    "estimated_time_hours": null,
+    "is_wheelchair_accessible": false,
+    "is_kid_friendly": false,
+    "is_pet_friendly": false,
+    "raw_listing_description": "Get a bird's-eye view of the Hetch Hetchy area from one of two popular hiking destinations, Lookout Point or Smith Peak. Hetch Hetchy's relatively low elevation provides for one of the longest hiking seasons in Yosemite, and the varied trails include something for everyone.",
+    "raw_body_text": "Get a bird's-eye view of the Hetch Hetchy area from one of two day hiking destinations, Lookout Point or Smith Peak. Hetch Hetchy's relatively low elevation provides one of the longest hiking seasons in Yosemite.",
+    "last_enriched": "2026-01-08T20:52:23.659551"
+  },
+  {
+    "id": "8599E14E-63F6-4666-BF62-B4A9AE0B258C",
+    "name": "Lembert Dome and Dog Lake Trailhead",
+    "description": "Hike through a forest to reach Dog Lake before following a spur trail to the summit of Lembert Dome for panoramic views of Tuolumne Meadows and the surrounding peaks.",
+    "location": {
+      "lat": 37.87840698623992,
+      "lon": -119.33898560648757
+    },
+    "images": [
+      {
+        "url": "https://www.nps.gov/common/uploads/cropped_image/46EEAE94-BBA5-FBD3-763896AC80D9FDFE.jpg",
+        "title": "Lembert Dome",
+        "altText": "Bare rock in the foreground with snowy peaks and partly cloudy skies towering behind",
+        "caption": "The summit of Lembert Dome in late fall looking toward the Cathedral Range",
+        "credit": ""
+      }
+    ],
+    "nps_url": null,
+    "difficulty": null,
+    "length_miles": null,
+    "elevation_gain_ft": null,
+    "route_type": null,
+    "estimated_time_hours": null,
+    "is_wheelchair_accessible": false,
+    "is_kid_friendly": false,
+    "is_pet_friendly": false,
+    "raw_listing_description": "Beginning from Dog Lake parking, the trail climbs through the forest to Dog Lake, then take a spur to the summit of Lembert Dome. There is no marked trail on the bare rock on Lembert Dome; choose the easiest path to the summit for panoramic views of Tuolumne Meadows and the surrounding peaks.",
+    "raw_body_text": "Beginning from the north end of Dog Lake parking, the trail climbs through the forest to Dog Lake, then take a spur to the summit of Lembert Dome. There is no marked trail on the bare rock on Lembert Dome; choose the easiest path to the summit for panoramic views of Tuolumne Meadows and the surrounding peaks.",
+    "last_enriched": "2026-01-08T20:52:40.985964",
+    "popularity_rank": 19,
+    "alltrails_url": "https://www.alltrails.com/poi/us/california/lembert-dome",
+    "alltrails_rating": null,
+    "alltrails_review_count": null,
+    "alltrails_difficulty": null,
+    "alltrails_length_miles": null,
+    "alltrails_elevation_gain_ft": null,
+    "alltrails_estimated_time_hours": null,
+    "alltrails_reviews_url": "https://www.alltrails.com/poi/us/california/lembert-dome#reviews"
+  },
+  {
+    "id": "B1B4A158-95CE-4526-AE28-5916D7AF7547",
+    "name": "Lower Yosemite Fall Trailhead",
+    "description": "This short walk leads to the base of Yosemite Falls, offering spectacular views of both the upper and lower falls and a chance to feel the mist during peak volume.",
+    "location": {
+      "lat": 37.746364,
+      "lon": -119.596268
+    },
+    "images": [
+      {
+        "url": "https://www.nps.gov/common/uploads/cropped_image/B142F689-E954-B67A-F7FA7AEB24D9A68D.jpg",
+        "title": "Lower Yosemite Fall Trailhead",
+        "altText": "Visitors viewing Yosemite Falls from the trailhead with a full waterfall in the background.",
+        "caption": "View of Yosemite Falls from the Lower Yosemite Fall Trailhead",
+        "credit": ""
+      }
+    ],
+    "nps_url": "https://cms.nps.gov/yose/planyourvisit/frazilice.htm",
+    "difficulty": "Easy",
+    "length_miles": 1.2,
+    "elevation_gain_ft": null,
+    "route_type": "Loop",
+    "estimated_time_hours": "0.5-1 hr",
+    "is_wheelchair_accessible": true,
+    "is_kid_friendly": true,
+    "is_pet_friendly": true,
+    "raw_listing_description": "Witness the strength of this mighty waterfall by site, sound, and the feel of its mist, when you stand at its base in spring and early summer when the waterfall peaks in volume. The falls are often only a trickle or completely dry by August.",
+    "raw_body_text": "This short, easy walk rewards visitors with spectacular views of both Upper and Lower Yosemite Falls. This paved loop trail offers different vantage points of Yosemite Falls and Yosemite Creek.",
+    "last_enriched": "2026-01-08T20:53:00.935351",
+    "popularity_rank": 5,
+    "alltrails_url": "https://www.alltrails.com/trail/us/california/lower-yosemite-falls-trail",
+    "alltrails_rating": 4.7,
+    "alltrails_review_count": 19093,
+    "alltrails_difficulty": "Easy",
+    "alltrails_length_miles": 1.2,
+    "alltrails_elevation_gain_ft": null,
+    "alltrails_estimated_time_hours": "0.5-1 hr",
+    "alltrails_reviews_url": "https://www.alltrails.com/trail/us/california/lower-yosemite-falls-trail#reviews"
+  },
+  {
+    "id": "C3FEC70B-B87E-4F5D-8ECA-60E1B80324B0",
+    "name": "Lukens Lake Trailhead from Tioga Road",
+    "description": "This trail winds through a mixed conifer forest and over a saddle to reach a scenic mountain lake surrounded by meadows and vibrant summer wildflowers.",
+    "location": {
+      "lat": 37.85052061845609,
+      "lon": -119.6152102665258
+    },
+    "images": [
+      {
+        "url": "https://www.nps.gov/common/uploads/cropped_image/E2E3BBE3-F36C-4751-3409B1BD4DB06203.jpg",
+        "title": "Lukens Lake",
+        "altText": "A meadow blanketed in grasses and pink wildflowers surrounded by trees",
+        "caption": "Meadow of wildflowers at Lukens Lake",
+        "credit": ""
+      }
+    ],
+    "nps_url": null,
+    "difficulty": null,
+    "length_miles": null,
+    "elevation_gain_ft": null,
+    "route_type": null,
+    "estimated_time_hours": null,
+    "is_wheelchair_accessible": false,
+    "is_kid_friendly": true,
+    "is_pet_friendly": false,
+    "raw_listing_description": "Enjoy fishing, swimming, or viewing the wildflower display that often wraps around the lake in the summer. This short trail winds through a mixed conifer forest, then over a saddle and down to a small mountain lake surrounded by a meadow.",
+    "raw_body_text": "This short trail winds through a mixed conifer forest, then over a saddle and down to a small mountain lake surrounded by a meadow. Shooting stars and dozens of other species of wildflowers abound, often through July.",
+    "last_enriched": "2026-01-08T20:53:09.741558"
+  },
+  {
+    "id": "0A487FCB-66F1-4609-B1F1-E407D0757072",
+    "name": "Lukens Lake Trailhead from White Wolf",
+    "description": "This trail winds through a mixed conifer forest and crosses the Middle Fork of the Tuolumne River to reach a mountain lake surrounded by wildflower-filled meadows.",
+    "location": {
+      "lat": 37.86976751986529,
+      "lon": -119.64882037175838
+    },
+    "images": [
+      {
+        "url": "https://www.nps.gov/common/uploads/cropped_image/E31A702A-0561-9953-C2254618A80FE87B.jpg",
+        "title": "Lukens Lake",
+        "altText": "A blue lake surrounded by conifer forest",
+        "caption": "Lukens Lake",
+        "credit": ""
+      }
+    ],
+    "nps_url": null,
+    "difficulty": null,
+    "length_miles": null,
+    "elevation_gain_ft": null,
+    "route_type": null,
+    "estimated_time_hours": null,
+    "is_wheelchair_accessible": false,
+    "is_kid_friendly": false,
+    "is_pet_friendly": false,
+    "raw_listing_description": "Enjoy this small mountain lake surround by a meadow full of shooting stars and dozens of other species of wildflowers in the summer. Follow the trail through a mixed conifer forest to Lukens Lake.",
+    "raw_body_text": "Walk through a mixed conifer forest to Lukens Lake, a small mountain lake surrounded by a meadow full of shooting stars and dozens of other species of wildflowers in the summer. The trail crosses the Middle Fork of the Tuolumne River and is wet and muddy until early August.",
+    "last_enriched": "2026-01-08T20:53:15.935668"
+  },
+  {
+    "id": "B06EE003-6117-4C71-9042-5773C2664447",
+    "name": "Lyell Canyon Trailhead",
+    "description": "Hike along the Tuolumne River and through lodgepole pine forests while enjoying expansive views of meadows, Kuna Crest, and Mount Lyell.",
+    "location": {
+      "lat": 37.877585,
+      "lon": -119.33862
+    },
+    "images": [
+      {
+        "url": "https://www.nps.gov/common/uploads/cropped_image/B3385C20-C01C-54FA-3ADF87E818C3866D.jpg",
+        "title": "Lyell Canyon",
+        "altText": "A trail carves through an open, grassy meadow with rolling mountain peaks",
+        "caption": "Lyell Canyon from the John Muir Trail in late summer",
+        "credit": ""
+      }
+    ],
+    "nps_url": null,
+    "difficulty": null,
+    "length_miles": null,
+    "elevation_gain_ft": null,
+    "route_type": null,
+    "estimated_time_hours": null,
+    "is_wheelchair_accessible": false,
+    "is_kid_friendly": false,
+    "is_pet_friendly": false,
+    "raw_listing_description": "Let the overwhelming views of Tuolumne Meadows' peaks and meadows compete for your attention as you venture into Lyell Canyon via the John Muir Trail. Begin across the road from Dog Lake parking area.",
+    "raw_body_text": "Hike along the Tuolumne River and through lodgepole pine forest, plus enjoy expansive views of meadows, Kuna Crest, and Mount Lyell. This trailhead is part of both the John Muir Trail and the Pacific Crest Trail.",
+    "last_enriched": "2026-01-08T20:53:21.786952"
+  },
+  {
+    "id": "E97A321F-3926-47A0-8D17-DDB1E01C21D7",
+    "name": "May Lake Trailhead",
+    "description": "A short trail through a conifer forest and across granite slabs leads to a stunning alpine lake reflecting picturesque views of Mt. Hoffmann.",
+    "location": {
+      "lat": 37.832706056440536,
+      "lon": -119.49115354472815
+    },
+    "images": [
+      {
+        "url": "https://www.nps.gov/common/uploads/cropped_image/493191B1-C42C-B7AB-1732815631869622.jpeg",
+        "title": "May Lake",
+        "altText": "A blue alpine lake below a granite peak",
+        "caption": "May Lake",
+        "credit": ""
+      }
+    ],
+    "nps_url": null,
+    "difficulty": null,
+    "length_miles": null,
+    "elevation_gain_ft": null,
+    "route_type": null,
+    "estimated_time_hours": null,
+    "is_wheelchair_accessible": false,
+    "is_kid_friendly": true,
+    "is_pet_friendly": false,
+    "raw_listing_description": "Spend a day, or a night, at this stunning alpine lake that reflects a picturesque view of Mt. Hoffmann.",
+    "raw_body_text": "A short trail leads through a conifer forest and across granite slabs to reach May Lake. Enjoy views of Half Dome, Clouds Rest, and surrounding peaks on the way.",
+    "last_enriched": "2026-01-08T20:53:35.935538"
+  },
+  {
+    "id": "B4CDC757-7247-4E76-B789-C2F7D4D3907E",
+    "name": "McGurk Meadow Trailhead",
+    "description": "Hike through sub-alpine air to reach McGurk Meadow, where you can explore a historic sheepherder's cabin and enjoy seasonal wildflower displays.",
+    "location": {
+      "lat": 37.67044655889399,
+      "lon": -119.62812123197989
+    },
+    "images": [
+      {
+        "url": "https://www.nps.gov/common/uploads/cropped_image/2D31531A-978F-C4A6-FF6165828DCA7BA4.jpg",
+        "title": "McGurk Meadow",
+        "altText": "Green grassy meadow with blue skies and trees",
+        "caption": "McGurk Meadow",
+        "credit": ""
+      }
+    ],
+    "nps_url": null,
+    "difficulty": null,
+    "length_miles": null,
+    "elevation_gain_ft": null,
+    "route_type": null,
+    "estimated_time_hours": null,
+    "is_wheelchair_accessible": false,
+    "is_kid_friendly": false,
+    "is_pet_friendly": false,
+    "raw_listing_description": "Traipse through a meadow of wildflowers (while staying on the trail, of course), and embrace the cool sub-alpine air this remarkable hike has to offer. The trail leads downhill to McGurk Meadow and the site of an old cabin that belonged to sheepherder John McGurk.",
+    "raw_body_text": "McGurk Meadow The trail leads downhill to McGurk Meadow and the site of an old cabin that belonged to sheepherder John McGurk. During early summer, look for a tremendous show of wildflowers.",
+    "last_enriched": "2026-01-08T20:53:43.161537"
+  },
+  {
+    "id": "4CB7B15C-61E4-4647-9884-44496FAAF8CC",
+    "name": "Merced Grove",
+    "description": "This secluded trail follows an old road down into Yosemite's smallest grove, where hikers can view approximately 20 mature giant sequoias in a quiet setting.",
+    "location": {
+      "lat": 37.750904621880125,
+      "lon": -119.84018194867718
+    },
+    "images": [
+      {
+        "url": "https://www.nps.gov/common/uploads/cropped_image/7471F864-A4A2-9B4C-0800A41B61018CBB.jpg",
+        "title": "Merced Grove",
+        "altText": "Six giant sequoias behind a wood barrier fence clustered together in a forested area",
+        "caption": "Giant sequoias in the Merced Grove",
+        "credit": ""
+      }
+    ],
+    "nps_url": null,
+    "difficulty": null,
+    "length_miles": null,
+    "elevation_gain_ft": null,
+    "route_type": null,
+    "estimated_time_hours": null,
+    "is_wheelchair_accessible": false,
+    "is_kid_friendly": false,
+    "is_pet_friendly": false,
+    "raw_listing_description": "Visit Yosemite's quietest stand of giant sequoias at the Merced Grove.The Merced Grove is home to approximately 20 mature giant sequoias, accessible only on foot. This trail follows an old road that curves down into the Merced Grove, the smallest and most secluded of Yosemite's three sequoia groves.",
+    "raw_body_text": "The Merced Grove is home to approximately 20 mature giant sequoias and is reachable only on foot (there are no giant sequoias visible from the parking area). This trail follows an old road that curves down into the Merced Grove, the smallest and most secluded of Yosemite's three sequoia groves.",
+    "last_enriched": "2026-01-08T20:53:51.018297"
+  },
+  {
+    "id": "F72A0CDC-31C8-4027-8155-D2476FB85048",
+    "name": "Mirror Lake Trailhead",
+    "description": "This hike offers a unique perspective looking up at Half Dome from its base and provides stunning views of Tenaya Canyon, Mount Watkins, and Washington Column.",
+    "location": {
+      "lat": 37.73952335115878,
+      "lon": -119.5597805043518
+    },
+    "images": [
+      {
+        "url": "https://www.nps.gov/common/uploads/cropped_image/7C8DCFCE-A334-927B-E6F5F8EC6780DA45.jpg",
+        "title": "Mirror Lake Trailhead",
+        "altText": "Signs and service road at Mirror Lake Trailhead",
+        "caption": "Mirror Lake Trailhead signage and service road to Mirror Lake",
+        "credit": ""
+      }
+    ],
+    "nps_url": null,
+    "difficulty": "Easy",
+    "length_miles": 5.0,
+    "elevation_gain_ft": null,
+    "route_type": null,
+    "estimated_time_hours": "1.5-2 hr",
+    "is_wheelchair_accessible": false,
+    "is_kid_friendly": false,
+    "is_pet_friendly": false,
+    "raw_listing_description": "With a fresh perspective looking up at Half Dome directly from its base, you'll be rewarded with views of Tenaya Canyon, Mount Watkins, Washington Column, and more. While pleasant at any time of year, Mirror Lake is fullest in spring and early summer.",
+    "raw_body_text": "This hike features views of Half Dome, Tenaya Canyon, Mount Watkins, and Washington Column. While pleasant at any time of year, Mirror Lake typically only has water in spring and early summer.",
+    "last_enriched": "2026-01-08T20:53:58.084950",
+    "popularity_rank": 8,
+    "alltrails_url": "https://www.alltrails.com/trail/us/california/mirror-lake-loop--2",
+    "alltrails_rating": 4.6,
+    "alltrails_review_count": 6486,
+    "alltrails_difficulty": "Easy",
+    "alltrails_length_miles": 5.0,
+    "alltrails_elevation_gain_ft": null,
+    "alltrails_estimated_time_hours": "1.5-2 hr",
+    "alltrails_reviews_url": "https://www.alltrails.com/trail/us/california/mirror-lake-loop--2#reviews"
+  },
+  {
+    "id": "F818A5B1-A9F9-4C3A-BC57-FB960E40B4C7",
+    "name": "Mist and John Muir Trailhead",
+    "description": "Climb a 'giant staircase' along the Merced River to experience spectacular views of powerful waterfalls and unique vistas across Yosemite Valley.",
+    "location": {
+      "lat": 37.73283137326278,
+      "lon": -119.55779032546741
+    },
+    "images": [
+      {
+        "url": "https://www.nps.gov/common/uploads/cropped_image/C1D76932-BA74-14E0-67E196C22B5660A0.jpg",
+        "title": "Mist Trail and John Muir Trail Trailhead",
+        "altText": "A full Vernal Fall with hikers along the rock steps of the Mist Trail",
+        "caption": "Mist Trail leading to Vernal Fall",
+        "credit": ""
+      }
+    ],
+    "nps_url": "https://www.nps.gov/yose/planyourvisit/vernalnevadatrail.htm",
+    "difficulty": "Hard",
+    "length_miles": 4.8,
+    "elevation_gain_ft": null,
+    "route_type": null,
+    "estimated_time_hours": "3-3.5 hr",
+    "is_wheelchair_accessible": false,
+    "is_kid_friendly": false,
+    "is_pet_friendly": false,
+    "raw_listing_description": "Climb along nature's \"giant staircase,\" where you will be rewarded with close-up views of two waterfalls and numerous geologic features (depending on how far you choose to hike). Powerful and turbulent, these two waterfalls will soak you in spring and entice you year-round.",
+    "raw_body_text": "The very popular John Muir and Mist Trails offer spectacular, up-close views of two large waterfalls, enjoyable scenery along the Merced River, and unique views across Yosemite Valley. About 1 trail mile from the trailhead, beyond the Vernal Fall Footbridge, the Mist Trail and the John Muir Trail diverge.",
+    "last_enriched": "2026-01-08T20:54:04.933532",
+    "popularity_rank": 6,
+    "alltrails_url": "https://www.alltrails.com/trail/us/california/vernal-falls-and-clark-point-via-mist-and-john-muir-loop",
+    "alltrails_rating": 4.8,
+    "alltrails_review_count": 9794,
+    "alltrails_difficulty": "Hard",
+    "alltrails_length_miles": 4.8,
+    "alltrails_elevation_gain_ft": null,
+    "alltrails_estimated_time_hours": "3-3.5 hr",
+    "alltrails_reviews_url": "https://www.alltrails.com/trail/us/california/vernal-falls-and-clark-point-via-mist-and-john-muir-loop#reviews"
+  },
+  {
+    "id": "0373584E-87EB-4986-A0AE-C69BF81C9043",
+    "name": "Mono Meadow Trailhead",
+    "description": "This trail descends steeply to Mono Meadow, a seasonally wet area offering magnificent views of the Clark Range, Mount Starr King, and Half Dome.",
+    "location": {
+      "lat": 37.67145341798576,
+      "lon": -119.58477759228467
+    },
+    "images": [
+      {
+        "url": "https://www.nps.gov/common/uploads/cropped_image/2CF6F8BD-B97A-8E1D-FACBADE09A4FB557.jpg",
+        "title": "Mono Meadow Trailhead",
+        "altText": "Trail sign in a wooded area",
+        "caption": "Mono Meadow Trailhead",
+        "credit": ""
+      }
+    ],
+    "nps_url": null,
+    "difficulty": null,
+    "length_miles": null,
+    "elevation_gain_ft": null,
+    "route_type": null,
+    "estimated_time_hours": null,
+    "is_wheelchair_accessible": false,
+    "is_kid_friendly": false,
+    "is_pet_friendly": false,
+    "raw_listing_description": "Enjoy magnificent views of the Clark Range, Mount Starr King, and Half Dome, from Mono Meadow. The trail descends steeply to Mono Meadow-an area that is very wet throughout the summer.",
+    "raw_body_text": "Enjoy magnificent views of the Clark Range, Mount Starr King, and Half Dome from this trail. The trail descends steeply to Mono Meadow.",
+    "last_enriched": "2026-01-08T20:54:11.596561"
+  },
+  {
+    "id": "6C2131D7-1F46-4D0B-99EA-C53357BAFFBA",
+    "name": "Mono Pass Trailhead",
+    "description": "This historic trans-Sierra trail follows an ancient trade route, climbing gradually through lodgepole pines, wet meadows, and rushing creeks. Hikers can see red mountain heather blooming trailside during the mid-summer months.",
+    "location": {
+      "lat": 37.89091035100891,
+      "lon": -119.26269570487662
+    },
+    "images": [
+      {
+        "url": "https://www.nps.gov/common/uploads/cropped_image/0D4F9E70-EE5B-84F0-31890E1B7787C69D.jpeg",
+        "title": "Mono Pass trail",
+        "altText": "An alpine lake in a meadow surrounded by cured, golden vegetation",
+        "caption": "View from Mono Pass in early fall",
+        "credit": "NPS Photo / S. Nobles"
+      }
+    ],
+    "nps_url": null,
+    "difficulty": null,
+    "length_miles": null,
+    "elevation_gain_ft": null,
+    "route_type": null,
+    "estimated_time_hours": null,
+    "is_wheelchair_accessible": false,
+    "is_kid_friendly": false,
+    "is_pet_friendly": false,
+    "raw_listing_description": "Follow the path of Yosemite's first people, over their trade route to the east. This historic, trans-Sierra trail climbs gently at first from the Mono Pass parking area, through wet meadows and rushing creeks.",
+    "raw_body_text": "This historic trans-Sierra trail climbs gradually through lodgepole pines and past wet meadows. In mid-summer, look for red mountain heather blooming trailside.",
+    "last_enriched": "2026-01-08T20:54:17.264439"
+  },
+  {
+    "id": "740078DA-7B9E-4E3E-AFE4-4448733C56BC",
+    "name": "Ostrander Lake Trailhead",
+    "description": "This trail leads through recovering forest and meadows before a steep ascent reveals panoramic views of granite domes and the shimmering Ostrander Lake.",
+    "location": {
+      "lat": 37.66673877593418,
+      "lon": -119.6036087833462
+    },
+    "images": [
+      {
+        "url": "https://www.nps.gov/common/uploads/cropped_image/2CC11A53-9FD2-7B23-993D5920EF087764.jpg",
+        "title": "Ostrander Lake",
+        "altText": "Lake with granite peaks around it.",
+        "caption": "Ostrander Lake",
+        "credit": ""
+      }
+    ],
+    "nps_url": "https://www.nps.gov/yose/planyourvisit/glacier-point-road-winter-trails.htm",
+    "difficulty": "Easy",
+    "length_miles": null,
+    "elevation_gain_ft": 1500,
+    "route_type": null,
+    "estimated_time_hours": null,
+    "is_wheelchair_accessible": false,
+    "is_kid_friendly": false,
+    "is_pet_friendly": false,
+    "raw_listing_description": "Retreat to nature and encounter the beauty and radiance of this glimmering lake.The first half of this hike gently inclines through forest and meadow where you can observe severe scars and regrowth from a 1987 lodgepole pine forest fire. A steep 1,500 foot (450 m) elevation gain opens up to views of granite domes, Mt.",
+    "raw_body_text": "The first half of this hike gently inclines through forest and meadow where you can observe severe scars and regrowth from a 1987 lodgepole pine forest fire. A steep climb toward the end of the hike opens up to views of granite domes, Mt.",
+    "last_enriched": "2026-01-08T20:54:35.111001",
+    "popularity_rank": 30,
+    "alltrails_url": "https://www.alltrails.com/poi/us/california/yosemite-valley/ostrander-lake",
+    "alltrails_rating": null,
+    "alltrails_review_count": null,
+    "alltrails_difficulty": null,
+    "alltrails_length_miles": null,
+    "alltrails_elevation_gain_ft": null,
+    "alltrails_estimated_time_hours": null,
+    "alltrails_reviews_url": "https://www.alltrails.com/poi/us/california/yosemite-valley/ostrander-lake#reviews"
+  },
+  {
+    "id": "F98B5924-367F-4EB0-A7B5-11F9A051D979",
+    "name": "Panorama and Pohono Trailheads",
+    "description": "These trails offer a scenic descent from Glacier Point to the Yosemite Valley floor, passing by Illilouette, Nevada, and Vernal Falls while providing stunning vistas of the park's iconic landmarks.",
+    "location": {
+      "lat": 37.72770948292103,
+      "lon": -119.57349145010913
+    },
+    "images": [
+      {
+        "url": "https://www.nps.gov/common/uploads/cropped_image/B8D9B455-F890-40E2-4CB08DE9BCE21F47.jpg",
+        "title": "Panorama and Pohono Trailheads",
+        "altText": "Wooden and metal signs at the trailhead",
+        "caption": "Panorama and Pohono Trailheads",
+        "credit": ""
+      }
+    ],
+    "nps_url": "https://www.nps.gov/yose/planyourvisit/vernalnevadatrail.htm",
+    "difficulty": null,
+    "length_miles": null,
+    "elevation_gain_ft": null,
+    "route_type": null,
+    "estimated_time_hours": null,
+    "is_wheelchair_accessible": false,
+    "is_kid_friendly": false,
+    "is_pet_friendly": false,
+    "raw_listing_description": "Some of Yosemite's most iconic natural features can be seen and experienced along these trails. Panorama Trail: This longer route to Yosemite Valley brings hikers past Illilouette, Nevada, and Vernal Falls.",
+    "raw_body_text": "Starting from Glacier Point, both trails offer stunning vistas of Yosemite Valley's iconic landmarks along the descent to the valley floor. There is NO shuttle service available to transport hikers from Yosemite Valley or Tunnel View back to Glacier Point.",
+    "last_enriched": "2026-01-08T20:54:40.214433"
+  },
+  {
+    "id": "8BFE3A60-1982-479C-8849-AE361F05A0AA",
+    "name": "Poopenaut Valley Trailhead",
+    "description": "This steep trail descends into Poopenaut Valley, offering hikers vibrant wildflower displays in the spring and access to the Tuolumne River.",
+    "location": {
+      "lat": 37.91020352085985,
+      "lon": -119.81462602419595
+    },
+    "images": [
+      {
+        "url": "https://www.nps.gov/common/uploads/cropped_image/71D5CCCC-F11F-CE87-C8EA7FA4E28D8A95.jpg",
+        "title": "Poopenaut Valley",
+        "altText": "A grassy valley in a granite gorge viewed from high above",
+        "caption": "Poopenaut Valley",
+        "credit": ""
+      }
+    ],
+    "nps_url": null,
+    "difficulty": "Strenuous",
+    "length_miles": 2.5,
+    "elevation_gain_ft": 1229,
+    "route_type": "Out & Back",
+    "estimated_time_hours": "3-4 hours",
+    "is_wheelchair_accessible": false,
+    "is_kid_friendly": false,
+    "is_pet_friendly": false,
+    "raw_listing_description": "Enjoy the wildflowers in spring as you hike down to the Tuolumne River in Poopenaut Valley. Poopenaut Valley (strenuous)2.5 miles (4 km) round-trip; 3 to 4 hours1,229 feet (375 m) elevation gainVisit the Hetch Hetchy Entrance to get more information about hikes in this area.",
+    "raw_body_text": "This short, steep hike down to the Tuolumne River in Poopenaut Valley is a great spot for wildflowers in spring. Be aware that this is a steep hike on the return trip to the parking area.",
+    "last_enriched": "2026-01-08T20:54:49.950350"
+  },
+  {
+    "id": "6AF4D37E-8413-4679-88E3-564F8087BCAF",
+    "name": "Porcupine Creek Trailhead",
+    "description": "Wind through mixed-conifer forest and cross Porcupine Creek to reach North Dome, which offers exceptional views of Half Dome and the surrounding Yosemite Valley landscape.",
+    "location": {
+      "lat": 37.80657549943283,
+      "lon": -119.54526085564987
+    },
+    "images": [
+      {
+        "url": "https://www.nps.gov/common/uploads/cropped_image/E406E292-E2A6-2333-E027FA095A0E2B54.jpg",
+        "title": "North Dome panoramic view",
+        "altText": "Panorama of Half Dome and granite gorges below pink sunset skies",
+        "caption": "Panorama of Tenaya Canyon, Clouds Rest, and Half Dome at sunset from North Dome",
+        "credit": ""
+      }
+    ],
+    "nps_url": null,
+    "difficulty": null,
+    "length_miles": null,
+    "elevation_gain_ft": null,
+    "route_type": null,
+    "estimated_time_hours": null,
+    "is_wheelchair_accessible": true,
+    "is_kid_friendly": false,
+    "is_pet_friendly": false,
+    "raw_listing_description": "A day hike to North Dome will reward you with exceptional views of the dome of all domes, Half Dome, and the landscape that makes up Yosemite Valley and beyond.Wind through mixed-conifer forest for 0.7 miles (1 km) on a paved path, and cross Porcupine Creek. At each of several trail junctions, follow the signs toward North Dome.",
+    "raw_body_text": "This longer day hike provides rewarding views of classic Yosemite landmarks. Wind through mixed-conifer forest, crossing Porcupine Creek within the first mile.",
+    "last_enriched": "2026-01-08T20:55:06.955402"
+  },
+  {
+    "id": "31656BA1-8C15-4F68-850F-FF6F2A686A99",
+    "name": "Pothole Dome Trailhead",
+    "description": "This short, easy hike offers magnificent views of high Sierra peaks and Tuolumne Meadows as the trail skirts the western edge of the meadow and curves around Pothole Dome.",
+    "location": {
+      "lat": 37.87692823145853,
+      "lon": -119.39455389976501
+    },
+    "images": [
+      {
+        "url": "https://www.nps.gov/common/uploads/cropped_image/E640A1A8-0263-2C65-61C30F57FCFFDFB2.jpeg",
+        "title": "Pothole Dome",
+        "altText": "A granite surface in the foreground backdropped by distant rolling granite peaks",
+        "caption": "View from the top of Pothole Dome",
+        "credit": "NPS Photo / L. Serio"
+      }
+    ],
+    "nps_url": null,
+    "difficulty": "Easy",
+    "length_miles": null,
+    "elevation_gain_ft": null,
+    "route_type": null,
+    "estimated_time_hours": null,
+    "is_wheelchair_accessible": false,
+    "is_kid_friendly": true,
+    "is_pet_friendly": false,
+    "raw_listing_description": "Gain magnificent views of Tuolumne Meadows' most iconic peaks, domes, and meadows. Pothole Dome Meadow showcases Tuolumne Meadow's most notable natural features.",
+    "raw_body_text": "Take a short, easy hike to reach magnificent views of high Sierra peaks, meadows, and domes. A trail along the western edge of the meadow curves around to the east side of Pothole Dome.",
+    "last_enriched": "2026-01-08T20:55:12.840148"
+  },
+  {
+    "id": "D0E656B6-CDF6-4A51-B777-3D38B8EFF51B",
+    "name": "Sentinel Dome and Taft Point Trailhead",
+    "description": "Traverse open granite terrain to reach the summit of Sentinel Dome for 360-degree park views, or hike to Taft Point for a sheer overlook of Yosemite Valley and El Capitan.",
+    "location": {
+      "lat": 37.71255162487833,
+      "lon": -119.5863493457912
+    },
+    "images": [
+      {
+        "url": "https://www.nps.gov/common/uploads/cropped_image/A938EC55-09C5-1BBB-46D918531492E553.jpg",
+        "title": "Sentinel Dome sunset",
+        "altText": "Pink and blue skies over sweeping views of granite cliffs and mountain peaks",
+        "caption": "View from the top of Sentinel Dome at sunset",
+        "credit": ""
+      }
+    ],
+    "nps_url": null,
+    "difficulty": "Moderate",
+    "length_miles": 5.2,
+    "elevation_gain_ft": null,
+    "route_type": null,
+    "estimated_time_hours": "2.5-3 hr",
+    "is_wheelchair_accessible": false,
+    "is_kid_friendly": false,
+    "is_pet_friendly": false,
+    "raw_listing_description": "Get a 360-degree view of the park at Sentinel Dome and/or hike to an expanse on the south rim of Yosemite Valley, getting a close view of El Capitan and Yosemite Valley, at Taft Point.",
+    "raw_body_text": "Sentinel Dome This wide trail leads mostly across open granite with little shade. Scramble up Sentinel Dome's granite slope to enjoy 360-degree views of Yosemite Valley and the high Sierra.",
+    "last_enriched": "2026-01-08T20:55:28.428520",
+    "popularity_rank": 7,
+    "alltrails_url": "https://www.alltrails.com/trail/us/california/sentinel-dome-and-taft-point-loop",
+    "alltrails_rating": 4.9,
+    "alltrails_review_count": 6557,
+    "alltrails_difficulty": "Moderate",
+    "alltrails_length_miles": 5.2,
+    "alltrails_elevation_gain_ft": null,
+    "alltrails_estimated_time_hours": "2.5-3 hr",
+    "alltrails_reviews_url": "https://www.alltrails.com/trail/us/california/sentinel-dome-and-taft-point-loop#reviews"
+  },
+  {
+    "id": "762E9BC3-D1BF-447D-8CE4-A2ACDACE1D35",
+    "name": "Soda Springs and Parsons Memorial Lodge Trailhead",
+    "description": "Explore the naturally carbonated water of Soda Springs and the historic Parsons Memorial Lodge on this scenic walk through Tuolumne Meadows, featuring views of the Tuolumne River and granite peaks.",
+    "location": {
+      "lat": 37.87206392899906,
+      "lon": -119.370646744846
+    },
+    "images": [
+      {
+        "url": "https://www.nps.gov/common/uploads/cropped_image/7BDD539E-E94D-94CD-E0FC5E980E5C806C.jpg",
+        "title": "Parsons Lodge & Soda Springs trail",
+        "altText": "A hiker along a gravel path through a meadow with domes in the distance",
+        "caption": "Meadows, domes, and peaks along the trail to Parsons Lodge and Soda Springs",
+        "credit": ""
+      }
+    ],
+    "nps_url": "https://www.nps.gov/places/000/parsons-memorial-lodge.htm",
+    "difficulty": null,
+    "length_miles": null,
+    "elevation_gain_ft": null,
+    "route_type": null,
+    "estimated_time_hours": null,
+    "is_wheelchair_accessible": false,
+    "is_kid_friendly": true,
+    "is_pet_friendly": false,
+    "raw_listing_description": "Explore the mystery that is Soda Springs and delve into the history of Parsons Lodge on this delightful walk through Tuolumne Meadows. Walk along the gravel road and pass the locked gate (signed Glen Aulin and Soda Springs).",
+    "raw_body_text": "Explore the natural and cultural history of Tuolumne Meadows as you enjoy views of the Tuolumne River, many species of wildlife, and granite peaks and domes. Soda Springs is a natural source of cold, carbonated water bubbling out of the ground.",
+    "last_enriched": "2026-01-08T20:55:38.927190"
+  },
+  {
+    "id": "0B9AD80C-43EA-4DB3-9999-21268B166F4F",
+    "name": "Sunrise Lakes Trailhead",
+    "description": "This challenging hike leads to the stunning Sunrise Lakes, which offer picturesque reflections of the surrounding sky and granite peaks.",
+    "location": {
+      "lat": 37.82575946044381,
+      "lon": -119.46996613735507
+    },
+    "images": [
+      {
+        "url": "https://www.nps.gov/common/uploads/cropped_image/E5355676-0B38-F855-BE758CD05745A347.jpg",
+        "title": "Clouds Rest",
+        "altText": "A narrow granite ridgeline extends toward the horizon and many distant peaks",
+        "caption": "Ridgeline near Clouds Rest summit",
+        "credit": ""
+      }
+    ],
+    "nps_url": null,
+    "difficulty": null,
+    "length_miles": null,
+    "elevation_gain_ft": null,
+    "route_type": null,
+    "estimated_time_hours": null,
+    "is_wheelchair_accessible": false,
+    "is_kid_friendly": false,
+    "is_pet_friendly": false,
+    "raw_listing_description": "If you're seeking a challenge with a picturesque payoff, Sunrise Lakes won't disappoint. Indeed, a beautiful place to see a sunrise, the lakes at Sunrise reflect the colors in the sky as well as the domed peaks that surround it.",
+    "raw_body_text": "Sunrise Lakes Indeed, a beautiful place to see sunrise, the lakes at Sunrise reflect the colors in the sky as well as the domed peaks that surround it. A short distance from the lakes, the Sunrise High Sierra Camp faces east for sunrise views.",
+    "last_enriched": "2026-01-08T20:55:55.216627"
+  },
+  {
+    "id": "BC8250C0-F1B5-4E12-9B8C-A5F59AE13909",
+    "name": "Tuolumne Grove",
+    "description": "Follow a historic road downhill through sugar pines and white firs to reach a grove of approximately two dozen mature giant sequoias.",
+    "location": {
+      "lat": 37.768791516420585,
+      "lon": -119.80608077220802
+    },
+    "images": [
+      {
+        "url": "https://www.nps.gov/common/uploads/cropped_image/0C6C07CC-94EA-A10A-9C890693055CB165.jpg",
+        "title": "Tuolumne Grove",
+        "altText": "Two very large trees behind a wood fence surrounded by vegetation showing fall colors",
+        "caption": "Giant sequoias in the Tuolumne Grove",
+        "credit": ""
+      }
+    ],
+    "nps_url": null,
+    "difficulty": "Easy",
+    "length_miles": 2.0,
+    "elevation_gain_ft": 500,
+    "route_type": "Out & Back",
+    "estimated_time_hours": null,
+    "is_wheelchair_accessible": false,
+    "is_kid_friendly": false,
+    "is_pet_friendly": false,
+    "raw_listing_description": "Marvel at nearly two dozen mature giant sequoias in the Tuolumne Grove of Giant Sequoias.Begin at Tuolumne Grove parking lot and follow the Old Big Oak Flat Road-one of the first roads into Yosemite Valley-steeply downhill through sugar pines and white firs. The trail drops 500 feet (150 meters) in one mile.",
+    "raw_body_text": "The Tuolumne Grove of Giant Sequoias is home to about two dozen mature giant sequoias. Begin at the Tuolumne Grove parking lot and follow the former Big Oak Flat Road (now closed to all vehicles) steeply downhill through sugar pines and white firs.",
+    "last_enriched": "2026-01-08T20:56:24.415147"
   },
   {
     "id": "07DA404D-9D30-48B7-866D-EB5160FD74E3",
     "name": "Upper Yosemite Fall Trailhead",
-    "description": "A steep climb is well rewarded with close-up views of Upper Yosemite Fall and distant views of Half Dome and other Sierra peaks. Along the hike, enjoy a bird's eye view of Yosemite Valley's meadows and the meandering Merced River. Enjoy the views from Columbia Rock, located one mile (and dozens of switchbacks) from the trailhead. The Yosemite Falls Trail is one of Yosemite's oldest historic trails, built 1873 to 1877.",
+    "description": "This historic trail features a steep climb providing close-up views of Upper Yosemite Fall and panoramic vistas of Half Dome and the Yosemite Valley floor.",
     "location": {
       "lat": 37.74276863640699,
       "lon": -119.60325102658933
@@ -1689,81 +1312,38 @@
     "images": [
       {
         "url": "https://www.nps.gov/common/uploads/cropped_image/4F518707-A611-44BA-6F4B8E424C17B4D7.jpg",
-        "credit": "",
-        "altText": "Wooden sign at trailhead",
         "title": "Upper Yosemite Fall Trailhead",
-        "description": "",
+        "altText": "Wooden sign at trailhead",
         "caption": "Upper Yosemite Fall Trailhead",
-        "crops": [
-          {
-            "aspectRatio": "1.78",
-            "url": "https://www.nps.gov/common/uploads/cropped_image/primary/4F518707-A611-44BA-6F4B8E424C17B4D7.jpg"
-          },
-          {
-            "aspectRatio": "1.33",
-            "url": "https://www.nps.gov/common/uploads/cropped_image/secondary/4F518707-A611-44BA-6F4B8E424C17B4D7.jpg"
-          }
-        ]
+        "credit": ""
       }
     ],
-    "nps_url": "https://www.nps.gov/places/000/upper-yosemite-fall-trailhead.htm",
+    "nps_url": null,
     "difficulty": "Strenuous",
-    "length_miles": 7.2,
-    "elevation_gain_ft": 2700,
-    "route_type": "Out & Back",
-    "estimated_time_hours": "6-8 hours",
+    "length_miles": 7.0,
+    "elevation_gain_ft": null,
+    "route_type": null,
+    "estimated_time_hours": "5.5-6 hr",
     "is_wheelchair_accessible": false,
     "is_kid_friendly": false,
-    "last_enriched": "2025-12-28T14:23:06.594082",
+    "is_pet_friendly": false,
+    "raw_listing_description": "A steep climb is well rewarded with close-up views of Upper Yosemite Fall and distant views of Half Dome and other Sierra peaks. Along the hike, enjoy a bird's eye view of Yosemite Valley's meadows and the meandering Merced River.",
+    "raw_body_text": "One of Yosemite's oldest historic trails, built 1873 to 1877, the Yosemite Falls Trail leads to the top of the waterfall, which cascades 2,425 feet (739 m) above the Valley floor. This trail starts near Camp 4, along the Valley Loop Trail, and immediately climbs a series of switchbacks through oak woodland.",
+    "last_enriched": "2026-01-08T20:56:39.625177",
     "popularity_rank": 2,
     "alltrails_url": "https://www.alltrails.com/trail/us/california/upper-yosemite-falls-trail",
     "alltrails_rating": 4.8,
-    "alltrails_review_count": 18210,
-    "is_pet_friendly": false
-  },
-  {
-    "id": "72BC1EF4-B2E6-4389-A4ED-75EAB0B2A812",
-    "name": "View of Mirror Lake",
-    "description": "Mirror Lake is famous for its reflections of Half Dome and Mount Watkins and is one of the few lakes that are easily accessible in Yosemite National Park. Mirror Lake is a seasonal lake on Tenaya Creek, in the shadow of Half Dome. Wayside exhibits explain the natural and cultural features of the area. Mirror Lake is in a state of transition. Sand carried by Tenaya Creek collects here, and will eventually form a meadow.",
-    "location": {
-      "lat": 37.746913774776,
-      "lon": -119.55091595649719
-    },
-    "images": [
-      {
-        "url": "https://www.nps.gov/common/uploads/cropped_image/7C2979C2-9077-5189-2FED688D1AEBF946.jpg",
-        "credit": "",
-        "altText": "Low water levels in Mirror Lake with people wading into water",
-        "title": "Mirror Lake",
-        "description": "",
-        "caption": "Mirror Lake during a warmer time of year when water levels are low.",
-        "crops": [
-          {
-            "aspectRatio": "1.78",
-            "url": "https://www.nps.gov/common/uploads/cropped_image/primary/7C2979C2-9077-5189-2FED688D1AEBF946.jpg"
-          },
-          {
-            "aspectRatio": "1.33",
-            "url": "https://www.nps.gov/common/uploads/cropped_image/secondary/7C2979C2-9077-5189-2FED688D1AEBF946.jpg"
-          }
-        ]
-      }
-    ],
-    "nps_url": "https://www.nps.gov/places/000/mirror-lake.htm",
-    "difficulty": "Easy",
-    "length_miles": 2.0,
-    "elevation_gain_ft": null,
-    "route_type": "Out & Back",
-    "estimated_time_hours": null,
-    "is_wheelchair_accessible": true,
-    "is_kid_friendly": true,
-    "last_enriched": "2025-12-28T14:23:15.340055",
-    "is_pet_friendly": false
+    "alltrails_review_count": 18284,
+    "alltrails_difficulty": "Hard",
+    "alltrails_length_miles": 7.0,
+    "alltrails_elevation_gain_ft": null,
+    "alltrails_estimated_time_hours": "5.5-6 hr",
+    "alltrails_reviews_url": "https://www.alltrails.com/trail/us/california/upper-yosemite-falls-trail#reviews"
   },
   {
     "id": "EFF5A2CF-E263-40C4-B939-C893E895EA2C",
     "name": "Wapama and Rancheria Falls Trailhead",
-    "description": "Hetch Hetchy is home to a diverse array of plants and animals, and in spring and early summer, home to brightly colored wildflowers. Enjoy a day hike or overnight backpacking trip (wilderness permit required) in this area at any time throughout the year.Hetch Hetchy's relatively low elevation provides for one of the longest hiking seasons in Yosemite, and the varied trails include something for everyone. Wapama Fall five-mile, round-trip hike follows the shoreline of the rese",
+    "description": "Hetch Hetchy's low elevation provides one of Yosemite's longest hiking seasons, featuring diverse wildlife and vibrant wildflowers along trails to scenic waterfalls.",
     "location": {
       "lat": 37.948407,
       "lon": -119.789056
@@ -1771,38 +1351,29 @@
     "images": [
       {
         "url": "https://www.nps.gov/common/uploads/cropped_image/72ABAACF-9C3B-5C83-696CDB486323381A.jpg",
-        "credit": "",
-        "altText": "A vast blue reservoir surrounded by granite peaks",
         "title": "Trailhead at Hetch Hetchy Reservoir",
-        "description": "",
+        "altText": "A vast blue reservoir surrounded by granite peaks",
         "caption": "The trail to Wapama and Rancheria Falls begins at O'Shaughnessy Dam",
-        "crops": [
-          {
-            "aspectRatio": "1.78",
-            "url": "https://www.nps.gov/common/uploads/cropped_image/primary/72ABAACF-9C3B-5C83-696CDB486323381A.jpg"
-          },
-          {
-            "aspectRatio": "1.33",
-            "url": "https://www.nps.gov/common/uploads/cropped_image/secondary/72ABAACF-9C3B-5C83-696CDB486323381A.jpg"
-          }
-        ]
+        "credit": ""
       }
     ],
-    "nps_url": "https://www.nps.gov/places/000/wapama-and-rancheria-falls-trailhead.htm",
-    "difficulty": "Moderate",
-    "length_miles": 13.4,
-    "elevation_gain_ft": 1909,
-    "route_type": "Out & Back",
-    "estimated_time_hours": "6 to 8 hours",
+    "nps_url": null,
+    "difficulty": null,
+    "length_miles": null,
+    "elevation_gain_ft": null,
+    "route_type": null,
+    "estimated_time_hours": null,
     "is_wheelchair_accessible": false,
     "is_kid_friendly": false,
-    "last_enriched": "2025-12-28T14:23:25.716192",
-    "is_pet_friendly": false
+    "is_pet_friendly": false,
+    "raw_listing_description": "Hetch Hetchy is home to a diverse array of plants and animals, and in spring and early summer, home to brightly colored wildflowers. Enjoy a day hike or overnight backpacking trip (wilderness permit required) in this area at any time throughout the year.Hetch Hetchy's relatively low elevation provides for one of the longest hiking seasons in Yosemite, and the varied trails include something for everyone.",
+    "raw_body_text": "Hetch Hetchy is home to a diverse array of plants and animals all times of year and is a great area for wildflowers in spring and early summer. Hetch Hetchy's relatively low elevation provides one of the longest hiking seasons in Yosemite.",
+    "last_enriched": "2026-01-08T20:56:59.502284"
   },
   {
     "id": "D924AC4F-C25E-4FD8-B74B-96E475B8E375",
     "name": "Wawona Meadow Loop Trailhead",
-    "description": "Take a relaxing and scenic stroll along a trail that offers breathtaking views of the Wawona Basin and gives the opportunity to see wildlife and wildflowers. Walk on the paved road across the Wawona Golf Course. Once across the golf course, take a left at the sign-posted trailhead. The trail is an unpaved fire road which loops around the meadow and returns to the Wawona Road. You will be sharing the trail with horses, bicyclists, and those that wish to hike with their pets, s",
+    "description": "This scenic loop offers a relaxing stroll with breathtaking views of the Wawona Basin and opportunities to spot local wildlife and wildflowers along a paved path.",
     "location": {
       "lat": 37.53511,
       "lon": -119.657586
@@ -1810,29 +1381,29 @@
     "images": [
       {
         "url": "https://www.nps.gov/common/uploads/place/import/db32b6d9-937d-43a3-8ca1-069d44617c45_image_350.jpg",
-        "credit": "",
-        "altText": "A wooden sign at the intersection of a trail and road reads, \"Meadow Loop Trail,\" and has an arrow pointing to the left.",
         "title": "",
-        "description": "",
+        "altText": "A wooden sign at the intersection of a trail and road reads, \"Meadow Loop Trail,\" and has an arrow pointing to the left.",
         "caption": "",
-        "crops": []
+        "credit": ""
       }
     ],
-    "nps_url": "https://www.nps.gov/places/000/wawona-meadow-loop-trailhead.htm",
-    "difficulty": "Easy",
-    "length_miles": 3.5,
+    "nps_url": null,
+    "difficulty": null,
+    "length_miles": null,
     "elevation_gain_ft": null,
     "route_type": "Loop",
-    "estimated_time_hours": "1.5 to 2 hours",
-    "is_wheelchair_accessible": false,
-    "is_kid_friendly": false,
-    "last_enriched": "2025-12-28T14:23:44.414066",
-    "is_pet_friendly": false
+    "estimated_time_hours": null,
+    "is_wheelchair_accessible": true,
+    "is_kid_friendly": true,
+    "is_pet_friendly": false,
+    "raw_listing_description": "Take a relaxing and scenic stroll along a trail that offers breathtaking views of the Wawona Basin and gives the opportunity to see wildlife and wildflowers. Walk on the paved road across the Wawona Golf Course.",
+    "raw_body_text": "Take a relaxing stroll along a trail that offers breathtaking views of the Wawona Basin. Walk on the paved road across the Wawona Golf Course.",
+    "last_enriched": "2026-01-08T20:57:21.892164"
   },
   {
     "id": "512130F4-A791-499C-B9EB-0DE0F6B76DAC",
     "name": "Yosemite Creek and Ten Lakes Trailhead",
-    "description": "Whether hiking or backpacking, travel off the beaten path to a group of pristine lakes or to the incredible views found at the rim of Yosemite Valley. John Muir once described Ten Lakes as \"a glacier basin with ten glassy lakes set all near together like eggs in a nest.\"",
+    "description": "Travel off the beaten path to a group of pristine glacial lakes or the incredible views found at the rim of Yosemite Valley.",
     "location": {
       "lat": 37.85219328637454,
       "lon": -119.57652272520387
@@ -1840,32 +1411,586 @@
     "images": [
       {
         "url": "https://www.nps.gov/common/uploads/cropped_image/4D3C69F4-E4B6-AD65-1D0FB292D9E26269.jpg",
-        "credit": "",
-        "altText": "Snowy peaks above conifer forest and dark blue lakes",
         "title": "Ten Lakes Pass",
-        "description": "",
+        "altText": "Snowy peaks above conifer forest and dark blue lakes",
         "caption": "Ten Lakes Basin viewed from Ten Lakes Pass",
-        "crops": [
-          {
-            "aspectRatio": "1.78",
-            "url": "https://www.nps.gov/common/uploads/cropped_image/primary/4D3C69F4-E4B6-AD65-1D0FB292D9E26269.jpg"
-          },
-          {
-            "aspectRatio": "1.33",
-            "url": "https://www.nps.gov/common/uploads/cropped_image/secondary/4D3C69F4-E4B6-AD65-1D0FB292D9E26269.jpg"
-          }
-        ]
+        "credit": ""
       }
     ],
-    "nps_url": "https://www.nps.gov/places/000/yosemite-creek-and-ten-lakes-trailhead.htm",
-    "difficulty": "Strenuous",
-    "length_miles": 12.6,
-    "elevation_gain_ft": 2200,
-    "route_type": "Out & Back",
-    "estimated_time_hours": "7-9 hours",
+    "nps_url": null,
+    "difficulty": null,
+    "length_miles": null,
+    "elevation_gain_ft": null,
+    "route_type": null,
+    "estimated_time_hours": null,
     "is_wheelchair_accessible": false,
     "is_kid_friendly": false,
-    "last_enriched": "2025-12-28T14:23:48.639798",
-    "is_pet_friendly": false
+    "is_pet_friendly": false,
+    "raw_listing_description": "Whether hiking or backpacking, travel off the beaten path to a group of pristine lakes or to the incredible views found at the rim of Yosemite Valley. John Muir once described Ten Lakes as \"a glacier basin with ten glassy lakes set all near together like eggs in a nest.\"",
+    "raw_body_text": "On the north side of Tioga Road, an unpaved parking lot sits next to the Ten Lakes trailhead. Directly across the street, on the south side of Tioga Road, there is a paved parking area as well as the Yosemite Creek trailhead.",
+    "last_enriched": "2026-01-08T20:57:25.768599"
+  },
+  {
+    "id": "17b94de3-6e33-4ae8-899d-933226d9d95e",
+    "name": "Vernal and Nevada Falls via Mist Trail",
+    "description": "Vernal and Nevada Falls via Mist Trail",
+    "location": {
+      "lat": 0.0,
+      "lon": 0.0
+    },
+    "images": [],
+    "nps_url": null,
+    "difficulty": "Hard",
+    "length_miles": 6.6,
+    "elevation_gain_ft": 2158,
+    "route_type": null,
+    "estimated_time_hours": "4.5-5 hr",
+    "is_wheelchair_accessible": false,
+    "is_kid_friendly": false,
+    "last_enriched": "2026-01-08T20:59:11.055553",
+    "popularity_rank": 1,
+    "alltrails_url": "https://www.alltrails.com/trail/us/california/vernal-and-nevada-falls-via-the-mist-trail",
+    "alltrails_rating": 4.9,
+    "alltrails_review_count": 24460,
+    "alltrails_difficulty": "Hard",
+    "alltrails_length_miles": 6.6,
+    "alltrails_elevation_gain_ft": 2158,
+    "alltrails_estimated_time_hours": "4.5-5 hr",
+    "alltrails_reviews_url": "https://www.alltrails.com/trail/us/california/vernal-and-nevada-falls-via-the-mist-trail#reviews",
+    "elevation_gain_ft_source": "alltrails"
+  },
+  {
+    "id": "b9fa3786-816e-4312-b7e7-f58c8776a266",
+    "name": "Half Dome via the John Muir Trail (JMT)",
+    "description": "Half Dome via the John Muir Trail (JMT)",
+    "location": {
+      "lat": 0.0,
+      "lon": 0.0
+    },
+    "images": [],
+    "nps_url": null,
+    "difficulty": "Strenuous",
+    "length_miles": 17.2,
+    "elevation_gain_ft": 4800,
+    "route_type": null,
+    "estimated_time_hours": "10 to 12 hours",
+    "is_wheelchair_accessible": false,
+    "is_kid_friendly": false,
+    "last_enriched": "2026-01-08T20:59:11.055589",
+    "popularity_rank": 3,
+    "alltrails_url": "https://www.alltrails.com/trail/us/california/half-dome-via-the-john-muir-trail-jmt",
+    "alltrails_rating": 4.9,
+    "alltrails_review_count": 16599,
+    "alltrails_difficulty": "Strenuous",
+    "alltrails_length_miles": 17.2,
+    "alltrails_elevation_gain_ft": 4800,
+    "alltrails_estimated_time_hours": "10 to 12 hours",
+    "alltrails_reviews_url": "https://www.alltrails.com/trail/us/california/half-dome-via-the-john-muir-trail-jmt#reviews",
+    "elevation_gain_ft_source": "alltrails"
+  },
+  {
+    "id": "91d4055b-7709-4022-9d4a-28d80eaf92ec",
+    "name": "Vernal Falls",
+    "description": "Vernal Falls",
+    "location": {
+      "lat": 0.0,
+      "lon": 0.0
+    },
+    "images": [],
+    "nps_url": null,
+    "difficulty": "Hard",
+    "length_miles": 3.3,
+    "elevation_gain_ft": null,
+    "route_type": null,
+    "estimated_time_hours": "2-2.5 hr",
+    "is_wheelchair_accessible": false,
+    "is_kid_friendly": false,
+    "last_enriched": "2026-01-08T20:59:11.055606",
+    "popularity_rank": 4,
+    "alltrails_url": "https://www.alltrails.com/trail/us/california/vernal-falls",
+    "alltrails_rating": 4.8,
+    "alltrails_review_count": 12691,
+    "alltrails_difficulty": "Hard",
+    "alltrails_length_miles": 3.3,
+    "alltrails_elevation_gain_ft": null,
+    "alltrails_estimated_time_hours": "2-2.5 hr",
+    "alltrails_reviews_url": "https://www.alltrails.com/trail/us/california/vernal-falls#reviews"
+  },
+  {
+    "id": "01103c44-dce1-4404-b228-0a67dfce5739",
+    "name": "Columbia Rock Trail",
+    "description": "Columbia Rock Trail",
+    "location": {
+      "lat": 0.0,
+      "lon": 0.0
+    },
+    "images": [],
+    "nps_url": null,
+    "difficulty": "Moderate",
+    "length_miles": 2.4,
+    "elevation_gain_ft": 1000,
+    "route_type": null,
+    "estimated_time_hours": "1.5-2 hr",
+    "is_wheelchair_accessible": false,
+    "is_kid_friendly": false,
+    "last_enriched": "2026-01-08T20:59:11.055621",
+    "popularity_rank": 9,
+    "alltrails_url": "https://www.alltrails.com/trail/us/california/columbia-rock-trail",
+    "alltrails_rating": 4.7,
+    "alltrails_review_count": 5696,
+    "alltrails_difficulty": "Moderate",
+    "alltrails_length_miles": 2.4,
+    "alltrails_elevation_gain_ft": 1000,
+    "alltrails_estimated_time_hours": "1.5-2 hr",
+    "alltrails_reviews_url": "https://www.alltrails.com/trail/us/california/columbia-rock-trail#reviews",
+    "elevation_gain_ft_source": "alltrails"
+  },
+  {
+    "id": "358c8c71-d4c6-4ac3-8a41-162c889acce0",
+    "name": "Nevada Fall via the Mist Trail",
+    "description": "Nevada Fall via the Mist Trail",
+    "location": {
+      "lat": 0.0,
+      "lon": 0.0
+    },
+    "images": [],
+    "nps_url": null,
+    "difficulty": "Hard",
+    "length_miles": 6.0,
+    "elevation_gain_ft": null,
+    "route_type": null,
+    "estimated_time_hours": "4-4.5 hr",
+    "is_wheelchair_accessible": false,
+    "is_kid_friendly": false,
+    "last_enriched": "2026-01-08T20:59:11.055636",
+    "popularity_rank": 10,
+    "alltrails_url": "https://www.alltrails.com/trail/us/california/nevada-falls-via-the-mist-trail",
+    "alltrails_rating": 4.9,
+    "alltrails_review_count": 5430,
+    "alltrails_difficulty": "Hard",
+    "alltrails_length_miles": 6.0,
+    "alltrails_elevation_gain_ft": null,
+    "alltrails_estimated_time_hours": "4-4.5 hr",
+    "alltrails_reviews_url": "https://www.alltrails.com/trail/us/california/nevada-falls-via-the-mist-trail#reviews"
+  },
+  {
+    "id": "0a83d99d-f45c-41fd-ac98-285c9aaf4dc0",
+    "name": "Taft Point",
+    "description": "Taft Point",
+    "location": {
+      "lat": 0.0,
+      "lon": 0.0
+    },
+    "images": [],
+    "nps_url": null,
+    "difficulty": null,
+    "length_miles": null,
+    "elevation_gain_ft": null,
+    "route_type": null,
+    "estimated_time_hours": "2.5-3 hr",
+    "is_wheelchair_accessible": false,
+    "is_kid_friendly": false,
+    "last_enriched": "2026-01-08T20:59:11.055650",
+    "popularity_rank": 12,
+    "alltrails_url": "https://www.alltrails.com/poi/us/california/taft-point",
+    "alltrails_rating": null,
+    "alltrails_review_count": null,
+    "alltrails_difficulty": null,
+    "alltrails_length_miles": null,
+    "alltrails_elevation_gain_ft": null,
+    "alltrails_estimated_time_hours": "2.5-3 hr",
+    "alltrails_reviews_url": "https://www.alltrails.com/poi/us/california/taft-point#reviews"
+  },
+  {
+    "id": "06af9c3b-a8f6-4099-99c2-3a426d32a8e6",
+    "name": "Profile Cliff",
+    "description": "Profile Cliff",
+    "location": {
+      "lat": 0.0,
+      "lon": 0.0
+    },
+    "images": [],
+    "nps_url": null,
+    "difficulty": null,
+    "length_miles": null,
+    "elevation_gain_ft": null,
+    "route_type": null,
+    "estimated_time_hours": null,
+    "is_wheelchair_accessible": false,
+    "is_kid_friendly": false,
+    "last_enriched": "2026-01-08T20:59:11.055663",
+    "popularity_rank": 13,
+    "alltrails_url": "https://www.alltrails.com/poi/us/california/yosemite-valley/profile-cliff",
+    "alltrails_rating": null,
+    "alltrails_review_count": null,
+    "alltrails_difficulty": null,
+    "alltrails_length_miles": null,
+    "alltrails_elevation_gain_ft": null,
+    "alltrails_estimated_time_hours": null,
+    "alltrails_reviews_url": "https://www.alltrails.com/poi/us/california/yosemite-valley/profile-cliff#reviews"
+  },
+  {
+    "id": "a1a27c22-5cf0-46f3-bb0b-4397c0db09f5",
+    "name": "Clouds Rest",
+    "description": "Clouds Rest",
+    "location": {
+      "lat": 0.0,
+      "lon": 0.0
+    },
+    "images": [],
+    "nps_url": null,
+    "difficulty": null,
+    "length_miles": null,
+    "elevation_gain_ft": null,
+    "route_type": null,
+    "estimated_time_hours": null,
+    "is_wheelchair_accessible": false,
+    "is_kid_friendly": false,
+    "last_enriched": "2026-01-08T20:59:11.055673",
+    "popularity_rank": 14,
+    "alltrails_url": "https://www.alltrails.com/poi/us/california/clouds-rest",
+    "alltrails_rating": null,
+    "alltrails_review_count": null,
+    "alltrails_difficulty": null,
+    "alltrails_length_miles": null,
+    "alltrails_elevation_gain_ft": null,
+    "alltrails_estimated_time_hours": null,
+    "alltrails_reviews_url": "https://www.alltrails.com/poi/us/california/clouds-rest#reviews"
+  },
+  {
+    "id": "c0fb6d2c-a02c-4734-a991-6744c37228e6",
+    "name": "Half Dome",
+    "description": "Half Dome",
+    "location": {
+      "lat": 0.0,
+      "lon": 0.0
+    },
+    "images": [],
+    "nps_url": null,
+    "difficulty": null,
+    "length_miles": null,
+    "elevation_gain_ft": null,
+    "route_type": null,
+    "estimated_time_hours": null,
+    "is_wheelchair_accessible": false,
+    "is_kid_friendly": false,
+    "last_enriched": "2026-01-08T20:59:11.055684",
+    "popularity_rank": 15,
+    "alltrails_url": "https://www.alltrails.com/poi/us/california/half-dome",
+    "alltrails_rating": null,
+    "alltrails_review_count": null,
+    "alltrails_difficulty": null,
+    "alltrails_length_miles": null,
+    "alltrails_elevation_gain_ft": null,
+    "alltrails_estimated_time_hours": null,
+    "alltrails_reviews_url": "https://www.alltrails.com/poi/us/california/half-dome#reviews"
+  },
+  {
+    "id": "564d6ce5-d886-43f8-ba53-d395aff0b7f7",
+    "name": "Panorama Cliff",
+    "description": "Panorama Cliff",
+    "location": {
+      "lat": 0.0,
+      "lon": 0.0
+    },
+    "images": [],
+    "nps_url": null,
+    "difficulty": null,
+    "length_miles": null,
+    "elevation_gain_ft": null,
+    "route_type": null,
+    "estimated_time_hours": null,
+    "is_wheelchair_accessible": false,
+    "is_kid_friendly": false,
+    "last_enriched": "2026-01-08T20:59:11.055694",
+    "popularity_rank": 16,
+    "alltrails_url": "https://www.alltrails.com/poi/us/california/yosemite-valley/panorama-cliff",
+    "alltrails_rating": null,
+    "alltrails_review_count": null,
+    "alltrails_difficulty": null,
+    "alltrails_length_miles": null,
+    "alltrails_elevation_gain_ft": null,
+    "alltrails_estimated_time_hours": null,
+    "alltrails_reviews_url": "https://www.alltrails.com/poi/us/california/yosemite-valley/panorama-cliff#reviews"
+  },
+  {
+    "id": "bdf2472a-4368-494e-8670-8d565543fc6f",
+    "name": "Carlon Falls",
+    "description": "Carlon Falls",
+    "location": {
+      "lat": 0.0,
+      "lon": 0.0
+    },
+    "images": [],
+    "nps_url": null,
+    "difficulty": null,
+    "length_miles": null,
+    "elevation_gain_ft": null,
+    "route_type": null,
+    "estimated_time_hours": null,
+    "is_wheelchair_accessible": false,
+    "is_kid_friendly": false,
+    "last_enriched": "2026-01-08T20:59:11.055704",
+    "popularity_rank": 18,
+    "alltrails_url": "https://www.alltrails.com/poi/us/california/carlon-falls",
+    "alltrails_rating": null,
+    "alltrails_review_count": null,
+    "alltrails_difficulty": null,
+    "alltrails_length_miles": null,
+    "alltrails_elevation_gain_ft": null,
+    "alltrails_estimated_time_hours": null,
+    "alltrails_reviews_url": "https://www.alltrails.com/poi/us/california/carlon-falls#reviews"
+  },
+  {
+    "id": "e42b823f-0b2a-4433-9113-f8e2908465ae",
+    "name": "Olmsted Point",
+    "description": "Olmsted Point",
+    "location": {
+      "lat": 0.0,
+      "lon": 0.0
+    },
+    "images": [],
+    "nps_url": null,
+    "difficulty": null,
+    "length_miles": null,
+    "elevation_gain_ft": null,
+    "route_type": null,
+    "estimated_time_hours": null,
+    "is_wheelchair_accessible": false,
+    "is_kid_friendly": false,
+    "last_enriched": "2026-01-08T20:59:11.055714",
+    "popularity_rank": 20,
+    "alltrails_url": "https://www.alltrails.com/poi/us/california/olmsted-point",
+    "alltrails_rating": null,
+    "alltrails_review_count": null,
+    "alltrails_difficulty": null,
+    "alltrails_length_miles": null,
+    "alltrails_elevation_gain_ft": null,
+    "alltrails_estimated_time_hours": null,
+    "alltrails_reviews_url": "https://www.alltrails.com/poi/us/california/olmsted-point#reviews"
+  },
+  {
+    "id": "be6775d0-bbb2-4dce-80bc-f3624f37a8e5",
+    "name": "Lower Cathedral Lake",
+    "description": "Lower Cathedral Lake",
+    "location": {
+      "lat": 0.0,
+      "lon": 0.0
+    },
+    "images": [],
+    "nps_url": null,
+    "difficulty": null,
+    "length_miles": null,
+    "elevation_gain_ft": null,
+    "route_type": null,
+    "estimated_time_hours": null,
+    "is_wheelchair_accessible": false,
+    "is_kid_friendly": false,
+    "last_enriched": "2026-01-08T20:59:11.055724",
+    "popularity_rank": 21,
+    "alltrails_url": "https://www.alltrails.com/poi/us/california/yosemite-valley/lower-cathedral-lake",
+    "alltrails_rating": null,
+    "alltrails_review_count": null,
+    "alltrails_difficulty": null,
+    "alltrails_length_miles": null,
+    "alltrails_elevation_gain_ft": null,
+    "alltrails_estimated_time_hours": null,
+    "alltrails_reviews_url": "https://www.alltrails.com/poi/us/california/yosemite-valley/lower-cathedral-lake#reviews"
+  },
+  {
+    "id": "4cc1d524-81c2-4113-9154-fbf64ac7a8b7",
+    "name": "Mount Hoffmann",
+    "description": "Mount Hoffmann",
+    "location": {
+      "lat": 0.0,
+      "lon": 0.0
+    },
+    "images": [],
+    "nps_url": null,
+    "difficulty": null,
+    "length_miles": null,
+    "elevation_gain_ft": null,
+    "route_type": null,
+    "estimated_time_hours": null,
+    "is_wheelchair_accessible": false,
+    "is_kid_friendly": false,
+    "last_enriched": "2026-01-08T20:59:11.055733",
+    "popularity_rank": 22,
+    "alltrails_url": "https://www.alltrails.com/poi/us/california/mount-hoffmann",
+    "alltrails_rating": null,
+    "alltrails_review_count": null,
+    "alltrails_difficulty": null,
+    "alltrails_length_miles": null,
+    "alltrails_elevation_gain_ft": null,
+    "alltrails_estimated_time_hours": null,
+    "alltrails_reviews_url": "https://www.alltrails.com/poi/us/california/mount-hoffmann#reviews"
+  },
+  {
+    "id": "80d38751-10d2-4556-96b9-b7d0b71b1dc1",
+    "name": "Mount Watkins",
+    "description": "Mount Watkins",
+    "location": {
+      "lat": 0.0,
+      "lon": 0.0
+    },
+    "images": [],
+    "nps_url": null,
+    "difficulty": null,
+    "length_miles": null,
+    "elevation_gain_ft": null,
+    "route_type": null,
+    "estimated_time_hours": "1.5-2 hr",
+    "is_wheelchair_accessible": false,
+    "is_kid_friendly": false,
+    "last_enriched": "2026-01-08T20:59:11.055744",
+    "popularity_rank": 24,
+    "alltrails_url": "https://www.alltrails.com/poi/us/california/mount-watkins",
+    "alltrails_rating": null,
+    "alltrails_review_count": null,
+    "alltrails_difficulty": null,
+    "alltrails_length_miles": null,
+    "alltrails_elevation_gain_ft": null,
+    "alltrails_estimated_time_hours": "1.5-2 hr",
+    "alltrails_reviews_url": "https://www.alltrails.com/poi/us/california/mount-watkins#reviews"
+  },
+  {
+    "id": "e60c8a6c-3621-46be-bc0c-182397be096a",
+    "name": "Dewey Point",
+    "description": "Dewey Point",
+    "location": {
+      "lat": 0.0,
+      "lon": 0.0
+    },
+    "images": [],
+    "nps_url": null,
+    "difficulty": null,
+    "length_miles": null,
+    "elevation_gain_ft": null,
+    "route_type": null,
+    "estimated_time_hours": null,
+    "is_wheelchair_accessible": false,
+    "is_kid_friendly": false,
+    "last_enriched": "2026-01-08T20:59:11.055755",
+    "popularity_rank": 25,
+    "alltrails_url": "https://www.alltrails.com/poi/us/california/dewey-point",
+    "alltrails_rating": null,
+    "alltrails_review_count": null,
+    "alltrails_difficulty": null,
+    "alltrails_length_miles": null,
+    "alltrails_elevation_gain_ft": null,
+    "alltrails_estimated_time_hours": null,
+    "alltrails_reviews_url": "https://www.alltrails.com/poi/us/california/dewey-point#reviews"
+  },
+  {
+    "id": "dc1b1ad9-ad0f-44e3-9711-5f83ba68005a",
+    "name": "Eagle Peak",
+    "description": "Eagle Peak",
+    "location": {
+      "lat": 0.0,
+      "lon": 0.0
+    },
+    "images": [],
+    "nps_url": null,
+    "difficulty": null,
+    "length_miles": null,
+    "elevation_gain_ft": null,
+    "route_type": null,
+    "estimated_time_hours": null,
+    "is_wheelchair_accessible": false,
+    "is_kid_friendly": false,
+    "last_enriched": "2026-01-08T20:59:11.055765",
+    "popularity_rank": 26,
+    "alltrails_url": "https://www.alltrails.com/poi/us/california/eagle-peak-2",
+    "alltrails_rating": null,
+    "alltrails_review_count": null,
+    "alltrails_difficulty": null,
+    "alltrails_length_miles": null,
+    "alltrails_elevation_gain_ft": null,
+    "alltrails_estimated_time_hours": null,
+    "alltrails_reviews_url": "https://www.alltrails.com/poi/us/california/eagle-peak-2#reviews"
+  },
+  {
+    "id": "4c44f17c-2ccf-4085-897b-91ac985f003d",
+    "name": "Subdome",
+    "description": "Subdome",
+    "location": {
+      "lat": 0.0,
+      "lon": 0.0
+    },
+    "images": [],
+    "nps_url": null,
+    "difficulty": null,
+    "length_miles": null,
+    "elevation_gain_ft": null,
+    "route_type": null,
+    "estimated_time_hours": null,
+    "is_wheelchair_accessible": false,
+    "is_kid_friendly": false,
+    "last_enriched": "2026-01-08T20:59:11.055776",
+    "popularity_rank": 27,
+    "alltrails_url": "https://www.alltrails.com/poi/us/california/yosemite-valley/subdome",
+    "alltrails_rating": null,
+    "alltrails_review_count": null,
+    "alltrails_difficulty": null,
+    "alltrails_length_miles": null,
+    "alltrails_elevation_gain_ft": null,
+    "alltrails_estimated_time_hours": null,
+    "alltrails_reviews_url": "https://www.alltrails.com/poi/us/california/yosemite-valley/subdome#reviews"
+  },
+  {
+    "id": "014060ae-d51f-4866-92a8-f4ecbc4794bb",
+    "name": "Tenaya Canyon",
+    "description": "Tenaya Canyon",
+    "location": {
+      "lat": 0.0,
+      "lon": 0.0
+    },
+    "images": [],
+    "nps_url": null,
+    "difficulty": null,
+    "length_miles": null,
+    "elevation_gain_ft": null,
+    "route_type": null,
+    "estimated_time_hours": "1.5-2 hr",
+    "is_wheelchair_accessible": false,
+    "is_kid_friendly": false,
+    "last_enriched": "2026-01-08T20:59:11.055788",
+    "popularity_rank": 28,
+    "alltrails_url": "https://www.alltrails.com/poi/us/california/yosemite-valley/tenaya-canyon",
+    "alltrails_rating": null,
+    "alltrails_review_count": null,
+    "alltrails_difficulty": null,
+    "alltrails_length_miles": null,
+    "alltrails_elevation_gain_ft": null,
+    "alltrails_estimated_time_hours": "1.5-2 hr",
+    "alltrails_reviews_url": "https://www.alltrails.com/poi/us/california/yosemite-valley/tenaya-canyon#reviews"
+  },
+  {
+    "id": "f3402b8f-7e13-4364-87c0-e40597d86475",
+    "name": "Laurel Lake",
+    "description": "Laurel Lake",
+    "location": {
+      "lat": 0.0,
+      "lon": 0.0
+    },
+    "images": [],
+    "nps_url": null,
+    "difficulty": null,
+    "length_miles": null,
+    "elevation_gain_ft": null,
+    "route_type": null,
+    "estimated_time_hours": null,
+    "is_wheelchair_accessible": false,
+    "is_kid_friendly": false,
+    "last_enriched": "2026-01-08T20:59:11.055800",
+    "popularity_rank": 29,
+    "alltrails_url": "https://www.alltrails.com/poi/us/california/groveland/laurel-lake",
+    "alltrails_rating": null,
+    "alltrails_review_count": null,
+    "alltrails_difficulty": null,
+    "alltrails_length_miles": null,
+    "alltrails_elevation_gain_ft": null,
+    "alltrails_estimated_time_hours": null,
+    "alltrails_reviews_url": "https://www.alltrails.com/poi/us/california/groveland/laurel-lake#reviews"
   }
 ]

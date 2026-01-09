@@ -40,6 +40,7 @@ class ParkDataFetcher:
         "trails_v2.json",       # Requires Gemini enrichment
         "rankings.json",        # Requires AllTrails scraping
         "photo_spots.json",     # Requires blog scraping
+        "scenic_drives.json",   # Requires blog scraping
         "amenities_consolidated.json",  # Requires Serper API
     ]
     
@@ -277,6 +278,24 @@ class ParkDataFetcher:
         
         return fetch_photo_spots_for_park(park_code, progress_callback)
     
+    def fetch_scenic_drives(
+        self,
+        park_code: str,
+        progress_callback: Callable[[int, int, str], None] = None
+    ) -> List[Dict]:
+        """
+        Fetches scenic drives from blogs.
+        
+        Returns:
+            List of scenic drive dictionaries
+        """
+        import sys
+        sys.path.insert(0, '.')
+        
+        from scripts.fetch_scenic_drives import fetch_scenic_drives_for_park
+        
+        return fetch_scenic_drives_for_park(park_code, progress_callback)
+    
     def fetch_amenities(
         self,
         park_code: str,
@@ -329,6 +348,7 @@ class ParkDataFetcher:
         include_trails: bool = True,
         include_rankings: bool = True,
         include_photo_spots: bool = True,
+        include_scenic_drives: bool = True,
         include_amenities: bool = True,
         progress_callback: Callable[[int, int, str], None] = None
     ) -> Dict[str, Any]:
@@ -341,6 +361,7 @@ class ParkDataFetcher:
             include_trails: Whether to include trail enrichment (slow)
             include_rankings: Whether to include AllTrails data (slow)
             include_photo_spots: Whether to include photo spots (expensive)
+            include_scenic_drives: Whether to include scenic drives (expensive)
             include_amenities: Whether to include amenities (requires pre-fetch)
             progress_callback: Optional callback(current, total, message)
             
@@ -406,11 +427,25 @@ class ParkDataFetcher:
             else:
                 status["operations"]["photo_spots"] = "already_exists"
         
-        # Step 5: Amenities
+        # Step 5: Scenic drives (optional)
+        if include_scenic_drives:
+            if not self.data_manager.has_fixture(park_code, "scenic_drives.json"):
+                if progress_callback:
+                    progress_callback(4, 6, "Fetching scenic drives...")
+                try:
+                    drives = self.fetch_scenic_drives(park_code, progress_callback)
+                    status["operations"]["scenic_drives"] = {"count": len(drives)}
+                except Exception as e:
+                    status["operations"]["scenic_drives"] = {"error": str(e)}
+                    logger.error(f"Scenic drives fetch failed: {e}")
+            else:
+                status["operations"]["scenic_drives"] = "already_exists"
+        
+        # Step 6: Amenities
         if include_amenities:
             if not self.data_manager.has_fixture(park_code, "amenities_consolidated.json"):
                 if progress_callback:
-                    progress_callback(4, 5, "Fetching nearby amenities...")
+                    progress_callback(5, 6, "Fetching nearby amenities...")
                 try:
                     amenities = self.fetch_amenities(park_code, progress_callback)
                     status["operations"]["amenities"] = {"hubs": len(amenities.get("hubs", {}))}
@@ -421,6 +456,6 @@ class ParkDataFetcher:
                 status["operations"]["amenities"] = "already_exists"
         
         if progress_callback:
-            progress_callback(5, 5, "Data setup complete!")
+            progress_callback(6, 6, "Data setup complete!")
         
         return status

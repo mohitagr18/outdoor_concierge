@@ -20,6 +20,7 @@ SUPPORTED_PARKS = {
 VIEW_PARAM_MAP = {
     "trails": "Trails Browser",
     "photos": "Photo Spots",
+    "drives": "Scenic Drives",
     "camping": "Park Essentials",
     "activities": "Activities & Events",
     "webcams": "Webcams"
@@ -29,7 +30,8 @@ VIEW_PARAM_MAP = {
 EXPLORER_VIEW_OPTIONS = [
     "Park Essentials", 
     "Trails Browser", 
-    "Photo Spots", 
+    "Photo Spots",
+    "Scenic Drives",
     "Activities & Events", 
     "Webcams"
 ]

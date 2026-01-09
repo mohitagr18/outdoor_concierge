@@ -5,7 +5,11 @@
     "url": "https://www.alltrails.com/trail/us/california/vernal-and-nevada-falls-via-the-mist-trail",
     "difficulty": "Hard",
     "rating": 4.9,
-    "review_count": 24429
+    "review_count": 24460,
+    "length_miles": 6.6,
+    "elevation_gain_ft": 2158,
+    "estimated_time_hours": "4.5\u20135 hr",
+    "reviews_url": "https://www.alltrails.com/trail/us/california/vernal-and-nevada-falls-via-the-mist-trail#reviews"
   },
   {
     "rank": 2,
@@ -13,7 +17,11 @@
     "url": "https://www.alltrails.com/trail/us/california/upper-yosemite-falls-trail",
     "difficulty": "Hard",
     "rating": 4.8,
-    "review_count": 18210
+    "review_count": 18284,
+    "length_miles": 7.0,
+    "elevation_gain_ft": null,
+    "estimated_time_hours": "5.5\u20136 hr",
+    "reviews_url": "https://www.alltrails.com/trail/us/california/upper-yosemite-falls-trail#reviews"
   },
   {
     "rank": 3,
@@ -21,7 +29,11 @@
     "url": "https://www.alltrails.com/trail/us/california/half-dome-via-the-john-muir-trail-jmt",
     "difficulty": "Strenuous",
     "rating": 4.9,
-    "review_count": 16589
+    "review_count": 16599,
+    "length_miles": 17.2,
+    "elevation_gain_ft": 4800,
+    "estimated_time_hours": "10 to 12 hours",
+    "reviews_url": "https://www.alltrails.com/trail/us/california/half-dome-via-the-john-muir-trail-jmt#reviews"
   },
   {
     "rank": 4,
@@ -29,7 +41,11 @@
     "url": "https://www.alltrails.com/trail/us/california/vernal-falls",
     "difficulty": "Hard",
     "rating": 4.8,
-    "review_count": 12617
+    "review_count": 12691,
+    "length_miles": 3.3,
+    "elevation_gain_ft": null,
+    "estimated_time_hours": "2\u20132.5 hr",
+    "reviews_url": "https://www.alltrails.com/trail/us/california/vernal-falls#reviews"
   },
   {
     "rank": 5,
@@ -37,7 +53,11 @@
     "url": "https://www.alltrails.com/trail/us/california/lower-yosemite-falls-trail",
     "difficulty": "Easy",
     "rating": 4.7,
-    "review_count": 19011
+    "review_count": 19093,
+    "length_miles": 1.2,
+    "elevation_gain_ft": null,
+    "estimated_time_hours": "0.5\u20131 hr",
+    "reviews_url": "https://www.alltrails.com/trail/us/california/lower-yosemite-falls-trail#reviews"
   },
   {
     "rank": 6,
@@ -45,7 +65,11 @@
     "url": "https://www.alltrails.com/trail/us/california/vernal-falls-and-clark-point-via-mist-and-john-muir-loop",
     "difficulty": "Hard",
     "rating": 4.8,
-    "review_count": 9755
+    "review_count": 9794,
+    "length_miles": 4.8,
+    "elevation_gain_ft": null,
+    "estimated_time_hours": "3\u20133.5 hr",
+    "reviews_url": "https://www.alltrails.com/trail/us/california/vernal-falls-and-clark-point-via-mist-and-john-muir-loop#reviews"
   },
   {
     "rank": 7,
@@ -53,7 +77,11 @@
     "url": "https://www.alltrails.com/trail/us/california/sentinel-dome-and-taft-point-loop",
     "difficulty": "Moderate",
     "rating": 4.9,
-    "review_count": 6555
+    "review_count": 6557,
+    "length_miles": 5.2,
+    "elevation_gain_ft": null,
+    "estimated_time_hours": "2.5\u20133 hr",
+    "reviews_url": "https://www.alltrails.com/trail/us/california/sentinel-dome-and-taft-point-loop#reviews"
   },
   {
     "rank": 8,
@@ -61,7 +89,11 @@
     "url": "https://www.alltrails.com/trail/us/california/mirror-lake-loop--2",
     "difficulty": "Easy",
     "rating": 4.6,
-    "review_count": 6439
+    "review_count": 6486,
+    "length_miles": 5.0,
+    "elevation_gain_ft": null,
+    "estimated_time_hours": "1.5\u20132 hr",
+    "reviews_url": "https://www.alltrails.com/trail/us/california/mirror-lake-loop--2#reviews"
   },
   {
     "rank": 9,
@@ -69,7 +101,11 @@
     "url": "https://www.alltrails.com/trail/us/california/columbia-rock-trail",
     "difficulty": "Moderate",
     "rating": 4.7,
-    "review_count": 5658
+    "review_count": 5696,
+    "length_miles": 2.4,
+    "elevation_gain_ft": 1000,
+    "estimated_time_hours": "1.5\u20132 hr",
+    "reviews_url": "https://www.alltrails.com/trail/us/california/columbia-rock-trail#reviews"
   },
   {
     "rank": 10,
@@ -77,6 +113,250 @@
     "url": "https://www.alltrails.com/trail/us/california/nevada-falls-via-the-mist-trail",
     "difficulty": "Hard",
     "rating": 4.9,
-    "review_count": 5404
+    "review_count": 5430,
+    "length_miles": 6.0,
+    "elevation_gain_ft": null,
+    "estimated_time_hours": "4\u20134.5 hr",
+    "reviews_url": "https://www.alltrails.com/trail/us/california/nevada-falls-via-the-mist-trail#reviews"
+  },
+  {
+    "rank": 11,
+    "name": "Glacier Point",
+    "url": "https://www.alltrails.com/poi/us/california/yosemite-valley/glacier-point",
+    "difficulty": null,
+    "rating": null,
+    "review_count": null,
+    "length_miles": null,
+    "elevation_gain_ft": null,
+    "estimated_time_hours": null,
+    "reviews_url": "https://www.alltrails.com/poi/us/california/yosemite-valley/glacier-point#reviews"
+  },
+  {
+    "rank": 12,
+    "name": "Taft Point",
+    "url": "https://www.alltrails.com/poi/us/california/taft-point",
+    "difficulty": null,
+    "rating": null,
+    "review_count": null,
+    "length_miles": null,
+    "elevation_gain_ft": null,
+    "estimated_time_hours": "2.5-3 hr",
+    "reviews_url": "https://www.alltrails.com/poi/us/california/taft-point#reviews"
+  },
+  {
+    "rank": 13,
+    "name": "Profile Cliff",
+    "url": "https://www.alltrails.com/poi/us/california/yosemite-valley/profile-cliff",
+    "difficulty": null,
+    "rating": null,
+    "review_count": null,
+    "length_miles": null,
+    "elevation_gain_ft": null,
+    "estimated_time_hours": null,
+    "reviews_url": "https://www.alltrails.com/poi/us/california/yosemite-valley/profile-cliff#reviews"
+  },
+  {
+    "rank": 14,
+    "name": "Clouds Rest",
+    "url": "https://www.alltrails.com/poi/us/california/clouds-rest",
+    "difficulty": null,
+    "rating": null,
+    "review_count": null,
+    "length_miles": null,
+    "elevation_gain_ft": null,
+    "estimated_time_hours": null,
+    "reviews_url": "https://www.alltrails.com/poi/us/california/clouds-rest#reviews"
+  },
+  {
+    "rank": 15,
+    "name": "Half Dome",
+    "url": "https://www.alltrails.com/poi/us/california/half-dome",
+    "difficulty": null,
+    "rating": null,
+    "review_count": null,
+    "length_miles": null,
+    "elevation_gain_ft": null,
+    "estimated_time_hours": null,
+    "reviews_url": "https://www.alltrails.com/poi/us/california/half-dome#reviews"
+  },
+  {
+    "rank": 16,
+    "name": "Panorama Cliff",
+    "url": "https://www.alltrails.com/poi/us/california/yosemite-valley/panorama-cliff",
+    "difficulty": null,
+    "rating": null,
+    "review_count": null,
+    "length_miles": null,
+    "elevation_gain_ft": null,
+    "estimated_time_hours": null,
+    "reviews_url": "https://www.alltrails.com/poi/us/california/yosemite-valley/panorama-cliff#reviews"
+  },
+  {
+    "rank": 17,
+    "name": "Upper Yosemite Fall",
+    "url": "https://www.alltrails.com/poi/us/california/upper-yosemite-fall",
+    "difficulty": null,
+    "rating": null,
+    "review_count": null,
+    "length_miles": null,
+    "elevation_gain_ft": null,
+    "estimated_time_hours": "5.5-6 hr",
+    "reviews_url": "https://www.alltrails.com/poi/us/california/upper-yosemite-fall#reviews"
+  },
+  {
+    "rank": 18,
+    "name": "Carlon Falls",
+    "url": "https://www.alltrails.com/poi/us/california/carlon-falls",
+    "difficulty": null,
+    "rating": null,
+    "review_count": null,
+    "length_miles": null,
+    "elevation_gain_ft": null,
+    "estimated_time_hours": null,
+    "reviews_url": "https://www.alltrails.com/poi/us/california/carlon-falls#reviews"
+  },
+  {
+    "rank": 19,
+    "name": "Lembert Dome",
+    "url": "https://www.alltrails.com/poi/us/california/lembert-dome",
+    "difficulty": null,
+    "rating": null,
+    "review_count": null,
+    "length_miles": null,
+    "elevation_gain_ft": null,
+    "estimated_time_hours": null,
+    "reviews_url": "https://www.alltrails.com/poi/us/california/lembert-dome#reviews"
+  },
+  {
+    "rank": 20,
+    "name": "Olmsted Point",
+    "url": "https://www.alltrails.com/poi/us/california/olmsted-point",
+    "difficulty": null,
+    "rating": null,
+    "review_count": null,
+    "length_miles": null,
+    "elevation_gain_ft": null,
+    "estimated_time_hours": null,
+    "reviews_url": "https://www.alltrails.com/poi/us/california/olmsted-point#reviews"
+  },
+  {
+    "rank": 21,
+    "name": "Lower Cathedral Lake",
+    "url": "https://www.alltrails.com/poi/us/california/yosemite-valley/lower-cathedral-lake",
+    "difficulty": null,
+    "rating": null,
+    "review_count": null,
+    "length_miles": null,
+    "elevation_gain_ft": null,
+    "estimated_time_hours": null,
+    "reviews_url": "https://www.alltrails.com/poi/us/california/yosemite-valley/lower-cathedral-lake#reviews"
+  },
+  {
+    "rank": 22,
+    "name": "Mount Hoffmann",
+    "url": "https://www.alltrails.com/poi/us/california/mount-hoffmann",
+    "difficulty": null,
+    "rating": null,
+    "review_count": null,
+    "length_miles": null,
+    "elevation_gain_ft": null,
+    "estimated_time_hours": null,
+    "reviews_url": "https://www.alltrails.com/poi/us/california/mount-hoffmann#reviews"
+  },
+  {
+    "rank": 23,
+    "name": "Lower Chilnualna Falls",
+    "url": "https://www.alltrails.com/poi/us/california/lower-chilnualna-falls",
+    "difficulty": null,
+    "rating": null,
+    "review_count": null,
+    "length_miles": null,
+    "elevation_gain_ft": null,
+    "estimated_time_hours": null,
+    "reviews_url": "https://www.alltrails.com/poi/us/california/lower-chilnualna-falls#reviews"
+  },
+  {
+    "rank": 24,
+    "name": "Mount Watkins",
+    "url": "https://www.alltrails.com/poi/us/california/mount-watkins",
+    "difficulty": null,
+    "rating": null,
+    "review_count": null,
+    "length_miles": null,
+    "elevation_gain_ft": null,
+    "estimated_time_hours": "1.5-2 hr",
+    "reviews_url": "https://www.alltrails.com/poi/us/california/mount-watkins#reviews"
+  },
+  {
+    "rank": 25,
+    "name": "Dewey Point",
+    "url": "https://www.alltrails.com/poi/us/california/dewey-point",
+    "difficulty": null,
+    "rating": null,
+    "review_count": null,
+    "length_miles": null,
+    "elevation_gain_ft": null,
+    "estimated_time_hours": null,
+    "reviews_url": "https://www.alltrails.com/poi/us/california/dewey-point#reviews"
+  },
+  {
+    "rank": 26,
+    "name": "Eagle Peak",
+    "url": "https://www.alltrails.com/poi/us/california/eagle-peak-2",
+    "difficulty": null,
+    "rating": null,
+    "review_count": null,
+    "length_miles": null,
+    "elevation_gain_ft": null,
+    "estimated_time_hours": null,
+    "reviews_url": "https://www.alltrails.com/poi/us/california/eagle-peak-2#reviews"
+  },
+  {
+    "rank": 27,
+    "name": "Subdome",
+    "url": "https://www.alltrails.com/poi/us/california/yosemite-valley/subdome",
+    "difficulty": null,
+    "rating": null,
+    "review_count": null,
+    "length_miles": null,
+    "elevation_gain_ft": null,
+    "estimated_time_hours": null,
+    "reviews_url": "https://www.alltrails.com/poi/us/california/yosemite-valley/subdome#reviews"
+  },
+  {
+    "rank": 28,
+    "name": "Tenaya Canyon",
+    "url": "https://www.alltrails.com/poi/us/california/yosemite-valley/tenaya-canyon",
+    "difficulty": null,
+    "rating": null,
+    "review_count": null,
+    "length_miles": null,
+    "elevation_gain_ft": null,
+    "estimated_time_hours": "1.5-2 hr",
+    "reviews_url": "https://www.alltrails.com/poi/us/california/yosemite-valley/tenaya-canyon#reviews"
+  },
+  {
+    "rank": 29,
+    "name": "Laurel Lake",
+    "url": "https://www.alltrails.com/poi/us/california/groveland/laurel-lake",
+    "difficulty": null,
+    "rating": null,
+    "review_count": null,
+    "length_miles": null,
+    "elevation_gain_ft": null,
+    "estimated_time_hours": null,
+    "reviews_url": "https://www.alltrails.com/poi/us/california/groveland/laurel-lake#reviews"
+  },
+  {
+    "rank": 30,
+    "name": "Ostrander Lake",
+    "url": "https://www.alltrails.com/poi/us/california/yosemite-valley/ostrander-lake",
+    "difficulty": null,
+    "rating": null,
+    "review_count": null,
+    "length_miles": null,
+    "elevation_gain_ft": null,
+    "estimated_time_hours": null,
+    "reviews_url": "https://www.alltrails.com/poi/us/california/yosemite-valley/ostrander-lake#reviews"
   }
 ]

@@ -1,146 +1,452 @@
 [
   {
-    "name": "Tunnel View",
-    "parkCode": "yose",
-    "description": "One of the best viewpoints in Yosemite requiring no hiking, providing iconic views of the valley and its granite peaks.",
-    "best_time_of_day": [
-      "Sunrise",
-      "Sunset"
-    ],
-    "tips": [
-      "Expect the viewpoint to be busy throughout the day",
-      "Arrive at least 30 minutes before sunrise or sunset",
-      "A 35mm lens is effective for capturing the perspective of the valley"
-    ],
-    "image_url": "https://images.unsplash.com/photo-1532274402911-5a369e4c4bb5?q=80&w=2070&auto=format&fit=crop",
     "rank": 1,
-    "source_url": "https://www.nps.gov/yose/planyourvisit/tunnelview.htm"
-  },
-  {
-    "name": "Glacier Point",
+    "name": "Lower Yosemite Fall",
     "parkCode": "yose",
-    "description": "An extremely accessible spot that provides a wide panorama and a direct view of Half Dome from the historic hut.",
+    "description": "One of the favorite destinations in the park, featuring an easy hike where you can experience the mist of the falls from a foot bridge.",
     "best_time_of_day": [
       "Sunrise",
+      "Any Time"
+    ],
+    "tips": [
+      "Visit in early spring just after sunrise to capture a rainbow in the falls",
+      "The mist can spray you from the foot bridge during early spring"
+    ],
+    "image_url": "https://i0.wp.com/vezzaniphotography.com/wp-content/uploads/2018/09/Lower-Yosemite-Falls-1-2.jpg?resize=600%2C900&ssl=1",
+    "source_url": "https://vezzaniphotography.com/best-photo-spots-yosemite/"
+  },
+  {
+    "rank": 2,
+    "name": "Nevada and Vernal Falls",
+    "parkCode": "yose",
+    "description": "A magnificently photogenic hike featuring two massive waterfalls, the Mist Trail, and the Emerald Pool lake at the top.",
+    "best_time_of_day": [
+      "Afternoon"
+    ],
+    "tips": [
+      "Get slightly off the path to avoid crowds",
+      "Watch out for wet and slippery rocks",
+      "Use ND filters for long-exposure waterfall effects",
+      "Bring lens wipes and a sun hood to manage moisture from the mist"
+    ],
+    "image_url": "https://www.findingtheuniverse.com/wp-content/uploads/2015/06/Vernal252520falls252520Yosemite_by_Laurence252520Norah25255B625255D.jpg",
+    "source_url": "https://www.findingtheuniverse.com/my-favourite-photography-spots-in/"
+  },
+  {
+    "rank": 3,
+    "name": "Vernal Falls",
+    "parkCode": "yose",
+    "description": "A strenuous but satisfying hike along the Mist Trail that allows you to climb to the top of both Vernal and Nevada Falls.",
+    "best_time_of_day": [
+      "Sunrise"
+    ],
+    "tips": [
+      "This is an all day affair so bring extra water and camera batteries",
+      "Be prepared for a strenuous climb while hauling camera equipment"
+    ],
+    "image_url": "https://i0.wp.com/vezzaniphotography.com/wp-content/uploads/2018/06/Yosemite-Mist-Trail-Hike-1-6.jpg?resize=600%2C900&ssl=1",
+    "source_url": "https://vezzaniphotography.com/best-photo-spots-yosemite/"
+  },
+  {
+    "rank": 4,
+    "name": "Glacier Point Road",
+    "parkCode": "yose",
+    "description": "A scenic stretch of road leading to Glacier Point, particularly the last section before the parking lot which offers views of Half Dome after a dramatic curve.",
+    "best_time_of_day": [
+      "Sunrise"
+    ],
+    "tips": [
+      "Park in the lot and hike back up the road to find the curve",
+      "Look for the spot where Half Dome is framed directly in front of the road"
+    ],
+    "image_url": null,
+    "source_url": "https://oceanusadventure.com/photo-spots-yosemite/"
+  },
+  {
+    "rank": 5,
+    "name": "El Capitan Meadow",
+    "parkCode": "yose",
+    "description": "Offers amazing views of the granite faces of El Capitan and Cathedral Rocks, which serve as a majestic backdrop.",
+    "best_time_of_day": [
+      "Morning",
+      "Evening"
+    ],
+    "tips": [
+      "Best to park North of the river",
+      "Great place to wander around for different compositions"
+    ],
+    "image_url": "https://images.squarespace-cdn.com/content/v1/6380dba4eba4bf79296102ac/1671112405893-KHHDMPW4YL3PMSTDM3OT/image-asset.jpeg",
+    "source_url": "https://www.nigeldanson.com/blog/7-amazing-locations-to-photograph-yosemite-tips-techniques-and-videos"
+  },
+  {
+    "rank": 6,
+    "name": "Horsetail Fall \u2013 Yosemite Firefall",
+    "parkCode": "yose",
+    "description": "A world-famous phenomenon where the waterfall appears to be on fire under specific sunset conditions in February.",
+    "best_time_of_day": [
       "Sunset"
     ],
     "tips": [
-      "Walk to the little hut for the most framed and famous view",
-      "Prepare for crowds even at sunrise",
-      "Find unique rock formations along the path to use as foreground"
+      "Only accessible for a few weeks in February",
+      "Conditions must be just right for the firefall effect to occur"
     ],
-    "image_url": "https://images.unsplash.com/photo-1445363689197-38da00a8aa87?q=80&w=2070&auto=format&fit=crop",
-    "rank": 2,
-    "source_url": "https://www.nps.gov/yose/planyourvisit/glacierpoint.htm"
+    "image_url": "https://i0.wp.com/vezzaniphotography.com/wp-content/uploads/2018/05/Yosemite-Firefall-at-Yosemite-National-Park-22.jpg?resize=600%2C900&ssl=1",
+    "source_url": "https://vezzaniphotography.com/best-photo-spots-yosemite/"
   },
   {
+    "rank": 7,
+    "name": "Washburn Point",
+    "parkCode": "yose",
+    "description": "A viewpoint on the way to Glacier Point offering spectacular views of Vernal Falls, Half Dome, and Nevada Falls.",
+    "best_time_of_day": [
+      "Sunset"
+    ],
+    "tips": [
+      "Glacier Point Road closes in the winter due to ice and snow"
+    ],
+    "image_url": "https://i0.wp.com/vezzaniphotography.com/wp-content/uploads/2018/06/Yosemite-Mist-Trail-Hike-1-16.jpg?resize=1200%2C800&ssl=1",
+    "source_url": "https://vezzaniphotography.com/best-photo-spots-yosemite/"
+  },
+  {
+    "rank": 8,
     "name": "Taft Point",
     "parkCode": "yose",
-    "description": "Known for its dramatic and scary rock edges that overlook the valley floor from a high elevation.",
+    "description": "A dramatic viewpoint featuring steep cliff edges and fissures, accessed via a 2.3-mile round-trip hike.",
     "best_time_of_day": [
       "Sunset",
       "Blue Hour"
     ],
     "tips": [
-      "Plan for a 2.3-mile return hike to reach the point",
-      "Be extremely careful near the rock edges as drop-offs are steep and unguarded",
-      "Bring a headlamp for the hike back through the woods in the dark"
+      "Be extremely careful near the drop-offs as they are very steep",
+      "The hike has an elevation gain of 354 ft",
+      "Stay for blue hour for soft light on the granite"
     ],
-    "image_url": "https://images.unsplash.com/photo-1548625361-bd8769db3cfc?q=80&w=2076&auto=format&fit=crop",
-    "rank": 3,
-    "source_url": "https://www.alltrails.com/trail/us/california/taft-point-and-the-fissures"
+    "image_url": "https://oceanusadventure.com/wp-content/uploads/2024/09/Taft-Point-Yosemite-National-Park-10-of-12-min-683x1024.jpg",
+    "source_url": "https://oceanusadventure.com/photo-spots-yosemite/"
   },
   {
+    "rank": 9,
+    "name": "Half Dome",
+    "parkCode": "yose",
+    "description": "One of the most recognizable rock formations in the park, visible from many different vantage points.",
+    "best_time_of_day": [
+      "Sunset"
+    ],
+    "tips": [
+      "The area outside Curry Village provides spectacular views",
+      "The viewing point on Big Oak Flat Road is less busy than other spots"
+    ],
+    "image_url": "https://www.findingtheuniverse.com/wp-content/uploads/2015/06/Yosemite252520sunset252520half252520dome_by_Laurence252520Norah25255B325255D.jpg",
+    "source_url": "https://www.findingtheuniverse.com/my-favourite-photography-spots-in/"
+  },
+  {
+    "rank": 10,
+    "name": "Swinging Bridge",
+    "parkCode": "yose",
+    "description": "A bridge crossing the Merced River that provides a vantage point for a beautiful reflection of Upper Yosemite Falls.",
+    "best_time_of_day": [
+      "Early morning",
+      "Evening",
+      "Cloudy day"
+    ],
+    "tips": [
+      "Use this vantage point to capture reflections of the falls in the river"
+    ],
+    "image_url": "https://i0.wp.com/vezzaniphotography.com/wp-content/uploads/2018/07/Upper-Yosemite-Falls-1-6.jpg?resize=600%2C900&ssl=1",
+    "source_url": "https://vezzaniphotography.com/best-photo-spots-yosemite/"
+  },
+  {
+    "rank": 11,
+    "name": "Superintendent\u2019s Bridge",
+    "parkCode": "yose",
+    "description": "A bridge over the Merced River that serves as both a scenic photography location and a popular swimming spot.",
+    "best_time_of_day": [
+      "Middle of the day"
+    ],
+    "tips": [
+      "Great for action shots of people swimming or diving into the river",
+      "Good location to cool off during the heat of the day"
+    ],
+    "image_url": null,
+    "source_url": "https://oceanusadventure.com/photo-spots-yosemite/"
+  },
+  {
+    "rank": 12,
+    "name": "Yosemite Falls from Swinging Bridge",
+    "parkCode": "yose",
+    "description": "A great vantage point to capture Yosemite falls, either from the bridge itself or by wandering down the river bank.",
+    "best_time_of_day": [
+      "Morning"
+    ],
+    "tips": [
+      "A 70-200mm lens is very useful here",
+      "In winter, look for hoar frost on the trees after a cold clear night"
+    ],
+    "image_url": "https://images.squarespace-cdn.com/content/v1/6380dba4eba4bf79296102ac/1671112421822-HZPXUOK2N64IPPES9RTV/image-asset.jpeg",
+    "source_url": "https://www.nigeldanson.com/blog/7-amazing-locations-to-photograph-yosemite-tips-techniques-and-videos"
+  },
+  {
+    "rank": 13,
     "name": "Sentinel Bridge",
     "parkCode": "yose",
-    "description": "Famous for its perfect reflection of Half Dome in the Merced River.",
+    "description": "A premier location for capturing the last light of sunset on Half Dome with river reflections.",
+    "best_time_of_day": [
+      "Sunset"
+    ],
+    "tips": [
+      "Expect crowds and many tripods on the bridge",
+      "Focus on capturing the reflection of Half Dome in the river"
+    ],
+    "image_url": "https://www.findingtheuniverse.com/wp-content/uploads/2015/06/Sunset252520view252520of252520half252520dome252520Yosemite_by_Laurence252520Norah25255B325255D.jpg",
+    "source_url": "https://www.findingtheuniverse.com/my-favourite-photography-spots-in/"
+  },
+  {
+    "rank": 14,
+    "name": "Upper and Lower Yosemite Falls Overlook",
+    "parkCode": "yose",
+    "description": "A popular vista from the main hiking path where both falls appear stacked on top of each other.",
+    "best_time_of_day": [
+      "Early morning",
+      "Evening",
+      "Cloudy day"
+    ],
+    "tips": [
+      "Stand on a rock and tilt the camera upwards to clear the heads of other visitors in the crowd"
+    ],
+    "image_url": "https://i0.wp.com/vezzaniphotography.com/wp-content/uploads/2018/09/Lower-Yosemite-Falls-8.jpg?resize=1200%2C800&ssl=1",
+    "source_url": "https://vezzaniphotography.com/best-photo-spots-yosemite/"
+  },
+  {
+    "rank": 15,
+    "name": "Cook Meadows Boardwalk",
+    "parkCode": "yose",
+    "description": "A lovely boardwalk trail through a meadow in Yosemite Valley with views of the surrounding granite walls.",
+    "best_time_of_day": [
+      "Sunset"
+    ],
+    "tips": [
+      "You can park right next to the boardwalk for quick access"
+    ],
+    "image_url": null,
+    "source_url": "https://oceanusadventure.com/photo-spots-yosemite/"
+  },
+  {
+    "rank": 16,
+    "name": "Sentinel Dome",
+    "parkCode": "yose",
+    "description": "A hike that rewards photographers with breathtaking views of El Capitan from a high vantage point.",
+    "best_time_of_day": [
+      "Sunset"
+    ],
+    "tips": [
+      "Park 1 mile before Glacier Point to find the trailhead",
+      "Shoot back towards the sun to capture El Capitan from above",
+      "Bring a head torch for the hike back in the dark"
+    ],
+    "image_url": "https://images.squarespace-cdn.com/content/v1/6380dba4eba4bf79296102ac/1671112423705-1LW2UVCNU5E67M7H1QQG/image-asset.jpeg",
+    "source_url": "https://www.nigeldanson.com/blog/7-amazing-locations-to-photograph-yosemite-tips-techniques-and-videos"
+  },
+  {
+    "rank": 17,
+    "name": "Upper Yosemite Falls",
+    "parkCode": "yose",
+    "description": "A magnificent waterfall visible from many valley locations or via a strenuous hike to the top for views of Half Dome.",
+    "best_time_of_day": [
+      "Early morning",
+      "Evening",
+      "Cloudy day"
+    ],
+    "tips": [
+      "Explore pullouts or hike the Yosemite Meadow for different perspectives",
+      "The hike to the top is strenuous but provides breathtaking views"
+    ],
+    "image_url": "https://i0.wp.com/vezzaniphotography.com/wp-content/uploads/2018/07/Upper-Yosemite-Falls-1.jpg?resize=600%2C900&ssl=1",
+    "source_url": "https://vezzaniphotography.com/best-photo-spots-yosemite/"
+  },
+  {
+    "rank": 18,
+    "name": "Sentinel Bridge Parking Area Meadows",
+    "parkCode": "yose",
+    "description": "Meadow area near Sentinel Bridge offering clear views of Yosemite Falls.",
     "best_time_of_day": [
       "Sunset",
       "Golden Hour"
     ],
     "tips": [
-      "Position your subject in the meadow with the falls directly behind them",
-      "Wide-angle lenses work well here to capture the scale of the falls"
+      "Position yourself to capture Yosemite Falls in the background of your shots"
     ],
-    "image_url": "https://images.unsplash.com/photo-1589404281320-c75c8893630f?q=80&w=2070&auto=format&fit=crop",
-    "rank": 4,
-    "source_url": "https://www.nps.gov/places/000/sentinel-bridge.htm"
+    "image_url": null,
+    "source_url": "https://oceanusadventure.com/photo-spots-yosemite/"
   },
   {
-    "name": "Yosemite Falls (Cook Meadow)",
+    "rank": 19,
+    "name": "Valley View",
     "parkCode": "yose",
-    "description": "A scenic boardwalk loop in Yosemite Valley offering flat perspectives of the meadows and cliffs with the falls in the background.",
-    "best_time_of_day": [
-      "Sunset"
-    ],
-    "tips": [
-      "Parking is available right next to the boardwalk for quick access",
-      "Great for walking shots or capturing the valley floor architecture"
-    ],
-    "image_url": "https://images.unsplash.com/photo-1455584518400-98fc938501f2?q=80&w=2070&auto=format&fit=crop",
-    "rank": 5,
-    "source_url": "https://www.nps.gov/yose/planyourvisit/tmhike.htm"
-  },
-  {
-    "name": "Mirror Lake",
-    "parkCode": "yose",
-    "description": "A popular spot for capturing the still reflections of the surrounding granite walls in the water.",
+    "description": "A famous sunrise and sunset location that is particularly beautiful after a fresh snowfall in winter.",
     "best_time_of_day": [
       "Sunrise",
-      "Morning"
-    ],
-    "tips": [
-      "Visit in late Spring or early Summer when the lake is actually full of water",
-      "The water is often most still in the early morning"
-    ],
-    "image_url": "https://plus.unsplash.com/premium_photo-1664302196627-8898ee84c3c1?q=80&w=2062&auto=format&fit=crop",
-    "rank": 6,
-    "source_url": "https://www.nps.gov/yose/planyourvisit/mirrorlake.htm"
-  },
-  {
-    "name": "Vernal Falls",
-    "parkCode": "yose",
-    "description": "One of the park's most iconic waterfalls, famous for its powerful flow and mist along the Mist Trail.",
-    "best_time_of_day": [
-      "Spring",
-      "Early Summer"
-    ],
-    "tips": [
-      "Expect to get wet from the mist; protect your camera gear with a cover",
-      "Look for rainbows created by the sun hitting the mist in the afternoon"
-    ],
-    "image_url": "https://images.unsplash.com/photo-1482192596544-9eb780fc7f66?q=80&w=2070&auto=format&fit=crop",
-    "rank": 7,
-    "source_url": "https://www.nps.gov/places/000/vernal-fall.htm"
-  },
-  {
-    "name": "Superintendent’s Bridge",
-    "parkCode": "yose",
-    "description": "A bridge over the Merced River that serves as both a swimming hole and a great spot for action photography.",
-    "best_time_of_day": [
-      "Middle of the day"
-    ],
-    "tips": [
-      "Use a fast shutter speed to capture people jumping into the water",
-      "Perfect spot for mid-day lifestyle and swimming shots"
-    ],
-    "image_url": "https://images.unsplash.com/photo-1598135753163-6167cbe2191b?q=80&w=2070&auto=format&fit=crop",
-    "rank": 8,
-    "source_url": null
-  },
-  {
-    "name": "Eagle Peak",
-    "parkCode": "yose",
-    "description": "A high vantage point offering sweeping panoramic views across Yosemite National Park and Upper Yosemite Fall.",
-    "best_time_of_day": [
       "Sunset"
     ],
     "tips": [
-      "This location requires a significant hike, so plan your time accordingly",
-      "Bring plenty of snacks and water for the trek"
+      "Ideally shoot after snowfall with mist and breaking sunlight",
+      "A tripod is highly recommended",
+      "Try blending images if the dynamic range is high"
     ],
-    "image_url": "https://images.unsplash.com/photo-1518134547926-d70c401314ec?q=80&w=2069&auto=format&fit=crop",
-    "rank": 9,
-    "source_url": "https://www.alltrails.com/trail/us/california/eagle-peak-trail"
+    "image_url": "https://images.squarespace-cdn.com/content/v1/6380dba4eba4bf79296102ac/1671112425661-KPLCF5JC1PR9PI1XNXJX/image-asset.jpeg",
+    "source_url": "https://www.nigeldanson.com/blog/7-amazing-locations-to-photograph-yosemite-tips-techniques-and-videos"
+  },
+  {
+    "rank": 20,
+    "name": "Yosemite Falls",
+    "parkCode": "yose",
+    "description": "Comprised of Upper and Lower falls, this is one of the most magnificent features in the valley.",
+    "best_time_of_day": [
+      "Daylight"
+    ],
+    "tips": [
+      "Upper Falls are best shot from near the Ansel Adams gallery",
+      "For Lower Falls, shoot with a long lens from the road for natural forest framing"
+    ],
+    "image_url": "https://www.findingtheuniverse.com/wp-content/uploads/2015/06/Yosemite252520falls_by_Laurence252520Norah25255B325255D.jpg",
+    "source_url": "https://www.findingtheuniverse.com/my-favourite-photography-spots-in/"
+  },
+  {
+    "rank": 21,
+    "name": "Mirror Lake",
+    "parkCode": "yose",
+    "description": "A seasonal lake visible in early spring that offers mirror reflections of Mount Watkins and Half Dome.",
+    "best_time_of_day": [
+      "Sunrise"
+    ],
+    "tips": [
+      "Calm days are required for the perfect mirror reflection",
+      "Visit in early spring as the water dries up later"
+    ],
+    "image_url": "https://i0.wp.com/vezzaniphotography.com/wp-content/uploads/2018/09/Tenaya-Creek-and-Mirror-Lake-7-2.jpg?resize=1200%2C800&ssl=1",
+    "source_url": "https://vezzaniphotography.com/best-photo-spots-yosemite/"
+  },
+  {
+    "rank": 22,
+    "name": "Bridalveil Falls",
+    "parkCode": "yose",
+    "description": "An iconic waterfall easily accessible via a short path, visible from many valley locations.",
+    "best_time_of_day": [
+      "Daylight"
+    ],
+    "tips": [
+      "The official viewing point is often crowded and offers an awkward angle",
+      "Try shooting from the trailhead car park or Tunnel View for better perspective"
+    ],
+    "image_url": "https://www.findingtheuniverse.com/wp-content/uploads/2015/06/Bridal252520veil252520falls252520Yosemite_by_Laurence252520Norah25255B325255D.jpg",
+    "source_url": "https://www.findingtheuniverse.com/my-favourite-photography-spots-in/"
+  },
+  {
+    "rank": 23,
+    "name": "Glacier Point",
+    "parkCode": "yose",
+    "description": "A high-elevation vista providing an eye-level view of Half Dome and incredible stargazing opportunities.",
+    "best_time_of_day": [
+      "Sunset",
+      "Night"
+    ],
+    "tips": [
+      "Visit late in August to photograph the Milky Way",
+      "The drive into the park takes about an hour to reach this point"
+    ],
+    "image_url": "https://i0.wp.com/vezzaniphotography.com/wp-content/uploads/2018/12/best-photo-spots-yosemite-1.jpg?resize=600%2C900&ssl=1",
+    "source_url": "https://vezzaniphotography.com/best-photo-spots-yosemite/"
+  },
+  {
+    "rank": 24,
+    "name": "Tunnel View",
+    "parkCode": "yose",
+    "description": "A classic Yosemite vista showing Bridal Veil Falls, El Capitan, and Half Dome from a single viewpoint.",
+    "best_time_of_day": [
+      "Before Sunrise",
+      "After Sunset"
+    ],
+    "tips": [
+      "Located just off Wawona Road next to the tunnel entrance"
+    ],
+    "image_url": "https://i0.wp.com/vezzaniphotography.com/wp-content/uploads/2018/12/best-photo-spots-yosemite-1-3.jpg?resize=1200%2C800&ssl=1",
+    "source_url": "https://vezzaniphotography.com/best-photo-spots-yosemite/"
+  },
+  {
+    "rank": 25,
+    "name": "Mariposa Grove",
+    "parkCode": "yose",
+    "description": "A grove of ancient, giant sequoia trees that offers a transportive experience walking among giants.",
+    "best_time_of_day": [
+      "Morning",
+      "Evening",
+      "Cloudy days"
+    ],
+    "tips": [
+      "Allow time for the 2 mile round trip walk among the trees"
+    ],
+    "image_url": "https://i0.wp.com/vezzaniphotography.com/wp-content/uploads/2018/12/best-photo-spots-yosemite-1-8.jpg?resize=1200%2C800&ssl=1",
+    "source_url": "https://vezzaniphotography.com/best-photo-spots-yosemite/"
+  },
+  {
+    "rank": 26,
+    "name": "El Capitan",
+    "parkCode": "yose",
+    "description": "A massive rock face and climber's dream that is a showpiece of the National Park.",
+    "best_time_of_day": [
+      "Sunrise"
+    ],
+    "tips": [
+      "Visible and photogenic from several locations along Northside and Southside Drive"
+    ],
+    "image_url": "https://i0.wp.com/vezzaniphotography.com/wp-content/uploads/2018/12/best-photo-spots-yosemite-1-7.jpg?resize=600%2C900&ssl=1",
+    "source_url": "https://vezzaniphotography.com/best-photo-spots-yosemite/"
+  },
+  {
+    "rank": 27,
+    "name": "Bridal Veil Fall",
+    "parkCode": "yose",
+    "description": "A spectacular waterfall where photography is best from a distance to capture its full scale.",
+    "best_time_of_day": [
+      "Morning",
+      "Evening",
+      "Cloudy days"
+    ],
+    "tips": [
+      "Shoot from a slight distance along the trail to avoid getting your camera equipment soaked"
+    ],
+    "image_url": "https://i0.wp.com/vezzaniphotography.com/wp-content/uploads/2018/12/best-photo-spots-yosemite-1-2.jpg?resize=600%2C900&ssl=1",
+    "source_url": "https://vezzaniphotography.com/best-photo-spots-yosemite/"
+  },
+  {
+    "rank": 28,
+    "name": "The Cascades",
+    "parkCode": "yose",
+    "description": "A hidden gem waterfall located just outside the western entrance of the park.",
+    "best_time_of_day": [
+      "Morning",
+      "Evening",
+      "Cloudy days"
+    ],
+    "tips": [
+      "Use the designated parking area for easy access to the view"
+    ],
+    "image_url": "https://i0.wp.com/vezzaniphotography.com/wp-content/uploads/2018/12/best-photo-spots-yosemite-1-6.jpg?resize=600%2C900&ssl=1",
+    "source_url": "https://vezzaniphotography.com/best-photo-spots-yosemite/"
+  },
+  {
+    "rank": 29,
+    "name": "The Merced River",
+    "parkCode": "yose",
+    "description": "A river running through the valley that provides excellent opportunities for soft water and long exposure photography.",
+    "best_time_of_day": [
+      "Morning",
+      "Evening",
+      "Cloudy days"
+    ],
+    "tips": [
+      "Look for various access points along Yosemite Valley for intimate and unique compositions"
+    ],
+    "image_url": "https://i0.wp.com/vezzaniphotography.com/wp-content/uploads/2018/11/Photographing-Silky-Waterfalls-1-5.jpg?resize=1200%2C800&ssl=1",
+    "source_url": "https://vezzaniphotography.com/best-photo-spots-yosemite/"
   }
 ]

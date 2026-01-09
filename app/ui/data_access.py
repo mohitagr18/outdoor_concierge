@@ -7,7 +7,7 @@ from app.services.data_manager import DataManager
 from app.models import (
     ParkContext, Campground, VisitorCenter, Webcam, 
     Place, ThingToDo, PassportStamp, Alert, Event, 
-    WeatherSummary, Amenity, PhotoSpot
+    WeatherSummary, Amenity, PhotoSpot, ScenicDrive
 )
 
 logger = logging.getLogger(__name__)
@@ -22,7 +22,7 @@ def get_park_static_data(park_code: str, nps_client=None) -> Dict[str, Any]:
         "park_details": None, "campgrounds": [], "visitor_centers": [],
         "webcams": [], "places": [], "things_to_do": [],
         "passport_stamps": [], "trails": [], "photo_spots": [],
-        "amenities": {}
+        "scenic_drives": [], "amenities": {}
     }
     
     # Generic loader helper
@@ -66,6 +66,8 @@ def get_park_static_data(park_code: str, nps_client=None) -> Dict[str, Any]:
     load_list("trails_v2.json", dict, "trails") 
     # Photo Spots (Now expects valid model structure from your fixed script)
     load_list("photo_spots.json", PhotoSpot, "photo_spots")
+    # Scenic Drives
+    load_list("scenic_drives.json", ScenicDrive, "scenic_drives")
 
     return result
 

@@ -122,4 +122,14 @@ def render_photo_spots(photo_spots):
                 # Footer
                 src = getattr(spot, "source_url", None)
                 if src:
-                    st.markdown(f"<div style='text-align:right; font-size:0.8em; margin-top:10px;'><a href='{src}' target='_blank' style='color:#888; text-decoration:none;'>Read Guide ↗</a></div>", unsafe_allow_html=True)
+                    st.markdown(
+                        f"<div style='margin-top:4px; margin-bottom:4px;'>"
+                        f"<a href='{src}' target='_blank' style='"
+                        f"display: inline-block; padding: 8px 8px; "
+                        f"background: linear-gradient(135deg, #3b82f6, #2563eb); color: white; "
+                        f"border-radius: 8px; font-size: 0.85em; font-weight: 600; "
+                        f"text-decoration: none; box-shadow: 0 2px 4px rgba(37,99,235,0.3);'>"
+                        f"📖 Read Guide ↗</a>"
+                        f"</div>", 
+                        unsafe_allow_html=True
+                    )

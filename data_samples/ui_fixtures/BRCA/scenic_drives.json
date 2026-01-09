@@ -1,0 +1,135 @@
+[
+  {
+    "rank": 1,
+    "name": "Southern Scenic Drive",
+    "parkCode": "brca",
+    "description": "Extending 15 miles from the Bryce Amphitheater area to the end of the road at Rainbow and Yovimpa Points, this route climbs over 1,000 feet in elevation. It features 9 overlooks showcasing the Paria Valley, the Grand Staircase, and unique geologic formations such as Natural Bridge, while traversing diverse forest communities from ponderosa to quaking aspen and white fir.",
+    "distance_miles": 15.0,
+    "drive_time": "2-3 hours",
+    "highlights": [
+      "Rainbow Point",
+      "Yovimpa Point",
+      "Agua Canyon",
+      "Natural Bridge",
+      "Swamp Canyon",
+      "Farview Point",
+      "Piracy Point"
+    ],
+    "best_time": "Any Time",
+    "tips": [
+      "Drive to the end first (Rainbow and Yovimpa Points) and visit viewpoints on the return trip so they are on the right-hand side of the road",
+      "Check the park's conditions page for temporary winter closures at the Mile 3 gate",
+      "Walk to the viewpoint railings as very little of the canyon is visible from the car",
+      "Pets are permitted on all paved surfaces like parking lots and viewpoints but not on unpaved trails",
+      "Vehicle idling and generator use is not permitted in park parking lots"
+    ],
+    "image_url": "https://www.nps.gov/common/uploads/cropped_image/primary/8644FCF8-E1C9-4C45-6CDE52E153F53894.jpg?width=1300&quality=90&mode=crop",
+    "source_url": "https://www.nps.gov/thingstodo/drive-the-southern-scenic-drive.htm"
+  },
+  {
+    "rank": 2,
+    "name": "Highway 63 (Main Bryce Canyon Road)",
+    "parkCode": "brca",
+    "description": "The primary driving route through Bryce Canyon National Park, Highway 63 runs south from Highway 12, passing the visitor center and campgrounds while providing access to the park's major scenic overlooks and iconic hoodoo-filled amphitheaters.",
+    "distance_miles": null,
+    "drive_time": null,
+    "highlights": [
+      "Visitor Center",
+      "Swamp Canyon",
+      "Farview Point",
+      "Natural Bridge",
+      "Agua Canyon",
+      "Ponderosa Canyon",
+      "Rainbow Point",
+      "Yovimpa Point"
+    ],
+    "best_time": "Summer (during shuttle operation)",
+    "tips": [
+      "A free shuttle operates during the summer season to alleviate limited parking at overlooks.",
+      "The road continues south past Bryce Point into key areas of the southern part of the park."
+    ],
+    "image_url": "https://ctfassets.ksldigital.com/0wjmk6wgfops/5pAdqcMX3GeNvoHFD9x3aU/5625d29066924f8d0bb897aea4afbe39/2da7c13189_52c710db-4248-466f-b19c-16466a3b84ef.jpg?q=70",
+    "source_url": "https://www.utah.com/things-to-do/scenic-drives/bryce-canyon-scenic-drives/"
+  },
+  {
+    "rank": 3,
+    "name": "Scenic Byway 12",
+    "parkCode": "brca",
+    "description": "Stretching through the Bryce Canyon and Grand Staircase-Escalante areas, this world-renowned route offers breathtaking vistas and designated scenic backways leading to unique backcountry locations. It is known for its diverse landscapes, from red rock formations to mountain vistas.",
+    "distance_miles": null,
+    "drive_time": null,
+    "highlights": [
+      "Grand Staircase-Escalante",
+      "Red Canyon",
+      "The Hogsback",
+      "Backcountry locations"
+    ],
+    "best_time": null,
+    "tips": [
+      "Check road and weather conditions at the nearest visitor center before travel",
+      "Carry plenty of gasoline, food, and water",
+      "Be aware that facilities are scarce along the backway corridors"
+    ],
+    "image_url": "https://i0.wp.com/www.brycecanyoncountry.com/wp-content/uploads/highway-12_scenic_byway_12_4f8183cf-084f-4dd9-88fc-da15d079a8ad-1.webp?fit=1200%2C800&ssl=1",
+    "source_url": "https://www.brycecanyoncountry.com/scenic-drives/"
+  },
+  {
+    "rank": 4,
+    "name": "Highway 12 (All American Road)",
+    "parkCode": "brca",
+    "description": "This All American Road cuts across the scenic northeastern portion of Bryce Canyon National Park, offering travelers close-up views of red rock formations, hoodoos, and access to unique natural features like Mossy Cave.",
+    "distance_miles": null,
+    "drive_time": null,
+    "highlights": [
+      "Mossy Cave Trail",
+      "Waterfall",
+      "Pink Cliffs",
+      "Scenic Arch",
+      "Red Rock Formations"
+    ],
+    "best_time": "Year-round (Summer for cool cave shade, Winter for giant icicles)",
+    "tips": [
+      "Look for the pullout that allows access to the Mossy Cave Trail.",
+      "Provides access to the Bryce Canyon area via the northern part of the park."
+    ],
+    "image_url": "https://ctfassets.ksldigital.com/0wjmk6wgfops/2bkYweQeMiM44QThYJWvU3/95fed37a6ffc3e61ff95191f018c1d77/f3b26a9442_0b3c4678-cf70-4c5f-a4d0-8065e3fa3227.jpg?w=1280&h=800&fit=fill&f=center&q=80",
+    "source_url": "https://www.utah.com/things-to-do/scenic-drives/bryce-canyon-scenic-drives/"
+  },
+  {
+    "rank": 5,
+    "name": "Byway 143 (Utah's Patchwork Parkway)",
+    "parkCode": "brca",
+    "description": "A beautiful scenic byway that provides breathtaking views and connects travelers to the diverse high-altitude landscapes of the Bryce Canyon region.",
+    "distance_miles": null,
+    "drive_time": null,
+    "highlights": [
+      "High-altitude vistas",
+      "Mountain scenery"
+    ],
+    "best_time": null,
+    "tips": [
+      "Check with local businesses for current road conditions",
+      "Prepare for variable mountain weather"
+    ],
+    "image_url": "https://i0.wp.com/www.brycecanyoncountry.com/wp-content/uploads/highway-143_byway143a_15606238-c26d-4b8a-be7a-ba8eeb4be90e.webp?fit=1920%2C1080&ssl=1",
+    "source_url": "https://www.brycecanyoncountry.com/scenic-drives/"
+  },
+  {
+    "rank": 6,
+    "name": "Scenic Highway 89",
+    "parkCode": "brca",
+    "description": "A historic and popular route for casual drives that offers stunning vistas as it winds through the beautiful terrain leading toward Bryce Canyon.",
+    "distance_miles": null,
+    "drive_time": null,
+    "highlights": [
+      "Historic corridor",
+      "Stunning vistas"
+    ],
+    "best_time": null,
+    "tips": [
+      "Visit the Bryce Canyon National Park Visitor Center for specific route recommendations"
+    ],
+    "image_url": "https://i0.wp.com/www.brycecanyoncountry.com/wp-content/uploads/highway-89_highway89_tobryce_42df4ad9-0891-4c9c-84a4-e456df7c38cb.webp?fit=800%2C420&ssl=1",
+    "source_url": "https://www.brycecanyoncountry.com/scenic-drives/"
+  }
+]

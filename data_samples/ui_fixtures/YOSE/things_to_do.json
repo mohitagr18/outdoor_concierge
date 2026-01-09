@@ -30,7 +30,9 @@
         "credit": ""
       }
     ],
-    "isReservationRequired": true
+    "isReservationRequired": true,
+    "doFeesApply": true,
+    "tags": []
   },
   {
     "id": "21B80074-4372-46FC-952F-ED23794DB45D",
@@ -59,7 +61,9 @@
         "credit": ""
       }
     ],
-    "isReservationRequired": false
+    "isReservationRequired": false,
+    "doFeesApply": false,
+    "tags": []
   },
   {
     "id": "A9336CBF-3CC4-4D45-AC6F-76FEA6B8DC64",
@@ -88,7 +92,9 @@
         "credit": ""
       }
     ],
-    "isReservationRequired": false
+    "isReservationRequired": false,
+    "doFeesApply": false,
+    "tags": []
   },
   {
     "id": "1ED6B9AE-E53A-4DEF-B02D-7F1B5739C9E1",
@@ -117,7 +123,9 @@
         "credit": ""
       }
     ],
-    "isReservationRequired": false
+    "isReservationRequired": false,
+    "doFeesApply": false,
+    "tags": []
   },
   {
     "id": "8738B1E1-76E5-4B65-B63A-795F1F95A54F",
@@ -146,7 +154,9 @@
         "credit": ""
       }
     ],
-    "isReservationRequired": true
+    "isReservationRequired": true,
+    "doFeesApply": true,
+    "tags": []
   },
   {
     "id": "A6576B1E-60A4-47E5-89A4-27101C00EC05",
@@ -175,7 +185,9 @@
         "credit": "NPS Photo / R. Lester"
       }
     ],
-    "isReservationRequired": false
+    "isReservationRequired": false,
+    "doFeesApply": false,
+    "tags": []
   },
   {
     "id": "0062509C-C548-453D-91ED-FC00DF3F6B7F",
@@ -209,7 +221,9 @@
         "credit": ""
       }
     ],
-    "isReservationRequired": false
+    "isReservationRequired": false,
+    "doFeesApply": false,
+    "tags": []
   },
   {
     "id": "28983F88-86AD-4D25-820A-82BFB22CFBE1",
@@ -238,7 +252,9 @@
         "credit": ""
       }
     ],
-    "isReservationRequired": false
+    "isReservationRequired": false,
+    "doFeesApply": false,
+    "tags": []
   },
   {
     "id": "23E4BFF7-E7AE-4835-86C0-2B1F33B58445",
@@ -267,7 +283,9 @@
         "credit": ""
       }
     ],
-    "isReservationRequired": false
+    "isReservationRequired": false,
+    "doFeesApply": false,
+    "tags": []
   },
   {
     "id": "DDE446EF-18A6-4D13-B26C-F43A95679D86",
@@ -296,7 +314,9 @@
         "credit": ""
       }
     ],
-    "isReservationRequired": false
+    "isReservationRequired": false,
+    "doFeesApply": false,
+    "tags": []
   },
   {
     "id": "D1D5B674-6B62-4311-BFB6-7E817AEB9440",
@@ -327,7 +347,12 @@
         "credit": "NPS Photo"
       }
     ],
-    "isReservationRequired": false
+    "isReservationRequired": false,
+    "doFeesApply": true,
+    "tags": [
+      "Badger Pass",
+      "ski area"
+    ]
   },
   {
     "id": "665A5ABB-7147-4166-8552-4EBDCC9FB0C2",
@@ -361,7 +386,12 @@
         "credit": ""
       }
     ],
-    "isReservationRequired": false
+    "isReservationRequired": false,
+    "doFeesApply": false,
+    "tags": [
+      "Museum",
+      "Rustic Architecture"
+    ]
   },
   {
     "id": "80F89D2E-C7C3-42EA-96CB-4AACE14A1DFC",
@@ -395,6 +425,8 @@
         "credit": ""
       }
     ],
-    "isReservationRequired": false
+    "isReservationRequired": false,
+    "doFeesApply": false,
+    "tags": []
   }
 ]
