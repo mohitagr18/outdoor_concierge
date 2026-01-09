@@ -101,15 +101,17 @@ static_data = get_park_static_data(park_code, nps_client=nps_client)
 volatile_data = get_volatile_data(park_code, orchestrator) if orchestrator else {}
 
 # --- 5. Main Tabs ---
-tab_chat, tab_explorer = st.tabs(["⛰️ AI Park Ranger", "🗺️ Park Explorer"])
-
-with tab_chat:
-    st.markdown("""
-    <h1 style="margin-bottom: 0.25rem;">⛰️ AI Park Ranger</h1>
+st.markdown("""
+    <h1 style="margin-bottom: 0.25rem;">⛰️ Adventure Concierge</h1>
     <p style="font-size: 1.25rem; color: #666; margin-bottom: 1.5rem;">
-        Ask about trails, plan itineraries, check conditions, or explore activities.
+        Your AI-powered guide for park planning, trail discovery, and real-time conditions.
     </p>
     """, unsafe_allow_html=True)
+
+tab_chat, tab_explorer = st.tabs(["🤠 AI Park Ranger", "🔭 Park Explorer"])
+
+with tab_chat:
+
     
     # Initialize history if empty (handled by SessionContext, but we need UI display list)
     if "ui_chat_history" not in st.session_state:
