@@ -2,30 +2,39 @@ import streamlit as st
 
 def inject_global_styles():
     """Calculates and injects global CSS for tabs and general layout."""
-    st.markdown("""
+    import base64
+    import os
+    
+    # Load sidebar background image if exists
+    sidebar_bg_css = ""
+    sidebar_bg_path = "app/static/background2.webp"
+    if os.path.exists(sidebar_bg_path):
+        with open(sidebar_bg_path, "rb") as f:
+            bg_data = base64.b64encode(f.read()).decode()
+        sidebar_bg_css = f"""
+            /* Sidebar Background Image */
+            section[data-testid="stSidebar"] {{
+                background-image: 
+                    linear-gradient(rgba(255, 255, 255, 0.2), rgba(255, 255, 255, 0.2)),
+                    url("data:image/webp;base64,{bg_data}");
+                background-size: cover;
+                background-repeat: no-repeat;
+                background-position: center;
+            }}
+        """
+    
+    st.markdown(f"""
         <style>
+            {sidebar_bg_css}
+            
             /* 1. Global Tab Styling (Apply to Outer Tabs) */
-            div[data-testid="stTabs"] button {
+            div[data-testid="stTabs"] button {{
                 gap: 30px; /* More space between tabs */
-            }
-            div[data-testid="stTabs"] button p {
+            }}
+            div[data-testid="stTabs"] button p {{
                 font-size: 16px !important; /* Smaller, cleaner font */
                 font-weight: 500 !important;
-            }
-            
-            /* 3. Color Overrides for ALL Tabs (Remove Red) */
-            /* Selected Tab Text */
-            div[data-testid="stTabs"] button[aria-selected="true"] p {
-                color: #2c3e50 !important; /* Dark Blue-Grey instead of Red */
-            }
-            /* Selected Tab Top Border */
-            div[data-testid="stTabs"] button[aria-selected="true"] {
-                border-top-color: #2c3e50 !important;
-            }
-            div[data-testid="stTabs"] button:hover {
-                color: #2c3e50 !important;
-                border-color: #2c3e50 !important;
-            }
+            }}
         </style>
     """, unsafe_allow_html=True)
 

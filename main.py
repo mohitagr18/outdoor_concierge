@@ -104,42 +104,7 @@ nps_client = orchestrator.nps if orchestrator else None
 static_data = get_park_static_data(park_code, nps_client=nps_client)
 volatile_data = get_volatile_data(park_code, orchestrator) if orchestrator else {}
 
-# --- 5. Main Tabs with Enhanced Styling ---
-# Custom CSS for enhanced tabs
-st.markdown("""
-<style>
-    /* Enhanced Tab Styling */
-    div[data-baseweb="tab-list"] {
-        gap: 24px;
-        background: linear-gradient(90deg, #f8f9fa 0%, #e9ecef 100%);
-        padding: 12px 24px;
-        border-radius: 16px;
-        margin-bottom: 1.5rem;
-    }
-    
-    div[data-baseweb="tab"] {
-        font-size: 1.3rem !important;
-        font-weight: 600 !important;
-        padding: 16px 32px !important;
-        border-radius: 10px !important;
-        transition: all 0.2s ease !important;
-    }
-    
-    div[data-baseweb="tab"]:hover {
-        background: rgba(45, 80, 22, 0.1) !important;
-    }
-    
-    div[aria-selected="true"] {
-        background: linear-gradient(135deg, #2d5016 0%, #4a7c23 100%) !important;
-        color: white !important;
-    }
-    
-    div[aria-selected="true"] p {
-        color: white !important;
-    }
-</style>
-""", unsafe_allow_html=True)
-
+# --- 5. Main Tabs ---
 tab_chat, tab_explorer = st.tabs(["⛰️ AI Park Ranger", "🗺️ Park Explorer"])
 
 with tab_chat:
