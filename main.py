@@ -91,12 +91,8 @@ if "view" in st.query_params:
     
 # --- 3. Sidebar ---
 with st.sidebar:
-    st.markdown("""
-    <div style="text-align: center; padding: 1rem 0;">
-        <span style="font-size: 3rem;">🏔️</span>
-        <h2 style="margin: 0.5rem 0 0 0; font-weight: 700; color: #2d5016;">Adventure<br/>Concierge</h2>
-    </div>
-    """, unsafe_allow_html=True)
+    # Empty spacer to keep sidebar visible with background image
+    st.markdown("<div style='height: 100vh;'></div>", unsafe_allow_html=True)
 
 # --- 4. Load Data ---
 park_code = st.session_state.selected_park
