@@ -11,15 +11,19 @@ def inject_custom_css():
         .metric-card {
             background-color: #ffffff;
             border-radius: 12px;
-            padding: 12px;
+            padding: 20px 12px;
             text-align: center;
             box-shadow: 0 1px 3px rgba(0,0,0,0.1);
             color: #333;
             height: 100%;
+            min-height: 270px;
             border: 1px solid #e5e7eb;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
         }
-        .metric-value { font-size: 20px; font-weight: 700; display: block; line-height: 1.2; }
-        .metric-label { font-size: 13px; color: #666; }
+        .metric-value { font-size: 42px; font-weight: 700; display: block; line-height: 1.2; margin: 8px 0; }
+        .metric-label { font-size: 18px; color: #666; }
         
         .dark-card {
             background-color: #1e293b;
@@ -125,7 +129,7 @@ def render_stat_cards(static_data):
         st.markdown(f"""
         <a href="?view=trails" target="_self" style="text-decoration:none;">
             <div class="metric-card">
-                <div style="font-size:24px; margin-bottom:2px;">⛰️</div>
+                <div style="font-size:48px; margin-bottom:8px;">⛰️</div>
                 <span class="metric-value">{trails}</span>
                 <span class="metric-label">Trails</span>
             </div>
@@ -136,7 +140,7 @@ def render_stat_cards(static_data):
         st.markdown(f"""
         <a href="?view=photos" target="_self" style="text-decoration:none;">
             <div class="metric-card">
-                <div style="font-size:24px; margin-bottom:2px;">📸</div>
+                <div style="font-size:48px; margin-bottom:8px;">📸</div>
                 <span class="metric-value">{photos}</span>
                 <span class="metric-label">Photo Spots</span>
             </div>
@@ -147,7 +151,7 @@ def render_stat_cards(static_data):
         st.markdown(f"""
         <a href="?view=camping" target="_self" style="text-decoration:none;">
             <div class="metric-card">
-                <div style="font-size:24px; margin-bottom:2px;">⛺</div>
+                <div style="font-size:48px; margin-bottom:8px;">⛺</div>
                 <span class="metric-value">{camps}</span>
                 <span class="metric-label">Campgrounds</span>
             </div>
@@ -163,7 +167,7 @@ def render_stat_cards(static_data):
         st.markdown(f"""
         <a href="?view=activities" target="_self" style="text-decoration:none;">
             <div class="metric-card">
-                <div style="font-size:24px; margin-bottom:2px;">🧗</div>
+                <div style="font-size:48px; margin-bottom:8px;">🧗</div>
                 <span class="metric-value">{activities}</span>
                 <span class="metric-label">Things to Do</span>
             </div>
@@ -174,7 +178,7 @@ def render_stat_cards(static_data):
         st.markdown(f"""
         <a href="?view=webcams" target="_self" style="text-decoration:none;">
             <div class="metric-card">
-                <div style="font-size:24px; margin-bottom:2px;">📹</div>
+                <div style="font-size:48px; margin-bottom:8px;">📹</div>
                 <span class="metric-value">{webcams}</span>
                 <span class="metric-label">Webcams</span>
             </div>
@@ -332,73 +336,132 @@ def render_zonal_weather(zone_weather: dict, base_zone_name: str, weather_zones:
             # Assume Pydantic model
             zone_configs.append(z.model_dump() if hasattr(z, 'model_dump') else z.__dict__)
             
-    zone_order = [z["name"] for z in zone_configs]
     zone_descriptions = {z["name"]: z.get("description", "") for z in zone_configs}
     
-    # Sort zones with base first, then by elevation
+    # Sort zones by elevation ASCENDING (lowest elevation first)
     sorted_zones = []
-    for zone_name in zone_order:
-        if zone_name in zone_weather:
-            sorted_zones.append((zone_name, zone_weather[zone_name]))
-    
-    # Add any zones not in config
     for zone_name, data in zone_weather.items():
-        if zone_name not in [z[0] for z in sorted_zones]:
-            sorted_zones.append((zone_name, data))
+        if hasattr(data, "elevation_ft"):
+            elev = data.elevation_ft
+        else:
+            elev = data.get("elevation_ft", 0)
+        sorted_zones.append((zone_name, data, elev))
     
-    # Build zone cards
+    sorted_zones.sort(key=lambda x: x[2])  # Sort by elevation ascending
+    
+    # Get forecast from BASE zone for shared display
+    base_forecast_list = []
+    for zone_name, data, _ in sorted_zones:
+        if zone_name == base_zone_name:
+            if hasattr(data, "forecast"):
+                base_forecast_list = getattr(data, "forecast", [])
+            else:
+                base_forecast_list = data.get("forecast", [])
+            break
+    
+    # If no base zone found, use first zone's forecast
+    if not base_forecast_list and sorted_zones:
+        first_data = sorted_zones[0][1]
+        if hasattr(first_data, "forecast"):
+            base_forecast_list = getattr(first_data, "forecast", [])
+        else:
+            base_forecast_list = first_data.get("forecast", [])
+    
+    # Build zone cards (without per-zone forecast)
     zone_cards_html = ""
-    for zone_name, forecast in sorted_zones:
+    for zone_name, forecast, _ in sorted_zones:
         # Extract data (handle both ZonalForecast model and dict)
         if hasattr(forecast, "current_temp_f"):
             temp = forecast.current_temp_f
             cond = forecast.current_condition
             elev = forecast.elevation_ft
-            delta = forecast.delta_from_base
         else:
             temp = forecast.get("current_temp_f", "--")
             cond = forecast.get("current_condition", "Unknown")
             elev = forecast.get("elevation_ft", 0)
-            delta = forecast.get("delta_from_base")
-        
-        # Format delta string
-        delta_str = ""
-        if delta is not None and delta != 0:
-            direction = "cooler" if delta < 0 else "warmer"
-            delta_str = f'<span style="font-size:12px; color:#94a3b8;"> • {abs(delta):.1f}°F {direction}</span>'
         
         # Base zone badge
         base_badge = ""
         if zone_name == base_zone_name:
             base_badge = '<span style="background:#3b82f6; color:white; padding:2px 6px; border-radius:4px; font-size:10px; margin-left:8px;">BASE</span>'
         
-        # Description
+        # Description - enhanced visibility with brighter color
         desc = zone_descriptions.get(zone_name, "")
-        desc_html = f'<div style="font-size:11px; color:#64748b;">{desc}</div>' if desc else ""
+        desc_html = f'<div style="font-size:12px; color:#a1b5d8; margin-top:4px;">{desc}</div>' if desc else ""
         
         zone_cards_html += f"""
 <div style="background:#1e293b; border-radius:8px; padding:12px; margin-bottom:8px;">
-    <div style="display:flex; justify-content:space-between; align-items:center;">
-        <div>
-            <div style="font-weight:600; color:#e2e8f0;">{zone_name}{base_badge}</div>
-            <div style="font-size:12px; color:#94a3b8;">📍 {elev:,} ft</div>
-            {desc_html}
-        </div>
-        <div style="text-align:right;">
-            <div style="font-size:24px; font-weight:700; color:white;">{temp:.0f}°F</div>
-            <div style="font-size:13px; color:#cbd5e1;">{cond}{delta_str}</div>
-        </div>
-    </div>
+<div style="display:flex; justify-content:space-between; align-items:flex-start;">
+<div>
+<div style="font-weight:600; color:#e2e8f0;">{zone_name}{base_badge}</div>
+<div style="font-size:12px; color:#94a3b8;">📍 {elev:,} ft</div>
+{desc_html}
+</div>
+<div style="text-align:right;">
+<div style="font-size:24px; font-weight:700; color:white;">{temp:.1f}°F</div>
+<div style="font-size:13px; color:#cbd5e1;">{cond}</div>
+</div>
+</div>
+</div>
+"""
+    
+    # Build shared forecast section
+    forecast_html = ""
+    if base_forecast_list:
+        forecast_items = []
+        for day in base_forecast_list[:3]:
+            if isinstance(day, dict):
+                d_date = day.get("date", "")
+                d_high = day.get("maxtemp_f", "--")
+                d_low = day.get("mintemp_f", "--")
+                c_raw = day.get("condition", "")
+                d_cond = (c_raw.get("text", "") if isinstance(c_raw, dict) else str(c_raw)).lower()
+            else:
+                d_date = getattr(day, "date", "")
+                d_high = getattr(day, "maxtemp_f", "--")
+                d_low = getattr(day, "mintemp_f", "--")
+                d_cond = getattr(day, "condition", "").lower()
+            
+            # Date formatting
+            try:
+                date_obj = datetime.datetime.strptime(str(d_date), "%Y-%m-%d")
+                clean_date = date_obj.strftime("%a")
+            except:
+                clean_date = str(d_date)[:3]
+            
+            # Icon logic
+            icon = "☀️"
+            if "cloud" in d_cond or "overcast" in d_cond: icon = "☁️"
+            if "partly" in d_cond: icon = "⛅"
+            if "rain" in d_cond or "drizzle" in d_cond: icon = "🌧️"
+            if "snow" in d_cond: icon = "❄️"
+            if "thunder" in d_cond: icon = "⛈️"
+            
+            try:
+                high_val = f"{float(d_high):.0f}"
+                low_val = f"{float(d_low):.0f}"
+            except:
+                high_val, low_val = "--", "--"
+            
+            forecast_items.append(f'<div style="text-align:center; min-width:70px;"><div style="font-size:20px;">{icon}</div><div style="font-size:13px; font-weight:600; color:#cbd5e1;">{clean_date}</div><div style="font-size:12px; color:#94a3b8;">{high_val}°/{low_val}°</div></div>')
+        
+        if forecast_items:
+            forecast_html = f"""
+<div style="background:#0f172a; border-radius:8px; padding:12px; margin-top:12px;">
+<div style="font-size:12px; color:#64748b; margin-bottom:8px;">📅 3-Day Forecast</div>
+<div style="display:flex; justify-content:space-around; align-items:center;">
+{"".join(forecast_items)}
+</div>
 </div>
 """
     
     # Main container
-    # Main container
     main_html = f"""
 <div class="dark-card" style="padding:16px;">
-<div style="font-size:14px; color:#94a3b8; margin-bottom:12px;">🌡️ Weather by Elevation</div>
+<div style="font-size:24px; font-weight:600; color:#e2e8f0; margin-bottom:16px;">🌡️ Weather by Elevation</div>
 {zone_cards_html}
-<div style="font-size:11px; color:#64748b; margin-top:8px; padding-top:8px; border-top:1px solid #334155;">
+{forecast_html}
+<div style="font-size:12px; color:#a1b5d8; margin-top:12px; padding:10px; background:#0f172a; border-radius:6px; border-left:3px solid #3b82f6;">
 ℹ️ Temperature varies ~3.5°F per 1,000 ft elevation change
 </div>
 </div>

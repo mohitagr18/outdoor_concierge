@@ -55,6 +55,10 @@ def render_trails_browser(park_code: str, static_data, volatile_data=None):
         trail_zone = item.get("weather_zone")
         elev_ft = item.get("trailhead_elevation_ft")
         
+        # Fallback: use base zone if trail doesn't have a zone assigned
+        if not trail_zone and base_zone_name:
+            trail_zone = base_zone_name
+        
         if zone_weather and trail_zone:
             # Convert dict cache to object if needed for adapter, or adapter handles dict?
             # get_trail_weather expects Dict[str, ZonalForecast]. 
@@ -263,7 +267,7 @@ def render_trails_browser(park_code: str, static_data, volatile_data=None):
                     
                     # Show rank separately if available
                     if pd.notna(row.get('popularity_rank')):
-                        st.caption(f"**Rank #{int(row['popularity_rank'])}**")
+                        st.markdown(f"<p style='font-size:0.875em; margin:0 0 0.25em 0;'><strong>Rank #{int(row['popularity_rank'])}</strong></p>", unsafe_allow_html=True)
                     
                     # Metrics line with embedded reviews link
                     metrics = []
@@ -277,28 +281,18 @@ def render_trails_browser(park_code: str, static_data, volatile_data=None):
                     
                     if pd.notna(row['rating']):
                         if pd.notna(row['reviews']) and row['url_at']:
-                            # Embed reviews link
                             metrics.append(f"⭐ {row['rating']} ([{int(row['reviews'])} reviews]({row['url_at']}?reviews=true))")
                         elif pd.notna(row['reviews']):
                             metrics.append(f"⭐ {row['rating']} ({int(row['reviews'])} reviews)")
                         else:
                             metrics.append(f"⭐ {row['rating']}")
                     
-                    st.caption(" • ".join(metrics))
-                    
-                    # Weather Badge (NEW)
+                    # Weather inline with metrics
                     wx = row.get("weather")
                     if wx:
-                        temp = wx['temp']
-                        cond = wx['condition']
-                        delta = wx.get('delta_from_base')
-                        
-                        delta_str = ""
-                        if delta is not None and delta != 0:
-                             d_type = "cooler" if delta < 0 else "warmer"
-                             delta_str = f" • {abs(delta):.1f}°F {d_type}"
-                        
-                        st.info(f"🌡️ **{temp:.0f}°F** {cond}{delta_str} (Zone: {wx['zone_name']})")
+                        metrics.append(f"🌡️ {wx['temp']:.0f}°F {wx['condition']}")
+                    
+                    st.markdown(" • ".join(metrics))
                     
                     # Description (full for top trails) - prefer clean then NPS listing/body then image alt/caption
                     desc_choices = [row.get('desc'), row.get('raw_listing_description'), row.get('raw_body_text'), row.get('img_alt'), row.get('img_caption')]
@@ -354,15 +348,20 @@ def render_trails_browser(park_code: str, static_data, volatile_data=None):
                         metrics.append(f"🔄 {row['route_type']}")
                     if pd.notna(row['rating']):
                         if pd.notna(row['reviews']) and row['url_at']:
-                            # Embed reviews link
-                            metrics.append(f"⭐ {row['rating']} ([{int(row['reviews'])} reviews]({row['url_at']}?reviews=true))")
+                            # Use HTML link since we're in HTML context
+                            metrics.append(f"⭐ {row['rating']} (<a href='{row['url_at']}?reviews=true' target='_blank'>{int(row['reviews'])} reviews</a>)")
                         elif pd.notna(row['reviews']):
                             metrics.append(f"⭐ {row['rating']} ({int(row['reviews'])} reviews)")
                         else:
                             metrics.append(f"⭐ {row['rating']}")
                     
+                    # Weather inline
+                    wx = row.get("weather")
+                    if wx:
+                        metrics.append(f"🌡️ {wx['temp']:.0f}°F")
+                    
                     if metrics:
-                        st.caption(" • ".join(metrics))
+                        st.markdown(f"<p style='font-size:0.875em; margin:0;'>{' • '.join(metrics)}</p>", unsafe_allow_html=True)
                     
                     st.divider()
                 
