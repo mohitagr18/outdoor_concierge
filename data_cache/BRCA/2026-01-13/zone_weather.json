@@ -1,0 +1,116 @@
+{
+  "Amphitheater": {
+    "zone_name": "Amphitheater",
+    "elevation_ft": 8000,
+    "current_temp_f": 32.5,
+    "current_condition": "Sunny",
+    "wind_mph": 6.7,
+    "humidity": 54,
+    "forecast": [
+      {
+        "date": "2026-01-13",
+        "maxtemp_f": 50.0,
+        "mintemp_f": 24.3,
+        "avgtemp_f": 33.0,
+        "daily_chance_of_rain": 0,
+        "condition": "Sunny",
+        "uv": 0.5
+      },
+      {
+        "date": "2026-01-14",
+        "maxtemp_f": 50.5,
+        "mintemp_f": 26.2,
+        "avgtemp_f": 35.3,
+        "daily_chance_of_rain": 0,
+        "condition": "Sunny",
+        "uv": 0.6
+      },
+      {
+        "date": "2026-01-15",
+        "maxtemp_f": 48.9,
+        "mintemp_f": 23.7,
+        "avgtemp_f": 33.2,
+        "daily_chance_of_rain": 0,
+        "condition": "Sunny",
+        "uv": 0.6
+      }
+    ],
+    "delta_from_base": null
+  },
+  "High Plateau": {
+    "zone_name": "High Plateau",
+    "elevation_ft": 9100,
+    "current_temp_f": 28.6,
+    "current_condition": "Sunny",
+    "wind_mph": 6.7,
+    "humidity": 54,
+    "forecast": [
+      {
+        "date": "2026-01-13",
+        "maxtemp_f": 50.0,
+        "mintemp_f": 24.3,
+        "avgtemp_f": 33.0,
+        "daily_chance_of_rain": 0,
+        "condition": "Sunny",
+        "uv": 0.5
+      },
+      {
+        "date": "2026-01-14",
+        "maxtemp_f": 50.5,
+        "mintemp_f": 26.2,
+        "avgtemp_f": 35.3,
+        "daily_chance_of_rain": 0,
+        "condition": "Sunny",
+        "uv": 0.6
+      },
+      {
+        "date": "2026-01-15",
+        "maxtemp_f": 48.9,
+        "mintemp_f": 23.7,
+        "avgtemp_f": 33.2,
+        "daily_chance_of_rain": 0,
+        "condition": "Sunny",
+        "uv": 0.6
+      }
+    ],
+    "delta_from_base": -3.9
+  },
+  "Northern Canyon": {
+    "zone_name": "Northern Canyon",
+    "elevation_ft": 7200,
+    "current_temp_f": 35.3,
+    "current_condition": "Sunny",
+    "wind_mph": 6.7,
+    "humidity": 54,
+    "forecast": [
+      {
+        "date": "2026-01-13",
+        "maxtemp_f": 50.0,
+        "mintemp_f": 24.3,
+        "avgtemp_f": 33.0,
+        "daily_chance_of_rain": 0,
+        "condition": "Sunny",
+        "uv": 0.5
+      },
+      {
+        "date": "2026-01-14",
+        "maxtemp_f": 50.5,
+        "mintemp_f": 26.2,
+        "avgtemp_f": 35.3,
+        "daily_chance_of_rain": 0,
+        "condition": "Sunny",
+        "uv": 0.6
+      },
+      {
+        "date": "2026-01-15",
+        "maxtemp_f": 48.9,
+        "mintemp_f": 23.7,
+        "avgtemp_f": 33.2,
+        "daily_chance_of_rain": 0,
+        "condition": "Sunny",
+        "uv": 0.6
+      }
+    ],
+    "delta_from_base": 2.8
+  }
+}

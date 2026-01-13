@@ -1,0 +1,427 @@
+[
+  {
+    "title": "Family Ranger Talk (Yosemite Valley)",
+    "description": "<p>Topics vary. Meet in front of the Yosemite Valley Welcome Center (shuttle stop 2.)</p>\n<p><em>Program hosted by the National Park Service.</em></p>",
+    "date_start": "2024-09-25",
+    "date_end": "2026-01-27",
+    "is_free": true,
+    "location": "Meet outside the welcome center, located next to Yosemite Village Parking. Use Shuttle Stops 1, 2, or 4.",
+    "times": [
+      {
+        "timestart": "02:00 PM",
+        "timeend": "02:15 PM",
+        "sunrisestart": "false",
+        "sunsetend": "false"
+      }
+    ],
+    "images": [
+      {
+        "url": "https://www.nps.gov/common/uploads/event_calendar/E9BF4241-BC6A-F849-ECEFB10BF5620193.jpg",
+        "title": "",
+        "altText": "Arrowhead symbol for the National Park Service.",
+        "caption": "This program is hosted by the National Park Service",
+        "credit": "NPS"
+      }
+    ],
+    "dates": [
+      "2026-01-13",
+      "2026-01-14",
+      "2026-01-15",
+      "2026-01-16",
+      "2026-01-17",
+      "2026-01-18",
+      "2026-01-19",
+      "2026-01-20",
+      "2026-01-21",
+      "2026-01-22",
+      "2026-01-23",
+      "2026-01-24",
+      "2026-01-25",
+      "2026-01-26",
+      "2026-01-27"
+    ],
+    "tags": [],
+    "types": [
+      "Children\u2019s Program",
+      "Talk"
+    ],
+    "fee_info": "This is a free program."
+  },
+  {
+    "title": "Historic Ahwahnee Hotel Tour (Yosemite Valley)",
+    "description": "<p>Learn about the history behind Yosemite\u2019s famous luxury hotel on this complimentary one-hour tour.<br />Meet on the hotel\u2019s back lawn.</p>\n<p><em>Program hosted by Yosemite Hospitality.</em></p>",
+    "date_start": "2024-09-25",
+    "date_end": "2026-01-27",
+    "is_free": true,
+    "location": "",
+    "times": [
+      {
+        "timestart": "02:00 PM",
+        "timeend": "03:00 PM",
+        "sunrisestart": "false",
+        "sunsetend": "false"
+      }
+    ],
+    "images": [
+      {
+        "url": "https://www.nps.gov/common/uploads/event_calendar/E77080EC-F9CC-DD17-9E5CE3872EF52CAB.jpg",
+        "title": "",
+        "altText": "Logo for Yosemite Hospitality",
+        "caption": "This program is hosted by Yosemite Hospitality.",
+        "credit": "YH"
+      }
+    ],
+    "dates": [
+      "2026-01-13",
+      "2026-01-14",
+      "2026-01-15",
+      "2026-01-16",
+      "2026-01-17",
+      "2026-01-18",
+      "2026-01-19",
+      "2026-01-20",
+      "2026-01-21",
+      "2026-01-22",
+      "2026-01-23",
+      "2026-01-24",
+      "2026-01-25",
+      "2026-01-26",
+      "2026-01-27"
+    ],
+    "tags": [],
+    "types": [
+      "Guided Tour",
+      "Partner Program"
+    ],
+    "fee_info": "This is a free tour."
+  },
+  {
+    "title": "In the Field: Creative Smartphone Photography (Yosemite Valley)",
+    "description": "<p>Join a staff photographer to learn how to make better photographs with the camera you always carry.</p>\n<p><em>Classes hosted by The Ansel Adams Gallery.</em></p>",
+    "date_start": "2025-01-29",
+    "date_end": "2026-01-27",
+    "is_free": false,
+    "location": "The Ansel Adams Gallery is located in Yosemtie Village, near shuttle stop 5.",
+    "times": [
+      {
+        "timestart": "09:00 AM",
+        "timeend": "12:00 PM",
+        "sunrisestart": "false",
+        "sunsetend": "false"
+      }
+    ],
+    "images": [
+      {
+        "url": "https://www.nps.gov/common/uploads/event_calendar/EE6C0F5D-D212-E5D1-2BD4E93D255A7653.jpg",
+        "title": "",
+        "altText": "Logo for the Ansel Adams Gallery",
+        "caption": "This program is hosted by the Ansel Adams Gallery.",
+        "credit": "TAAG"
+      }
+    ],
+    "dates": [
+      "2026-01-14",
+      "2026-01-21"
+    ],
+    "tags": [],
+    "types": [
+      "Partner Program"
+    ],
+    "fee_info": "$95/person"
+  },
+  {
+    "title": "The Ansel Adams Gallery Photography Walk (Yosemite Valley)",
+    "description": "<p>Join a staff photographer for a brief field lecture in Yosemite Valley.\u00a0Space is limited; registration required.</p>",
+    "date_start": "2025-01-29",
+    "date_end": "2026-01-27",
+    "is_free": true,
+    "location": "The Ansel Adams Gallery is located in Yosemite Village, near shuttle stop 5.",
+    "times": [
+      {
+        "timestart": "09:00 AM",
+        "timeend": "10:30 AM",
+        "sunrisestart": "false",
+        "sunsetend": "false"
+      }
+    ],
+    "images": [
+      {
+        "url": "https://www.nps.gov/common/uploads/event_calendar/EE28C631-CC02-9B5A-07CEB0870D883A5A.jpg",
+        "title": "",
+        "altText": "Logo for the Ansel Adams Gallery",
+        "caption": "This program is hosted by the Ansel Adams Gallery.",
+        "credit": "TAAG"
+      }
+    ],
+    "dates": [
+      "2026-01-13",
+      "2026-01-15",
+      "2026-01-20",
+      "2026-01-22",
+      "2026-01-27"
+    ],
+    "tags": [],
+    "types": [
+      "Partner Program"
+    ],
+    "fee_info": "This is a free class."
+  },
+  {
+    "title": "Discovery Walk (Yosemite Valley)",
+    "description": "<p>Join a ranger for an easy walk and learn more about what makes Yosemite special. Topics vary daily. Meet in front of the museum in Yosemite Village (use shuttle stop 5.)</p>",
+    "date_start": "2025-07-08",
+    "date_end": "2026-03-17",
+    "is_free": true,
+    "location": "",
+    "times": [
+      {
+        "timestart": "10:30 AM",
+        "timeend": "11:30 AM",
+        "sunrisestart": "false",
+        "sunsetend": "false"
+      }
+    ],
+    "images": [
+      {
+        "url": "https://www.nps.gov/common/uploads/event_calendar/E7542EC4-F3D3-CB7F-071634C2A78B9059.jpg",
+        "title": "",
+        "altText": "Arrowhead symbol for the National Park Service.",
+        "caption": "This program is hosted by the National Park Service",
+        "credit": "NPS"
+      }
+    ],
+    "dates": [
+      "2026-01-13",
+      "2026-01-14",
+      "2026-01-20",
+      "2026-01-21",
+      "2026-01-27",
+      "2026-01-28",
+      "2026-02-03",
+      "2026-02-04",
+      "2026-02-10",
+      "2026-02-11",
+      "2026-02-17",
+      "2026-02-18",
+      "2026-02-24",
+      "2026-02-25",
+      "2026-03-03",
+      "2026-03-04",
+      "2026-03-10",
+      "2026-03-11",
+      "2026-03-17"
+    ],
+    "tags": [],
+    "types": [
+      "Walk"
+    ],
+    "fee_info": "This is a free program."
+  },
+  {
+    "title": "Guided Nature Walk (Yosemite Valley)",
+    "description": "<p>Join a naturalist for an easy guided walk of Yosemite\u2019s natural areas. Meet at the Yosemite Valley Lodge Amphitheater, near the lodge's front office (use shuttle stop 7.)</p>\n<p><em>Program hosted by Yosemite Hospitality.</em></p>",
+    "date_start": "2025-08-20",
+    "date_end": "2026-01-27",
+    "is_free": true,
+    "location": "The Yosemite Valley Lodge amphitheater is located in the courtyard behind the Lodge front desk. Use Shuttle Stop 7 or Yosemite Falls Parking.",
+    "times": [
+      {
+        "timestart": "03:00 PM",
+        "timeend": "04:00 PM",
+        "sunrisestart": "false",
+        "sunsetend": "false"
+      }
+    ],
+    "images": [
+      {
+        "url": "https://www.nps.gov/common/uploads/event_calendar/E77080EC-F9CC-DD17-9E5CE3872EF52CAB.jpg",
+        "title": "",
+        "altText": "Logo for Yosemite Hospitality",
+        "caption": "This program is hosted by Yosemite Hospitality.",
+        "credit": "YH"
+      }
+    ],
+    "dates": [
+      "2026-01-13",
+      "2026-01-14",
+      "2026-01-15",
+      "2026-01-16",
+      "2026-01-17",
+      "2026-01-18",
+      "2026-01-19",
+      "2026-01-20",
+      "2026-01-21",
+      "2026-01-22",
+      "2026-01-23",
+      "2026-01-24",
+      "2026-01-25",
+      "2026-01-26",
+      "2026-01-27"
+    ],
+    "tags": [],
+    "types": [
+      "Partner Program",
+      "Walk"
+    ],
+    "fee_info": "This is a free program"
+  },
+  {
+    "title": "Yosemite After Dark (Yosemite Valley)",
+    "description": "<p>Grab a flashlight and join a Yosemite naturalist for a nature walk at night!</p>\n<p><em>Program hosted by Yosemite Hospitality.</em></p>",
+    "date_start": "2025-09-24",
+    "date_end": "2026-01-27",
+    "is_free": false,
+    "location": "Yosemite Valley. Meetup location provided upon registration.",
+    "times": [
+      {
+        "timestart": "07:30 PM",
+        "timeend": "09:00 PM",
+        "sunrisestart": "false",
+        "sunsetend": "false"
+      }
+    ],
+    "images": [
+      {
+        "url": "https://www.nps.gov/common/uploads/event_calendar/E8218045-A91C-6E43-4F90718CB1C4E973.jpg",
+        "title": "",
+        "altText": "Logo for Yosemite Hospitality",
+        "caption": "This program is hosted by Yosemite Hospitality.",
+        "credit": "YH"
+      }
+    ],
+    "dates": [
+      "2026-01-13",
+      "2026-01-14",
+      "2026-01-15",
+      "2026-01-16",
+      "2026-01-17",
+      "2026-01-18",
+      "2026-01-19",
+      "2026-01-20",
+      "2026-01-21",
+      "2026-01-22",
+      "2026-01-23",
+      "2026-01-24",
+      "2026-01-25",
+      "2026-01-26",
+      "2026-01-27"
+    ],
+    "tags": [],
+    "types": [
+      "Campfire/Evening Program",
+      "Partner Program",
+      "Walk"
+    ],
+    "fee_info": "Purchase tickets online or at a Yosemite Valley tour desk."
+  },
+  {
+    "title": "Evening Programs (Yosemite Valley)",
+    "description": "<p>Yosemite naturalists present a variety of topics on natural and cultural history. Meet at the Yosemite Valley Lodge Cliff Room (between the lounge and gift shop. Use shuttle stop 7.)</p>\n<p><em>Program hosted by Yosemite Hospitality.</em></p>",
+    "date_start": "2025-11-01",
+    "date_end": "2026-01-27",
+    "is_free": true,
+    "location": "",
+    "times": [
+      {
+        "timestart": "07:00 PM",
+        "timeend": "07:30 PM",
+        "sunrisestart": "false",
+        "sunsetend": "false"
+      }
+    ],
+    "images": [
+      {
+        "url": "https://www.nps.gov/common/uploads/event_calendar/E7E43364-A769-9087-F0CF6BF9483EE5A3.jpg",
+        "title": "",
+        "altText": "Logo for Yosemite Hospitality",
+        "caption": "This program is hosted by Yosemite Hospitality.",
+        "credit": "YH"
+      }
+    ],
+    "dates": [
+      "2026-01-14",
+      "2026-01-16",
+      "2026-01-17",
+      "2026-01-21",
+      "2026-01-23",
+      "2026-01-24"
+    ],
+    "tags": [],
+    "types": [
+      "Campfire/Evening Program",
+      "Partner Program",
+      "Talk"
+    ],
+    "fee_info": "This is a free program."
+  },
+  {
+    "title": "In the Field: Creative Smartphone Photography (Yosemite Valley)",
+    "description": "<p>Join a staff photographer to learn how to make better photographs with the camera you always carry.</p>\n<p><em>Classes hosted by The Ansel Adams Gallery.</em></p>",
+    "date_start": "2025-11-26",
+    "date_end": "2026-01-27",
+    "is_free": false,
+    "location": "The Ansel Adams Gallery is located in Yosemtie Village, near shuttle stop 5.",
+    "times": [
+      {
+        "timestart": "12:30 PM",
+        "timeend": "03:30 PM",
+        "sunrisestart": "false",
+        "sunsetend": "false"
+      }
+    ],
+    "images": [
+      {
+        "url": "https://www.nps.gov/common/uploads/event_calendar/EE6C0F5D-D212-E5D1-2BD4E93D255A7653.jpg",
+        "title": "",
+        "altText": "Logo for the Ansel Adams Gallery",
+        "caption": "This program is hosted by the Ansel Adams Gallery.",
+        "credit": "TAAG"
+      }
+    ],
+    "dates": [
+      "2026-01-17",
+      "2026-01-24"
+    ],
+    "tags": [],
+    "types": [
+      "Partner Program"
+    ],
+    "fee_info": "$95/person"
+  },
+  {
+    "title": "In the Footsteps of Ansel Adams (Yosemite Valley)",
+    "description": "<p>Join a staff photographer for a field class around Yosemite Valley.</p>\n<p><em>Classes hosted by The Ansel Adams Gallery.</em></p>",
+    "date_start": "2025-11-26",
+    "date_end": "2026-01-27",
+    "is_free": false,
+    "location": "The Ansel Adams Gallery is located in Yosemtie Village, near shuttle stop 5.",
+    "times": [
+      {
+        "timestart": "12:30 PM",
+        "timeend": "04:30 PM",
+        "sunrisestart": "false",
+        "sunsetend": "false"
+      }
+    ],
+    "images": [
+      {
+        "url": "https://www.nps.gov/common/uploads/event_calendar/EE6C0F5D-D212-E5D1-2BD4E93D255A7653.jpg",
+        "title": "",
+        "altText": "Logo for the Ansel Adams Gallery",
+        "caption": "This program is hosted by the Ansel Adams Gallery.",
+        "credit": "TAAG"
+      }
+    ],
+    "dates": [
+      "2026-01-15",
+      "2026-01-19",
+      "2026-01-22",
+      "2026-01-26"
+    ],
+    "tags": [],
+    "types": [
+      "Partner Program"
+    ],
+    "fee_info": "$95/person"
+  }
+]
