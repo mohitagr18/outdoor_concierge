@@ -6,6 +6,9 @@ import datetime
 
 # --- 1. STYLING (Unchanged) ---
 def inject_custom_css():
+    # Font Awesome CDN for icons
+    st.markdown('<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">', unsafe_allow_html=True)
+    
     st.markdown("""
         <style>
         .metric-card {
@@ -372,13 +375,35 @@ def render_zonal_weather(zone_weather: dict, base_zone_name: str, weather_zones:
     for zone_name, forecast, _ in sorted_zones:
         # Extract data (handle both ZonalForecast model and dict)
         if hasattr(forecast, "current_temp_f"):
-            temp = forecast.current_temp_f
             cond = forecast.current_condition
             elev = forecast.elevation_ft
+            wind = getattr(forecast, "wind_mph", None)
+            humidity = getattr(forecast, "humidity", None)
+            zone_forecast = getattr(forecast, "forecast", [])
         else:
-            temp = forecast.get("current_temp_f", "--")
             cond = forecast.get("current_condition", "Unknown")
             elev = forecast.get("elevation_ft", 0)
+            wind = forecast.get("wind_mph")
+            humidity = forecast.get("humidity")
+            zone_forecast = forecast.get("forecast", [])
+        
+        # Get today's high/low from forecast
+        high_temp = "--"
+        low_temp = "--"
+        if zone_forecast and len(zone_forecast) > 0:
+            today = zone_forecast[0]
+            if isinstance(today, dict):
+                high_temp = today.get("maxtemp_f", "--")
+                low_temp = today.get("mintemp_f", "--")
+            else:
+                high_temp = getattr(today, "maxtemp_f", "--")
+                low_temp = getattr(today, "mintemp_f", "--")
+        
+        # Format temps
+        if high_temp != "--":
+            high_temp = f"{float(high_temp):.0f}"
+        if low_temp != "--":
+            low_temp = f"{float(low_temp):.0f}"
         
         # Base zone badge
         base_badge = ""
@@ -389,6 +414,14 @@ def render_zonal_weather(zone_weather: dict, base_zone_name: str, weather_zones:
         desc = zone_descriptions.get(zone_name, "")
         desc_html = f'<div style="font-size:12px; color:#a1b5d8; margin-top:4px;">{desc}</div>' if desc else ""
         
+        # Wind and humidity line
+        details_parts = []
+        if wind is not None:
+            details_parts.append(f'<i class="fa-solid fa-wind"></i> {wind:.0f} mph')
+        if humidity is not None:
+            details_parts.append(f"💧 {humidity}%")
+        details_html = f'<div style="font-size:12px; color:#94a3b8; margin-top:4px;">{" • ".join(details_parts)}</div>' if details_parts else ""
+        
         zone_cards_html += f"""
 <div style="background:#1e293b; border-radius:8px; padding:12px; margin-bottom:8px;">
 <div style="display:flex; justify-content:space-between; align-items:flex-start;">
@@ -398,8 +431,9 @@ def render_zonal_weather(zone_weather: dict, base_zone_name: str, weather_zones:
 {desc_html}
 </div>
 <div style="text-align:right;">
-<div style="font-size:24px; font-weight:700; color:white;">{temp:.1f}°F</div>
+<div style="font-size:24px; font-weight:700; color:white;">{high_temp}°<span style="font-size:16px; color:#94a3b8;">/{low_temp}°F</span></div>
 <div style="font-size:13px; color:#cbd5e1;">{cond}</div>
+{details_html}
 </div>
 </div>
 </div>
@@ -462,7 +496,7 @@ def render_zonal_weather(zone_weather: dict, base_zone_name: str, weather_zones:
 {zone_cards_html}
 {forecast_html}
 <div style="font-size:12px; color:#a1b5d8; margin-top:12px; padding:10px; background:#0f172a; border-radius:6px; border-left:3px solid #3b82f6;">
-ℹ️ Temperature varies ~3.5°F per 1,000 ft elevation change
+ℹ️ Weather data from nearest weather stations. Temperature varies ~3.5°F per 1,000 ft elevation.
 </div>
 </div>
 """

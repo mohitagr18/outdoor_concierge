@@ -6,6 +6,30 @@
     "lat": 37.29839254,
     "lon": -113.0265138
   },
+  "weather_zones": [
+    {
+      "name": "Canyon Floor",
+      "elevation_ft": 4000,
+      "lat": 37.2594,
+      "lon": -112.9507,
+      "description": "Zion Lodge, Riverside Walk, The Narrows"
+    },
+    {
+      "name": "East Mesa",
+      "elevation_ft": 6500,
+      "lat": 37.2500,
+      "lon": -112.8800,
+      "description": "Observation Point, Canyon Overlook"
+    },
+    {
+      "name": "Kolob Terrace",
+      "elevation_ft": 8000,
+      "lat": 37.4167,
+      "lon": -113.0167,
+      "description": "Lava Point, Kolob Arch"
+    }
+  ],
+  "base_weather_zone": "Canyon Floor",
   "contacts": {
     "phoneNumbers": [
       {

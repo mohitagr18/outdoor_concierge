@@ -1,0 +1,41 @@
+{
+  "parkCode": "grca",
+  "current_temp_f": 52.0,
+  "current_condition": "Sunny",
+  "wind_mph": 5.1,
+  "humidity": 26,
+  "forecast": [
+    {
+      "date": "2026-01-13",
+      "maxtemp_f": 49.6,
+      "mintemp_f": 33.1,
+      "avgtemp_f": 40.4,
+      "daily_chance_of_rain": 0,
+      "condition": "Sunny",
+      "uv": 0.6
+    },
+    {
+      "date": "2026-01-14",
+      "maxtemp_f": 47.5,
+      "mintemp_f": 35.8,
+      "avgtemp_f": 40.9,
+      "daily_chance_of_rain": 0,
+      "condition": "Sunny",
+      "uv": 0.6
+    },
+    {
+      "date": "2026-01-15",
+      "maxtemp_f": 51.8,
+      "mintemp_f": 35.6,
+      "avgtemp_f": 42.9,
+      "daily_chance_of_rain": 0,
+      "condition": "Sunny",
+      "uv": 0.6
+    }
+  ],
+  "sunrise": "07:39 AM",
+  "sunset": "05:37 PM",
+  "weather_alerts": [],
+  "zones": [],
+  "base_zone": null
+}

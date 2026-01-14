@@ -6,6 +6,30 @@
     "lat": 36.0001165336,
     "lon": -112.121516363
   },
+  "weather_zones": [
+    {
+      "name": "South Rim",
+      "elevation_ft": 7000,
+      "lat": 36.0544,
+      "lon": -112.1401,
+      "description": "Grand Canyon Village, Mather Point, Desert View"
+    },
+    {
+      "name": "North Rim",
+      "elevation_ft": 8200,
+      "lat": 36.1983,
+      "lon": -112.0533,
+      "description": "Bright Angel Point, Cape Royal"
+    },
+    {
+      "name": "Inner Canyon",
+      "elevation_ft": 2400,
+      "lat": 36.0978,
+      "lon": -112.0944,
+      "description": "Phantom Ranch, Colorado River"
+    }
+  ],
+  "base_weather_zone": "South Rim",
   "contacts": {
     "phoneNumbers": [
       {

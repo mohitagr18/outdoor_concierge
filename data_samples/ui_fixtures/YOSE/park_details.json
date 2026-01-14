@@ -6,6 +6,30 @@
     "lat": 37.84883288,
     "lon": -119.5571873
   },
+  "weather_zones": [
+    {
+      "name": "Yosemite Valley",
+      "elevation_ft": 4000,
+      "lat": 37.7456,
+      "lon": -119.5936,
+      "description": "Valley Floor, Yosemite Falls, Half Dome trailhead"
+    },
+    {
+      "name": "Glacier Point",
+      "elevation_ft": 7200,
+      "lat": 37.7308,
+      "lon": -119.5728,
+      "description": "Glacier Point, Sentinel Dome"
+    },
+    {
+      "name": "Tioga Pass",
+      "elevation_ft": 9943,
+      "lat": 37.9106,
+      "lon": -119.2569,
+      "description": "Tuolumne Meadows, High Sierra Camps"
+    }
+  ],
+  "base_weather_zone": "Yosemite Valley",
   "contacts": {
     "phoneNumbers": [
       {
