@@ -4,6 +4,7 @@ import json
 import logging
 import os
 from typing import List, Optional, Protocol, Literal, Any
+from datetime import datetime
 
 from google import genai
 from google.genai import types
@@ -85,7 +86,7 @@ class GeminiLLMService:
         if not api_key:
             raise ValueError("GEMINI_API_KEY is required.")
         
-        self.model_name = model_name or os.getenv("GEMINI_MODEL") or "gemini-1.5-flash"
+        self.model_name = model_name or os.getenv("GEMINI_MODEL") or "gemini-2.5-flash"
         self.client = genai.Client(api_key=api_key)
         logger.info("Initialized GeminiLLMService (google-genai) with model %s", self.model_name)
 
@@ -294,54 +295,120 @@ class GeminiLLMService:
             )
             
             if is_broad_overview:
-                 prompt = f"""
-                 ROLE: Park Ranger.
-                 TASK: Provide a structured park overview.
+                current_month = datetime.now().strftime("%B")
+                prompt = f"""
+                 ROLE: Expert Park Ranger & Concierge.
+                 TASK: Provide a structured park overview for {park_code.upper()}.
+                 
+                 CONCIERGE GUIDELINES:
+                 1. SEASONAL INTELLIGENCE: It is currently {current_month}. Proactively filter or add warnings to trails/activities affected by the 'Alerts' or 'Weather' in context.
+                 2. DATA SYNTHESIS: If a road is closed, do NOT recommend trails accessed only by that road without a clear warning.
+                 3. TONE: Welcoming, authoritative, and safety-conscious.
+                 4. ALERT CROSS-REFERENCING: Before finalizing 'Must-Do Trails', check the 'Alerts' context. If a trail name (e.g., Navajo Loop) appears in an alert about a closure or hazard, you MUST:
+                    - Append a clear warning to that trail item (e.g., "[Trail Name] - **⚠️ Partial Closure: Two Bridges side closed**").
+                    - Or, if fully closed, replace it with a safer alternative.
+                5. GEAR & HYDRATION: Use the current weather, season, and typical trail difficulty to give practical advice on layers, footwear, sun protection, and water (e.g., “at least 2–3 liters for moderate half‑day hikes”).
                  
                  STRICT OUTPUT FORMAT:
                  
                  ## Welcome to [Park Name]
-                 [Brief 2-sentence intro]
+                 [Brief 2-sentence intro highlighting the park's unique {current_month} character]
                  
                  ### 🌤️ Current Conditions
                  **Status:** [Safety Status from Context]
-                 
+
                  **Weather:** [Weather Summary from Context]
-                 
-                 **Alerts:**
-                 * [Alert 1 WITH LINK]
+
+                 **Critical Alerts:** 
+                 * [Alert 1 WITH LINK] - *Include a 1-sentence 'Pro-Tip' on how this affects travel.*
                  * [Alert 2 WITH LINK]
                  
                  ### 📍 Park Entrances & Centers
                  [List main Visitor Centers/Entrances WITH LINKS]
                  
-                 ### 🥾 Top Experiences
+                 ### 🥾 Top Experiences (Filtered for {current_month})
                  **Must-Do Trails:**
-                 * [Trail 1 Name WITH LINK] ([Difficulty])
-                 * [Trail 2 Name WITH LINK] ([Difficulty])
+                 * [Trail 1 Name WITH LINK] ([Difficulty]) - [Brief why-to-go].
+                 * [Trail 2 Name WITH LINK] ([Difficulty]) - [Brief why-to-go].
                  
                  **Other Highlights:**
-                 * [Activity/Thing To Do 1 WITH LINK]
+                 * [Activity/Photo Spot WITH LINK]
                  
                  ### 📅 Events Today
                  [List Events WITH LINKS or "No specific scheduled events"]
+
+                 ### 🧭 Trail Prep & Safety Tips
+                 [2–4 concise bullets covering:]
+                 - Recommended clothing layers and footwear for today’s conditions.
+                 - Suggested water amount for easy vs. strenuous hikes.
+                 - Sun protection (hat, sunscreen, sunglasses) and weather‑specific cautions (ice, mud, heat).
+                 - Any special gear to consider (microspikes, trekking poles, rain gear).
                  
                  ---
                  
-                 ### Want to explore more? 
-                 
-                 > 🗺️ View the interactive map on the [**Explore Tab**](#explore)  
+                 ### 🗺️ Want to explore more?
+                 > Use the [**Explore Tab**](#explore) to see the interactive map, weather zones, and service details.
                  > 🥾 Browse the [**Top 10 Trails**](#trails?park={park_code})
                  
                  **Suggested Follow-Ups:**
-                 1. "What are the best photo spots?"
+                 1. "What are the best photo spots for sunrise?"
                  2. "Are there any amenities nearby?"
-                 3. "Show me the webcams."
+                 3. "Check current conditions via live webcams."
                  
                  CONTEXT:
                  {data_context}
                  """
-                 message = self.agent_guide.execute(prompt)
+                message = self.agent_guide.execute(prompt)
+
+            # if is_broad_overview:
+            #      prompt = f"""
+            #      ROLE: Park Ranger.
+            #      TASK: Provide a structured park overview.
+                 
+            #      STRICT OUTPUT FORMAT:
+                 
+            #      ## Welcome to [Park Name]
+            #      [Brief 2-sentence intro]
+                 
+            #      ### 🌤️ Current Conditions
+            #      **Status:** [Safety Status from Context]
+                 
+            #      **Weather:** [Weather Summary from Context]
+                 
+            #      **Alerts:**
+            #      * [Alert 1 WITH LINK]
+            #      * [Alert 2 WITH LINK]
+                 
+            #      ### 📍 Park Entrances & Centers
+            #      [List main Visitor Centers/Entrances WITH LINKS]
+                 
+            #      ### 🥾 Top Experiences
+            #      **Must-Do Trails:**
+            #      * [Trail 1 Name WITH LINK] ([Difficulty])
+            #      * [Trail 2 Name WITH LINK] ([Difficulty])
+                 
+            #      **Other Highlights:**
+            #      * [Activity/Thing To Do 1 WITH LINK]
+                 
+            #      ### 📅 Events Today
+            #      [List Events WITH LINKS or "No specific scheduled events"]
+                 
+            #      ---
+                 
+            #      ### Want to explore more? 
+                 
+            #      > 🗺️ View the interactive map on the [**Explore Tab**](#explore)  
+            #      > 🥾 Browse the [**Top 10 Trails**](#trails?park={park_code})
+                 
+            #      **Suggested Follow-Ups:**
+            #      1. "What are the best photo spots?"
+            #      2. "Are there any amenities nearby?"
+            #      3. "Show me the webcams."
+                 
+            #      CONTEXT:
+            #      {data_context}
+                #  """
+                 
             
             elif intent.response_type == "itinerary":
                 prompt = f"ROLE: Travel Planner. Create {intent.duration_days}-day itinerary.\n{base_prompt}"

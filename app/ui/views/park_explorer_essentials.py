@@ -370,40 +370,91 @@ def render_zonal_weather(zone_weather: dict, base_zone_name: str, weather_zones:
         else:
             base_forecast_list = first_data.get("forecast", [])
     
-    # Build zone cards (without per-zone forecast)
+    # Build zone cards - track if any estimates are used
     zone_cards_html = ""
+    has_estimated_temps = False
+    
+    # First pass: get base zone temp and elevation for lapse rate calculations
+    base_temp = None
+    base_elev = None
+    for zone_name, forecast, elev in sorted_zones:
+        if zone_name == base_zone_name:
+            if hasattr(forecast, "current_temp_f"):
+                base_temp = forecast.current_temp_f
+            else:
+                base_temp = forecast.get("current_temp_f")
+            base_elev = elev
+            break
+    
     for zone_name, forecast, _ in sorted_zones:
         # Extract data (handle both ZonalForecast model and dict)
         if hasattr(forecast, "current_temp_f"):
+            current_temp = forecast.current_temp_f
             cond = forecast.current_condition
             elev = forecast.elevation_ft
             wind = getattr(forecast, "wind_mph", None)
             humidity = getattr(forecast, "humidity", None)
             zone_forecast = getattr(forecast, "forecast", [])
         else:
+            current_temp = forecast.get("current_temp_f")
             cond = forecast.get("current_condition", "Unknown")
             elev = forecast.get("elevation_ft", 0)
             wind = forecast.get("wind_mph")
             humidity = forecast.get("humidity")
             zone_forecast = forecast.get("forecast", [])
         
-        # Get today's high/low from forecast
-        high_temp = "--"
-        low_temp = "--"
+        # Get today's high/low from forecast for validation
+        high_temp = None
+        low_temp = None
         if zone_forecast and len(zone_forecast) > 0:
             today = zone_forecast[0]
             if isinstance(today, dict):
-                high_temp = today.get("maxtemp_f", "--")
-                low_temp = today.get("mintemp_f", "--")
+                high_temp = today.get("maxtemp_f")
+                low_temp = today.get("mintemp_f")
             else:
-                high_temp = getattr(today, "maxtemp_f", "--")
-                low_temp = getattr(today, "mintemp_f", "--")
+                high_temp = getattr(today, "maxtemp_f", None)
+                low_temp = getattr(today, "mintemp_f", None)
         
-        # Format temps
-        if high_temp != "--":
-            high_temp = f"{float(high_temp):.0f}"
-        if low_temp != "--":
-            low_temp = f"{float(low_temp):.0f}"
+        # Validate current_temp against forecast range
+        # If outside range by more than 5°F, use estimation
+        is_estimated = False
+        display_temp = current_temp
+        
+        # Get avgtemp_f from base zone forecast for estimation
+        base_avg_temp = None
+        if base_forecast_list and len(base_forecast_list) > 0:
+            base_today = base_forecast_list[0]
+            if isinstance(base_today, dict):
+                base_avg_temp = base_today.get("avgtemp_f")
+            else:
+                base_avg_temp = getattr(base_today, "avgtemp_f", None)
+        
+        if current_temp is not None and high_temp is not None and low_temp is not None:
+            if current_temp > high_temp + 5 or current_temp < low_temp - 5:
+                # Temperature seems off - use estimation
+                if zone_name == base_zone_name:
+                    # Base zone: use avgtemp_f directly (no * since it's actual forecast data)
+                    if base_avg_temp is not None:
+                        display_temp = float(base_avg_temp)
+                        # Don't mark as estimated - avgtemp_f is real forecast data
+                else:
+                    # Other zones: calculate from base avgtemp_f + elevation adjustment
+                    if base_avg_temp is not None and base_elev is not None:
+                        # Lapse rate: ~3.5°F per 1000ft
+                        elev_diff = elev - base_elev
+                        temp_adjustment = (elev_diff / 1000) * 3.5
+                        display_temp = float(base_avg_temp) - temp_adjustment
+                        is_estimated = True
+                        has_estimated_temps = True
+        
+        # Format temperature
+        if display_temp is not None:
+            temp_str = f"{float(display_temp):.0f}"
+        else:
+            temp_str = "--"
+        
+        # Add * for estimated temps
+        estimated_marker = "*" if is_estimated else ""
         
         # Base zone badge
         base_badge = ""
@@ -431,7 +482,7 @@ def render_zonal_weather(zone_weather: dict, base_zone_name: str, weather_zones:
 {desc_html}
 </div>
 <div style="text-align:right;">
-<div style="font-size:24px; font-weight:700; color:white;">{high_temp}°<span style="font-size:16px; color:#94a3b8;">/{low_temp}°F</span></div>
+<div style="font-size:24px; font-weight:700; color:white;">{temp_str}°F{estimated_marker}</div>
 <div style="font-size:13px; color:#cbd5e1;">{cond}</div>
 {details_html}
 </div>
@@ -489,6 +540,9 @@ def render_zonal_weather(zone_weather: dict, base_zone_name: str, weather_zones:
 </div>
 """
     
+    # Info footnote - conditionally show estimated temps note
+    estimated_note = "<br>* Estimated based on elevation" if has_estimated_temps else ""
+    
     # Main container
     main_html = f"""
 <div class="dark-card" style="padding:16px;">
@@ -496,7 +550,7 @@ def render_zonal_weather(zone_weather: dict, base_zone_name: str, weather_zones:
 {zone_cards_html}
 {forecast_html}
 <div style="font-size:12px; color:#a1b5d8; margin-top:12px; padding:10px; background:#0f172a; border-radius:6px; border-left:3px solid #3b82f6;">
-ℹ️ Weather data from nearest weather stations. Temperature varies ~3.5°F per 1,000 ft elevation.
+ℹ️ Weather data from nearest weather stations. Temperature varies ~3.5°F per 1,000 ft elevation.{estimated_note}
 </div>
 </div>
 """

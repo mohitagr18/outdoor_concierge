@@ -20,6 +20,65 @@ def render_trails_browser(park_code: str, static_data, volatile_data=None):
     if not trails:
         st.info("No trail data available.")
         return
+    
+    # Get Alerts for cross-referencing
+    alerts = volatile_data.get("alerts", []) if volatile_data else []
+    
+    # Helper: Check if trail name appears in any alert
+    def get_trail_alert(trail_name: str) -> dict:
+        """Check if trail name appears in any alert title/description.
+        Uses phrase matching to avoid false positives."""
+        if not trail_name or not alerts:
+            return None
+        
+        trail_lower = trail_name.lower()
+        
+        # Build the "core" trail name by removing common suffixes/prefixes
+        # e.g., "Navajo Loop Trailhead" -> "navajo loop"
+        # e.g., "Wall Street and Queens Garden Loop Trail" -> "wall street", "queens garden"
+        import re
+        # Strip punctuation from each word
+        raw_words = trail_lower.split()
+        clean_words = [re.sub(r'[^\w-]', '', w) for w in raw_words]  # Keep letters, numbers, hyphens
+        remove_words = {'trail', 'trails', 'trailhead', 'hike', 'path', 'the', 'and', 'to', 'of', 'at', 'a'}
+        words = [w for w in clean_words if w and w not in remove_words]
+        
+        # Create search phrases (consecutive significant words)
+        # e.g., ["navajo", "navajo loop"] or ["wall", "wall street", "queens", "queens garden"]
+        search_phrases = []
+        for i, word in enumerate(words):
+            if len(word) > 2:  # Skip very short words
+                search_phrases.append(word)  # Single word
+                if i + 1 < len(words):
+                    search_phrases.append(f"{word} {words[i+1]}")  # Two-word phrase
+        
+        if not search_phrases:
+            return None
+        
+        for alert in alerts:
+            title = getattr(alert, 'title', '') or (alert.get('title') if isinstance(alert, dict) else '')
+            desc = getattr(alert, 'description', '') or (alert.get('description') if isinstance(alert, dict) else '')
+            combined = (title + ' ' + desc).lower()
+            
+            # Match if full trail name (minus generic words) appears
+            core_name = ' '.join(words)
+            if core_name and core_name in combined:
+                return {
+                    "title": title[:100],
+                    "category": getattr(alert, 'category', None) or (alert.get('category') if isinstance(alert, dict) else 'Closure'),
+                    "url": getattr(alert, 'url', None) or (alert.get('url') if isinstance(alert, dict) else None)
+                }
+            
+            # Match if a 2-word phrase from trail name appears in alert
+            for phrase in search_phrases:
+                if ' ' in phrase and phrase in combined:  # Only match 2+ word phrases
+                    return {
+                        "title": title[:100],
+                        "category": getattr(alert, 'category', None) or (alert.get('category') if isinstance(alert, dict) else 'Closure'),
+                        "url": getattr(alert, 'url', None) or (alert.get('url') if isinstance(alert, dict) else None)
+                    }
+        
+        return None
         
     # Get Zonal Weather Data
     zone_weather = volatile_data.get("zone_weather") if volatile_data else None
@@ -102,7 +161,8 @@ def render_trails_browser(park_code: str, static_data, volatile_data=None):
             "wheelchair": item.get("is_wheelchair_accessible", False),
             "kid_friendly": item.get("is_kid_friendly", False),
             "pet_friendly": item.get("is_pet_friendly", False),
-            "weather": weather_badge_info  # Store weather info
+            "weather": weather_badge_info,  # Store weather info
+            "trail_alert": get_trail_alert(item.get("name"))  # Alert cross-reference
         })
         
     df = pd.DataFrame(clean_rows)
@@ -265,6 +325,15 @@ def render_trails_browser(park_code: str, static_data, volatile_data=None):
                     
                     st.markdown(title)
                     
+                    # Show alert warning if trail is affected by an alert
+                    if row.get('trail_alert'):
+                        alert_info = row['trail_alert']
+                        alert_cat = alert_info.get('category', 'Alert')
+                        alert_text = alert_info.get('title', 'Check current conditions')
+                        # Use alert URL or fallback to NPS alerts page
+                        alert_url = alert_info.get('url') or f"https://www.nps.gov/{park_code.lower()}/planyourvisit/conditions.htm"
+                        st.markdown(f"⚠️ **[{alert_cat}]({alert_url})**: {alert_text}", unsafe_allow_html=True)
+                    
                     # Show rank separately if available
                     if pd.notna(row.get('popularity_rank')):
                         st.markdown(f"<p style='font-size:0.875em; margin:0 0 0.25em 0;'><strong>Rank #{int(row['popularity_rank'])}</strong></p>", unsafe_allow_html=True)
@@ -336,7 +405,16 @@ def render_trails_browser(park_code: str, static_data, volatile_data=None):
                         title += " 👶"
                     if row['pet_friendly']:
                         title += " 🐕"
-                    st.markdown(title)
+                    
+                    # Add alert inline with title if present
+                    if row.get('trail_alert'):
+                        alert_info = row['trail_alert']
+                        alert_cat = alert_info.get('category', 'Alert')
+                        alert_text = alert_info.get('title', 'Check current conditions')
+                        alert_url = alert_info.get('url') or f"https://www.nps.gov/{park_code.lower()}/planyourvisit/conditions.htm"
+                        title += f"<br><span style='font-size:0.75em;'>⚠️ <a href='{alert_url}' target='_blank'>{alert_cat}</a>: {alert_text}</span>"
+                    
+                    st.markdown(title, unsafe_allow_html=True)
                     
                     # Metrics line (compact) with embedded reviews link
                     metrics = []
