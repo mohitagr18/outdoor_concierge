@@ -156,6 +156,7 @@ class DataManager:
     def save_daily_cache(self, park_code: str, category: str, data: Any):
         """
         Saves data to today's cache file.
+        Also cleans up old date folders for this park.
         """
         filepath = self._get_daily_cache_path(park_code, category)
         os.makedirs(os.path.dirname(filepath), exist_ok=True)
@@ -167,5 +168,35 @@ class DataManager:
                 # For safety, let's assume caller passes dicts or lists of dicts.
                 json.dump(data, f, indent=2)
             logger.info(f"Saved daily cache: {filepath}")
+            
+            # Clean up old date folders for this park
+            self._cleanup_old_date_folders(park_code)
         except Exception as e:
             logger.error(f"Failed to write daily cache {filepath}: {e}")
+
+    def _cleanup_old_date_folders(self, park_code: str):
+        """
+        Removes old date folders for a park, keeping only today's folder.
+        Directory structure: data_cache/[PARK]/[DATE]/
+        """
+        from datetime import datetime
+        import shutil
+        
+        today = datetime.now().strftime("%Y-%m-%d")
+        park_cache_dir = os.path.join("data_cache", park_code.upper())
+        
+        if not os.path.exists(park_cache_dir):
+            return
+        
+        try:
+            for folder_name in os.listdir(park_cache_dir):
+                folder_path = os.path.join(park_cache_dir, folder_name)
+                
+                # Only process directories that look like dates (YYYY-MM-DD format)
+                if os.path.isdir(folder_path) and folder_name != today:
+                    # Validate it looks like a date folder
+                    if len(folder_name) == 10 and folder_name[4] == '-' and folder_name[7] == '-':
+                        shutil.rmtree(folder_path)
+                        logger.info(f"Cleaned up old cache folder: {folder_path}")
+        except Exception as e:
+            logger.warning(f"Failed to cleanup old cache folders for {park_code}: {e}")
