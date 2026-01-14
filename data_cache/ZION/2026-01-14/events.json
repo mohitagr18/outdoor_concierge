@@ -2,59 +2,6 @@
   {
     "title": "Zion Canyon Visitor Center Ranger Program",
     "description": "<p>Swing by the Zion Canyon Visitor Center Plaza for a short ranger talk to enrich your park experience! Talks take place next to the shuttle depot so plan to attend before or after riding the Zion Canyon Shuttle. Explore the resources that make Zion special! Topics may include geology, wildlife, plants, human history, and so much more. No two programs are quite the same!</p>\n<p>\u00a0</p>\n<p>Accessibility information</p>\n<p>This program takes place outdoors on a partially-shaded patio. Stone benches are available for seating, as well as space for mobility devices. Rangers at the visitor center are available for any additional questions. You can also visit the\u00a0<a href=\"https://www.nps.gov/zion/planyourvisit/accessibility.htm\">Accessibility page\u00a0</a>of our website for more information.</p>",
-    "date_start": "2025-11-16",
-    "date_end": "2026-01-10",
-    "is_free": true,
-    "location": "This ranger talk takes place outdoors at the Zion Canyon Visitor Center amphitheater.",
-    "times": [
-      {
-        "timestart": "11:00 AM",
-        "timeend": "12:00 PM",
-        "sunrisestart": "false",
-        "sunsetend": "false"
-      },
-      {
-        "timestart": "03:00 PM",
-        "timeend": "04:00 PM",
-        "sunrisestart": "false",
-        "sunsetend": "false"
-      }
-    ],
-    "images": [
-      {
-        "url": "https://www.nps.gov/common/uploads/event_calendar/3E22DAFB-A382-CD4D-93D9243C43DB6A40.jpg",
-        "title": "",
-        "altText": "Four park rangers pose with various props, including a book, a skull, photos, and a peg board.",
-        "caption": "Join a free ranger program, rain or shine!",
-        "credit": "NPS"
-      }
-    ],
-    "dates": [
-      "2026-01-08",
-      "2026-01-09",
-      "2026-01-10"
-    ],
-    "tags": [
-      "ranger talk",
-      "ranger program",
-      "program",
-      "interp",
-      "interpretation",
-      "education",
-      "event",
-      "family",
-      "learning",
-      "learn about zion",
-      "zion canyon"
-    ],
-    "types": [
-      "Talk"
-    ],
-    "fee_info": "Park entrance fees apply."
-  },
-  {
-    "title": "Zion Canyon Visitor Center Ranger Program",
-    "description": "<p>Swing by the Zion Canyon Visitor Center Plaza for a short ranger talk to enrich your park experience! Talks take place next to the shuttle depot so plan to attend before or after riding the Zion Canyon Shuttle. Explore the resources that make Zion special! Topics may include geology, wildlife, plants, human history, and so much more. No two programs are quite the same!</p>\n<p>\u00a0</p>\n<p>Accessibility information</p>\n<p>This program takes place outdoors on a partially-shaded patio. Stone benches are available for seating, as well as space for mobility devices. Rangers at the visitor center are available for any additional questions. You can also visit the\u00a0<a href=\"https://www.nps.gov/zion/planyourvisit/accessibility.htm\">Accessibility page\u00a0</a>of our website for more information.</p>",
     "date_start": "2026-01-11",
     "date_end": "2026-02-07",
     "is_free": true,
@@ -77,9 +24,6 @@
       }
     ],
     "dates": [
-      "2026-01-11",
-      "2026-01-12",
-      "2026-01-13",
       "2026-01-14",
       "2026-01-15",
       "2026-01-16",

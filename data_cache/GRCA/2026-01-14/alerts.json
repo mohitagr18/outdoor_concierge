@@ -1,5 +1,14 @@
 [
   {
+    "id": "F9F19453-7898-45E7-9918-D8CB7957F852",
+    "parkCode": "grca",
+    "title": "Water Advisory \u2014 Phantom Ranch and Bright Angel Campground",
+    "description": "Effective on 1/13 at 4 p.m., a water advisory has been issued for all water in the vicinity of Phantom Ranch and Bright Angel Campground. All drinking water in these areas should be treated or boiled. This advisory will remain in effect for at least 48 hours or longer.",
+    "category": "Danger",
+    "url": "https://www.nps.gov/grca/planyourvisit/safe-water.htm",
+    "lastIndexedDate": "2026-01-13 00:00:00.0"
+  },
+  {
     "id": "2CF15EBC-0800-4DF3-8179-B1579B6D4F57",
     "parkCode": "grca",
     "title": "Critical Backcountry Updates/Closures",

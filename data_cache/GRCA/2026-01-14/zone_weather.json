@@ -2,34 +2,34 @@
   "South Rim": {
     "zone_name": "South Rim",
     "elevation_ft": 7000,
-    "current_temp_f": 52.0,
+    "current_temp_f": 48.9,
     "current_condition": "Sunny",
-    "wind_mph": 5.1,
-    "humidity": 26,
+    "wind_mph": 8.5,
+    "humidity": 31,
     "forecast": [
       {
-        "date": "2026-01-13",
-        "maxtemp_f": 49.6,
-        "mintemp_f": 33.1,
-        "avgtemp_f": 40.4,
-        "daily_chance_of_rain": 0,
-        "condition": "Sunny",
-        "uv": 0.6
-      },
-      {
         "date": "2026-01-14",
-        "maxtemp_f": 47.5,
-        "mintemp_f": 35.8,
-        "avgtemp_f": 40.9,
+        "maxtemp_f": 47.7,
+        "mintemp_f": 36.0,
+        "avgtemp_f": 41.1,
         "daily_chance_of_rain": 0,
         "condition": "Sunny",
         "uv": 0.6
       },
       {
         "date": "2026-01-15",
-        "maxtemp_f": 51.8,
-        "mintemp_f": 35.6,
-        "avgtemp_f": 42.9,
+        "maxtemp_f": 51.4,
+        "mintemp_f": 34.5,
+        "avgtemp_f": 40.6,
+        "daily_chance_of_rain": 0,
+        "condition": "Sunny",
+        "uv": 0.6
+      },
+      {
+        "date": "2026-01-16",
+        "maxtemp_f": 48.7,
+        "mintemp_f": 34.2,
+        "avgtemp_f": 41.3,
         "daily_chance_of_rain": 0,
         "condition": "Sunny",
         "uv": 0.6
@@ -40,34 +40,34 @@
   "North Rim": {
     "zone_name": "North Rim",
     "elevation_ft": 8200,
-    "current_temp_f": 47.8,
+    "current_temp_f": 44.7,
     "current_condition": "Sunny",
-    "wind_mph": 5.1,
-    "humidity": 26,
+    "wind_mph": 8.5,
+    "humidity": 31,
     "forecast": [
       {
-        "date": "2026-01-13",
-        "maxtemp_f": 49.6,
-        "mintemp_f": 33.1,
-        "avgtemp_f": 40.4,
-        "daily_chance_of_rain": 0,
-        "condition": "Sunny",
-        "uv": 0.6
-      },
-      {
         "date": "2026-01-14",
-        "maxtemp_f": 47.5,
-        "mintemp_f": 35.8,
-        "avgtemp_f": 40.9,
+        "maxtemp_f": 47.7,
+        "mintemp_f": 36.0,
+        "avgtemp_f": 41.1,
         "daily_chance_of_rain": 0,
         "condition": "Sunny",
         "uv": 0.6
       },
       {
         "date": "2026-01-15",
-        "maxtemp_f": 51.8,
-        "mintemp_f": 35.6,
-        "avgtemp_f": 42.9,
+        "maxtemp_f": 51.4,
+        "mintemp_f": 34.5,
+        "avgtemp_f": 40.6,
+        "daily_chance_of_rain": 0,
+        "condition": "Sunny",
+        "uv": 0.6
+      },
+      {
+        "date": "2026-01-16",
+        "maxtemp_f": 48.7,
+        "mintemp_f": 34.2,
+        "avgtemp_f": 41.3,
         "daily_chance_of_rain": 0,
         "condition": "Sunny",
         "uv": 0.6
@@ -78,34 +78,34 @@
   "Inner Canyon": {
     "zone_name": "Inner Canyon",
     "elevation_ft": 2400,
-    "current_temp_f": 68.1,
+    "current_temp_f": 65.0,
     "current_condition": "Sunny",
-    "wind_mph": 5.1,
-    "humidity": 26,
+    "wind_mph": 8.5,
+    "humidity": 31,
     "forecast": [
       {
-        "date": "2026-01-13",
-        "maxtemp_f": 49.6,
-        "mintemp_f": 33.1,
-        "avgtemp_f": 40.4,
-        "daily_chance_of_rain": 0,
-        "condition": "Sunny",
-        "uv": 0.6
-      },
-      {
         "date": "2026-01-14",
-        "maxtemp_f": 47.5,
-        "mintemp_f": 35.8,
-        "avgtemp_f": 40.9,
+        "maxtemp_f": 47.7,
+        "mintemp_f": 36.0,
+        "avgtemp_f": 41.1,
         "daily_chance_of_rain": 0,
         "condition": "Sunny",
         "uv": 0.6
       },
       {
         "date": "2026-01-15",
-        "maxtemp_f": 51.8,
-        "mintemp_f": 35.6,
-        "avgtemp_f": 42.9,
+        "maxtemp_f": 51.4,
+        "mintemp_f": 34.5,
+        "avgtemp_f": 40.6,
+        "daily_chance_of_rain": 0,
+        "condition": "Sunny",
+        "uv": 0.6
+      },
+      {
+        "date": "2026-01-16",
+        "maxtemp_f": 48.7,
+        "mintemp_f": 34.2,
+        "avgtemp_f": 41.3,
         "daily_chance_of_rain": 0,
         "condition": "Sunny",
         "uv": 0.6
