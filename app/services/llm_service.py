@@ -304,9 +304,11 @@ class GeminiLLMService:
                  1. SEASONAL INTELLIGENCE: It is currently {current_month}. Proactively filter or add warnings to trails/activities affected by the 'Alerts' or 'Weather' in context.
                  2. DATA SYNTHESIS: If a road is closed, do NOT recommend trails accessed only by that road without a clear warning.
                  3. TONE: Welcoming, authoritative, and safety-conscious.
-                 4. ALERT CROSS-REFERENCING: Before finalizing 'Must-Do Trails', check the 'Alerts' context. If a trail name (e.g., Navajo Loop) appears in an alert about a closure or hazard, you MUST:
-                    - Append a clear warning to that trail item (e.g., "[Trail Name] - **⚠️ Partial Closure: Two Bridges side closed**").
-                    - Or, if fully closed, replace it with a safer alternative.
+                 4. ALERT CROSS-REFERENCING: The TRAILS section already has alerts marked with ⚠️ and clickable links like **[Park Closure](url)**. 
+                    When you list a trail that has an alert:
+                    - COPY the exact alert markdown from the context (preserve the clickable link!)
+                    - DO NOT rewrite or paraphrase - keep the [Category](URL) format intact
+                    - If a trail is fully closed, exclude it or offer an alternative
                 5. GEAR & HYDRATION: Use the current weather, season, and typical trail difficulty to give practical advice on layers, footwear, sun protection, and water (e.g., “at least 2–3 liters for moderate half‑day hikes”).
                  
                  STRICT OUTPUT FORMAT:
@@ -328,7 +330,7 @@ class GeminiLLMService:
                  
                  ### 🥾 Top Experiences (Filtered for {current_month})
                  **Must-Do Trails:**
-                 * [Trail 1 Name WITH LINK] ([Difficulty]) - [Brief why-to-go].
+                 * [Trail Name WITH LINK] ([Difficulty]) - [Brief why-to-go]. ⚠️ **[Alert Category](alert_url)**: [Alert title] (if trail has alert in context)
                  * [Trail 2 Name WITH LINK] ([Difficulty]) - [Brief why-to-go].
                  
                  **Other Highlights:**
@@ -512,6 +514,35 @@ class GeminiLLMService:
                 {base_prompt}
                 """
                 message = self.agent_guide.execute(prompt)
+            elif any(t in query_lower for t in ["restaurant", "food", "eat", "dining", "grocery", "store", 
+                                                   "gas", "fuel", "charging", "ev", "medical", "pharmacy", 
+                                                   "hospital", "urgent", "clinic", "gear", "rent", "equipment",
+                                                   "supplies", "amenity", "amenities", "nearby", "where can"]):
+                # Amenity-specific query - prioritize AMENITIES section
+                prompt = f"""
+                ROLE: Local Services Concierge.
+                TASK: Recommend services using the "AMENITIES (Nearby Services)" section of context.
+                
+                INSTRUCTIONS:
+                1. Look in the AMENITIES section for businesses grouped by category.
+                2. For EACH business, use this EXACT format with a numbered list:
+                
+                1. **[Business Name](website_url)** (Type) - ⭐ Rating (review_count reviews)
+                   - 📞 Phone | 📍 [Address](maps_url)
+                   - *Ranger Note: Brief tip about the vibe or what's good there*
+                
+                2. **[Next Business](website_url)** (Type) - ⭐ Rating
+                   - 📞 Phone | 📍 [Address](maps_url)
+                   - *Ranger Note: ...*
+                
+                3. Each numbered item is ONE business. Use sub-bullets for details.
+                4. Business name links to website, address links to Google Maps.
+                5. Pick the most relevant businesses for the user's query.
+                6. End with a reminder about the Hub Services tab.
+                
+                {base_prompt}
+                """
+                message = self.agent_guide.execute(prompt)
             else:
                 prompt = f"ROLE: Park Ranger. Be helpful and welcoming.\n{base_prompt}"
                 message = self.agent_guide.execute(prompt)
@@ -649,6 +680,45 @@ class GeminiLLMService:
             return "\n".join(lines)
 
         # --- Trail Formatter (with Images) ---
+        # Helper: Check if trail is affected by any alert (same logic as Trail Browser)
+        def get_trail_alert(trail_name: str):
+            """Check if trail name appears in any alert title/description using phrase matching."""
+            if not trail_name or not alerts:
+                return None
+            
+            import re
+            trail_lower = trail_name.lower()
+            raw_words = trail_lower.split()
+            clean_words = [re.sub(r'[^\w-]', '', w) for w in raw_words]
+            remove_words = {'trail', 'trails', 'trailhead', 'hike', 'path', 'the', 'and', 'to', 'of', 'at', 'a'}
+            words = [w for w in clean_words if w and w not in remove_words]
+            
+            search_phrases = []
+            for i, word in enumerate(words):
+                if len(word) > 2:
+                    search_phrases.append(word)
+                    if i + 1 < len(words):
+                        search_phrases.append(f"{word} {words[i+1]}")
+            
+            if not search_phrases:
+                return None
+            
+            for alert in alerts:
+                title = getattr(alert, 'title', '') or ''
+                desc = getattr(alert, 'description', '') or ''
+                combined = (title + ' ' + desc).lower()
+                
+                core_name = ' '.join(words)
+                alert_url = getattr(alert, 'url', None) or ''
+                if core_name and core_name in combined:
+                    return {"category": getattr(alert, 'category', 'Closure'), "title": title[:100], "url": alert_url}
+                
+                for phrase in search_phrases:
+                    if ' ' in phrase and phrase in combined:
+                        return {"category": getattr(alert, 'category', 'Closure'), "title": title[:100], "url": alert_url}
+            
+            return None
+        
         def format_trail(t):
             is_target = review_targets and any(tgt.lower() in t.name.lower() for tgt in review_targets)
             
@@ -683,6 +753,17 @@ class GeminiLLMService:
                 info_parts.append(f"- {rating}★")
             
             base = " ".join(info_parts)
+            
+            # Check for alerts affecting this trail
+            trail_alert = get_trail_alert(t.name)
+            if trail_alert:
+                # Get park code for fallback URL
+                park_code = getattr(t, 'parkCode', None) or 'brca'
+                # Use alert URL or fallback to NPS conditions page (like Trail Browser)
+                alert_url = trail_alert.get('url') or f"https://www.nps.gov/{park_code.lower()}/planyourvisit/conditions.htm"
+                alert_cat = trail_alert['category']
+                alert_title = trail_alert['title']
+                base += f" ⚠️ **[{alert_cat}]({alert_url})**: {alert_title}"
             
             # Add image on separate line (Resized using HTML with block div)
             if image_url:
@@ -752,12 +833,16 @@ class GeminiLLMService:
                 result += f'\n<br><div style="margin-top: 10px;"><img src="{image_url}" width="300" style="border-radius: 5px;" /></div>'
             return result
 
-        # Format Alerts with URLs
+        # Format Alerts with URLs and descriptions
         def format_alert(a):
             alert_url = getattr(a, 'url', None)
-            return link(a.title, alert_url)
+            title = getattr(a, 'title', 'Alert')
+            desc = getattr(a, 'description', '')
+            category = getattr(a, 'category', 'Alert')
+            title_linked = link(title, alert_url)
+            return f"**{category}**: {title_linked}\n  Details: {desc}"
         
-        alerts_txt = ", ".join([format_alert(a) for a in alerts]) if alerts else "None"
+        alerts_txt = "\n".join([format_alert(a) for a in alerts]) if alerts else "None"
 
         return f"""
         === CURRENT CONDITIONS ===
@@ -845,12 +930,20 @@ class GeminiLLMService:
         return "\n".join(lines) if lines else "No photo spots available."
     
     def _format_amenities(self, amenities) -> str:
-        """Format amenities for LLM context with Google Maps/website links."""
+        """Format amenities for LLM context, grouped by category."""
         if not amenities:
             return "No nearby amenities available."
         
-        lines = []
-        for a in amenities[:15]:  # Limit to 15
+        # Group amenities by type for easier LLM parsing
+        # Food-related types
+        food_types = {'restaurant', 'cafe', 'brewpub', 'american restaurant', 'mexican restaurant',
+                      'pizza', 'bakery', 'coffee', 'diner', 'bistro', 'grill', 'southwestern restaurant (us)'}
+        gas_types = {'gas station', 'fuel', 'gas', 'convenience store'}
+        medical_types = {'hospital', 'urgent care', 'pharmacy', 'medical', 'emergency room', 'clinic'}
+        
+        grouped = {"🍽️ RESTAURANTS & FOOD": [], "⛽ GAS & FUEL": [], "🏥 MEDICAL": [], "🏪 OTHER SERVICES": []}
+        
+        for a in amenities:
             try:
                 # Handle both Pydantic model and dict
                 if hasattr(a, 'name'):
@@ -859,48 +952,77 @@ class GeminiLLMService:
                     lat = getattr(a, 'latitude', None)
                     lon = getattr(a, 'longitude', None)
                     website = getattr(a, 'website', None)
+                    phone = getattr(a, 'phone', None)
                     distance = getattr(a, 'distance_miles', None)
                     amenity_type = getattr(a, 'type', '')
+                    rating = getattr(a, 'rating', None)
+                    rating_count = getattr(a, 'rating_count', None)
                 else:
                     name = a.get('name', 'Unknown')
                     address = a.get('address', '')
                     lat = a.get('latitude', None)
                     lon = a.get('longitude', None)
                     website = a.get('website', None)
+                    phone = a.get('phone', None)
                     distance = a.get('distance_miles', None)
                     amenity_type = a.get('type', '')
+                    rating = a.get('rating', None)
+                    rating_count = a.get('rating_count', None)
                 
-                # Build Google Maps URL from lat/lon (most reliable)
+                # Build Google Maps URL
                 if lat and lon:
                     maps_url = f"https://www.google.com/maps/search/?api=1&query={lat},{lon}"
                 elif address:
-                    # URL-encode address for search
                     safe_addr = address.replace(' ', '+').replace(',', '%2C')
                     maps_url = f"https://www.google.com/maps/search/?api=1&query={safe_addr}"
                 else:
                     maps_url = None
                 
-                # Build name with link (prefer Google Maps, fallback to website)
-                if maps_url:
-                    name_display = f"[{name}]({maps_url})"
-                elif website:
+                # Build formatted line - name links to website, address links to maps
+                if website:
                     name_display = f"[{name}]({website})"
                 else:
-                    name_display = name
+                    name_display = f"**{name}**"
                 
-                line = f"- **{name_display}**"
-                if amenity_type:
-                    line += f" ({amenity_type})"
+                if maps_url and address:
+                    address_display = f"[{address}]({maps_url})"
+                elif address:
+                    address_display = address
+                else:
+                    address_display = None
+                
+                line = f"- **{name_display}** ({amenity_type})"
                 if distance:
-                    line += f" - {distance:.1f} mi away"
-                if address:
-                    line += f" | {address}"
+                    line += f" - {distance:.1f} mi"
+                if rating and rating_count:
+                    line += f" | ⭐ {rating} ({rating_count} reviews)"
+                if phone:
+                    line += f" | 📞 {phone}"
+                if address_display:
+                    line += f" | 📍 {address_display}"
                 
-                lines.append(line)
+                # Categorize
+                type_lower = amenity_type.lower() if amenity_type else ''
+                if any(ft in type_lower for ft in food_types):
+                    grouped["🍽️ RESTAURANTS & FOOD"].append(line)
+                elif any(gt in type_lower for gt in gas_types):
+                    grouped["⛽ GAS & FUEL"].append(line)
+                elif any(mt in type_lower for mt in medical_types):
+                    grouped["🏥 MEDICAL"].append(line)
+                else:
+                    grouped["🏪 OTHER SERVICES"].append(line)
+                    
             except Exception:
                 continue
         
-        return "\n".join(lines) if lines else "No nearby amenities available."
+        # Build output with category headers
+        output = []
+        for category, items in grouped.items():
+            if items:
+                output.append(f"\n{category}:")
+                output.extend(items[:8])  # Limit 8 per category
+        
+        return "\n".join(output) if output else "No nearby amenities available."
 
     def extract_reviews_from_text(self, text: str) -> List[TrailReview]:
         truncated_text = text[:60000] 

@@ -277,13 +277,19 @@ class OutdoorConciergeOrchestrator:
 
         # Amenities (Checking Hub Cache First)
         amenities_data = self.get_park_amenities(intent.park_code)
-        # Flatten amenities from all hubs for LLM context
+        # Flatten amenities from all hubs for LLM context, preserving category
         amenities = []
         for hub_name, entries in amenities_data.items():
             for category, items in entries.items():
                 for item in items:
+                    # Add category to item for LLM context
+                    item_with_category = {**item, "category": category}
                     # Construct simple Amenity object for LLM context
-                    amenities.append(Amenity(**item))
+                    try:
+                        amenities.append(Amenity(**item_with_category))
+                    except Exception:
+                        # If Amenity model doesn't have category field, just use original
+                        amenities.append(Amenity(**item))
 
         # 4. Engine Execution
         # We need _fetch_trails_for_park logic to be real or mock
