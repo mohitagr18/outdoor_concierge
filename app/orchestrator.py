@@ -8,7 +8,7 @@ from app.clients.nps_client import NPSClient
 from app.clients.weather_client import WeatherClient
 from app.clients.external_client import ExternalClient
 from app.engine.constraints import ConstraintEngine, SafetyStatus, UserPreference
-from app.models import TrailSummary, ParkContext, ThingToDo, Event, Campground, VisitorCenter, Webcam, Amenity, Alert, PhotoSpot
+from app.models import TrailSummary, ParkContext, ThingToDo, Event, Campground, VisitorCenter, Webcam, Amenity, Alert, PhotoSpot, ScenicDrive
 from app.services.llm_service import LLMService, LLMResponse, LLMParsedIntent
 from app.utils.geospatial import mine_entrances 
 from app.services.data_manager import DataManager
@@ -232,6 +232,17 @@ class OutdoorConciergeOrchestrator:
                     logger.warning(f"Failed to parse photo spot: {e}")
             logger.info(f"Loaded {len(photo_spots)} photo spots for {intent.park_code}")
 
+        # Scenic drives (static fixture, no API fallback)
+        scenic_drives_raw = self.data_manager.load_fixture(intent.park_code, "scenic_drives.json")
+        scenic_drives = []
+        if scenic_drives_raw:
+            for sd in scenic_drives_raw:
+                try:
+                    scenic_drives.append(ScenicDrive(**sd) if isinstance(sd, dict) else sd)
+                except Exception as e:
+                    logger.warning(f"Failed to parse scenic drive: {e}")
+            logger.info(f"Loaded {len(scenic_drives)} scenic drives for {intent.park_code}")
+
 
         # --- B. Dynamic Data (Cached Daily) ---
         # 1. Alerts
@@ -350,7 +361,8 @@ class OutdoorConciergeOrchestrator:
             visitor_centers=visitor_centers,
             webcams=webcams,
             amenities=amenities,
-            photo_spots=photo_spots
+            photo_spots=photo_spots,
+            scenic_drives=scenic_drives
         )
 
         updated_context.chat_history.append(f"Agent: {chat_resp.message}")

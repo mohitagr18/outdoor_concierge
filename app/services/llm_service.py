@@ -11,7 +11,7 @@ from google.genai import types
 from pydantic import BaseModel, Field, ValidationError
 
 from app.engine.constraints import UserPreference, SafetyStatus
-from app.models import TrailSummary, ThingToDo, Event, Campground, VisitorCenter, Webcam, Amenity, TrailReview, PhotoSpot
+from app.models import TrailSummary, ThingToDo, Event, Campground, VisitorCenter, Webcam, Amenity, TrailReview, PhotoSpot, ScenicDrive
 
 logger = logging.getLogger(__name__)
 
@@ -54,7 +54,8 @@ class LLMService(Protocol):
         visitor_centers: List[VisitorCenter],
         webcams: List[Webcam],
         amenities: List[Amenity],
-        photo_spots: List[PhotoSpot] = []
+        photo_spots: List[PhotoSpot] = [],
+        scenic_drives: List[ScenicDrive] = []
     ) -> LLMResponse: ...
 
 # --- Agent Worker Abstraction ---
@@ -194,10 +195,12 @@ class GeminiLLMService:
         visitor_centers: List[VisitorCenter],
         webcams: List[Webcam],
         amenities: List[Amenity],
-        photo_spots: List[PhotoSpot] = None
+        photo_spots: List[PhotoSpot] = None,
+        scenic_drives: List[ScenicDrive] = None
     ) -> LLMResponse:
         alerts = alerts or []
         photo_spots = photo_spots or []
+        scenic_drives = scenic_drives or []
         
         # 1. Handle Entity Lookup (Single Item Detail)
         if intent.response_type == "entity_lookup" and intent.review_targets:
@@ -260,7 +263,8 @@ class GeminiLLMService:
         else:
             data_context = self._build_data_context(
                 trails, things_to_do, events, campgrounds, visitor_centers, webcams, amenities, safety, weather, alerts,
-                photo_spots=photo_spots
+                photo_spots=photo_spots,
+                scenic_drives=scenic_drives
             )
             history_text = "\n".join(chat_history[-5:]) if chat_history else "No previous history."
             
@@ -418,6 +422,62 @@ class GeminiLLMService:
             elif intent.response_type == "safety_info":
                 prompt = f"ROLE: Safety Officer. Analyze risks.\n{base_prompt}"
                 message = self.agent_safety.execute(prompt)
+            
+            # EXCLUSION CHECK: Detect "besides hiking", "other than hiking", etc. BEFORE trail handler
+            # These should go to the activity handler, not the trail handler
+            elif any(phrase in query_lower for phrase in [
+                "besides hiking", "besides hike", "besides trail",
+                "other than hiking", "other than hike", "other than trail",
+                "not hiking", "not hike", "don't want to hike", "no hiking",
+                "without hiking", "instead of hiking", "apart from hiking",
+                "besides walks", "other than walks"
+            ]):
+                # === NON-HIKING ACTIVITY HANDLER ===
+                # Filter out hiking-related things_to_do
+                filtered_things = []
+                for thing in things_to_do:
+                    activities_lower = [a.get('name', '').lower() for a in thing.activities]
+                    tags_lower = [t.lower() for t in thing.tags]
+                    is_hiking = any("hike" in a or "hiking" in a for a in activities_lower) or \
+                                any("hike" in t or "hiking" in t or "trail" in t for t in tags_lower)
+                    if not is_hiking:
+                        filtered_things.append(thing)
+
+                # Build context WITHOUT trails
+                context_no_trails = self._build_data_context(
+                    trails=[],  # HIDE TRAILS
+                    things=filtered_things,
+                    events=events, camps=campgrounds, centers=visitor_centers, 
+                    cams=webcams, amenities=amenities, safety=safety, weather=weather, alerts=alerts,
+                    photo_spots=photo_spots,
+                    scenic_drives=scenic_drives
+                )
+                
+                prompt = f"""
+                ROLE: Park Activity Guide.
+                TASK: The user specifically asked for activities BESIDES hiking. Show NON-HIKING activities:
+                
+                1) **SCENIC DRIVES** section - Perfect for enjoying the park without hiking
+                2) **PHOTO SPOTS** section - Great viewpoints accessible by car or short walks  
+                3) **ACTIVITIES** section - Tours, museums, visitor centers, stargazing
+                4) **EVENTS** section - Ranger programs and scheduled activities
+                
+                CRITICAL INSTRUCTIONS:
+                1. DO NOT recommend any trails or hikes - the user specifically said they don't want hiking.
+                2. Prioritize SCENIC DRIVES and PHOTO SPOTS as primary recommendations.
+                3. LINKS: Copy `[Name](url)` EXACTLY for every item.
+                4. IMAGES: Copy the `<img ... />` tag EXACTLY on a new line.
+                5. Group by category (Scenic Drives, Photo Spots, Other Activities, Events).
+                
+                {history_text}
+                
+                CURRENT CONTEXT:
+                {context_no_trails}
+                
+                USER REQUEST: '{query}'
+                """
+                message = self.agent_guide.execute(prompt)
+            
             # Specific prompts for trail/event/activity queries
             elif any(t in query_lower for t in ["trail", "hike", "hiking"]):
                 prompt = f"""
@@ -440,7 +500,8 @@ class GeminiLLMService:
                 context_no_trails = self._build_data_context(
                     trails=[],  # HIDE TRAILS
                     things=things_to_do, events=events, camps=campgrounds, centers=visitor_centers, 
-                    cams=webcams, amenities=amenities, safety=safety, weather=weather, alerts=alerts
+                    cams=webcams, amenities=amenities, safety=safety, weather=weather, alerts=alerts,
+                    scenic_drives=scenic_drives
                 )
                 
                 prompt = f"""
@@ -477,17 +538,26 @@ class GeminiLLMService:
                     trails=[],  # HIDE TRAILS
                     things=filtered_things, # FILTERED THINGS
                     events=events, camps=campgrounds, centers=visitor_centers, 
-                    cams=webcams, amenities=amenities, safety=safety, weather=weather, alerts=alerts
+                    cams=webcams, amenities=amenities, safety=safety, weather=weather, alerts=alerts,
+                    photo_spots=photo_spots,
+                    scenic_drives=scenic_drives  # Include scenic drives for non-hiking activities
                 )
                 
                 prompt = f"""
                 ROLE: Park Activity Guide.
-                TASK: Show independent activities (tours, museums, scenic drives) from the context.
+                TASK: Show activities BESIDES hiking from the context. Focus especially on:
+                
+                1) **SCENIC DRIVES** section - These are perfect for non-hikers
+                2) **PHOTO SPOTS** section - Great for photography without strenuous hiking
+                3) **ACTIVITIES** section - Tours, museums, visitor centers
+                4) **EVENTS** section - Ranger programs and scheduled activities
                 
                 CRITICAL INSTRUCTIONS:
-                1. LINKS: Copy `[Activity Name](url)` EXACTLY for EVERY activity.
-                2. IMAGES: Copy the `<img ... />` tag EXACTLY.
-                3. USE THE HTML TAGS PROVIDED.
+                1. Prioritize SCENIC DRIVES and PHOTO SPOTS for users who don't want to hike. 
+                2. LINKS: Copy `[Name](url)` EXACTLY for every item.
+                3. IMAGES: Copy the `<img ... />` tag EXACTLY on a new line.
+                4. Group by category (Scenic Drives, Photo Spots, Other Activities, Events).
+                5. NO trail recommendations - the user specifically asked for non-hiking activities.
                 
                 {history_text}
                 
@@ -598,11 +668,13 @@ class GeminiLLMService:
     def _build_data_context(
         self, trails, things, events, camps, centers, cams, amenities, safety, weather, alerts=None,
         photo_spots=None,
+        scenic_drives=None,
         review_targets: Optional[List[str]] = None,
         only_show_targets: bool = False
     ) -> str:
         alerts = alerts or []
         photo_spots = photo_spots or []
+        scenic_drives = scenic_drives or []
         
         # --- Helper: Status Mapper ---
         status_map = {
@@ -866,6 +938,9 @@ class GeminiLLMService:
         EVENTS:
         {fmt(events, "Event", format_event)}
         
+        SCENIC DRIVES:
+        {self._format_scenic_drives(scenic_drives)}
+        
         PHOTO SPOTS:
         {self._format_photo_spots(photo_spots)}
         
@@ -928,6 +1003,72 @@ class GeminiLLMService:
                 continue
         
         return "\n".join(lines) if lines else "No photo spots available."
+    
+    def _format_scenic_drives(self, scenic_drives) -> str:
+        """Format scenic drives for LLM context with images."""
+        if not scenic_drives:
+            return "No scenic drives available."
+        
+        lines = []
+        for sd in scenic_drives[:8]:  # Limit to 8
+            try:
+                # Handle both Pydantic model and dict
+                if hasattr(sd, 'name'):
+                    name = sd.name
+                    description = getattr(sd, 'description', '')
+                    distance = getattr(sd, 'distance_miles', None)
+                    drive_time = getattr(sd, 'drive_time', None)
+                    highlights = getattr(sd, 'highlights', [])
+                    best_time = getattr(sd, 'best_time', None)
+                    tips = getattr(sd, 'tips', [])
+                    image_url = getattr(sd, 'image_url', None)
+                    source_url = getattr(sd, 'source_url', None)
+                    rank = getattr(sd, 'rank', None)
+                else:
+                    name = sd.get('name', 'Unknown')
+                    description = sd.get('description', '')
+                    distance = sd.get('distance_miles', None)
+                    drive_time = sd.get('drive_time', None)
+                    highlights = sd.get('highlights', [])
+                    best_time = sd.get('best_time', None)
+                    tips = sd.get('tips', [])
+                    image_url = sd.get('image_url', None)
+                    source_url = sd.get('source_url', None)
+                    rank = sd.get('rank', None)
+                
+                # Build name with optional link and rank
+                if source_url:
+                    name_display = f"[{name}]({source_url})"
+                else:
+                    name_display = name
+                
+                line = f"- **{name_display}**"
+                if rank:
+                    line += f" (Rank #{rank})"
+                if distance:
+                    line += f" | {distance} miles"
+                if drive_time:
+                    line += f" | {drive_time}"
+                if best_time:
+                    line += f" | Best: {best_time}"
+                if description:
+                    line += f"\n  {description[:200]}"
+                if highlights and len(highlights) > 0:
+                    highlights_str = ", ".join(highlights[:4])
+                    line += f"\n  *Highlights: {highlights_str}*"
+                if tips and len(tips) > 0:
+                    first_tip = tips[0] if isinstance(tips, list) else str(tips)
+                    line += f"\n  *Tip: {first_tip[:100]}*"
+                
+                # Add image (like trails)
+                if image_url:
+                    line += f'\n<br><div style="margin-top: 10px;"><img src="{image_url}" width="300" style="border-radius: 5px;" /></div>'
+                
+                lines.append(line)
+            except Exception:
+                continue
+        
+        return "\n".join(lines) if lines else "No scenic drives available."
     
     def _format_amenities(self, amenities) -> str:
         """Format amenities for LLM context, grouped by category."""
