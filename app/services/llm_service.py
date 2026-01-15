@@ -213,11 +213,13 @@ class GeminiLLMService:
             prompt = f"""
             ROLE: Park Ranger Guide.
             TASK: The user asked about specific places: {intent.review_targets}.
+            
             INSTRUCTIONS:
             1. Provide a detailed overview of these specific spots (Difficulty, Length, Description).
             2. Mention current weather if relevant to hiking them.
             3. Do NOT list other random trails.
-            4. End with follow-up questions.
+            4. **IMAGES**: The context contains `<img ... />` tags. COPY THESE EXACTLY on their own line after the description.
+            5. End with follow-up questions.
             
             CONTEXT:
             {data_context}
@@ -614,7 +616,16 @@ class GeminiLLMService:
                 """
                 message = self.agent_guide.execute(prompt)
             else:
-                prompt = f"ROLE: Park Ranger. Be helpful and welcoming.\n{base_prompt}"
+                prompt = f"""
+                ROLE: Park Ranger. Be helpful and welcoming.
+                
+                INSTRUCTIONS:
+                1. Answer the user's question using the CONTEXT data.
+                2. **IMAGES**: When mentioning trails, photo spots, or activities that have `<img ... />` tags in the context, COPY THESE EXACTLY on their own line.
+                3. Provide relevant details and be conversational.
+                
+                {base_prompt}
+                """
                 message = self.agent_guide.execute(prompt)
             
             # Add "Explore More" footer for specific topic queries
