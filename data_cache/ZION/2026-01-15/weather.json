@@ -6,35 +6,35 @@
   "humidity": 33,
   "forecast": [
     {
-      "date": "2026-01-14",
-      "maxtemp_f": 67.1,
-      "mintemp_f": 30.2,
-      "avgtemp_f": 48.2,
-      "daily_chance_of_rain": 0,
-      "condition": "Sunny",
-      "uv": 0.6
-    },
-    {
       "date": "2026-01-15",
-      "maxtemp_f": 61.2,
-      "mintemp_f": 27.9,
-      "avgtemp_f": 39.0,
+      "maxtemp_f": 64.2,
+      "mintemp_f": 28.0,
+      "avgtemp_f": 46.5,
       "daily_chance_of_rain": 0,
       "condition": "Sunny",
       "uv": 0.6
     },
     {
       "date": "2026-01-16",
-      "maxtemp_f": 61.2,
+      "maxtemp_f": 61.9,
+      "mintemp_f": 26.1,
+      "avgtemp_f": 38.6,
+      "daily_chance_of_rain": 0,
+      "condition": "Sunny",
+      "uv": 0.5
+    },
+    {
+      "date": "2026-01-17",
+      "maxtemp_f": 56.3,
       "mintemp_f": 25.3,
-      "avgtemp_f": 39.5,
+      "avgtemp_f": 37.6,
       "daily_chance_of_rain": 0,
       "condition": "Sunny",
       "uv": 0.5
     }
   ],
   "sunrise": "07:45 AM",
-  "sunset": "05:38 PM",
+  "sunset": "05:39 PM",
   "weather_alerts": [],
   "zones": [],
   "base_zone": null

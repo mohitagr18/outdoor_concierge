@@ -209,7 +209,8 @@
     "is_pet_friendly": false,
     "raw_listing_description": null,
     "raw_body_text": null,
-    "last_enriched": "2025-12-31T06:22:34.376118"
+    "last_enriched": "2025-12-31T06:22:34.376118",
+    "alltrails_url": "https://www.alltrails.com/trail/us/utah/timber-creek-overlook-trail"
   },
   {
     "id": "6AD66A92-B0EB-4064-A52A-2DDB02CF9143",
@@ -250,7 +251,8 @@
     "is_pet_friendly": false,
     "raw_listing_description": null,
     "raw_body_text": null,
-    "last_enriched": "2025-12-31T06:22:40.280450"
+    "last_enriched": "2025-12-31T06:22:40.280450",
+    "alltrails_url": "https://www.alltrails.com/trail/us/utah/la-verkin-creek-trail-to-kolob-arch"
   },
   {
     "id": "7B0A7CE7-2553-4A51-9E7C-F1F77DC253A4",
@@ -291,7 +293,8 @@
     "is_pet_friendly": false,
     "raw_listing_description": null,
     "raw_body_text": null,
-    "last_enriched": "2025-12-31T06:22:46.503227"
+    "last_enriched": "2025-12-31T06:22:46.503227",
+    "alltrails_url": "https://www.alltrails.com/trail/us/utah/taylor-creek-trail"
   },
   {
     "id": "671CA42A-5287-4EC6-AD13-4841D2F9B724",
@@ -332,7 +335,8 @@
     "is_pet_friendly": false,
     "raw_listing_description": null,
     "raw_body_text": null,
-    "last_enriched": "2025-12-31T06:22:56.405739"
+    "last_enriched": "2025-12-31T06:22:56.405739",
+    "alltrails_url": "https://www.alltrails.com/trail/us/utah/watchman-trail"
   },
   {
     "id": "BD4CA407-5BE0-426E-8339-F34DE6795D3A",
@@ -373,7 +377,8 @@
     "is_pet_friendly": false,
     "raw_listing_description": null,
     "raw_body_text": null,
-    "last_enriched": "2025-12-31T06:23:08.220217"
+    "last_enriched": "2025-12-31T06:23:08.220217",
+    "alltrails_url": "https://www.alltrails.com/trail/us/utah/west-rim-trail-to-angels-landing"
   },
   {
     "id": "823A078C-D324-4648-B910-F15507E67244",
@@ -414,7 +419,8 @@
     "is_pet_friendly": false,
     "raw_listing_description": null,
     "raw_body_text": null,
-    "last_enriched": "2025-12-31T06:23:19.014926"
+    "last_enriched": "2025-12-31T06:23:19.014926",
+    "alltrails_url": "https://www.alltrails.com/trail/us/utah/riverside-walk"
   },
   {
     "id": "97C6C2F7-E45F-4192-9475-F2F90BF3E70E",
@@ -455,7 +461,8 @@
     "is_pet_friendly": false,
     "raw_listing_description": null,
     "raw_body_text": null,
-    "last_enriched": "2025-12-31T06:23:28.794933"
+    "last_enriched": "2025-12-31T06:23:28.794933",
+    "alltrails_url": "https://www.alltrails.com/trail/us/utah/middle-emerald-pool-trail"
   },
   {
     "id": "FD003EF3-8DA2-4FCB-9B49-7BFFB097CB76",
@@ -496,7 +503,8 @@
     "is_pet_friendly": false,
     "raw_listing_description": null,
     "raw_body_text": null,
-    "last_enriched": "2025-12-31T06:23:43.802316"
+    "last_enriched": "2025-12-31T06:23:43.802316",
+    "alltrails_url": "https://www.alltrails.com/trail/us/utah/upper-emerald-pool-trail"
   },
   {
     "id": "6A7BB554-73E5-43ED-90C1-A327CADF55C7",
@@ -537,7 +545,8 @@
     "is_pet_friendly": false,
     "raw_listing_description": null,
     "raw_body_text": null,
-    "last_enriched": "2025-12-31T06:23:53.685745"
+    "last_enriched": "2025-12-31T06:23:53.685745",
+    "alltrails_url": "https://www.alltrails.com/trail/us/utah/lower-emerald-pools-trail"
   },
   {
     "id": "64535736-992B-4D04-8BF6-3F1965A6A01A",
@@ -619,7 +628,8 @@
     "is_pet_friendly": true,
     "raw_listing_description": null,
     "raw_body_text": null,
-    "last_enriched": "2025-12-31T06:24:16.357452"
+    "last_enriched": "2025-12-31T06:24:16.357452",
+    "alltrails_url": "https://www.alltrails.com/trail/us/utah/parus-trail"
   },
   {
     "id": "97CF105C-B416-4CDC-B84F-2A2C96D870DB",
@@ -660,7 +670,8 @@
     "is_pet_friendly": false,
     "raw_listing_description": null,
     "raw_body_text": null,
-    "last_enriched": "2025-12-31T06:24:28.201221"
+    "last_enriched": "2025-12-31T06:24:28.201221",
+    "alltrails_url": "https://www.alltrails.com/trail/us/utah/canyon-overlook-trail"
   },
   {
     "id": "43CC4A81-2227-4E40-9403-6F7E2B27BC53",
@@ -701,7 +712,95 @@
     "is_pet_friendly": false,
     "raw_listing_description": null,
     "raw_body_text": null,
-    "last_enriched": "2025-12-31T06:24:33.967183"
+    "last_enriched": "2026-01-15T12:18:26.077142",
+    "alltrails_url": "https://www.alltrails.com/trail/us/utah/angels-landing-trail",
+    "recent_reviews": [
+      {
+        "author": "[Ani Kasamanyan](https://www.alltrails.com/members/ani-kasamanyan)",
+        "rating": 5,
+        "date": "Today",
+        "text": "The most amazing hike at Zion for the best views. Absolutely terrifyingly beautiful. Do NOT underestimate. Lots of opportunities to slip and fall. Make sure you are hiking with other people and that you are well prepared and have the right shoes.",
+        "condition_tags": [],
+        "visible_image_urls": []
+      },
+      {
+        "author": "[a a](https://www.alltrails.com/members/a-a-2252)",
+        "rating": 4,
+        "date": "Yesterday",
+        "text": "A few ice patches (on Jan 13), which you could walk around. However, there are a couple of spots without chain, which were uncomfortable for me because the rock covered in sand felt slippery. Turned back in the middle before the last climb. Someone on the trail wore micro spikes, they might work well with the soft rock for traction. Parking was scarce around noon, but a ranger helped to find spots",
+        "condition_tags": [],
+        "visible_image_urls": []
+      },
+      {
+        "author": "[Manda Leo](https://www.alltrails.com/members/amanda-coelho-9)",
+        "rating": 5,
+        "date": "Yesterday",
+        "text": "If you\u2019re thinking about doing it, do it it\u2019s absolutely worth it. The first part of the hike up until you get past, Walter\u2019s wiggle is the hardest because it is so steep. Then once you get past it the second part when you get to the chains it\u2019s much easier, but it is definitely a mental challenge. There\u2019s no other hike like it with an ending that is beyond rewarding. \n\nWe went in January and we parked around 8 AM. There was plenty of parking at this hour. We had the trail basically to ourselves the whole time. We bought ice spikes, but didn\u2019t end up needing them. \n\nDo it!!!!! And don\u2019t look down lol",
+        "condition_tags": [],
+        "visible_image_urls": []
+      },
+      {
+        "author": "[Hailey Bernstein](https://www.alltrails.com/members/hailey-bernstein-2)",
+        "rating": 5,
+        "date": "Jan 13, 2026",
+        "text": "This trail was absolutely incredible. The mountains - I really haven\u2019t seen anything like it. It\u2019s definitely difficult and I was huffing and puffing at some points BUT making it up to angels landing was so worth it. it wasn\u2019t as icy as I thought today and the weather was pretty good (almost no snow) and personally I didn\u2019t use the shoe spikes I bought.",
+        "condition_tags": [],
+        "visible_image_urls": [
+          "https://www.alltrails.com/mugen/image/trail-app-router?url=https%3A%2F%2Fimages.alltrails.com%2FeyJidWNrZXQiOiJhc3NldHMuYWxsdHJhaWxzLmNvbSIsImtleSI6InVwbG9hZHMvcGhvdG8vaW1hZ2UvMTE4OTIyNjUxLzdhNzZlY2MwZDY4ODM5OGViNTljYWI5ZmJjZjE4ODk3LmpwZyIsImVkaXRzIjp7InRvRm9ybWF0IjoianBlZyIsInJlc2l6ZSI6eyJ3aWR0aCI6IjE2MCIsImhlaWdodCI6IjE2MCIsImZpdCI6ImNvdmVyIn0sInJvdGF0ZSI6bnVsbCwianBlZyI6eyJ0cmVsbGlzUXVhbnRpc2F0aW9uIjp0cnVlLCJvdmVyc2hvb3REZXJpbmdpbmciOnRydWUsIm9wdGltaXNlU2NhbnMiOnRydWUsInF1YW50aXNhdGlvblRhYmxlIjozfX19&w=256&q=75",
+          "https://www.alltrails.com/mugen/image/trail-app-router?url=https%3A%2F%2Fimages.alltrails.com%2FeyJidWNrZXQiOiJhc3NldHMuYWxsdHJhaWxzLmNvbSIsImtleSI6InVwbG9hZHMvcGhvdG8vaW1hZ2UvMTE4OTIyNjUwLzhhMmFjZjQ2YjcyYmNmNmY1NzA5ZDJmZWM2YTJhNGY4LmpwZyIsImVkaXRzIjp7InRvRm9ybWF0IjoianBlZyIsInJlc2l6ZSI6eyJ3aWR0aCI6IjE2MCIsImhlaWdodCI6IjE2MCIsImZpdCI6ImNvdmVyIn0sInJvdGF0ZSI6bnVsbCwianBlZyI6eyJ0cmVsbGlzUXVhbnRpc2F0aW9uIjp0cnVlLCJvdmVyc2hvb3REZXJpbmdpbmciOnRydWUsIm9wdGltaXNlU2NhbnMiOnRydWUsInF1YW50aXNhdGlvblRhYmxlIjozfX19&w=256&q=75"
+        ]
+      },
+      {
+        "author": "[Stephaun Herring](https://www.alltrails.com/members/stephaun-herring)",
+        "rating": 5,
+        "date": "Jan 13, 2026",
+        "text": "Small amount of ice on the trail. Hiked it without micro spikes without issue though. Not crowded at all either, great views.",
+        "condition_tags": [],
+        "visible_image_urls": [
+          "https://www.alltrails.com/mugen/image/trail-app-router?url=https%3A%2F%2Fimages.alltrails.com%2FeyJidWNrZXQiOiJhc3NldHMuYWxsdHJhaWxzLmNvbSIsImtleSI6InVwbG9hZHMvcGhvdG8vaW1hZ2UvMTE4OTE4ODAwL2JjNGU0N2FmZjk4NzAwYmRhZDcxMTcxNGExMDExOGQ5LmpwZyIsImVkaXRzIjp7InRvRm9ybWF0IjoianBlZyIsInJlc2l6ZSI6eyJ3aWR0aCI6IjE2MCIsImhlaWdodCI6IjE2MCIsImZpdCI6ImNvdmVyIn0sInJvdGF0ZSI6bnVsbCwianBlZyI6eyJ0cmVsbGlzUXVhbnRpc2F0aW9uIjp0cnVlLCJvdmVyc2hvb3REZXJpbmdpbmciOnRydWUsIm9wdGltaXNlU2NhbnMiOnRydWUsInF1YW50aXNhdGlvblRhYmxlIjozfX19&w=256&q=75",
+          "https://www.alltrails.com/mugen/image/trail-app-router?url=https%3A%2F%2Fimages.alltrails.com%2FeyJidWNrZXQiOiJhc3NldHMuYWxsdHJhaWxzLmNvbSIsImtleSI6InVwbG9hZHMvcGhvdG8vaW1hZ2UvMTE4OTE4ODAzLzkyZTFiMTM4MjM4MDZhY2ZlMjg1NTgyOWIxNDk3YTgzLmpwZyIsImVkaXRzIjp7InRvRm9ybWF0IjoianBlZyIsInJlc2l6ZSI6eyJ3aWR0aCI6IjE2MCIsImhlaWdodCI6IjE2MCIsImZpdCI6ImNvdmVyIn0sInJvdGF0ZSI6bnVsbCwianBlZyI6eyJ0cmVsbGlzUXVhbnRpc2F0aW9uIjp0cnVlLCJvdmVyc2hvb3REZXJpbmdpbmciOnRydWUsIm9wdGltaXNlU2NhbnMiOnRydWUsInF1YW50aXNhdGlvblRhYmxlIjozfX19&w=256&q=75",
+          "https://www.alltrails.com/mugen/image/trail-app-router?url=https%3A%2F%2Fimages.alltrails.com%2FeyJidWNrZXQiOiJhc3NldHMuYWxsdHJhaWxzLmNvbSIsImtleSI6InVwbG9hZHMvcGhvdG8vaW1hZ2UvMTE4OTE4ODAxLzc5ZmJmNWRhNGVjZDc2NmRmYjM2NzJiNWM2YTdjNjVkLmpwZyIsImVkaXRzIjp7InRvRm9ybWF0IjoianBlZyIsInJlc2l6ZSI6eyJ3aWR0aCI6IjE2MCIsImhlaWdodCI6IjE2MCIsImZpdCI6ImNvdmVyIn0sInJvdGF0ZSI6bnVsbCwianBlZyI6eyJ0cmVsbGlzUXVhbnRpc2F0aW9uIjp0cnVlLCJvdmVyc2hvb3REZXJpbmdpbmciOnRydWUsIm9wdGltaXNlU2NhbnMiOnRydWUsInF1YW50aXNhdGlvblRhYmxlIjozfX19&w=256&q=75"
+        ]
+      },
+      {
+        "author": "[Curtis Batchelor](https://www.alltrails.com/members/curtis-batchelor)",
+        "rating": 5,
+        "date": "Jan 10, 2026",
+        "text": "Did a winter ascent after it snowed the previous day. Definitely ask rangers for trail conditions and plan according if going in the winter. Definitely recommend any type of hiking shoes or boots with some type of traction device, I.e. micro-spikes, crampons, etc. If there is ice and snow on the trail and top I would definitely reconsider if not properly equipped.\nGreat views if you make it to the end though. Stay safe.",
+        "condition_tags": [],
+        "visible_image_urls": []
+      },
+      {
+        "author": "[Russell V](https://www.alltrails.com/members/russell-verceles)",
+        "rating": 5,
+        "date": "Jan 7, 2026",
+        "text": "Amazing hike!!! Angels Landing is all that! Steep hike to Scott's Outlook. Reminiscent of Grand Canyon except the trail is mostly paved going up. I guess not having to fight boulders and large steps are a plus!!! Met some great people on the hike. Really enjoyed it!! There is a ranger checking to see if you have a permit to go up angels landing. Its a lottery system to apply the day prior by 3pm. Luckily I got it! :) have a great Wednesday all!!",
+        "condition_tags": [],
+        "visible_image_urls": [
+          "https://www.alltrails.com/mugen/image/trail-app-router?url=https%3A%2F%2Fimages.alltrails.com%2FeyJidWNrZXQiOiJhc3NldHMuYWxsdHJhaWxzLmNvbSIsImtleSI6InVwbG9hZHMvcGhvdG8vaW1hZ2UvMTE4NjQ5MTY3LzkzMmY2YTYwOWUzZDNmOTMxY2MyMGQ2NDljYjYzOWNkLmpwZyIsImVkaXRzIjp7InRvRm9ybWF0IjoianBlZyIsInJlc2l6ZSI6eyJ3aWR0aCI6IjE2MCIsImhlaWdodCI6IjE2MCIsImZpdCI6ImNvdmVyIn0sInJvdGF0ZSI6bnVsbCwianBlZyI6eyJ0cmVsbGlzUXVhbnRpc2F0aW9uIjp0cnVlLCJvdmVyc2hvb3REZXJpbmdpbmciOnRydWUsIm9wdGltaXNlU2NhbnMiOnRydWUsInF1YW50aXNhdGlvblRhYmxlIjozfX19&w=256&q=75",
+          "https://www.alltrails.com/mugen/image/trail-app-router?url=https%3A%2F%2Fimages.alltrails.com%2FeyJidWNrZXQiOiJhc3NldHMuYWxsdHJhaWxzLmNvbSIsImtleSI6InVwbG9hZHMvcGhvdG8vaW1hZ2UvMTE4OTIwOTc4LzYzZjM5N2I2NmZlMWUwYjUxNWYwZDc3MTlkMTIwZWYzLmpwZyIsImVkaXRzIjp7InRvRm9ybWF0IjoianBlZyIsInJlc2l6ZSI6eyJ3aWR0aCI6IjE2MCIsImhlaWdodCI6IjE2MCIsImZpdCI6ImNvdmVyIn0sInJvdGF0ZSI6bnVsbCwianBlZyI6eyJ0cmVsbGlzUXVhbnRpc2F0aW9uIjp0cnVlLCJvdmVyc2hvb3REZXJpbmdpbmciOnRydWUsIm9wdGltaXNlU2NhbnMiOnRydWUsInF1YW50aXNhdGlvblRhYmxlIjozfX19&w=256&q=75",
+          "https://www.alltrails.com/mugen/image/trail-app-router?url=https%3A%2F%2Fimages.alltrails.com%2FeyJidWNrZXQiOiJhc3NldHMuYWxsdHJhaWxzLmNvbSIsImtleSI6InVwbG9hZHMvcGhvdG8vaW1hZ2UvMTE4OTIwOTcxL2M4NjkzZTRjZjQxODJhZmE3OGI4MmY1N2M1MGE4NjEzLmpwZyIsImVkaXRzIjp7InRvRm9ybWF0IjoianBlZyIsInJlc2l6ZSI6eyJ3aWR0aCI6IjE2MCIsImhlaWdodCI6IjE2MCIsImZpdCI6ImNvdmVyIn0sInJvdGF0ZSI6bnVsbCwianBlZyI6eyJ0cmVsbGlzUXVhbnRpc2F0aW9uIjp0cnVlLCJvdmVyc2hvb3REZXJpbmdpbmciOnRydWUsIm9wdGltaXNlU2NhbnMiOnRydWUsInF1YW50aXNhdGlvblRhYmxlIjozfX19&w=256&q=75",
+          "https://www.alltrails.com/mugen/image/trail-app-router?url=https%3A%2F%2Fimages.alltrails.com%2FeyJidWNrZXQiOiJhc3NldHMuYWxsdHJhaWxzLmNvbSIsImtleSI6InVwbG9hZHMvcGhvdG8vaW1hZ2UvMTE4OTIwOTYzL2JlNzgzODQwODQxZjM3OGQ3M2MyM2JjNWQ0MjJkZTNiLmpwZyIsImVkaXRzIjp7InRvRm9ybWF0IjoianBlZyIsInJlc2l6ZSI6eyJ3aWR0aCI6IjE2MCIsImhlaWdodCI6IjE2MCIsImZpdCI6ImNvdmVyIn0sInJvdGF0ZSI6bnVsbCwianBlZyI6eyJ0cmVsbGlzUXVhbnRpc2F0aW9uIjp0cnVlLCJvdmVyc2hvb3REZXJpbmdpbmciOnRydWUsIm9wdGltaXNlU2NhbnMiOnRydWUsInF1YW50aXNhdGlvblRhYmxlIjozfX19&w=256&q=75",
+          "https://www.alltrails.com/mugen/image/trail-app-router?url=https%3A%2F%2Fimages.alltrails.com%2FeyJidWNrZXQiOiJhc3NldHMuYWxsdHJhaWxzLmNvbSIsImtleSI6InVwbG9hZHMvcGhvdG8vaW1hZ2UvMTE4OTIwOTU5L2ZjYTg3NmE2OWE2YWEwZWY2NzYxYTY4OWQ2Njg4YTBhLmpwZyIsImVkaXRzIjp7InRvRm9ybWF0IjoianBlZyIsInJlc2l6ZSI6eyJ3aWR0aCI6IjE2MCIsImhlaWdodCI6IjE2MCIsImZpdCI6ImNvdmVyIn0sInJvdGF0ZSI6bnVsbCwianBlZyI6eyJ0cmVsbGlzUXVhbnRpc2F0aW9uIjp0cnVlLCJvdmVyc2hvb3REZXJpbmdpbmciOnRydWUsIm9wdGltaXNlU2NhbnMiOnRydWUsInF1YW50aXNhdGlvblRhYmxlIjozfX19&w=256&q=75",
+          "https://www.alltrails.com/mugen/image/trail-app-router?url=https%3A%2F%2Fimages.alltrails.com%2FeyJidWNrZXQiOiJhc3NldHMuYWxsdHJhaWxzLmNvbSIsImtleSI6InVwbG9hZHMvcGhvdG8vaW1hZ2UvMTE4OTIwOTQ4Lzc5N2M5NWYyMjk3YjVkNWVmMTk2MmIxOTk2NzcxYTI4LmpwZyIsImVkaXRzIjp7InRvRm9ybWF0IjoianBlZyIsInJlc2l6ZSI6eyJ3aWR0aCI6IjE2MCIsImhlaWdodCI6IjE2MCIsImZpdCI6ImNvdmVyIn0sInJvdGF0ZSI6bnVsbCwianBlZyI6eyJ0cmVsbGlzUXVhbnRpc2F0aW9uIjp0cnVlLCJvdmVyc2hvb3REZXJpbmdpbmciOnRydWUsIm9wdGltaXNlU2NhbnMiOnRydWUsInF1YW50aXNhdGlvblRhYmxlIjozfX19&w=256&q=75",
+          "https://www.alltrails.com/mugen/image/trail-app-router?url=https%3A%2F%2Fimages.alltrails.com%2FeyJidWNrZXQiOiJhc3NldHMuYWxsdHJhaWxzLmNvbSIsImtleSI6InVwbG9hZHMvcGhvdG8vaW1hZ2UvMTE4OTIwOTI1LzlhYThlMmQyY2RjNmFhOGQ5YjQ1YWE2MjVjODdmM2EzLmpwZyIsImVkaXRzIjp7InRvRm9ybWF0IjoianBlZyIsInJlc2l6ZSI6eyJ3aWR0aCI6IjE2MCIsImhlaWdodCI6IjE2MCIsImZpdCI6ImNvdmVyIn0sInJvdGF0ZSI6bnVsbCwianBlZyI6eyJ0cmVsbGlzUXVhbnRpc2F0aW9uIjp0cnVlLCJvdmVyc2hvb3REZXJpbmdpbmciOnRydWUsIm9wdGltaXNlU2NhbnMiOnRydWUsInF1YW50aXNhdGlvblRhYmxlIjozfX19&w=256&q=75",
+          "https://www.alltrails.com/mugen/image/trail-app-router?url=https%3A%2F%2Fimages.alltrails.com%2FeyJidWNrZXQiOiJhc3NldHMuYWxsdHJhaWxzLmNvbSIsImtleSI6InVwbG9hZHMvcGhvdG8vaW1hZ2UvMTE4OTIwOTIwL2RlZmI5YWE0NGU2ZTNjYjhjYzYwMjhkYmE2MWIwYzg3LmpwZyIsImVkaXRzIjp7InRvRm9ybWF0IjoianBlZyIsInJlc2l6ZSI6eyJ3aWR0aCI6IjE2MCIsImhlaWdodCI6IjE2MCIsImZpdCI6ImNvdmVyIn0sInJvdGF0ZSI6bnVsbCwianBlZyI6eyJ0cmVsbGlzUXVhbnRpc2F0aW9uIjp0cnVlLCJvdmVyc2hvb3REZXJpbmdpbmciOnRydWUsIm9wdGltaXNlU2NhbnMiOnRydWUsInF1YW50aXNhdGlvblRhYmxlIjozfX19&w=256&q=75",
+          "https://www.alltrails.com/mugen/image/trail-app-router?url=https%3A%2F%2Fimages.alltrails.com%2FeyJidWNrZXQiOiJhc3NldHMuYWxsdHJhaWxzLmNvbSIsImtleSI6InVwbG9hZHMvcGhvdG8vaW1hZ2UvMTE4OTIwOTA2L2VhNzExZjQ5MGE0ODQzNDE0MGU2MjkyY2I4Y2EzYWVmLmpwZyIsImVkaXRzIjp7InRvRm9ybWF0IjoianBlZyIsInJlc2l6ZSI6eyJ3aWR0aCI6IjE2MCIsImhlaWdodCI6IjE2MCIsImZpdCI6ImNvdmVyIn0sInJvdGF0ZSI6bnVsbCwianBlZyI6eyJ0cmVsbGlzUXVhbnRpc2F0aW9uIjp0cnVlLCJvdmVyc2hvb3REZXJpbmdpbmciOnRydWUsIm9wdGltaXNlU2NhbnMiOnRydWUsInF1YW50aXNhdGlvblRhYmxlIjozfX19&w=256&q=75",
+          "https://www.alltrails.com/mugen/image/trail-app-router?url=https%3A%2F%2Fimages.alltrails.com%2FeyJidWNrZXQiOiJhc3NldHMuYWxsdHJhaWxzLmNvbSIsImtleSI6InVwbG9hZHMvcGhvdG8vaW1hZ2UvMTE4OTIwODk5L2NmYTZiMjg5YzBhOGIwMGE4NzFiZTlhYTE0Njg0NTQzLmpwZyIsImVkaXRzIjp7InRvRm9ybWF0IjoianBlZyIsInJlc2l6ZSI6eyJ3aWR0aCI6IjE2MCIsImhlaWdodCI6IjE2MCIsImZpdCI6ImNvdmVyIn0sInJvdGF0ZSI6bnVsbCwianBlZyI6eyJ0cmVsbGlzUXVhbnRpc2F0aW9uIjp0cnVlLCJvdmVyc2hvb3REZXJpbmdpbmciOnRydWUsIm9wdGltaXNlU2NhbnMiOnRydWUsInF1YW50aXNhdGlvblRhYmxlIjozfX19&w=256&q=75"
+        ]
+      },
+      {
+        "author": "[Koyena Biswas](https://www.alltrails.com/members/koyena-biswas)",
+        "rating": 5,
+        "date": "Jan 7, 2026",
+        "text": "One of the best hikes I have done. The trail is thoughtfully made and maintained. There is a diverse set of challenges throughout the hike and the difficulty increases gradually. The first couple miles are straightforward with multiple switchbacks gaining gradual altitude. The switchbacks get more and more challenging as you reach closer to Scout lookout.\n\nNote: Despite of the straightforwardness of the first 2 miles, the gradual and consistent ascent could be challenging and cardio heavy.\n\nOnce you reach Scout lookout, the trail moves into Angels Landing (only with a permit that you have to get a day before - you cannot get a same day permit). There are clear boards indicating the trail. This part of the trail gets pretty challenging especially because of the steepness, exposure, and of course the fatigue of consistent ascent. Breathe and keep a consistent pace because at this point it feels like the trail never ends - primarily because you\u2019ve been walking up for a minute by now. Be patient because the absolute beauty is coming soon! Take breaks at comfortable resting spots, but not for too long to lose momentum. There is a mix of short engaging problems in different sections and you will have to use some basic scrambling and climbing skills to get over. However, the trail is maintained to a level that it will never be confusing to know the correct path. Just keep following the chain rails.\n\nYou will not regret the walk up once you make it to the top. The last 0.5 miles are challenging, but the challenge makes it even more rewarding!\n\nThe descent might feel condescending given having the knowledge and memory of the difficulty when hiking up. But to me, it was surprisingly easier than the ascent. Use the chains more when descending, turn around facing up while descending washed out sections, sit down as much as you need to keep the momentum. There are plenty resting spots too. The views are better when descending as you are facing the canyon all the way down! Every part of this hike comes with rewarding views!\n\nNote: Wear hiking boots or approach shoes for a better experience. Do not wear running shoes or canvas. I saw a lot of people doing this trail in running shoes and I can assure you it\u2019s a better experience with the right hiking boots and/ or approach shoes.",
+        "condition_tags": [],
+        "visible_image_urls": []
+      }
+    ],
+    "reviews_last_updated": "2026-01-15T12:18:26.077090",
+    "average_rating": 4.9,
+    "total_reviews": 8
   },
   {
     "id": "64075857-ACC6-4F4D-961B-1283D0F5475D",
@@ -742,6 +841,7 @@
     "is_pet_friendly": false,
     "raw_listing_description": null,
     "raw_body_text": null,
-    "last_enriched": "2025-12-31T06:24:46.925431"
+    "last_enriched": "2025-12-31T06:24:46.925431",
+    "alltrails_url": "https://www.alltrails.com/trail/us/utah/the-zion-narrows-riverside-walk"
   }
 ]

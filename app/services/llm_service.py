@@ -241,18 +241,15 @@ class GeminiLLMService:
             TASK: Show reviews for: {intent.review_targets}.
             
             INSTRUCTIONS:
-            1. Start with a brief 2-sentence summary of the overall sentiment.
-            2. Then list the reviews using the EXACT format below.
-            
-            STRICT OUTPUT FORMAT PER REVIEW:
-            **[Author Name]** | [Date] | [Rating]★
-            > "[Review Text]"
-            
-            [Images on their own line]
-            
-            3. Do NOT use large headers (###) for the author name. Keep it standard bold.
-            4. Do NOT summarize the individual review text; quote it full.
-            5. End with follow-up questions.
+            1. Look for reviews in the CONTEXT data for the specified trail(s).
+            2. If reviews ARE found:
+               - Start with a brief 2-sentence summary of the overall sentiment.
+               - List reviews using this format: **[Author Name]** | [Date] | [Rating]★ followed by quoted text.
+            3. If NO reviews are found in the context:
+               - Politely inform the user that no recent reviews are available for this trail.
+               - Suggest they check AllTrails or other review sites directly.
+               - Offer to help with other information about the trail (difficulty, length, conditions).
+            4. End with follow-up questions.
             
             CONTEXT:
             {data_context}

@@ -267,7 +267,69 @@
     "is_pet_friendly": true,
     "raw_listing_description": "A short walk will lead you to the base of Bridalveil Fall, allowing you to get an up close view of this often-windswept waterfall. Plunging 620 feet (189 meters), Bridalveil Fall is the first major waterfall you'll see when entering Yosemite Valley.",
     "raw_body_text": "Plunging 620 feet (189 meters), Bridalveil Fall is the first major waterfall seen when entering Yosemite Valley. Known as \u201cPohono\u201d to Southern Sierra Miwuk Indians, the waterfall is framed by Leaning Tower and Cathedral Rocks.",
-    "last_enriched": "2026-01-08T20:50:49.194015"
+    "last_enriched": "2026-01-16T15:02:40.627485",
+    "alltrails_url": "https://www.alltrails.com/trail/us/california/bridalveil-fall-trail",
+    "recent_reviews": [
+      {
+        "author": "[Janel J](https://www.alltrails.com/members/janel-jaramillo)",
+        "rating": 5,
+        "date": "Jan 14, 2026",
+        "text": "Easy & beautiful trail to see the falls! Hardest part about it was finding the parking but other than that gorgeous few with little effort. Can sit & enjoy the sound & view of the falls!",
+        "condition_tags": [],
+        "visible_image_urls": []
+      },
+      {
+        "author": "[Nicholas Perez](https://www.alltrails.com/members/nicholas-perez-5)",
+        "rating": 5,
+        "date": "Nov 22, 2025",
+        "text": "Nice easy stroll. My eight-year-old daughter said it was too easy and had to climb up the rocks to get closer to the waterfall.",
+        "condition_tags": [],
+        "visible_image_urls": [
+          "https://www.alltrails.com/mugen/image/trail-app-router?url=https%3A%2F%2Fimages.alltrails.com%2FeyJidWNrZXQiOiJhc3NldHMuYWxsdHJhaWxzLmNvbSIsImtleSI6InVwbG9hZHMvcGhvdG8vaW1hZ2UvMTE3MTE1MjI3L2FlM2FiYWMxNzFiNDI1Y2E0ZTcyMWRkMzRiMmU5ZGVhLmpwZyIsImVkaXRzIjp7InRvRm9ybWF0IjoianBlZyIsInJlc2l6ZSI6eyJ3aWR0aCI6IjE2MCIsImhlaWdodCI6IjE2MCIsImZpdCI6ImNvdmVyIn0sInJvdGF0ZSI6bnVsbCwianBlZyI6eyJ0cmVsbGlzUXVhbnRpc2F0aW9uIjp0cnVlLCJvdmVyc2hvb3REZXJpbmdpbmciOnRydWUsIm9wdGltaXNlU2NhbnMiOnRydWUsInF1YW50aXNhdGlvblRhYmxlIjozfX19&w=256&q=75",
+          "https://www.alltrails.com/mugen/image/trail-app-router?url=https%3A%2F%2Fimages.alltrails.com%2FeyJidWNrZXQiOiJhc3NldHMuYWxsdHJhaWxzLmNvbSIsImtleSI6InVwbG9hZHMvcGhvdG8vaW1hZ2UvMTE2MzQwODQ3Lzk1NDUzMGEyNzBkNGQwOGE3NDM0ZWQ1Y2YyMGJlMDFmLmpwZyIsImVkaXRzIjp7InRvRm9ybWF0IjoianBlZyIsInJlc2l6ZSI6eyJ3aWR0aCI6IjE2MCIsImhlaWdodCI6IjE2MCIsImZpdCI6ImNvdmVyIn0sInJvdGF0ZSI6bnVsbCwianBlZyI6eyJ0cmVsbGlzUXVhbnRpc2F0aW9uIjp0cnVlLCJvdmVyc2hvb3REZXJpbmdpbmciOnRydWUsIm9wdGltaXNlU2NhbnMiOnRydWUsInF1YW50aXNhdGlvblRhYmxlIjozfX19&w=256&q=75",
+          "https://www.alltrails.com/mugen/image/trail-app-router?url=https%3A%2F%2Fimages.alltrails.com%2FeyJidWNrZXQiOiJhc3NldHMuYWxsdHJhaWxzLmNvbSIsImtleSI6InVwbG9hZHMvcGhvdG8vaW1hZ2UvMTE2MzQwODM5LzE2ZTZiOGUzZGQxZTI0YTliNzI3MzRmNDA3OWMyNTczLmpwZyIsImVkaXRzIjp7InRvRm9ybWF0IjoianBlZyIsInJlc2l6ZSI6eyJ3aWR0aCI6IjE2MCIsImhlaWdodCI6IjE2MCIsImZpdCI6ImNvdmVyIn0sInJvdGF0ZSI6bnVsbCwianBlZyI6eyJ0cmVsbGlzUXVhbnRpc2F0aW9uIjp0cnVlLCJvdmVyc2hvb3REZXJpbmdpbmciOnRydWUsIm9wdGltaXNlU2NhbnMiOnRydWUsInF1YW50aXNhdGlvblRhYmxlIjozfX19&w=256&q=75",
+          "https://www.alltrails.com/mugen/image/trail-app-router?url=https%3A%2F%2Fimages.alltrails.com%2FeyJidWNrZXQiOiJhc3NldHMuYWxsdHJhaWxzLmNvbSIsImtleSI6InVwbG9hZHMvcGhvdG8vaW1hZ2UvMTE2MzQwODQwL2RjMTZiODkxMzJjODlkOTZiZGVmMjA1NWRlY2EwMzk0LmpwZyIsImVkaXRzIjp7InRvRm9ybWF0IjoianBlZyIsInJlc2l6ZSI6eyJ3aWR0aCI6IjE2MCIsImhlaWdodCI6IjE2MCIsImZpdCI6ImNvdmVyIn0sInJvdGF0ZSI6bnVsbCwianBlZyI6eyJ0cmVsbGlzUXVhbnRpc2F0aW9uIjp0cnVlLCJvdmVyc2hvb3REZXJpbmdpbmciOnRydWUsIm9wdGltaXNlU2NhbnMiOnRydWUsInF1YW50aXNhdGlvblRhYmxlIjozfX19&w=256&q=75",
+          "https://www.alltrails.com/mugen/image/trail-app-router?url=https%3A%2F%2Fimages.alltrails.com%2FeyJidWNrZXQiOiJhc3NldHMuYWxsdHJhaWxzLmNvbSIsImtleSI6InVwbG9hZHMvcGhvdG8vaW1hZ2UvMTE2MzQwODExLzJhOGUwOTQ2NTYzNDhhY2ZjYzAwOGQ4NjI3YTQxZDQ5LmpwZyIsImVkaXRzIjp7InRvRm9ybWF0IjoianBlZyIsInJlc2l6ZSI6eyJ3aWR0aCI6IjE2MCIsImhlaWdodCI6IjE2MCIsImZpdCI6ImNvdmVyIn0sInJvdGF0ZSI6bnVsbCwianBlZyI6eyJ0cmVsbGlzUXVhbnRpc2F0aW9uIjp0cnVlLCJvdmVyc2hvb3REZXJpbmdpbmciOnRydWUsIm9wdGltaXNlU2NhbnMiOnRydWUsInF1YW50aXNhdGlvblRhYmxlIjozfX19&w=256&q=75"
+        ]
+      },
+      {
+        "author": "[Jennifer B](https://www.alltrails.com/members/jennifer-baretinicich)",
+        "rating": 5,
+        "date": "Nov 18, 2025",
+        "text": "Short, dog friendly trail",
+        "condition_tags": [],
+        "visible_image_urls": [
+          "https://www.alltrails.com/mugen/image/trail-app-router?url=https%3A%2F%2Fimages.alltrails.com%2FeyJidWNrZXQiOiJhc3NldHMuYWxsdHJhaWxzLmNvbSIsImtleSI6InVwbG9hZHMvcGhvdG8vaW1hZ2UvMTE2MTY3MzYwLzY2Yzg4YTQ1NzkyNTE0MTIwZDhmZmJjZWFkNmQ1ZmRmLmpwZyIsImVkaXRzIjp7InRvRm9ybWF0IjoianBlZyIsInJlc2l6ZSI6eyJ3aWR0aCI6IjE2MCIsImhlaWdodCI6IjE2MCIsImZpdCI6ImNvdmVyIn0sInJvdGF0ZSI6bnVsbCwianBlZyI6eyJ0cmVsbGlzUXVhbnRpc2F0aW9uIjp0cnVlLCJvdmVyc2hvb3REZXJpbmdpbmciOnRydWUsIm9wdGltaXNlU2NhbnMiOnRydWUsInF1YW50aXNhdGlvblRhYmxlIjozfX19&w=256&q=75"
+        ]
+      },
+      {
+        "author": "[Charmaine Padilla](https://www.alltrails.com/members/alltrails-user-250225)",
+        "rating": 5,
+        "date": "Nov 5, 2025",
+        "text": "Mostly paved trail \u2026easy",
+        "condition_tags": [],
+        "visible_image_urls": []
+      },
+      {
+        "author": "[Revathi Sinha](https://www.alltrails.com/members/revathi-sinha)",
+        "rating": 5,
+        "date": "Nov 3, 2025",
+        "text": "Very easy trail",
+        "condition_tags": [],
+        "visible_image_urls": []
+      },
+      {
+        "author": "[Valerie Buan](https://www.alltrails.com/members/valerie-buan)",
+        "rating": 5,
+        "date": "Aug 10, 2025",
+        "text": "Parked off the street and took the little portion of the Valley Loop to get towards the Brideveil trail. Short walk with wide paved walkways where most was under tree cover. Really enjoyable walk to escape the hot summer sun. The portion towards the Valley Trail was uncrowded, but once you get on the actual Brideveil trail, lots of people on the trail and enjoying the stream coming down from the waterfall. The parking lot gets really crowded weekend summers.",
+        "condition_tags": [],
+        "visible_image_urls": []
+      }
+    ],
+    "reviews_last_updated": "2026-01-16T15:02:40.627447",
+    "average_rating": 5.0,
+    "total_reviews": 6
   },
   {
     "id": "C51F3C63-C110-43C7-92FC-1F8EFD44228A",

@@ -1,6 +1,9 @@
 import os
 import json
 import logging
+import re
+import requests
+from urllib.parse import quote_plus
 from datetime import datetime, date
 from typing import List, Optional, Dict, Any
 
@@ -78,35 +81,65 @@ class ReviewScraper:
             except ValueError:
                 pass
 
-        # 4. Scrape logic
+        # 4. Check if scraping is even possible before doing URL lookups
         if not self.api_key:
             logger.warning("Skipping scrape: No API Key")
             # FALLBACK: Return cached reviews if they exist, even if stale
             if target_trail.get("recent_reviews"):
                 logger.info("Using cached reviews (Fallback - No API Key)")
                 return [TrailReview(**r) for r in target_trail["recent_reviews"]]
+            # No reviews and can't scrape - return empty and let LLM know
+            logger.info(f"No cached reviews for {trail_name} and cannot scrape (no API key)")
             return []
             
         if not Firecrawl:
             logger.warning("Skipping scrape: Firecrawl module not installed")
-            # FALLBACK: Return cached reviews if they exist
             if target_trail.get("recent_reviews"):
                 logger.info("Using cached reviews (Fallback - No Firecrawl)")
                 return [TrailReview(**r) for r in target_trail["recent_reviews"]]
             return []
 
+        # 5. Get or find AllTrails URL
         url = target_trail.get("alltrails_url")
+        url_was_discovered = False
         
-        # Sanity check URL
+        # If no AllTrails URL, try to find one dynamically
         if not url or "alltrails" not in url:
-             logger.warning(f"No valid AllTrails URL for {trail_name}: {url}")
-             return []
+            logger.info(f"🔍 No AllTrails URL for '{trail_name}'. Searching...")
+            url = self._find_alltrails_url(target_trail['name'], park_code)
+            
+            if url:
+                # Mark URL as newly discovered (will be saved with reviews)
+                target_trail["alltrails_url"] = url
+                url_was_discovered = True
+                logger.info(f"✅ Found AllTrails URL: {url}")
+            else:
+                logger.warning(f"Could not find AllTrails URL for {trail_name}")
+                # FALLBACK: Return cached reviews if they exist
+                if target_trail.get("recent_reviews"):
+                    logger.info("Using cached reviews (Fallback - No AllTrails URL)")
+                    return [TrailReview(**r) for r in target_trail["recent_reviews"]]
+                return []
 
         logger.info(f"🕷️ Scraping reviews for '{target_trail['name']}' from {url}")
         try:
+             import concurrent.futures
+             
              app = Firecrawl(api_key=self.api_key)
-             # V2: returns an object, not just dict
-             scraped = app.scrape_url(url, params={'formats': ['markdown']})
+             
+             # Use ThreadPoolExecutor for hard timeout (Firecrawl timeout doesn't work reliably)
+             def do_scrape():
+                 return app.scrape(url, formats=['markdown'], timeout=30000)
+             
+             with concurrent.futures.ThreadPoolExecutor(max_workers=1) as executor:
+                 future = executor.submit(do_scrape)
+                 try:
+                     scraped = future.result(timeout=45)  # 45 second hard timeout
+                 except concurrent.futures.TimeoutError:
+                     logger.error(f"Firecrawl scrape timed out after 45 seconds for {url}")
+                     if target_trail.get("recent_reviews"):
+                         return [TrailReview(**r) for r in target_trail["recent_reviews"]]
+                     return []
              
              markdown = ""
              if hasattr(scraped, 'markdown'):
@@ -139,18 +172,26 @@ class ReviewScraper:
                      target_trail["average_rating"] = round(avg_rating, 1)
                      target_trail["total_reviews"] = len(reviews) 
                  
-                 # Save back to disk
+                 # Save back to disk (includes new URL if discovered)
                  self._save_cache(park_code, trails_data)
                  
                  return reviews
              else:
                  logger.warning("LLM found 0 reviews in the scraped content.")
+                 # Still save if we discovered a new URL
+                 if url_was_discovered:
+                     self._save_cache(park_code, trails_data)
+                     logger.info("Saved newly discovered AllTrails URL (no reviews found)")
                  # FALLBACK
                  if target_trail.get("recent_reviews"):
                      return [TrailReview(**r) for r in target_trail["recent_reviews"]]
              
         except Exception as e:
             logger.error(f"Scraping failed: {e}")
+            # Still save if we discovered a new URL
+            if url_was_discovered:
+                self._save_cache(park_code, trails_data)
+                logger.info("Saved newly discovered AllTrails URL (scrape failed)")
             # FALLBACK
             if target_trail.get("recent_reviews"):
                 logger.info("Using cached reviews (Fallback - Scrape Exception)")
@@ -158,6 +199,71 @@ class ReviewScraper:
             return []
 
         return []
+
+    def _find_alltrails_url(self, trail_name: str, park_code: str) -> Optional[str]:
+        """
+        Search for AllTrails URL using DuckDuckGo site-specific search.
+        Returns the first AllTrails trail URL found, or None.
+        """
+        from urllib.parse import unquote
+        
+        # Map park codes to full names for better search results
+        PARK_NAMES = {
+            "zion": "Zion National Park",
+            "yose": "Yosemite National Park",
+            "grca": "Grand Canyon National Park",
+            "brca": "Bryce Canyon National Park",
+        }
+        park_name = PARK_NAMES.get(park_code.lower(), park_code)
+        
+        # Clean trail name - remove "Trailhead" suffix for better matching
+        clean_trail_name = trail_name.replace(" Trailhead", "").replace(" Trail", " Trail")
+        
+        # Use site-specific search for better results
+        search_query = f"site:alltrails.com {clean_trail_name} {park_name}"
+        encoded_query = quote_plus(search_query)
+        
+        try:
+            headers = {
+                'User-Agent': 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36'
+            }
+            
+            url = f"https://html.duckduckgo.com/html/?q={encoded_query}"
+            resp = requests.get(url, headers=headers, timeout=10)
+            
+            if resp.status_code == 200:
+                # Look for URL-encoded AllTrails paths in DuckDuckGo results
+                # Pattern matches: alltrails.com%2Ftrail%2F...
+                encoded_pattern = r'alltrails\.com%2Ftrail%2F[^&\s"<>]+'
+                encoded_matches = re.findall(encoded_pattern, resp.text)
+                
+                if encoded_matches:
+                    # Decode the URL
+                    for match in encoded_matches:
+                        decoded = unquote(match)
+                        clean_url = f"https://www.{decoded}".split('&')[0]
+                        if '/trail/' in clean_url:
+                            logger.info(f"Found AllTrails URL via search: {clean_url}")
+                            return clean_url
+                
+                # Also try direct URL pattern
+                direct_pattern = r'https://www\.alltrails\.com/trail/[^"\s<>]+'
+                direct_matches = re.findall(direct_pattern, resp.text)
+                
+                if direct_matches:
+                    for match in direct_matches:
+                        clean_url = match.split('?')[0]
+                        if '/trail/' in clean_url:
+                            logger.info(f"Found AllTrails URL via search: {clean_url}")
+                            return clean_url
+            
+            logger.warning(f"No AllTrails URL found in search results for '{trail_name}'")
+            return None
+            
+        except Exception as e:
+            logger.error(f"Search for AllTrails URL failed: {e}")
+            return None
+
 
     def _save_cache(self, park_code: str, data: List[Dict]):
         # Construct path using DataManager base_dir logic manually 
