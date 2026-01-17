@@ -46,6 +46,7 @@ class ReviewScraper:
             return []
 
         # 2. Find target trail (fuzzy match name)
+        from app.utils.fuzzy_match import fuzzy_match_trail_name
         target_trail = None
         trail_name_lower = trail_name.lower()
         
@@ -55,11 +56,12 @@ class ReviewScraper:
                 target_trail = t
                 break
         
-        # Try contained match if not found
+        # Try fuzzy match if not found
         if not target_trail:
             for t in trails_data:
-                if trail_name_lower in t.get("name", "").lower():
+                if fuzzy_match_trail_name(trail_name, t.get("name", "")):
                     target_trail = t
+                    logger.info(f"Fuzzy matched '{trail_name}' to '{t.get('name')}'")
                     break
         
         if not target_trail:

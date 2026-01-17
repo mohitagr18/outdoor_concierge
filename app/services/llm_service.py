@@ -12,6 +12,7 @@ from pydantic import BaseModel, Field, ValidationError
 
 from app.engine.constraints import UserPreference, SafetyStatus
 from app.models import TrailSummary, ThingToDo, Event, Campground, VisitorCenter, Webcam, Amenity, TrailReview, PhotoSpot, ScenicDrive
+from app.utils.fuzzy_match import fuzzy_match_trail_name
 
 logger = logging.getLogger(__name__)
 
@@ -244,12 +245,15 @@ class GeminiLLMService:
             1. Look for reviews in the CONTEXT data for the specified trail(s).
             2. If reviews ARE found:
                - Start with a brief 2-sentence summary of the overall sentiment.
-               - List reviews using this format: **[Author Name]** | [Date] | [Rating]★ followed by quoted text.
+               - List each review using this format:
+                 **[Author Name]** | [Date] | [Rating]★
+                 > "[Review text]"
+                 [Include any images from the review - they look like ![](url) in the context]
             3. If NO reviews are found in the context:
-               - Politely inform the user that no recent reviews are available for this trail.
-               - Suggest they check AllTrails or other review sites directly.
-               - Offer to help with other information about the trail (difficulty, length, conditions).
-            4. End with follow-up questions.
+               - Politely inform the user that no recent reviews are available.
+               - Suggest checking AllTrails directly.
+            4. IMPORTANT: If a review has images (markdown format ![](...)), INCLUDE them in your response.
+            5. End with follow-up questions.
             
             CONTEXT:
             {data_context}
@@ -872,7 +876,19 @@ class GeminiLLMService:
 
         # Filter content
         if only_show_targets and review_targets:
-            trails = [t for t in trails if any(tgt.lower() in t.name.lower() for tgt in review_targets)]
+            logger.info(f"\ud83d\udd0d CONTEXT FILTER - Showing only targets: {review_targets}")
+            logger.info(f"\ud83d\udd0d Input trails count: {len(trails)}")
+            trails = [t for t in trails if any(fuzzy_match_trail_name(tgt, t.name) for tgt in review_targets)]
+            logger.info(f"\u2705 Filtered trails count: {len(trails)}")
+            if trails:
+                logger.info(f"\ud83c\udfaf Filtered trail names: {[t.name for t in trails]}")
+                for t in trails:
+                    has_reviews = bool(getattr(t, 'recent_reviews', []))
+                    review_count = len(getattr(t, 'recent_reviews', []))
+                    logger.info(f"  - {t.name}: has_reviews={has_reviews}, count={review_count}")
+            else:
+                logger.warning(f"\u26a0\ufe0f NO TRAILS matched targets: {review_targets}")
+            
             things = []
             events = []
             camps = []
@@ -1176,9 +1192,19 @@ class GeminiLLMService:
     def extract_reviews_from_text(self, text: str) -> List[TrailReview]:
         truncated_text = text[:60000] 
         prompt = f"""
-        TASK: Extract the most recent 10 reviews.
-        OUTPUT JSON: {{ "reviews": [ {{ "author": "...", "rating": 5, "date": "...", "text": "...", "visible_image_urls": [] }} ] }}
-        CONTENT: {truncated_text}
+        TASK: Extract the most recent 10 reviews from this AllTrails page.
+        
+        IMPORTANT: Look for image URLs in each review. AllTrails reviews often include user photos.
+        - Image URLs typically contain: images.alltrails.com, cdn-assets.alltrails.com, or similar
+        - Include ALL image URLs found within each review's content
+        
+        OUTPUT JSON (no other text):
+        {{ "reviews": [ {{ "author": "Username", "rating": 5, "date": "Jan 1, 2025", "text": "Review text...", "visible_image_urls": ["https://images.alltrails.com/photo.jpg"] }} ] }}
+        
+        If no images for a review, use: "visible_image_urls": []
+        
+        CONTENT:
+        {truncated_text}
         """
         raw = self.agent_researcher.execute(prompt)
         try:

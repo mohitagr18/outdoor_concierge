@@ -137,7 +137,9 @@ with tab_chat:
             with st.spinner("Thinking..."):
                 try:
                     # Construct Request
-                    # context is already in st.session_state.session_context
+                    # CRITICAL: Sync session context park with UI selection
+                    st.session_state.session_context.current_park_code = st.session_state.selected_park
+                    
                     from app.orchestrator import OrchestratorRequest
                     
                     req = OrchestratorRequest(

@@ -1,19 +1,10 @@
 {
   "parkCode": "zion",
-  "current_temp_f": 55.4,
-  "current_condition": "Sunny",
-  "wind_mph": 2.2,
-  "humidity": 33,
+  "current_temp_f": 45.0,
+  "current_condition": "Clear",
+  "wind_mph": 4.7,
+  "humidity": 36,
   "forecast": [
-    {
-      "date": "2026-01-15",
-      "maxtemp_f": 64.2,
-      "mintemp_f": 28.0,
-      "avgtemp_f": 46.5,
-      "daily_chance_of_rain": 0,
-      "condition": "Sunny",
-      "uv": 0.6
-    },
     {
       "date": "2026-01-16",
       "maxtemp_f": 61.9,
@@ -31,10 +22,19 @@
       "daily_chance_of_rain": 0,
       "condition": "Sunny",
       "uv": 0.5
+    },
+    {
+      "date": "2026-01-18",
+      "maxtemp_f": 57.5,
+      "mintemp_f": 34.0,
+      "avgtemp_f": 42.4,
+      "daily_chance_of_rain": 0,
+      "condition": "Overcast ",
+      "uv": 0.5
     }
   ],
   "sunrise": "07:45 AM",
-  "sunset": "05:39 PM",
+  "sunset": "05:40 PM",
   "weather_alerts": [],
   "zones": [],
   "base_zone": null

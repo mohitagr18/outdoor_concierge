@@ -14,6 +14,7 @@ from app.utils.geospatial import mine_entrances
 from app.services.data_manager import DataManager
 from app.services.review_scraper import ReviewScraper
 from app.services.park_data_fetcher import ParkDataFetcher
+from app.utils.fuzzy_match import fuzzy_match_trail_name
 
 logger = logging.getLogger(__name__)
 
@@ -180,6 +181,7 @@ class OutdoorConciergeOrchestrator:
         updated_context.chat_history.append(f"User: {query}")
 
         if not final_park_code:
+            logger.warning(f"⚠️ No park code available (intent: {intent.park_code}, context: {ctx.current_park_code})")
             empty_safety = SafetyStatus(status="Unknown", reason=["No park specified."])
             resp = self.llm.generate_response(
                 query=query,
@@ -189,8 +191,9 @@ class OutdoorConciergeOrchestrator:
                 trails=[], things_to_do=[], events=[], campgrounds=[], visitor_centers=[], webcams=[], amenities=[]
             )
             updated_context.chat_history.append(f"Agent: {resp.message}")
-            updated_context.chat_history.append(f"Agent: {resp.message}")
             return OrchestratorResponse(chat_response=resp, parsed_intent=intent, updated_context=updated_context.model_dump())
+        
+        logger.info(f"✅ Using park code: {final_park_code}")
 
         intent.park_code = final_park_code
 
@@ -312,14 +315,16 @@ class OutdoorConciergeOrchestrator:
         # 4a. On-Demand Reviews (JIT Enrichment)
         # If user asked for reviews, or asking specific questions about trails, we fetch review data
         if intent.response_type == "reviews" or intent.review_targets:
-            logger.info(f"Checking reviews for: {intent.review_targets}")
+            logger.info(f"🔍 REVIEW REQUEST - Intent targets: {intent.review_targets}")
             # If explicit targets used, scrape them
             targets = intent.review_targets
             if not targets and intent.response_type == "reviews":
                  # Fallback: if "reviews for top 3" etc, we might need logic to pick top 3 vetted trails
                  # For now, let's just pick the top 3 vetted trails if no specific target
                  targets = [t.name for t in vetted_trails[:3]]
+                 logger.info(f"📋 Using fallback top 3 trails: {targets}")
 
+            logger.info(f"📝 Final scrape targets list: {targets}")
             for target in targets:
                 try:
                     logger.info(f"Triggering Review Scraper for {target}")
@@ -327,8 +332,72 @@ class OutdoorConciergeOrchestrator:
                 except Exception as e:
                      logger.error(f"Review scrape failed for {target}: {e}")
             
+            # UPDATE Intent with effective targets so LLM knows what to focus on
+            intent.review_targets = targets
+            
             # CRITICAL: Re-fetch trails because fetch_reviews updates the JSON cache we read from!
             raw_trails = self._fetch_trails_for_park(intent.park_code)
+            
+            # AUTO-TARGETING: Ensure any trail with FRESH reviews is treated as a target
+            # This handles cases where user query ("Bridalveil") doesn't match canonical name ("Bridalveil Fall Trailhead") perfectly
+            # or when fallback "top trails" logic was used.
+            from datetime import datetime, timedelta
+            now = datetime.now()
+            
+            fresh_targets = []
+            if intent.review_targets:
+                 fresh_targets.extend(intent.review_targets)
+                 
+            for t in raw_trails:
+                if t.recent_reviews:
+                    # Check if updated in the last 5 minutes (meaning we just scraped it)
+                    # or if we want to be broader, just check if it has reviews and is in the original target list
+                    # But the safest bet for "I just scraped this" is the timestamp.
+                    # Actually, simplistic approach: match against original targets OR just scraped.
+                    
+                    # If we just triggered a scrape, t.reviews_last_updated should be very recent.
+                    # Let's trust the 'targets' list we iterated over, but match it to canonical names.
+                    
+                    # Better: If t.name pseudo-matches ANY of the requested targets, verify it's in the final list.
+                    # OR, simply: If we requested 'X', and we found reviews for 'X Trailhead', add 'X Trailhead' to targets.
+                    
+                    # Logic:
+                    # 1. If explicit targets were requested, ensure canonical names are in intent
+                    passed_through = False
+                    if targets:
+                         for tgt in targets:
+                             if fuzzy_match_trail_name(tgt, t.name):
+                                 if t.name not in fresh_targets:
+                                     fresh_targets.append(t.name)
+                                 passed_through = True
+                    
+                    # 2. If NO explicit targets (fallback case), add everything with reviews
+                    if not targets or (len(targets) >= 3 and "top trails" in query.lower()): # Heuristic for fallback
+                         if t.name not in fresh_targets:
+                             # Check if fresh (e.g. within last hour)
+                             last_up = t.get("reviews_last_updated") if isinstance(t, dict) else getattr(t, "reviews_last_updated", None)
+                             # Default to True if valid reviews exist and we are in fallback mode
+                             if last_up:
+                                 try:
+                                     last_dt = datetime.fromisoformat(last_up)
+                                     if (now - last_dt) < timedelta(minutes=60):
+                                          fresh_targets.append(t.name)
+                                 except:
+                                     fresh_targets.append(t.name)
+                             else:
+                                 # If no timestamp but has reviews, include it
+                                 fresh_targets.append(t.name)
+                         if t.name not in fresh_targets:
+                             # verify it's fresh?
+                             fresh_targets.append(t.name)
+            
+            intent.review_targets = fresh_targets
+            logger.info(f"✅ RESOLVED Review Targets for LLM Context: {intent.review_targets}")
+            
+            # DEBUG: Log which trails have reviews
+            trails_with_reviews = [t.name for t in raw_trails if t.recent_reviews]
+            logger.info(f"📊 Trails in cache with reviews ({len(trails_with_reviews)}): {trails_with_reviews[:10]}")
+
             # Re-vet to get updated objects
             vetted_trails = self.engine.filter_trails(raw_trails, intent.user_prefs)
 
@@ -347,6 +416,11 @@ class OutdoorConciergeOrchestrator:
         # Else (Itinerary / List Options): Keep strict vetted_trails logic above
 
         # 5. Response
+        logger.info(f"📤 CALLING LLM with {len(vetted_trails)} trails, response_type={intent.response_type}, review_targets={intent.review_targets}")
+        if intent.response_type == "reviews":
+            trail_names = [t.name for t in vetted_trails]
+            logger.info(f"📋 Trail names being sent: {trail_names[:10]}")
+        
         chat_resp = self.llm.generate_response(
             query=query,
             intent=intent,
