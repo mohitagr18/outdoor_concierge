@@ -97,8 +97,46 @@ Test scenarios for the AI Park Ranger chat feature.
 
 ---
 
+## 12. Context Inheritance (Follow-up Questions)
+| Step | Question | Expected |
+|------|----------|----------|
+| 1 | "Reviews for The Narrows" | Response about Zion's The Narrows |
+| 2 | "What else can I do there?" | Should stay on Zion, not switch to Yosemite |
+| 3 | "Tell me about Half Dome" | Should now switch to Yosemite |
+| 4 | "What's the weather?" | Should use Yosemite context |
+
+---
+
+## 13. Multi-Part Queries (Trail + Amenities)
+| Question | Expected |
+|----------|----------|
+| "What equipment do I need for The Narrows and where can I rent it from nearby?" | Trail info + nearby rental shops |
+| "Tell me about Angels Landing and where can I buy gear?" | Trail details + gear stores |
+| "What's the best hike and where can I eat after?" | Trail recommendation + restaurant suggestions |
+
+---
+
+## 14. Unsupported/Unloaded Parks
+| Question | Expected |
+|----------|----------|
+| "Tell me about Death Valley" | Guides to Park Explorer to fetch data |
+| "Plan a trip to Glacier" | Message about loading data first |
+| "Yellowstone trails" | Prompts to fetch park data |
+
+---
+
+## 15. No Park Specified
+| Question | Expected |
+|----------|----------|
+| "Show me some trails" (fresh session) | Asks user to specify a park |
+| "What's the weather?" (no context) | Lists supported parks, asks for choice |
+
+---
+
 ## Testing Tips
 - Test each park (BRCA, ZION, YOSE, GRCA) for consistency
 - Check that links are clickable
 - Verify images render properly
 - Confirm alerts are cross-referenced with trails
+- Test context inheritance across multiple messages
+- Verify dropdown syncs when chat infers a different park

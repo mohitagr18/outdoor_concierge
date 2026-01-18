@@ -1,0 +1,41 @@
+{
+  "parkCode": "glac",
+  "current_temp_f": 26.1,
+  "current_condition": "Overcast",
+  "wind_mph": 2.2,
+  "humidity": 81,
+  "forecast": [
+    {
+      "date": "2026-01-18",
+      "maxtemp_f": 36.2,
+      "mintemp_f": 15.3,
+      "avgtemp_f": 21.5,
+      "daily_chance_of_rain": 0,
+      "condition": "Partly Cloudy ",
+      "uv": 0.2
+    },
+    {
+      "date": "2026-01-19",
+      "maxtemp_f": 34.1,
+      "mintemp_f": 13.7,
+      "avgtemp_f": 18.2,
+      "daily_chance_of_rain": 0,
+      "condition": "Partly Cloudy ",
+      "uv": 0.0
+    },
+    {
+      "date": "2026-01-20",
+      "maxtemp_f": 32.6,
+      "mintemp_f": 15.2,
+      "avgtemp_f": 22.0,
+      "daily_chance_of_rain": 0,
+      "condition": "Partly Cloudy ",
+      "uv": 2.0
+    }
+  ],
+  "sunrise": "08:20 AM",
+  "sunset": "05:13 PM",
+  "weather_alerts": [],
+  "zones": [],
+  "base_zone": null
+}

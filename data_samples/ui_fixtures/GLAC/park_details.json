@@ -1,0 +1,113 @@
+{
+  "parkCode": "glac",
+  "fullName": "Glacier National Park",
+  "description": "A showcase of melting glaciers, alpine meadows, carved valleys, and spectacular lakes. With over 700 miles of trails, Glacier is a paradise for adventurous visitors seeking a landscape steeped in human culture. Relive the days of old through historic chalets, lodges, and the famous Going-to-the-Sun Road.",
+  "location": {
+    "lat": 48.68414678,
+    "lon": -113.8009306
+  },
+  "contacts": {
+    "phoneNumbers": [
+      {
+        "phoneNumber": "406-888-7800",
+        "description": "",
+        "extension": "",
+        "type": "Voice"
+      },
+      {
+        "phoneNumber": "406-888-7808",
+        "description": "",
+        "extension": "",
+        "type": "Fax"
+      },
+      {
+        "phoneNumber": "406-888-7806",
+        "description": "",
+        "extension": "",
+        "type": "TTY"
+      }
+    ],
+    "emailAddresses": [
+      {
+        "description": "",
+        "emailAddress": "glac_questions@nps.gov"
+      }
+    ]
+  },
+  "operatingHours": [
+    {
+      "exceptions": [],
+      "description": "Glacier National Park is open 24 hours a day 365 days of the year. An entrance fee is required, even when entrance stations are not staffed. Instructions are available at each entrance for self-payment.",
+      "standardHours": {
+        "wednesday": "All Day",
+        "monday": "All Day",
+        "thursday": "All Day",
+        "sunday": "All Day",
+        "tuesday": "All Day",
+        "friday": "All Day",
+        "saturday": "All Day"
+      },
+      "name": "Glacier National Park"
+    }
+  ],
+  "url": "https://www.nps.gov/glac/index.htm",
+  "images": [
+    {
+      "url": "https://www.nps.gov/common/uploads/structured_data/C20E6CD3-CDF7-B3AB-8448CDCD7FD590FF.jpg",
+      "title": "Glacier Lilies near Logan Pass",
+      "altText": "Large mountains dotted with snow loom above a rocky meadow filled with yellow flowers.",
+      "caption": "Glacier lilies dot the landscape off the Highline Trail.",
+      "credit": "NPS Photo"
+    },
+    {
+      "url": "https://www.nps.gov/common/uploads/structured_data/C19B20BB-C8CC-5BAB-22E3CA6AF9B2B67C.jpg",
+      "title": "St. Mary Falls",
+      "altText": "A double waterfall blurs over layered rocks.",
+      "caption": "Glacier National Park is sculpted by water.",
+      "credit": "NPS Photo"
+    },
+    {
+      "url": "https://www.nps.gov/common/uploads/structured_data/3C7FF648-1DD8-B71B-0B074AA63C93947A.jpg",
+      "title": "Lobby of the Lake McDonald Lodge",
+      "altText": "Looking down into the lobby of the Lake McDonald Lodge from the balcony",
+      "caption": "Lobby of the historic Lake McDonald Lodge",
+      "credit": "NPS Photo / Jacob W. Frank"
+    },
+    {
+      "url": "https://www.nps.gov/common/uploads/structured_data/656FC997-DD74-8921-C68040FE1A2CA8D2.jpg",
+      "title": "Alpine Sunset",
+      "altText": "Clouds of orange and red sit above dark-gray mountains; snow dots the mountain peaks.",
+      "caption": "Majestic Heavens Peak is easily viewed from the Going-to-the-Sun Road.",
+      "credit": "NPS Photo"
+    },
+    {
+      "url": "https://www.nps.gov/common/uploads/structured_data/89491DA7-0FDD-BDB9-D0D03D996091EA72.jpg",
+      "title": "Swiftcurrent Fire Lookout",
+      "altText": "A small, brown and white structure sits on a rocky top with mountain peaks in the distance.",
+      "caption": "The historic Swiftcurrent Lookout was built in a Swiss chalet architectural style.",
+      "credit": "NPS Photo"
+    },
+    {
+      "url": "https://www.nps.gov/common/uploads/structured_data/C1C49B92-9BE9-6A08-F2C851A2A4ACEC8D.jpg",
+      "title": "East Side Sunset",
+      "altText": "Jagged peaks rise out of a forested valley and an empty road curves off into the distance.",
+      "caption": "Going-to-the-Sun Road in the St. Mary Valley",
+      "credit": "NPS Photo"
+    },
+    {
+      "url": "https://www.nps.gov/common/uploads/structured_data/8B6A7473-B676-45CC-5663F191736048A4.jpg",
+      "title": "Glacier's Night Sky",
+      "altText": "Silhouetted mountains and flowers against a night sky filled with stars and a milky band of light.",
+      "caption": "Glacier's dark sky is important to wildlife and people.",
+      "credit": "NPS Photo"
+    }
+  ],
+  "campgrounds": [],
+  "visitor_centers": [],
+  "webcams": [],
+  "places": [],
+  "things_to_do": [],
+  "passport_stamps": [],
+  "weather_zones": [],
+  "base_weather_zone": null
+}

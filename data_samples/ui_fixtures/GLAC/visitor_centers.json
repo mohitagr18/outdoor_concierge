@@ -1,0 +1,262 @@
+[
+  {
+    "id": "254D26CE-476D-4453-B230-A4A549252157",
+    "name": "Apgar Visitor Center",
+    "description": "Apgar Visitor Center is located 2 miles east of the West Glacier entrance to the park. Rangers are on duty to assist with trip planning. The visitor center is the hub for the Going-to-the-Sun Road shuttle system on the west side of the park.",
+    "location": {
+      "lat": 48.523107,
+      "lon": -113.988484
+    },
+    "url": "https://www.nps.gov/glac/planyourvisit/visitor-centers.htm",
+    "images": [
+      {
+        "url": "https://www.nps.gov/common/uploads/structured_data/68A203BB-A478-A3E5-B20048AC9212098E.jpg",
+        "title": "A ranger helps visitors in the Apgar Visitor Center.",
+        "altText": "A park ranger, standing behind an information desk, assists a group of visitors.",
+        "caption": "A ranger helps visitors in the Apgar Visitor Center.",
+        "credit": "NPS Photo"
+      },
+      {
+        "url": "https://www.nps.gov/common/uploads/structured_data/35BD540F-FE09-040F-ED7D8B4E91B386D0.jpg",
+        "title": "Outside the Apgar Visitor Center",
+        "altText": "Visitors milgle outside the Apgar Visitor Center on the west side of Glacier National Park.",
+        "caption": "Visitors milgle outside the Apgar Visitor Center on the west side of Glacier National Park.",
+        "credit": "NPS"
+      }
+    ],
+    "operatingHours": [
+      {
+        "exceptions": [
+          {
+            "exceptionHours": {
+              "wednesday": "Closed",
+              "monday": "Closed",
+              "thursday": "Closed",
+              "sunday": "Closed",
+              "tuesday": "Closed",
+              "friday": "Closed",
+              "saturday": "Closed"
+            },
+            "startDate": "2026-11-01",
+            "name": "Fall Hours",
+            "endDate": "2026-12-19"
+          },
+          {
+            "exceptionHours": {
+              "wednesday": "Closed",
+              "monday": "Closed",
+              "thursday": "Closed",
+              "sunday": "10:00AM - 4:00PM",
+              "tuesday": "Closed",
+              "friday": "Closed",
+              "saturday": "10:00AM - 4:00PM"
+            },
+            "startDate": "2025-12-20",
+            "name": "Winter Hours",
+            "endDate": "2026-05-08"
+          }
+        ],
+        "description": "The Apgar Visitor Center is open seven days a week in the summer. In the winters the Apgar Visitor Center is sometimes open on weekends.",
+        "standardHours": {
+          "wednesday": "8:00AM - 5:30PM",
+          "monday": "8:00AM - 5:30PM",
+          "thursday": "8:00AM - 5:30PM",
+          "sunday": "8:00AM - 5:30PM",
+          "tuesday": "8:00AM - 5:30PM",
+          "friday": "8:00AM - 5:30PM",
+          "saturday": "8:00AM - 5:30PM"
+        },
+        "name": "Apgar Visitor Center"
+      }
+    ],
+    "addresses": [
+      {
+        "line1": "Going-to-the-Sun Road",
+        "line2": "",
+        "line3": "",
+        "city": "West Glacier",
+        "stateCode": "MT",
+        "postalCode": "59936",
+        "type": "Physical"
+      },
+      {
+        "line1": "PO Box 128",
+        "line2": "",
+        "line3": "",
+        "city": "West Glacier",
+        "stateCode": "MT",
+        "postalCode": "59936",
+        "type": "Mailing"
+      }
+    ],
+    "contacts": {
+      "phoneNumbers": [
+        {
+          "phoneNumber": "406) 888-7800",
+          "description": "",
+          "extension": "",
+          "type": "Voice"
+        }
+      ],
+      "emailAddresses": [
+        {
+          "description": "This is the general park contact email.",
+          "emailAddress": "glac_questions@nps.gov"
+        }
+      ]
+    }
+  },
+  {
+    "id": "4574CA53-4A17-427C-8C0C-307606DD80FA",
+    "name": "Logan Pass Visitor Center",
+    "description": "The Logan Pass Visitor Center sits atop the Continental Divide at 6,646 feet. The visitor center houses exhibits on the plants and animals found in the sub-alpine region of the park. Numerous exhibits outside the visitor center tell the story of geology, climate change, and life in the harsh alpine world above treeline. Logan Pass is perhaps the most crowded location in the park with the parking lot filling to capacity early in the morning. Plan to arrive early or visit later in the afternoon.",
+    "location": {
+      "lat": 48.6952798478,
+      "lon": -113.717926135
+    },
+    "url": "https://www.nps.gov/glac/planyourvisit/visitor-centers.htm",
+    "images": [
+      {
+        "url": "https://www.nps.gov/common/uploads/structured_data/8EFFC6EF-07CB-6740-92A809210FC97F95.jpg",
+        "title": "Logan Pass Visitor Center",
+        "altText": "A view of Logan Pass Visitor Center with Mt. Reynolds in the background and vegetation in front.",
+        "caption": "The bold angles and bright colors of the Logan Pass Visitor Center are typical of Mission 66 architecture throughout the National Park Service.",
+        "credit": "NPS Photo"
+      }
+    ],
+    "operatingHours": [
+      {
+        "exceptions": [
+          {
+            "exceptionHours": {
+              "wednesday": "9:00AM - 4:00PM",
+              "monday": "9:00AM - 4:00PM",
+              "thursday": "9:00AM - 4:00PM",
+              "sunday": "9:00AM - 4:00PM",
+              "tuesday": "9:00AM - 4:00PM",
+              "friday": "9:00AM - 4:00PM",
+              "saturday": "9:00AM - 4:00PM"
+            },
+            "startDate": "2026-09-21",
+            "name": "Fall Hours",
+            "endDate": "2026-09-28"
+          },
+          {
+            "exceptionHours": {
+              "wednesday": "Closed",
+              "monday": "Closed",
+              "thursday": "Closed",
+              "sunday": "Closed",
+              "tuesday": "Closed",
+              "friday": "Closed",
+              "saturday": "Closed"
+            },
+            "startDate": "2025-09-29",
+            "name": "Winter Closure",
+            "endDate": "2026-06-13"
+          }
+        ],
+        "description": "The Logan Pass Visitor Center typically opens in late June to early July.",
+        "standardHours": {
+          "wednesday": "9:00AM - 7:00PM",
+          "monday": "9:00AM - 7:00PM",
+          "thursday": "9:00AM - 7:00PM",
+          "sunday": "9:00AM - 7:00PM",
+          "tuesday": "9:00AM - 7:00PM",
+          "friday": "9:00AM - 7:00PM",
+          "saturday": "9:00AM - 7:00PM"
+        },
+        "name": "Logan Pass Visitor Center"
+      }
+    ],
+    "addresses": [],
+    "contacts": {
+      "phoneNumbers": [],
+      "emailAddresses": []
+    }
+  },
+  {
+    "id": "44CE0C47-E859-4962-9E49-53A231732E0F",
+    "name": "St. Mary Visitor Center",
+    "description": "The St. Mary Visitor Center is located just inside the east entrance of the park near the community of St. Mary, Montana. Rangers are on duty inside to assist with trip planning. A park film is shown throughout the day. Exhibits highlight the rich Native American history associated with Glacier National Park.",
+    "location": {
+      "lat": 48.74748440705955,
+      "lon": -113.43909177010931
+    },
+    "url": "https://www.nps.gov/glac/planyourvisit/visitor-centers.htm",
+    "images": [
+      {
+        "url": "https://www.nps.gov/common/uploads/structured_data/32673893-B738-6179-DBB388CCC989DB5A.jpg",
+        "title": "St. Mary Visitor Center in the Summer",
+        "altText": "The pointed roof of the St. Mary Visitor center juts into the sky on a sunny summer day. People stan",
+        "caption": "The pointed roof of the St. Mary Visitor center juts into the sky on a sunny summer day. People stand outside and a large van is parked in front.",
+        "credit": "NPS Photo"
+      },
+      {
+        "url": "https://www.nps.gov/common/uploads/structured_data/D7A05DE7-EA8B-9D0C-760E68E234A81CAD.jpg",
+        "title": "St. Mary EV Charger",
+        "altText": "an electric car charging in a parking lot",
+        "caption": "Because fossil fuels are harmful to people and warming the climate, Glacier National Park has an electric vehicle charger in the St. Mary Visitor Center parking lot.",
+        "credit": "NPS Photo"
+      }
+    ],
+    "operatingHours": [
+      {
+        "exceptions": [
+          {
+            "exceptionHours": {
+              "wednesday": "Closed",
+              "monday": "Closed",
+              "thursday": "Closed",
+              "sunday": "Closed",
+              "tuesday": "Closed",
+              "friday": "Closed",
+              "saturday": "Closed"
+            },
+            "startDate": "2025-10-06",
+            "name": "Closed In Winter",
+            "endDate": "2026-05-22"
+          }
+        ],
+        "description": "The St. Mary Visitor Center is open during the summer season seven days a week during normal business hours.",
+        "standardHours": {
+          "wednesday": "8:00AM - 5:30PM",
+          "monday": "8:00AM - 5:30PM",
+          "thursday": "8:00AM - 5:30PM",
+          "sunday": "8:00AM - 5:30PM",
+          "tuesday": "8:00AM - 5:30PM",
+          "friday": "8:00AM - 5:30PM",
+          "saturday": "8:00AM - 5:30PM"
+        },
+        "name": "St. Mary Visitor Center"
+      }
+    ],
+    "addresses": [
+      {
+        "line1": "",
+        "line2": "",
+        "line3": "",
+        "city": "West Glacier",
+        "stateCode": "MT",
+        "postalCode": "59936",
+        "type": "Physical"
+      }
+    ],
+    "contacts": {
+      "phoneNumbers": [
+        {
+          "phoneNumber": "406-888-7800",
+          "description": "",
+          "extension": "",
+          "type": "Voice"
+        }
+      ],
+      "emailAddresses": [
+        {
+          "description": "This is the park's general contact email, there is no direct email for Glacier's visitor centers.",
+          "emailAddress": "glac_questions@nps.gov"
+        }
+      ]
+    }
+  }
+]

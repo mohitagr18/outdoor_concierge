@@ -150,26 +150,80 @@ class OutdoorConciergeOrchestrator:
         # 1. Parse Intent (pass current context so LLM doesn't hallucinate park codes)
         intent = self.llm.parse_user_intent(query, current_park_code=ctx.current_park_code)
 
-        # 1b. Normalize Park Code (LLM might return full name like "yosemite" instead of "yose")
-        PARK_NAME_TO_CODE = {
-            # Yosemite
-            "yosemite": "yose",
-            "yosemitenationalpark": "yose",
-            # Zion
-            "zion": "zion",
-            "zionnationalpark": "zion",
-            # Grand Canyon
-            "grandcanyon": "grca",
-            "grand canyon": "grca",
-            "grandcanyonnationalpark": "grca",
-            # Bryce Canyon
-            "bryce": "brca",
-            "brycecanyon": "brca",
-            "brycecanyonnationalpark": "brca",
-        }
+        # 1b. Normalize Park Code (LLM might return full name like "yosemite" or "glacier" instead of code)
+        from app.config import SUPPORTED_PARKS
+        
+        # Build dynamic reverse lookup from SUPPORTED_PARKS
+        # Maps variations like "glacier" -> "glac", "yosemite" -> "yose"
+        def build_park_name_map():
+            name_map = {}
+            first_word_counts = {}  # Track conflicts
+            
+            # First pass: count first words to detect conflicts
+            for code, full_name in SUPPORTED_PARKS.items():
+                clean_name = full_name.lower().replace(" national park", "").replace(" national parks", "").strip()
+                first_word = clean_name.split()[0] if clean_name else ""
+                if first_word and len(first_word) > 3:
+                    first_word_counts[first_word] = first_word_counts.get(first_word, 0) + 1
+            
+            # Second pass: build the map
+            for code, full_name in SUPPORTED_PARKS.items():
+                # Add the code itself
+                name_map[code.lower()] = code
+                
+                # Add full name without "National Park" suffix
+                clean_name = full_name.lower().replace(" national park", "").replace(" national parks", "").strip()
+                name_map[clean_name.replace(" ", "")] = code  # "glacierbay" -> "glba"
+                name_map[clean_name] = code  # "glacier bay" -> "glba"
+                
+                # Add first word ONLY if no conflict (e.g., "yosemite" is unique, but "glacier" conflicts)
+                first_word = clean_name.split()[0] if clean_name else ""
+                if first_word and len(first_word) > 3 and first_word_counts.get(first_word, 0) == 1:
+                    name_map[first_word] = code
+            
+            # Add explicit aliases for commonly used names and conflicts
+            name_map["grand canyon"] = "grca"
+            name_map["grandcanyon"] = "grca"
+            name_map["bryce"] = "brca"
+            name_map["smoky mountains"] = "grsm"
+            name_map["smokies"] = "grsm"
+            name_map["great smokies"] = "grsm"
+            name_map["joshua tree"] = "jotr"
+            name_map["joshuatree"] = "jotr"
+            name_map["death valley"] = "deva"
+            name_map["deathvalley"] = "deva"
+            name_map["mount rainier"] = "mora"
+            name_map["rainier"] = "mora"
+            name_map["rocky mountain"] = "romo"
+            name_map["rocky mountains"] = "romo"
+            name_map["rockymountain"] = "romo"
+            
+            # Resolve conflicts explicitly (both Glacier and Glacier Bay start with "glacier")
+            name_map["glacier"] = "glac"  # Glacier National Park (more commonly searched)
+            name_map["glacier bay"] = "glba"
+            name_map["glacierbay"] = "glba"
+            
+            # Grand Teton vs Grand Canyon
+            name_map["grand teton"] = "grte"
+            name_map["grandteton"] = "grte"
+            name_map["teton"] = "grte"
+            name_map["tetons"] = "grte"
+            
+            return name_map
+        
+        PARK_NAME_TO_CODE = build_park_name_map()
+        
         if intent.park_code:
             original = intent.park_code
-            normalized = PARK_NAME_TO_CODE.get(intent.park_code.lower().replace(" ", ""), intent.park_code.lower())
+            # Try exact match first, then cleaned version
+            lookup_key = intent.park_code.lower().replace(" ", "")
+            normalized = PARK_NAME_TO_CODE.get(lookup_key)
+            if not normalized:
+                # Try with spaces preserved
+                normalized = PARK_NAME_TO_CODE.get(intent.park_code.lower())
+            if not normalized:
+                # Keep original if no mapping found (might be a valid code already)
+                normalized = intent.park_code.lower()
             intent.park_code = normalized
             logger.info(f"Park code normalization: '{original}' -> '{normalized}'")
 
@@ -210,7 +264,6 @@ class OutdoorConciergeOrchestrator:
         intent.park_code = final_park_code
         
         # Check if park is supported and has data loaded
-        from app.config import SUPPORTED_PARKS
         if final_park_code not in SUPPORTED_PARKS:
             # Park is not in our supported list
             park_list = ", ".join([f"**{name}**" for name in SUPPORTED_PARKS.values()])
@@ -249,6 +302,95 @@ class OutdoorConciergeOrchestrator:
             )
             updated_context.chat_history.append(f"Agent: {resp.message}")
             return OrchestratorResponse(chat_response=resp, parsed_intent=intent, updated_context=updated_context.model_dump())
+        
+        # Check for PARTIAL data (basic exists, but explorer-critical files are missing)
+        # Build comprehensive check for all data types
+        query_lower = query.lower()
+        park_name = SUPPORTED_PARKS.get(final_park_code, final_park_code.upper())
+        
+        # Define data requirements for different query types
+        DATA_REQUIREMENTS = {
+            "trails": {
+                "files": ["trails_v2.json"],
+                "keywords": ["trail", "hike", "hiking", "walk", "trek", "plan", "itinerary", "trip", "day"],
+                "response_types": ["itinerary", "list_options"],
+                "emoji": "🥾",
+                "name": "trail data",
+                "description": "trail recommendations and itineraries"
+            },
+            "photos": {
+                "files": ["photo_spots.json"],
+                "keywords": ["photo", "photography", "picture", "sunrise", "sunset", "shot", "camera", "viewpoint"],
+                "response_types": [],
+                "emoji": "📸",
+                "name": "photo spot data",
+                "description": "photography location recommendations"
+            },
+            "drives": {
+                "files": ["scenic_drives.json"],
+                "keywords": ["drive", "driving", "road", "scenic", "car", "auto tour", "motor"],
+                "response_types": [],
+                "emoji": "🚗",
+                "name": "scenic drive data",
+                "description": "driving tour recommendations"
+            },
+            "amenities": {
+                "files": ["consolidated_amenities.json"],
+                "keywords": ["gas", "fuel", "restaurant", "food", "eat", "grocery", "store", "hotel", "lodging", 
+                           "rent", "gear", "equipment", "pharmacy", "medical", "urgent", "shop", "amenity", "amenities",
+                           "nearby", "where can"],
+                "response_types": [],
+                "emoji": "🏪",
+                "name": "amenity data",
+                "description": "nearby services and businesses"
+            }
+        }
+        
+        # Check each data type and block if required data is missing
+        for data_type, config in DATA_REQUIREMENTS.items():
+            files_missing = any(not self.data_manager.has_fixture(final_park_code, f) for f in config["files"])
+            
+            if not files_missing:
+                continue
+                
+            query_needs_this = (
+                intent.response_type in config["response_types"] or
+                any(kw in query_lower for kw in config["keywords"])
+            )
+            
+            if query_needs_this:
+                missing_data_message = (
+                    f"I'd love to help with {config['description']} for **{park_name}**! "
+                    f"However, I don't have the {config['name']} loaded yet. {config['emoji']}\n\n"
+                    f"**To get this information:**\n"
+                    f"1. Go to the **🔭 Park Explorer** tab\n"
+                    f"2. Select **{park_name}** from the dropdown\n"
+                    f"3. Click the **🚀 Fetch Park Data** button\n\n"
+                    f"Once the data is loaded, come back here and I'll be able to provide detailed recommendations!"
+                )
+                resp = LLMResponse(
+                    message=missing_data_message,
+                    safety_status="Unknown",
+                    safety_reasons=[f"{config['name'].title()} not loaded."],
+                    suggested_trails=[]
+                )
+                updated_context.chat_history.append(f"Agent: {resp.message}")
+                return OrchestratorResponse(chat_response=resp, parsed_intent=intent, updated_context=updated_context.model_dump())
+        
+        # Check for general partial data (for informational notice only)
+        EXPLORER_CRITICAL_FILES = ["trails_v2.json", "photo_spots.json", "scenic_drives.json"]
+        missing_critical = [f for f in EXPLORER_CRITICAL_FILES if not self.data_manager.has_fixture(final_park_code, f)]
+        
+        partial_data_notice = ""
+        if missing_critical:
+            missing_friendly = ", ".join([f.replace("_", " ").replace(".json", "").title() for f in missing_critical])
+            partial_data_notice = (
+                f"\n\n---\n"
+                f"⚠️ **Note:** I have partial data for {park_name}. "
+                f"Missing: {missing_friendly}. "
+                f"Visit the **🔭 Park Explorer** tab and click **🚀 Fetch Park Data** to load complete information."
+            )
+            logger.info(f"📊 Partial data detected for {final_park_code}, missing: {missing_critical}")
         
         # --- A. Static Data (Try Local Fixtures First, Save on Fetch) ---
         # Helper to load or fetch and save
@@ -489,6 +631,10 @@ class OutdoorConciergeOrchestrator:
             photo_spots=photo_spots,
             scenic_drives=scenic_drives
         )
+
+        # Append partial data notice if applicable
+        if partial_data_notice:
+            chat_resp.message = chat_resp.message + partial_data_notice
 
         updated_context.chat_history.append(f"Agent: {chat_resp.message}")
         updated_context.current_itinerary = chat_resp.message
