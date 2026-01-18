@@ -1,0 +1,452 @@
+[
+  {
+    "title": "Badwater Basin Ranger Talk",
+    "description": "<p>Visit an extreme part of the park and learn about the unique forces that create the lowest, hottest and driest place in North America.</p>\n<p>\u00a0</p>",
+    "date_start": "2026-01-18",
+    "date_end": "2026-01-18",
+    "is_free": true,
+    "location": "Badwater Basin",
+    "times": [
+      {
+        "timestart": "10:00 AM",
+        "timeend": "10:45 AM",
+        "sunrisestart": "false",
+        "sunsetend": "false"
+      }
+    ],
+    "images": [
+      {
+        "url": "https://www.nps.gov/common/uploads/event_calendar/A2BA250B-9C34-52AF-3D1B7181972D9EA4.jpg",
+        "title": "",
+        "altText": "People walking on white salt flats on a valley floor with mountains and clouds in the distance",
+        "caption": "Explore Badwater Basin with a ranger",
+        "credit": "NPS/Neal Nurmi"
+      }
+    ],
+    "dates": [
+      "2026-01-18"
+    ],
+    "tags": [],
+    "types": [
+      "Guided Tour",
+      "Talk"
+    ],
+    "fee_info": ""
+  },
+  {
+    "title": "Golden Canyon Ranger-led Hike",
+    "description": "<p>Hike with a ranger through one of Death Valley\u2019s most popular and beautiful canyons. Easy walk with one small scramble. Approximately 1 mile. Bring water, a hat and hiking shoes.</p>\n<p>\u00a0</p>",
+    "date_start": "2026-01-18",
+    "date_end": "2026-01-18",
+    "is_free": true,
+    "location": "Meet at the Golden Canyon Trailhead Parking Lot",
+    "times": [
+      {
+        "timestart": "08:30 AM",
+        "timeend": "09:30 AM",
+        "sunrisestart": "false",
+        "sunsetend": "false"
+      }
+    ],
+    "images": [
+      {
+        "url": "https://www.nps.gov/common/uploads/event_calendar/A44CD6BA-CAE4-C7B5-C0C341F92996DAA8.jpg",
+        "title": "",
+        "altText": "Image looking up a gravel wash through a canyon with golden yellow and brown towering walls.",
+        "caption": "Explore Death Valley's most popular trail with a ranger.",
+        "credit": "NPS/Bob Greenburg"
+      }
+    ],
+    "dates": [
+      "2026-01-18"
+    ],
+    "tags": [],
+    "types": [
+      "Guided Tour",
+      "Hike",
+      "Talk"
+    ],
+    "fee_info": ""
+  },
+  {
+    "title": "Harmony Borax Works Ranger Program",
+    "description": "<p>Learn about fascinating mining history in Death Valley. 20 mule team wagons, borax, fortunes and more! Easy 1/3 mile walk on a paved path.</p>\n<p>\u00a0</p>",
+    "date_start": "2026-01-18",
+    "date_end": "2026-01-18",
+    "is_free": true,
+    "location": "Meet at Harmony Borax Works Parking Area",
+    "times": [
+      {
+        "timestart": "01:00 PM",
+        "timeend": "01:45 PM",
+        "sunrisestart": "false",
+        "sunsetend": "false"
+      }
+    ],
+    "images": [
+      {
+        "url": "https://www.nps.gov/common/uploads/event_calendar/A33D3A8C-9A1D-0D0A-220A04EE6EDDC154.jpg",
+        "title": "",
+        "altText": "Close up image of two large wooden wagons with rusted metal wheels.",
+        "caption": "Discover the history of 20 mule team wagons",
+        "credit": "NPS"
+      }
+    ],
+    "dates": [
+      "2026-01-18"
+    ],
+    "tags": [],
+    "types": [
+      "Talk",
+      "Walk"
+    ],
+    "fee_info": ""
+  },
+  {
+    "title": "History of Stovepipe Wells",
+    "description": "<p>Discover the history and unique landscape of the Stovepipe Wells area. Rangers will be available from 10am-12pm to answer questions in addition to program times.\u00a0</p>\n<p>\u00a0</p>",
+    "date_start": "2026-01-18",
+    "date_end": "2026-01-18",
+    "is_free": true,
+    "location": "",
+    "times": [
+      {
+        "timestart": "10:30 AM",
+        "timeend": "10:45 AM",
+        "sunrisestart": "false",
+        "sunsetend": "false"
+      },
+      {
+        "timestart": "11:30 AM",
+        "timeend": "11:45 AM",
+        "sunrisestart": "false",
+        "sunsetend": "false"
+      }
+    ],
+    "images": [
+      {
+        "url": "https://www.nps.gov/common/uploads/event_calendar/D142DCD6-9342-922E-F142329B0768078A.jpg",
+        "title": "",
+        "altText": "A ranger station with a raised flag in front of a blue sky",
+        "caption": "Stovepipe Ranger Station",
+        "credit": "NPS"
+      }
+    ],
+    "dates": [
+      "2026-01-18"
+    ],
+    "tags": [],
+    "types": [
+      "Talk"
+    ],
+    "fee_info": ""
+  },
+  {
+    "title": "Junior Ranger Ceremony",
+    "description": "<p>Be sworn in as an offical Death Valley Junior Ranger! Bring a completed Junior Ranger Book to earn a badge.\u00a0</p>",
+    "date_start": "2026-01-18",
+    "date_end": "2026-01-18",
+    "is_free": true,
+    "location": "Furnace Creek Visitor Center",
+    "times": [
+      {
+        "timestart": "08:30 AM",
+        "timeend": "08:45 AM",
+        "sunrisestart": "false",
+        "sunsetend": "false"
+      },
+      {
+        "timestart": "11:00 AM",
+        "timeend": "11:15 AM",
+        "sunrisestart": "false",
+        "sunsetend": "false"
+      },
+      {
+        "timestart": "12:30 PM",
+        "timeend": "12:45 PM",
+        "sunrisestart": "false",
+        "sunsetend": "false"
+      },
+      {
+        "timestart": "03:00 PM",
+        "timeend": "03:15 PM",
+        "sunrisestart": "false",
+        "sunsetend": "false"
+      }
+    ],
+    "images": [
+      {
+        "url": "https://www.nps.gov/common/uploads/event_calendar/8CAD95D7-0112-B39D-700C6A474E30FEF2.jpg",
+        "title": "",
+        "altText": "A ranger and two junior rangers pose with newly aquired badges.",
+        "caption": "Junior Ranger Ceremony",
+        "credit": "NPS"
+      }
+    ],
+    "dates": [
+      "2026-01-18"
+    ],
+    "tags": [],
+    "types": [
+      "Other"
+    ],
+    "fee_info": ""
+  },
+  {
+    "title": "Sand Dunes Ranger Walk",
+    "description": "<p>Stroll through the Death Valley Wilderness with a Park Ranger. Explore living and non-living parts of this unique landscape.\u00a0</p>",
+    "date_start": "2026-01-18",
+    "date_end": "2026-01-18",
+    "is_free": true,
+    "location": "Meet at the Mesquite Flat Sand Dunes Parking Lot",
+    "times": [
+      {
+        "timestart": "03:00 PM",
+        "timeend": "04:00 PM",
+        "sunrisestart": "false",
+        "sunsetend": "false"
+      }
+    ],
+    "images": [
+      {
+        "url": "https://www.nps.gov/common/uploads/event_calendar/A38471B6-B55B-359A-190B1DCD51681D7B.jpg",
+        "title": "",
+        "altText": "Yellow sand dunes with dark shadows and mountains in the background.",
+        "caption": "Explore Mesquite Flat Sand Dunes at Sunset with a Death Valley ranger.",
+        "credit": "NPS"
+      }
+    ],
+    "dates": [
+      "2026-01-18"
+    ],
+    "tags": [],
+    "types": [
+      "Guided Tour",
+      "Talk",
+      "Walk"
+    ],
+    "fee_info": ""
+  },
+  {
+    "title": "Badwater Basin Ranger Talk",
+    "description": "<p>Visit an extreme part of the park and learn about the unique forces that create the lowest, hottest and driest place in North America.</p>\n<p>\u00a0</p>",
+    "date_start": "2026-01-19",
+    "date_end": "2026-01-19",
+    "is_free": true,
+    "location": "Badwater Basin",
+    "times": [
+      {
+        "timestart": "10:00 AM",
+        "timeend": "10:45 AM",
+        "sunrisestart": "false",
+        "sunsetend": "false"
+      }
+    ],
+    "images": [
+      {
+        "url": "https://www.nps.gov/common/uploads/event_calendar/A2BA250B-9C34-52AF-3D1B7181972D9EA4.jpg",
+        "title": "",
+        "altText": "People walking on white salt flats on a valley floor with mountains and clouds in the distance",
+        "caption": "Explore Badwater Basin with a ranger",
+        "credit": "NPS/Neal Nurmi"
+      }
+    ],
+    "dates": [
+      "2026-01-19"
+    ],
+    "tags": [],
+    "types": [
+      "Guided Tour",
+      "Talk"
+    ],
+    "fee_info": ""
+  },
+  {
+    "title": "Golden Canyon Ranger-led Hike",
+    "description": "<p>Hike with a ranger through one of Death Valley\u2019s most popular and beautiful canyons. Easy walk with one small scramble. Approximately 1 mile. Bring water, a hat and hiking shoes.</p>\n<p>\u00a0</p>",
+    "date_start": "2026-01-19",
+    "date_end": "2026-01-19",
+    "is_free": true,
+    "location": "Meet at the Golden Canyon Trailhead Parking Lot",
+    "times": [
+      {
+        "timestart": "08:30 AM",
+        "timeend": "09:30 AM",
+        "sunrisestart": "false",
+        "sunsetend": "false"
+      }
+    ],
+    "images": [
+      {
+        "url": "https://www.nps.gov/common/uploads/event_calendar/A44CD6BA-CAE4-C7B5-C0C341F92996DAA8.jpg",
+        "title": "",
+        "altText": "Image looking up a gravel wash through a canyon with golden yellow and brown towering walls.",
+        "caption": "Explore Death Valley's most popular trail with a ranger.",
+        "credit": "NPS/Bob Greenburg"
+      }
+    ],
+    "dates": [
+      "2026-01-19"
+    ],
+    "tags": [],
+    "types": [
+      "Guided Tour",
+      "Hike",
+      "Talk"
+    ],
+    "fee_info": ""
+  },
+  {
+    "title": "Harmony Borax Works Ranger Program",
+    "description": "<p>Learn about fascinating mining history in Death Valley. 20 mule team wagons, borax, fortunes and more! Easy 1/3 mile walk on a paved path.</p>\n<p>\u00a0</p>",
+    "date_start": "2026-01-19",
+    "date_end": "2026-01-19",
+    "is_free": true,
+    "location": "Meet at Harmony Borax Works Parking Area",
+    "times": [
+      {
+        "timestart": "01:00 PM",
+        "timeend": "01:45 PM",
+        "sunrisestart": "false",
+        "sunsetend": "false"
+      }
+    ],
+    "images": [
+      {
+        "url": "https://www.nps.gov/common/uploads/event_calendar/A33D3A8C-9A1D-0D0A-220A04EE6EDDC154.jpg",
+        "title": "",
+        "altText": "Close up image of two large wooden wagons with rusted metal wheels.",
+        "caption": "Discover the history of 20 mule team wagons",
+        "credit": "NPS"
+      }
+    ],
+    "dates": [
+      "2026-01-19"
+    ],
+    "tags": [],
+    "types": [
+      "Talk",
+      "Walk"
+    ],
+    "fee_info": ""
+  },
+  {
+    "title": "Indoor Evening Ranger Talk",
+    "description": "<p>Bring the whole family to enjoy a \u201cRanger\u2019s Choice\u201d presentation from the comfort of indoor auditorium seating. Ask at the visitor center for the topic.</p>\n<p>\u00a0</p>",
+    "date_start": "2026-01-19",
+    "date_end": "2026-01-19",
+    "is_free": true,
+    "location": "Furnace Creek Visitor Center Auditorium",
+    "times": [
+      {
+        "timestart": "07:00 PM",
+        "timeend": "07:45 PM",
+        "sunrisestart": "false",
+        "sunsetend": "false"
+      }
+    ],
+    "images": [
+      {
+        "url": "https://www.nps.gov/common/uploads/event_calendar/F69E5789-9C89-B3F0-45EC464C71637509.jpg",
+        "title": "",
+        "altText": "Profile silhouette of a presenter in front of a colorful nebula on a projector screen",
+        "caption": "Join an evening program for a \"Ranger's Choice\" presentation.",
+        "credit": "NPS/Stephanie Lamar"
+      }
+    ],
+    "dates": [
+      "2026-01-19"
+    ],
+    "tags": [],
+    "types": [
+      "Talk"
+    ],
+    "fee_info": ""
+  },
+  {
+    "title": "Junior Ranger Ceremony",
+    "description": "<p>Be sworn in as an offical Death Valley Junior Ranger! Bring a completed Junior Ranger Book to earn a badge.\u00a0</p>",
+    "date_start": "2026-01-19",
+    "date_end": "2026-01-19",
+    "is_free": true,
+    "location": "Furnace Creek Visitor Center",
+    "times": [
+      {
+        "timestart": "08:30 AM",
+        "timeend": "08:45 AM",
+        "sunrisestart": "false",
+        "sunsetend": "false"
+      },
+      {
+        "timestart": "11:00 AM",
+        "timeend": "11:15 AM",
+        "sunrisestart": "false",
+        "sunsetend": "false"
+      },
+      {
+        "timestart": "12:30 PM",
+        "timeend": "12:45 PM",
+        "sunrisestart": "false",
+        "sunsetend": "false"
+      },
+      {
+        "timestart": "03:00 PM",
+        "timeend": "03:15 PM",
+        "sunrisestart": "false",
+        "sunsetend": "false"
+      }
+    ],
+    "images": [
+      {
+        "url": "https://www.nps.gov/common/uploads/event_calendar/8CAD95D7-0112-B39D-700C6A474E30FEF2.jpg",
+        "title": "",
+        "altText": "A ranger and two junior rangers pose with newly aquired badges.",
+        "caption": "Junior Ranger Ceremony",
+        "credit": "NPS"
+      }
+    ],
+    "dates": [
+      "2026-01-19"
+    ],
+    "tags": [],
+    "types": [
+      "Other"
+    ],
+    "fee_info": ""
+  },
+  {
+    "title": "Sand Dunes Ranger Walk",
+    "description": "<p>Stroll through the Death Valley Wilderness with a Park Ranger. Explore living and non-living parts of this unique landscape.\u00a0</p>",
+    "date_start": "2026-01-19",
+    "date_end": "2026-01-19",
+    "is_free": true,
+    "location": "Meet at the Mesquite Flat Sand Dunes Parking Lot",
+    "times": [
+      {
+        "timestart": "03:00 PM",
+        "timeend": "04:00 PM",
+        "sunrisestart": "false",
+        "sunsetend": "false"
+      }
+    ],
+    "images": [
+      {
+        "url": "https://www.nps.gov/common/uploads/event_calendar/A38471B6-B55B-359A-190B1DCD51681D7B.jpg",
+        "title": "",
+        "altText": "Yellow sand dunes with dark shadows and mountains in the background.",
+        "caption": "Explore Mesquite Flat Sand Dunes at Sunset with a Death Valley ranger.",
+        "credit": "NPS"
+      }
+    ],
+    "dates": [
+      "2026-01-19"
+    ],
+    "tags": [],
+    "types": [
+      "Guided Tour",
+      "Talk",
+      "Walk"
+    ],
+    "fee_info": ""
+  }
+]

@@ -10,6 +10,10 @@ def fuzzy_match_trail_name(target: str, trail_name: str) -> bool:
     """   
     target_lower, trail_lower = target.lower(), trail_name.lower()
     
+    # Normalize apostrophes (e.g., "Angel's" -> "Angels")
+    target_lower = target_lower.replace("'", "").replace("'", "")
+    trail_lower = trail_lower.replace("'", "").replace("'", "")
+    
     # Remove common suffixes that shouldn't affect matching
     SUFFIXES = ['trail', 'trailhead', 'hike', 'path', 'loop']
     for suffix in SUFFIXES:

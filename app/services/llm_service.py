@@ -37,7 +37,7 @@ class LLMResponse(BaseModel):
     debug_intent: Optional[LLMParsedIntent] = None
 
 class LLMService(Protocol):
-    def parse_user_intent(self, query: str) -> LLMParsedIntent: ...
+    def parse_user_intent(self, query: str, current_park_code: str = None) -> LLMParsedIntent: ...
 
     def generate_response(
         self,
@@ -129,13 +129,21 @@ class GeminiLLMService:
             f"You are a helpful Research Assistant. Display reviews exactly as requested without summarization. {link_instruction} {follow_up_instruction}"
         )
 
-    def parse_user_intent(self, query: str) -> LLMParsedIntent:
+    def parse_user_intent(self, query: str, current_park_code: str = None) -> LLMParsedIntent:
+        # Build context hint for the LLM
+        context_hint = ""
+        if current_park_code:
+            context_hint = f"\n        CURRENT CONTEXT: The user is currently viewing {current_park_code.upper()} park."
+        
         prompt = f"""
-        User Query: "{query}"
+        User Query: "{query}"{context_hint}
         
         Analyze query for:
         1. User Prefs
-        2. Park Code
+        2. Park Code - IMPORTANT: Only set this if the user EXPLICITLY mentions a park name in this query.
+           - If a specific trail/landmark is mentioned (e.g., "The Narrows", "Angels Landing"), you may infer the park.
+           - If no park is mentioned and it's a follow-up question, output "park_code": null
+           - NEVER guess or hallucinate a park code. When in doubt, output null.
         3. Duration
         4. RESPONSE TYPE:
            - "itinerary": "plan trip", "schedule", "X days"
@@ -148,8 +156,10 @@ class GeminiLLMService:
         
         EXAMPLES:
         Query: "Plan a 2 day trip to Zion" -> {{ "response_type": "itinerary", "duration_days": 2, "park_code": "zion" }}
-        Query: "Tell me about The Narrows" -> {{ "response_type": "entity_lookup", "review_targets": ["The Narrows"] }}
-        Query: "What are people saying about Angels Landing?" -> {{ "response_type": "reviews", "review_targets": ["Angels Landing"] }}
+        Query: "Tell me about The Narrows" -> {{ "response_type": "entity_lookup", "review_targets": ["The Narrows"], "park_code": "zion" }}
+        Query: "What are people saying about Angels Landing?" -> {{ "response_type": "reviews", "review_targets": ["Angels Landing"], "park_code": "zion" }}
+        Query: "What else can I do there?" -> {{ "response_type": "list_options", "park_code": null }}
+        Query: "Show me easy trails" -> {{ "response_type": "list_options", "park_code": null }}
         
         Output strictly valid JSON.
         """
@@ -205,22 +215,40 @@ class GeminiLLMService:
         
         # 1. Handle Entity Lookup (Single Item Detail)
         if intent.response_type == "entity_lookup" and intent.review_targets:
+            # Check if query also asks about equipment/rentals - if so, include full context with amenities
+            query_lower = query.lower()
+            amenity_keywords = ["rent", "buy", "purchase", "get", "equipment", "gear", "supplies", 
+                               "where can", "nearby", "shop", "store", "outfitter"]
+            needs_amenities = any(kw in query_lower for kw in amenity_keywords)
+            
             data_context = self._build_data_context(
                 trails, things_to_do, events, campgrounds, visitor_centers, webcams, amenities, safety, weather, alerts,
                 photo_spots=photo_spots,
                 review_targets=intent.review_targets,
-                only_show_targets=True
+                only_show_targets=True,
+                include_amenities=needs_amenities
             )
+            
+            # Build amenity-specific instructions if needed
+            amenity_instructions = ""
+            if needs_amenities:
+                amenity_instructions = """
+            6. **RENTALS/GEAR**: The user is asking about equipment or rentals. 
+               - Look in the AMENITIES section for gear shops, outfitters, or rental services.
+               - Recommend specific nearby stores with their details (name, address, phone).
+               - If no rental shops in context, suggest the user check the Hub Services tab."""
+            
             prompt = f"""
             ROLE: Park Ranger Guide.
             TASK: The user asked about specific places: {intent.review_targets}.
             
             INSTRUCTIONS:
             1. Provide a detailed overview of these specific spots (Difficulty, Length, Description).
-            2. Mention current weather if relevant to hiking them.
-            3. Do NOT list other random trails.
-            4. **IMAGES**: The context contains `<img ... />` tags. COPY THESE EXACTLY on their own line after the description.
-            5. End with follow-up questions.
+            2. **GEAR RECOMMENDATIONS**: Based on the trail conditions and current weather, recommend what equipment/gear the user should bring.
+            3. Mention current weather if relevant to hiking them.
+            4. Do NOT list other random trails.
+            5. **IMAGES**: The context contains `<img ... />` tags. COPY THESE EXACTLY on their own line after the description.{amenity_instructions}
+            7. End with follow-up questions.
             
             CONTEXT:
             {data_context}
@@ -682,7 +710,8 @@ class GeminiLLMService:
         photo_spots=None,
         scenic_drives=None,
         review_targets: Optional[List[str]] = None,
-        only_show_targets: bool = False
+        only_show_targets: bool = False,
+        include_amenities: bool = False
     ) -> str:
         alerts = alerts or []
         photo_spots = photo_spots or []
@@ -894,7 +923,9 @@ class GeminiLLMService:
             camps = []
             centers = []
             cams = []
-            amenities = []
+            # Preserve amenities if explicitly requested (for equipment/rental queries)
+            if not include_amenities:
+                amenities = []
 
         # Format events with URLs and Images
         def format_event(e):

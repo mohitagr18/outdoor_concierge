@@ -1,0 +1,3917 @@
+[
+  {
+    "id": "2F40F0AE-85BC-4669-A1F3-C49DE4728040",
+    "title": "Snow Pass Ski Trail",
+    "shortDescription": "The Snow Pass Ski Trail is a 4.2 mile (6.76 km), skier-tracked, one-way, easiest to most-difficult, ski that takes skiers through a steep heavily forested area to a semi-flat wide open area with views of Swan Lake Flats.",
+    "longDescription": "<p>The Snow Pass Ski Trail is a 4.2-mile (6.76-km), skier-tracked easiest to most difficult one-way ski that takes skiers through a heavily forested area to wide open views of Swan Lake Flats. To get to the Snow Pass Ski Trail\u00a0take the short connector trail that joins from the upper end of the Upper Terrace Loop Ski Trail. The heavily forested trail ascends 700 feet in 1.5 miles (213 m in 2.4 km) through a series of very steep grades along the trail to Snow Pass. From Snow Pass, the trail continues 0.5 miles (0.8 km) down over rolling terrain to a trail junction where the ski route turns left (south) and follows Glen Creek over fairly level terrain for 2.2 miles (3.5 km), meeting the road just south of Rustic Falls (in the winter, the road is only open to limted travel in oversnow vehicles). From here, you can either continue across the road to the Bunsen Peak Road Ski Trail (see decription) or return the way you came.</p> <p><b>Notes:</b> CAUTION: some curves have steep drop-offs and can be hazardous when icy. Bison and elk frequent this trail. Federal regulations require you to stay at least 100 yards (91 m) away from bears and wolves, and at least 25 yards (23 m) away from bison and all other wild animals.</p> <p>Check out the <a href=\"https://www.nps.gov/thingstodo/yell-snow-pass-ski-trail.htm#Details\">ski trail details and accessibility information</a> at the bottom of this page.</p>",
+    "location": {
+      "lat": 0.0,
+      "lon": 0.0
+    },
+    "duration": "2-3 Hours",
+    "season": [
+      "Winter"
+    ],
+    "activities": [
+      {
+        "id": "F9B1D433-6B86-4804-AED7-B50A519A3B7C",
+        "name": "Skiing"
+      }
+    ],
+    "arePetsPermitted": false,
+    "images": [
+      {
+        "url": "https://www.nps.gov/common/uploads/cropped_image/FBE8CE7B-9AEC-FB42-240462DB9FBE811D.jpg",
+        "title": "Snow Pass Ski Trail",
+        "altText": "Skiers follow a straight trail through a snowy forest.",
+        "caption": "",
+        "credit": "NPS / Jacob W. Frank"
+      }
+    ],
+    "isReservationRequired": false,
+    "doFeesApply": false,
+    "tags": [
+      "Yellowstone National Park",
+      "Yellowstone National Park ski trail",
+      "ski trail",
+      "snowshoe trail",
+      "snowshoeing",
+      "cross country skiing",
+      "Mammoth Hot Springs",
+      "easy ski",
+      "most difficult ski",
+      "forested trail",
+      "mountains",
+      "recreation",
+      "winter recreation"
+    ]
+  },
+  {
+    "id": "8DD24C59-C0B2-41BA-B57F-4BC6D22C6176",
+    "title": "Mount Washburn Spur Trail",
+    "shortDescription": "A long hike from the Grand Canyon of the Yellowstone and up the east side of Mount Washburn.",
+    "longDescription": "<p>This is a long day hike is started and ended at the same trailhead. However, along the trail are beautiful views of wildflowers, Mount Washburn, and even the Washburn Hot Springs. Alternatively, this trail can be started after ascending Mount Washburn from the Chittenden Road - Mount Washburn Trail or the Dunraven Pass - Mount Washburn Trail, though plans would need to be made for either being dropped off at the alternative trailheads or return to the same.</p> <p><b>Safety notes:</b> Be aware of lightning above the treeline. There is no access to water along this trail. Grizzly bears frequent the Mount Washburn area in the fall, seeking out whitebark pine nuts. To help <a href=\"https://www.nps.gov/yell/planyourvisit/safety.htm\">protect yourself and any bears you may encounter</a>, it's\u00a0important to hike in groups of 3 or more people, make noise, and carry bear spray (and know how to use it).\u00a0These hikes are not recommended for persons with heart and/or respiratory problems.</p> <p><b>Trailheads:</b> Glacial Boulder pullout on the road to Inspiration Point.</p>",
+    "location": {
+      "lat": 0.0,
+      "lon": 0.0
+    },
+    "duration": "8-10 Hours",
+    "season": [
+      "Summer",
+      "Fall"
+    ],
+    "activities": [
+      {
+        "id": "BFF8C027-7C8F-480B-A5F8-CD8CE490BFBA",
+        "name": "Hiking"
+      }
+    ],
+    "arePetsPermitted": false,
+    "images": [
+      {
+        "url": "https://www.nps.gov/common/uploads/cropped_image/0600F90B-97B8-7F21-D46A175990E496C3.jpg",
+        "title": "Mount Washburn Spur Trail",
+        "altText": "A hiker walks on a mountain slope with a canyon and lake seen in the distance.",
+        "caption": "",
+        "credit": "NPS / Addy Falgoust"
+      }
+    ],
+    "isReservationRequired": false,
+    "doFeesApply": false,
+    "tags": [
+      "Yellowstone National Park",
+      "trail",
+      "day hike",
+      "strenuous hike",
+      "Mount Washburn",
+      "Mount Washburn Spur Trail",
+      "Canyon Area",
+      "Grand Canyon of the Yellowstone River",
+      "Many hours",
+      "hiking"
+    ]
+  },
+  {
+    "id": "8C139D28-83F0-4418-AB88-1DDD9744E9C0",
+    "title": "Dunraven Pass - Mount Washburn Trail",
+    "shortDescription": "Starting at the Dunravenn Pass Trailhead you ascend Mount Washburn on a trail with spectacular views. The Mount Washburn Trail and trailhead parking lot at Dunraven Pass will close for improvements August 6-27, 2019.",
+    "longDescription": "<p>Starting at the Dunraven Pass Trailhead you ascend Mount Washburn on a trail with spectacular views. Look for bighorn sheep and wildflowers. Stay on the trail to avoid destroying fragile alpine vegetation. At the top, enjoy the view and interpretive exhibits from inside the shelter at the base of the fire lookout.</p> <p><b>Safety notes:</b> Be aware of lightning above the treeline. There is no access to water along this trail. Grizzly bears frequent the Mount Washburn area in the fall, seeking out whitebark pine nuts. To help <a href=\"https://www.nps.gov/yell/planyourvisit/safety.htm\">protect yourself, and any bears you may encounter</a>, it's\u00a0important to hike in groups of 3 or more people, make noise, and carry bear spray (and know how to use it).\u00a0These hikes are not recommended for persons with heart and/or respiratory problems.</p> <p><b>Trailheads:</b> Trail starts at the parking lot at Dunraven Pass, 4.5 miles (7.2 km) north of Canyon Junction.</p>",
+    "location": {
+      "lat": 0.0,
+      "lon": 0.0
+    },
+    "duration": "3-6 Hours",
+    "season": [
+      "Summer",
+      "Fall"
+    ],
+    "activities": [
+      {
+        "id": "BFF8C027-7C8F-480B-A5F8-CD8CE490BFBA",
+        "name": "Hiking"
+      }
+    ],
+    "arePetsPermitted": false,
+    "images": [
+      {
+        "url": "https://www.nps.gov/common/uploads/cropped_image/042635A2-07A5-9032-6700F8DD59321971.jpg",
+        "title": "Dunraven Pass \u2013 Mount Washburn Trail",
+        "altText": "A trail crosses a ridgeline above forests and meadows.",
+        "caption": "",
+        "credit": "NPS / Addy Falgoust"
+      }
+    ],
+    "isReservationRequired": false,
+    "doFeesApply": false,
+    "tags": [
+      "Yellowstone National Park",
+      "trail",
+      "day hike",
+      "strenuous hike",
+      "Dunraven Pass - Mount Washburn Trail",
+      "Dunraven Pass",
+      "Mount Washburn",
+      "Canyon Area",
+      "Many hours",
+      "hiking"
+    ]
+  },
+  {
+    "id": "8F8E3900-BB2F-4D53-8D0C-CB713846F1EE",
+    "title": "Chittenden Road - Mount Washburn Trail",
+    "shortDescription": "Head up the shortest route to the top of Mount Washburn where you can enjoy panoramic views and interpretive exhibits.",
+    "longDescription": "<p>Starting at the Chittenden Road Trailhead this route provides the shortest route up to Mount Washburn. The road provides for a wide trail and a steady gradual incline. Look for bighorn sheep and wildflowers. Stay on the trail to avoid destroying fragile alpine vegetation. You may encounter bicyclists or service vehicles along this route. At the top, enjoy the view and interpretive exhibits from inside the shelter at the base of the fire lookout.</p> <p><b>Safety notes:</b> Be aware of lightning above the treeline. There is no access to water along this trail. Grizzly bears frequent the Mount Washburn area in the fall, seeking out whitebark pine nuts. To help <a href=\"https://www.nps.gov/yell/planyourvisit/safety.htm\">protect yourself and any bears you may encounter</a>, it's\u00a0important to hike in groups of 3 or more people, make noise, and carry bear spray (and know how to use it).\u00a0These hikes are not recommended for persons with heart and/or respiratory problems.</p> <p><b>Trailheads:</b> Trail starts at parking area on Chittenden Road, 10.3 miles (16.5 km) north of Canyon.</p>",
+    "location": {
+      "lat": 44.82451884901851,
+      "lon": -110.44457618236694
+    },
+    "duration": "3-5 Hours",
+    "season": [
+      "Summer",
+      "Fall"
+    ],
+    "activities": [
+      {
+        "id": "BFF8C027-7C8F-480B-A5F8-CD8CE490BFBA",
+        "name": "Hiking"
+      }
+    ],
+    "arePetsPermitted": false,
+    "images": [
+      {
+        "url": "https://www.nps.gov/common/uploads/cropped_image/03B2B848-E18A-DFC7-7F8B2BFCDB6AC1DC.jpg",
+        "title": "Chittenden Road-Mount Washburn Trail",
+        "altText": "Wildflowers bloom in an alpine meadow with mountains in the distance.",
+        "caption": "",
+        "credit": "NPS / Addy Falgoust"
+      }
+    ],
+    "isReservationRequired": false,
+    "doFeesApply": false,
+    "tags": [
+      "Yellowstone National Park",
+      "trail",
+      "day hike",
+      "moderately strenuous hike",
+      "Chittenden Road - Mount Washburn Trail",
+      "Canyon Area",
+      "Mount Washburn",
+      "Chittenden Road",
+      "Many hours",
+      "hiking"
+    ]
+  },
+  {
+    "id": "DB538766-56F4-41D8-85B1-281E7A59539A",
+    "title": "Rescue Creek Trail",
+    "shortDescription": "Climb gradually through aspens and meadows, then descend through forests to sagebrush flats that lead to a footbridge across the Gardner River.",
+    "longDescription": "<p><span style=\"color:#c03b2b;\"><strong>Trail Alert! The bridge across the Gardner River was washed out in the 2022 flood event and fording is unsafe. The trail is only accessible from the trailhead near\u00a0Blacktail Pond.</strong></span><br /> <br /> Climb gradually through aspens and meadows, then descend through forests to sagebrush flats.</p> <p><b>Safety notes:</b> Return by the same route (another 8 miles).</p> <p><b>Trailheads:</b> 7 miles (11.3 km) east of Mammoth on the Grand Loop Road.</p>",
+    "location": {
+      "lat": 0.0,
+      "lon": 0.0
+    },
+    "duration": "4-6 Hours",
+    "season": [
+      "Winter",
+      "Spring",
+      "Summer",
+      "Fall"
+    ],
+    "activities": [
+      {
+        "id": "BFF8C027-7C8F-480B-A5F8-CD8CE490BFBA",
+        "name": "Hiking"
+      }
+    ],
+    "arePetsPermitted": false,
+    "images": [
+      {
+        "url": "https://www.nps.gov/common/uploads/cropped_image/07E50E9A-B5B2-CCDC-B00B8EA0E3CFB28E.jpg",
+        "title": "Rescue Creek Trail",
+        "altText": "A rocky mountain peak emerges behind rolling, grassy hills.",
+        "caption": "",
+        "credit": "NPS / Jacob W. Frank"
+      }
+    ],
+    "isReservationRequired": false,
+    "doFeesApply": false,
+    "tags": [
+      "Yellowstone National Park",
+      "trail",
+      "day hike",
+      "moderately strenuous hike",
+      "Mammoth Hot Springs",
+      "Rescue Creek Trail",
+      "yellowstone river",
+      "Gardner River",
+      "Many hours"
+    ]
+  },
+  {
+    "id": "EB68206A-43AF-4207-AFCC-7695156E49A9",
+    "title": "Lewis River Channel/Dogshead Trail",
+    "shortDescription": "Hike through forest to the crystal-clear waters of the Lewis River Channel. Look for eagles and osprey fishing for trout in the shallow waters.",
+    "longDescription": "<p>This trail gives you a feel for Yellowstone\u2019s backcountry. Hike through forest to the crystal-clear waters of the Lewis River Channel. Look for eagles and osprey fishing for trout in the shallow waters.</p> <p><b>Safety notes:</b> Always be aware of your surroundings. Return on the forested Dogshead Trail.</p> <p><b>Trailheads:</b> Approximately 5 miles (8 km) south of the Grant Village intersection, just north of Lewis Lake on the west side of the road.</p>",
+    "location": {
+      "lat": 0.0,
+      "lon": 0.0
+    },
+    "duration": "5-8 Hours",
+    "season": [
+      "Summer",
+      "Fall"
+    ],
+    "activities": [
+      {
+        "id": "BFF8C027-7C8F-480B-A5F8-CD8CE490BFBA",
+        "name": "Hiking"
+      }
+    ],
+    "arePetsPermitted": false,
+    "images": [
+      {
+        "url": "https://www.nps.gov/common/uploads/cropped_image/0759C8F5-B36F-18FE-18C994AEA69C8984.jpg",
+        "title": "Lewis River Channel/Dogshead Trail",
+        "altText": "A hiker follows a trail alongside a river through a forest.",
+        "caption": "",
+        "credit": "NPS / Jacob W. Frank"
+      }
+    ],
+    "isReservationRequired": false,
+    "doFeesApply": false,
+    "tags": [
+      "Yellowstone National Park",
+      "trail",
+      "day hike",
+      "moderate hike",
+      "Shoshone Lake",
+      "Lewis River Channel/Dogshead Trail",
+      "south",
+      "Grant Village",
+      "Many hours",
+      "hiking"
+    ]
+  },
+  {
+    "id": "F918C834-2832-4344-9221-5C37499AAD92",
+    "title": "Fairy Falls Trail",
+    "shortDescription": "Enjoy a hike to one of Yellowstone's most spectacular waterfalls.",
+    "longDescription": "<p>Fairy Falls, 200 feet (61 m) high, is one of Yellowstone's most spectacular waterfalls. From the trailhead, walk 1.6 miles (2.6 km) through a young lodgepole pine forest to the falls. You can continue 0.6 miles (0.97 km) to Spray and Imperial geysers, which adds 1.2 miles (1.9 km) to the hike. Return the same way.<br /> <br /> <strong>Safety notes:\u00a0</strong>Carry water and be aware of wildlife.</p> <p><b>Trailheads:</b> There are two trailheads and two different approaches to reach Fairy Falls. Either park at the end of Fountain Flat Drive or park 1 mile (1.6 km) south of Midway Geyser Basin at the Fairy Falls Parking Lot. Parking is very limited.</p>",
+    "location": {
+      "lat": 0.0,
+      "lon": 0.0
+    },
+    "duration": "3-5 Hours",
+    "season": [
+      "Winter",
+      "Summer",
+      "Fall"
+    ],
+    "activities": [
+      {
+        "id": "BFF8C027-7C8F-480B-A5F8-CD8CE490BFBA",
+        "name": "Hiking"
+      }
+    ],
+    "arePetsPermitted": false,
+    "images": [
+      {
+        "url": "https://www.nps.gov/common/uploads/cropped_image/04D45895-B19C-913D-1D40EBCBA112480E.jpg",
+        "title": "Fairy Falls Trail",
+        "altText": "A thin waterfall cascades down a rocky cliff.",
+        "caption": "",
+        "credit": "NPS / Addy Falgoust"
+      }
+    ],
+    "isReservationRequired": false,
+    "doFeesApply": false,
+    "tags": [
+      "Yellowstone National Park",
+      "trail",
+      "day hike",
+      "Easy hike",
+      "Midway Geyser Basin",
+      "Fairy Falls",
+      "Fairy Falls Trail",
+      "Many hours",
+      "A few hours",
+      "hiking"
+    ]
+  },
+  {
+    "id": "2A492EA4-BA23-4209-8D7E-F6E6D4E6AD12",
+    "title": "Grand Prismatic Overlook Trail",
+    "shortDescription": "Hike up to an overlook of Grand Prismatic Spring.",
+    "longDescription": "<p>This trail gradually climbs 105 feet over 0.6 miles from the Fairy Falls Trailhead to a view looking down on Grand Prismatic Spring and the Midway Geyser Basin.</p> <p><b>Trailheads:</b> Park 1 mile (1.6 km) south of Midway Geyser Basin at the Fairy Falls Parking Lot. Parking is very limited.</p>",
+    "location": {
+      "lat": 0.0,
+      "lon": 0.0
+    },
+    "duration": "1-2 Hours",
+    "season": [
+      "Winter",
+      "Summer",
+      "Fall"
+    ],
+    "activities": [
+      {
+        "id": "BFF8C027-7C8F-480B-A5F8-CD8CE490BFBA",
+        "name": "Hiking"
+      }
+    ],
+    "arePetsPermitted": false,
+    "images": [
+      {
+        "url": "https://www.nps.gov/common/uploads/cropped_image/050CD4A5-9C93-3896-6EC74FCD3F6FBB08.jpg",
+        "title": "Grand Prismatic Overlook Trail\u00a0",
+        "altText": "A large, colorful hot spring as viewed from above.",
+        "caption": "",
+        "credit": "NPS / Diane Renkin"
+      }
+    ],
+    "isReservationRequired": false,
+    "doFeesApply": false,
+    "tags": [
+      "Yellowstone National Park",
+      "trail",
+      "day hike",
+      "Easy hike",
+      "Midway Geyser Basin",
+      "Grand Prismatic Spring",
+      "Fairy Falls Trail",
+      "A few hours",
+      "hiking",
+      "Grand Prismatic Overlook Trail"
+    ]
+  },
+  {
+    "id": "AAD075FE-9FA5-408E-9D7C-5F3091DEAF3B",
+    "title": "Cascade Lake Trail",
+    "shortDescription": "Hike through open meadows to Cascade Lake where wildflowers abound and wildlife is often seen.",
+    "longDescription": "<p>Trail passes through open meadows to Cascade Lake where wildflowers abound and wildlife is often seen.</p> <p><b>Safety notes:</b> The trail can be wet and snowy through July.</p> <p><b>Trailhead:</b> Cascade Lake trailhead 1-\u00bc miles (2 km) north of Canyon Junction on the Grand Loop Road.</p>",
+    "location": {
+      "lat": 0.0,
+      "lon": 0.0
+    },
+    "duration": "2-3 Hours",
+    "season": [
+      "Summer",
+      "Fall"
+    ],
+    "activities": [
+      {
+        "id": "BFF8C027-7C8F-480B-A5F8-CD8CE490BFBA",
+        "name": "Hiking"
+      }
+    ],
+    "arePetsPermitted": false,
+    "images": [
+      {
+        "url": "https://www.nps.gov/common/uploads/cropped_image/631B5742-BE1A-9ADC-EA11424733BC8AF6.jpg",
+        "title": "Cascade Lake",
+        "altText": "Lily pads sit on a lake with a reflection of the surrounding forests and a mountain in the distance.",
+        "caption": "",
+        "credit": "NPS / Jules DeNoto"
+      }
+    ],
+    "isReservationRequired": false,
+    "doFeesApply": false,
+    "tags": [
+      "Yellowstone National Park",
+      "trail",
+      "day hike",
+      "Easy hike",
+      "Cascade Lake",
+      "Cascade Lake Trail",
+      "Canyon Area",
+      "A few hours",
+      "hiking"
+    ]
+  },
+  {
+    "id": "F8D6DC32-8462-4403-B076-8301C9094843",
+    "title": "Specimen Ridge Day Hike Trail",
+    "shortDescription": "Hike up to a ridge for magnificent views of Slough Creek Valley and the Absaroka Range.",
+    "longDescription": "<p>Follow the abandoned service road from the pullout for about 100 yards (91 m). Veer right onto the intersecting path and start climbing toward the ridge. Stay on the most obvious trail to the top of the open ridge. Follow the ridge line to the southwest in the direction of the cliff outcrop you saw from below. There are several wildlife trails that cut across below the top of the ridge, and traverse a forested area before ending at the trees. Be careful not to get off track on the wildlife trails. Take in the magnificent view across the valley. To the north, you can see the Slough Creek Valley and Absaroka Range. Descend the way you came up.</p> <p><b>Safety notes:</b> This strenuous, high elevation trail is not recommended for persons with heart and/or respiratory problems. This trail is not a part of the longer Specimen Ridge Trail. The Petrified Trees of Specimen Ridge is a separate, unmaintained and unmarked route. From the pullout, look southwest, away from the road. Toward the top of the ridge, at approximately the two o\u2019clock position, you will see a cliff outcrop that contains the petrified trees. Keep this in mind as your ultimate destination.</p> <p><b>Trailheads:</b> Striped pullout 4.5 miles (7.2 km) east of Tower Junction on the Northeast Entrance Road. Marked by a sign reading \u201ctrailhead.\u201d</p>",
+    "location": {
+      "lat": 0.0,
+      "lon": 0.0
+    },
+    "duration": "2-4 Hours",
+    "season": [
+      "Summer",
+      "Fall"
+    ],
+    "activities": [
+      {
+        "id": "BFF8C027-7C8F-480B-A5F8-CD8CE490BFBA",
+        "name": "Hiking"
+      }
+    ],
+    "arePetsPermitted": false,
+    "images": [
+      {
+        "url": "https://www.nps.gov/common/uploads/cropped_image/2EFC3FE2-D29C-A007-A51FE4DDD8361FA6.jpg",
+        "title": "Specimen Ridge Day Hike",
+        "altText": "A trail travels past a piece of petrified wood on a ridgeline.",
+        "caption": "",
+        "credit": "NPS / Jacob W. Frank"
+      }
+    ],
+    "isReservationRequired": false,
+    "doFeesApply": false,
+    "tags": [
+      "Yellowstone National Park",
+      "trail",
+      "day hike",
+      "strenuous hike",
+      "Specimen Ridge",
+      "Specimen Ridge Day Hike Trail",
+      "Petrified Tree",
+      "A few hours",
+      "hiking"
+    ]
+  },
+  {
+    "id": "29BE2B38-160F-4A56-A0E9-573573E88536",
+    "title": "Mud Volcano Trail",
+    "shortDescription": "A loop trail leads you by turbulent pools of hot, muddy water; hillsides strewn with trees cooked by steam; strange odors; and a bizarre landscape\u2014welcome to the Mud Volcano area.",
+    "longDescription": "<p>Yellowstone itself is a volcano, and one of its most spectacular eruptions occurred 640,000 years ago. During the eruption, the land collapsed and left a large depression in the earth\u2014the Yellowstone Caldera. This caldera filled with lava flows over hundreds and thousands of years creating the volcanic plateau that comprises much of the central part of the park.</p> <p>Here at Mud Volcano you are close to one of the resurgent domes. The hills you see east of here comprise Sour Creek Dome. Resurgent domes are areas of active ground deformation, where the land moves up or down with the fluctuation of the magma chamber below. Scientists monitor these domes closely for information about ongoing volcanic activity.</p> <p>Not surprisingly, many of the park\u2019s geysers, hot springs, mudpots, and fumaroles are also found near or within the caldera.</p>",
+    "location": {
+      "lat": 0.0,
+      "lon": 0.0
+    },
+    "duration": "1-2 Hours",
+    "season": [
+      "Winter",
+      "Spring",
+      "Summer",
+      "Fall"
+    ],
+    "activities": [
+      {
+        "id": "BFF8C027-7C8F-480B-A5F8-CD8CE490BFBA",
+        "name": "Hiking"
+      }
+    ],
+    "arePetsPermitted": false,
+    "images": [
+      {
+        "url": "https://www.nps.gov/common/uploads/cropped_image/2DD822D0-CF94-FEA9-18A51B334A4512BA.jpg",
+        "title": "Mud Volcano Boardwalk",
+        "altText": "People walk down a boardwalk towards a large plume of steam.",
+        "caption": "",
+        "credit": "NPS / Addy Falgoust"
+      }
+    ],
+    "isReservationRequired": false,
+    "doFeesApply": false,
+    "tags": [
+      "Yellowstone National Park",
+      "hydrothermal",
+      "mudpot",
+      "Mud Volcano",
+      "hydrothermal features",
+      "Fumarole",
+      "day hike",
+      "hiking",
+      "Easy hike",
+      "An hour or two",
+      "trail",
+      "boardwalk"
+    ]
+  },
+  {
+    "id": "73D81E2E-8D0B-473E-A324-1B38938662D5",
+    "title": "Grebe Lake Trail",
+    "shortDescription": "Hike along an old fire road through meadows and forest, some of which burned in 1988.",
+    "longDescription": "<p>A more direct route than the Howard Eaton Trail, this trail follows an old fire road through meadows and forest, some of which burned in 1988.</p> <p><b>Safety notes:</b> At the lake you can connect with the Howard Eaton Trail or return the way you came.</p> <p><b>Trailheads:</b> 3-\u00bd miles (5.6 km) west of Canyon Junction on the Norris\u2013Canyon Road.</p>",
+    "location": {
+      "lat": 0.0,
+      "lon": 0.0
+    },
+    "duration": "3-4 Hours",
+    "season": [
+      "Summer",
+      "Fall"
+    ],
+    "activities": [
+      {
+        "id": "BFF8C027-7C8F-480B-A5F8-CD8CE490BFBA",
+        "name": "Hiking"
+      }
+    ],
+    "arePetsPermitted": false,
+    "images": [
+      {
+        "url": "https://www.nps.gov/common/uploads/cropped_image/2C8F3098-C7B0-CB54-4E6F75F97DE19739.jpg",
+        "title": "Grebe Lake Trail",
+        "altText": "A trail runs through the grass alongside a lake.",
+        "caption": "",
+        "credit": "NPS / Jacob W. Frank"
+      }
+    ],
+    "isReservationRequired": false,
+    "doFeesApply": false,
+    "tags": [
+      "Yellowstone National Park",
+      "trail",
+      "day hike",
+      "Easy hike",
+      "Grebe Lake",
+      "Grebe Lake Trail",
+      "Canyon Area",
+      "A few hours",
+      "hiking"
+    ]
+  },
+  {
+    "id": "7F3FE769-0BB5-4DB2-B5DF-0C9FCE902D06",
+    "title": "Watch Old Faithful Geyser Erupt",
+    "shortDescription": "Old Faithful Geyser is the world's best known geyser. Its eruption intervals have varied from 40 to 126 minutes. Find out the eruption times of Old Faithful and other large geysers at the Old Faithful Visitor Education Center, following the @GeyserNPS twitter feed, or using the Geysers app.",
+    "longDescription": "<p>Watching Old Faithful erupt is a Yellowstone National Park tradition. People from all over the world have journeyed here to watch this famous geyser. The park\u2019s wildlife and scenery might be as well-known today, but it was the unique thermal features that inspired the establishment of Yellowstone as the world\u2019s first national park in 1872.</p> <p>Old Faithful is one of nearly 500 geysers in Yellowstone and one of six that park rangers can currently predict. It is uncommon to be able to predict geyser eruptions with regularity and Old Faithful has lived up to its name, only lengthening the time between eruptions by about 30 minutes in the last 30 years. The reliability of Old Faithful inspired early developers to build special viewing areas, lodging, and concessions for visitors to watch eruptions.</p> <p>Thermal features change constantly and it is possible Old Faithful may stop erupting someday. Geysers and other thermal features are evidence of ongoing volcanic activity beneath the surface and change is part of this natural system. Yellowstone preserves the natural geologic processes so that visitors may continue to enjoy this natural system.</p>",
+    "location": {
+      "lat": 0.0,
+      "lon": 0.0
+    },
+    "duration": "30-90 Minutes",
+    "season": [
+      "Winter",
+      "Spring",
+      "Summer",
+      "Fall"
+    ],
+    "activities": [
+      {
+        "id": "A0631906-9672-4583-91DE-113B93DB6B6E",
+        "name": "Self-Guided Tours - Walking"
+      }
+    ],
+    "arePetsPermitted": false,
+    "images": [
+      {
+        "url": "https://www.nps.gov/common/uploads/cropped_image/B65C952A-D26E-C6C2-B6C2DE0507586F00.jpg",
+        "title": "Old Faithful Geyser",
+        "altText": "Visitors watch an eruption of Old Faithful Geyser.",
+        "caption": "",
+        "credit": "NPS / Jacob W. Frank"
+      }
+    ],
+    "isReservationRequired": false,
+    "doFeesApply": false,
+    "tags": [
+      "Yellowstone",
+      "Old Faithful",
+      "geyser"
+    ]
+  },
+  {
+    "id": "BE090116-8C0F-49AE-A182-B8C5F6310383",
+    "title": "Brink of the Lower Falls Trail",
+    "shortDescription": "Descend to the brink of the Lower Falls on this steep trail to catch a glimpse of one of Yellowstone's greatest wonders.",
+    "longDescription": "<p>Depending on the time of year, anywhere between 5,000 -60,000\u00a0gallons per second (18,927-22,7125 l/s) of water plunges 308 feet (93 m) over Lower Falls. You can catch a distant view of this power from some overlooks adjacent to the parking lot. Or you can descend to the brink on this\u00a0steep trail that drops 600 feet (180 m) over 0.4-mile. View Upper Falls from a short spur at the trail\u2019s beginning. This trail is closed in winter.\u00a0</p> <p><b>Safety notes:</b>\u00a0<span style=\"color:null;\"><strong>not recommended for visitors with heart, lung, or other health conditions.\u00a0</strong></span></p>",
+    "location": {
+      "lat": 0.0,
+      "lon": 0.0
+    },
+    "duration": "",
+    "season": [
+      "Summer",
+      "Fall"
+    ],
+    "activities": [
+      {
+        "id": "BFF8C027-7C8F-480B-A5F8-CD8CE490BFBA",
+        "name": "Hiking"
+      }
+    ],
+    "arePetsPermitted": false,
+    "images": [
+      {
+        "url": "https://www.nps.gov/common/uploads/cropped_image/B5CF4E0C-94D2-BDA8-2852ECC48A122AD3.jpg",
+        "title": "Brink of Lower Falls Trail",
+        "altText": "A rainbow is cast in the mist from a waterfall over a river that cuts through a deep canyon.",
+        "caption": "",
+        "credit": "NPS / Neal Herbert"
+      }
+    ],
+    "isReservationRequired": false,
+    "doFeesApply": false,
+    "tags": [
+      "Yellowstone National Park",
+      "trail",
+      "day hike"
+    ]
+  },
+  {
+    "id": "B97CE4CE-B1E4-44E5-92F5-AD9183785FC5",
+    "title": "Garnet Hill Trail",
+    "shortDescription": "Follow a stagecoach route on a meadow journey around Garnet Hill. The full route cannot be hiked due to a trail washout refer to Backcountry Conditions report.",
+    "longDescription": "<p>The trail follows a dirt stagecoach road about 1.5 miles (2.4 km) to a shelter where Yellowstone National Park Lodges operates the Roosevelt Old West Dinner Cookout. From there, the trail continues north along Elk Creek until nearly reaching the Yellowstone River. Here the trail divides: the west fork joins the Hellroaring Trail, the east fork traverses around Garnet Hill and back to Tower. The east fork offers views of the Yellowstone River and a variety of other terrain. Bears, elk, bison, badgers, mule deer, and wolves frequent this area. The loop rejoins the stagecoach road leaving about \u00bc-mile (400 m) walk back to the parking area.</p> <p><b>Safety notes:</b> This area is home to many bears and bison, use caution when traveling. Trail frequented by horseback-riders. If you encounter horses, move to the downhill side of the trail and remain still until they have passed.</p> <p><b>Trailheads:</b> Approximately 50 yards (45.7 m) north from Tower Junction, on the Northeast Entrance Road. Park in the large parking area east of the service station at Tower Junction.</p>",
+    "location": {
+      "lat": 0.0,
+      "lon": 0.0
+    },
+    "duration": "4-5 Hours",
+    "season": [
+      "Winter",
+      "Spring",
+      "Summer",
+      "Fall"
+    ],
+    "activities": [
+      {
+        "id": "BFF8C027-7C8F-480B-A5F8-CD8CE490BFBA",
+        "name": "Hiking"
+      }
+    ],
+    "arePetsPermitted": false,
+    "images": [
+      {
+        "url": "https://www.nps.gov/common/uploads/cropped_image/04C6A2E3-E7C6-EB3F-A8470A4589243A99.jpg",
+        "title": "Garnet Hill Trail",
+        "altText": "Three people hike through a field of sagebrush in front of a hill.",
+        "caption": "",
+        "credit": "NPS / Jacob W. Frank"
+      }
+    ],
+    "isReservationRequired": false,
+    "doFeesApply": false,
+    "tags": [
+      "Yellowstone National Park",
+      "trail",
+      "day hike",
+      "moderate hike",
+      "Tower Junction",
+      "yellowstone river",
+      "Garnet Hill Trail",
+      "Many hours",
+      "hiking"
+    ]
+  },
+  {
+    "id": "E9F252F9-CE6A-4F46-AA1D-B38A9DD83753",
+    "title": "Pelican Valley Trail",
+    "shortDescription": "Hike through forests, meadows, and a river valley\u2014all of which are some of the best grizzly bear country in the lower 48 states.",
+    "longDescription": "<p>You are entering some of the best grizzly country in the lower 48 states. The trail heads north, crosses a few bridges through a meadow, then enters the forest. After it leaves the forest, it ascends a small hill to a nice overlook of the valley, with the creek below and the Absaroka Mountains to the east. From here, the trail turns slightly to the right (east) and passes through a small hydrothermal area. Stay on the trail through this fragile and hazardous area. Soon, the trail veers north (left), crosses a small creek, and climbs up a cut bank. This is a good place to enjoy the views of Pelican Creek. The trail continues one mile further to a washed-out bridge.</p> <p><b>Safety notes:</b> Many restrictions apply to this trail because it is in prime grizzly bear habitat: Closed until July 4th (<a href=\"https://www.nps.gov/yell/learn/management/bear.htm\">Bear Management Area closure</a>), day-use only from 9 am\u20137 pm, groups of four or more hikers recommended, and off-trail travel prohibited on the first 2.1 miles (3.4 km). Check the <a href=\"https://www.nps.gov/yell/planyourvisit/situationreport.htm\">Backcountry Situation Report</a> for current information.</p> <p><b>Trailheads:</b> Turn onto the gravel road 3 miles (4.8 km) east of Fishing Bridge Visitor Center; park at end of road.</p>",
+    "location": {
+      "lat": 0.0,
+      "lon": 0.0
+    },
+    "duration": "3-4 Hours",
+    "season": [
+      "Summer",
+      "Fall"
+    ],
+    "activities": [
+      {
+        "id": "BFF8C027-7C8F-480B-A5F8-CD8CE490BFBA",
+        "name": "Hiking"
+      }
+    ],
+    "arePetsPermitted": false,
+    "images": [
+      {
+        "url": "https://www.nps.gov/common/uploads/cropped_image/0786E585-EA40-277C-4A5B5DBCE2278DDD.jpg",
+        "title": "Pelican Valley Trail",
+        "altText": "People on horseback ride through a field of sagebrush with mountains in the distance.",
+        "caption": "",
+        "credit": "NPS / Ashton Hooker"
+      }
+    ],
+    "isReservationRequired": false,
+    "doFeesApply": false,
+    "tags": [
+      "Yellowstone National Park",
+      "Pelican Creek",
+      "Fishing Bridge",
+      "trail",
+      "day hike",
+      "moderate hike",
+      "A few hours",
+      "Pelican Valley",
+      "Pelican Valley Trail",
+      "hiking"
+    ]
+  },
+  {
+    "id": "F4E49A8B-CC33-4005-A3E2-DCCB0D6BF5D1",
+    "title": "Forces of the Northern Range Self-guided Trail",
+    "shortDescription": "Follow this self-guided trail along a boardwalk that winds through the grassland of Yellowstone's northern range.",
+    "longDescription": "<p>This .5 mile (.8 km) boardwalk has 11 stops with exhibits. No restroom.</p> <p>Yellowstone\u2019s northern range is a grassland north of the Yellowstone and Lamar Rivers. This area sustains one of the largest and most diverse communities of free-roaming large animals in the world.</p> <p>Yellowstone National Park is a place where scientists can study nature in a nearly unchanged condition.</p> <p><strong>Safety notes:\u00a0</strong>Do not approach or feed any animal.\u00a0Stay 100 yards (91 m) from bears and wolves.\u00a0Stay 25 yards (23 m) from all other animals.</p> <p><strong>Trailhead:</strong> The trail begins\u00a08.3 miles (13.4 km) east of Mammoth on the Grand Loop Road.</p>",
+    "location": {
+      "lat": 44.95939311355976,
+      "lon": -110.56661265832491
+    },
+    "duration": "30-60 Minutes",
+    "season": [
+      "Spring",
+      "Summer",
+      "Fall"
+    ],
+    "activities": [
+      {
+        "id": "BFF8C027-7C8F-480B-A5F8-CD8CE490BFBA",
+        "name": "Hiking"
+      }
+    ],
+    "arePetsPermitted": false,
+    "images": [
+      {
+        "url": "https://www.nps.gov/common/uploads/cropped_image/FD5DF056-A877-B140-45716550BD7C0DE0.jpg",
+        "title": "Exhibit on Forces of the Northern Range",
+        "altText": "Visitors on a boardwalk view a low profile wayside exhibit",
+        "caption": "Visitors view a wayside exhibit on the Forces of the Northern Range Self-guided Trail",
+        "credit": ""
+      }
+    ],
+    "isReservationRequired": false,
+    "doFeesApply": false,
+    "tags": [
+      "Yellowstone National Park",
+      "Mammoth Hot Springs Area",
+      "wayside exhibit",
+      "self-guided walk",
+      "Forces of the Northern Range Trail",
+      "Northern Range"
+    ]
+  },
+  {
+    "id": "B7B0090E-3C6D-4F97-8D24-0021E5121E21",
+    "title": "Riverside Ski Trail",
+    "shortDescription": "The Riverside Ski Trail provides several easy options to ski along the Madison River and enjoy views of both the Gallatin and Madison mountain ranges.",
+    "longDescription": "<p>The Riverside Ski Trail provides several easy options to ski along the Madison River and enjoy views of both the Gallatin and Madison mountain ranges. Boundary Street to loops: 1 mile (1.6 km) Downriver loop, full: 3.5 miles (5.6 km) Downriver loop, short: 2.2 miles (3.5 km) Upriver loop: 1.5 miles (2.4 km) Trailhead: In West Yellowstone, east side of Boundary Street at Madison Avenue. The first mile is through forest to the loop trail junctions above the Madison River. The upriver loop (right), provides panoramic views of the Madison River and the Gallatin Range. The downriver loop (left), crosses open forests and meadows along the river. A cutoff trail shortens the trip by 1.3 miles (2.1 km). Return to the trailhead via the approach trail. Look for elk, bald eagles, and waterfowl. The first two miles may be occasionally groomed for classic ski tracks.</p> <p><b>Notes:</b> Bison and elk frequent this trail. Federal regulations require you to stay at least 100 yards (91 m) away from bears and wolves, and at least 25 yards (23 m) away from bison and all other wild animals.<br /> <br /> Check out the\u00a0<a href=\"https://www.nps.gov/thingstodo/yell-riverside-ski-trail.htm#Details\">ski trail details and accessibility information\u00a0</a>at the bottom of this page.</p>",
+    "location": {
+      "lat": 0.0,
+      "lon": 0.0
+    },
+    "duration": "1-3 Hours",
+    "season": [
+      "Winter"
+    ],
+    "activities": [
+      {
+        "id": "F9B1D433-6B86-4804-AED7-B50A519A3B7C",
+        "name": "Skiing"
+      }
+    ],
+    "arePetsPermitted": false,
+    "images": [
+      {
+        "url": "https://www.nps.gov/common/uploads/cropped_image/433F5D60-1DD8-B71B-0BB5F3DD3C14D938.jpg",
+        "title": "Riverside Ski Trail",
+        "altText": "A lone skier makes their way along the Madison River on the Riverside Ski Trail.",
+        "caption": "",
+        "credit": ""
+      }
+    ],
+    "isReservationRequired": false,
+    "doFeesApply": false,
+    "tags": [
+      "Yellowstone National Park",
+      "Yellowstone National Park ski trail",
+      "ski trail",
+      "snowshoe trail",
+      "snowshoeing",
+      "cross country skiing",
+      "West Yellowstone Area",
+      "easiest ski",
+      "Mountain Views",
+      "recreation",
+      "winter recreation"
+    ]
+  },
+  {
+    "id": "DCBA8EC7-6E3F-4C90-9AB7-C2F2829A80C2",
+    "title": "Bannock Ski Trail",
+    "shortDescription": "The Bannock Ski Trail is a 2 mile (3.2 km) easy ski that follows the old road bed that once used to supply the mining town of Cooke City, Montana.",
+    "longDescription": "<p>The Bannock Ski Trail is a 2 mile (3.2 km) easy ski that follows the old road bed that once used to supply the mining town of Cooke City, Montana. Begin at Warm Creek picnic area, one mile west of the Northeast Entrance. This trail takes its name from the Bannock band of the Shoshone, who used this route to reach the buffalo grounds of the Great Plains. After crossing Soda Butte Creek, the terrain is mostly flat and the trail traverses open meadows and mixed conifer forests. You will reach the North Absaroka Wilderness approximately one mile (1.6 km) from the trailhead. At two miles (3.2 km) you come to Silver Gate, Montana. From here the road bed is used as a snowmobile route and is good skiing to Cooke City, 3 miles (4.8 km) to the east.</p> <p><b>Notes:</b> Bison and elk frequent this trail. Federal regulations require you to stay at least 100 yards (91 m) away from bears and wolves, and at least 25 yards (23 m) away from bison and all other wild animals.</p> <p>Check out the<a href=\"https://www.nps.gov/thingstodo/yell-bannock-ski-trail.htm#Details\">\u00a0ski trail details and accessibility information</a>\u00a0at the bottom of this page.</p>",
+    "location": {
+      "lat": 0.0,
+      "lon": 0.0
+    },
+    "duration": "1-2 Hours",
+    "season": [
+      "Winter"
+    ],
+    "activities": [
+      {
+        "id": "F9B1D433-6B86-4804-AED7-B50A519A3B7C",
+        "name": "Skiing"
+      }
+    ],
+    "arePetsPermitted": false,
+    "images": [
+      {
+        "url": "https://www.nps.gov/common/uploads/cropped_image/20970C88-BB81-37F7-5FB606A6D4A87D9B.jpeg",
+        "title": "Bannock Ski Trail",
+        "altText": "Ski tracks travel through a forest.",
+        "caption": "",
+        "credit": ""
+      }
+    ],
+    "isReservationRequired": false,
+    "doFeesApply": false,
+    "tags": [
+      "Yellowstone National Park",
+      "Yellowstone National Park ski trail",
+      "ski trail",
+      "snowshoe trail",
+      "snowshoeing",
+      "cross country skiing",
+      "Northeast Area",
+      "easy ski",
+      "forested trail",
+      "mountains",
+      "recreation",
+      "winter recreation"
+    ]
+  },
+  {
+    "id": "CB8C79E9-5557-4C0B-91F7-F4AEC10EDF9B",
+    "title": "Observation Point Loop Snowshoe Trail",
+    "shortDescription": "The Observation Point Loop Snowshoe Trail is a 2.0 mile (3.2 km) snowshoe only trail that treats visitors to unobstructed views of the Upper Geyser Basin and the Firehole River.",
+    "longDescription": "<p>The Observation Point Loop Snowshoe Trail is a 2.0 mile (3.2 km) snowshoe only trail that treats visitors to unobstructed views of the Upper Geyser Basin and the Firehole River.The trail begins at the Visitor Center and follows the Geyser Hill trail across the Firehole River. Once on the other side of the Firehole River, look for a high wooden sign on a post to point the way to the top. The trail switchbacks to Observation Point. The trail descends down the other side of the point to Geyser Hill Trail and back to the Visitor Center passing Solitary Geyser along the way.</p> <p><b>Notes:</b> CAUTION: Snowshoes recommended. Bison and elk frequent this trail. Federal regulations require you to stay at least 100 yards (91 m) away from bears and wolves, and at least 25 yards (23 m) away from bison and all other wild animals. Stay on boardwalks and designated ski trails. The ground is unstable in hydrothermal areas.<br /> <br /> Check out the\u00a0<a href=\"https://www.nps.gov/thingstodo/yell-observation-point-loop-snowshoe-trail.htm#Details\">ski trail details and accessibility information\u00a0</a>at the bottom of this page.</p>",
+    "location": {
+      "lat": 0.0,
+      "lon": 0.0
+    },
+    "duration": "1-2 Hours",
+    "season": [
+      "Winter"
+    ],
+    "activities": [
+      {
+        "id": "01D717BC-18BB-4FE4-95BA-6B13AD702038",
+        "name": "Snowshoeing"
+      }
+    ],
+    "arePetsPermitted": false,
+    "images": [
+      {
+        "url": "https://www.nps.gov/common/uploads/cropped_image/CFC3A414-B168-B1FF-582F6982AD66E21A.jpg",
+        "title": "Observation Point Loop Snowshoe Trail",
+        "altText": "A geyser in the middle of a snowy field erupts steam and water high into the air.",
+        "caption": "",
+        "credit": "NPS / Diane Renkin"
+      }
+    ],
+    "isReservationRequired": false,
+    "doFeesApply": false,
+    "tags": [
+      "Yellowstone National Park",
+      "Yellowstone National Park snowshoe trail",
+      "snowshoe trail",
+      "snowshoeing",
+      "Old Faithful Area",
+      "forested trail",
+      "mountains",
+      "river views",
+      "recreation",
+      "winter recreation"
+    ]
+  },
+  {
+    "id": "FABBB3AD-BDC3-40A1-8640-66C513E08FC0",
+    "title": "Tower Fall Ski Trail",
+    "shortDescription": "The Tower Fall Ski Trail is a 5.0 mile (8 km) round-trip easiest trail that allows skiers to enjoy canyon views of the Yellowstone River and Tower Fall.",
+    "longDescription": "<p>The Tower Fall Ski Trail is a 5.0 mile (8 km) easiest trail that allows skiers to enjoy canyon views of the Yellowstone River and Tower Falls. Begin at the parking area just southeast of Tower Junction. The trail follows the unplowed Tower-Canyon road up a gradual slope past Calcite Springs Overlook to Tower Fall. Great views of the Yellowstone River Canyon, occasional bison, bighorn sheep and bald eagles.</p> <p><b>Notes:</b> Bison and elk frequent this trail. Federal regulations require you to stay at least 100 yards (91 m) away from bears and wolves, and at least 25 yards (23 m) away from bison and all other wild animals.<br /> <br /> Check out the\u00a0<a href=\"https://www.nps.gov/thingstodo/yell-tower-fall-ski-trail.htm#Details\">ski trail details and accessibility information</a>\u00a0at the bottom of this page.</p>",
+    "location": {
+      "lat": 0.0,
+      "lon": 0.0
+    },
+    "duration": "2-3 Hours",
+    "season": [
+      "Winter"
+    ],
+    "activities": [
+      {
+        "id": "F9B1D433-6B86-4804-AED7-B50A519A3B7C",
+        "name": "Skiing"
+      }
+    ],
+    "arePetsPermitted": false,
+    "images": [
+      {
+        "url": "https://www.nps.gov/common/uploads/cropped_image/CFAF5848-D073-85ED-67307C7C64B82638.jpg",
+        "title": "Tower Fall Ski Trail",
+        "altText": "Icicle formations encase a waterfall surrounded by columns of rock.",
+        "caption": "",
+        "credit": "NPS / Addy Falgoust"
+      }
+    ],
+    "isReservationRequired": false,
+    "doFeesApply": false,
+    "tags": [
+      "Yellowstone National Park",
+      "Yellowstone National Park ski trail",
+      "ski trail",
+      "snowshoe trail",
+      "snowshoeing",
+      "cross country skiing",
+      "Tower Area",
+      "easiest ski",
+      "mountains",
+      "thermal features",
+      "canyon views",
+      "recreation",
+      "winter recreation"
+    ]
+  },
+  {
+    "id": "A2464858-4430-4355-AB0B-51EB43459F0D",
+    "title": "Sheepeater Ski Trail",
+    "shortDescription": "The Sheepeater Ski Trail is a skier-tracked, easy, one-way 5 mile (8 km) trail that provides scenic views of Swan Lake Flats.",
+    "longDescription": "<p>The Sheepeater Ski Trail is a skier-tracked, easy, one-way 5-mile (8-km) trail that provides scenic views of Swan Lake Flats. Begin at the Indian Creek Warming Hut, ski along the road 0.5 miles (0.8 km) north to Sheepeater Cliffs picnic area. The trail skirts the east side of Swan Lake Flats through interspersed forest and meadow with views of the Gallatin Range and the Gardner River Canyon. The trial connects with the Bunsen Peak Trail and continues approximately 1.6 miles (2.5 km) west to the Mammoth-Norris road.</p> <p><b>Notes:</b> Bison and elk frequent this trail. Federal regulations require you to stay at least 100 yards (91 m) away from bears and wolves, and at least 25 yards (23 m) away from bison and all other wild animals. Stay on boardwalks and designated ski trails. The ground is unstable in hydrothermal areas.</p> <p>This is a <b>ski shuttle stop</b> from Mammoth Hot Springs Hotel.</p> <p>Check out the <a href=\"https://www.nps.gov/thingstodo/yell-sheepeater-ski-trail.htm#Details\">ski trail details and accessibility information</a> at the bottom of this page.</p>",
+    "location": {
+      "lat": 0.0,
+      "lon": 0.0
+    },
+    "duration": "2-3 Hours",
+    "season": [
+      "Winter"
+    ],
+    "activities": [
+      {
+        "id": "F9B1D433-6B86-4804-AED7-B50A519A3B7C",
+        "name": "Skiing"
+      }
+    ],
+    "arePetsPermitted": false,
+    "images": [
+      {
+        "url": "https://www.nps.gov/common/uploads/cropped_image/CE69DB8F-C350-F0AC-6C1C027E7DDA009A.jpg",
+        "title": "Sheepeater Ski Trail",
+        "altText": "Two skiers travel across a flat meadow with mountains in the distance.",
+        "caption": "",
+        "credit": "NPS / Jacob W. Frank"
+      }
+    ],
+    "isReservationRequired": false,
+    "doFeesApply": false,
+    "tags": [
+      "Yellowstone National Park",
+      "Yellowstone National Park ski trail",
+      "ski trail",
+      "snowshoe trail",
+      "snowshoeing",
+      "cross country skiing",
+      "Mammoth Hot Springs",
+      "easy ski",
+      "forested trail",
+      "mountains",
+      "recreation",
+      "winter recreation"
+    ]
+  },
+  {
+    "id": "D8CBF890-0455-4B32-A74C-5195BE6D2B3F",
+    "title": "Roller Coaster Ski Trail",
+    "shortDescription": "The Roller Coaster Ski Trail is a more difficult 1.8 mile (2.9 km) roundtrip forested trail taking skiers on a rolling course with several steep drop-offs.",
+    "longDescription": "<p>The Roller Coaster Ski Trail is a more difficult 1.8-mile (2.9-km) roundtrip, forested trail taking skiers on a rolling course with several steep drop-offs. From the Canyon Visitor Education Center, go east along the North Rim Drive for 100 yards (91 m). Turn left 90-degrees and continue up a service road for approximately 0.3 miles (0.5 km). Ski down a short, moderate slope into a meadow and veer right, off the service road and up into the pine forest. From here the trail is well-defined through the trees with a series of moderate to steep ups and downs. The trail merges with the Canyon Rim Trail. At the junction you can turn right to return to the Canyon Visitor Education Center, or left to continue along the Canyon Rim Trail. The Roller Coaster is fast and fun.</p> <p><b>Notes:</b> CAUTION: some parts of the trail have steep drop-offs and can be hazardous when icy.<br /> <br /> Check out the\u00a0<a href=\"https://www.nps.gov/thingstodo/yell-roller-coaster-ski-trail.htm#Details\">ski trail details and accessibility information</a>\u00a0at the bottom of this page.</p>",
+    "location": {
+      "lat": 0.0,
+      "lon": 0.0
+    },
+    "duration": "1-2 Hours",
+    "season": [
+      "Winter"
+    ],
+    "activities": [
+      {
+        "id": "F9B1D433-6B86-4804-AED7-B50A519A3B7C",
+        "name": "Skiing"
+      }
+    ],
+    "arePetsPermitted": false,
+    "images": [
+      {
+        "url": "https://www.nps.gov/common/uploads/cropped_image/CE5324B5-0284-5B64-B356AEC422A9CF36.jpg",
+        "title": "Roller Coaster Ski Trail",
+        "altText": "A person excitedly cross-country skis down a steep hill in the forest.",
+        "caption": "",
+        "credit": "NPS / Jacob W. Frank"
+      }
+    ],
+    "isReservationRequired": false,
+    "doFeesApply": false,
+    "tags": [
+      "Yellowstone National Park",
+      "Yellowstone National Park ski trail",
+      "ski trail",
+      "snowshoe trail",
+      "snowshoeing",
+      "backcountry skiing",
+      "cross country skiing",
+      "Canyon Village",
+      "more difficult ski",
+      "forested trail",
+      "recreation",
+      "winter recreation"
+    ]
+  },
+  {
+    "id": "977539D5-70EE-45E1-996A-523DC5F78708",
+    "title": "Old Canyon Bridge Ski Trail",
+    "shortDescription": "The Old Canyon Bridge Ski Trail is a flat 1 mile (1.6 km) easiest ski that provides skiers a short but beautiful way to see the Yellowstone River in winter.",
+    "longDescription": "\u00a0",
+    "location": {
+      "lat": 0.0,
+      "lon": 0.0
+    },
+    "duration": "1-2 Hours",
+    "season": [
+      "Winter"
+    ],
+    "activities": [
+      {
+        "id": "F9B1D433-6B86-4804-AED7-B50A519A3B7C",
+        "name": "Skiing"
+      }
+    ],
+    "arePetsPermitted": false,
+    "images": [
+      {
+        "url": "https://www.nps.gov/common/uploads/cropped_image/0645FA45-1DD8-B71B-0B4E3554722D022E.jpg",
+        "title": "",
+        "altText": "A lone skier skies along the Old Canyon Bridge Ski Trial with the Chittenden Bridge seen through the",
+        "caption": "",
+        "credit": ""
+      }
+    ],
+    "isReservationRequired": true,
+    "doFeesApply": false,
+    "tags": [
+      "Yellowstone National Park",
+      "Yellowstone National Park ski trail",
+      "ski trail",
+      "snowshoe trail",
+      "snowshoeing",
+      "cross country skiing",
+      "Canyon Village",
+      "easiest ski",
+      "forested trail",
+      "yellowstone river",
+      "Grand Canyon of the Yellowstone River",
+      "canyon views",
+      "recreation",
+      "winter recreation"
+    ]
+  },
+  {
+    "id": "DA795D91-D359-47A3-8345-2BE9910221EA",
+    "title": "North Rim Ski Trail",
+    "shortDescription": "The North Rim Ski Trail is a 3.0 (7.24 km), easiest to more difficult forested trail that takes skiers along the North Canyon Rim providing views into the Grand Canyon of the Yellowstone.",
+    "longDescription": "<span style=\"color: rgb(85, 85, 85); font-family: Arial, sans-serif; font-size: 16px;\">The North Rim Ski Trail is a 3.0 mile (4.8 km), easiest to more difficult forested trail that takes skiers along the Canyon Rim providing views into the Grand Canyon of the Yellowstone. Begin at the Canyon Visitor Education Center and follow the North Rim Drive east for one mile (1.6 km). The trail turns to the right down a small hill onto a forested trail that continues along the edge of the canyon rim for one mile (1.6 km) providing excellent views of the Grand Canyon of the Yellowstone. At Grand View Point, the trail crosses the road and follows a marked trail through the pine forest and up into the Lodge area. Ski past the lodges and the Canyon Lodge building and back to the Visitor Education Center.\u00a0</span><br /> \u00a0 <p><b>Notes:</b> Bison and elk frequent this trail. Federal regulations require you to stay at least 100 yards (91 m) away from bears and wolves, and at least 25 yards (23 m) away from bison and all other wild animals. Caution should be taken while skiing along the Canyon Rim. Skiers are advised to remove their skis and walk out to the viewpoints.<br /> <br /> Check out the\u00a0<a href=\"https://www.nps.gov/thingstodo/yell-north-rim-ski-trail.htm#Details\">ski trail details and accessibility information</a>\u00a0at the bottom of this page.</p>",
+    "location": {
+      "lat": 0.0,
+      "lon": 0.0
+    },
+    "duration": "2-3 Hours",
+    "season": [
+      "Winter"
+    ],
+    "activities": [
+      {
+        "id": "F9B1D433-6B86-4804-AED7-B50A519A3B7C",
+        "name": "Skiing"
+      }
+    ],
+    "arePetsPermitted": false,
+    "images": [
+      {
+        "url": "https://www.nps.gov/common/uploads/cropped_image/3B5D7FCA-1DD8-B71B-0BE1C72F171435C1.jpg",
+        "title": "North Rim Ski Trail",
+        "altText": "Skiers stop to admire the views of the Grand Canyon of the Yellowstone from the North Rim Trail.",
+        "caption": "",
+        "credit": ""
+      }
+    ],
+    "isReservationRequired": false,
+    "doFeesApply": false,
+    "tags": [
+      "Yellowstone National Park",
+      "Yellowstone National Park ski trail",
+      "ski trail",
+      "snowshoe trail",
+      "snowshoeing",
+      "backcountry skiing",
+      "cross country skiing",
+      "Canyon Village",
+      "easiest ski",
+      "more difficult ski",
+      "forested trail",
+      "Grand Canyon of the Yellowstone",
+      "canyon views",
+      "recreation",
+      "winter recreation"
+    ]
+  },
+  {
+    "id": "2BF22362-3957-4D5A-A56E-C1B71CE03C9E",
+    "title": "Mallard Lake Ski Trail",
+    "shortDescription": "The Mallard Lake Ski Trail is a 6.8 mile (10.9 km) round-trip, skier-tracked, more difficult trail taking skiers on a steep climb to views of Mallard Lake.",
+    "longDescription": "<p>The Mallard Lake Ski Trail is a 6.8 mile (10.9 km) round-trip, skier-tracked, more difficult trail taking skiers on a steep climb to views of Mallard Lake. Beginning near Snow Lodge, the trail follows Mallard Lake/Kepler Cascades Trail across the Firehole River bridge. At the trail junction, the trail goes left through the forest and climbs to Mallard Lake, with some steep sections and sidehills. Beware of avalanches. This trail is not recommended in very icy conditions. The Mallard Creek trail junction is approximately 0.2 miles (0.3 km) before the lake. Return downhill to Old Faithful the same way.</p> <p><b>Notes:</b> CAUTION: recommended for advanced skiers only due to steep terrain. Bison and elk frequent this trail. Federal regulations require you to stay at least 100 yards (91 m) away from bears and wolves, and at least 25 yards (23 m) away from bison and all other wild animals. Stay on boardwalks and designated ski trails. The ground is unstable in hydrothermal areas.</p> <p>Check out the <a href=\"https://www.nps.gov/thingstodo/yell-mallard-lake-ski-trail.htm#Details\">ski trail details and accessibility information</a> at the bottom of this page.</p>",
+    "location": {
+      "lat": 0.0,
+      "lon": 0.0
+    },
+    "duration": "5-6 Hours",
+    "season": [
+      "Winter"
+    ],
+    "activities": [
+      {
+        "id": "F9B1D433-6B86-4804-AED7-B50A519A3B7C",
+        "name": "Skiing"
+      }
+    ],
+    "arePetsPermitted": false,
+    "images": [
+      {
+        "url": "https://www.nps.gov/common/uploads/cropped_image/9F2E912D-1DD8-B71B-0B21865548C90277.jpg",
+        "title": "Mallard Lake Ski Trail",
+        "altText": "A lone skier breaks trail along the Mallard Lake Trail in the forested section near the trailhead.",
+        "caption": "",
+        "credit": ""
+      }
+    ],
+    "isReservationRequired": false,
+    "doFeesApply": false,
+    "tags": [
+      "Yellowstone National Park",
+      "Yellowstone National Park ski trail",
+      "ski trail",
+      "snowshoe trail",
+      "snowshoeing",
+      "cross country skiing",
+      "Old Faithful Area",
+      "more difficult ski",
+      "forested trail",
+      "mountains",
+      "recreation",
+      "winter recreation"
+    ]
+  },
+  {
+    "id": "38ACA13F-263B-4E6A-BEE4-EBA54C10C9AE",
+    "title": "Lost Lake Ski Trail",
+    "shortDescription": "The Lost Lake Ski Trail is a 4 mile (6.4 km) easiest to more difficult one-way trail that takes skiers by Petrified Tree, Lost Lake, and Calcite Springs Overlook.",
+    "longDescription": "<p>The Lost Lake Ski Trail is a 4-mile (6.4-km) easiest to more difficult one-way trail that takes skiers by Petrified Tree, Lost Lake, and Calcite Springs Overlook. Start at the Petrified Tree Road, just east of the exit of Blacktail Plateau Drive, or 1.4 miles (2.25 km) west of Tower Junction. The trail follows the road to the Petrified Tree, then leads through a narrow, open valley to Lost Lake. Follow the near shore (on the ice) the trail reaches the head of the lake after 1.5 miles to the head of the lake, then travel through intermittent forest and meadows. After 2.5 miles (4 km) and a short steep descent, the trail reaches Calcite Springs Overlook on the Tower Fall Trail, 1.4 miles (2.25 km) from Tower Junction. It <strong>DOES NOT</strong> follow the maintained summer trail. Watch closely for orange trail tags marking the route because it may be diffi cult to fi nd. Rolling terrain, views and possibly elk may be seen along this trail. Caution: Remove your skis for the short, steep section at the Lost Creek Bridge.</p> <p><b>Notes:</b> Bison and elk frequent this trail. Federal regulations require you to stay at least 100 yards (91 m) away from bears and wolves, and at least 25 yards (23 m) away from bison and all other wild animals.<br /> <br /> Check out the\u00a0<a href=\"https://www.nps.gov/thingstodo/yell-lost-lake-ski-trail.htm#Details\">ski trail details and accessibility information\u00a0</a>at the bottom of this page.</p>",
+    "location": {
+      "lat": 0.0,
+      "lon": 0.0
+    },
+    "duration": "3-4 Hours",
+    "season": [
+      "Winter"
+    ],
+    "activities": [
+      {
+        "id": "F9B1D433-6B86-4804-AED7-B50A519A3B7C",
+        "name": "Skiing"
+      }
+    ],
+    "arePetsPermitted": false,
+    "images": [
+      {
+        "url": "https://www.nps.gov/common/uploads/cropped_image/CC967E6B-F740-EFD2-E3E993A8B4B37E02.jpg",
+        "title": "Lost Lake Ski Trail",
+        "altText": "Three skiers travel downhill towards mountains in the distance.",
+        "caption": "",
+        "credit": "NPS / Jacob W. Frank"
+      }
+    ],
+    "isReservationRequired": false,
+    "doFeesApply": false,
+    "tags": [
+      "Yellowstone National Park",
+      "Yellowstone National Park ski trail",
+      "ski trail",
+      "snowshoe trail",
+      "snowshoeing",
+      "cross country skiing",
+      "Tower Area",
+      "easiest ski",
+      "more difficult ski",
+      "forested trail",
+      "mountains",
+      "thermal features",
+      "canyon views",
+      "recreation",
+      "winter recreation"
+    ]
+  },
+  {
+    "id": "F9D2E7D5-1270-4336-AD02-6F755CD98EAF",
+    "title": "Fawn Pass Ski Trail",
+    "shortDescription": "The Fawn Pass Ski Trail is an 11 mile (17.7 km), one-way, more difficult ski trail that provides skiers with wide open views of the Gallatin Range.",
+    "longDescription": "<p>The Fawn Pass Ski Trail is an 11-mile (17.7-km)\u00a0one-way, more difficult ski trail that provides skiers with wide open views of the Gallatin Range. Mileage from the Fawn Pass trailhead to Bighorn Pass Cutoff is 5 miles (8 km). Starting at the Bighorn Pass trailhead, and taking the Bighorn Pass Cutoff to Fawn Pass is 6 miles (9.7 km). The Fawn Pass trailhead is located 22 miles (35.4 km) north of West Yellowstone along US Highway 191. Avalanche danger is moderate in the last 6 miles (9.7 km) to Fawn Pass. After crossing several fingers of the Gallatin River, the trail gradually ascends 700 feet (213.4 m) in 5 miles (8 km) to the Bighorn Pass Cutoff. The cutoff trail switchbacks downhill approximately 1 mile (1.6 km) to Bighorn Pass Trail. After the junction with the cutoff trail, the Fawn Pass ski trail then climbs for 6 miles (9.7 km) to Fawn Pass. Return the same way.</p> <p><b>Notes:</b> Bison and elk frequent this trail. Federal regulations require you to stay at least 100 yards (91 m) away from bears and wolves, and at least 25 yards (23 m) away from bison and all other wild animals. CAUTION: Avalance danger is moderate in the last 6 miles (9.7 km) to Fawn Pass.<br /> <br /> Check out the\u00a0<a href=\"https://www.nps.gov/thingstodo/yell-fawn-pass-ski-trail.htm#Details\">ski trail details and accessibility information\u00a0</a>at the bottom of this page.</p>",
+    "location": {
+      "lat": 0.0,
+      "lon": 0.0
+    },
+    "duration": "6-8 Hours",
+    "season": [
+      "Winter"
+    ],
+    "activities": [
+      {
+        "id": "F9B1D433-6B86-4804-AED7-B50A519A3B7C",
+        "name": "Skiing"
+      }
+    ],
+    "arePetsPermitted": false,
+    "images": [
+      {
+        "url": "https://www.nps.gov/common/uploads/cropped_image/CBE0DA86-0E7C-7B4C-225F69D5B4936EE9.jpg",
+        "title": "Fawn Pass Ski Trail",
+        "altText": "Two skiers are dwarfed by the landscape of forests and moutains in the distance.",
+        "caption": "",
+        "credit": "NPS / Ralph Anderson"
+      }
+    ],
+    "isReservationRequired": false,
+    "doFeesApply": false,
+    "tags": [
+      "Yellowstone National Park",
+      "Yellowstone National Park ski trail",
+      "ski trail",
+      "snowshoe trail",
+      "snowshoeing",
+      "more difficult ski",
+      "cross country skiing",
+      "West Yellowstone Area",
+      "Mountain Views",
+      "recreation",
+      "winter recreation"
+    ]
+  },
+  {
+    "id": "134F29C6-912A-482A-9E12-CE913E8D8A2C",
+    "title": "Fairy Falls Ski Trail",
+    "shortDescription": "The Fairy Falls Ski Trail is a 10 mile (16 km) (with ski drop) skier-tracked, round-trip, easiest to more dificult ski that provides icy views of one of Yellowstone's most popular waterfalls.",
+    "longDescription": "<p>The Fairy Falls Ski Trail is a 10 mile (16 km) (with ski drop) skier-tracked, round-trip, easiest to more dificult ski that provides icy views of one of Yellowstone's most popular waterfalls. Ski 1.3 miles (2.1 km) on the Fountain Flats Drive, then turn left on the Fairy Falls Trail. Most of the Fairy Falls Trail is level, but there are hills and bends in the trail near the falls. Return via the same route, then take the Powerline Trail or the snow vehicle road to Old Faithful. To reach the more difficult Powerline Trail, ski about 0.25 miles (0.4 km) south (right) along the snow vehicle road to the Mallard Creek trailhead on the left. Follow the Mallard Creek Trail and turn right at the first junction onto the Powerline Trail, which has rolling hills. The Powerline Trail leads to the Upper Geyser Basin Trail and Morning Glory Pool. Where the trail crosses thermal areas, you may need to remove your skis due to lack of snow.</p> <p><b>Notes:</b> Bison and elk frequent this trail. Federal regulations require you to stay at least 100 yards (91 m) away from bears and wolves, and at least 25 yards (23 m) away from bison and all other wild animals. Stay on boardwalks and designated ski trails. The ground is unstable in hydrothermal areas.<br /> <br /> Check out the <a href=\"https://www.nps.gov/thingstodo/yell-fairy-falls-ski-trail.htm#Details\">ski trail details and accessibility information</a> at the bottom of this page.</p> \u00a0 <p>\u00a0</p>",
+    "location": {
+      "lat": 0.0,
+      "lon": 0.0
+    },
+    "duration": "6-8 Hours",
+    "season": [
+      "Winter"
+    ],
+    "activities": [
+      {
+        "id": "BFF8C027-7C8F-480B-A5F8-CD8CE490BFBA",
+        "name": "Hiking"
+      }
+    ],
+    "arePetsPermitted": false,
+    "images": [
+      {
+        "url": "https://www.nps.gov/common/uploads/cropped_image/CBA30A25-D9E1-E61B-5BC7F1697EB824ED.jpg",
+        "title": "Fairy Falls Ski Trail",
+        "altText": "A skier looks up at the ice formations surrounding a frozen waterfall.",
+        "caption": "",
+        "credit": "NPS / Addy Falgoust"
+      }
+    ],
+    "isReservationRequired": true,
+    "doFeesApply": false,
+    "tags": [
+      "Yellowstone National Park",
+      "Yellowstone National Park ski trail",
+      "ski trail",
+      "snowshoe trail",
+      "snowshoeing",
+      "cross country skiing",
+      "Old Faithful Area",
+      "easy ski",
+      "more difficult ski",
+      "forested trail",
+      "hydrothermal features",
+      "recreation",
+      "winter recreation",
+      "waterfall trail",
+      "waterfall"
+    ]
+  },
+  {
+    "id": "F5AAD749-A229-4A7B-98B8-3E52A8137133",
+    "title": "Chittenden Loop Ski Trail",
+    "shortDescription": "The Chittenden Loop Ski Trail is an easiest to more difficult 5.3 mile (8.3 km) loop providing views of Mount Washburn on clear days.",
+    "longDescription": "<p>The Chittenden Loop Ski Trail is an easiest to more difficult 5.3 mile (8.3 km) loop providing views of Mount Washburn on clear days. The Trail begins at Tower Fall which is 2.5 miles (4 km) from Tower Junction. The trail is easiest if you climb the more difficult section at the beginning of the loop by heading to the right through Tower Fall Campground. More experienced skiers may wish to ski the loop in the opposite direction; however, the \u201cmore difficult\u201d portion of the loop can be quite fast if snow is packed. The trail continues through dense lodgepole pine returning to the unplowed Tower-Canyon road. From here the route goes approximately 3 miles (4.8 km) back to Tower Fall. Good views of Mt. Washburn are possible.</p> <p><b>Notes:</b> Bison and elk frequent this trail. Federal regulations require you to stay at least 100 yards (91 m) away from bears and wolves, and at least 25 yards (23 m) away from bison and all other wild animals. CAUTION: recommended for advanced skiers only due to steep terrain.<br /> <br /> Check out the\u00a0<a href=\"https://www.nps.gov/thingstodo/yell-chittenden-loop-ski-trail.htm#Details\">ski trail details and accessibility information</a>\u00a0at the bottom of this page.</p>",
+    "location": {
+      "lat": 0.0,
+      "lon": 0.0
+    },
+    "duration": "4-5 Hours",
+    "season": [
+      "Winter"
+    ],
+    "activities": [
+      {
+        "id": "F9B1D433-6B86-4804-AED7-B50A519A3B7C",
+        "name": "Skiing"
+      }
+    ],
+    "arePetsPermitted": false,
+    "images": [
+      {
+        "url": "https://www.nps.gov/common/uploads/cropped_image/CB356118-BFAD-0143-49243A155A9FD902.jpg",
+        "title": "Chittenden Loop Ski Trail",
+        "altText": "A skier travels along a trail on the edge of a canyon.",
+        "caption": "",
+        "credit": "NPS / Jacob W. Frank"
+      }
+    ],
+    "isReservationRequired": false,
+    "doFeesApply": false,
+    "tags": [
+      "Yellowstone National Park",
+      "Yellowstone National Park ski trail",
+      "ski trail",
+      "snowshoe trail",
+      "snowshoeing",
+      "cross country skiing",
+      "Tower Area",
+      "easiest ski",
+      "more difficult ski",
+      "forested trail",
+      "mountains",
+      "recreation",
+      "winter recreation"
+    ]
+  },
+  {
+    "id": "DDF2A8E4-E7B7-4906-8F91-957174C5366B",
+    "title": "Canyon Rim Ski Trail",
+    "shortDescription": "The Canyon Rim Ski Trail is a 4.5 mile (7.24 km), easiest to more difficult forested trail that takes skiers along the Canyon Rim providing views into the Grand Canyon of the Yellowstone.",
+    "longDescription": "<p>The Canyon Rim Ski Trail is a 4.5 mile (7.24 km), easiest to more difficult forested trail that takes skiers along the Canyon Rim providing views into the Grand Canyon of the Yellowstone. Begin at the Canyon Visitor Education Center and follow the North Rim Drive east for one mile (1.6 km). The trail turns sharply left and continues down a moderately steep hill to Inspiration Point. From there, follow the loop and return back up the hill. Further up the road, towards the North Rim Drive, the trail turns sharply left and onto a road. Continue along the edge of the canyon rim for one mile (1.6 km) providing excellent views of the Grand Canyon of the Yellowstone. At Grand View Point, the trail crosses the road and follows a marked trail through the pine forest and up into the summer cabin area. Ski past the lodging area and into the summer developed visitor use area, past the Canyon Lodge\u00a0and back to the Canyon Visitor Education Center.</p> <p><b>Notes:</b> Caution should be taken while skiing along the Canyon Rim. Skiers are advised to remove their skis and walk out to the viewpoints.</p> <p><b>Trailhead:</b> Begin at the Canyon Visitor Education Center and follow the North Rim Drive east for one mile (1.6 km).</p>",
+    "location": {
+      "lat": 0.0,
+      "lon": 0.0
+    },
+    "duration": "2-3 Hours",
+    "season": [
+      "Winter"
+    ],
+    "activities": [
+      {
+        "id": "F9B1D433-6B86-4804-AED7-B50A519A3B7C",
+        "name": "Skiing"
+      }
+    ],
+    "arePetsPermitted": false,
+    "images": [
+      {
+        "url": "https://www.nps.gov/common/uploads/cropped_image/CAFD9A79-A768-4E75-249F624341DA74E1.jpg",
+        "title": "Canyon Rim Ski Trail",
+        "altText": "A group of skiers travel on a trail along the edge of a snow-covered canyon.",
+        "caption": "",
+        "credit": "NPS / Jacob W. Frank"
+      }
+    ],
+    "isReservationRequired": false,
+    "doFeesApply": false,
+    "tags": [
+      "Yellowstone National Park",
+      "Yellowstone National Park ski trail",
+      "ski trail",
+      "snowshoe trail",
+      "snowshoeing",
+      "backcountry skiing",
+      "cross country skiing",
+      "Canyon Village",
+      "easiest ski",
+      "more difficult ski",
+      "forested trail",
+      "Grand Canyon of the Yellowstone",
+      "canyon views",
+      "recreation",
+      "winter recreation"
+    ]
+  },
+  {
+    "id": "B9F5AD22-AD72-4613-808E-D312906E6AEE",
+    "title": "Blacktail Plateau Ski Trail",
+    "shortDescription": "The Blacktail Plateau Ski Trail is an easiest to more difficult 8 mile (12.8 km) one-way ski with two trailhead options. This trail travels open meadows and forests with great wildlife viewing opportunities in winter.",
+    "longDescription": "<p>The Blacktail Plateau Ski Trail is an easiest to more difficult 8-mile (12.8-km) one-way ski with two trailhead options. This occassionally groomed trail travels open meadows and forests with great wildlife viewing opportunities in winter. This trail may be skied from either end.</p> <p>Begin 8 miles (13 km) east of Mammoth Hot Springs at a parking area across the road from a self-guiding trail, or at a service road approximately 1 mile (1.6 km) farther east (see map). The trail gradually climbs 900 feet (274 m) in 6 miles (9.7 km) through open meadows to \u201cThe Cut\u201d. From here the trail descends 2 miles (3.2 km) down a moderate grade through a spruce-fir forest to rejoin the Mammoth-Tower Road 1.4 miles (2.25 km) from Tower Junction. Broad vistas, elk, deer, coyotes, and occasionally bison may be seen.</p> <p><b>Notes:\u00a0</b>Bison and elk frequent this trail. Federal regulations require you to stay at least 100 yards (91 m) away from bears and wolves, and at least 25 yards (23 m) away from bison and all other wild animals.<br /> <br /> Check out the\u00a0<a href=\"https://www.nps.gov/thingstodo/yell-upper-terrace-loop-ski-trail.htm#Details\">ski trail details and accessibility information</a>\u00a0at the bottom of this page.</p>",
+    "location": {
+      "lat": 0.0,
+      "lon": 0.0
+    },
+    "duration": "2-3 Hours",
+    "season": [
+      "Winter"
+    ],
+    "activities": [
+      {
+        "id": "F9B1D433-6B86-4804-AED7-B50A519A3B7C",
+        "name": "Skiing"
+      }
+    ],
+    "arePetsPermitted": false,
+    "images": [
+      {
+        "url": "https://www.nps.gov/common/uploads/cropped_image/C9FDF70A-97C8-D5F4-65372630D69801A5.jpg",
+        "title": "Blacktail Plateau Ski Trail",
+        "altText": "A skier travels along a trail with a mountain peak in the distance.",
+        "caption": "",
+        "credit": "NPS / Jacob W. Frank"
+      }
+    ],
+    "isReservationRequired": false,
+    "doFeesApply": false,
+    "tags": [
+      "Yellowstone National Park",
+      "Yellowstone National Park ski trail",
+      "ski trail",
+      "snowshoe trail",
+      "snowshoeing",
+      "cross country skiing",
+      "Tower Area",
+      "easy ski",
+      "forested trail",
+      "mountains",
+      "recreation",
+      "winter recreation"
+    ]
+  },
+  {
+    "id": "0424685A-F8CA-4BF9-A73B-1EBEDEC26F26",
+    "title": "Barronette Ski Trail",
+    "shortDescription": "The Barronette Trail is an easy 3.5 mile (5.6 km) one-way section of the Old Cooke City road and winds through conifer forest.",
+    "longDescription": "<p>The Barronette Trail is an easy 3.5 mile (5.6 km) one-way section of the Old Cooke City road that winds through conifer forest. The trailheads are located at the upper and lower Soda Butte bridges on the Northeast Entrance Road, 3 and 6.5 miles (4.8 and 10.5 km) respectively from the Northeast Entrance. The trail lies mostly in conifer forests beneath Barronette Peak. Although misspelled, the peak is named for Jack Barronett, an early Yellowstone guide and army scout. Barronett also constructed and operated a toll bridge over the Yellowstone River near Tower Junction during the Cooke City mining period. The trail offers some spectacular mountain scenery and consistent snow conditions. Check for current conditions especially avalanche conditions and, in late winter, grizzly bears.</p> <p><b>Notes:</b> Bison and elk frequent this trail. Federal regulations require you to stay at least 100 yards (91 m) away from bears and wolves, and at least 25 yards (23 m) away from bison and all other wild animals.</p> <p>Check out the <a href=\"https://www.nps.gov/thingstodo/yell-barronette-ski-trail.htm#Details\">ski trail details and accessibility information</a> at the bottom of this page.</p>",
+    "location": {
+      "lat": 0.0,
+      "lon": 0.0
+    },
+    "duration": "1-2 Hours",
+    "season": [
+      "Winter"
+    ],
+    "activities": [
+      {
+        "id": "F9B1D433-6B86-4804-AED7-B50A519A3B7C",
+        "name": "Skiing"
+      }
+    ],
+    "arePetsPermitted": false,
+    "images": [
+      {
+        "url": "https://www.nps.gov/common/uploads/cropped_image/C980770E-9F5D-779B-47363E8186C890FE.jpg",
+        "title": "Barronette Ski Trail",
+        "altText": "Skiers travel along a trail through a forest with mountain peaks rising above the trees.",
+        "caption": "",
+        "credit": "NPS / Addy Falgoust"
+      }
+    ],
+    "isReservationRequired": false,
+    "doFeesApply": false,
+    "tags": [
+      "Yellowstone National Park",
+      "Yellowstone National Park ski trail",
+      "ski trail",
+      "snowshoe trail",
+      "snowshoeing",
+      "cross country skiing",
+      "Northeast Area",
+      "easy ski",
+      "forested trail",
+      "mountains",
+      "recreation",
+      "winter recreation"
+    ]
+  },
+  {
+    "id": "2057702C-7545-4CD7-B0F3-3BF668D2826A",
+    "title": "Riverside Bike Trail",
+    "shortDescription": "Just inside the park's West Entrance, bicyclists can travel on the Riverside trail located just north of and paralleling the main Grand Loop Road. This trail gives access to a section of the Madison River. This is a fairly level trail and mountain bikes are recommended.",
+    "longDescription": "<p>Just inside the park\u2019s West entrance, bicycles can travel a short distance (1.4 mi, 2.2 km)\u00a0on the Riverside Trail to Barns road. This trail gives access to a section of the Madison River. This is a fairly level trail and mountain bikes are recommended on the dirt and gravel road.</p> <p>Alerts: Be alert for black and grizzly bears</p>",
+    "location": {
+      "lat": 0.0,
+      "lon": 0.0
+    },
+    "duration": "1-2 Hours",
+    "season": [
+      "Summer",
+      "Fall"
+    ],
+    "activities": [
+      {
+        "id": "299CB934-88DC-474F-A33D-E43E29A149C2",
+        "name": "Mountain Biking"
+      }
+    ],
+    "arePetsPermitted": false,
+    "images": [
+      {
+        "url": "https://www.nps.gov/common/uploads/cropped_image/E0F10DF6-F62B-0546-3A490CD9DCC01051.jpg",
+        "title": "Riverside Bike Trail",
+        "altText": "Purple, pink, and orange are cast across the sky and reflect in the slowly moving water of a river.",
+        "caption": "",
+        "credit": ""
+      }
+    ],
+    "isReservationRequired": false,
+    "doFeesApply": false,
+    "tags": [
+      "Bike Trail",
+      "Yellowstone National Park bike trail",
+      "Yellowstone National Park",
+      "biking",
+      "West Yellowstone",
+      "West Entrance",
+      "Madison River",
+      "Riverside"
+    ]
+  },
+  {
+    "id": "FDE02790-20A8-4A1F-8735-7DE6A6265FD3",
+    "title": "Old Lake Road Bike Trail",
+    "shortDescription": "The old roadbed near the lakeshore between Lake Hotel and where the roadbed joins the main road south of Lake Junction (1 mile) has a great views of the Yellowstone Lake.",
+    "longDescription": "<p>The old roadbed near the lakeshore between Lake Hotel and where the roadbed joins the main road south of Lake Junction (1 mile, 3.2 km one way) has a great views of the Yellowstone Lake. Typically closed in June due to bear activity, check with the <a href=\"https://www.nps.gov/yell/planyourvisit/visitorcenters.htm\">Fishing Bridge Visitor Center</a> for opening date. Leashed pets are allowed on this out and back trail.</p> <p><strong>Alerts:</strong> Be alert for bears: both black and grizzly bears forage in this area. Ride with bear spray, have it accessible, and know how to use it. Federal regulations require you to stay at least 100 yards (91 m) away from bears and wolves, and at least 25 yards (23 m) away from bison and all other wild animals.</p>",
+    "location": {
+      "lat": 0.0,
+      "lon": 0.0
+    },
+    "duration": "1-2 Hours",
+    "season": [
+      "Summer",
+      "Fall"
+    ],
+    "activities": [
+      {
+        "id": "299CB934-88DC-474F-A33D-E43E29A149C2",
+        "name": "Mountain Biking"
+      }
+    ],
+    "arePetsPermitted": true,
+    "images": [
+      {
+        "url": "https://www.nps.gov/common/uploads/cropped_image/391FEDD6-1DD8-B71B-0BF848C9FEB3757D.jpg",
+        "title": "Old Lake Road Bike Trail",
+        "altText": "People enjoy the sunset from the shore of Yellowstone Lake.",
+        "caption": "",
+        "credit": ""
+      }
+    ],
+    "isReservationRequired": false,
+    "doFeesApply": false,
+    "tags": [
+      "Yellowstone National Park",
+      "Bike Trail",
+      "Old Lake Road"
+    ]
+  },
+  {
+    "id": "A5340CCE-D6A5-460D-BE16-49C18A53D2EF",
+    "title": "Old Faithful Lower General Store to Morning Glory Pool Bike Trail",
+    "shortDescription": "The paved trail in front of Old Faithful Lodge runs all the way to Morning Glory Pool. Take this short, (2 mi. round-trip) fairly level, paved-path and make stops to see geysers.",
+    "longDescription": "<p>The paved trail in front of the Old Faithful Inn runs all the way to Morning Glory Pool. Take this short, (2 mi. round-trip) fairly level paved path and make stops to see geysers. Bicycles are not allowed on the boardwalks, but there are several racks where you can park your bike while you explore. Bikes are also not allowed on the unpaved trail continuing beyond Morning Glory Pool to Biscuit Basin. This route becomes busy with people walking so the best bicycling is early in the morning and in the evening. This is a fairly\u00a0flat trail with less than 100 feet (30 m) of elevation gain.</p> <p><strong>Alerts:</strong> Be alert for bears and bison. Federal regulations require you to stay at least 100 yards (91 m) away from bears and wolves, and at least 25 yards (23 m) away from bison and all other wild animals. Be alert and yield to pedestrians.</p>",
+    "location": {
+      "lat": 44.662296295166,
+      "lon": -111.099815368652
+    },
+    "duration": "1-2 Hours",
+    "season": [
+      "Summer",
+      "Fall"
+    ],
+    "activities": [
+      {
+        "id": "299CB934-88DC-474F-A33D-E43E29A149C2",
+        "name": "Mountain Biking"
+      }
+    ],
+    "arePetsPermitted": false,
+    "images": [
+      {
+        "url": "https://www.nps.gov/common/uploads/cropped_image/D3B60F30-D755-2D9E-2B01684080DD4FCC.jpg",
+        "title": "Old Faithful Bike Trail",
+        "altText": "Two people bike on a paved trail past a geyser in a thermal basin.",
+        "caption": "",
+        "credit": "NPS / Jacob W. Frank"
+      }
+    ],
+    "isReservationRequired": false,
+    "doFeesApply": false,
+    "tags": [
+      "Yellowstone National Park",
+      "biking trail",
+      "Old Faithful Area",
+      "Morning Glory Pool",
+      "Bike Trail"
+    ]
+  },
+  {
+    "id": "29B8A84A-1562-4FE6-99CC-F22976DA68DE",
+    "title": "Natural Bridge Bike Trail",
+    "shortDescription": "The Natural Bridge bike trail is 2.5 mi (4km) round-trip ride and begins just south of the Bridge Bay marina off the Grand Loop Road.",
+    "longDescription": "<p>The Natural Bridge bike trail is 2.5 mi (4km) round-trip ride and begins just south of the Bridge Bay marina off the Grand Loop Road. Most of the trail follows an old paved road (mostly disintegrated but fairly level with an elevation gain of 317 feet). The trail meanders through the forest then joins a service road and continues west. There is no biking beyond the service road portion of the trail. ONLY HIKING is allowed from this point to the Natural Bridge. The short but steep switchback loop trail to the top of the bridge starts in front of the interpretive exhibit. The natural bridge is a 51 foot (18 m) cliff of rhyolite rock cut through by Bridge Creek. To protect this fragile resource, the top of the bridge is closed to off-trail hiking. Exercise caution along the creek bed for wet and slippery rocks. Mountain bikes are recommended.</p> <p><strong>Alerts:</strong> Be alert for bears: both black and grizzly bears forage in this area. The trail is generally closed until early summer while bears feed on spawning trout in Bridge Creek. Federal regulations require you to stay at least 100 yards (91 m) away from bears and wolves, and at least 25 yards (23 m) away from bison and all other wild animals. Wear bear spray while riding. Inquire at the <a href=\"https://www.nps.gov/yell/planyourvisit/lakevc.htm\">Fishing Bridge Visitor Center</a> for opening dates and other closures.</p>",
+    "location": {
+      "lat": 44.662296295166,
+      "lon": -111.099815368652
+    },
+    "duration": "2-3 Hours",
+    "season": [
+      "Summer",
+      "Fall"
+    ],
+    "activities": [
+      {
+        "id": "299CB934-88DC-474F-A33D-E43E29A149C2",
+        "name": "Mountain Biking"
+      }
+    ],
+    "arePetsPermitted": false,
+    "images": [
+      {
+        "url": "https://www.nps.gov/common/uploads/cropped_image/0688573E-BFBF-0992-B2EBF3F3880FC176.jpg",
+        "title": "Natural Bridge Trail",
+        "altText": "A natural bridge formation made of rock in a forest.",
+        "caption": "",
+        "credit": "NPS / Addy Falgoust"
+      }
+    ],
+    "isReservationRequired": false,
+    "doFeesApply": false,
+    "tags": [
+      "Yellowstone National Park",
+      "Bike Trail",
+      "Yellowstone Lake",
+      "Bridge Bay",
+      "Natural Bridge Trail"
+    ]
+  },
+  {
+    "id": "CD5AE732-642E-4A28-8F15-93EB14D5C84D",
+    "title": "Lone Star Geyser Bike Trail",
+    "shortDescription": "The trailhead for Lone Star Geyser is east of Kepler Cascades pull-out, 3.5 miles (5.6 km) southeast of Old Faithful overpass on Grand Loop Road.",
+    "longDescription": "<p>Head southeast from Old Faithful toward Craig Pass. The trailhead is east of Kepler Cascades pull-out, 3.5 miles (5.6 km) southeast of the Old Faithful overpass on the Grand Loop Road. This level trail and bicycle path follows the Firehole River to the geyser. The ride is about 4.8 miles\u00a0(7.7km ) round trip. The dirt trail is best accessed by mountain bikes. Biking is not permitted beyond a barrier near the geyser.</p> <p>Lone Star erupts 30\u201345 feet (9\u201314 m) about every three hours. If you witness an eruption, please note the time and report it at the Old Faithful Visitor Education Center.</p> <p><strong>Alerts:</strong> Be alert for bears and bison. Federal regulations require you to stay at least 100 yards (91 m) away from bears and wolves, and at least 25 yards (23 m) away from bison and all other wild animals. Be alert and yield to hikers.</p>",
+    "location": {
+      "lat": 44.662296295166,
+      "lon": -111.099815368652
+    },
+    "duration": "2-4 Hours",
+    "season": [
+      "Summer",
+      "Fall"
+    ],
+    "activities": [
+      {
+        "id": "299CB934-88DC-474F-A33D-E43E29A149C2",
+        "name": "Mountain Biking"
+      }
+    ],
+    "arePetsPermitted": false,
+    "images": [
+      {
+        "url": "https://www.nps.gov/common/uploads/cropped_image/D361ADA6-B5F6-5FA6-92EF79ACF18D9FAB.jpg",
+        "title": "Lone Star Geyser Bike Trail",
+        "altText": "Steam and water erupt from the tan cone of Lone Star Geyser. A rainbow appears in the mist.",
+        "caption": "",
+        "credit": "NPS / Neal Herbert"
+      }
+    ],
+    "isReservationRequired": false,
+    "doFeesApply": false,
+    "tags": [
+      "Yellowstone National Park",
+      "Bike Trail",
+      "Lone Star Geyser Trail",
+      "Old Faithful Area"
+    ]
+  },
+  {
+    "id": "539A7D60-D597-44DC-8051-EC738EC0573F",
+    "title": "Abandoned Railroad Bed Bike Trail",
+    "shortDescription": "An abandoned railroad bed located near the north entrance of Yellowstone makes a beautiful bike trail.",
+    "longDescription": "<p>An abandoned railroad bed located near the north entrance of Yellowstone makes a beautiful bike trail.This mostly level dirt trail [8 mi (13\u00a0km)] round trip) starts northwest of the Heritage and Research Center in Gardiner, Montana. It follows the abandoned railway bed north paralleling the Yellowstone River between Gardiner and the park\u2019s northern boundary at Reese Creek. Electric Peak will dominate the view to your northwest. Turn around and head back the same way. Keep your eyes open for pronghorn, elk, and bison. Mountain bikes are best for this trail. The area is a high desert and can be hot so make sure to bring along water.</p> <p>Park at the pullout on the old Yellowstone Road near the Heritage and Research Center. Parking is limited. The trail down to the abandoned railroad bed is not well-marked and you will need to walk your bike until you reach the old railroad bed.</p> <p><strong>Alerts:</strong> Be alert for bears: both black and grizzly bears forage in this area depending on the time of year. Ride with bear spray, have it accessible, and know how to use it. Bison, elk, and pronghorn frequent this trail. Federal regulations require you to stay at least 100 yards (91 m) away from bears and wolves, and at least 25 yards (23 m) away from bison and all other wild animals. In addition, keep eyes open for cactus situated in and next to the roadbed. We recommend bringing tire sealant.</p>",
+    "location": {
+      "lat": 44.662296295166,
+      "lon": -111.099815368652
+    },
+    "duration": "2-4 Hours",
+    "season": [
+      "Summer",
+      "Fall"
+    ],
+    "activities": [
+      {
+        "id": "299CB934-88DC-474F-A33D-E43E29A149C2",
+        "name": "Mountain Biking"
+      }
+    ],
+    "arePetsPermitted": true,
+    "images": [
+      {
+        "url": "https://www.nps.gov/common/uploads/cropped_image/D2EB22D1-A3DC-909F-1673ECE800DE0A66.jpg",
+        "title": "Abandoned Railroad Bed Bike Trail",
+        "altText": "Two people bike through a field of sagebrush in front of a mountain.",
+        "caption": "",
+        "credit": "NPS / Jacob W. Frank"
+      }
+    ],
+    "isReservationRequired": false,
+    "doFeesApply": false,
+    "tags": [
+      "Yellowstone National Park",
+      "Yellowstone National Park bike trail",
+      "gardiner",
+      "yellowstone river",
+      "biking",
+      "Mammoth Hot Springs",
+      "Mammoth Hot Springs Area",
+      "Bike Trail"
+    ]
+  },
+  {
+    "id": "6196F847-1E82-44DE-9C67-0C80B0A54B57",
+    "title": "Bunsen Peak Loop Bike Trail",
+    "shortDescription": "The Bunsen Peak Loop is a ten mi (16 km) bike trail that circles Bunsen Peak.",
+    "longDescription": "<p>The Bunsen Peak Loop is a strenuous, ten-mile\u00a0(16-km) bike trail that circles Bunsen Peak. It begins at the Bunsen Peak trailhead with a mostly flat ride the first few miles and then on the northeast side of Bunsen Peak, the road becomes steep and winding, dropping 960 feet in 2.5 miles (292 m\u00a0in 4 km) to Glen Creek. It meets the Golden Gate Service Road near the National Park Service garage buildings and heads toward Joffe Lake (1.5 miles 2.41km) and follows the Glen Creek drainage steeply back uphill on a service road until it meets back up with the Grand Loop Road. Most of the trail is a dirt road and mountain bikes are highly recommended.</p> <p>ALTERNATIVE: Instead of biking this as a loop, the ride from the Bunsen Peak Trailhead to the Osprey Falls Trailhead and back is a relatively gentle ride of 6.5 miles (10.5 km) there and back.</p> <p>There are no bikes allowed on the trail to Osprey Falls.</p> <p>Go early as the parking is limited at the Bunsen Peak Trailhead.</p> <p>CAUTION: Some curves have steep drop-offs. Elevation gain/loss for the trail one way is 1,120 feet (335 m).</p> <p><strong>Alerts:</strong>\u00a0Be alert for bears: both black and grizzly bears forage in this area. Ride with bear spray, have it accessible, and know how to use it. Bison and elk frequent this trail. Federal regulations require you to stay at least 100 yards (91 m) away from bears and wolves, and at least 25 yards (23 m) away from bison and all other wild animals.</p>",
+    "location": {
+      "lat": 0.0,
+      "lon": 0.0
+    },
+    "duration": "4-6 Hours",
+    "season": [
+      "Summer",
+      "Fall"
+    ],
+    "activities": [
+      {
+        "id": "299CB934-88DC-474F-A33D-E43E29A149C2",
+        "name": "Mountain Biking"
+      }
+    ],
+    "arePetsPermitted": false,
+    "images": [
+      {
+        "url": "https://www.nps.gov/common/uploads/cropped_image/D312B98E-06FA-C1A4-463AEDC178E7D1E7.jpg",
+        "title": "Bunsen Peak Loop Bike Trail",
+        "altText": "A person bikes on a trail through a field of sagebrush with mountains in the distance.",
+        "caption": "",
+        "credit": "NPS / Jacob W. Frank"
+      }
+    ],
+    "isReservationRequired": false,
+    "doFeesApply": false,
+    "tags": [
+      "Yellowstone National Park",
+      "Yellowstone National Park bike trail",
+      "Mammoth Hot Springs Area",
+      "biking",
+      "Bunsen Peak",
+      "Bike Trail"
+    ]
+  },
+  {
+    "id": "6C0B2AD1-E3A7-4A6C-A537-D224522A2728",
+    "title": "Norris Geyser Basin Trails",
+    "shortDescription": "Norris Geyser Basin is one of the hottest and most acidic of Yellowstone\u2019s hydrothermal areas. It is part of one of the world\u2019s largest active volcanoes. Many hot springs and fumaroles here have temperatures above the boiling point (200\u00baF / 93\u00baC).",
+    "longDescription": "<p>Norris is one of the hottest and most acidic of Yellowstone\u2019s hydrothermal areas. It is part of one of the world\u2019s largest active volcanoes. Many hot springs and fumaroles here have temperatures above the boiling point (200\u00baF / 93\u00baC).</p> <p>Water fluctuation and seismic activity often change features. Norris is near the intersection of three major faults. One runs from the north; another runs from the west. These two faults intersect with a ring fracture from the Yellowstone Caldera eruption 640,000 years ago. These conditions helped to create this dynamic geyser basin.</p> <p><b>Notes:</b> Thermal activity throughout this entire area. Stay on the boardwalks and designated trails at all times.</p> <p>Check out the <a href=\"https://www.nps.gov/thingstodo/yell-norris-geyser-basin-trails.htm#Details\">hike details and accessibility information</a> at the bottom of this page.</p>",
+    "location": {
+      "lat": 0.0,
+      "lon": 0.0
+    },
+    "duration": "30-90 Minutes",
+    "season": [
+      "Spring",
+      "Summer",
+      "Fall"
+    ],
+    "activities": [
+      {
+        "id": "45261C0A-00D8-4C27-A1F8-029F933A0D34",
+        "name": "Front-Country Hiking"
+      }
+    ],
+    "arePetsPermitted": false,
+    "images": [
+      {
+        "url": "https://www.nps.gov/common/uploads/cropped_image/D2ADF0E3-AC0C-A91E-023BA20E5816E8B8.jpg",
+        "title": "Norris Geyser Basin Trails",
+        "altText": "People walk down a trail towards a steaming geyser basin.",
+        "caption": "",
+        "credit": "NPS / Matt Poyner"
+      }
+    ],
+    "isReservationRequired": false,
+    "doFeesApply": false,
+    "tags": [
+      "Yellowstone National Park",
+      "trail",
+      "boardwalk",
+      "hydrothermal features",
+      "Norris Geyser Basin",
+      "Porcelain Basin",
+      "Back Basin",
+      "Easy hike",
+      "day hike",
+      "An hour or two"
+    ]
+  },
+  {
+    "id": "23F82531-5672-4F3A-9436-B591D1C55C8D",
+    "title": "Grand Canyon of the Yellowstone",
+    "shortDescription": "Look out across the Grand Canyon of the Yellowstone or take in the beauty of the Yellowstone River and its waterfalls.",
+    "longDescription": "<p>The Grand Canyon of the Yellowstone River expresses the park's complex geologic history in dramatic colors and shapes. Puffs of steam mark hydrothermal features in the canyon's walls. The Upper and Lower Falls of the Yellowstone River add to the grandeur of the unique natural treasure.</p> <p>Experience the canyon from a variety of overlooks, at different times of day, and at different seasons. A number of trails and walkways wind along the rims and down partway into the canyon.</p> <p>Check out the <a href=\"https://www.nps.gov/thingstodo/yell-grand-canyon-of-the-yellowstone.htm#Details\">hike details and accessibility information</a> at the bottom of this page.</p>",
+    "location": {
+      "lat": 0.0,
+      "lon": 0.0
+    },
+    "duration": "1-2 Hours",
+    "season": [
+      "Winter",
+      "Spring",
+      "Summer",
+      "Fall"
+    ],
+    "activities": [
+      {
+        "id": "45261C0A-00D8-4C27-A1F8-029F933A0D34",
+        "name": "Front-Country Hiking"
+      }
+    ],
+    "arePetsPermitted": false,
+    "images": [
+      {
+        "url": "https://www.nps.gov/common/uploads/cropped_image/D284C30B-C5BA-C78D-F8C1B621D3323E4F.jpg",
+        "title": "Grand Canyon of the Yellowstone",
+        "altText": "A waterfall cascades over a cliff in a canyon with pale colored walls.",
+        "caption": "",
+        "credit": "NPS / Jacob W. Frank"
+      }
+    ],
+    "isReservationRequired": false,
+    "doFeesApply": false,
+    "tags": [
+      "Yellowstone National Park",
+      "yellowstone river",
+      "Lower Falls",
+      "Upper Falls",
+      "Canyon Village",
+      "Grand Canyon of the Yellowstone",
+      "trail",
+      "Easy hike",
+      "strenuous hike",
+      "An hour or two",
+      "Canyons",
+      "waterfalls",
+      "scenic views"
+    ]
+  },
+  {
+    "id": "CD1A9700-2C8A-4C82-95C1-5C93C86E62C0",
+    "title": "Fountain Paint Pot Trail",
+    "shortDescription": "Explore the four major types of hydrothermal features along this short, popular, boardwalk trail.",
+    "longDescription": "<p>Along Fountain Paint Pot Trail you will see various hydrothermal features that are expressions of Yellowstone\u2019s still active volcano. Within this geologic system, each type of thermal feature is represented. They can be grouped into two general categories\u2014those with a great deal of water (hot springs and geysers) and those with limited water (mudpots and fumaroles). Despite their structural similarities, no two features are exactly alike.</p> <p><b>Notes:</b> Thermal activity throughout this entire area. Stay on the boardwalk at all times.</p> <p>Check out the <a href=\"https://www.nps.gov/thingstodo/yell-fountain-paint-pot-trail.htm#Details\">hike details and accessibility information</a> at the bottom of this page.</p>",
+    "location": {
+      "lat": 0.0,
+      "lon": 0.0
+    },
+    "duration": "30-45 Minutes",
+    "season": [
+      "Winter",
+      "Summer",
+      "Fall"
+    ],
+    "activities": [
+      {
+        "id": "45261C0A-00D8-4C27-A1F8-029F933A0D34",
+        "name": "Front-Country Hiking"
+      }
+    ],
+    "arePetsPermitted": false,
+    "images": [
+      {
+        "url": "https://www.nps.gov/common/uploads/cropped_image/D26780DC-A3CF-B9C9-130FB15F35B07F15.jpg",
+        "title": "Fountain Paint Pot Trail",
+        "altText": "Steam rises from bubbling mudpots in a thermal basin.",
+        "caption": "",
+        "credit": "NPS / Jacob W. Frank"
+      }
+    ],
+    "isReservationRequired": false,
+    "doFeesApply": false,
+    "tags": [
+      "Yellowstone National Park",
+      "trail",
+      "boardwalk",
+      "hydrothermal features",
+      "lower geyser basin",
+      "Fountain Paint Pot",
+      "Firehole Lake Drive",
+      "Easy hike",
+      "day hike",
+      "Less than an hour"
+    ]
+  },
+  {
+    "id": "05A5B061-9BBB-409B-8CA0-D70C340361E1",
+    "title": "Explore the Fort Yellowstone Historic District",
+    "shortDescription": "From 1886 to 1918, the US Army managed Yellowstone National Park. Starting in 1890, the US Army constructed Fort Yellowstone as a more permanent base of operations.",
+    "longDescription": "<p>This tour gives you a chance to explore a part of the beginning of the world's first national park. Most of the buildings constructed during the Army era are still standing and used by the National Park Service as park headquarters or employee housing.</p> <p>For those physically doing the tour, remember that employee residences are not open to the public. Please respect the privacy of residents by staying on the paved route and treating living areas with courtesy.</p>",
+    "location": {
+      "lat": 0.0,
+      "lon": 0.0
+    },
+    "duration": "45-60 Minutes",
+    "season": [
+      "Winter",
+      "Spring",
+      "Summer",
+      "Fall"
+    ],
+    "activities": [
+      {
+        "id": "45261C0A-00D8-4C27-A1F8-029F933A0D34",
+        "name": "Front-Country Hiking"
+      }
+    ],
+    "arePetsPermitted": true,
+    "images": [
+      {
+        "url": "https://www.nps.gov/common/uploads/cropped_image/D22A6276-BD94-E130-0871F8981A7E8048.jpg",
+        "title": "Explore Fort Yellowstone",
+        "altText": "A historic photo of a collection of buildings that make up Fort Yellowstone.",
+        "caption": "",
+        "credit": ""
+      }
+    ],
+    "isReservationRequired": false,
+    "doFeesApply": false,
+    "tags": [
+      "Yellowstone National Park",
+      "Fort Yellowstone Historic District",
+      "Mammoth Hot Springs",
+      "US Army",
+      "history"
+    ]
+  },
+  {
+    "id": "3D0A8298-91E5-4CC5-ADB8-9B24A1F213D4",
+    "title": "Yellowstone River Picnic Area Trail",
+    "shortDescription": "Follow the rim of the Yellowstone River valley, enjoying views of bighorn sheep, the Narrows of the Yellowstone, Overhanging Cliff, and the towers of Tower Falls.",
+    "longDescription": "<p>Trail climbs steeply to the east rim of the Narrows of the Yellowstone and then follows the rim. Look for peregrine falcons and osprey, which nest in the canyon, and bighorn sheep along the rim. View the Overhanging Cliff area, the towers of Tower Fall (the fall is not visible), basalt columns, and the historic Bannock Ford.</p> <p><b>Safety notes:</b> At the vista overlooking the Tower Falls area of the Yellowstone River, return the way you came or continue down the trail as it heads northeast; at the trail junction turn left and descend to the road. Walk west along the road for 0.7 mile (1.2 km) to the Yellowstone River Picnic Area.</p> <p><b>Trailheads:</b> Park at the Yellowstone River Picnic area, 1.25 miles (2 km) northeast of Tower Junction on the Northeast Entrance Road.</p>",
+    "location": {
+      "lat": 0.0,
+      "lon": 0.0
+    },
+    "duration": "2-3 Hours",
+    "season": [
+      "Summer",
+      "Fall"
+    ],
+    "activities": [
+      {
+        "id": "BFF8C027-7C8F-480B-A5F8-CD8CE490BFBA",
+        "name": "Hiking"
+      }
+    ],
+    "arePetsPermitted": false,
+    "images": [
+      {
+        "url": "https://www.nps.gov/common/uploads/cropped_image/373BF201-CDB2-D8F8-56513B794B5DEDE9.jpg",
+        "title": "Yellowstone River Picnic Area Trail",
+        "altText": "A hiker stands on the edge of a canyon and looks down at the river below.",
+        "caption": "",
+        "credit": "NPS / Jacob W. Frank"
+      }
+    ],
+    "isReservationRequired": false,
+    "doFeesApply": false,
+    "tags": [
+      "Yellowstone National Park",
+      "trail",
+      "day hike",
+      "moderate hike",
+      "Tower Junction",
+      "yellowstone river",
+      "Yellowstone River Picnic Area",
+      "Yellowstone River Picnic Area Trail",
+      "A few hours",
+      "hiking"
+    ]
+  },
+  {
+    "id": "F28CA179-0078-4377-8DDF-FD71FE131276",
+    "title": "Yellowstone Lake Overlook Trail",
+    "shortDescription": "Hike to a high mountain meadow for a commanding view of the West Thumb of Yellowstone Lake and the distant Absaroka Mountains.",
+    "longDescription": "<p>Hike to a high mountain meadow for a commanding view of the West Thumb of Yellowstone Lake and the distant Absaroka Mountains.</p> <p>The loop trail ascends steeply, passing backcountry thermal features, then gradually descends through meadows & forest.</p> <p><b>Safety notes:</b> Thermal activity along trail; stay on the designated trail and abide by detour signs at all times.</p> <p><b>Trailheads:</b> Southeast corner of West Thumb Geyser Basin Parking Area.</p>",
+    "location": {
+      "lat": 0.0,
+      "lon": 0.0
+    },
+    "duration": "1-3 Hours",
+    "season": [
+      "Summer",
+      "Fall"
+    ],
+    "activities": [
+      {
+        "id": "BFF8C027-7C8F-480B-A5F8-CD8CE490BFBA",
+        "name": "Hiking"
+      }
+    ],
+    "arePetsPermitted": false,
+    "images": [
+      {
+        "url": "https://www.nps.gov/common/uploads/cropped_image/36ED4C63-DD90-01B8-4D88937A37285370.jpg",
+        "title": "Yellowstone Lake Overlook Trail",
+        "altText": "A broad mountain rises above a forested slope.",
+        "caption": "",
+        "credit": "NPS / Addy Falgoust"
+      }
+    ],
+    "isReservationRequired": false,
+    "doFeesApply": false,
+    "tags": [
+      "Yellowstone National Park",
+      "trail",
+      "day hike",
+      "moderate hike",
+      "Yellowstone Lake",
+      "south",
+      "West Thumb Geyser Basin",
+      "Yellowstone Lake Overlook Trail",
+      "Grant Village",
+      "An hour or two",
+      "hiking"
+    ]
+  },
+  {
+    "id": "91A46BCC-F568-4DD5-B4F6-572AF9A786D0",
+    "title": "Wraith Falls Trail",
+    "shortDescription": "Cross sagebrush meadows, marshland, and mixed conifer forest to the base of Wraith Falls on Lupine Creek.",
+    "longDescription": "<p>This short, easy trail passes through sagebrush meadows, marshland, and mixed conifer forest to the base of 79-foot (24 m) Wraith Falls on Lupine Creek.</p> <p><b>Trailhead:</b> The trail begins at a pullout \u00bd-mile (0.8 km) east of Lava Creek Picnic Area on the Grand Loop Road.</p>",
+    "location": {
+      "lat": 0.0,
+      "lon": 0.0
+    },
+    "duration": "30-60 Minutes",
+    "season": [
+      "Winter",
+      "Spring",
+      "Summer",
+      "Fall"
+    ],
+    "activities": [
+      {
+        "id": "BFF8C027-7C8F-480B-A5F8-CD8CE490BFBA",
+        "name": "Hiking"
+      }
+    ],
+    "arePetsPermitted": false,
+    "images": [
+      {
+        "url": "https://www.nps.gov/common/uploads/cropped_image/3662A891-B5AE-749C-224A82A69750467D.jpg",
+        "title": "Wraith Falls Trail",
+        "altText": "Water cascades down a slope surrounded by rocky cliffs and sparse trees.",
+        "caption": "",
+        "credit": "NPS / Addy Falgoust"
+      }
+    ],
+    "isReservationRequired": false,
+    "doFeesApply": false,
+    "tags": [
+      "Yellowstone National Park",
+      "trail",
+      "day hike",
+      "Easy hike",
+      "Mammoth Hot Springs",
+      "Wraith Falls",
+      "Wraith Falls Trail",
+      "Lava Creek",
+      "Less than an hour"
+    ]
+  },
+  {
+    "id": "E8F70A99-0326-4BE5-94FA-5EF4FD8E3859",
+    "title": "West Thumb Geyser Basin Trail",
+    "shortDescription": "Stroll through a geyser basin of colorful hot springs and dormant lakeshore geysers situated on the scenic shores of Yellowstone Lake.",
+    "longDescription": "<p>Stroll through a geyser basin of colorful hot springs and dormant lakeshore geysers situated on the scenic shores of Yellowstone Lake.</p> <p><b>Safety notes:</b> Be sure to stay on the boardwalks at all times.</p> <p><b>Trailheads:</b> West Thumb Geyser Basin Parking Area.</p>",
+    "location": {
+      "lat": 0.0,
+      "lon": 0.0
+    },
+    "duration": "30-60 Minutes",
+    "season": [
+      "Summer",
+      "Fall"
+    ],
+    "activities": [
+      {
+        "id": "BFF8C027-7C8F-480B-A5F8-CD8CE490BFBA",
+        "name": "Hiking"
+      }
+    ],
+    "arePetsPermitted": false,
+    "images": [
+      {
+        "url": "https://www.nps.gov/common/uploads/cropped_image/365B1B2B-C46B-F4E4-92252699DFD29EA2.jpg",
+        "title": "West Thumb Geyser Basin Trail",
+        "altText": "A turquoise hot spring pool surrounded by a boardwalk sits above a large lake.",
+        "caption": "",
+        "credit": "NPS / Diane Renkin"
+      }
+    ],
+    "isReservationRequired": false,
+    "doFeesApply": false,
+    "tags": [
+      "Yellowstone National Park",
+      "trail",
+      "day hike",
+      "Easy hike",
+      "Yellowstone Lake",
+      "south",
+      "West Thumb Geyser Basin",
+      "West Thumb Geyser Basin Trail",
+      "Grant Village",
+      "Less than an hour",
+      "hiking"
+    ]
+  },
+  {
+    "id": "B2A3FD91-49DA-4606-B2B6-DFE810473DED",
+    "title": "Trout Lake Trail",
+    "shortDescription": "Enjoy a short hill climb through Douglas-fir forest to Trout Lake.",
+    "longDescription": "<p>The trail climbs about 150 feet (45.5 m) through Douglas-fir forest to the lake.</p> <p><b>Safety notes:</b> Be aware of bear activity. Return the same way.</p> <p><b>Trailheads:</b> The trail starts from a small pullout about 1.5 miles (2.4 km) south of Pebble Creek Campground on the Northeast Entrance Road.</p>",
+    "location": {
+      "lat": 0.0,
+      "lon": 0.0
+    },
+    "duration": "1-2 Hours",
+    "season": [
+      "Winter",
+      "Spring",
+      "Summer",
+      "Fall"
+    ],
+    "activities": [
+      {
+        "id": "BFF8C027-7C8F-480B-A5F8-CD8CE490BFBA",
+        "name": "Hiking"
+      }
+    ],
+    "arePetsPermitted": false,
+    "images": [
+      {
+        "url": "https://www.nps.gov/common/uploads/cropped_image/35F80A52-B708-CD34-97F75F7F2A9EC056.jpg",
+        "title": "Trout Lake Trail",
+        "altText": "Hikers walk across a bridge at the outlet of a small lake surrounded by rolling hills.",
+        "caption": "",
+        "credit": "NPS / Jacob W. Frank"
+      }
+    ],
+    "isReservationRequired": false,
+    "doFeesApply": false,
+    "tags": [
+      "Yellowstone National Park",
+      "trail",
+      "day hike",
+      "moderately easy hike",
+      "northeast",
+      "Trout Lake",
+      "Trout Lake Trail",
+      "An hour or two",
+      "hiking"
+    ]
+  },
+  {
+    "id": "2DF67849-BAAC-4C18-B78A-B7ED767C92A2",
+    "title": "Storm Point Trail",
+    "shortDescription": "Pass by Indian Pond and through a forest to the shores of Yellowstone Lake. Along the way, look for marmots in the rocky area near Storm Point.",
+    "longDescription": "<p>This trail begins in the open meadows overlooking Indian Pond and Yellowstone Lake. It passes alongside the pond before turning right (west) into the forest. The trail continues through the trees and out to scenic, wind-swept Storm Point. The rocky area near the point is home to a large colony of yellow-bellied marmots. Following the shoreline to the west, the trail eventually loops back through the lodgepole forest and returns to Indian Pond.</p> <p><b>Safety notes:</b> Often closed in late spring and early summer due to bear activity. Inquire at the Fishing Bridge Visitor Center about trail closures before hiking.</p> <p><b>Trailheads:</b> Indian Pond pullout, 3 miles (5 km) east of Fishing Bridge Visitor Center.</p>",
+    "location": {
+      "lat": 0.0,
+      "lon": 0.0
+    },
+    "duration": "1-2 Hours",
+    "season": [
+      "Summer",
+      "Fall"
+    ],
+    "activities": [
+      {
+        "id": "BFF8C027-7C8F-480B-A5F8-CD8CE490BFBA",
+        "name": "Hiking"
+      }
+    ],
+    "arePetsPermitted": false,
+    "images": [
+      {
+        "url": "https://www.nps.gov/common/uploads/cropped_image/35F8DB6C-FD7F-D9B5-9C2246568AB4BF35.jpg",
+        "title": "Storm Point Trail",
+        "altText": "A hiker walks across a rocky outcropping above a large lake.",
+        "caption": "",
+        "credit": "NPS / Addy Falgoust"
+      }
+    ],
+    "isReservationRequired": false,
+    "doFeesApply": false,
+    "tags": [
+      "Yellowstone National Park",
+      "Storm Point",
+      "Fishing Bridge",
+      "trail",
+      "day hike",
+      "Easy hike",
+      "An hour or two",
+      "Indian Pond",
+      "lakes",
+      "Yellowstone Lake",
+      "Storm Point Trail",
+      "hiking"
+    ]
+  },
+  {
+    "id": "524AD4D1-531C-4536-B066-D3FA985B34DB",
+    "title": "Slough Creek Trail",
+    "shortDescription": "Follow a historic wagon trail that heads toward the Absaroka-Beartooth Wilderness beyond Yellowstone.",
+    "longDescription": "<p>This trail follows a historic wagon trail into the Absaroka-Beartooth Wilderness beyond Yellowstone. It begins with a steep climb then descends to the first meadow. Stop and relax here or continue to the second meadow. Be alert for bears and moose. Slough Creek is a popular fishing area.</p> <p><b>Safety notes:</b> Optional route: Continue down the trail another 2.6 miles (4.2 km) to the second meadow, making the total hike 8.6 miles (13.6 km). If you encounter horses or horse-drawn wagons, move to the downhill side of the trail and remain still until they have passed.</p> <p><b>Trailheads:</b> On the dirt road toward Slough Creek Campground; where the road bears left, park beside the vault toilet.</p>",
+    "location": {
+      "lat": 0.0,
+      "lon": 0.0
+    },
+    "duration": "2-5 Hours",
+    "season": [
+      "Summer",
+      "Fall"
+    ],
+    "activities": [
+      {
+        "id": "BFF8C027-7C8F-480B-A5F8-CD8CE490BFBA",
+        "name": "Hiking"
+      }
+    ],
+    "arePetsPermitted": false,
+    "images": [
+      {
+        "url": "https://www.nps.gov/common/uploads/cropped_image/3550F78F-C15A-B72D-F709CEF73219CF19.jpg",
+        "title": "Slough Creek Trail",
+        "altText": "A creek meanders past a rocky outcropping.",
+        "caption": "",
+        "credit": "NPS / Addy Falgoust"
+      }
+    ],
+    "isReservationRequired": false,
+    "doFeesApply": false,
+    "tags": [
+      "Yellowstone National Park",
+      "trail",
+      "day hike",
+      "moderate hike",
+      "Slough Creek",
+      "Slough Creek Campground",
+      "Slough Creek Trail",
+      "A few hours",
+      "hiking"
+    ]
+  },
+  {
+    "id": "55914BFC-2881-4822-BF4B-D34662FDAD07",
+    "title": "Sepulcher Mountain Trail",
+    "shortDescription": "Climb to the summit of Sepulcher Mountain while keeping an eye out for mountain goats, bighorn sheep, and moose along the way.",
+    "longDescription": "<p>This hike climbs 3,400 feet through forest and meadows to the 9,652-foot (2,942-m) summit. Loop continues along the opposite side of the mountain through an open slope to the junction of Snow Pass. You may spot mountain goats, bighorn sheep, and moose along this trail.</p> <p><b>Safety notes:</b> Grizzly bears frequent this area. Requires a good map for navigation. Check the <a href=\"https://www.nps.gov/yell/planyourvisit/situationreport.htm\">Backcountry Situation Report</a> for further information.</p> <p><b>Trailheads:</b> North of Liberty Cap, near the stone house.</p>",
+    "location": {
+      "lat": 0.0,
+      "lon": 0.0
+    },
+    "duration": "6-8 Hours",
+    "season": [
+      "Summer",
+      "Fall"
+    ],
+    "activities": [
+      {
+        "id": "BFF8C027-7C8F-480B-A5F8-CD8CE490BFBA",
+        "name": "Hiking"
+      }
+    ],
+    "arePetsPermitted": false,
+    "images": [
+      {
+        "url": "https://www.nps.gov/common/uploads/cropped_image/34E36F20-9DCD-478C-08EBAC6CA0F098B3.jpg",
+        "title": "Sepulcher Mountain Trail",
+        "altText": "A hiker takes in the views approaching a rocky summit.",
+        "caption": "",
+        "credit": "NPS / Jacob W. Frank"
+      }
+    ],
+    "isReservationRequired": false,
+    "doFeesApply": false,
+    "tags": [
+      "Yellowstone National Park",
+      "trail",
+      "day hike",
+      "strenuous hike",
+      "Mammoth Hot Springs",
+      "Sepulcher Mountain Trail",
+      "Sepulcher Mountain",
+      "Many hours"
+    ]
+  },
+  {
+    "id": "E37F5687-2517-4FEA-8034-E2C31E61CA40",
+    "title": "Seven Mile Hole Trail",
+    "shortDescription": "Hike along the rim of the Grand Canyon of the Yellowstone, enjoy views of Silver Cord Cascade, and then descend to Seven Mile Hole.",
+    "longDescription": "<p>For the first 1-\u00bd miles, you will walk near the canyon rim and have views of Silver Cord Cascade across the canyon. In another \u00bd-mile, you will join the Washburn Spur Trail; after an additional \u00be-mile turn right onto the trail to Seven Mile Hole, which drops more than 1,000 feet in 2.3 miles.</p> <p><b>Safety notes:</b> Watch your footing and conserve your energy. Be especially careful where the trail passes both dormant and active hot springs. Stay on the trail. The only reliable water source on the trail is the Yellowstone river. Check the <a href=\"https://www.nps.gov/yell/planyourvisit/situationreport.htm\">Backcountry Situation Report</a> for further information.</p> <p><b>Trailheads:</b> Glacial Boulder pullout on the road to Inspiration Point.</p>",
+    "location": {
+      "lat": 0.0,
+      "lon": 0.0
+    },
+    "duration": "5-8 Hours",
+    "season": [
+      "Summer",
+      "Fall"
+    ],
+    "activities": [
+      {
+        "id": "BFF8C027-7C8F-480B-A5F8-CD8CE490BFBA",
+        "name": "Hiking"
+      }
+    ],
+    "arePetsPermitted": false,
+    "images": [
+      {
+        "url": "https://www.nps.gov/common/uploads/cropped_image/34E4F06C-E315-E704-B47C3DAFD1CFC295.jpg",
+        "title": "Seven Mile Hole Trail",
+        "altText": "A river flows through a canyon with pale, sloping walls.",
+        "caption": "",
+        "credit": "NPS / Addy Falgoust"
+      }
+    ],
+    "isReservationRequired": false,
+    "doFeesApply": false,
+    "tags": [
+      "Yellowstone National Park",
+      "trail",
+      "day hike",
+      "strenuous hike",
+      "Seven Mile Hole Trail",
+      "Canyon Area",
+      "Seven Mile Hole",
+      "yellowstone river",
+      "Silver Cord Cascade",
+      "Grand Canyon of the Yellowstone River",
+      "Many hours",
+      "hiking"
+    ]
+  },
+  {
+    "id": "5937B933-36E6-4B02-968B-B26598A223EA",
+    "title": "Sentinel Meadows & Queen\u2019s Laundry Trail",
+    "shortDescription": "Follow the Firehole River and cross meadows until reaching a hydrothermal area. Look for the large sinter mounds of hot springs and the remains of the old, incomplete bathhouse.",
+    "longDescription": "<p>The trail follows the Firehole River a short distance, then veers toward the meadows. Look for the large sinter mounds of hot springs and the remains of the old, incomplete bathhouse at Queen\u2019s Laundry. Begun in 1881, construction was abandoned as park administrations and priorities changed. Minerals from the hot springs preserved the structure, which was the first building constructed by the government for public use in any national park. Queen\u2019s Laundry is a National Historic Site.</p> <p><b>Safety notes:</b> Hiking off-trail in the hydrothermal areas is not permitted.</p> <p><b>Trailheads:</b> Park at the end of Fountain Flats Drive and cross the bridge over the Firehole River.</p>",
+    "location": {
+      "lat": 0.0,
+      "lon": 0.0
+    },
+    "duration": "2-4 Hours",
+    "season": [
+      "Winter",
+      "Summer",
+      "Fall"
+    ],
+    "activities": [
+      {
+        "id": "BFF8C027-7C8F-480B-A5F8-CD8CE490BFBA",
+        "name": "Hiking"
+      }
+    ],
+    "arePetsPermitted": false,
+    "images": [
+      {
+        "url": "https://www.nps.gov/common/uploads/cropped_image/32C86A58-A836-EB83-C77C2D34BDD156DF.jpg",
+        "title": "Sentinel Meadows & Queen\u2019s Laundry Trail",
+        "altText": "A thermal area sits in a meadow in front of rolling hills.",
+        "caption": "",
+        "credit": "NPS / Addy Falgoust"
+      }
+    ],
+    "isReservationRequired": false,
+    "doFeesApply": false,
+    "tags": [
+      "Yellowstone National Park",
+      "trail",
+      "day hike",
+      "moderately easy hike",
+      "Midway Geyser Basin",
+      "Sentinel Meadows",
+      "Queen's Laundry",
+      "Sentinel Meadows & Queen's Laundry Trail",
+      "A few hours",
+      "hiking"
+    ]
+  },
+  {
+    "id": "D6C9B6D2-1592-43B2-A3B5-23BC93AC617F",
+    "title": "Riddle Lake Trail",
+    "shortDescription": "Hike through small mountain meadows and forests to the shores of a picturesque little lake. Look for elk in the meadows and for birds near the lake.",
+    "longDescription": "<p>Crossing the Continental Divide, hike through small mountain meadows and forests to the shores of a picturesque little lake. Look for elk in the meadows and for birds near the lake.</p> <p><b>Safety notes:</b> Trail opens in mid-July (<a href=\"https://www.nps.gov/yell/learn/management/bearclosures.htm\">Bear Management Area closure</a>) or later if trumpeter swans are nesting on the lake. Check the <a href=\"https://www.nps.gov/yell/planyourvisit/situationreport.htm\">Backcountry Situation Report</a> for current information.</p> <p><b>Trailheads:</b> Approximately 3 miles (5 km) south of the Grant Village intersection, just south of the Continental Divide sign.</p>",
+    "location": {
+      "lat": 0.0,
+      "lon": 0.0
+    },
+    "duration": "2-4 Hours",
+    "season": [
+      "Summer",
+      "Fall"
+    ],
+    "activities": [
+      {
+        "id": "BFF8C027-7C8F-480B-A5F8-CD8CE490BFBA",
+        "name": "Hiking"
+      }
+    ],
+    "arePetsPermitted": false,
+    "images": [
+      {
+        "url": "https://www.nps.gov/common/uploads/cropped_image/32BC25E4-D230-06A5-AB038101734F477C.jpg",
+        "title": "Riddle Lake Trail",
+        "altText": "A lake covered in lily pads sits in front of a mountain.",
+        "caption": "",
+        "credit": "NPS / Addy Falgoust"
+      }
+    ],
+    "isReservationRequired": false,
+    "doFeesApply": false,
+    "tags": [
+      "Yellowstone National Park",
+      "trail",
+      "day hike",
+      "Easy hike",
+      "riddle lake",
+      "Riddle Lake Trail",
+      "south",
+      "Grant Village",
+      "A few hours",
+      "hiking"
+    ]
+  },
+  {
+    "id": "3CC8CA6D-A1DF-45B0-AF4A-BB5240DE1A17",
+    "title": "Ribbon Lake Trail",
+    "shortDescription": "Take a stroll out to Ribbon Lake, also passing by Lily Pad and Clear lakes.",
+    "longDescription": "<p>The trail beings at\u00a0the southeast side of the Upper Falls Viewpoints parking lot\u00a0with a path that leads across South Rim Drive to\u00a0the Clear Lake trailhead. At the Clear Lake junction turn left. Continue on the trail following the junction signs until you reach Ribbon Lake. Return via the same route, or make an alternate loop by taking a right at the Lily Pad Lake Junction. After .03 mile (0.4 km,) you will reach another junction for Point Sublime and Artist Point. Head west towards Artist Point. Continue to the Artist Point parking area. At the southwest end of the Artist Point parking area connect with the paved South Rim trail. Follow the South Rim Trail along the canyon edge back to your car.</p> <p><b>Safety notes:</b> Clear Lake is a hydrothermal area. Stay on the designated trail at all times.</p> <p><b>Trailheads:</b> 2.3 miles south of the Canyon Junction on the South Rim Drive at Upper Falls Viewpoints parking area.</p>",
+    "location": {
+      "lat": 0.0,
+      "lon": 0.0
+    },
+    "duration": "3-4 Hours",
+    "season": [
+      "Summer",
+      "Fall"
+    ],
+    "activities": [
+      {
+        "id": "BFF8C027-7C8F-480B-A5F8-CD8CE490BFBA",
+        "name": "Hiking"
+      }
+    ],
+    "arePetsPermitted": false,
+    "images": [
+      {
+        "url": "https://www.nps.gov/common/uploads/cropped_image/07E8A2CA-9931-8D3E-00146C0B08FC6E90.jpg",
+        "title": "Ribbon Lake Trail",
+        "altText": "Lily pads cover the edge of a lake surrounded by a forest.",
+        "caption": "",
+        "credit": "NPS / Addy Falgoust"
+      }
+    ],
+    "isReservationRequired": false,
+    "doFeesApply": false,
+    "tags": [
+      "Yellowstone National Park",
+      "trail",
+      "day hike",
+      "moderate hike",
+      "Ribbon Lake Trail",
+      "Ribbon Lake",
+      "Clear Lake",
+      "Lily Pad Lake",
+      "Canyon Area",
+      "A few hours",
+      "hiking"
+    ]
+  },
+  {
+    "id": "4AE181AA-5BD2-4B17-9EA3-C439C5CAEA94",
+    "title": "Purple Mountain Trail",
+    "shortDescription": "Hike up Purple Mountain for panoramic views of the GIbbon and Madison Rivers.",
+    "longDescription": "<p>You climb 1,500 feet (0.47 km) in 3 miles (4.8 km) to a panoramic view of the Gibbon and Madison rivers.</p> <p><b>Safety notes:</b> This strenuous trail is not recommended for persons with heart and/or respiratory problems.</p> <p><b>Trailheads:</b> Look for the trailhead at a turnout about \u00bc-mile (0.4 km) north of Madison Junction.</p>",
+    "location": {
+      "lat": 0.0,
+      "lon": 0.0
+    },
+    "duration": "3-5 Hours",
+    "season": [
+      "Summer",
+      "Fall"
+    ],
+    "activities": [
+      {
+        "id": "BFF8C027-7C8F-480B-A5F8-CD8CE490BFBA",
+        "name": "Hiking"
+      }
+    ],
+    "arePetsPermitted": false,
+    "images": [
+      {
+        "url": "https://www.nps.gov/common/uploads/cropped_image/07B6999F-FE3A-0A6F-88A6D01389F60EA1.jpg",
+        "title": "Purple Mountain Trail",
+        "altText": "Steam from geyser basins dot a forested landscape as viewed from a mountain summit.",
+        "caption": "",
+        "credit": "NPS / Addy Falgoust"
+      }
+    ],
+    "isReservationRequired": false,
+    "doFeesApply": false,
+    "tags": [
+      "Yellowstone National Park",
+      "trail",
+      "day hike",
+      "madison",
+      "Purple Mountain",
+      "Purple Mountain Trail",
+      "hiking",
+      "strenuous hike",
+      "Many hours",
+      "Madison River",
+      "Gibbon River",
+      "Madison Junction"
+    ]
+  },
+  {
+    "id": "FC1B5FCA-E6D1-434D-A44E-3D820CE5EE2E",
+    "title": "Pelican Creek Nature Trail",
+    "shortDescription": "Introduce yourself to a diverse assortment of Yellowstone habitats and look for birds while hike this loop trail through a forest to the shore of Yellowstone Lake.",
+    "longDescription": "<p>This short but diverse trail travels through the forest to the lakeshore before looping back to the trailhead. It is a scenic introduction to a variety of Yellowstone\u2019s habitats and is a good place for birding.</p> <p><b>Safety notes:</b> Always be aware of your surroundings and look for signs of grizzly bears.</p> <p><b>Trailheads:</b> West end of Pelican Creek Bridge, 1 mile (1.6 km) east of Fishing Bridge Visitor Center.</p>",
+    "location": {
+      "lat": 0.0,
+      "lon": 0.0
+    },
+    "duration": "30-60 Minutes",
+    "season": [
+      "Summer",
+      "Fall"
+    ],
+    "activities": [
+      {
+        "id": "BFF8C027-7C8F-480B-A5F8-CD8CE490BFBA",
+        "name": "Hiking"
+      }
+    ],
+    "arePetsPermitted": false,
+    "images": [
+      {
+        "url": "https://www.nps.gov/common/uploads/cropped_image/074D5071-F53E-0D15-8792F22599F571D8.jpg",
+        "title": "Pelican Creek Nature Trail",
+        "altText": "A creek spills into a large lake with mountains in the distance.",
+        "caption": "",
+        "credit": "NPS / Jacob W. Frank"
+      }
+    ],
+    "isReservationRequired": false,
+    "doFeesApply": false,
+    "tags": [
+      "Yellowstone National Park",
+      "Pelican Creek",
+      "Pelican Creek Nature Trail",
+      "Fishing Bridge",
+      "trail",
+      "day hike",
+      "Easy hike",
+      "Less than an hour",
+      "hiking"
+    ]
+  },
+  {
+    "id": "DDC75482-C58A-41AE-BF15-BC4949FF30B9",
+    "title": "Osprey Falls Trail",
+    "shortDescription": "Walk along an old service road through meadows before descending into one of the deepest canyons in the park to see Osprey Falls plunge over the edge of an old lava flow.",
+    "longDescription": "<p>Follow Old Bunsen Peak Road through grassland and burned forest 3 miles (4.9 km) to Osprey Falls Trail. Descend 700 feet (213 m) into Sheepeater Canyon, one of the deepest canyons in Yellowstone National Park. Osprey Falls, on the Gardner River, plunges 150 feet (46 m) over the edge of a lava flow. Return by the same route.</p> <p><b>Safety notes:</b> Grizzly bears frequent this area. Follow Old Bunsen Peak Road for 3 miles (4.9 km) to Osprey Falls Trail. Hiking and biking allowed on Old Bunsen Peak Road. No bikes allowed on Osprey Falls Trail.</p> <p><b>Trailhead:</b> 5 miles (8 km) south of Mammoth on the Grand Loop Road. Park in the gravel lot just south of Golden Gate, across from the Glen Creek trailhead.</p>",
+    "location": {
+      "lat": 0.0,
+      "lon": 0.0
+    },
+    "duration": "4-6 Hours",
+    "season": [
+      "Summer",
+      "Fall"
+    ],
+    "activities": [
+      {
+        "id": "BFF8C027-7C8F-480B-A5F8-CD8CE490BFBA",
+        "name": "Hiking"
+      }
+    ],
+    "arePetsPermitted": false,
+    "images": [
+      {
+        "url": "https://www.nps.gov/common/uploads/cropped_image/0739F0FB-F646-60D6-8D98967CEE24F0CF.jpg",
+        "title": "Osprey Falls Trail",
+        "altText": "A hiker stands at the base of a large waterfall.",
+        "caption": "",
+        "credit": "NPS / Jacob W. Frank"
+      }
+    ],
+    "isReservationRequired": false,
+    "doFeesApply": false,
+    "tags": [
+      "Yellowstone National Park",
+      "hike",
+      "day hike",
+      "trail",
+      "strenuous hike",
+      "Mammoth Hot Springs",
+      "Osprey Falls",
+      "Osprey Falls Trail",
+      "Many hours"
+    ]
+  },
+  {
+    "id": "6FAFD60E-F7DF-402A-94F8-0F5CA5D8B8D2",
+    "title": "Observation Point Trail",
+    "shortDescription": "Head up switchbacks to a commanding view of the Upper Geyser Basin.",
+    "longDescription": "<p>Switchbacks lead up the hill 0.5 miles (0.8 km) to a commanding view of the Upper Geyser Basin. Return the same way.</p> <p><b>Safety notes:</b> Carry water and pace yourself going up the hill.</p> <p><b>Trailheads:</b> From the Old Faithful Visitor Education Center, walk about 0.3 miles (0.5 km) counter-clockwise along the Old Faithful boardwalk, turn right at the Geyser Hill sign, and continue down the path. The trailhead is just after the bridge crossing the Firehole River.</p>",
+    "location": {
+      "lat": 0.0,
+      "lon": 0.0
+    },
+    "duration": "1-3 Hours",
+    "season": [
+      "Winter",
+      "Spring",
+      "Summer",
+      "Fall"
+    ],
+    "activities": [
+      {
+        "id": "BFF8C027-7C8F-480B-A5F8-CD8CE490BFBA",
+        "name": "Hiking"
+      }
+    ],
+    "arePetsPermitted": false,
+    "images": [
+      {
+        "url": "https://www.nps.gov/common/uploads/cropped_image/070617F3-A37F-6177-1CBE908FBEE88FBF.jpg",
+        "title": "Observation Point Trail",
+        "altText": "Water and steam erupt out of a geyser while people watch.",
+        "caption": "",
+        "credit": "NPS / Diane Renkin"
+      }
+    ],
+    "isReservationRequired": false,
+    "doFeesApply": false,
+    "tags": [
+      "Yellowstone National Park",
+      "trail",
+      "day hike",
+      "moderate hike",
+      "Upper Geyser Basin",
+      "Observation Point",
+      "Observation Point Trail",
+      "Old Faithful Geyser",
+      "Solitary Geyser",
+      "A few hours",
+      "hiking"
+    ]
+  },
+  {
+    "id": "FE0C3019-E157-40CA-B602-6A13FB99D80C",
+    "title": "Observation Peak Trail",
+    "shortDescription": "Hike to a high mountain peak for an outstanding view of the Yellowstone wilderness.",
+    "longDescription": "<p>Hike to a high mountain peak for an outstanding view of the Yellowstone wilderness. Trail passes through open meadows to Cascade Lake where wildflowers abound and wildlife is often seen. Beyond the lake, the trail climbs 1,400 feet in 2.6 miles through whitebark pine forest.</p> <p><b>Safety notes:</b> The trail can be wet and snowy through July. Observation Peak trail is not recommended for persons with heart and/or respiratory problems. Past Cascade Lake, no water is available.</p> <p><b>Trailheads:</b> Cascade Lake trailhead 1-\u00bc miles (2 km) north of Canyon Junction on the Grand Loop Road.</p>",
+    "location": {
+      "lat": 0.0,
+      "lon": 0.0
+    },
+    "duration": "5-6 Hours",
+    "season": [
+      "Summer",
+      "Fall"
+    ],
+    "activities": [
+      {
+        "id": "BFF8C027-7C8F-480B-A5F8-CD8CE490BFBA",
+        "name": "Hiking"
+      }
+    ],
+    "arePetsPermitted": false,
+    "images": [
+      {
+        "url": "https://www.nps.gov/common/uploads/cropped_image/06DC88E4-C2D5-4A1C-F07739B1D592155C.jpg",
+        "title": "Observation Peak Trail",
+        "altText": "A hiker approaches a fire lookout on top of a mountain.",
+        "caption": "",
+        "credit": "NPS / Addy Falgoust"
+      }
+    ],
+    "isReservationRequired": false,
+    "doFeesApply": false,
+    "tags": [
+      "Yellowstone National Park",
+      "trail",
+      "day hike",
+      "strenuous hike",
+      "Observation Peak Trail",
+      "Observation Peak",
+      "Cascade Lake",
+      "Canyon Area",
+      "Many hours",
+      "hiking"
+    ]
+  },
+  {
+    "id": "DBC67877-6B27-4A6C-8328-AAF1AFC129B8",
+    "title": "Natural Bridge Trail",
+    "shortDescription": "Hike through a forest and along an old service road to a natural bridge, which was cut out of a cliff of rhyolite rock by Bridge Creek.",
+    "longDescription": "<p>The natural bridge is a 51 foot (18 m) cliff of rhyolite rock cut through by Bridge Creek. The hiking trail meanders through the forest for .7 of a mile (1.2 km). It then joins a service road and continues to the right (west) for .4 of a mile (0.6 km) to the Natural Bridge. The short but steep switchback trail to the top of the bridge starts in front of the interpretive exhibit. To protect this fragile resource, the top of the bridge is closed to hiking and biking. Past the natural bridge, the trail crosses a creek then continues along the cliff before rejoining the road. Exercise caution along the creek bed for wet and slippery rocks.</p> <p><b>Safety notes:</b> Trail is generally closed in\u00a0early summer while bears feed on spawning trout in Bridge Creek. Inquire at the Fishing Bridge Visitor Center for opening date and other closures. The bike trail to Natural Bridge begins just south of the marina off the Grand Loop Road.</p> <p><b>Trailheads:</b> Bridge Bay Marina parking lot near the campground entrance road.</p>",
+    "location": {
+      "lat": 0.0,
+      "lon": 0.0
+    },
+    "duration": "1-2 Hours",
+    "season": [
+      "Summer",
+      "Fall"
+    ],
+    "activities": [
+      {
+        "id": "BFF8C027-7C8F-480B-A5F8-CD8CE490BFBA",
+        "name": "Hiking"
+      }
+    ],
+    "arePetsPermitted": false,
+    "images": [
+      {
+        "url": "https://www.nps.gov/common/uploads/cropped_image/0688573E-BFBF-0992-B2EBF3F3880FC176.jpg",
+        "title": "Natural Bridge Trail",
+        "altText": "A natural bridge formation made of rock in a forest.",
+        "caption": "",
+        "credit": "NPS / Addy Falgoust"
+      }
+    ],
+    "isReservationRequired": false,
+    "doFeesApply": false,
+    "tags": [
+      "Yellowstone National Park",
+      "natural bridge",
+      "Bridge Bay",
+      "Bridge Bay Marina",
+      "trail",
+      "day hike",
+      "Easy hike",
+      "An hour or two",
+      "Natural Bridge Trail",
+      "hiking"
+    ]
+  },
+  {
+    "id": "8EC38718-BA71-4797-B88A-16D62BE10C4E",
+    "title": "Mystic Falls Trail",
+    "shortDescription": "Follow a lovely creek through mixed conifer forest to Mystic Falls, over which the Little Firehole River drops from the Madison Plateau.",
+    "longDescription": "<p>This trail follows a lovely creek through mixed conifer forest to the 70-foot Mystic Falls, over which the Little Firehole River drops from the Madison Plateau.</p> <p><b>Safety notes:</b> Stay on maintained trails and boardwalks at all times, especially in hydrothermal areas.</p> <p><b>Trailheads:</b> Walk 0.3 miles to the far side of the Biscuit Basin boardwalk to the trailhead or begin 0.25 miles (0.4 km) south of Biscuit Basin by parking in pullouts on either side of the road and walking 0.5 miles north along the Upper Geyser Basin\u2013Biscuit Basin Trail to the trailhead.</p>",
+    "location": {
+      "lat": 0.0,
+      "lon": 0.0
+    },
+    "duration": "2-4 Hours",
+    "season": [
+      "Winter",
+      "Summer",
+      "Fall"
+    ],
+    "activities": [
+      {
+        "id": "BFF8C027-7C8F-480B-A5F8-CD8CE490BFBA",
+        "name": "Hiking"
+      }
+    ],
+    "arePetsPermitted": false,
+    "images": [
+      {
+        "url": "https://www.nps.gov/common/uploads/cropped_image/067F740D-E1B0-C8DF-CC375CF475CDE1FC.jpg",
+        "title": "Mystic Falls Trail",
+        "altText": "A waterfall cascades over a cliff and flows into a stream down a rocky creek.",
+        "caption": "",
+        "credit": "NPS / Addy Falgoust"
+      }
+    ],
+    "isReservationRequired": false,
+    "doFeesApply": false,
+    "tags": [
+      "Yellowstone National Park",
+      "trail",
+      "day hike",
+      "moderately strenuous hike",
+      "Upper Geyser Basin",
+      "Mystic Falls",
+      "Mystic Falls Trail",
+      "Biscuit Basin",
+      "A few hours",
+      "hiking"
+    ]
+  },
+  {
+    "id": "B3D68739-BA34-4321-8ABF-8C7344EEB968",
+    "title": "Mammoth Hot Springs Trails",
+    "shortDescription": "Wander around large travertine terraces, built by ever-shifting hot springs.",
+    "longDescription": "<p>For hundreds of years, Shoshone and Bannock people collected minerals from Mammoth Hot Springs for white paint. These minerals contribute to the beautiful terrace structures, along with heat, a natural \u201cplumbing\u201d system, water, and limestone.</p> <p>The volcanic heat source for Mammoth Hot Springs remains somewhat of a mystery. Scientists have proposed two sources, including the large magma chamber underlying the Yellowstone Caldera, or perhaps a smaller heat source closer to Mammoth.</p> <p>At Mammoth, a network of fractures and fissures form the plumbing system that allows hot water from underground to reach the surface. The water comes from rain and snow falling on the surrounding mountains and seeping deep into the earth where it is heated. Small earthquakes may keep the plumbing open.</p> <p>Limestone, deposited here millions of years ago when a vast sea covered this area, provides the final ingredient. Hot water with dissolved carbon dioxide makes a solution of weak carbonic acid. As the solution rises through rock, it dissolves calcium carbonate, the primary compound in limestone. At the surface, the calcium carbonate is deposited in the form of travertine, the rock that forms the terraces of Mammoth Hot Springs.</p> <p><b>Notes:</b> Thermal activity throughout this entire area. Stay on the boardwalk, designated trails, or roads at all times.</p>",
+    "location": {
+      "lat": 0.0,
+      "lon": 0.0
+    },
+    "duration": "30-90 Minutes",
+    "season": [
+      "Winter",
+      "Spring",
+      "Summer",
+      "Fall"
+    ],
+    "activities": [
+      {
+        "id": "BFF8C027-7C8F-480B-A5F8-CD8CE490BFBA",
+        "name": "Hiking"
+      }
+    ],
+    "arePetsPermitted": false,
+    "images": [
+      {
+        "url": "https://www.nps.gov/common/uploads/cropped_image/05B20DD4-CD20-D413-F78404082DB7B157.jpg",
+        "title": "Mammoth Hot Springs Trails",
+        "altText": "People stand on a boardwalk and admire a travertine terrace formation with water cascading down it.",
+        "caption": "",
+        "credit": "NPS / Jim Peaco"
+      }
+    ],
+    "isReservationRequired": false,
+    "doFeesApply": false,
+    "tags": [
+      "Yellowstone National Park",
+      "trail",
+      "boardwalk",
+      "hydrothermal features",
+      "Mammoth Hot Springs",
+      "Easy hike",
+      "day hike",
+      "Less than an hour",
+      "hiking"
+    ]
+  },
+  {
+    "id": "58D55B52-52CA-41E0-BC09-FA338A7D50E3",
+    "title": "Lost Lake Trail",
+    "shortDescription": "Hike along a trail that offers views of Lost Lake, waterfowl, sagebrush hilltops, wildflowers, possibly beavers, and quite often black bears.",
+    "longDescription": "<p>This trail begins behind Roosevelt Lodge and climbs 300 feet (91 m) onto the bench. Here it joins the Roosevelt horse trail and continues west to Lost Lake. From Lost Lake the trail follows the contour around the hillside to the Petrified Tree parking area, crosses the parking lot and continues up the hill. It loops behind Tower Ranger Station, crosses the creek and returns to the lodge.</p> <p><b>Safety notes:</b> This area is home to many bears and bison, use caution when traveling. Trail frequented by horseback-riders. If you encounter horses, move to the downhill side of the trail and remain still until they have passed.</p> <p><b>Trailheads:</b> Starts behind Roosevelt Lodge or at the end of the Petrified Tree parking lot west of Tower Junction.</p>",
+    "location": {
+      "lat": 0.0,
+      "lon": 0.0
+    },
+    "duration": "1-2 Hours",
+    "season": [
+      "Winter",
+      "Spring",
+      "Summer",
+      "Fall"
+    ],
+    "activities": [
+      {
+        "id": "BFF8C027-7C8F-480B-A5F8-CD8CE490BFBA",
+        "name": "Hiking"
+      }
+    ],
+    "arePetsPermitted": false,
+    "images": [
+      {
+        "url": "https://www.nps.gov/common/uploads/cropped_image/056E7FB0-BD3A-560A-E818B20DC61BD6E8.jpg",
+        "title": "Lost Lake Trail",
+        "altText": "A small lake coverd in lily pads surrounded by a forest.",
+        "caption": "",
+        "credit": "NPS / Addy Falgoust"
+      }
+    ],
+    "isReservationRequired": false,
+    "doFeesApply": false,
+    "tags": [
+      "Yellowstone National Park",
+      "trail",
+      "day hike",
+      "moderate hike",
+      "Tower Junction",
+      "Lost Lake",
+      "Lost Lake Trail",
+      "Petrified Tree",
+      "An hour or two",
+      "hiking"
+    ]
+  },
+  {
+    "id": "B868945B-CDA6-4EBE-A9DC-14811CF23DAD",
+    "title": "Mallard Lake Trail",
+    "shortDescription": "Cross the Firehole River, pass Pipeline Hot Springs, and climb rolling hills of partially-burned lodgepole pine and open, rocky areas to Mallard Lake.",
+    "longDescription": "<p>The trail crosses the Firehole River, passes Pipeline Hot Springs, and climbs rolling hills of partially-burned lodgepole pine and open, rocky areas to the lake.</p> <p><b>Safety notes:</b> Be aware of bear activity. Return the same way.</p> <p><b>Trailheads:</b> From the southeast side of the Old Faithful Lodge cabins, take the first right turn and continue 0.2 miles (0.3 km) across the Firehole River to the trailhead.</p>",
+    "location": {
+      "lat": 0.0,
+      "lon": 0.0
+    },
+    "duration": "3-6 Hours",
+    "season": [
+      "Winter",
+      "Summer",
+      "Fall"
+    ],
+    "activities": [
+      {
+        "id": "BFF8C027-7C8F-480B-A5F8-CD8CE490BFBA",
+        "name": "Hiking"
+      }
+    ],
+    "arePetsPermitted": false,
+    "images": [
+      {
+        "url": "https://www.nps.gov/common/uploads/cropped_image/057E8DAA-AB3B-91A9-73A5CFCD6088A75F.jpg",
+        "title": "Mallard Lake Trail",
+        "altText": "A lake surrounded by rolling hills and forests.",
+        "caption": "",
+        "credit": "NPS / Addy Falgoust"
+      }
+    ],
+    "isReservationRequired": false,
+    "doFeesApply": false,
+    "tags": [
+      "Yellowstone National Park",
+      "trail",
+      "day hike",
+      "moderately easy hike",
+      "Upper Geyser Basin",
+      "Mallard Lake Trail",
+      "Mallard Lake",
+      "Old Faithful Area",
+      "Many hours",
+      "hiking"
+    ]
+  },
+  {
+    "id": "8CAD31CD-42BE-4F38-9892-7B0DE41AEDB6",
+    "title": "Lone Star Geyser Trail",
+    "shortDescription": "Hike this pleasant, partially paved trail beside the Firehole River to Lone Star Geyser.",
+    "longDescription": "<p>This pleasant, partially paved trail follows an old service road beside the Firehole River to the geyser. Lone Star Geyser erupts up to 45 feet (13.7 m) from a 12-foot (3.6 m) cone approximately every three hours.</p> <p><b>Safety notes:</b> Cyclists must dismount at the end of the asphalt and walk the last few hundred feet.</p> <p><b>Trailheads:</b> 3.5 miles (5.6 km) south of Old Faithful Overpass, just beyond Kepler Cascades Parking Lot.</p>",
+    "location": {
+      "lat": 0.0,
+      "lon": 0.0
+    },
+    "duration": "2-3 Hours",
+    "season": [
+      "Winter",
+      "Summer",
+      "Fall"
+    ],
+    "activities": [
+      {
+        "id": "BFF8C027-7C8F-480B-A5F8-CD8CE490BFBA",
+        "name": "Hiking"
+      }
+    ],
+    "arePetsPermitted": false,
+    "images": [
+      {
+        "url": "https://www.nps.gov/common/uploads/cropped_image/062A5323-0606-F3D8-C1F3A81069AE1865.jpg",
+        "title": "Lone Star Geyser Trail",
+        "altText": "Steam and water erupt from the tan cone of Lone Star Geyser. A rainbow appears in the mist.",
+        "caption": "",
+        "credit": "NPS / Jacob W. Frank"
+      }
+    ],
+    "isReservationRequired": false,
+    "doFeesApply": false,
+    "tags": [
+      "Yellowstone National Park",
+      "trail",
+      "day hike",
+      "Easy hike",
+      "Upper Geyser Basin",
+      "Lone Star Geyser",
+      "Lone Star Geyser Trail",
+      "Old Faithful Area",
+      "A few hours",
+      "hiking"
+    ]
+  },
+  {
+    "id": "15D0F8FB-0C41-49FE-A673-BDC90AAD7A20",
+    "title": "Howard Eaton Trail (Old Faithful Area)",
+    "shortDescription": "Hike up a burned hill, continue through spruce-fir forest, and then down to Lone Star Geyser.",
+    "longDescription": "<p>The trail climbs a burned hill, continues through spruce-fir forest, then down to Lone Star Geyser.</p> <p><b>Safety notes:</b> Be aware of bear activity. Stay on maintained trails at all times, especially in the hydrothermal areas. Return the same way.</p> <p><b>Trailheads:</b> Park near the Old Faithful Ranger Station and walk 0.25 miles (0.4 km) to the trailhead by following the paved path across the Grand Loop Road, turning left at the first intersection, turning left again, and following the orange trailmarkers to the trailhead.</p>",
+    "location": {
+      "lat": 0.0,
+      "lon": 0.0
+    },
+    "duration": "3-5 Hours",
+    "season": [
+      "Winter",
+      "Summer",
+      "Fall"
+    ],
+    "activities": [
+      {
+        "id": "BFF8C027-7C8F-480B-A5F8-CD8CE490BFBA",
+        "name": "Hiking"
+      }
+    ],
+    "arePetsPermitted": false,
+    "images": [
+      {
+        "url": "https://www.nps.gov/common/uploads/cropped_image/062A5323-0606-F3D8-C1F3A81069AE1865.jpg",
+        "title": "Howard Eaton Trail (Old Faithful Area)",
+        "altText": "Steam and water erupt from the tan cone of Lone Star Geyser. A rainbow appears in the mist.",
+        "caption": "",
+        "credit": "NPS / Jacob W. Frank"
+      }
+    ],
+    "isReservationRequired": false,
+    "doFeesApply": false,
+    "tags": [
+      "Yellowstone National Park",
+      "trail",
+      "day hike",
+      "Upper Geyser Basin",
+      "Lone Star Geyser",
+      "moderately easy hike",
+      "Howard Eaton Trail",
+      "Old Faithful Area",
+      "A few hours",
+      "Many hours",
+      "hiking"
+    ]
+  },
+  {
+    "id": "9E3D0956-9D88-4369-8CB9-8FCEA28FB1C2",
+    "title": "Howard Eaton Trail (Canyon Area)",
+    "shortDescription": "Choose your destination on this trail that passes by four lakes, as you hike through forests, meadows, and marshes.",
+    "longDescription": "<p>Choose your destination on this trail that passes by four lakes, forest, meadow, and marsh: Cascade Lake (2.6 mi / 4.2 km), Grebe Lake (4.5 mi / 7.3 km), Wolf Lake (6.3 mi / 10.1 km), or Ice Lake (10.7 mi / 17.5 km).</p> <p><b>Safety notes:</b> The trail can be wet and muddy through July with many biting insects. All distances provided are one-way.</p> <p><b>Trailheads:</b> Pullout \u00bc-mile (0.4 km) west of Canyon Junction on the Norris\u2013Canyon Road.</p>",
+    "location": {
+      "lat": 0.0,
+      "lon": 0.0
+    },
+    "duration": "5-6 Hours",
+    "season": [
+      "Summer",
+      "Fall"
+    ],
+    "activities": [
+      {
+        "id": "BFF8C027-7C8F-480B-A5F8-CD8CE490BFBA",
+        "name": "Hiking"
+      }
+    ],
+    "arePetsPermitted": false,
+    "images": [
+      {
+        "url": "https://www.nps.gov/common/uploads/cropped_image/05EEF235-D30C-0615-66AC030D1013D252.jpg",
+        "title": "Howard Eaton Trail (Canyon Area)",
+        "altText": "Two trumpeter swans float on a body of water covered in lily pads.",
+        "caption": "",
+        "credit": "NPS / Addy Falgoust"
+      }
+    ],
+    "isReservationRequired": false,
+    "doFeesApply": false,
+    "tags": [
+      "Yellowstone National Park",
+      "trail",
+      "day hike",
+      "Easy hike",
+      "Howard Eaton Trail",
+      "Canyon Area",
+      "Grebe Lake",
+      "Ice Lake",
+      "Wolf Lake",
+      "Cascade Lake",
+      "Many hours",
+      "hiking"
+    ]
+  },
+  {
+    "id": "B279CAAC-061D-4952-A218-248E45DCFE79",
+    "title": "Hellroaring Trail",
+    "shortDescription": "Descend down to the Yellowstone River, then continue on through a sagebrush plateau to Hellroaring Creek.",
+    "longDescription": "<p>Trail begins with a steep descent to the Yellowstone River Suspension Bridge, then crosses a sagebrush plateau, and drops down to Hellroaring Creek. Both the Yellowstone River and Hellroaring Creek are popular fishing areas.</p> <p><b>Safety notes:</b> Beyond the bridge are trail junctions for other major backcountry trails. Pay attention; stay on the Hellroaring Trail. Hellroaring is a major backcountry trail. This day hike stops at the confluence of Hellroaring creek and the Yellowstone River. Limited shade along this trail. Bring water.</p> <p><b>Trailheads:</b> Short dirt road leads to a parking area at the trailhead 3.5 miles (5.6 km) west of Tower Junction.</p>",
+    "location": {
+      "lat": 0.0,
+      "lon": 0.0
+    },
+    "duration": "3-5 Hours",
+    "season": [
+      "Summer",
+      "Fall"
+    ],
+    "activities": [
+      {
+        "id": "BFF8C027-7C8F-480B-A5F8-CD8CE490BFBA",
+        "name": "Hiking"
+      }
+    ],
+    "arePetsPermitted": false,
+    "images": [
+      {
+        "url": "https://www.nps.gov/common/uploads/cropped_image/05B2B417-0586-03F2-5AAFBE5FD49A0E97.jpg",
+        "title": "Hellroaring Trail",
+        "altText": "Three people hike past a pond in a meadow with a forested mountain in the distance.",
+        "caption": "",
+        "credit": "NPS / Jacob W. Frank"
+      }
+    ],
+    "isReservationRequired": false,
+    "doFeesApply": false,
+    "tags": [
+      "Yellowstone National Park",
+      "trail",
+      "day hike",
+      "moderately strenuous hike",
+      "Tower Junction",
+      "yellowstone river",
+      "Hellroaring Creek",
+      "Hellroaring Trail",
+      "Many hours",
+      "hiking"
+    ]
+  },
+  {
+    "id": "09418102-16D6-4D6A-861E-51EA80BC9E5E",
+    "title": "Harlequin Lake Trail",
+    "shortDescription": "Follow the gentle, uphill trail to a small lake.",
+    "longDescription": "<p>Follow the gentle, uphill trail to a small lake.</p> <p><b>Notes:</b> Return the same way.</p>",
+    "location": {
+      "lat": 0.0,
+      "lon": 0.0
+    },
+    "duration": "30-60 Minutes",
+    "season": [
+      "Spring",
+      "Summer",
+      "Fall"
+    ],
+    "activities": [
+      {
+        "id": "BFF8C027-7C8F-480B-A5F8-CD8CE490BFBA",
+        "name": "Hiking"
+      }
+    ],
+    "arePetsPermitted": false,
+    "images": [
+      {
+        "url": "https://www.nps.gov/common/uploads/cropped_image/0584845A-A00D-3AB9-B93A19D084926E89.jpg",
+        "title": "Harlequin Lake Trail",
+        "altText": "Lily pads dot a lake at the base of a slopping cliff.",
+        "caption": "",
+        "credit": "NPS / Addy Falgoust"
+      }
+    ],
+    "isReservationRequired": false,
+    "doFeesApply": false,
+    "tags": [
+      "Yellowstone National Park",
+      "madison",
+      "trail",
+      "day hike",
+      "Easy hike",
+      "Less than an hour",
+      "Madison Junction"
+    ]
+  },
+  {
+    "id": "61E99F3A-AD5A-4835-9CB9-7AF0E4B24297",
+    "title": "Elephant Back Mountain Trail",
+    "shortDescription": "Hike to the top of this mountain for panoramic views of Yellowstone Lake and the surrounding area.",
+    "longDescription": "<p>This trail climbs 800 feet (244 m) in 1-\u00bd miles (2.4 km) through the dense lodgepole forest. After 0.8 of a mile, the trail splits into a loop. The left fork is the shortest route to the top, though both join again at the overlook. The overlook provides a sweeping panoramic view of Yellowstone Lake and surrounding area.</p> <p><b>Safety notes:</b> Always be aware of your surroundings and look for signs of grizzly bears.</p> <p><b>Trailheads:</b> Pullout 1 mile (1.5 km) south of Fishing Bridge Junction.</p>",
+    "location": {
+      "lat": 0.0,
+      "lon": 0.0
+    },
+    "duration": "2-3 Hours",
+    "season": [
+      "Summer",
+      "Fall"
+    ],
+    "activities": [
+      {
+        "id": "BFF8C027-7C8F-480B-A5F8-CD8CE490BFBA",
+        "name": "Hiking"
+      }
+    ],
+    "arePetsPermitted": false,
+    "images": [
+      {
+        "url": "https://www.nps.gov/common/uploads/cropped_image/045B0F91-CFB0-ED48-3173FD08B690F12E.jpg",
+        "title": "Elephant Back Mountain Trail\u00a0",
+        "altText": "A hiker looks down from a vantage point across a forest to a large lake.",
+        "caption": "",
+        "credit": "NPS / Addy Falgoust"
+      }
+    ],
+    "isReservationRequired": false,
+    "doFeesApply": false,
+    "tags": [
+      "Yellowstone National Park",
+      "Elephant Back Mountain",
+      "Elephant Back Mountain Trail",
+      "Yellowstone Lake",
+      "Lake Village",
+      "trail",
+      "day hike",
+      "moderately strenuous hike",
+      "A few hours",
+      "mountains",
+      "lakes",
+      "hiking"
+    ]
+  },
+  {
+    "id": "7C7C064E-F118-4ABC-BEA4-37379B8B502C",
+    "title": "DeLacy Creek Trail",
+    "shortDescription": "Hike along a forest\u2019s edge and through open meadows to the shores of Yellowstone\u2019s largest backcountry lake. Look for sandhill cranes, moose, and water birds.",
+    "longDescription": "<p>Hike along a forest\u2019s edge and through open meadows to the shores of Yellowstone\u2019s largest backcountry lake. Look for sandhill cranes in meadows, moose near shore, and water birds on and near the lake.</p> <p><b>Safety notes:</b> Beyond here the trail continues into Yellowstone\u2019s vast backcountry. The dayhike stops here; return by the same route. Check the <a href=\"https://www.nps.gov/yell/planyourvisit/situationreport.htm\">Backcountry Situation Report</a> for further information.</p> <p><b>Trailheads:</b> 8.8 miles (14 km) west of West Thumb Junction at DeLacy Creek Parking Area.</p>",
+    "location": {
+      "lat": 0.0,
+      "lon": 0.0
+    },
+    "duration": "3-5 Hours",
+    "season": [
+      "Summer",
+      "Fall"
+    ],
+    "activities": [
+      {
+        "id": "BFF8C027-7C8F-480B-A5F8-CD8CE490BFBA",
+        "name": "Hiking"
+      }
+    ],
+    "arePetsPermitted": false,
+    "images": [
+      {
+        "url": "https://www.nps.gov/common/uploads/cropped_image/03EE034B-B78C-B7E8-A2D844756D050BE0.jpg",
+        "title": "Delacy Creek Trail\u00a0",
+        "altText": "A creek flows through a meadow surrounded by trees.",
+        "caption": "",
+        "credit": "NPS / Addy Falgoust"
+      }
+    ],
+    "isReservationRequired": false,
+    "doFeesApply": false,
+    "tags": [
+      "Yellowstone National Park",
+      "trail",
+      "day hike",
+      "Easy hike",
+      "Shoshone Lake",
+      "DeLacy Creek",
+      "DeLacy Creek Trail",
+      "south",
+      "Craig Pass",
+      "Many hours",
+      "hiking"
+    ]
+  },
+  {
+    "id": "F96AF158-1A88-4A90-BF18-2272358E1B0F",
+    "title": "Bunsen Peak Trail",
+    "shortDescription": "Climb to the top of this igneous peak for panoramic views of Swan Lake Flats, the Gallatin Mountain Range, and the Mammoth Hot Springs area.",
+    "longDescription": "<p>Climb 1,300 feet through forest and meadow to the summit of Bunsen Peak, named for German chemist Robert Bunsen who studied geysers and invented the Bunsen Burner. The summit offers panoramic views of the Blacktail Deer Plateau, Swan Lake Flat, Gallatin Mountain Range, and the Yellowstone River Valley. Return by the same route.</p> <p><b>Safety notes:</b> Grizzly bears frequent this area. You\u2019ll also see communications equipment, which supplies Mammoth and nearby communities.</p> <p><b>Trailhead:</b> 5 miles (8 km) south of Mammoth on the Grand Loop Road. Park in the gravel lot just south of Golden Gate, across from the Glen Creek trailhead.</p>",
+    "location": {
+      "lat": 0.0,
+      "lon": 0.0
+    },
+    "duration": "2-3 Hours",
+    "season": [
+      "Summer",
+      "Fall"
+    ],
+    "activities": [
+      {
+        "id": "BFF8C027-7C8F-480B-A5F8-CD8CE490BFBA",
+        "name": "Hiking"
+      }
+    ],
+    "arePetsPermitted": false,
+    "images": [
+      {
+        "url": "https://www.nps.gov/common/uploads/cropped_image/036E87D8-F9C7-475C-6C5F90C5437019EB.jpg",
+        "title": "Bunsen Peak Trail",
+        "altText": "Four people hike across a talus slope with the sun setting behind a mountain in the distance.",
+        "caption": "",
+        "credit": "NPS / Jacob W. Frank"
+      }
+    ],
+    "isReservationRequired": false,
+    "doFeesApply": false,
+    "tags": [
+      "Yellowstone National Park",
+      "trail",
+      "day hike",
+      "strenuous hike",
+      "Mammoth Hot Springs",
+      "Bunsen Peak Trail",
+      "Bunsen Peak",
+      "A few hours"
+    ]
+  },
+  {
+    "id": "06160FF7-5F5B-4A41-A310-EFFA466EF4E7",
+    "title": "Blacktail Deer Creek to Yellowstone River Trail",
+    "shortDescription": "Follow Blacktail Deer Creek as it descends through rolling, grassy hills and Douglas-fir forest to a suspension bridge over the Yellowstone River.",
+    "longDescription": "<p>Follow Blacktail Deer Creek as it descends 1,100 feet (335 m) through rolling, grassy hills and Douglas-fir forest to a suspension bridge over the Yellowstone River. Return the same way.</p> <p><b>Safety notes:</b> Trail frequented by horseback-riders.</p> <p><b>Trailhead:</b> 7 miles (11.3 km) east of Mammoth on the Grand Loop Road.</p>",
+    "location": {
+      "lat": 0.0,
+      "lon": 0.0
+    },
+    "duration": "4-5 Hours",
+    "season": [
+      "Spring",
+      "Summer",
+      "Fall"
+    ],
+    "activities": [
+      {
+        "id": "BFF8C027-7C8F-480B-A5F8-CD8CE490BFBA",
+        "name": "Hiking"
+      }
+    ],
+    "arePetsPermitted": false,
+    "images": [
+      {
+        "url": "https://www.nps.gov/common/uploads/cropped_image/518D3A39-D582-EA77-DB3D71982A0C8A00.jpg",
+        "title": "Blacktail Deer Creek",
+        "altText": "Two people hike through a field of yellow flowers along the side of a slope.",
+        "caption": "",
+        "credit": "NPS / Jacob W. Frank"
+      }
+    ],
+    "isReservationRequired": false,
+    "doFeesApply": false,
+    "tags": [
+      "Yellowstone National Park",
+      "trail",
+      "day hike",
+      "strenuous hike",
+      "Mammoth Hot Springs",
+      "Blacktail Deer Creek Trail",
+      "Many hours"
+    ]
+  },
+  {
+    "id": "F96472A3-58A2-46CB-B68F-187F28E07DF5",
+    "title": "Avalanche Peak Trail",
+    "shortDescription": "Experience one of the most strenuous day hikes in the park and be rewarded with stunning views of some of the park\u2019s tallest and most remote alpine peaks.",
+    "longDescription": "<p>Across the road from the parking area and to the right of the creek, the trail enters the forest and begins its steep ascent\u20142,100 feet in 2.1 miles (3.3 km). In just over a mile, it arrives at the base of the large bowl of Avalanche Peak, then continues to the left and switches back over large talus slopes to an open level area below the summit. Follow the established trail up to the narrow ridgeline and cross it with extreme caution. Those who make this arduous hike will be rewarded with stunning views of some of the park\u2019s tallest and most remote alpine peaks. Return by the same route.</p> <p><b>Safety notes:</b> This trail is often snow-covered until early July. This strenuous, high elevation trail is not recommended for people with heart and/or respiratory problems. Be aware of lightning above treeline. Even on warm summer days, bring rain gear, wool hats, and gloves. Burned trees may fall without warning. Grizzly bears frequent this area in the fall, seeking out whitebark pine nuts. Hiking this trail is not recommended in September and October.</p> <p><b>Trailheads:</b> Look for a pullout at Eleanor Lake, 19 miles (30.6 km) east of Fishing Bridge Junction (8 miles / 12.9 km west of East Entrance). The trailhead is across the road from the pullout.</p>",
+    "location": {
+      "lat": 0.0,
+      "lon": 0.0
+    },
+    "duration": "3-4 Hours",
+    "season": [
+      "Summer",
+      "Fall"
+    ],
+    "activities": [
+      {
+        "id": "BFF8C027-7C8F-480B-A5F8-CD8CE490BFBA",
+        "name": "Hiking"
+      }
+    ],
+    "arePetsPermitted": false,
+    "images": [
+      {
+        "url": "https://www.nps.gov/common/uploads/cropped_image/FC3E2D41-AA14-9D77-E0A22BE9FF0FDDF1.jpg",
+        "title": "Avalanche Peak Trail",
+        "altText": "Two hikers enjoying the view of mountains in the distance from the summit of rocky mountain.",
+        "caption": "",
+        "credit": "NPS / Diane Renkin"
+      }
+    ],
+    "isReservationRequired": false,
+    "doFeesApply": false,
+    "tags": [
+      "Yellowstone National Park",
+      "Avalanche Peak",
+      "Yellowstone Lake",
+      "Fishing Bridge",
+      "East Entrance",
+      "trail",
+      "day hike",
+      "strenuous hike",
+      "A few hours",
+      "mountains"
+    ]
+  },
+  {
+    "id": "E8D1AAD3-801D-471A-BBBE-592386CDFD79",
+    "title": "Beaver Ponds Trail",
+    "shortDescription": "Hike through forests, meadows of sage, and stands of Douglas-fir and aspen on your way to beaver ponds. You might see beavers or their sign, but you are more likely to see muskrats and water birds.",
+    "longDescription": "<p>The trail gains over 350 feet in elevation and rambles through sagebrush meadows and stands of trees. The beaver ponds are approximately half-way around the loop. You might see beavers or their sign, but you are more likely to see muskrats and water birds. Along the way, look for bears, elk, mule deer, pronghorn, and moose.</p> <p><b>Safety notes:</b> Grizzly and black bears frequent this area.</p> <p><b>Trailheads:</b> North of Liberty Cap, near the stone house or behind Mammoth Hot Springs Hotel at start of Old Gardiner Road.</p>",
+    "location": {
+      "lat": 0.0,
+      "lon": 0.0
+    },
+    "duration": "2-5 Hours",
+    "season": [
+      "Winter",
+      "Spring",
+      "Summer",
+      "Fall"
+    ],
+    "activities": [
+      {
+        "id": "BFF8C027-7C8F-480B-A5F8-CD8CE490BFBA",
+        "name": "Hiking"
+      }
+    ],
+    "arePetsPermitted": false,
+    "images": [
+      {
+        "url": "https://www.nps.gov/common/uploads/cropped_image/D2B00F56-B711-94F7-4D438609A995DAC6.jpg",
+        "title": "Beaver Ponds Trail",
+        "altText": "Hikers travel along a trail through the sagebrush with a mountain peak in the distance.",
+        "caption": "",
+        "credit": "NPS / Neal Herbert"
+      }
+    ],
+    "isReservationRequired": false,
+    "doFeesApply": false,
+    "tags": [
+      "Yellowstone National Park",
+      "trail",
+      "Beaver Ponds Trail",
+      "day hike",
+      "Mammoth Hot Springs",
+      "moderately strenuous hike",
+      "A few hours"
+    ]
+  },
+  {
+    "id": "95316983-D7EB-4CD2-9F4A-4F8E87A71F5C",
+    "title": "Mount Washburn Bike Trail",
+    "shortDescription": "Between Canyon Village and Tower Junction hardy cyclists can ride three miles to the top of Mount Washburn. Access is from the Chittenden Road parking area to the summit of Mount Washburn.",
+    "longDescription": "<p>Between Canyon Village and Tower Junction hardy cyclists can ride three miles to the top of Mount Washburn. Access is from the Chittenden Road parking area to the summit of Mount Washburn. This is a steep ride on a dirt and gravel road with an elevation gain of 1,500 feet in 2.5 miles.\u00a0<em>Roads will not be free of cars during these times: bicyclists will encounter employees, contractors, plows, and other administrative vehicles on the roads.\u00a0</em>Bicycles are NOT permitted on the hiking trail between the summit and Dunraven Pass parking area.</p> <p><strong>Alerts</strong>: Be alert for bears: both black and grizzly bears forage in this area. Ride with bear spray, have it accessible, and know how to use it. Federal regulations require you to stay at least 100 yards (91 m) away from bears and wolves, and at least 25 yards (23 m) away from bison and all other wild animals.</p>",
+    "location": {
+      "lat": 0.0,
+      "lon": 0.0
+    },
+    "duration": "2-5 Hours",
+    "season": [
+      "Summer"
+    ],
+    "activities": [
+      {
+        "id": "299CB934-88DC-474F-A33D-E43E29A149C2",
+        "name": "Mountain Biking"
+      }
+    ],
+    "arePetsPermitted": false,
+    "images": [
+      {
+        "url": "https://www.nps.gov/common/uploads/cropped_image/494A3A6A-0C69-6C54-8C7C1BFF6439F15A.jpg",
+        "title": "",
+        "altText": "Two bikers on a dirt road with green trees and standing snags. Snow covers some of the landscape.",
+        "caption": "",
+        "credit": ""
+      }
+    ],
+    "isReservationRequired": false,
+    "doFeesApply": false,
+    "tags": [
+      "Yellowstone National Park",
+      "Yellowstone National Park bike trail",
+      "Canyon Area",
+      "biking",
+      "Mount Washburn",
+      "Bike Trail"
+    ]
+  },
+  {
+    "id": "82ACD62E-7FC4-4AC4-9F0E-812335780E06",
+    "title": "Ride a snowmobile or snowcoach in Yellowstone",
+    "shortDescription": "Get a taste of what snowmobiling or riding a snowcoach in Yellowstone is like.",
+    "longDescription": "Winter in Yellowstone means snow. Most of the park's roads are closed to normal vehicles. Guided snowmobile or snowcoch tours provide a way to enjoy the beauty of Yellowstone in winter.",
+    "location": {
+      "lat": 0.0,
+      "lon": 0.0
+    },
+    "duration": "",
+    "season": [
+      "Winter"
+    ],
+    "activities": [
+      {
+        "id": "7C912B83-1B1B-4807-9B66-97C12211E48E",
+        "name": "Snowmobiling"
+      }
+    ],
+    "arePetsPermitted": false,
+    "images": [
+      {
+        "url": "https://www.nps.gov/common/uploads/cropped_image/CB4A50F7-BC62-0EC8-4BD3271510D87D06.jpg",
+        "title": "Snowmobile Tour",
+        "altText": "A line of snowmobiles move along a snowy track that leads across a snow-covered valley.",
+        "caption": "A line of snowmobilers head across the snowy Yellowstone landscape.",
+        "credit": "NPS"
+      }
+    ],
+    "isReservationRequired": true,
+    "doFeesApply": true,
+    "tags": [
+      "Yellowstone National Park",
+      "winter",
+      "snowmobile",
+      "Snowcoach"
+    ]
+  },
+  {
+    "id": "65A41109-1B30-444B-9FEF-D45B669EEB33",
+    "title": "Fountain Freight Road Bike Trail",
+    "shortDescription": "Six miles north of Old Faithful, bikes are allowed on the Fountain Freight Road, an old dirt and gravel road now closed to autos.",
+    "longDescription": "<p>Bikes are allowed on the Fountain Freight Road, an old dirt and gravel road now closed to automobiles. Most of this trail is fairly level, yet mountain bikes are recommended. The\u00a0entire route is a four mile\u00a0(6.4\u00a0km)\u00a0ride in one direction, or an eight mile (12.8 km) ride there and back.</p> <p>Parking at the south end of Fountain Flat Drive at the Fairy Falls Trailhead can be a challenge during the summer. Parking at the north end, while more limited, is often less crowded.</p> <p>Bikes are not allowed on the trail out to Fairy Falls. You can park your bike where the Fairy Falls Trail splits off from the Fountain Freight Road and hike to Fairy Falls.</p> <p><strong>Alerts:</strong> Be alert for bears: both black and grizzly bears forage in this area. Watch for bison. Federal regulations require you to stay at least 100 yards (91 m) away from bears and wolves, and at least 25 yards (23 m) away from bison and all other wild animals.</p>",
+    "location": {
+      "lat": 44.662296295166,
+      "lon": -111.099815368652
+    },
+    "duration": "2-4 Hours",
+    "season": [
+      "Summer",
+      "Fall"
+    ],
+    "activities": [
+      {
+        "id": "299CB934-88DC-474F-A33D-E43E29A149C2",
+        "name": "Mountain Biking"
+      }
+    ],
+    "arePetsPermitted": false,
+    "images": [
+      {
+        "url": "https://www.nps.gov/common/uploads/cropped_image/9C7BDDD0-1DD8-B71B-0B696349D0B7C255.jpg",
+        "title": "",
+        "altText": "Five cyclists ride on a trail with steam rising from a geysers in the background.",
+        "caption": "",
+        "credit": ""
+      }
+    ],
+    "isReservationRequired": false,
+    "doFeesApply": false,
+    "tags": [
+      "Yellowstone National Park",
+      "Old Faithful Area",
+      "Fountain Freight Trail",
+      "Bike Trail"
+    ]
+  },
+  {
+    "id": "B924E162-E637-4F03-9DD5-C1B705F67128",
+    "title": "Watch and Listen to a Geyser",
+    "shortDescription": "Experiencing the sights and sounds of geysers is a feast for the senses, whether they erupt or are between eruptions.",
+    "longDescription": "<p>Yellowstone is home to more than 500 geysers; that's more than half of the total active geysers on Earth! Geysers come in all sorts of shapes and levels of activity, from towering eruptions that occur sporadically to small fountains of steaming hot water that erupt almost continuously. Each geyser truly is unique.</p> <p>Take a moment or more to listen to the underground activity, watch for signs of an imminent eruption, or enjoy the show of an actual eruption.</p> <p>For the latest geyser predictions for six geysers that NPS rangers monitor, check out the <a href=\"https://www.nps.gov/yell/planyourvisit/geyser-activity.htm\">Current Geyser Activity</a> web page.</p>",
+    "location": {
+      "lat": 0.0,
+      "lon": 0.0
+    },
+    "duration": "5-120 Minutes",
+    "season": [
+      "Winter",
+      "Spring",
+      "Summer",
+      "Fall"
+    ],
+    "activities": [
+      {
+        "id": "A0631906-9672-4583-91DE-113B93DB6B6E",
+        "name": "Self-Guided Tours - Walking"
+      }
+    ],
+    "arePetsPermitted": false,
+    "images": [
+      {
+        "url": "https://www.nps.gov/common/uploads/cropped_image/1D40BB5B-B2CA-9516-62D21420F3CEA29E.jpg",
+        "title": "Erupting Geyser",
+        "altText": "Water and steam erupt up out of the ground as people stand on a boardwalk and watch.",
+        "caption": "People watch a geyser erupt",
+        "credit": "NPS"
+      }
+    ],
+    "isReservationRequired": false,
+    "doFeesApply": false,
+    "tags": [
+      "Yellowstone National Park",
+      "geyser",
+      "Geyser Basin",
+      "eruption",
+      "Upper Geyser Basin",
+      "Black Sand Basin",
+      "Biscuit Basin",
+      "Fountain Paint Pot",
+      "Norris Geyser Basin",
+      "Artists Paintpots",
+      "Firehole Lake Drive"
+    ]
+  },
+  {
+    "id": "9231558E-F31F-46FD-BCB3-0AA4AFEFD08C",
+    "title": "Black Butte Ski Trail",
+    "shortDescription": "The Black Butte Ski Trail is a 14 mile (22.6 km) roundtrip ski that follows Black Butte Creek and offers mountain views.",
+    "longDescription": "<p>The Black Butte Ski Trail is a 14-mile (22.6-km) round-trip ski that follows Black Butte Creek and offers mountain views. The trailhead is located 28.8 miles (46.3 km) north of West Yellowstone along US Highway 191. The trail follows Black Butte Creek with many short, steep sections, gaining 769 ft (234 m) in elevation between the trailhead and Daly Creek Cutoff (2 miles / 3.2 km) west to Daly Creek Trail). From the junction with the Daly Creek Cutoff, the trail climbs for 4 miles (6.4 km) to Bighorn Peak. The Daly Creek Cutoff (2.2 miles / 3.5 km) can be used to connect to the Daly Creek Trail.</p> <p><b>Notes:</b> Bison and elk frequent this trail. Federal regulations require you to stay at least 100 yards (91 m) away from bears and wolves, and at least 25 yards (23 m) away from bison and all other wild animals. CAUTION: Due to steep terrain, recommended for advanced skiers only. The last 2 miles (3.2 km) are not recommended. The trail becomes extremely steep and hard to follow, and is dangerously exposed.<br /> <br /> Check out the\u00a0<a href=\"https://www.nps.gov/thingstodo/yell-black-butte-ski-trail.htm#Details\">ski trail details and accessibility information</a>\u00a0at the bottom of this page.</p>",
+    "location": {
+      "lat": 0.0,
+      "lon": 0.0
+    },
+    "duration": "10-14 Hours",
+    "season": [
+      "Winter"
+    ],
+    "activities": [
+      {
+        "id": "F9B1D433-6B86-4804-AED7-B50A519A3B7C",
+        "name": "Skiing"
+      }
+    ],
+    "arePetsPermitted": false,
+    "images": [
+      {
+        "url": "https://www.nps.gov/common/uploads/cropped_image/DE10A435-1DD8-B71B-0B35C5D9C50FBB0C.jpg",
+        "title": "",
+        "altText": "Glimpses of mountain views can be seen through the trees along the Divide Ski Trail.",
+        "caption": "",
+        "credit": ""
+      }
+    ],
+    "isReservationRequired": false,
+    "doFeesApply": false,
+    "tags": [
+      "Yellowstone National Park",
+      "Yellowstone National Park ski trail",
+      "ski trail",
+      "snowshoe trail",
+      "snowshoeing",
+      "cross country skiing",
+      "West Yellowstone Area",
+      "most difficult ski",
+      "Mountain Views",
+      "recreation",
+      "winter recreation"
+    ]
+  },
+  {
+    "id": "E230483D-CDD5-4D5E-BEB1-96A20BF21226",
+    "title": "Bighorn Pass Ski Trail",
+    "shortDescription": "The Bighorn Pass Ski Trail provides a variety of options for skiers to experience the northwest area of Yellowstone National Park.",
+    "longDescription": "<p>The Bighorn Pass Ski Trail provides a variety of options for skiers to experience the northwest area of Yellowstone National Park. A 10.5-mile (17-km) one-way trail.</p> <ul> <li>To Fawn Pass Cutoff: 4.5 miles (7.2 km)</li> <li>Fawn Pass Cutoff to Bighorn Pass: 6 miles (9.7 km)</li> </ul> <p>Trailhead: 20.5 miles (33 km) north of West Yellowstone along US Highway 191. Avalanche Danger: Extreme in the last 2 miles (3.2 km) to Bighorn Pass. Cross the Gallatin River on a narrow bridge about 0.5 miles (0.8 km) east of the highway \u2014 use caution. Trail crosses meadows with little elevation change from the trailhead to Fawn Pass Cutoff. (The cutoff trail switchbacks uphill 1 mile (1.6 km) to Fawn Pass Trail.) The trail then climbs for 6 miles (9.7 km) to Bighorn Pass. Return the same way.</p> <p><b>Notes:</b> Bison and elk frequent this trail. Federal regulations require you to stay at least 100 yards (91 m) away from bears and wolves, and at least 25 yards (23 m) away from bison and all other wild animals.<br /> <br /> Check out the\u00a0<a href=\"https://www.nps.gov/thingstodo/yell-bighorn-pass-ski-trail.htm#Details\">ski trail details and accessibility information</a>\u00a0at the bottom of this page.</p>",
+    "location": {
+      "lat": 0.0,
+      "lon": 0.0
+    },
+    "duration": "8-10 Hours",
+    "season": [
+      "Winter"
+    ],
+    "activities": [
+      {
+        "id": "F9B1D433-6B86-4804-AED7-B50A519A3B7C",
+        "name": "Skiing"
+      }
+    ],
+    "arePetsPermitted": false,
+    "images": [
+      {
+        "url": "https://www.nps.gov/common/uploads/cropped_image/DE10A435-1DD8-B71B-0B35C5D9C50FBB0C.jpg",
+        "title": "",
+        "altText": "Glimpses of mountain views can be seen through the trees along the Divide Ski Trail.",
+        "caption": "",
+        "credit": ""
+      }
+    ],
+    "isReservationRequired": false,
+    "doFeesApply": false,
+    "tags": [
+      "Yellowstone National Park",
+      "Yellowstone National Park ski trail",
+      "ski trail",
+      "snowshoe trail",
+      "snowshoeing",
+      "cross country skiing",
+      "West Yellowstone Area",
+      "easy ski",
+      "more difficult ski",
+      "Mountain Views",
+      "recreation",
+      "winter recreation"
+    ]
+  },
+  {
+    "id": "0507D310-39E6-4A60-941D-0A9D88F8439F",
+    "title": "Pebble Creek Ski Trail",
+    "shortDescription": "The Pebble Creek Ski Trail is a 13 mile (21 km) most difficult, round-trip ski that offers skilled backcountry skiers challenging terrain and beautiful views.",
+    "longDescription": "<p>The Pebble Creek Ski Trail is a 13 mile (21 km) most difficult, one-way\u00a0ski that offers skilled backcountry skiers challenging terrain and beautiful views. This is a backcountry trail that is usually through unbroken snow. Although skied as a day trip in late winter and early spring by experienced parties, it normally requires a night out to complete. Check at the visitor center in Mammoth or the ranger stations at Tower or the Northeast Entrance for current conditions. Overnight camping requires a free backcountry use permit which must be obtained in person from the Mammoth or Old Faithful visitor centers, or West and South entrance stations.</p> <p><b>Notes:</b> CAUTION: recommended for skilled backcountry skiiers only due to stream crossings and steep terrain. Bison and elk frequent this trail. Federal regulations require you to stay at least 100 yards (91 m) away from bears and wolves, and at least 25 yards (23 m) away from bison and all other wild animals.</p> <p>Check out the <a href=\"https://www.nps.gov/thingstodo/yell-pebble-creek-ski-trail.htm#Details\">ski trail details and accessibility information</a> at the bottom of this page.</p>",
+    "location": {
+      "lat": 0.0,
+      "lon": 0.0
+    },
+    "duration": "8-10 Hours",
+    "season": [
+      "Winter"
+    ],
+    "activities": [
+      {
+        "id": "F9B1D433-6B86-4804-AED7-B50A519A3B7C",
+        "name": "Skiing"
+      }
+    ],
+    "arePetsPermitted": false,
+    "images": [
+      {
+        "url": "https://www.nps.gov/common/uploads/cropped_image/DE10A435-1DD8-B71B-0B35C5D9C50FBB0C.jpg",
+        "title": "",
+        "altText": "Glimpses of mountain views can be seen through the trees along the Divide Ski Trail.",
+        "caption": "",
+        "credit": ""
+      }
+    ],
+    "isReservationRequired": false,
+    "doFeesApply": false,
+    "tags": [
+      "Yellowstone National Park",
+      "Yellowstone National Park ski trail",
+      "ski trail",
+      "snowshoe trail",
+      "snowshoeing",
+      "cross country skiing",
+      "Northeast Area",
+      "most difficult ski",
+      "backcountry ski",
+      "forested trail",
+      "mountains",
+      "recreation",
+      "winter recreation"
+    ]
+  },
+  {
+    "id": "D930B284-58DA-460F-A91A-E0E36D714217",
+    "title": "Duck Lake Trail",
+    "shortDescription": "Climb a small hill for a view of Duck and Yellowstone lakes and the expanse of the 1988 fires that swept through this area.",
+    "longDescription": "<p>Climb a small hill for a view of Duck and Yellowstone lakes and the expanse of the 1988 fires that swept through this area. Trail descends to the shore of Duck Lake.</p> <p><b>Safety notes:</b> Always be aware of your surroundings.</p> <p><b>Trailheads:</b> West side of West Thumb Geyser Basin Parking Area.</p>",
+    "location": {
+      "lat": 0.0,
+      "lon": 0.0
+    },
+    "duration": "1-2 Hours",
+    "season": [
+      "Summer",
+      "Fall"
+    ],
+    "activities": [
+      {
+        "id": "BFF8C027-7C8F-480B-A5F8-CD8CE490BFBA",
+        "name": "Hiking"
+      }
+    ],
+    "arePetsPermitted": false,
+    "images": [
+      {
+        "url": "https://www.nps.gov/common/uploads/cropped_image/04EB9F37-1DD8-B71B-0B0809AF81CB413B.jpg",
+        "title": "",
+        "altText": "A small lake surrounded by conifer forest.",
+        "caption": "",
+        "credit": ""
+      }
+    ],
+    "isReservationRequired": false,
+    "doFeesApply": false,
+    "tags": [
+      "Yellowstone National Park",
+      "trail",
+      "day hike",
+      "moderate hike",
+      "Duck Lake",
+      "Duck Lake Trail",
+      "south",
+      "Grant Village",
+      "West Thumb Geyser Basin",
+      "An hour or two",
+      "hiking"
+    ]
+  },
+  {
+    "id": "056B950E-4FD5-4A03-BB54-AA2D55C137A0",
+    "title": "Yancey's Hole Ski Trail",
+    "shortDescription": "The Yancey's Hole Ski Trail is a 2.0 mile (3.2 km) easiest ski trail with rolling terrain and wide open views of the Yancey's Hole area.",
+    "longDescription": "<p>The Yancey's Hole Ski Trail is a 1-mile (1.6-km) easiest ski trail with rolling terrain and wide open views of the Yancey's Hole area. This trail begins at the parking area just southwest of Tower Junction. It follows the stagecoach road out to Yancey\u2019s Hole. Return by the same route.</p> <p><b>Notes:</b> Bison and elk frequent this trail. Federal regulations require you to stay at least 100 yards (91 m) away from bears and wolves, and at least 25 yards (23 m) away from bison and all other wild animals.<br /> <br /> Check out the\u00a0<a href=\"https://www.nps.gov/thingstodo/yell-yanceys-hole-ski-trail.htm#Details\">ski trail details and accessibility information</a>\u00a0at the bottom of this page.</p>",
+    "location": {
+      "lat": 0.0,
+      "lon": 0.0
+    },
+    "duration": "1-2 Hours",
+    "season": [
+      "Winter"
+    ],
+    "activities": [
+      {
+        "id": "F9B1D433-6B86-4804-AED7-B50A519A3B7C",
+        "name": "Skiing"
+      }
+    ],
+    "arePetsPermitted": false,
+    "images": [
+      {
+        "url": "https://www.nps.gov/common/uploads/cropped_image/CF4965FE-1DD8-B71B-0B8ABA1F6436242B.jpg",
+        "title": "",
+        "altText": "Two skiers make their way on a slight incline through a lodgepole pine forest.",
+        "caption": "",
+        "credit": ""
+      }
+    ],
+    "isReservationRequired": false,
+    "doFeesApply": false,
+    "tags": [
+      "Yellowstone National Park",
+      "Yellowstone National Park ski trail",
+      "ski trail",
+      "snowshoe trail",
+      "snowshoeing",
+      "cross country skiing",
+      "Tower Area",
+      "easiest ski",
+      "Mountain Views",
+      "recreation",
+      "winter recreation"
+    ]
+  },
+  {
+    "id": "3DA7A1D7-0E79-49FD-B9EB-B2A174C569EA",
+    "title": "Bighorn Loop Ski Trail",
+    "shortDescription": "The Bighorn Loop Ski Trail is a 5.5 mile (8.85 km), easy to more difficult trail taking skiers on a loop through rolling terrain with outstanding winter landscape views.",
+    "longDescription": "<p>The Bighorn Loop Ski Trail is a 5.5-mile (8.85-km), easy to more difficult trail taking skiers on a loop through rolling terrain with outstanding winter landscape views. Begin at the Indian Creek Warming Hut and follow the Indian Creek Loop for the first mile. Continue west, making a loop through rolling terrain with outstanding views of the Gallatin Mountains, Gardners Hole, and the surrounding country. After completing the loop, return to the Indian Creek Warming Hut by the same route. There is also a cut-off which heads west from the Indian Creek Warming Hut and the Indian Creek Ski Loop 0.12 miles (0.2 km).</p> <p><b>Notes:</b> Bison and elk frequent this trail. Federal regulations require you to stay at least 100 yards (91 m) away from bears and wolves, and at least 25 yards (23 m) away from bison and all other wild animals. Stay on boardwalks and designated ski trails. The ground is unstable in hydrothermal areas.</p> <p>This is a <b>ski shuttle stop</b> from Mammoth Hot Springs Hotel.</p> <p>Check out the <a href=\"https://www.nps.gov/thingstodo/yell-bighorn-loop-ski-trail.htm#Details\">ski trail details and accessibility</a> information at the bottom of this page.</p>",
+    "location": {
+      "lat": 0.0,
+      "lon": 0.0
+    },
+    "duration": "2-3 Hours",
+    "season": [
+      "Winter"
+    ],
+    "activities": [
+      {
+        "id": "F9B1D433-6B86-4804-AED7-B50A519A3B7C",
+        "name": "Skiing"
+      }
+    ],
+    "arePetsPermitted": false,
+    "images": [
+      {
+        "url": "https://www.nps.gov/common/uploads/cropped_image/CF4965FE-1DD8-B71B-0B8ABA1F6436242B.jpg",
+        "title": "",
+        "altText": "Two skiers make their way on a slight incline through a lodgepole pine forest.",
+        "caption": "",
+        "credit": ""
+      }
+    ],
+    "isReservationRequired": false,
+    "doFeesApply": false,
+    "tags": [
+      "Yellowstone National Park",
+      "Yellowstone National Park ski trail",
+      "ski trail",
+      "snowshoe trail",
+      "snowshoeing",
+      "cross country skiing",
+      "Mammoth Hot Springs",
+      "easy ski",
+      "more difficult ski",
+      "forested trail",
+      "mountains",
+      "recreation",
+      "winter recreation"
+    ]
+  }
+]

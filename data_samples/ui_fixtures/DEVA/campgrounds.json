@@ -1,0 +1,1344 @@
+[
+  {
+    "id": "F448D6D4-AA8F-48BA-B5B8-FEC826541394",
+    "name": "Emigrant Campground",
+    "description": "The campground, water system, and restrooms at Emigrant have been closed since late August 2025 due to flood damage. The damage to the 5-mile-long water pipe and associated water system is substantial and there is no estimated repair date. First-come, first-served tent-only campground with no additional fee. Located next to CA 190 at 2100' feet in elevation. This is a small campground with 10 sites southwest of Stovepipe Wells Ranger Station.",
+    "location": {
+      "lat": 36.49652164975486,
+      "lon": -117.22707243634392
+    },
+    "campsites": {
+      "totalSites": "10",
+      "tentOnly": "10",
+      "rvOnly": "0"
+    },
+    "accessibility": {
+      "wheelchairAccess": "The campground has a gravel service which is rough and rocky. A building with flush toilets is 270 feet down a dirt path. 2 steps lead to the entrance of each bathroom.",
+      "internetInfo": "No service.",
+      "cellPhoneInfo": "No service.",
+      "fireStovePolicy": "Gas burning stoves are permitted. Fires and charcoal grills are prohibited.",
+      "rvAllowed": "0",
+      "rvInfo": "Prohibited.",
+      "rvMaxLength": "0",
+      "additionalInfo": "Supplies and services such as firewood, ice, showers, internet, and other needs may be purchased at the privately operated Stovepipe Wells Resort about 10 miles away.",
+      "trailerMaxLength": "0",
+      "adaInfo": "The campground has a gravel service which is rough and rocky. A building with flush toilets is 270 feet down a dirt path. 2 steps lead to the entrance of each bathroom.",
+      "trailerAllowed": "0",
+      "accessRoads": [
+        "Unpaved Roads - All vehicles OK in good weather"
+      ],
+      "classifications": [
+        "Primitive Camping Areas"
+      ]
+    },
+    "amenities": {
+      "trashRecyclingCollection": "Yes - year round",
+      "toilets": [
+        "Flush Toilets - year round"
+      ],
+      "internetConnectivity": "No",
+      "showers": [
+        "None"
+      ],
+      "cellPhoneReception": "No",
+      "laundry": "No",
+      "amphitheater": "No",
+      "dumpStation": "No",
+      "campStore": "No",
+      "staffOrVolunteerHostOnsite": "No",
+      "potableWater": [
+        "Yes - year round"
+      ],
+      "iceAvailableForSale": "No",
+      "firewoodForSale": "No",
+      "foodStorageLockers": "No"
+    },
+    "contacts": {
+      "phoneNumbers": [
+        {
+          "phoneNumber": "760-786-3200",
+          "description": "",
+          "extension": "",
+          "type": "Voice"
+        }
+      ],
+      "emailAddresses": [
+        {
+          "description": "",
+          "emailAddress": "deva_information@nps.gov"
+        }
+      ]
+    },
+    "fees": [
+      {
+        "cost": "0.00",
+        "description": "Free.  There is no cost to camp here.  Please pay your park entry fee.",
+        "title": "Emigrant Campground Camping Fee"
+      }
+    ],
+    "images": [
+      {
+        "url": "https://www.nps.gov/common/uploads/structured_data/966AC7E9-9F70-F21F-557B62E4DBCA421B.jpg",
+        "title": "Emigrant Campground Sample Site #1",
+        "altText": "Row of loose 12 inch rocks separate a flat, gravel area. Metal picnic bench on far side.",
+        "caption": "Open views at the Emigrant tenting sites.",
+        "credit": "NPS/C. Rohe"
+      },
+      {
+        "url": "https://www.nps.gov/common/uploads/structured_data/91D21DE3-A0E4-FE1D-887449C8023F7D28.jpg",
+        "title": "Emigrant Campground Entrance",
+        "altText": "Symbol for tent on a small brown sign on a post stands left of a dirt road. White clouds dot sky.",
+        "caption": "Emigrant is a tent-only campground with 10 sites.",
+        "credit": "NPS/J.Gray"
+      },
+      {
+        "url": "https://www.nps.gov/common/uploads/structured_data/94CF24CE-B2A5-1B2C-58E63C8F488A7167.jpg",
+        "title": "Emigrant Campground Nearby Restroom",
+        "altText": "Stone building next to 4 ft wide rock path then asphalt. Space in front wall is entrance..",
+        "caption": "Flush toilets are located just outside Emigrant Campground.",
+        "credit": "NPS/J.Gray"
+      }
+    ],
+    "reservationUrl": "",
+    "isOpen": true
+  },
+  {
+    "id": "7E6E57BE-02ED-4440-AE5C-1BD6A8DE82C1",
+    "name": "Eureka Dunes Campground (Primitive)",
+    "description": "Remote campground at the base of Eureka Dunes (the tallest sand dunes in California and home to several endemic plant species). This campground is located at 2,880ft and is only accessible to high-clearance vehicles. Please drive only on existing roads and tread lightly on the dunes to protect this fragile and unique environment.",
+    "location": {
+      "lat": 37.112,
+      "lon": -117.6809
+    },
+    "campsites": {
+      "totalSites": "7",
+      "tentOnly": "0",
+      "rvOnly": "0"
+    },
+    "accessibility": {
+      "wheelchairAccess": "Uneven gravel surfaces. No pavement.",
+      "internetInfo": "",
+      "cellPhoneInfo": "",
+      "fireStovePolicy": "Fires allowed in designated rings only. Do not build additional rings. Propane cook stoves with on/off valve are permitted.",
+      "rvAllowed": "1",
+      "rvInfo": "RVs and Trailers not recommended due to rough roads. High Clearance/4WD recommended.",
+      "rvMaxLength": "0",
+      "additionalInfo": "",
+      "trailerMaxLength": "0",
+      "adaInfo": "Primitive campground. No ADA sites available.",
+      "trailerAllowed": "1",
+      "accessRoads": [
+        "Unpaved Roads - 4WD/High clearance required"
+      ],
+      "classifications": [
+        "Primitive Camping Areas"
+      ]
+    },
+    "amenities": {
+      "trashRecyclingCollection": "No",
+      "toilets": [
+        "Vault Toilets - year round"
+      ],
+      "internetConnectivity": "No",
+      "showers": [
+        "None"
+      ],
+      "cellPhoneReception": "No",
+      "laundry": "No",
+      "amphitheater": "No",
+      "dumpStation": "No",
+      "campStore": "No",
+      "staffOrVolunteerHostOnsite": "No",
+      "potableWater": [
+        "No water"
+      ],
+      "iceAvailableForSale": "No",
+      "firewoodForSale": "No",
+      "foodStorageLockers": "No"
+    },
+    "contacts": {
+      "phoneNumbers": [
+        {
+          "phoneNumber": "760-786-3200",
+          "description": "",
+          "extension": "",
+          "type": "Voice"
+        }
+      ],
+      "emailAddresses": [
+        {
+          "description": "",
+          "emailAddress": "Deva_Information@nps.gov"
+        }
+      ]
+    },
+    "fees": [
+      {
+        "cost": "0.00",
+        "description": "Park entry fee/pass required. No additional camping fee.",
+        "title": "Backcountry Campground"
+      }
+    ],
+    "images": [
+      {
+        "url": "https://www.nps.gov/common/uploads/structured_data/6DEFB12D-CE58-7B08-74962F043D4E04FF.jpg",
+        "title": "Eureka Dunes Campground",
+        "altText": "Desert campsite with picnic table, metal fire ring, view of tall sand dunes in the background",
+        "caption": "Primitive campsite with view of sand dunes",
+        "credit": "NPS Photo"
+      },
+      {
+        "url": "https://www.nps.gov/common/uploads/structured_data/61806D55-C90F-B793-A37214F0F22DBFA6.jpg",
+        "title": "Eureka Dune Campground",
+        "altText": "View of the valley, campsite, picnic table and pit toilet from the campground road.",
+        "caption": "Primitive, unpaved roads lead to the Eureka Dunes Dry Camp.",
+        "credit": "NPS Photo"
+      },
+      {
+        "url": "https://www.nps.gov/common/uploads/structured_data/7EB51F6C-FBB2-A3CB-4F3D0D014F0089B7.jpg",
+        "title": "Eureka Dune Vault Toilet",
+        "altText": "Vault toilet with sand dune in the background",
+        "caption": "Eureka Dunes campground provides picnic tables, fire rings and a vault toilet",
+        "credit": "NPS Photo"
+      },
+      {
+        "url": "https://www.nps.gov/common/uploads/structured_data/82B8EF19-95E3-70B6-AB79CB8D75E791AC.jpg",
+        "title": "Eureka Dunes Picnic Table",
+        "altText": "Campsite with picnic table with sand dunes in the background",
+        "caption": "Eureka Dunes provide a spectacular backdrop to this primitive campground.",
+        "credit": "NPS Photo"
+      }
+    ],
+    "reservationUrl": "",
+    "isOpen": true
+  },
+  {
+    "id": "2DCEC434-825E-46B0-AF59-21BE27A849A1",
+    "name": "Furnace Creek Campground",
+    "description": "Furnace Creek Campground, near the Visitor Center at 190ft below sea level, is the only NPS campground in the park that accepts reservations. It offers full RV hookups and dry RV/tent sites. Reservations can be made up to 6 months in advance for dates between October 15th and April 15th. As the most popular campground in the park, reservations are strongly recommended. From April 16 through October 14 each year, the campground reduces to 41 sites and is first-come, first-served.",
+    "location": {
+      "lat": 36.465754151086664,
+      "lon": -116.86815754448372
+    },
+    "campsites": {
+      "totalSites": "136",
+      "tentOnly": "45",
+      "rvOnly": "0"
+    },
+    "accessibility": {
+      "wheelchairAccess": "All ADA and ADA accessible sites are level with plenty of room to move about the sites. Additionally, most other non ADA sites in the campground are very ADA friendly minus the tent walk-in loop #'s 116-146.",
+      "internetInfo": "Free Wi-Fi is available at the Furnace Creek Visitor Center and Furnace Creek Ranch Hotel, just down the road.",
+      "cellPhoneInfo": "Cell service is very spotty. Not all carriers offer reception in Death Valley. Expect zero connectivity during periods of higher-than-normal visitation (holidays, weekends, special events).",
+      "fireStovePolicy": "Fires must be in an NPS provided grate. Barbeque grills are prohibited. Gas burning stoves are allowed.",
+      "rvAllowed": "1",
+      "rvInfo": "Sites 22, 49, 77, and 84 allow RV and trailers. Sites 115, 147, & 149 are strictly tent only.",
+      "rvMaxLength": "0",
+      "additionalInfo": "Additional services such as showers and laundry facilities are available for a fee nearby at privately owned Furnace Creek Ranch.",
+      "trailerMaxLength": "0",
+      "adaInfo": "Site #'s 22 and 147 are ADA sites with modified firegrates and picnic tables. The asphalt parking surface is level with a nearby unpaved area for tents. Site #'s 77 & 49 are ADA sites with RV hookup including water, sewer and electrical connections, as well as a modified firegrate and picnic table at the site. Site #'s 84, 115, and 149 are ADA accessible sites with modified fire grates and picnic tables. The asphalt parking surface is level with a nearby unpaved area for tents. Site # 74 is an ADA accessible site with RV hookup including water, sewer and electrical connections, as well as a modified firegrate and picnic table at the site.",
+      "trailerAllowed": "1",
+      "accessRoads": [
+        "Paved Roads - All vehicles OK"
+      ],
+      "classifications": [
+        "Developed Campground"
+      ]
+    },
+    "amenities": {
+      "trashRecyclingCollection": "Yes - year round",
+      "toilets": [
+        "Flush Toilets - year round"
+      ],
+      "internetConnectivity": "No",
+      "showers": [
+        "None"
+      ],
+      "cellPhoneReception": "No",
+      "laundry": "No",
+      "amphitheater": "Yes - seasonal",
+      "dumpStation": "Yes - year round",
+      "campStore": "Yes - year round",
+      "staffOrVolunteerHostOnsite": "Yes - seasonal",
+      "potableWater": [
+        "Yes - year round"
+      ],
+      "iceAvailableForSale": "No",
+      "firewoodForSale": "No",
+      "foodStorageLockers": "No"
+    },
+    "contacts": {
+      "phoneNumbers": [
+        {
+          "phoneNumber": "7607863203",
+          "description": "",
+          "extension": "",
+          "type": "Voice"
+        }
+      ],
+      "emailAddresses": [
+        {
+          "description": "",
+          "emailAddress": "deva_information@nps.gov"
+        }
+      ]
+    },
+    "fees": [
+      {
+        "cost": "30.00",
+        "description": "Standard campsite. No more than eight people and two vehicles or one recreational vehicle per site. Larger groups wishing to camp together can reserve group sites at the Furnace Creek Campground.",
+        "title": "Standard RV/Tent Sites"
+      },
+      {
+        "cost": "44.00",
+        "description": "Standard RV/Tent site fee $30 (half-price for Senior and Access pass holders) plus $14 Utility Fee (not discounted).\n\nFull Hookup Sites provide 30/50-amp electrical service, sewer, and water.",
+        "title": "Full Hook-up Sites"
+      },
+      {
+        "cost": "40.00",
+        "description": "These group sites are suitable for 9-15 people and up to 4 vehicles.\nThere are no group site discounts or reduced rates for Senior/Access pass holders.",
+        "title": "Group Sites #3, 4, 5"
+      },
+      {
+        "cost": "60.00",
+        "description": "These group sites are suitable for 9 to 40 people and up to 10 vehicles.\nThere are no group site discounts or reduced rates for Senior/Access pass holders.",
+        "title": "Group Sites #1 and #2"
+      }
+    ],
+    "images": [
+      {
+        "url": "https://www.nps.gov/common/uploads/structured_data/00945986-0D77-3AA3-149E59F044142A98.jpg",
+        "title": "Furnace Creek Campground kiosk",
+        "altText": "a small building with a flagpole",
+        "caption": "Rangers are available to take campground fees.",
+        "credit": "NPS"
+      },
+      {
+        "url": "https://www.nps.gov/common/uploads/structured_data/009F2081-D2D6-8CE8-3EF88B9A23588345.jpg",
+        "title": "Furnace Creek Campground",
+        "altText": "a truck and camper on a paved site with sparse vegetation",
+        "caption": "Sites are paved to accommodate level trailer parking.",
+        "credit": "NPS"
+      },
+      {
+        "url": "https://www.nps.gov/common/uploads/structured_data/00A592D5-D9D1-CDA4-B908323ACC0F216D.jpg",
+        "title": "Furnace Creek Campground",
+        "altText": "tents set up on gravel",
+        "caption": "Tenting is permitted, and picnic tables and fire rings are provided.",
+        "credit": "NPS"
+      },
+      {
+        "url": "https://www.nps.gov/common/uploads/structured_data/00AEC1E9-0705-7C17-4BE0487B02A0F073.jpg",
+        "title": "Furnace Creek Campground",
+        "altText": "a campground with trailers and tents",
+        "caption": "This campground offers moderate space between sites and occasional trees.",
+        "credit": "NPS"
+      }
+    ],
+    "reservationUrl": "https://www.recreation.gov/camping/campgrounds/232496",
+    "isOpen": true
+  },
+  {
+    "id": "2BB05B85-183A-49D2-B9B6-612A7BBF3793",
+    "name": "Homestake Campground (Primitive)",
+    "description": "Extremely remote campsite at 3,785ft of elevation, accessible only by high-clearance vehicles with all-terrain tires. Access from Saline Valley Road requires navigating Lippincott Pass and should only be attempted by experienced 4-wheel drivers. There are no approved toilet facilities at this location and no water available. Pack in all that you need, pack out all that you bring.",
+    "location": {
+      "lat": 36.6376,
+      "lon": -117.5738
+    },
+    "campsites": {
+      "totalSites": "10",
+      "tentOnly": "0",
+      "rvOnly": "0"
+    },
+    "accessibility": {
+      "wheelchairAccess": "None",
+      "internetInfo": "",
+      "cellPhoneInfo": "",
+      "fireStovePolicy": "Charcoal producing fires may only be made in NPS metal fire pits. All stoves and grills must be gas burning.",
+      "rvAllowed": "0",
+      "rvInfo": "Not suitable for RVs and trailers. Access is high clearance /4 WD.",
+      "rvMaxLength": "0",
+      "additionalInfo": "",
+      "trailerMaxLength": "0",
+      "adaInfo": "Campground is not ADA accessible.",
+      "trailerAllowed": "0",
+      "accessRoads": [
+        "Unpaved Roads - 4WD/High clearance required"
+      ],
+      "classifications": [
+        "Designated Primitive Campsites"
+      ]
+    },
+    "amenities": {
+      "trashRecyclingCollection": "No",
+      "toilets": [
+        "No Toilets"
+      ],
+      "internetConnectivity": "No",
+      "showers": [
+        "None"
+      ],
+      "cellPhoneReception": "No",
+      "laundry": "No",
+      "amphitheater": "No",
+      "dumpStation": "No",
+      "campStore": "No",
+      "staffOrVolunteerHostOnsite": "No",
+      "potableWater": [
+        "No water"
+      ],
+      "iceAvailableForSale": "No",
+      "firewoodForSale": "No",
+      "foodStorageLockers": "No"
+    },
+    "contacts": {
+      "phoneNumbers": [
+        {
+          "phoneNumber": "760-786-3200",
+          "description": "",
+          "extension": "",
+          "type": "Voice"
+        }
+      ],
+      "emailAddresses": [
+        {
+          "description": "",
+          "emailAddress": "Deva_Information@nps.gov"
+        }
+      ]
+    },
+    "fees": [
+      {
+        "cost": "0.00",
+        "description": "Free (Death Valley entrance fee or Annual/Lifetime Pass required)",
+        "title": "Camping Fee"
+      }
+    ],
+    "images": [
+      {
+        "url": "https://www.nps.gov/common/uploads/structured_data/79693DBF-EB41-59B7-3B817C389F3D4EA7.jpg",
+        "title": "Homestake Site 1",
+        "altText": "Homestake Site 1 unpaved road with tent spot",
+        "caption": "Homestake is a small, primitive campground in a remote setting.",
+        "credit": "NPS Photo"
+      },
+      {
+        "url": "https://www.nps.gov/common/uploads/structured_data/7B6E5535-AE5C-4D7C-E4B9D056487215BE.jpg",
+        "title": "Homestake Site 7",
+        "altText": "View of the mountains from unpaved road.  Fire rings are provided at each campsite.",
+        "caption": "The mountain view from the campground is spectacular.",
+        "credit": "NPS Photo"
+      },
+      {
+        "url": "https://www.nps.gov/common/uploads/structured_data/7B77590C-AB5F-379E-092600DE4C66814C.jpg",
+        "title": "Homestake  Site 8",
+        "altText": "View of the mountains from campground from parking area and tent site.",
+        "caption": "The campground provides nearby access to the Racetrack playa in a spectacular setting.",
+        "credit": "NPS Photo"
+      },
+      {
+        "url": "https://www.nps.gov/common/uploads/structured_data/79CC1D1A-CA7D-76B3-59F4D89CC30638A1.jpg",
+        "title": "Group Site Homestake",
+        "altText": "Large parking and tent area for groups with mountain view.",
+        "caption": "Group camping is available for parties larger than 8 people at Homestake primitive campground.  .",
+        "credit": "NPS Photo"
+      }
+    ],
+    "reservationUrl": "",
+    "isOpen": true
+  },
+  {
+    "id": "C56C81F5-BF2C-481C-A63E-FFAB374F5664",
+    "name": "Mahogany Flat Campground (Primitive)",
+    "description": "First-come, first-served primitive campground with no additional fee located in a Pinyon Pine and Juniper forest at 8,200' elevation. Great views down into Death Valley. Located near the Telescope Peak trailhead. Dirt road access requires high-clearance vehicles, often 4x4 required. Closest available water ~30 miles north at Emigrant Rest Area. May still be impacted by snowy/icy conditions in late spring.",
+    "location": {
+      "lat": 36.23,
+      "lon": -117.068377
+    },
+    "campsites": {
+      "totalSites": "9",
+      "tentOnly": "0",
+      "rvOnly": "0"
+    },
+    "accessibility": {
+      "wheelchairAccess": "N/A",
+      "internetInfo": "",
+      "cellPhoneInfo": "",
+      "fireStovePolicy": "Fires are allowed at NPS fire pits only. No firewood collecting is permitted; bring your own wood. Fires are prohibited June 15-September 15 and periods of high fire danger.",
+      "rvAllowed": "1",
+      "rvInfo": "Winding roads lead to this primitive campground. High clearance is required, 4x4 may be necessary. Low hanging tree branches may be present.",
+      "rvMaxLength": "25",
+      "additionalInfo": "",
+      "trailerMaxLength": "12",
+      "adaInfo": "Uneven dirt surfaces, at high elevation, with some steep grades.",
+      "trailerAllowed": "1",
+      "accessRoads": [
+        "Unpaved Roads - 4WD/High clearance required"
+      ],
+      "classifications": [
+        "Designated Primitive Campsites"
+      ]
+    },
+    "amenities": {
+      "trashRecyclingCollection": "Yes - seasonal",
+      "toilets": [
+        "Vault Toilets - seasonal"
+      ],
+      "internetConnectivity": "No",
+      "showers": [
+        "None"
+      ],
+      "cellPhoneReception": "No",
+      "laundry": "No",
+      "amphitheater": "No",
+      "dumpStation": "No",
+      "campStore": "No",
+      "staffOrVolunteerHostOnsite": "No",
+      "potableWater": [
+        "No water"
+      ],
+      "iceAvailableForSale": "No",
+      "firewoodForSale": "No",
+      "foodStorageLockers": "No"
+    },
+    "contacts": {
+      "phoneNumbers": [
+        {
+          "phoneNumber": "760-786-3200",
+          "description": "",
+          "extension": "",
+          "type": "Voice"
+        }
+      ],
+      "emailAddresses": [
+        {
+          "description": "",
+          "emailAddress": "deva_information@nps.gov"
+        }
+      ]
+    },
+    "fees": [
+      {
+        "cost": "0.00",
+        "description": "This primitive campground does not have a nightly fee.",
+        "title": "Mahogany Flat Campground Fee"
+      }
+    ],
+    "images": [
+      {
+        "url": "https://www.nps.gov/common/uploads/structured_data/8AEB120C-F45E-DEAB-937A01B1CE0DF8FF.jpg",
+        "title": "Mahogany Flat Campground Sign",
+        "altText": "Pine trees surround wooden sign on wood posts reads Mahogany Flat Campground Elevation 8133 Feet.",
+        "caption": "This higher elevation campsite is closed in the winter.",
+        "credit": "NPS/J.Gray"
+      },
+      {
+        "url": "https://www.nps.gov/common/uploads/structured_data/3899EB08-9F6A-9A28-A60BE510355E4A78.jpg",
+        "title": "Mahogany Flat Campground Sample Site #1",
+        "altText": "A flat dirt circular area about 25 ft across surrounded on 3 sides by tall evergreen trees.",
+        "caption": "Sites are in a pinyon/juniper forest, with picnic tables and fire rings provided.",
+        "credit": "NPS/C. Rohe"
+      },
+      {
+        "url": "https://www.nps.gov/common/uploads/structured_data/8AC1CD54-A1D2-7D57-6188475BC15033CE.jpg",
+        "title": "Mahogany Flat Campground Sample Site #2",
+        "altText": "Dirt open area with scattered 1 ft boulders, metal picnic table, metal fire ring, & Evergreen trees.",
+        "caption": "One of a handful of tent sites from which to choose.",
+        "credit": "NPS/J. Gray"
+      },
+      {
+        "url": "https://www.nps.gov/common/uploads/structured_data/D7FF73E2-ED8A-651C-199C9D82288234F2.jpg",
+        "title": "Views from Mahogany Flat",
+        "altText": "To men stand on flat ground & point outward through pine trees to a valley below.",
+        "caption": "Breaks in the trees provide views into the valley.",
+        "credit": "NPS / J. Jurado"
+      },
+      {
+        "url": "https://www.nps.gov/common/uploads/structured_data/8B16BA4D-EBD6-573C-0894D710FD11A0A8.jpg",
+        "title": "More Views from the Campground",
+        "altText": "Flat clear area slopes down to dense trees then white-floored desert valley & blue-tinged mountains.",
+        "caption": "Sites on the east part of the camp have an amazing view of the valley floor.",
+        "credit": "NPS/J.Gray"
+      }
+    ],
+    "reservationUrl": "",
+    "isOpen": true
+  },
+  {
+    "id": "B60A752C-4A67-4A7F-806F-2876DF00243E",
+    "name": "Mesquite Spring Campground",
+    "description": "First-come, first-served campground at an elevation of 1,800 feet, located 2 miles off of the Scotty\u2019s Castle Road below Grapevine Canyon. It is a great base camp for your adventures in the northern parts of Death ValIey National Park. It is surrounded by desert mountains and geological features. Each site has a fire grate and picnic table. There are no hook-ups available. Fee is paid at the automatic pay station at the front of the campground.",
+    "location": {
+      "lat": 36.96364980809603,
+      "lon": -117.36777416151699
+    },
+    "campsites": {
+      "totalSites": "40",
+      "tentOnly": "0",
+      "rvOnly": "0"
+    },
+    "accessibility": {
+      "wheelchairAccess": "ADA access to one (1) comfort station located in the center of the campground.",
+      "internetInfo": "",
+      "cellPhoneInfo": "",
+      "fireStovePolicy": "Wood fires are allowed in the provided metal firegrates.",
+      "rvAllowed": "1",
+      "rvInfo": "The camp sites are a mixture of gravel and paved each accessed by paved roadway.",
+      "rvMaxLength": "0",
+      "additionalInfo": "",
+      "trailerMaxLength": "0",
+      "adaInfo": "There are paved roadways within the campground. There is ADA access to one (1) comfort station located in the center of the campground.",
+      "trailerAllowed": "1",
+      "accessRoads": [
+        "Paved Roads - All vehicles OK"
+      ],
+      "classifications": [
+        "Limited Development Campground"
+      ]
+    },
+    "amenities": {
+      "trashRecyclingCollection": "Yes - year round",
+      "toilets": [
+        "Flush Toilets - year round"
+      ],
+      "internetConnectivity": "No",
+      "showers": [
+        "None"
+      ],
+      "cellPhoneReception": "No",
+      "laundry": "No",
+      "amphitheater": "No",
+      "dumpStation": "Yes - year round",
+      "campStore": "No",
+      "staffOrVolunteerHostOnsite": "Yes - seasonal",
+      "potableWater": [
+        "Yes - year round"
+      ],
+      "iceAvailableForSale": "No",
+      "firewoodForSale": "No",
+      "foodStorageLockers": "No"
+    },
+    "contacts": {
+      "phoneNumbers": [
+        {
+          "phoneNumber": "760-786-3200",
+          "description": "",
+          "extension": "",
+          "type": "Voice"
+        }
+      ],
+      "emailAddresses": [
+        {
+          "description": "",
+          "emailAddress": "deva_information@nps.gov"
+        }
+      ]
+    },
+    "fees": [
+      {
+        "cost": "10.00",
+        "description": "Reduced rate for Senior and Access pass holders. Pay fee using a credit/debit card at the automated fee machine in the campground.",
+        "title": "Mesquite Campground Fee - Senior/Access Pass Rate"
+      },
+      {
+        "cost": "20.00",
+        "description": "Standard Campsite Rate per night. Pay fee using card at automated fee machine in the campground.",
+        "title": "Mesquite Campground Fee - Standard Rate"
+      }
+    ],
+    "images": [
+      {
+        "url": "https://www.nps.gov/common/uploads/structured_data/3828D36F-9DB1-B090-8EBF03429B76C872.jpg",
+        "title": "Mesquite Springs Sample Camp Site #1",
+        "altText": "Camper sits on dirt ground outside tent with bicycles nearby.",
+        "caption": "A camper enjoys their time at Mesquite campground.",
+        "credit": "NPS/K. Moses"
+      },
+      {
+        "url": "https://www.nps.gov/common/uploads/structured_data/8EAC0210-AEEC-26D0-C9DB8419F75934C2.jpg",
+        "title": "Mesquite Springs Restrooms",
+        "altText": "2 doors with square concrete ground pads on red brick building. 1 reads Men, other is open.",
+        "caption": "Two restroom buildings with flush toilets are available.",
+        "credit": "NPS/J.Gray"
+      },
+      {
+        "url": "https://www.nps.gov/common/uploads/structured_data/8F6BC479-9D7C-7242-7149CB9F761B449C.jpg",
+        "title": "Mesquite Springs Sample Site #2",
+        "altText": "Flat dirt & gravel clearing surrounded by small brown bushes has metal picnic table & fire ring.",
+        "caption": "All sites have a picnic table and fire ring.",
+        "credit": "NPS/J.Gray"
+      },
+      {
+        "url": "https://www.nps.gov/common/uploads/structured_data/8F9D17AB-F1DE-C83C-60D458520E1495BD.jpg",
+        "title": "Mesquite Springs Campground Sample Site #3",
+        "altText": "Row of small bushes separate road from site. BBQ, fire pit & table close together on dirt ground.",
+        "caption": "A few sites have pole-mounted barbeques.",
+        "credit": "NPS/J.Gray"
+      }
+    ],
+    "reservationUrl": "",
+    "isOpen": true
+  },
+  {
+    "id": "8E2A7F5B-FD6E-4367-B2E8-CA5C41758EED",
+    "name": "Saline Valley Campground (Primitive)",
+    "description": "This is a clothing-optional hot spring area approximately 35 miles from the nearest paved road. A high-clearance vehicle and all-terrain tires are necessary to access this campground and road/weather conditions may necessitate 4-wheel drive. This campground is located at 1,375ft, but requires navigating either North Pass at 7,300ft or South Pass at 5,997ft and may be inaccessible due to winter conditions.",
+    "location": {
+      "lat": 36.8056,
+      "lon": -117.7738
+    },
+    "campsites": {
+      "totalSites": "15",
+      "tentOnly": "0",
+      "rvOnly": "0"
+    },
+    "accessibility": {
+      "wheelchairAccess": "Not wheelchair accessible.",
+      "internetInfo": "",
+      "cellPhoneInfo": "",
+      "fireStovePolicy": "",
+      "rvAllowed": "0",
+      "rvInfo": "RVS and trailers not recommended. High clearance 4WD required.",
+      "rvMaxLength": "0",
+      "additionalInfo": "",
+      "trailerMaxLength": "0",
+      "adaInfo": "Not ADA accessible.",
+      "trailerAllowed": "0",
+      "accessRoads": [
+        "Unpaved Roads - 4WD/High clearance required"
+      ],
+      "classifications": [
+        "Primitive Camping Areas"
+      ]
+    },
+    "amenities": {
+      "trashRecyclingCollection": "",
+      "toilets": [],
+      "internetConnectivity": "",
+      "showers": [],
+      "cellPhoneReception": "",
+      "laundry": "",
+      "amphitheater": "",
+      "dumpStation": "",
+      "campStore": "",
+      "staffOrVolunteerHostOnsite": "",
+      "potableWater": [],
+      "iceAvailableForSale": "",
+      "firewoodForSale": "",
+      "foodStorageLockers": ""
+    },
+    "contacts": {
+      "phoneNumbers": [
+        {
+          "phoneNumber": "760-786-3200",
+          "description": "",
+          "extension": "",
+          "type": "Voice"
+        }
+      ],
+      "emailAddresses": [
+        {
+          "description": "",
+          "emailAddress": "Deva_Information@nps.gov"
+        }
+      ]
+    },
+    "fees": [
+      {
+        "cost": "0.00",
+        "description": "(Death Valley entrance fee or Annual/Lifetime Pass required)",
+        "title": "Camping Fee"
+      }
+    ],
+    "images": [
+      {
+        "url": "https://www.nps.gov/common/uploads/structured_data/7DB0EA9E-AC44-530B-2F0B7B8920D33998.jpg",
+        "title": "Saline Valley CG 1",
+        "altText": "Information Board at entrance to Campround",
+        "caption": "Saline Valley Campground is primitive camping only, with limited infrastructure and facilities.",
+        "credit": "NPS Photo"
+      },
+      {
+        "url": "https://www.nps.gov/common/uploads/structured_data/7DE7536D-A3C7-48B7-91C89F19B20BCCC6.jpg",
+        "title": "Saline Valley CG 3",
+        "altText": "Vault Toilet with view of the mountains in the background",
+        "caption": "Saline Valley CG is primitive camping only, with vault toilets and no running water.",
+        "credit": "NPS Photo"
+      },
+      {
+        "url": "https://www.nps.gov/common/uploads/structured_data/7E3715ED-0BCC-4010-9208FEEC8DB94232.jpg",
+        "title": "Saline Valley CG 4",
+        "altText": "Dirt road leading into camping area with mountains in the background",
+        "caption": "Access to Saline Valley CG in via high clearance 4 x 4 roads",
+        "credit": "NPS Photo"
+      },
+      {
+        "url": "https://www.nps.gov/common/uploads/structured_data/7E63461B-A878-CEC9-2C8775DF026C378B.jpg",
+        "title": "Saline Valley CG 2",
+        "altText": "Warm springs pool with mountains in the background",
+        "caption": "Saline Valley warm springs are located near the camping area",
+        "credit": "NPS Photo"
+      }
+    ],
+    "reservationUrl": "",
+    "isOpen": true
+  },
+  {
+    "id": "F3361651-FFA0-4671-B15E-FF496B65EA98",
+    "name": "Stovepipe Wells Campground",
+    "description": "Open seasonally, typically late fall through April 15th. First-come, first-served campground located at sea level. Fee is paid at the pay station at the front of the campground. Campground is adjacent to the Stovepipe Wells general store, ranger station, and a privately operated RV park. Guests are welcome to visit Stovepipe Wells Village to purchase pool and shower passes or take advantage of complimentary Wi-Fi.",
+    "location": {
+      "lat": 36.60664340188794,
+      "lon": -117.14776248857925
+    },
+    "campsites": {
+      "totalSites": "190",
+      "tentOnly": "28",
+      "rvOnly": "0"
+    },
+    "accessibility": {
+      "wheelchairAccess": "Road and site surface is very flat, but dirt/gravel.",
+      "internetInfo": "Free Wi-Fi is offered at the Stovepipe Wells Ranger Station just down the road.",
+      "cellPhoneInfo": "Cell service is very spotty. Not all carriers offer reception in Death Valley. Expect zero connectivity during periods of higher-than-normal visitation (holidays, weekends, special events).",
+      "fireStovePolicy": "Gas burning stoves are permitted. Charcoal grills are prohibited. Fires may are permitted in NPS provided rings, however this campground has only 28 tent only sites with firegrates.",
+      "rvAllowed": "1",
+      "rvInfo": "The sites are very narrow and somewhat short.",
+      "rvMaxLength": "0",
+      "additionalInfo": "Supplies and services such as firewood, ice, showers, and other needs may be purchased at the privately operated Stovepipe Wells Resort nearby.",
+      "trailerMaxLength": "0",
+      "adaInfo": "All sites are ADA friendly, however no sites are strictly ADA. The surface is very flat, however it is a dirt/gravel material. Restrooms have an ADA stall.",
+      "trailerAllowed": "1",
+      "accessRoads": [
+        "Unpaved Roads - All vehicles OK in good weather"
+      ],
+      "classifications": [
+        "Limited Development Campground"
+      ]
+    },
+    "amenities": {
+      "trashRecyclingCollection": "Yes - year round",
+      "toilets": [
+        "Flush Toilets - seasonal"
+      ],
+      "internetConnectivity": "No",
+      "showers": [
+        "None"
+      ],
+      "cellPhoneReception": "No",
+      "laundry": "No",
+      "amphitheater": "No",
+      "dumpStation": "Yes - seasonal",
+      "campStore": "Yes - year round",
+      "staffOrVolunteerHostOnsite": "Yes - seasonal",
+      "potableWater": [
+        "Yes - seasonal"
+      ],
+      "iceAvailableForSale": "Yes - year round",
+      "firewoodForSale": "Yes - year round",
+      "foodStorageLockers": "No"
+    },
+    "contacts": {
+      "phoneNumbers": [
+        {
+          "phoneNumber": "760-786-3200",
+          "description": "",
+          "extension": "",
+          "type": "Voice"
+        }
+      ],
+      "emailAddresses": [
+        {
+          "description": "",
+          "emailAddress": "deva_information@nps.gov"
+        }
+      ]
+    },
+    "fees": [
+      {
+        "cost": "18.00",
+        "description": "Standard Campsite Rate per night. Pay fee using a credit/debit card at the automated fee machine in the campground.",
+        "title": "Stovepipe Wells Camping - Standard Rate"
+      },
+      {
+        "cost": "9.00",
+        "description": "Reduced rate for Senior and Access pass holders. Pay fee using a credit/debit card at the automated fee machine in the campground.",
+        "title": "Stovepipe Wells Camping - Senior & Access Pass Rate"
+      }
+    ],
+    "images": [
+      {
+        "url": "https://www.nps.gov/common/uploads/structured_data/356C8A98-0F42-D6FE-D32234CC61C4C330.jpg",
+        "title": "Stovepipe Wells Campground Restroom",
+        "altText": "A rectangular building with mens and womens doors on opposite ends & a third door in center.",
+        "caption": "Bathroom facilities at Stovepipe Wells Campground.",
+        "credit": "NPS/C. Rohe"
+      },
+      {
+        "url": "https://www.nps.gov/common/uploads/structured_data/94352FE4-D65F-15E4-63E0889A679E38E1.jpg",
+        "title": "Stovepipe Tent Area",
+        "altText": "Wooden sign on post reads Tent Area Parking Only. Wood Gathering Prohibited.",
+        "caption": "There is a tent only area in the northside of the campground.",
+        "credit": "NPS/J.Gray"
+      },
+      {
+        "url": "https://www.nps.gov/common/uploads/structured_data/3590D365-E97F-E549-6ED91EFBAD9CAA32.jpg",
+        "title": "Stovepipe Wells Campground",
+        "altText": "4 metal picnic tables surround a metal fire ring on an open, gravel area.",
+        "caption": "The group fire ring is only place wood fires are permitted in Stovepipe Wells Campground.",
+        "credit": "NPS/C. Rohe"
+      },
+      {
+        "url": "https://www.nps.gov/common/uploads/structured_data/35B9A29F-9EB8-38B9-5F859A37061AAC0F.jpg",
+        "title": "Stovepipe Wells Campground",
+        "altText": "At least 8 tents line up on a gravel surface surrounded by cars.",
+        "caption": "Winter and Spring can lead to busy campgrounds.",
+        "credit": "NPS photo"
+      },
+      {
+        "url": "https://www.nps.gov/common/uploads/structured_data/940A181C-C306-A87A-31B3C692B77BDAF3.jpg",
+        "title": "Views from Stovepipe Wells Campground",
+        "altText": "Large mountains in the distance fill the background of an open, gravel lot with 2 RVs.",
+        "caption": "The Stovepipe Wells Campground is in an open area with views of the surrounding mountains.",
+        "credit": "NPS/J.Gray"
+      }
+    ],
+    "reservationUrl": "",
+    "isOpen": true
+  },
+  {
+    "id": "1C8ED3AF-8ABC-478A-A5AB-C8BB7098431E",
+    "name": "Sunset Campground",
+    "description": "Open seasonally, typically late fall through mid-April. First-come, first-served, large campground that rarely fills. This location has little to no vegetation and is comprised of desert gravels. Car and tent camping is permitted however each site DOES NOT offer a fire grate or picnic table. Campfires are not allowed in Sunset except at a few established community fire grates within the campground. Fee is paid at the pay stations in the campground.",
+    "location": {
+      "lat": 36.457287469698336,
+      "lon": -116.86191994408637
+    },
+    "campsites": {
+      "totalSites": "230",
+      "tentOnly": "0",
+      "rvOnly": "0"
+    },
+    "accessibility": {
+      "wheelchairAccess": "ADA parking and access to one (1) comfort station located on the west side of the campground at the end of \u201cD\u201d roadway.",
+      "internetInfo": "Usually available for a fee at the general store less than 1 mile away. Open Wi-Fi is regularly available at the Furnace Creek Visitor Center.",
+      "cellPhoneInfo": "Cell service is very spotty. Not all carriers offer reception in Death Valley. Expect zero connectivity during periods of higher-than-normal visitation (holidays, weekends, special events).",
+      "fireStovePolicy": "There are two group fire rings in the camp. No personal fire grates or charcoal grills are allowed. Gas burning stoves are permitted.",
+      "rvAllowed": "1",
+      "rvInfo": "All camp sites are gravel each accessed by paved roadway with the exception of the overflow camping areas are accessed by gravel roadways.",
+      "rvMaxLength": "60",
+      "additionalInfo": "Supplies and services such as showers, ice, and firewood are available for purchase nearby at Furnace Creek Ranch (less than a mile away) as well as other privately operated resorts within the park.",
+      "trailerMaxLength": "50",
+      "adaInfo": "There are paved roadways within the campground with the exception of the overflow camping areas. There is ADA parking and access to one (1) comfort station located on the west side of the campground at the end of \u201cD\u201d roadway.",
+      "trailerAllowed": "1",
+      "accessRoads": [
+        "Paved Roads - All vehicles OK"
+      ],
+      "classifications": [
+        "Developed Campground"
+      ]
+    },
+    "amenities": {
+      "trashRecyclingCollection": "Yes - seasonal",
+      "toilets": [
+        "Flush Toilets - seasonal"
+      ],
+      "internetConnectivity": "No",
+      "showers": [
+        "None"
+      ],
+      "cellPhoneReception": "No",
+      "laundry": "No",
+      "amphitheater": "No",
+      "dumpStation": "Yes - seasonal",
+      "campStore": "Yes - year round",
+      "staffOrVolunteerHostOnsite": "Yes - seasonal",
+      "potableWater": [
+        "Yes - seasonal"
+      ],
+      "iceAvailableForSale": "No",
+      "firewoodForSale": "No",
+      "foodStorageLockers": "No"
+    },
+    "contacts": {
+      "phoneNumbers": [
+        {
+          "phoneNumber": "760-786-3200",
+          "description": "",
+          "extension": "",
+          "type": "Voice"
+        }
+      ],
+      "emailAddresses": [
+        {
+          "description": "",
+          "emailAddress": "deva_info@nps.gov"
+        }
+      ]
+    },
+    "fees": [
+      {
+        "cost": "18.00",
+        "description": "Pay fee using credit/debit card at the automated fee machine in the campground.",
+        "title": "Sunset Campground Camping - Standard Rate"
+      },
+      {
+        "cost": "9.00",
+        "description": "Reduced rate for valid Senior & Access pass holders. Pay fee using \n a credit/debit card at the automated fee machine in the campground.",
+        "title": "Sunset Campground Camping - Senior/Access Pass Rate"
+      }
+    ],
+    "images": [
+      {
+        "url": "https://www.nps.gov/common/uploads/structured_data/78D9C6F2-C181-3DAA-5F793A7D2B2847F2.jpg",
+        "title": "Sunset Campground Overview",
+        "altText": "a long distance view of RVs and trailers in a gravel area with distant mountains",
+        "caption": "Sunset Campground is in a flat alluvial area with distant views of mountains.",
+        "credit": "NPS Photo / Jason Gray"
+      },
+      {
+        "url": "https://www.nps.gov/common/uploads/structured_data/AC45D0BA-C4BA-192D-31DBE479B5E3E153.jpg",
+        "title": "Sunset Campground Street View",
+        "altText": "a roadway through gravel with RVs parked at spots marked by cement curbs",
+        "caption": "Sunset Campground is in a flat alluvial area with distant views of mountains.",
+        "credit": "NPS / J. Jurado"
+      }
+    ],
+    "reservationUrl": "",
+    "isOpen": true
+  },
+  {
+    "id": "5730203B-95D6-4866-91EE-09D3B2107D1B",
+    "name": "Texas Springs Campground",
+    "description": "Typically open seasonally, late fall through April 15th. First-come, first-served campground located in the hills above Furnace Creek. Great views and some trees. No generators allowed. Each site has a fire grate and picnic table. Fee is paid at pay stations at the front of the campground and in upper loop.",
+    "location": {
+      "lat": 36.460074696220794,
+      "lon": -116.85730204297727
+    },
+    "campsites": {
+      "totalSites": "106",
+      "tentOnly": "26",
+      "rvOnly": "0"
+    },
+    "accessibility": {
+      "wheelchairAccess": "Paved road throughout the camp, with sites made of hard packed gravel. The two comfort stations at the upper loop are wheelchair accessible.",
+      "internetInfo": "Usually available for a fee at the general store less than 1 mile away. Open Wi-Fi is regularly available at the Furnace Creek Visitor Center.",
+      "cellPhoneInfo": "Cell service is very spotty. Not all carriers offer reception in Death Valley. Expect zero connectivity during periods of higher-than-normal visitation (holidays, weekends, special events).",
+      "fireStovePolicy": "For cooking stoves, use gas burning stoves only. No charcoal grills are provided. Wood fires are permitted within the provided NPS firegrates. Do not leave fires smoldering or unattended.",
+      "rvAllowed": "1",
+      "rvInfo": "All camp sites are gravel, each accessed by a paved roadway.",
+      "rvMaxLength": "35",
+      "additionalInfo": "Services such as showers, laundry, firewood, and ice can be purchased nearby at Furnace Creek Ranch.",
+      "trailerMaxLength": "25",
+      "adaInfo": "There are paved roadways within the campground with access to two comfort stations located at the upper loop.",
+      "trailerAllowed": "1",
+      "accessRoads": [
+        "Paved Roads - All vehicles OK"
+      ],
+      "classifications": [
+        "Developed Campground"
+      ]
+    },
+    "amenities": {
+      "trashRecyclingCollection": "Yes - seasonal",
+      "toilets": [
+        "Flush Toilets - seasonal"
+      ],
+      "internetConnectivity": "No",
+      "showers": [
+        "None"
+      ],
+      "cellPhoneReception": "No",
+      "laundry": "No",
+      "amphitheater": "No",
+      "dumpStation": "Yes - seasonal",
+      "campStore": "No",
+      "staffOrVolunteerHostOnsite": "Yes - seasonal",
+      "potableWater": [
+        "Yes - seasonal"
+      ],
+      "iceAvailableForSale": "No",
+      "firewoodForSale": "No",
+      "foodStorageLockers": "No"
+    },
+    "contacts": {
+      "phoneNumbers": [
+        {
+          "phoneNumber": "760-786-3200",
+          "description": "",
+          "extension": "",
+          "type": "Voice"
+        }
+      ],
+      "emailAddresses": [
+        {
+          "description": "",
+          "emailAddress": "deva_information@nps.gov"
+        }
+      ]
+    },
+    "fees": [
+      {
+        "cost": "20.00",
+        "description": "Standard Campsite Rate. Pay fee using a credit/debit card at the automated fee machine in the campground.",
+        "title": "Texas Spring Camping - Standard Rate"
+      },
+      {
+        "cost": "10.00",
+        "description": "Reduced rate for Senior and Access pass holders. Pay fee using a credit/debit card at the automated fee machine in the campground.",
+        "title": "Texas Spring Camping - Senior/Access Pass Rate"
+      }
+    ],
+    "images": [
+      {
+        "url": "https://www.nps.gov/common/uploads/structured_data/95FAA7E8-B9A9-8BB5-38210689CD25DD70.jpg",
+        "title": "Texas Spring",
+        "altText": "overlooking a valley with a few green trees surrounded by mountains",
+        "caption": "The spring which gives the campground its name is a short walk away.",
+        "credit": "NPS photo"
+      },
+      {
+        "url": "https://www.nps.gov/common/uploads/structured_data/9602F918-EFEC-EA1F-6DD00402D80F4CD1.jpg",
+        "title": "Texas Spring restrooms",
+        "altText": "a stone building with red roof tiles",
+        "caption": "Historic restrooms at the Texas Spring campground.",
+        "credit": "NPS photo"
+      }
+    ],
+    "reservationUrl": "",
+    "isOpen": true
+  },
+  {
+    "id": "DF55B96A-D2A8-4DF7-8D54-75BD36C266E2",
+    "name": "Thorndike Campground (Primitive)",
+    "description": "First-come, first-served primitive, forested campground with no additional fee located at 7,400' elevation. Accessible to high clearance vehicles (no longer than 25'), and 4x4 may be necessary. Closest available water ~29 miles north at Emigrant Rest Area. May still be impacted by snowy/icy conditions in late spring.",
+    "location": {
+      "lat": 36.236917,
+      "lon": -117.072172
+    },
+    "campsites": {
+      "totalSites": "6",
+      "tentOnly": "0",
+      "rvOnly": "0"
+    },
+    "accessibility": {
+      "wheelchairAccess": "This campground includes uneven terrain, high elevation, and steep slopes.",
+      "internetInfo": "",
+      "cellPhoneInfo": "",
+      "fireStovePolicy": "Wood fires are only allowed in NPS fire pits (provided). Fires are prohibited in summer months (June 15 to September 15) or other periods of high fire danger. Bring your own wood; firewood collecting is not permitted.",
+      "rvAllowed": "0",
+      "rvInfo": "This is a high clearance area, with a maximum total length of 25 feet. Winding roadways are present. 4x4 is often required.",
+      "rvMaxLength": "0",
+      "additionalInfo": "",
+      "trailerMaxLength": "0",
+      "adaInfo": "This campground includes uneven terrain, high elevation, and steep slopes.",
+      "trailerAllowed": "0",
+      "accessRoads": [
+        "Unpaved Roads - 4WD/High clearance required"
+      ],
+      "classifications": [
+        "Primitive Camping Areas"
+      ]
+    },
+    "amenities": {
+      "trashRecyclingCollection": "Yes - seasonal",
+      "toilets": [
+        "Vault Toilets - seasonal"
+      ],
+      "internetConnectivity": "No",
+      "showers": [
+        "None"
+      ],
+      "cellPhoneReception": "No",
+      "laundry": "No",
+      "amphitheater": "No",
+      "dumpStation": "No",
+      "campStore": "No",
+      "staffOrVolunteerHostOnsite": "No",
+      "potableWater": [
+        "No water"
+      ],
+      "iceAvailableForSale": "No",
+      "firewoodForSale": "No",
+      "foodStorageLockers": "No"
+    },
+    "contacts": {
+      "phoneNumbers": [
+        {
+          "phoneNumber": "760-786-3200",
+          "description": "",
+          "extension": "",
+          "type": "Voice"
+        }
+      ],
+      "emailAddresses": [
+        {
+          "description": "",
+          "emailAddress": "deva_information@nps.gov"
+        }
+      ]
+    },
+    "fees": [
+      {
+        "cost": "0.00",
+        "description": "This primitive campground does not have a nightly fee.",
+        "title": "Thorndike Campground"
+      }
+    ],
+    "images": [
+      {
+        "url": "https://www.nps.gov/common/uploads/structured_data/5A33F38E-03B6-F2C8-8EA76672E1A5E2AC.jpg",
+        "title": "Thorndike CG Entrance Sign",
+        "altText": "2' metal tent sign on top of small wood horizontal sign on a post reads, Thorndike Campground.",
+        "caption": "Entrance Sign for Thorndike Campground",
+        "credit": "NPS Photo / J.Gray"
+      },
+      {
+        "url": "https://www.nps.gov/common/uploads/structured_data/5A47174F-9B52-F03A-9ABEFB2E77904651.jpg",
+        "title": "Thorndike CG Sample Site",
+        "altText": "30' diameter flat space with a metal picnic table surrounded by tall trees..",
+        "caption": "Most sites include space for tent, fire ring, and metal picnic table.",
+        "credit": "NPS Photo / J.Gray"
+      },
+      {
+        "url": "https://www.nps.gov/common/uploads/structured_data/5A677A00-9603-5056-E6B9866A3EC6B51D.jpg",
+        "title": "Thorndike CP Sample Site with Tent",
+        "altText": "Orange 2-person tent set-up on flat dirt space set back between 2 tall trees.",
+        "caption": "All sites are spacious and surrounded by tall trees.",
+        "credit": "NPS Photo / J.Gray"
+      },
+      {
+        "url": "https://www.nps.gov/common/uploads/structured_data/375A90FF-E766-A98A-5BCB79ADCCA5D3BD.jpg",
+        "title": "Thorndike Campground",
+        "altText": "4 stone steps lead from road to flat dirt area surrounded by small shrubs & trees.",
+        "caption": "This primitive campground is within a pinyon pine and juniper forest.",
+        "credit": "NPS/C. Rohe"
+      },
+      {
+        "url": "https://www.nps.gov/common/uploads/structured_data/3787C5E2-905B-FA82-F100DB712B380B1A.jpg",
+        "title": "Thorndike Campground",
+        "altText": "Large flat dirt area with a metal table in the center densely surrounded by tall trees.",
+        "caption": "Most campsites offer a mixture of shade and sun.",
+        "credit": "NPS/C. Rohe"
+      }
+    ],
+    "reservationUrl": "",
+    "isOpen": true
+  },
+  {
+    "id": "322E9FDF-A46A-4C15-A726-99DA7113764A",
+    "name": "Wildrose Campground",
+    "description": "***No Water Available in the Wildrose Area. Closest available water ~31 miles north at Stovepipe Wells, CA. First-come, first-served campground with no additional fee, high in the Panamint Mountains. Located at an elevation of 4100 ft / 1250 meters. No water. No hook-ups available. Generators allowed 7am - 7pm. This area is prone to high winds. Sites are dirt and gravel surrounded by mesquite bushes and rolling hills.",
+    "location": {
+      "lat": 36.26594419854643,
+      "lon": -117.19033386548938
+    },
+    "campsites": {
+      "totalSites": "23",
+      "tentOnly": "0",
+      "rvOnly": "0"
+    },
+    "accessibility": {
+      "wheelchairAccess": "No wheelchair access, however the dirt surface is very flat.",
+      "internetInfo": "",
+      "cellPhoneInfo": "",
+      "fireStovePolicy": "Fires are permitted in NPS provided pits only***. Charcoal grills are prohibited. Gas burning stoves are permitted. ***Fires are typically prohibited between June 15 and September 15 or during periods of high fire danger.",
+      "rvAllowed": "1",
+      "rvInfo": "The road up to the camp has a 25 foot length restriction. This applies to total length of vehicle with trailer. Any vehicle that can make the steep road trip will fit into the campsites.",
+      "rvMaxLength": "25",
+      "additionalInfo": "",
+      "trailerMaxLength": "10",
+      "adaInfo": "There are no ADA sites, however the area is open with a flat dirt/gravel surface. Pit toilets are primitive.",
+      "trailerAllowed": "1",
+      "accessRoads": [
+        "Paved Roads - All vehicles OK"
+      ],
+      "classifications": [
+        "Primitive Camping Areas"
+      ]
+    },
+    "amenities": {
+      "trashRecyclingCollection": "Yes - year round",
+      "toilets": [
+        "Vault Toilets - year round"
+      ],
+      "internetConnectivity": "No",
+      "showers": [
+        "None"
+      ],
+      "cellPhoneReception": "No",
+      "laundry": "No",
+      "amphitheater": "No",
+      "dumpStation": "No",
+      "campStore": "No",
+      "staffOrVolunteerHostOnsite": "No",
+      "potableWater": [
+        "No water"
+      ],
+      "iceAvailableForSale": "No",
+      "firewoodForSale": "No",
+      "foodStorageLockers": "No"
+    },
+    "contacts": {
+      "phoneNumbers": [
+        {
+          "phoneNumber": "760-786-3200",
+          "description": "",
+          "extension": "",
+          "type": "Voice"
+        }
+      ],
+      "emailAddresses": [
+        {
+          "description": "",
+          "emailAddress": "deva_information@nps.gov"
+        }
+      ]
+    },
+    "fees": [
+      {
+        "cost": "0.00",
+        "description": "Wildrose Campground is a free.  Please pay your park entry fee to show your support of the park.",
+        "title": "Wildrose Camping Fee"
+      }
+    ],
+    "images": [
+      {
+        "url": "https://www.nps.gov/common/uploads/structured_data/314CE206-9CDA-4B3A-551AC0FAD9E0B846.jpg",
+        "title": "Wildrose Information Board",
+        "altText": "Eye level bulletin board stands on 2 wood posts. Wood box with hinged top opening attached to side.",
+        "caption": "Check out the information board next to site #2 for updated campground information.",
+        "credit": "NPS/C. Rohe"
+      },
+      {
+        "url": "https://www.nps.gov/common/uploads/structured_data/8BBA59D0-0741-04D4-536754B50ADA3ACF.jpg",
+        "title": "Wildrose Campground Sample Site #1",
+        "altText": "Metal picnic table & metal fire ring on flat dirt clearing lined in the back by small dried bushes.",
+        "caption": "A table and fire ring are included at each site at Wildrose.",
+        "credit": "NPS/J.Gray"
+      },
+      {
+        "url": "https://www.nps.gov/common/uploads/structured_data/8C3979D2-DF79-1503-DE7C6A461844D574.jpg",
+        "title": "Wildrose Tents Only Loop",
+        "altText": "A wooden sign on a wood post reads tents only. Dried bushes extend behind sign right of open area.",
+        "caption": "Spaces 14 - 23 are for tents only.",
+        "credit": "NPS/J.Gray"
+      },
+      {
+        "url": "https://www.nps.gov/common/uploads/structured_data/8BF44C6E-FD2E-58A7-83FC593C36DB0BF0.jpg",
+        "title": "Wildrose Campground Sample Site #2",
+        "altText": "Dirt & gravel area is flat on the west with a gradual incline on the east side.",
+        "caption": "Two tent sites rise above the rest of the campground on the hillside.",
+        "credit": "NPS/J.Gray"
+      },
+      {
+        "url": "https://www.nps.gov/common/uploads/structured_data/317DFEDD-B2F2-6720-4E6B50FB7BFB1DC7.jpg",
+        "title": "View from Wildrose Campground",
+        "altText": "Large flat, packed dirt & gravel area with dispersed small bushes. One hill covers background.",
+        "caption": "All sites are on a plateau surrounded by rolling hills and Mesquite bushes.",
+        "credit": "NPS/C. Rohe"
+      }
+    ],
+    "reservationUrl": "",
+    "isOpen": true
+  }
+]

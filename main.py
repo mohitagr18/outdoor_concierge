@@ -137,8 +137,10 @@ with tab_chat:
             with st.spinner("Thinking..."):
                 try:
                     # Construct Request
-                    # CRITICAL: Sync session context park with UI selection
-                    st.session_state.session_context.current_park_code = st.session_state.selected_park
+                    # Use dropdown selection as FALLBACK only if no park in context yet
+                    # This preserves park context inferred from previous queries (e.g., "The Narrows" -> zion)
+                    if not st.session_state.session_context.current_park_code:
+                        st.session_state.session_context.current_park_code = st.session_state.selected_park
                     
                     from app.orchestrator import OrchestratorRequest
                     
@@ -151,11 +153,19 @@ with tab_chat:
                     if orchestrator:
                         resp = orchestrator.handle_query(req)
                         
-                        # Update Context
+                        # Update Context from response
                         st.session_state.session_context = resp.updated_context
                         
+                        # SYNC: If LLM inferred a different park, update the dropdown to match
+                        # This ensures the Explorer tab and future queries stay in sync
+                        new_park_code = resp.updated_context.get("current_park_code") if isinstance(resp.updated_context, dict) else getattr(resp.updated_context, "current_park_code", None)
+                        if new_park_code and new_park_code != st.session_state.selected_park:
+                            if new_park_code in SUPPORTED_PARKS:
+                                logger.info(f"🔄 Chat context updated park: {st.session_state.selected_park} -> {new_park_code}")
+                                st.session_state.selected_park = new_park_code
+                        
                         # Display Response
-                        st.markdown(resp.chat_response.message, unsafe_allow_html=True) # REVERTED FROM render_chat_message
+                        st.markdown(resp.chat_response.message, unsafe_allow_html=True)
                         
                         # Append to History
                         st.session_state.ui_chat_history.append({"role": "assistant", "content": resp.chat_response.message})
@@ -196,9 +206,18 @@ with tab_explorer:
     # Check if park has data before rendering
     fetcher = ParkDataFetcher(nps_client=orchestrator.nps if orchestrator else None)
     
-    if not fetcher.has_basic_data(park_code):
-        st.warning(f"⚠️ No data found for {SUPPORTED_PARKS.get(park_code, park_code)}")
-        st.info("This park needs initial data setup. This involves fetching park info, trails, and more.")
+    # Check for missing explorer-critical files (trails, photos, drives matter for Explorer tab)
+    EXPLORER_CRITICAL_FILES = ["trails_v2.json", "photo_spots.json", "scenic_drives.json"]
+    missing_critical = [f for f in EXPLORER_CRITICAL_FILES if not fetcher.data_manager.has_fixture(park_code, f)]
+    has_basic = fetcher.has_basic_data(park_code)
+    
+    if not has_basic or missing_critical:
+        if not has_basic:
+            st.warning(f"⚠️ No data found for {SUPPORTED_PARKS.get(park_code, park_code)}")
+            st.info("This park needs initial data setup. This involves fetching park info, trails, and more.")
+        else:
+            st.warning(f"⚠️ Partial data found for {SUPPORTED_PARKS.get(park_code, park_code)}")
+            st.info(f"Missing explorer data: {', '.join(missing_critical)}. Click below to complete the data setup.")
         
         missing = fetcher.get_missing_fixtures(park_code)
         with st.expander("Missing Data Files"):

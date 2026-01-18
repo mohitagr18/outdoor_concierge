@@ -1,0 +1,1284 @@
+[
+  {
+    "id": "2010AE0C-1A5A-46EF-8B65-631BF5D53852",
+    "name": "Albright Visitor Center",
+    "description": "Here you can gather park information, orient yourself to the rest of the park (including road conditions, and campground and lodge availability), shop for souvenirs, explore exhibits to learn more about the wildlife and history of Yellowstone, join a ranger program, pick up a fishing permit (fees are payable by debit or credit card), or use the restrooms.",
+    "location": {
+      "lat": 44.976369049265756,
+      "lon": -110.69953498336167
+    },
+    "url": "http://www.nps.gov/yell/planyourvisit/albright-visitor-center.htm",
+    "images": [
+      {
+        "url": "https://www.nps.gov/common/uploads/structured_data/8D72E7CE-DE3A-3677-0E3E4D3AEB7C3C7A.jpg",
+        "title": "Albright Visitor Center",
+        "altText": "A large, brown, wooden sign stands in front of a two-story, stone building.",
+        "caption": "Front of the Albright Visitor Center",
+        "credit": "NPS/Jim Peaco"
+      }
+    ],
+    "operatingHours": [
+      {
+        "exceptions": [
+          {
+            "exceptionHours": {
+              "wednesday": "9:00AM - 6:00PM",
+              "monday": "9:00AM - 6:00PM",
+              "thursday": "9:00AM - 6:00PM",
+              "sunday": "9:00AM - 6:00PM",
+              "tuesday": "9:00AM - 6:00PM",
+              "friday": "9:00AM - 6:00PM",
+              "saturday": "9:00AM - 6:00PM"
+            },
+            "startDate": "2026-03-01",
+            "name": "Spring Hours",
+            "endDate": "2026-05-17"
+          },
+          {
+            "exceptionHours": {
+              "wednesday": "9:00AM - 4:30PM",
+              "monday": "9:00AM - 4:30PM",
+              "thursday": "9:00AM - 4:30PM",
+              "sunday": "9:00AM - 4:30PM",
+              "tuesday": "9:00AM - 4:30PM",
+              "friday": "9:00AM - 4:30PM",
+              "saturday": "9:00AM - 4:30PM"
+            },
+            "startDate": "2026-09-14",
+            "name": "Fall Hours",
+            "endDate": "2026-11-22"
+          },
+          {
+            "exceptionHours": {
+              "wednesday": "8:00AM - 5:00PM",
+              "monday": "8:00AM - 5:00PM",
+              "thursday": "8:00AM - 5:00PM",
+              "sunday": "8:00AM - 5:00PM",
+              "tuesday": "8:00AM - 5:00PM",
+              "friday": "8:00AM - 5:00PM",
+              "saturday": "8:00AM - 5:00PM"
+            },
+            "startDate": "2025-11-23",
+            "name": "Winter Hours",
+            "endDate": "2026-03-15"
+          }
+        ],
+        "description": "Albright Visitor Center is located in the northern part of the park near the Mammoth Hot Springs terraces. Park information can be found on bulletin boards posted at the visitor center, as well as by using the NPS Yellowstone app.",
+        "standardHours": {
+          "wednesday": "8:00AM - 6:00PM",
+          "monday": "8:00AM - 6:00PM",
+          "thursday": "8:00AM - 6:00PM",
+          "sunday": "8:00AM - 6:00PM",
+          "tuesday": "8:00AM - 6:00PM",
+          "friday": "8:00AM - 6:00PM",
+          "saturday": "8:00AM - 6:00PM"
+        },
+        "name": "Albright Visitor Center"
+      }
+    ],
+    "addresses": [
+      {
+        "line1": "Grand Loop Road",
+        "line2": "",
+        "line3": "",
+        "city": "Yellowstone National Park",
+        "stateCode": "WY",
+        "postalCode": "82190",
+        "type": "Physical"
+      },
+      {
+        "line1": "PO Box 168",
+        "line2": "",
+        "line3": "",
+        "city": "Yellowstone National Park",
+        "stateCode": "WY",
+        "postalCode": "82190",
+        "type": "Mailing"
+      }
+    ],
+    "contacts": {
+      "phoneNumbers": [
+        {
+          "phoneNumber": "307-344-7381",
+          "description": "",
+          "extension": "",
+          "type": "Voice"
+        }
+      ],
+      "emailAddresses": [
+        {
+          "description": "",
+          "emailAddress": "YELL_Information@nps.gov"
+        }
+      ]
+    }
+  },
+  {
+    "id": "BF28C0CA-0D8A-4000-952B-DAD60226AE22",
+    "name": "Canyon Visitor Education Center",
+    "description": "Stop by the Canyon Visitor Education Center to learn more about the geologic story of the area, including the Yellowstone volcano, and view a room-size relief map of Yellowstone. You can also get orientation information, pick up a fishing permit (fees are payable by debit or credit card), shop for a souvenir, find out what ranger programs are available, watch a 20-minute film, or use the restrooms. Restrooms are available 24 hours a day.",
+    "location": {
+      "lat": 44.7347150487,
+      "lon": -110.491851983
+    },
+    "url": "https://www.nps.gov/yell/planyourvisit/canyonvc.htm",
+    "images": [
+      {
+        "url": "https://www.nps.gov/common/uploads/structured_data/93FD350C-DAF2-2B4F-DF7BFF1E3A3F4A9D.jpg",
+        "title": "Canyon Visitor Education Center",
+        "altText": "The exterior of Canyon Visitor Education Center in summer.",
+        "caption": "Visit the Canyon Visitor Education Center to learn about geology of the Yellowstone volcano and get park orientation information.",
+        "credit": "NPS/Jacob W. Frank"
+      },
+      {
+        "url": "https://www.nps.gov/common/uploads/structured_data/9402B401-CA98-B73C-AB9C0D728C249B25.jpg",
+        "title": "Canyon VEC Relief Map",
+        "altText": "A room-size relief map of Yellowstone National Park.",
+        "caption": "The large relief map in Canyon Visitor Education Center gives visitors a way to comprehend the landforms of Yellowstone.",
+        "credit": "NPS/Jacob W. Frank"
+      },
+      {
+        "url": "https://www.nps.gov/common/uploads/structured_data/941E6806-96A4-6696-00D3E907E8B736EB.jpg",
+        "title": "Canyon Visitor Education Center in winter.",
+        "altText": "A snowcoach parked in front of a snow-covered visitor center.",
+        "caption": "The lobby and restrooms of Canyon Visitor Education Center are open in the winter.",
+        "credit": "NPS/Diane Renkin"
+      }
+    ],
+    "operatingHours": [
+      {
+        "exceptions": [
+          {
+            "exceptionHours": {
+              "wednesday": "Closed",
+              "monday": "Closed",
+              "thursday": "Closed",
+              "sunday": "Closed",
+              "tuesday": "Closed",
+              "friday": "Closed",
+              "saturday": "Closed"
+            },
+            "startDate": "2026-03-10",
+            "name": "Spring Closure",
+            "endDate": "2026-04-17"
+          },
+          {
+            "exceptionHours": {
+              "wednesday": "9:00AM - 4:30PM",
+              "monday": "9:00AM - 4:30PM",
+              "thursday": "9:00AM - 4:30PM",
+              "sunday": "9:00AM - 4:30PM",
+              "tuesday": "9:00AM - 4:30PM",
+              "friday": "9:00AM - 4:30PM",
+              "saturday": "9:00AM - 4:30PM"
+            },
+            "startDate": "2026-04-18",
+            "name": "April/May Hours",
+            "endDate": "2026-05-18"
+          },
+          {
+            "exceptionHours": {
+              "wednesday": "8:00AM - 4:30PM",
+              "monday": "8:00AM - 4:30PM",
+              "thursday": "8:00AM - 4:30PM",
+              "sunday": "8:00AM - 4:30PM",
+              "tuesday": "8:00AM - 4:30PM",
+              "friday": "8:00AM - 4:30PM",
+              "saturday": "8:00AM - 4:30PM"
+            },
+            "startDate": "2026-05-18",
+            "name": "May Hours",
+            "endDate": "2026-05-25"
+          },
+          {
+            "exceptionHours": {
+              "wednesday": "9:00AM - 5:00PM",
+              "monday": "9:00AM - 5:00PM",
+              "thursday": "9:00AM - 5:00PM",
+              "sunday": "9:00AM - 5:00PM",
+              "tuesday": "9:00AM - 5:00PM",
+              "friday": "9:00AM - 5:00PM",
+              "saturday": "9:00AM - 5:00PM"
+            },
+            "startDate": "2026-09-28",
+            "name": "October Hours",
+            "endDate": "2026-11-01"
+          },
+          {
+            "exceptionHours": {
+              "wednesday": "Closed",
+              "monday": "Closed",
+              "thursday": "Closed",
+              "sunday": "Closed",
+              "tuesday": "Closed",
+              "friday": "Closed",
+              "saturday": "Closed"
+            },
+            "startDate": "2026-11-01",
+            "name": "Winter Closure",
+            "endDate": "2026-12-14"
+          },
+          {
+            "exceptionHours": {
+              "wednesday": "9:00AM - 3:00PM",
+              "monday": "9:00AM - 3:00PM",
+              "thursday": "9:00AM - 3:00PM",
+              "sunday": "9:00AM - 3:00PM",
+              "tuesday": "9:00AM - 3:00PM",
+              "friday": "9:00AM - 3:00PM",
+              "saturday": "9:00AM - 3:00PM"
+            },
+            "startDate": "2025-12-15",
+            "name": "Winter Warming Hut",
+            "endDate": "2026-03-09"
+          }
+        ],
+        "description": "Canyon Visitor Education Center is located north of the Grand Canyon of the Yellowstone River. Park information can be found on bulletin boards posted at the visitor center, as well as by using the NPS Yellowstone app.",
+        "standardHours": {
+          "wednesday": "8:00AM - 6:00PM",
+          "monday": "8:00AM - 6:00PM",
+          "thursday": "8:00AM - 6:00PM",
+          "sunday": "8:00AM - 6:00PM",
+          "tuesday": "8:00AM - 6:00PM",
+          "friday": "8:00AM - 6:00PM",
+          "saturday": "8:00AM - 6:00PM"
+        },
+        "name": "Canyon Visitor Education Center"
+      }
+    ],
+    "addresses": [
+      {
+        "line1": "Grand Loop Road",
+        "line2": "",
+        "line3": "",
+        "city": "Yellowstone National Park",
+        "stateCode": "WY",
+        "postalCode": "82190",
+        "type": "Physical"
+      },
+      {
+        "line1": "PO Box 168",
+        "line2": "",
+        "line3": "",
+        "city": "Yellowstone National Park",
+        "stateCode": "WY",
+        "postalCode": "82190",
+        "type": "Mailing"
+      }
+    ],
+    "contacts": {
+      "phoneNumbers": [
+        {
+          "phoneNumber": "307-344-7381",
+          "description": "",
+          "extension": "",
+          "type": "Voice"
+        }
+      ],
+      "emailAddresses": [
+        {
+          "description": "",
+          "emailAddress": "YELL_Information@nps.gov"
+        }
+      ]
+    }
+  },
+  {
+    "id": "24014C78-9C04-4986-BDE7-D681EAFB76CC",
+    "name": "Fishing Bridge Visitor Center and Trailside Museum",
+    "description": "The distinctive stone-and-log architecture of this old building\u2014known as \"parkitecture\"\u2014was one of several prototypes for park buildings around the country. Today, the visitor center and museum highlight the ecology of Yellowstone Lake, focusing on birds. Also stop by to visit with a ranger and find out when ranger programs are scheduled, buy a fishing permit (payable by debit or credit card), pick up a souvenir, or take in some truly stunning views of Yellowstone Lake and the surrounding mountains.",
+    "location": {
+      "lat": 44.5630151493,
+      "lon": -110.377754883
+    },
+    "url": "https://www.nps.gov/yell/planyourvisit/fishing-bridge-visitor-center.htm",
+    "images": [
+      {
+        "url": "https://www.nps.gov/common/uploads/structured_data/94D86E88-DE3D-3CCE-0F830E40552E21EC.jpg",
+        "title": "Fishing Bridge Visitor Center and Trailside Museum",
+        "altText": "Visitors walk toward a visitor center on a path through pine trees.",
+        "caption": "Visitors walk toward the Fishing Bridge Visitor Center and Trailside Museum to get park information or learn about the ecology of Yellowstone Lake.",
+        "credit": "NPS/Jim Peaco"
+      },
+      {
+        "url": "https://www.nps.gov/common/uploads/structured_data/950843BC-0B86-E746-DDA8EEE144DE0272.jpg",
+        "title": "Fishing Bridge Visitor Center",
+        "altText": "Visitors approach the back of Fishing Bridge Visitor Center.",
+        "caption": "The Fishing Bridge Visitor Center and Trailside Museum is located in a beautiful grove of coniferous trees.",
+        "credit": "NPS/Jim Peaco"
+      },
+      {
+        "url": "https://www.nps.gov/common/uploads/structured_data/9517D2F7-A60B-A57F-5044990FA077A208.jpg",
+        "title": "Fishing Bridge Visitor Center front",
+        "altText": "The front of the log structure that houses the Fishing Bridge Visitor Center.",
+        "caption": "The historic building housing the Fishing Bridge Visitor Center and Trailside Museum was built in 1931.",
+        "credit": "NPS/Jim Peaco"
+      }
+    ],
+    "operatingHours": [
+      {
+        "exceptions": [
+          {
+            "exceptionHours": {
+              "wednesday": "9:00AM - 5:00PM",
+              "monday": "9:00AM - 5:00PM",
+              "thursday": "9:00AM - 5:00PM",
+              "sunday": "9:00AM - 5:00PM",
+              "tuesday": "9:00AM - 5:00PM",
+              "friday": "9:00AM - 5:00PM",
+              "saturday": "9:00AM - 5:00PM"
+            },
+            "startDate": "2026-09-28",
+            "name": "October Hours",
+            "endDate": "2026-10-04"
+          },
+          {
+            "exceptionHours": {
+              "wednesday": "Closed",
+              "monday": "Closed",
+              "thursday": "Closed",
+              "sunday": "Closed",
+              "tuesday": "Closed",
+              "friday": "Closed",
+              "saturday": "Closed"
+            },
+            "startDate": "2025-10-05",
+            "name": "Winter Closure",
+            "endDate": "2026-05-22"
+          }
+        ],
+        "description": "Park information can be found on bulletin boards posted at the visitor center, as well as by using the NPS Yellowstone app.",
+        "standardHours": {
+          "wednesday": "8:00AM - 6:00PM",
+          "monday": "8:00AM - 6:00PM",
+          "thursday": "8:00AM - 6:00PM",
+          "sunday": "8:00AM - 6:00PM",
+          "tuesday": "8:00AM - 6:00PM",
+          "friday": "8:00AM - 6:00PM",
+          "saturday": "8:00AM - 6:00PM"
+        },
+        "name": "Fishing Bridge Visitor Center and Trailside Museum"
+      }
+    ],
+    "addresses": [
+      {
+        "line1": "Grand Loop Road",
+        "line2": "",
+        "line3": "",
+        "city": "Yellowstone National Park",
+        "stateCode": "WY",
+        "postalCode": "82190",
+        "type": "Physical"
+      },
+      {
+        "line1": "PO Box 168",
+        "line2": "",
+        "line3": "",
+        "city": "Yellowstone National Park",
+        "stateCode": "WY",
+        "postalCode": "82190",
+        "type": "Mailing"
+      }
+    ],
+    "contacts": {
+      "phoneNumbers": [
+        {
+          "phoneNumber": "307-344-7381",
+          "description": "",
+          "extension": "",
+          "type": "Voice"
+        }
+      ],
+      "emailAddresses": [
+        {
+          "description": "",
+          "emailAddress": "YELL_Information@nps.gov"
+        }
+      ]
+    }
+  },
+  {
+    "id": "7E9FF3BE-48F0-48C0-9042-EEF0DF11371C",
+    "name": "Grant Visitor Center",
+    "description": "Fire plays an important, natural role in the ecosystems found in Yellowstone National Park and the surrounding region. Learn more about this and the fires of 1988 in the exhibit hall, gather park information and trip ideas, shop for souvenirs at the park store, join a ranger program, buy a fishing, boating, or backcountry camping permit (fees are payable by debit or credit card), or use the restrooms.",
+    "location": {
+      "lat": 44.393592849,
+      "lon": -110.556348683
+    },
+    "url": "https://www.nps.gov/yell/planyourvisit/grant-visitor-center.htm",
+    "images": [
+      {
+        "url": "https://www.nps.gov/common/uploads/structured_data/964EB1C9-A18C-34AC-E53A636DF0CD8C3C.jpg",
+        "title": "Grant Visitor Center",
+        "altText": "Visitors stand in front of Grant Visitor Center",
+        "caption": "At the Grant Visitor Center you can learn how forest fires play an important part in keeping Yellowstone healthy.",
+        "credit": "NPS/Diane Renkin"
+      }
+    ],
+    "operatingHours": [
+      {
+        "exceptions": [
+          {
+            "exceptionHours": {
+              "wednesday": "Closed",
+              "monday": "Closed",
+              "thursday": "Closed",
+              "sunday": "Closed",
+              "tuesday": "Closed",
+              "friday": "Closed",
+              "saturday": "Closed"
+            },
+            "startDate": "2025-10-05",
+            "name": "Winter Closure",
+            "endDate": "2026-05-22"
+          },
+          {
+            "exceptionHours": {
+              "wednesday": "9:00AM - 5:00PM",
+              "monday": "9:00AM - 5:00PM",
+              "thursday": "9:00AM - 5:00PM",
+              "sunday": "9:00AM - 5:00PM",
+              "tuesday": "9:00AM - 5:00PM",
+              "friday": "9:00AM - 5:00PM",
+              "saturday": "9:00AM - 5:00PM"
+            },
+            "startDate": "2025-10-21",
+            "name": "September/October Hours",
+            "endDate": "2026-10-04"
+          }
+        ],
+        "description": "Park information can be found on bulletin boards posted at the visitor center, as well as by using the NPS Yellowstone app. Visitor center opening date subject to change. Check locally if in the park. Check back frequently for updates.",
+        "standardHours": {
+          "wednesday": "8:00AM - 6:00PM",
+          "monday": "8:00AM - 6:00PM",
+          "thursday": "8:00AM - 6:00PM",
+          "sunday": "8:00AM - 6:00PM",
+          "tuesday": "8:00AM - 6:00PM",
+          "friday": "8:00AM - 6:00PM",
+          "saturday": "8:00AM - 6:00PM"
+        },
+        "name": "Grant Visitor Center"
+      }
+    ],
+    "addresses": [
+      {
+        "line1": "Grand Loop Road",
+        "line2": "",
+        "line3": "",
+        "city": "Yellowstone National Park",
+        "stateCode": "WY",
+        "postalCode": "82190",
+        "type": "Physical"
+      },
+      {
+        "line1": "PO Box 168",
+        "line2": "",
+        "line3": "",
+        "city": "Yellowstone National Park",
+        "stateCode": "WY",
+        "postalCode": "82190",
+        "type": "Mailing"
+      }
+    ],
+    "contacts": {
+      "phoneNumbers": [
+        {
+          "phoneNumber": "307-344-7381",
+          "description": "",
+          "extension": "",
+          "type": "Voice"
+        }
+      ],
+      "emailAddresses": [
+        {
+          "description": "",
+          "emailAddress": "YELL_Information@nps.gov"
+        }
+      ]
+    }
+  },
+  {
+    "id": "B737D37D-E754-410D-9936-BCFFEB45804F",
+    "name": "Madison Information Station and Trailside Museum",
+    "description": "Located about halfway between Old Faithful and West Yellowstone, you can stop here for park information as visitors have been doing since 1930. The structure is an example of \"parkitecture\" or designing a building in a way that reflects the surrounding ecosystem. You can also shop for souvenirs in the park store, attend a ranger program, purchase a fishing permit (fees are payable by debit or credit card), or use the restrooms.",
+    "location": {
+      "lat": 44.6422242485,
+      "lon": -110.862114683
+    },
+    "url": "https://www.nps.gov/yell/planyourvisit/madison-information-station.htm",
+    "images": [
+      {
+        "url": "https://www.nps.gov/common/uploads/structured_data/98214146-9302-6783-C5B02B70FA411596.jpg",
+        "title": "Madison Information Station",
+        "altText": "A park ranger talks to visitors on the stone patio of the Madison Information Station",
+        "caption": "Visitors can get park information at the Madison Information Station or simply enjoy the view from the back patio.",
+        "credit": "NPS/Jim Peaco"
+      }
+    ],
+    "operatingHours": [
+      {
+        "exceptions": [
+          {
+            "exceptionHours": {
+              "wednesday": "Closed",
+              "monday": "Closed",
+              "thursday": "Closed",
+              "sunday": "Closed",
+              "tuesday": "Closed",
+              "friday": "Closed",
+              "saturday": "Closed"
+            },
+            "startDate": "2025-09-28",
+            "name": "Winter Closure",
+            "endDate": "2026-05-31"
+          }
+        ],
+        "description": "Park information can be found on bulletin boards posted at the visitor center, as well as by using the NPS Yellowstone app.",
+        "standardHours": {
+          "wednesday": "9:00AM - 4:30PM",
+          "monday": "9:00AM - 4:30PM",
+          "thursday": "9:00AM - 4:30PM",
+          "sunday": "9:00AM - 4:30PM",
+          "tuesday": "9:00AM - 4:30PM",
+          "friday": "9:00AM - 4:30PM",
+          "saturday": "9:00AM - 4:30PM"
+        },
+        "name": "Madison Information Station and Trailside Museum"
+      }
+    ],
+    "addresses": [
+      {
+        "line1": "Grand Loop Road",
+        "line2": "",
+        "line3": "",
+        "city": "Yellowstone National Park",
+        "stateCode": "WY",
+        "postalCode": "82190",
+        "type": "Physical"
+      },
+      {
+        "line1": "PO Box 168",
+        "line2": "",
+        "line3": "",
+        "city": "Yellowstone National Park",
+        "stateCode": "WY",
+        "postalCode": "82190",
+        "type": "Mailing"
+      }
+    ],
+    "contacts": {
+      "phoneNumbers": [
+        {
+          "phoneNumber": "307-344-7381",
+          "description": "",
+          "extension": "",
+          "type": "Voice"
+        }
+      ],
+      "emailAddresses": [
+        {
+          "description": "",
+          "emailAddress": "YELL_Information@nps.gov"
+        }
+      ]
+    }
+  },
+  {
+    "id": "46950353-B28C-467C-A832-73143248EFB6",
+    "name": "Museum of the National Park Ranger",
+    "description": "Once a US Army outpost built in 1908, this visitor center houses exhibits that celebrate the history of the park ranger profession. To enhance the story of the park ranger experience, this visitor center is staffed by volunteer retired rangers. The current structure replaced previous structures dating back to 1884.",
+    "location": {
+      "lat": 44.7378204494,
+      "lon": -110.696957883
+    },
+    "url": "https://www.nps.gov/yell/planyourvisit/museum-of-the-national-park-ranger.htm",
+    "images": [
+      {
+        "url": "https://www.nps.gov/common/uploads/structured_data/99460613-050D-AFA5-D573996FA40FFA5E.jpg",
+        "title": "Museum of the National Park Ranger",
+        "altText": "A wooden boardwalk leads past pine trees to the Museum of the National Park Ranger",
+        "caption": "The Museum of the National Park Ranger is housed in a former soldier station built in 1908 when the US Army was in charge of Yellowstone.",
+        "credit": "NPS/Diane Renkin"
+      },
+      {
+        "url": "https://www.nps.gov/common/uploads/structured_data/9B976C8B-F4C0-15E8-C6E92FF3768FF365.jpg",
+        "title": "Museum of the National Park Ranger back",
+        "altText": "Two bison stand in a green field in front of a flagpole and the Museum of the National Park Ranger.",
+        "caption": "Wildlife frequent the meadows near the Museum of the National Park Ranger.",
+        "credit": "NPS/Jim Peaco"
+      }
+    ],
+    "operatingHours": [
+      {
+        "exceptions": [
+          {
+            "exceptionHours": {
+              "wednesday": "Closed",
+              "monday": "Closed",
+              "thursday": "Closed",
+              "sunday": "Closed",
+              "tuesday": "Closed",
+              "friday": "Closed",
+              "saturday": "Closed"
+            },
+            "startDate": "2025-09-01",
+            "name": "Winter Closure",
+            "endDate": "2026-06-29"
+          }
+        ],
+        "description": "Park information can be found on bulletin boards posted at the Norris Geyser Basin Museum, as well as by using the NPS Yellowstone app.",
+        "standardHours": {
+          "wednesday": "10:00AM - 4:00PM",
+          "monday": "10:00AM - 4:00PM",
+          "thursday": "10:00AM - 4:00PM",
+          "sunday": "10:00AM - 4:00PM",
+          "tuesday": "10:00AM - 4:00PM",
+          "friday": "10:00AM - 4:00PM",
+          "saturday": "10:00AM - 4:00PM"
+        },
+        "name": "Museum of the National Park Ranger"
+      }
+    ],
+    "addresses": [
+      {
+        "line1": "Grand Loop Road",
+        "line2": "",
+        "line3": "",
+        "city": "Yellowstone National Park",
+        "stateCode": "WY",
+        "postalCode": "82190",
+        "type": "Physical"
+      },
+      {
+        "line1": "PO Box 168",
+        "line2": "",
+        "line3": "",
+        "city": "Yellowstone National Park",
+        "stateCode": "WY",
+        "postalCode": "82190",
+        "type": "Mailing"
+      }
+    ],
+    "contacts": {
+      "phoneNumbers": [
+        {
+          "phoneNumber": "307-344-7381",
+          "description": "",
+          "extension": "",
+          "type": "Voice"
+        }
+      ],
+      "emailAddresses": [
+        {
+          "description": "",
+          "emailAddress": "YELL_Information@nps.gov"
+        }
+      ]
+    }
+  },
+  {
+    "id": "97408BA3-6FE7-4CF7-9B02-9817D22081AD",
+    "name": "Norris Geyser Basin Museum and Information Station",
+    "description": "Situated on the ridge overlooking the Norris Geyser Basin, this historic building is staffed during the summer with rangers who provide park information and facilitate ranger programs. Visitors have been seeking information here since 1930 when the museum was built as a \"trailside museum\" to serve people traveling in their own automobiles without a guide. Restrooms are located in the parking lot.",
+    "location": {
+      "lat": 44.7264950483,
+      "lon": -110.703629383
+    },
+    "url": "https://www.nps.gov/yell/planyourvisit/norris-geyser-basin-museum.htm",
+    "images": [
+      {
+        "url": "https://www.nps.gov/common/uploads/structured_data/9C0AD1DA-E02F-1EEB-92C9941D21D72F14.jpg",
+        "title": "Norris Geyser Basin Museum",
+        "altText": "Visitors stand in front of a log and stone structure.",
+        "caption": "Visitors can enjoy the view from the Norris Geyser Basin Museum and in summer ask a ranger a question.",
+        "credit": "NPS Photo"
+      },
+      {
+        "url": "https://www.nps.gov/common/uploads/structured_data/BF6F5819-C8A9-08C3-3AE2AB4E210DE705.jpg",
+        "title": "Norris Museum",
+        "altText": "A ranger talks to visitors in front of the Norris Geyser Basin Museum",
+        "caption": "The open-air foyer of Norris Geyser Basin Museum provides great views of the basin.",
+        "credit": "NPS/Neal Herbert"
+      }
+    ],
+    "operatingHours": [
+      {
+        "exceptions": [
+          {
+            "exceptionHours": {
+              "wednesday": "Closed",
+              "monday": "Closed",
+              "thursday": "Closed",
+              "sunday": "Closed",
+              "tuesday": "Closed",
+              "friday": "Closed",
+              "saturday": "Closed"
+            },
+            "startDate": "2025-10-05",
+            "name": "Winter Closure",
+            "endDate": "2026-05-17"
+          }
+        ],
+        "description": "Park information can be found on bulletin boards posted at the visitor center, as well as by using the NPS Yellowstone app.",
+        "standardHours": {
+          "wednesday": "9:00AM - 5:00PM",
+          "monday": "9:00AM - 5:00PM",
+          "thursday": "9:00AM - 5:00PM",
+          "sunday": "9:00AM - 5:00PM",
+          "tuesday": "9:00AM - 5:00PM",
+          "friday": "9:00AM - 5:00PM",
+          "saturday": "9:00AM - 5:00PM"
+        },
+        "name": "Norris Geyser Basin Museum and Information Station"
+      }
+    ],
+    "addresses": [
+      {
+        "line1": "Grand Loop Road",
+        "line2": "",
+        "line3": "",
+        "city": "Yellowstone National Park",
+        "stateCode": "WY",
+        "postalCode": "82190",
+        "type": "Physical"
+      },
+      {
+        "line1": "PO Box 168",
+        "line2": "",
+        "line3": "",
+        "city": "Yellowstone National Park",
+        "stateCode": "WY",
+        "postalCode": "82190",
+        "type": "Mailing"
+      }
+    ],
+    "contacts": {
+      "phoneNumbers": [
+        {
+          "phoneNumber": "307-344-7381",
+          "description": "",
+          "extension": "",
+          "type": "Voice"
+        }
+      ],
+      "emailAddresses": [
+        {
+          "description": "",
+          "emailAddress": "YELL_Information@nps.gov"
+        }
+      ]
+    }
+  },
+  {
+    "id": "A4DCAB98-6937-466A-ADBD-E8D249721852",
+    "name": "Old Faithful Visitor Education Center",
+    "description": "Located near Old Faithful Geyser, this visitor center offers views of the geyser's eruption from the tall, windowed front of the visitor center. Additionally, you can gather park information, talk with a park ranger at the front desk, shop for souvenirs in the park store, delve into the natural wonders of Yellowstone in the exhibit hall, join a ranger program, or use the restrooms.",
+    "location": {
+      "lat": 44.4586122483,
+      "lon": -110.829226883
+    },
+    "url": "https://www.nps.gov/yell/planyourvisit/oldfaithfulvec.htm",
+    "images": [
+      {
+        "url": "https://www.nps.gov/common/uploads/structured_data/C0180A08-D44B-83C5-6B22046E20B2BA54.jpg",
+        "title": "Old Faithful Visitor Education Center",
+        "altText": "Visitors walk in front of an entrance to Old Faithful Visitor Education Center.",
+        "caption": "Rangers in the Old Faithful Visitor Education Center provide predictions for the next Old Faithful eruption during visitor education center open hours.",
+        "credit": "NPS/Neal Herbert"
+      },
+      {
+        "url": "https://www.nps.gov/common/uploads/structured_data/C071F035-C05B-9B13-AD71E60F6CCED0A0.jpg",
+        "title": "Old Faithful VEC",
+        "altText": "The steep-gabled roof of Old Faithful Visitor Education Center in front of a blue sky.",
+        "caption": "The Old Faithful Visitor Education Center is a LEED certified building completed in 2010.",
+        "credit": "NPS/Neal Herbert"
+      },
+      {
+        "url": "https://www.nps.gov/common/uploads/structured_data/C08924B9-A76D-6EBA-143A01A0FE73BF59.jpg",
+        "title": "Old Faithful VEC in Winter",
+        "altText": "The Old Faithful VEC in winter with snow covering its roof.",
+        "caption": "The Old Faithful Visitor Education Center is accessed in winter by oversnow vehicle.",
+        "credit": "NPS/Diane Renkin"
+      }
+    ],
+    "operatingHours": [
+      {
+        "exceptions": [
+          {
+            "exceptionHours": {
+              "wednesday": "Closed",
+              "monday": "Closed",
+              "thursday": "Closed",
+              "sunday": "Closed",
+              "tuesday": "Closed",
+              "friday": "Closed",
+              "saturday": "Closed"
+            },
+            "startDate": "2026-03-16",
+            "name": "March and April Closure",
+            "endDate": "2026-04-17"
+          },
+          {
+            "exceptionHours": {
+              "wednesday": "9:00AM - 5:00PM",
+              "monday": "9:00AM - 5:00PM",
+              "thursday": "9:00AM - 5:00PM",
+              "sunday": "9:00AM - 5:00PM",
+              "tuesday": "9:00AM - 5:00PM",
+              "friday": "9:00AM - 5:00PM",
+              "saturday": "9:00AM - 5:00PM"
+            },
+            "startDate": "2026-04-18",
+            "name": "Spring Hours",
+            "endDate": "2026-05-25"
+          },
+          {
+            "exceptionHours": {
+              "wednesday": "8:00AM - 6:00PM",
+              "monday": "8:00AM - 6:00PM",
+              "thursday": "8:00AM - 6:00PM",
+              "sunday": "8:00AM - 6:00PM",
+              "tuesday": "8:00AM - 6:00PM",
+              "friday": "8:00AM - 6:00PM",
+              "saturday": "8:00AM - 6:00PM"
+            },
+            "startDate": "2026-09-03",
+            "name": "September Hours",
+            "endDate": "2026-09-30"
+          },
+          {
+            "exceptionHours": {
+              "wednesday": "9:00AM - 5:00PM",
+              "monday": "9:00AM - 5:00PM",
+              "thursday": "9:00AM - 5:00PM",
+              "sunday": "9:00AM - 5:00PM",
+              "tuesday": "9:00AM - 5:00PM",
+              "friday": "9:00AM - 5:00PM",
+              "saturday": "9:00AM - 5:00PM"
+            },
+            "startDate": "2026-10-01",
+            "name": "October Hours",
+            "endDate": "2026-10-31"
+          },
+          {
+            "exceptionHours": {
+              "wednesday": "Closed",
+              "monday": "Closed",
+              "thursday": "Closed",
+              "sunday": "Closed",
+              "tuesday": "Closed",
+              "friday": "Closed",
+              "saturday": "Closed"
+            },
+            "startDate": "2026-11-01",
+            "name": "November and December Closure",
+            "endDate": "2026-12-14"
+          },
+          {
+            "exceptionHours": {
+              "wednesday": "9:00AM - 5:00PM",
+              "monday": "9:00AM - 5:00PM",
+              "thursday": "9:00AM - 5:00PM",
+              "sunday": "9:00AM - 5:00PM",
+              "tuesday": "9:00AM - 5:00PM",
+              "friday": "9:00AM - 5:00PM",
+              "saturday": "9:00AM - 5:00PM"
+            },
+            "startDate": "2025-12-15",
+            "name": "Winter Hours",
+            "endDate": "2026-03-15"
+          }
+        ],
+        "description": "Park information can be found on bulletin boards posted at the visitor center, as well as by using the NPS Yellowstone app.",
+        "standardHours": {
+          "wednesday": "8:00AM - 8:00PM",
+          "monday": "8:00AM - 8:00PM",
+          "thursday": "8:00AM - 8:00PM",
+          "sunday": "8:00AM - 8:00PM",
+          "tuesday": "8:00AM - 8:00PM",
+          "friday": "8:00AM - 8:00PM",
+          "saturday": "8:00AM - 8:00PM"
+        },
+        "name": "Old Faithful Visitor Education Center"
+      }
+    ],
+    "addresses": [
+      {
+        "line1": "Grand Loop Road",
+        "line2": "",
+        "line3": "",
+        "city": "Yellowstone National Park",
+        "stateCode": "WY",
+        "postalCode": "82190",
+        "type": "Physical"
+      },
+      {
+        "line1": "PO Box 168",
+        "line2": "",
+        "line3": "",
+        "city": "Yellowstone National Park",
+        "stateCode": "WY",
+        "postalCode": "82190",
+        "type": "Mailing"
+      }
+    ],
+    "contacts": {
+      "phoneNumbers": [
+        {
+          "phoneNumber": "307-344-7381",
+          "description": "",
+          "extension": "",
+          "type": "Voice"
+        }
+      ],
+      "emailAddresses": [
+        {
+          "description": "",
+          "emailAddress": "YELL_Information@nps.gov"
+        }
+      ]
+    }
+  },
+  {
+    "id": "25A690CE-C968-477A-844F-EF711168904A",
+    "name": "West Thumb Information Station",
+    "description": "A small facility at the start of the West Thumb Geyser Basin boardwalks, where you can visit with a park ranger and gather park information, shop for souvenirs in the park store, or join a ranger program. The structure was built in 1925 and is an example of historic ranger-station architecture in Yellowstone.",
+    "location": {
+      "lat": 44.415789349,
+      "lon": -110.573285483
+    },
+    "url": "https://www.nps.gov/yell/planyourvisit/west-thumb-information-station.htm",
+    "images": [
+      {
+        "url": "https://www.nps.gov/common/uploads/structured_data/C1EF6B86-D6F8-72E5-93E5A687512D968F.jpg",
+        "title": "West Thumb Information Station",
+        "altText": "A ranger gives a program to visitors in front of West Thumb Information Station.",
+        "caption": "Visitors can join rangers for programs starting at the West Thumb Information Station.",
+        "credit": "NPS/Diane Renkin"
+      }
+    ],
+    "operatingHours": [
+      {
+        "exceptions": [
+          {
+            "exceptionHours": {
+              "wednesday": "Closed",
+              "monday": "Closed",
+              "thursday": "Closed",
+              "sunday": "Closed",
+              "tuesday": "Closed",
+              "friday": "Closed",
+              "saturday": "Closed"
+            },
+            "startDate": "2025-09-28",
+            "name": "Winter Closure",
+            "endDate": "2026-05-22"
+          }
+        ],
+        "description": "Park information can be found on bulletin boards posted at the visitor center, as well as by using the NPS Yellowstone app.",
+        "standardHours": {
+          "wednesday": "9:00AM - 5:00PM",
+          "monday": "9:00AM - 5:00PM",
+          "thursday": "9:00AM - 5:00PM",
+          "sunday": "9:00AM - 5:00PM",
+          "tuesday": "9:00AM - 5:00PM",
+          "friday": "9:00AM - 5:00PM",
+          "saturday": "9:00AM - 5:00PM"
+        },
+        "name": "West Thumb Information Station"
+      }
+    ],
+    "addresses": [
+      {
+        "line1": "Grand Loop Road",
+        "line2": "",
+        "line3": "",
+        "city": "Yellowstone National Park",
+        "stateCode": "WY",
+        "postalCode": "82190",
+        "type": "Physical"
+      },
+      {
+        "line1": "PO Box 168",
+        "line2": "",
+        "line3": "",
+        "city": "Yellowstone National Park",
+        "stateCode": "WY",
+        "postalCode": "82190",
+        "type": "Mailing"
+      }
+    ],
+    "contacts": {
+      "phoneNumbers": [
+        {
+          "phoneNumber": "307-344-7381",
+          "description": "",
+          "extension": "",
+          "type": "Voice"
+        }
+      ],
+      "emailAddresses": [
+        {
+          "description": "",
+          "emailAddress": "YELL_Information@nps.gov"
+        }
+      ]
+    }
+  },
+  {
+    "id": "BC296A8B-2282-4753-95C5-2A2A32471784",
+    "name": "West Yellowstone Visitor Information Center (Chamber of Commerce Desk)",
+    "description": "Located in the town of West Yellowstone, Montana, there is a desk staffed by National Park Service rangers (summer and winters only). The building is open year-round and a second desk is staffed by the West Yellowstone Chamber of Commerce. Stop by to obtain backcountry and fishing permits, get park information or to use the restrooms.",
+    "location": {
+      "lat": 44.6583280491,
+      "lon": -111.099296983
+    },
+    "url": "https://www.nps.gov/yell/planyourvisit/west-yellowstone-visitor-information-center.htm",
+    "images": [
+      {
+        "url": "https://www.nps.gov/common/uploads/structured_data/7B50873D-E9B8-D89A-840A44101877DCFF.jpg",
+        "title": "West Yellowstone Visitor Information Center (Chamber)",
+        "altText": "Signs indicating visitor information, NPS, Forest Service on the side of the building",
+        "caption": "Visitor Information, Chamber of Commerce",
+        "credit": "NPS Photo"
+      },
+      {
+        "url": "https://www.nps.gov/common/uploads/structured_data/7B128280-DF35-F8DF-036B84B08E1799E3.jpg",
+        "title": "West Yellowstone Visitor Information Center (Chamber of Commerce)",
+        "altText": "Information desk with wildlife and safety themed decorations.",
+        "caption": "West Yellowstone Visitor Information Center (Chamber of Commerce Desk)",
+        "credit": "NPS Photo"
+      }
+    ],
+    "operatingHours": [
+      {
+        "exceptions": [
+          {
+            "exceptionHours": {
+              "wednesday": "8:00AM - 6:00PM",
+              "monday": "8:00AM - 6:00PM",
+              "thursday": "8:00AM - 6:00PM",
+              "sunday": "8:00AM - 6:00PM",
+              "tuesday": "8:00AM - 6:00PM",
+              "friday": "8:00AM - 6:00PM",
+              "saturday": "8:00AM - 6:00PM"
+            },
+            "startDate": "2026-09-05",
+            "name": "September Hours",
+            "endDate": "2026-10-01"
+          },
+          {
+            "exceptionHours": {
+              "wednesday": "8:00AM - 5:00PM",
+              "monday": "8:00AM - 5:00PM",
+              "thursday": "8:00AM - 5:00PM",
+              "sunday": "8:00AM - 5:00PM",
+              "tuesday": "8:00AM - 5:00PM",
+              "friday": "8:00AM - 5:00PM",
+              "saturday": "8:00AM - 5:00PM"
+            },
+            "startDate": "2025-10-02",
+            "name": "Winter Hours",
+            "endDate": "2026-05-26"
+          }
+        ],
+        "description": "Open daily, mid-April through September, and open weekdays, early November through mid-April.",
+        "standardHours": {
+          "wednesday": "8:00AM - 8:00PM",
+          "monday": "8:00AM - 8:00PM",
+          "thursday": "8:00AM - 8:00PM",
+          "sunday": "8:00AM - 8:00PM",
+          "tuesday": "8:00AM - 8:00PM",
+          "friday": "8:00AM - 8:00PM",
+          "saturday": "8:00AM - 8:00PM"
+        },
+        "name": "West Yellowstone Visitor Information Center (Chamber of Commerce Desk)"
+      }
+    ],
+    "addresses": [
+      {
+        "line1": "Chamber of Commerce of West Yellowstone",
+        "line2": "30 Yellowstone Avenue",
+        "line3": "",
+        "city": "West Yellowstone",
+        "stateCode": "MT",
+        "postalCode": "59758",
+        "type": "Physical"
+      },
+      {
+        "line1": "PO Box 168",
+        "line2": "",
+        "line3": "",
+        "city": "Yellowstone National Park",
+        "stateCode": "WY",
+        "postalCode": "82190",
+        "type": "Mailing"
+      }
+    ],
+    "contacts": {
+      "phoneNumbers": [
+        {
+          "phoneNumber": "406-646-7701",
+          "description": "",
+          "extension": "",
+          "type": "Voice"
+        }
+      ],
+      "emailAddresses": [
+        {
+          "description": "",
+          "emailAddress": "Yell_information@nps.gov"
+        }
+      ]
+    }
+  },
+  {
+    "id": "AF13DB25-242C-4DB9-A7BF-58D9B78B8B4B",
+    "name": "West Yellowstone Visitor Information Center (NPS Desk)",
+    "description": "Located in the town of West Yellowstone, Montana, there is a desk and backcountry office staffed by National Park Service rangers (summer and winters only). The building is open year-round and a second desk is staffed by the West Yellowstone Chamber of Commerce. Stop by to obtain backcountry and fishing permits (fees are payable by debit or credit card), to get park information, or to use the restrooms. Call 307-344-2876 for additional information.",
+    "location": {
+      "lat": 44.6583440491,
+      "lon": -111.099274982
+    },
+    "url": "https://www.nps.gov/yell/planyourvisit/west-yellowstone-visitor-information-center.htm",
+    "images": [
+      {
+        "url": "https://www.nps.gov/common/uploads/structured_data/7B02AF1B-F34C-47A0-7F0EB6337A3DD079.jpg",
+        "title": "West Yellowstone Visitor Information Center",
+        "altText": "West Yellowstone Chamber of Commerce entrance with orientation sign in front of building.",
+        "caption": "West Yellowstone Visitor Information Center (WYVIC)",
+        "credit": "NPS Photo"
+      },
+      {
+        "url": "https://www.nps.gov/common/uploads/structured_data/C56C7996-E593-8CCA-20517D9730F3C5DD.jpg",
+        "title": "West Yellowstone Information Station NPS Desk",
+        "altText": "A desk inside the West Yellowstone Visitor Information Center",
+        "caption": "The NPS desk in the West Yellowstone Information Center can provide visitors with park information and permits.",
+        "credit": "NPS/Jim Peaco"
+      }
+    ],
+    "operatingHours": [
+      {
+        "exceptions": [
+          {
+            "exceptionHours": {
+              "wednesday": "Closed",
+              "monday": "Closed",
+              "thursday": "Closed",
+              "sunday": "Closed",
+              "tuesday": "Closed",
+              "friday": "Closed",
+              "saturday": "Closed"
+            },
+            "startDate": "2026-03-16",
+            "name": "Spring Closure",
+            "endDate": "2026-04-17"
+          },
+          {
+            "exceptionHours": {
+              "wednesday": "8:00AM - 5:00PM",
+              "monday": "8:00AM - 5:00PM",
+              "thursday": "8:00AM - 5:00PM",
+              "sunday": "8:00AM - 5:00PM",
+              "tuesday": "8:00AM - 5:00PM",
+              "friday": "8:00AM - 5:00PM",
+              "saturday": "8:00AM - 5:00PM"
+            },
+            "startDate": "2026-04-18",
+            "name": "Spring Hours",
+            "endDate": "2026-05-25"
+          },
+          {
+            "exceptionHours": {
+              "wednesday": "8:00AM - 5:00PM",
+              "monday": "8:00AM - 5:00PM",
+              "thursday": "8:00AM - 5:00PM",
+              "sunday": "8:00AM - 5:00PM",
+              "tuesday": "8:00AM - 5:00PM",
+              "friday": "8:00AM - 5:00PM",
+              "saturday": "8:00AM - 5:00PM"
+            },
+            "startDate": "2026-09-07",
+            "name": "Fall Hours",
+            "endDate": "2026-11-01"
+          },
+          {
+            "exceptionHours": {
+              "wednesday": "Closed",
+              "monday": "Closed",
+              "thursday": "Closed",
+              "sunday": "Closed",
+              "tuesday": "Closed",
+              "friday": "Closed",
+              "saturday": "Closed"
+            },
+            "startDate": "2026-10-28",
+            "name": "Fall Closure",
+            "endDate": "2026-12-14"
+          },
+          {
+            "exceptionHours": {
+              "wednesday": "8:00AM - 4:00PM",
+              "monday": "8:00AM - 4:00PM",
+              "thursday": "8:00AM - 4:00PM",
+              "sunday": "8:00AM - 4:00PM",
+              "tuesday": "8:00AM - 4:00PM",
+              "friday": "8:00AM - 4:00PM",
+              "saturday": "8:00AM - 4:00PM"
+            },
+            "startDate": "2025-12-15",
+            "name": "Winter Hours (Open daily; closed during lunch hour, 12 to 1 pm)",
+            "endDate": "2026-03-15"
+          }
+        ],
+        "description": "Park information may be found on bulletin boards posted at the visitor information center, with rangers stationed outside the visitor information center, as well as by using the NPS Yellowstone app.",
+        "standardHours": {
+          "wednesday": "8:00AM - 8:00PM",
+          "monday": "8:00AM - 8:00PM",
+          "thursday": "8:00AM - 8:00PM",
+          "sunday": "8:00AM - 8:00PM",
+          "tuesday": "8:00AM - 8:00PM",
+          "friday": "8:00AM - 8:00PM",
+          "saturday": "8:00AM - 8:00PM"
+        },
+        "name": "West Yellowstone Visitor Information Center (NPS Desk)"
+      }
+    ],
+    "addresses": [
+      {
+        "line1": "Chamber of Commerce of West Yellowstone",
+        "line2": "30 Yellowstone Avenue",
+        "line3": "",
+        "city": "West Yellowstone",
+        "stateCode": "MT",
+        "postalCode": "59758",
+        "type": "Physical"
+      },
+      {
+        "line1": "PO Box 168",
+        "line2": "",
+        "line3": "",
+        "city": "Yellowstone National Park",
+        "stateCode": "WY",
+        "postalCode": "82190",
+        "type": "Mailing"
+      }
+    ],
+    "contacts": {
+      "phoneNumbers": [
+        {
+          "phoneNumber": "307-344-7381",
+          "description": "",
+          "extension": "",
+          "type": "Voice"
+        }
+      ],
+      "emailAddresses": [
+        {
+          "description": "",
+          "emailAddress": "YELL_Information@nps.gov"
+        }
+      ]
+    }
+  }
+]

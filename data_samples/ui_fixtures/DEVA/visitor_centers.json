@@ -1,0 +1,161 @@
+[
+  {
+    "id": "ADFD6475-95AF-497D-B29C-2A20D4BB2724",
+    "name": "Furnace Creek Visitor Center",
+    "description": "Furnace Creek Visitor Center is the central hub for all things Death Valley. Here you can pay the park entrance fee, speak with a ranger about trip plans or questions, participate in the Junior Ranger program, watch the 20-minute park film, explore museum displays, and browse the park bookstore.",
+    "location": {
+      "lat": 36.4617962759,
+      "lon": -116.866672707
+    },
+    "url": "",
+    "images": [
+      {
+        "url": "https://www.nps.gov/common/uploads/structured_data/FD86AB76-CB4E-2FDD-91870108F4B1292A.jpg",
+        "title": "Furnace Creek Visitor Center Entrance",
+        "altText": "A paved walkway leading to the brick one-story building.",
+        "caption": "Thousands of people visit Furnace Creek to talk to rangers, watch the park film, learn from exhibits, and shop in the bookstore.",
+        "credit": "NPS photo"
+      },
+      {
+        "url": "https://www.nps.gov/common/uploads/structured_data/FDEE7480-FEEA-9EF4-167484A4FAA4A1F2.jpg",
+        "title": "Furnace Creek Visitor Center Desk",
+        "altText": "A ranger and a visitor look at a map displayed on a desk.",
+        "caption": "Rangers are available to answer questions and help you plan your visit.",
+        "credit": "NPS/E. Hoerner"
+      },
+      {
+        "url": "https://www.nps.gov/common/uploads/structured_data/FE1821A6-9011-470F-749A989AD7D261A9.jpg",
+        "title": "Visitor Center Exhibits",
+        "altText": "Statues of two life sized desert bighorn sheep on a rocky cliff with exhibit panels.",
+        "caption": "Statues of life-sized desert bighorn sheep meet visitors at the entrance to the exhibit hall.",
+        "credit": "NPS/E. Hoerner"
+      },
+      {
+        "url": "https://www.nps.gov/common/uploads/structured_data/FE407CB1-EF78-A0AB-E5BC3E256F08A3D8.jpg",
+        "title": "Bookstore sales",
+        "altText": "Shirts, mugs, books, postcards and other items for sale.",
+        "caption": "Death Valley Natural History Association, the park's non-profit partner, offers bookstore, refreshment, and souvenir sales within the visitor center.",
+        "credit": "NPS/E. Hoerner"
+      }
+    ],
+    "operatingHours": [
+      {
+        "exceptions": [],
+        "description": "The Furnace Creek Visitor Center is open every day of the year, including holidays.",
+        "standardHours": {
+          "wednesday": "8:00AM - 5:00PM",
+          "monday": "8:00AM - 5:00PM",
+          "thursday": "8:00AM - 5:00PM",
+          "sunday": "8:00AM - 5:00PM",
+          "tuesday": "8:00AM - 5:00PM",
+          "friday": "8:00AM - 5:00PM",
+          "saturday": "8:00AM - 5:00PM"
+        },
+        "name": "Furnace Creek Visitor Center"
+      }
+    ],
+    "addresses": [
+      {
+        "line1": "Furnace Creek",
+        "line2": "",
+        "line3": "",
+        "city": "Furnace Creek",
+        "stateCode": "CA",
+        "postalCode": "92328",
+        "type": "Physical"
+      },
+      {
+        "line1": "PO Box 579",
+        "line2": "",
+        "line3": "",
+        "city": "Death Valley",
+        "stateCode": "CA",
+        "postalCode": "92328",
+        "type": "Mailing"
+      }
+    ],
+    "contacts": {
+      "phoneNumbers": [
+        {
+          "phoneNumber": "760-786-3200",
+          "description": "",
+          "extension": "",
+          "type": "Voice"
+        }
+      ],
+      "emailAddresses": [
+        {
+          "description": "",
+          "emailAddress": "deva_information@nps.gov"
+        }
+      ]
+    }
+  },
+  {
+    "id": "833A7326-472A-4C64-A6D7-459165632064",
+    "name": "Stovepipe Wells Ranger Station",
+    "description": "Stovepipe Wells Ranger Station offers a location to talk to a ranger and pay the park's entrance fee. Note: This is a contact station, not a full visitor center. The hours listed below can change and are dependent on staffing level. Please call: (760) 786-3200 for today's hours.",
+    "location": {
+      "lat": 36.60797785739216,
+      "lon": -117.14451969526942
+    },
+    "url": "",
+    "images": [
+      {
+        "url": "https://www.nps.gov/common/uploads/structured_data/839B382B-D825-5E3A-91168A8E63AE739E.jpg",
+        "title": "Stovepipe Wells Ranger Station",
+        "altText": "A small building with an awning and concrete walkway. There is a flag in the front and a sign.",
+        "caption": "Stovepipe Wells Ranger Station.",
+        "credit": "M. Skelton"
+      }
+    ],
+    "operatingHours": [
+      {
+        "exceptions": [
+          {
+            "exceptionHours": {
+              "wednesday": "Closed",
+              "monday": "Closed",
+              "thursday": "Closed",
+              "sunday": "Closed",
+              "tuesday": "Closed",
+              "friday": "9:00AM - 4:00PM",
+              "saturday": "9:00AM - 4:00PM"
+            },
+            "startDate": "2026-04-25",
+            "name": "Summer Hours",
+            "endDate": "2026-09-27"
+          }
+        ],
+        "description": "",
+        "standardHours": {
+          "wednesday": "10:00AM - 4:00PM",
+          "monday": "10:00AM - 4:00PM",
+          "thursday": "10:00AM - 4:00PM",
+          "sunday": "10:00AM - 4:00PM",
+          "tuesday": "10:00AM - 4:00PM",
+          "friday": "10:00AM - 4:00PM",
+          "saturday": "10:00AM - 4:00PM"
+        },
+        "name": "Stovepipe Wells Ranger Station"
+      }
+    ],
+    "addresses": [],
+    "contacts": {
+      "phoneNumbers": [
+        {
+          "phoneNumber": "760-786-3200",
+          "description": "",
+          "extension": "",
+          "type": "Voice"
+        }
+      ],
+      "emailAddresses": [
+        {
+          "description": "",
+          "emailAddress": "deva_information@nps.gov"
+        }
+      ]
+    }
+  }
+]

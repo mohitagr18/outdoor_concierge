@@ -147,8 +147,8 @@ class OutdoorConciergeOrchestrator:
         ctx = request.session_context
         logger.info(f"Orchestrating query: {query}")
 
-        # 1. Parse Intent
-        intent = self.llm.parse_user_intent(query)
+        # 1. Parse Intent (pass current context so LLM doesn't hallucinate park codes)
+        intent = self.llm.parse_user_intent(query, current_park_code=ctx.current_park_code)
 
         # 1b. Normalize Park Code (LLM might return full name like "yosemite" instead of "yose")
         PARK_NAME_TO_CODE = {
@@ -182,13 +182,25 @@ class OutdoorConciergeOrchestrator:
 
         if not final_park_code:
             logger.warning(f"⚠️ No park code available (intent: {intent.park_code}, context: {ctx.current_park_code})")
+            
+            # Create a friendly response asking user to specify a park
+            from app.config import SUPPORTED_PARKS
+            park_list = ", ".join([f"**{name}**" for name in SUPPORTED_PARKS.values()])
+            ask_park_message = (
+                f"I'd love to help! Could you please tell me which park you're interested in? "
+                f"I currently support: {park_list}.\n\n"
+                f"For example, try asking:\n"
+                f"- \"Tell me about Zion\"\n"
+                f"- \"What trails are in Bryce Canyon?\"\n"
+                f"- \"Plan a trip to Yosemite\""
+            )
+            
             empty_safety = SafetyStatus(status="Unknown", reason=["No park specified."])
-            resp = self.llm.generate_response(
-                query=query,
-                intent=intent,
-                safety=empty_safety,
-                chat_history=updated_context.chat_history,
-                trails=[], things_to_do=[], events=[], campgrounds=[], visitor_centers=[], webcams=[], amenities=[]
+            resp = LLMResponse(
+                message=ask_park_message,
+                safety_status="Unknown",
+                safety_reasons=["No park specified."],
+                suggested_trails=[]
             )
             updated_context.chat_history.append(f"Agent: {resp.message}")
             return OrchestratorResponse(chat_response=resp, parsed_intent=intent, updated_context=updated_context.model_dump())
@@ -196,8 +208,47 @@ class OutdoorConciergeOrchestrator:
         logger.info(f"✅ Using park code: {final_park_code}")
 
         intent.park_code = final_park_code
-
-        # 3. Fetch Data (Hybrid approach: Cache-First for static, Live for dynamic)
+        
+        # Check if park is supported and has data loaded
+        from app.config import SUPPORTED_PARKS
+        if final_park_code not in SUPPORTED_PARKS:
+            # Park is not in our supported list
+            park_list = ", ".join([f"**{name}**" for name in SUPPORTED_PARKS.values()])
+            unsupported_message = (
+                f"I don't have data loaded for that park yet. 🏞️\n\n"
+                f"I currently fully support: {park_list}.\n\n"
+                f"**Want me to add more parks?** Let me know and I can help extend support!\n\n"
+                f"In the meantime, try asking about one of the parks listed above."
+            )
+            resp = LLMResponse(
+                message=unsupported_message,
+                safety_status="Unknown",
+                safety_reasons=["Park not supported."],
+                suggested_trails=[]
+            )
+            updated_context.chat_history.append(f"Agent: {resp.message}")
+            return OrchestratorResponse(chat_response=resp, parsed_intent=intent, updated_context=updated_context.model_dump())
+        
+        # Check if park has basic data loaded (trails, park details)
+        if not self.park_fetcher.has_basic_data(final_park_code):
+            park_name = SUPPORTED_PARKS.get(final_park_code, final_park_code.upper())
+            no_data_message = (
+                f"I'd love to help you explore **{park_name}**! However, I don't have the detailed data loaded yet. 📂\n\n"
+                f"**To get started:**\n"
+                f"1. Go to the **🔭 Park Explorer** tab\n"
+                f"2. Select **{park_name}** from the dropdown\n"
+                f"3. Click the **🚀 Fetch Park Data** button\n\n"
+                f"Once the data is loaded, come back here and I'll be able to give you detailed trail recommendations, "
+                f"conditions, reviews, and more!"
+            )
+            resp = LLMResponse(
+                message=no_data_message,
+                safety_status="Unknown",
+                safety_reasons=["Park data not loaded."],
+                suggested_trails=[]
+            )
+            updated_context.chat_history.append(f"Agent: {resp.message}")
+            return OrchestratorResponse(chat_response=resp, parsed_intent=intent, updated_context=updated_context.model_dump())
         
         # --- A. Static Data (Try Local Fixtures First, Save on Fetch) ---
         # Helper to load or fetch and save

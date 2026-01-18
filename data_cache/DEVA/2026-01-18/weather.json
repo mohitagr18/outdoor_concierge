@@ -1,0 +1,41 @@
+{
+  "parkCode": "deva",
+  "current_temp_f": 58.1,
+  "current_condition": "Cloudy",
+  "wind_mph": 2.2,
+  "humidity": 24,
+  "forecast": [
+    {
+      "date": "2026-01-18",
+      "maxtemp_f": 65.0,
+      "mintemp_f": 56.0,
+      "avgtemp_f": 60.0,
+      "daily_chance_of_rain": 0,
+      "condition": "Sunny",
+      "uv": 0.6
+    },
+    {
+      "date": "2026-01-19",
+      "maxtemp_f": 58.2,
+      "mintemp_f": 54.6,
+      "avgtemp_f": 58.7,
+      "daily_chance_of_rain": 0,
+      "condition": "Sunny",
+      "uv": 0.0
+    },
+    {
+      "date": "2026-01-20",
+      "maxtemp_f": 56.2,
+      "mintemp_f": 53.1,
+      "avgtemp_f": 57.2,
+      "daily_chance_of_rain": 0,
+      "condition": "Overcast ",
+      "uv": 3.0
+    }
+  ],
+  "sunrise": "06:58 AM",
+  "sunset": "05:00 PM",
+  "weather_alerts": [],
+  "zones": [],
+  "base_zone": null
+}
