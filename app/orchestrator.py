@@ -335,7 +335,7 @@ class OutdoorConciergeOrchestrator:
                 "description": "driving tour recommendations"
             },
             "amenities": {
-                "files": ["consolidated_amenities.json"],
+                "files": ["amenities_consolidated.json"],
                 "keywords": ["gas", "fuel", "restaurant", "food", "eat", "grocery", "store", "hotel", "lodging", 
                            "rent", "gear", "equipment", "pharmacy", "medical", "urgent", "shop", "amenity", "amenities",
                            "nearby", "where can"],
