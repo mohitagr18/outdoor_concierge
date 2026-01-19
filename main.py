@@ -217,7 +217,14 @@ with tab_explorer:
             st.info("This park needs initial data setup. This involves fetching park info, trails, and more.")
         else:
             st.warning(f"⚠️ Partial data found for {SUPPORTED_PARKS.get(park_code, park_code)}")
-            st.info(f"Missing explorer data: {', '.join(missing_critical)}. Click below to complete the data setup.")
+            # Map file names to friendly display names
+            FILE_FRIENDLY_NAMES = {
+                "trails_v2.json": "trails",
+                "photo_spots.json": "photo spots",
+                "scenic_drives.json": "scenic drives"
+            }
+            friendly_missing = [FILE_FRIENDLY_NAMES.get(f, f) for f in missing_critical]
+            st.info(f"Missing explorer data: {', '.join(friendly_missing)}. Click below to complete the data setup.")
         
         missing = fetcher.get_missing_fixtures(park_code)
         with st.expander("Missing Data Files"):
