@@ -1,0 +1,70 @@
+{
+  "parkCode": "yose",
+  "current_temp_f": 45.8,
+  "current_condition": "Sunny",
+  "wind_mph": 2.2,
+  "humidity": 49,
+  "forecast": [
+    {
+      "date": "2026-01-19",
+      "maxtemp_f": 54.9,
+      "mintemp_f": 34.9,
+      "avgtemp_f": 43.5,
+      "daily_chance_of_rain": 0,
+      "condition": "Sunny",
+      "uv": 0.6
+    },
+    {
+      "date": "2026-01-20",
+      "maxtemp_f": 49.3,
+      "mintemp_f": 34.3,
+      "avgtemp_f": 40.7,
+      "daily_chance_of_rain": 0,
+      "condition": "Sunny",
+      "uv": 0.6
+    },
+    {
+      "date": "2026-01-21",
+      "maxtemp_f": 49.3,
+      "mintemp_f": 38.9,
+      "avgtemp_f": 42.8,
+      "daily_chance_of_rain": 0,
+      "condition": "Overcast ",
+      "uv": 0.5
+    }
+  ],
+  "sunrise": "07:11 AM",
+  "sunset": "05:08 PM",
+  "weather_alerts": [
+    {
+      "event": "Dense Fog Advisory",
+      "severity": "Moderate",
+      "headline": "Dense Fog Advisory issued January 18 at 8:34PM PST until January 19 at 12:00PM PST by NWS Sacramento CA",
+      "effective": "2026-01-18T20:34:00-08:00",
+      "expires": "2026-01-19T12:00:00-08:00"
+    },
+    {
+      "event": "Dense Fog Advisory",
+      "severity": "Moderate",
+      "headline": "Dense Fog Advisory issued January 19 at 3:01AM PST until January 19 at 12:00PM PST by NWS Sacramento CA",
+      "effective": "2026-01-19T03:01:00-08:00",
+      "expires": "2026-01-19T12:00:00-08:00"
+    },
+    {
+      "event": "Dense Fog Advisory",
+      "severity": "Moderate",
+      "headline": "Dense Fog Advisory issued January 18 at 7:47PM PST until January 19 at 12:00PM PST by NWS Hanford CA",
+      "effective": "2026-01-18T19:47:00-08:00",
+      "expires": "2026-01-19T04:00:00-08:00"
+    },
+    {
+      "event": "Dense Fog Advisory",
+      "severity": "Moderate",
+      "headline": "Dense Fog Advisory issued January 19 at 3:47AM PST until January 19 at 12:00PM PST by NWS Hanford CA",
+      "effective": "2026-01-19T03:47:00-08:00",
+      "expires": "2026-01-19T12:00:00-08:00"
+    }
+  ],
+  "zones": [],
+  "base_zone": null
+}
