@@ -19,7 +19,7 @@ def inject_custom_css():
             box-shadow: 0 1px 3px rgba(0,0,0,0.1);
             color: #333;
             height: 100%;
-            min-height: 305px;
+            min-height: 300px;
             border: 1px solid #e5e7eb;
             display: flex;
             flex-direction: column;
