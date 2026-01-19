@@ -47,10 +47,10 @@ class GeminiLLMService:
         self.client = genai.Client(api_key=api_key)
 ```
 
-**Supported Models:**
-- `gemini-2.5-flash` (default for main chat)
-- `gemini-1.5-flash` (used in data scraping scripts)
-- `gemini-3-flash-preview` (testing)
+**Active Model:**
+- `gemini-3-flash-preview` — Configured via `GEMINI_MODEL` in `.env`, used across all components
+
+> **Note:** The code contains fallback defaults (`gemini-2.5-flash`, `gemini-1.5-flash`) that would only apply if the environment variable is not set. In this deployment, `gemini-3-flash-preview` is used exclusively.
 
 ### 1.2 LLM Functionality Matrix
 
