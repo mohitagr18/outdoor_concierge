@@ -1,156 +1,364 @@
-# Outdoor Adventure Concierge — Project Plan (Updated)
+# ⛰️ Outdoor Adventure Concierge
 
-**Goal:** Build a context-aware dashboard for National Park visitors that cross-references live alerts, enriched trails, and zoned weather to generate safe, actionable itineraries.
+> **Your AI-powered guide for national park planning, trail discovery, and real-time conditions.**
 
-**Architecture:**
-- **Frontend:** Streamlit (Two Tabs: Concierge Chat, Park Explorer).
-- **Backend:** Python Orchestrator with RAG + Constraint Engine.
-- **Data Stack:** NPS API (official), Weather API (live), Serper (amenities + blog discovery), Firecrawl (scrape), Gemini (structured extraction/enrichment).
+An intelligent trip planning assistant that combines official National Park Service data, live weather forecasts, community reviews, and Google Gemini AI to help you explore America's national parks safely and confidently.
 
-***
-
-## Phase 0: Data discovery & fixtures (COMPLETE)
-- [x] Setup project skeleton, `.env`, `requirements.txt`, and `data_samples/`.
-- [x] Built initial fixtures approach for YOSE, ZION, GRCA.
-- [x] Feasibility approved:
-  - [x] Amenities via Serper.
-  - [x] Photography via Firecrawl.
-
-***
-
-## Phase 1: Canonical models & adapters (COMPLETE)
-- [x] Define models (`app/models.py`):
-  - [x] `ParkContext`, `TrailSummary`.
-  - [x] `Alert`, `Event`, `WeatherSummary`.
-  - [x] `Amenity`, `PhotoSpot`.
-  - [x] Expanded scope models: `Campground`, `VisitorCenter`, `Webcam`, `Place`, `ThingToDo`, `PassportStamp`.
-- [x] NPS Adapter (`app/adapters/nps_adapter.py`): robust parsing for core + expanded entities.
-- [x] Weather Adapter (`app/adapters/weather_adapter.py`): forecast parsing + alerts + sunrise/sunset.
-- [x] External Adapter (`app/adapters/external_adapter.py`): Serper (amenities) and Firecrawl outputs.
-
-***
-
-## Phase 2: Source clients & constraints (COMPLETE)
-- [x] NPS Client (`app/clients/nps_client.py`):
-  - [x] Robust HTTP wrapper with retries/timeouts (`BaseClient`).
-  - [x] Endpoints: park details, alerts, events, and expanded endpoints.
-- [x] Weather + External clients:
-  - [x] Weather client returns `WeatherSummary`.
-  - [x] External client supports Serper Maps amenities queries returning `Amenity`.
-- [x] Constraint engine (`app/engine/constraints.py`):
-  - [x] User preference model + filtering (dogs/mobility/difficulty/time).
-  - [x] Safety analysis (heat/cold/closures → “No-Go”).
-- [x] Phase 2 end-to-end verification completed.
-
-***
-
-## Phase 3: Orchestrator & local-first data (COMPLETE)
-- [x] LLM Service (`app/services/llm_service.py`):
-  - [x] Migrated to `google-genai` (Gemini).
-  - [x] Agent worker pattern + intent parsing + robust JSON extraction.
-  - [x] Standardized Gemini config via `.env` (e.g., `GEMINI_API_KEY`, `GEMINI_MODEL`).
-- [x] Orchestrator (`app/orchestrator.py`):
-  - [x] Pipeline: query → intent → fetch → constraints → response generation.
-  - [x] Context management (`SessionContext`) for multi-turn.
-  - [x] Local-first orchestration: static entities load from `data_samples/ui_fixtures/` (cache-first), while volatile data stays live.
-- [x] Data persistence layer:
-  - [x] `DataManager` reads cached UI fixtures from `data_samples/ui_fixtures/`.
-  - [x] `Geospatial` utilities support entrance mining and distance logic.
-  - [x] Admin amenities fetch: `admin_fetch_amenities.py` mines hubs and calls Serper around hub coordinates.
-  - [x] Amenities refiner: `refine_amenities.py` calculates distances and produces UI-ready “Top 5” lists per hub/category.
-- [x] Consolidated static NPS fixture generation:
-  - [x] Unified static NPS “freeze” workflow into `fetch_static_nps.py` (replacing redundant fetch scripts and raw/processed duplication).
-  - [x] `app/weather_fetch.py` updated to use coordinates from `data_samples/ui_fixtures/{PARK}/park_details.json`.
-  - [x] Removed redundant scripts / raw cache directory as part of cleanup.
-- [x] Volatile data strategy (architectural decision):
-  - [x] Do **not** persist Alerts/Events/Weather as durable fixtures; treat them as live-sync data.
-
-***
-
-## Phase 3.5: Trails golden dataset (COMPLETE)
-- [x] **Core objective:** Convert legally safe but “marketing-poor” NPS data into a UI-grade “Golden Dataset” enabling filters like “Top 5 Easy Hikes” and “Wheelchair Friendly Views”.
-- [x] **Link-Out strategy:**
-  - [x] NPS remains source of truth for canonical trail records.
-  - [x] AllTrails used only for popularity ranking + deep link (minimize scraping risk/cost).
-  - [x] Gemini extracts hidden metadata (difficulty/accessibility/elevation/distance) from NPS descriptions.
-- [x] **Generalized pipeline (multi-park):**
-  - [x] Broad recall capture: `fetch_static_nps.py` pulls candidates from both **Places** and **Things To Do** to handle cross-park inconsistencies.
-  - [x] Smart filtering: keyword-based broad classifier to avoid missing trails (e.g., “Trail”, “Hike”, “Narrows”, “Rim”).
-  - [x] Gemini validation + enrichment: `refine_trails_with_gemini.py` validates “is this actually a hiking trail?” and extracts structured metrics.
-- [x] **Ranking merger:**
-  - [x] `fetch_rankings.py` pulls AllTrails hiking page markdown (Firecrawl), parses with Gemini into ranked list, then fuzzy-matches into local trails.
-- [x] **Key issue resolutions included in pipeline:**
-  - [x] “Canyon Overlook” rescue via schema-aware text concatenation + relaxed accept rules.
-  - [x] Expanded ranking pool beyond Top 10 by extracting “Points of Interest” and assigning ranks 11+.
-  - [x] Improved fuzzy matching normalization (strip “Trail/Trailhead”, normalize “Falls”/“Fall”).
-- [x] **Final persisted artifact:** `data_samples/ui_fixtures/{PARK_CODE}/trails_v2.json` ready for UI consumption.
+![Python](https://img.shields.io/badge/Python-3.11+-blue.svg)
+![Streamlit](https://img.shields.io/badge/Streamlit-1.30+-red.svg)
+![Gemini](https://img.shields.io/badge/Google%20Gemini-AI-orange.svg)
+![License](https://img.shields.io/badge/License-MIT-green.svg)
 
 ---
 
-## Phase 3.6: Photo spots dataset (COMPLETE)
-- [x] **Photo Spots functionality:** Auto-synthesize photography advice (best times, compositions, lens/crowd tips) from blog content into a structured dataset.
-- [x] `fetch_photo_spots.py` pipeline:
-  - [x] Search (Serper) for park-specific photography guides.
-  - [x] Scrape (Firecrawl) blog posts into clean markdown/text.
-  - [x] Extract (Gemini) structured PhotoSpot records (name, best time, tips, optional images).
-  - [x] Save fixtures to `data_samples/ui_fixtures/{PARK_CODE}/photo_spots.json`.
+## ✨ Features
 
-***
+### 🤠 AI Park Ranger (Chat Interface)
+- **Context-aware conversations** powered by Google Gemini
+- Ask natural questions like *"What are the best kid-friendly trails in Zion?"*
+- All park data (trails, weather, alerts, amenities, reviews) passed as context for intelligent responses
+- Multi-turn conversation with session memory
+- Safety-aware responses based on current conditions and alerts
 
-## Phase 4: Streamlit UI (IN PROGRESS)
+### 🔭 Park Explorer (Data Browser)
 
-### Step 1: App Framework (COMPLETE)
-- [x] `main.py` entrypoint with sidebar (park selector, date picker).
-- [x] Initialize `OutdoorConciergeOrchestrator` with `st.cache_resource`.
-- [x] **Volatile data caching:** Live fetch for Alerts/Events/Weather, cached per-user session.
+#### 🌡️ Weather Intelligence
+- Current conditions with real-time updates
+- **Weather by elevation zone** - know conditions at different altitudes
+- 3-day forecasts with rain probability
+- Sunrise/sunset times for planning
+- Active weather alerts and warnings
 
-### Step 2: Park Explorer - Core Views (COMPLETE)
-- [x] **Static Loading:** Load fixtures from `data_samples/ui_fixtures/{PARK}/...` instantly.
-- [x] **Amenities Dashboard:** 
-  - [x] Folium map with custom icons (Green=EV, Blue=Gas, DarkRed=Medical).
-  - [x] "Top 5" lists per hub/category.
-  - [x] Distinct markers for Hubs vs Amenities.
-- [x] **Trail Browser:**
-  - [x] `trails_v2.json` loading with graceful error handling.
-  - [x] Sidebar/Top-bar filters (Difficulty, Length, Accessibility, Pet-Friendly).
+#### 🥾 Trail Browser
+- **Top-rated trails** with detailed cards, images, and descriptions
+- **Filter by difficulty**: Easy, Moderate, Strenuous
+- **Kid-friendly trails** identification
+- **Wheelchair accessible** trails
+- **Dog-friendly** options
+- AllTrails rankings and ratings integrated
+- Direct links to NPS and AllTrails pages
 
-### Step 3: Feature Polish & Enrichment (COMPLETE)
-- [x] **Trails UI Redesign:**
-  - [x] **Top Rated Section:** Detailed cards with images, rank badges, and full descriptions.
-  - [x] **Browse by Difficulty:** Compact 3-column grid for Easy/Moderate/Strenuous.
-  - [x] **Map Legend:** Fixed bottom-left legend (Green/Orange/Red) with proper styling.
-- [x] **Data Enrichment:**
-  - [x] **Difficulty Inference:** Heuristic based on length/elevation/time when LLM fails.
-  - [x] **Description Fallback Chain:** `clean_description` → `listingDescription` → `bodyText` → `img_alt`.
-  - [x] **AllTrails Integration:** Regex fallbacks for missing time/elevation; merged fields into `trails_v2.json`.
-- [x] **Pet-Friendly Feature:**
-  - [x] Data Model: Added `is_pet_friendly` boolean.
-  - [x] Extraction: Updated Gemini prompt for "pets allowed" keywords.
-  - [x] UI: `🐕 Pet Friendly` checkbox and icons in trail cards.
+#### 📸 Photo Spots
+- Best photography locations with optimal times
+- Seasonal recommendations
+- Composition tips from travel blogs
+- AI-extracted insights from photography guides
 
-### Step 4: Photo Spots (NEXT UP)
-- [ ] Create `app/ui/views/park_explorer_photos.py`.
-- [ ] Render grid/gallery of photo spots from `photo_spots.json`.
-- [ ] Display Best Time tags and Photography Tips.
+#### 🚗 Scenic Drives
+- Top-rated drives with highlights
+- Distance and drive time estimates
+- Key viewpoints and stops
+- Best times to visit
 
-### Step 5: Park Essentials (NEW)
-- [ ] **Weather Dashboard:** 3-day forecast, sunrise/sunset, current conditions.
-- [ ] **Active Alerts:** Display active NPS alerts (Danger, Caution, Info) with collapsible details.
-- [ ] **Things To Do:** Grid view of other activities (non-hiking) from `things_to_do.json`.
-- [ ] **Events Calendar:** List upcoming park events from live API.
+#### 📅 Events & Activities
+- Ranger programs and guided tours
+- Upcoming park events
+- Things to do beyond hiking
+- Reservation requirements noted
 
-### Step 6: Concierge Chat (PENDING)
-- [ ] `st.chat_message` UI + message history in `st.session_state`.
-- [ ] Orchestrator integration for RAG-based itineraries and safety-aware answers.
+#### 📹 Live Webcams
+- Real-time park views
+- Check current conditions before you go
 
-***
+#### 🏕️ Park Essentials
+- Campgrounds with reservation links
+- Visitor centers with hours
+- Park alerts and closures
 
-## Phase 5: RAG refinement (PENDING)
-- [ ] Vector DB ingest for things-to-do + trail descriptions.
-- [ ] RAG lookup for history/nature Q&A in chat.
+#### 🛒 Amenities
+- **In-Park**: Restrooms, water, facilities
+- **Nearby Services**:
+  - ⛽ Gas stations
+  - 🔌 EV charging stations
+  - 🏥 Medical care / Urgent care
+  - 🛒 Grocery stores
+  - 🍽️ Restaurants
 
-***
+#### ⭐ Latest Reviews
+- Fresh reviews scraped from AllTrails
+- User photos included
+- Current trail conditions from recent hikers
 
-## Phase 6: Production (PENDING)
-- [ ] Dockerfile + Cloud Run deployment.
-- [ ] Hardening: error boundaries, production logging, rate-limit protections.
+---
+
+## 🏗️ Architecture
+
+```
+┌─────────────────────────────────────────────────────────────────┐
+│                    Streamlit UI (main.py)                       │
+│  ┌─────────────────────┐    ┌─────────────────────────────────┐ │
+│  │   AI Park Ranger    │    │       Park Explorer             │ │
+│  │   (Chat Interface)  │    │   (Trails, Weather, etc.)       │ │
+│  └──────────┬──────────┘    └──────────────┬──────────────────┘ │
+└─────────────┼──────────────────────────────┼────────────────────┘
+              │                              │
+              ▼                              ▼
+┌─────────────────────────────────────────────────────────────────┐
+│                    Orchestrator Layer                           │
+│  • Request handling    • Service coordination                   │
+│  • Context management  • Response generation                    │
+└──────────────────────────────┬──────────────────────────────────┘
+                               │
+       ┌───────────────────────┼───────────────────────┐
+       │                       │                       │
+       ▼                       ▼                       ▼
+┌──────────────┐    ┌──────────────────┐    ┌──────────────────┐
+│  LLM Service │    │ Constraint Engine│    │   Data Manager   │
+│  (Gemini AI) │    │ (Filters/Safety) │    │   (Caching)      │
+└──────┬───────┘    └──────────────────┘    └────────┬─────────┘
+       │                                             │
+       ▼                                             ▼
+┌─────────────────────────────────────────────────────────────────┐
+│                      API Client Layer                           │
+│  ┌───────────┐  ┌───────────┐  ┌───────────┐  ┌───────────────┐ │
+│  │ NPS Client│  │ Weather   │  │ Serper    │  │ Review Scraper│ │
+│  │           │  │ Client    │  │ Client    │  │ (Firecrawl)   │ │
+│  └─────┬─────┘  └─────┬─────┘  └─────┬─────┘  └───────┬───────┘ │
+└────────┼──────────────┼──────────────┼────────────────┼─────────┘
+         │              │              │                │
+         ▼              ▼              ▼                ▼
+    ┌─────────┐   ┌──────────┐   ┌──────────┐   ┌─────────────┐
+    │ NPS API │   │ Weather  │   │ Serper   │   │  AllTrails  │
+    │         │   │ API      │   │ Maps API │   │ (Firecrawl) │
+    └─────────┘   └──────────┘   └──────────┘   └─────────────┘
+```
+
+### Key Technologies
+- **Frontend**: Streamlit with custom CSS styling
+- **AI/LLM**: Google Gemini (intent parsing, response generation, data extraction)
+- **Data Validation**: Pydantic models (25+ schemas)
+- **APIs**: NPS API, WeatherAPI.com, Serper Maps, Firecrawl
+
+---
+
+## 🚀 Quick Start
+
+### Prerequisites
+- Python 3.11+
+- API Keys for:
+  - [Google Gemini](https://aistudio.google.com/app/apikey)
+  - [National Park Service](https://www.nps.gov/subjects/developer/get-started.htm)
+  - [WeatherAPI.com](https://www.weatherapi.com/)
+  - [Serper](https://serper.dev/) (for amenities)
+  - [Firecrawl](https://firecrawl.dev/) (for reviews, optional)
+
+### Installation
+
+```bash
+# Clone the repository
+git clone https://github.com/yourusername/outdoor_concierge.git
+cd outdoor_concierge
+
+# Create virtual environment
+python -m venv .venv
+source .venv/bin/activate  # On Windows: .venv\Scripts\activate
+
+# Install dependencies
+pip install -r requirements.txt
+
+# Configure environment variables
+cp .env.example .env
+# Edit .env with your API keys
+```
+
+### Environment Variables
+
+Create a `.env` file with the following:
+
+```env
+# Required
+GEMINI_API_KEY=your_gemini_api_key
+NPS_API_KEY=your_nps_api_key
+WEATHER_API_KEY=your_weather_api_key
+
+# Optional (for full functionality)
+SERPER_API_KEY=your_serper_api_key
+FIRECRAWL_API_KEY=your_firecrawl_api_key
+
+# Optional (defaults shown)
+GEMINI_MODEL=gemini-3-flash-preview
+```
+
+### Running the App
+
+```bash
+streamlit run main.py
+```
+
+The app will open at `http://localhost:8501`
+
+---
+
+## 📁 Project Structure
+
+```
+outdoor_concierge/
+├── main.py                     # Streamlit app entry point
+├── requirements.txt            # Python dependencies
+├── .env                        # Environment variables (not in git)
+│
+├── app/
+│   ├── orchestrator.py         # Central request handling
+│   ├── models.py               # Pydantic data models (25+)
+│   ├── config.py               # Supported parks, settings
+│   │
+│   ├── services/
+│   │   ├── llm_service.py      # Gemini AI integration
+│   │   ├── data_manager.py     # File-based caching
+│   │   ├── park_data_fetcher.py # On-demand data fetching
+│   │   └── review_scraper.py   # AllTrails review scraping
+│   │
+│   ├── clients/
+│   │   ├── nps_client.py       # National Park Service API
+│   │   ├── weather_client.py   # WeatherAPI.com
+│   │   └── external_client.py  # Serper Maps
+│   │
+│   ├── adapters/
+│   │   ├── nps_adapter.py      # Parse NPS responses
+│   │   ├── weather_adapter.py  # Parse weather data
+│   │   └── alltrails_adapter.py # Parse trail data
+│   │
+│   ├── engine/
+│   │   └── constraints.py      # Trail filtering, safety analysis
+│   │
+│   └── ui/
+│       ├── components.py       # Reusable UI components
+│       ├── styles.py           # CSS injection
+│       ├── data_access.py      # Data loading utilities
+│       └── views/              # Explorer tab views
+│           ├── park_explorer_essentials.py
+│           ├── park_explorer_trails.py
+│           ├── park_explorer_photos.py
+│           ├── park_explorer_drives.py
+│           ├── park_explorer_activities.py
+│           ├── park_explorer_events.py
+│           └── park_explorer_webcams.py
+│
+├── data_samples/               # Cached park data
+│   └── ui_fixtures/            # Per-park JSON files
+│       └── {park_code}/
+│           ├── park_details.json
+│           ├── trails_v2.json
+│           ├── photo_spots.json
+│           ├── scenic_drives.json
+│           └── ...
+│
+├── data_cache/                 # Daily volatile data cache
+│   └── {park_code}/{date}/
+│       ├── weather.json
+│       ├── alerts.json
+│       └── events.json
+│
+├── scripts/                    # Data fetching utilities
+└── notes/                      # Documentation & diagrams
+```
+
+---
+
+## 🏞️ Supported Parks
+
+The app supports **63 US National Parks**. Parks with full data (trails, photos, drives, amenities):
+
+| Park | Code | Status |
+|------|------|--------|
+| Bryce Canyon | `brca` | ✅ Full data |
+| Grand Canyon | `grca` | ✅ Full data |
+| Yosemite | `yose` | ✅ Full data |
+| Zion | `zion` | ✅ Full data |
+| *All others* | - | Basic data (fetch on-demand) |
+
+New parks can have their data fetched directly from the Park Explorer tab.
+
+---
+
+## 📊 Data Sources
+
+| Data Type | Source | Refresh |
+|-----------|--------|---------|
+| Park Details | NPS API | Static |
+| Trails | NPS + Gemini enrichment | Static |
+| Weather | WeatherAPI.com | Daily |
+| Alerts | NPS API | Daily |
+| Events | NPS API | Daily |
+| Amenities | Serper Maps | Static |
+| Reviews | AllTrails (Firecrawl) | On-demand |
+| Photo Spots | Blogs (Gemini extraction) | Static |
+| Scenic Drives | Blogs (Gemini extraction) | Static |
+
+---
+
+## 🧠 How AI is Used
+
+### 1. Intent Parsing
+Gemini parses natural language queries to extract:
+- Target park
+- User preferences (difficulty, kid-friendly, etc.)
+- Response type (itinerary, trail list, safety info)
+
+### 2. Context Injection
+All relevant data is passed to Gemini as context:
+- Filtered trails based on user preferences
+- Current weather by elevation zone
+- Active alerts and closures
+- Nearby amenities
+- Recent reviews with photos
+- Photo spots and scenic drives
+
+### 3. Response Generation
+Gemini generates context-aware responses that:
+- Reference specific trails with accurate data
+- Include safety warnings when appropriate
+- Provide actionable recommendations
+
+### 4. Data Extraction
+Gemini extracts structured data from:
+- NPS descriptions → trail difficulty, distance, elevation
+- Blog posts → photo spots, scenic drives
+- AllTrails pages → reviews, conditions
+
+---
+
+## 🛠️ Development
+
+### Running Tests
+
+```bash
+pytest tests/
+```
+
+### Adding a New Park
+
+1. Data will be fetched automatically when you select a park in Park Explorer
+2. Click "Fetch Park Data" to populate trails, photos, drives, etc.
+3. Data is cached locally for future use
+
+### Key Files to Understand
+
+| File | Purpose |
+|------|---------|
+| `orchestrator.py` | Central coordination, start here |
+| `llm_service.py` | Gemini integration, prompts |
+| `models.py` | All Pydantic schemas |
+| `constraints.py` | Trail filtering logic |
+
+---
+
+## 📄 License
+
+MIT License - see [LICENSE](LICENSE) for details.
+
+---
+
+## 🙏 Acknowledgments
+
+- [National Park Service](https://www.nps.gov/) for their comprehensive API
+- [WeatherAPI.com](https://www.weatherapi.com/) for weather data
+- [Google Gemini](https://ai.google.dev/) for AI capabilities
+- [Streamlit](https://streamlit.io/) for the UI framework
+- [AllTrails](https://www.alltrails.com/) for trail community data
+
+---
+
+<p align="center">
+  <strong>Happy Trails! 🥾⛰️🏕️</strong>
+</p>
