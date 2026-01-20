@@ -1,0 +1,116 @@
+{
+  "Yosemite Valley": {
+    "zone_name": "Yosemite Valley",
+    "elevation_ft": 4000,
+    "current_temp_f": 9.1,
+    "current_condition": "Sunny",
+    "wind_mph": 3.8,
+    "humidity": 78,
+    "forecast": [
+      {
+        "date": "2026-01-20",
+        "maxtemp_f": 50.7,
+        "mintemp_f": 39.0,
+        "avgtemp_f": 45.8,
+        "daily_chance_of_rain": 0,
+        "condition": "Sunny",
+        "uv": 0.6
+      },
+      {
+        "date": "2026-01-21",
+        "maxtemp_f": 50.2,
+        "mintemp_f": 42.8,
+        "avgtemp_f": 46.1,
+        "daily_chance_of_rain": 0,
+        "condition": "Overcast ",
+        "uv": 0.5
+      },
+      {
+        "date": "2026-01-22",
+        "maxtemp_f": 38.2,
+        "mintemp_f": 32.9,
+        "avgtemp_f": 37.3,
+        "daily_chance_of_rain": 89,
+        "condition": "Heavy rain",
+        "uv": 0.4
+      }
+    ],
+    "delta_from_base": null
+  },
+  "Glacier Point": {
+    "zone_name": "Glacier Point",
+    "elevation_ft": 7200,
+    "current_temp_f": 5.5,
+    "current_condition": "Sunny",
+    "wind_mph": 3.8,
+    "humidity": 85,
+    "forecast": [
+      {
+        "date": "2026-01-20",
+        "maxtemp_f": 50.7,
+        "mintemp_f": 39.0,
+        "avgtemp_f": 45.8,
+        "daily_chance_of_rain": 0,
+        "condition": "Sunny",
+        "uv": 0.6
+      },
+      {
+        "date": "2026-01-21",
+        "maxtemp_f": 50.2,
+        "mintemp_f": 42.8,
+        "avgtemp_f": 46.1,
+        "daily_chance_of_rain": 0,
+        "condition": "Overcast ",
+        "uv": 0.5
+      },
+      {
+        "date": "2026-01-22",
+        "maxtemp_f": 38.2,
+        "mintemp_f": 32.9,
+        "avgtemp_f": 37.3,
+        "daily_chance_of_rain": 89,
+        "condition": "Heavy rain",
+        "uv": 0.4
+      }
+    ],
+    "delta_from_base": -3.6
+  },
+  "Tioga Pass": {
+    "zone_name": "Tioga Pass",
+    "elevation_ft": 9943,
+    "current_temp_f": 5.5,
+    "current_condition": "Sunny",
+    "wind_mph": 2.2,
+    "humidity": 85,
+    "forecast": [
+      {
+        "date": "2026-01-20",
+        "maxtemp_f": 47.1,
+        "mintemp_f": 22.6,
+        "avgtemp_f": 33.4,
+        "daily_chance_of_rain": 0,
+        "condition": "Partly Cloudy ",
+        "uv": 0.7
+      },
+      {
+        "date": "2026-01-21",
+        "maxtemp_f": 47.8,
+        "mintemp_f": 25.7,
+        "avgtemp_f": 35.1,
+        "daily_chance_of_rain": 0,
+        "condition": "Overcast ",
+        "uv": 0.6
+      },
+      {
+        "date": "2026-01-22",
+        "maxtemp_f": 35.2,
+        "mintemp_f": 25.7,
+        "avgtemp_f": 31.1,
+        "daily_chance_of_rain": 0,
+        "condition": "Overcast ",
+        "uv": 0.5
+      }
+    ],
+    "delta_from_base": -3.6
+  }
+}

@@ -1,40 +1,40 @@
 {
   "parkCode": "zion",
-  "current_temp_f": 56.1,
+  "current_temp_f": 35.6,
   "current_condition": "Sunny",
-  "wind_mph": 3.1,
-  "humidity": 26,
+  "wind_mph": 2.2,
+  "humidity": 60,
   "forecast": [
     {
-      "date": "2026-01-19",
-      "maxtemp_f": 62.2,
-      "mintemp_f": 28.8,
-      "avgtemp_f": 47.2,
-      "daily_chance_of_rain": 0,
-      "condition": "Sunny",
-      "uv": 0.6
-    },
-    {
       "date": "2026-01-20",
-      "maxtemp_f": 56.8,
-      "mintemp_f": 24.3,
-      "avgtemp_f": 35.8,
+      "maxtemp_f": 59.2,
+      "mintemp_f": 28.8,
+      "avgtemp_f": 43.6,
       "daily_chance_of_rain": 0,
       "condition": "Sunny",
       "uv": 0.6
     },
     {
       "date": "2026-01-21",
-      "maxtemp_f": 56.3,
-      "mintemp_f": 27.9,
-      "avgtemp_f": 38.3,
+      "maxtemp_f": 58.6,
+      "mintemp_f": 27.3,
+      "avgtemp_f": 38.2,
       "daily_chance_of_rain": 0,
       "condition": "Sunny",
       "uv": 0.6
+    },
+    {
+      "date": "2026-01-22",
+      "maxtemp_f": 56.3,
+      "mintemp_f": 29.8,
+      "avgtemp_f": 40.4,
+      "daily_chance_of_rain": 0,
+      "condition": "Overcast ",
+      "uv": 0.4
     }
   ],
   "sunrise": "07:43 AM",
-  "sunset": "05:43 PM",
+  "sunset": "05:44 PM",
   "weather_alerts": [],
   "zones": [],
   "base_zone": null
