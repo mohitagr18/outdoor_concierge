@@ -257,17 +257,33 @@ outdoor_concierge/
 
 ## 🏞️ Supported Parks
 
-The app supports **63 US National Parks**. Parks with full data (trails, photos, drives, amenities):
+This demo version supports **5 curated US National Parks** with full data (trails, photos, drives, amenities):
 
 | Park | Code | Status |
 |------|------|--------|
 | Bryce Canyon | `brca` | ✅ Full data |
-| Grand Canyon | `grca` | ✅ Full data |
+| Glacier | `glac` | ✅ Full data |
+| Great Smoky Mountains | `grsm` | ✅ Full data |
 | Yosemite | `yose` | ✅ Full data |
 | Zion | `zion` | ✅ Full data |
-| *All others* | - | Basic data (fetch on-demand) |
 
-New parks can have their data fetched directly from the Park Explorer tab.
+### Adding More Parks
+To explore other National Parks:
+1. **Fork this repository** on GitHub.
+2. Add your own API keys to `.env` (NPS, WeatherAPI, etc.).
+3. **Register the new park** in `app/config.py`:
+   ```python
+   # app/config.py
+   SUPPORTED_PARKS = {
+       "brca": "Bryce Canyon National Park",
+       # Add your park here:
+       "acad": "Acadia National Park", 
+       "grca": "Grand Canyon National Park",
+       # ...
+   }
+   ```
+4. Restart the app (`streamlit run main.py`).
+5. Select the new park in the **Park Explorer** tab and click "Fetch Park Data".
 
 ---
 
