@@ -1,0 +1,1315 @@
+[
+  {
+    "id": "48F2732E-4251-4D81-875C-8E52839620B5",
+    "name": "Apgar Campground",
+    "description": "Apgar Campground is the largest campground in the park. It is situated in trees and provides tent and RV campers with shade and some privacy. Evening sunsets on Lake McDonald are only a short stroll, and you won't want to miss evening programs with a ranger at the Apgar Amphitheater. Many trails are located within a short drive of the campground. Advanced reservations are required for all sites. Click the reservation button below for details.",
+    "location": {
+      "lat": 48.526081044,
+      "lon": -113.981860185
+    },
+    "campsites": {
+      "totalSites": "194",
+      "tentOnly": "0",
+      "rvOnly": "0"
+    },
+    "accessibility": {
+      "wheelchairAccess": "2 campsites (C152, C122)",
+      "internetInfo": "",
+      "cellPhoneInfo": "Connectivity is very spotty and only certain carriers may have service.",
+      "fireStovePolicy": "Picnic tables and fire rings are provided.",
+      "rvAllowed": "1",
+      "rvInfo": "25 sites can accommodate up to a 40 foot RV or truck and trailer combination",
+      "rvMaxLength": "40",
+      "additionalInfo": "Nearby public boat dock.",
+      "trailerMaxLength": "40",
+      "adaInfo": "Restroom facilities are accessible. Amphitheater is accessible.",
+      "trailerAllowed": "1",
+      "accessRoads": [
+        "Paved Roads - All vehicles OK"
+      ],
+      "classifications": [
+        "Developed Campground"
+      ]
+    },
+    "amenities": {
+      "trashRecyclingCollection": "Yes - year round",
+      "toilets": [
+        "Flush Toilets - seasonal",
+        "Vault Toilets - seasonal"
+      ],
+      "internetConnectivity": "No",
+      "showers": [
+        "Free - Seasonal"
+      ],
+      "cellPhoneReception": "No",
+      "laundry": "No",
+      "amphitheater": "Yes - seasonal",
+      "dumpStation": "Yes - seasonal",
+      "campStore": "Yes - seasonal",
+      "staffOrVolunteerHostOnsite": "Yes - seasonal",
+      "potableWater": [
+        "Yes - seasonal"
+      ],
+      "iceAvailableForSale": "No",
+      "firewoodForSale": "No",
+      "foodStorageLockers": "Yes - year round"
+    },
+    "contacts": {
+      "phoneNumbers": [
+        {
+          "phoneNumber": "1-877-444-6777",
+          "description": "",
+          "extension": "",
+          "type": "Voice"
+        }
+      ],
+      "emailAddresses": [
+        {
+          "description": "This is the park's general contact email. This is not an email for making campground reservations. There is no direct email for the park's campgrounds. \n\nYou can make campground reservations on recreation.gov or by calling 1-877-444-6777.",
+          "emailAddress": "glac_questions@nps.gov"
+        }
+      ]
+    },
+    "fees": [
+      {
+        "cost": "30.00",
+        "description": "Campsite capacity is limited to eight people and two vehicles, where space is available. A maximum of two tents per site is permitted.",
+        "title": "Apgar summer status"
+      },
+      {
+        "cost": "20.00",
+        "description": "Campsite capacity is limited to eight people and two vehicles, where space is available. A maximum of two tents per site is permitted. No potable water sources or dump station facilities are provided during the primitive camping season. Comfort stations are closed; use vault toilets located in the campground.",
+        "title": "Apgar primitive status"
+      },
+      {
+        "cost": "0.00",
+        "description": "No potable water sources or dump station facilities are provided during the winter season. Sites are free with a valid entrance pass. Comfort stations are closed; use vault toilets located in the campground.",
+        "title": "Apgar winter status"
+      }
+    ],
+    "images": [
+      {
+        "url": "https://www.nps.gov/common/uploads/structured_data/309E8537-1DD8-B71B-0BD307081BCD3FDA.jpg",
+        "title": "Apgar Picnic Area",
+        "altText": "shoreline of mountain lake surrounded by forest",
+        "caption": "Shoreline view from picnic area",
+        "credit": "NPS/Gabriel Morrow"
+      },
+      {
+        "url": "https://www.nps.gov/common/uploads/structured_data/3105A601-1DD8-B71B-0B1F749E36AA5922.jpg",
+        "title": "Apgar Amphitheater",
+        "altText": "two aisles run through green benches that point to platform",
+        "caption": "Attend an evening program at Apgar Amphitheater",
+        "credit": "NPS/David Restivo"
+      },
+      {
+        "url": "https://www.nps.gov/common/uploads/structured_data/314F0032-1DD8-B71B-0BEE8CBD66A6ADBB.jpg",
+        "title": "Camping in winter",
+        "altText": "tent and picnic table in snowy forest",
+        "caption": "Apgar is open yearround",
+        "credit": "NPS/Jacob W. Frank"
+      }
+    ],
+    "reservationUrl": "https://www.recreation.gov/camping/campgrounds/10171274",
+    "isOpen": true
+  },
+  {
+    "id": "2DEFC258-0088-4E21-B429-7B7014B09060",
+    "name": "Avalanche Campground",
+    "description": "Avalanche Campground is located in one of the most popular sections of Glacier National Park west of the Continental Divide. The campground accommodates tent and RV campers, however only 50 sites will accommodate vehicle lengths up to 26 feet. Bring your hiking boots and binoculars. Two popular day hikes offer spectacular scenery and glimpses of birds and wildlife that inhabit the area. Advanced reservations are required for all sites. Check Recreation.gov for details.",
+    "location": {
+      "lat": 48.676545863673766,
+      "lon": -113.81852507957751
+    },
+    "campsites": {
+      "totalSites": "87",
+      "tentOnly": "0",
+      "rvOnly": "0"
+    },
+    "accessibility": {
+      "wheelchairAccess": "1 campsite (A33)",
+      "internetInfo": "",
+      "cellPhoneInfo": "",
+      "fireStovePolicy": "Picnic tables and fire rings provided.",
+      "rvAllowed": "1",
+      "rvInfo": "50 sites can accommodate up to a 26 foot RV or truck and trailer combination.",
+      "rvMaxLength": "26",
+      "additionalInfo": "",
+      "trailerMaxLength": "26",
+      "adaInfo": "Restrooms facilities are accessible. Accessible Trails: Trail of the Cedars starts at the Avalanche Picnic Area, it is a 0.7 mile (1.1 km) accessible trail through old growth cedars. Trail surface is wood boardwalk and a sustainable non-asphalt polymer pavement.",
+      "trailerAllowed": "1",
+      "accessRoads": [
+        "Paved Roads - All vehicles OK"
+      ],
+      "classifications": [
+        "Developed Campground"
+      ]
+    },
+    "amenities": {
+      "trashRecyclingCollection": "Yes - seasonal",
+      "toilets": [
+        "Flush Toilets - seasonal"
+      ],
+      "internetConnectivity": "No",
+      "showers": [
+        "None"
+      ],
+      "cellPhoneReception": "No",
+      "laundry": "No",
+      "amphitheater": "No",
+      "dumpStation": "No",
+      "campStore": "No",
+      "staffOrVolunteerHostOnsite": "Yes - seasonal",
+      "potableWater": [
+        "Yes - seasonal"
+      ],
+      "iceAvailableForSale": "No",
+      "firewoodForSale": "No",
+      "foodStorageLockers": "Yes - seasonal"
+    },
+    "contacts": {
+      "phoneNumbers": [
+        {
+          "phoneNumber": "1-877-444-6777",
+          "description": "",
+          "extension": "",
+          "type": "Voice"
+        }
+      ],
+      "emailAddresses": [
+        {
+          "description": "This is the park's general contact email. There is no direct email for the park's campgrounds.",
+          "emailAddress": "glac_questions@nps.gov"
+        }
+      ]
+    },
+    "fees": [
+      {
+        "cost": "30.00",
+        "description": "Avalanche Campground is reservation only. Campsite capacity is limited to eight people and two vehicles, where space is available. A maximum of two tents per site is permitted.",
+        "title": "Avalanche summer fee"
+      }
+    ],
+    "images": [
+      {
+        "url": "https://www.nps.gov/common/uploads/structured_data/31BC1A7A-1DD8-B71B-0BE59EFB259EABCD.jpg",
+        "title": "Avalanche Campground",
+        "altText": "tent, picnic table, and fire ring in forest site",
+        "caption": "Nestled among western hemlock and western red cedar",
+        "credit": "NPS/David Restivo"
+      },
+      {
+        "url": "https://www.nps.gov/common/uploads/structured_data/31D83BF7-1DD8-B71B-0B958DBAED84008D.jpg",
+        "title": "Avalanche Amphitheater",
+        "altText": "rows of wooden benches on gravel by trees",
+        "caption": "Simple bench seating",
+        "credit": "NPS/Gabriel Morrow"
+      },
+      {
+        "url": "https://www.nps.gov/common/uploads/structured_data/D6FA7A46-F869-365C-FB31142DF9C4BA37.jpg",
+        "title": "Avalanche Area",
+        "altText": "A dark, cedar filled forest with a single deer peeking between the trees.",
+        "caption": "A deer peers through the cedar trees.",
+        "credit": "NPS Photo"
+      }
+    ],
+    "reservationUrl": "https://www.recreation.gov/camping/campgrounds/258796",
+    "isOpen": true
+  },
+  {
+    "id": "03CC7ABA-0A4F-4F74-96B8-317F981E3B8E",
+    "name": "Bowman Lake",
+    "description": "Bowman Lake Campground is located in the North Fork area of Glacier National Park approximately 32.5 miles from the west entrance and 30 miles from the Canadian border. The drive to Bowman Lake is a very slow, dusty, and bumpy ride on dirt roads. Trailers are not permitted. The campground is located close to the shore of Bowman Lake and camp sites are within trees for shade and some privacy. Tent campers looking for peace and quiet will enjoy Bowman Lake for its serenity and remote location.",
+    "location": {
+      "lat": 48.8290464954,
+      "lon": -114.203130379
+    },
+    "campsites": {
+      "totalSites": "48",
+      "tentOnly": "0",
+      "rvOnly": "0"
+    },
+    "accessibility": {
+      "wheelchairAccess": "2 campsites (#3, 7)",
+      "internetInfo": "",
+      "cellPhoneInfo": "",
+      "fireStovePolicy": "Picnic tables and fire rings provided. Dead wood on the ground may be collected for use as fuel for campfires along Bowman Lake Road.",
+      "rvAllowed": "0",
+      "rvInfo": "RVs and truck and trailer combinations are not permitted at Bowman Lake due to the nature of the long, narrow, and windy dirt road to the campground. Turning vehicles around (3-point turns) is difficult.",
+      "rvMaxLength": "0",
+      "additionalInfo": "Potable water is available through water spigots in the campground, and there are pit toilets and a day use picnic area nearby. There are day hiking opportunities near Bowman Lake for hikers eager to experience Glacier's wilderness. Fisherman, canoers, and kayakers will enjoy Bowman Lake. Motorized vessels are allowed on Bowman Lake but are limited to 10 horsepower or less. All boats must be inspected for Aquatic Invasive Species prior to launch (the nearest site is at the Polebridge Ranger Station), and motorized craft are subject to a 30-day quarantine.",
+      "trailerMaxLength": "0",
+      "adaInfo": "Pit toilets are located in the campground, but they are not fully accessible.",
+      "trailerAllowed": "0",
+      "accessRoads": [
+        "Unpaved Roads - All vehicles OK in good weather"
+      ],
+      "classifications": [
+        "Limited Development Campground"
+      ]
+    },
+    "amenities": {
+      "trashRecyclingCollection": "Yes - seasonal",
+      "toilets": [
+        "Vault Toilets - seasonal"
+      ],
+      "internetConnectivity": "No",
+      "showers": [
+        "None"
+      ],
+      "cellPhoneReception": "No",
+      "laundry": "No",
+      "amphitheater": "No",
+      "dumpStation": "Yes - seasonal",
+      "campStore": "No",
+      "staffOrVolunteerHostOnsite": "Yes - seasonal",
+      "potableWater": [
+        "Yes - seasonal"
+      ],
+      "iceAvailableForSale": "No",
+      "firewoodForSale": "No",
+      "foodStorageLockers": "Yes - seasonal"
+    },
+    "contacts": {
+      "phoneNumbers": [
+        {
+          "phoneNumber": "(406) 888-7800",
+          "description": "",
+          "extension": "",
+          "type": "Voice"
+        }
+      ],
+      "emailAddresses": [
+        {
+          "description": "This is the park's general contact email, there is no direct email for the campgrounds.",
+          "emailAddress": "glac_questions@nps.gov"
+        }
+      ]
+    },
+    "fees": [
+      {
+        "cost": "25.00",
+        "description": "Campsite capacity is limited to eight people and two vehicles, where space is available. A maximum of two tents per site is permitted.",
+        "title": "Bowman Lake summer status"
+      },
+      {
+        "cost": "15.00",
+        "description": "Campsite capacity is limited to eight people and two vehicles, where space is available. A maximum of two tents per site is permitted. When campgrounds are open in primitive status there are special considerations regarding water and sanitation. No potable water sources or dump station facilities are provided during the primitive camping season.",
+        "title": "Bowman Lake primitive status"
+      }
+    ],
+    "images": [
+      {
+        "url": "https://www.nps.gov/common/uploads/structured_data/32C578C3-1DD8-B71B-0B85D0F46F9F50AC.jpg",
+        "title": "Bowman Lake",
+        "altText": "clouds, conifer forest and mountains reflected in lake",
+        "caption": "View of Bowman Lake from shoreline near campground",
+        "credit": "NPS / Bill Hayden"
+      },
+      {
+        "url": "https://www.nps.gov/common/uploads/structured_data/8EA56762-FFF7-E01B-4957202B1BF73265.jpg",
+        "title": "Campfire at Bowman Lake Campground",
+        "altText": "A camper wearing a bright hat warms their hands near a campfire in a forest clearing.",
+        "caption": "A camper wearing a bright hat warms their hands while squatting near a campfire in a forest clearing.",
+        "credit": "NPS Photo"
+      }
+    ],
+    "reservationUrl": "",
+    "isOpen": true
+  },
+  {
+    "id": "4624D185-108D-460F-9331-5EC95512BEC7",
+    "name": "Cut Bank",
+    "description": "The Cut Bank Campground is located on the east side of Glacier National Park and provides a sense of peace and quiet that may not be found in larger campgrounds within the park. The campground is accessed by a 5-mile dirt road off of highway 89. The campground is geared toward tent campers. RVs are not recommended. Starting in 2025, Scan & Pay will be required through the Recreation.gov app to pay for a campsite. This requires downloading the free Recreation.gov mobile app prior to arrival.",
+    "location": {
+      "lat": 48.60599159133749,
+      "lon": -113.3769496541986
+    },
+    "campsites": {
+      "totalSites": "14",
+      "tentOnly": "0",
+      "rvOnly": "0"
+    },
+    "accessibility": {
+      "wheelchairAccess": "",
+      "internetInfo": "",
+      "cellPhoneInfo": "",
+      "fireStovePolicy": "Fires and Firewood It is unlawful to gather or cut firewood except in the following areas: Along the Inside North Fork Road from Dutch Creek to Kintla Lake. Along the Bowman Lake Road. In the vicinity of backcountry campgrounds allowing wood fires. In the areas listed above, only dead wood on the ground may be collected for use as fuel for campfires. Fires must be kept inside fire grates and attended all times. Be sure your fire is dead out when leaving for any reason. Fireworks are prohibited in Glacier National Park.",
+      "rvAllowed": "0",
+      "rvInfo": "",
+      "rvMaxLength": "0",
+      "additionalInfo": "The campground is located among trees, providing shade and privacy for tent campers. RVs are not recommended due to the nature of the road and campground layout.",
+      "trailerMaxLength": "0",
+      "adaInfo": "",
+      "trailerAllowed": "0",
+      "accessRoads": [],
+      "classifications": []
+    },
+    "amenities": {
+      "trashRecyclingCollection": "No",
+      "toilets": [
+        "Vault Toilets - seasonal"
+      ],
+      "internetConnectivity": "No",
+      "showers": [
+        "None"
+      ],
+      "cellPhoneReception": "No",
+      "laundry": "No",
+      "amphitheater": "No",
+      "dumpStation": "No",
+      "campStore": "No",
+      "staffOrVolunteerHostOnsite": "No",
+      "potableWater": [
+        "No water"
+      ],
+      "iceAvailableForSale": "No",
+      "firewoodForSale": "No",
+      "foodStorageLockers": "No"
+    },
+    "contacts": {
+      "phoneNumbers": [],
+      "emailAddresses": [
+        {
+          "description": "This is the park's general contact email. This is not an email for making campground reservations. There is no direct email for the park's campgrounds.",
+          "emailAddress": "GLAC_Questions@nps.gov"
+        }
+      ]
+    },
+    "fees": [
+      {
+        "cost": "20.00",
+        "description": "Campsite capacity is limited to eight people and two vehicles, where space is available. A maximum of two tents per site is permitted. Cut Bank is a primitive campground all season. There is no water available and campers are advised to bring their own drinking water.",
+        "title": "Cut Bank summer fee"
+      }
+    ],
+    "images": [
+      {
+        "url": "https://www.nps.gov/common/uploads/structured_data/967490F5-0A08-988E-B01796281125D23C.jpg",
+        "title": "Hiking in Cut Bank",
+        "altText": "Two people walk down a trail near the Cut Bank Campground under cloudy skies with mountains behind.",
+        "caption": "Two people walk down a trail near the Cutbank Campground under cloudy skies. Rocky snow capped peaks rise in the background and the foreground is filled with thick grass.",
+        "credit": "NPS Photo"
+      }
+    ],
+    "reservationUrl": "",
+    "isOpen": true
+  },
+  {
+    "id": "D3D02CD0-A5DB-430B-A1FC-B498FD1890E0",
+    "name": "Fish Creek",
+    "description": "Fish Creek is the second largest campground in the park and is one of the campgrounds in the park that takes reservations. Sites within the campground are surrounded by trees and provide shade and some privacy to both tent and RV campers. Some sites, though not directly on the shore of Lake McDonald, offer filtered views of the lake.",
+    "location": {
+      "lat": 48.5501313189,
+      "lon": -113.982962737
+    },
+    "campsites": {
+      "totalSites": "178",
+      "tentOnly": "4",
+      "rvOnly": "0"
+    },
+    "accessibility": {
+      "wheelchairAccess": "Loop A: A10, A12, A34 (24 feet) Loop B: B68 (35 feet) B65 (27 feet) Loop D: D158 (27 feet)",
+      "internetInfo": "",
+      "cellPhoneInfo": "",
+      "fireStovePolicy": "Picnic tables and fire rings provided.",
+      "rvAllowed": "1",
+      "rvInfo": "18 sites can accommodate up to a 35 foot RV or truck and trailer combination.",
+      "rvMaxLength": "35",
+      "additionalInfo": "Tent only sites: C120, C121, C122, D166 Sites not suitable for tents: C139, C143 Loop C is a Generator Free Zone",
+      "trailerMaxLength": "35",
+      "adaInfo": "Restrooms facilities are accessible. Showers: 2 ADA accessible unisex shower stalls located in Loop A. Loop A Accessible sites: A10, A12, A34 (24 feet) Loop D Accessible Sites: D158 (27 feet) D160 (24 feet)",
+      "trailerAllowed": "1",
+      "accessRoads": [
+        "Paved Roads - All vehicles OK"
+      ],
+      "classifications": [
+        "Developed Campground"
+      ]
+    },
+    "amenities": {
+      "trashRecyclingCollection": "Yes - seasonal",
+      "toilets": [
+        "Flush Toilets - seasonal"
+      ],
+      "internetConnectivity": "No",
+      "showers": [
+        "Hot - Seasonal"
+      ],
+      "cellPhoneReception": "No",
+      "laundry": "No",
+      "amphitheater": "Yes - seasonal",
+      "dumpStation": "Yes - seasonal",
+      "campStore": "No",
+      "staffOrVolunteerHostOnsite": "Yes - seasonal",
+      "potableWater": [
+        "Yes - seasonal"
+      ],
+      "iceAvailableForSale": "No",
+      "firewoodForSale": "No",
+      "foodStorageLockers": "Yes - seasonal"
+    },
+    "contacts": {
+      "phoneNumbers": [
+        {
+          "phoneNumber": "1-877-444-6777",
+          "description": "",
+          "extension": "",
+          "type": "Voice"
+        }
+      ],
+      "emailAddresses": [
+        {
+          "description": "This is the park's general contact email and not an email for making reservations. Reservations may be made through the National Park Service Reservation system at recreation.gov\nor by calling 1-877-444-6777.",
+          "emailAddress": "glac_questions@nps.gov"
+        }
+      ]
+    },
+    "fees": [
+      {
+        "cost": "30.00",
+        "description": "Campsite capacity is limited to eight people and two vehicles, where space is available. A maximum of two tents per site is permitted.",
+        "title": "Fish Creek summer fee"
+      }
+    ],
+    "images": [
+      {
+        "url": "https://www.nps.gov/common/uploads/structured_data/3379099F-1DD8-B71B-0B1183681291F8DD.jpg",
+        "title": "Fish Creek Amphitheater",
+        "altText": "rows of benches before a stone-based stage with wooden backdrop",
+        "caption": "Enjoy a nightly evening program at the amphitheater",
+        "credit": "NPS/Gabriel Morrow"
+      },
+      {
+        "url": "https://www.nps.gov/common/uploads/structured_data/8FBBCE86-C8B3-B30E-0C93F462F126852B.jpg",
+        "title": "Fish Creek Campground Fun",
+        "altText": "Two people sit by a campfire ring in a forested campground with tents and other people in the backgr",
+        "caption": "The Fish Creek Campground is in a forested area.",
+        "credit": "NPS Photo"
+      },
+      {
+        "url": "https://www.nps.gov/common/uploads/structured_data/338FB4FE-1DD8-B71B-0BCD020DDF95372C.jpg",
+        "title": "Fish Creek Picnic Area",
+        "altText": "picnic table and fire ring among trees by lake",
+        "caption": "The beach grows beach as the water levels drop through the summer.",
+        "credit": "NPS/Gabriel Morrow"
+      }
+    ],
+    "reservationUrl": "https://www.recreation.gov/camping/campgrounds/232493",
+    "isOpen": true
+  },
+  {
+    "id": "BCE824F6-C326-4753-9D3D-916A93A690ED",
+    "name": "Kintla Lake",
+    "description": "Kintla Lake Campground is Glacier National Park's most remote frontcountry and car camping campground. It is located in the uppermost northwest section of the park known as the North Fork, approximately 40 miles from the west entrance. Access is via a rough dirt road. Trailers not permitted. Due to its remote location, the campground is very quiet and rarely fills, offering tent campers a sense of solitude. The campground sits on Kintla Lake.",
+    "location": {
+      "lat": 48.9357452093,
+      "lon": -114.345930032
+    },
+    "campsites": {
+      "totalSites": "13",
+      "tentOnly": "0",
+      "rvOnly": "0"
+    },
+    "accessibility": {
+      "wheelchairAccess": "1 campsite (#13)",
+      "internetInfo": "",
+      "cellPhoneInfo": "",
+      "fireStovePolicy": "Picnic tables and fire rings provided.",
+      "rvAllowed": "0",
+      "rvInfo": "RVs and truck and trailer combinations are not permitted at Kintla Lake due to the nature of the long, narrow, and windy dirt road to the campground.",
+      "rvMaxLength": "0",
+      "additionalInfo": "Motorcraft are not allowed on Kintla Lake, making for a quiet canoe or kayak experience. A boat inspection for Aquatic Invasive Species is required prior to launch (the nearest site is at the Polebridge Ranger Station). Fisherman will also enjoy Kintla Lake for the trout found in it. If you like to hike, don't forget to pack your boots, as day hikes and extended trips into the backcountry can be found near the campground.",
+      "trailerMaxLength": "0",
+      "adaInfo": "Pit toilets are located in the campground however they are not fully accessible.",
+      "trailerAllowed": "0",
+      "accessRoads": [
+        "Unpaved Roads - All vehicles OK in good weather"
+      ],
+      "classifications": [
+        "Limited Development Campground"
+      ]
+    },
+    "amenities": {
+      "trashRecyclingCollection": "Yes - seasonal",
+      "toilets": [
+        "Vault Toilets - seasonal"
+      ],
+      "internetConnectivity": "No",
+      "showers": [
+        "None"
+      ],
+      "cellPhoneReception": "No",
+      "laundry": "No",
+      "amphitheater": "No",
+      "dumpStation": "Yes - seasonal",
+      "campStore": "No",
+      "staffOrVolunteerHostOnsite": "Yes - seasonal",
+      "potableWater": [
+        "Yes - seasonal"
+      ],
+      "iceAvailableForSale": "No",
+      "firewoodForSale": "No",
+      "foodStorageLockers": "Yes - seasonal"
+    },
+    "contacts": {
+      "phoneNumbers": [
+        {
+          "phoneNumber": "(406) 888-7800",
+          "description": "",
+          "extension": "",
+          "type": "Voice"
+        }
+      ],
+      "emailAddresses": [
+        {
+          "description": "This is the park's general contact line there is no direct phone number or email for Glacier's campgrounds.",
+          "emailAddress": "glac_questions@nps.gov"
+        }
+      ]
+    },
+    "fees": [
+      {
+        "cost": "25.00",
+        "description": "Campsite capacity is limited to eight people and two vehicles, where space is available. A maximum of two tents per site is permitted. A hand pump is available for potable water, and pit toilets are located in the campground as well.",
+        "title": "Kintla Lake summer status"
+      },
+      {
+        "cost": "15.00",
+        "description": "Campsite capacity is limited to eight people and two vehicles, where space is available. A maximum of two tents per site is permitted. Primitive camping is available, depending on weather and road conditions. During primitive camping season there is no water available and campers are advised to bring their own drinking water.",
+        "title": "Kintla Lake primitive status"
+      }
+    ],
+    "images": [
+      {
+        "url": "https://www.nps.gov/common/uploads/structured_data/344CF269-1DD8-B71B-0B3C8FB88E06C4B8.jpg",
+        "title": "Kintla Lake",
+        "altText": "blue sky over mountains, lake, and conifer covered ridge",
+        "caption": "View from shore",
+        "credit": "NPS"
+      },
+      {
+        "url": "https://www.nps.gov/common/uploads/structured_data/8CEF48C0-C5FF-C6D5-7C21A9B5CDF67616.jpg",
+        "title": "Dusty Cars at Kintla Campgroung",
+        "altText": "Six dusty cars are parked along side a dirt road with a forest in the background on a sunny day.",
+        "caption": "The road to Kintla Lake is long, rough, and dusty.",
+        "credit": "NPS Photo"
+      }
+    ],
+    "reservationUrl": "",
+    "isOpen": true
+  },
+  {
+    "id": "4CA589A7-8776-4E8E-BFB7-E5D1EF2E65E8",
+    "name": "Logging Creek",
+    "description": "The Logging Creek Campground is one of the smaller campgrounds in Glacier and is located on the west side of the park, south of Polebridge. Access is via the Inside North Fork Road, a dusty narrow winding road. Caution is advised when traveling this road. RVs and trailers are not permitted. Once there, campers will find a small primitive campground with all the solitude one could want. The trailhead to Logging Lake is nearby and the easy hike to the lake is a great family day hike.",
+    "location": {
+      "lat": 48.6984547616,
+      "lon": -114.191655604
+    },
+    "campsites": {
+      "totalSites": "7",
+      "tentOnly": "0",
+      "rvOnly": "0"
+    },
+    "accessibility": {
+      "wheelchairAccess": "No accessible sites",
+      "internetInfo": "",
+      "cellPhoneInfo": "",
+      "fireStovePolicy": "Picnic tables and fire rings provided. Dead wood on the ground may be collected for use as fuel for campfires along the Inside North Fork Road from Dutch Creek to Kintla Lake.",
+      "rvAllowed": "0",
+      "rvInfo": "RVs and truck and trailer combinations are not permitted.",
+      "rvMaxLength": "0",
+      "additionalInfo": "",
+      "trailerMaxLength": "0",
+      "adaInfo": "Pit toilets are located in the campground however they are not fully accessible.",
+      "trailerAllowed": "0",
+      "accessRoads": [
+        "Unpaved Roads - All vehicles OK in good weather"
+      ],
+      "classifications": [
+        "Primitive Camping Areas"
+      ]
+    },
+    "amenities": {
+      "trashRecyclingCollection": "Yes - seasonal",
+      "toilets": [
+        "Vault Toilets - seasonal"
+      ],
+      "internetConnectivity": "No",
+      "showers": [
+        "None"
+      ],
+      "cellPhoneReception": "No",
+      "laundry": "No",
+      "amphitheater": "No",
+      "dumpStation": "No",
+      "campStore": "No",
+      "staffOrVolunteerHostOnsite": "No",
+      "potableWater": [
+        "No water"
+      ],
+      "iceAvailableForSale": "No",
+      "firewoodForSale": "No",
+      "foodStorageLockers": "Yes - seasonal"
+    },
+    "contacts": {
+      "phoneNumbers": [
+        {
+          "phoneNumber": "(406) 888-7800",
+          "description": "",
+          "extension": "",
+          "type": "Voice"
+        }
+      ],
+      "emailAddresses": [
+        {
+          "description": "This is the park's general contact email, there is no direct email for the park's campgrounds.",
+          "emailAddress": "glac_questions@nps.gov"
+        }
+      ]
+    },
+    "fees": [
+      {
+        "cost": "15.00",
+        "description": "Campsite capacity is limited to eight people and two vehicles, where space is available. A maximum of two tents per site is permitted. Logging Creek Campground operates in primitive status all season. No potable water sources or dump station facilities are provided.",
+        "title": "Logging Creek summer fee"
+      }
+    ],
+    "images": [
+      {
+        "url": "https://www.nps.gov/common/uploads/structured_data/972977B5-022F-B733-760EC061E8C6087A.jpg",
+        "title": "The North Fork Valley",
+        "altText": "A bridge crosses a river with trees framing the image and distant snowy mountains in the background.",
+        "caption": "The road to Logging Lake.",
+        "credit": "NPS Photo"
+      }
+    ],
+    "reservationUrl": "",
+    "isOpen": true
+  },
+  {
+    "id": "E6C99AFB-B842-4840-BD72-A4C028E0C06F",
+    "name": "Many Glacier Campground",
+    "description": "The campground at Many Glacier is one of the most popular campgrounds in Glacier National Park. The campground is situated within trees for tent and RV campers, though there are only 13 sites that can accommodate vehicles up to 35 feet in length. Bring your binoculars, as there are opportunities to view wildlife like bighorn sheep, moose, and bears. Many Glacier also provides access to some of the best day hikes in the park. Advanced reservations are required for all sites.",
+    "location": {
+      "lat": 48.7964957238,
+      "lon": -113.677619731
+    },
+    "campsites": {
+      "totalSites": "109",
+      "tentOnly": "8",
+      "rvOnly": "0"
+    },
+    "accessibility": {
+      "wheelchairAccess": "no accessible campsites",
+      "internetInfo": "",
+      "cellPhoneInfo": "There is limited coverage in the town of Babb.",
+      "fireStovePolicy": "Picnic tables and fire rings provided.",
+      "rvAllowed": "1",
+      "rvInfo": "13 sites will accommodate up to a 35 foot RV or truck and trailer combination.",
+      "rvMaxLength": "35",
+      "additionalInfo": "The nearby Swiftcurrent Motor Inn houses a combination gift shop and camp store, and a casual restaurant. A separate building near the Swiftcurrent Motor Inn houses token operated showers. Be sure to join a ranger for nightly evening programs at the amphitheater. Many Glacier Hotel, situated on Swiftcurrent Lake, is located down the road from the campground. Here you will find dinning opportunities, interpretive programs, boat tours, horse rides, fee-based shuttle service, and Red Bus tours. Many Glacier provides access to some of the best day hikes in the park.",
+      "trailerMaxLength": "35",
+      "adaInfo": "Restroom facilities are accessible. Many Glacier Campground Amphitheater is accessible. Nearby Swiftcurrent Motor Inn offers shower facilities with 1 ADA accessible unisex shower stall.",
+      "trailerAllowed": "1",
+      "accessRoads": [
+        "Paved Roads - All vehicles OK"
+      ],
+      "classifications": [
+        "Developed Campground"
+      ]
+    },
+    "amenities": {
+      "trashRecyclingCollection": "Yes - seasonal",
+      "toilets": [
+        "Flush Toilets - seasonal"
+      ],
+      "internetConnectivity": "No",
+      "showers": [
+        "None"
+      ],
+      "cellPhoneReception": "No",
+      "laundry": "No",
+      "amphitheater": "Yes - seasonal",
+      "dumpStation": "Yes - seasonal",
+      "campStore": "Yes - seasonal",
+      "staffOrVolunteerHostOnsite": "Yes - seasonal",
+      "potableWater": [
+        "Yes - seasonal"
+      ],
+      "iceAvailableForSale": "No",
+      "firewoodForSale": "No",
+      "foodStorageLockers": "Yes - seasonal"
+    },
+    "contacts": {
+      "phoneNumbers": [
+        {
+          "phoneNumber": "1-877-444-6777",
+          "description": "",
+          "extension": "",
+          "type": "Voice"
+        }
+      ],
+      "emailAddresses": [
+        {
+          "description": "GLAC_Questions@nps.gov\n\nThis is the park's general contact email. This is not an email for making campground reservations. There is no direct email for the park's campgrounds. \n\nYou can make campground reservations on recreation.gov or by calling 1-877-444-6777.",
+          "emailAddress": "glac_questions@nps.gov"
+        }
+      ]
+    },
+    "fees": [
+      {
+        "cost": "30.00",
+        "description": "Campsite capacity is limited to eight people and two vehicles, where space is available. A maximum of two tents per site is permitted.",
+        "title": "Many Glacier summer status"
+      },
+      {
+        "cost": "20.00",
+        "description": "Campsite capacity is limited to eight people and two vehicles, where space is available. A maximum of two tents per site is permitted. During primitive camping season there is no water available and campers are advised to bring their own drinking water.",
+        "title": "Many Glacier primitive status"
+      }
+    ],
+    "images": [
+      {
+        "url": "https://www.nps.gov/common/uploads/structured_data/5A1C07D0-1DD8-B71B-0B4BC2879E71E9F8.jpg",
+        "title": "Many Glacier Campground Amphitheater",
+        "altText": "brown wooden benches on slope in forest clearing",
+        "caption": "Enjoy an evening program at the amphitheater",
+        "credit": "NPS/Gabriel Morrow"
+      },
+      {
+        "url": "https://www.nps.gov/common/uploads/structured_data/5A3B1D4D-1DD8-B71B-0B9482F4175D185D.jpg",
+        "title": "Mount Wilbur",
+        "altText": "craggy topped mountain rises above forest and lakeshore",
+        "caption": "Mount Wilbur towers over the Swiftcurrent area.",
+        "credit": "NPS/Jon Riner"
+      },
+      {
+        "url": "https://www.nps.gov/common/uploads/structured_data/8E1145B7-1DD8-B71B-0B28601908C43976.jpg",
+        "title": "Many Glacier Campground",
+        "altText": "a tent, picnic table, and fire ring on gravel in clearing, RV in background",
+        "caption": "A wooded site in busy Many Glacier",
+        "credit": "NPS"
+      }
+    ],
+    "reservationUrl": "https://www.recreation.gov/camping/campgrounds/251869",
+    "isOpen": true
+  },
+  {
+    "id": "2EB16A75-677B-4AF6-9237-A6285BE18962",
+    "name": "Quartz Creek",
+    "description": "Quartz Creek Campground is the smallest campground in Glacier National Park and remains in primitive status all season. It is located on the west side of the park in the North Fork area and is accessed by the Inside North Fork Road, a rough, dusty, dirt road with many blind curves and few pullouts. Trailers are not permitted. Tent campers will enjoy a wilderness experience at the campground.",
+    "location": {
+      "lat": 48.7226099102,
+      "lon": -114.224273296
+    },
+    "campsites": {
+      "totalSites": "7",
+      "tentOnly": "0",
+      "rvOnly": "0"
+    },
+    "accessibility": {
+      "wheelchairAccess": "No accessible campsites",
+      "internetInfo": "",
+      "cellPhoneInfo": "",
+      "fireStovePolicy": "Picnic tables and fire rings provided. Dead wood on the ground may be collected for use as fuel for campfires along the Inside North Fork Road from Dutch Creek to Kintla Lake.",
+      "rvAllowed": "0",
+      "rvInfo": "RVs and truck and trailer combinations are not permitted.",
+      "rvMaxLength": "0",
+      "additionalInfo": "There is no water available at Quartz Creek Campground, it is advised that you bring in your own drinking water. Limited amenities can be found in Polebridge. A trailhead to Lower Quartz Lake is present (6.2 mile one way day hike).",
+      "trailerMaxLength": "0",
+      "adaInfo": "Pit toilets are located in the campground however they are not fully accessible.",
+      "trailerAllowed": "0",
+      "accessRoads": [
+        "Unpaved Roads - All vehicles OK in good weather"
+      ],
+      "classifications": [
+        "Primitive Camping Areas"
+      ]
+    },
+    "amenities": {
+      "trashRecyclingCollection": "Yes - seasonal",
+      "toilets": [
+        "Vault Toilets - seasonal"
+      ],
+      "internetConnectivity": "No",
+      "showers": [
+        "None"
+      ],
+      "cellPhoneReception": "No",
+      "laundry": "No",
+      "amphitheater": "No",
+      "dumpStation": "No",
+      "campStore": "No",
+      "staffOrVolunteerHostOnsite": "No",
+      "potableWater": [
+        "No water"
+      ],
+      "iceAvailableForSale": "No",
+      "firewoodForSale": "No",
+      "foodStorageLockers": "Yes - seasonal"
+    },
+    "contacts": {
+      "phoneNumbers": [
+        {
+          "phoneNumber": "(406)-888-7800",
+          "description": "",
+          "extension": "",
+          "type": "Voice"
+        }
+      ],
+      "emailAddresses": [
+        {
+          "description": "This is the park's general contact email. There is no direct email for the park's campgrounds.",
+          "emailAddress": "glac_questions@nps.gov"
+        }
+      ]
+    },
+    "fees": [
+      {
+        "cost": "15.00",
+        "description": "Campsite capacity is limited to eight people and two vehicles, where space is available. A maximum of two tents per site is permitted. No potable water sources or dump station facilities are provided. There are pit toilets.",
+        "title": "Quartz Creek summer fee"
+      }
+    ],
+    "images": [
+      {
+        "url": "https://www.nps.gov/common/uploads/structured_data/5C386693-1DD8-B71B-0BDFB2E63E8B2E0B.jpg",
+        "title": "Patrol Cabin",
+        "altText": "small rustic cabin and tent on lakeshore surrounded by tall conifers",
+        "caption": "A backcountry patrol cabin on shore of Quartz Lake",
+        "credit": "NPS / James Greig"
+      },
+      {
+        "url": "https://www.nps.gov/common/uploads/structured_data/4693FB49-B183-A3BE-C1D7FB1F5B144DA4.jpg",
+        "title": "Morning Fog and Trees on Quartz Lake",
+        "altText": "Fog sits just above the trees next to the lake. Some sunlight shines through the fog.",
+        "caption": "",
+        "credit": "NPS Photo"
+      }
+    ],
+    "reservationUrl": "",
+    "isOpen": true
+  },
+  {
+    "id": "02A81AB4-ECCC-4FA1-9A62-1769B1D3850C",
+    "name": "Rising Sun Campground",
+    "description": "Rising Sun Campground is located just west of St. Mary and halfway along St. Mary Lake. Campers at Rising Sun will enjoy beautiful sunrises in the morning with Red Eagle Mountain as a backdrop, and the campground serves as a convenient base camp to many day hikes located east of Logan Pass. Some sites are open, allowing for cool breezes throughout the day, while others are located among trees, accommodating those seeking some shade and privacy.",
+    "location": {
+      "lat": 48.6945321734,
+      "lon": -113.522684368
+    },
+    "campsites": {
+      "totalSites": "84",
+      "tentOnly": "0",
+      "rvOnly": "0"
+    },
+    "accessibility": {
+      "wheelchairAccess": "1 campsite (#7)",
+      "internetInfo": "",
+      "cellPhoneInfo": "",
+      "fireStovePolicy": "Picnic tables and fire rings provided.",
+      "rvAllowed": "1",
+      "rvInfo": "Sites can accommodate vehicle lengths up to 21 feet (includes total length of vehicle and trailer).",
+      "rvMaxLength": "21",
+      "additionalInfo": "Adjacent to the campground is a camp store, a casual restaurant, and token operated showers. Boat tours on St. Mary Lake are located near Rising Sun, and free shuttle service is available at this location. Otokomi Lake trailhead is located next to the campground. Attend an evening ranger program.",
+      "trailerMaxLength": "21",
+      "adaInfo": "Restroom facilities are accessible.",
+      "trailerAllowed": "1",
+      "accessRoads": [
+        "Paved Roads - All vehicles OK"
+      ],
+      "classifications": [
+        "Developed Campground"
+      ]
+    },
+    "amenities": {
+      "trashRecyclingCollection": "Yes - seasonal",
+      "toilets": [
+        "Flush Toilets - seasonal"
+      ],
+      "internetConnectivity": "No",
+      "showers": [
+        "Coin-Operated - Seasonal"
+      ],
+      "cellPhoneReception": "No",
+      "laundry": "No",
+      "amphitheater": "Yes - seasonal",
+      "dumpStation": "Yes - seasonal",
+      "campStore": "Yes - seasonal",
+      "staffOrVolunteerHostOnsite": "Yes - seasonal",
+      "potableWater": [
+        "Yes - seasonal"
+      ],
+      "iceAvailableForSale": "No",
+      "firewoodForSale": "No",
+      "foodStorageLockers": "Yes - seasonal"
+    },
+    "contacts": {
+      "phoneNumbers": [],
+      "emailAddresses": [
+        {
+          "description": "This is the park's general contact email. There is no direct email for the park's campgrounds.",
+          "emailAddress": "glac_questions@nps.gov"
+        }
+      ]
+    },
+    "fees": [
+      {
+        "cost": "30.00",
+        "description": "Rising Sun is first come, first serve only. Campsite capacity is limited to eight people and two vehicles, where space is available. A maximum of two tents per site is permitted.",
+        "title": "Rising Sun summer fee"
+      }
+    ],
+    "images": [
+      {
+        "url": "https://www.nps.gov/common/uploads/structured_data/7BB52463-9598-E21C-E504BD0F8C9341AE.jpg",
+        "title": "Rising Sun Campground Kiosk",
+        "altText": "A small, wooden kiosk with a brown \"Register Here\" sign stands in front of a large mountain.",
+        "caption": "Rising Sun Campground is located just west of St. Mary and halfway along St. Mary Lake.",
+        "credit": "NPS Photo"
+      },
+      {
+        "url": "https://www.nps.gov/common/uploads/structured_data/7BC6DFB7-A4E0-A178-D237CEF759EFD473.jpg",
+        "title": "Rising Sun Campground Campsite",
+        "altText": "A picnic table sits on level ground with trees and mountains in the background.",
+        "caption": "Red Eagle Mountain serves as a background for Rising Sun Campground sites.",
+        "credit": "NPS Photo"
+      },
+      {
+        "url": "https://www.nps.gov/common/uploads/structured_data/5C7B8D2D-1DD8-B71B-0B7C02107F1415DA.jpg",
+        "title": "Rising Sun Amphitheater",
+        "altText": "wooden benches on gravel clearing with campsites and bathroom building in background among trees",
+        "caption": "Attend an evening program at the amphitheater",
+        "credit": "NPS/Gabriel Morrow"
+      }
+    ],
+    "reservationUrl": "",
+    "isOpen": true
+  },
+  {
+    "id": "2ABC98CE-A9E8-438C-8BDA-2935B0224BB4",
+    "name": "Sprague Creek Campground",
+    "description": "Sprague Creek is a small campground located on the northeast shore of Lake McDonald, just off Going-to-the-Sun Road. Towed units (vehicle plus unit) and RVs exceeding 21 feet are not permitted in this campground. The campground is located within trees, providing shade during warm summers. Some sites near the shore have unobstructed views of Lake McDonald. Reservations are required to camp at Sprague Creek Campground. Click the reservation button below for details.",
+    "location": {
+      "lat": 48.6056174164,
+      "lon": -113.885413397
+    },
+    "campsites": {
+      "totalSites": "25",
+      "tentOnly": "0",
+      "rvOnly": "0"
+    },
+    "accessibility": {
+      "wheelchairAccess": "There is a short accessible path on the north end of the picnic area that leads to the lake. Restroom facilities are accessible.",
+      "internetInfo": "",
+      "cellPhoneInfo": "",
+      "fireStovePolicy": "Picnic tables and fire rings provided.",
+      "rvAllowed": "0",
+      "rvInfo": "No towed units are allowed in Sprague Creek due to the nature of the road within the campground. Maximum vehicle length is 21 feet.",
+      "rvMaxLength": "0",
+      "additionalInfo": "Amenities such as a camp store, resturant, gift shop, tour buses, boat tours, and horse rides can be found at the historic Lake McDonald Lodge, about a mile away from the campground. Evening programs with a ranger are located at Apgar and Fish Creek Campgrounds.",
+      "trailerMaxLength": "0",
+      "adaInfo": "There is a short accessible path on the north end of the picnic area that leads to the lake. Restroom facilities are accessible.",
+      "trailerAllowed": "0",
+      "accessRoads": [
+        "Unpaved Roads - All vehicles OK in good weather"
+      ],
+      "classifications": [
+        "Developed Campground"
+      ]
+    },
+    "amenities": {
+      "trashRecyclingCollection": "Yes - seasonal",
+      "toilets": [
+        "Flush Toilets - seasonal"
+      ],
+      "internetConnectivity": "No",
+      "showers": [
+        "None"
+      ],
+      "cellPhoneReception": "No",
+      "laundry": "No",
+      "amphitheater": "No",
+      "dumpStation": "No",
+      "campStore": "No",
+      "staffOrVolunteerHostOnsite": "No",
+      "potableWater": [
+        "Yes - seasonal"
+      ],
+      "iceAvailableForSale": "No",
+      "firewoodForSale": "No",
+      "foodStorageLockers": "Yes - seasonal"
+    },
+    "contacts": {
+      "phoneNumbers": [
+        {
+          "phoneNumber": "1-877-444-6777",
+          "description": "",
+          "extension": "",
+          "type": "Voice"
+        }
+      ],
+      "emailAddresses": [
+        {
+          "description": "This is the park's general contact email. This is not an email for making campground reservations. There is no direct email for the park's campgrounds. \n\nYou can make campground reservations on recreation.gov or by calling 1-877-444-6777.",
+          "emailAddress": "glac_questions@nps.gov"
+        }
+      ]
+    },
+    "fees": [
+      {
+        "cost": "30.00",
+        "description": "Campsite capacity is limited to eight people and two vehicles, where space is available. A maximum of two tents per site is permitted.",
+        "title": "Sprague Creek summer fee"
+      }
+    ],
+    "images": [
+      {
+        "url": "https://www.nps.gov/common/uploads/structured_data/5D19734F-1DD8-B71B-0B60B2A667855ED0.jpg",
+        "title": "Sprague Creek Picnic Area",
+        "altText": "gravel parking spaces and picnic tables in forest clearing",
+        "caption": "Nestled between Going-to-the-Sun Road and Lake McDonald",
+        "credit": "NPS/Gabriel Morrow"
+      },
+      {
+        "url": "https://www.nps.gov/common/uploads/structured_data/5D2B98A5-1DD8-B71B-0BA12DAB975E70A2.jpg",
+        "title": "Sprague Creek Trail to Lake McDonald",
+        "altText": "hard packed trail in woods marked with accessible symbol on sign",
+        "caption": "An accessible trail leads to the lake",
+        "credit": "NPS/Gabriel Morrow"
+      },
+      {
+        "url": "https://www.nps.gov/common/uploads/structured_data/5D3E94DE-1DD8-B71B-0B382239DA7C73A8.jpg",
+        "title": "Sprague Creek Trail to Lake",
+        "altText": "hardpacked gravel pad at forest edge, dark sandy beach at shoreline",
+        "caption": "End of the accessible trail",
+        "credit": "NPS/Gabriel Morrow"
+      }
+    ],
+    "reservationUrl": "https://www.recreation.gov/camping/poi/258795",
+    "isOpen": true
+  },
+  {
+    "id": "E4607DC5-8154-4BE3-989D-66FAE589B686",
+    "name": "St. Mary Campground",
+    "description": "St. Mary Campground is the largest campground on the east side of Glacier National Park and is open year-round. Activities such as interpretive programs, book sales, and shuttle service tours are located at the nearby St. Mary Visitor Center. St. Mary requires a reservation throughout the season. Though shade may be sparse, aspen trees grace St. Mary Campground with soothing sounds from spring and summer breezes, and colorful splashes of yellow late in the season.",
+    "location": {
+      "lat": 48.75167903301825,
+      "lon": -113.44240520333983
+    },
+    "campsites": {
+      "totalSites": "148",
+      "tentOnly": "7",
+      "rvOnly": "0"
+    },
+    "accessibility": {
+      "wheelchairAccess": "Loop C: C146, C148 (36 feet)",
+      "internetInfo": "",
+      "cellPhoneInfo": "",
+      "fireStovePolicy": "Picnic tables and fire rings provided.",
+      "rvAllowed": "1",
+      "rvInfo": "3 sites can accommodate RV or vehicle/trailer combinations up to 40 feet. 22 sites can accommodate up to 35 feet.",
+      "rvMaxLength": "40",
+      "additionalInfo": "Showers are located in Loop C for registered campers only. Group sites: C139, C140 (32 feet) Tent only sites: A29, A39, B52, B58, B61, B79, B87 St. Mary Visitor Center is near by. The visitor center offers interpretive programs, free shuttle service, and Red Bus tours leaving from the center. Just outside the park, you will find amenities such as restaurants, gift shops, camp stores, gas, and a grocery store.",
+      "trailerMaxLength": "40",
+      "adaInfo": "Restroom facilities provide flush toilets and sinks with running water. When the campground is open for primitive or winter camping, there is no water available. Nearby St. Mary Visitor Center offers evening programs in accessible St. Mary Visitor Center Auditorium.",
+      "trailerAllowed": "1",
+      "accessRoads": [
+        "Paved Roads - All vehicles OK"
+      ],
+      "classifications": [
+        "Developed Campground"
+      ]
+    },
+    "amenities": {
+      "trashRecyclingCollection": "Yes - seasonal",
+      "toilets": [
+        "Flush Toilets - seasonal"
+      ],
+      "internetConnectivity": "No",
+      "showers": [
+        "Hot - Seasonal"
+      ],
+      "cellPhoneReception": "No",
+      "laundry": "No",
+      "amphitheater": "Yes - seasonal",
+      "dumpStation": "Yes - seasonal",
+      "campStore": "No",
+      "staffOrVolunteerHostOnsite": "Yes - seasonal",
+      "potableWater": [
+        "Yes - seasonal"
+      ],
+      "iceAvailableForSale": "No",
+      "firewoodForSale": "No",
+      "foodStorageLockers": "Yes - year round"
+    },
+    "contacts": {
+      "phoneNumbers": [
+        {
+          "phoneNumber": "1-877-444-6777",
+          "description": "",
+          "extension": "",
+          "type": "Voice"
+        }
+      ],
+      "emailAddresses": [
+        {
+          "description": "GLAC_Questions@nps.gov\n\nThis is the park's general contact email. This is not an email for making campground reservations. There is no direct email for the park's campgrounds. \n\nYou can make campground reservations on recreation.gov or by calling 1-877-444-6777.",
+          "emailAddress": "GLAC_Questions@nps.gov"
+        }
+      ]
+    },
+    "fees": [
+      {
+        "cost": "20.00",
+        "description": "Campsite capacity is limited to eight people and two vehicles, where space is available. A maximum of two tents per site is permitted. Sites are available on a first-come, first-serve basis.",
+        "title": "St. Mary primitive status"
+      },
+      {
+        "cost": "30.00",
+        "description": "Campsite capacity is limited to eight people and two vehicles, where space is available. A maximum of two tents per site is permitted. Sites can be reserved mid-May through mid-August. Individual campsites may be reserved up to 6 months in advance. The two group sites can be reserved up to a year in advance.",
+        "title": "St. Mary summer status"
+      },
+      {
+        "cost": "0.00",
+        "description": "Campsite capacity is limited to eight people and two vehicles, where space is available. A maximum of two tents per site is permitted. No potable water sources or dump station facilities are provided during the primitive camping season. Comfort stations are closed; use vault toilets located in the campground.",
+        "title": "St. Mary winter status"
+      }
+    ],
+    "images": [
+      {
+        "url": "https://www.nps.gov/common/uploads/structured_data/7C2CFB7B-DAF3-F47D-B2B359998F6CEBBA.jpg",
+        "title": "St. Mary Campground Campsite",
+        "altText": "A brightly-colored tent sits next to a brown picnic table with trees in the background.",
+        "caption": "A picturesque campsite at St. Mary Campground.",
+        "credit": "NPS Photo"
+      },
+      {
+        "url": "https://www.nps.gov/common/uploads/structured_data/95735E22-F256-FADE-54E880B548FF7152.jpg",
+        "title": "Rainy Evening in St. Mary",
+        "altText": "A park ranger in uniform stands in front of a crowd and gestures with their hands.",
+        "caption": "A park ranger in uniform stands in front of a crowd and gestures with their hands while giving an evening program to a group of park visitors. A rainbow is faintly visible in the background.",
+        "credit": "NPS Photo"
+      },
+      {
+        "url": "https://www.nps.gov/common/uploads/structured_data/5E56E3F8-1DD8-B71B-0B447E0ED21E3CB1.jpg",
+        "title": "Stormy Night",
+        "altText": "dark cloudy sky over campsite in field with tent, picnic tables, and campers wearing headlamps",
+        "caption": "Under the Big Sky at St. Mary Campground",
+        "credit": "NPS/Jacob W. Frank"
+      }
+    ],
+    "reservationUrl": "https://www.recreation.gov/camping/campgrounds/232492",
+    "isOpen": true
+  },
+  {
+    "id": "3A770067-D79E-413F-AF38-D879707B79B6",
+    "name": "Two Medicine Campground",
+    "description": "Two Medicine is approximately 13 miles from East Glacier. Sites within the campground at are generally shaded by trees, and offer some privacy from other campers. Boat tours and Red Bus tours can be found at Two Medicine. There are numerous day hiking opportunities available, including a handicap accessible trail to Running Eagle Falls. The campground remains open in late-September for primitive camping with no running water or flush toilets. Advanced reservations are required for all sites.",
+    "location": {
+      "lat": 48.492114971,
+      "lon": -113.36407124
+    },
+    "campsites": {
+      "totalSites": "100",
+      "tentOnly": "0",
+      "rvOnly": "0"
+    },
+    "accessibility": {
+      "wheelchairAccess": "1 campsite (#20) The amphitheater is not accessible.",
+      "internetInfo": "",
+      "cellPhoneInfo": "",
+      "fireStovePolicy": "Picnic tables and fire rings provided.",
+      "rvAllowed": "1",
+      "rvInfo": "10 sites will accommodate up to a 35 foot RV or truck and trailer combination.",
+      "rvMaxLength": "35",
+      "additionalInfo": "Potable water is accessible in the campground, and restroom facilities are equipped with flush toilets and sinks with running water. The RV waste dump/fresh water station is operational during the summer months. There is a campstore and gift shop on the shore of Two Medicine Lake. Boat tours and Red Bus tours can be found at Two Medicine. There are numerous trailheads in the area, with the North Shore Trail extending directly from the campground.",
+      "trailerMaxLength": "35",
+      "adaInfo": "Restroom facilities are accessible. A handicap accessible trail to Running Eagle Falls is located along Two Medicine Road.",
+      "trailerAllowed": "1",
+      "accessRoads": [
+        "Paved Roads - All vehicles OK"
+      ],
+      "classifications": [
+        "Developed Campground"
+      ]
+    },
+    "amenities": {
+      "trashRecyclingCollection": "Yes - seasonal",
+      "toilets": [
+        "Flush Toilets - seasonal"
+      ],
+      "internetConnectivity": "No",
+      "showers": [
+        "None"
+      ],
+      "cellPhoneReception": "No",
+      "laundry": "No",
+      "amphitheater": "Yes - seasonal",
+      "dumpStation": "Yes - seasonal",
+      "campStore": "Yes - seasonal",
+      "staffOrVolunteerHostOnsite": "Yes - seasonal",
+      "potableWater": [
+        "Yes - seasonal"
+      ],
+      "iceAvailableForSale": "No",
+      "firewoodForSale": "No",
+      "foodStorageLockers": "Yes - seasonal"
+    },
+    "contacts": {
+      "phoneNumbers": [
+        {
+          "phoneNumber": "1-877-444-6777",
+          "description": "",
+          "extension": "",
+          "type": "Voice"
+        }
+      ],
+      "emailAddresses": [
+        {
+          "description": "GLAC_Questions@nps.gov\n\nThis is the park's general contact email. This is not an email for making campground reservations. There is no direct email for the park's campgrounds.  You can make campground reservations on recreation.gov or by calling 1-877-444-6777.",
+          "emailAddress": "glac_questions@nps.gov"
+        }
+      ]
+    },
+    "fees": [
+      {
+        "cost": "30.00",
+        "description": "Campsite capacity is limited to eight people and two vehicles, where space is available. A maximum of two tents per site is permitted.",
+        "title": "Two Medicine summer status"
+      },
+      {
+        "cost": "20.00",
+        "description": "Campsite capacity is limited to eight people and two vehicles, where space is available. A maximum of two tents per site is permitted. No potable water sources or dump station facilities are provided. Comfort stations are closed; use vault toilets located in the campground.",
+        "title": "Two Medicine primitive status"
+      }
+    ],
+    "images": [
+      {
+        "url": "https://www.nps.gov/common/uploads/structured_data/5E99F60F-1DD8-B71B-0BB79F288CD8D7ED.jpg",
+        "title": "Pray Lake",
+        "altText": "man stands in shallow water of small lake at base of mountain",
+        "caption": "Two Medicine campground wraps partly around Pray Lake",
+        "credit": "NPS/Gabriel Morrow"
+      },
+      {
+        "url": "https://www.nps.gov/common/uploads/structured_data/5EA0FB9F-1DD8-B71B-0BEACDA7BA86E828.jpg",
+        "title": "Two Medicine Amphitheater",
+        "altText": "long wooden benches in gravel clearing with picnic table and food storage box in background",
+        "caption": "Attend an evening program at Two Medicine Campground Amphitheater",
+        "credit": "NPS/Gabriel Morrow"
+      },
+      {
+        "url": "https://www.nps.gov/common/uploads/structured_data/D7D47166-CDA9-7952-A6F050B4546F75FB.jpg",
+        "title": "Sinopah Mountain",
+        "altText": "A calm lake shows the reflection of the snow-capped mountain above it.",
+        "caption": "The Two Medicine campground provides views of Pray Lake and Sinopah.",
+        "credit": "NPS Photo"
+      }
+    ],
+    "reservationUrl": "https://www.recreation.gov/camping/campgrounds/258799",
+    "isOpen": true
+  }
+]

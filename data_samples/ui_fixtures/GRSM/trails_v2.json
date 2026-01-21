@@ -1,0 +1,392 @@
+[
+  {
+    "id": "B48C79C6-47E6-4489-9B84-97B50B8CCB1A",
+    "name": "Albright Grove",
+    "description": "This short loop trail winds through a quiet old-growth forest, featuring some of the park's oldest and tallest tulip poplars and Fraser magnolias.",
+    "location": {
+      "lat": 35.73729416302944,
+      "lon": -83.27971128089436
+    },
+    "images": [
+      {
+        "url": "https://www.nps.gov/common/uploads/cropped_image/5DF6A262-A935-D071-3C0D884823FA6EE2.jpg",
+        "title": "Albright Grove",
+        "altText": "Forested trail surrounded lined by trees of varying sizes.",
+        "caption": "Hike 6.5 miles (10.5 km) roundtrip from the Maddron Bald Trailhead in the Cosby area.",
+        "credit": "NPS Photo"
+      }
+    ],
+    "nps_url": null,
+    "difficulty": null,
+    "length_miles": null,
+    "elevation_gain_ft": null,
+    "route_type": "Loop",
+    "estimated_time_hours": null,
+    "is_wheelchair_accessible": false,
+    "is_kid_friendly": true,
+    "is_pet_friendly": false,
+    "raw_listing_description": "A short loop trail that winds through a quiet grove of old-growth forest",
+    "raw_body_text": "Overview Admire some of the park's tallest and oldest trees in Albright Grove, one of the finest old-growth forests in Great Smoky Mountains National Park. You will find tulip poplars, Fraser magnolias, and more old-growth trees with wide, buttressing bases so large that you might feel as if you are in the tropics.",
+    "last_enriched": "2026-01-20T21:44:17.414158"
+  },
+  {
+    "id": "6C728639-14CA-412D-B864-223EC226A251",
+    "name": "Alum Cave Bluffs",
+    "description": "This hike passes through old-growth forest and follows mountain streams to reach a dramatic 75-foot rocky overhang.",
+    "location": {
+      "lat": 35.629548345983444,
+      "lon": -83.45153787355747
+    },
+    "images": [
+      {
+        "url": "https://www.nps.gov/common/uploads/cropped_image/58D79A25-BE05-CDB2-CED28A7BC2639193.jpg",
+        "title": "Alum Cave Bluffs",
+        "altText": "Rocky overhang with a mountain view and trees in the background.",
+        "caption": "The tall overhang offers shelter from sun and rain, alike.",
+        "credit": "Bob Carr Photo"
+      }
+    ],
+    "nps_url": "https://www.nps.gov/thingstodo/alum-cave-to-the-bluffs.htm",
+    "difficulty": "Easy",
+    "length_miles": 4.6,
+    "elevation_gain_ft": null,
+    "route_type": "Out & Back",
+    "estimated_time_hours": null,
+    "is_wheelchair_accessible": false,
+    "is_kid_friendly": false,
+    "is_pet_friendly": false,
+    "raw_listing_description": "A dramatic rocky overhang along Alum Cave Trail.",
+    "raw_body_text": "Overview Watch for falling icicles and ice on the trail in cold weather Don't be fooled by the name\u2014it is not actually a cave, but it is still worth the 4.6-mile-roundtrip hike through sections of old-growth forest and mountain streams. The bluff is a rocky overhang that towers 75 feet (22.9 m) overhead.",
+    "last_enriched": "2026-01-20T21:44:22.561378"
+  },
+  {
+    "id": "E65EC2F2-6791-497B-8D44-7E8C0172D812",
+    "name": "Arch Rock",
+    "description": "This unique natural rock formation along the Alum Cave Trail features winding stone steps that allow hikers to walk directly through the arch.",
+    "location": {
+      "lat": 35.6365206326,
+      "lon": -83.4380542429
+    },
+    "images": [
+      {
+        "url": "https://www.nps.gov/common/uploads/cropped_image/78C32D93-9DAA-A898-A95DE5B062B2CAC6.jpg",
+        "title": "Arch Rock",
+        "altText": "Wooden foot bridge leads to stone stairs that pass under a rocky arch. Rocks and trees nearby.",
+        "caption": "Hike 2.8 miles (4.5 km) roundtrip to enjoy Arch Rock on the Alum Cave Trail.",
+        "credit": "NPS Photo"
+      }
+    ],
+    "nps_url": "https://www.nps.gov/thingstodo/alum-cave-to-the-bluffs.htm",
+    "difficulty": null,
+    "length_miles": null,
+    "elevation_gain_ft": null,
+    "route_type": null,
+    "estimated_time_hours": null,
+    "is_wheelchair_accessible": false,
+    "is_kid_friendly": false,
+    "is_pet_friendly": false,
+    "raw_listing_description": "A natural rock formation that stretches over a set of winding stone steps along Alum Cave Trail.",
+    "raw_body_text": "Overview Parking is often full\u2014please prepare a back-up plan and consider using a shuttle This natural rock formation is made even more special in that it is the only one in the park you can hike through. The beautiful stone steps may look like they were built by the CCC in the 1930s, but in fact they were built by the park's dedicated trail crew in 2015 and 2016.",
+    "last_enriched": "2026-01-20T21:44:44.806957"
+  },
+  {
+    "id": "C3761EB3-81C7-4648-B2DB-98562B1D3C2E",
+    "name": "Cataract Falls",
+    "description": "This short trail follows Fighting Creek upstream to a narrow 40-foot waterfall that is most dramatic after a heavy rain.",
+    "location": {
+      "lat": 35.68978184602412,
+      "lon": -83.5391776734746
+    },
+    "images": [
+      {
+        "url": "https://www.nps.gov/common/uploads/cropped_image/7D36D4B0-954E-CCE6-8FA7FD5962B6646A.jpg",
+        "title": "Cataract Falls",
+        "altText": "A narrow, stout waterfall flows past green rhododendron. Blue sky through the trees in background.",
+        "caption": "Walk 0.7 miles (1.1 km) roundtrip to enjoy Cataract Falls near Sugarlands Visitor Center.",
+        "credit": "NPS Photo"
+      }
+    ],
+    "nps_url": "https://www.nps.gov/grsm/planyourvisit/trail-access-information.htm",
+    "difficulty": null,
+    "length_miles": null,
+    "elevation_gain_ft": null,
+    "route_type": null,
+    "estimated_time_hours": null,
+    "is_wheelchair_accessible": false,
+    "is_kid_friendly": true,
+    "is_pet_friendly": false,
+    "raw_listing_description": "A narrow 40-foot (12.2 m) cascade where Cataract Branch meets Fighting Creek.",
+    "raw_body_text": "Overview This narrow, 40-foot (12.2 m) waterfall is only a short hike from the Sugarlands Visitor Center following the path of Fighting Creek upstream. It's a small waterfall and most dramatic after a heavy rain.",
+    "last_enriched": "2026-01-20T21:45:08.491330"
+  },
+  {
+    "id": "B53B6C0A-C563-4378-A065-62DB1B313EA1",
+    "name": "Charlies Bunion",
+    "description": "This high-elevation hike leads to a unique rock formation and scenic outcrop surrounded by steep cliffs along the Appalachian Trail.",
+    "location": {
+      "lat": 35.639264916851516,
+      "lon": -83.37178732174408
+    },
+    "images": [
+      {
+        "url": "https://www.nps.gov/common/uploads/cropped_image/7D9EF1E6-D6E0-D0C5-5C337F329DE981F5.jpg",
+        "title": "Charlies Bunion",
+        "altText": "A sweeping mountain view off a trail with shrubs and rocks around the path.",
+        "caption": "Hike 8 miles (12.9 km) roundtrip on the Appalachian Trail from Newfound Gap to enjoy this vista.",
+        "credit": "William Simpkins Photo"
+      }
+    ],
+    "nps_url": "https://www.nps.gov/thingstodo/charlies-bunion-via-appalachian-trail.htm",
+    "difficulty": null,
+    "length_miles": null,
+    "elevation_gain_ft": null,
+    "route_type": null,
+    "estimated_time_hours": null,
+    "is_wheelchair_accessible": false,
+    "is_kid_friendly": false,
+    "is_pet_friendly": false,
+    "raw_listing_description": "A unique rocky outcrop surrounded by steep cliffs along the Appalachian Trail.",
+    "raw_body_text": "Overview This is a high elevation hike and can be dangerous in winter and extreme weather. The name \"Charlies Bunion\" describes a unique rock formation that was exposed by an early 1900s wildfire and subsequent erosion.",
+    "last_enriched": "2026-01-20T21:45:15.262861"
+  },
+  {
+    "id": "0D6F2E9E-E5AD-4971-995E-D7D745D753B1",
+    "name": "Chasteen Creek Cascade",
+    "description": "Follow an old logging road along a pleasant creek on this relatively flat hike to reach a peaceful 15-foot cascade that tumbles down smoothly worn sandstone and quartz.",
+    "location": {
+      "lat": 35.58740344532215,
+      "lon": -83.31071017314054
+    },
+    "images": [
+      {
+        "url": "https://www.nps.gov/common/uploads/cropped_image/7E0F227B-E168-63C9-A4DA7B5D0A417D56.jpg",
+        "title": "Chasteen Creek Falls",
+        "altText": "A wide cascade runs down rocks.",
+        "caption": "This 3.6-mile (5.8-km) roundtrip hike begins at the Bradley Fork Trailhead in Smokemont Campground.",
+        "credit": "Bob Carr Photo"
+      }
+    ],
+    "nps_url": "https://www.nps.gov/thingstodo/bradley-fork-trail-to-chasteen-creek-cascade.htm",
+    "difficulty": "Easy",
+    "length_miles": 4.0,
+    "elevation_gain_ft": null,
+    "route_type": "Out & Back",
+    "estimated_time_hours": null,
+    "is_wheelchair_accessible": false,
+    "is_kid_friendly": false,
+    "is_pet_friendly": false,
+    "raw_listing_description": "A peaceful cascade that slides 15 feet (4.6 m) down smoothly worn sandstone.",
+    "raw_body_text": "Overview At Chasteen Creek Cascade, the flow of a small creek tumbles 15 feet (4.6 m) down smoothly worn sandstone with streaks of quartz. The trail to Chasteen Creek Cascade follows along an old logging road, making for a relatively flat 4-mile-roundtrip hike along a pleasant creek to the cascade.",
+    "last_enriched": "2026-01-20T21:45:23.843528"
+  },
+  {
+    "id": "57AB2192-00E9-4DC8-92E2-DA77D2993469",
+    "name": "Elijah Oliver Place",
+    "description": "This short walk leads to a historic nineteenth-century pioneer farmstead where visitors can explore a variety of original buildings including a cabin and smokehouse.",
+    "location": {
+      "lat": 35.59728144715034,
+      "lon": -83.85086097417658
+    },
+    "images": [
+      {
+        "url": "https://www.nps.gov/common/uploads/cropped_image/BA767B73-D92B-A4CB-055C947040F9A311.jpg",
+        "title": "Elijah Oliver Cabin",
+        "altText": "A nineteenth century cabin sits on 1.5-acre lot surrounded by trees.",
+        "caption": "At the end of a half mile gravel path is a nineteenth century dogtrot style cabin where Elijah Olive",
+        "credit": "C. Daugherty"
+      }
+    ],
+    "nps_url": "https://www.nps.gov/grsm/planyourvisit/trail-access-information.htm",
+    "difficulty": "Easy",
+    "length_miles": 1.0,
+    "elevation_gain_ft": null,
+    "route_type": "Out & Back",
+    "estimated_time_hours": null,
+    "is_wheelchair_accessible": false,
+    "is_kid_friendly": true,
+    "is_pet_friendly": false,
+    "raw_listing_description": "The Elijah Oliver place is a farmstead made up of multiple nineteenth century buildings in the west end of the loop. It is a 0.5 mile (0.8 km) walk from Cades Cove Loop Road.",
+    "raw_body_text": "Overview Elijah Oliver was born in 1824 to John and Lucretia Oliver. Although he spent most of his life living in the cove, he did leave during the Civil War, relocating to Tuckaleechee Cove to escape attacks from Confederate supporters and rebel groups out of North Carolina.",
+    "last_enriched": "2026-01-20T21:45:32.949274"
+  },
+  {
+    "id": "2B06253F-7C61-4AA0-B526-A253EC8DA492",
+    "name": "Gregory Bald",
+    "description": "Reach this high-elevation grassy bald for panoramic views of Cades Cove and spectacular displays of blooming flame azaleas in midsummer.",
+    "location": {
+      "lat": 0.0,
+      "lon": 0.0
+    },
+    "images": [
+      {
+        "url": "https://www.nps.gov/common/uploads/cropped_image/803FD149-DD5B-CBF7-32A6DF6F723E6685.jpg",
+        "title": "Gregory Bald",
+        "altText": "A grassy area with a flame azalea bush in bloom in foreground and sweeping mountains views behind.",
+        "caption": "Only accessible by hiking 9+ miles (14.5+ km) roundtrip (multiple trails with varying mileages).",
+        "credit": "NPS Photo"
+      }
+    ],
+    "nps_url": "https://www.nps.gov/thingstodo/hike-to-andrews-bald.htm",
+    "difficulty": null,
+    "length_miles": null,
+    "elevation_gain_ft": null,
+    "route_type": null,
+    "estimated_time_hours": null,
+    "is_wheelchair_accessible": false,
+    "is_kid_friendly": false,
+    "is_pet_friendly": false,
+    "raw_listing_description": "A grassy mountaintop meadow with panoramic views known for its azalea blooms in midsummer.",
+    "raw_body_text": "Overview Gregory Bald is one of two grassy balds maintained by the National Park Service in the Smokies offering unimpaired views of Cades Cove and surrounding areas from a height of 4,900 feet (1,493.5 m). Only reachable by trail, the bald is a particularly popular destination for hikers in late June when flame azaleas bloom.",
+    "last_enriched": "2026-01-20T21:45:46.576158"
+  },
+  {
+    "id": "A4F652DC-3906-4CEA-98A8-A3DB12D682B3",
+    "name": "Grotto Falls",
+    "description": "This hike leads to a unique 25-foot waterfall nestled in a cool mountain cove, offering the rare opportunity to walk directly behind the cascading water.",
+    "location": {
+      "lat": 35.6738331458,
+      "lon": -83.4495159734
+    },
+    "images": [
+      {
+        "url": "https://www.nps.gov/common/uploads/cropped_image/80E88213-B883-36DF-8AF1BB727A4C2131.jpg",
+        "title": "Grotto Falls",
+        "altText": "A waterfall flowing over a rocky cliff with a trail passing behind it. Rocks and shrubs nearby.",
+        "caption": "Reach Grotto Falls by hiking 2.6 miles (4.2 km) roundtrip from Trillium Gap Trailhead.",
+        "credit": "NPS Photo"
+      }
+    ],
+    "nps_url": "https://www.nps.gov/grsm/planyourvisit/shuttles.htm",
+    "difficulty": null,
+    "length_miles": null,
+    "elevation_gain_ft": null,
+    "route_type": null,
+    "estimated_time_hours": null,
+    "is_wheelchair_accessible": false,
+    "is_kid_friendly": false,
+    "is_pet_friendly": false,
+    "raw_listing_description": "A unique 25-foot (7.6 m) waterfall that you can walk behind on Trillium Gap Trail.",
+    "raw_body_text": "Overview Parking is often full\u2014please prepare a back-up plan and consider using a shuttle. Grotto Falls is a unique 25-foot (7.6) waterfall in a cool mountain cove and the only waterfall in the park with a trail that passes behind it.",
+    "last_enriched": "2026-01-20T21:45:57.544577"
+  },
+  {
+    "id": "69B569D1-C05F-4A3B-9A22-17A03F45C844",
+    "name": "Kuwohi Observation Tower",
+    "description": "Ascend a steep, paved path to the highest peak in the Great Smoky Mountains to reach an architecturally unique observation tower offering spectacular 360-degree views.",
+    "location": {
+      "lat": 35.56286184235593,
+      "lon": -83.49838435649872
+    },
+    "images": [
+      {
+        "url": "https://www.nps.gov/common/uploads/cropped_image/7F24F209-DA90-053E-45656F09B7CFD9BF.jpg",
+        "title": "Clingmans Dome",
+        "altText": "A circular tower raised above the trees overlooking the surrounding mountains.",
+        "caption": "Reach the tower by hiking a 1-mile (1.6-km) roundtrip hike. The trail is paved but very steep.",
+        "credit": "Kristina Plaas Photo"
+      }
+    ],
+    "nps_url": "https://www.nps.gov/thingstodo/look-rock-tower-trail.htm",
+    "difficulty": "Strenuous",
+    "length_miles": 1.0,
+    "elevation_gain_ft": null,
+    "route_type": "Out & Back",
+    "estimated_time_hours": null,
+    "is_wheelchair_accessible": true,
+    "is_kid_friendly": true,
+    "is_pet_friendly": false,
+    "raw_listing_description": "Clingmans Domer Tower provides a breathtaking view of the surrounding Smoky Mountains National Park. The Tower also has a story to tell - it was architecturally significant within the history of the National Park Service and a model for other towers that were built across the NPS.",
+    "raw_body_text": "Overview Located atop Kuwohi, the highest point in Great Smoky Mountains National Park at 6,643 feet, the Kuwohi Observation Tower is a prominent destination. When weather permits, it offers spectacular 360\u00b0 views of the Smokies and beyond for visitors willing to climb the steep but paved half-mile walk to the tower at the top.",
+    "last_enriched": "2026-01-20T21:46:35.406183"
+  },
+  {
+    "id": "D0EE979A-0EE8-4C01-9C8A-888B295CB13E",
+    "name": "Laurel Falls",
+    "description": "This trail leads to a 25-foot waterfall where Abrams Creek plunges over a rock ledge into a deep, picturesque pool.",
+    "location": {
+      "lat": 35.67746484595987,
+      "lon": -83.59315427323428
+    },
+    "images": [
+      {
+        "url": "https://www.nps.gov/common/uploads/cropped_image/EE41BE08-A30D-515D-A1FB298D335EFF73.jpg",
+        "title": "Laurel Falls",
+        "altText": "A cascading waterfall.",
+        "caption": "Laurel Falls is an 80-foot waterfall.",
+        "credit": "NPS"
+      }
+    ],
+    "nps_url": "https://www.nps.gov/grsm/learn/news/national-park-service-to-begin-major-rehabilitation-of-laurel-falls-trail-in-january.htm",
+    "difficulty": null,
+    "length_miles": null,
+    "elevation_gain_ft": null,
+    "route_type": null,
+    "estimated_time_hours": null,
+    "is_wheelchair_accessible": false,
+    "is_kid_friendly": false,
+    "is_pet_friendly": false,
+    "raw_listing_description": "A 25-foot (7.6 m) waterfall where Abrams Creek plunges over a rock ledge into a deep, picturesque pool.",
+    "raw_body_text": "Laurel Falls Trail is closed as of Jan. 6, 2025 for 18 months of rehabilitation work\u2014alternate hikes listed below Learn more about the trail rehabilitation project in the news release.",
+    "last_enriched": "2026-01-20T21:46:52.367090"
+  },
+  {
+    "id": "C0E28A58-D399-4CE7-AECC-B440C426F2FF",
+    "name": "Lynn Camp Prong Cascades",
+    "description": "This wide, relatively level path follows an old logging railroad alongside Lynn Camp Prong, offering views of numerous rushing cascades and plunge pools.",
+    "location": {
+      "lat": 35.6160763468,
+      "lon": -83.6614703735
+    },
+    "images": [
+      {
+        "url": "https://www.nps.gov/common/uploads/cropped_image/54D8465A-DE0A-99AB-285AD3D80657F13B.jpg",
+        "title": "Lynn Camp Prong Cascades",
+        "altText": "A stout, cascading waterfall framed by rocks and fall-colored leaves.",
+        "caption": "Hike 1.4 miles (2.3 km) roundtrip from Middle Prong Trailhead at the end of Upper Tremont Road.",
+        "credit": "Bob Carr Photo"
+      }
+    ],
+    "nps_url": "https://www.nps.gov/thingstodo/hike-to-lynn-camp-prong-cascades.htm",
+    "difficulty": "Easy",
+    "length_miles": null,
+    "elevation_gain_ft": null,
+    "route_type": null,
+    "estimated_time_hours": null,
+    "is_wheelchair_accessible": false,
+    "is_kid_friendly": true,
+    "is_pet_friendly": false,
+    "raw_listing_description": "A series of rushing cascades and plunge pools along Middle Prong Trail.",
+    "raw_body_text": "Overview Lynn Camp Prong rushes and tumbles over and around numerous rocks as it cascades down the mountain beside the Middle Prong Trail. The trail follows the route of an old logging railroad, so it offers easy walking on a wide, relatively level path.",
+    "last_enriched": "2026-01-20T21:47:04.526037"
+  },
+  {
+    "id": "974ACBA5-8721-4BAA-95CA-2605A31E83BC",
+    "name": "Twentymile Cascade",
+    "description": "Follow a wide gravel road on a 1.3-mile round-trip walk to view a 22-foot cascade that slides down mossy sandstone ledges into a boulder-filled creek bed.",
+    "location": {
+      "lat": 35.470847147404655,
+      "lon": -83.86961617384746
+    },
+    "images": [
+      {
+        "url": "https://www.nps.gov/common/uploads/cropped_image/35BC6CEA-D94D-9DDA-938D79C2727BD55C.jpg",
+        "title": "Twentymile Cascade",
+        "altText": "A stout waterfall cascading into a pool near a large boulder and fallen tree.",
+        "caption": "Hike 1.2 miles roundtrip from Twentymile Trailhead in the Fontana area.",
+        "credit": "NPS Photo"
+      }
+    ],
+    "nps_url": "https://www.nps.gov/thingstodo/twentymile-cascade.htm",
+    "difficulty": "Easy",
+    "length_miles": 1.3,
+    "elevation_gain_ft": null,
+    "route_type": "Out & Back",
+    "estimated_time_hours": null,
+    "is_wheelchair_accessible": false,
+    "is_kid_friendly": true,
+    "is_pet_friendly": false,
+    "raw_listing_description": "A 22-foot (6.7-m) cascade down a long series of mossy sandstone ledges.",
+    "raw_body_text": "Overview At Twentymile Cascade, the waters of Twentymile Creek slide down a series of slanting sandstone ledges before dropping into a boulder-filled creek bed. Reaching the cascade requires a 1.3-mile (2.1-km) round-trip walk on a wide gravel road.",
+    "last_enriched": "2026-01-20T21:47:38.471158"
+  }
+]

@@ -1,0 +1,504 @@
+[
+  {
+    "id": "F6D61B5D-FCCD-4214-95BB-50F12B5B84FC",
+    "name": "Cades Cove Visitor Center",
+    "description": "Roughly half-way through the Cades Cove Loop Road, pause to speak with park staff and visit various exhibits. Learn about Southern Mountain life and culture, and see a gristmill (operates spring through fall), the Becky Cable house, and other historic structures. Enjoy seasonal ranger-led activities and peruse the park bookstore and shop. Public restrooms available.",
+    "location": {
+      "lat": 35.5849678472,
+      "lon": -83.8430866741
+    },
+    "url": "",
+    "images": [
+      {
+        "url": "https://www.nps.gov/common/uploads/structured_data/E6747180-F77C-148A-3AEABA99EF953F6A.jpg",
+        "title": "Front of Cades Cove Visitor Center",
+        "altText": "A park visitor center built like a log cabin with a covered porch, chimney, and paved approach ramp.",
+        "caption": "Roughly halfway around the Cades Cove Loop Road, this visitor center offers information, a park bookstore, and nearby restrooms.",
+        "credit": "NPS Photo/S. Singleton"
+      },
+      {
+        "url": "https://www.nps.gov/common/uploads/structured_data/6851BA8F-EE0A-6775-B36723529FAF86F6.png",
+        "title": "Cades Cove Visitor Center",
+        "altText": "Puzzles, DVDs, postcards, and other items displayed on shelves in a room with wood panel ceiling.",
+        "caption": "Puzzles, DVDs, postcards, and other items are available for purchase at the park visitor centers.",
+        "credit": "NPS Photo"
+      },
+      {
+        "url": "https://www.nps.gov/common/uploads/structured_data/6745FE73-BA63-478D-598F54DBF50391FE.png",
+        "title": "Inside the Cades Cove Visitor Center",
+        "altText": "Bookshelves and displays of key chains, postcards, and more by a fireplace with mugs on the mantel.",
+        "caption": "Peruse park information and merchandise in the rustic Cades Cove Visitor Center.",
+        "credit": "NPS Photo"
+      },
+      {
+        "url": "https://www.nps.gov/common/uploads/structured_data/9B45E062-C5DC-ED57-ABA59A57E6701968.jpg",
+        "title": "Cades Cove Visitor Center",
+        "altText": "Gravel path leading to the Cades Cove Visitor Center, a 19th century replica log cabin",
+        "caption": "Cades Cove Visitor Center",
+        "credit": "NPS Photo"
+      },
+      {
+        "url": "https://www.nps.gov/common/uploads/structured_data/E68D8B3E-032A-7012-109039535093590F.jpg",
+        "title": "View from Cades Cove Visitor Center",
+        "altText": "A split rail fence by multiple walkways with two people walking towards buildings and trees.",
+        "caption": "The Cades Cove Visitor Center is near other points of interest like Cable Mill, Becky Cable House, and more historic structures.",
+        "credit": "NPS Photo/S. Singleton"
+      }
+    ],
+    "operatingHours": [
+      {
+        "exceptions": [
+          {
+            "exceptionHours": {
+              "wednesday": "7:00AM - 3:30PM",
+              "monday": "9:00AM - 5:00PM",
+              "thursday": "9:00AM - 5:00PM",
+              "sunday": "9:00AM - 5:00PM",
+              "tuesday": "9:00AM - 5:00PM",
+              "friday": "9:00AM - 5:00PM",
+              "saturday": "9:00AM - 5:00PM"
+            },
+            "startDate": "2026-05-01",
+            "name": "Wednesdays from May to September (Vehicle-Free Days)",
+            "endDate": "2026-09-25"
+          },
+          {
+            "exceptionHours": {
+              "wednesday": "9:00AM - 4:30PM",
+              "monday": "9:00AM - 4:30PM",
+              "thursday": "9:00AM - 4:30PM",
+              "sunday": "9:00AM - 4:30PM",
+              "tuesday": "9:00AM - 4:30PM",
+              "friday": "9:00AM - 4:30PM",
+              "saturday": "9:00AM - 4:30PM"
+            },
+            "startDate": "2025-12-01",
+            "name": "Winter Hours",
+            "endDate": "2026-02-28"
+          },
+          {
+            "exceptionHours": {},
+            "startDate": "2026-12-25",
+            "name": "Closed on Christmas Day",
+            "endDate": "2026-12-25"
+          }
+        ],
+        "description": "Hours vary seasonally.",
+        "standardHours": {
+          "wednesday": "9:00AM - 5:00PM",
+          "monday": "9:00AM - 5:00PM",
+          "thursday": "9:00AM - 5:00PM",
+          "sunday": "9:00AM - 5:00PM",
+          "tuesday": "9:00AM - 5:00PM",
+          "friday": "9:00AM - 5:00PM",
+          "saturday": "9:00AM - 5:00PM"
+        },
+        "name": "Cades Cove Visitor Center"
+      }
+    ],
+    "addresses": [
+      {
+        "line1": "Cable Mill Road",
+        "line2": "",
+        "line3": "",
+        "city": "Townsend",
+        "stateCode": "TN",
+        "postalCode": "37882",
+        "type": "Physical"
+      },
+      {
+        "line1": "107 Park Headquarters Road",
+        "line2": "",
+        "line3": "",
+        "city": "Gatlinburg",
+        "stateCode": "TN",
+        "postalCode": "37738",
+        "type": "Mailing"
+      }
+    ],
+    "contacts": {
+      "phoneNumbers": [],
+      "emailAddresses": [
+        {
+          "description": "",
+          "emailAddress": "GRSM_Smokies_Information@nps.gov"
+        }
+      ]
+    }
+  },
+  {
+    "id": "8800994D-88AD-4058-A5A8-D6B826FECC70",
+    "name": "Kuwohi Visitor Center",
+    "description": "Kuwohi (formerly Clingmans Dome) is the tallest peak in the Smokies. Enjoy sweeping views of the Smokies\u2014weather permitting\u2014and get your park questions answered. Peruse a small bookstore and shop. Public restrooms are available.",
+    "location": {
+      "lat": 35.55744395735922,
+      "lon": -83.4960401058197
+    },
+    "url": "https://www.nps.gov/grsm/planyourvisit/visitorcenters.htm#CP_JUMP_899351",
+    "images": [
+      {
+        "url": "https://www.nps.gov/common/uploads/structured_data/05AA17FB-A8F5-938C-80B1B54654620B9C.jpg",
+        "title": "View approaching the Clingmans Dome Information Center and Store",
+        "altText": "A sign that says \"Clingmans Dome Information Center & Store\" beside stairs near a brick building",
+        "caption": "Stop by the Clingmans Dome Information Center to get your questions answered and peruse the park bookstore.",
+        "credit": "NPS Photo"
+      },
+      {
+        "url": "https://www.nps.gov/common/uploads/structured_data/05C0FDC2-F55E-D4F2-8AD66CB89C486CE5.jpg",
+        "title": "Inside the Clingmans Dome Information Center and Bookstore",
+        "altText": "A small group of people observing bookshelves and displays in a park bookstore.",
+        "caption": "Great Smoky Mountains Association, the park's nonprofit partner, sells a variety of items at the Clingmans Dome Information Center & Bookstore.",
+        "credit": "NPS Photo"
+      },
+      {
+        "url": "https://www.nps.gov/common/uploads/structured_data/05E22E51-DC60-0CE1-0CC6F70677155793.jpg",
+        "title": "Outside the Clingmans Dome Information Center and Bookstore",
+        "altText": "A building with exterior walls of various sized stones and a brown roof in front of evergreen trees.",
+        "caption": "The Clingmans Dome Information Center & Bookstore is located at the beginning of the paved trail leading to the dome.",
+        "credit": "NPS Photo"
+      },
+      {
+        "url": "https://www.nps.gov/common/uploads/structured_data/05F8DD8F-B937-D497-AC9E776B8CE0F666.jpg",
+        "title": "View on a clear day from Clingmans Dome parking lot",
+        "altText": "Rolling blue mountains below a partly cloudy sky with grass, shrubs, and trees in the foreground.",
+        "caption": "On a clear day, the Clingmans Dome parking lot offers a beautiful view.",
+        "credit": "NPS Photo"
+      },
+      {
+        "url": "https://www.nps.gov/common/uploads/structured_data/060E16A4-95CC-2DDF-01ED93B341E7461E.jpg",
+        "title": "Inside Clingmans Dome Bookstore",
+        "altText": "Bookshelves and display structures with tshirts, stuffed animals, mugs, and other items for sale.",
+        "caption": "Find the perfect souvenir at the Clingmans Dome Information Center & Bookstore.",
+        "credit": "NPS Photo"
+      }
+    ],
+    "operatingHours": [
+      {
+        "exceptions": [
+          {
+            "exceptionHours": {
+              "wednesday": "9:30AM - 5:00PM",
+              "monday": "9:30AM - 5:00PM",
+              "thursday": "9:30AM - 5:00PM",
+              "sunday": "9:30AM - 5:00PM",
+              "tuesday": "9:30AM - 5:00PM",
+              "friday": "9:30AM - 5:00PM",
+              "saturday": "9:30AM - 5:00PM"
+            },
+            "startDate": "2026-11-01",
+            "name": "November",
+            "endDate": "2026-11-30"
+          },
+          {
+            "exceptionHours": {
+              "wednesday": "Closed",
+              "monday": "Closed",
+              "thursday": "Closed",
+              "sunday": "Closed",
+              "tuesday": "Closed",
+              "friday": "Closed",
+              "saturday": "Closed"
+            },
+            "startDate": "2025-12-01",
+            "name": "Closed in Winter",
+            "endDate": "2026-04-01"
+          }
+        ],
+        "description": "Hours vary seasonally. Closed in winter.",
+        "standardHours": {
+          "wednesday": "9:30AM - 6:00PM",
+          "monday": "9:30AM - 6:00PM",
+          "thursday": "9:30AM - 6:00PM",
+          "sunday": "9:30AM - 6:00PM",
+          "tuesday": "9:30AM - 6:00PM",
+          "friday": "9:30AM - 6:00PM",
+          "saturday": "9:30AM - 6:00PM"
+        },
+        "name": "Kuwohi Visitor Center"
+      }
+    ],
+    "addresses": [
+      {
+        "line1": "Clingmans Dome Road",
+        "line2": "",
+        "line3": "",
+        "city": "Cherokee",
+        "stateCode": "NC",
+        "postalCode": "28719",
+        "type": "Physical"
+      },
+      {
+        "line1": "107 Park Headquarters Road",
+        "line2": "",
+        "line3": "",
+        "city": "Gatlinburg",
+        "stateCode": "TN",
+        "postalCode": "37738",
+        "type": "Mailing"
+      }
+    ],
+    "contacts": {
+      "phoneNumbers": [],
+      "emailAddresses": [
+        {
+          "description": "",
+          "emailAddress": "GRSM_Smokies_Information@nps.gov"
+        }
+      ]
+    }
+  },
+  {
+    "id": "58AD6BD5-0BA6-4CF6-9B77-9C30D7C75DD0",
+    "name": "Oconaluftee Visitor Center",
+    "description": "Near Cherokee, North Carolina, the Oconaluftee Visitor Center is an ideal starting point as you enter the park's South District. Explore cultural history exhibits. Enjoy ranger-led programs conducted seasonally. Peruse the park bookstore and shop. Find public restrooms and drink vending machines. The adjacent Mountain Farm Museum contains a collection of log structures including a farmhouse, barn, smokehouse, applehouse, corn crib and others.",
+    "location": {
+      "lat": 35.51307495661485,
+      "lon": -83.30611892774084
+    },
+    "url": "https://www.nps.gov/grsm/planyourvisit/visitorcenters.htm#CP_JUMP_897119",
+    "images": [
+      {
+        "url": "https://www.nps.gov/common/uploads/structured_data/2EFE2127-AB48-0D4F-88AB1EC306C1AFA7.jpg",
+        "title": "Oconaluftee Visitor Center on a Sunny Day",
+        "altText": "Grass and yellow flowers in front of a striking building with many windows, a porch, and a chimney.",
+        "caption": "The Oconaluftee Visitor Center offers a shady porch for warm days.",
+        "credit": "NPS Photo"
+      },
+      {
+        "url": "https://www.nps.gov/common/uploads/structured_data/053AB386-A3E5-5861-405511D80009FA2C.jpg",
+        "title": "Inside OVC",
+        "altText": "A topographic map display in a room with large windows and a TV display plus park information",
+        "caption": "The Oconaluftee Visitor Center's LEED-certified infrastructure provides wonderful natural light with its large windows.",
+        "credit": "NPS Photo"
+      },
+      {
+        "url": "https://www.nps.gov/common/uploads/structured_data/054E4466-ADCC-2525-02C7F2A824FD912C.jpg",
+        "title": "View from OVC porch",
+        "altText": "A porch railing overlooking a grassy field with mountains and trees in the distance",
+        "caption": "The Oconaluftee Visitor Center porch can be a great spot to watch elk from a safe distance.",
+        "credit": "NPS Photo"
+      },
+      {
+        "url": "https://www.nps.gov/common/uploads/structured_data/66F72B26-C70B-506C-7C4F2BA592BD0492.png",
+        "title": "Bookstore at OVC",
+        "altText": "Shelves and displays of merchandise like stuffed animals, books, postcards, clothes, and more.",
+        "caption": "Find the perfect souvenir at the Oconaluftee Visitor Center's park bookstore.",
+        "credit": "NPS Photo"
+      },
+      {
+        "url": "https://www.nps.gov/common/uploads/structured_data/0575542E-E95D-FFF5-3812263D80EBF87C.jpg",
+        "title": "OVC porch",
+        "altText": "A covered porch area with a chimney, benches, and light fixtures on the ceiling.",
+        "caption": "The porch at Oconaluftee Visitor Center offers a shaded resting spot for all.",
+        "credit": "NPS Photo"
+      },
+      {
+        "url": "https://www.nps.gov/common/uploads/structured_data/2FA08078-F286-B946-B20AAE9F4AC6143E.jpg",
+        "title": "Front of Oconaluftee Visitor Center",
+        "altText": "The front of a building with many windows divided by brown frames beside gray brick siding.",
+        "caption": "Large windows greet visitors to Oconaluftee Visitor Center",
+        "credit": "NPS Photo"
+      },
+      {
+        "url": "https://www.nps.gov/common/uploads/structured_data/672897BE-9FCE-1455-DDA780074044D47D.png",
+        "title": "Information Displays at Oconaluftee Visitor Center",
+        "altText": "Information panels about protecting park resources. Wooden and stone support beams in view.",
+        "caption": "The park visitor centers offer opportunities for learning about the park and ways to protect it.",
+        "credit": "NPS Photo"
+      },
+      {
+        "url": "https://www.nps.gov/common/uploads/structured_data/9950834B-BCFA-40AD-03188DA520AF05F1.jpg",
+        "title": "Oconaluftee Visitor Center",
+        "altText": "Oconaluftee Visitor Center and administrative building adjacent to parking lot.",
+        "caption": "Oconaluftee Visitor Center near Cherokee, NC",
+        "credit": "NPS Photo"
+      }
+    ],
+    "operatingHours": [
+      {
+        "exceptions": [
+          {
+            "exceptionHours": {
+              "wednesday": "9:00AM - 4:30PM",
+              "monday": "9:00AM - 4:30PM",
+              "thursday": "9:00AM - 4:30PM",
+              "sunday": "9:00AM - 4:30PM",
+              "tuesday": "9:00AM - 4:30PM",
+              "friday": "9:00AM - 4:30PM",
+              "saturday": "9:00AM - 4:30PM"
+            },
+            "startDate": "2025-12-01",
+            "name": "Winter Hours",
+            "endDate": "2026-02-28"
+          },
+          {
+            "exceptionHours": {},
+            "startDate": "2026-12-25",
+            "name": "Closed on Christmas Day",
+            "endDate": "2026-12-25"
+          }
+        ],
+        "description": "Hours vary seasonally.",
+        "standardHours": {
+          "wednesday": "9:00AM - 5:00PM",
+          "monday": "9:00AM - 5:00PM",
+          "thursday": "9:00AM - 5:00PM",
+          "sunday": "9:00AM - 5:00PM",
+          "tuesday": "9:00AM - 5:00PM",
+          "friday": "9:00AM - 5:00PM",
+          "saturday": "9:00AM - 5:00PM"
+        },
+        "name": "Oconaluftee Visitor Center"
+      }
+    ],
+    "addresses": [
+      {
+        "line1": "1194 Newfound Gap Road",
+        "line2": "",
+        "line3": "",
+        "city": "Cherokee",
+        "stateCode": "NC",
+        "postalCode": "28719",
+        "type": "Physical"
+      },
+      {
+        "line1": "107 Park Headquarters Road",
+        "line2": "",
+        "line3": "",
+        "city": "Gatlinburg",
+        "stateCode": "TN",
+        "postalCode": "37738",
+        "type": "Mailing"
+      }
+    ],
+    "contacts": {
+      "phoneNumbers": [],
+      "emailAddresses": [
+        {
+          "description": "",
+          "emailAddress": "GRSM_Smokies_Information@nps.gov"
+        }
+      ]
+    }
+  },
+  {
+    "id": "D49FBFDC-B419-4DC5-A31E-05D5173C4AC2",
+    "name": "Sugarlands Visitor Center",
+    "description": "Near Gatlinburg, TN, Sugarlands Visitor Center is an excellent starting point as you enter the park's North District. Learn about the park's plants and animals with natural history exhibits. Enjoy ranger-led programs conducted seasonally. Peruse the park bookstore and shop. Access public restrooms and drink vending machines. The Backcountry Permit Office is here, too.",
+    "location": {
+      "lat": 35.685629346,
+      "lon": -83.536602473
+    },
+    "url": "https://www.nps.gov/grsm/planyourvisit/visitorcenters.htm",
+    "images": [
+      {
+        "url": "https://www.nps.gov/common/uploads/structured_data/2D5D56E8-D2AA-895B-4B84D3719614413A.jpg",
+        "title": "Sugarlands Visitor Center in Early Spring",
+        "altText": "The entrance area to a building, including grass, trees, benches, sidewalks, and enclosed gardens.",
+        "caption": "Sugarlands Visitor Center offers seasonal ranger programs near the entrance area.",
+        "credit": "NPS Photo"
+      },
+      {
+        "url": "https://www.nps.gov/common/uploads/structured_data/2D883F24-D2F0-290B-435E68837997656B.jpg",
+        "title": "Sugarlands Visitor Center Front Desk",
+        "altText": "A curved wooden welcome desk with a shiny top in front of a brick column with a colorful sign",
+        "caption": "During visitor center hours, you will find helpful employees at the front desk to answer your questions.",
+        "credit": "NPS Photo"
+      },
+      {
+        "url": "https://www.nps.gov/common/uploads/structured_data/B21CB5C4-C1A3-70D2-85B341496FF74D58.jpg",
+        "title": "Sugarlands Visitor Center Museum",
+        "altText": "Entrance into the museum",
+        "caption": "Millions have visited Sugarlands Visitor Center to view \"Discover Life in the Smokies\"",
+        "credit": "NPS Photo / Cedric Talley"
+      },
+      {
+        "url": "https://www.nps.gov/common/uploads/structured_data/B254F174-ACE6-925C-EA9739E3F9288B96.jpg",
+        "title": "Sugarlands Visitor Center Bookstore",
+        "altText": "Park patrons looking for the perfect souvenir",
+        "caption": "You can't come to the Smokies and not get something to take home.",
+        "credit": "NPS Photo / Cedric Talley"
+      },
+      {
+        "url": "https://www.nps.gov/common/uploads/structured_data/2D2F5345-987C-1136-FF2CAA884C88E44D.jpg",
+        "title": "Sugarlands Visitor Center in Winter",
+        "altText": "Building with a snowy roof on a cloudy day. The nearby pavement looks wet and people are approaching",
+        "caption": "Great Smoky Mountains National Park receives winter snow, sometimes even at lower elevations.",
+        "credit": "NPS Photo"
+      }
+    ],
+    "operatingHours": [
+      {
+        "exceptions": [
+          {
+            "exceptionHours": {
+              "wednesday": "9:00AM - 4:30PM",
+              "monday": "9:00AM - 4:30PM",
+              "thursday": "9:00AM - 4:30PM",
+              "sunday": "9:00AM - 4:30PM",
+              "tuesday": "9:00AM - 4:30PM",
+              "friday": "9:00AM - 4:30PM",
+              "saturday": "9:00AM - 4:30PM"
+            },
+            "startDate": "2025-12-01",
+            "name": "Winter Hours",
+            "endDate": "2026-02-28"
+          },
+          {
+            "exceptionHours": {},
+            "startDate": "2026-12-25",
+            "name": "Closed on Christmas Day",
+            "endDate": "2026-12-26"
+          }
+        ],
+        "description": "Hours vary seasonally.",
+        "standardHours": {
+          "wednesday": "9:00AM - 5:00PM",
+          "monday": "9:00AM - 5:00PM",
+          "thursday": "9:00AM - 5:00PM",
+          "sunday": "9:00AM - 5:00PM",
+          "tuesday": "9:00AM - 5:00PM",
+          "friday": "9:00AM - 5:00PM",
+          "saturday": "9:00AM - 5:00PM"
+        },
+        "name": "Sugarlands Visitor Center"
+      }
+    ],
+    "addresses": [
+      {
+        "line1": "1420 Fighting Creek Gap Road",
+        "line2": "",
+        "line3": "",
+        "city": "Gatlinburg",
+        "stateCode": "TN",
+        "postalCode": "37738",
+        "type": "Physical"
+      },
+      {
+        "line1": "107 Park Headquarters Road",
+        "line2": "",
+        "line3": "",
+        "city": "Gatlinburg",
+        "stateCode": "TN",
+        "postalCode": "37738",
+        "type": "Mailing"
+      }
+    ],
+    "contacts": {
+      "phoneNumbers": [
+        {
+          "phoneNumber": "(865) 436-1200",
+          "description": "",
+          "extension": "",
+          "type": "Voice"
+        }
+      ],
+      "emailAddresses": [
+        {
+          "description": "",
+          "emailAddress": "GRSM_Smokies_Information@nps.gov"
+        }
+      ]
+    }
+  }
+]

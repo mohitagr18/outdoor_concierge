@@ -1,0 +1,281 @@
+[
+  {
+    "rank": 1,
+    "name": "US 441 (Newfound Gap Road)",
+    "parkCode": "grsm",
+    "description": "A 30-mile paved road that bisects the Great Smoky Mountains National Park between Cherokee, NC and Gatlinburg, TN, featuring numerous twists and turns, scenic vistas, and a climb through diverse forest elevations.",
+    "distance_miles": 30.0,
+    "drive_time": "A few hours",
+    "highlights": [
+      "Oconaluftee Visitor Center",
+      "Mingus Mill",
+      "Elk viewing meadows",
+      "Newfound Gap",
+      "Chimney Tops Picnic Area",
+      "Mountain Farm Museum"
+    ],
+    "best_time": "Any time",
+    "tips": [
+      "Be prepared for a winding road with numerous twists and turns",
+      "Watch for elk grazing in meadows close to the road",
+      "Do not leave food unattended in bear habitats like Chimney Tops",
+      "Expect heavy traffic and fog at higher elevations like Newfound Gap"
+    ],
+    "image_url": "https://www.neverstoptraveling.com/wp-content/uploads/2022/09/DSC07111-woman-and-elk-2.jpg",
+    "source_url": "https://www.neverstoptraveling.com/scenic-drives-in-the-smoky-mountains"
+  },
+  {
+    "rank": 2,
+    "name": "Cades Cove Loop Road",
+    "parkCode": "grsm",
+    "description": "A lush, verdant valley surrounded by mountains and one of the most popular destinations in the park. The road runs through the valley where visitors can see diverse wildlife and historic buildings.",
+    "distance_miles": 10.5,
+    "drive_time": "4\u20134.5 hr",
+    "highlights": [
+      "Wildlife viewing",
+      "Historic buildings",
+      "Verdant valley views",
+      "Mountain scenery"
+    ],
+    "best_time": "Sunrise to sunset daily",
+    "tips": [
+      "Only bicycle and foot traffic are allowed on the loop road on Wednesdays all day from early May until late September",
+      "Open to motor vehicles daily from sunrise to sunset",
+      "Weather permitting"
+    ],
+    "image_url": "https://images.alltrails.com/eyJidWNrZXQiOiJhc3NldHMuYWxsdHJhaWxzLmNvbSIsImtleSI6InVwbG9hZHMvcGhvdG8vaW1hZ2UvOTY5NDU3MjIvMWI1NTY4ZWQ3ZTRiMmY3M2Q5MTg1OTZmNDI0Y2VhZmQuanBnIiwiZWRpdHMiOnsidG9Gb3JtYXQiOiJqcGVnIiwicmVzaXplIjp7IndpZHRoIjoiMTYwIiwiaGVpZ2h0IjoiMTYwIiwiZml0IjoiY292ZXIifSwicm90YXRlIjpudWxsLCJqcGVnIjp7InRyZWxsaXNRdWFudGlzYXRpb24iOnRydWUsIm92ZXJzaG9vdERlcmluZ2luZyI6dHJ1ZSwib3B0aW1pc2VTY2FucyI6dHJ1ZSwicXVhbnRpc2F0aW9uVGFibGUiOjN9fX0%3D&w=256&q=75",
+    "source_url": "https://www.alltrails.com/parks/us/tennessee/great-smoky-mountains-national-park/scenic-driving"
+  },
+  {
+    "rank": 3,
+    "name": "Blue Ridge Parkway",
+    "parkCode": "grsm",
+    "description": "A famous 469-mile-long scenic route that begins at the southern terminus of US 441, meandering through verdant forests as it heads north toward Virginia.",
+    "distance_miles": 469.0,
+    "drive_time": null,
+    "highlights": [
+      "Grist Mill",
+      "Frequent scenic cutouts",
+      "Verdant forest views"
+    ],
+    "best_time": "Any time",
+    "tips": [
+      "Take advantage of frequent cutouts to stop and admire the scenery",
+      "The highway is exceptionally winding, requiring a slower pace"
+    ],
+    "image_url": "https://www.neverstoptraveling.com/wp-content/uploads/2022/09/DSCN5220-Grist-Mill.jpg",
+    "source_url": "https://www.neverstoptraveling.com/scenic-drives-in-the-smoky-mountains"
+  },
+  {
+    "rank": 4,
+    "name": "Roaring Fork Motor Nature Trail",
+    "parkCode": "grsm",
+    "description": "A beautiful scenic motor trail located just outside of Gatlinburg featuring streams and historical homes.",
+    "distance_miles": 6.8,
+    "drive_time": null,
+    "highlights": [
+      "Black bears",
+      "Streams",
+      "Historical homes",
+      "Nature viewing"
+    ],
+    "best_time": "Any time",
+    "tips": [
+      "Drive slowly and be courteous of others",
+      "Keep your eyes peeled for black bears",
+      "Suitable for hikers looking to stretch their legs"
+    ],
+    "image_url": "https://i.vimeocdn.com/video/1862075454-ffb17ccc06c0e43de5665fd0ac282133f99e2defdb96b4adcf12e1f39a78f39d-d?mw=80&q=85",
+    "source_url": "https://www.alltrails.com/parks/us/tennessee/great-smoky-mountains-national-park/scenic-driving"
+  },
+  {
+    "rank": 5,
+    "name": "Tremont Logging History Auto Tour",
+    "parkCode": "grsm",
+    "description": "A gravel road tour along the Middle Prong of the Little River that focuses on the logging history of the area.",
+    "distance_miles": 6.1,
+    "drive_time": "2.5\u20133 hr",
+    "highlights": [
+      "Middle Prong of the Little River",
+      "Logging history markers",
+      "River views"
+    ],
+    "best_time": "Any time",
+    "tips": [
+      "The road is gravel/dirt",
+      "Most people drive this route but it can be hiked or biked",
+      "Starts at the Great Smoky Mountains Institute on Tremont Road"
+    ],
+    "image_url": "https://images.alltrails.com/eyJidWNrZXQiOiJhc3NldHMuYWxsdHJhaWxzLmNvbSIsImtleSI6InVwbG9hZHMvcGhvdG8vaW1hZ2UvOTQ1MjA2NzgvMTljMzQ5Y2UxYTI5ZTU2MzMxYzBjY2JkZTNlYWFhYzcuanBnIiwiZWRpdHMiOnsidG9Gb3JtYXQiOiJqcGVnIiwicmVzaXplIjp7IndpZHRoIjoiMTYwIiwiaGVpZ2h0IjoiMTYwIiwiZml0IjoiY292ZXIifSwicm90YXRlIjpudWxsLCJqcGVnIjp7InRyZWxsaXNRdWFudGlzYXRpb24iOnRydWUsIm92ZXJzaG9vdERlcmluZ2luZyI6dHJ1ZSwib3B0aW1pc2VTY2FucyI6dHJ1ZSwicXVhbnRpc2F0aW9uVGFibGUiOjN9fX0%3D&w=256&q=75",
+    "source_url": "https://www.alltrails.com/parks/us/tennessee/great-smoky-mountains-national-park/scenic-driving"
+  },
+  {
+    "rank": 6,
+    "name": "The Tail Of The Dragon",
+    "parkCode": "grsm",
+    "description": "A world-renowned curvy and challenging road with 318 curves in an 11-mile journey. Rated as the #1 motorcycle and sports car road in the US.",
+    "distance_miles": 11.0,
+    "drive_time": null,
+    "highlights": [
+      "318 curves",
+      "Chilhowee Lake scenic areas",
+      "US Highway 129"
+    ],
+    "best_time": "Any time",
+    "tips": [
+      "Not a road for leisure drivers",
+      "Highly curvy, difficult and challenging",
+      "Performance driver's favorite",
+      "Drivers can pull over at scenic areas alongside Chilhowee Lake"
+    ],
+    "image_url": "https://www.pigeonforge.com/wp-content/uploads/tail-of-the-dragon-500-1.jpg",
+    "source_url": "https://www.pigeonforge.com/smoky-mountain-activities/scenic-drives/"
+  },
+  {
+    "rank": 7,
+    "name": "Cherokee to Kuwohi via 441",
+    "parkCode": "grsm",
+    "description": "A scenic drive with lovely views of the Great Smoky Mountains, leading to an observation tower at the end of the trail.",
+    "distance_miles": 23.3,
+    "drive_time": null,
+    "highlights": [
+      "Kuwohi Observation Tower",
+      "Mountain vistas",
+      "Scenic overlooks"
+    ],
+    "best_time": "Any time",
+    "tips": [
+      "Please be courteous and aware while driving and nature viewing",
+      "There is a hike to an observation tower at the end of the route"
+    ],
+    "image_url": "https://images.alltrails.com/eyJidWNrZXQiOiJhc3NldHMuYWxsdHJhaWxzLmNvbSIsImtleSI6InVwbG9hZHMvcGhvdG8vaW1hZ2UvOTQ1MjA2NzcvNTNhYTA0YTllMmI1YzQ3MjNlYWFlNGJlMjkzZjdmMDguanBnIiwiZWRpdHMiOnsidG9Gb3JtYXQiOiJqcGVnIiwicmVzaXplIjp7IndpZHRoIjoiMTYwIiwiaGVpZ2h0IjoiMTYwIiwiZml0IjoiY292ZXIifSwicm90YXRlIjpudWxsLCJqcGVnIjp7InRyZWxsaXNRdWFudGlzYXRpb24iOnRydWUsIm92ZXJzaG9vdERlcmluZ2luZyI6dHJ1ZSwib3B0aW1pc2VTY2FucyI6dHJ1ZSwicXVhbnRpc2F0aW9uVGFibGUiOjN9fX0%3D&w=256&q=75",
+    "source_url": "https://www.alltrails.com/parks/us/tennessee/great-smoky-mountains-national-park/scenic-driving"
+  },
+  {
+    "rank": 8,
+    "name": "Balsam Mountain Road",
+    "parkCode": "grsm",
+    "description": "A road well known for its beautiful views and abundance of summer wildflowers, leading to high-elevation campgrounds and picnic areas with spectacular overlooks.",
+    "distance_miles": 28.0,
+    "drive_time": "1 hour",
+    "highlights": [
+      "Balsam Mountain Campground",
+      "Mile-High Heintooga Picnic Area",
+      "Heintooga overlook",
+      "Summer wildflowers"
+    ],
+    "best_time": "Summer",
+    "tips": [
+      "Buses, motorhomes, and vans longer than 25 feet are prohibited",
+      "Passenger vehicles towing trailers are prohibited",
+      "The first 18 miles returning to Cherokee are unpaved and one-way"
+    ],
+    "image_url": "https://www.pigeonforge.com/wp-content/uploads/tail-of-the-dragon-500-1.jpg",
+    "source_url": "https://www.pigeonforge.com/smoky-mountain-activities/scenic-drives/"
+  },
+  {
+    "rank": 9,
+    "name": "Foothills Parkway: Wear Valley to Chilhowee",
+    "parkCode": "grsm",
+    "description": "The longest completed section of a national parkway that traverses the foothills of the northern Great Smoky Mountains.",
+    "distance_miles": 31.7,
+    "drive_time": "13.5\u201314.5 hr",
+    "highlights": [
+      "Foothills of the Great Smoky Mountains",
+      "Scenic overlooks",
+      "National Parkway design"
+    ],
+    "best_time": "Any time",
+    "tips": [
+      "Managed by the National Park Service as part of Great Smoky Mountains National Park",
+      "The parkway is incomplete; this is the longest current section"
+    ],
+    "image_url": "https://images.alltrails.com/eyJidWNrZXQiOiJhc3NldHMuYWxsdHJhaWxzLmNvbSIsImtleSI6InVwbG9hZHMvcGhvdG8vaW1hZ2UvOTQ1MjA2NzYvOTYwZDU2ZWE1OTUyNWM1YjRlMTY2M2Y1YzhjYTNjZWUuanBnIiwiZWRpdHMiOnsidG9Gb3JtYXQiOiJqcGVnIiwicmVzaXplIjp7IndpZHRoIjoiMTYwIiwiaGVpZ2h0IjoiMTYwIiwiZml0IjoiY292ZXIifSwicm90YXRlIjpudWxsLCJqcGVnIjp7InRyZWxsaXNRdWFudGlzYXRpb24iOnRydWUsIm92ZXJzaG9vdERlcmluZ2luZyI6dHJ1ZSwib3B0aW1pc2VTY2FucyI6dHJ1ZSwicXVhbnRpc2F0aW9uVGFibGUiOjN9fX0%3D&w=256&q=75",
+    "source_url": "https://www.alltrails.com/parks/us/tennessee/great-smoky-mountains-national-park/scenic-driving"
+  },
+  {
+    "rank": 10,
+    "name": "Heintooga Round Bottom Road Scenic Drive",
+    "parkCode": "grsm",
+    "description": "A rugged and remote gravel road that weaves down into Cherokee, North Carolina, through untraveled areas of the park.",
+    "distance_miles": 16.8,
+    "drive_time": null,
+    "highlights": [
+      "Pristine forests",
+      "Wildflowers",
+      "Creeks",
+      "Wildlife"
+    ],
+    "best_time": "Any time",
+    "tips": [
+      "Mostly a one-way gravel road",
+      "Rugged and remote road conditions"
+    ],
+    "image_url": "https://images.alltrails.com/eyJidWNrZXQiOiJhc3NldHMuYWxsdHJhaWxzLmNvbSIsImtleSI6InVwbG9hZHMvcGhvdG8vaW1hZ2UvOTQ1MjA2NzQvNWIyZDRjZTNmMGEyNDg2M2MyNzVmZWRmZjM4NDY5NmUuanBnIiwiZWRpdHMiOnsidG9Gb3JtYXQiOiJqcGVnIiwicmVzaXplIjp7IndpZHRoIjoiMTYwIiwiaGVpZ2h0IjoiMTYwIiwiZml0IjoiY292ZXIifSwicm90YXRlIjpudWxsLCJqcGVnIjp7InRyZWxsaXNRdWFudGlzYXRpb24iOnRydWUsIm92ZXJzaG9vdERlcmluZ2luZyI6dHJ1ZSwib3B0aW1pc2VTY2FucyI6dHJ1ZSwicXVhbnRpc2F0aW9uVGFibGUiOjN9fX0%3D&w=256&q=75",
+    "source_url": "https://www.alltrails.com/parks/us/tennessee/great-smoky-mountains-national-park/scenic-driving"
+  },
+  {
+    "rank": 11,
+    "name": "Roaring Fork Motor Trail",
+    "parkCode": "grsm",
+    "description": "A narrow, paved six-mile loop of twists and turns featuring old-growth forests, historic cabins, and rushing mountain streams.",
+    "distance_miles": 6.0,
+    "drive_time": null,
+    "highlights": [
+      "Old-growth forests",
+      "Historic cabins",
+      "Rushing mountain streams",
+      "Waterfalls",
+      "Cherokee Orchard"
+    ],
+    "best_time": null,
+    "tips": [
+      "Motorhomes, buses, and trailers are not permitted",
+      "Narrow road with many twists and turns",
+      "Access via traffic light #8 in Gatlinburg"
+    ],
+    "image_url": "https://www.pigeonforge.com/wp-content/uploads/roaring-fork-creek.jpg",
+    "source_url": "https://www.pigeonforge.com/smoky-mountain-activities/scenic-drives/"
+  },
+  {
+    "rank": 12,
+    "name": "Great Smoky Mountains Scenic Drive: Maryville to Kuwohi",
+    "parkCode": "grsm",
+    "description": "An extensive scenic drive that traverses from Maryville to the high elevation point of Kuwohi.",
+    "distance_miles": 57.8,
+    "drive_time": null,
+    "highlights": [
+      "High elevation views",
+      "Park-wide scenery",
+      "Kuwohi summits"
+    ],
+    "best_time": "Any time",
+    "tips": [
+      "This trail has significant elevation gain (7,867 ft)"
+    ],
+    "image_url": "https://images.alltrails.com/eyJidWNrZXQiOiJhc3NldHMuYWxsdHJhaWxzLmNvbSIsImtleSI6InVwbG9hZHMvcGhvdG8vaW1hZ2UvOTQ1MjA2NzMvYTZmMGNhYTVkNDA4ZjVmOTkwYzE4NDE0MzUxZDUwZjAuanBnIiwiZWRpdHMiOnsidG9Gb3JtYXQiOiJqcGVnIiwicmVzaXplIjp7IndpZHRoIjoiMTYwIiwiaGVpZ2h0IjoiMTYwIiwiZml0IjoiY292ZXIifSwicm90YXRlIjpudWxsLCJqcGVnIjp7InRyZWxsaXNRdWFudGlzYXRpb24iOnRydWUsIm92ZXJzaG9vdERlcmluZ2luZyI6dHJ1ZSwib3B0aW1pc2VTY2FucyI6dHJ1ZSwicXVhbnRpc2F0aW9uVGFibGUiOjN9fX0%3D&w=256&q=75",
+    "source_url": "https://www.alltrails.com/parks/us/tennessee/great-smoky-mountains-national-park/scenic-driving"
+  },
+  {
+    "rank": 13,
+    "name": "Cataloochee",
+    "parkCode": "grsm",
+    "description": "A remote mountain valley rich in history and wildlife. Once a community of 1,200 people, it now features preserved churches, schools, and homes alongside elk and deer.",
+    "distance_miles": 13.0,
+    "drive_time": null,
+    "highlights": [
+      "Historic churches and school",
+      "Elk and turkey viewing",
+      "Mountain valley views",
+      "Preserved pioneer homes"
+    ],
+    "best_time": "Morning and evening",
+    "tips": [
+      "Requires driving on a well-maintained gravel road for two miles",
+      "Best time for wildlife is in the morning and evenings around open fields",
+      "Follow signs 11 miles past the I-40 entrance ramp area"
+    ],
+    "image_url": "https://www.pigeonforge.com/wp-content/uploads/cataloochee-valley-500.jpg",
+    "source_url": "https://www.pigeonforge.com/smoky-mountain-activities/scenic-drives/"
+  }
+]

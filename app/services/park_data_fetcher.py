@@ -15,6 +15,7 @@ from typing import Dict, List, Optional, Any, Callable
 
 from app.services.data_manager import DataManager
 from app.clients.nps_client import NPSClient
+import requests
 
 logger = logging.getLogger(__name__)
 
@@ -152,6 +153,10 @@ class ParkDataFetcher:
                     self.data_manager.save_fixture(park_code, fixture_name, data)
                     results[fixture_name] = True
                     logger.info(f"✅ Saved {fixture_name} for {park_code}")
+                    
+                    # Auto-generate weather zones for park_details if not already configured
+                    if fixture_name == "park_details.json":
+                        self._ensure_weather_zones(park_code, data)
                 else:
                     results[fixture_name] = False
                     logger.warning(f"⚠️ No data returned for {fixture_name}")
@@ -163,6 +168,111 @@ class ParkDataFetcher:
             progress_callback(total, total, "NPS data fetch complete")
         
         return results
+    
+    def _ensure_weather_zones(self, park_code: str, park_data) -> bool:
+        """
+        Ensures park_details.json has weather_zones configured.
+        If missing, auto-generates default zones based on park location
+        and uses Open-Elevation API to get real elevation data.
+        
+        Weather zones are used for "Weather by Elevation" feature.
+        """
+        park_code = park_code.upper()
+        
+        # Load current park_details
+        existing = self.data_manager.load_fixture(park_code, "park_details.json")
+        if not existing:
+            return False
+        
+        # Check if already configured
+        if existing.get("weather_zones") and existing.get("base_weather_zone"):
+            logger.info(f"🌡️ Weather zones already configured for {park_code}")
+            return True
+        
+        # Get park location
+        location = None
+        if hasattr(park_data, 'location'):
+            location = park_data.location
+        elif isinstance(park_data, dict) and 'location' in park_data:
+            location = park_data['location']
+        elif isinstance(existing, dict) and 'location' in existing:
+            location = existing['location']
+        
+        if not location:
+            logger.warning(f"⚠️ No location found for {park_code}, cannot generate zones")
+            return False
+        
+        # Extract lat/lon
+        if hasattr(location, 'lat'):
+            base_lat, base_lon = location.lat, location.lon
+        elif isinstance(location, dict):
+            base_lat, base_lon = location.get('lat'), location.get('lon')
+        else:
+            logger.warning(f"⚠️ Invalid location format for {park_code}")
+            return False
+        
+        if not base_lat or not base_lon:
+            logger.warning(f"⚠️ Missing lat/lon for {park_code}")
+            return False
+        
+        park_name = existing.get("fullName", park_code)
+        
+        # Generate zone coordinates (3 zones offset from park center)
+        zone_coords = [
+            {"name": "Valley Floor", "lat": round(base_lat - 0.05, 6), "lon": round(base_lon, 6), 
+             "description": f"Lower elevation areas of {park_name}"},
+            {"name": "Mid-Elevation", "lat": round(base_lat, 6), "lon": round(base_lon, 6), 
+             "description": f"Central areas of {park_name}"},
+            {"name": "High Country", "lat": round(base_lat + 0.05, 6), "lon": round(base_lon - 0.03, 6), 
+             "description": f"Higher elevation areas of {park_name}"},
+        ]
+        
+        # Lookup real elevations using Open-Elevation API
+        ELEVATION_API_URL = "https://api.open-elevation.com/api/v1/lookup"
+        
+        locations_payload = [{"latitude": z["lat"], "longitude": z["lon"]} for z in zone_coords]
+        
+        try:
+            logger.info(f"🌐 Looking up elevations for {park_code} weather zones...")
+            response = requests.post(ELEVATION_API_URL, json={"locations": locations_payload}, timeout=30)
+            response.raise_for_status()
+            results = response.json().get("results", [])
+            
+            # Convert meters to feet and add to zones
+            weather_zones = []
+            for i, zone in enumerate(zone_coords):
+                elev_meters = results[i].get("elevation") if i < len(results) else None
+                elev_ft = int(elev_meters * 3.28084) if elev_meters is not None else 5000  # Fallback
+                
+                weather_zones.append({
+                    "name": zone["name"],
+                    "elevation_ft": elev_ft,
+                    "lat": zone["lat"],
+                    "lon": zone["lon"],
+                    "description": zone["description"]
+                })
+            
+            logger.info(f"🌡️ Elevation lookup successful: {[(z['name'], z['elevation_ft']) for z in weather_zones]}")
+            
+        except Exception as e:
+            logger.warning(f"⚠️ Elevation API failed for {park_code}: {e}. Using default elevations.")
+            # Fallback to default elevations
+            weather_zones = [
+                {"name": z["name"], "elevation_ft": 5000 + i * 2000, "lat": z["lat"], "lon": z["lon"], 
+                 "description": z["description"]} 
+                for i, z in enumerate(zone_coords)
+            ]
+        
+        # Update the fixture
+        existing["weather_zones"] = weather_zones
+        existing["base_weather_zone"] = "Mid-Elevation"
+        
+        # Save updated fixture
+        self.data_manager.save_fixture(park_code, "park_details.json", existing)
+        zones_summary = [f"{z['name']} ({z['elevation_ft']}ft)" for z in weather_zones]
+        logger.info(f"🌡️ Auto-generated weather zones for {park_code}: {zones_summary}")
+        
+        return True
     
     def fetch_and_classify_trails(
         self,
@@ -371,13 +481,17 @@ class ParkDataFetcher:
         park_code = park_code.upper()
         status = {"park_code": park_code, "operations": {}}
         
-        # Step 1: NPS Static Data
-        if not self.has_basic_data(park_code):
+        # Step 1: NPS Static Data - Fetch if ANY required fixture is missing
+        missing_required = [f for f in self.REQUIRED_FIXTURES 
+                          if not self.data_manager.has_fixture(park_code, f)]
+        
+        if missing_required:
             if progress_callback:
-                progress_callback(0, 4, "Fetching NPS data...")
+                progress_callback(0, 4, f"Fetching NPS data (missing: {', '.join(missing_required)})...")
             try:
                 result = self.fetch_nps_static_data(park_code, progress_callback)
                 status["operations"]["nps_data"] = result
+                logger.info(f"📦 Fetched missing fixtures for {park_code}: {missing_required}")
             except Exception as e:
                 status["operations"]["nps_data"] = {"error": str(e)}
                 logger.error(f"NPS data fetch failed: {e}")
@@ -387,6 +501,17 @@ class ParkDataFetcher:
         # Step 2: Trail classification and refinement
         if include_trails:
             if not self.data_manager.has_fixture(park_code, "trails_v2.json"):
+                # Pre-check: Ensure places.json exists (critical for trail classification)
+                if not self.data_manager.has_fixture(park_code, "places.json"):
+                    logger.warning(f"⚠️ places.json missing for {park_code}, fetching before trail classification...")
+                    try:
+                        places = self.nps.get_places(park_code)
+                        if places:
+                            self.data_manager.save_fixture(park_code, "places.json", places)
+                            logger.info(f"✅ Fetched places.json for {park_code}")
+                    except Exception as e:
+                        logger.error(f"Failed to fetch places.json: {e}")
+                
                 if progress_callback:
                     progress_callback(1, 4, "Processing trails...")
                 try:

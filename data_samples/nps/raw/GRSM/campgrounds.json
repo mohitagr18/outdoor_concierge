@@ -1,0 +1,1542 @@
+[
+  {
+    "id": "1241C56B-7003-4FDF-A449-29DA8BCB0A41",
+    "name": "Abrams Creek Campground",
+    "description": "Abrams Creek Campground is located beside beautiful Abrams Creek in a remote and secluded setting. With an elevation of 1,125 feet (343 m), the climate is moderate, characterized by mild winters and hot, humid summers. Flush toilets and drinking water are available. No hookups or showers are available at the campground.",
+    "location": {
+      "lat": 35.610746646455034,
+      "lon": -83.93318327381866
+    },
+    "campsites": {
+      "totalSites": "16",
+      "tentOnly": "4",
+      "rvOnly": "0"
+    },
+    "accessibility": {
+      "wheelchairAccess": "Campground is not ADA accessible.",
+      "internetInfo": "",
+      "cellPhoneInfo": "",
+      "fireStovePolicy": "Fires are permitted only in established fire rings provided at each campsite.",
+      "rvAllowed": "1",
+      "rvInfo": "RVs and trailers are allowed but not recommended because of the windy, narrow approach road.",
+      "rvMaxLength": "0",
+      "additionalInfo": "",
+      "trailerMaxLength": "12",
+      "adaInfo": "Campground is not ADA accessible. A paved path leads to the restrooms, but it has an incline.",
+      "trailerAllowed": "1",
+      "accessRoads": [
+        "Unpaved Roads - All vehicles OK in good weather"
+      ],
+      "classifications": [
+        "Developed Campground"
+      ]
+    },
+    "amenities": {
+      "trashRecyclingCollection": "Yes - seasonal",
+      "toilets": [
+        "Flush Toilets - seasonal"
+      ],
+      "internetConnectivity": "No",
+      "showers": [
+        "None"
+      ],
+      "cellPhoneReception": "No",
+      "laundry": "No",
+      "amphitheater": "No",
+      "dumpStation": "No",
+      "campStore": "No",
+      "staffOrVolunteerHostOnsite": "Yes - seasonal",
+      "potableWater": [
+        "Yes - seasonal"
+      ],
+      "iceAvailableForSale": "No",
+      "firewoodForSale": "No",
+      "foodStorageLockers": "No"
+    },
+    "contacts": {
+      "phoneNumbers": [
+        {
+          "phoneNumber": "865-856-2445",
+          "description": "",
+          "extension": "",
+          "type": "Voice"
+        }
+      ],
+      "emailAddresses": [
+        {
+          "description": "",
+          "emailAddress": "GRSM_Smokies_Information@nps.gov"
+        }
+      ]
+    },
+    "fees": [
+      {
+        "cost": "30.00",
+        "description": "Camping Fee is per site, per night.",
+        "title": "Camping Fee"
+      }
+    ],
+    "images": [
+      {
+        "url": "https://www.nps.gov/common/uploads/structured_data/65FF067A-01D4-2AD1-5099A9E592C38E82.jpg",
+        "title": "Waterside Sites_Abrams Creek Campground",
+        "altText": "Three campsites in a forested area near a creek, one with a large blue and white tent.",
+        "caption": "Abrams Creek Campground offers many waterside sites.",
+        "credit": "NPS Photo"
+      },
+      {
+        "url": "https://www.nps.gov/common/uploads/structured_data/66160924-F8A6-93D2-4CEF9778F105BD06.jpg",
+        "title": "Waterside Tent Pad_Abrams Creek Campground",
+        "altText": "A square tent pad at a waterside site with a picnic table and grill, near an orange and white tent.",
+        "caption": "Each site offers a gravel tent pad, a grill, and a picnic table. Nearby sites are typically visible.",
+        "credit": "NPS Photo"
+      },
+      {
+        "url": "https://www.nps.gov/common/uploads/structured_data/664AF241-FE11-9F7E-2786DFD57493F67B.jpg",
+        "title": "Shaded Site_Abrams Creek Campground",
+        "altText": "A forested campsite with a tent pad, picnic table, and grill. A nearby tent pad is visible.",
+        "caption": "Most sites offer ample shade.",
+        "credit": "NPS Photo"
+      },
+      {
+        "url": "https://www.nps.gov/common/uploads/structured_data/6662CA5C-CEB3-F51D-C5234814EF8C98CE.jpg",
+        "title": "Accessible Restrooms_Abrams Creek Campground",
+        "altText": "A campground restroom with a paved pathway to it. A sign beside a door says, \"Wash dishes here\".",
+        "caption": "Abrams Creek Campground provides accessible restrooms and a dishwashing area.",
+        "credit": "NPS Photo"
+      },
+      {
+        "url": "https://www.nps.gov/common/uploads/structured_data/668CBE2B-983C-AF75-DA225DF63EC52693.jpg",
+        "title": "Trash Receptacles_Abrams Creek Campground",
+        "altText": "Multiple bear-proof trash cans along a gravel road near campsites under a canopy of trees.",
+        "caption": "Promptly dispose of trash in bear-proof trash receptacles throughout the campground.",
+        "credit": "NPS Photo"
+      },
+      {
+        "url": "https://www.nps.gov/common/uploads/structured_data/66AF76BF-9BC9-A51D-CD9F3AF4E4931919.jpg",
+        "title": "Water View_Abrams Creek Campground",
+        "altText": "Softly rippling water reflecting surrounding trees. A creek view from a bank in the campground.",
+        "caption": "Find beautiful views of the water at Abrams Creek Campground.",
+        "credit": "NPS Photo"
+      },
+      {
+        "url": "https://www.nps.gov/common/uploads/structured_data/672BCE35-B8DA-452E-B904826C3B29C8F7.jpg",
+        "title": "Accessible Restroom Path_Abrams Creek Campground",
+        "altText": "A blue handicapped sign beside a paved path and campsite near the gravel roadway.",
+        "caption": "A paved pathway near sites 12 and 13 provides access to the Abrams Creek Campground restrooms.",
+        "credit": "NPS Photo"
+      },
+      {
+        "url": "https://www.nps.gov/common/uploads/structured_data/66C4AF06-BAFA-F16E-7AD301A6F684C800.jpg",
+        "title": "Trailhead_Abrams Creek Campground",
+        "altText": "Brown sign that says, \"Cooper Road Trail, Little Bottom Trail 0.9, Cane Gap 3.1, Abrams Falls 5.1\".",
+        "caption": "The Cooper Road Trail starts near the back of Abrams Creek Campground.",
+        "credit": "NPS Photo"
+      },
+      {
+        "url": "https://www.nps.gov/common/uploads/structured_data/670D32F0-DD45-9507-7E9EA32B035B60DF.jpg",
+        "title": "Site in Summer_Abrams Creek Campground",
+        "altText": "A tent pad, grill, and picnic table at a waterside site under a green canopy of trees.",
+        "caption": "Enjoy lush forest views in July.",
+        "credit": "NPS Photo"
+      },
+      {
+        "url": "https://www.nps.gov/common/uploads/structured_data/66E627D4-D90E-DB27-2E645E9D3BDD482E.jpg",
+        "title": "Multiple Sites_Abrams Creek Campground",
+        "altText": "Multiple sites along a gravel road under a canopy of green trees. Colorful tents are visible.",
+        "caption": "The 16 sites at Abrams Creek Campground are typically available from late-April to late-October.",
+        "credit": "NPS Photo"
+      }
+    ],
+    "reservationUrl": "https://www.recreation.gov/camping/campgrounds/273847",
+    "isOpen": true
+  },
+  {
+    "id": "E3D6E089-3B10-46E0-91C8-F7A5C7BBE409",
+    "name": "Balsam Mountain Campground",
+    "description": "Balsam Mountain Campground is surrounded by mountain ranges and streams. With an elevation of 5,310 feet (1,618 m), summer daytime temperatures rarely exceed 70\u00b0F (~21\u00b0C) and lows may dip to 50\u00b0F (10\u00b0C). RV and tent sites plus flush toilets and drinking water are available. No hookups or showers are available at the campground and the restrooms do not have lights.",
+    "location": {
+      "lat": 35.565436246152935,
+      "lon": -83.17429877301834
+    },
+    "campsites": {
+      "totalSites": "43",
+      "tentOnly": "19",
+      "rvOnly": "0"
+    },
+    "accessibility": {
+      "wheelchairAccess": "Accessible campsite has flat access to parking area.",
+      "internetInfo": "",
+      "cellPhoneInfo": "",
+      "fireStovePolicy": "Fires are permitted only in established fire rings provided at each campsite.",
+      "rvAllowed": "1",
+      "rvInfo": "Paved site driveways.",
+      "rvMaxLength": "24",
+      "additionalInfo": "",
+      "trailerMaxLength": "24",
+      "adaInfo": "One accessible campsite. Restrooms are accessible.",
+      "trailerAllowed": "1",
+      "accessRoads": [
+        "Paved Roads - All vehicles OK"
+      ],
+      "classifications": [
+        "Developed Campground"
+      ]
+    },
+    "amenities": {
+      "trashRecyclingCollection": "Yes - seasonal",
+      "toilets": [
+        "Flush Toilets - seasonal"
+      ],
+      "internetConnectivity": "No",
+      "showers": [
+        "None"
+      ],
+      "cellPhoneReception": "No",
+      "laundry": "No",
+      "amphitheater": "Yes - seasonal",
+      "dumpStation": "No",
+      "campStore": "No",
+      "staffOrVolunteerHostOnsite": "Yes - seasonal",
+      "potableWater": [
+        "Yes - seasonal"
+      ],
+      "iceAvailableForSale": "No",
+      "firewoodForSale": "No",
+      "foodStorageLockers": "Yes - seasonal"
+    },
+    "contacts": {
+      "phoneNumbers": [],
+      "emailAddresses": [
+        {
+          "description": "",
+          "emailAddress": "GRSM_Smokies_Information@nps.gov"
+        }
+      ]
+    },
+    "fees": [
+      {
+        "cost": "30.00",
+        "description": "Camping Fee is per site, per night.",
+        "title": "Camping Fee"
+      }
+    ],
+    "images": [
+      {
+        "url": "https://www.nps.gov/common/uploads/structured_data/8B0ABE77-F535-C8B8-6FA0FA22EEEA5AAE.jpg",
+        "title": "Several Sites at Balsam Mountain Campground",
+        "altText": "A fire ring, picnic table, and gravel tent pad in the foreground surrounded by trees and grass.",
+        "caption": "Each site includes a gravel tent pad, fire ring, and picnic table. Trash receptacles are available throughout the campground.",
+        "credit": "NPS Photo"
+      },
+      {
+        "url": "https://www.nps.gov/common/uploads/structured_data/8B1B53C3-D428-5428-F6C0279FF3FE291A.jpg",
+        "title": "Accessible Site at Balsam Mountain Campground",
+        "altText": "A wheelchair accessible campsite with a picnic table, fire ring, and tent pad near grass and trees.",
+        "caption": "Balsam Mountain Campground includes accessible camping opportunities.",
+        "credit": "NPS Photo"
+      },
+      {
+        "url": "https://www.nps.gov/common/uploads/structured_data/8B3B5BF4-01D2-B49A-38D5D7290A3F4467.jpg",
+        "title": "Balsam Mountain Campground View",
+        "altText": "A paved road lined by grass, shrubs, and trees. A car, trash can, and restroom are in the distance.",
+        "caption": "The road is fully paved at Balsam Mountain Campground.",
+        "credit": "NPS Photo"
+      },
+      {
+        "url": "https://www.nps.gov/common/uploads/structured_data/8B520FE7-E2F8-D02D-A3FB50BD6D68F8DD.jpg",
+        "title": "Balsam Mountain Campground Dish Washing Station",
+        "altText": "A brick structure with a brown roof and small windows surrounded by trees. Two sinks visible inside.",
+        "caption": "A dishwashing area is available near the center of the campground.",
+        "credit": "NPS Photo"
+      },
+      {
+        "url": "https://www.nps.gov/common/uploads/structured_data/8B63779B-E1E9-1435-244091A8C39FE133.jpg",
+        "title": "Site at Balsam Mountain Campground",
+        "altText": "A picnic table, fire ring, and tent pad beside a paved road with RVs visible in the background.",
+        "caption": "Most parking areas for Balsam Mountain Campground are parallel to the sites, rather than individual driveways.",
+        "credit": "NPS Photo"
+      },
+      {
+        "url": "https://www.nps.gov/common/uploads/structured_data/8B71FAE9-B95B-0EAE-2CCE6A4F072619A8.jpg",
+        "title": "Site with Stairs at Balsam Mountain Campground",
+        "altText": "Stairs lead up a slight slope to a picnic table, tent pad, and fire ring surrounded by trees.",
+        "caption": "Some sites include stairs from the parking area.",
+        "credit": "NPS Photo"
+      },
+      {
+        "url": "https://www.nps.gov/common/uploads/structured_data/8B7F7B8F-F309-0668-BC2ED6DFE43DBE5A.jpg",
+        "title": "Restrooms at Balsam Mountain Campground",
+        "altText": "A paved sidewalk leads to a brick restroom building with a brown roof and trees in background.",
+        "caption": "Restrooms with flush toilets and running water are available.",
+        "credit": "NPS Photo"
+      },
+      {
+        "url": "https://www.nps.gov/common/uploads/structured_data/8B96722B-AEDC-A6E5-4A34320F092DCC11.jpg",
+        "title": "Balsam Mountain Campground Site",
+        "altText": "A picnic table, fire ring, and tent pad with grass in the foreground and trees in the background.",
+        "caption": "Some sites are along the edge of the forest, offering additional privacy.",
+        "credit": "NPS Photo"
+      },
+      {
+        "url": "https://www.nps.gov/common/uploads/structured_data/8BB0E8B3-E91A-8213-F286E43D3A922239.jpg",
+        "title": "Walk To Sites at Balsam Mountain Campground",
+        "altText": "Two bear boxes, a tent, picnic tables, and multiple tent pads surrounded by trees and grass.",
+        "caption": "Some sites at Balsam Mountain Campground require a short walk from the parking area.",
+        "credit": "NPS Photo"
+      },
+      {
+        "url": "https://www.nps.gov/common/uploads/structured_data/8BC364D3-AB7D-4866-FBE61C30E13A040D.jpg",
+        "title": "Tent Sites at Balsam Mountain Campground",
+        "altText": "A fire ring, picnic table, and tent pad beside pavement. Additional site and trash can in background",
+        "caption": "Some campsites are specifically designated for tents only.",
+        "credit": "NPS Photo"
+      }
+    ],
+    "reservationUrl": "",
+    "isOpen": true
+  },
+  {
+    "id": "559F6C6D-8688-4269-9578-86DE30B01674",
+    "name": "Big Creek Campground",
+    "description": "Big Creek Campground is located beside the beautiful Big Creek in a remote and secluded setting. With an elevation of 1,700 feet (518 m), the climate is moderate, characterized by mild winters and hot, humid summers. Tent-only camping, flush toilets, and drinking water available. No hookups or showers are available at the campground.",
+    "location": {
+      "lat": 35.75007764596001,
+      "lon": -83.11138107325087
+    },
+    "campsites": {
+      "totalSites": "12",
+      "tentOnly": "12",
+      "rvOnly": "0"
+    },
+    "accessibility": {
+      "wheelchairAccess": "Campground is not ADA accessible.",
+      "internetInfo": "",
+      "cellPhoneInfo": "",
+      "fireStovePolicy": "Fires are permitted only in established fire rings provided at each campsite.",
+      "rvAllowed": "0",
+      "rvInfo": "No recreational vehicles or trailers allowed. All sites are tent-only.",
+      "rvMaxLength": "0",
+      "additionalInfo": "",
+      "trailerMaxLength": "0",
+      "adaInfo": "Campground is not ADA accessible. Sites are tent-only, requiring a short walk from the parking area. Restrooms are accessible.",
+      "trailerAllowed": "0",
+      "accessRoads": [
+        "Unpaved Roads - All vehicles OK in good weather"
+      ],
+      "classifications": [
+        "Developed Campground"
+      ]
+    },
+    "amenities": {
+      "trashRecyclingCollection": "Yes - seasonal",
+      "toilets": [
+        "Flush Toilets - seasonal"
+      ],
+      "internetConnectivity": "No",
+      "showers": [
+        "None"
+      ],
+      "cellPhoneReception": "No",
+      "laundry": "No",
+      "amphitheater": "No",
+      "dumpStation": "No",
+      "campStore": "No",
+      "staffOrVolunteerHostOnsite": "Yes - seasonal",
+      "potableWater": [
+        "Yes - seasonal"
+      ],
+      "iceAvailableForSale": "No",
+      "firewoodForSale": "No",
+      "foodStorageLockers": "No"
+    },
+    "contacts": {
+      "phoneNumbers": [
+        {
+          "phoneNumber": "828-486-5910",
+          "description": "",
+          "extension": "",
+          "type": "Voice"
+        }
+      ],
+      "emailAddresses": [
+        {
+          "description": "",
+          "emailAddress": "GRSM_Smokies_Information@nps.gov"
+        }
+      ]
+    },
+    "fees": [
+      {
+        "cost": "30.00",
+        "description": "Camping Fee is per site, per night.",
+        "title": "Camping Fee"
+      }
+    ],
+    "images": [
+      {
+        "url": "https://www.nps.gov/common/uploads/structured_data/F101F578-FAC7-E0B2-D2743A2903052A13.jpg",
+        "title": "Big Creek Campground",
+        "altText": "A wooded campsite with gravel tent pad",
+        "caption": "Big Creek Campground is located in a remote portion of Great Smoky Mountains National Park.",
+        "credit": "NPS Photo"
+      }
+    ],
+    "reservationUrl": "https://www.recreation.gov/camping/campgrounds/273821",
+    "isOpen": true
+  },
+  {
+    "id": "711EFDE3-F836-4A4C-B58C-D3E28386BDE4",
+    "name": "Cades Cove Campground",
+    "description": "Cades Cove Campground\u2014open year-round\u2014combines the feel of primitive camping with the modern convenience of flush toilets and drinking water. With an elevation of 1,807 feet (551 m), the climate is moderate, characterized by mild winters and hot, humid summers. No hookups or showers. America the Beautiful passes (not accepted in lieu of the parking tag for parking outside your campsite) are sold at the campground ranger station in summer & fall or online through the USGS store.",
+    "location": {
+      "lat": 35.60272464729015,
+      "lon": -83.77629277355186
+    },
+    "campsites": {
+      "totalSites": "161",
+      "tentOnly": "31",
+      "rvOnly": "0"
+    },
+    "accessibility": {
+      "wheelchairAccess": "Accessible paths to restrooms and parking areas.",
+      "internetInfo": "",
+      "cellPhoneInfo": "",
+      "fireStovePolicy": "Fires are permitted only in established fire rings provided at each campsite.",
+      "rvAllowed": "1",
+      "rvInfo": "Roads are paved in the campground. Site driveways are also paved.",
+      "rvMaxLength": "40",
+      "additionalInfo": "",
+      "trailerMaxLength": "35",
+      "adaInfo": "Eleven accessible campsites. Two CPAP campsites. Restrooms are accessible.",
+      "trailerAllowed": "1",
+      "accessRoads": [
+        "Paved Roads - All vehicles OK"
+      ],
+      "classifications": [
+        "Developed Campground"
+      ]
+    },
+    "amenities": {
+      "trashRecyclingCollection": "Yes - year round",
+      "toilets": [
+        "Flush Toilets - year round"
+      ],
+      "internetConnectivity": "No",
+      "showers": [
+        "None"
+      ],
+      "cellPhoneReception": "No",
+      "laundry": "No",
+      "amphitheater": "Yes - seasonal",
+      "dumpStation": "Yes - year round",
+      "campStore": "Yes - seasonal",
+      "staffOrVolunteerHostOnsite": "Yes - seasonal",
+      "potableWater": [
+        "Yes - year round"
+      ],
+      "iceAvailableForSale": "Yes - seasonal",
+      "firewoodForSale": "Yes - seasonal",
+      "foodStorageLockers": "Yes - year round"
+    },
+    "contacts": {
+      "phoneNumbers": [
+        {
+          "phoneNumber": "(865) 448-2472",
+          "description": "",
+          "extension": "2",
+          "type": "Voice"
+        }
+      ],
+      "emailAddresses": [
+        {
+          "description": "",
+          "emailAddress": "GRSM_Smokies_Information@nps.gov"
+        }
+      ]
+    },
+    "fees": [
+      {
+        "cost": "30.00",
+        "description": "Camping fee is per site, per night.",
+        "title": "Camping Fee"
+      }
+    ],
+    "images": [
+      {
+        "url": "https://www.nps.gov/common/uploads/structured_data/E7CE342C-BD83-08E8-1CEE96F4A8C7B3C2.jpg",
+        "title": "Cades Cove Campground",
+        "altText": "Wooded campsite with fall color surrounding a yellow tent.",
+        "caption": "Over 2 million visitors annually come to enjoy the scenic beauty of Cades Cove and its many historic structures.",
+        "credit": "Warren Bielenberg"
+      }
+    ],
+    "reservationUrl": "https://www.recreation.gov/camping/campgrounds/232488",
+    "isOpen": true
+  },
+  {
+    "id": "E4E470BE-46E5-44B6-A65A-31CFAAB939DB",
+    "name": "Cades Cove Group Campground",
+    "description": "Cades Cove combines the feel of primitive camping with the modern convenience of flush toilets and drinking water. A camp store provides visitors with basic necessities and bike rentals. Events like interpretive programs in the nearby amphitheater and bicycle-only days on the Cades Cove Loop Road provide visitors with a fun and unique experience.",
+    "location": {
+      "lat": 35.6038916465,
+      "lon": -83.7713098744
+    },
+    "campsites": {
+      "totalSites": "3",
+      "tentOnly": "3",
+      "rvOnly": "0"
+    },
+    "accessibility": {
+      "wheelchairAccess": "",
+      "internetInfo": "",
+      "cellPhoneInfo": "",
+      "fireStovePolicy": "Only heat-treated firewood which is in its original packaging and bears a certification from the USDA or a state agency may be brought into the park. You may also collect wood which is dead and down in the park to burn at your campsite. Fires are permitted only in established fire rings at campsite.",
+      "rvAllowed": "0",
+      "rvInfo": "",
+      "rvMaxLength": "0",
+      "additionalInfo": "",
+      "trailerMaxLength": "0",
+      "adaInfo": "",
+      "trailerAllowed": "0",
+      "accessRoads": [],
+      "classifications": []
+    },
+    "amenities": {
+      "trashRecyclingCollection": "Yes - year round",
+      "toilets": [
+        "Flush Toilets - year round"
+      ],
+      "internetConnectivity": "No",
+      "showers": [
+        "None"
+      ],
+      "cellPhoneReception": "No",
+      "laundry": "No",
+      "amphitheater": "Yes - seasonal",
+      "dumpStation": "Yes - year round",
+      "campStore": "Yes - seasonal",
+      "staffOrVolunteerHostOnsite": "Yes - year round",
+      "potableWater": [
+        "Yes - year round"
+      ],
+      "iceAvailableForSale": "Yes - seasonal",
+      "firewoodForSale": "Yes - seasonal",
+      "foodStorageLockers": "Yes - year round"
+    },
+    "contacts": {
+      "phoneNumbers": [
+        {
+          "phoneNumber": "(865) 448-2472",
+          "description": "",
+          "extension": "2",
+          "type": "Voice"
+        }
+      ],
+      "emailAddresses": [
+        {
+          "description": "",
+          "emailAddress": "GRSM_Smokies_Information@nps.gov"
+        }
+      ]
+    },
+    "fees": [
+      {
+        "cost": "35.00",
+        "description": "20 person maximum",
+        "title": "Group Site #1-2"
+      },
+      {
+        "cost": "65.00",
+        "description": "30 person maximum",
+        "title": "Group Site #3"
+      },
+      {
+        "cost": "53.00",
+        "description": "30 person maximum",
+        "title": "Group Site#4"
+      }
+    ],
+    "images": [],
+    "reservationUrl": "https://www.recreation.gov/camping/campgrounds/232440",
+    "isOpen": true
+  },
+  {
+    "id": "8B71E7E6-5EF0-49D8-8E33-2578A64A6DD5",
+    "name": "Cataloochee Campground",
+    "description": "Cataloochee Campground is located in the historic Cataloochee Valley surrounded by mountain ranges and pristine streams. With an elevation of 2,610 feet (796 m), it is characterized by mild winters and hot, humid summers. It offers traditional camping with the convenience of flush toilets and drinking water. No hookups or showers are available in the campground.",
+    "location": {
+      "lat": 35.63118594559614,
+      "lon": -83.08554127305501
+    },
+    "campsites": {
+      "totalSites": "27",
+      "tentOnly": "0",
+      "rvOnly": "0"
+    },
+    "accessibility": {
+      "wheelchairAccess": "Campground is not ADA accessible.",
+      "internetInfo": "",
+      "cellPhoneInfo": "",
+      "fireStovePolicy": "Fires are permitted only in established fire rings provided at each campsite.",
+      "rvAllowed": "1",
+      "rvInfo": "Gravel approach road and gravel campsite driveway.",
+      "rvMaxLength": "31",
+      "additionalInfo": "",
+      "trailerMaxLength": "31",
+      "adaInfo": "Campground is not ADA accessible. Restrooms are accessible.",
+      "trailerAllowed": "1",
+      "accessRoads": [
+        "Unpaved Roads - All vehicles OK in good weather"
+      ],
+      "classifications": [
+        "Developed Campground"
+      ]
+    },
+    "amenities": {
+      "trashRecyclingCollection": "Yes - seasonal",
+      "toilets": [
+        "Flush Toilets - seasonal"
+      ],
+      "internetConnectivity": "No",
+      "showers": [
+        "None"
+      ],
+      "cellPhoneReception": "No",
+      "laundry": "No",
+      "amphitheater": "No",
+      "dumpStation": "No",
+      "campStore": "No",
+      "staffOrVolunteerHostOnsite": "Yes - seasonal",
+      "potableWater": [
+        "Yes - seasonal"
+      ],
+      "iceAvailableForSale": "No",
+      "firewoodForSale": "No",
+      "foodStorageLockers": "Yes - seasonal"
+    },
+    "contacts": {
+      "phoneNumbers": [
+        {
+          "phoneNumber": "828-269-3161",
+          "description": "",
+          "extension": "",
+          "type": "Voice"
+        }
+      ],
+      "emailAddresses": [
+        {
+          "description": "",
+          "emailAddress": "GRSM_Smokies_Information@nps.gov"
+        }
+      ]
+    },
+    "fees": [
+      {
+        "cost": "30.00",
+        "description": "Camping Fee is per site, per night.  Reservations are required.",
+        "title": "Camping Fee"
+      }
+    ],
+    "images": [
+      {
+        "url": "https://www.nps.gov/common/uploads/structured_data/3E0945EF-E94D-8DB4-9754B06F9E9C23BB.jpg",
+        "title": "Gravel Road_Cataloochee Campground",
+        "altText": "Several campsites off of a gravel road through a campground. Tents, cars, and trailers visible.",
+        "caption": "Cataloochee Campground's road is gravel and each site has a gravel driveway.",
+        "credit": "NPS Photo"
+      },
+      {
+        "url": "https://www.nps.gov/common/uploads/structured_data/3E3D4361-BC64-626A-7ADC71144062F7BC.jpg",
+        "title": "Campsite_Cataloochee Campground",
+        "altText": "An empty campsite with a fire ring, picnic table, tent pad, and metal pole in view of trash cans.",
+        "caption": "Each site includes a gravel tent pad, fire ring, and picnic table. Trash receptacles are available throughout the campground.",
+        "credit": "NPS Photo"
+      },
+      {
+        "url": "https://www.nps.gov/common/uploads/structured_data/3E537896-F951-0FDE-8AB5D99F504BCF63.jpg",
+        "title": "Stream View_Cataloochee Campground",
+        "altText": "A rocky stream with greenery along its banks. Bright sky peaks through the tree canopy.",
+        "caption": "A streamside view near Cataloochee Campground.",
+        "credit": "NPS Photo"
+      },
+      {
+        "url": "https://www.nps.gov/common/uploads/structured_data/3E81F818-C828-2CFF-314A91C476F5859A.jpg",
+        "title": "RV and Trailer_Cataloochee Campground",
+        "altText": "A white RV near a black SUV, a white popup camper, and trash cans in a campground with trees.",
+        "caption": "In addition to tents, RVs and trailers are permitted at Cataloochee Campground.",
+        "credit": "NPS Photo"
+      },
+      {
+        "url": "https://www.nps.gov/common/uploads/structured_data/3EA89486-B75C-EBBF-BE9C2E84B20C4E4B.jpg",
+        "title": "Campsite_Cataloochee Campground",
+        "altText": "A picnic table, fire ring, gravel tent pad, and metal pole near a gravel parking area. Trees nearby.",
+        "caption": "Campsites at Cataloochee Campground offer ample shade in the summer months.",
+        "credit": "NPS Photo"
+      },
+      {
+        "url": "https://www.nps.gov/common/uploads/structured_data/3EBBB8D0-D7E5-97B2-2603049545BB77FC.jpg",
+        "title": "Parking and Site_Cataloochee Campground",
+        "altText": "A picnic table, fire ring, tent pad, and metal pole near a gravel parking area and many trees.",
+        "caption": "Each site includes a level tent pad near a parking spot. Cataloochee Campground offers a more secluded experience compared to some other Smokies campgrounds.",
+        "credit": "NPS Photo"
+      },
+      {
+        "url": "https://www.nps.gov/common/uploads/structured_data/65BF200E-F489-3B9B-90C3FBA6A7DF5494.jpg",
+        "title": "Road_Cataloochee Campground",
+        "altText": "A gravel roadway framed by trees. Two tents, a vehicle, and trash receptacles are in the distance.",
+        "caption": "The gravel campground road is level and passable by most vehicles in good weather.",
+        "credit": "NPS Photo"
+      },
+      {
+        "url": "https://www.nps.gov/common/uploads/structured_data/663AACBC-06B7-ADDF-904AB0070FA6A39D.jpg",
+        "title": "Multiple Sites_Cataloochee Campground",
+        "altText": "Two campsites near each other, each within view of restroom structure.",
+        "caption": "Each site is within walking distance of a restroom facility. Most sites are visible to nearby sites.",
+        "credit": "NPS Photo"
+      }
+    ],
+    "reservationUrl": "https://www.recreation.gov/camping/campgrounds/233284",
+    "isOpen": true
+  },
+  {
+    "id": "B3B0C4BD-BB79-40AA-B678-B953294BB9A3",
+    "name": "Cosby Campground",
+    "description": "Cosby Campground is tucked in the mountains under a canopy of shade. With an elevation of 2,459 feet (750 m), Cosby provides a moderate climate, characterized by mild winters and hot, humid summers. Campsites for both tents and RVs, flush toilets, and drinking water are available. No hookups or showers are available at the campground.",
+    "location": {
+      "lat": 35.754544846079504,
+      "lon": -83.20925027317588
+    },
+    "campsites": {
+      "totalSites": "157",
+      "tentOnly": "134",
+      "rvOnly": "0"
+    },
+    "accessibility": {
+      "wheelchairAccess": "Accessible paths to restrooms and parking areas.",
+      "internetInfo": "",
+      "cellPhoneInfo": "",
+      "fireStovePolicy": "Fires are permitted only in established fire rings provided at each campsite.",
+      "rvAllowed": "1",
+      "rvInfo": "Roads are paved in the campground. Site driveways are also paved.",
+      "rvMaxLength": "25",
+      "additionalInfo": "",
+      "trailerMaxLength": "25",
+      "adaInfo": "Two accessible campsites. Restrooms are accessible.",
+      "trailerAllowed": "1",
+      "accessRoads": [
+        "Paved Roads - All vehicles OK"
+      ],
+      "classifications": [
+        "Developed Campground"
+      ]
+    },
+    "amenities": {
+      "trashRecyclingCollection": "Yes - seasonal",
+      "toilets": [
+        "Flush Toilets - seasonal"
+      ],
+      "internetConnectivity": "No",
+      "showers": [
+        "None"
+      ],
+      "cellPhoneReception": "No",
+      "laundry": "No",
+      "amphitheater": "Yes - seasonal",
+      "dumpStation": "Yes - seasonal",
+      "campStore": "No",
+      "staffOrVolunteerHostOnsite": "Yes - seasonal",
+      "potableWater": [
+        "Yes - seasonal"
+      ],
+      "iceAvailableForSale": "No",
+      "firewoodForSale": "No",
+      "foodStorageLockers": "Yes - seasonal"
+    },
+    "contacts": {
+      "phoneNumbers": [
+        {
+          "phoneNumber": "(423) 487-2683",
+          "description": "",
+          "extension": "",
+          "type": "Voice"
+        }
+      ],
+      "emailAddresses": [
+        {
+          "description": "",
+          "emailAddress": "GRSM_Smokies_Information@nps.gov"
+        }
+      ]
+    },
+    "fees": [
+      {
+        "cost": "30.00",
+        "description": "Per site per night. Up to 6 people per site.",
+        "title": "Campsite Fee"
+      }
+    ],
+    "images": [
+      {
+        "url": "https://www.nps.gov/common/uploads/structured_data/42A98684-EE3A-1DC9-52DA0D259F1B587A.jpg",
+        "title": "Cosby Campground Ranger Station",
+        "altText": "Sunlit trees behind the campground office with the flag raised",
+        "caption": "Cosby Campground Ranger Station",
+        "credit": "NPS Photo/L. Ball"
+      },
+      {
+        "url": "https://www.nps.gov/common/uploads/structured_data/42BB14B1-D62D-CA78-E9DA58FE70908C05.jpg",
+        "title": "Cosby Campground Restroom",
+        "altText": "Paved walkway leads to a wooden restroom structure",
+        "caption": "Cosby Campground Restroom",
+        "credit": "NPS Photo/L. Ball"
+      },
+      {
+        "url": "https://www.nps.gov/common/uploads/structured_data/42CD6F23-A565-B5E3-3C700405B509337A.jpg",
+        "title": "Cosby Campground Tent Only Site",
+        "altText": "Steps lead to a tent only site occupied by a yellow tent",
+        "caption": "Cosby Campground Tent-only Site",
+        "credit": "NPS Photo"
+      }
+    ],
+    "reservationUrl": "https://www.recreation.gov/camping/campgrounds/232479",
+    "isOpen": true
+  },
+  {
+    "id": "2266A16D-7440-4B19-840A-B8B570FFF31F",
+    "name": "Deep Creek Campground",
+    "description": "Deep Creek Campground is located next to one of the park's most popular creeks. With an elevation of 1,800 feet (549 m), the climate is characterized by mild winters and hot, humid summers. Whether blanketed in bright spring wildflowers or vivid fall colors, the scenery at Deep Creek never disappoints. Hookups and showers are not provided, but flush toilets and drinking water are available.",
+    "location": {
+      "lat": 35.46031234614841,
+      "lon": -83.43466297423288
+    },
+    "campsites": {
+      "totalSites": "92",
+      "tentOnly": "60",
+      "rvOnly": "0"
+    },
+    "accessibility": {
+      "wheelchairAccess": "Accessible path to restroom and parking area.",
+      "internetInfo": "",
+      "cellPhoneInfo": "",
+      "fireStovePolicy": "Fires are permitted only in established fire rings provided at each campsite.",
+      "rvAllowed": "1",
+      "rvInfo": "Paved site driveway.",
+      "rvMaxLength": "26",
+      "additionalInfo": "",
+      "trailerMaxLength": "26",
+      "adaInfo": "One accessible campsite. Restrooms are accessible.",
+      "trailerAllowed": "1",
+      "accessRoads": [
+        "Paved Roads - All vehicles OK"
+      ],
+      "classifications": [
+        "Developed Campground"
+      ]
+    },
+    "amenities": {
+      "trashRecyclingCollection": "Yes - seasonal",
+      "toilets": [
+        "Flush Toilets - year round"
+      ],
+      "internetConnectivity": "No",
+      "showers": [
+        "None"
+      ],
+      "cellPhoneReception": "No",
+      "laundry": "No",
+      "amphitheater": "No",
+      "dumpStation": "Yes - seasonal",
+      "campStore": "No",
+      "staffOrVolunteerHostOnsite": "Yes - seasonal",
+      "potableWater": [
+        "Yes - seasonal"
+      ],
+      "iceAvailableForSale": "No",
+      "firewoodForSale": "No",
+      "foodStorageLockers": "No"
+    },
+    "contacts": {
+      "phoneNumbers": [
+        {
+          "phoneNumber": "(828) 488-3184",
+          "description": "",
+          "extension": "",
+          "type": "Voice"
+        }
+      ],
+      "emailAddresses": [
+        {
+          "description": "",
+          "emailAddress": "GRSM_Smokies_Information@nps.gov"
+        }
+      ]
+    },
+    "fees": [
+      {
+        "cost": "30.00",
+        "description": "Camping fee is per site, per night.",
+        "title": "Camping Fee"
+      }
+    ],
+    "images": [
+      {
+        "url": "https://www.nps.gov/common/uploads/structured_data/8FDFC6E2-90D4-6739-15D94D850C077CCE.jpg",
+        "title": "Deep Creek Campground",
+        "altText": "A campsite near flowing water and trees. A blue tent with orange trim sits on the gravel pad.",
+        "caption": "Deep Creek Campground offers a variety of sites, some streamside.",
+        "credit": "NPS Photo"
+      },
+      {
+        "url": "https://www.nps.gov/common/uploads/structured_data/900E3D47-DCFE-F505-A1AFEABBEDB25898.jpg",
+        "title": "Deep Creek Campground Fire Ring",
+        "altText": "Beside a flowing creek, wood sits inside and next to a metal fire ring with a mobile grate afixed.",
+        "caption": "Deep Creek Campground offers a variety of sites, some streamside.",
+        "credit": "NPS Photo"
+      },
+      {
+        "url": "https://www.nps.gov/common/uploads/structured_data/90352470-CDB6-1541-10EA4999EBD5DF68.jpg",
+        "title": "Bridge View at Deep Creek",
+        "altText": "A flowing river from the vantage point of a bridge. The body of water is lined with green trees.",
+        "caption": "Visitors can find many enjoyable water views near the Deep Creek Campground.",
+        "credit": "NPS Photo"
+      }
+    ],
+    "reservationUrl": "https://www.recreation.gov/camping/campgrounds/10041304",
+    "isOpen": true
+  },
+  {
+    "id": "63D37502-C1A6-44B7-A2C3-C4F784C03318",
+    "name": "Elkmont Campground",
+    "description": "Elkmont Campground\u2014open March 14\u2013November 30, 2025\u2014is the closest family campground to Sugarlands Visitor Center in the North District of the park. At 2,150 feet (655 m), winters are mild and summers are hot and humid. Tent and RV campsites, flush toilets, and drinking water are available. No hookups or showers. America the Beautiful passes (not accepted in lieu of the parking tag for parking outside your campsite) are sold at the campground ranger station in summer & fall or online through the USGS store.",
+    "location": {
+      "lat": 35.65875714573239,
+      "lon": -83.58274047425141
+    },
+    "campsites": {
+      "totalSites": "211",
+      "tentOnly": "25",
+      "rvOnly": "0"
+    },
+    "accessibility": {
+      "wheelchairAccess": "Amphitheatre is wheelchair accessible. Accessible paths to restrooms and parking areas.",
+      "internetInfo": "",
+      "cellPhoneInfo": "",
+      "fireStovePolicy": "Fires are permitted only in established fire rings provided at each campsite.",
+      "rvAllowed": "1",
+      "rvInfo": "No dump station on site; the closest is six miles away at Sugarlands Visitor Center. Roads are paved in the campground. Site driveways are also paved.",
+      "rvMaxLength": "35",
+      "additionalInfo": "",
+      "trailerMaxLength": "32",
+      "adaInfo": "Ten accessible campsites. Restrooms are accessible.",
+      "trailerAllowed": "1",
+      "accessRoads": [
+        "Paved Roads - All vehicles OK"
+      ],
+      "classifications": [
+        "Developed Campground"
+      ]
+    },
+    "amenities": {
+      "trashRecyclingCollection": "Yes - seasonal",
+      "toilets": [
+        "Flush Toilets - seasonal"
+      ],
+      "internetConnectivity": "No",
+      "showers": [
+        "None"
+      ],
+      "cellPhoneReception": "No",
+      "laundry": "No",
+      "amphitheater": "Yes - seasonal",
+      "dumpStation": "No",
+      "campStore": "Yes - seasonal",
+      "staffOrVolunteerHostOnsite": "Yes - seasonal",
+      "potableWater": [
+        "Yes - seasonal"
+      ],
+      "iceAvailableForSale": "Yes - seasonal",
+      "firewoodForSale": "Yes - seasonal",
+      "foodStorageLockers": "Yes - seasonal"
+    },
+    "contacts": {
+      "phoneNumbers": [
+        {
+          "phoneNumber": "8654305560",
+          "description": "",
+          "extension": "",
+          "type": "Voice"
+        }
+      ],
+      "emailAddresses": [
+        {
+          "description": "",
+          "emailAddress": "GRSM_Smokies_Information@nps.gov"
+        }
+      ]
+    },
+    "fees": [
+      {
+        "cost": "30.00",
+        "description": "Camping Fee is per site, per night.",
+        "title": "Campsite"
+      }
+    ],
+    "images": [
+      {
+        "url": "https://www.nps.gov/common/uploads/structured_data/62B5ADC9-E545-A229-43D915E3AD8ADA4A.jpg",
+        "title": "Elkmont Campground",
+        "altText": "Sun shining through the forest over an occupied campsite.",
+        "caption": "Generations of campers have returned to Elkmont year after year, drawn by the sounds of the river, the tranquility of the forest, and the variety of recreational activities in the Elkmont area.",
+        "credit": "NPS Photo/Bielenberg"
+      },
+      {
+        "url": "https://www.nps.gov/common/uploads/structured_data/B245CCC2-916B-91B5-8E47A50EFEA350BF.jpg",
+        "title": "Forested Elkmont Campground",
+        "altText": "A paved site driveway, fire ring, picnic table, and tent pad surrounded by trees.",
+        "caption": "Each site includes a level tent pad, picnic table, fire ring, and parking area.",
+        "credit": "NPS Photo"
+      },
+      {
+        "url": "https://www.nps.gov/common/uploads/structured_data/B259610C-B9A7-7521-639C44DBEFA4D965.jpg",
+        "title": "Multiple Sites at Elkmont Campground",
+        "altText": "A tent pad, picnic table, and fire ring near rocks, trees, and other sites in the distance.",
+        "caption": "Some sites are visible from others, with trees offering partial privacy.",
+        "credit": "NPS Photo"
+      },
+      {
+        "url": "https://www.nps.gov/common/uploads/structured_data/B2ACCFD8-A025-4A33-AB9EE1BB67023F12.jpg",
+        "title": "RVs at Elkmont Campground",
+        "altText": "A gray and white RV attached to a blue truck. Other sites and trees are in the background.",
+        "caption": "Elkmont Campground provides sites for both tents and RVs.",
+        "credit": "NPS Photo"
+      },
+      {
+        "url": "https://www.nps.gov/common/uploads/structured_data/B2C946CE-C812-0944-B58D61AD22D62FF8.jpg",
+        "title": "Restrooms at Elkmont Campground",
+        "altText": "A paved sidewalk leading to a restroom building with a brown roof. Trees and grass surround it.",
+        "caption": "Restrooms with flush toilets and running water are available.",
+        "credit": "NPS Photo"
+      },
+      {
+        "url": "https://www.nps.gov/common/uploads/structured_data/B2D1DCA4-9604-E65D-8AC0922C68C1F253.jpg",
+        "title": "Accessible Site at Elkmont Campground",
+        "altText": "A wide, paved driveway to an accessible site with a fire ring, picnic table, and tent pad.",
+        "caption": "Elkmont Campground provides wheelchair accessible camping opportunities.",
+        "credit": "NPS Photo"
+      },
+      {
+        "url": "https://www.nps.gov/common/uploads/structured_data/B2DE27C7-D52A-FA71-FE6602916471605F.jpg",
+        "title": "Creekside Sites at Elkmont Campground",
+        "altText": "Two campsites separated by trees with a creek in the foreground.",
+        "caption": "Elkmont Campground offers some waterside sites.",
+        "credit": "NPS Photo"
+      },
+      {
+        "url": "https://www.nps.gov/common/uploads/structured_data/B2EA3C69-AF51-737D-C8A67B99F80381F4.jpg",
+        "title": "Elkmont Campground",
+        "altText": "A paved driveway, fire ring, picnic table, and tent pad surrounded by trees and near other sites.",
+        "caption": "Elkmont Campground offers ample shade in the summer months.",
+        "credit": "NPS Photo"
+      },
+      {
+        "url": "https://www.nps.gov/common/uploads/structured_data/B2F67BD3-DDBF-B542-03C4FC932EA7D467.jpg",
+        "title": "Site at Elkmont Campground",
+        "altText": "A paved driveway, fire ring, picnic table, and tent pad along the forest's edge.",
+        "caption": "Some sites are along the edge of the forest, offering additional privacy.",
+        "credit": "NPS Photo"
+      },
+      {
+        "url": "https://www.nps.gov/common/uploads/structured_data/B2FFDABE-CC1A-B9D6-0EE87ECF470CE807.jpg",
+        "title": "Driveway at Elkmont Campground",
+        "altText": "A paved driveway near a shaded picnic table, fire ring, and tent pad.",
+        "caption": "Visitors can enjoy a variety of tree species, both deciduous and evergreen, at Elkmont Campground.",
+        "credit": "NPS Photo"
+      }
+    ],
+    "reservationUrl": "https://www.recreation.gov/camping/campgrounds/232487",
+    "isOpen": true
+  },
+  {
+    "id": "1B42DF20-EB0E-4F6A-8094-BCF63BA6B54F",
+    "name": "Elkmont Group Campground",
+    "description": "These sites offers an ideal setting for group camping excursions and outdoor enthusiasts of all kinds.",
+    "location": {
+      "lat": 35.659675846,
+      "lon": -83.586381874
+    },
+    "campsites": {
+      "totalSites": "4",
+      "tentOnly": "4",
+      "rvOnly": "0"
+    },
+    "accessibility": {
+      "wheelchairAccess": "",
+      "internetInfo": "",
+      "cellPhoneInfo": "",
+      "fireStovePolicy": "Only heat-treated firewood which is in its original packaging and bears a certification from the USDA or a state agency may be brought into the park. You may also collect wood which is dead and down in the park to burn at your campsite. Fires are permitted only in established fire rings at campsite.",
+      "rvAllowed": "0",
+      "rvInfo": "",
+      "rvMaxLength": "0",
+      "additionalInfo": "",
+      "trailerMaxLength": "0",
+      "adaInfo": "",
+      "trailerAllowed": "0",
+      "accessRoads": [],
+      "classifications": []
+    },
+    "amenities": {
+      "trashRecyclingCollection": "Yes - seasonal",
+      "toilets": [
+        "Flush Toilets - seasonal"
+      ],
+      "internetConnectivity": "No",
+      "showers": [
+        "None"
+      ],
+      "cellPhoneReception": "No",
+      "laundry": "No",
+      "amphitheater": "Yes - seasonal",
+      "dumpStation": "Yes - seasonal",
+      "campStore": "Yes - seasonal",
+      "staffOrVolunteerHostOnsite": "Yes - seasonal",
+      "potableWater": [
+        "Yes - seasonal"
+      ],
+      "iceAvailableForSale": "Yes - seasonal",
+      "firewoodForSale": "Yes - seasonal",
+      "foodStorageLockers": "Yes - seasonal"
+    },
+    "contacts": {
+      "phoneNumbers": [
+        {
+          "phoneNumber": "(865) 430-5560",
+          "description": "",
+          "extension": "",
+          "type": "Voice"
+        }
+      ],
+      "emailAddresses": [
+        {
+          "description": "",
+          "emailAddress": "GRSM_Smokies_Information@nps.gov"
+        }
+      ]
+    },
+    "fees": [
+      {
+        "cost": "53.00",
+        "description": "Site #1, 30 people maximum, no RVs or trailers allowed.",
+        "title": "Camping Fee, Tent Only Area"
+      },
+      {
+        "cost": "35.00",
+        "description": "Site #2, 20 person maximum",
+        "title": "Camping Fee, Tent Only Area"
+      },
+      {
+        "cost": "26.00",
+        "description": "Site #3, 15 person maximum",
+        "title": "Camping Fee, Tent Only Area"
+      },
+      {
+        "cost": "35.00",
+        "description": "Site #4, 20 person maximum",
+        "title": "Camping Fee, Tent Only Area"
+      }
+    ],
+    "images": [],
+    "reservationUrl": "https://www.recreation.gov/camping/campgrounds/232436",
+    "isOpen": true
+  },
+  {
+    "id": "406AC787-B7E7-4DE6-AB62-ABDCD4D358FA",
+    "name": "Look Rock Campground",
+    "description": "Look Rock Campground is located along the beautiful Foothills Parkway West between Walland, Tennessee and Chilhowee Lake. With an elevation of 2,600 feet (792 m), the climate is characterized by mild winters and hot, humid summers. Flush toilets and drinking water are available. Ten of the sites offer electric and water hookups. No shower facilities are located in the campground.",
+    "location": {
+      "lat": 35.636904746705035,
+      "lon": -83.93614247438319
+    },
+    "campsites": {
+      "totalSites": "68",
+      "tentOnly": "5",
+      "rvOnly": "4"
+    },
+    "accessibility": {
+      "wheelchairAccess": "Campground is not ADA accessible.",
+      "internetInfo": "",
+      "cellPhoneInfo": "",
+      "fireStovePolicy": "Fires are permitted only in established fire rings provided at each campsite.",
+      "rvAllowed": "1",
+      "rvInfo": "Maximum RV lengths vary from 13 to 48 feet (4 to 15 m) depending on the campsite. Specifics are listed on recreation.gov.",
+      "rvMaxLength": "0",
+      "additionalInfo": "",
+      "trailerMaxLength": "0",
+      "adaInfo": "No ADA accessible campsites. A paved path leads to the restrooms but it has an incline.",
+      "trailerAllowed": "1",
+      "accessRoads": [
+        "Paved Roads - All vehicles OK"
+      ],
+      "classifications": [
+        "Developed Campground"
+      ]
+    },
+    "amenities": {
+      "trashRecyclingCollection": "Yes - seasonal",
+      "toilets": [
+        "Flush Toilets - seasonal"
+      ],
+      "internetConnectivity": "No",
+      "showers": [
+        "None"
+      ],
+      "cellPhoneReception": "No",
+      "laundry": "No",
+      "amphitheater": "No",
+      "dumpStation": "Yes - seasonal",
+      "campStore": "No",
+      "staffOrVolunteerHostOnsite": "Yes - seasonal",
+      "potableWater": [
+        "Yes - seasonal"
+      ],
+      "iceAvailableForSale": "No",
+      "firewoodForSale": "No",
+      "foodStorageLockers": "Yes - seasonal"
+    },
+    "contacts": {
+      "phoneNumbers": [
+        {
+          "phoneNumber": "(865)436-1200",
+          "description": "",
+          "extension": "",
+          "type": "Voice"
+        }
+      ],
+      "emailAddresses": [
+        {
+          "description": "",
+          "emailAddress": "GRSM_Smokies_Information@nps.gov"
+        }
+      ]
+    },
+    "fees": [
+      {
+        "cost": "30.00",
+        "description": "Camping fee is per site, per night.",
+        "title": "Standard Non-Electric Camping Fee"
+      },
+      {
+        "cost": "36.00",
+        "description": "Camping fee is per site, per night.",
+        "title": "Standard Electric Camping Fee"
+      }
+    ],
+    "images": [
+      {
+        "url": "https://www.nps.gov/common/uploads/structured_data/A7DEEEFF-CCB3-AB0D-5AEF15F5A8DF7041.jpg",
+        "title": "Fall_Look Rock Campground",
+        "altText": "A campsite in early fall surrounded by green, yellow, red, and orange trees.",
+        "caption": "Each site is equipped with a gravel tent pad, picnic table, and fire ring.",
+        "credit": "NPS Photo"
+      },
+      {
+        "url": "https://www.nps.gov/common/uploads/structured_data/682F234A-C21F-78C7-880734F0627B29A3.jpg",
+        "title": "Tent_Look Rock Campground",
+        "altText": "A white tent with a light green rainfly near a picnic table, fire ring, and two paved parking spots.",
+        "caption": "Each site includes a picnic table, fire ring, and paved parking.",
+        "credit": "NPS Photo"
+      },
+      {
+        "url": "https://www.nps.gov/common/uploads/structured_data/684AC071-BA4B-79B1-8BE8EC5AF514A4D2.jpg",
+        "title": "Pop-Up Camper_Look Rock Campground",
+        "altText": "A white pop-up camper shaded by trees, parked in a paved spot beside a wooden post.",
+        "caption": "Look Rock Campground permits RVs and trailers, in addition to tents. Maximum size depends on the site and is listed on recreation.gov.",
+        "credit": "NPS Photo"
+      },
+      {
+        "url": "https://www.nps.gov/common/uploads/structured_data/A80D6396-F8A9-4E8D-C5226B4D09257850.jpg",
+        "title": "Fall View_Look Rock Campground",
+        "altText": "Paved road through a forested campground in early fall. Campsites and their parking spots in view.",
+        "caption": "Look Rock Campground in early fall.",
+        "credit": "NPS Photo"
+      },
+      {
+        "url": "https://www.nps.gov/common/uploads/structured_data/6874A96F-A8EF-780C-AE6BB514B72E4BDD.jpg",
+        "title": "Pull-Through Sites_Look Rock Campground",
+        "altText": "Multiple pull-through driveways near site picnic tables, tent pads, and fire rings. Roads are paved.",
+        "caption": "Pull-through, one-way driveways are available at some sites at Look Rock Campground.",
+        "credit": "NPS Photo"
+      },
+      {
+        "url": "https://www.nps.gov/common/uploads/structured_data/6866F999-A665-31D9-9C69A497294B6A71.jpg",
+        "title": "Accessible Parking_Look Rock Campground",
+        "altText": "Paved handicap accessible parking beside a restroom facility surrounded by trees.",
+        "caption": "Accessible parking is available near restroom facilities at Look Rock Campground.",
+        "credit": "NPS Photo"
+      },
+      {
+        "url": "https://www.nps.gov/common/uploads/structured_data/A842AD94-934A-1EF9-B7BE006B8207BAE3.jpg",
+        "title": "Look Rock Overlook",
+        "altText": "Rolling mountains in early fall under clouds, seen from a viewing platform with a rail.",
+        "caption": "Campers can find exceptional mountain views near the campground.",
+        "credit": "NPS Photo"
+      },
+      {
+        "url": "https://www.nps.gov/common/uploads/structured_data/A9109672-9B94-7886-B33F13F5B9CB2FA6.jpeg",
+        "title": "Site with Hookup_Look Rock Campground",
+        "altText": "A campsite in the forest with a gravel pad, fire ring, and hookups in view beside the parking spot.",
+        "caption": "Ten sites at Look Rock Campground include electric and water hookups for RV campers.",
+        "credit": "NPS Photo"
+      },
+      {
+        "url": "https://www.nps.gov/common/uploads/structured_data/A8812606-C714-33AE-BAB76FDAFB79A0D0.jpg",
+        "title": "Look Rock Tower",
+        "altText": "Early fall views of rolling mountains. A road cuts through the mountains touched with fall color.",
+        "caption": "A short trail brings visitors to the top of the Look Rock Observation Tower.",
+        "credit": "NPS Photo"
+      },
+      {
+        "url": "https://www.nps.gov/common/uploads/structured_data/691279E8-F588-AB6F-64A84260C2769221.jpg",
+        "title": "Site_Look Rock Campground",
+        "altText": "A set of stone stairs leads down to a picnic table, fire ring, and gravel tent pad.",
+        "caption": "Some Look Rock Campground sites are down a set of stone stairs or a slope from the parking space.",
+        "credit": "NPS Photo"
+      },
+      {
+        "url": "https://www.nps.gov/common/uploads/structured_data/6905A7E4-0965-C4A5-2FDAFF52DB9B14A5.jpg",
+        "title": "Sloped Site_Look Rock Campground",
+        "altText": "A picnic table and fire ring upslope from a tent pad at a forested campsite.",
+        "caption": "Some sites are sloped at Look Rock Campground.",
+        "credit": "NPS Photo"
+      },
+      {
+        "url": "https://www.nps.gov/common/uploads/structured_data/692E498B-F6F7-7E7D-18CC6FF20F758FC7.jpg",
+        "title": "Dumpster_Look Rock Campground",
+        "altText": "A brown dumpster beside a paved road surrounded by green trees.",
+        "caption": "Bear-proof dumpsters are located throughout Look Rock Campground.",
+        "credit": "NPS Photo"
+      }
+    ],
+    "reservationUrl": "https://www.recreation.gov/camping/campgrounds/10207636",
+    "isOpen": true
+  },
+  {
+    "id": "5EC50DAF-A871-466C-80B6-9729BDBF090B",
+    "name": "Smokemont Campground",
+    "description": "Smokemont Campground\u2014open year-round\u2014is the closest family campground to Oconaluftee Visitor Center in the South District of the park. At 2,198 feet (670 m), winters are mild and summers are hot and humid. Tent and RV campsites, flush toilets, and drinking water are available. No hookups or showers. America the Beautiful passes (not accepted in lieu of the parking tag for parking outside your campsite) are sold at the campground ranger station in summer & fall or online through the USGS store.",
+    "location": {
+      "lat": 35.5564500463,
+      "lon": -83.3116254729
+    },
+    "campsites": {
+      "totalSites": "142",
+      "tentOnly": "0",
+      "rvOnly": "44"
+    },
+    "accessibility": {
+      "wheelchairAccess": "Accessible paths to restrooms and parking areas.",
+      "internetInfo": "",
+      "cellPhoneInfo": "",
+      "fireStovePolicy": "Fires are permitted only in established fire rings provided at each campsite.",
+      "rvAllowed": "1",
+      "rvInfo": "Roads are paved in the campground. Site driveways are also paved.",
+      "rvMaxLength": "40",
+      "additionalInfo": "",
+      "trailerMaxLength": "35",
+      "adaInfo": "Seven accessible campsites. Restrooms are accessible.",
+      "trailerAllowed": "1",
+      "accessRoads": [
+        "Paved Roads - All vehicles OK"
+      ],
+      "classifications": [
+        "Developed Campground"
+      ]
+    },
+    "amenities": {
+      "trashRecyclingCollection": "Yes - year round",
+      "toilets": [
+        "Flush Toilets - year round"
+      ],
+      "internetConnectivity": "No",
+      "showers": [
+        "None"
+      ],
+      "cellPhoneReception": "No",
+      "laundry": "No",
+      "amphitheater": "No",
+      "dumpStation": "Yes - year round",
+      "campStore": "No",
+      "staffOrVolunteerHostOnsite": "Yes - seasonal",
+      "potableWater": [
+        "Yes - year round"
+      ],
+      "iceAvailableForSale": "Yes - seasonal",
+      "firewoodForSale": "Yes - seasonal",
+      "foodStorageLockers": "Yes - year round"
+    },
+    "contacts": {
+      "phoneNumbers": [
+        {
+          "phoneNumber": "8284979270",
+          "description": "",
+          "extension": "",
+          "type": "Voice"
+        }
+      ],
+      "emailAddresses": [
+        {
+          "description": "",
+          "emailAddress": "GRSM_Smokies_Information@nps.gov"
+        }
+      ]
+    },
+    "fees": [
+      {
+        "cost": "30.00",
+        "description": "Camping fee is per site, per night.",
+        "title": "Camping Fee"
+      }
+    ],
+    "images": [
+      {
+        "url": "https://www.nps.gov/common/uploads/structured_data/8B997043-B6A3-AC77-4E786F5CFA1043B1.jpg",
+        "title": "Tent at Smokemont Campground",
+        "altText": "A yellow, orange, and white-colored tent on a level gravel pad near a picnic table and bikes.",
+        "caption": "Each site is equipped with a gravel tent pad, picnic table, and fire ring.",
+        "credit": "NPS Photo"
+      },
+      {
+        "url": "https://www.nps.gov/common/uploads/structured_data/8B2D2AA8-FDF2-AD9B-2AB527768F7E7479.jpg",
+        "title": "Trailer at Smokemont Campground",
+        "altText": "A person standing on a level gravel area setting up a canopy tent, all next to a white trailer.",
+        "caption": "Each campsite includes a level gravel area to set up needed gear.",
+        "credit": "NPS Photo"
+      },
+      {
+        "url": "https://www.nps.gov/common/uploads/structured_data/8BCE387E-EB38-C6E8-F25F5E45BD9E282A.jpg",
+        "title": "Trailer at Smokemont Campground",
+        "altText": "A white trailer and gray SUV parked at a campsite with a red checkered cloth on its picnic table.",
+        "caption": "Smokemont Campground offers many sites in the shade of the park's various tree species.",
+        "credit": "NPS Photo"
+      },
+      {
+        "url": "https://www.nps.gov/common/uploads/structured_data/8B6D6879-0157-EAAD-7D6F51462BF08110.jpg",
+        "title": "Tiny Home Trailer at Smokemont Campground",
+        "altText": "A trailer that resembles a tiny home with a red roof and porch cover parked in a campsite.",
+        "caption": "Campsite areas offer space to set up personal chairs and tables.",
+        "credit": "NPS Photo"
+      },
+      {
+        "url": "https://www.nps.gov/common/uploads/structured_data/8A8435F9-EE63-4083-1FF1A8D929BB306C.jpg",
+        "title": "Trailer at Smokemont Campground",
+        "altText": "A gray pickup truck and pop up trailer in the driveway of a campsite surrounded by trees.",
+        "caption": "Smokemont Campground includes some sites that can accomodate trailers.",
+        "credit": "NPS Photo"
+      },
+      {
+        "url": "https://www.nps.gov/common/uploads/structured_data/8B11A862-EFBA-92B8-50C6F6DD48D61A5A.jpg",
+        "title": "Summer in Smokemont Campground",
+        "altText": "Trees in summer surrounding several campsites, one with a white trailer and gold pickup truck.",
+        "caption": "The trees around many sites in Smokemont Campground offer ample shade.",
+        "credit": "NPS Photo"
+      },
+      {
+        "url": "https://www.nps.gov/common/uploads/structured_data/8BB841CD-AB5B-3D3E-CDB5E03A54AAFEDE.jpg",
+        "title": "RV in Smokemont Campground",
+        "altText": "A white camper trailer with multiple bikes parked on the side, all under the shade of trees.",
+        "caption": "Many campers enjoy biking around campgrounds during their stay.",
+        "credit": "NPS Photo"
+      },
+      {
+        "url": "https://www.nps.gov/common/uploads/structured_data/8B4D8060-06BA-23DC-1A4DF456F7107192.jpg",
+        "title": "Side-by-side sites at Smokemont Campground",
+        "altText": "A tent and pop up trailer in sites beside each other under green trees near a dumpster and bathroom.",
+        "caption": "Smokemont Campground offers shady sites for tents, trailers, and RVs.",
+        "credit": "NPS Photo"
+      }
+    ],
+    "reservationUrl": "https://www.recreation.gov/camping/campgrounds/232486",
+    "isOpen": true
+  },
+  {
+    "id": "30033AFC-D90E-4B30-BDFC-6495D2B9CB64",
+    "name": "Smokemont Group Campground",
+    "description": "Smokemont Group Campground\u2014open May 9\u2013October 31, 2025\u2014is the closest family campground to Oconaluftee Visitor Center in the South District of the park. At 2,198 feet (670 m), winters are mild and summers are hot and humid. Tent and RV campsites, flush toilets, and drinking water are available. No hookups or showers. America the Beautiful passes (not accepted in lieu of the parking tag for parking outside your campsite) are sold at the campground ranger station in summer & fall or online at the USGS store.",
+    "location": {
+      "lat": 35.55980784547675,
+      "lon": -83.31280157329286
+    },
+    "campsites": {
+      "totalSites": "3",
+      "tentOnly": "0",
+      "rvOnly": "0"
+    },
+    "accessibility": {
+      "wheelchairAccess": "Accessible paths to restrooms and parking areas.",
+      "internetInfo": "",
+      "cellPhoneInfo": "",
+      "fireStovePolicy": "Fires are permitted only in established fire rings provided at each campsite.",
+      "rvAllowed": "1",
+      "rvInfo": "Roads are paved in the campground. Site driveways are also paved.",
+      "rvMaxLength": "40",
+      "additionalInfo": "",
+      "trailerMaxLength": "35",
+      "adaInfo": "One accessible campsite. Restrooms are accessible.",
+      "trailerAllowed": "1",
+      "accessRoads": [
+        "Paved Roads - All vehicles OK"
+      ],
+      "classifications": [
+        "Developed Campground"
+      ]
+    },
+    "amenities": {
+      "trashRecyclingCollection": "Yes - year round",
+      "toilets": [
+        "Flush Toilets - seasonal"
+      ],
+      "internetConnectivity": "No",
+      "showers": [
+        "None"
+      ],
+      "cellPhoneReception": "No",
+      "laundry": "No",
+      "amphitheater": "No",
+      "dumpStation": "Yes - year round",
+      "campStore": "No",
+      "staffOrVolunteerHostOnsite": "Yes - seasonal",
+      "potableWater": [
+        "Yes - seasonal"
+      ],
+      "iceAvailableForSale": "Yes - seasonal",
+      "firewoodForSale": "Yes - seasonal",
+      "foodStorageLockers": "Yes - seasonal"
+    },
+    "contacts": {
+      "phoneNumbers": [
+        {
+          "phoneNumber": "8284979270",
+          "description": "",
+          "extension": "",
+          "type": "Voice"
+        }
+      ],
+      "emailAddresses": [
+        {
+          "description": "",
+          "emailAddress": "GRSM_Smokies_Information@nps.gov"
+        }
+      ]
+    },
+    "fees": [
+      {
+        "cost": "50.00",
+        "description": "Camping fee is per site, per night.",
+        "title": "Camping Fee"
+      }
+    ],
+    "images": [],
+    "reservationUrl": "https://www.recreation.gov/camping/campgrounds/232441",
+    "isOpen": true
+  }
+]

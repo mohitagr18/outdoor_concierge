@@ -1491,5 +1491,89 @@
       "exhibits",
       "architecture"
     ]
+  },
+  {
+    "id": "3E0C9478-50FB-4393-9B67-C8B161F439F9",
+    "title": "Take a Half-Day Hike in Glacier",
+    "shortDescription": "Glacier is a hiker\u2019s paradise. Spend part of your day on one of these 3-5 hour hikes.",
+    "longDescription": "",
+    "location": {
+      "lat": 0.0,
+      "lon": 0.0
+    },
+    "duration": "3-5 Hours",
+    "season": [
+      "Spring",
+      "Summer",
+      "Fall"
+    ],
+    "activities": [
+      {
+        "id": "BFF8C027-7C8F-480B-A5F8-CD8CE490BFBA",
+        "name": "Hiking"
+      }
+    ],
+    "arePetsPermitted": false,
+    "images": [
+      {
+        "url": "https://www.nps.gov/common/uploads/cropped_image/3B8C05FB-1DD8-B71B-0B450073CC208DF4.jpg",
+        "title": "",
+        "altText": "Rocky trail along creek in dense mossy forest",
+        "caption": "",
+        "credit": ""
+      }
+    ],
+    "isReservationRequired": false,
+    "doFeesApply": false,
+    "tags": [
+      "Glacier National Park",
+      "hiking",
+      "trails",
+      "hikes",
+      "outdoors",
+      "nature"
+    ]
+  },
+  {
+    "id": "58B32BC8-791E-411C-9E26-EC2209AF837A",
+    "title": "Take a Full Day Hike in Glacier",
+    "shortDescription": "Glacier is a hiker\u2019s paradise. Spend your whole day in nature on one of these popular trails.",
+    "longDescription": "",
+    "location": {
+      "lat": 0.0,
+      "lon": 0.0
+    },
+    "duration": "5-12 Hours",
+    "season": [
+      "Spring",
+      "Summer",
+      "Fall"
+    ],
+    "activities": [
+      {
+        "id": "BFF8C027-7C8F-480B-A5F8-CD8CE490BFBA",
+        "name": "Hiking"
+      }
+    ],
+    "arePetsPermitted": false,
+    "images": [
+      {
+        "url": "https://www.nps.gov/common/uploads/cropped_image/78F12204-1DD8-B71B-0B5FECD681EA6B76.jpg",
+        "title": "",
+        "altText": "Group of three hikes subalpine trail toward large mountain",
+        "caption": "",
+        "credit": ""
+      }
+    ],
+    "isReservationRequired": false,
+    "doFeesApply": false,
+    "tags": [
+      "Glacier National Park",
+      "hiking",
+      "trails",
+      "hikes",
+      "outdoors",
+      "nature"
+    ]
   }
 ]

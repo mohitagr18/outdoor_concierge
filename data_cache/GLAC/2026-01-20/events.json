@@ -1,0 +1,53 @@
+[
+  {
+    "title": "Winter Snowshoe Walk",
+    "description": "<p>Explore Glacier National Park on a two-hour ranger-led snowshoe walk and take an intimate look at the park in winter. Search for signs of wildlife, discover the plants and animals of the park, and enjoy the solitude of winter during this unique experience.\u00a0<br /><em>Not recommended for children under age 6.</em></p>\n<p>Participants should be prepared for a variety of winter conditions by wearing appropriate winter clothing, dressing in layers, and bringing water and snacks.\u00a0<em>You\u00a0may use your\u00a0own snowshoes or rent snowshoes for $2 at the Apgar Visitor Center\u00a0beginning 1 hour prior to the program.</em>\u00a0<em>Rental snowshoe availability is limited and only available for those participating in ranger-led snowshoe hikes. Snowshoe rentals are also available in neighboring communities.</em></p>\n<p><em>Program is offered conditions-permitting.</em></p>",
+    "date_start": "2026-01-10",
+    "date_end": "2026-03-15",
+    "is_free": true,
+    "location": "Meet at the Apgar Visitor Center.",
+    "times": [
+      {
+        "timestart": "01:00 PM",
+        "timeend": "03:00 PM",
+        "sunrisestart": "false",
+        "sunsetend": "false"
+      }
+    ],
+    "images": [
+      {
+        "url": "https://www.nps.gov/common/uploads/event_calendar/26FE7F23-BAF6-7E4D-A6E0B4AF1F9EAA6A.jpg",
+        "title": "",
+        "altText": "Park ranger speaking to a group of snowshoers in front of trees.",
+        "caption": "Ranger-led snowshoe walks are offered on Saturdays and Sundays throughout the winter, conditions-permitting.",
+        "credit": "NPS Photo"
+      }
+    ],
+    "dates": [
+      "2026-01-24",
+      "2026-01-25",
+      "2026-01-31",
+      "2026-02-01",
+      "2026-02-07",
+      "2026-02-08",
+      "2026-02-14",
+      "2026-02-15",
+      "2026-02-21",
+      "2026-02-22",
+      "2026-02-28",
+      "2026-03-01",
+      "2026-03-07",
+      "2026-03-08",
+      "2026-03-14",
+      "2026-03-15"
+    ],
+    "tags": [
+      "hike walk snowshoe winter"
+    ],
+    "types": [
+      "Hike",
+      "Walk"
+    ],
+    "fee_info": "Free. Participants may use their own snowshoes or rent snowshoes for $2 at the Apgar Visitor Center beginning 1 hour prior to the program. Rental snowshoe availability is limited and only available for those participating in ranger-led snowshoe hikes. Snowshoe rentals are also available in neighboring communities."
+  }
+]

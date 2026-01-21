@@ -1,0 +1,32 @@
+[
+  {
+    "id": "549CE919-01FC-49D4-9A17-E9403E5B2C87",
+    "label": "Apgar Visitor Center",
+    "type": "places",
+    "parkCode": "glac"
+  },
+  {
+    "id": "254D26CE-476D-4453-B230-A4A549252157",
+    "label": "Apgar Visitor Center",
+    "type": "visitorcenters",
+    "parkCode": "glac"
+  },
+  {
+    "id": "5F392392-6750-4B00-B595-0ED49BFFFFB6",
+    "label": "Logan Pass Visitor Center",
+    "type": "visitorcenters",
+    "parkCode": "glac"
+  },
+  {
+    "id": "4574CA53-4A17-427C-8C0C-307606DD80FA",
+    "label": "Logan Pass Visitor Center",
+    "type": "visitorcenters",
+    "parkCode": "glac"
+  },
+  {
+    "id": "44CE0C47-E859-4962-9E49-53A231732E0F",
+    "label": "St. Mary Visitor Center",
+    "type": "visitorcenters",
+    "parkCode": "glac"
+  }
+]

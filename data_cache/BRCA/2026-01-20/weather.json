@@ -1,0 +1,41 @@
+{
+  "parkCode": "brca",
+  "current_temp_f": 19.0,
+  "current_condition": "Clear",
+  "wind_mph": 5.1,
+  "humidity": 42,
+  "forecast": [
+    {
+      "date": "2026-01-20",
+      "maxtemp_f": 46.4,
+      "mintemp_f": 21.6,
+      "avgtemp_f": 31.0,
+      "daily_chance_of_rain": 0,
+      "condition": "Sunny",
+      "uv": 0.6
+    },
+    {
+      "date": "2026-01-21",
+      "maxtemp_f": 47.1,
+      "mintemp_f": 24.8,
+      "avgtemp_f": 34.1,
+      "daily_chance_of_rain": 0,
+      "condition": "Sunny",
+      "uv": 0.6
+    },
+    {
+      "date": "2026-01-22",
+      "maxtemp_f": 45.5,
+      "mintemp_f": 32.9,
+      "avgtemp_f": 37.4,
+      "daily_chance_of_rain": 0,
+      "condition": "Overcast ",
+      "uv": 0.4
+    }
+  ],
+  "sunrise": "07:41 AM",
+  "sunset": "05:40 PM",
+  "weather_alerts": [],
+  "zones": [],
+  "base_zone": null
+}

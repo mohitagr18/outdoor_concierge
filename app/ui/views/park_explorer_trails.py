@@ -6,7 +6,7 @@ from app.adapters.weather_adapter import get_trail_weather
 from app.models import ZonalForecast
 
 def get_difficulty_color(diff: str):
-    if not diff: return "gray"
+    if not diff or diff.lower() == "unknown": return "gray"
     d = diff.lower()
     if "easy" in d: return "green"
     if "moderate" in d: return "orange"
@@ -14,7 +14,7 @@ def get_difficulty_color(diff: str):
     return "gray"
 
 def render_trails_browser(park_code: str, static_data, volatile_data=None):
-    st.subheader(f"Hiking Trails in {park_code.upper()}")
+    st.subheader(f"Hiking Trails")
     
     trails = static_data.get("trails", [])
     if not trails:
@@ -104,10 +104,10 @@ def render_trails_browser(park_code: str, static_data, volatile_data=None):
         if item.get("images") and len(item["images"]) > 0:
             img_url = item["images"][0].get("url")
 
-        # Skip trails without a valid difficulty classification
+        # Default to "Unknown" if no difficulty classification
         difficulty = item.get("difficulty")
         if not difficulty or difficulty.lower() == "unknown":
-            continue
+            difficulty = "Unknown"
             
         # --- Zonal Weather Calculation ---
         weather_badge_info = None
@@ -172,7 +172,7 @@ def render_trails_browser(park_code: str, static_data, volatile_data=None):
         c1, c2, c3, c4, c5 = st.columns(5)
         
         # Difficulty Filter
-        diff_filter = c1.multiselect("Difficulty", ["Easy", "Moderate", "Strenuous"])
+        diff_filter = c1.multiselect("Difficulty", ["Easy", "Moderate", "Strenuous", "Unknown"])
         
         # Length Filter
         min_len = c2.slider("Min Length (mi)", 0.0, 20.0, 0.0)
@@ -208,16 +208,18 @@ def render_trails_browser(park_code: str, static_data, volatile_data=None):
         layers = {
             "Easy": folium.FeatureGroup(name='<span style="color:green">●</span> Easy'),
             "Moderate": folium.FeatureGroup(name='<span style="color:orange">●</span> Moderate'),
-            "Strenuous": folium.FeatureGroup(name='<span style="color:red">●</span> Strenuous')
+            "Strenuous": folium.FeatureGroup(name='<span style="color:red">●</span> Strenuous'),
+            "Unknown": folium.FeatureGroup(name='<span style="color:gray">●</span> Unknown')
         }
         
         # Determine strict layer mapping
         def get_layer_key(diff_str):
-            if not diff_str: return "Moderate" # Default
+            if not diff_str or diff_str.lower() == "unknown": return "Unknown"
             d = diff_str.lower()
             if "easy" in d: return "Easy"
             if "hard" in d or "strenuous" in d: return "Strenuous"
-            return "Moderate"
+            if "moderate" in d: return "Moderate"
+            return "Unknown"
 
         for _, row in map_df.iterrows():
             color = get_difficulty_color(row["difficulty"])
@@ -265,7 +267,7 @@ def render_trails_browser(park_code: str, static_data, volatile_data=None):
             marker.add_to(layers[layer_key])
             
         # Add Layers to Map in Order
-        for title in ["Easy", "Moderate", "Strenuous"]:
+        for title in ["Easy", "Moderate", "Strenuous", "Unknown"]:
             layers[title].add_to(m)
             
         folium.LayerControl(collapsed=False).add_to(m)
@@ -377,7 +379,7 @@ def render_trails_browser(park_code: str, static_data, volatile_data=None):
     st.markdown("### 🥾 Browse by Difficulty")
     
     # Sort order
-    order = ["Easy", "Moderate", "Strenuous"]
+    order = ["Easy", "Moderate", "Strenuous", "Unknown"]
     
     for level in order:
         subset = filtered[filtered["difficulty"] == level]

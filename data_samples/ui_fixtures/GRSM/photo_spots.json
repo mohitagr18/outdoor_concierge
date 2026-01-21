@@ -1,0 +1,440 @@
+[
+  {
+    "rank": 1,
+    "name": "Grotto Falls",
+    "parkCode": "grsm",
+    "description": "A waterfall located along the Trillium Gap Trail that you can walk behind. It creates a soft flowing beauty and a magical photography opportunity.",
+    "best_time_of_day": [
+      "Early morning",
+      "Cloudy day"
+    ],
+    "tips": [
+      "Shoot on a cloudy day to capture soft, silky water without harsh highlights",
+      "Walk behind the waterfall for a unique perspective",
+      "The hike is 2.6 miles round trip"
+    ],
+    "image_url": "https://i0.wp.com/vezzaniphotography.com/wp-content/uploads/2018/10/Grotto-Falls-20.jpg?resize=1200%2C800&ssl=1",
+    "source_url": "https://vezzaniphotography.com/best-photo-spots-great-smoky-mountains-national-park/"
+  },
+  {
+    "rank": 2,
+    "name": "The Sinks Waterfall",
+    "parkCode": "grsm",
+    "description": "A popular waterfall on the park's western side that is easily accessible due to its proximity to a major road.",
+    "best_time_of_day": [
+      "Overcast"
+    ],
+    "tips": [
+      "Use a circular polarizer to manage reflections in water shots",
+      "Overcast conditions act as a soft box for long exposures of water features",
+      "Requires less hiking than other water features in the park"
+    ],
+    "image_url": "https://www.redrivercatalog.com/blogimages/WK_TheSinksWaterfall-4744_1695161611.jpg",
+    "source_url": "https://www.redrivercatalog.com/blog/favorite-photo-places-the-great-smoky-mountains.html?srsltid=AfmBOor8Hyx0otXEG4Di6LwqQLrpcZ7zkZ3OxbK5Ek78unKns5nrb1kU"
+  },
+  {
+    "rank": 3,
+    "name": "Lake McDonald",
+    "parkCode": "grsm",
+    "description": "A beautiful lake where you can drive right up to primo photography spots without a long hike. It features countless little coves and a dock in Apgar that provide excellent reflections and sunset views.",
+    "best_time_of_day": [
+      "Sunset"
+    ],
+    "tips": [
+      "Set up your camera at the Lake McDonald dock in Apgar",
+      "Look for countless little coves along the shore to find a peaceful, unique vantage point",
+      "The lake is known for excellent mountain reflections no matter the weather"
+    ],
+    "image_url": "https://glacierguides.com/wp-content/uploads/Glacier-National-Park-Montana-reflections.jpg",
+    "source_url": "https://glacierguides.com/blog/5-great-spots-photography-glacier-national-park/"
+  },
+  {
+    "rank": 4,
+    "name": "Kuwohi Mountain",
+    "parkCode": "grsm",
+    "description": "One of the premier overlooks in the park for capturing sunrises and sunsets, offering expansive views of multiple ridgelines stacked behind one another.",
+    "best_time_of_day": [
+      "Sunrise",
+      "Sunset"
+    ],
+    "tips": [
+      "Use a telephoto lens (e.g., 185mm) to compress the landscape.",
+      "Pick out a ridgeline in the foreground and stack the rest behind it to create depth.",
+      "Telephoto lenses make the ridges seem closer together than they actually are."
+    ],
+    "image_url": "https://substackcdn.com/image/fetch/$s_!befn!,w_1456,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Fdc8249b1-fc04-49f2-a7b9-6de17b77a59e_1739x2572.jpeg",
+    "source_url": "https://bryanhansel.substack.com/p/photos-from-the-great-smoky-mountains"
+  },
+  {
+    "rank": 5,
+    "name": "Newfound Gap Overlook",
+    "parkCode": "grsm",
+    "description": "Located on the border of North Carolina and Tennessee, this location faces East and offers great views of the mountains.",
+    "best_time_of_day": [
+      "Sunrise"
+    ],
+    "tips": [
+      "Face east for the best sunrise photography opportunities",
+      "Check out the spot where you can stand in two states at once"
+    ],
+    "image_url": "https://i0.wp.com/vezzaniphotography.com/wp-content/uploads/2018/11/Newfound-Gap-Overlook-Great-Smoky-Mountains-8.jpg?resize=1200%2C800&ssl=1",
+    "source_url": "https://vezzaniphotography.com/best-photo-spots-great-smoky-mountains-national-park/"
+  },
+  {
+    "rank": 6,
+    "name": "Primitive Baptist Church (Cades Cove)",
+    "parkCode": "grsm",
+    "description": "A historic 19th-century church located in the Cades Cove valley, serving as a prominent historical display.",
+    "best_time_of_day": [
+      "Daytime",
+      "Overcast"
+    ],
+    "tips": [
+      "The 11-mile one-way loop can have heavy traffic that stops frequently",
+      "Overcast skies provide soft lighting for historical buildings and foliage details",
+      "Use wide-angle lenses for architecture and zooms for isolating details"
+    ],
+    "image_url": "https://www.redrivercatalog.com/blogimages/V-RW_H8A0159-Large_1695161962.jpg",
+    "source_url": "https://www.redrivercatalog.com/blog/favorite-photo-places-the-great-smoky-mountains.html?srsltid=AfmBOor8Hyx0otXEG4Di6LwqQLrpcZ7zkZ3OxbK5Ek78unKns5nrb1kU"
+  },
+  {
+    "rank": 7,
+    "name": "The Grinnell Glacier Trail",
+    "parkCode": "grsm",
+    "description": "A trail with a high 'wow factor' where views get more spectacular with every step. The trail leaves the trees early, offering wide-open vistas and close-ups of the glacier and surrounding walls.",
+    "best_time_of_day": [
+      "Evening"
+    ],
+    "tips": [
+      "Capture hikers in your frame to provide perspective on the massive scale of the landscape",
+      "Keep an eye out for mountain goats that often pose along the trail",
+      "The Garden Wall above the glacier looks particularly striking in evening light"
+    ],
+    "image_url": "https://glacierguides.com/wp-content/uploads/1_Glacier-National-Park-Hiking-Grinnell.jpg",
+    "source_url": "https://glacierguides.com/blog/5-great-spots-photography-glacier-national-park/"
+  },
+  {
+    "rank": 8,
+    "name": "John Oliver Cabin",
+    "parkCode": "grsm",
+    "description": "A historic log cabin located in Cades Cove, known for a beautiful flowering dogwood tree positioned directly behind the structure.",
+    "best_time_of_day": [
+      "Morning"
+    ],
+    "tips": [
+      "Time your visit in spring when dogwoods are flowering but before they get too green.",
+      "Compose the shot to show two sides of the house.",
+      "Ensure morning light is hitting one of the visible sides.",
+      "Keep the camera level to prevent the cabin sides from appearing tilted."
+    ],
+    "image_url": "https://substackcdn.com/image/fetch/$s_!So_Y!,w_1456,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F5bf83de9-6200-45ca-afe4-5f1db74c6b8b_2572x1739.jpeg",
+    "source_url": "https://bryanhansel.substack.com/p/photos-from-the-great-smoky-mountains"
+  },
+  {
+    "rank": 9,
+    "name": "Morton\u2019s Gap Overlook",
+    "parkCode": "grsm",
+    "description": "Widely considered one of the top sunset locations within Great Smoky Mountains National Park.",
+    "best_time_of_day": [
+      "Sunset"
+    ],
+    "tips": [
+      "This is a premier location for capturing the sunset over the mountain ridges"
+    ],
+    "image_url": "https://i0.wp.com/vezzaniphotography.com/wp-content/uploads/2018/12/Mortons-Gap-Overlook.jpg?resize=1200%2C801&ssl=1",
+    "source_url": "https://vezzaniphotography.com/best-photo-spots-great-smoky-mountains-national-park/"
+  },
+  {
+    "rank": 10,
+    "name": "Clingmans Dome",
+    "parkCode": "grsm",
+    "description": "The highest peak in the park, offering high-altitude vistas, rising mist from Lake Fontana, and clear night skies.",
+    "best_time_of_day": [
+      "Sunrise",
+      "Sunset",
+      "Night"
+    ],
+    "tips": [
+      "Arrive well before dawn to secure a spot as it attracts crowds",
+      "Bring a solid tripod for landscape or Milky Way shots",
+      "Dress in layers as temperatures can be 10-20 degrees cooler than lower elevations",
+      "Check for road closures (US 441) due to high winds or fog"
+    ],
+    "image_url": "https://www.redrivercatalog.com/blogimages/WK_SunriseClingmansDome-_1695161994.jpg",
+    "source_url": "https://www.redrivercatalog.com/blog/favorite-photo-places-the-great-smoky-mountains.html?srsltid=AfmBOor8Hyx0otXEG4Di6LwqQLrpcZ7zkZ3OxbK5Ek78unKns5nrb1kU"
+  },
+  {
+    "rank": 11,
+    "name": "Logan Pass",
+    "parkCode": "grsm",
+    "description": "The high point of Going-to-the-Sun Road offering incredible views of Glacier in all its glory, including wildflower meadows and frequent wildlife sightings.",
+    "best_time_of_day": [
+      "Sunset"
+    ],
+    "tips": [
+      "Bring a good long-distance camera lens for wildlife like mountain goats, big horn rams, and grizzlies",
+      "Try to catch the blooming Glacier Lilies during the spring",
+      "Take the short walk from the visitor center to Hidden Lake Overlook for a great landscape perspective"
+    ],
+    "image_url": "https://glacierguides.com/wp-content/uploads/45792_595653134891_5889101_n.jpg",
+    "source_url": "https://glacierguides.com/blog/5-great-spots-photography-glacier-national-park/"
+  },
+  {
+    "rank": 12,
+    "name": "Tom Branch Falls",
+    "parkCode": "grsm",
+    "description": "An easily accessible and photogenic waterfall where the surrounding spring vegetation often exhibits a vibrant green glow.",
+    "best_time_of_day": [
+      "Daytime"
+    ],
+    "tips": [
+      "In spring, focus on capturing the glowing greens of the foliage.",
+      "Consider shooting through the trees to add a layered, framed perspective to the waterfall."
+    ],
+    "image_url": "https://substackcdn.com/image/fetch/$s_!_AqP!,w_1456,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Fe0534733-9bc6-4000-94d0-5accea133bd0_1739x2572.jpeg",
+    "source_url": "https://bryanhansel.substack.com/p/photos-from-the-great-smoky-mountains"
+  },
+  {
+    "rank": 13,
+    "name": "Parking at Mp14.4 Overlook",
+    "parkCode": "grsm",
+    "description": "An unlabeled pullout just past Morton's Gap Overlook that faces west, offering spectacular mountain views framed by trees.",
+    "best_time_of_day": [
+      "Sunset"
+    ],
+    "tips": [
+      "Use the surrounding trees to frame the Appalachian mountains in the distance",
+      "Because it faces west, the sunset colors here are expected to be spectacular"
+    ],
+    "image_url": "https://i0.wp.com/vezzaniphotography.com/wp-content/uploads/2018/11/Newfound-Gap-Road-Turnouts-2.jpg?resize=1200%2C800&ssl=1",
+    "source_url": "https://vezzaniphotography.com/best-photo-spots-great-smoky-mountains-national-park/"
+  },
+  {
+    "rank": 14,
+    "name": "Oconaluftee Visitor Center",
+    "parkCode": "grsm",
+    "description": "An area near Cherokee, NC, known for wildlife sightings, particularly elk herds crossing the highway.",
+    "best_time_of_day": [
+      "Daytime"
+    ],
+    "tips": [
+      "Use a telephoto lens to capture wildlife from a safe distance",
+      "Maintain the park-mandated 50-yard limit from bears and elk",
+      "Be prepared for sudden opportunities as elk move across the major park highway"
+    ],
+    "image_url": "https://blog.redrivercatalog.com/wp-content/uploads/WK_Wildlife-5422.jpg",
+    "source_url": "https://www.redrivercatalog.com/blog/favorite-photo-places-the-great-smoky-mountains.html?srsltid=AfmBOor8Hyx0otXEG4Di6LwqQLrpcZ7zkZ3OxbK5Ek78unKns5nrb1kU"
+  },
+  {
+    "rank": 15,
+    "name": "Elizabeth Lake",
+    "parkCode": "grsm",
+    "description": "One of the most photogenic lakes in the park, located in the backcountry. It is highly valued by photographers for its serenity and the dramatic evening light on the water.",
+    "best_time_of_day": [
+      "Evening",
+      "Night"
+    ],
+    "tips": [
+      "Carry a tripod on your backpacking trip to capture Milky Way and night photography",
+      "Look for the resident pair of swans that call the lake home",
+      "Evening light is perfect for postcard-worthy sunset shots"
+    ],
+    "image_url": "https://glacierguides.com/wp-content/uploads/Glacier-National-Park-Hiking-Elizabeth-Lake.jpg",
+    "source_url": "https://glacierguides.com/blog/5-great-spots-photography-glacier-national-park/"
+  },
+  {
+    "rank": 16,
+    "name": "Cades Cove Gravel Road",
+    "parkCode": "grsm",
+    "description": "A specific gravel road section that provides excellent color contrast when the morning sun hits the trees.",
+    "best_time_of_day": [
+      "Sunrise"
+    ],
+    "tips": [
+      "Requires a clear eastern horizon or a crack in the clouds.",
+      "Look for the moment when golden sunlight catches the trees while the gravel road remains in shadow.",
+      "This contrast creates a compelling blue-and-gold color palette."
+    ],
+    "image_url": "https://substackcdn.com/image/fetch/$s_!2MRZ!,w_1456,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Fbcdd0396-8f7a-4ff9-a52e-8185d4b2b48f_2572x1739.jpeg",
+    "source_url": "https://bryanhansel.substack.com/p/photos-from-the-great-smoky-mountains"
+  },
+  {
+    "rank": 17,
+    "name": "Oconaluftee Valley Overlook",
+    "parkCode": "grsm",
+    "description": "A magnificent overlook at parking area #4 along Newfound Gap Road, famous for its sunrise views over the valley.",
+    "best_time_of_day": [
+      "Sunrise"
+    ],
+    "tips": [
+      "Arrive early to watch the sun rise over the valley",
+      "This view is so iconic it is featured in the Sugarlands Visitor Center"
+    ],
+    "image_url": "https://i0.wp.com/vezzaniphotography.com/wp-content/uploads/2018/12/Oconaluftee-overlook.jpg?resize=1200%2C802&ssl=1",
+    "source_url": "https://vezzaniphotography.com/best-photo-spots-great-smoky-mountains-national-park/"
+  },
+  {
+    "rank": 18,
+    "name": "Cable Grist Mill",
+    "parkCode": "grsm",
+    "description": "A historic mill built in 1868 featuring an overshot wheel and elaborate water diversions.",
+    "best_time_of_day": [
+      "Daytime"
+    ],
+    "tips": [
+      "Located at the far end of the Cades Cove loop road",
+      "Plan for a full day if stopping at historical sites along the 11-mile loop",
+      "Neutral density filters are useful for capturing motion in the water-powered wheel"
+    ],
+    "image_url": "https://blog.redrivercatalog.com/wp-content/uploads/RW_H8A0181-83a-Large.jpg",
+    "source_url": "https://www.redrivercatalog.com/blog/favorite-photo-places-the-great-smoky-mountains.html?srsltid=AfmBOor8Hyx0otXEG4Di6LwqQLrpcZ7zkZ3OxbK5Ek78unKns5nrb1kU"
+  },
+  {
+    "rank": 19,
+    "name": "Granite Park Chalet",
+    "parkCode": "grsm",
+    "description": "A historic chalet built over 100 years ago that provides a picturesque setting for backcountry photography, offering views of the Garden Wall and surrounding peaks.",
+    "best_time_of_day": [
+      "Sunset"
+    ],
+    "tips": [
+      "Hike an additional 5 miles round trip to Swiftcurrent Lookout for the highest fire lookout views in the park",
+      "Visit the Grinnell Glacier Overlook via a 3-mile spur trail to look down on the glacier from the Garden Wall",
+      "Rain or shine, the chalet area provides dramatic weather-based photography opportunities like rainbows"
+    ],
+    "image_url": "https://glacierguides.com/wp-content/uploads/Granite.Heavens.Peak_.Compton.jpg",
+    "source_url": "https://glacierguides.com/blog/5-great-spots-photography-glacier-national-park/"
+  },
+  {
+    "rank": 20,
+    "name": "Sunset Pullout (Below Kuwohi)",
+    "parkCode": "grsm",
+    "description": "A pullout located further down the mountain from Kuwohi that provides beautiful valley views during sunset, even without a direct view of the sun disk.",
+    "best_time_of_day": [
+      "Sunset"
+    ],
+    "tips": [
+      "Ideal when there is dust or haze in the air, which creates a warm glow between ridges.",
+      "Focus on the light filling the valley floor rather than the sky."
+    ],
+    "image_url": "https://substackcdn.com/image/fetch/$s_!J6Mz!,w_1456,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Fa38fdd88-8002-4ede-a97b-8b4e39109061_2572x1739.jpeg",
+    "source_url": "https://bryanhansel.substack.com/p/photos-from-the-great-smoky-mountains"
+  },
+  {
+    "rank": 21,
+    "name": "Trillium Gap Trail",
+    "parkCode": "grsm",
+    "description": "A beautiful trail that leads to Grotto Falls and eventually Mt. Le Conte, known for its misty atmosphere.",
+    "best_time_of_day": [
+      "Early morning",
+      "Evening",
+      "Cloudy day"
+    ],
+    "tips": [
+      "Shoot in the early morning to capture beautiful misty fog",
+      "Arrive early as parking is extremely limited on the one-way Roaring Fork Motor Nature Trail"
+    ],
+    "image_url": "https://i0.wp.com/vezzaniphotography.com/wp-content/uploads/2018/10/Grotto-Falls-22.jpg?resize=1200%2C800&ssl=1",
+    "source_url": "https://vezzaniphotography.com/best-photo-spots-great-smoky-mountains-national-park/"
+  },
+  {
+    "rank": 22,
+    "name": "Foothills Parkway",
+    "parkCode": "grsm",
+    "description": "A scenic drive along the western edge of the park offering views of Mount LeConte and Clingmans Dome.",
+    "best_time_of_day": [
+      "Daytime",
+      "Sunset"
+    ],
+    "tips": [
+      "Provides a well-maintained, less congested alternative for panoramic vistas",
+      "Excellent for capturing fall colors through forested stretches",
+      "Use a telephoto lens to isolate the distant high peaks"
+    ],
+    "image_url": null,
+    "source_url": "https://www.redrivercatalog.com/blog/favorite-photo-places-the-great-smoky-mountains.html?srsltid=AfmBOor8Hyx0otXEG4Di6LwqQLrpcZ7zkZ3OxbK5Ek78unKns5nrb1kU"
+  },
+  {
+    "rank": 23,
+    "name": "Clingman\u2019s Dome Parking Lot",
+    "parkCode": "grsm",
+    "description": "The highest point in the park offers spectacular sunset views directly from the parking area.",
+    "best_time_of_day": [
+      "Sunset"
+    ],
+    "tips": [
+      "Look for the blue and purple hues that emanate from the mountains as the sun goes down",
+      "The view here is often just as good for photography as the tower itself"
+    ],
+    "image_url": "https://i0.wp.com/vezzaniphotography.com/wp-content/uploads/2018/11/Sunset-at-Clingmans-Dome-Great-Smoky-Mountain-National-Park-2.jpg?resize=1200%2C800&ssl=1",
+    "source_url": "https://vezzaniphotography.com/best-photo-spots-great-smoky-mountains-national-park/"
+  },
+  {
+    "rank": 24,
+    "name": "Deep Creek",
+    "parkCode": "grsm",
+    "description": "An area near Bryson City featuring multiple waterfalls and access to whitewater streams.",
+    "best_time_of_day": [
+      "Daytime",
+      "Overcast"
+    ],
+    "tips": [
+      "Requires a significant commitment of 'shoe leather' and hiking energy",
+      "Bring rain gear and camera protection for damp conditions near falls",
+      "Check local maps as cell service is non-existent in this area"
+    ],
+    "image_url": null,
+    "source_url": "https://www.redrivercatalog.com/blog/favorite-photo-places-the-great-smoky-mountains.html?srsltid=AfmBOor8Hyx0otXEG4Di6LwqQLrpcZ7zkZ3OxbK5Ek78unKns5nrb1kU"
+  },
+  {
+    "rank": 25,
+    "name": "Laurel Falls",
+    "parkCode": "grsm",
+    "description": "A popular 80-foot cascading waterfall reachable via a paved but steep 2.6-mile round trip hike.",
+    "best_time_of_day": [
+      "Early morning",
+      "Evening",
+      "Cloudy day"
+    ],
+    "tips": [
+      "Bring a wide angle lens because the footbridge crosses directly over the falls",
+      "Avoid midday shooting to prevent harsh lighting on the water"
+    ],
+    "image_url": "https://i0.wp.com/vezzaniphotography.com/wp-content/uploads/2018/10/Laurel-Falls-Hike-Great-Smoky-Mountains-2.jpg?resize=1200%2C800&ssl=1",
+    "source_url": "https://vezzaniphotography.com/best-photo-spots-great-smoky-mountains-national-park/"
+  },
+  {
+    "rank": 26,
+    "name": "Blue Ridge Parkway",
+    "parkCode": "grsm",
+    "description": "A scenic parkway intersecting the park near Oconaluftee that offers high-elevation hiking and panoramic overlooks.",
+    "best_time_of_day": [
+      "Sunrise",
+      "Sunset"
+    ],
+    "tips": [
+      "Accessed via the Cherokee entrance to the park",
+      "Use graduated density filters for high-contrast sunrise and sunset shots at overlooks",
+      "Keep a paper map handy as GPS can be unreliable in the mountains"
+    ],
+    "image_url": null,
+    "source_url": "https://www.redrivercatalog.com/blog/favorite-photo-places-the-great-smoky-mountains.html?srsltid=AfmBOor8Hyx0otXEG4Di6LwqQLrpcZ7zkZ3OxbK5Ek78unKns5nrb1kU"
+  },
+  {
+    "rank": 27,
+    "name": "Clingman\u2019s Dome Observation Tower",
+    "parkCode": "grsm",
+    "description": "A steep half-mile hike leads to a tower with a 360-degree view of the Smokies.",
+    "best_time_of_day": [
+      "Sunrise",
+      "Sunset"
+    ],
+    "tips": [
+      "Utilize the 360-degree view to shoot either sunrise or sunset",
+      "Be aware that high elevations often bring heavy cloud cover",
+      "Note that access road is closed in winter"
+    ],
+    "image_url": "https://i0.wp.com/vezzaniphotography.com/wp-content/uploads/2018/11/Sunset-at-Clingmans-Dome-Great-Smoky-Mountain-National-Park-13.jpg?resize=1200%2C800&ssl=1",
+    "source_url": "https://vezzaniphotography.com/best-photo-spots-great-smoky-mountains-national-park/"
+  }
+]

@@ -1,0 +1,110 @@
+[
+  {
+    "id": "BDFD47F3-1DD8-B71B-0B81AFE928DDCBCF",
+    "title": "Kuwohi Webcam",
+    "description": "Located at high elevation in the center of the park, Clingmans Dome webcam offers views to the west.",
+    "url": "https://www.nps.gov/media/webcam/view.htm?id=BDFD47F3-1DD8-B71B-0B81AFE928DDCBCF",
+    "imageUrl": null,
+    "isStreaming": false,
+    "status": "Inactive",
+    "relatedParks": [
+      "grsm"
+    ]
+  },
+  {
+    "id": "BC112865-1DD8-B71B-0BCE25413B88C3B9",
+    "title": "Clingmans Dome Webcam",
+    "description": "Located at high elevation in the center of the park, Clingmans Dome webcam offers views to the west.",
+    "url": "https://www.nps.gov/media/webcam/view.htm?id=BC112865-1DD8-B71B-0BCE25413B88C3B9",
+    "imageUrl": null,
+    "isStreaming": false,
+    "status": "Inactive",
+    "relatedParks": [
+      "grsm"
+    ]
+  },
+  {
+    "id": "C3DE0FD2-1DD8-B71B-0B7029E73676D939",
+    "title": "Clingmans Dome Webcam",
+    "description": "Located at high elevation in the center of the park, the Clingmans Dome webcam offers views to the south",
+    "url": "https://www.nps.gov/subjects/air/webcams.htm?site=grsm",
+    "imageUrl": null,
+    "isStreaming": false,
+    "status": "Inactive",
+    "relatedParks": [
+      "grsm"
+    ]
+  },
+  {
+    "id": "C589EEEF-1DD8-B71B-0B0463C308FF64DD",
+    "title": "Newfound Gap Webcam",
+    "description": "Located at high elevation in the center of the park, Newfound Gap webcam views to the South",
+    "url": "https://www.nps.gov/media/webcam/view.htm?id=C589EEEF-1DD8-B71B-0B0463C308FF64DD",
+    "imageUrl": null,
+    "isStreaming": false,
+    "status": "Inactive",
+    "relatedParks": [
+      "grsm"
+    ]
+  },
+  {
+    "id": "52E38701-AF1C-D2FC-3F23861BB6E221BB",
+    "title": "Purchase Knob Webcam",
+    "description": "Visit webcam page for current view.",
+    "url": "https://www.nps.gov/media/webcam/view.htm?id=52E38701-AF1C-D2FC-3F23861BB6E221BB",
+    "imageUrl": "https://www.nps.govhttps://www.nps.gov/common/uploads/cropped_image/6834522E-DD60-88CB-0B234B70870F68FD.jpg",
+    "isStreaming": false,
+    "status": "Active",
+    "relatedParks": [
+      "grsm"
+    ]
+  },
+  {
+    "id": "29A53AEC-1DD8-B71B-0BC49F5DA731C317",
+    "title": "Twins Creek webcam",
+    "description": "",
+    "url": "https://www.nps.gov/media/webcam/view.htm?id=29A53AEC-1DD8-B71B-0BC49F5DA731C317",
+    "imageUrl": null,
+    "isStreaming": false,
+    "status": "Inactive",
+    "relatedParks": [
+      "grsm"
+    ]
+  },
+  {
+    "id": "67DCD5BD-FA14-21A0-8FA8F8CF7D91E773",
+    "title": "Kuwohi Webcam",
+    "description": "Visit webcam page for current view.",
+    "url": "https://www.nps.gov/media/webcam/view.htm?id=67DCD5BD-FA14-21A0-8FA8F8CF7D91E773",
+    "imageUrl": "https://www.nps.govhttps://www.nps.gov/common/uploads/cropped_image/67F7AC80-D35E-328D-D376F24CA367151C.jpg",
+    "isStreaming": false,
+    "status": "Active",
+    "relatedParks": [
+      "grsm"
+    ]
+  },
+  {
+    "id": "684EAA52-C271-030B-02F35E5BF5ABF0A4",
+    "title": "Newfound Gap Webcam",
+    "description": "Visit webcam page for current view.",
+    "url": "https://www.nps.gov/media/webcam/view.htm?id=684EAA52-C271-030B-02F35E5BF5ABF0A4",
+    "imageUrl": "https://www.nps.govhttps://www.nps.gov/common/uploads/cropped_image/6858B300-FA18-0E56-091B18E8743032BE.jpg",
+    "isStreaming": false,
+    "status": "Active",
+    "relatedParks": [
+      "grsm"
+    ]
+  },
+  {
+    "id": "6878C635-B83A-8F41-A6E3B0160539BEAA",
+    "title": "Look Rock Webcam",
+    "description": "Visit webcam page for current view.",
+    "url": "https://www.nps.gov/media/webcam/view.htm?id=6878C635-B83A-8F41-A6E3B0160539BEAA",
+    "imageUrl": "https://www.nps.govhttps://www.nps.gov/common/uploads/cropped_image/68850279-064F-589D-DD1AD36A5A87B63E.jpg",
+    "isStreaming": false,
+    "status": "Active",
+    "relatedParks": [
+      "grsm"
+    ]
+  }
+]

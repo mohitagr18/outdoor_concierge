@@ -1,0 +1,551 @@
+[
+  {
+    "rank": 1,
+    "name": "Swiftcurrent & Josephine Lakes, Glacier National Park",
+    "parkCode": "glac",
+    "description": "Known as the \"Switzerland of North America,\" this area features striking scenery with backdrops of Mount Gould and Grinnell Point, offering diverse photo opportunities for landscape and portrait photography.",
+    "best_time_of_day": [
+      "Evening",
+      "Sunset",
+      "Golden Hour"
+    ],
+    "tips": [
+      "Bring mosquito spray as they are aggressive during golden hour",
+      "Carry bear spray for safety",
+      "Great for wildlife photography including bears, moose, and mountain goats",
+      "Hike from Swiftcurrent to Josephine Lake for varied scenes"
+    ],
+    "image_url": "https://images.squarespace-cdn.com/content/v1/5cd57d59ca525b7e9eae595c/f4e2d5ed-e8d7-471d-b6ff-bb8abfc14b13/sunset+at+Lake+Josephine+Glacier+NP+2024-06-30+003.jpg",
+    "source_url": "https://belindashi.com/photography-tips/7-epic-photo-spots-in-glacier-national-park-and-montana"
+  },
+  {
+    "rank": 2,
+    "name": "Lake McDonald",
+    "parkCode": "glac",
+    "description": "Lake McDonald is one of the few places in the park where the views are spectacular without a long hike. It features countless little coves and a dock in Apgar that provide primo spots for photography.",
+    "best_time_of_day": [
+      "Sunset"
+    ],
+    "tips": [
+      "Use the dock in Apgar for a classic perspective",
+      "Explore the shoreline to find peaceful, private coves",
+      "It is drive-up accessible, making it easy to bring heavy gear"
+    ],
+    "image_url": "https://glacierguides.com/wp-content/uploads/Glacier-National-Park-Montana-reflections.jpg",
+    "source_url": "https://glacierguides.com/blog/5-great-spots-photography-glacier-national-park/"
+  },
+  {
+    "rank": 3,
+    "name": "Sun point Nature Trail",
+    "parkCode": "glac",
+    "description": "A short, scenic hike offering breathtaking views of St. Mary Lake and surrounding peaks, perfect for capturing wildflowers and tranquil lake shores.",
+    "best_time_of_day": [
+      "Daytime"
+    ],
+    "tips": [
+      "Easy trail ideal for spotting wildflowers",
+      "Capture the dramatic landscape and tranquil lake shores"
+    ],
+    "image_url": "https://images.squarespace-cdn.com/content/v1/5cd57d59ca525b7e9eae595c/08446e25-cf2f-4dc5-8752-9a599405910f/Sun+Point+Nature+Trail+Glacier+NP+2024-06-29+016.jpg",
+    "source_url": "https://belindashi.com/photography-tips/7-epic-photo-spots-in-glacier-national-park-and-montana"
+  },
+  {
+    "rank": 4,
+    "name": "The Grinnell Glacier Trail",
+    "parkCode": "glac",
+    "description": "This trail in the Many Glacier area offers a high 'wow factor' with spectacular views that begin early in the hike and improve with every step as you leave the trees.",
+    "best_time_of_day": [
+      "Evening"
+    ],
+    "tips": [
+      "Look for Mountain Goats along the trail as they often pose for photos",
+      "Capture the waterfalls along the route for dramatic shots",
+      "The Garden Wall looks particularly good in evening light"
+    ],
+    "image_url": "https://glacierguides.com/wp-content/uploads/1_Glacier-National-Park-Hiking-Grinnell.jpg",
+    "source_url": "https://glacierguides.com/blog/5-great-spots-photography-glacier-national-park/"
+  },
+  {
+    "rank": 5,
+    "name": "Apgar Village Shoreline",
+    "parkCode": "glac",
+    "description": "A gathering spot for sunset where the mountains turn soft purple and the water is calm.",
+    "best_time_of_day": [
+      "Sunset"
+    ],
+    "tips": [
+      "No hiking required",
+      "Look for purple hues on the mountains"
+    ],
+    "image_url": "https://sunshinewhispers.com/wp-content/uploads/2025/11/glacier-fall-2.jpg",
+    "source_url": "https://sunshinewhispers.com/25-iconic-photo-spots-in-glacier-national-park/"
+  },
+  {
+    "rank": 6,
+    "name": "Lake McDonald, Glacier National Park",
+    "parkCode": "glac",
+    "description": "The largest lake in the park, famous for its colorful pebbles and calm waters that reflect the fiery hues of the sun.",
+    "best_time_of_day": [
+      "Sunrise",
+      "Sunset"
+    ],
+    "tips": [
+      "Use a 10-stop filter to create long exposures if the water is choppy",
+      "Be prepared for heavy mosquito activity",
+      "Plan for traffic and road construction delays along the lake",
+      "Arrive early to scout for the best vantage points of the colorful pebbles"
+    ],
+    "image_url": "https://images.squarespace-cdn.com/content/v1/5cd57d59ca525b7e9eae595c/1721873700914-24FVFWOEZWNKFN4ORQW2/sunset+at+Lake+McDonald+2024-06-29+001.jpg?format=2500w",
+    "source_url": "https://belindashi.com/photography-tips/7-epic-photo-spots-in-glacier-national-park-and-montana"
+  },
+  {
+    "rank": 7,
+    "name": "Logan Pass",
+    "parkCode": "glac",
+    "description": "As the high point of the Going-to-the-Sun Road, Logan Pass offers diverse photography options ranging from wildflowers to expansive mountain vistas and abundant wildlife.",
+    "best_time_of_day": [
+      "Sunset"
+    ],
+    "tips": [
+      "Use a long-distance camera lens for wildlife photography (bears, goats, rams)",
+      "Take the short walk from the visitor center to the Hidden Lake Overlook",
+      "Stay after the crowds leave for a more peaceful sunset experience"
+    ],
+    "image_url": "https://glacierguides.com/wp-content/uploads/45792_595653134891_5889101_n.jpg",
+    "source_url": "https://glacierguides.com/blog/5-great-spots-photography-glacier-national-park/"
+  },
+  {
+    "rank": 8,
+    "name": "Lake McDonald Lodge",
+    "parkCode": "glac",
+    "description": "The boat dock area features rustic red boats lined up against a mountain backdrop.",
+    "best_time_of_day": [
+      "Daytime"
+    ],
+    "tips": [
+      "Capture the textures and reflections of the red boats",
+      "Shoot from the boat dock area"
+    ],
+    "image_url": "https://sunshinewhispers.com/wp-content/uploads/2025/11/lake-mcdonald-18.jpg",
+    "source_url": "https://sunshinewhispers.com/25-iconic-photo-spots-in-glacier-national-park/"
+  },
+  {
+    "rank": 9,
+    "name": "Paradise Meadow, Going-to-the-Sun Road",
+    "parkCode": "glac",
+    "description": "A picturesque alpine meadow bursting with vibrant wildflowers and surrounded by towering peaks along the park's most scenic drive.",
+    "best_time_of_day": [
+      "Daytime"
+    ],
+    "tips": [
+      "Excellent spot for wildflower photography",
+      "Stop here while driving the 50-mile Going-to-the-Sun Road"
+    ],
+    "image_url": "https://images.squarespace-cdn.com/content/v1/5cd57d59ca525b7e9eae595c/1721874618718-8VTRZSB98R2UCHKD6CFF/Paradise+Meadow+Glacier+NP+2024-06-29+004.jpg",
+    "source_url": "https://belindashi.com/photography-tips/7-epic-photo-spots-in-glacier-national-park-and-montana"
+  },
+  {
+    "rank": 10,
+    "name": "Elizabeth Lake",
+    "parkCode": "glac",
+    "description": "A remote and highly photogenic lake in the northeast corner of the park, accessible via long hikes through the Chief Mountain Trailhead or Ptarmigan Tunnel.",
+    "best_time_of_day": [
+      "Morning",
+      "Evening",
+      "Night"
+    ],
+    "tips": [
+      "Carry a tripod for excellent Milky Way and night photography opportunities",
+      "Look for the pair of swans that call the lake home",
+      "Plan for a multi-day backpacking trip to capture the best morning and evening light"
+    ],
+    "image_url": "https://glacierguides.com/wp-content/uploads/Glacier-National-Park-Hiking-Elizabeth-Lake.jpg",
+    "source_url": "https://glacierguides.com/blog/5-great-spots-photography-glacier-national-park/"
+  },
+  {
+    "rank": 11,
+    "name": "Trail of the Cedars & Avalanche Creek",
+    "parkCode": "glac",
+    "description": "Features milky turquoise water flowing through a canyon with accessible boardwalks.",
+    "best_time_of_day": [
+      "Early summer"
+    ],
+    "tips": [
+      "Use the boardwalk for easy access",
+      "Watch the water swirl from the railings"
+    ],
+    "image_url": "https://sunshinewhispers.com/wp-content/uploads/2025/11/going-to-the-sun-road-80.jpg",
+    "source_url": "https://sunshinewhispers.com/25-iconic-photo-spots-in-glacier-national-park/"
+  },
+  {
+    "rank": 12,
+    "name": "Red Rock Point, Going-to-the-Sun Road",
+    "parkCode": "glac",
+    "description": "A viewpoint offering stunning views of McDonald Creek's turquoise waters against dramatic red-rock cliffs.",
+    "best_time_of_day": [
+      "Daytime"
+    ],
+    "tips": [
+      "Parking is limited and challenging in summer",
+      "Walk down from the viewpoint to get up-close views of McDonald Creek"
+    ],
+    "image_url": "https://images.squarespace-cdn.com/content/v1/5cd57d59ca525b7e9eae595c/4d1abc39-8b47-414f-9e9d-0d82af231afb/Red+Rock+Point+Glacier+NP+2024-06-29+001.jpg",
+    "source_url": "https://belindashi.com/photography-tips/7-epic-photo-spots-in-glacier-national-park-and-montana"
+  },
+  {
+    "rank": 13,
+    "name": "Granite Park Chalet",
+    "parkCode": "glac",
+    "description": "A historic backcountry chalet that serves as a base for exploring high-elevation terrain, including the Garden Wall and Swiftcurrent Lookout.",
+    "best_time_of_day": [
+      "Sunset"
+    ],
+    "tips": [
+      "Hike the additional 5-mile round trip to Swiftcurrent Lookout for the highest views in the park",
+      "The 3-mile out-and-back spur to Grinnell Glacier Overlook provides views looking down on the glacier",
+      "Book chalet stays well in advance as they fill up quickly"
+    ],
+    "image_url": "https://glacierguides.com/wp-content/uploads/Granite.Heavens.Peak_.Compton.jpg",
+    "source_url": "https://glacierguides.com/blog/5-great-spots-photography-glacier-national-park/"
+  },
+  {
+    "rank": 14,
+    "name": "Avalanche Lake",
+    "parkCode": "glac",
+    "description": "A popular spot featuring waterfalls spilling down a cirque and still lake reflections.",
+    "best_time_of_day": [
+      "Early morning"
+    ],
+    "tips": [
+      "Bring a wide-angle lens",
+      "Arrive early to capture the lake while it is still"
+    ],
+    "image_url": null,
+    "source_url": "https://sunshinewhispers.com/25-iconic-photo-spots-in-glacier-national-park/"
+  },
+  {
+    "rank": 15,
+    "name": "Kootenai Falls & Suspension Bridge, Montana",
+    "parkCode": "glac",
+    "description": "One of the largest free-flowing waterfalls in the Northwest, featuring a suspension bridge that provides a high vantage point over roaring waters.",
+    "best_time_of_day": [
+      "Daytime"
+    ],
+    "tips": [
+      "Use the suspension bridge for a thrilling high-angle perspective",
+      "Great stop for a hike to capture raw wilderness"
+    ],
+    "image_url": "https://images.squarespace-cdn.com/content/v1/5cd57d59ca525b7e9eae595c/ae74fb48-08ba-4a2a-b1c9-b12b649df120/Kootenai+Suspension+Bridge+2024-06-28+004.jpg",
+    "source_url": "https://belindashi.com/photography-tips/7-epic-photo-spots-in-glacier-national-park-and-montana"
+  },
+  {
+    "rank": 16,
+    "name": "West Tunnel",
+    "parkCode": "glac",
+    "description": "A tunnel along Going-to-the-Sun Road with windows carved into the rock that frame the mountains.",
+    "best_time_of_day": [
+      "Early morning"
+    ],
+    "tips": [
+      "Use the small pullouts before or after the tunnel",
+      "The windows act as a built-in viewfinder"
+    ],
+    "image_url": "https://sunshinewhispers.com/wp-content/uploads/2025/11/going-to-the-sun-road-60.jpg",
+    "source_url": "https://sunshinewhispers.com/25-iconic-photo-spots-in-glacier-national-park/"
+  },
+  {
+    "rank": 17,
+    "name": "Browning, Montana",
+    "parkCode": "glac",
+    "description": "The heart of the Blackfeet Nation, offering 360-degree unblocked mountain views and spectacular sunrises.",
+    "best_time_of_day": [
+      "Sunrise",
+      "Twilight"
+    ],
+    "tips": [
+      "Drones are permitted here as it is outside the National Park boundaries",
+      "Look for the 'Roundhouse' or similar rentals for unobstructed views"
+    ],
+    "image_url": "https://images.squarespace-cdn.com/content/v1/5cd57d59ca525b7e9eae595c/e93e56f6-b6a7-47a0-93f2-bbe2711542d6/DJI_0502.jpg",
+    "source_url": "https://belindashi.com/photography-tips/7-epic-photo-spots-in-glacier-national-park-and-montana"
+  },
+  {
+    "rank": 18,
+    "name": "The Loop",
+    "parkCode": "glac",
+    "description": "A dramatic curve on Sun Road offering views of rocky cliffs and layers of mountain peaks.",
+    "best_time_of_day": [
+      "Late June"
+    ],
+    "tips": [
+      "Capture the lingering snow streaks in early summer",
+      "Focus on the dramatic mountain curves"
+    ],
+    "image_url": "https://sunshinewhispers.com/wp-content/uploads/2025/11/going-to-the-sun-road-26.jpg",
+    "source_url": "https://sunshinewhispers.com/25-iconic-photo-spots-in-glacier-national-park/"
+  },
+  {
+    "rank": 19,
+    "name": "Triple Arches",
+    "parkCode": "glac",
+    "description": "A historic stone support structure with arches built into the cliff side.",
+    "best_time_of_day": [
+      "Daytime"
+    ],
+    "tips": [
+      "Frame the shot from a nearby pullout",
+      "Capture the engineering curve against the alpine backdrop"
+    ],
+    "image_url": "https://sunshinewhispers.com/wp-content/uploads/2025/11/going-to-the-sun-road-40.jpg",
+    "source_url": "https://sunshinewhispers.com/25-iconic-photo-spots-in-glacier-national-park/"
+  },
+  {
+    "rank": 20,
+    "name": "Bird Woman Falls Overlook",
+    "parkCode": "glac",
+    "description": "Provides an unobstructed view of a long ribbon waterfall cascading down massive cliffs.",
+    "best_time_of_day": [
+      "Early summer"
+    ],
+    "tips": [
+      "Use a telephoto lens for waterfall details",
+      "Use a wide-angle lens for scale"
+    ],
+    "image_url": "https://sunshinewhispers.com/wp-content/uploads/2025/11/going-to-the-sun-road-30.jpg",
+    "source_url": "https://sunshinewhispers.com/25-iconic-photo-spots-in-glacier-national-park/"
+  },
+  {
+    "rank": 21,
+    "name": "Weeping Wall",
+    "parkCode": "glac",
+    "description": "A rock face that gushes water directly beside the road during the summer snow melt.",
+    "best_time_of_day": [
+      "Early summer"
+    ],
+    "tips": [
+      "Get out for close-up shots",
+      "Be prepared to get damp from the spray"
+    ],
+    "image_url": "https://sunshinewhispers.com/wp-content/uploads/2025/11/going-to-the-sun-road-66.jpg",
+    "source_url": "https://sunshinewhispers.com/25-iconic-photo-spots-in-glacier-national-park/"
+  },
+  {
+    "rank": 22,
+    "name": "Big Bend",
+    "parkCode": "glac",
+    "description": "A major pull-off with sweeping mountain views, waterfalls, and dark sky for astrophotography.",
+    "best_time_of_day": [
+      "Night",
+      "Early summer"
+    ],
+    "tips": [
+      "Great for Milky Way photography on clear nights",
+      "Capture cascading waterfalls from snow melt"
+    ],
+    "image_url": "https://sunshinewhispers.com/wp-content/uploads/2025/11/going-to-the-sun-road-32.jpg",
+    "source_url": "https://sunshinewhispers.com/25-iconic-photo-spots-in-glacier-national-park/"
+  },
+  {
+    "rank": 23,
+    "name": "Oberlin Bend Overlook",
+    "parkCode": "glac",
+    "description": "A high-altitude overlook with layered mountain views and frequent wildlife sightings.",
+    "best_time_of_day": [
+      "Daytime"
+    ],
+    "tips": [
+      "Bring a telephoto lens for goats and bighorn sheep",
+      "Phone cameras work well for the layered landscape"
+    ],
+    "image_url": "https://sunshinewhispers.com/wp-content/uploads/2025/11/going-to-the-sun-road-56.jpg",
+    "source_url": "https://sunshinewhispers.com/25-iconic-photo-spots-in-glacier-national-park/"
+  },
+  {
+    "rank": 24,
+    "name": "Hidden Lake Overlook",
+    "parkCode": "glac",
+    "description": "One of the most iconic views in the park, overlooking a turquoise lake framed by peaks.",
+    "best_time_of_day": [
+      "Sunrise",
+      "Sunset"
+    ],
+    "tips": [
+      "Use a wide-angle lens for the full lake scene",
+      "Stay on the boardwalks to protect the meadows"
+    ],
+    "image_url": null,
+    "source_url": "https://sunshinewhispers.com/25-iconic-photo-spots-in-glacier-national-park/"
+  },
+  {
+    "rank": 25,
+    "name": "Highline Trail Entrance",
+    "parkCode": "glac",
+    "description": "A cliffside path providing dramatic depth and views looking back toward the road.",
+    "best_time_of_day": [
+      "Daytime"
+    ],
+    "tips": [
+      "Focus on the depth and layers of the landscape",
+      "You only need to walk a few steps for the view"
+    ],
+    "image_url": null,
+    "source_url": "https://sunshinewhispers.com/25-iconic-photo-spots-in-glacier-national-park/"
+  },
+  {
+    "rank": 26,
+    "name": "Wild Goose Island (St. Mary Lake)",
+    "parkCode": "glac",
+    "description": "A tiny island in the middle of a massive lake, framed by jagged mountain peaks.",
+    "best_time_of_day": [
+      "Sunrise"
+    ],
+    "tips": [
+      "Sunrise is ideal for calm water and lighting",
+      "This is a classic composition for landscape shooters"
+    ],
+    "image_url": "https://sunshinewhispers.com/wp-content/uploads/2025/11/glacier-fall-17.jpg",
+    "source_url": "https://sunshinewhispers.com/25-iconic-photo-spots-in-glacier-national-park/"
+  },
+  {
+    "rank": 27,
+    "name": "St. Mary Lake Pullouts",
+    "parkCode": "glac",
+    "description": "Multiple locations along the shore offering different mountain alignments and lighting.",
+    "best_time_of_day": [
+      "Daytime"
+    ],
+    "tips": [
+      "Stop at every pullout for unique mountain angles"
+    ],
+    "image_url": "https://sunshinewhispers.com/wp-content/uploads/2025/11/glacier-fall-18.jpg",
+    "source_url": "https://sunshinewhispers.com/25-iconic-photo-spots-in-glacier-national-park/"
+  },
+  {
+    "rank": 28,
+    "name": "St. Mary Falls & Virginia Falls",
+    "parkCode": "glac",
+    "description": "Two distinct waterfalls accessible on one trail, offering fast-flowing and misty styles.",
+    "best_time_of_day": [
+      "Daytime"
+    ],
+    "tips": [
+      "Bring a microfiber cloth to wipe mist off the lens",
+      "Use slow shutter speeds for water motion"
+    ],
+    "image_url": null,
+    "source_url": "https://sunshinewhispers.com/25-iconic-photo-spots-in-glacier-national-park/"
+  },
+  {
+    "rank": 29,
+    "name": "Swiftcurrent Lake",
+    "parkCode": "glac",
+    "description": "A lake in Many Glacier that provides massive peak reflections and easy access.",
+    "best_time_of_day": [
+      "Early morning"
+    ],
+    "tips": [
+      "Wait for the quietest morning hours for mirror reflections"
+    ],
+    "image_url": "https://sunshinewhispers.com/wp-content/uploads/2025/11/many-glacier-7.jpg",
+    "source_url": "https://sunshinewhispers.com/25-iconic-photo-spots-in-glacier-national-park/"
+  },
+  {
+    "rank": 30,
+    "name": "Many Glacier Hotel",
+    "parkCode": "glac",
+    "description": "A historic lodge with a backyard panoramic view of dramatic mountains and water.",
+    "best_time_of_day": [
+      "Daytime"
+    ],
+    "tips": [
+      "Shoot from behind the lodge for a panoramic view"
+    ],
+    "image_url": "https://sunshinewhispers.com/wp-content/uploads/2025/11/many-glacier-4.jpg",
+    "source_url": "https://sunshinewhispers.com/25-iconic-photo-spots-in-glacier-national-park/"
+  },
+  {
+    "rank": 31,
+    "name": "Lake Josephine",
+    "parkCode": "glac",
+    "description": "A peaceful lake that is quieter than Swiftcurrent, offering excellent reflection opportunities.",
+    "best_time_of_day": [
+      "Daytime"
+    ],
+    "tips": [
+      "Best for reflections when the wind is calm"
+    ],
+    "image_url": "https://sunshinewhispers.com/wp-content/uploads/2025/11/many-glacier-46.jpg",
+    "source_url": "https://sunshinewhispers.com/25-iconic-photo-spots-in-glacier-national-park/"
+  },
+  {
+    "rank": 32,
+    "name": "Iceberg Lake",
+    "parkCode": "glac",
+    "description": "A remote lake known for floating ice chunks and towering cliffs.",
+    "best_time_of_day": [
+      "Early summer"
+    ],
+    "tips": [
+      "Capture the scale of the cliffs against the water"
+    ],
+    "image_url": null,
+    "source_url": "https://sunshinewhispers.com/25-iconic-photo-spots-in-glacier-national-park/"
+  },
+  {
+    "rank": 33,
+    "name": "Bowman Lake",
+    "parkCode": "glac",
+    "description": "A quiet, remote lake in the North Fork area with very still water.",
+    "best_time_of_day": [
+      "Morning"
+    ],
+    "tips": [
+      "Plan for a long drive on a gravel road",
+      "Mornings are the most peaceful for photos"
+    ],
+    "image_url": null,
+    "source_url": "https://sunshinewhispers.com/25-iconic-photo-spots-in-glacier-national-park/"
+  },
+  {
+    "rank": 34,
+    "name": "Polebridge Mercantile",
+    "parkCode": "glac",
+    "description": "A rustic, quirky general store area with character-filled buildings and signage.",
+    "best_time_of_day": [
+      "Daytime"
+    ],
+    "tips": [
+      "Look for personality-filled details like rustic signs"
+    ],
+    "image_url": null,
+    "source_url": "https://sunshinewhispers.com/25-iconic-photo-spots-in-glacier-national-park/"
+  },
+  {
+    "rank": 35,
+    "name": "Two Medicine Lake",
+    "parkCode": "glac",
+    "description": "A less crowded area where sunrise light hits the mountain peaks in gold.",
+    "best_time_of_day": [
+      "Sunrise"
+    ],
+    "tips": [
+      "Watch for gold light bouncing off the peaks in the morning"
+    ],
+    "image_url": "https://sunshinewhispers.com/wp-content/uploads/2025/11/two-medicine-102.jpg",
+    "source_url": "https://sunshinewhispers.com/25-iconic-photo-spots-in-glacier-national-park/"
+  },
+  {
+    "rank": 36,
+    "name": "Running Eagle Falls",
+    "parkCode": "glac",
+    "description": "A unique waterfall that flows through a hole in the rock.",
+    "best_time_of_day": [
+      "Daytime"
+    ],
+    "tips": [
+      "Use slow shutter speeds for a dramatic look"
+    ],
+    "image_url": "https://sunshinewhispers.com/wp-content/uploads/2025/11/two-medicine-10.jpg",
+    "source_url": "https://sunshinewhispers.com/25-iconic-photo-spots-in-glacier-national-park/"
+  }
+]

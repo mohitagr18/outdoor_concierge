@@ -1,0 +1,40 @@
+[
+  {
+    "title": "Signs of Spring",
+    "description": "<p>Annual Signs of Spring Event.</p>",
+    "date_start": "2026-04-18",
+    "date_end": "2026-04-18",
+    "is_free": true,
+    "location": "",
+    "times": [
+      {
+        "timestart": "09:00 AM",
+        "timeend": "03:30 PM",
+        "sunrisestart": "false",
+        "sunsetend": "false"
+      }
+    ],
+    "images": [
+      {
+        "url": "https://www.nps.gov/common/uploads/event_calendar/299606DC-0724-8342-BB69C3C86F27A279.jpg",
+        "title": "",
+        "altText": "A ranger and an ASL interpreter at a scenic overlook giving a program.",
+        "caption": "2025 Signs of Spring event.",
+        "credit": "NPS"
+      }
+    ],
+    "dates": [
+      "2026-04-18"
+    ],
+    "tags": [
+      "cades cove",
+      "signs of spring",
+      "asl",
+      "American Sign Language"
+    ],
+    "types": [
+      "Other"
+    ],
+    "fee_info": ""
+  }
+]

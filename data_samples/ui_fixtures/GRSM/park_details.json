@@ -1,0 +1,130 @@
+{
+  "parkCode": "grsm",
+  "fullName": "Great Smoky Mountains National Park",
+  "description": "Ridge upon ridge of forest straddles the border between North Carolina and Tennessee in Great Smoky Mountains National Park. World renowned for its diversity of plant and animal life, the beauty of its ancient mountains, and the quality of its remnants of Southern Appalachian mountain culture, this is America's most visited national park. Plan your visit today!",
+  "location": {
+    "lat": 35.60116374,
+    "lon": -83.50818326
+  },
+  "contacts": {
+    "phoneNumbers": [
+      {
+        "phoneNumber": "(865)436-1200",
+        "description": "",
+        "extension": "",
+        "type": "Voice"
+      }
+    ],
+    "emailAddresses": [
+      {
+        "description": "Our information email inbox is monitored but receives a high volume of inquiries.\n\nEach message is read but it may take several weeks to receive an answer and we may not respond to every email.\u00a0We greatly appreciate your patience and understanding.",
+        "emailAddress": "GRSM_Smokies_Information@nps.gov"
+      }
+    ]
+  },
+  "operatingHours": [
+    {
+      "exceptions": [],
+      "description": "Primary roads are open 24 hours a day, seven days a week, year-round, weather permitting. This includes Newfound Gap Road (US-441), Little River Road, and Laurel Creek Road. Secondary roads are closed seasonally.",
+      "standardHours": {
+        "wednesday": "All Day",
+        "monday": "All Day",
+        "thursday": "All Day",
+        "sunday": "All Day",
+        "tuesday": "All Day",
+        "friday": "All Day",
+        "saturday": "All Day"
+      },
+      "name": "Great Smoky Mountains National Park"
+    }
+  ],
+  "url": "https://www.nps.gov/grsm/index.htm",
+  "images": [
+    {
+      "url": "https://www.nps.gov/common/uploads/structured_data/3C80E3F4-1DD8-B71B-0BFF4F2280EF1B52.jpg",
+      "title": "Frosty Morning in Cades Cove",
+      "altText": "A thick layer of frost covers the fields, trees, and mountains in Cades Cove.",
+      "caption": "Wintertime brings a quiet beauty to the Great Smoky Mountains.",
+      "credit": "Kristina Plaas"
+    },
+    {
+      "url": "https://www.nps.gov/common/uploads/structured_data/3C80EC37-1DD8-B71B-0B87F63E8B030D15.jpg",
+      "title": "\"Smoke\" Rising From the Mountains",
+      "altText": "Wisps of fog hang over the forests in the mountains.",
+      "caption": "The park gets its name from mists that often rise like smoke from the mountains.",
+      "credit": "Kristina Plaas"
+    },
+    {
+      "url": "https://www.nps.gov/common/uploads/structured_data/62D22291-ECC1-C9C6-D4C249F41BC599CC.jpg",
+      "title": "Winter in the Smokies",
+      "altText": "A clear sky with a vast snowy mountain scene.",
+      "caption": "The Smokies receives snow periodically throughout the winter, mostly at higher elevations.",
+      "credit": "NPS / Bob Carr"
+    },
+    {
+      "url": "https://www.nps.gov/common/uploads/structured_data/3C80F02B-1DD8-B71B-0BBC2DFD4E9349E9.jpg",
+      "title": "The \"Wildflower National Park\"",
+      "altText": "A hillside in the forest covered with white trillium flowers",
+      "caption": "Wildflowers, such as these white trillium, can be found blooming from February through November in the park.",
+      "credit": "Kristina Plaas"
+    },
+    {
+      "url": "https://www.nps.gov/common/uploads/structured_data/3C80F1CC-1DD8-B71B-0B784AC1BCA74166.jpg",
+      "title": "Fall Colors Near Newfound Gap",
+      "altText": "Bright gold and red leaves shine through the fog in a forest.",
+      "caption": "Fall leaf season is one of the busiest times of year in the park.",
+      "credit": "NPS Photo"
+    },
+    {
+      "url": "https://www.nps.gov/common/uploads/structured_data/3C80F6C9-1DD8-B71B-0B33F35922A21B3B.jpg",
+      "title": "Fall Meets Winter",
+      "altText": "Gold and red fall colors fill the valleys while snow coats the mountain tops.",
+      "caption": "In spring and fall, weather in the foothills can be pleasant, while snow and cold rule on the mountain tops.",
+      "credit": "Sam Hobbs"
+    },
+    {
+      "url": "https://www.nps.gov/common/uploads/structured_data/3C80EEE2-1DD8-B71B-0BC2620AAA57D7CA.jpg",
+      "title": "The Waters of Roaring Fork Below Grotto Falls",
+      "altText": "Rhododendron bushes line the banks of a stream filled with large boulders.",
+      "caption": "Abundant rainfall means lush forests and beautiful stream scenes in the Great Smoky Mountains.",
+      "credit": "Danielle Austen, Artist-in-Residence 2015"
+    },
+    {
+      "url": "https://www.nps.gov/common/uploads/structured_data/3C80EDBC-1DD8-B71B-0B743AF911FE7557.jpg",
+      "title": "A Foggy Morning at Cades Cove Methodist Church",
+      "altText": "Tombstones stand in front of a white, wooden church on a foggy morning.",
+      "caption": "Historic buildings such as churches, gristmills, barns, and homes allow visitors to get a feel for life in the mountains before the national park was created.",
+      "credit": "Kristina Plaas"
+    }
+  ],
+  "campgrounds": [],
+  "visitor_centers": [],
+  "webcams": [],
+  "places": [],
+  "things_to_do": [],
+  "passport_stamps": [],
+  "weather_zones": [
+    {
+      "name": "Valley Floor",
+      "elevation_ft": 5114,
+      "lat": 35.551164,
+      "lon": -83.508183,
+      "description": "Lower elevation areas of Great Smoky Mountains National Park"
+    },
+    {
+      "name": "Mid-Elevation",
+      "elevation_ft": 3684,
+      "lat": 35.601164,
+      "lon": -83.508183,
+      "description": "Central areas of Great Smoky Mountains National Park"
+    },
+    {
+      "name": "High Country",
+      "elevation_ft": 3648,
+      "lat": 35.651164,
+      "lon": -83.538183,
+      "description": "Higher elevation areas of Great Smoky Mountains National Park"
+    }
+  ],
+  "base_weather_zone": "Mid-Elevation"
+}

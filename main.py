@@ -47,6 +47,45 @@ st.set_page_config(
 # Inject Global CSS
 inject_global_styles()
 
+st.markdown("""
+<div style="
+    position: fixed;
+    top: 3.5rem;
+    right: 1.5rem;
+    width: 280px;
+    background-color: rgba(255, 255, 255, 0.95);
+    padding: 1rem;
+    border-radius: 8px;
+    box-shadow: 0 4px 12px rgba(0,0,0,0.15);
+    z-index: 999999;
+    color: #1f2937;
+    border: 1px solid #e5e7eb;
+">
+    <h3 style="margin-top:0; color: #111827; font-size: 1rem; margin-bottom: 0.5rem; display: flex; align-items: center; gap: 0.5rem;">
+        🚀 Demo Version
+    </h3>
+    <p style="font-size: 0.85rem; line-height: 1.4; margin-bottom: 0.8rem; color: #374151;">
+        Features 5 curated parks: <br>
+        <strong>Zion, Yosemite, Glacier, Bryce, Great Smoky Mts</strong>.
+    </p>
+    <div style="display: flex; gap: 0.5rem; align-items: center;">
+        <span style="font-size: 0.75rem; color: #6b7280; flex: 1;">
+            To add more parks:
+        </span>
+        <a href="https://github.com/mohitagr18/outdoor_concierge" target="_blank" style="
+            display: inline-block;
+            padding: 0.3rem 0.8rem;
+            background-color: #2563eb;
+            color: white;
+            text-decoration: none;
+            border-radius: 4px;
+            font-weight: 500;
+            font-size: 0.8rem;
+        ">Fork on GitHub</a>
+    </div>
+</div>
+""", unsafe_allow_html=True)
+
 # --- 1. Session State Initialization ---
 if "session_context" not in st.session_state:
     st.session_state.session_context = SessionContext()
@@ -199,6 +238,8 @@ with tab_explorer:
             st.session_state.selected_park = selected_code
             st.session_state.session_context.current_park_code = selected_code
             st.rerun()
+
+
     
     st.markdown("<div style='margin-bottom: 2rem;'></div>", unsafe_allow_html=True)
     st.header(f"Exploring {SUPPORTED_PARKS[st.session_state.selected_park]}")
@@ -325,8 +366,7 @@ with tab_explorer:
             
         elif activity_view == "Upcoming Events":
             render_events_list(
-                volatile_data.get("events", []),
-                visit_date=visit_date
+                volatile_data.get("events", [])
             )
 
     elif selected_view == "Webcams":

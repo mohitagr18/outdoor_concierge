@@ -1,0 +1,26 @@
+[
+  {
+    "id": "F6D61B5D-FCCD-4214-95BB-50F12B5B84FC",
+    "label": "Cades Cove Visitor Center",
+    "type": "visitorcenters",
+    "parkCode": "grsm"
+  },
+  {
+    "id": "8800994D-88AD-4058-A5A8-D6B826FECC70",
+    "label": "Kuwohi Visitor Center",
+    "type": "visitorcenters",
+    "parkCode": "grsm"
+  },
+  {
+    "id": "58AD6BD5-0BA6-4CF6-9B77-9C30D7C75DD0",
+    "label": "Oconaluftee Visitor Center",
+    "type": "visitorcenters",
+    "parkCode": "grsm"
+  },
+  {
+    "id": "D49FBFDC-B419-4DC5-A31E-05D5173C4AC2",
+    "label": "Sugarlands Visitor Center",
+    "type": "visitorcenters",
+    "parkCode": "grsm"
+  }
+]

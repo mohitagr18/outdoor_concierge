@@ -1,0 +1,569 @@
+{
+  "data": [
+    {
+      "id": "91355C0E-2D43-42A4-891F-F1399D2892B3",
+      "title": "Avalanche Creek",
+      "listingDescription": "",
+      "bodyText": "Home to two of the Glacier's iconic trails, the Avalanche Creek area is one of the most popular and crowded spots in the park. The old growth cedars and hemlock trees are unlike anywhere else in the Glacier.<br /> <br /> Enjoy the picnic area, a short boardwalk trail, or a moderate hike to Avalanche Lake.During the summer, Avalanche is a transfer point on the park's shuttle stystem.",
+      "location": {
+        "lat": 48.6792077447,
+        "lon": -113.819882361
+      },
+      "images": [
+        {
+          "url": "https://www.nps.gov/common/uploads/cropped_image/5164DA19-CE33-B00F-406A6773E319C069.jpg",
+          "title": "Avalanche Gorge",
+          "altText": "Blue water rushing through a gorge carved out of moss-covered red rock.",
+          "caption": "Avalanche Gorge",
+          "credit": ""
+        }
+      ],
+      "amenities": [
+        "Benches/Seating",
+        "Bus/Shuttle Stop",
+        "Fire Pit",
+        "Grill",
+        "Historical/Interpretive Information/Exhibits",
+        "Parking - Auto",
+        "Parking - Bus/RV",
+        "Picnic Table",
+        "Restroom",
+        "Restroom - Accessible",
+        "Restroom - Seasonal",
+        "Tent Campsites",
+        "Toilet - Vault/Composting",
+        "Water - Drinking/Potable"
+      ],
+      "isOpenToPublic": false,
+      "isManagedByNps": false,
+      "url": null
+    },
+    {
+      "id": "07BD737D-435A-4DFB-90E2-0F1F15C69A0F",
+      "title": "Avalanche Lake Trail",
+      "listingDescription": "The Avalanche Lake Trail begins in the same place as the Trail of the Cedars and the Avalanche Campground. The trail climbs steadily through an old growth forest to an alpine like with outstanding waterfalls. Avalanche Lake 2.3 mi (3.7 km), one way Elevation gain: 500 ft (152 m) Trailhead: Avalanche Picnic Area",
+      "bodyText": "The Avalanche Lake Trail begins in the same place as the Trail of the Cedars and the Avalanche Campground. The trail climbs steadily through an old growth forest to an alpine like with outstanding waterfalls.\u00a0<br /> <br /> <strong>Avalanche Lake</strong><br /> 2.3 mi (3.7 km), one way<br /> Elevation gain: 500 ft (152 m)<br /> Trailhead: Avalanche Picnic Area",
+      "location": {
+        "lat": 48.67617977824242,
+        "lon": -113.81323099136353
+      },
+      "images": [
+        {
+          "url": "https://www.nps.gov/common/uploads/cropped_image/E040F98F-D017-E146-51FBB1E697F63125.jpg",
+          "title": "Hiking to Avalanche Lake",
+          "altText": "A park ranger standing in a mountain forest",
+          "caption": "A ranger hiking to Avalanche Lake",
+          "credit": ""
+        }
+      ],
+      "amenities": [
+        "Toilet - Vault/Composting"
+      ],
+      "isOpenToPublic": false,
+      "isManagedByNps": false,
+      "url": null
+    },
+    {
+      "id": "7F3DDC2C-10BE-413D-AFB1-DB39372876DF",
+      "title": "Beaver Pond Loop Trailhead",
+      "listingDescription": "In the summer, Beaver Pond Loop is a nice, relatively flat trail for hikers. In the winter, this route offers skiing and snowshoeing through aspen, meadows, and mixed conifer stands in the rolling hills east of St. Mary Lake.",
+      "bodyText": "The loop trail is 3 miles. In the summer, Beaver Pond Loop is a nice, relatively flat trail for hikers. In the winter, this route offers skiing and snowshoeing through aspen, meadows, and mixed conifer stands in the rolling hills east of St. Mary Lake. The trailhead is near the historic 1913 Ranger Station. The Red Eagle Trail also starts from this trailhead.",
+      "location": {
+        "lat": 48.73859493853994,
+        "lon": -113.43693241166432
+      },
+      "images": [
+        {
+          "url": "https://www.nps.gov/common/uploads/cropped_image/D4A2B3EB-0E5D-B494-82ED030B893A6FFC.jpeg",
+          "title": "Beaver Pond Loop Trail",
+          "altText": "A brown sign that reads Historic 1913 Ranger Station and Beaver Pond Loop Trail with an arrow.",
+          "caption": "The loop around Beaver Pond is 3 miles.",
+          "credit": "NPS Photo"
+        }
+      ],
+      "amenities": [
+        "Benches/Seating",
+        "Cellular Signal",
+        "Information Kiosk/Bulletin Board",
+        "Parking - Auto",
+        "Parking - Bus/RV",
+        "Toilet - Vault/Composting"
+      ],
+      "isOpenToPublic": false,
+      "isManagedByNps": false,
+      "url": null
+    },
+    {
+      "id": "C07B0B96-8B25-4C03-938B-CFD1DCC424EA",
+      "title": "Forest and Fire Nature Trail",
+      "listingDescription": "Visit the Forest and Fire Nature Trail to learn about the history and future of wildland fire in Glacier National Park.",
+      "bodyText": "Welcome to the Forest & Fire Nature Trail.\u00a0<br /> <br /> Depending on where you\u2019re from, the word \u201cwildfire\u201d can be letters on a page or... a whole lot more. For some, the word \u201cwildfire\u201d can trigger dramatic and visceral recall of the sights, sounds, smells, and tastes of the earth on fire. Fire has long had a strong hand in shaping Glacier\u2019s landscape.\u00a0The following exhibits show and tell the story of fire and forests in Glacier National Park over the last hundred or so years. You are encouraged to consider how that relationship has evolved over time.<br /> <br /> The parking lot of this trailhead has a series of exhibits about wildfire. Some of them are in the middle of the parking lot and another is nearby at the start of the trail.\u00a0<br /> <br /> There is an audio tour of the exhibits that reads and describes the panels, as well as an additional audio stop along the trail.\u00a0<br /> <br /> The Forest & Fire Nature Trail itself does not have any exhibits but offers the chance to see the effects of fire for yourself.\u00a0The total walking distance is approximately 1.1 miles (1.7 km), with a few hundred feet of elevation gain.<br /> \u00a0",
+      "location": {
+        "lat": 48.6241546252821,
+        "lon": -114.13003742694855
+      },
+      "images": [
+        {
+          "url": "https://www.nps.gov/common/uploads/cropped_image/072E629A-FF53-CFC9-EA11A5992CA67E10.jpg",
+          "title": "Forest and Fire Nature Trail",
+          "altText": "A trail winds through verdant aspen forest, with a mountain visible in the distance.",
+          "caption": "Walk the trail to see fire's effects for yourself; study the exhibits to learn about fire history.",
+          "credit": ""
+        }
+      ],
+      "amenities": [
+        "Audio Description",
+        "Parking - Auto",
+        "Trailhead",
+        "Wheelchair Accessible"
+      ],
+      "isOpenToPublic": false,
+      "isManagedByNps": false,
+      "url": null
+    },
+    {
+      "id": "777F45C8-C30E-4CC7-98C3-80E2CB751F4E",
+      "title": "Forest and Fire Nature Trail Fire Ecology",
+      "listingDescription": "Explore a piece of fire history in Glacier on this short nature trail, through a forest that has burned 3 times in the last 100 years.",
+      "bodyText": "This trail is a great place to explore a post-fire environment. Any disturbance\u2014whether that\u2019s a fire, an avalanche, a landslide, or a pest outbreak\u2014resets the ecological clock. The mature trees die, opening the canopy to light and making way for new species to take hold. Gradually, the new forest matures\u2014this is called ecological succession. Fire is unique because it favors certain species to grow back.\u00a0<br /> <br /> As you hike, look for pink fireweed and other wildflowers that reseed an area after a fire. Beargrass, which is a small grassy tuft with a tall, white, Dr. Seuss-like flower, easily resprouts from its roots after a burn.\u00a0<br /> <br /> If you\u2019re here in the fall, keep an eye out for larch trees\u2014they look like evergreens, but their needles turn bright golden in October and November. Their thick bark helps mature trees survive a fire when other trees may not. Afterward, their tiny wind-blown seeds shower across the burned area, planting thousands of new larch trees.<br /> <br /> This area burned in 1926, in 1967, and in 2001\u2014relatively short intervals for a cool, wet place like Glacier. Learn more about how our forests are responding to more frequent fires in an episode of Glacier\u2019s podcast, Headwaters. The episode is called \u201cClimate and the Future of Forests\u201d and features an interview with Dr. Tyler Hoecker. You can find the episode on glacier.org/headwaters, or wherever you get your podcasts.<br /> <br /> \u00a0",
+      "location": {
+        "lat": 48.62121266066992,
+        "lon": -114.13070440215961
+      },
+      "images": [
+        {
+          "url": "https://www.nps.gov/common/uploads/cropped_image/0D01409A-928B-4AFE-86BCA877702CE350.jpg",
+          "title": "Lodgepole Pine",
+          "altText": "A finger taps on a lodgepole pine, releasing a cloud of yellow pollen.",
+          "caption": "A lodgepole pine releasing a cloud of pollen.",
+          "credit": ""
+        }
+      ],
+      "amenities": [],
+      "isOpenToPublic": false,
+      "isManagedByNps": false,
+      "url": null
+    },
+    {
+      "id": "2749C4FC-6B10-42D0-A635-9D6A6B6D92FA",
+      "title": "Forest and Fire Nature Trailhead",
+      "listingDescription": "Learn about the Forest and Fire Nature Trail and the fire ecology that is found along the trail.",
+      "bodyText": "Fire is a powerful and necessary part of life for the trees in this forest. Temperate forests around the world have evolved alongside fire and these trees are no different. Fire has impacted the ecosystem here for millennia. In reaching this trailhead you may have already noticed the signs of previous fires. As you hike, see if you can identify the trees described on the panel and their adaptations to wildfires.<br /> <br /> Before you go, know that: <ul> <li>The path climbs several hundred feet and crosses a small stream.\u00a0</li> <li>Bears, mountain lions, and other dangerous wildlife live here.\u00a0</li> <li>Make noise to alert bears to your presence and never hike alone.\u00a0</li> <li>Feeding wildlife is prohibited by law.\u00a0</li> <li>It is your responsibility to know and respect park regulations.\u00a0</li> <li>Snow, water, and other hazards may exist.</li> </ul>",
+      "location": {
+        "lat": 48.624522211013314,
+        "lon": -114.1295599939076
+      },
+      "images": [
+        {
+          "url": "https://www.nps.gov/common/uploads/cropped_image/0CC03E0B-B8A8-7AA5-AB9B20BF1337EB13.jpg",
+          "title": "Forest and Fire Nature Trailhead Panel",
+          "altText": "An upright panel describes the trail and the trees you might find along it.",
+          "caption": "Forest and Fire Nature Trailhead Panel",
+          "credit": ""
+        }
+      ],
+      "amenities": [
+        "Audio Description",
+        "Parking - Auto",
+        "Trailhead"
+      ],
+      "isOpenToPublic": false,
+      "isManagedByNps": false,
+      "url": null
+    },
+    {
+      "id": "21949E8F-E529-43BF-9457-8B14C93EC3D1",
+      "title": "Going-to-the-Sun Road West Side Winter Gate Closure",
+      "listingDescription": "The Going to the Sun Road closes to vehicle traffic in the winter just past Lake McDonald Lodge. Though this section of the road is closed in the winter to vehicles, the road remains open to hikers and skiers.",
+      "bodyText": "<p>The Going-to-the-Sun Road closes to vehicle traffic in the winter just past Lake McDonald Lodge. Though this section of the road is closed in the winter to vehicles, the road remains open to hikers and skiers. Winter visitors can park at the Lake McDonald Lodge parking lot, which remains open for winter recreation, even though the lodge is closed. Gentle terrain, generally ample snow, and easy access makes this the most popular skiing area in the park. The following areas are recommended to snowshoe and ski. \u00a0<br /> <br /> McDonald Falls, 4 miles roundtrip. Ski up the road 1.8 miles. Turn left and ski a short distance to the bridge over McDonald Creek for a view of McDonald Falls. \u00a0<br /> <br /> Sacred Dancing Cascade, 5.3 miles roundtrip. Follow the route to McDonald Falls. Ski across the bridge and turn right. Ski upstream one mile along the west bank of McDonald Creek. Cross the foot bridge over the creek, then turn right and follow the road back to Lake McDonald Lodge. \u00a0<br /> <br /> Avalanche Picnic Area, 11.6 miles roundtrip. Ski up the unpaved road about 5.3 miles to Avalanche Picnic Area. Avalanche Lake is also accessible from here for skiers but there are steep narrow sections that can be difficult to ski up and down, especially when icy. The Trail of Cedars is generally not good skiing. \u00a0</p>",
+      "location": {
+        "lat": 48.61871853440387,
+        "lon": -113.87383818626404
+      },
+      "images": [
+        {
+          "url": "https://www.nps.gov/common/uploads/cropped_image/D534E6EE-DD4F-1323-F6D30269C0F44495.jpg",
+          "title": "West Side Winter Gate Closure, GTSR",
+          "altText": "A snowy road with a closed metal gate blocking it. There are many signs on the gate.",
+          "caption": "The Going-to-the-Sun Road closes to vehicle traffic in the winter just past Lake McDonald Lodge.",
+          "credit": "NPS Photo"
+        }
+      ],
+      "amenities": [
+        "Information Kiosk/Bulletin Board",
+        "Parking - Auto",
+        "Toilet - Vault/Composting"
+      ],
+      "isOpenToPublic": false,
+      "isManagedByNps": false,
+      "url": null
+    },
+    {
+      "id": "612F3DD2-18CB-4306-B372-26283040A064",
+      "title": "Jackson Glacier Overlook",
+      "listingDescription": "",
+      "bodyText": "Jackson Glacier Overlook is home to the best view of a glacier along Going-to-the-Sun Road, telling one of the park's most important stories. In 1966, Jackson Glacier measured 316 acres. By 2015, it measured 187 acres.\u00a0<br /> <br /> You can see Jackson Glacier from the parking area, or hike towards it along the trail to Gunsight Lake, which begins at Jackson Glacier Overlook.",
+      "location": {
+        "lat": 48.6785009453,
+        "lon": -113.654290314
+      },
+      "images": [
+        {
+          "url": "https://www.nps.gov/common/uploads/cropped_image/88ED2766-9768-74AF-9054E4CCD21290A8.jpg",
+          "title": "Jackson Glacier from GTSR",
+          "altText": "A view of a distant glacier.",
+          "caption": "A view of Jackson Glacier from Going-to-the-Sun Road",
+          "credit": ""
+        }
+      ],
+      "amenities": [
+        "Bus/Shuttle Stop",
+        "Parking - Auto",
+        "Scenic View/Photo Spot",
+        "Trailhead"
+      ],
+      "isOpenToPublic": false,
+      "isManagedByNps": false,
+      "url": null
+    },
+    {
+      "id": "7D6DD644-FA9C-4D24-9FF1-D41038FD8B57",
+      "title": "Running Eagle Falls Nature Trail",
+      "listingDescription": "",
+      "bodyText": "Explore native plants and their traditional uses along this trail.\u00a0People have lived in this area for centuries, long before it became a park. Understanding how to use native plants made life more enjoyable; plants served as food, fuel, and other valuable resources.\u00a0",
+      "location": {
+        "lat": 48.497061731401594,
+        "lon": -113.34929457865655
+      },
+      "images": [
+        {
+          "url": "https://www.nps.gov/common/uploads/cropped_image/6CAAAF55-A4BB-01F9-E0F87772172E4EAE.jpg",
+          "title": "Running Eagle Falls Nature Trail",
+          "altText": "A small wayside with a watercolor drawing of cowparsnip with text about native plants on the trail.",
+          "caption": "Learn about native plants along this nature trail.",
+          "credit": "NPS Photo"
+        }
+      ],
+      "amenities": [
+        "Wheelchair Accessible"
+      ],
+      "isOpenToPublic": false,
+      "isManagedByNps": false,
+      "url": null
+    },
+    {
+      "id": "5C304951-29EE-4E4C-AB00-1C681D700F70",
+      "title": "Running Eagle Falls Trailhead",
+      "listingDescription": "",
+      "bodyText": "The Running Eagle Falls Trailhead is in the Two Medicine area of the park, past the entrance station.<br /> <br /> This area offers restrooms and accesible hiking opportunities to the Running Eagle Falls and along the Running Eagle Falls Nature Trail.\u00a0",
+      "location": {
+        "lat": 48.4960848099,
+        "lon": -113.348295683
+      },
+      "images": [
+        {
+          "url": "https://www.nps.gov/common/uploads/cropped_image/6D750024-E562-6268-8CB08BB7F4C65E9C.jpg",
+          "title": "Running Eagle Falls",
+          "altText": "A large waterfall surrounded by rocks and trees.",
+          "caption": "Learn about the story of Running Eagle here.",
+          "credit": "NPS Photo"
+        }
+      ],
+      "amenities": [
+        "Beach/Water Access",
+        "Information Kiosk/Bulletin Board",
+        "Parking - Auto",
+        "Parking - Bus/RV",
+        "Restroom",
+        "Restroom - Accessible",
+        "Restroom - Family",
+        "Scenic View/Photo Spot",
+        "Wheelchair Accessible"
+      ],
+      "isOpenToPublic": false,
+      "isManagedByNps": false,
+      "url": null
+    },
+    {
+      "id": "10DE7F5D-CD22-4165-BAB6-822113425545",
+      "title": "Siyeh Bend",
+      "listingDescription": "",
+      "bodyText": "Located at a prominent bend on Going-to-the-Sun road, Siyeh Bend is a popular stop for hikers, serving as the starting point for the Siyeh Pass and Piegan Pass Trails.\u00a0<br /> <br /> It's also a transition point between higher-elevation subalpine vegetation and the forests of the east side.",
+      "location": {
+        "lat": 48.7014352753,
+        "lon": -113.668619701
+      },
+      "images": [
+        {
+          "url": "https://www.nps.gov/common/uploads/cropped_image/88980A3B-D090-35BD-140AF5E034499AF1.jpg",
+          "title": "A view of Siyeh Bend and Mount Siyeh.",
+          "altText": "Cars parked along a bend in the road, with a mountain in the distance.",
+          "caption": "A view of Siyeh Bend and Mount Siyeh.",
+          "credit": ""
+        }
+      ],
+      "amenities": [
+        "Bus/Shuttle Stop",
+        "Parking - Auto",
+        "Trailhead"
+      ],
+      "isOpenToPublic": false,
+      "isManagedByNps": false,
+      "url": null
+    },
+    {
+      "id": "1763F6BA-4A68-4969-A582-7B523B2E16F6",
+      "title": "St. Mary Falls Trail",
+      "listingDescription": "",
+      "bodyText": "St. Mary Falls is an iconic double waterfall of clear blue water just above St. Mary Lake. Fires burned through the forest in this area in 2015. That means the trail has little shade. Because there are a variety of ways to reach St. Mary Falls, please consult a map before setting out.\u00a0 <p><br /> <strong>These are the three main ways to hike to St. Mary Falls:</strong><br /> <br /> Trailhead: St. Mary Falls Shuttle Stop<br /> 0.8 mi (1.3 km), one way<br /> Elevation loss: 260 ft (79 m)<br /> \u00a0</p> <p>Trailhead: St. Mary Falls Trailhead<br /> 1.2 mi (1.9 km), one way<br /> Elevation loss: 260 ft (79 m)<br /> \u00a0</p> <p>Trailhead: Using concession operated tour boat from Rising Sun, tour fees apply<br /> 1.6 mi (2.5 km), one way<br /> Elevation gain: 140 ft (42.5 m)</p>",
+      "location": {
+        "lat": 0.0,
+        "lon": 0.0
+      },
+      "images": [
+        {
+          "url": "https://www.nps.gov/common/uploads/cropped_image/E1BEFEE0-9DF0-7AE6-0B716B39C6928562.jpg",
+          "title": "St. Mary Falls",
+          "altText": "A double waterfall surrounded by cliffs with burned trees above.",
+          "caption": "St. Mary Falls is a classic Glacier waterfall.",
+          "credit": ""
+        }
+      ],
+      "amenities": [],
+      "isOpenToPublic": false,
+      "isManagedByNps": false,
+      "url": null
+    },
+    {
+      "id": "D297A3BE-EC29-4604-80F1-7D854792D9E1",
+      "title": "St. Mary Falls Trailhead",
+      "listingDescription": "",
+      "bodyText": "The hike to St. Mary and Virginia Falls\u2014family-friendly hikes with world-class scenery\u2014is one of the most popular day hikes on the east side of Going-to-the-Sun Road.\u00a0<br /> <br /> This trailhead is a great place to start the hike, but parking is limited and fills quickly during the busy months. The nearby St. Mary Falls shuttle stop is an excellent alternative for visitors using the shuttle service.<br /> <br /> Hikers who are willing to walk a little farther can begin the trail from Sun Point, a few miles east of here.",
+      "location": {
+        "lat": 48.675122307,
+        "lon": -113.604444638
+      },
+      "images": [
+        {
+          "url": "https://www.nps.gov/common/uploads/cropped_image/5981C449-D531-335E-401592366DD5A775.jpg",
+          "title": "St. Mary Falls Trailhead",
+          "altText": "Cars parked at a parking lot surrounded by mountains",
+          "caption": "Cars parked at St. Mary Falls Trailhead",
+          "credit": ""
+        }
+      ],
+      "amenities": [
+        "Parking - Auto",
+        "Restroom",
+        "Restroom - Accessible",
+        "Restroom - Seasonal",
+        "Toilet - Vault/Composting",
+        "Trailhead"
+      ],
+      "isOpenToPublic": false,
+      "isManagedByNps": false,
+      "url": null
+    },
+    {
+      "id": "BDC974F0-82E1-4D31-AC2E-6D6041215881",
+      "title": "Sun Point",
+      "listingDescription": "",
+      "bodyText": "This site high above the lake was once home to the Going to the Sun Chalets, built in 1915 by the Great Northern Railway as part of a network of hotels, chalets and tent camps.<br /> <br /> Today it's a great viewpoint over St. Mary Lake, as well as a shuttle stop, parking area, and starting point for the Baring Falls, St. Mary Falls, and Virginia Falls trails.",
+      "location": {
+        "lat": 0.0,
+        "lon": 0.0
+      },
+      "images": [
+        {
+          "url": "https://www.nps.gov/common/uploads/cropped_image/8AA40CAC-022F-14A9-114248BB39B3D230.jpg",
+          "title": "The view from Sun Point",
+          "altText": "A view of distant mountains, a blue lake, and a rocky overlook.",
+          "caption": "The view from Sun Point.",
+          "credit": ""
+        }
+      ],
+      "amenities": [
+        "Bus/Shuttle Stop",
+        "Parking - Auto",
+        "Restroom",
+        "Scenic View/Photo Spot"
+      ],
+      "isOpenToPublic": false,
+      "isManagedByNps": false,
+      "url": null
+    },
+    {
+      "id": "FBE848DA-BA1A-4C8A-B979-D73FADFF2818",
+      "title": "Sunrift Gorge",
+      "listingDescription": "",
+      "bodyText": "A short, 200 foot trail leads to an overlook where Baring Creek makes exits a magnificent 800-foot long, 80-foot deep gorge.\u00a0<br /> <br /> This is also an alternate starting point on the Siyeh Pass Trail, although thanks to it's higher elevation starting point, the most popular place to start this hike is from Siyeh Bend.",
+      "location": {
+        "lat": 48.6788866562,
+        "lon": -113.595427368
+      },
+      "images": [
+        {
+          "url": "https://www.nps.gov/common/uploads/cropped_image/8A508272-D8BD-159A-325FA27E0F5FD865.jpg",
+          "title": "Sunrift Gorge",
+          "altText": "A deep, narrow gorge with a creek flowing through it",
+          "caption": "A view of Sunrift Gorge",
+          "credit": ""
+        }
+      ],
+      "amenities": [
+        "Parking - Auto",
+        "Scenic View/Photo Spot"
+      ],
+      "isOpenToPublic": false,
+      "isManagedByNps": false,
+      "url": null
+    },
+    {
+      "id": "EB642697-2D87-40C2-B242-C43247B198A9",
+      "title": "The Loop",
+      "listingDescription": "",
+      "bodyText": "The Loop is the only switchback along the western side of Going-to-the-Sun Road, and marks the beginning of the narrow, carved-into-the-mountainside portion of the road.<br /> <br /> It features a restroom, a shuttle stop, and limited parking available for hikers using The Loop Trail. Starting here, The Loop Trail climbs 4.2 miles and 2600 feet to reach the Granite Park Chalet, and join with the Highline Trail.",
+      "location": {
+        "lat": 48.7547011257,
+        "lon": -113.800529003
+      },
+      "images": [
+        {
+          "url": "https://www.nps.gov/common/uploads/cropped_image/8473E69B-FD2F-3C40-75303449FB8DF484.jpg",
+          "title": "Cyclists at The Loop",
+          "altText": "Cyclists riding down a bending road with a parking lot in the center.",
+          "caption": "Cyclists biking down The Loop",
+          "credit": ""
+        }
+      ],
+      "amenities": [
+        "Benches/Seating",
+        "Bus/Shuttle Stop",
+        "Historical/Interpretive Information/Exhibits",
+        "Parking - Auto",
+        "Restroom"
+      ],
+      "isOpenToPublic": false,
+      "isManagedByNps": false,
+      "url": null
+    },
+    {
+      "id": "651F473D-CEAE-4976-9B48-815B197AA7C9",
+      "title": "Trail of the Cedars",
+      "listingDescription": "Trail of the Cedars is a peaceful boardwalk nature trail along Avalanche Creek. Follow the boardwalk through old growth cedars, listen to the American dippers, see the powerful force of water carving the Avalanche Gorge.",
+      "bodyText": "Trail of the Cedars is a peaceful boardwalk nature trail along Avalanche Creek. Follow the boardwalk through old growth cedars, listen to the American dippers, see the powerful force of water carving the Avalanche Gorge.\u00a0<br /> <br /> <strong>Trail of the Cedars</strong><br /> 0.7 mi (1.1 km)<br /> Accessible<br /> Trailhead: Avalanche Picnic Area",
+      "location": {
+        "lat": 48.680593166292276,
+        "lon": -113.81876170635223
+      },
+      "images": [
+        {
+          "url": "https://www.nps.gov/common/uploads/cropped_image/DF746229-EA1F-7C5B-F3A2CDC1209E3423.jpg",
+          "title": "Strolling along Trail of the Cedars",
+          "altText": "A ranger leads a family on a boardwalk trail",
+          "caption": "A ranger leads a family on a boardwalk trail.",
+          "credit": ""
+        }
+      ],
+      "amenities": [
+        "Historical/Interpretive Information/Exhibits",
+        "Toilet - Vault/Composting",
+        "Trailhead",
+        "Wheelchair Accessible"
+      ],
+      "isOpenToPublic": false,
+      "isManagedByNps": false,
+      "url": null
+    },
+    {
+      "id": "7BEBCD71-64D2-471D-B1F2-49A08DA45A33",
+      "title": "Triple Divide Peak: The Headwaters of Three Watersheds",
+      "listingDescription": "",
+      "bodyText": "Triple Divide Peak is found along North America\u2019s Continental Divide, which separates the continent\u2019s river systems and runs largely through the Rocky Mountains. A raindrop that falls on the east side of the Continental Divide will flow toward the Atlantic Ocean, while a raindrop that falls on the west side of the divide will flow toward the Pacific Ocean.<br /> <br /> Glacier is home to a unique point along this divide\u2014a triple divide. Seen in the distance across the lake, Triple Divide Peak marks this rare hydrologic feature. From its summit, water flows to the Missouri and Mississippi Rivers and into the Gulf of Mexico, into the Columbia River drainage and the Pacific Ocean, as well as into the Saskatchewan River and eventually Hudson Bay, making Glacier the headwaters for three major North American watersheds. Water that falls within Glacier\u2019s mountains supports life alongside streams, rivers, and lakes both here and across the continent.<br /> <br /> From here, it\u2019s also easy to see the range in elevations within the park. The variations in elevation\u00a0between the park\u2019s high peaks and valley bottoms contribute to diverse habitats supporting thousands of plants and animals, including rare and threatened species. Glacier\u2019s mountains create a haven for animals that thrive in an alpine ecosystem, while meltwater from glaciers and snowfields provides water to the wildflowers coloring the park in the spring and summer. These mountains support life over the park\u2019s million acres of land and beyond.",
+      "location": {
+        "lat": 48.7100133272,
+        "lon": -113.487932031
+      },
+      "images": [
+        {
+          "url": "https://www.nps.gov/common/uploads/cropped_image/3B3DEBBE-C86A-8D3F-75DEAC86BD20E6E4.jpg",
+          "title": "Triple Divide Peak",
+          "altText": "Two peaks of a mountain are colored pink by the sunset. A thin cloud shrouds the ridge in between.",
+          "caption": "Triple Divide Peak (left) shrouded in clouds.",
+          "credit": "NPS photo."
+        }
+      ],
+      "amenities": [
+        "Parking - Auto"
+      ],
+      "isOpenToPublic": false,
+      "isManagedByNps": false,
+      "url": null
+    },
+    {
+      "id": "6ACBC871-26FF-45AB-8AD4-F8F376AA9BFB",
+      "title": "Two Medicine Winter Road Closure",
+      "listingDescription": "The Two Medicine Road closes to vehicles in winter but remains open to snowshoeing and cross-country skiing and visitors can park their car at the gate closure.",
+      "bodyText": "<p paraeid=\"{519d1033-c5de-4aec-b92e-c306e71c97a9}{34}\" paraid=\"118003809\">The Two Medicine Road closes to vehicles in winter but remains open to snowshoeing and cross-country skiing and visitors can park their car at the gate closure. Snow deposition is strongly influenced by the wind and open areas may be blown free of snow any time during winter.\u00a0</p> <p paraeid=\"{519d1033-c5de-4aec-b92e-c306e71c97a9}{78}\" paraid=\"325185759\">Start snowshoeing or skiing at the end of the plowed road near the junction of Highway 49 and the Two Medicine Road. Popular destinations include:\u00a0\u00a0</p> <ul role=\"list\"> <li aria-setsize=\"-1\" data-aria-level=\"1\" data-aria-posinset=\"1\" data-font=\"Symbol\" data-leveltext=\"\uf0b7\" data-list-defn-props=\"{\"335552541\":1,\"335559684\":-2,\"335559685\":720,\"335559991\":360,\"469769226\":\"Symbol\",\"469769242\":[8226],\"469777803\":\"left\",\"469777804\":\"\uf0b7\",\"469777815\":\"hybridMultilevel\"}\" data-listid=\"3\" role=\"listitem\"> <p paraeid=\"{519d1033-c5de-4aec-b92e-c306e71c97a9}{88}\" paraid=\"1943630275\">The park boundary, 6 miles roundtrip\u00a0</p> </li> <li aria-setsize=\"-1\" data-aria-level=\"1\" data-aria-posinset=\"2\" data-font=\"Symbol\" data-leveltext=\"\uf0b7\" data-list-defn-props=\"{\"335552541\":1,\"335559684\":-2,\"335559685\":720,\"335559991\":360,\"469769226\":\"Symbol\",\"469769242\":[8226],\"469777803\":\"left\",\"469777804\":\"\uf0b7\",\"469777815\":\"hybridMultilevel\"}\" data-listid=\"3\" role=\"listitem\"> <p paraeid=\"{519d1033-c5de-4aec-b92e-c306e71c97a9}{95}\" paraid=\"1986373339\">Running Eagle Falls, 10 miles roundtrip\u00a0</p> </li> <li aria-setsize=\"-1\" data-aria-level=\"1\" data-aria-posinset=\"3\" data-font=\"Symbol\" data-leveltext=\"\uf0b7\" data-list-defn-props=\"{\"335552541\":1,\"335559684\":-2,\"335559685\":720,\"335559991\":360,\"469769226\":\"Symbol\",\"469769242\":[8226],\"469777803\":\"left\",\"469777804\":\"\uf0b7\",\"469777815\":\"hybridMultilevel\"}\" data-listid=\"3\" role=\"listitem\"> <p paraeid=\"{519d1033-c5de-4aec-b92e-c306e71c97a9}{102}\" paraid=\"309338636\">Two Medicine Lake, a strenuous and hilly 16-mile roundtrip\u00a0\u00a0</p> </li> </ul>",
+      "location": {
+        "lat": 48.48709893453588,
+        "lon": -113.25532078742981
+      },
+      "images": [
+        {
+          "url": "https://www.nps.gov/common/uploads/cropped_image/D4C63FBE-0E1B-A679-AC2D5D829A71BB8A.jpeg",
+          "title": "The Two Medicine Winter Road Closure",
+          "altText": "A closed gate in front of a snowy road with a Road Closed sign and a red stop sign.",
+          "caption": "The road closes in winter to vehicles, but is open to skiers and snowshoers.",
+          "credit": "NPS Photo"
+        }
+      ],
+      "amenities": [
+        "Parking - Auto"
+      ],
+      "isOpenToPublic": false,
+      "isManagedByNps": false,
+      "url": null
+    },
+    {
+      "id": "766700EA-B303-4DAA-AD80-8D45EA6F27B1",
+      "title": "Bighorn Sheep",
+      "shortDescription": "Bighorn sheep live in a variety of habitats throughout the year. During the summer, they can be found in meadows, fellfields, and on mid-elevation slopes bordered by cliffs and ledges. In the winter, sheep frequent windswept and south-facing valleys and ridges where forage is blown free of snow. Bighorn sheep can often be seen in the parking lot of Logan Pass licking antifreeze from the pavement, which is the most easily accessible source of salt in their diet.",
+      "longDescription": "<em>Ovis canadensis</em><br /> Rocky Mountain bighorn sheep, named for their large horns that can weigh up to 30 pounds on males, inhabit alpine meadows and grassy mountain slopes in the Rocky Mountains of Canada and the United States. Their ability to climb steep terrain allows them to find cover from predators. Traveling in herds and feeding on grasses and shrubs throughout the year, big horn sheep are one of the few species that can survive winters at high elevations.",
+      "location": {
+        "lat": 48.6952798478,
+        "lon": -113.717926135
+      },
+      "duration": "",
+      "season": [
+        "Winter",
+        "Spring",
+        "Summer",
+        "Fall"
+      ],
+      "activities": [
+        {
+          "id": "0B685688-3405-4E2A-ABBA-E3069492EC50",
+          "name": "Wildlife Watching"
+        }
+      ],
+      "arePetsPermitted": false,
+      "images": [
+        {
+          "url": "https://www.nps.gov/common/uploads/cropped_image/BA521AB1-DCD5-2C04-32D972AE9BD2CF34.jpg",
+          "title": "",
+          "altText": "a bighorn sheep pops its head up and over tall green grasses.",
+          "caption": "",
+          "credit": ""
+        }
+      ],
+      "isReservationRequired": false,
+      "doFeesApply": false,
+      "tags": [
+        "mammals",
+        "wildlife"
+      ]
+    }
+  ],
+  "total": "20"
+}

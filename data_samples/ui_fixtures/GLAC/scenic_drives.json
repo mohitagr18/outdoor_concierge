@@ -1,0 +1,227 @@
+[
+  {
+    "rank": 1,
+    "name": "Going to the Sun Road",
+    "parkCode": "glac",
+    "description": "Considered one of the United States' most beautiful scenic drives, this official route through Glacier National Park enchants many visitors every year and passes through Logan Pass.",
+    "distance_miles": null,
+    "drive_time": null,
+    "highlights": [
+      "Logan Pass"
+    ],
+    "best_time": null,
+    "tips": [],
+    "image_url": "https://cdn.allglacier.com/images/content/17697_1323196563_JBrXc_lg.jpg",
+    "source_url": "https://www.allglacier.com/scenic_drives/"
+  },
+  {
+    "rank": 2,
+    "name": "Chief Mountain International Highway",
+    "parkCode": "glac",
+    "description": "Climbing over glacial debris and through beautiful pine forests, this road offers beautiful views of Chief Mountain\u2014a sacred site for the Blackfeet Tribe. Crossing the international border, you're afforded a view of Mount Cleveland, the highest peak in the Waterton-Glacier International Peace Park at 10,466 feet.",
+    "distance_miles": null,
+    "drive_time": null,
+    "highlights": [
+      "Chief Mountain",
+      "Mount Cleveland",
+      "Waterton-Glacier International Peace Park",
+      "Pine forests"
+    ],
+    "best_time": "mid-May to mid-September",
+    "tips": [
+      "The road is closed from mid-September to mid-May."
+    ],
+    "image_url": "https://partners.glaciermt.com/partner-ads/184-image.jpg",
+    "source_url": "https://glaciermt.com/scenic-byways"
+  },
+  {
+    "rank": 3,
+    "name": "Marias Pass",
+    "parkCode": "glac",
+    "description": "One of the two official scenic driving routes within Glacier National Park that enchants many visitors every year.",
+    "distance_miles": null,
+    "drive_time": null,
+    "highlights": [],
+    "best_time": null,
+    "tips": [],
+    "image_url": "https://cdn.allglacier.com/images/content/1320875395_lg.jpg",
+    "source_url": "https://www.allglacier.com/scenic_drives/"
+  },
+  {
+    "rank": 4,
+    "name": "Going-to-the-Sun Road",
+    "parkCode": "glac",
+    "description": "An engineering marvel and National Historic Landmark that takes visitors through the heart of the pass, past the Garden Wall, and across the Continental Divide at Logan Pass.",
+    "distance_miles": 50.0,
+    "drive_time": "2 hours",
+    "highlights": [
+      "Logan Pass",
+      "Garden Wall",
+      "Continental Divide",
+      "St. Mary",
+      "Historic red jammer tours"
+    ],
+    "best_time": "mid-June to mid-September",
+    "tips": [
+      "Check vehicle size limitations.",
+      "Free shuttle system available early July to early September.",
+      "Entire road is typically only open mid-June to mid-September."
+    ],
+    "image_url": "https://blog.glaciermt.com/wp-content/uploads/2025/01/Chance-Jackson-Skijoring-Whitefish-Winter-2025-5-2.jpg",
+    "source_url": "https://glaciermt.com/scenic-byways"
+  },
+  {
+    "rank": 5,
+    "name": "Logan Pass",
+    "parkCode": "glac",
+    "description": "A recognized scenic route within the park, typically accessed via the Going-to-the-Sun Road, providing spectacular high-elevation views.",
+    "distance_miles": null,
+    "drive_time": null,
+    "highlights": [],
+    "best_time": null,
+    "tips": [],
+    "image_url": "https://cdn.allglacier.com/images/content/1278694881_lg.jpg",
+    "source_url": "https://www.allglacier.com/scenic_drives/"
+  },
+  {
+    "rank": 6,
+    "name": "Lake Koocanusa Scenic Byway",
+    "parkCode": "glac",
+    "description": "Follows the Kootenai River and Lake Koocanusa along Highway 37 between Libby and Eureka, offering access to blue-ribbon fishing and the Libby Dam.",
+    "distance_miles": 67.0,
+    "drive_time": "2 hours",
+    "highlights": [
+      "Kootenai River",
+      "Lake Koocanusa",
+      "Libby Dam Visitor Center",
+      "Blue-ribbon trout fishing"
+    ],
+    "best_time": "Year-round (East side)",
+    "tips": [
+      "The west side route (FDR 228) is closed during winter.",
+      "Stop at Libby Dam Visitor Center for a guided tour."
+    ],
+    "image_url": "https://blog.glaciermt.com/wp-content/uploads/2026/01/52582670417_4c1623f346_c.jpg",
+    "source_url": "https://glaciermt.com/scenic-byways"
+  },
+  {
+    "rank": 7,
+    "name": "Looking Glass Road",
+    "parkCode": "glac",
+    "description": "A curvy road (Highway 49) located on the Blackfeet Reservation providing beautiful views looking into Two Medicine and high wildlife viewing potential.",
+    "distance_miles": null,
+    "drive_time": null,
+    "highlights": [
+      "Two Medicine vistas",
+      "Grizzly bear viewing",
+      "Blackfeet Reservation scenery",
+      "Moose and wolves"
+    ],
+    "best_time": "Any time",
+    "tips": [
+      "Respect wildlife and keep your distance.",
+      "The road is very curvy."
+    ],
+    "image_url": "https://blog.glaciermt.com/wp-content/uploads/2025/12/Screenshot-2025-10-29-181344-1.png",
+    "source_url": "https://glaciermt.com/scenic-byways"
+  },
+  {
+    "rank": 8,
+    "name": "Seeley-Swan Scenic Drive",
+    "parkCode": "glac",
+    "description": "A meandering drive through Swan Valley and Seeley Valley between the Bob Marshall Wilderness and Mission Mountains, passing hundreds of lakes.",
+    "distance_miles": 90.0,
+    "drive_time": "2 hours",
+    "highlights": [
+      "Bob Marshall Wilderness",
+      "Mission Mountains",
+      "Holland Falls",
+      "Alpine Artisans' Tour of the Arts"
+    ],
+    "best_time": "Any time",
+    "tips": [
+      "Watch for deer and elk crossing the road often."
+    ],
+    "image_url": "https://blog.glaciermt.com/wp-content/uploads/2025/12/398930765_774028194737055_223076676948756987_n.jpg",
+    "source_url": "https://glaciermt.com/scenic-byways"
+  },
+  {
+    "rank": 9,
+    "name": "Skalkaho Highway",
+    "parkCode": "glac",
+    "description": "A primitive seasonal road (Highway 38) linking Hamilton and Philipsburg through the Sapphire Mountains, featuring narrow curves and a waterfall.",
+    "distance_miles": 65.0,
+    "drive_time": "2 hours",
+    "highlights": [
+      "Sapphire Mountains",
+      "Skalkaho Falls",
+      "Elk and moose viewing"
+    ],
+    "best_time": "June to September",
+    "tips": [
+      "Trailers are not recommended due to narrow curves.",
+      "Road is not plowed in winter; popular for snowmobiling then."
+    ],
+    "image_url": "https://partners.glaciermt.com/partner-ads/184-image.jpg",
+    "source_url": "https://glaciermt.com/scenic-byways"
+  },
+  {
+    "rank": 10,
+    "name": "St. Regis-Paradise Scenic Byway",
+    "parkCode": "glac",
+    "description": "An alternate route to Glacier National Park and Flathead Lake featuring terrain ranging from rolling flats to steep canyon walls.",
+    "distance_miles": 30.0,
+    "drive_time": "1 hour",
+    "highlights": [
+      "Clark Fork River",
+      "Steep canyon walls",
+      "Local diners"
+    ],
+    "best_time": "Any time",
+    "tips": [
+      "Slow down and enjoy the blend of wilderness and civilization.",
+      "Good area for fishing in the Clark Fork River."
+    ],
+    "image_url": "https://blog.glaciermt.com/wp-content/uploads/2025/01/Chance-Jackson-Skijoring-Whitefish-Winter-2025-5-2.jpg",
+    "source_url": "https://glaciermt.com/scenic-byways"
+  },
+  {
+    "rank": 11,
+    "name": "US Highway 2",
+    "parkCode": "glac",
+    "description": "A two-lane highway winding along the southern border of Glacier National Park between East and West Glacier, offering unique wildlife viewing.",
+    "distance_miles": 56.0,
+    "drive_time": "1 hour",
+    "highlights": [
+      "The Goat Lick",
+      "Middle Fork of the Flathead River",
+      "Mineral-rich cliffs"
+    ],
+    "best_time": "April - August",
+    "tips": [
+      "April to August are the best months to view goats at the lick.",
+      "A short paved path leads to an observation stand."
+    ],
+    "image_url": "https://blog.glaciermt.com/wp-content/uploads/2026/01/52582670417_4c1623f346_c.jpg",
+    "source_url": "https://glaciermt.com/scenic-byways"
+  },
+  {
+    "rank": 12,
+    "name": "Yaak Loop Scenic Tour",
+    "parkCode": "glac",
+    "description": "A route through the heart of the Yaak Valley in northwest Montana, characterized by dense wilderness and waterfalls.",
+    "distance_miles": 96.0,
+    "drive_time": "2 hours",
+    "highlights": [
+      "Yaak River",
+      "Yaak Falls",
+      "Yaak Valley wildlife"
+    ],
+    "best_time": "Any time",
+    "tips": [
+      "Area is filled with wildlife; drive cautiously."
+    ],
+    "image_url": "https://blog.glaciermt.com/wp-content/uploads/2025/12/Screenshot-2025-10-29-181344-1.png",
+    "source_url": "https://glaciermt.com/scenic-byways"
+  }
+]
