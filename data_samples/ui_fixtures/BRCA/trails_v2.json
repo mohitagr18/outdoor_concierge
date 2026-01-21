@@ -2,7 +2,7 @@
   {
     "id": "FB0287F4-73FC-4327-86F3-D98804F4EA84",
     "name": "Agua Canyon Connecting Trail Trailhead at Ponderosa Canyon",
-    "description": "This strenuous connector trail descends from the canyon rim to the Under the Rim Trail, dropping approximately 1,000 feet into the wilderness.",
+    "description": "This strenuous connector trail descends from the forested cliffs of Ponderosa Point to join the Under the Rim Trail, dropping approximately 1,000 feet into the canyon.",
     "location": {
       "lat": 37.503796064,
       "lon": -112.26250334
@@ -27,14 +27,12 @@
     "is_pet_friendly": false,
     "raw_listing_description": "Trail Closed due to Rockslide This trail descends 1.6 miles (4.0 km) to its junction with the Under the Rim Trail approximately 1,000 feet (305 m) below.",
     "raw_body_text": "Agua Canyon Connecting Trail Difficulty: Strenuous Total Distance: 1.6 miles (2.6 km) Ascent/Descent: 428 feet (130 m) / 1,201 feet (366 m) Average time: 1-2 hours Trail Closed due to Rockslide This trail may be inaccessible during mid-winter due to snow depths ranging from 2-15 ft (0.7-5 m). This trail descends 1.6 miles (4.0 km) to its junction with the Under-the-Rim Trail.",
-    "last_enriched": "2026-01-08T11:41:16.373709",
-    "trailhead_elevation_ft": 8851,
-    "weather_zone": "High Plateau"
+    "last_enriched": "2026-01-21T08:57:08.347888"
   },
   {
     "id": "1CB920A2-FECB-4D9B-85DB-E4BABBE9B4B3",
     "name": "Bristlecone Loop Trailhead",
-    "description": "This easy loop winds through high-elevation forests of fir and pine, reaching heights over 9,100 feet and providing access to several backcountry routes.",
+    "description": "This high-elevation loop winds through ancient bristlecone pines and forests of fir and pine, offering expansive views of colorful orange and white cliffs.",
     "location": {
       "lat": 37.4752770246,
       "lon": -112.239712189
@@ -59,14 +57,12 @@
     "is_pet_friendly": false,
     "raw_listing_description": "A short path through fir and pine leads to the easy 1.0 mi/1.6 km Bristlecone Loop, as well as the 8.8 mile (14.2 km) backcountry Riggs Spring Loop and 23 mile (37 km) Under-the-Rim Trail. Though the Bristlecone Loop trail only climbs 200 feet (61 m) and is rated as Easy, be sure to carry water, wear ankle-supporting footwear, and postpone your hike if lightning is expected.The Bristlecone Loop reaches elevations over 9,100 feet (2778 m).",
     "raw_body_text": "Bristlecone Loop Trail Difficulty: Easy Total Distance: 1.0 miles (1.6 km) Elevation change: 200 feet (61 m) Average time: 1-2 hours This trail may be inaccessible during mid-winter due to snow depths ranging from 2-15 ft (0.7-5 m). The Bristlecone Loop reaches elevations over 9,100 feet (2778 m).",
-    "last_enriched": "2026-01-08T11:41:45.373832",
-    "trailhead_elevation_ft": 9045,
-    "weather_zone": "High Plateau"
+    "last_enriched": "2026-01-21T08:57:40.832356"
   },
   {
     "id": "797CB625-5E25-4CB9-8DA2-D787443D3D76",
     "name": "Bristlecone Loop Trailhead at Rainbow Point",
-    "description": "This high-altitude loop wanders through ancient fir and pine forests at elevations over 9,100 feet, offering a short and accessible way to experience the subalpine environment.",
+    "description": "This easy loop hike winds through fir and pine forests at high elevation, offering views of ancient bristlecone pines and vibrant red and white rock cliffs.",
     "location": {
       "lat": 37.4732992003,
       "lon": -112.24041238
@@ -91,23 +87,12 @@
     "is_pet_friendly": false,
     "raw_listing_description": "A short path through fir and pine leads to the easy 1.0 mi/1.6 km Bristlecone Loop, as well as the 8.8 mile (14.2 km) backcountry Riggs Spring Loop and 23 mi/37 km Under-the-Rim Trail.",
     "raw_body_text": "Bristlecone Loop Trail Difficulty: Easy Total Distance: 1.0 miles (1.6 km) Elevation change: 200 feet (61 m) Average time: 1-2 hours This trail may be inaccessible during mid-winter due to snow depths ranging from 2-15 ft (0.7-5 m). The Bristlecone Loop reaches elevations over 9,100 feet (2778 m).",
-    "last_enriched": "2026-01-08T11:41:49.730921",
-    "popularity_rank": 21,
-    "alltrails_url": "https://www.alltrails.com/poi/us/utah/alton/rainbow-point",
-    "alltrails_rating": null,
-    "alltrails_review_count": null,
-    "alltrails_difficulty": null,
-    "alltrails_length_miles": null,
-    "alltrails_elevation_gain_ft": null,
-    "alltrails_estimated_time_hours": null,
-    "alltrails_reviews_url": "https://www.alltrails.com/poi/us/utah/alton/rainbow-point?reviews=true",
-    "trailhead_elevation_ft": 9124,
-    "weather_zone": "High Plateau"
+    "last_enriched": "2026-01-21T08:57:52.487267"
   },
   {
     "id": "9466DD60-0243-46BF-B499-4A855C57F230",
     "name": "Bryce Canyon Shared Use Path",
-    "description": "This scenic shared-use path connects the hoodoos of Red Canyon to Inspiration Point, winding through Dixie National Forest and Bryce Canyon National Park.",
+    "description": "A scenic paved multi-use path connecting the hoodoos of Red Canyon to the park's interior at Inspiration Point, winding through the Dixie National Forest and across the Paunsaugunt Plateau.",
     "location": {
       "lat": 37.670507,
       "lon": -112.157058
@@ -132,14 +117,12 @@
     "is_pet_friendly": true,
     "raw_listing_description": "This path provides passage from Bryce Canyon city through Dixie National Forest into Bryce Canyon National Park. Hike, bike, walk or wheel all 5 miles to Inspiration Point, or stop at the shuttle stops and other amenities along the way.",
     "raw_body_text": "See the Park at Your Speed The Shared-Use Path provides a scenic opportunity for pedestrians, leashed pets, cyclists, roller or in-line skaters, longboards, non-motorized scooters, wheelchairs, and cross-country skiers to access the park and surrounding areas. This 18 mile (29 km) path connects the hoodoos of Red Canyon on the western edge of the Paunsaugunt Plateau with Inspiration Point within the park and it generally follows SR-12 and UT-6.",
-    "last_enriched": "2026-01-08T11:42:12.934377",
-    "trailhead_elevation_ft": 7673,
-    "weather_zone": "Amphitheater"
+    "last_enriched": "2026-01-21T08:58:16.601416"
   },
   {
     "id": "78145FBD-87D7-401D-8B9B-358794DA21A9",
     "name": "Fairyland Loop Trailhead",
-    "description": "This strenuous loop offers an immersive journey through iconic hoodoos and dramatic rock formations, providing some of the most scenic and challenging hiking in the park.",
+    "description": "The Fairyland Loop circles around Boat Mesa and offers an immersive journey through a landscape of vibrant red rock spires and unique geological features.",
     "location": {
       "lat": 37.6492930445,
       "lon": -112.147096246
@@ -164,64 +147,42 @@
     "is_pet_friendly": false,
     "raw_listing_description": "The Rim Trail This is the northern end of the 5.5 mile (8.9 km) Rim Trail that begins in the south at Bryce Point. Fairyland Loop The Fairyland Loop is a strenuous 8 mile (12.9 km) loop.",
     "raw_body_text": "Fairyland Loop Trail Difficulty: Strenuous Total Distance: 8.0 miles (12.9 km) Elevation change: 1,716 feet (523 m) Average time: 4-5 hours Along the the Peekaboo Loop, the Fairyland Loop provides some of the best strenuous hiking in the park. It can be begun from either the Tower Bridge Trailhead or further notice at Fairyland Point (not accessible by vehicle in winter months).",
-    "last_enriched": "2026-01-08T11:42:24.704681",
-    "popularity_rank": 4,
-    "alltrails_url": "https://www.alltrails.com/trail/us/utah/fairyland-loop-trail",
-    "alltrails_rating": 4.9,
-    "alltrails_review_count": 11828,
-    "alltrails_difficulty": "Moderate",
-    "alltrails_length_miles": 8.0,
-    "alltrails_elevation_gain_ft": null,
-    "alltrails_estimated_time_hours": "4-4.5 hr",
-    "alltrails_reviews_url": "https://www.alltrails.com/trail/us/utah/fairyland-loop-trail?reviews=true",
-    "trailhead_elevation_ft": 7703,
-    "weather_zone": "Amphitheater"
+    "last_enriched": "2026-01-21T08:58:31.068750"
   },
   {
-    "id": "5A0BF1B6-771B-489F-96B0-A5055C1F0354",
-    "name": "Mossy Cave",
-    "description": "Mossy Cave is a unique northern trail that begins with a climb and ends with a descent, offering one of the lowest elevation hiking experiences in the park.",
+    "id": "319A8199-8F7F-4A71-832D-02F7BD8A4389",
+    "name": "Mossy Cave Trail",
+    "description": "This trail follows a creek to the sheltered overhang of Mossy Cave and the scenic Water Canyon, featuring a waterfall in the summer and icicles in the winter.",
     "location": {
-      "lat": 37.6656539821,
-      "lon": -112.11015756
+      "lat": 37.6657871356,
+      "lon": -112.110306548
     },
     "images": [
       {
-        "url": "https://www.nps.gov/common/uploads/cropped_image/5947F726-F4A8-1FF2-11A824806A32A605.jpg",
+        "url": "https://www.nps.gov/common/uploads/cropped_image/83C2CC39-CD59-985B-B1AACC4669D11A1E.jpeg",
         "title": "Mossy Cave Trail",
-        "altText": "A canyon of red rock lined with trees and shrubs contains a waterfall feeding a small stream",
-        "caption": "The Mossy Cave Trail leads to a small waterfall along the way to the alcove (cave)",
-        "credit": "NPS Photo / Peter Densmore"
+        "altText": "A creek meanders through red rocks with red rock formations in the background.",
+        "caption": "See a waterfall in the summer and icicles in the winter on one of the park's easier hikes.",
+        "credit": ""
       }
     ],
-    "nps_url": "https://www.nps.gov/thingstodo/mossy-cave-trail.htm",
+    "nps_url": null,
     "difficulty": "Easy",
-    "length_miles": 0.9,
+    "length_miles": null,
     "elevation_gain_ft": null,
     "route_type": null,
-    "estimated_time_hours": "0.5-1 hr",
+    "estimated_time_hours": null,
     "is_wheelchair_accessible": false,
-    "is_kid_friendly": false,
+    "is_kid_friendly": true,
     "is_pet_friendly": false,
-    "raw_listing_description": "Mossy Cave trail is one of the lowest elevation hikes in the park as well as one of the only hikes that begins with a climb and ends with a descent (most day hikes in the park begin with a descent and end with a climb). It is also the northernmost hike in the park, located just off of SR 12 as it winds its way through the park boundary.",
-    "raw_body_text": "Mossy Cave is in the northern section of the park, located on Highway 12, approximately 4 miles east of the intersection of Highways 12 and 63. Look for a small parking area on the right-hand side immediately after crossing a little bridge.",
-    "last_enriched": "2026-01-08T11:43:00.170249",
-    "popularity_rank": 9,
-    "alltrails_url": "https://www.alltrails.com/trail/us/utah/mossy-cave-turret-arch-and-little-windows-trail",
-    "alltrails_rating": 4.5,
-    "alltrails_review_count": 9101,
-    "alltrails_difficulty": "Easy",
-    "alltrails_length_miles": 0.9,
-    "alltrails_elevation_gain_ft": null,
-    "alltrails_estimated_time_hours": "0.5-1 hr",
-    "alltrails_reviews_url": "https://www.alltrails.com/trail/us/utah/mossy-cave-turret-arch-and-little-windows-trail?reviews=true",
-    "trailhead_elevation_ft": 6817,
-    "weather_zone": "Northern Canyon"
+    "raw_listing_description": null,
+    "raw_body_text": null,
+    "last_enriched": "2026-01-21T09:05:47.881223"
   },
   {
     "id": "C2AA097F-EA38-4DA2-B605-8571A3FE90F0",
     "name": "Navajo Loop Trailhead",
-    "description": "This iconic trail descends through narrow limestone switchbacks to reveal towering Douglas-fir trees and the famous Thor's Hammer hoodoo.",
+    "description": "This iconic loop descends through narrow limestone walls and switchbacks, offering views of towering Douglas-fir trees and the park's most famous hoodoo, Thor's Hammer.",
     "location": {
       "lat": 37.6226689088,
       "lon": -112.16609531
@@ -246,64 +207,12 @@
     "is_pet_friendly": false,
     "raw_listing_description": "The iconic Navajo Loop Trail begins and ends at Sunset Point, travelling by switchbacks down between narrow walls of colorful limestone with views of towering Douglas-fir trees and the park's most famous hoodoo: Thor's hammer. The loop has two sides, the Two Bridges side and the Wall Street side.",
     "raw_body_text": "Navajo Loop Difficulty: Moderate Total Distance: 1.3 miles (2.2 km) Elevation change: 550 feet (168 m) Average time: 1-2 hours The iconic Navajo Loop Trail begins and ends at Sunset Point, travelling by switchbacks down between narrow walls of colorful limestone with views of towering Douglas-fir trees and the park's most famous hoodoo: Thor's hammer. The loop has two sides, the Two Bridges side and the Wall Street side.",
-    "last_enriched": "2026-01-08T11:43:26.803534",
-    "popularity_rank": 5,
-    "alltrails_url": "https://www.alltrails.com/trail/us/utah/navajo-loop-trail",
-    "alltrails_rating": 4.9,
-    "alltrails_review_count": 7035,
-    "alltrails_difficulty": "Moderate",
-    "alltrails_length_miles": 1.6,
-    "alltrails_elevation_gain_ft": null,
-    "alltrails_estimated_time_hours": "1-1.5 hr",
-    "alltrails_reviews_url": "https://www.alltrails.com/trail/us/utah/navajo-loop-trail?reviews=true",
-    "trailhead_elevation_ft": 7893,
-    "weather_zone": "Amphitheater"
-  },
-  {
-    "id": "F7BA242B-42FE-46CB-861A-AA29F795285A",
-    "name": "Peekaboo Loop",
-    "description": "This trail descends into a landscape filled with spectacular hoodoos from Bryce Point, offering a unique loop through rock formations shared with horses and mules during the summer.",
-    "location": {
-      "lat": 37.6043349413,
-      "lon": -112.156889973
-    },
-    "images": [
-      {
-        "url": "https://www.nps.gov/common/uploads/cropped_image/FDA77712-D219-F7B1-9E9568209D6E2BA2.jpeg",
-        "title": "Peekaboo Loop",
-        "altText": "An overhead view of red rock formations with a blue sky in the background",
-        "caption": "Views from the Peekaboo Loop trail",
-        "credit": ""
-      }
-    ],
-    "nps_url": null,
-    "difficulty": "Easy",
-    "length_miles": 5.1,
-    "elevation_gain_ft": 670,
-    "route_type": "Loop",
-    "estimated_time_hours": "3-3.5 hr",
-    "is_wheelchair_accessible": false,
-    "is_kid_friendly": false,
-    "is_pet_friendly": false,
-    "raw_listing_description": null,
-    "raw_body_text": null,
-    "last_enriched": "2026-01-08T11:49:11.788931",
-    "popularity_rank": 7,
-    "alltrails_url": "https://www.alltrails.com/trail/us/utah/peek-a-boo-loop-trail",
-    "alltrails_rating": 4.9,
-    "alltrails_review_count": 5504,
-    "alltrails_difficulty": "Hard",
-    "alltrails_length_miles": 5.1,
-    "alltrails_elevation_gain_ft": null,
-    "alltrails_estimated_time_hours": "3-3.5 hr",
-    "alltrails_reviews_url": "https://www.alltrails.com/trail/us/utah/peek-a-boo-loop-trail?reviews=true",
-    "trailhead_elevation_ft": 8152,
-    "weather_zone": "Amphitheater"
+    "last_enriched": "2026-01-21T08:59:35.012374"
   },
   {
     "id": "6D6F7880-794F-4101-A267-32265BB80221",
     "name": "Peekaboo Loop, Hat Shop, and Under-the-Rim Trail Trailhead",
-    "description": "The Peekaboo Loop trail descends into the Bryce Amphitheater, winding through one of the densest hoodoo areas in the park among colorful spires and diverse forests.",
+    "description": "This trail descends over 1,000 feet into the Bryce Amphitheater, leading hikers through dense hoodoo formations and diverse forests beneath colorful rock spires.",
     "location": {
       "lat": 37.604349,
       "lon": -112.156835
@@ -328,65 +237,42 @@
     "is_pet_friendly": false,
     "raw_listing_description": "Here the Peekaboo Loop, Hat Shop, and Under the Rim Trails all descend from the Bryce Point area.",
     "raw_body_text": "Peekaboo Loop Trail Difficulty: Strenuous Total Distance: 5.5 miles (8.8 km) Elevation change: 1,555 feet (473 m) Average time: 3-4 hours The Peekaboo Loop trail quickly descends over 1,000 feet (305 m) to the floor of the Bryce Amphitheater before travelling north into one of the densest areas of hoodoo formation in the park. Here shaded north-facing slopes retain precipitation and support a diverse forest among these colorful spires of rock.",
-    "last_enriched": "2026-01-08T11:43:53.915837",
-    "popularity_rank": 7,
-    "alltrails_url": "https://www.alltrails.com/trail/us/utah/peek-a-boo-loop-trail",
-    "alltrails_rating": 4.9,
-    "alltrails_review_count": 5504,
-    "alltrails_difficulty": "Hard",
-    "alltrails_length_miles": 5.1,
-    "alltrails_elevation_gain_ft": null,
-    "alltrails_estimated_time_hours": "3-3.5 hr",
-    "alltrails_reviews_url": "https://www.alltrails.com/trail/us/utah/peek-a-boo-loop-trail?reviews=true",
-    "trailhead_elevation_ft": 8152,
-    "weather_zone": "Amphitheater"
+    "last_enriched": "2026-01-21T09:00:06.227780"
   },
   {
-    "id": "DCBD1568-6960-4CD0-A403-380C5A8B2204",
-    "name": "Queen's Garden Trail",
-    "description": "Descend from the rim into the Bryce Canyon Amphitheater to wander among unique hoodoos and see the Queen Victoria rock formation.",
+    "id": "D2C67D08-BE4F-43E9-9DF2-83416969925E",
+    "name": "Queens Garden Trailhead",
+    "description": "This trail descends into the Bryce Amphitheater along a scenic ridgeline to reach a unique hoodoo resembling Queen Victoria amidst a landscape of colorful rock spires.",
     "location": {
-      "lat": 37.6284356447,
-      "lon": -112.162981721
+      "lat": 37.628395,
+      "lon": -112.162914
     },
     "images": [
       {
-        "url": "https://www.nps.gov/common/uploads/cropped_image/07B5F9CF-0A1A-7244-B481C71247ED0E95.jpg",
-        "title": "Queen's Garden from the Rim",
-        "altText": "An overhead shot of a landscape with irregular red rock formations",
-        "caption": "The view of the Queen's Garden Trail from the Rim.",
-        "credit": "NPS Photo"
+        "url": "https://www.nps.gov/common/uploads/cropped_image/13C0691F-CD2C-C282-9E69B042034E69A3.jpg",
+        "title": "Queen's Garden Trail",
+        "altText": "A glowing landscape of red and orange rock spires and forest",
+        "caption": "The Queen's Garden descends a long ridgeline past fins and hoodoos within the Bryce Amphitheater",
+        "credit": "NPS Photo / Peter Densmore"
       }
     ],
-    "nps_url": null,
+    "nps_url": "https://www.nps.gov/brca/planyourvisit/queensgarden.htm",
     "difficulty": "Moderate",
-    "length_miles": 3.0,
-    "elevation_gain_ft": 646,
+    "length_miles": 1.8,
+    "elevation_gain_ft": 320,
     "route_type": "Out & Back",
-    "estimated_time_hours": "1.5-2 hr",
+    "estimated_time_hours": "1-2 hours",
     "is_wheelchair_accessible": false,
-    "is_kid_friendly": false,
+    "is_kid_friendly": true,
     "is_pet_friendly": false,
-    "raw_listing_description": null,
-    "raw_body_text": null,
-    "last_enriched": "2026-01-08T11:48:13.123993",
-    "popularity_rank": 1,
-    "alltrails_url": "https://www.alltrails.com/trail/us/utah/navajo-loop-and-queens-garden-trail",
-    "alltrails_rating": 4.9,
-    "alltrails_review_count": 31107,
-    "alltrails_difficulty": "Moderate",
-    "alltrails_length_miles": 3.0,
-    "alltrails_elevation_gain_ft": 646,
-    "alltrails_estimated_time_hours": "1.5-2 hr",
-    "alltrails_reviews_url": "https://www.alltrails.com/trail/us/utah/navajo-loop-and-queens-garden-trail?reviews=true",
-    "elevation_gain_ft_source": "alltrails",
-    "trailhead_elevation_ft": 7965,
-    "weather_zone": "Amphitheater"
+    "raw_listing_description": "One of the park's most popular trails, the Queen's Garden trail descends and bends 0.9 miles (1.4 km) along a ridgeline down to a unique hoodoo said to resemble Queen Victoria. Of the six trails that descend into the Bryce Amphitheater, the Queen's Garden Trail is considered the least strenuous; though due to the park's high elevation and steep grades in some areas, it is still categorized as a moderately strenuous hike.",
+    "raw_body_text": "Queen's Garden Trail Difficulty: Moderate Total Distance: 1.8 miles (3.0 km) Elevation change: 320 feet (98 m) Average time: 1-2 hours One of the park's most popular trails, the Queen's Garden trail descends and bends 0.9 miles (1.4 km) along a ridgeline down to a unique hoodoo said to resemble Queen Victoria (be sure to travel down the spur trail at the bottom of the trail to see this hoodoo). The varied and colorful rock formations that surround this hoodoo, are described as many sculptures and other ornaments within the Queen's \"Garden\".",
+    "last_enriched": "2026-01-21T09:00:31.820305"
   },
   {
     "id": "5DC9CA9F-6BC7-48B5-84A3-442208903388",
     "name": "Riggs Spring Loop Trailhead at Yovimpa",
-    "description": "Experience the solitude of Bryce's forested backcountry as you descend from the rim, meandering through forests and raised promontories that offer stunning views of pink-hued cliffs.",
+    "description": "This backcountry loop descends from the rim through solitary forests and across raised promontories, providing sweeping views of distant pink cliffs.",
     "location": {
       "lat": 37.473298,
       "lon": -112.240466
@@ -411,14 +297,12 @@
     "is_pet_friendly": false,
     "raw_listing_description": "Experience the solitude of Bryce's forested backcountry on the Riggs Spring Loop. Descending from the rim, this 8.8 mile (14.2 km) trail meanders through forests and raised promontories, offering stunning views of pink-hued cliffs in the distance.",
     "raw_body_text": "Riggs Spring Loop Difficulty: Strenuous Total Distance: 8.8 miles (14.2 km) Ascent: 2,503 feet (763 m) Average time: 4-6 Hours This trail may be inaccessible during mid-winter due to snow depths ranging from 2-15 ft (0.7-5 m). Descending from the rim, this 8.8 mile (14.2 km) trail meanders through forests and raised promontories, offering stunning views of pink-hued cliffs in the distance.",
-    "last_enriched": "2026-01-08T11:44:52.603647",
-    "trailhead_elevation_ft": 9124,
-    "weather_zone": "High Plateau"
+    "last_enriched": "2026-01-21T09:00:54.859974"
   },
   {
     "id": "61458709-AC14-4162-A9D9-C85DF8FF3855",
     "name": "Rim Trail Bryce Point Trailhead",
-    "description": "The Rim Trail follows the edge of the Bryce Amphitheater, providing spectacular overlooks of the park's unique rock formations and connecting all the major viewpoints.",
+    "description": "The Rim Trail follows the edge of the Bryce Amphitheater, connecting all major viewpoints and offering spectacular vistas of the park's iconic red rock badlands and spires.",
     "location": {
       "lat": 37.6048663221,
       "lon": -112.157525388
@@ -443,14 +327,12 @@
     "is_pet_friendly": false,
     "raw_listing_description": "This is the southern end of the 5.5 mile (8.9 km) Rim Trail that begins in the south at Bryce Point and ends in the north at Fairyland Point.",
     "raw_body_text": "The Rim Trail Difficulty: Varies (Easy to Moderate) Total Distance: 5.5 miles (8.9 km) Ascent/Descent (South to North): 1,330 feet (405 m) / 1,825 feet (556 m) Average time: 3-4 hours The 5.5 mile (8.9 km) Rim Trail begins in the south at Bryce Point and ends in the north at Fairyland Point. The trail connects all viewpoints in the Bryce Amphitheater area and can be accessed at each of them.",
-    "last_enriched": "2026-01-08T11:45:05.101964",
-    "trailhead_elevation_ft": 8152,
-    "weather_zone": "Amphitheater"
+    "last_enriched": "2026-01-21T09:01:03.904356"
   },
   {
     "id": "2B190588-AA7D-4986-AF3A-76EB84171BB9",
     "name": "Rim Trail Inspiration Point Trailhead",
-    "description": "The Rim Trail follows the edge of the Bryce Amphitheater, offering continuous panoramic views of the park's iconic hoodoos and geologic formations. It connects multiple major viewpoints, stretching from Bryce Point in the south to Fairyland Point in the north.",
+    "description": "The Rim Trail offers a scenic walk along the edge of the Bryce Amphitheater, connecting iconic viewpoints and providing expansive views of red rock badlands and spires.",
     "location": {
       "lat": 37.61589,
       "lon": -112.17029
@@ -475,23 +357,12 @@
     "is_pet_friendly": false,
     "raw_listing_description": "The 5.5 mile (8.9 km) Rim Trail begins in the south at Bryce Point and ends in the north at Fairyland Point. The trail connects all viewpoints in the Bryce Amphitheater area and can be accessed at each of them.",
     "raw_body_text": "The Rim Trail Difficulty: Varies (Easy to Moderate) Total Distance: 5.5 miles (8.9 km) Ascent/Descent (South to North): 1,330 feet (405 m) / 1,825 feet (556 m) Average time: 3-4 hours The 5.5 mile (8.9 km) Rim Trail begins in the south at Bryce Point and ends in the north at Fairyland Point. The trail connects all viewpoints in the Bryce Amphitheater area and can be accessed at each of them.",
-    "last_enriched": "2026-01-08T11:45:13.008133",
-    "popularity_rank": 11,
-    "alltrails_url": "https://www.alltrails.com/poi/us/utah/inspiration-point",
-    "alltrails_rating": null,
-    "alltrails_review_count": null,
-    "alltrails_difficulty": null,
-    "alltrails_length_miles": null,
-    "alltrails_elevation_gain_ft": null,
-    "alltrails_estimated_time_hours": null,
-    "alltrails_reviews_url": "https://www.alltrails.com/poi/us/utah/inspiration-point?reviews=true",
-    "trailhead_elevation_ft": 8067,
-    "weather_zone": "Amphitheater"
+    "last_enriched": "2026-01-21T09:01:14.742188"
   },
   {
     "id": "DBD9669A-BEC5-4641-98C1-B1B2B3CB0ABB",
     "name": "Rim Trail Sunrise Point Trailhead",
-    "description": "The Rim Trail follows the edge of the Bryce Amphitheater, connecting several iconic viewpoints and offering panoramic vistas of the park's famous hoodoos.",
+    "description": "The Rim Trail offers panoramic views of the Bryce Amphitheater's iconic hoodoos and red rock badlands as it follows the cliff's edge between Bryce Point and Fairyland Point.",
     "location": {
       "lat": 37.62965,
       "lon": -112.16314
@@ -512,27 +383,16 @@
     "route_type": "Point to Point",
     "estimated_time_hours": "3-4 hours",
     "is_wheelchair_accessible": false,
-    "is_kid_friendly": false,
+    "is_kid_friendly": true,
     "is_pet_friendly": false,
     "raw_listing_description": "The 5.5 mile (8.9 km) Rim Trail begins in the south at Bryce Point and ends in the north at Fairyland Point. The trail connects all viewpoints in the Bryce Amphitheater area and can be accessed at each of them.",
     "raw_body_text": "The Rim Trail Difficulty: Varies (Easy to Moderate) Total Distance: 5.5 miles (8.9 km) Ascent/Descent (South to North): 1,330 feet (405 m) / 1,825 feet (556 m) Average time: 3-4 hours The 5.5 mile (8.9 km) Rim Trail begins in the south at Bryce Point and ends in the north at Fairyland Point. The trail connects all viewpoints in the Bryce Amphitheater area and can be accessed at each of them.",
-    "last_enriched": "2026-01-08T11:45:23.702210",
-    "popularity_rank": 16,
-    "alltrails_url": "https://www.alltrails.com/poi/us/utah/cannonville/sunrise-point",
-    "alltrails_rating": null,
-    "alltrails_review_count": null,
-    "alltrails_difficulty": null,
-    "alltrails_length_miles": null,
-    "alltrails_elevation_gain_ft": null,
-    "alltrails_estimated_time_hours": "4-4.5 hr",
-    "alltrails_reviews_url": "https://www.alltrails.com/poi/us/utah/cannonville/sunrise-point?reviews=true",
-    "trailhead_elevation_ft": 7979,
-    "weather_zone": "Amphitheater"
+    "last_enriched": "2026-01-21T09:01:24.855647"
   },
   {
     "id": "B91607EB-F07A-4E0C-AE57-F2BAB770F0B8",
     "name": "Rim Trail Sunset Point Trailhead",
-    "description": "The Rim Trail follows the canyon's edge, connecting all major viewpoints within the Bryce Amphitheater and offering continuous vistas of the park's iconic hoodoos.",
+    "description": "This scenic path follows the edge of the Bryce Amphitheater, connecting major viewpoints and offering panoramic vistas of iconic red rock badlands and spires.",
     "location": {
       "lat": 37.62269084213974,
       "lon": -112.16611257641313
@@ -553,27 +413,16 @@
     "route_type": "Point to Point",
     "estimated_time_hours": "3-4 hours",
     "is_wheelchair_accessible": false,
-    "is_kid_friendly": false,
+    "is_kid_friendly": true,
     "is_pet_friendly": false,
     "raw_listing_description": "The 5.5 mile (8.9 km) Rim Trail begins in the south at Bryce Point and ends in the north at Fairyland Point. The trail connects all viewpoints in the Bryce Amphitheater area and can be accessed at each of them.",
     "raw_body_text": "The Rim Trail Difficulty: Varies (Easy to Moderate) Total Distance: 5.5 miles (8.9 km) Ascent/Descent (South to North): 1,330 feet (405 m) / 1,825 feet (556 m) Average time: 3-4 hours The 5.5 mile (8.9 km) Rim Trail begins in the south at Bryce Point and ends in the north at Fairyland Point. The trail connects all viewpoints in the Bryce Amphitheater area and can be accessed at each of them.",
-    "last_enriched": "2026-01-08T11:45:32.752323",
-    "popularity_rank": 13,
-    "alltrails_url": "https://www.alltrails.com/poi/us/utah/cannonville/sunset-point",
-    "alltrails_rating": null,
-    "alltrails_review_count": null,
-    "alltrails_difficulty": null,
-    "alltrails_length_miles": null,
-    "alltrails_elevation_gain_ft": null,
-    "alltrails_estimated_time_hours": null,
-    "alltrails_reviews_url": "https://www.alltrails.com/poi/us/utah/cannonville/sunset-point?reviews=true",
-    "trailhead_elevation_ft": 7893,
-    "weather_zone": "Amphitheater"
+    "last_enriched": "2026-01-21T09:01:37.802552"
   },
   {
     "id": "9CC34C3F-1E0F-4DBF-8F15-AB2011E85EDF",
     "name": "Swamp Canyon Loop Trailhead",
-    "description": "This moderately strenuous loop descends deep into the canyon floor, providing a scenic journey through Sheep Creek and the lush environment of Swamp Canyon.",
+    "description": "The Swamp Canyon Loop descends from the rim to the canyon floor, offering hikers views of crumbling pink cliffs and a journey into the park's scenic backcountry via the Under-the-Rim Trail.",
     "location": {
       "lat": 37.587687,
       "lon": -112.21303
@@ -598,14 +447,12 @@
     "is_pet_friendly": false,
     "raw_listing_description": "The moderately strenuous 4.0 mi/6.4 km Sheep Creek/Swamp Canyon Loop begins here. The trail descends 647 ft/198 m to the canyon floor on a 3 - 4 hour hike.",
     "raw_body_text": "Swamp Canyon Loop Difficulty: Moderate Total Distance: 4.0 miles (6.4 km) Ascent/Descent: 1,026 feet (313 m) / 1,034 feet (315 m) Average time: 3-4 hours The moderately strenuous 4.0 mi/6.4 km Swamp Canyon Loop begins here. The trail descends 647 ft/198 m to the canyon floor on a 3 - 4 hour hike.",
-    "last_enriched": "2026-01-08T11:46:02.963043",
-    "trailhead_elevation_ft": 8113,
-    "weather_zone": "Amphitheater"
+    "last_enriched": "2026-01-21T09:02:05.526006"
   },
   {
     "id": "4BB41ACB-B762-48C9-B022-8E91F51ACF8A",
     "name": "Tower Bridge and Fairyland Loop Trailheads",
-    "description": "This trail offers spectacular views of Boat Mesa and the Sinking Ship as it leads hikers to the unique rock formation known as Tower Bridge.",
+    "description": "This trail descends along Boat Mesa through bristlecone pine groves to provide views of unique rock formations like Tower Bridge and the Sinking Ship.",
     "location": {
       "lat": 37.6319178349,
       "lon": -112.162684082
@@ -630,23 +477,12 @@
     "is_pet_friendly": false,
     "raw_listing_description": "Similar in difficulty to the Queen's / Navajo Combination loop, but far less travelled, the Tower Bridge trail provides excellent views of Boat Mesa, Sinking Ship, and other distant features within and outside the Bryce Amphitheater area of the park.",
     "raw_body_text": "Tower Bridge Trail Difficulty: Moderate Total Distance: 3.0 miles (4.8 km) Elevation change: 802 feet (245 m) Average time: 2-3 hours Similar in difficulty to the Queen's / Navajo Combination loop, but far less travelled, the Tower Bridge trail provides excellent views of Boat Mesa, Sinking Ship, and other distant features within and outside the Bryce Amphitheater area of the park. The trail begins 0.25 miles (0.4 km) north of Sunrise Point along the Rim Trail and is part of the larger 8 mile (12.9 km) Fairyland Loop.",
-    "last_enriched": "2026-01-08T11:46:15.131461",
-    "popularity_rank": 4,
-    "alltrails_url": "https://www.alltrails.com/trail/us/utah/fairyland-loop-trail",
-    "alltrails_rating": 4.9,
-    "alltrails_review_count": 11828,
-    "alltrails_difficulty": "Moderate",
-    "alltrails_length_miles": 8.0,
-    "alltrails_elevation_gain_ft": null,
-    "alltrails_estimated_time_hours": "4-4.5 hr",
-    "alltrails_reviews_url": "https://www.alltrails.com/trail/us/utah/fairyland-loop-trail?reviews=true",
-    "trailhead_elevation_ft": 8001,
-    "weather_zone": "Amphitheater"
+    "last_enriched": "2026-01-21T09:02:14.871713"
   },
   {
     "id": "D75EB13A-0DE5-4E25-B31F-023DDD6BB629",
     "name": "Tropic Trail Trailhead",
-    "description": "The Tropic Trail offers a unique entry into Bryce Amphitheater, beginning in a lower elevation forest and climbing steadily to connect with the Peekaboo Loop, Navajo Loop, and Queen's Garden Trails.",
+    "description": "This unique point of entry into the Bryce Amphitheater climbs steadily from a lower elevation forest of juniper and pine toward the park's iconic orange limestone spires.",
     "location": {
       "lat": 37.61375,
       "lon": -112.13344
@@ -664,30 +500,19 @@
     "difficulty": "Moderate",
     "length_miles": 1.7,
     "elevation_gain_ft": 591,
-    "route_type": "Point to Point",
+    "route_type": "Out & Back",
     "estimated_time_hours": "1-2 hours",
     "is_wheelchair_accessible": false,
     "is_kid_friendly": false,
     "is_pet_friendly": false,
     "raw_listing_description": "One of the least-travelled front-country trails in the park, the Tropic Trail provides a unique point of entry into the Bryce Amphitheater area of the park. While all other hikes in this area begin on the rim and descend into the amphitheater, the Tropic Trail begins in lower elevation forest and steadily climbs to its intersection with the Peekaboo Loop, Navajo Loop, and Queen's Garden Trails.",
     "raw_body_text": "Tropic Trail Difficulty: Moderate Total Distance: 1.7 miles (2.7 km) Elevation change: 591 feet (180 m) Average time: 1-2 hours One of the least-travelled front-country trails in the park, the Tropic Trail provides a unique point of entry into the Bryce Amphitheater area of the park. While all other hikes in this area begin on the rim and descend into the amphitheater, the Tropic Trail begins in lower elevation forest and steadily climbs to its intersection with the Peekaboo Loop, Navajo Loop, and Queen's Garden Trails.",
-    "last_enriched": "2026-01-08T11:46:23.277770",
-    "popularity_rank": 20,
-    "alltrails_url": "https://www.alltrails.com/poi/us/utah/tropic-ditch-falls",
-    "alltrails_rating": null,
-    "alltrails_review_count": null,
-    "alltrails_difficulty": null,
-    "alltrails_length_miles": null,
-    "alltrails_elevation_gain_ft": null,
-    "alltrails_estimated_time_hours": null,
-    "alltrails_reviews_url": "https://www.alltrails.com/poi/us/utah/tropic-ditch-falls?reviews=true",
-    "trailhead_elevation_ft": 6938,
-    "weather_zone": "Northern Canyon"
+    "last_enriched": "2026-01-21T09:02:25.213645"
   },
   {
     "id": "202C6956-A5A3-4532-9007-2095FB47A73F",
     "name": "Under-the-Rim and Riggs' Spring Trailhead",
-    "description": "Experience the solitude of Bryce's forested backcountry on this long-distance trail that winds from Bryce Point to Rainbow Point. The route offers a rugged journey through lower-elevation forests with significant elevation changes.",
+    "description": "This strenuous backcountry trail offers hikers solitude as it traverses Bryce Canyon's forested landscapes and follows a red rock path beneath towering cliffs.",
     "location": {
       "lat": 37.473991313,
       "lon": -112.238462036
@@ -712,46 +537,12 @@
     "is_pet_friendly": false,
     "raw_listing_description": "The Under-the-Rim Trail is approximately 22.9 miles (36.9 km) from Bryce Point to Rainbow Point. Connecting trails offer access from the park's Scenic Drive and intersect the Under-the-Rim Trail at Swamp Canyon, and Whiteman Bench.",
     "raw_body_text": "Under-the-Rim Trail Difficulty: Strenuous Total Distance: 22.9 miles (37 km) Ascent: 5,884 feet (1,793 m) Average time: 2-3 Days This trail may be inaccessible during mid-winter due to snow depths ranging from 2-15 ft (0.7-5 m). Experience the solitude of Bryce's forested backcountry on the Under-the-Rim Trail.",
-    "last_enriched": "2026-01-08T11:46:29.690940",
-    "trailhead_elevation_ft": 9097,
-    "weather_zone": "High Plateau"
-  },
-  {
-    "id": "4474ECE8-77E9-4F0E-8ACA-0FCE4EAAF36A",
-    "name": "Wall of Windows Hike the Hoodoos",
-    "description": "This hike leads to the Wall of Windows, a stunning series of natural arches and openings in the canyon's hoodoos, as part of a park-wide scavenger hunt program.",
-    "location": {
-      "lat": 37.607675,
-      "lon": -112.16234
-    },
-    "images": [
-      {
-        "url": "https://www.nps.gov/common/uploads/cropped_image/5A44E6CA-BCCF-D7E2-2F7EC34CF1D667C3.jpg",
-        "title": "Wall of Windows Hike the Hoodoos wayside",
-        "altText": "Wayside showing a wall of redrock limestone being shaped by ice also describes Hike the Hoodoos",
-        "caption": "Wall of Windows Hike the Hoodoos wayside (be sure to include yourself in your photo!)",
-        "credit": "NPS Photo"
-      }
-    ],
-    "nps_url": null,
-    "difficulty": null,
-    "length_miles": null,
-    "elevation_gain_ft": null,
-    "route_type": null,
-    "estimated_time_hours": null,
-    "is_wheelchair_accessible": false,
-    "is_kid_friendly": true,
-    "is_pet_friendly": false,
-    "raw_listing_description": "Hike the Hoodoos Hiking is great exercise and Bryce Canyon's \"I Hiked the Hoodoos!\" program is not just hiking, it's also a scavenger hunt with a special reward!",
-    "raw_body_text": "I Hiked the Hoodoos Hiking is great exercise and Bryce Canyon's \"I Hiked the Hoodoos!\" program is not just hiking, it's also a scavenger hunt with a special reward! 1.",
-    "last_enriched": "2026-01-08T11:46:37.091206",
-    "trailhead_elevation_ft": 7713,
-    "weather_zone": "Amphitheater"
+    "last_enriched": "2026-01-21T09:02:33.203629"
   },
   {
     "id": "64685FB7-7FB5-41F4-A24E-21289EACEBBE",
     "name": "Whiteman Connecting Trail Trailhead",
-    "description": "This forested trail descends from the rim through backcountry meadows to provide a connection with the Under-the-Rim Trail.",
+    "description": "A forested trail that descends from the rim to the Under-the-Rim Trail, offering scenic views of the Paria Valley and distant pink-hued cliffs.",
     "location": {
       "lat": 37.564968714,
       "lon": -112.237944559
@@ -772,18 +563,16 @@
     "route_type": "Point to Point",
     "estimated_time_hours": "1-2 hours",
     "is_wheelchair_accessible": false,
-    "is_kid_friendly": false,
+    "is_kid_friendly": true,
     "is_pet_friendly": false,
     "raw_listing_description": "Experience the solitude of Bryce's forested backcountry on the Under the Rim Trail. Descending from the rim, this 22.9 mile (37 km) trail meanders through forests and meadows, offering stunning views of pink-hued cliffs in the distance.",
     "raw_body_text": "Whiteman Connecting Trail Difficulty: Moderate Total Distance: 1.0 miles (1.6 km) Ascent/Descent: 16 feet (4.9 m) / 490 feet (149 m) Average time: 1-2 hours This trail may be inaccessible during mid-winter due to snow depths ranging from 2-15 ft (0.7-5 m). This trail descends 1.0 mile (1.6 km) to its junction with the Under-the-Rim Trail.",
-    "last_enriched": "2026-01-08T11:46:44.509647",
-    "trailhead_elevation_ft": 8720,
-    "weather_zone": "High Plateau"
+    "last_enriched": "2026-01-21T09:02:52.987604"
   },
   {
     "id": "D8D5E034-958D-4AF2-A908-89E35BE5A650",
     "name": "Figure-8 Combination",
-    "description": "This ultimate hike combines the Queen's Garden, Navajo Loop, and Peekaboo Loop trails to provide a comprehensive tour of the Bryce Canyon amphitheater.",
+    "description": "This ultimate hike combines the Queen's Garden, Navajo Loop, and Peekaboo Loop, taking hikers deep into the amphitheater to witness iconic red rock hoodoos and formations.",
     "location": {
       "lat": 37.6284356447,
       "lon": -112.162981721
@@ -808,14 +597,12 @@
     "is_pet_friendly": false,
     "raw_listing_description": null,
     "raw_body_text": null,
-    "last_enriched": "2026-01-08T11:47:13.833045",
-    "trailhead_elevation_ft": 7965,
-    "weather_zone": "Amphitheater"
+    "last_enriched": "2026-01-21T09:03:31.289780"
   },
   {
     "id": "F508D902-8095-4133-A57A-006007A2D3E6",
     "name": "Queen's/Navajo Combination Loop",
-    "description": "This popular loop combines the open views and unique hoodoos of the Queen's Garden Trail with the iconic switchbacks and towering canyon walls of the Navajo Loop Trail.",
+    "description": "This popular loop combines the open views and unique hoodoos of the Queen's Garden Trail with the iconic switchbacks and towering canyon walls of the Navajo Loop.",
     "location": {
       "lat": 37.6284356447,
       "lon": -112.162981721
@@ -840,14 +627,12 @@
     "is_pet_friendly": false,
     "raw_listing_description": null,
     "raw_body_text": null,
-    "last_enriched": "2026-01-08T11:47:18.630366",
-    "trailhead_elevation_ft": 7965,
-    "weather_zone": "Amphitheater"
+    "last_enriched": "2026-01-21T09:03:40.843266"
   },
   {
     "id": "CD5C8E15-7422-4E97-A767-3C36733E1B23",
     "name": "Riggs Spring Loop",
-    "description": "This backcountry loop travels through diverse forests of spruce, fir, and bristlecone pine while offering panoramic views of distant cliffs.",
+    "description": "This backcountry loop winds through diverse spruce, fir, and bristlecone pine forests while providing sweeping views of distant cliffs.",
     "location": {
       "lat": 37.4732992003,
       "lon": -112.24041238
@@ -872,46 +657,12 @@
     "is_pet_friendly": false,
     "raw_listing_description": null,
     "raw_body_text": null,
-    "last_enriched": "2026-01-08T11:48:22.651910",
-    "trailhead_elevation_ft": 9124,
-    "weather_zone": "High Plateau"
-  },
-  {
-    "id": "3AB2FBA2-BFF5-460F-BB76-46FEFDD69FCE",
-    "name": "Rim Walk with a Ranger",
-    "description": "Join a park ranger for a guided walk along the canyon rim to discover the history of the people who passed through the amphitheaters and the unique adaptations of local flora and fauna. The program offers a deep dive into the enchantment of the hoodoos and the park's diverse ecosystems.",
-    "location": {
-      "lat": 37.6225682957,
-      "lon": -112.165987679
-    },
-    "images": [
-      {
-        "url": "https://www.nps.gov/common/uploads/cropped_image/B7C31EBA-CEF8-B7C5-20AFB8DFCC266F7B.jpg",
-        "title": "Rim Walk with a Ranger",
-        "altText": "A landscape of red rocks at sunrise.",
-        "caption": "Join a ranger for a half mile walk along the Rim Trail.",
-        "credit": "NPS Photo"
-      }
-    ],
-    "nps_url": null,
-    "difficulty": null,
-    "length_miles": null,
-    "elevation_gain_ft": null,
-    "route_type": null,
-    "estimated_time_hours": null,
-    "is_wheelchair_accessible": false,
-    "is_kid_friendly": false,
-    "is_pet_friendly": false,
-    "raw_listing_description": null,
-    "raw_body_text": null,
-    "last_enriched": "2026-01-08T11:48:33.561647",
-    "trailhead_elevation_ft": 7893,
-    "weather_zone": "Amphitheater"
+    "last_enriched": "2026-01-21T09:04:08.162183"
   },
   {
     "id": "A2FDA633-CBF7-466B-BE9B-2A0BDFB95B4E",
     "name": "Sunset Point to Sunrise Point Hike",
-    "description": "This easy walk meanders along the rim of the iconic Bryce Canyon Amphitheater, offering stunning views of the hoodoos from a paved path.",
+    "description": "Meander along the rim of the iconic Bryce Canyon Amphitheater on a paved path that offers stunning views of the red rock hoodoos below.",
     "location": {
       "lat": 37.6225682957,
       "lon": -112.165987679
@@ -936,23 +687,12 @@
     "is_pet_friendly": false,
     "raw_listing_description": null,
     "raw_body_text": null,
-    "last_enriched": "2026-01-08T11:48:40.806753",
-    "popularity_rank": 13,
-    "alltrails_url": "https://www.alltrails.com/poi/us/utah/cannonville/sunset-point",
-    "alltrails_rating": null,
-    "alltrails_review_count": null,
-    "alltrails_difficulty": null,
-    "alltrails_length_miles": null,
-    "alltrails_elevation_gain_ft": null,
-    "alltrails_estimated_time_hours": null,
-    "alltrails_reviews_url": "https://www.alltrails.com/poi/us/utah/cannonville/sunset-point?reviews=true",
-    "trailhead_elevation_ft": 7893,
-    "weather_zone": "Amphitheater"
+    "last_enriched": "2026-01-21T09:04:30.462489"
   },
   {
     "id": "E1001E7A-F398-43AC-96FE-EC295C89081E",
     "name": "The Rim Trail",
-    "description": "This scenic trail follows the edge of the Bryce Amphitheater, connecting popular viewpoints and offering continuous vistas of the park's unique hoodoo formations.",
+    "description": "Following the edge of the Bryce Amphitheater, this trail connects major viewpoints and offers continuous, spectacular vistas of the park's iconic hoodoos and red rock badlands.",
     "location": {
       "lat": 37.6056607862,
       "lon": -112.157509704
@@ -977,14 +717,12 @@
     "is_pet_friendly": false,
     "raw_listing_description": null,
     "raw_body_text": null,
-    "last_enriched": "2026-01-08T11:48:57.041696",
-    "trailhead_elevation_ft": 8152,
-    "weather_zone": "Amphitheater"
+    "last_enriched": "2026-01-21T09:04:49.974890"
   },
   {
     "id": "C3291011-BCF6-4D22-BA1F-B7E46A607019",
     "name": "Tower Bridge",
-    "description": "This out-and-back hike traverses the southern portion of the Fairyland Loop, descending to a shady spur trail that leads to the unique Tower Bridge hoodoo.",
+    "description": "This hike follows the southern portion of the Fairyland Loop trail, descending to a short spur that leads hikers to the unique Tower Bridge hoodoo formation.",
     "location": {
       "lat": 37.6319178349,
       "lon": -112.162684082
@@ -1003,29 +741,48 @@
     "length_miles": null,
     "elevation_gain_ft": null,
     "route_type": "Out & Back",
-    "estimated_time_hours": "4-4.5 hr",
+    "estimated_time_hours": null,
     "is_wheelchair_accessible": false,
     "is_kid_friendly": false,
     "is_pet_friendly": false,
     "raw_listing_description": null,
     "raw_body_text": null,
-    "last_enriched": "2026-01-08T11:49:04.257423",
-    "popularity_rank": 15,
-    "alltrails_url": "https://www.alltrails.com/poi/us/utah/tower-bridge",
-    "alltrails_rating": null,
-    "alltrails_review_count": null,
-    "alltrails_difficulty": null,
-    "alltrails_length_miles": null,
-    "alltrails_elevation_gain_ft": null,
-    "alltrails_estimated_time_hours": "4-4.5 hr",
-    "alltrails_reviews_url": "https://www.alltrails.com/poi/us/utah/tower-bridge?reviews=true",
-    "trailhead_elevation_ft": 8001,
-    "weather_zone": "Amphitheater"
+    "last_enriched": "2026-01-21T09:05:04.362278"
+  },
+  {
+    "id": "F7BA242B-42FE-46CB-861A-AA29F795285A",
+    "name": "Peekaboo Loop",
+    "description": "This scenic loop descends from Bryce Point into a canyon filled with towering red rock hoodoos. Hikers will experience an immersive journey through unique geological formations while sharing the path with seasonal horse and mule tours.",
+    "location": {
+      "lat": 37.6043349413,
+      "lon": -112.156889973
+    },
+    "images": [
+      {
+        "url": "https://www.nps.gov/common/uploads/cropped_image/FDA77712-D219-F7B1-9E9568209D6E2BA2.jpeg",
+        "title": "Peekaboo Loop",
+        "altText": "An overhead view of red rock formations with a blue sky in the background",
+        "caption": "Views from the Peekaboo Loop trail",
+        "credit": ""
+      }
+    ],
+    "nps_url": null,
+    "difficulty": "Easy",
+    "length_miles": null,
+    "elevation_gain_ft": 670,
+    "route_type": "Loop",
+    "estimated_time_hours": null,
+    "is_wheelchair_accessible": false,
+    "is_kid_friendly": false,
+    "is_pet_friendly": false,
+    "raw_listing_description": null,
+    "raw_body_text": null,
+    "last_enriched": "2026-01-21T09:05:15.107794"
   },
   {
     "id": "C8E47D3E-0F92-473F-8720-4AE2733CD3D7",
     "name": "Hat Shop",
-    "description": "This trail descends from Bryce Point into the backcountry to showcase a cluster of unique balanced-rock hoodoos against the backdrop of the Grand Staircase cliffs.",
+    "description": "Descending from Bryce Point, this trail leads hikers into the backcountry to see a cluster of unique balanced-rock hoodoos with expansive views of the Grand Staircase.",
     "location": {
       "lat": 37.6043349413,
       "lon": -112.156889973
@@ -1050,46 +807,12 @@
     "is_pet_friendly": false,
     "raw_listing_description": null,
     "raw_body_text": null,
-    "last_enriched": "2026-01-08T11:49:18.769880",
-    "trailhead_elevation_ft": 8152,
-    "weather_zone": "Amphitheater"
-  },
-  {
-    "id": "4210C343-16DF-4843-A6E9-4B628D623A1F",
-    "name": "Full Moon Hike",
-    "description": "Experience the unique geological features of Bryce Canyon National Park after sunset on a ranger-led full moon hike.",
-    "location": {
-      "lat": 37.6403873676,
-      "lon": -112.169642331
-    },
-    "images": [
-      {
-        "url": "https://www.nps.gov/common/uploads/cropped_image/EA3A4591-AA4A-2E8D-432A87839C2DF3DB.jpg",
-        "title": "Full Moon Hike",
-        "altText": "A full moon rises in a blue and purple sky over the red rock canyon.",
-        "caption": "Full Moon Hike",
-        "credit": "NPS Photo"
-      }
-    ],
-    "nps_url": null,
-    "difficulty": null,
-    "length_miles": null,
-    "elevation_gain_ft": null,
-    "route_type": null,
-    "estimated_time_hours": null,
-    "is_wheelchair_accessible": false,
-    "is_kid_friendly": false,
-    "is_pet_friendly": false,
-    "raw_listing_description": null,
-    "raw_body_text": null,
-    "last_enriched": "2026-01-08T11:50:02.597894",
-    "trailhead_elevation_ft": 7906,
-    "weather_zone": "Amphitheater"
+    "last_enriched": "2026-01-21T09:05:23.587968"
   },
   {
     "id": "D2173E9E-97A7-4283-8C55-F842F8B39DD7",
     "name": "Navajo/Peekaboo Combination Loop",
-    "description": "This mini figure-eight loop combines the iconic Navajo and Peekaboo trails, descending from Sunset Point into a landscape of spectacular hoodoos and rock formations.",
+    "description": "This scenic figure-eight loop descends from Sunset Point to combine the Navajo and Peekaboo trails, offering close-up views of iconic red rock formations like Thor's Hammer.",
     "location": {
       "lat": 37.6226689088,
       "lon": -112.16609531
@@ -1114,14 +837,12 @@
     "is_pet_friendly": false,
     "raw_listing_description": null,
     "raw_body_text": null,
-    "last_enriched": "2026-01-08T11:50:25.470849",
-    "trailhead_elevation_ft": 7893,
-    "weather_zone": "Amphitheater"
+    "last_enriched": "2026-01-21T09:06:02.090011"
   },
   {
     "id": "4FFC4D27-4C45-4CF1-9AE2-F24B0677545F",
     "name": "Under-the-Rim Trail",
-    "description": "A backcountry route that winds through forests and meadows, offering hikers solitude and expansive views of distant cliffs away from the crowded main amphitheater.",
+    "description": "A backcountry trail that traverses scenic forests and meadows, offering hikers solitude and expansive views of distant cliffs.",
     "location": {
       "lat": 37.476018399,
       "lon": -112.240642878
@@ -1146,14 +867,12 @@
     "is_pet_friendly": false,
     "raw_listing_description": null,
     "raw_body_text": null,
-    "last_enriched": "2026-01-08T11:50:52.333219",
-    "trailhead_elevation_ft": 9045,
-    "weather_zone": "High Plateau"
+    "last_enriched": "2026-01-21T09:06:23.799601"
   },
   {
     "id": "286F2EC1-CE0F-4D59-A62E-243F3D71F87C",
     "name": "Walk the Rim Trail",
-    "description": "This scenic trail follows the edge of the Bryce Amphitheater, offering spectacular views of the park's most popular area as it connects iconic overlooks like Inspiration Point and Sunrise Point.",
+    "description": "This scenic path follows the edge of the Bryce Amphitheater, connecting several major viewpoints and offering spectacular vistas of the park's iconic red rock badlands and spires.",
     "location": {
       "lat": 37.622582,
       "lon": -112.165962
@@ -1178,478 +897,6 @@
     "is_pet_friendly": false,
     "raw_listing_description": null,
     "raw_body_text": null,
-    "last_enriched": "2026-01-08T11:51:28.900646",
-    "trailhead_elevation_ft": 7893,
-    "weather_zone": "Amphitheater"
-  },
-  {
-    "id": "108f7142-0ee9-4478-b4e7-539b3f673876",
-    "name": "Wall Street and Queens Garden Loop Trail",
-    "description": "Wall Street and Queens Garden Loop Trail",
-    "location": {
-      "lat": 0.0,
-      "lon": 0.0
-    },
-    "images": [],
-    "nps_url": null,
-    "difficulty": "Moderate",
-    "length_miles": 3.3,
-    "elevation_gain_ft": null,
-    "route_type": null,
-    "estimated_time_hours": "1.5-2 hr",
-    "is_wheelchair_accessible": false,
-    "is_kid_friendly": false,
-    "last_enriched": "2026-01-08T11:52:56.704969",
-    "popularity_rank": 2,
-    "alltrails_url": "https://www.alltrails.com/trail/us/utah/wall-street-and-queens-garden-loop-trail",
-    "alltrails_rating": 4.9,
-    "alltrails_review_count": 11931,
-    "alltrails_difficulty": "Moderate",
-    "alltrails_length_miles": 3.3,
-    "alltrails_elevation_gain_ft": null,
-    "alltrails_estimated_time_hours": "1.5-2 hr",
-    "alltrails_reviews_url": "https://www.alltrails.com/trail/us/utah/wall-street-and-queens-garden-loop-trail?reviews=true"
-  },
-  {
-    "id": "e02b2dea-917d-45ec-9c5d-86ff2094adc8",
-    "name": "Wall Street, Queens Garden, and Peekaboo Loop (Figure Eight Trail)",
-    "description": "Wall Street, Queens Garden, and Peekaboo Loop (Figure Eight Trail)",
-    "location": {
-      "lat": 37.6043349413,
-      "lon": -112.156889973
-    },
-    "images": [],
-    "nps_url": null,
-    "difficulty": "Strenuous",
-    "length_miles": 6.4,
-    "elevation_gain_ft": null,
-    "route_type": null,
-    "estimated_time_hours": "3.5-4 hr",
-    "is_wheelchair_accessible": false,
-    "is_kid_friendly": false,
-    "last_enriched": "2026-01-08T11:52:56.705041",
-    "popularity_rank": 3,
-    "alltrails_url": "https://www.alltrails.com/trail/us/utah/wall-street-and-queens-garden-loop-to-peekaboo-loop-figure-eight-trail",
-    "alltrails_rating": 4.9,
-    "alltrails_review_count": 10564,
-    "alltrails_difficulty": "Hard",
-    "alltrails_length_miles": 6.4,
-    "alltrails_elevation_gain_ft": null,
-    "alltrails_estimated_time_hours": "3.5-4 hr",
-    "alltrails_reviews_url": "https://www.alltrails.com/trail/us/utah/wall-street-and-queens-garden-loop-to-peekaboo-loop-figure-eight-trail?reviews=true",
-    "trailhead_elevation_ft": 8152,
-    "weather_zone": "Amphitheater"
-  },
-  {
-    "id": "b2ebe78e-e5ca-4d55-b1b8-6f4316a46225",
-    "name": "Navajo Loop Trail to Peekaboo Loop",
-    "description": "Navajo Loop Trail to Peekaboo Loop",
-    "location": {
-      "lat": 37.6043349413,
-      "lon": -112.156889973
-    },
-    "images": [],
-    "nps_url": null,
-    "difficulty": "Moderate",
-    "length_miles": 5.2,
-    "elevation_gain_ft": null,
-    "route_type": null,
-    "estimated_time_hours": "3-3.5 hr",
-    "is_wheelchair_accessible": false,
-    "is_kid_friendly": false,
-    "last_enriched": "2026-01-08T11:52:56.705056",
-    "popularity_rank": 6,
-    "alltrails_url": "https://www.alltrails.com/trail/us/utah/navajo-loop-trail-to-peekaboo-loop",
-    "alltrails_rating": 4.9,
-    "alltrails_review_count": 5145,
-    "alltrails_difficulty": "Moderate",
-    "alltrails_length_miles": 5.2,
-    "alltrails_elevation_gain_ft": null,
-    "alltrails_estimated_time_hours": "3-3.5 hr",
-    "alltrails_reviews_url": "https://www.alltrails.com/trail/us/utah/navajo-loop-trail-to-peekaboo-loop?reviews=true",
-    "trailhead_elevation_ft": 8152,
-    "weather_zone": "Amphitheater"
-  },
-  {
-    "id": "38870c2e-8988-4e72-856a-b70062fc5c46",
-    "name": "Sunset Point and Sunrise Point via Rim Trail",
-    "description": "Sunset Point and Sunrise Point via Rim Trail",
-    "location": {
-      "lat": 37.6282153854,
-      "lon": -112.162963526
-    },
-    "images": [],
-    "nps_url": null,
-    "difficulty": "Easy",
-    "length_miles": 1.2,
-    "elevation_gain_ft": null,
-    "route_type": null,
-    "estimated_time_hours": "0.5-1 hr",
-    "is_wheelchair_accessible": false,
-    "is_kid_friendly": false,
-    "last_enriched": "2026-01-08T11:52:56.705068",
-    "popularity_rank": 8,
-    "alltrails_url": "https://www.alltrails.com/trail/us/utah/sunset-point-to-sunrise-point",
-    "alltrails_rating": 4.7,
-    "alltrails_review_count": 3686,
-    "alltrails_difficulty": "Easy",
-    "alltrails_length_miles": 1.2,
-    "alltrails_elevation_gain_ft": null,
-    "alltrails_estimated_time_hours": "0.5-1 hr",
-    "alltrails_reviews_url": "https://www.alltrails.com/trail/us/utah/sunset-point-to-sunrise-point?reviews=true",
-    "trailhead_elevation_ft": 7965,
-    "weather_zone": "Amphitheater"
-  },
-  {
-    "id": "207093e8-5243-4ab8-abc6-de34d4573cef",
-    "name": "Queen Victoria via Queen's Garden Trail",
-    "description": "Queen Victoria via Queen's Garden Trail",
-    "location": {
-      "lat": 37.6284356447,
-      "lon": -112.162981721
-    },
-    "images": [],
-    "nps_url": null,
-    "difficulty": "Moderate",
-    "length_miles": 2.1,
-    "elevation_gain_ft": null,
-    "route_type": null,
-    "estimated_time_hours": "1-1.5 hr",
-    "is_wheelchair_accessible": false,
-    "is_kid_friendly": false,
-    "last_enriched": "2026-01-08T11:52:56.705080",
-    "popularity_rank": 10,
-    "alltrails_url": "https://www.alltrails.com/trail/us/utah/queen-victoria-via-queens-garden-loop",
-    "alltrails_rating": 4.8,
-    "alltrails_review_count": 2440,
-    "alltrails_difficulty": "Moderate",
-    "alltrails_length_miles": 2.1,
-    "alltrails_elevation_gain_ft": null,
-    "alltrails_estimated_time_hours": "1-1.5 hr",
-    "alltrails_reviews_url": "https://www.alltrails.com/trail/us/utah/queen-victoria-via-queens-garden-loop?reviews=true",
-    "trailhead_elevation_ft": 7965,
-    "weather_zone": "Amphitheater"
-  },
-  {
-    "id": "5efe32bb-cce5-447b-b55b-75553561e288",
-    "name": "Wall Street",
-    "description": "Wall Street",
-    "location": {
-      "lat": 0.0,
-      "lon": 0.0
-    },
-    "images": [],
-    "nps_url": null,
-    "difficulty": null,
-    "length_miles": null,
-    "elevation_gain_ft": null,
-    "route_type": null,
-    "estimated_time_hours": "1.5-2 hr",
-    "is_wheelchair_accessible": false,
-    "is_kid_friendly": false,
-    "last_enriched": "2026-01-08T11:52:56.705092",
-    "popularity_rank": 12,
-    "alltrails_url": "https://www.alltrails.com/poi/us/utah/cannonville/wall-street",
-    "alltrails_rating": null,
-    "alltrails_review_count": null,
-    "alltrails_difficulty": null,
-    "alltrails_length_miles": null,
-    "alltrails_elevation_gain_ft": null,
-    "alltrails_estimated_time_hours": "1.5-2 hr",
-    "alltrails_reviews_url": "https://www.alltrails.com/poi/us/utah/cannonville/wall-street?reviews=true"
-  },
-  {
-    "id": "4f64c04e-fc67-4481-91a8-b337e22e16f9",
-    "name": "Sunset Point Overlook",
-    "description": "Sunset Point Overlook",
-    "location": {
-      "lat": 37.6225682957,
-      "lon": -112.165987679
-    },
-    "images": [],
-    "nps_url": null,
-    "difficulty": null,
-    "length_miles": null,
-    "elevation_gain_ft": null,
-    "route_type": null,
-    "estimated_time_hours": null,
-    "is_wheelchair_accessible": false,
-    "is_kid_friendly": false,
-    "last_enriched": "2026-01-08T11:52:56.705102",
-    "popularity_rank": 14,
-    "alltrails_url": "https://www.alltrails.com/poi/us/utah/tropic/sunset-point-overlook",
-    "alltrails_rating": null,
-    "alltrails_review_count": null,
-    "alltrails_difficulty": null,
-    "alltrails_length_miles": null,
-    "alltrails_elevation_gain_ft": null,
-    "alltrails_estimated_time_hours": null,
-    "alltrails_reviews_url": "https://www.alltrails.com/poi/us/utah/tropic/sunset-point-overlook?reviews=true",
-    "trailhead_elevation_ft": 7893,
-    "weather_zone": "Amphitheater"
-  },
-  {
-    "id": "22d4702d-4409-40ae-8004-6ea8dff907cb",
-    "name": "Farview Point",
-    "description": "Farview Point",
-    "location": {
-      "lat": 37.544569,
-      "lon": -112.246949
-    },
-    "images": [],
-    "nps_url": null,
-    "difficulty": null,
-    "length_miles": null,
-    "elevation_gain_ft": null,
-    "route_type": null,
-    "estimated_time_hours": null,
-    "is_wheelchair_accessible": false,
-    "is_kid_friendly": false,
-    "last_enriched": "2026-01-08T11:52:56.705112",
-    "popularity_rank": 17,
-    "alltrails_url": "https://www.alltrails.com/poi/us/utah/cannonville/farview-point-2",
-    "alltrails_rating": null,
-    "alltrails_review_count": null,
-    "alltrails_difficulty": null,
-    "alltrails_length_miles": null,
-    "alltrails_elevation_gain_ft": null,
-    "alltrails_estimated_time_hours": null,
-    "alltrails_reviews_url": "https://www.alltrails.com/poi/us/utah/cannonville/farview-point-2?reviews=true",
-    "trailhead_elevation_ft": 8779,
-    "weather_zone": "High Plateau"
-  },
-  {
-    "id": "10f2072a-5b49-4a5c-95e7-ff7b1faa40cb",
-    "name": "Yovimpa Point",
-    "description": "Yovimpa Point",
-    "location": {
-      "lat": 37.4723823837,
-      "lon": -112.240200781
-    },
-    "images": [],
-    "nps_url": null,
-    "difficulty": null,
-    "length_miles": null,
-    "elevation_gain_ft": null,
-    "route_type": null,
-    "estimated_time_hours": null,
-    "is_wheelchair_accessible": false,
-    "is_kid_friendly": false,
-    "last_enriched": "2026-01-08T11:52:56.705120",
-    "popularity_rank": 18,
-    "alltrails_url": "https://www.alltrails.com/poi/us/utah/kanab/yovimpa-point",
-    "alltrails_rating": null,
-    "alltrails_review_count": null,
-    "alltrails_difficulty": null,
-    "alltrails_length_miles": null,
-    "alltrails_elevation_gain_ft": null,
-    "alltrails_estimated_time_hours": null,
-    "alltrails_reviews_url": "https://www.alltrails.com/poi/us/utah/kanab/yovimpa-point?reviews=true",
-    "trailhead_elevation_ft": 8940,
-    "weather_zone": "High Plateau"
-  },
-  {
-    "id": "249d89f7-b980-4b85-b25d-dcb38b487b17",
-    "name": "Upper Inspiration Point",
-    "description": "Upper Inspiration Point",
-    "location": {
-      "lat": 0.0,
-      "lon": 0.0
-    },
-    "images": [],
-    "nps_url": null,
-    "difficulty": null,
-    "length_miles": null,
-    "elevation_gain_ft": null,
-    "route_type": null,
-    "estimated_time_hours": null,
-    "is_wheelchair_accessible": false,
-    "is_kid_friendly": false,
-    "last_enriched": "2026-01-08T11:52:56.705130",
-    "popularity_rank": 19,
-    "alltrails_url": "https://www.alltrails.com/poi/us/utah/cannonville/upper-inspiration-point",
-    "alltrails_rating": null,
-    "alltrails_review_count": null,
-    "alltrails_difficulty": null,
-    "alltrails_length_miles": null,
-    "alltrails_elevation_gain_ft": null,
-    "alltrails_estimated_time_hours": null,
-    "alltrails_reviews_url": "https://www.alltrails.com/poi/us/utah/cannonville/upper-inspiration-point?reviews=true"
-  },
-  {
-    "id": "3e0f3197-2e3c-4301-a1e0-77f7fcc1de15",
-    "name": "Paria View",
-    "description": "Paria View",
-    "location": {
-      "lat": 37.5951639721,
-      "lon": -112.171192249
-    },
-    "images": [],
-    "nps_url": null,
-    "difficulty": null,
-    "length_miles": null,
-    "elevation_gain_ft": null,
-    "route_type": null,
-    "estimated_time_hours": null,
-    "is_wheelchair_accessible": false,
-    "is_kid_friendly": false,
-    "last_enriched": "2026-01-08T11:52:56.705139",
-    "popularity_rank": 23,
-    "alltrails_url": "https://www.alltrails.com/poi/us/utah/cannonville/paria-view",
-    "alltrails_rating": null,
-    "alltrails_review_count": null,
-    "alltrails_difficulty": null,
-    "alltrails_length_miles": null,
-    "alltrails_elevation_gain_ft": null,
-    "alltrails_estimated_time_hours": null,
-    "alltrails_reviews_url": "https://www.alltrails.com/poi/us/utah/cannonville/paria-view?reviews=true",
-    "trailhead_elevation_ft": 7814,
-    "weather_zone": "Amphitheater"
-  },
-  {
-    "id": "9691c07c-2a76-4d4f-bd55-6a1f3508eab3",
-    "name": "Piracy Point",
-    "description": "Piracy Point",
-    "location": {
-      "lat": 37.546351,
-      "lon": -112.244536
-    },
-    "images": [],
-    "nps_url": null,
-    "difficulty": null,
-    "length_miles": null,
-    "elevation_gain_ft": null,
-    "route_type": null,
-    "estimated_time_hours": null,
-    "is_wheelchair_accessible": false,
-    "is_kid_friendly": false,
-    "last_enriched": "2026-01-08T11:52:56.705147",
-    "popularity_rank": 24,
-    "alltrails_url": "https://www.alltrails.com/poi/us/utah/cannonville/piracy-point",
-    "alltrails_rating": null,
-    "alltrails_review_count": null,
-    "alltrails_difficulty": null,
-    "alltrails_length_miles": null,
-    "alltrails_elevation_gain_ft": null,
-    "alltrails_estimated_time_hours": null,
-    "alltrails_reviews_url": "https://www.alltrails.com/poi/us/utah/cannonville/piracy-point?reviews=true",
-    "trailhead_elevation_ft": 8766,
-    "weather_zone": "High Plateau"
-  },
-  {
-    "id": "5b9f0e1b-42c7-44ae-ad5e-4fcaaf8a753f",
-    "name": "Thor's Hammer",
-    "description": "Thor's Hammer",
-    "location": {
-      "lat": 0.0,
-      "lon": 0.0
-    },
-    "images": [],
-    "nps_url": null,
-    "difficulty": null,
-    "length_miles": null,
-    "elevation_gain_ft": null,
-    "route_type": null,
-    "estimated_time_hours": "3-3.5 hr",
-    "is_wheelchair_accessible": false,
-    "is_kid_friendly": false,
-    "last_enriched": "2026-01-08T11:52:56.705158",
-    "popularity_rank": 25,
-    "alltrails_url": "https://www.alltrails.com/poi/us/utah/cannonville/thor-s-hammer",
-    "alltrails_rating": null,
-    "alltrails_review_count": null,
-    "alltrails_difficulty": null,
-    "alltrails_length_miles": null,
-    "alltrails_elevation_gain_ft": null,
-    "alltrails_estimated_time_hours": "3-3.5 hr",
-    "alltrails_reviews_url": "https://www.alltrails.com/poi/us/utah/cannonville/thor-s-hammer?reviews=true"
-  },
-  {
-    "id": "258e7c82-a318-4280-91a2-a69b00e33b73",
-    "name": "Swamp Canyon Overlook",
-    "description": "Swamp Canyon Overlook",
-    "location": {
-      "lat": 37.5873604803,
-      "lon": -112.21351079
-    },
-    "images": [],
-    "nps_url": null,
-    "difficulty": null,
-    "length_miles": null,
-    "elevation_gain_ft": null,
-    "route_type": null,
-    "estimated_time_hours": null,
-    "is_wheelchair_accessible": false,
-    "is_kid_friendly": false,
-    "last_enriched": "2026-01-08T11:52:56.705168",
-    "popularity_rank": 26,
-    "alltrails_url": "https://www.alltrails.com/poi/us/utah/cannonville/swamp-canyon-overlook",
-    "alltrails_rating": null,
-    "alltrails_review_count": null,
-    "alltrails_difficulty": null,
-    "alltrails_length_miles": null,
-    "alltrails_elevation_gain_ft": null,
-    "alltrails_estimated_time_hours": null,
-    "alltrails_reviews_url": "https://www.alltrails.com/poi/us/utah/cannonville/swamp-canyon-overlook?reviews=true",
-    "trailhead_elevation_ft": 7952,
-    "weather_zone": "Amphitheater"
-  },
-  {
-    "id": "e5c4546a-41f4-46ab-a120-613bbbe761d0",
-    "name": "Turret Arch",
-    "description": "Turret Arch",
-    "location": {
-      "lat": 0.0,
-      "lon": 0.0
-    },
-    "images": [],
-    "nps_url": null,
-    "difficulty": null,
-    "length_miles": null,
-    "elevation_gain_ft": null,
-    "route_type": null,
-    "estimated_time_hours": null,
-    "is_wheelchair_accessible": false,
-    "is_kid_friendly": false,
-    "last_enriched": "2026-01-08T11:52:56.705176",
-    "popularity_rank": 27,
-    "alltrails_url": "https://www.alltrails.com/poi/us/utah/cannonville/turret-arch",
-    "alltrails_rating": null,
-    "alltrails_review_count": null,
-    "alltrails_difficulty": null,
-    "alltrails_length_miles": null,
-    "alltrails_elevation_gain_ft": null,
-    "alltrails_estimated_time_hours": null,
-    "alltrails_reviews_url": "https://www.alltrails.com/poi/us/utah/cannonville/turret-arch?reviews=true"
-  },
-  {
-    "id": "2d26b3d6-4854-4ead-969c-ddeec8455cfb",
-    "name": "Natural Bridge",
-    "description": "Natural Bridge",
-    "location": {
-      "lat": 37.5265492047,
-      "lon": -112.241644121
-    },
-    "images": [],
-    "nps_url": null,
-    "difficulty": null,
-    "length_miles": null,
-    "elevation_gain_ft": null,
-    "route_type": null,
-    "estimated_time_hours": null,
-    "is_wheelchair_accessible": false,
-    "is_kid_friendly": false,
-    "last_enriched": "2026-01-08T11:52:56.705185",
-    "popularity_rank": 28,
-    "alltrails_url": "https://www.alltrails.com/poi/us/utah/alton/natural-bridge",
-    "alltrails_rating": null,
-    "alltrails_review_count": null,
-    "alltrails_difficulty": null,
-    "alltrails_length_miles": null,
-    "alltrails_elevation_gain_ft": null,
-    "alltrails_estimated_time_hours": null,
-    "alltrails_reviews_url": "https://www.alltrails.com/poi/us/utah/alton/natural-bridge?reviews=true",
-    "trailhead_elevation_ft": 7549,
-    "weather_zone": "Northern Canyon"
+    "last_enriched": "2026-01-21T09:06:55.887122"
   }
 ]

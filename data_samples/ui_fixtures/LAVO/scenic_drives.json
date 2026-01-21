@@ -1,0 +1,178 @@
+[
+  {
+    "rank": 1,
+    "name": "Lassen Park Highway (Highway 89)",
+    "parkCode": "lavo",
+    "description": "The main road through the park, this scenic 30-mile route travels north-south, passing through dense forest and open ridgelines. It reaches an elevation of 8,512 feet near the Lassen Peak trailhead and descends volcanic slopes into the southwest area.",
+    "distance_miles": 30.0,
+    "drive_time": "1 hour",
+    "highlights": [
+      "Lassen Peak trailhead",
+      "Dense forest",
+      "Open ridgelines",
+      "Southwest area",
+      "Volcanic slopes"
+    ],
+    "best_time": "Summer and Early Fall (Closed approximately November \u2013 June)",
+    "tips": [
+      "Speed limit is 35 mph unless posted otherwise",
+      "Use pullouts to let others pass if driving below the speed limit",
+      "Give 3 feet to bicyclists per California state law",
+      "Be aware of wildlife on the road"
+    ],
+    "image_url": "https://www.nps.gov/lavo/planyourvisit/images/Area-map-960W.png?maxwidth=1300&maxheight=1300&autorotate=false&format=webp",
+    "source_url": "https://www.nps.gov/lavo/planyourvisit/gettingaround.htm"
+  },
+  {
+    "rank": 2,
+    "name": "Volcanic Legacy Scenic Byway",
+    "parkCode": "lavo",
+    "description": "A 500-mile route that takes you from Lassen Volcanic National Park, up past Mt. Shasta, and into Oregon. The route traverses some of the most beautiful and undisturbed areas of the Pacific Northwest, connecting iconic landmarks and diverse volcanic landscapes.",
+    "distance_miles": 500.0,
+    "drive_time": null,
+    "highlights": [
+      "Lassen Volcanic National Park",
+      "Mt. Shasta",
+      "Burney Falls",
+      "McCloud Falls",
+      "Lava Beds National Monument",
+      "Crater Lake"
+    ],
+    "best_time": null,
+    "tips": [
+      "The route connects Highway 89, Highway 44, Highway 5, and Highway 97.",
+      "Take a short excursion to Burney Falls at the intersection of Highway 89 and Highway 299.",
+      "Follow Highway 89 to continue north from Lassen."
+    ],
+    "image_url": "https://californiathroughmylens.com/wp-content/uploads/2018/04/mt-shasta-1.jpg",
+    "source_url": "https://californiathroughmylens.com/volcanic-legacy-scenic-byway/"
+  },
+  {
+    "rank": 3,
+    "name": "Lassen Volcanic National Park Scenic Drive",
+    "parkCode": "lavo",
+    "description": "Part of the famous Volcanic Legacy Scenic Byway, this winding route takes you through the heart of Lassen's volcanic landscape. You'll drive high near Lassen Peak, the world's largest plug dome volcano, and pass active hydrothermal areas like Sulphur Works where you can see the earth steaming and bubbling.",
+    "distance_miles": 34.1,
+    "drive_time": null,
+    "highlights": [
+      "Lassen Peak",
+      "Sulphur Works",
+      "Reflection Lake",
+      "Tophet Springs",
+      "Summit Lake",
+      "Devastated Area"
+    ],
+    "best_time": "June through October",
+    "tips": [
+      "Start early as parking lots can fill up quickly",
+      "Cell service is sketchy; download offline maps or use a physical map",
+      "The road is winding with significant elevation gain, so take your time"
+    ],
+    "image_url": "https://www.alltrails.com/api/alltrails/v2/trails/10028844/photos/0?size=larger_wide&key=3p0t5s6b5g4g0e8k3c1j3w7y5c3m4t8i",
+    "source_url": "https://www.alltrails.com/trail/us/california/lassen-volcanic-national-park-scenic-drive"
+  },
+  {
+    "rank": 4,
+    "name": "Butte Lake Road (FR-32N21)",
+    "parkCode": "lavo",
+    "description": "A remote dirt and gravel road that provides access to the Butte Lake area in the northeast corner of the park, passing through both Lassen National Forest and the park.",
+    "distance_miles": 6.0,
+    "drive_time": null,
+    "highlights": [
+      "Butte Lake",
+      "Butte Lake Campground",
+      "Day use area"
+    ],
+    "best_time": "Midsummer (Closed approximately November \u2013 April)",
+    "tips": [
+      "Road may be rutted and dusty in midsummer",
+      "Passable by passenger vehicles but use caution",
+      "Not maintained in winter; vehicle travel not advised when snow is present"
+    ],
+    "image_url": "https://www.nps.gov/lavo/planyourvisit/images/Area-map-960W.png?maxwidth=1300&maxheight=1300&autorotate=false&format=webp",
+    "source_url": "https://www.nps.gov/lavo/planyourvisit/gettingaround.htm"
+  },
+  {
+    "rank": 5,
+    "name": "Juniper Lake Road (CR-318)",
+    "parkCode": "lavo",
+    "description": "A rugged, partly-unpaved road accessing the remote Juniper Lake area. The route features steep sections and rough terrain as it enters the park from Chester.",
+    "distance_miles": 13.0,
+    "drive_time": null,
+    "highlights": [
+      "Juniper Lake",
+      "Juniper Lake parking area",
+      "Remote volcanic scenery"
+    ],
+    "best_time": "Late Summer (Closed approximately November \u2013 June)",
+    "tips": [
+      "Last six miles is a rough dirt road with steep sections",
+      "Not suitable for buses, motorhomes, or trailers",
+      "Vehicle travel not advised when snow covers the road"
+    ],
+    "image_url": "https://www.nps.gov/lavo/planyourvisit/images/Area-map-960W.png?maxwidth=1300&maxheight=1300&autorotate=false&format=webp",
+    "source_url": "https://www.nps.gov/lavo/planyourvisit/gettingaround.htm"
+  },
+  {
+    "rank": 6,
+    "name": "Highway 97 Scenic Route",
+    "parkCode": "lavo",
+    "description": "A scenic section of the byway heading toward the Oregon border from Mt. Shasta. This route provides expansive views of the mountain and passes through high-desert volcanic terrain.",
+    "distance_miles": null,
+    "drive_time": null,
+    "highlights": [
+      "Mt. Shasta Views",
+      "Living Memorial Sculpture Garden",
+      "Lava Beds National Monument"
+    ],
+    "best_time": "Any time",
+    "tips": [
+      "This route gives you great views of Mt. Shasta looking behind you as you head north.",
+      "Stop at the Living Memorial Sculpture Garden to see sculptures in the shadow of the mountain.",
+      "Only attempt the excursion to Lava Beds National Monument if you have a good amount of time."
+    ],
+    "image_url": "https://californiathroughmylens.com/wp-content/uploads/2018/04/living-memorial-sculpture-garden-9-640x427.jpg",
+    "source_url": "https://californiathroughmylens.com/volcanic-legacy-scenic-byway/"
+  },
+  {
+    "rank": 7,
+    "name": "Warner Valley Road (CR-312)",
+    "parkCode": "lavo",
+    "description": "A partly-unpaved road leading to the Warner Valley area, offering access to Drakesbad and various remote trailheads.",
+    "distance_miles": 13.0,
+    "drive_time": null,
+    "highlights": [
+      "Warner Valley",
+      "Drakesbad",
+      "Warner Valley campground"
+    ],
+    "best_time": "Late Summer (Closed approximately November \u2013 June)",
+    "tips": [
+      "Last three miles is a dirt road with steep sections",
+      "Not recommended for trailers",
+      "Not maintained in winter; vehicle travel not advised in snow"
+    ],
+    "image_url": "https://www.nps.gov/lavo/planyourvisit/images/Area-map-960W.png?maxwidth=1300&maxheight=1300&autorotate=false&format=webp",
+    "source_url": "https://www.nps.gov/lavo/planyourvisit/gettingaround.htm"
+  },
+  {
+    "rank": 8,
+    "name": "McCloud Falls Drive",
+    "parkCode": "lavo",
+    "description": "A scenic segment along Highway 89 north of Burney Falls where travelers can drive to access multiple tiers of a spectacular three-tiered waterfall.",
+    "distance_miles": null,
+    "drive_time": null,
+    "highlights": [
+      "Lower McCloud Falls",
+      "Middle McCloud Falls",
+      "Upper McCloud Falls"
+    ],
+    "best_time": "Summer and Fall",
+    "tips": [
+      "You can drive to all three waterfall tiers.",
+      "The road to the falls is typically closed or inaccessible during the winter."
+    ],
+    "image_url": "https://californiathroughmylens.com/wp-content/uploads/2019/03/mccloud-snowshoe-20-640x427.jpg",
+    "source_url": "https://californiathroughmylens.com/volcanic-legacy-scenic-byway/"
+  }
+]

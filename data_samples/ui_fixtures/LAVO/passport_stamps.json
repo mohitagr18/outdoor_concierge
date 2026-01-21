@@ -1,0 +1,20 @@
+[
+  {
+    "id": "FB29F768-9938-4A7F-8D21-D678E1B177B4",
+    "label": "Kohm Yah-mah-nee Visitor Center",
+    "type": "visitorcenters",
+    "parkCode": "lavo"
+  },
+  {
+    "id": "69CF10A4-11C2-4FAE-A320-55704CEB9F22",
+    "label": "Loomis Museum",
+    "type": "visitorcenters",
+    "parkCode": "lavo"
+  },
+  {
+    "id": "23FD1F77-CBDD-479C-BDA9-0CC855D79EF9",
+    "label": "Loomis Museum",
+    "type": "places",
+    "parkCode": "lavo"
+  }
+]

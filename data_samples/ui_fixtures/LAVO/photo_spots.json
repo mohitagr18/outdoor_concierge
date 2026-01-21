@@ -1,0 +1,470 @@
+[
+  {
+    "rank": 1,
+    "name": "Painted Dunes",
+    "parkCode": "lavo",
+    "description": "Unique, colorful volcanic dunes created by oxidation of ash, providing a stark contrast to the surrounding dark lava beds and cinder cones.",
+    "best_time_of_day": [
+      "Late-afternoon"
+    ],
+    "tips": [
+      "Climb the Cinder Cone to get an elevated, 360-degree view of the dunes",
+      "Explore different focal lengths to capture patterns in the volcanic landscape",
+      "Look for the contrast between dark gray scoria and the vibrant colors of the dunes"
+    ],
+    "image_url": "https://images.squarespace-cdn.com/content/v1/54614065e4b0e09964375515/3cd88682-d2fc-4602-bbc3-9853b35ecbbd/LassenVolcanic2_W.jpg",
+    "source_url": "https://www.kevindjordan.com/blog/fear-and-photography-in-lassen-volcanic-national-park"
+  },
+  {
+    "rank": 2,
+    "name": "Cinder Cone Summit",
+    "parkCode": "lavo",
+    "description": "Provides spectacular bird\u2019s-eye views of the grand volcanic panorama created by the Fantastic Lava Beds and the Painted Dunes. Reaching the summit changes the perspective of both volcanic features significantly.",
+    "best_time_of_day": [
+      "Sunrise",
+      "Sunset",
+      "Night"
+    ],
+    "tips": [
+      "Use both wide-angle and telephoto lenses.",
+      "Time your visit early or late in the day to avoid heat distortion waves that occur at mid-day.",
+      "Consider staying for night sky images over the landscape."
+    ],
+    "image_url": "https://www.nationalparkstraveler.org/sites/default/files/media/lavo_rebeccalatson-4530_the_view_from_the_top_of_cinder_cone_rev_-_960_1.jpg",
+    "source_url": "https://www.nationalparkstraveler.org/2022/12/photography-national-parks-matter-perspective"
+  },
+  {
+    "rank": 3,
+    "name": "Lassen Peak Trail",
+    "parkCode": "lavo",
+    "description": "The summit of the largest plug dome volcano in the world, standing at over 10,000 ft. and offering views as the southernmost Cascade in the range.",
+    "best_time_of_day": [
+      "Sunrise",
+      "Sunset"
+    ],
+    "tips": [
+      "Be prepared for 43 switchbacks and nearly 2,000 ft. of elevation gain",
+      "The summit is ideal for 360-degree views of the surrounding landscape"
+    ],
+    "image_url": "https://images.squarespace-cdn.com/content/v1/6226f62738f4f73d2b353e79/1fefeaf4-4d8f-4cfe-a868-f6ca1961df64/DSC00418.jpg",
+    "source_url": "https://noahlangphotography.com/blog/best-things-to-do-lassen-volcanic-national-park"
+  },
+  {
+    "rank": 4,
+    "name": "Manzanita Lake",
+    "parkCode": "lavo",
+    "description": "A classic viewpoint offering a clear vista of Lassen Peak and Chaos Crags, perfect for reflections and astrophotography.",
+    "best_time_of_day": [
+      "Sunset",
+      "Night"
+    ],
+    "tips": [
+      "The core of the Milky Way rises directly behind Lassen Peak in the summer months",
+      "Scout the lake shore during the day to find a spot with an uninterrupted view of the peaks",
+      "Wait for golden light during sunset, which can bathe the peaks in a warm glow for a very short duration"
+    ],
+    "image_url": "https://images.squarespace-cdn.com/content/v1/54614065e4b0e09964375515/4fdaf370-9ad8-4fb9-88af-00fa20601751/LassenPeakMW_W_062324.jpg",
+    "source_url": "https://www.kevindjordan.com/blog/fear-and-photography-in-lassen-volcanic-national-park"
+  },
+  {
+    "rank": 5,
+    "name": "Fantastic Lava Beds (Ground Level)",
+    "parkCode": "lavo",
+    "description": "Viewed from the parking lot beside the Cinder Cone trailhead, the black, blocky piles of lava stretch into Butte Lake, creating a wall several stories high.",
+    "best_time_of_day": [
+      "Daylight"
+    ],
+    "tips": [
+      "Capture the ground-level perspective immediately upon exiting your vehicle at the trailhead to contrast with summit views."
+    ],
+    "image_url": "https://www.nationalparkstraveler.org/sites/default/files/media/lavo_rebeccalatson-4140_butte_lake_and_fantastic_lava_beds_-_960.jpg",
+    "source_url": "https://www.nationalparkstraveler.org/2022/12/photography-national-parks-matter-perspective"
+  },
+  {
+    "rank": 6,
+    "name": "Chaos Crags",
+    "parkCode": "lavo",
+    "description": "Dramatic rock formations that provide a stunning backdrop, especially when overlooking a frozen, snow-covered Manzanita Lake.",
+    "best_time_of_day": [
+      "Sunset",
+      "Winter"
+    ],
+    "tips": [
+      "Capture the dramatic skies over the crags",
+      "Winter provides a unique frozen foreground when shooting from the lake level"
+    ],
+    "image_url": "https://www.jeremyvesely.com/images/xl/The-Beauty-Of-Chaos-Crags-Lassen-National-Park.jpg",
+    "source_url": "https://www.jeremyvesely.com/gallery/lassen-volcanic-national-park-pictures-information/"
+  },
+  {
+    "rank": 7,
+    "name": "Cinder Cone Trail (Painted Dunes)",
+    "parkCode": "lavo",
+    "description": "A unique volcanic landscape featuring the vibrant, colorful natural lava beds known as the Painted Dunes and views of the Fantastic Lava Flows.",
+    "best_time_of_day": [
+      "Sunrise"
+    ],
+    "tips": [
+      "Soft morning light is essential to bring out the vibrant colors of the dunes",
+      "Climb to the top of the cinder cone for a panoramic view down into the crater and over the lava beds"
+    ],
+    "image_url": "https://images.squarespace-cdn.com/content/v1/6226f62738f4f73d2b353e79/9782e71e-30c7-434f-9480-dfbc691c6b96/DSC00592.jpg",
+    "source_url": "https://noahlangphotography.com/blog/best-things-to-do-lassen-volcanic-national-park"
+  },
+  {
+    "rank": 8,
+    "name": "Cinder Cone Slopes",
+    "parkCode": "lavo",
+    "description": "The steep, dark gray slopes of the Cinder Cone volcano provide a dramatic backdrop for minimalist photography.",
+    "best_time_of_day": [
+      "Afternoon"
+    ],
+    "tips": [
+      "Look for isolated trees growing on the slopes to serve as a strong subject for minimalist compositions",
+      "Late-season snow can provide high-contrast textures against the dark volcanic soil",
+      "Be prepared for difficult footing on loose scoria when setting up your tripod"
+    ],
+    "image_url": "https://images.squarespace-cdn.com/content/v1/54614065e4b0e09964375515/1dba5ba6-bebf-4faf-8576-d713bb3853d4/Resilience_W.jpg",
+    "source_url": "https://www.kevindjordan.com/blog/fear-and-photography-in-lassen-volcanic-national-park"
+  },
+  {
+    "rank": 9,
+    "name": "Painted Dunes (Ground Level)",
+    "parkCode": "lavo",
+    "description": "From the trail, the dunes appear as smooth, undulating hills dotted with sporadic trees, offering a sense of scale before the climb.",
+    "best_time_of_day": [
+      "Daylight"
+    ],
+    "tips": [
+      "Use this perspective to show the transition from the base to the colorful details visible from higher elevations."
+    ],
+    "image_url": "https://www.nationalparkstraveler.org/sites/default/files/media/lavo_rebeccalatson-4258_painted_dunes_ground_level_-_960.jpg",
+    "source_url": "https://www.nationalparkstraveler.org/2022/12/photography-national-parks-matter-perspective"
+  },
+  {
+    "rank": 10,
+    "name": "Ridge Lakes Trail",
+    "parkCode": "lavo",
+    "description": "A secluded alpine lake featuring turquoise-blue waters surrounded by towering peaks.",
+    "best_time_of_day": [
+      "Daytime"
+    ],
+    "tips": [
+      "Shoot on a clear, sunny summer day to capture the deep turquoise color of the water"
+    ],
+    "image_url": "https://images.squarespace-cdn.com/content/v1/6226f62738f4f73d2b353e79/3b797cd0-980a-404f-9f69-11e5967b256a/DSC00014.jpg",
+    "source_url": "https://noahlangphotography.com/blog/best-things-to-do-lassen-volcanic-national-park"
+  },
+  {
+    "rank": 11,
+    "name": "Sulphur Works",
+    "parkCode": "lavo",
+    "description": "An easily accessible geothermal area featuring bubbling mud pots and steam vents near the southwest entrance.",
+    "best_time_of_day": [
+      "Daytime"
+    ],
+    "tips": [
+      "Focus on close-up shots of bubbling mud pots to capture unique textures",
+      "Be aware of shifting steam which can obscure your lens or create interesting atmospheric effects",
+      "Use faster shutter speeds to freeze the motion of bubbling mud"
+    ],
+    "image_url": "https://images.squarespace-cdn.com/content/v1/54614065e4b0e09964375515/c953bebb-d403-441f-90b9-8ea29ff5ea14/LassenVolcanic-163_W.jpg",
+    "source_url": "https://www.kevindjordan.com/blog/fear-and-photography-in-lassen-volcanic-national-park"
+  },
+  {
+    "rank": 12,
+    "name": "Painted Dunes (from Summit)",
+    "parkCode": "lavo",
+    "description": "The summit height reveals bright orange, gold, and yellow dusting on the beige and ash-brown landscape, showing the oxidized ash patterns.",
+    "best_time_of_day": [
+      "Sunrise",
+      "Sunset"
+    ],
+    "tips": [
+      "Notice how shifting daylight affects the shapes and colors of the dunes.",
+      "Use a telephoto lens to isolate interesting shapes and patterns."
+    ],
+    "image_url": "https://www.nationalparkstraveler.org/sites/default/files/media/lavo_rebeccalatson-4512_the_painted_dunes_rev_-_960.jpg",
+    "source_url": "https://www.nationalparkstraveler.org/2022/12/photography-national-parks-matter-perspective"
+  },
+  {
+    "rank": 13,
+    "name": "Lassen Peak",
+    "parkCode": "lavo",
+    "description": "The park's namesake active stratovolcano offering panoramic views stretching across the park and dramatic 'last light' opportunities.",
+    "best_time_of_day": [
+      "Sunset",
+      "Night"
+    ],
+    "tips": [
+      "The summit offers 360-degree views for wide-angle landscape shots",
+      "Capture the rays of the setting sun layered over the peak and the valley",
+      "Use moonlight to illuminate the peak for night shots"
+    ],
+    "image_url": "https://www.jeremyvesely.com/images/xl/Last-Light-in-Lassen-Sunset-National-Park.jpg",
+    "source_url": "https://www.jeremyvesely.com/gallery/lassen-volcanic-national-park-pictures-information/"
+  },
+  {
+    "rank": 14,
+    "name": "Manzanita Lake Trail",
+    "parkCode": "lavo",
+    "description": "A classic alpine lake view where Lassen Peak reflects in the water and glows during the evening hours.",
+    "best_time_of_day": [
+      "Sunset"
+    ],
+    "tips": [
+      "The west side of the lake offers the best vantage points to see the peak glow at sunset"
+    ],
+    "image_url": "https://images.squarespace-cdn.com/content/v1/6226f62738f4f73d2b353e79/c75a6a21-0249-49de-8c21-aea5e8b01bab/DSC01787.jpg",
+    "source_url": "https://noahlangphotography.com/blog/best-things-to-do-lassen-volcanic-national-park"
+  },
+  {
+    "rank": 15,
+    "name": "Kings Creek Meadow Viewpoint",
+    "parkCode": "lavo",
+    "description": "A popular spot featuring a meandering creek over lush grass with Lassen Peak in the background.",
+    "best_time_of_day": [
+      "Daylight"
+    ],
+    "tips": [
+      "Don't ignore popular spots; your specific time of day and weather conditions will make your image unique."
+    ],
+    "image_url": "https://www.nationalparkstraveler.org/sites/default/files/media/lavo_rebeccalatson-2410_kings_creek_upper_meadow_vista_-_960.jpg",
+    "source_url": "https://www.nationalparkstraveler.org/2022/12/photography-national-parks-matter-perspective"
+  },
+  {
+    "rank": 16,
+    "name": "Bumpass Hell Trail",
+    "parkCode": "lavo",
+    "description": "The park's largest active hydrothermal area, featuring boiling pools, bubbling mud pots, and steaming vents.",
+    "best_time_of_day": [
+      "Daylight"
+    ],
+    "tips": [
+      "Stay on designated trails to safely photograph the delicate geothermal features",
+      "Capture the contrast between the turquoise boiling pools and the surrounding earth"
+    ],
+    "image_url": null,
+    "source_url": "https://www.jeremyvesely.com/gallery/lassen-volcanic-national-park-pictures-information/"
+  },
+  {
+    "rank": 17,
+    "name": "Kings Creek Meadow (Elevated Turnout)",
+    "parkCode": "lavo",
+    "description": "A turnout at a higher elevation provides a view looking down at the creek meanders, making the meadow look smaller and showing a different scale.",
+    "best_time_of_day": [
+      "Daylight"
+    ],
+    "tips": [
+      "Compare this elevated view with the ground-level shot to show the change in scale."
+    ],
+    "image_url": "https://www.nationalparkstraveler.org/sites/default/files/media/lavo_rebeccalatson-2668_looking_down_upon_kings_creek_meadow_-_960.jpg",
+    "source_url": "https://www.nationalparkstraveler.org/2022/12/photography-national-parks-matter-perspective"
+  },
+  {
+    "rank": 18,
+    "name": "Kings Creek Falls",
+    "parkCode": "lavo",
+    "description": "A stunning waterfall surrounded by greenery that provides a lush contrast to the park's volcanic terrain.",
+    "best_time_of_day": [
+      "Morning"
+    ],
+    "tips": [
+      "Recommended for an early start to catch the soft morning light",
+      "Use a tripod for long exposure shots of the falling water"
+    ],
+    "image_url": null,
+    "source_url": "https://www.jeremyvesely.com/gallery/lassen-volcanic-national-park-pictures-information/"
+  },
+  {
+    "rank": 19,
+    "name": "Upper Kings Creek Meadow",
+    "parkCode": "lavo",
+    "description": "A stunning alpine meadow on the southeast side of Lassen Peak that catches the very first light of the day.",
+    "best_time_of_day": [
+      "Sunrise"
+    ],
+    "tips": [
+      "Simply pull over and set up; first light hitting the peak and meadow is the primary subject",
+      "Arrive early to beat the mid-morning crowds"
+    ],
+    "image_url": "https://images.squarespace-cdn.com/content/v1/6226f62738f4f73d2b353e79/2fdb88f9-f841-46f1-892d-dcc621e98bb2/DSC02301.jpg",
+    "source_url": "https://noahlangphotography.com/blog/best-things-to-do-lassen-volcanic-national-park"
+  },
+  {
+    "rank": 20,
+    "name": "Dixie Fire Aftermath (Southwestern Entrance)",
+    "parkCode": "lavo",
+    "description": "Sobering views of charred tree skeletons following the 2021 Dixie Fire.",
+    "best_time_of_day": [
+      "Daylight"
+    ],
+    "tips": [
+      "Stay on the road for safety due to snags and falling branches.",
+      "Use a telephoto lens to close in on the blackened forest remains.",
+      "Try using burnt trees as natural frames."
+    ],
+    "image_url": "https://www.nationalparkstraveler.org/sites/default/files/media/lavo_rebeccalatson-2499_aftermath_of_the_dixie_fire_-_960.jpg",
+    "source_url": "https://www.nationalparkstraveler.org/2022/12/photography-national-parks-matter-perspective"
+  },
+  {
+    "rank": 21,
+    "name": "Butte Lake",
+    "parkCode": "lavo",
+    "description": "A striking turquoise volcanic lake influenced by the Fantastic Lava Flows, offering a less busy alternative to main park sites.",
+    "best_time_of_day": [
+      "Daytime"
+    ],
+    "tips": [
+      "Kayaking or paddleboarding provides unique angles of the lava flows merging into the water",
+      "Hike the Bathtub Lake Trail for elevated vantage points over Butte Lake"
+    ],
+    "image_url": "https://images.squarespace-cdn.com/content/v1/6226f62738f4f73d2b353e79/6eeb4eaa-e94a-4bd4-8afc-9ef61cb27ed0/DSC01069.jpg",
+    "source_url": "https://noahlangphotography.com/blog/best-things-to-do-lassen-volcanic-national-park"
+  },
+  {
+    "rank": 22,
+    "name": "Dixie Fire Aftermath (Beyond Sulphur Works)",
+    "parkCode": "lavo",
+    "description": "A turnout about a half-mile beyond Sulphur Works showing parallel black trees standing like toothpicks and the fire's proximity to the Visitor Center.",
+    "best_time_of_day": [
+      "Daylight"
+    ],
+    "tips": [
+      "Look for patterns in the parallel standing trees.",
+      "Note the contrast between the burnt foreground and the green hills in the background."
+    ],
+    "image_url": "https://www.nationalparkstraveler.org/sites/default/files/media/lavo_rebeccalatson-5401_charred_landscape_near_the_visitor_center_-_960.jpg",
+    "source_url": "https://www.nationalparkstraveler.org/2022/12/photography-national-parks-matter-perspective"
+  },
+  {
+    "rank": 23,
+    "name": "Brokeoff Mountain Trail",
+    "parkCode": "lavo",
+    "description": "An underrated summit trail providing panoramic views and a clear sightline to the sunset hitting Lassen Peak's highest elevations.",
+    "best_time_of_day": [
+      "Sunset"
+    ],
+    "tips": [
+      "The summit is arguably the best spot in the park for sunset photography of Lassen Peak"
+    ],
+    "image_url": "https://images.squarespace-cdn.com/content/v1/6226f62738f4f73d2b353e79/3bd73405-e211-4593-bfb4-5a89a6b0f2bd/DSC00177.jpg",
+    "source_url": "https://noahlangphotography.com/blog/best-things-to-do-lassen-volcanic-national-park"
+  },
+  {
+    "rank": 24,
+    "name": "Terrace, Shadow, & Cliff Lakes Trail",
+    "parkCode": "lavo",
+    "description": "A trail featuring three distinct alpine lakes, each offering unique reflections and surrounding peak views.",
+    "best_time_of_day": [
+      "Daytime"
+    ],
+    "tips": [
+      "Each lake has a different character; explore all three for various alpine photography compositions"
+    ],
+    "image_url": "https://images.squarespace-cdn.com/content/v1/6226f62738f4f73d2b353e79/49ee6b04-f05b-4ca1-92ad-73e52be60645/DSC02494.jpg",
+    "source_url": "https://noahlangphotography.com/blog/best-things-to-do-lassen-volcanic-national-park"
+  },
+  {
+    "rank": 25,
+    "name": "Lassen Peak Highway",
+    "parkCode": "lavo",
+    "description": "The main 34-mile scenic byway reaching 8,511 ft., providing views of Emerald Lake, Lake Helen, and various volcanic landmarks.",
+    "best_time_of_day": [
+      "Daytime",
+      "Sunset"
+    ],
+    "tips": [
+      "Stop at the road summit for high-elevation perspectives of the park",
+      "Check road status as snow often keeps the highway closed into July"
+    ],
+    "image_url": "https://images.squarespace-cdn.com/content/v1/6226f62738f4f73d2b353e79/a164ce34-4c1f-4a46-8164-eee791fe53a9/DSC02682.jpg",
+    "source_url": "https://noahlangphotography.com/blog/best-things-to-do-lassen-volcanic-national-park"
+  },
+  {
+    "rank": 26,
+    "name": "Lake Helen",
+    "parkCode": "lavo",
+    "description": "A high-altitude roadside lake sitting at the base of Lassen Peak with incredibly clear, blue water.",
+    "best_time_of_day": [
+      "Sunset"
+    ],
+    "tips": [
+      "Golden hour is best here as it lights up the high elevations of the peak above the lake"
+    ],
+    "image_url": "https://images.squarespace-cdn.com/content/v1/6226f62738f4f73d2b353e79/1cadaf52-9607-4e90-93a4-d90593ea06be/DSC00456.jpg",
+    "source_url": "https://noahlangphotography.com/blog/best-things-to-do-lassen-volcanic-national-park"
+  },
+  {
+    "rank": 27,
+    "name": "Emerald Lake",
+    "parkCode": "lavo",
+    "description": "A small, clear alpine lake known for its stillness and reflections of the surrounding volcanic landscape.",
+    "best_time_of_day": [
+      "Sunrise"
+    ],
+    "tips": [
+      "Visit at or shortly after sunrise for the calmest winds and best mirror reflections"
+    ],
+    "image_url": "https://images.squarespace-cdn.com/content/v1/6226f62738f4f73d2b353e79/e5e8fc2d-5f19-4dbd-8a1b-4980ec335e42/DSC09789.jpg",
+    "source_url": "https://noahlangphotography.com/blog/best-things-to-do-lassen-volcanic-national-park"
+  },
+  {
+    "rank": 28,
+    "name": "Boiling Springs Lake Trail",
+    "parkCode": "lavo",
+    "description": "A large, turquoise-blue geothermal lake that is one of the most unique features in the park.",
+    "best_time_of_day": [
+      "Daytime"
+    ],
+    "tips": [
+      "The lake's color is striking; capture it from the trail loop to show its scale"
+    ],
+    "image_url": "https://images.squarespace-cdn.com/content/v1/6226f62738f4f73d2b353e79/1fb0c3f2-e397-48e5-b116-37867167f97d/DSC02169.jpg",
+    "source_url": "https://noahlangphotography.com/blog/best-things-to-do-lassen-volcanic-national-park"
+  },
+  {
+    "rank": 29,
+    "name": "Summit Lake Trail",
+    "parkCode": "lavo",
+    "description": "A small loop around a scenic lake that offers easy access to reflections of Lassen Peak.",
+    "best_time_of_day": [
+      "Sunrise"
+    ],
+    "tips": [
+      "Best for early morning light on the water and the peak",
+      "Camping here allows for shooting directly from the campsite at first light"
+    ],
+    "image_url": "https://images.squarespace-cdn.com/content/v1/6226f62738f4f73d2b353e79/41cc03e0-35ff-4e63-a4d1-375d15d6c1fd/DSC02483.jpg",
+    "source_url": "https://noahlangphotography.com/blog/best-things-to-do-lassen-volcanic-national-park"
+  },
+  {
+    "rank": 30,
+    "name": "Reflection Lake Trail",
+    "parkCode": "lavo",
+    "description": "True to its name, this lake offers some of the most picturesque reflections of Lassen Peak in the park.",
+    "best_time_of_day": [
+      "Sunrise",
+      "Daytime"
+    ],
+    "tips": [
+      "Ranked as one of the top three spots for picturesque peak-across-water compositions"
+    ],
+    "image_url": "https://images.squarespace-cdn.com/content/v1/6226f62738f4f73d2b353e79/11a697cd-18af-49f7-9246-0b39c53d14bc/DSC01270.jpg",
+    "source_url": "https://noahlangphotography.com/blog/best-things-to-do-lassen-volcanic-national-park"
+  },
+  {
+    "rank": 31,
+    "name": "Mill Creek Falls Trail",
+    "parkCode": "lavo",
+    "description": "The tallest waterfall in the park, standing at twice the height of Kings Creek Falls.",
+    "best_time_of_day": [
+      "Daytime"
+    ],
+    "tips": [
+      "A hidden gem with low visitor traffic, perfect for undisturbed long-exposure shots"
+    ],
+    "image_url": "https://images.squarespace-cdn.com/content/v1/6226f62738f4f73d2b353e79/fb9c7fe0-5373-4aa2-9fcf-fd3dd2855c17/DSC01510.jpg",
+    "source_url": "https://noahlangphotography.com/blog/best-things-to-do-lassen-volcanic-national-park"
+  }
+]

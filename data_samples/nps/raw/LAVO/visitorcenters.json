@@ -1,0 +1,293 @@
+[
+  {
+    "id": "FB29F768-9938-4A7F-8D21-D678E1B177B4",
+    "name": "Kohm Yah-mah-nee Visitor Center",
+    "description": "This year-round visitor center is located one mile from the Southwest Entrance. The visitor center offers an information desk, exhibit hall, auditorium, amphitheater (summer), park store, dining area, patio (summer), and a gift shop and cafe (summer). Free Wi-Fi is available inside.",
+    "location": {
+      "lat": 40.4377782526,
+      "lon": -121.533838401
+    },
+    "url": "http://www.nps.gov/lavo/planyourvisit/visitorcenters.htm",
+    "images": [
+      {
+        "url": "https://www.nps.gov/common/uploads/structured_data/4DEE8B18-9CA8-6B8D-FB6F4849C3ED1746.jpg",
+        "title": "Kohm Yah-mah-nee Visitor Center entrance in summer",
+        "altText": "A paved path bends toward a wood building with a green roof backed by mountains",
+        "caption": "The year-round Kohm Yah-mah-nee Visitor Center is located at the southwest entrance of the park.",
+        "credit": "NPS Photo"
+      },
+      {
+        "url": "https://www.nps.gov/common/uploads/structured_data/4DFF2BAF-97B1-230C-A73CB72F714D023B.jpg",
+        "title": "Kohm Yah-mah-nee Visitor Center and parking area in winter",
+        "altText": "A wooden building at the end of a snow-covered parking area backed by snow-covered peaks.",
+        "caption": "The Kohm Yah-mah-nee Visitor Center and Southwest Area received up to 30 feet of snow each winter, making it a popular winter recreation destination.",
+        "credit": "NPS Photo"
+      },
+      {
+        "url": "https://www.nps.gov/common/uploads/structured_data/D733FB95-98B4-B922-9C11A3D4C0A57527.jpg",
+        "title": "Lassen Cafe & Gift",
+        "altText": "People sitting in a small fireside dining area.",
+        "caption": "Lassen Cafe & Gift offers food, gifts, and souvenirs.",
+        "credit": "NPS Photo"
+      },
+      {
+        "url": "https://www.nps.gov/common/uploads/structured_data/D74E8378-DD5A-ACB5-40F69DAA7BF60595.jpg",
+        "title": "Park Store",
+        "altText": "Two people shopping in a small store featuring books and smaller items.",
+        "caption": "The Park Store is open during building hours.",
+        "credit": "NPS Photo"
+      },
+      {
+        "url": "https://www.nps.gov/common/uploads/structured_data/D757545C-06BD-0024-05015D0EB99D86B7.jpg",
+        "title": "KYVC Patio",
+        "altText": "People sitting at tables with taupe umbrellas on a patio at the base of a mountain.",
+        "caption": "Seating is available on the patio in the summer and fall seasons.",
+        "credit": "NPS Photo"
+      },
+      {
+        "url": "https://www.nps.gov/common/uploads/structured_data/D7B7ED5F-DBFD-7D0A-EBCCDF389B6650F0.jpg",
+        "title": "KYVC Auditorium",
+        "altText": "People sitting inside a small auditorium",
+        "caption": "The 20-minute park film plays inside the auditorium.",
+        "credit": "NPS Photo"
+      },
+      {
+        "url": "https://www.nps.gov/common/uploads/structured_data/D7C57101-B296-B3D0-C52C73AE4107E7F9.jpg",
+        "title": "Information desk and map exhibit",
+        "altText": "A woman in a uniform and a man stand at a 3D map inside a visitor center.",
+        "caption": "Rangers are available to assist at the information desk and map exhibit.",
+        "credit": "NPS Photo"
+      },
+      {
+        "url": "https://www.nps.gov/common/uploads/structured_data/D7E15C69-C5D0-3CF4-56D50447B245F5A2.jpg",
+        "title": "Exhibit Hall",
+        "altText": "A family watches a video of lava in an exhibit hall.",
+        "caption": "The exhibit hall includes a variety of printed and interactive displays.",
+        "credit": "NPS Photo"
+      }
+    ],
+    "operatingHours": [
+      {
+        "exceptions": [
+          {
+            "exceptionHours": {
+              "wednesday": "Closed",
+              "monday": "9:30AM - 4:30PM",
+              "thursday": "9:30AM - 4:30PM",
+              "sunday": "9:30AM - 4:30PM",
+              "tuesday": "Closed",
+              "friday": "9:30AM - 4:30PM",
+              "saturday": "9:30AM - 4:30PM"
+            },
+            "startDate": "2025-10-14",
+            "name": "Off-Season Hours",
+            "endDate": "2026-05-21"
+          },
+          {
+            "exceptionHours": {
+              "wednesday": "Closed",
+              "monday": "Closed",
+              "thursday": "Closed",
+              "sunday": "Closed",
+              "tuesday": "Closed",
+              "friday": "Closed",
+              "saturday": "Closed"
+            },
+            "startDate": "2026-11-26",
+            "name": "Thanksgiving",
+            "endDate": "2026-11-26"
+          },
+          {
+            "exceptionHours": {
+              "wednesday": "Closed",
+              "monday": "Closed",
+              "thursday": "Closed",
+              "sunday": "Closed",
+              "tuesday": "Closed",
+              "friday": "Closed",
+              "saturday": "Closed"
+            },
+            "startDate": "2026-12-25",
+            "name": "Christmas Day",
+            "endDate": "2026-12-25"
+          },
+          {
+            "exceptionHours": {
+              "wednesday": "Closed",
+              "monday": "Closed",
+              "thursday": "Closed",
+              "sunday": "Closed",
+              "tuesday": "Closed",
+              "friday": "Closed",
+              "saturday": "Closed"
+            },
+            "startDate": "2027-01-01",
+            "name": "New Years Day",
+            "endDate": "2027-01-01"
+          }
+        ],
+        "description": "Typical standard hours during the busy summer months. Hours may vary based on weather conditions, emergency situations, and staffing.",
+        "standardHours": {
+          "wednesday": "9:30AM - 4:30PM",
+          "monday": "9:30AM - 4:30PM",
+          "thursday": "9:30AM - 4:30PM",
+          "sunday": "9:30AM - 4:30PM",
+          "tuesday": "9:30AM - 4:30PM",
+          "friday": "9:30AM - 4:30PM",
+          "saturday": "9:30AM - 4:30PM"
+        },
+        "name": "Kohm Yah-mah-nee Visitor Center"
+      }
+    ],
+    "addresses": [
+      {
+        "line1": "21820 Lassen National Park Highway",
+        "line2": "",
+        "line3": "",
+        "city": "Mineral",
+        "stateCode": "CA",
+        "postalCode": "96063",
+        "type": "Physical"
+      },
+      {
+        "line1": "PO Box 100",
+        "line2": "",
+        "line3": "",
+        "city": "Mineral",
+        "stateCode": "CA",
+        "postalCode": "96063",
+        "type": "Mailing"
+      }
+    ],
+    "contacts": {
+      "phoneNumbers": [
+        {
+          "phoneNumber": "5305954480",
+          "description": "",
+          "extension": "",
+          "type": "Voice"
+        }
+      ],
+      "emailAddresses": [
+        {
+          "description": "General email address for park information.",
+          "emailAddress": "lavo_information@nps.gov"
+        }
+      ]
+    }
+  },
+  {
+    "id": "69CF10A4-11C2-4FAE-A320-55704CEB9F22",
+    "name": "Loomis Museum",
+    "description": "The historic museum is located one mile from the northwest entrance of the park near Manzanita Lake. From the museum you can pick up the trail around Manzanita Lake or cross the highway to access the self-guided, interpretive Lily Pond Nature Trail. Lassen Association store is across the plaza from the Museum.",
+    "location": {
+      "lat": 40.5361249155246,
+      "lon": -121.56314910773636
+    },
+    "url": "https://www.nps.gov/lavo/planyourvisit/visitorcenters.htm",
+    "images": [
+      {
+        "url": "https://www.nps.gov/common/uploads/structured_data/D4F78052-C8C3-DCC0-D4FC0B21EA479EA3.jpg",
+        "title": "Loomis Museum",
+        "altText": "A one-story stone building surrounded by a short stone wall.",
+        "caption": "The historic Loomis Museum is open late-May through October.",
+        "credit": "NPS Photo"
+      },
+      {
+        "url": "https://www.nps.gov/common/uploads/structured_data/D50B7A24-942E-A2D0-015087CE4EB95237.jpg",
+        "title": "Loomis Museum in 1933",
+        "altText": "Two one-story stone buildings amid conifer trees fronted by a dirt road.",
+        "caption": "The Loomis Museum and seismograph building were built in 1927.",
+        "credit": "NPS Photo / Art Holmes"
+      },
+      {
+        "url": "https://www.nps.gov/common/uploads/structured_data/D5243EC9-BB80-D508-4470B6D21A636965.jpg",
+        "title": "Information desk and park store",
+        "altText": "A young woman in a gray uniform shirt and a female visitor stand at a counter inside a museum.",
+        "caption": "An information desk and park store are located inside in the museum.",
+        "credit": "NPS Photo"
+      },
+      {
+        "url": "https://www.nps.gov/common/uploads/structured_data/D53BEA5D-0FA3-AE0B-AC59D2E5BF7259AA.jpg",
+        "title": "Exhibits",
+        "altText": "An exhibit hall filled with people. A male ranger talks with visitors at a 3D map in the foreground.",
+        "caption": "Exhibits detail the eruption of Lassen Peak and other geology topics.",
+        "credit": "NPS Photo"
+      },
+      {
+        "url": "https://www.nps.gov/common/uploads/structured_data/D5503635-FE6F-07F5-6FC41A639F7970EC.jpg",
+        "title": "Exhibits in 1932",
+        "altText": "A group of people including a male ranger stand inside a museum with walls lined with photos.",
+        "caption": "The Loomis Museum originally served to showcase photographs captured by Benjamin F. Loomis.",
+        "credit": "NPS Photo / Art Holmes"
+      }
+    ],
+    "operatingHours": [
+      {
+        "exceptions": [
+          {
+            "exceptionHours": {
+              "wednesday": "Closed",
+              "monday": "Closed",
+              "thursday": "Closed",
+              "sunday": "Closed",
+              "tuesday": "Closed",
+              "friday": "Closed",
+              "saturday": "Closed"
+            },
+            "startDate": "2025-10-12",
+            "name": "Off-Season Hours",
+            "endDate": "2026-05-22"
+          }
+        ],
+        "description": "Typical standard hours during the busy summer months. Hours may vary based on weather conditions, emergency situations, and staffing.",
+        "standardHours": {
+          "wednesday": "Closed",
+          "monday": "Closed",
+          "thursday": "Closed",
+          "sunday": "10:00AM - 2:00PM",
+          "tuesday": "Closed",
+          "friday": "10:00AM - 2:00PM",
+          "saturday": "10:00AM - 2:00PM"
+        },
+        "name": "Loomis Museum"
+      }
+    ],
+    "addresses": [
+      {
+        "line1": "39477 Lassen National Park Highway",
+        "line2": "",
+        "line3": "",
+        "city": "Shingletown",
+        "stateCode": "CA",
+        "postalCode": "96088",
+        "type": "Physical"
+      },
+      {
+        "line1": "PO Box 100",
+        "line2": "",
+        "line3": "",
+        "city": "Mineral",
+        "stateCode": "CA",
+        "postalCode": "96063",
+        "type": "Mailing"
+      }
+    ],
+    "contacts": {
+      "phoneNumbers": [
+        {
+          "phoneNumber": "530-595-4480",
+          "description": "",
+          "extension": "",
+          "type": "Voice"
+        }
+      ],
+      "emailAddresses": [
+        {
+          "description": "Primary email for visitor information.",
+          "emailAddress": "lavo_information@nps.gov"
+        }
+      ]
+    }
+  }
+]

@@ -2,7 +2,7 @@
   {
     "id": "07BD737D-435A-4DFB-90E2-0F1F15C69A0F",
     "name": "Avalanche Lake Trail",
-    "description": "This trail climbs steadily through an old growth forest to reach an alpine lake surrounded by spectacular waterfalls.",
+    "description": "This trail climbs through a lush old-growth forest to reach a stunning alpine lake surrounded by several dramatic waterfalls.",
     "location": {
       "lat": 48.67617977824242,
       "lon": -113.81323099136353
@@ -27,12 +27,12 @@
     "is_pet_friendly": false,
     "raw_listing_description": "The Avalanche Lake Trail begins in the same place as the Trail of the Cedars and the Avalanche Campground. The trail climbs steadily through an old growth forest to an alpine like with outstanding waterfalls.",
     "raw_body_text": "The Avalanche Lake Trail begins in the same place as the Trail of the Cedars and the Avalanche Campground. The trail climbs steadily through an old growth forest to an alpine like with outstanding waterfalls.",
-    "last_enriched": "2026-01-20T21:55:38.333700"
+    "last_enriched": "2026-01-21T08:49:42.047799"
   },
   {
     "id": "7F3DDC2C-10BE-413D-AFB1-DB39372876DF",
     "name": "Beaver Pond Loop Trailhead",
-    "description": "This loop trail winds through aspen groves, meadows, and mixed conifer stands across rolling hills, offering a scenic experience for summer hikers and winter snow enthusiasts.",
+    "description": "This relatively flat loop trail traverses through scenic aspen groves, meadows, and mixed conifer stands within rolling hills.",
     "location": {
       "lat": 48.73859493853994,
       "lon": -113.43693241166432
@@ -57,12 +57,12 @@
     "is_pet_friendly": false,
     "raw_listing_description": "In the summer, Beaver Pond Loop is a nice, relatively flat trail for hikers. In the winter, this route offers skiing and snowshoeing through aspen, meadows, and mixed conifer stands in the rolling hills east of St.",
     "raw_body_text": "The loop trail is 3 miles. In the summer, Beaver Pond Loop is a nice, relatively flat trail for hikers.",
-    "last_enriched": "2026-01-20T21:55:47.272294"
+    "last_enriched": "2026-01-21T08:49:48.104528"
   },
   {
     "id": "C07B0B96-8B25-4C03-938B-CFD1DCC424EA",
     "name": "Forest and Fire Nature Trail",
-    "description": "This educational nature trail offers insight into the history and ecological significance of wildland fire within Glacier National Park.",
+    "description": "This interpretive nature trail winds through a verdant aspen forest, offering hikers a chance to see the effects of wildland fire firsthand and learn about fire history through various exhibits.",
     "location": {
       "lat": 48.6241546252821,
       "lon": -114.13003742694855
@@ -83,16 +83,46 @@
     "route_type": null,
     "estimated_time_hours": null,
     "is_wheelchair_accessible": true,
-    "is_kid_friendly": false,
+    "is_kid_friendly": true,
     "is_pet_friendly": false,
     "raw_listing_description": "Visit the Forest and Fire Nature Trail to learn about the history and future of wildland fire in Glacier National Park.",
     "raw_body_text": "Welcome to the Forest & Fire Nature Trail. Depending on where you\u2019re from, the word \u201cwildfire\u201d can be letters on a page or...",
-    "last_enriched": "2026-01-20T21:55:53.552402"
+    "last_enriched": "2026-01-21T08:49:59.215544"
+  },
+  {
+    "id": "777F45C8-C30E-4CC7-98C3-80E2CB751F4E",
+    "name": "Forest and Fire Nature Trail Fire Ecology",
+    "description": "This short nature trail offers a unique look at Glacier's fire history, leading through a forest that has burned three times in the last century to showcase ecological recovery.",
+    "location": {
+      "lat": 48.62121266066992,
+      "lon": -114.13070440215961
+    },
+    "images": [
+      {
+        "url": "https://www.nps.gov/common/uploads/cropped_image/0D01409A-928B-4AFE-86BCA877702CE350.jpg",
+        "title": "Lodgepole Pine",
+        "altText": "A finger taps on a lodgepole pine, releasing a cloud of yellow pollen.",
+        "caption": "A lodgepole pine releasing a cloud of pollen.",
+        "credit": ""
+      }
+    ],
+    "nps_url": null,
+    "difficulty": null,
+    "length_miles": null,
+    "elevation_gain_ft": null,
+    "route_type": null,
+    "estimated_time_hours": null,
+    "is_wheelchair_accessible": false,
+    "is_kid_friendly": true,
+    "is_pet_friendly": false,
+    "raw_listing_description": "Explore a piece of fire history in Glacier on this short nature trail, through a forest that has burned 3 times in the last 100 years.",
+    "raw_body_text": "This trail is a great place to explore a post-fire environment. Any disturbance\u2014whether that\u2019s a fire, an avalanche, a landslide, or a pest outbreak\u2014resets the ecological clock.",
+    "last_enriched": "2026-01-21T08:50:07.017769"
   },
   {
     "id": "7D6DD644-FA9C-4D24-9FF1-D41038FD8B57",
     "name": "Running Eagle Falls Nature Trail",
-    "description": "This nature trail offers an exploration of native plants and their traditional uses in an area with a long history of human habitation.",
+    "description": "Explore a variety of native plants and learn about their traditional uses on this accessible nature trail that highlights the long human history of the region.",
     "location": {
       "lat": 48.497061731401594,
       "lon": -113.34929457865655
@@ -107,7 +137,7 @@
       }
     ],
     "nps_url": null,
-    "difficulty": null,
+    "difficulty": "Easy",
     "length_miles": null,
     "elevation_gain_ft": null,
     "route_type": null,
@@ -117,12 +147,12 @@
     "is_pet_friendly": false,
     "raw_listing_description": null,
     "raw_body_text": "Explore native plants and their traditional uses along this trail. People have lived in this area for centuries, long before it became a park.",
-    "last_enriched": "2026-01-20T21:56:28.235124"
+    "last_enriched": "2026-01-21T08:50:54.422796"
   },
   {
     "id": "5C304951-29EE-4E4C-AB00-1C681D700F70",
     "name": "Running Eagle Falls Trailhead",
-    "description": "This nature trail offers an accessible walk to the scenic Running Eagle Falls in the Two Medicine area of the park.",
+    "description": "This accessible nature trail leads hikers to the unique Running Eagle Falls, where a waterfall flows over the top of a rock bridge and through a sinkhole below.",
     "location": {
       "lat": 48.4960848099,
       "lon": -113.348295683
@@ -137,7 +167,7 @@
       }
     ],
     "nps_url": null,
-    "difficulty": null,
+    "difficulty": "Easy",
     "length_miles": null,
     "elevation_gain_ft": null,
     "route_type": null,
@@ -147,12 +177,12 @@
     "is_pet_friendly": false,
     "raw_listing_description": null,
     "raw_body_text": "The Running Eagle Falls Trailhead is in the Two Medicine area of the park, past the entrance station. This area offers restrooms and accesible hiking opportunities to the Running Eagle Falls and along the Running Eagle Falls Nature Trail.",
-    "last_enriched": "2026-01-20T21:56:40.451596"
+    "last_enriched": "2026-01-21T08:51:00.481212"
   },
   {
     "id": "D297A3BE-EC29-4604-80F1-7D854792D9E1",
     "name": "St. Mary Falls Trailhead",
-    "description": "This popular family-friendly hike leads visitors through world-class scenery to the spectacular St. Mary and Virginia Falls.",
+    "description": "This popular family-friendly hike leads to the stunning St. Mary and Virginia Falls, offering world-class scenery along the east side of Going-to-the-Sun Road.",
     "location": {
       "lat": 48.675122307,
       "lon": -113.604444638
@@ -177,12 +207,12 @@
     "is_pet_friendly": false,
     "raw_listing_description": null,
     "raw_body_text": "The hike to St. Mary and Virginia Falls\u2014family-friendly hikes with world-class scenery\u2014is one of the most popular day hikes on the east side of Going-to-the-Sun Road.",
-    "last_enriched": "2026-01-20T21:57:05.316164"
+    "last_enriched": "2026-01-21T08:51:25.437087"
   },
   {
     "id": "FBE848DA-BA1A-4C8A-B979-D73FADFF2818",
     "name": "Sunrift Gorge",
-    "description": "Follow a brief trail to an overlook where Baring Creek emerges from a magnificent 800-foot long and 80-foot deep gorge.",
+    "description": "A short trail leads to an overlook where Baring Creek emerges from a magnificent 800-foot long, 80-foot deep gorge.",
     "location": {
       "lat": 48.6788866562,
       "lon": -113.595427368
@@ -207,12 +237,12 @@
     "is_pet_friendly": false,
     "raw_listing_description": null,
     "raw_body_text": "A short, 200 foot trail leads to an overlook where Baring Creek makes exits a magnificent 800-foot long, 80-foot deep gorge. This is also an alternate starting point on the Siyeh Pass Trail, although thanks to it's higher elevation starting point, the most popular place to start this hike is from Siyeh Bend.",
-    "last_enriched": "2026-01-20T21:57:19.020078"
+    "last_enriched": "2026-01-21T08:52:06.320637"
   },
   {
     "id": "651F473D-CEAE-4976-9B48-815B197AA7C9",
     "name": "Trail of the Cedars",
-    "description": "This peaceful boardwalk nature trail winds through old-growth cedars along Avalanche Creek to views of the powerful Avalanche Gorge.",
+    "description": "Wander through old-growth cedars on this peaceful boardwalk trail along Avalanche Creek and witness the powerful force of water at Avalanche Gorge.",
     "location": {
       "lat": 48.680593166292276,
       "lon": -113.81876170635223
@@ -237,6 +267,6 @@
     "is_pet_friendly": false,
     "raw_listing_description": "Trail of the Cedars is a peaceful boardwalk nature trail along Avalanche Creek. Follow the boardwalk through old growth cedars, listen to the American dippers, see the powerful force of water carving the Avalanche Gorge.",
     "raw_body_text": "Trail of the Cedars is a peaceful boardwalk nature trail along Avalanche Creek. Follow the boardwalk through old growth cedars, listen to the American dippers, see the powerful force of water carving the Avalanche Gorge.",
-    "last_enriched": "2026-01-20T21:57:37.808054"
+    "last_enriched": "2026-01-21T08:52:24.368611"
   }
 ]

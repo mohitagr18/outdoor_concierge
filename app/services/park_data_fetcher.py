@@ -296,12 +296,38 @@ class ParkDataFetcher:
         if progress_callback:
             progress_callback(0, 2, "Classifying trail candidates...")
         
-        # Load raw places and thingstodo from fixtures
-        places_raw = self.data_manager.load_fixture(park_code, "places.json")
-        things_raw = self.data_manager.load_fixture(park_code, "things_to_do.json")
+        # Load raw places and thingstodo from RAW directory (to avoid pre-filtered fixtures)
+        raw_dir = f"data_samples/nps/raw/{park_code}"
+        
+        places_path = f"{raw_dir}/places.json"
+        places_raw = []
+        if os.path.exists(places_path):
+            try:
+                with open(places_path, 'r') as f:
+                    data = json.load(f)
+                    # Handle typical NPS API structure (dict with 'data' or list)
+                    places_raw = data.get('data', []) if isinstance(data, dict) else data
+            except Exception as e:
+                logger.error(f"Failed to load raw places.json: {e}")
+        
+        things_path = f"{raw_dir}/thingstodo.json"
+        things_raw = []
+        if os.path.exists(things_path):
+            try:
+                with open(things_path, 'r') as f:
+                    data = json.load(f)
+                    things_raw = data.get('data', []) if isinstance(data, dict) else data
+            except Exception as e:
+                logger.error(f"Failed to load raw thingstodo.json: {e}")
         
         if not places_raw and not things_raw:
-            raise FileNotFoundError(f"No places or things_to_do data found for {park_code}")
+             # Fallback to fixtures if raw files missing (backward compatibility)
+             logger.warning(f"⚠️ Raw data missing for {park_code}, falling back to fixtures (may be filtered)")
+             places_raw = self.data_manager.load_fixture(park_code, "places.json")
+             things_raw = self.data_manager.load_fixture(park_code, "things_to_do.json")
+             
+             if not places_raw and not things_raw:
+                raise FileNotFoundError(f"No places or things_to_do data found for {park_code}")
         
         # Combine items
         combined_items = {}

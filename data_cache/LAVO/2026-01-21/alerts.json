@@ -1,0 +1,38 @@
+[
+  {
+    "id": "87E8F978-1454-4AA0-8D4F-82C6EC05ED9B",
+    "parkCode": "lavo",
+    "title": "Lassen National Park Highway Closed for Winter",
+    "description": "The main park road (Hwy 89) is closed at Kohm Yah-mah-nee Visitor Center (southwest entrance) and Loomis Plaza (northwest entrance) for the snow season. The road will not reopen until late spring or early summer. Please use caution if driving to the park and check weather forecasts.",
+    "category": "Park Closure",
+    "url": "https://www.nps.gov/lavo/planyourvisit/weather.htm",
+    "lastIndexedDate": "2026-01-05 00:00:00.0"
+  },
+  {
+    "id": "5C320303-369F-42C5-B441-CED863E56495",
+    "parkCode": "lavo",
+    "title": "Roads to Butte Lake, Juniper Lake, and Warner Valley Closed for Winter",
+    "description": "Roads to Butte Lake, Juniper Lake, and Warner Valley areas are closed to vehicle access due to snow. Roads leading to Juniper Lake and Warner Valley sustained significant damage outside of the park with no ETA for repair. *Note: snow machine use is prohibited within the boundaries of Lassen Volcanic National Park.",
+    "category": "Park Closure",
+    "url": "https://www.nps.gov/lavo/planyourvisit/weather.htm",
+    "lastIndexedDate": "2025-12-29 00:00:00.0"
+  },
+  {
+    "id": "7624377B-9B6F-44F0-BE7A-5CC934817D7F",
+    "parkCode": "lavo",
+    "title": "Visitor Phone Line Intermittent",
+    "description": "You may experience problems reaching park staff via the main visitor phone line which functions intermittently. You may email the park at lavo_information@nps.gov with general park questions.",
+    "category": "Information",
+    "url": "",
+    "lastIndexedDate": "2024-10-04 19:23:25.0"
+  },
+  {
+    "id": "97610115-F5A7-4709-AAB7-90B098103399",
+    "parkCode": "lavo",
+    "title": "Lasting Effects from 2021 Dixie Fire",
+    "description": "Some facilities, infrastructure, and areas remain closed; please adhere to all closure signs. In re-opened areas, hazards like fallen trees, loose/falling rock, undefined trails, and hidden stump holes exist. Click more to learn about burned area safety.",
+    "category": "Caution",
+    "url": "https://www.nps.gov/lavo/planyourvisit/burned-area-safety.htm",
+    "lastIndexedDate": "2024-08-26 14:22:22.0"
+  }
+]

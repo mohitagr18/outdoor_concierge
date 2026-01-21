@@ -1,0 +1,26 @@
+[
+  {
+    "id": "81B4627F-1DD8-B71B-0BEBCC5B1768D617",
+    "title": "Manzanita Lake Webcam",
+    "description": "This webcam remains offline. The original webcam was destroyed by lightning strikes. In addition, the original infrastructure for the webcam no longer supports connection to one. If Starlink can be obtained, then it is a possibility to reinstall a webcam at Manzanita Lake.",
+    "url": "https://www.nps.gov/media/webcam/view.htm?id=81B4627F-1DD8-B71B-0BEBCC5B1768D617",
+    "imageUrl": null,
+    "isStreaming": false,
+    "status": "Inactive",
+    "relatedParks": [
+      "lavo"
+    ]
+  },
+  {
+    "id": "9DFC6A5A-04A9-4982-806C-26C2B9FEC6D4",
+    "title": "Kohm Yah-mah-nee Visitor Center Webcam",
+    "description": "This is the view *looking north from the Kohm Yah-mah-nee Visitor Center at Lassen Volcanic National Park. The peak to the left is Mt. Diller and Pilot Pinnacle sits to its right. On cool days, it is possible to see steam rising from the Sulphur Works hydrothermal area.",
+    "url": "https://www.nps.gov/media/webcam/view.htm?id=9DFC6A5A-04A9-4982-806C-26C2B9FEC6D4",
+    "imageUrl": null,
+    "isStreaming": false,
+    "status": "Active",
+    "relatedParks": [
+      "lavo"
+    ]
+  }
+]

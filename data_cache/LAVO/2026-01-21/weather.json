@@ -1,0 +1,41 @@
+{
+  "parkCode": "lavo",
+  "current_temp_f": 30.7,
+  "current_condition": "Cloudy",
+  "wind_mph": 4.3,
+  "humidity": 93,
+  "forecast": [
+    {
+      "date": "2026-01-21",
+      "maxtemp_f": 49.6,
+      "mintemp_f": 33.3,
+      "avgtemp_f": 41.9,
+      "daily_chance_of_rain": 0,
+      "condition": "Overcast ",
+      "uv": 0.4
+    },
+    {
+      "date": "2026-01-22",
+      "maxtemp_f": 50.7,
+      "mintemp_f": 26.5,
+      "avgtemp_f": 42.2,
+      "daily_chance_of_rain": 0,
+      "condition": "Partly Cloudy ",
+      "uv": 0.5
+    },
+    {
+      "date": "2026-01-23",
+      "maxtemp_f": 48.2,
+      "mintemp_f": 25.3,
+      "avgtemp_f": 37.1,
+      "daily_chance_of_rain": 0,
+      "condition": "Sunny",
+      "uv": 0.5
+    }
+  ],
+  "sunrise": "07:24 AM",
+  "sunset": "05:12 PM",
+  "weather_alerts": [],
+  "zones": [],
+  "base_zone": null
+}

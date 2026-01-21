@@ -1,0 +1,116 @@
+{
+  "Valley Floor": {
+    "zone_name": "Valley Floor",
+    "elevation_ft": 6253,
+    "current_temp_f": 26.1,
+    "current_condition": "Overcast",
+    "wind_mph": 3.1,
+    "humidity": 77,
+    "forecast": [
+      {
+        "date": "2026-01-21",
+        "maxtemp_f": 28.9,
+        "mintemp_f": 17.4,
+        "avgtemp_f": 22.7,
+        "daily_chance_of_rain": 0,
+        "condition": "Sunny",
+        "uv": 0.2
+      },
+      {
+        "date": "2026-01-22",
+        "maxtemp_f": 19.8,
+        "mintemp_f": 7.3,
+        "avgtemp_f": 14.3,
+        "daily_chance_of_rain": 0,
+        "condition": "Partly Cloudy ",
+        "uv": 0.2
+      },
+      {
+        "date": "2026-01-23",
+        "maxtemp_f": 19.6,
+        "mintemp_f": 5.9,
+        "avgtemp_f": 10.9,
+        "daily_chance_of_rain": 0,
+        "condition": "Partly Cloudy ",
+        "uv": 0.3
+      }
+    ],
+    "delta_from_base": 0.0
+  },
+  "Mid-Elevation": {
+    "zone_name": "Mid-Elevation",
+    "elevation_ft": 6269,
+    "current_temp_f": 26.1,
+    "current_condition": "Overcast",
+    "wind_mph": 3.1,
+    "humidity": 77,
+    "forecast": [
+      {
+        "date": "2026-01-21",
+        "maxtemp_f": 28.9,
+        "mintemp_f": 17.4,
+        "avgtemp_f": 22.7,
+        "daily_chance_of_rain": 0,
+        "condition": "Sunny",
+        "uv": 0.2
+      },
+      {
+        "date": "2026-01-22",
+        "maxtemp_f": 19.8,
+        "mintemp_f": 7.3,
+        "avgtemp_f": 14.3,
+        "daily_chance_of_rain": 0,
+        "condition": "Partly Cloudy ",
+        "uv": 0.2
+      },
+      {
+        "date": "2026-01-23",
+        "maxtemp_f": 19.6,
+        "mintemp_f": 5.9,
+        "avgtemp_f": 10.9,
+        "daily_chance_of_rain": 0,
+        "condition": "Partly Cloudy ",
+        "uv": 0.3
+      }
+    ],
+    "delta_from_base": null
+  },
+  "High Country": {
+    "zone_name": "High Country",
+    "elevation_ft": 5134,
+    "current_temp_f": 30.1,
+    "current_condition": "Overcast",
+    "wind_mph": 3.1,
+    "humidity": 77,
+    "forecast": [
+      {
+        "date": "2026-01-21",
+        "maxtemp_f": 28.9,
+        "mintemp_f": 17.4,
+        "avgtemp_f": 22.7,
+        "daily_chance_of_rain": 0,
+        "condition": "Sunny",
+        "uv": 0.2
+      },
+      {
+        "date": "2026-01-22",
+        "maxtemp_f": 19.8,
+        "mintemp_f": 7.3,
+        "avgtemp_f": 14.3,
+        "daily_chance_of_rain": 0,
+        "condition": "Partly Cloudy ",
+        "uv": 0.2
+      },
+      {
+        "date": "2026-01-23",
+        "maxtemp_f": 19.6,
+        "mintemp_f": 5.9,
+        "avgtemp_f": 10.9,
+        "daily_chance_of_rain": 0,
+        "condition": "Partly Cloudy ",
+        "uv": 0.3
+      }
+    ],
+    "delta_from_base": 4.0
+  }
+}

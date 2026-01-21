@@ -2,20 +2,11 @@
   "Amphitheater": {
     "zone_name": "Amphitheater",
     "elevation_ft": 8000,
-    "current_temp_f": 19.0,
+    "current_temp_f": 10.9,
     "current_condition": "Clear",
-    "wind_mph": 5.1,
-    "humidity": 42,
+    "wind_mph": 4.5,
+    "humidity": 70,
     "forecast": [
-      {
-        "date": "2026-01-20",
-        "maxtemp_f": 46.4,
-        "mintemp_f": 21.6,
-        "avgtemp_f": 31.0,
-        "daily_chance_of_rain": 0,
-        "condition": "Sunny",
-        "uv": 0.6
-      },
       {
         "date": "2026-01-21",
         "maxtemp_f": 47.1,
@@ -33,6 +24,15 @@
         "daily_chance_of_rain": 0,
         "condition": "Overcast ",
         "uv": 0.4
+      },
+      {
+        "date": "2026-01-23",
+        "maxtemp_f": 41.7,
+        "mintemp_f": 31.2,
+        "avgtemp_f": 35.6,
+        "daily_chance_of_rain": 0,
+        "condition": "Partly Cloudy ",
+        "uv": 0.5
       }
     ],
     "delta_from_base": null
@@ -40,20 +40,11 @@
   "High Plateau": {
     "zone_name": "High Plateau",
     "elevation_ft": 9100,
-    "current_temp_f": 15.1,
+    "current_temp_f": 7.0,
     "current_condition": "Clear",
-    "wind_mph": 5.1,
-    "humidity": 42,
+    "wind_mph": 4.5,
+    "humidity": 70,
     "forecast": [
-      {
-        "date": "2026-01-20",
-        "maxtemp_f": 46.4,
-        "mintemp_f": 21.6,
-        "avgtemp_f": 31.0,
-        "daily_chance_of_rain": 0,
-        "condition": "Sunny",
-        "uv": 0.6
-      },
       {
         "date": "2026-01-21",
         "maxtemp_f": 47.1,
@@ -71,6 +62,15 @@
         "daily_chance_of_rain": 0,
         "condition": "Overcast ",
         "uv": 0.4
+      },
+      {
+        "date": "2026-01-23",
+        "maxtemp_f": 41.7,
+        "mintemp_f": 31.2,
+        "avgtemp_f": 35.6,
+        "daily_chance_of_rain": 0,
+        "condition": "Partly Cloudy ",
+        "uv": 0.5
       }
     ],
     "delta_from_base": -3.9
@@ -78,20 +78,11 @@
   "Northern Canyon": {
     "zone_name": "Northern Canyon",
     "elevation_ft": 7200,
-    "current_temp_f": 21.8,
+    "current_temp_f": 13.7,
     "current_condition": "Clear",
-    "wind_mph": 5.1,
-    "humidity": 42,
+    "wind_mph": 4.5,
+    "humidity": 70,
     "forecast": [
-      {
-        "date": "2026-01-20",
-        "maxtemp_f": 46.4,
-        "mintemp_f": 21.6,
-        "avgtemp_f": 31.0,
-        "daily_chance_of_rain": 0,
-        "condition": "Sunny",
-        "uv": 0.6
-      },
       {
         "date": "2026-01-21",
         "maxtemp_f": 47.1,
@@ -109,6 +100,15 @@
         "daily_chance_of_rain": 0,
         "condition": "Overcast ",
         "uv": 0.4
+      },
+      {
+        "date": "2026-01-23",
+        "maxtemp_f": 41.7,
+        "mintemp_f": 31.2,
+        "avgtemp_f": 35.6,
+        "daily_chance_of_rain": 0,
+        "condition": "Partly Cloudy ",
+        "uv": 0.5
       }
     ],
     "delta_from_base": 2.8

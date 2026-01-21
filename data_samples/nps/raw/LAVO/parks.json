@@ -1,0 +1,101 @@
+{
+  "parkCode": "lavo",
+  "fullName": "Lassen Volcanic National Park",
+  "description": "Lassen Volcanic National Park is home to steaming fumaroles, meadows freckled with wildflowers, clear mountain lakes, and numerous volcanoes. Jagged peaks tell the story of its eruptive past while hot water continues to shape the land.",
+  "location": {
+    "lat": 40.49354575,
+    "lon": -121.4075993
+  },
+  "contacts": {
+    "phoneNumbers": [
+      {
+        "phoneNumber": "530 595 6100",
+        "description": "",
+        "extension": "",
+        "type": "Voice"
+      }
+    ],
+    "emailAddresses": [
+      {
+        "description": "",
+        "emailAddress": "lavo_information@nps.gov"
+      }
+    ]
+  },
+  "operatingHours": [
+    {
+      "exceptions": [],
+      "description": "The park is always open. Road access is limited during the winter season, approximately November through May, due to snow.",
+      "standardHours": {
+        "wednesday": "All Day",
+        "monday": "All Day",
+        "thursday": "All Day",
+        "sunday": "All Day",
+        "tuesday": "All Day",
+        "friday": "All Day",
+        "saturday": "All Day"
+      },
+      "name": "Entire park, all entrances"
+    }
+  ],
+  "url": "https://www.nps.gov/lavo/index.htm",
+  "images": [
+    {
+      "url": "https://www.nps.gov/common/uploads/structured_data/3C873811-1DD8-B71B-0B9C62ED8E12E7B5.jpg",
+      "title": "Winter at Manzanita Lake",
+      "altText": "A frozen lake below snow-covered trees and peak",
+      "caption": "With over 30 feet of snowfall annually, Lassen provides numerous opportunities for winter recreation.",
+      "credit": "NPS Photo / Scott Arnaz"
+    },
+    {
+      "url": "https://www.nps.gov/common/uploads/structured_data/3C8739BB-1DD8-B71B-0B8336A925B1A6C7.jpg",
+      "title": "Hat Creek",
+      "altText": "Golden grasses edge a pond reflecting a snow-dusted peak",
+      "caption": "Lassen Volcanic's rugged volcanic landscape is softened by numerous meadows, lakes, and creeks.",
+      "credit": "NPS Photo / Amanda Sweeney"
+    },
+    {
+      "url": "https://www.nps.gov/common/uploads/structured_data/3C873B2E-1DD8-B71B-0B28C044BC4B9DC6.jpg",
+      "title": "Bumpass Hell",
+      "altText": "A boardwalk passes through a colorful, steaming hydrothermal basin.",
+      "caption": "A 3-mile round-trip trail leads to Bumpass Hell, the largest of the park's hydrothermal areas.",
+      "credit": "NPS Photo"
+    },
+    {
+      "url": "https://www.nps.gov/common/uploads/structured_data/3C873CC3-1DD8-B71B-0B076FC2806DF140.jpg",
+      "title": "Brokeoff Panorama",
+      "altText": "Two hikers sit on a mountain top with a view of multiple peaks, dotted with patches of snow",
+      "caption": "Over 150 miles of trails let you choose your adventure.",
+      "credit": "NPS Photo"
+    },
+    {
+      "url": "https://www.nps.gov/common/uploads/structured_data/3C873E3A-1DD8-B71B-0BBD47F2E441D2F7.jpg",
+      "title": "Deep Blue",
+      "altText": "A volcanic peak rises above a tree-lined, deep blue lake.",
+      "caption": "Lassen Peak stands out boldly between the bright blue sky and the sapphire hue of Lake Helen.",
+      "credit": "NPS Photo"
+    },
+    {
+      "url": "https://www.nps.gov/common/uploads/structured_data/3C874252-1DD8-B71B-0B6BC0D39B9A51C2.jpg",
+      "title": "A Fisherman's Paradise",
+      "altText": "A fisherman casts a line from a boat below a snow-dotted volcanic peak.",
+      "caption": "Manzanita Lake offers spectacular catch-and-release fishing in the shadow of volcanoes.",
+      "credit": "NPS Photo"
+    },
+    {
+      "url": "https://www.nps.gov/common/uploads/structured_data/3C8743DC-1DD8-B71B-0B1DE16014F1A63F.jpg",
+      "title": "Lassen Peak Eruption",
+      "altText": "An ash cloud rises above a volcano with an early 19th century vehicle at the forefront.",
+      "caption": "A large, explosive eruption of Lassen Peak brought national attention and set the stage for the establishment of Lassen Peak.",
+      "credit": "NPS Photo / B.F. Loomis"
+    }
+  ],
+  "campgrounds": [],
+  "visitor_centers": [],
+  "webcams": [],
+  "places": [],
+  "things_to_do": [],
+  "passport_stamps": [],
+  "weather_zones": [],
+  "base_weather_zone": null
+}

@@ -15,6 +15,7 @@ SUPPORTED_PARKS = {
     "brca": "Bryce Canyon National Park",  # ✅ Full data support
     "glac": "Glacier National Park",       # ✅ Full data support
     "grsm": "Great Smoky Mountains National Park", # ✅ Full data support
+    "lavo": "Lassen Volcanic National Park",
     "yose": "Yosemite National Park",      # ✅ Full data support
     "zion": "Zion National Park",          # ✅ Full data support
 }

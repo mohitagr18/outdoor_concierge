@@ -128,6 +128,22 @@ def extract_trail_stats(trail_item: Dict[str, Any], client: genai.Client) -> Opt
     amenities_text = ", ".join(amenities) if amenities else ""
     if amenities_text:
         desc_context += f"\n\nAmenities: {amenities_text}"
+
+    # CRITICAL: Add image captions/titles as they often contain hike stats (e.g. "Hike 6.5 miles roundtrip")
+    images = trail_item.get("images", [])
+    if images:
+        image_texts = []
+        for img in images:
+            parts = [img.get("title"), img.get("caption"), img.get("altText")]
+            # Filter out empty/null and join unique parts
+            valid = [p for p in parts if p and len(p) > 5] 
+            if valid:
+                image_texts.extend(valid)
+        
+        if image_texts:
+            # unique text only to save context
+            unique_img_text = ". ".join(sorted(set(image_texts)))
+            desc_context += f"\n\nImage Info: {unique_img_text}"
     
     # Pre-Computation Heuristic:
     if len(desc_context) < 50:
@@ -138,7 +154,13 @@ def extract_trail_stats(trail_item: Dict[str, Any], client: genai.Client) -> Opt
         f"Title: '{title}'\n"
         f"Description: {desc_context[:4000]}\n\n"
         "Instructions:\n"
-        "1. DECIDE: Is this a hiking trail, route, or walking path? (True/False)\n"
+        "1. DECIDE: Is this a SPECIFIC hiking trail or walking path? (True/False)\n"
+        "   - RETURN FALSE if it is a 'Day Use Area', 'Campground', 'Visitor Center', 'Parking Area'.\n"
+        "   - RETURN FALSE if it is a DRIVE-UP Overlook or Viewpoint (e.g. 'Sunset Point', 'Yovimpa Point') unless it explicitly describes a significant hike *starting* from there.\n"
+        "   - RETURN FALSE if it is a Ranger Program, Event, or Tour (e.g. 'Full Moon Hike', 'Rim Walk with a Ranger').\n"
+        "   - RETURN FALSE if it is a geological feature or point of interest without describing the trail to get there (e.g. 'Thor\\'s Hammer').\n"
+        "   - RETURN FALSE if it is a collection of routes (e.g. 'Southwest Area Winter Routes').\n"
+        "   - RETURN TRUE ONLY for specific, named hiking trails or defined walking loops.\n"
         "2. IF TRUE, extract metrics:\n"
         "   - 'difficulty' (Easy, Moderate, or Strenuous; can be null if not explicitly stated)\n"
         "   - 'length_miles' (numeric)\n"

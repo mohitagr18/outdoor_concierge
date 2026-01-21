@@ -1,0 +1,272 @@
+[
+  {
+    "id": "43439A67-075C-403B-B55E-ED6CBD824003",
+    "name": "Cinder Cone Trail",
+    "description": "Hike through unique volcanic cinders to reach the summit of a striking cinder cone volcano, offering panoramic views and a look into the crater.",
+    "location": {
+      "lat": 40.5637878105,
+      "lon": -121.30220981
+    },
+    "images": [
+      {
+        "url": "https://www.nps.gov/common/uploads/cropped_image/6627D5A5-0765-213E-4954DCBF99C1EB5E.jpg",
+        "title": "Cinder Cone Trail",
+        "altText": "A panoramic view of a cinder cone volcano with sparse conifers at its edges. Two hikers walk on a su",
+        "caption": "The base of Cinder Cone volcano from the trail.",
+        "credit": ""
+      }
+    ],
+    "nps_url": "https://www.nps.gov/cali/index.htm",
+    "difficulty": "Strenuous",
+    "length_miles": 4.0,
+    "elevation_gain_ft": 846,
+    "route_type": "Out & Back",
+    "estimated_time_hours": "3 hours",
+    "is_wheelchair_accessible": false,
+    "is_kid_friendly": false,
+    "is_pet_friendly": false,
+    "raw_listing_description": "Enjoy a hike to the base or summit of this striking cinder cone volcano.",
+    "raw_body_text": "Start: Butte Lake parking area Round-Trip Distance to Base: 2.4 miles Round Trip Distance to Summit: 4 miles Round-Trip Time: 3 hours Elevation Change: 846 ft Elevation: 6,061 - 6,907 feet Trail Surface: Cinders (similar to course sand) Season: Approximately June through November Hike to the base or summit of the dramatic Cinder Cone volcano via this popular trail in the Butte Lake Area. The sand-like cinders on this trail make the hike challenging, especially when climbing the steep 200-foot ascent to the summit.",
+    "last_enriched": "2026-01-21T08:46:57.338172"
+  },
+  {
+    "id": "6EC45499-0614-47FD-88FA-99030DE130C0",
+    "name": "Hike to Bumpass Hell",
+    "description": "This scenic three-mile trail leads to the park's largest hydrothermal area, where hikers can observe active boiling pools and steaming vents. The path offers a descent into a fascinating volcanic basin after providing an expansive overlook of the geothermal features.",
+    "location": {
+      "lat": 0.0,
+      "lon": 0.0
+    },
+    "images": [
+      {
+        "url": "https://www.nps.gov/common/uploads/cropped_image/AF2554D6-E2E8-061C-B230DA644291DFB9.jpg",
+        "title": "Bumpass Hell Trail",
+        "altText": "Four young kids hiking on a trail backed by a large volcanic peak and rocky, tree-lined slopes.",
+        "caption": "Bumpass Hell Trail is popular with hikers of all ages.",
+        "credit": ""
+      }
+    ],
+    "nps_url": null,
+    "difficulty": "Easy",
+    "length_miles": 3.0,
+    "elevation_gain_ft": 200,
+    "route_type": "Out & Back",
+    "estimated_time_hours": "2 hours",
+    "is_wheelchair_accessible": false,
+    "is_kid_friendly": true,
+    "is_pet_friendly": false,
+    "raw_listing_description": null,
+    "raw_body_text": null,
+    "last_enriched": "2026-01-21T08:48:07.965831"
+  },
+  {
+    "id": "7CE845F7-EA22-48FA-8674-3AF41BFB250D",
+    "name": "Hike to Kings Creek Falls",
+    "description": "This loop trail descends through the Upper Cascades to a 30-foot waterfall surrounded by lush ferns and mist-loving greenery. Hikers return via a steep, narrow stone staircase that offers close views of the rushing cascades.",
+    "location": {
+      "lat": 0.0,
+      "lon": 0.0
+    },
+    "images": [
+      {
+        "url": "https://www.nps.gov/common/uploads/cropped_image/B62631A6-F8E6-BB47-FD6744A83EE077E0.jpg",
+        "title": "Kings Creek Falls Overlook",
+        "altText": "A fenced overlook above a 30-foot-high waterfall.",
+        "caption": "Kings Creek Falls overlook provides a safe view of the 30-foot-high waterfall.",
+        "credit": ""
+      }
+    ],
+    "nps_url": null,
+    "difficulty": "Easy",
+    "length_miles": 2.3,
+    "elevation_gain_ft": 486,
+    "route_type": "Loop",
+    "estimated_time_hours": "2 hours",
+    "is_wheelchair_accessible": false,
+    "is_kid_friendly": false,
+    "is_pet_friendly": false,
+    "raw_listing_description": null,
+    "raw_body_text": null,
+    "last_enriched": "2026-01-21T08:48:31.229765"
+  },
+  {
+    "id": "9DDE02C4-5A8C-4A46-980F-48AD4955D771",
+    "name": "Hike Lassen Peak",
+    "description": "This strenuous trail climbs to the summit of one of the world's largest plug dome volcanoes, offering continuous panoramic views of the surrounding wilderness. Hikers ascend through twisted mountain hemlock and whitebark pine trees across volcanic cinders.",
+    "location": {
+      "lat": 0.0,
+      "lon": 0.0
+    },
+    "images": [
+      {
+        "url": "https://www.nps.gov/common/uploads/cropped_image/6270F01C-03B7-77BC-ED941A4F5DB795DB.jpg",
+        "title": "Lassen Peak Trail",
+        "altText": "A family hikes up a rocky a trail above a bright blue alpine lake and distance volcanic peaks.",
+        "caption": "Lassen Peak Trail features continuous, panoramic views.",
+        "credit": ""
+      }
+    ],
+    "nps_url": null,
+    "difficulty": "Strenuous",
+    "length_miles": 5.0,
+    "elevation_gain_ft": 1957,
+    "route_type": "Out & Back",
+    "estimated_time_hours": "4-5 hours",
+    "is_wheelchair_accessible": false,
+    "is_kid_friendly": false,
+    "is_pet_friendly": false,
+    "raw_listing_description": null,
+    "raw_body_text": null,
+    "last_enriched": "2026-01-21T08:48:38.457532"
+  },
+  {
+    "id": "A25ADC8E-21E2-4157-A974-172DF4C4E210",
+    "name": "Hike Reflection Lake Loop",
+    "description": "This easy loop circles Reflection Lake, providing hikers with stunning views of Lassen Peak and Chaos Crags often reflected in the water.",
+    "location": {
+      "lat": 0.0,
+      "lon": 0.0
+    },
+    "images": [
+      {
+        "url": "https://www.nps.gov/common/uploads/cropped_image/2B6109E1-99EC-A367-78C99D830340B14D.jpg",
+        "title": "Lassen Peak from Reflection Lake Trail",
+        "altText": "Lassen Peak and Reflection Lake as seen from the Reflection Lake Trail",
+        "caption": "Reflection Lake Trail Rewards with Views of Lassen Peak",
+        "credit": "NPS Photo"
+      }
+    ],
+    "nps_url": null,
+    "difficulty": "Easy",
+    "length_miles": 0.5,
+    "elevation_gain_ft": 0,
+    "route_type": "Loop",
+    "estimated_time_hours": "0.5 hours",
+    "is_wheelchair_accessible": false,
+    "is_kid_friendly": true,
+    "is_pet_friendly": false,
+    "raw_listing_description": null,
+    "raw_body_text": null,
+    "last_enriched": "2026-01-21T08:48:46.769087"
+  },
+  {
+    "id": "C4CF7CA2-FD55-4F5E-A7DE-0EAFF0AC7711",
+    "name": "Walk Manzanita Lake Trail",
+    "description": "This easy loop trail circles Manzanita Lake and offers hikers stunning scenic views of Lassen Peak and Chaos Crags.",
+    "location": {
+      "lat": 40.5316815383616,
+      "lon": -121.564704862469
+    },
+    "images": [
+      {
+        "url": "https://www.nps.gov/common/uploads/cropped_image/1B256E67-EE93-5A94-2BD9B61FAFD05231.jpg",
+        "title": "Manzanita Lake Trail",
+        "altText": "A looks out on a brush-lined lake backed by volcanic peaks.",
+        "caption": "Manzanita Lake Loop affords spectacular views of Chaos Crags and Lassen Peak.",
+        "credit": ""
+      }
+    ],
+    "nps_url": null,
+    "difficulty": "Easy",
+    "length_miles": 1.7,
+    "elevation_gain_ft": 0,
+    "route_type": "Loop",
+    "estimated_time_hours": "1 hour",
+    "is_wheelchair_accessible": false,
+    "is_kid_friendly": true,
+    "is_pet_friendly": false,
+    "raw_listing_description": null,
+    "raw_body_text": null,
+    "last_enriched": "2026-01-21T08:48:58.055714"
+  },
+  {
+    "id": "EED07916-5F58-4267-AA40-228A86395ACA",
+    "name": "Walk Lily Pond Interpretive Trail",
+    "description": "This self-led interpretive loop explores the rich diversity of plant and animal life around a scenic pond in a unique volcanic landscape.",
+    "location": {
+      "lat": 40.5365474398659,
+      "lon": -121.563173601929
+    },
+    "images": [
+      {
+        "url": "https://www.nps.gov/common/uploads/cropped_image/5166D4DB-C58A-970E-A2A2326011B5B44F.jpg",
+        "title": "Lily Pond",
+        "altText": "A pond covered in green plants lined by grass and surrounded by conifers.",
+        "caption": "Lily Pond along the Lily Pond Interpretive Trail",
+        "credit": ""
+      }
+    ],
+    "nps_url": null,
+    "difficulty": "Easy",
+    "length_miles": 0.5,
+    "elevation_gain_ft": 0,
+    "route_type": "Loop",
+    "estimated_time_hours": "1 hour",
+    "is_wheelchair_accessible": false,
+    "is_kid_friendly": true,
+    "is_pet_friendly": false,
+    "raw_listing_description": null,
+    "raw_body_text": null,
+    "last_enriched": "2026-01-21T08:49:08.542999"
+  },
+  {
+    "id": "0C4CD34C-28D4-4119-A6AD-B7FBC94E1C58",
+    "name": "Walk Devastated Area Interpretive Trail",
+    "description": "This short interpretive loop features trailside signs explaining the impact of the 1915-1916 Lassen Peak eruption on the surrounding landscape.",
+    "location": {
+      "lat": 0.0,
+      "lon": 0.0
+    },
+    "images": [
+      {
+        "url": "https://www.nps.gov/common/uploads/cropped_image/E48AE0DA-BC85-92FA-5148E08BBE35AB90.jpg",
+        "title": "Devastated Area Trail",
+        "altText": "A girl and a woman stand next to a boulder and interpretive sign on a walkway.",
+        "caption": "Trailside signs describe the 1915-1916 Lassen Peak eruption that created the Devastated Area.",
+        "credit": ""
+      }
+    ],
+    "nps_url": null,
+    "difficulty": "Easy",
+    "length_miles": 0.2,
+    "elevation_gain_ft": null,
+    "route_type": "Loop",
+    "estimated_time_hours": "15 minutes",
+    "is_wheelchair_accessible": true,
+    "is_kid_friendly": true,
+    "is_pet_friendly": false,
+    "raw_listing_description": null,
+    "raw_body_text": null,
+    "last_enriched": "2026-01-21T08:49:15.171790"
+  },
+  {
+    "id": "71000316-5573-4205-B397-6330FB9896D0",
+    "name": "Visit Sulphur Works in Winter",
+    "description": "This two-mile round-trip over-snow route leads to the Sulphur Works hydrothermal area, where visitors can view active boiling mudpots and hissing steam vents in a winter landscape.",
+    "location": {
+      "lat": 0.0,
+      "lon": 0.0
+    },
+    "images": [
+      {
+        "url": "https://www.nps.gov/common/uploads/cropped_image/DCC1C589-FD17-7748-BE2BB32D54FBD68C.jpg",
+        "title": "Snowshoer at Sulphur Works",
+        "altText": "A woman on showshoes takes a photo of a large mudpot in a mountain landscape.",
+        "caption": "Enjoy the sights, sounds, and scents of Sulphur Works.",
+        "credit": ""
+      }
+    ],
+    "nps_url": null,
+    "difficulty": "Easy",
+    "length_miles": 2.0,
+    "elevation_gain_ft": null,
+    "route_type": "Out & Back",
+    "estimated_time_hours": null,
+    "is_wheelchair_accessible": false,
+    "is_kid_friendly": false,
+    "is_pet_friendly": false,
+    "raw_listing_description": null,
+    "raw_body_text": null,
+    "last_enriched": "2026-01-21T08:49:24.513690"
+  }
+]
