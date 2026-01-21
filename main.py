@@ -65,7 +65,7 @@ st.markdown("""
         🚀 Demo Version
     </h3>
     <p style="font-size: 0.85rem; line-height: 1.4; margin-bottom: 0.8rem; color: #374151;">
-        Features 5 curated parks: <br>
+        Features 6 curated parks: <br>
         <strong>Zion, Yosemite, Glacier, Bryce, Great Smoky Mts, Lassen Volcanic</strong>.
     </p>
     <div style="display: flex; gap: 0.5rem; align-items: center;">
