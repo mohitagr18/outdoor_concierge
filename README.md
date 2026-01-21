@@ -264,6 +264,7 @@ This demo version supports **5 curated US National Parks** with full data (trail
 | Bryce Canyon | `brca` | ✅ Full data |
 | Glacier | `glac` | ✅ Full data |
 | Great Smoky Mountains | `grsm` | ✅ Full data |
+| Lassen Volcanic | `lavo` | ✅ Full data |
 | Yosemite | `yose` | ✅ Full data |
 | Zion | `zion` | ✅ Full data |
 
